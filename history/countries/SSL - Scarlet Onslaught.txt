@@ -3,7 +3,7 @@ government 			= militaristic_order
 government_rank 	= 2
 mercantilism 		= 10
 technology_group 	= tech_human
-religion			= the_light
+religion			= the_holy_light
 primary_culture 	= lordaeronian
 capital = 1
 

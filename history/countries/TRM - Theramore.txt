@@ -2,7 +2,7 @@
 government 			= expeditionary_force
 mercantilism 		= 15            
 technology_group 	= tech_human
-religion			= the_light
+religion			= the_holy_light
 primary_culture 	= tirasian
 capital = 1
 

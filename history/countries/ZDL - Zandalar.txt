@@ -2,7 +2,7 @@
 government 			= militaristic_kingdom
 mercantilism 		= 10
 technology_group 	= tech_troll
-religion			= loa
+religion			= voodoo
 primary_culture 	= zandalari
 capital = 1
 

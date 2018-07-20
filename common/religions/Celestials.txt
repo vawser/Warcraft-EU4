@@ -1,0 +1,121 @@
+#-----------------------------------------------
+# Celestials
+#-----------------------------------------------
+celestial_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    yulon = {
+        color = { 49 177 85 }
+		icon = 24
+		
+		country = {
+			monarch_admin_power = 1
+		}
+		country_as_secondary = {
+			monarch_admin_power = 1
+		}
+        
+        allowed_conversion = {
+            chiji
+            niuzao
+            xuen
+        }
+        on_convert = {
+			change_religion = yulon
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+    }
+    
+    chiji = {
+        color = { 236 93 163 }
+		icon = 24
+		
+		country = {
+			reserves_organisation = 0.25
+		}
+		country_as_secondary = {
+			reserves_organisation = 0.25
+		}
+        
+        allowed_conversion = {
+            yulon
+            niuzao
+            xuen
+        }
+        on_convert = {
+			change_religion = chiji
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+    }
+    
+    niuzao = {
+        color = { 79 79 139 }
+		icon = 24
+		
+		country = {
+			reinforce_cost_modifier = -0.25
+		}
+		country_as_secondary = {
+			reinforce_cost_modifier = -0.25
+		}
+        
+        allowed_conversion = {
+            chiji
+            yulon
+            xuen
+        }
+        on_convert = {
+			change_religion = niuzao
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+    }
+    
+    xuen = {
+        color = { 30 119 164 }
+		icon = 24
+		
+		country = {
+			shock_damage = 0.1
+		}
+		country_as_secondary = {
+			shock_damage = 0.1
+		}
+        
+        allowed_conversion = {
+            chiji
+            niuzao
+            yulon
+        }
+        on_convert = {
+			change_religion = xuen
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+    }
+}
+

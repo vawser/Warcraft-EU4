@@ -1,0 +1,58 @@
+#-----------------------------------------------
+# Shadow
+#-----------------------------------------------
+shadow_group = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    shadow = {
+		color = { 189 49 44 }
+		icon = 8
+		
+		country = {
+            unjustified_demands = -0.25
+		}
+		country_as_secondary = {
+            unjustified_demands = -0.25
+		}
+        
+        uses_church_power = yes
+		aspects = {
+            shadow_word_pain
+            shadow_word_death
+            shadow_mend
+            call_shadowfiend
+            master_of_duality
+            psychic_scream
+		}
+        aspects_name = SHADOW_ASPECTS
+    }
+    
+    forgotten_shadow = {
+		color = { 15 96 113 }
+		icon = 7
+		
+		country = {
+            discipline = 0.05
+		}
+		country_as_secondary = {
+            discipline = 0.05
+		}
+        
+        uses_church_power = yes
+		aspects = {
+            shadow_word_pain
+            shadow_word_death
+            shadow_mend
+            call_shadowfiend
+            master_of_duality
+            psychic_scream
+		}
+        aspects_name = SHADOW_ASPECTS
+    }
+}

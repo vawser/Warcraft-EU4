@@ -1,7 +1,7 @@
 government 			= mercantile_tribe
 mercantilism 		= 10
 technology_group 	= tech_tuskarr
-religion			= tuskarr_pantheon
+religion			= shamanism
 primary_culture 	= tuskarr
 capital = 1
 

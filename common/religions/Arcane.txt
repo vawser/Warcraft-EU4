@@ -1,0 +1,26 @@
+#-----------------------------------------------
+# Arcane
+#-----------------------------------------------
+order_group = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    arcane = {
+		color = { 102 146 227 }
+		icon = 13
+		
+		country = {
+			technology_cost = -0.05
+		}
+		country_as_secondary = {
+			technology_cost = -0.05
+		}
+
+		uses_karma = yes
+	}
+}

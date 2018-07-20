@@ -1,0 +1,28 @@
+#-----------------------------------------------
+# Avarice
+#-----------------------------------------------
+avarice_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    avarice = {
+		color = { 114 89 235 }
+		icon = 30
+        
+		country = {
+			global_tax_modifier = 0.2
+		}
+		country_as_secondary = {
+			global_tax_modifier = 0.2
+		}
+		
+		fervor = yes
+	}
+}
+
+

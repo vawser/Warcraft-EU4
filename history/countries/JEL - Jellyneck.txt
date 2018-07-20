@@ -2,7 +2,7 @@
 government 			= warband
 mercantilism 		= 10 
 technology_group 	= tech_troll
-religion			= loa
+religion			= voodoo
 primary_culture 	= jellyneck
 capital = 1
 

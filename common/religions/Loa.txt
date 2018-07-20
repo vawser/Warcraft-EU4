@@ -1,0 +1,58 @@
+#-----------------------------------------------
+# Loa
+#-----------------------------------------------
+troll_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+
+    voodoo = {
+        color = { 0.25 0.15 0.25 }
+		icon = 6
+		
+        allowed_conversion = {
+            loa
+        }
+
+		country = {
+			land_morale = 0.1
+		}
+		country_as_secondary = {
+			land_morale = 0.1
+		}
+
+		on_convert = {
+			change_religion = voodoo
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+
+        personal_deity = yes
+    }
+    
+    hakkari = {
+        color = { 33 230 215 }
+		icon = 5
+		
+		country = {
+			tolerance_own = 1
+            global_tax_modifier = 0.1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+            global_tax_modifier = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+    }
+}
+

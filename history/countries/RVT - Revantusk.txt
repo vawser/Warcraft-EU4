@@ -30,7 +30,7 @@ capital = 1
 
 901.1.1 = {
     historical_friend = ORG # Orgrimmar
-    religion = loa
+    religion = voodoo
 }
 
 926.1.1 = {  

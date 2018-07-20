@@ -2,7 +2,7 @@
 government 			= dictatorship_gov
 mercantilism 		= 10 
 technology_group 	= tech_human
-religion 			= the_light
+religion 			= the_holy_light
 primary_culture 	= lordaeronian
 capital = 1 
 

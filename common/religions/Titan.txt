@@ -1,0 +1,51 @@
+#-----------------------------------------------
+# Titan
+#-----------------------------------------------
+titan_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    titan_worship = {
+		color = { 253 204 09 }
+		icon = 9
+		
+		country = {
+			yearly_corruption = -0.05
+		}
+		country_as_secondary = {
+			yearly_corruption = -0.05
+		}
+	}
+	
+	corrupt_titan_worship = {
+		color = { 225 215 09 }
+		icon = 9
+		
+		country = {
+			development_cost = -0.1
+		}
+		country_as_secondary = {
+			development_cost = -0.1
+		}
+		province = {
+		
+		}
+	}
+	
+	mystery_of_the_makers = {
+		color = { 0.33 0.33 0.33 }
+		icon = 23
+		
+		country = {
+			prestige = 1
+		}
+		country_as_secondary = {
+			prestige = 1
+		}
+	}
+}

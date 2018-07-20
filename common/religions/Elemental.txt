@@ -1,0 +1,78 @@
+#-----------------------------------------------
+# Elemental
+#-----------------------------------------------
+elemental_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    fire_worship = {
+        color = { 241 124 42 }
+		icon = 25
+		
+		country = {	
+			fire_damage = 0.1
+		}
+		country_as_secondary = {
+			fire_damage = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+    }
+    
+    earth_worship = {
+        color = { 47 27 76 }
+		icon = 26
+		
+		country = {	
+			production_efficiency = 0.1
+		}
+		country_as_secondary = {
+			production_efficiency = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+    }
+    
+    water_worship = {
+        color = { 59 172 229 }
+		icon = 28
+		
+		country = {
+			naval_morale = 0.2
+		}
+		country_as_secondary = {
+			naval_morale = 0.2
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+    }
+    
+    air_worship = {
+        color = { 5 181 190 }
+		icon = 27
+		
+		country = {
+			movement_speed = 0.1
+		}
+		country_as_secondary = {
+			movement_speed = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+    }
+}
+
+
+
+
+
+

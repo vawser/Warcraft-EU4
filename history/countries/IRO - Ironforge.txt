@@ -2,7 +2,7 @@
 government 			= administrative_kingdom
 mercantilism 		= 10
 technology_group 	= tech_dwarf
-religion			= the_light
+religion			= the_holy_light
 primary_culture 	= bronzebeard
 capital = 1
 

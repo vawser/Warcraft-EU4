@@ -2,6 +2,6 @@ government 			= administrative_kingdom
 government_rank 	= 1
 mercantilism 		= 10
 technology_group 	= tech_human
-religion			= the_light
+religion			= the_holy_light
 primary_culture 	= lordaeronian
 capital = 1
