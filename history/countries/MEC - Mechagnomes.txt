@@ -1,0 +1,17 @@
+# Cursed Gnomes
+government 			= militaristic_theocracy
+mercantilism 		= 10
+technology_group 	= tech_mechagnome
+religion			= titan_worship
+primary_culture 	= mechagnome
+capital = 1
+
+946.1.1 = { 
+	monarch = { 
+		name = "Mechazod" 
+		dynasty = "the Oiled" 
+		adm = 4
+		dip = 3
+		mil = 3
+	} 
+} 

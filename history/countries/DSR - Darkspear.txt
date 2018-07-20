@@ -1,0 +1,60 @@
+# Darkspear
+government 			= warband
+mercantilism 		= 10
+technology_group 	= tech_troll
+religion			= loa
+primary_culture 	= darkspear
+capital = 1
+
+
+546.1.1 = {
+    monarch = {
+        name = "Bwon'jin"
+        dynasty = "Darkspear"
+        birth_date = 416.1.1
+        adm = 3
+        dip = 4
+        mil = 3
+    }
+}
+
+776.1.1 = {
+    monarch = {
+        name = "Senj'in"
+        dynasty = "Darkspear"
+        birth_date = 536.1.1
+        adm = 3
+        dip = 5
+        mil = 3
+    }
+}
+
+901.1.1 = {
+    monarch = {
+        name = "Vol'Jin"
+        dynasty = "Darkspear"
+        birth_date = 816.1.1
+        adm = 4
+        dip = 4
+        mil = 4
+    }
+    historical_friend = ORG
+}
+
+901.1.1 = {
+    historical_friend = BDH
+}
+
+906.1.1 = {
+    historical_friend = TDB
+}
+
+991.1.1 = {
+    monarch = {
+        name = "(Regency Council)"
+        adm = 2
+        mil = 2
+        dip = 2
+        regent = yes
+    }
+}

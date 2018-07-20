@@ -1,0 +1,31 @@
+Gaussian Blur 1.0
+Contrast 50.0
+
+Spring:
+    Photo Filter:
+        Warming Filter (LBA)
+        Density: 10%
+        
+Summer:
+    Photo Filter:
+        Warming Filter (LBA)
+        Density: 25%
+        
+Autumn:
+    Photo Filter:
+        Cooling Filter (LBB)
+        Density: 10%
+        
+Winter:
+    Photo Filter:
+        Cooling Filter (LBB)
+        Density: 25%
+        
+Water:
+    Use heightmap.bmp
+    
+    Levels:
+        Adjust black input upwards to increase constrast
+        
+    Select all sea (Tolerance 5), invert selection
+    Fill with (26, 180, 245)

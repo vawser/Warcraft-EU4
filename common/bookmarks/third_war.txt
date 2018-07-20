@@ -1,0 +1,15 @@
+######################################################
+# Documentation
+# ----------------------------------------------------
+# All dates are in the King's Calender format
+######################################################
+
+bookmark =
+{
+	name = "THIRD_WAR_NAME"
+	desc = "THIRD_WAR_DESC"
+	date = 901.1.1
+    
+    country = SCO
+    country = LOR
+}

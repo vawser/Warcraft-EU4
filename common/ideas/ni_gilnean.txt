@@ -1,0 +1,40 @@
+gilnean_ideas = {
+	start = {
+		advisor_cost = -0.1
+        stability_cost_modifier = -0.1
+	}
+
+	bonus = {
+		advisor_pool = 1
+	}
+	
+	trigger = {
+		primary_culture = gilnean
+	}
+	free = yes		
+	
+	gilnean_ideas_1 = {
+		prestige = 1
+	}
+	gilnean_ideas_2 = {
+		heavy_ship_power = 0.25
+		naval_attrition = -0.25
+	}
+	gilnean_ideas_3 = {
+		production_efficiency = 0.1
+	}
+	gilnean_ideas_4 = {
+		defensiveness = 0.25
+	}
+	gilnean_ideas_5 = {
+		global_tax_modifier = 0.1
+	}
+	gilnean_ideas_6 = {
+		development_cost = -0.1
+		build_cost = -0.1
+	}
+	gilnean_ideas_7 = {
+		fort_maintenance_modifier = -0.5
+	}
+}
+

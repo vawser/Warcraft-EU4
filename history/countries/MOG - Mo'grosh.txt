@@ -1,0 +1,28 @@
+# Dreadmaul
+government 			= warband
+mercantilism 		= 10 
+technology_group 	= tech_ogre
+religion			= geomancy
+primary_culture 	= mogrosh
+capital = 1
+
+806.1.1 = { 
+	monarch = { 
+		name = "Choksul" 
+		dynasty = "Mo'grosh" 
+		adm = 3
+		dip = 3
+		mil = 4
+	} 
+} 
+
+971.1.1 = { 
+	monarch = { 
+		name = "Gor'kesh" 
+		dynasty = "Mo'grosh" 
+		adm = 3
+		dip = 3
+		mil = 4
+	} 
+    religion = twilight_cult
+}

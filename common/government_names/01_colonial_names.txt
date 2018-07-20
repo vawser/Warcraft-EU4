@@ -1,0 +1,17 @@
+gov_colonial_government = {
+	rank = {
+		1 = SPLINTER
+	}
+	
+	ruler_male = {
+		1 = OVERSEER
+	}
+	
+	ruler_female = {
+		1 = OVERSEER
+	}
+	
+	trigger = {
+		government = colonial_government
+	}
+}

@@ -1,0 +1,290 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_sk_red_banner"
+		texturefile = "gfx//interface//banner_red_long.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_sk_green_banner"
+		texturefile = "gfx//interface//banner_green_long.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_sk_gold_banner"
+		texturefile = "gfx//interface//banner_gold_long.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_sk_green_banner_small"
+		texturefile = "gfx//interface//banner_green_thin.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_sk_purple_banner_small"
+		texturefile = "gfx//interface//banner_purple_thin.dds"
+		loadType = "INGAME"
+	}
+    
+    #-------------------------------------------------------------------------------------
+    # Government
+    #-------------------------------------------------------------------------------------
+    # Russian
+    textSpriteType = {
+		name = "GFX_russian_ability_ADM"
+		texturefile = "gfx//interface//russian_adm_button.dds"
+        loadType = "INGAME"
+		#transparencecheck = yes	
+	}
+    
+    textSpriteType = {
+		name = "GFX_russian_ability_DIP"
+		texturefile = "gfx//interface//russian_dip_button.dds"
+        loadType = "INGAME"
+		#transparencecheck = yes	
+	}
+    
+    textSpriteType = {
+		name = "GFX_russian_ability_MIL"
+		texturefile = "gfx//interface//russian_mil_button.dds"
+        loadType = "INGAME"
+		#transparencecheck = yes	
+	}
+    
+    # Iqta
+    spriteType = {
+		name = "GFX_iqta_bg"
+		texturefile = "gfx/interface/iqta_bg.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_efficient_tax_farming_button"
+		texturefile = "gfx//interface//efficient_tax_farming_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes	
+	}	
+	spriteType = {
+		name = "GFX_land_acquisition_button"
+		texturefile = "gfx//interface//land_acquisition_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes	
+	}	
+	spriteType = {
+		name = "GFX_lenient_taxation_button"
+		texturefile = "gfx//interface//lenient_taxation_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes	
+	}	
+    
+    # Tribal Allegiance
+    spriteType = {
+		name = "GFX_tribal_federation_bg"
+		texturefile = "gfx/interface/tribal_federation_bg.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_enlist_general_button"
+		texturefile = "gfx//interface//enlist_general_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes	
+	}	
+	spriteType = {
+		name = "GFX_train_horsemanship_button"
+		texturefile = "gfx//interface//train_horsemanship_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes	
+	}	
+	spriteType = {
+		name = "GFX_conscript_from_tribes_button"
+		texturefile = "gfx//interface//conscript_from_tribes_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes	
+	}		
+    
+    # Mamluk
+    spriteType = {
+		name = "GFX_mamluk_mechanic_bg"
+		texturefile = "gfx/interface/mamluk_mechanic_bg.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_promote_culture_in_government_button"
+		texturefile = "gfx//interface//promote_culture_in_government_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes	
+	}	
+	spriteType = {
+		name = "GFX_sell_off_culture_slaves_button"
+		texturefile = "gfx//interface//sell_off_culture_slaves_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes	
+	}	
+	spriteType = {
+		name = "GFX_recruit_from_culture_lands_button"
+		texturefile = "gfx//interface//recruit_from_culture_lands_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes	
+	}	
+    
+    # Theocracy
+    spriteType = {
+		name = "GFX_feudal_theocracy_bg"
+		texturefile = "gfx/interface/feudal_theocracy_bg.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_seize_clerical_holdings_button"
+		texturefile = "gfx//interface//seize_clerical_holdings_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes	
+	}	
+	spriteType = {
+		name = "GFX_invite_minorities_button"
+		texturefile = "gfx//interface//invite_minorities_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes	
+	}	
+	spriteType = {
+		name = "GFX_sanction_holy_war_button"
+		texturefile = "gfx//interface//sanction_holy_war_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes	
+	}	
+    
+    #----------------------------------------------
+    # Religion
+    #----------------------------------------------
+	spriteType = {
+		name = "GFX_icon_religion"
+		texturefile = "gfx/interface/icon_religion.tga"
+		noOfFrames = 34
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_religion_small"
+		texturefile = "gfx/interface/icon_religion_small.tga"
+		noOfFrames = 34
+		loadType = "INGAME"
+	}
+	
+    spriteType = {
+		name = "GFX_country_icon_religion"
+		texturefile = "gfx//interface//country_icon_religion.dds"
+		noOfFrames = 34	
+	}
+    
+	spriteType = {
+		name = "GFX_religion_icon_strip"
+		texturefile = "gfx/interface/icon_religion_small.dds"
+		transparencecheck = yes
+		noOfFrames = 34
+	}
+	
+	spriteType = {
+		name = "GFX_province_view_religion"
+		texturefile = "gfx/interface/province_view_religion.tga"
+		noOfFrames = 34
+		loadType = "INGAME"
+		allwaystransparent = yes
+	}
+
+    # ---------------- Piety
+    spriteType = {
+		name = "GFX_piety_icon_high"
+		texturefile = "gfx/interface/piety_icon_high.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_piety_icon_low"
+		texturefile = "gfx/interface/piety_icon_low.dds"
+	}
+    
+    # ---------------- Personal Deities
+    spriteType = {
+		name = "GFX_hindu_deities_strip"
+		texturefile = "gfx//interface//banner_green_194.dds"
+		noOfFrames = 1
+	}
+
+    # ---------------- Cults
+	spriteType = {
+		name = "GFX_fetishists_strip"
+		texturefile = "gfx//interface//fetishists_strip.dds"
+		noOfFrames = 17
+	}
+
+    # ---------------- Harmony
+    spriteType = {
+		name = "GFX_low_harmony"
+		texturefile = "gfx/interface/low_harmony.dds"
+	}
+
+    spriteType = {
+		name = "GFX_high_harmony"
+		texturefile = "gfx/interface/high_harmony.dds"
+	}	
+	
+    # ---------------- Karma
+    spriteType = {
+		name = "GFX_low_karma"
+		texturefile = "gfx/interface/low_karma.dds"
+	}
+
+	spriteType = {
+		name = "GFX_high_karma"
+		texturefile = "gfx/interface/high_karma.dds"
+	}
+
+    # ---------------- Blessings
+    spriteType = {
+		name = "GFX_holy_site_default"
+		texturefile = "gfx//interface//holy_sites//aksum.dds"
+	}
+    
+    # ---------------- Papacy
+    spriteType = {
+		name = "GFX_legion_action_strip"
+		texturefile = "gfx//interface//ui//legion_action_strip.dds"
+		noOfFrames = 16
+	}
+    
+    #----------------------------------------------
+    # Technology Groups
+    #----------------------------------------------
+	spriteType = {
+		name = "GFX_tech_group_strip"
+		texturefile = "gfx/interface/tech_group_strip.dds"
+		transparencecheck = yes	
+		noOfFrames = 62
+	}	
+    
+    #----------------------------------------------
+    # Resources
+    #----------------------------------------------
+	spriteType = {
+		name = "GFX_resource_icon"
+		texturefile = "gfx//interface//resources.tga"
+		noOfFrames = 23
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_resource_icon_small"
+		texturefile = "gfx//interface//resources_small.dds"
+		noOfFrames = 23
+		loadType = "INGAME"
+	}	
+	
+	spriteType = {
+		name = "GFX_resource_icon_transparent"
+		texturefile = "gfx//interface//resources.tga"
+		noOfFrames = 23
+		loadType = "INGAME"
+		
+		allwaystransparent = yes
+	}
+}

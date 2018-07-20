@@ -1,0 +1,630 @@
+gov_theocracy_elune = {
+	rank = {
+		1 = LOCAL_DRUID_CIRCLE
+		2 = DRUID_CIRCLE
+		3 = GRAND_DRUID_CIRCLE
+	}
+	
+	ruler_male = {
+		1 = ARCHDRUID
+		2 = ARCHDRUID
+		3 = ARCHDRUID
+	}
+	
+	ruler_female = {
+		1 = ARCHDRUID
+		2 = ARCHDRUID
+		3 = ARCHDRUID
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		OR = {
+			government = administrative_theocracy
+			government = mercantile_theocracy
+			government = militaristic_theocracy
+		}
+		religion = druidism
+	}
+}
+
+gov_theocracy_naaru = {
+	rank = {
+		1 = PETTY_THEOCRACY
+		2 = THEOCRACY
+		3 = GRAND_THEOCRACY
+	}
+	
+	ruler_male = {
+		1 = EXODAR
+		2 = PROPHET
+		3 = PROPHET
+	}
+	
+	ruler_female = {
+		1 = EXODAR
+		2 = PROPHETESS
+		3 = PROPHETESS
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		OR = {
+			government = administrative_theocracy
+			government = mercantile_theocracy
+			government = militaristic_theocracy
+		}
+		religion = light_of_the_naaru
+	}
+}
+
+gov_theocracy_magic = {
+	rank = {
+		1 = PETTY_MAGOCRACY
+		2 = MAGOCRACY
+		3 = GRAND_MAGOCRACY
+	}
+	
+	ruler_male = {
+		1 = MAGE
+		2 = ARCHMAGE
+		3 = GRAND_MAGUS
+	}
+	
+	ruler_female = {
+		1 = MAGE
+		2 = ARCHMAGE
+		3 = GRAND_MAGUS
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		OR = {
+			government = administrative_theocracy
+			government = mercantile_theocracy
+			government = militaristic_theocracy
+		}
+		religion = arcane
+		# Add others
+	}
+}
+
+gov_theocracy_shadow = {
+	rank = {
+		1 = PETTY_MAGOCRACY
+		2 = MAGOCRACY
+		3 = GRAND_MAGOCRACY
+	}
+	
+	ruler_male = {
+		1 = MASTER
+		2 = DARKMASTER
+		3 = SHADOWLORD
+	}
+	
+	ruler_female = {
+		1 = MISTRESS
+		2 = DARKMISTRESS
+		3 = SHADOWLADY
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		OR = {
+			government = administrative_theocracy
+			government = mercantile_theocracy
+			government = militaristic_theocracy
+		}
+		OR = {
+			religion = shadow
+			religion = fel
+		}
+		# Add others
+	}
+}
+
+gov_theocracy = {
+	rank = {
+		1 = PETTY_THEOCRACY
+		2 = THEOCRACY
+		3 = GRAND_THEOCRACY
+	}
+	
+	ruler_male = {
+		1 = PRIEST
+		2 = PRIEST
+		3 = HIGH_PRIEST
+	}
+	
+	ruler_female = {
+		1 = PRIESTESS
+		2 = PRIESTESS
+		3 = HIGH_PRIESTESS
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		OR = {
+			government = administrative_theocracy
+			government = mercantile_theocracy
+			government = militaristic_theocracy
+		}
+	}
+}
+
+gov_order_scarlet_crusade = {
+	rank = {
+		1 = SCARLET_CRUSADE
+		2 = SCARLET_CRUSADE
+		3 = SCARLET_CRUSADE
+	}
+	
+	ruler_male = {
+		1 = CRUSADER
+		2 = GRAND_CRUSADER
+		3 = GRAND_CRUSADER
+	}
+	
+	ruler_female = {
+		1 = CRUSADER
+		2 = GRAND_CRUSADER
+		3 = GRAND_CRUSADER
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		OR = {
+			government = administrative_order
+			government = mercantile_order
+			government = militaristic_order
+		}
+		tag = SCC
+	}
+}
+
+gov_order_scarlet_onslaught = {
+	rank = {
+		1 = SCARLET_ONSLAUGHT
+		2 = SCARLET_ONSLAUGHT
+		3 = SCARLET_ONSLAUGHT
+	}
+	
+	ruler_male = {
+		1 = CRUSADER
+		2 = CRUSADER
+		3 = GRAND_CRUSADER
+	}
+	
+	ruler_female = {
+		1 = CRUSADER
+		2 = CRUSADER
+		3 = GRAND_CRUSADER
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		OR = {
+			government = administrative_order
+			government = mercantile_order
+			government = militaristic_order
+		}
+		tag = SSL
+	}
+}
+
+gov_order_argent_crusade = {
+	rank = {
+		1 = ARGETN_CRUSADE
+		2 = ARGETN_CRUSADE
+		3 = ARGETN_CRUSADE
+	}
+	
+	ruler_male = {
+		1 = CRUSADER
+		2 = CRUSADER
+		3 = GRAND_CRUSADER
+	}
+	
+	ruler_female = {
+		1 = CRUSADER
+		2 = CRUSADER
+		3 = GRAND_CRUSADER
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		OR = {
+			government = administrative_order
+			government = mercantile_order
+			government = militaristic_order
+		}
+		tag = AGC
+	}
+}
+
+
+gov_order_argent_dawn = {
+	rank = {
+		1 = ARGENT_DAWN
+		2 = ARGENT_DAWN
+		3 = ARGENT_DAWN
+	}
+	
+	ruler_male = {
+		1 = LORD
+		2 = LORD
+		3 = GRAND_CRUSADER
+	}
+	
+	ruler_female = {
+		1 = LADY
+		2 = LADY
+		3 = GRAND_CRUSADER
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		OR = {
+			government = administrative_order
+			government = mercantile_order
+			government = militaristic_order
+		}
+		tag = AGD
+	}
+}
+
+gov_cult_shendralar = {
+	rank = {
+		1 = PETTY_CULT
+		2 = CULT
+		3 = GRAND_CULT
+	}
+	
+	ruler_male = {
+		1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+	}
+	
+	ruler_female = {
+		1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		government = cult
+        tag = SDL
+	}
+}
+
+gov_order = {
+	rank = {
+		1 = PETTY_ORDER
+		2 = ORDER
+		3 = GRAND_ORDER
+	}
+	
+	ruler_male = {
+		1 = KNIGHT
+		2 = HIGHLORD
+		3 = GRAND_MASTER
+	}
+	
+	ruler_female = {
+		1 = KNIGHT
+		2 = HIGHLADY
+		3 = GRAND_MISTRESS
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		OR = {
+			government = administrative_order
+			government = mercantile_order
+			government = militaristic_order
+		}
+	}
+}
+
+gov_cult = {
+	rank = {
+		1 = PETTY_CULT
+		2 = CULT
+		3 = GRAND_CULT
+	}
+	
+	ruler_male = {
+		1 = CULTIST
+		2 = HIGH_CULTIST
+		3 = GRAND_CULTIST
+	}
+	
+	ruler_female = {
+		1 = CULTIST
+		2 = HIGH_CULTIST
+		3 = GRAND_CULTIST
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		government = cult
+	}
+}

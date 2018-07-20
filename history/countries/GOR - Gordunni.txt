@@ -1,0 +1,18 @@
+# Gordunni
+government 			= warband
+mercantilism 		= 10
+technology_group 	= tech_ogre
+religion			= geomancy
+primary_culture 	= gordunni
+capital = 1
+
+816.1.1 = { 
+    monarch = {
+        name = "Maulmor" 
+        dynasty = "Gorduk"
+        adm = 3
+        dip = 3	
+        mil = 4 
+    }
+}
+

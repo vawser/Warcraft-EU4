@@ -1,0 +1,258 @@
+gov_republic_ethereal = {
+	rank = {
+		1 = TRADE_COMPANY
+		2 = TRADE_CARTEL
+		3 = TRADE_CONSORTIUM
+	}
+	
+	ruler_male = {
+		1 = MOGUL
+		2 = TRADE_PRINCE
+		3 = TRADE_KING
+	}
+	
+	ruler_female = {
+		1 = MOGUL
+		2 = TRADE_PRINCESS
+		3 = TRADE_QUEEN
+	}
+
+    consort_male = {
+        1 = MOGUL_CONSORT
+        2 = PRINCE_CONSORT
+        3 = KING_CONSORT
+    }
+
+    consort_female = {
+        1 = MOGUL_CONSORT
+        2 = CONSORT
+        3 = QUEEN_CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		OR = {
+			government = administrative_republic
+			government = mercantile_republic
+			government = militaristic_republic
+		}
+		culture_group = ethereal_group
+	}
+}
+
+gov_republic_goblin = {
+	rank = {
+		1 = TRADE_COMPANY
+		2 = TRADE_CARTEL
+		3 = TRADE_CONSORTIUM
+	}
+	
+	ruler_male = {
+		1 = MOGUL
+		2 = TRADE_PRINCE
+		3 = TRADE_KING
+	}
+	
+	ruler_female = {
+		1 = MOGUL
+		2 = TRADE_PRINCESS
+		3 = TRADE_QUEEN
+	}
+
+    consort_male = {
+        1 = MOGUL_CONSORT
+        2 = PRINCE_CONSORT
+        3 = KING_CONSORT
+    }
+
+    consort_female = {
+        1 = MOGUL_CONSORT
+        2 = CONSORT
+        3 = QUEEN_CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		OR = {
+			government = administrative_republic
+			government = mercantile_republic
+			government = militaristic_republic
+		}
+		culture_group = goblin_group
+	}
+}
+
+gov_republic_tinker = {
+	rank = {
+		1 = TINKER_REPUBLIC
+		2 = TINKER_REPUBLIC
+		3 = TINKER_REPUBLIC
+	}
+	
+	ruler_male = {
+		1 = TINKER
+		2 = HIGH_TINKER
+		3 = GRAND_TINKER
+	}
+	
+	ruler_female = {
+		1 = TINKER
+		2 = HIGH_TINKER
+		3 = GRAND_TINKER
+	}
+
+    consort_male = {
+        1 = TINKER_CONSORT
+        2 = HIGH_CONSORT
+        3 = GRAND_CONSORT
+    }
+
+    consort_female = {
+        1 = TINKER_CONSORT
+        2 = HIGH_CONSORT
+        3 = GRAND_CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		OR = {
+			government = administrative_republic
+			government = mercantile_republic
+			government = militaristic_republic
+		}
+		culture_group = gnome_group
+	}
+}
+
+gov_republic = {
+	rank = {
+		1 = COUNCIL
+		2 = REPUBLIC
+		3 = GRAND_REPUBLIC
+	}
+	
+	ruler_male = {
+		1 = MAGISTRATE
+		2 = MAGISTRATE
+		3 = GRAND_MAGISTRATE
+	}
+	
+	ruler_female = {
+		1 = MAGISTRATE
+		2 = MAGISTRATE
+		3 = GRAND_MAGISTRATE
+	}
+
+    consort_male = {
+		1 = MAGISTRATE_CONSORT
+		2 = MAGISTRATE_CONSORT
+		3 = MAGISTRATE_CONSORT
+    }
+
+    consort_female = {
+		1 = MAGISTRATE_CONSORT
+		2 = MAGISTRATE_CONSORT
+		3 = MAGISTRATE_CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		OR = {
+			government = administrative_republic
+			government = mercantile_republic
+			government = militaristic_republic
+		}
+	}
+}
+
+gov_dictatorship = {
+	rank = {
+		1 = PETTY_DICTATORSHIP
+		2 = DICTATORSHIP
+		3 = GRAND_DICTATORSHIP
+	}
+	
+	ruler_male = {
+		1 = COMMANDER
+		2 = COMMANDER
+		3 = COMMANDER
+	}
+	
+	ruler_female = {
+		1 = COMMANDER
+		2 = COMMANDER
+		3 = COMMANDER
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		government = dictatorship_gov
+	}
+}

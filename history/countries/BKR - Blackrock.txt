@@ -1,0 +1,61 @@
+# Blackrock
+government 			= warband
+government_rank 	= 3
+mercantilism 		= 10
+technology_group 	= tech_orc
+religion			= shamanism
+primary_culture 	= blackrock
+capital = 1
+
+
+546.1.1 = { 
+	monarch = { 
+		name = "Chief" 
+		dynasty = "Blackhand" 
+		adm = 3
+		dip = 3
+		mil = 5
+ 	}
+}
+
+776.1.1 = {
+    heir = { 
+		name = "Rend" 
+		dynasty = "Blackhand" 
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+	religion = fel
+	historical_friend = BEE # Bleeding Hollow
+	historical_friend = TWI # Twilight's Hammer
+}
+
+801.1.1 = { 
+	monarch = { 
+		name = "Orgrim" 
+		dynasty = "Doomhammer" 
+		adm = 4
+		dip = 5
+		mil = 5
+                
+	} 
+}
+
+816.1.1 = { 
+	monarch = { 
+		name = "Rend" 
+		dynasty = "Blackhand" 
+		adm = 3
+		dip = 3
+		mil = 4
+                
+	} 
+	heir = { 
+		name = "Maim" 
+		dynasty = "Blackhand" 
+		adm = 3
+		dip = 3
+		mil = 3
+	} 
+}

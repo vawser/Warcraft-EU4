@@ -1,0 +1,27 @@
+# Razormane
+government 			= war_tribe
+mercantilism 		= 10
+technology_group 	= tech_quillboar
+religion			= geomancy
+primary_culture 	= quillboar
+capital = 1
+
+546.1.1 = { 
+	monarch = { 
+		name = "Jal" 
+		dynasty = "Razormane" 
+		adm = 2
+		dip = 1
+		mil = 4
+ 	} 
+} 
+
+776.1.1 = { 
+	monarch = { 
+		name = "Lok" 
+		dynasty = "Razormane" 
+		adm = 3
+		dip = 1
+		mil = 4
+ 	} 
+} 

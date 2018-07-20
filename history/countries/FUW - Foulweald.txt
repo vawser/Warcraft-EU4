@@ -1,0 +1,32 @@
+# Foulweald
+government 			= religious_tribe
+mercantilism 		= 10
+technology_group 	= tech_furbolg
+religion			= druidism
+primary_culture 	= furbolg
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Orax" 
+        dynasty = "Foulweald" 
+		adm = 3
+		dip = 3
+		mil = 2
+ 	} 
+ } 
+
+816.1.1 = { 
+    monarch = { 
+        name = "Murgut" 
+        dynasty = "Foulweald" 
+		adm = 3
+		dip = 3
+		mil = 3 
+ 	}
+}
+
+906.1.1 = {
+    religion = fel
+    government = war_tribe
+}

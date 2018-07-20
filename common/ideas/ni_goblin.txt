@@ -1,0 +1,60 @@
+goblin_ideas = {
+	start = {
+		merchants = 1
+        light_ship_cost = -0.25
+	}
+
+	bonus = {
+		naval_forcelimit_modifier = 0.25
+	}
+	
+	trigger = {
+		culture_group = goblin_group
+	}
+	free = yes		
+	
+    # Outsourcing
+    # Construction is always needed in the world of trade, but to use a goblin's hand is to invite failure. Outsource such work to those with smaller minds, but bigger hands and we can reap the rewards.
+	goblin_ideas_1 = {
+        development_cost = -0.05
+        yearly_corruption = -0.025
+	}
+    
+    # Kaja'mite
+    # The mineral that granted goblins there intellect and cunning has all but been eradicated. The hunt for more is never ending, and he who strikes rich will profit greatly!
+	goblin_ideas_2 = {
+        idea_cost = -0.05
+	}
+    
+    # Whizz Bang!
+    # The curiousity of a goblin makes them natural born engineers and tinkerers. However, such curiousity rarely becomes discipline, and as such the inventions of goblins are famed for the lack of reliability.
+	goblin_ideas_3 = {
+        all_power_cost = -0.05
+	}
+    
+    # Shrewd Traders
+    # Always on the lookout for a deal, goblin traders know how to work the mark and to extract the maximum amount of profit from any situation.
+	goblin_ideas_4 = {
+        global_trade_power = 0.1
+	}
+    
+    # Peace for a Price
+    # Goblins are often competative, and will go to great lengths to out do one-anothers succcess. However, once war comes into the equation, they are more the reserved commander than the willing soldier.
+	goblin_ideas_5 = {
+        embargo_efficiency = 0.33
+	}
+    
+    # Clout of the Cartel
+    # Knowing that size means strength, goblins will create cartels, primarily based around trade, to help strengthen there position across Azeroth.
+	goblin_ideas_6 = {
+        trade_efficiency = 0.05
+        caravan_power = 0.1
+	}
+    
+    # Promises and Bargains
+    # What can be promised and bargained for is unending, and it is only when the unwitting mark comes to cash in his promise will he realize that the goblin he trusted is nowhere to be seen.
+	goblin_ideas_7 = {
+        province_warscore_cost = -0.15
+	}
+}
+

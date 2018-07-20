@@ -1,0 +1,27 @@
+dark_portal_speed_boost = {
+    local_friendly_movement_speed = 0.75
+    local_hostile_movement_speed = 0.75
+}
+
+dark_portal_closed = {
+    local_friendly_movement_speed = -1000
+    local_hostile_movement_speed = -1000
+}
+
+city_of_innovation = {
+    technology_cost = -0.05
+}
+
+incensed_people = {
+    local_unrest = 10
+}
+
+denied_autonomy = {
+    local_unrest = 2
+}
+
+sexually_frustrated = {
+    local_unrest = 2
+}
+
+roaming_orcs = { }

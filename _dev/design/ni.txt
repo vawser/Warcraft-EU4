@@ -1,0 +1,125 @@
+    Red Dragonflight
+    Starting: -10% administrative tech cost
+    The Life-Binder: Alexstrasza and the Red Dragonflight are tasked with showing compassion for all living things, healing that which cannot, and loving even the unlovable. +50% increase relations +1 diplomatic reputation
+    Defenders of Life: Red dragons consider themselves defenders of life. However, this won't stop them from taking one's life should it endanger another. +10% land army morale
+    Soothing Presence: Red dragons are capable of giving off a calming aura, helping to establish talks between hostile parties. -10% aggressive expansion penalty +15% relations decay of me
+    Ruby Emissary: Red dragons prefer to transform themselves into blood elves when conducting diplomacy. High elf and human transformations are quite common as well. +1 diplomat
+    Respected Consorts: The consorts of Alexstrasza hold high ranking and respected positions. They may serve as close advisors, trusted diplomats, or powerful generals. +15% heir chance +.25 legitimacy per year
+    The Fires that Give Life: Part of Eonar's blessing gave red dragons the ability to use life-giving fire. +15% manpower recovery rate
+    Can Also Destroy: The other half allows red dragons to use this fire to destroy if they must. +1 leader fire
+    Bonus: -50% diplomat travel time
+
+    Blue Dragonflight
+    Starting: -10% idea cost
+    The Spell-Weaver: The Blue Dragonflight was blessed by the titan Norgannon and given the task of protecting magic use and hidden arcanum. Malygos was made the Aspect of Magic and for millennia he proudly upheld his duty. +2 tolerance of the true faith
+    Arcane Power: Arcane is the most destructive form of magic. Blue dragons are masters of frost and arcane. While blue dragons are fewer in numbers, their use of magic is nearly unmatched on the battlefield. +5% discipline
+    Focusing Iris: The focusing iris is used to tap into Azeroth's ley lines to siphon vast amounts of arcane energy to grant additional power. +1 army leader fire
+    Beryl Reclaimers: Human aligned sorcerers that assist the Blue Dragonflight in gathering powerful magical trinkets and items. +10% production efficiency.
+    Defeat of Sathrovarr: The dreadlord Sathrovarr attempted to corrupt the mighty blue dragon Kalecgos. His plans were thwarted with the legions defeat at the Battle of the Sunwell where he was killed in battle. +.5 prestige
+    The Fate of Malygos: When the crazed Malygos declared war on the mortal magic users, he nearly brought about the destruction of the blue dragonflight. In the end the war would take his life and the dragonflight was defeated by a coalition of mortals and dragons. -20% aggressive expansion penalty
+    Dragonwrath: Made from ancient elemental materials and a branch of the World Tree itself, this powerful staff serves as a reminder of the ultimate sacrifice made by Tarecgosa. +1 free leader -10% war exhaustion cost
+    Bonus: 2% Missionary Strength
+
+    Green Dragonflight
+    Starting: -10% diplomatic tech cost
+    The Dreamer: Ysera and the Green Dragonflight were given the task of watching over nature. Ysera however fell into a deep sleep and now rules from the Emerald Dream. -20% stability cost
+    Corruption of the Dream: The Emerald Dream was corrupted by Xavius under the command of the old god N'Zoth. This corruption leaked into the Green Dragonflight on Azeroth. Leading to many Green dragons to become destructive and recklessly attack anything that crossed their path. +1 revolt risk 5% army morale recovery
+    War Against the Nightmare: The Green Dragonflight and their Horde and Alliance allies battled against the Emerald Nightmare and it's army. When the Nightmare was defeated, the corruption was stemmed and the Green Dragonflight was under the control of Ysera once again. -3 revolt risk +10% land forcelimits
+    Acidic Breadth: Green dragons are able to spit highly acidic breadth that dissolves armor and flesh alike. +7.5% cavalry combat ability
+    The Awakened: Upon regaining consciousness from the Dream, Ysera took the new title of The Awakened. +1 yearly legitimacy
+    Nature Allies: The Green Dragonflight commands wildlife and plant life alike. These creatures rise up and attack invading enemy troops. +1.5 attrition
+    Green Dragonshrine: These dragonshrines hold reserves of dragons, plantlife, and other nature allies to reinforce fortifications and cities. +30% global garrison growth
+    Bonus: +15% fort defense +15% enemy coring cost
+
+    Black Dragonflight
+    Starting: -10% military tech cost
+    The Earthwarder: Neltharion and the Black Dragonflight were given the task of defending the earth and all deep places. -25% attrition
+    Manipulation: Dragonflight spies and even once Deathwing and Onyxia themselves would gain prominent positions in nations to fuel their own agendas. -25% claim time +10% rebel support efficiency
+    Driven to Madness: Long ago N'Zoth's whispers drove Neltharion to insanity. This corruption was spread to the rest of the the Dragonflight who have since become enemies to all life on Azeroth. +10% land morale
+    Deathwing: When the corruption began to take hold, Neltharion the Earthwarder abandoned his old name and title. From then on he was known as Deathwing The Destroyer. +.5 yearly military tradition
+    Onyxia and Nefarian: Deathwings children that would serve as powerful commanders while he recovered his strength in the Earthen elemental plane. +1 bonus leaders
+    Enemies of Life: The Black Dragonflight alone cannot conquer the world. Ragnaros, Al'Akir, and the Twilight's Hammer Clan would faithfully join Deathwing on his conquests. +2 diplomatic relations.
+    The World Breaker: Each territory gained furthers Deathwing's goal to destroy all life. -33% coring cost
+    Bonus: +20% siege ability
+
+    Bronze Dragonflight
+    Starting: +1 diplomat
+    The Timeless One: The Bronze Dragonflight guards over Azeroths timestream. While they seldom intervene in the current day and age, they actively thwart the Infinite Dragonflight from altering history. 35% relations decay
+    Wise Council: The Bronze Dragonflight has been blessed with great wisdom. While the aspect had the final say, they are sure to listen to their council. -20% advisor cost
+    Watchers: Individuals empowered by the Dragonflight and granted immortality for their impressive deeds. Watchers become protectors of important Bronze figures, items, and locations. +2 bonus leaders
+    Caverns of Time: These caverns are hidden in the treacherous terrain of Tanaris and guarded by bronze dragons. Within the heart of the caverns are powerful artifacts and portals to events that have shaped modern Azeroth. -1% prestige decay
+    Protect Against the Infinite Dragonflight: The Infinite Dragonflight launches aggressive attacks on timeways in an attempt to disastrously alter the present and future. The Bronze dragons must have a standing army at all times to counter this. +20% land forcelimits
+    Time Lost Treasures: Important artifacts and gold that are frozen in time are brought forth as gifts to the Dragonflight. 10% tax efficiency
+    Sands of Time: The ability to bend time is a powerful tool. We have gathered military knowledge by observing wars over thousands of years. -1% naval tradition decay -1% military tradition decay
+    Bonus: -10% land maintenance
+
+    Netherwing Dragonflight
+    Starting: 20% religious unity
+    Unnatural: We are not a natural Dragonflight. When Draenor was ripped apart our bodies fused with energies from the twisting nether. While we are descendants of the Black Dragonflight, we share no common interests. +50% improve relations modifier.
+    Nether Mutated: Our mutations help us survive in the harsh landscapes of Outlands. -25% attrition
+    Resilient Dragonflight: Tortured, subjugated, experimented on, we still push on. +50% prestige from land battles. -1 revolt risk
+    Adventuring Allies: Allies on Outland are scarce. With the constant threat of attacks from the Illidari we must search far and wide for any willing to help. +2 diplomatic reputation
+    On Wings of Nether: Our translucent bodies and quick speed help outmaneuver the enemy. +1 land leader maneuver
+    Fight for Survival: Many of our eggs and whelps have been hunted down and taken to become mounts and experiments. We must fight harder to ensure the survival of our Dragonflight. +5% discipline
+    Our Own Legacy: We must forget our tainted fathers legacy and create our own. +1 yearly prestige
+    Bonus: -33% aggressive expansion penalty
+     
+Pirates
+Starting: +20% local trade power
+Take to the Sea's: Pirates are famed for tenacity on the seas. -10% naval maintenance cost
+Experienced Cannoneers: Most pirates aboard these ships are disciplined ex-naval veterans that found their old profession monetarily lacking. 5% ability for each ship
+Rum and Snuff: A staple of any noteworthy pirate. -1 revolt risk
+Captured Heavy Cannons: Raids and victories on the seas have netted the navy heavy cannons. 10% heavy ship ability
+The Dread Pirate: The Dread Pirate is known as the scourge of the seas. This general is an expert of naval warfare and has many victories under their belt. +2 naval leader maneuver
+The Trade Wars: Merchant vessels that pay their toll are placed under protection of the pirates. Those that refuse are raided, taken as ransom, or killed. 15% trade steering
+No Ports are Safe: Pirate fleets use fast light ships to hunt down blockade runners and are known to conduct heavy shelling of ports to maximize destruction. 25% blockade efficiency
+Bonus: +.5 naval leadership 10% global trade power
+
+
+Defias Brotherhood:
+Starting: 20% fort defense
+Legacy of the Masons: The Brotherhood's original founding members were human masons and engineers that were cheated out of an honest works wage and branded as outlaws. -25% build cost
+Protection of the Brotherhood: Villages pay a fee in order to remain under the protection of the Brotherhood. Areas under this protection use bribes, murder, and intimidation to maintain stability.
+2.5% tax bonus -3 years of nationalism
+Siege Leaders: Generals with knowledge of structural stability become effective siege leaders. +1 leader siege
+Knife Squads: Knife squads are used by the Brotherhood to enforce their laws. Murder and thievery against a fellow member is sure to attract the attention of a squad. -1 revolt risk
+Prey on the Merchants: Foreign traders are blackmailed and bullied into supporting Brotherhood operations. They have little choice in the matter. 25% local trade power
+Bandit Supply Raids: Experts of sabotage, these bandits sneak behind enemy lines and target supplies lines with high explosive ordinance. 1% enemy attrition
+The Deadmines: The Deadmines are at the core of the Defias operations. Deep within the cavernous labyrinth lies engineering factories, workshops, and lastly a massive cave holding one of the last Dreadnaught ships on Azeroth. 15% production bonus
+Bonus: 15% manpower bonus
+
+
+Draenei
+Starting: tolerance of the true faith +2
+The Exiled Ones: Draenei means "the exiled ones" in their native tongue. The Draenei have fled from the Burning Legion in search for a new homeland and new allies. 35% relations decay
+Resilient Refugees: Hunted by the Legion and slaughtered by the orcs, the Draenei still stand. These resilient people have forged a strong military and will refuse to bow to any that would challenge their freedom. 15% morale
+The Temple of Karabor: The fall of the temple to the orcs was disastrous. Every Draenei knows of the sacrifices made by the brave men and women in their attempt to save the it. -1% prestige decay
+Light's Strength: Paladins make up a vast majority of Draenei forces. These soldiers are heavily armed and call upon the holy light to grant them additional abilities in combat. 5% land morale recovery
+The Naaru: Those that are born of Light. The Naaru are a race of sentient beings that are bent on stopping Legion and have fled alongside the Draenei. It is said that the Naaru are truly the purest form of good. 2% conversion rate
+Crystalforged Armaments: These bright purple and pink crystal shards that only Draenei smiths are capable of using to craft are dubbed as crystalforged. Sharper than any known material and stronger that even the hardest metal, they are used rarely used to make whole pieces of equipment. Rather they are used as enhancements on existing gear to increase their effectiveness. 5% discipline
+Farseers: The stigma of Broken shamans are slowly easing. Draenei farseers are in essence, shamans. They have embraced shamanist traditions and are able to communicated with nature and their ancestors. tolerance of heretics +1 -5% idea cost
+Bonus: +1 leader fire 
+
+     Quel'Thalas
+Starting: 20% fort defense
+The Sunwell: The control over the Sunwell and it's flow of magic is a powerful tool to control the population. The loss of this site would have disastrous consequences. +1 tolerance of the true faith
+Defeat of the Amani: Long ago we fought the Amani trolls and drove them from our kingdom. Living so close to these savages has taught us that we must always be prepared for war. -1% land tradition decay
+Arcane Mages: High Elven military is extremely reliant on arcane mages. Their lack in numbers makes up for their ferocity in battle. 5% discipline
+Eternal Spring: The lands of Quel'Thalas are blessed by a magical eternal spring which allows for year round farming. 10% production
+Battlefield Portals: Our skilled mages allow for us to be able to open portals from our cities and towns in order to quickly reinforce the armies. +20% reinforcement rate
+Ranger-Generals: The grand title of the Farstriders, Sylvanas Windrunner was the most famous Ranger-General before her death by the hands of the Scourge. Mighty commanders that are brilliant strategists as well as soldiers. Masters of bow and sword, these generals are nearly unmatched on the field. +1 shock
+Old Friendships: To ensure the survival and prosperity of the kingdom we look to old alliances. The threat of the Scourge, trolls, and Horde have restarted diplomatic talks. +1 diplomat -50% envoy travel time
+Bonus: +2 diplomatic relations
+
+
+Quel'Dorei
+Starting: +50% enemy coring cost
+Recover the Kingdom: The Scourge invasion shattered the Kingdom of Quel'Thalas. Silvermoon was laid to siege while the rest of the kingdom collapsed under the undead legions. +15% manpower recovery
+Magical Addiction: When the Sunwell fell our need for magic did not fade. As such we required alternative sources of magic to hold us over. +2 tolerance of heretics
+Infantry Focus: Hawkstriders and dragonhawks are fast and agile, but they are by no means shock cavalry. Our real strength lies in our powerful infantry regiments. +15% infantry combat ability
+Equip the Navy: Blood elf navies use fast and durable ships that are equipped with light cannons, but expert marine archers. They use magical arrows that set enemy ships ablaze and are extremely hard to extinguish. 15% galley ability 5% ship durability
+Blood Knights: When our knights no longer had the Sunwell for our magical needs, we searched for an alternative source. The capture of a Naaru allowed us to drain it's energy and use it for ourselves. The foundation of the Blood Knights has bolstered our military ranks.+15% morale
+Betrayal of the Sunstrider: When the dishonorable Kael'Thas and his followers betrayed us and left for Outlands only those loyal to Quel'Thalas stayed. -1 revolt risk
+The Magisters: An elite sect of magical users that help rule over Silvermoon. They are a major political faction with strong ties dating back to the foundation of the city. -10% military tech cost
+Bonus: -10% land maintenance 
+     

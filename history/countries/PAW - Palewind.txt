@@ -1,0 +1,27 @@
+# Palewind
+government 			= war_tribe
+mercantilism 		= 10
+technology_group 	= tech_yaungol
+religion			= fire_worship
+primary_culture 	= yaungol
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Yorgol" 
+        dynasty = "Palewind" 
+		adm = 3
+		dip = 3
+		mil = 3
+    }
+} 
+
+776.1.1 = { 
+    monarch = { 
+        name = "Nun Zo" 
+        dynasty = "Palewind" 
+		adm = 3
+		dip = 3
+		mil = 3
+    }
+} 

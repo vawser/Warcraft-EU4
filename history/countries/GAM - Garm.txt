@@ -1,0 +1,28 @@
+# Garm
+government 			= war_tribe
+mercantilism 		= 10
+technology_group 	= tech_magnataur
+religion			= geomancy
+primary_culture 	= magnataur
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Caelan"
+        dynasty = "Garm" 
+		adm = 2
+		dip = 2
+		mil = 4
+    }
+}
+
+816.1.1 = { 
+    monarch = { 
+        name = "Nekus" 
+        dynasty = "Frostgut" 
+		adm = 2
+		dip = 2
+		mil = 4
+    }
+}
+

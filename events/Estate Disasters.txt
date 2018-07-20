@@ -1,0 +1,319 @@
+namespace = estate_disaster_events
+
+country_event = {
+	id = estate_disaster_events.1
+	title = estate_disaster_events.1.title
+	desc = estate_disaster_events.1.desc
+	picture = BIG_BOOK_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = estate_clergy_disaster
+	}
+	
+	option = {
+		name = estate_disaster_events.1.option.a
+        
+		add_stability = -1
+        
+        hidden_effect = { save_government_type = yes }
+        
+        if = {
+            limit = { NOT = { has_country_flag = invalid_government } }
+            
+            hidden_effect = { set_country_flag = estate_changed_government }
+            
+            change_government = administrative_theocracy
+        }
+        
+		custom_tooltip = TT_ESTATE_CLERGY_DISASTER_EVENT
+	}
+}
+
+country_event = {
+	id = estate_disaster_events.2
+	title = estate_disaster_events.2.title
+	desc = estate_disaster_events.2.desc
+	picture = BIG_BOOK_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = estate_disaster_events.2.option.a
+        
+        if = {
+            limit = { has_country_flag = estate_change_government }
+           
+            hidden_effect = { clr_country_flag = estate_changed_government }
+            
+            restore_government_type = yes
+        }
+	}
+    
+    option = {
+		name = estate_disaster_events.2.option.b
+        
+        add_stability = -1
+	}
+}
+
+country_event = {
+	id = estate_disaster_events.3
+	title = estate_disaster_events.3.title
+	desc = estate_disaster_events.3.desc
+	picture = ECONOMY_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = estate_merchants_disaster
+	}
+	
+	option = {
+		name = estate_disaster_events.3.option.a
+        
+		add_stability = -1
+        
+        hidden_effect = { save_government_type = yes }
+        
+        if = {
+            limit = { NOT = { has_country_flag = invalid_government } }
+            
+            hidden_effect = { set_country_flag = estate_changed_government }
+            
+            change_government = mercantile_republic
+        }
+        
+		custom_tooltip = TT_ESTATE_MERCHANTS_DISASTER_EVENT
+	}
+}
+
+country_event = {
+	id = estate_disaster_events.4
+	title = estate_disaster_events.4.title
+	desc = estate_disaster_events.4.desc
+	picture = ECONOMY_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = estate_disaster_events.4.option.a
+        
+        if = {
+            limit = { has_country_flag = estate_change_government }
+           
+            hidden_effect = { clr_country_flag = estate_changed_government }
+            
+            restore_government_type = yes
+        }
+	}
+    
+    option = {
+		name = estate_disaster_events.4.option.b
+        
+        add_stability = -1
+	}
+}
+
+country_event = {
+	id = estate_disaster_events.5
+	title = estate_disaster_events.5.title
+	desc = estate_disaster_events.5.desc
+	picture = DIET_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = estate_nobility_disaster
+	}
+	
+	option = {
+		name = estate_disaster_events.5.option.a
+        
+		add_stability = -1
+        
+        hidden_effect = { save_government_type = yes }
+        
+        if = {
+            limit = { NOT = { has_country_flag = invalid_government } }
+            
+            hidden_effect = { set_country_flag = estate_changed_government }
+            
+            change_government = militaristic_kingdom
+        }
+        
+		custom_tooltip = TT_ESTATE_NOBILITY_DISASTER_EVENT
+	}
+}
+
+country_event = {
+	id = estate_disaster_events.6
+	title = estate_disaster_events.6.title
+	desc = estate_disaster_events.6.desc
+	picture = DIET_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = estate_disaster_events.6.option.a
+        
+        if = {
+            limit = { has_country_flag = estate_change_government }
+           
+            hidden_effect = { clr_country_flag = estate_changed_government }
+            
+            restore_government_type = yes
+        }
+	}
+    
+    option = {
+		name = estate_disaster_events.6.option.b
+        
+        add_stability = -1
+	}
+}
+
+country_event = {
+	id = estate_disaster_events.7
+	title = estate_disaster_events.7.title
+	desc = estate_disaster_events.7.desc
+	picture = REFORM_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = estate_peasantry_disaster
+	}
+	
+	option = {
+		name = estate_disaster_events.7.option.a
+        
+		add_stability = -1
+        
+        hidden_effect = { save_government_type = yes }
+        
+        if = {
+            limit = { NOT = { has_country_flag = invalid_government } }
+            
+            hidden_effect = { set_country_flag = estate_changed_government }
+            
+            change_government = cult
+        }
+        
+		custom_tooltip = TT_ESTATE_PEASANTRY_DISASTER_EVENT
+	}
+}
+
+country_event = {
+	id = estate_disaster_events.8
+	title = estate_disaster_events.8.title
+	desc = estate_disaster_events.8.desc
+	picture = REFORM_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = estate_disaster_events.8.option.a
+        
+        if = {
+            limit = { has_country_flag = estate_change_government }
+           
+            hidden_effect = { clr_country_flag = estate_changed_government }
+            
+            restore_government_type = yes
+        }
+	}
+    
+    option = {
+		name = estate_disaster_events.8.option.b
+        
+        add_stability = -1
+	}
+}
+
+country_event = {
+	id = estate_disaster_events.9
+	title = estate_disaster_events.9.title
+	desc = estate_disaster_events.9.desc
+	picture = MANNOROTH_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = estate_legion_disaster
+	}
+	
+	option = {
+		name = estate_disaster_events.9.option.a
+        
+		add_stability = -1
+        
+        change_technology_group = tech_demonic
+        change_unit_type = tech_demonic
+        
+		custom_tooltip = TT_ESTATE_LEGION_DISASTER_EVENT
+	}
+}
+
+country_event = {
+	id = estate_disaster_events.10
+	title = estate_disaster_events.10.title
+	desc = estate_disaster_events.10.desc
+	picture = MANNOROTH_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = the_legion_estate_disaster_eventss.10.option.a
+	}
+}
+
+country_event = {
+	id = estate_disaster_events.11
+	title = estate_disaster_events.11.title
+	desc = estate_disaster_events.11.desc
+	picture = OGRE_MAGE_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = estate_old_gods_disaster
+	}
+	
+	option = {
+		name = estate_disaster_events.11.option.a
+        
+		add_stability = -1
+        
+        change_technology_group = tech_old_god
+        change_unit_type = tech_old_god
+        
+		custom_tooltip = TT_ESTATE_OLD_GODS_DISASTER_EVENT
+	}
+}
+
+country_event = {
+	id = estate_disaster_events.12
+	title = estate_disaster_events.12.title
+	desc = estate_disaster_events.12.desc
+	picture = OGRE_MAGE_eventPicture
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = estate_disaster_events.12.option.a
+	}
+}

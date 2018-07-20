@@ -1,0 +1,9 @@
+type = light_ship
+sprite_level = 1
+
+hull_size = 8
+base_cannons = 10
+sail_speed = 10
+
+trade_power = 2
+

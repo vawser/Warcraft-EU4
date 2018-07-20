@@ -1,0 +1,2797 @@
+
+graphical_culture = ogregfx
+
+color = { 191 99 19 }
+
+monarch_names = {
+  "Maulgar" = 20
+  "Gordok" = 20
+  "Cho'gall" = 20
+  "Kor'gall" = 20
+  "Mug'thol" = 20
+  "Turok" = 20
+  "Mok'Morokk" = 20
+  "Tharg" = 20
+  "Om'rogg" = 20
+  "Ty'gor" = 20
+  "Ergkur" = 20
+  "Gorgha" = 20
+  "Zagzag" = 20
+  "Garkor" = 20
+  "Rokgla" = 20
+  "Maulmor" = 20
+  "Klarog" = 20
+  "Ghegar" = 20
+  "Var'rog" = 20
+  "Omrog" = 20
+  "Rek'vir" = 20
+  "Roggog" = 20
+  "Tugor" = 20
+  "Zigseb" = 20
+  "Rokzig" = 20
+  "Robtha" = 20
+  "Chobik" = 20
+  "Bogvor" = 20
+  "Chohib" = 20
+  "Tutha" = 20
+  "Tholthol" = 20
+  "Karsab" = 20
+  "Rogghe" = 20
+  "Garkla" = 20
+  "Maulreb" = 20
+  "Gallgug" = 20
+  "Doglig" = 20
+  "Logdig" = 20
+  "Trighe" = 20
+  "Roggkar" = 20
+  "Baknug" = 20
+  "Virkor" = 20
+  "Tedok" = 20
+  "Ghehib" = 20
+  "Ghetro" = 20
+  "Sabnag" = 20
+  "Diglog" = 20
+  "Hubte" = 20
+  "Gli'ghe" = 20
+  "Dag'rak" = 20
+  "Hobrogg" = 20
+  "Ghekor" = 20
+  "Bek'glu" = 20
+  "Argmag" = 20
+  "Rubmeg" = 20
+  "Hubnug" = 20
+  "Ghevir" = 20
+  "Vororg" = 20
+  "Kornog" = 20
+  "Roksub" = 20
+  "Gheokk" = 20
+  "Bogmeg" = 20
+  "Rub'mok" = 20
+  "Ziggor" = 20
+  "Rub'rag" = 20
+  "Subkor" = 20
+  "Tramok" = 20
+  "Nogzug" = 20
+  "Morcho" = 20
+  "Gar'erg" = 20
+  "Glabak" = 20
+  "Glirog" = 20
+  "Hobmeg" = 20
+  "Terob" = 20
+  "Nigorg" = 20
+  "Karnig" = 20
+  "Mogerg" = 20
+  "Zugtro" = 20
+  "Trisob" = 20
+  "Dagnig" = 20
+  "Mogdig" = 20
+  "Glaseb" = 20
+  "Dug'hib" = 20
+  "Bok'kor" = 20
+  "Bukom" = 20
+  "Gorrog" = 20
+  "Zagbak" = 20
+  "Habvir" = 20
+  "Vursob" = 20
+  "Lagarg" = 20
+  "Tharog" = 20
+  "Rab'rob" = 20
+  "Garsab" = 20
+  "Sebgor" = 20
+  "Okkkar" = 20
+  "Sabmok" = 20
+  "Okkbuk" = 20
+  "Diggli" = 20
+  "Zagkir" = 20
+  "Kirhub" = 20
+  "Glukli" = 20
+  "Morgall" = 20
+  "Gogdog" = 20
+  "Naggor" = 20
+  "Bogseb" = 20
+  "Gla'rag" = 20
+  "Bokreb" = 20
+  "Bikerg" = 20
+  "Bikgag" = 20
+  "Rekbek" = 20
+  "Virhab" = 20
+  "Sab'hub" = 20
+  "Niggha" = 20
+  "Glisob" = 20
+  "Gor'bik" = 20
+  "Rabrab" = 20
+  "Karmeg" = 20
+  "Trakar" = 20
+  "Hubtra" = 20
+  "Zegkla" = 20
+  "Orgkir" = 20
+  "Bokrok" = 20
+  "Baktri" = 20
+  "Varbog" = 20
+  "Orgbik" = 20
+  "Org'bog" = 20
+  "Log'kli" = 20
+  "Rebmeg" = 20
+  "Kirghe" = 20
+  "Rukbik" = 20
+  "Hibtri" = 20
+  "Vir'dig" = 20
+  "Rukmog" = 20
+  "Gli'nog" = 20
+  "Hibmog" = 20
+  "Mor'vor" = 20
+  "Ghareg" = 20
+  "Ligbak" = 20
+  "Gallkli" = 20
+  "Rokkor" = 20
+  "Morrak" = 20
+  "Gigtri" = 20
+  "Lagkli" = 20
+  "Thol'hub" = 20
+  "Zugvor" = 20
+  "Kergig" = 20
+  "Kur'gig" = 20
+  "Okkdag" = 20
+  "Virmeg" = 20
+  "Gugsab" = 20
+  "Hubruk" = 20
+  "Heb'rab" = 20
+  "Maul'gall" = 20
+  "Kla'rek" = 20
+  "Lagthol" = 20
+  "Rogdig" = 20
+  "Virdog" = 20
+  "Gigom" = 20
+  "Nigreg" = 20
+  "Rabmeg" = 20
+  "Morrak" = 20
+  "Liggor" = 20
+  "Rokrog" = 20
+  "Vir'var" = 20
+  "Kargor" = 20
+  "Korbek" = 20
+  "Troruk" = 20
+  "Ligcho" = 20
+  "Hebgall" = 20
+  "Tykla" = 20
+  "Gug'neg" = 20
+  "Gallrub" = 20
+  "Raksob" = 20
+  "Lugghe" = 20
+  "Bikgall" = 20
+  "Zugmeg" = 20
+  "Choerg" = 20
+  "Argbog" = 20
+  "Rabzug" = 20
+  "Glihub" = 20
+  "Liggla" = 20
+  "Raghub" = 20
+  "Robglu" = 20
+  "Zig'hob" = 20
+  "Nogvir" = 20
+  "Reborg" = 20
+  "Gli'tro" = 20
+  "Glagor" = 20
+  "Thasub" = 20
+  "Argneg" = 20
+  "Orgkir" = 20
+  "Bekgag" = 20
+  "Zegrob" = 20
+  "Gugnig" = 20
+  "Argbik" = 20
+  "Nugbik" = 20
+  "Dog'seb" = 20
+  "Rekmag" = 20
+  "Lagzig" = 20
+  "Kligha" = 20
+  "Hubgli" = 20
+  "Rog'kor" = 20
+  "Varmeg" = 20
+  "Mogkor" = 20
+  "Rok'lag" = 20
+  "Gordok" = 20
+  "Glarog" = 20
+  "Magvir" = 20
+  "Rograk" = 20
+  "Hibarg" = 20
+  "Rebsub" = 20
+  "Erggha" = 20
+  "Gogseb" = 20
+  "Thareg" = 20
+  "Bogdag" = 20
+  "Glu'gar" = 20
+  "Maulkla" = 20
+  "Vurorg" = 20
+  "Rabglu" = 20
+  "Sebgall" = 20
+  "Gallhab" = 20
+  "Daglug" = 20
+  "Logrogg" = 20
+  "Bukkar" = 20
+  "Rebgug" = 20
+  "Ghagla" = 20
+  "Ghazug" = 20
+  "Magrub" = 20
+  "Rubmaul" = 20
+  "Ziglag" = 20
+  "Dag'nug" = 20
+  "Rokmeg" = 20
+  "Tetra" = 20
+  "Roggnug" = 20
+  "Regzag" = 20
+  "Lugrak" = 20
+  "Ligbok" = 20
+  "Luggall" = 20
+  "Hobtra" = 20
+  "Gorrog" = 20
+  "Subdug" = 20
+  "Robgha" = 20
+  "Rogg'vur" = 20
+  "Negbek" = 20
+  "Magzag" = 20
+  "Kor'kar" = 20
+  "Glukor" = 20
+  "Gorrogg" = 20
+  "Mogreg" = 20
+  "Korarg" = 20
+  "Beklog" = 20
+  "Okkrab" = 20
+  "Ragtro" = 20
+  "Sub'zeg" = 20
+  "Gligog" = 20
+  "Dugnog" = 20
+  "Negrak" = 20
+  "Gortra" = 20
+  "Rubgig" = 20
+  "Digrog" = 20
+  "Hebrub" = 20
+  "Zuglug" = 20
+  "Zagrag" = 20
+  "Sabhub" = 20
+  "Nig'rab" = 20
+  "Beklag" = 20
+  "Glitu" = 20
+  "Korgog" = 20
+  "Bukheb" = 20
+  "Gugzeg" = 20
+  "Thabok" = 20
+  "Karnag" = 20
+  "Robkli" = 20
+  "Rogmor" = 20
+  "Logrek" = 20
+  "Nagnug" = 20
+  "Rakmug" = 20
+  "Roggarg" = 20
+  "Rokneg" = 20
+  "Zug'kor" = 20
+  "Sobom" = 20
+  "Rebkar" = 20
+  "Kerbuk" = 20
+  "Kurheb" = 20
+  "Korgli" = 20
+  "Hibvur" = 20
+  "Megrab" = 20
+  "Mogker" = 20
+  "Glameg" = 20
+  "Maulreg" = 20
+  "Mok'gar" = 20
+  "Zagsob" = 20
+  "Tramor" = 20
+  "Zignog" = 20
+  "Arggha" = 20
+  "Gor'rub" = 20
+  "Korrog" = 20
+  "Gallty" = 20
+  "Dogtro" = 20
+  "Korvor" = 20
+  "Karnog" = 20
+  "Okkbok" = 20
+  "Korthol" = 20
+  "Logreb" = 20
+  "Glarag" = 20
+  "Bakrogg" = 20
+  "Tuokk" = 20
+  "Gallbog" = 20
+  "Gorruk" = 20
+  "Rabrob" = 20
+  "Liggar" = 20
+  "Hubom" = 20
+  "Karmaul" = 20
+  "Hibkur" = 20
+  "Bakmeg" = 20
+  "Mogte" = 20
+  "Tholvor" = 20
+  "Cholag" = 20
+  "Habrogg" = 20
+  "Glirok" = 20
+  "Hebhob" = 20
+  "Nag'lug" = 20
+  "Gluhob" = 20
+  "Logdag" = 20
+  "Zeg'rak" = 20
+  "Kor'bog" = 20
+  "Dagghe" = 20
+  "Bukgug" = 20
+  "Dog'gug" = 20
+  "Gallvar" = 20
+  "Glulog" = 20
+  "Maulnug" = 20
+  "Kerreg" = 20
+  "Tuheb" = 20
+  "Korgar" = 20
+  "Mogmok" = 20
+  "Digzag" = 20
+  "Biknig" = 20
+  "Regbek" = 20
+  "Klizig" = 20
+  "Regseb" = 20
+  "Kormor" = 20
+  "Vor'vir" = 20
+  "Bukdok" = 20
+  "Okkgla" = 20
+  "Rob'rak" = 20
+  "Gallbak" = 20
+  "Dokghe" = 20
+  "Sobte" = 20
+  "Gallmaul" = 20
+  "Dograb" = 20
+  "Lugrok" = 20
+  "Varorg" = 20
+  "Roggtu" = 20
+  "Ghegog" = 20
+  "Sabrob" = 20
+  "Tholmug" = 20
+  "Mugthol" = 20
+  "Habdig" = 20
+  "Rogghab" = 20
+  "Gigker" = 20
+  "Nigtu" = 20
+  "Habte" = 20
+  "Megruk" = 20
+  "Gugnag" = 20
+  "Rakvar" = 20
+  "Negmug" = 20
+  "Kirdig" = 20
+  "Bik'gli" = 20
+  "Kormug" = 20
+  "Gagnug" = 20
+  "Rogmok" = 20
+  "Morzug" = 20
+  "Dagdok" = 20
+  "Hobcho" = 20
+  "Cho'bok" = 20
+  "Gallnig" = 20
+  "Klarub" = 20
+  "Omker" = 20
+  "Orgsab" = 20
+  "Mugcho" = 20
+  "Klabuk" = 20
+  "Megmeg" = 20
+  "Vorvir" = 20
+  "Gogsab" = 20
+  "Mag'zeg" = 20
+  "Arghab" = 20
+  "Vurvar" = 20
+  "Ragmor" = 20
+  "Ligrok" = 20
+  "Rekbuk" = 20
+  "Moggig" = 20
+  "Sobrob" = 20
+  "Ruk'bik" = 20
+  "Korbek" = 20
+  "Gall'rog" = 20
+  "Rogvir" = 20
+  "Tholgar" = 20
+  "Gallrob" = 20
+  "Subom" = 20
+  "Rabdag" = 20
+  "Kur'gha" = 20
+  "Gogerg" = 20
+  "Lugbek" = 20
+  "Bogrub" = 20
+  "Okk'erg" = 20
+  "Hibtra" = 20
+  "Boghab" = 20
+  "Sob'rek" = 20
+  "Tyrog" = 20
+  "Hebzug" = 20
+  "Thol'gha" = 20
+  "Zigsob" = 20
+  "Gogorg" = 20
+  "Digorg" = 20
+  "Gigte" = 20
+  "Bok'rob" = 20
+  "Vargar" = 20
+  "Lagrog" = 20
+  "Ziglag" = 20
+  "Roggseb" = 20
+  "Digtra" = 20
+  "Korom" = 20
+  "Dokseb" = 20
+  "Dogrog" = 20
+  "Ragrob" = 20
+  "Glarob" = 20
+  "Nig'glu" = 20
+  "Klidig" = 20
+  "Zegnug" = 20
+  "Nagruk" = 20
+  "Choreg" = 20
+  "Tyhab" = 20
+  "Biknig" = 20
+  "Orgnog" = 20
+  "Zugnog" = 20
+  "Nugzug" = 20
+  "Rograk" = 20
+  "Dug'gar" = 20
+  "Habty" = 20
+  "Rukdig" = 20
+  "Gogbuk" = 20
+  "Vir'hib" = 20
+  "Nigrek" = 20
+  "Karzeg" = 20
+  "Sabkar" = 20
+  "Maulnog" = 20
+  "Rakvar" = 20
+  "Glarogg" = 20
+  "Rebreb" = 20
+  "Zagbak" = 20
+  "Sabbak" = 20
+  "Rabmag" = 20
+  "Omhub" = 20
+  "Bogbek" = 20
+  "Kurvir" = 20
+  "Buklag" = 20
+  "Negvir" = 20
+  "Vorkor" = 20
+  "Rogarg" = 20
+  "Hobdog" = 20
+  "Chodig" = 20
+  "Dogtri" = 20
+  "Hobbik" = 20
+  "Zugbuk" = 20
+  "Vor'thol" = 20
+  "Klabok" = 20
+  "Lagzig" = 20
+  "Subgig" = 20
+  "Zegvir" = 20
+  "Regvar" = 20
+  "Dagvor" = 20
+  "Klavor" = 20
+  "Zagbak" = 20
+  "Mokerg" = 20
+  "Magvir" = 20
+  "Rakvor" = 20
+  "Maulvar" = 20
+  "Ghe'gog" = 20
+  "Vurkla" = 20
+  "Korruk" = 20
+  "Ligheb" = 20
+  "Kortha" = 20
+  "Roggar" = 20
+  "Gugzig" = 20
+  "Gigbog" = 20
+  "Ommeg" = 20
+  "Boggla" = 20
+  "Okkgli" = 20
+  "Thol'reg" = 20
+  "Mug'sob" = 20
+  "Rebkli" = 20
+  "Rag'om" = 20
+  "Nugseb" = 20
+  "Mogbak" = 20
+  "Dokvor" = 20
+  "Trameg" = 20
+  "Gorte" = 20
+  "Roggvur" = 20
+  "Regmor" = 20
+  "Zegrog" = 20
+  "Klagall" = 20
+  "Ergkur" = 20
+  "Nagmug" = 20
+  "Virheb" = 20
+  "Rubsob" = 20
+  "Rablig" = 20
+  "Vir'var" = 20
+  "Nagdog" = 20
+  "Dugnog" = 20
+  "Luglig" = 20
+  "Habkur" = 20
+  "Karnug" = 20
+  "Bikgug" = 20
+  "Bukkir" = 20
+  "Glinig" = 20
+  "Varzig" = 20
+  "Rekgla" = 20
+  "Hebrok" = 20
+  "Mokrok" = 20
+  "Nagkur" = 20
+  "Nuggor" = 20
+  "Sab'gall" = 20
+  "Kurrob" = 20
+  "Tholreg" = 20
+  "Zighub" = 20
+  "Bik'sab" = 20
+  "Gorvor" = 20
+  "Rogtro" = 20
+  "Rogthol" = 20
+  "Dugvir" = 20
+  "Kliruk" = 20
+  "Tha'sob" = 20
+  "Rakbok" = 20
+  "Bakkla" = 20
+  "Ergrag" = 20
+  "Varglu" = 20
+  "Glamor" = 20
+  "Tyhab" = 20
+  "Glikor" = 20
+  "Tharogg" = 20
+  "Log'nig" = 20
+  "Hebmeg" = 20
+  "Nigrogg" = 20
+  "Tribog" = 20
+  "Tholrob" = 20
+  "Magsob" = 20
+  "Mor'sob" = 20
+  "Digmog" = 20
+  "Rogruk" = 20
+  "Okk'kla" = 20
+  "Roklug" = 20
+  "Gardug" = 20
+  "Arggla" = 20
+  "Ghakir" = 20
+  "Hubzag" = 20
+  "Lug'mug" = 20
+  "Nagvur" = 20
+  "Giggall" = 20
+  "Tedog" = 20
+  "Maulkir" = 20
+  "Bikmag" = 20
+  "Mogokk" = 20
+  "Zugrak" = 20
+  "Kor'gla" = 20
+  "Gheerg" = 20
+  "Virbik" = 20
+  "Sebgog" = 20
+  "Kligag" = 20
+  "Hebom" = 20
+  "Rogg'gor" = 20
+  "Dokkur" = 20
+  "Thol'sub" = 20
+  "Boghib" = 20
+  "Bekmeg" = 20
+  "Hoblag" = 20
+  "Sebhab" = 20
+  "Magom" = 20
+  "Hebgha" = 20
+  "Omrek" = 20
+  "Chogig" = 20
+  "Omlug" = 20
+  "Hab'gog" = 20
+  "Gagkir" = 20
+  "Zegneg" = 20
+  "Kerreg" = 20
+  "Tro'lug" = 20
+  "Ghebak" = 20
+  "Hab'seb" = 20
+  "Hobruk" = 20
+  "Rogggor" = 20
+  "Rakmog" = 20
+  "Bakzug" = 20
+  "Robdig" = 20
+  "Klarogg" = 20
+  "Megheb" = 20
+  "Kerbak" = 20
+  "Rebnug" = 20
+  "Zugdug" = 20
+  "Dogtro" = 20
+  "Gogty" = 20
+  "Hebgag" = 20
+  "Glaarg" = 20
+  "Kliseb" = 20
+  "Rebvir" = 20
+  "Sobdug" = 20
+  "Zuglog" = 20
+  "Tyrog" = 20
+  "Digtha" = 20
+  "Chogag" = 20
+  "Subkur" = 20
+  "Digrag" = 20
+  "Dogghe" = 20
+  "Rekvir" = 20
+  "Gigsob" = 20
+  "Korrub" = 20
+  "Nogrog" = 20
+  "Rogvor" = 20
+  "Glaerg" = 20
+  "Tyrub" = 20
+  "Kurzeg" = 20
+  "Vormog" = 20
+  "Hubnag" = 20
+  "Rakgha" = 20
+  "Buksab" = 20
+  "Dugokk" = 20
+  "Gugzeg" = 20
+  "Bikrob" = 20
+  "Gog'kor" = 20
+  "Maullog" = 20
+  "Vurty" = 20
+  "Roggneg" = 20
+  "Glagha" = 20
+  "Roklig" = 20
+  "Mugmok" = 20
+  "Hubcho" = 20
+  "Omrek" = 20
+  "Dokbok" = 20
+  "Naghab" = 20
+  "Ligzag" = 20
+  "Rek'seb" = 20
+  "Ziggall" = 20
+  "Dogglu" = 20
+  "Regkir" = 20
+  "Rubmeg" = 20
+  "Zigrag" = 20
+  "Gugdag" = 20
+  "Tezeg" = 20
+  "Zagsub" = 20
+  "Hebnag" = 20
+  "Triarg" = 20
+  "Tholhib" = 20
+  "Virlag" = 20
+  "Hubheb" = 20
+  "Klalog" = 20
+  "Korrogg" = 20
+  "Orgtha" = 20
+  "Lugzag" = 20
+  "Rabtro" = 20
+  "Habreb" = 20
+  "Gig'glu" = 20
+  "Ergrok" = 20
+  "Roggheb" = 20
+  "Hobbik" = 20
+  "Magkor" = 20
+  "Hebvur" = 20
+  "Zignog" = 20
+  "Klamok" = 20
+  "Laghob" = 20
+  "Ghagha" = 20
+  "Omvar" = 20
+  "Kerhub" = 20
+  "Virrab" = 20
+  "Hub'erg" = 20
+  "Maulgog" = 20
+  "Reb'rag" = 20
+  "Negdig" = 20
+  "Glate" = 20
+  "Gorvar" = 20
+  "Habcho" = 20
+  "Karglu" = 20
+  "Rekhab" = 20
+  "Regbog" = 20
+  "Glatri" = 20
+  "Sobghe" = 20
+  "Virgor" = 20
+  "Gallrog" = 20
+  "Negrob" = 20
+  "Neg'vir" = 20
+  "Erggag" = 20
+  "Ghasub" = 20
+  "Dogvur" = 20
+  "Ergkar" = 20
+  "Hubgha" = 20
+  "Hebreb" = 20
+  "Zigrob" = 20
+  "Chomor" = 20
+  "Gaggli" = 20
+  "Magarg" = 20
+  "Regdig" = 20
+  "Digbak" = 20
+  "Reg'gig" = 20
+  "Tholglu" = 20
+  "Vir'gor" = 20
+  "Lig'sab" = 20
+  "Ghazag" = 20
+  "Hibkur" = 20
+  "Rukvir" = 20
+  "Digvor" = 20
+  "Trorek" = 20
+  "Trozag" = 20
+  "Bikerg" = 20
+  "Argbog" = 20
+  "Tralag" = 20
+  "Zegglu" = 20
+  "Dagseb" = 20
+  "Tumok" = 20
+  "Rubnag" = 20
+  "Okkhib" = 20
+  "Okkrok" = 20
+  "Mogdig" = 20
+  "Robtu" = 20
+  "Habseb" = 20
+  "Gallgli" = 20
+  "Korkli" = 20
+  "Hublag" = 20
+  "Klaerg" = 20
+  "Klarog" = 20
+  "Ergkor" = 20
+  "Korgli" = 20
+  "Kerrog" = 20
+  "Nigdig" = 20
+  "Gorrak" = 20
+  "Garvar" = 20
+  "Kurrogg" = 20
+  "Dagdag" = 20
+  "Nogvar" = 20
+  "Hubmok" = 20
+  "Argbak" = 20
+  "Mugte" = 20
+  "Argmok" = 20
+  "Habgug" = 20
+  "Ghegag" = 20
+  "Kla'arg" = 20
+  "Bukrog" = 20
+  "Magdug" = 20
+  "Bekrok" = 20
+  "Regdog" = 20
+  "Ruk'rag" = 20
+  "Hibzig" = 20
+  "Lugbog" = 20
+  "Hib'dug" = 20
+  "Garthol" = 20
+  "Nogrek" = 20
+  "Hobrok" = 20
+  "Okksub" = 20
+  "Hob'gug" = 20
+  "Dokvor" = 20
+  "Ombuk" = 20
+  "Okkgha" = 20
+  "Rogggig" = 20
+  "Dagglu" = 20
+  "Ghamag" = 20
+  "Te'tha" = 20
+  "Bekrab" = 20
+  "Ragmag" = 20
+  "Orgom" = 20
+  "Karvor" = 20
+  "Ergrak" = 20
+  "Lughub" = 20
+  "Rogzeg" = 20
+  "Vurtro" = 20
+  "Rograb" = 20
+  "Sobmeg" = 20
+  "Rukrak" = 20
+  "Rogvur" = 20
+  "Negvar" = 20
+  "Goghub" = 20
+  "Hebrek" = 20
+  "Vortro" = 20
+  "Reb'kor" = 20
+  "Ghemaul" = 20
+  "Dugmaul" = 20
+  "Zugkor" = 20
+  "Lugtha" = 20
+  "Virhib" = 20
+  "Rakglu" = 20
+  "Rub'lug" = 20
+  "Maulbik" = 20
+  "Ragseb" = 20
+  "Tygla" = 20
+  "Vir'glu" = 20
+  "Tratra" = 20
+  "Maul'rog" = 20
+  "Tunog" = 20
+  "Rabgug" = 20
+  "Neghub" = 20
+  "Chothol" = 20
+  "Glutro" = 20
+  "Rogsub" = 20
+  "Thakar" = 20
+  "Korarg" = 20
+  "Chovar" = 20
+  "Erglig" = 20
+  "Zegreb" = 20
+  "Zig'dog" = 20
+  "Roggig" = 20
+  "Negmog" = 20
+  "Bikkir" = 20
+  "Lugrok" = 20
+  "Sobvor" = 20
+  "Glunag" = 20
+  "Gararg" = 20
+  "Rakmok" = 20
+  "Subdok" = 20
+  "Bikzag" = 20
+  "Hibker" = 20
+  "Ragnig" = 20
+  "Traarg" = 20
+  "Hibnug" = 20
+  "Klimeg" = 20
+  "Orgerg" = 20
+  "Gugty" = 20
+  "Garheb" = 20
+  "Dogkor" = 20
+  "Dugmag" = 20
+  "Morkur" = 20
+  "Doksab" = 20
+  "Bek'meg" = 20
+  "Dokdug" = 20
+  "Mugrog" = 20
+  "Nigkar" = 20
+  "Lugheb" = 20
+  "Rogggor" = 20
+  "Erg'ruk" = 20
+  "Habnig" = 20
+  "Habgor" = 20
+  "Niggall" = 20
+  "Kurtra" = 20
+  "Bekdug" = 20
+  "Klavur" = 20
+  "Thollug" = 20
+  "Nug'hob" = 20
+  "Tholgha" = 20
+  "Ligkar" = 20
+  "Negrub" = 20
+  "Rakdok" = 20
+  "Vurseb" = 20
+  "Rubgha" = 20
+  "Bukgig" = 20
+  "Maulokk" = 20
+  "Nogsub" = 20
+  "Regker" = 20
+  "Gallom" = 20
+  "Ergsub" = 20
+  "Mokom" = 20
+  "Neg'meg" = 20
+  "Klibak" = 20
+  "Dokmog" = 20
+  "Lugrag" = 20
+  "Mugcho" = 20
+  "Tusab" = 20
+  "Digzag" = 20
+  "Rubrek" = 20
+  "Kligag" = 20
+  "Habtha" = 20
+  "Karvar" = 20
+  "Vorrak" = 20
+  "Ombog" = 20
+  "Gigkla" = 20
+  "Hibthol" = 20
+  "Cho'erg" = 20
+  "Om'rek" = 20
+  "Bikcho" = 20
+  "Kornog" = 20
+  "Moggig" = 20
+  "Lagneg" = 20
+  "Log'tha" = 20
+  "Megzeg" = 20
+  "Orgzeg" = 20
+  "Tereg" = 20
+  "Maulzag" = 20
+  "Rabcho" = 20
+  "Subrob" = 20
+  "Lagkor" = 20
+  "Mokkar" = 20
+  "Lugkli" = 20
+  "Reg'rub" = 20
+  "Reggar" = 20
+  "Logzig" = 20
+  "Rogte" = 20
+  "Telag" = 20
+  "Varrub" = 20
+  "Neg'buk" = 20
+  "Gallzug" = 20
+  "Kirmaul" = 20
+  "Duglig" = 20
+  "Chohab" = 20
+  "Zeggha" = 20
+  "Megbik" = 20
+  "Klasob" = 20
+  "Nigmor" = 20
+  "Rog'gog" = 20
+  "Moktha" = 20
+  "Gigheb" = 20
+  "Omdig" = 20
+  "Hibom" = 20
+  "Karmok" = 20
+  "Reknog" = 20
+  "Meggha" = 20
+  "Bikgug" = 20
+  "Negmog" = 20
+  "Gigdog" = 20
+  "Virghe" = 20
+  "Loggig" = 20
+  "Robnig" = 20
+  "Meg'vir" = 20
+  "Bikbok" = 20
+  "Virkli" = 20
+  "Ghaokk" = 20
+  "Reblig" = 20
+  "Noglag" = 20
+  "Sobrok" = 20
+  "Var'erg" = 20
+  "Gogzug" = 20
+  "Ligvur" = 20
+  "Te'ghe" = 20
+  "Magkor" = 20
+  "Karrogg" = 20
+  "Tenog" = 20
+  "Dognig" = 20
+  "Hubgug" = 20
+  "Gugmog" = 20
+  "Negorg" = 20
+  "Erghub" = 20
+  "Moknug" = 20
+  "Bikrog" = 20
+  "Virtu" = 20
+  "Argmag" = 20
+  "Subrak" = 20
+  "Negkar" = 20
+  "Nigdog" = 20
+  "Kurdug" = 20
+  "Nug'lug" = 20
+  "Rakrogg" = 20
+  "Gagsob" = 20
+  "Bikdog" = 20
+  "Hobhob" = 20
+  "Ombek" = 20
+  "Tumeg" = 20
+  "Morsub" = 20
+  "Muggog" = 20
+  "Lig'gug" = 20
+  "Tymok" = 20
+  "Rogkor" = 20
+  "Nigglu" = 20
+  "Kurghe" = 20
+  "Diggig" = 20
+  "Nig'dig" = 20
+  "Bikheb" = 20
+  "Nagrog" = 20
+  "Zighab" = 20
+  "Rekgog" = 20
+  "Kir'bog" = 20
+  "Dagty" = 20
+  "Glasab" = 20
+  "Rog'vor" = 20
+  "Boggli" = 20
+  "Zigmag" = 20
+  "Gallhob" = 20
+  "Erghob" = 20
+  "Tumok" = 20
+  "Lugreg" = 20
+  "Dugnag" = 20
+  "Kirmog" = 20
+  "Rebrab" = 20
+  "Rekmug" = 20
+  "Doklug" = 20
+  "Okkhab" = 20
+  "Bakvar" = 20
+  "Regdog" = 20
+  "Ergheb" = 20
+  "Rukkor" = 20
+  "Cho'org" = 20
+  "Megmug" = 20
+  "Roggug" = 20
+  "Glathol" = 20
+  "Sob'hub" = 20
+  "Rekgall" = 20
+  "Gorlag" = 20
+  "Ty'tra" = 20
+  "Habtu" = 20
+  "Maulty" = 20
+  "Hob'kli" = 20
+  "Sebrag" = 20
+  "Dokkar" = 20
+  "Bektri" = 20
+  "Dogvor" = 20
+  "Dugtu" = 20
+  "Soborg" = 20
+  "Gugte" = 20
+  "Bukrog" = 20
+  "Ruk'gug" = 20
+  "Rubte" = 20
+  "Doggla" = 20
+  "Tukur" = 20
+  "Robhib" = 20
+  "Gigdok" = 20
+  "Robgug" = 20
+  "Hibgall" = 20
+  "Ergkur" = -20
+  "Gorgha" = -20
+  "Zagzag" = -20
+  "Garkor" = -20
+  "Rokgla" = -20
+  "Maulmor" = -20
+  "Klarog" = -20
+  "Ghegar" = -20
+  "Var'rog" = -20
+  "Omrog" = -20
+  "Rek'vir" = -20
+  "Roggog" = -20
+  "Tugor" = -20
+  "Zigseb" = -20
+  "Rokzig" = -20
+  "Robtha" = -20
+  "Chobik" = -20
+  "Bogvor" = -20
+  "Chohib" = -20
+  "Tutha" = -20
+  "Tholthol" = -20
+  "Karsab" = -20
+  "Rogghe" = -20
+  "Garkla" = -20
+  "Maulreb" = -20
+  "Gallgug" = -20
+  "Doglig" = -20
+  "Logdig" = -20
+  "Trighe" = -20
+  "Roggkar" = -20
+  "Baknug" = -20
+  "Virkor" = -20
+  "Tedok" = -20
+  "Ghehib" = -20
+  "Ghetro" = -20
+  "Sabnag" = -20
+  "Diglog" = -20
+  "Hubte" = -20
+  "Gli'ghe" = -20
+  "Dag'rak" = -20
+  "Hobrogg" = -20
+  "Ghekor" = -20
+  "Bek'glu" = -20
+  "Argmag" = -20
+  "Rubmeg" = -20
+  "Hubnug" = -20
+  "Ghevir" = -20
+  "Vororg" = -20
+  "Kornog" = -20
+  "Roksub" = -20
+  "Gheokk" = -20
+  "Bogmeg" = -20
+  "Rub'mok" = -20
+  "Ziggor" = -20
+  "Rub'rag" = -20
+  "Subkor" = -20
+  "Tramok" = -20
+  "Nogzug" = -20
+  "Morcho" = -20
+  "Gar'erg" = -20
+  "Glabak" = -20
+  "Glirog" = -20
+  "Hobmeg" = -20
+  "Terob" = -20
+  "Nigorg" = -20
+  "Karnig" = -20
+  "Mogerg" = -20
+  "Zugtro" = -20
+  "Trisob" = -20
+  "Dagnig" = -20
+  "Mogdig" = -20
+  "Glaseb" = -20
+  "Dug'hib" = -20
+  "Bok'kor" = -20
+  "Bukom" = -20
+  "Gorrog" = -20
+  "Zagbak" = -20
+  "Habvir" = -20
+  "Vursob" = -20
+  "Lagarg" = -20
+  "Tharog" = -20
+  "Rab'rob" = -20
+  "Garsab" = -20
+  "Sebgor" = -20
+  "Okkkar" = -20
+  "Sabmok" = -20
+  "Okkbuk" = -20
+  "Diggli" = -20
+  "Zagkir" = -20
+  "Kirhub" = -20
+  "Glukli" = -20
+  "Morgall" = -20
+  "Gogdog" = -20
+  "Naggor" = -20
+  "Bogseb" = -20
+  "Gla'rag" = -20
+  "Bokreb" = -20
+  "Bikerg" = -20
+  "Bikgag" = -20
+  "Rekbek" = -20
+  "Virhab" = -20
+  "Sab'hub" = -20
+  "Niggha" = -20
+  "Glisob" = -20
+  "Gor'bik" = -20
+  "Rabrab" = -20
+  "Karmeg" = -20
+  "Trakar" = -20
+  "Hubtra" = -20
+  "Zegkla" = -20
+  "Orgkir" = -20
+  "Bokrok" = -20
+  "Baktri" = -20
+  "Varbog" = -20
+  "Orgbik" = -20
+  "Org'bog" = -20
+  "Log'kli" = -20
+  "Rebmeg" = -20
+  "Kirghe" = -20
+  "Rukbik" = -20
+  "Hibtri" = -20
+  "Vir'dig" = -20
+  "Rukmog" = -20
+  "Gli'nog" = -20
+  "Hibmog" = -20
+  "Mor'vor" = -20
+  "Ghareg" = -20
+  "Ligbak" = -20
+  "Gallkli" = -20
+  "Rokkor" = -20
+  "Morrak" = -20
+  "Gigtri" = -20
+  "Lagkli" = -20
+  "Thol'hub" = -20
+  "Zugvor" = -20
+  "Kergig" = -20
+  "Kur'gig" = -20
+  "Okkdag" = -20
+  "Virmeg" = -20
+  "Gugsab" = -20
+  "Hubruk" = -20
+  "Heb'rab" = -20
+  "Maul'gall" = -20
+  "Kla'rek" = -20
+  "Lagthol" = -20
+  "Rogdig" = -20
+  "Virdog" = -20
+  "Gigom" = -20
+  "Nigreg" = -20
+  "Rabmeg" = -20
+  "Morrak" = -20
+  "Liggor" = -20
+  "Rokrog" = -20
+  "Vir'var" = -20
+  "Kargor" = -20
+  "Korbek" = -20
+  "Troruk" = -20
+  "Ligcho" = -20
+  "Hebgall" = -20
+  "Tykla" = -20
+  "Gug'neg" = -20
+  "Gallrub" = -20
+  "Raksob" = -20
+  "Lugghe" = -20
+  "Bikgall" = -20
+  "Zugmeg" = -20
+  "Choerg" = -20
+  "Argbog" = -20
+  "Rabzug" = -20
+  "Glihub" = -20
+  "Liggla" = -20
+  "Raghub" = -20
+  "Robglu" = -20
+  "Zig'hob" = -20
+  "Nogvir" = -20
+  "Reborg" = -20
+  "Gli'tro" = -20
+  "Glagor" = -20
+  "Thasub" = -20
+  "Argneg" = -20
+  "Orgkir" = -20
+  "Bekgag" = -20
+  "Zegrob" = -20
+  "Gugnig" = -20
+  "Argbik" = -20
+  "Nugbik" = -20
+  "Dog'seb" = -20
+  "Rekmag" = -20
+  "Lagzig" = -20
+  "Kligha" = -20
+  "Hubgli" = -20
+  "Rog'kor" = -20
+  "Varmeg" = -20
+  "Mogkor" = -20
+  "Rok'lag" = -20
+  "Gordok" = -20
+  "Glarog" = -20
+  "Magvir" = -20
+  "Rograk" = -20
+  "Hibarg" = -20
+  "Rebsub" = -20
+  "Erggha" = -20
+  "Gogseb" = -20
+  "Thareg" = -20
+  "Bogdag" = -20
+  "Glu'gar" = -20
+  "Maulkla" = -20
+  "Vurorg" = -20
+  "Rabglu" = -20
+  "Sebgall" = -20
+  "Gallhab" = -20
+  "Daglug" = -20
+  "Logrogg" = -20
+  "Bukkar" = -20
+  "Rebgug" = -20
+  "Ghagla" = -20
+  "Ghazug" = -20
+  "Magrub" = -20
+  "Rubmaul" = -20
+  "Ziglag" = -20
+  "Dag'nug" = -20
+  "Rokmeg" = -20
+  "Tetra" = -20
+  "Roggnug" = -20
+  "Regzag" = -20
+  "Lugrak" = -20
+  "Ligbok" = -20
+  "Luggall" = -20
+  "Hobtra" = -20
+  "Gorrog" = -20
+  "Subdug" = -20
+  "Robgha" = -20
+  "Rogg'vur" = -20
+  "Negbek" = -20
+  "Magzag" = -20
+  "Kor'kar" = -20
+  "Glukor" = -20
+  "Gorrogg" = -20
+  "Mogreg" = -20
+  "Korarg" = -20
+  "Beklog" = -20
+  "Okkrab" = -20
+  "Ragtro" = -20
+  "Sub'zeg" = -20
+  "Gligog" = -20
+  "Dugnog" = -20
+  "Negrak" = -20
+  "Gortra" = -20
+  "Rubgig" = -20
+  "Digrog" = -20
+  "Hebrub" = -20
+  "Zuglug" = -20
+  "Zagrag" = -20
+  "Sabhub" = -20
+  "Nig'rab" = -20
+  "Beklag" = -20
+  "Glitu" = -20
+  "Korgog" = -20
+  "Bukheb" = -20
+  "Gugzeg" = -20
+  "Thabok" = -20
+  "Karnag" = -20
+  "Robkli" = -20
+  "Rogmor" = -20
+  "Logrek" = -20
+  "Nagnug" = -20
+  "Rakmug" = -20
+  "Roggarg" = -20
+  "Rokneg" = -20
+  "Zug'kor" = -20
+  "Sobom" = -20
+  "Rebkar" = -20
+  "Kerbuk" = -20
+  "Kurheb" = -20
+  "Korgli" = -20
+  "Hibvur" = -20
+  "Megrab" = -20
+  "Mogker" = -20
+  "Glameg" = -20
+  "Maulreg" = -20
+  "Mok'gar" = -20
+  "Zagsob" = -20
+  "Tramor" = -20
+  "Zignog" = -20
+  "Arggha" = -20
+  "Gor'rub" = -20
+  "Korrog" = -20
+  "Gallty" = -20
+  "Dogtro" = -20
+  "Korvor" = -20
+  "Karnog" = -20
+  "Okkbok" = -20
+  "Korthol" = -20
+  "Logreb" = -20
+  "Glarag" = -20
+  "Bakrogg" = -20
+  "Tuokk" = -20
+  "Gallbog" = -20
+  "Gorruk" = -20
+  "Rabrob" = -20
+  "Liggar" = -20
+  "Hubom" = -20
+  "Karmaul" = -20
+  "Hibkur" = -20
+  "Bakmeg" = -20
+  "Mogte" = -20
+  "Tholvor" = -20
+  "Cholag" = -20
+  "Habrogg" = -20
+  "Glirok" = -20
+  "Hebhob" = -20
+  "Nag'lug" = -20
+  "Gluhob" = -20
+  "Logdag" = -20
+  "Zeg'rak" = -20
+  "Kor'bog" = -20
+  "Dagghe" = -20
+  "Bukgug" = -20
+  "Dog'gug" = -20
+  "Gallvar" = -20
+  "Glulog" = -20
+  "Maulnug" = -20
+  "Kerreg" = -20
+  "Tuheb" = -20
+  "Korgar" = -20
+  "Mogmok" = -20
+  "Digzag" = -20
+  "Biknig" = -20
+  "Regbek" = -20
+  "Klizig" = -20
+  "Regseb" = -20
+  "Kormor" = -20
+  "Vor'vir" = -20
+  "Bukdok" = -20
+  "Okkgla" = -20
+  "Rob'rak" = -20
+  "Gallbak" = -20
+  "Dokghe" = -20
+  "Sobte" = -20
+  "Gallmaul" = -20
+  "Dograb" = -20
+  "Lugrok" = -20
+  "Varorg" = -20
+  "Roggtu" = -20
+  "Ghegog" = -20
+  "Sabrob" = -20
+  "Tholmug" = -20
+  "Mugthol" = -20
+  "Habdig" = -20
+  "Rogghab" = -20
+  "Gigker" = -20
+  "Nigtu" = -20
+  "Habte" = -20
+  "Megruk" = -20
+  "Gugnag" = -20
+  "Rakvar" = -20
+  "Negmug" = -20
+  "Kirdig" = -20
+  "Bik'gli" = -20
+  "Kormug" = -20
+  "Gagnug" = -20
+  "Rogmok" = -20
+  "Morzug" = -20
+  "Dagdok" = -20
+  "Hobcho" = -20
+  "Cho'bok" = -20
+  "Gallnig" = -20
+  "Klarub" = -20
+  "Omker" = -20
+  "Orgsab" = -20
+  "Mugcho" = -20
+  "Klabuk" = -20
+  "Megmeg" = -20
+  "Vorvir" = -20
+  "Gogsab" = -20
+  "Mag'zeg" = -20
+  "Arghab" = -20
+  "Vurvar" = -20
+  "Ragmor" = -20
+  "Ligrok" = -20
+  "Rekbuk" = -20
+  "Moggig" = -20
+  "Sobrob" = -20
+  "Ruk'bik" = -20
+  "Korbek" = -20
+  "Gall'rog" = -20
+  "Rogvir" = -20
+  "Tholgar" = -20
+  "Gallrob" = -20
+  "Subom" = -20
+  "Rabdag" = -20
+  "Kur'gha" = -20
+  "Gogerg" = -20
+  "Lugbek" = -20
+  "Bogrub" = -20
+  "Okk'erg" = -20
+  "Hibtra" = -20
+  "Boghab" = -20
+  "Sob'rek" = -20
+  "Tyrog" = -20
+  "Hebzug" = -20
+  "Thol'gha" = -20
+  "Zigsob" = -20
+  "Gogorg" = -20
+  "Digorg" = -20
+  "Gigte" = -20
+  "Bok'rob" = -20
+  "Vargar" = -20
+  "Lagrog" = -20
+  "Ziglag" = -20
+  "Roggseb" = -20
+  "Digtra" = -20
+  "Korom" = -20
+  "Dokseb" = -20
+  "Dogrog" = -20
+  "Ragrob" = -20
+  "Glarob" = -20
+  "Nig'glu" = -20
+  "Klidig" = -20
+  "Zegnug" = -20
+  "Nagruk" = -20
+  "Choreg" = -20
+  "Tyhab" = -20
+  "Biknig" = -20
+  "Orgnog" = -20
+  "Zugnog" = -20
+  "Nugzug" = -20
+  "Rograk" = -20
+  "Dug'gar" = -20
+  "Habty" = -20
+  "Rukdig" = -20
+  "Gogbuk" = -20
+  "Vir'hib" = -20
+  "Nigrek" = -20
+  "Karzeg" = -20
+  "Sabkar" = -20
+  "Maulnog" = -20
+  "Rakvar" = -20
+  "Glarogg" = -20
+  "Rebreb" = -20
+  "Zagbak" = -20
+  "Sabbak" = -20
+  "Rabmag" = -20
+  "Omhub" = -20
+  "Bogbek" = -20
+  "Kurvir" = -20
+  "Buklag" = -20
+  "Negvir" = -20
+  "Vorkor" = -20
+  "Rogarg" = -20
+  "Hobdog" = -20
+  "Chodig" = -20
+  "Dogtri" = -20
+  "Hobbik" = -20
+  "Zugbuk" = -20
+  "Vor'thol" = -20
+  "Klabok" = -20
+  "Lagzig" = -20
+  "Subgig" = -20
+  "Zegvir" = -20
+  "Regvar" = -20
+  "Dagvor" = -20
+  "Klavor" = -20
+  "Zagbak" = -20
+  "Mokerg" = -20
+  "Magvir" = -20
+  "Rakvor" = -20
+  "Maulvar" = -20
+  "Ghe'gog" = -20
+  "Vurkla" = -20
+  "Korruk" = -20
+  "Ligheb" = -20
+  "Kortha" = -20
+  "Roggar" = -20
+  "Gugzig" = -20
+  "Gigbog" = -20
+  "Ommeg" = -20
+  "Boggla" = -20
+  "Okkgli" = -20
+  "Thol'reg" = -20
+  "Mug'sob" = -20
+  "Rebkli" = -20
+  "Rag'om" = -20
+  "Nugseb" = -20
+  "Mogbak" = -20
+  "Dokvor" = -20
+  "Trameg" = -20
+  "Gorte" = -20
+  "Roggvur" = -20
+  "Regmor" = -20
+  "Zegrog" = -20
+  "Klagall" = -20
+  "Ergkur" = -20
+  "Nagmug" = -20
+  "Virheb" = -20
+  "Rubsob" = -20
+  "Rablig" = -20
+  "Vir'var" = -20
+  "Nagdog" = -20
+  "Dugnog" = -20
+  "Luglig" = -20
+  "Habkur" = -20
+  "Karnug" = -20
+  "Bikgug" = -20
+  "Bukkir" = -20
+  "Glinig" = -20
+  "Varzig" = -20
+  "Rekgla" = -20
+  "Hebrok" = -20
+  "Mokrok" = -20
+  "Nagkur" = -20
+  "Nuggor" = -20
+  "Sab'gall" = -20
+  "Kurrob" = -20
+  "Tholreg" = -20
+  "Zighub" = -20
+  "Bik'sab" = -20
+  "Gorvor" = -20
+  "Rogtro" = -20
+  "Rogthol" = -20
+  "Dugvir" = -20
+  "Kliruk" = -20
+  "Tha'sob" = -20
+  "Rakbok" = -20
+  "Bakkla" = -20
+  "Ergrag" = -20
+  "Varglu" = -20
+  "Glamor" = -20
+  "Tyhab" = -20
+  "Glikor" = -20
+  "Tharogg" = -20
+  "Log'nig" = -20
+  "Hebmeg" = -20
+  "Nigrogg" = -20
+  "Tribog" = -20
+  "Tholrob" = -20
+  "Magsob" = -20
+  "Mor'sob" = -20
+  "Digmog" = -20
+  "Rogruk" = -20
+  "Okk'kla" = -20
+  "Roklug" = -20
+  "Gardug" = -20
+  "Arggla" = -20
+  "Ghakir" = -20
+  "Hubzag" = -20
+  "Lug'mug" = -20
+  "Nagvur" = -20
+  "Giggall" = -20
+  "Tedog" = -20
+  "Maulkir" = -20
+  "Bikmag" = -20
+  "Mogokk" = -20
+  "Zugrak" = -20
+  "Kor'gla" = -20
+  "Gheerg" = -20
+  "Virbik" = -20
+  "Sebgog" = -20
+  "Kligag" = -20
+  "Hebom" = -20
+  "Rogg'gor" = -20
+  "Dokkur" = -20
+  "Thol'sub" = -20
+  "Boghib" = -20
+  "Bekmeg" = -20
+  "Hoblag" = -20
+  "Sebhab" = -20
+  "Magom" = -20
+  "Hebgha" = -20
+  "Omrek" = -20
+  "Chogig" = -20
+  "Omlug" = -20
+  "Hab'gog" = -20
+  "Gagkir" = -20
+  "Zegneg" = -20
+  "Kerreg" = -20
+  "Tro'lug" = -20
+  "Ghebak" = -20
+  "Hab'seb" = -20
+  "Hobruk" = -20
+  "Rogggor" = -20
+  "Rakmog" = -20
+  "Bakzug" = -20
+  "Robdig" = -20
+  "Klarogg" = -20
+  "Megheb" = -20
+  "Kerbak" = -20
+  "Rebnug" = -20
+  "Zugdug" = -20
+  "Dogtro" = -20
+  "Gogty" = -20
+  "Hebgag" = -20
+  "Glaarg" = -20
+  "Kliseb" = -20
+  "Rebvir" = -20
+  "Sobdug" = -20
+  "Zuglog" = -20
+  "Tyrog" = -20
+  "Digtha" = -20
+  "Chogag" = -20
+  "Subkur" = -20
+  "Digrag" = -20
+  "Dogghe" = -20
+  "Rekvir" = -20
+  "Gigsob" = -20
+  "Korrub" = -20
+  "Nogrog" = -20
+  "Rogvor" = -20
+  "Glaerg" = -20
+  "Tyrub" = -20
+  "Kurzeg" = -20
+  "Vormog" = -20
+  "Hubnag" = -20
+  "Rakgha" = -20
+  "Buksab" = -20
+  "Dugokk" = -20
+  "Gugzeg" = -20
+  "Bikrob" = -20
+  "Gog'kor" = -20
+  "Maullog" = -20
+  "Vurty" = -20
+  "Roggneg" = -20
+  "Glagha" = -20
+  "Roklig" = -20
+  "Mugmok" = -20
+  "Hubcho" = -20
+  "Omrek" = -20
+  "Dokbok" = -20
+  "Naghab" = -20
+  "Ligzag" = -20
+  "Rek'seb" = -20
+  "Ziggall" = -20
+  "Dogglu" = -20
+  "Regkir" = -20
+  "Rubmeg" = -20
+  "Zigrag" = -20
+  "Gugdag" = -20
+  "Tezeg" = -20
+  "Zagsub" = -20
+  "Hebnag" = -20
+  "Triarg" = -20
+  "Tholhib" = -20
+  "Virlag" = -20
+  "Hubheb" = -20
+  "Klalog" = -20
+  "Korrogg" = -20
+  "Orgtha" = -20
+  "Lugzag" = -20
+  "Rabtro" = -20
+  "Habreb" = -20
+  "Gig'glu" = -20
+  "Ergrok" = -20
+  "Roggheb" = -20
+  "Hobbik" = -20
+  "Magkor" = -20
+  "Hebvur" = -20
+  "Zignog" = -20
+  "Klamok" = -20
+  "Laghob" = -20
+  "Ghagha" = -20
+  "Omvar" = -20
+  "Kerhub" = -20
+  "Virrab" = -20
+  "Hub'erg" = -20
+  "Maulgog" = -20
+  "Reb'rag" = -20
+  "Negdig" = -20
+  "Glate" = -20
+  "Gorvar" = -20
+  "Habcho" = -20
+  "Karglu" = -20
+  "Rekhab" = -20
+  "Regbog" = -20
+  "Glatri" = -20
+  "Sobghe" = -20
+  "Virgor" = -20
+  "Gallrog" = -20
+  "Negrob" = -20
+  "Neg'vir" = -20
+  "Erggag" = -20
+  "Ghasub" = -20
+  "Dogvur" = -20
+  "Ergkar" = -20
+  "Hubgha" = -20
+  "Hebreb" = -20
+  "Zigrob" = -20
+  "Chomor" = -20
+  "Gaggli" = -20
+  "Magarg" = -20
+  "Regdig" = -20
+  "Digbak" = -20
+  "Reg'gig" = -20
+  "Tholglu" = -20
+  "Vir'gor" = -20
+  "Lig'sab" = -20
+  "Ghazag" = -20
+  "Hibkur" = -20
+  "Rukvir" = -20
+  "Digvor" = -20
+  "Trorek" = -20
+  "Trozag" = -20
+  "Bikerg" = -20
+  "Argbog" = -20
+  "Tralag" = -20
+  "Zegglu" = -20
+  "Dagseb" = -20
+  "Tumok" = -20
+  "Rubnag" = -20
+  "Okkhib" = -20
+  "Okkrok" = -20
+  "Mogdig" = -20
+  "Robtu" = -20
+  "Habseb" = -20
+  "Gallgli" = -20
+  "Korkli" = -20
+  "Hublag" = -20
+  "Klaerg" = -20
+  "Klarog" = -20
+  "Ergkor" = -20
+  "Korgli" = -20
+  "Kerrog" = -20
+  "Nigdig" = -20
+  "Gorrak" = -20
+  "Garvar" = -20
+  "Kurrogg" = -20
+  "Dagdag" = -20
+  "Nogvar" = -20
+  "Hubmok" = -20
+  "Argbak" = -20
+  "Mugte" = -20
+  "Argmok" = -20
+  "Habgug" = -20
+  "Ghegag" = -20
+  "Kla'arg" = -20
+  "Bukrog" = -20
+  "Magdug" = -20
+  "Bekrok" = -20
+  "Regdog" = -20
+  "Ruk'rag" = -20
+  "Hibzig" = -20
+  "Lugbog" = -20
+  "Hib'dug" = -20
+  "Garthol" = -20
+  "Nogrek" = -20
+  "Hobrok" = -20
+  "Okksub" = -20
+  "Hob'gug" = -20
+  "Dokvor" = -20
+  "Ombuk" = -20
+  "Okkgha" = -20
+  "Rogggig" = -20
+  "Dagglu" = -20
+  "Ghamag" = -20
+  "Te'tha" = -20
+  "Bekrab" = -20
+  "Ragmag" = -20
+  "Orgom" = -20
+  "Karvor" = -20
+  "Ergrak" = -20
+  "Lughub" = -20
+  "Rogzeg" = -20
+  "Vurtro" = -20
+  "Rograb" = -20
+  "Sobmeg" = -20
+  "Rukrak" = -20
+  "Rogvur" = -20
+  "Negvar" = -20
+  "Goghub" = -20
+  "Hebrek" = -20
+  "Vortro" = -20
+  "Reb'kor" = -20
+  "Ghemaul" = -20
+  "Dugmaul" = -20
+  "Zugkor" = -20
+  "Lugtha" = -20
+  "Virhib" = -20
+  "Rakglu" = -20
+  "Rub'lug" = -20
+  "Maulbik" = -20
+  "Ragseb" = -20
+  "Tygla" = -20
+  "Vir'glu" = -20
+  "Tratra" = -20
+  "Maul'rog" = -20
+  "Tunog" = -20
+  "Rabgug" = -20
+  "Neghub" = -20
+  "Chothol" = -20
+  "Glutro" = -20
+  "Rogsub" = -20
+  "Thakar" = -20
+  "Korarg" = -20
+  "Chovar" = -20
+  "Erglig" = -20
+  "Zegreb" = -20
+  "Zig'dog" = -20
+  "Roggig" = -20
+  "Negmog" = -20
+  "Bikkir" = -20
+  "Lugrok" = -20
+  "Sobvor" = -20
+  "Glunag" = -20
+  "Gararg" = -20
+  "Rakmok" = -20
+  "Subdok" = -20
+  "Bikzag" = -20
+  "Hibker" = -20
+  "Ragnig" = -20
+  "Traarg" = -20
+  "Hibnug" = -20
+  "Klimeg" = -20
+  "Orgerg" = -20
+  "Gugty" = -20
+  "Garheb" = -20
+  "Dogkor" = -20
+  "Dugmag" = -20
+  "Morkur" = -20
+  "Doksab" = -20
+  "Bek'meg" = -20
+  "Dokdug" = -20
+  "Mugrog" = -20
+  "Nigkar" = -20
+  "Lugheb" = -20
+  "Rogggor" = -20
+  "Erg'ruk" = -20
+  "Habnig" = -20
+  "Habgor" = -20
+  "Niggall" = -20
+  "Kurtra" = -20
+  "Bekdug" = -20
+  "Klavur" = -20
+  "Thollug" = -20
+  "Nug'hob" = -20
+  "Tholgha" = -20
+  "Ligkar" = -20
+  "Negrub" = -20
+  "Rakdok" = -20
+  "Vurseb" = -20
+  "Rubgha" = -20
+  "Bukgig" = -20
+  "Maulokk" = -20
+  "Nogsub" = -20
+  "Regker" = -20
+  "Gallom" = -20
+  "Ergsub" = -20
+  "Mokom" = -20
+  "Neg'meg" = -20
+  "Klibak" = -20
+  "Dokmog" = -20
+  "Lugrag" = -20
+  "Mugcho" = -20
+  "Tusab" = -20
+  "Digzag" = -20
+  "Rubrek" = -20
+  "Kligag" = -20
+  "Habtha" = -20
+  "Karvar" = -20
+  "Vorrak" = -20
+  "Ombog" = -20
+  "Gigkla" = -20
+  "Hibthol" = -20
+  "Cho'erg" = -20
+  "Om'rek" = -20
+  "Bikcho" = -20
+  "Kornog" = -20
+  "Moggig" = -20
+  "Lagneg" = -20
+  "Log'tha" = -20
+  "Megzeg" = -20
+  "Orgzeg" = -20
+  "Tereg" = -20
+  "Maulzag" = -20
+  "Rabcho" = -20
+  "Subrob" = -20
+  "Lagkor" = -20
+  "Mokkar" = -20
+  "Lugkli" = -20
+  "Reg'rub" = -20
+  "Reggar" = -20
+  "Logzig" = -20
+  "Rogte" = -20
+  "Telag" = -20
+  "Varrub" = -20
+  "Neg'buk" = -20
+  "Gallzug" = -20
+  "Kirmaul" = -20
+  "Duglig" = -20
+  "Chohab" = -20
+  "Zeggha" = -20
+  "Megbik" = -20
+  "Klasob" = -20
+  "Nigmor" = -20
+  "Rog'gog" = -20
+  "Moktha" = -20
+  "Gigheb" = -20
+  "Omdig" = -20
+  "Hibom" = -20
+  "Karmok" = -20
+  "Reknog" = -20
+  "Meggha" = -20
+  "Bikgug" = -20
+  "Negmog" = -20
+  "Gigdog" = -20
+  "Virghe" = -20
+  "Loggig" = -20
+  "Robnig" = -20
+  "Meg'vir" = -20
+  "Bikbok" = -20
+  "Virkli" = -20
+  "Ghaokk" = -20
+  "Reblig" = -20
+  "Noglag" = -20
+  "Sobrok" = -20
+  "Var'erg" = -20
+  "Gogzug" = -20
+  "Ligvur" = -20
+  "Te'ghe" = -20
+  "Magkor" = -20
+  "Karrogg" = -20
+  "Tenog" = -20
+  "Dognig" = -20
+  "Hubgug" = -20
+  "Gugmog" = -20
+  "Negorg" = -20
+  "Erghub" = -20
+  "Moknug" = -20
+  "Bikrog" = -20
+  "Virtu" = -20
+  "Argmag" = -20
+  "Subrak" = -20
+  "Negkar" = -20
+  "Nigdog" = -20
+  "Kurdug" = -20
+  "Nug'lug" = -20
+  "Rakrogg" = -20
+  "Gagsob" = -20
+  "Bikdog" = -20
+  "Hobhob" = -20
+  "Ombek" = -20
+  "Tumeg" = -20
+  "Morsub" = -20
+  "Muggog" = -20
+  "Lig'gug" = -20
+  "Tymok" = -20
+  "Rogkor" = -20
+  "Nigglu" = -20
+  "Kurghe" = -20
+  "Diggig" = -20
+  "Nig'dig" = -20
+  "Bikheb" = -20
+  "Nagrog" = -20
+  "Zighab" = -20
+  "Rekgog" = -20
+  "Kir'bog" = -20
+  "Dagty" = -20
+  "Glasab" = -20
+  "Rog'vor" = -20
+  "Boggli" = -20
+  "Zigmag" = -20
+  "Gallhob" = -20
+  "Erghob" = -20
+  "Tumok" = -20
+  "Lugreg" = -20
+  "Dugnag" = -20
+  "Kirmog" = -20
+  "Rebrab" = -20
+  "Rekmug" = -20
+  "Doklug" = -20
+  "Okkhab" = -20
+  "Bakvar" = -20
+  "Regdog" = -20
+  "Ergheb" = -20
+  "Rukkor" = -20
+  "Cho'org" = -20
+  "Megmug" = -20
+  "Roggug" = -20
+  "Glathol" = -20
+  "Sob'hub" = -20
+  "Rekgall" = -20
+  "Gorlag" = -20
+  "Ty'tra" = -20
+  "Habtu" = -20
+  "Maulty" = -20
+  "Hob'kli" = -20
+  "Sebrag" = -20
+  "Dokkar" = -20
+  "Bektri" = -20
+  "Dogvor" = -20
+  "Dugtu" = -20
+  "Soborg" = -20
+  "Gugte" = -20
+  "Bukrog" = -20
+  "Ruk'gug" = -20
+  "Rubte" = -20
+  "Doggla" = -20
+  "Tukur" = -20
+  "Robhib" = -20
+  "Gigdok" = -20
+  "Robgug" = -20
+  "Hibgall" = -20
+}
+
+leader_names = {
+
+}
+
+ship_names = {
+  "Bonebreaker"
+  "Throatslicer"
+  "Foesmasher"
+  "Bloodstabber"
+  "Gutter"
+  "Ripper"
+  "Oceanpuncher"
+  "Seakicker"
+  "Massive"
+  "Mammoth"
+  "Monster"
+  "Colossal"
+  "Gigantic"
+  "Immense"
+  "Towering"
+  "Bulky"
+  "Titanic"
+  "Stalwart"
+  "Gutsy"
+  "Seafury"
+  "Desperate"
+  "Fierce"
+  "Inciter of Water Riots"
+  "Vicious"
+  "Rabid Shark"
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+
+
+graphical_culture = humangfx
+
+color = { 25 12 124 }
+
+monarch_names = {
+	"Harry" = 20
+	"Oliver" = 20
+	"Jack" = 20
+	"Charlie" = 20
+	"Jacob" = 20
+	"Thomas" = 20
+	"Alfie" = 20
+	"Riley" = 20
+	"William" = 20
+	"James" = 20
+	"Joshua" = 20
+	"George" = 20
+	"Ethan" = 20
+	"Noah" = 20
+	"Samuel" = 20
+	"Daniel" = 20
+	"Oscar" = 20
+	"Max" = 20
+	"Leo" = 20
+	"Tyler" = 20
+	"Joseph" = 20
+	"Archie" = 20
+	"Henry" = 20
+	"Lucas" = 20
+	"Alexander" = 20
+	"Dylan" = 20
+	"Logan" = 20
+	"Isaac" = 20
+	"Mason" = 20
+	"Benjamin" = 20
+	"Jake" = 20
+	"Finley" = 20
+	"Harrison" = 20
+	"Edward" = 20
+	"Jayden" = 20
+	"Freddie" = 20
+	"Adam" = 20
+	"Zachary" = 20
+	"Sebastian" = 20
+	"Ryan" = 20
+	"Lewis" = 20
+	"Theo" = 20
+	"Luke" = 20
+	"Harvey" = 20
+	"Toby" = 20
+	"Liam" = 20
+	"Callum" = 20
+	"Arthur" = 20
+	"Michael" = 20
+	"Jenson" = 20
+	"Tommy" = 20
+	"Nathan" = 20
+	"Bobby" = 20
+	"Connor" = 20
+	"David" = 20
+	"Luca" = 20
+	"Charles" = 20
+	"Kai" = 20
+	"Jamie" = 20
+	"Alex" = 20
+	"Blake" = 20
+	"Frankie" = 20
+	"Reuben" = 20
+	"Aaron" = 20
+	"Dexter" = 20
+	"Jude" = 20
+	"Leon" = 20
+	"Ollie" = 20
+	"Stanley" = 20
+	"Elliot" = 20
+	"Gabriel" = 20
+	"Cameron" = 20
+	"Owen" = 20
+	"Louie" = 20
+	"Aiden" = 20
+	"Louis" = 20
+	"Elijah" = 20
+	"Finlay" = 20
+	"Rhys" = 20
+	"Caleb" = 20
+	"Evan" = 20
+	"Fredirick" = 20
+	"Hugo" = 20
+	"Kian" = 20
+	"Sonny" = 20
+	"Seth" = 20
+	"Kayden" = 20
+	"Taylor" = 20
+	"Kyle" = 20
+	"Elliott" = 20
+	"Robert" = 20
+	"Theodore" = 20
+	"Bailey" = 20
+	"Rory" = 20
+	"Ellis" = 20
+	"Joel" = 20
+	"Bradley" = 20
+	"Hayden" = 20
+	"John" = 20
+	"Ronnie" = 20
+	"Olly" = 20
+	"Austin" = 20
+	"Albert" = 20
+	"Billy" = 20
+	"Ashton" = 20
+	"Christopher" = 20
+	"Jackson" = 20
+	"Felix" = 20
+	"Dominic" = 20
+	"Corey" = 20
+	"Ben" = 20
+	"Nathaniel" = 20
+	"Aidan" = 20
+	"Reece" = 20
+	"Cody" = 20
+	"Sam" = 20
+	"Maxwell" = 20
+	"Patrick" = 20
+	"Tobias" = 20
+	"Yusuf" = 20
+	"Jasper" = 20
+	"Jakub" = 20
+	"Finn" = 20
+	"Kaiden" = 20
+	"Roman" = 20
+	"Tristan" = 20
+	"Carter" = 20
+	"Zac" = 20
+	"Rwan" = 20
+	"Morgan" = 20
+	"Ali" = 20
+	"Jay" = 20
+	"Teddy" = 20
+	"Anthony" = 20
+	"Syed" = 20
+	"Filip" = 20
+	"Eli" = 20
+	"Flynn" = 20
+	"Joe" = 20
+	"Reggie" = 20
+	"Nicholas" = 20
+	"Spencer" = 20
+	"Cole" = 20
+	"Levi" = 20
+	"Andrew" = 20
+	"Ewan" = 20
+	"Zack" = 20
+	"Brandon" = 20
+	"Alfred" = 20
+	"Maximilian" = 20
+	"Milo" = 20
+	"Zain" = 20
+	"Layton" = 20
+	"Xavier" = 20
+	"Jason" = 20
+	"Zak" = 20
+	"Leighton" = 20
+	"Marcus" = 20
+	"Marley" = 20
+	"Johnathan" = 20
+	"Kieran" = 20
+	"Beau" = 20
+	"Kacper" = 20
+	"Ruben" = 20
+	"Declan" = 20
+	"Joey" = 20
+	"Alan" = 20
+	"Kevin" = 20
+	"Joanh" = 20
+	"Oskar" = 20
+	"Vincent" = 20
+	"Peter" = 20
+	"Jaiden" = 20
+	"Miles" = 20
+	"Rocco" = 20
+	"Albie" = 20
+	"Lukas" = 20
+	"Jensen" = 20
+	"Jaxon" = 20
+	"Ralph" = 20
+	"Rio" = 20
+	"Zach" = 20
+	"Tom" = 20
+	"Shay" = 20
+	"Jesse" = 20
+	"Fraser" = 20
+	"Lennon" = 20
+	"Myles" = 20
+		"Amelia" = -20
+	"Olivia" = -20
+	"Jessica" = -20
+	"Emily" = -20
+	"Lily" = -20
+	"Ava" = -20
+	"Mia" = -20
+	"Isla" = -20
+	"Sophie" = -20
+	"Isabella" = -20
+	"Evie" = -20
+	"Ruby" = -20
+	"Poppy" = -20
+	"Grace" = -20
+	"Sophia" = -20
+	"Chloe" = -20
+	"Isabelle" = -20
+	"Ella" = -20
+	"Freya" = -20
+	"Charlotte" = -20
+	"Scarlett" = -20
+	"Daisy" = -20
+	"Lola" = -20
+	"Eva" = -20
+	"Holly" = -20
+	"Millie" = -20
+	"Lucy" = -20
+	"Phoebe" = -20
+	"Layla" = -20
+	"Maisie" = -20
+	"Sienna" = -20
+	"Alice" = -20
+	"Lilly" = -20
+	"Florence" = -20
+	"Ellie" = -20
+	"Erin" = -20
+	"Imogen" = -20
+	"Elizabeth" = -20
+	"Molly" = -20
+	"Summer" = -20
+	"Megan" = -20
+	"Hannah" = -20
+	"Sofia" = -20
+	"Abigail" = -20
+	"Jasmine" = -20
+	"Lexi" = -20
+	"Matilda" = -20
+	"Rosie" = -20
+	"Lacey" = -20
+	"Emma" = -20
+	"Amelie" = -20
+	"Gracie" = -20
+	"Maya" = -20
+	"Hollie" = -20
+	"Georgia" = -20
+	"Emilia" = -20
+	"Evelyn" = -20
+	"Bella" = -20
+	"Brooke" = -20
+	"Amber" = -20
+	"Eliza" = -20
+	"Amy" = -20
+	"Eleanor" = -20
+	"Leah" = -20
+	"Esme" = -20
+	"Katie" = -20
+	"Harriet" = -20
+	"Anna" = -20
+	"Willow" = -20
+	"Elsie" = -20
+	"Zara" = -20
+	"Annabelle" = -20
+	"Bethany" = -20
+	"Faith" = -20
+	"Madison" = -20
+	"Isabel" = -20
+	"Martha" = -20
+	"Rose" = -20
+	"Julia" = -20
+	"Paige" = -20
+	"Maryam" = -20
+	"Maddison" = -20
+	"Heidi" = -20
+	"Mollie" = -20
+	"Niamh" = -20
+	"Skye" = -20
+	"Aisha" = -20
+	"Ivy" = -20
+	"Darcey" = -20
+	"Francesca" = -20
+	"Zoe" = -20
+	"Keira" = -20
+	"Tilly" = -20
+	"Maria" = -20
+	"Sarah" = -20
+	"Lydia" = -20
+	"Caitlin" = -20
+	"Isobel" = -20
+	"Sara" = -20
+	"Violet" = -20
+	"Alexis" = -20
+	"Lexie" = -20
+	"Lauren" = -20
+	"Mya" = -20
+	"Seren" = -20
+	"Victoria" = -20
+	"Darcy" = -20
+	"Rebecca" = -20
+	"Annabel" = -20
+	"Eloise" = -20
+	"Maisy" = -20
+	"Lottie" = -20
+	"Fatima" = -20
+	"Beatrice" = -20
+	"Lara" = -20
+	"Alexandra" = -20
+	"Tia" = -20
+	"Laila" = -20
+	"Nicole" = -20
+	"Gabriella" = -20
+	"Nevaeh" = -20
+	"Darcie" = -20
+	"Iris" = -20
+	"Isis" = -20
+	"Nancy" = -20
+	"Aaliyah" = -20
+	"Annie" = -20
+	"Libby" = -20
+	"Lois" = -20
+	"Alisha" = -20
+	"Maja" = -20
+	"Zainab" = -20
+	"Leila" = -20
+	"Lyla" = -20
+	"Eve" = -20
+	"Kayla" = -20
+	"Savannah" = -20
+	"Lena" = -20
+	"Hope" = -20
+	"Naomi" = -20
+	"Laura" = -20
+	"Angel" = -20
+	"Miley" = -20
+	"India" = -20
+	"Faye" = -20
+	"Zahra" = -20
+	"Elise" = -20
+	"Alicia" = -20
+	"Madeleine" = -20
+	"Natalia" = -20
+	"Eden" = -20
+	"Lillie" = -20
+	"Connie" = -20
+	"Aimee" = -20
+	"Robyn" = -20
+	"Orla" = -20
+	"Esther" = -20
+	"Georgina" = -20
+	"Scarlet" = -20
+	"Neve" = -20
+	"Mila" = -20
+	"Alyssa" = -20
+	"Alexa" = -20
+	"Anya" = -20
+	"Emelia" = -20
+	"Pippa" = -20
+	"Yasmin" = -20
+	"Abbie" = -20
+	"Jessie" = -20
+	"Beau" = -20
+	"Betsy" = -20
+	"Felicity" = -20
+	"Sadie" = -20
+	"Amira" = -20
+	"Frankie" = -20
+	"Aleena" = -20
+	"Nina" = -20
+	"Arabella" = -20
+	"Elsa" = -20
+	"Anaya" = -20
+	"Clara" = -20
+	"Macie" = -20
+	"Tabitha" = -20
+	"Hanna" = -20
+	"Mariam" = -20
+	"Elena" = -20
+	"Zuzanna" = -20
+	"Amina" = -20
+	"Autumn" = -20
+	"Lucia" = -20
+	"Alexia" = -20
+	"Melissa" = -20
+	"Nadia" = -20
+	"Ayla" = -20
+	"Macey" = -20
+	"Jemima" = -20
+	"Jennifer" = -20
+	"Lacie" = -20
+	"Skyla" = -20
+}
+
+leader_names = {
+		"Jonathan"
+	"Lothar"
+	"Clay"
+	"Fordragon"
+	"Windsor"
+	"Soluna"
+	"Leland"
+	"Stockton"
+	"Lohan"
+	"Bauden"
+	"McCoy"
+	"Allen"
+	"Miller"
+	"Gallina"
+	"Rall"
+	"Marie"
+	"Anship"
+	"Chaddis"
+	"Raskol"
+	"Langston"
+	"Stoutmantle"
+	"Stonefield"
+	"Schweitzer"
+	"Pfeiffer"
+	"Sanders"
+	"Lind"
+	"Pressler"
+	"Fielder"
+	"Odesyus"
+	"Taylor"
+	"Brom"
+	"Moulaine"
+	"Arbington"
+	"Mallory"
+	"Moore"
+	"Laughlin"
+	"Bolero"
+	"Constantine"
+	"Merriweather"
+	"Hafgan"
+	"Axeman"
+	"Potts"
+	"Derring"
+	"Jainrose"
+	"Eva"
+	"Griffith"
+	"Berrybuck"
+	"Davenport"
+	"Germaine"
+	"Halloran"
+	"Krighton"
+	"Fadran"
+	"Wainwright"
+	"Hastings"
+	"Kryten"
+	"Benedictus"
+	"Gaiman"
+	"Malin"
+	"Nakada"
+	"Cailen"
+	"Stormfeather"
+	"Marsters"
+	"Peshkov"
+	"Huwe"
+	"Neto"
+	"Blank"
+	"Bridenbecker"
+	"Downs"
+	"Chilton"
+	"Fitch"
+	"Fitzgerald"
+	"Hesse"
+	"Jaxon"
+	"Lauffer"
+	"Burnhep"
+	"Feeney"
+	"Windmill"
+	"Fellwood"
+	"Ironboot"
+	"Matalli"
+	"Daniels"
+	"Dobbins"
+	"Hann"
+	"Kelly"
+	"Townsley"
+	"Alexston"
+	"Tidewater"
+	"Wental"
+	"Bartleby"
+	"Ginsetti"
+	"Behsten"
+	"Mora"
+	"Trias"
+	"Carevin"
+	"Elgueta"
+	"Foxworthy"
+	"Stonehammer"
+	"Gump"
+	"Brubaker"
+	"Heisten"
+	"Quin"
+	"Featherwhistle"
+	"Maclure"
+	"DeLavey"
+	"Farthing"
+	"Grey"
+	"Gray"
+	"Hammerbeak"
+	"Hennigan"
+	"Cloudwing"
+	"Terrel"
+	"Hamfist"
+	"Stonebraid"
+	"Crowley"
+	"Grassman"
+	"Thomas"
+	"Jongleur"
+	"Alpert"
+	"Danuvin"
+	"Darill"
+	"Hanes"
+	"Dirgehammer"
+	"Holley"
+	"Revshon"
+	"Nials"
+	"Greenfield"
+	"Brownfield"
+	"Rouncefield"
+	"Longfield"
+	"Windfield"
+	"Oakfield"
+	"Oak"
+	"Maple"
+	"Yew"
+	"Teak"
+	"Sycaruse"
+	"Willow"
+	"Jones"
+	"Williams"
+	"Campbell"
+	"Davis"
+	"Thompson"
+	"Kelly"
+	"Sullivan"
+	"O'Brien"
+	"Evans"
+	"Brown"
+	"Lewis"
+	"Wilson"
+	"Wallace"
+	"Ryan"
+	"Moore"
+	"Anderson"
+	"Jackson"
+	"Johnson"
+	"Smith"
+	"Murphy"
+	"Rogers"
+	"Philips"
+	"Morgan"
+	"Graham"
+	"Robinson"
+	"Burns"
+	"Robertson"
+	"Rodriguez"
+	"Thomas"
+	"Walker"
+	"Clark"
+	"Harris"
+	"Wright"
+	"Howard"
+	"Powell"
+	"Price"
+	"King"
+	"Frizgerald"
+	"Roberts"
+	"Taylor"
+	"Lopez"
+	"Russell"
+	"Gray"
+	"Walsh"
+	"Duncan"
+	"Kelley"
+	"Stewart"
+	"Richardson"
+	"Higgins"
+	"Hamilton"
+	"Wells"
+	"Carroll"
+	"Ferguson"
+	"Armstrong"
+	"Allen"
+	"Burke"
+	"Cle"
+	"Lynch"
+	"McCarthy"
+	"Nelson"
+	"Baker"
+	"Parker"
+	"Hall"
+	"Moran"
+	"Craig"
+	"Perez"
+	"Davies"
+	"Watson"
+	"Hughes"
+	"Hill"
+	"Adams"
+	"Chapman"
+	"Casey"
+	"Butler"
+	"Ward"
+	"White"
+	"Knight"
+	"Garcia"
+	"Grant"
+	"Spencer"
+	"Henderson"
+	"Green"
+	"Perry"
+	"Bailey"
+	"Turner"
+	"Cunningham"
+	"Martin"
+	"Morris"
+	"McLaughlin"
+	"Harrison"
+	"Long"
+	"Flynn"
+	"Gallagher"
+	"Edwards"
+	"Brooks"
+	"Miller"
+	"Dunn"
+	"Cooper"
+	"Young"
+	"Owens"
+	"Cook"
+	"Carter"
+	"Ross"
+	"Ellis"
+	"Mitchell"
+	"Cameron"
+	"Warren"
+	"Johnston"
+	"Gibson"
+	"Smith"
+	"Buchanan"
+	"Barnes"
+	"Byrne"
+	"Riley"
+	"Morrison"
+	"Foster"
+	"Lloyd"
+	"Richards"
+	"McClure"
+	"Elliott"
+	"Taylor"
+	"Andrews"
+	"Miller"
+	"MacDonald"
+	"O'Neil"
+	"McMahon"
+	"Fowler"
+	"Douglas"
+	"Crawford"
+	"Mason"
+	"Alexander"
+	"Stevens"
+	"Hawkins"
+	"Clark"
+	"Wagner"
+	"Farrell"
+	"Wood"
+	"Fitzpatrick"
+	"McCormick"
+	"Webb"
+	"Myers"
+	"Hunt"
+	"Monygomery"
+	"Harper"
+	"Tucker"
+	"Schmidt"
+	"Torres"
+	"West"
+	"Sweeney"
+	"Holmes"
+	"Dixon"
+	"Payne"
+	"Barrett"
+	"Jensen"
+	"Perkins"
+	"O'Donnell"
+	"McLean"
+	"Scott"
+	"Lee"
+	"Murray"
+	"Reed"
+	"McCullough"
+	"Quinn"
+	"Bennett"
+	"Hopkins"
+	"Stephens"
+	"Ortiz"
+	"Foley"
+	"Simmons"
+	"Reid"
+	"McGrath"
+	"Patterson"
+	"Nolan"
+	"Kennedy"
+	"Joyce"
+	"Dillon"
+	"Doyle"
+	"Brennan"
+	"Holland"
+	"Gordon"
+	"Brady"
+	"McCann"
+	"Schneider"
+	"Rhodes"
+	"Little"
+	"Coleman"
+	"McDonald"
+	"Howell"
+	"Rowe"
+	"Reyes"
+	"Dougherty"
+	"Bates"
+}
+
+ship_names = {
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+

@@ -1,0 +1,139 @@
+# is_civilized
+# is_savage
+# is_lesser
+# is_bug
+# is_otherworld
+# is_good
+# is_evil
+
+is_civilized = {
+    OR = {
+        technology_group = tech_human
+        technology_group = tech_gnome
+        technology_group = tech_night_elf
+        technology_group = tech_high_elf
+        technology_group = tech_blood_elf
+        technology_group = tech_dwarf
+        technology_group = tech_draenei
+        technology_group = tech_goblin
+        technology_group = tech_tauren
+        technology_group = tech_undead
+        technology_group = tech_titan
+        technology_group = tech_tolvir
+        technology_group = tech_worgen
+        technology_group = tech_arrakoa
+        technology_group = tech_tuskarr
+        technology_group = tech_pandaren
+        technology_group = tech_ethereal
+        technology_group = tech_jinyu
+    }
+}
+
+is_savage = {
+    OR = {
+        technology_group = tech_orc
+        technology_group = tech_ogre
+        technology_group = tech_troll
+        technology_group = tech_naga
+        technology_group = tech_scourge
+        technology_group = tech_mogu
+        technology_group = tech_yaungol
+        technology_group = tech_vrykul
+        technology_group = tech_saurok
+    }
+}
+
+is_lesser = {
+    OR = {
+        technology_group = tech_satyr
+        technology_group = tech_mechagnome
+        technology_group = tech_murloc
+        technology_group = tech_gnoll
+        technology_group = tech_centaur
+        technology_group = tech_furbolg
+        technology_group = tech_wolfvar
+        technology_group = tech_gorloc
+        technology_group = tech_kobold
+        technology_group = tech_harpy
+        technology_group = tech_quillboar
+        technology_group = tech_magnataur
+        technology_group = tech_trogg
+        technology_group = tech_pygmy
+        technology_group = tech_sprite
+        technology_group = tech_virmen
+        technology_group = tech_hozen
+        technology_group = tech_grummle
+        technology_group = tech_giant
+        technology_group = tech_dryad
+    }
+}
+
+is_bug = {
+    OR = {
+        technology_group = tech_aqir
+        technology_group = tech_mantid
+    }
+}
+
+is_dragonflight = {
+    OR = {
+        technology_group = tech_red_dragonflight
+        technology_group = tech_blue_dragonflight
+        technology_group = tech_black_dragonflight
+        technology_group = tech_green_dragonflight
+        technology_group = tech_bronze_dragonflight
+        technology_group = tech_infinite_dragonflight
+    }
+}
+
+is_otherworld = {
+    OR = {
+        technology_group = tech_demon
+        technology_group = tech_water
+        technology_group = tech_fire
+        technology_group = tech_earth
+        technology_group = tech_air
+        technology_group = tech_ooze
+        technology_group = tech_sha
+    }
+}
+
+can_join_alliance = {
+    OR = {
+        technology_group = tech_human
+        technology_group = tech_gnome
+        technology_group = tech_night_elf
+        technology_group = tech_high_elf
+        technology_group = tech_dwarf
+        technology_group = tech_draenei
+        technology_group = tech_worgen
+        technology_group = tech_pandaren
+        technology_group = tech_jinyu
+        technology_group = tech_tuskarr
+        technology_group = tech_tauren
+    }
+    NOT = { religion_group = shadow_group }
+    NOT = { religion_group = old_gods_group }
+    NOT = { religion_group = elemental_group }
+    NOT = { religion_group = troll_group }
+    NOT = { religion_group = disorder_group }
+    NOT = { religion = corrupt_titan_worship }
+}
+
+can_join_horde = {
+    OR = {
+        technology_group = tech_goblin
+        technology_group = tech_tauren
+        technology_group = tech_undead
+        technology_group = tech_tuskarr
+        technology_group = tech_pandaren
+        technology_group = tech_orc
+        technology_group = tech_ogre
+        technology_group = tech_troll
+        technology_group = tech_jinyu
+    }
+    NOT = { religion_group = old_gods_group }
+    NOT = { religion_group = elemental_group }
+    NOT = { religion_group = disorder_group }
+}
+

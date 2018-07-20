@@ -1,0 +1,18 @@
+# Klaxxivess
+government 			= militaristic_kingdom
+mercantilism 		= 10
+technology_group 	= tech_mantid
+religion			= yshaarj
+primary_culture 	= mantid
+capital = 1
+
+546.1.1 = { 
+	monarch = { 
+		name = "Zhek'zed"
+        dynasty = "the Cruel"
+		adm = 3
+		dip = 3
+		mil = 3
+        female = yes
+	} 
+}

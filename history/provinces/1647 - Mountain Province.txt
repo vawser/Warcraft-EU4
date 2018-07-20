@@ -1,0 +1,17 @@
+
+is_city = no
+native_size = 33
+native_ferocity = 7
+native_hostileness = 0
+
+base_tax = 2
+base_production = 1
+base_manpower = 2
+
+culture = azerothian
+religion = arcane
+
+trade_goods = unknown
+hre = no
+
+

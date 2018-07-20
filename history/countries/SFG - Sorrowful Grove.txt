@@ -1,0 +1,18 @@
+# Green Dragonflight
+government 			= dragonflight_council
+mercantilism 		= 10
+technology_group 	= tech_green_dragonflight
+religion			= sect_of_the_dragons
+primary_culture 	= green_dragonflight
+capital = 1
+
+546.1.1 = {
+    monarch = {
+        name = "Eranikus"
+        dynasty = "the Verdant"
+        adm = 3
+        dip = 1
+        mil = 4
+    }
+}
+

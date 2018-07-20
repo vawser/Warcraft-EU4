@@ -1,0 +1,89 @@
+groups = {
+    # Common
+	tech_human = { start_cost_modifier = 0 start_level = 1 }
+    tech_worgen = { start_cost_modifier = 0 start_level = 1 }
+    tech_gnome = { start_cost_modifier = 0 start_level = 1 }
+    tech_night_elf = { start_cost_modifier = 0 start_level = 1 } #
+    tech_high_elf = { start_cost_modifier = 0 start_level = 1 } #
+    tech_blood_elf = { start_cost_modifier = 0 start_level = 1 } #
+    tech_dwarf = { start_cost_modifier = 0 start_level = 1 } #
+    tech_orc = { start_cost_modifier = 0 start_level = 1 }
+    tech_ogre = { start_cost_modifier = 0 start_level = 1 }
+    tech_draenei = { start_cost_modifier = 0 start_level = 1 }
+    tech_troll = { start_cost_modifier = 0 start_level = 1 }
+    tech_goblin = { start_cost_modifier = 0 start_level = 1 }
+    tech_tauren = { start_cost_modifier = 0 start_level = 1 }
+    
+    # Undead
+    tech_undead = { start_cost_modifier = 0 start_level = 1 }
+    tech_scourge = { start_cost_modifier = 0 start_level = 1 }
+
+    # Beast
+    tech_satyr = { start_cost_modifier = 0 start_level = 1 }
+    tech_centaur = { start_cost_modifier = 0 start_level = 1 }
+    tech_murloc = { start_cost_modifier = 0 start_level = 1 }
+    tech_gnoll = { start_cost_modifier = 0 start_level = 1 }
+    tech_furbolg = { start_cost_modifier = 0 start_level = 1 }
+    tech_kobold = { start_cost_modifier = 0 start_level = 1 }
+    tech_harpy = { start_cost_modifier = 0 start_level = 1 }
+    tech_quillboar = { start_cost_modifier = 0 start_level = 1 }
+    tech_trogg = { start_cost_modifier = 0 start_level = 1 } #
+    tech_pygmy = { start_cost_modifier = 0 start_level = 1 } #
+    tech_sprite = { start_cost_modifier = 0 start_level = 1 } #
+    tech_virmen = { start_cost_modifier = 0 start_level = 1 } #
+    
+    # Northrend
+	tech_vrykul = { start_cost_modifier = 0 start_level = 1 }
+	tech_magnataur = { start_cost_modifier = 0 start_level = 1 }
+    tech_wolfvar = { start_cost_modifier = 0 start_level = 1 }
+    tech_gorloc = { start_cost_modifier = 0 start_level = 1 }
+	tech_tuskarr = { start_cost_modifier = 0 start_level = 1 }
+    
+    # Pandaria
+	tech_pandaren = { start_cost_modifier = 0 start_level = 1 }
+	tech_mantid = { start_cost_modifier = 0 start_level = 1 }
+	tech_mogu = { start_cost_modifier = 0 start_level = 1 }
+	tech_yaungol = { start_cost_modifier = 0 start_level = 1 }
+    tech_saurok = { start_cost_modifier = 0 start_level = 1 } #
+    tech_jinyu = { start_cost_modifier = 0 start_level = 1 } #
+    tech_hozen = { start_cost_modifier = 0 start_level = 1 } #
+    tech_grummle = { start_cost_modifier = 0 start_level = 1 } #
+    
+    # Titanic
+    tech_titan = { start_cost_modifier = 0 start_level = 1 } 
+    tech_tolvir = { start_cost_modifier = 0 start_level = 1 } #
+    tech_mechagnome = { start_cost_modifier = 0 start_level = 1 } #
+   
+    # Elemental
+    tech_water = { start_cost_modifier = 0 start_level = 1 } #
+    tech_fire = { start_cost_modifier = 0 start_level = 1 } #
+    tech_earth = { start_cost_modifier = 0 start_level = 1 } #
+    tech_air = { start_cost_modifier = 0 start_level = 1 } #
+    tech_ooze = { start_cost_modifier = 0 start_level = 1 } #
+    tech_sha = { start_cost_modifier = 0 start_level = 1 } #
+    
+    # Special
+    tech_red_dragonflight = { start_cost_modifier = 0 start_level = 1 } #
+    tech_blue_dragonflight = { start_cost_modifier = 0 start_level = 1 } #
+    tech_black_dragonflight = { start_cost_modifier = 0 start_level = 1 } #
+    tech_green_dragonflight = { start_cost_modifier = 0 start_level = 1 } #
+    tech_bronze_dragonflight = { start_cost_modifier = 0 start_level = 1 } #
+    tech_infinite_dragonflight = { start_cost_modifier = 0 start_level = 1 } #
+
+    # Exotic
+    tech_aqir = { start_cost_modifier = 0 start_level = 1 }
+    tech_naga = { start_cost_modifier = 0 start_level = 1 }
+    tech_giant = { start_cost_modifier = 0 start_level = 1 } #
+    tech_dryad = { start_cost_modifier = 0 start_level = 1 } #
+    tech_demon = { start_cost_modifier = 0 start_level = 1 }
+
+    # Unused (kept for flavour)
+    tech_ethereal = { start_cost_modifier = 0 start_level = 1 }
+	tech_arrakoa = { start_cost_modifier = 0 start_level = 1 }
+}
+
+tables = {
+	adm_tech = "technologies/adm.txt"
+	dip_tech = "technologies/dip.txt"
+	mil_tech = "technologies/mil.txt"
+}

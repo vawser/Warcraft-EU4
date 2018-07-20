@@ -1,0 +1,235 @@
+monarch_power = ADM
+
+ahead_of_time = {
+	production_efficiency 	=	0.2
+    yearly_corruption       = -0.05
+}
+
+# 0
+technology = {
+	year = 686
+	
+    religious_tribe = yes
+    mercantile_tribe = yes
+    war_tribe = yes
+}
+# 1
+technology = {
+	year = 726
+	
+	may_support_rebels = yes
+}
+# 2
+technology = {
+	year = 756
+
+    administrative_kingdom = yes
+    administrative_republic = yes
+    administrative_theocracy = yes
+    administrative_order = yes	
+}
+# 3
+technology = {
+	year = 776
+
+	production_efficiency	=	0.05
+}
+# 4
+technology = {
+	year = 789
+
+    farm = yes
+}
+# 5
+technology = {
+	year = 802
+
+	allowed_idea_groups = 1
+	production_efficiency	 =	0.05
+}
+# 6
+technology = {
+	year = 815
+	
+    tavern = yes
+}
+# 7
+technology = {
+	year = 828
+	
+	allowed_idea_groups = 2	
+}
+# 8
+technology = {
+	year = 841
+
+    town_hall = yes
+
+	max_states = 3
+}
+# 9
+technology = {
+	year = 854
+
+	production_efficiency 	=	0.05
+    mine = yes
+}
+# 10
+technology = {
+	year = 867
+	
+	allowed_idea_groups = 3
+
+    mercantile_kingdom = yes
+    mercantile_republic = yes
+    mercantile_theocracy = yes
+    mercantile_order = yes
+}
+# 11
+technology = {
+	year = 880
+	
+    farmers_guild = yes
+}
+# 12
+technology = {
+	year = 893
+	
+	max_states = 3
+}
+# 13
+technology = {
+	year = 906
+	
+    militaristic_kingdom = yes
+    militaristic_republic = yes
+    militaristic_theocracy = yes
+    militaristic_order = yes
+    
+	production_efficiency 	=	0.05
+}
+# 14
+technology = {
+	year = 919
+	
+	allowed_idea_groups	= 4
+    foresters_guild = yes
+}
+# 15
+technology = {
+	year = 932
+	
+	may_force_march = yes
+    grand_palace = yes
+}
+# 16
+technology = {
+	year = 945
+	
+	production_efficiency 	=	0.05
+
+    grand_temple = yes
+}
+# 17
+technology = {
+	year = 958
+
+	max_states = 5
+	
+	administrative_efficiency = 0.1
+	development_efficiency = 0.1
+}
+# 18
+technology = {
+	year = 971
+	
+	allowed_idea_groups	= 5
+}
+# 19
+technology = {
+	year = 984
+	
+    tourney_grounds = yes   
+}
+# 20
+technology = {
+	year = 997
+	
+	max_states = 5
+}
+# 21
+technology = {
+	year = 1010
+	
+	production_efficiency 	=	0.05
+}
+# 22
+technology = {
+	year = 1023
+	
+	allowed_idea_groups = 6
+}
+# 23
+technology = {
+	year = 1036
+	
+	administrative_efficiency = 0.1
+	development_efficiency = 0.1
+}
+# 24
+technology = {
+	year = 1049
+	
+	max_states = 5
+}
+# 25
+technology = {
+	year = 1062
+	
+	production_efficiency 	=	0.05
+}
+# 26
+technology = {
+	year = 1075
+	
+	allowed_idea_groups 	= 	7
+}
+# 27
+technology = {
+	year = 1088
+	
+	administrative_efficiency = 0.1
+	development_efficiency = 0.1	
+	max_states = 5
+}
+# 28
+technology = {
+	year = 1101
+
+	production_efficiency 	=	0.05
+}
+# 29
+technology = {
+	year = 1114
+
+	allowed_idea_groups = 8
+}
+# 30
+technology = {
+	year = 1127
+	
+	production_efficiency 	=	0.05
+}
+# 31
+technology = {
+	year = 1140
+
+	max_states = 5
+}
+# 32
+technology = {
+	year = 1153
+	
+	production_efficiency 	=	0.05
+}
+

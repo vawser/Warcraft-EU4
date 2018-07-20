@@ -1,0 +1,260 @@
+# Province Triggered modifiers are here.
+# These are added to provinces through the add_province_triggered_modifier effect
+
+# These are faction-specific modifiers
+upm_temple_of_the_white_tiger = {
+    potential = {
+		owner = {
+			culture_group = pandaren_group
+		}
+	}
+
+	trigger = {
+		owner = {
+			culture_group = pandaren_group
+		}
+        culture = pandaren
+	}
+    
+    local_regiment_cost = -0.25
+    regiment_recruit_speed = -0.25
+    local_amount_of_banners = 0.25
+}
+
+upm_temple_of_the_jade_serpent = {
+    potential = {
+		owner = {
+			culture_group = pandaren_group
+		}
+	}
+
+	trigger = {
+		owner = {
+			culture_group = pandaren_group
+		}
+        culture = pandaren
+	}
+    
+    local_regiment_cost = -0.25
+    regiment_recruit_speed = -0.25
+    local_amount_of_banners = 0.25
+}
+
+upm_temple_of_the_red_crane = {
+    potential = {
+		owner = {
+			culture_group = pandaren_group
+		}
+	}
+
+	trigger = {
+		owner = {
+			culture_group = pandaren_group
+		}
+        culture = pandaren
+	}
+
+    local_regiment_cost = -0.25
+    regiment_recruit_speed = -0.25
+    local_amount_of_banners = 0.25
+}
+
+upm_temple_of_the_black_ox = {
+    potential = {
+		owner = {
+			culture_group = pandaren_group
+		}
+	}
+
+	trigger = {
+		owner = {
+			culture_group = pandaren_group
+		}
+        culture = pandaren
+	}
+    
+    local_regiment_cost = -0.25
+    regiment_recruit_speed = -0.25
+    local_amount_of_banners = 0.25
+}
+
+upm_seat_of_the_thunder_king = {
+    potential = {
+		owner = {
+			culture_group = mogu_group
+		}
+	}
+
+	trigger = {
+		owner = {
+			culture_group = mogu_group
+		}
+	}
+    
+    fort_level = 2
+}
+
+upm_temple_of_atal_hakkar = {
+    potential = {
+		owner = {
+			culture = hakkari
+		}
+	}
+
+	trigger = {
+		owner = {
+			culture = hakkari
+		}
+        religion = hakkari
+	}
+    
+    fort_level = 2
+}
+
+upm_icecrown_citadel = {
+    potential = {
+		owner = {
+			tag = SCO
+		}
+	}
+
+	trigger = {
+		owner = {
+			tag = SCO
+		}
+	}
+    
+    fort_level = 4
+}
+
+upm_ulduar = {
+    potential = {
+		owner = {
+			tag = ULD
+		}
+	}
+
+	trigger = {
+		owner = {
+			tag = ULD
+		}
+	}   
+    
+    fort_level = 2
+}
+
+upm_the_nexus = {
+    potential = {
+		owner = {
+			culture_group = dragon_group
+		}
+	}
+
+	trigger = {
+		owner = {
+			culture_group = dragon_group
+		}
+        culture = blue_dragonflight
+	} 
+    
+    fort_level = 2
+}
+
+upm_teldrassil = {
+    potential = {
+		owner = {
+			culture_group = night_elf_group
+		}
+	}
+
+	trigger = {
+		owner = {
+			culture_group = night_elf_group
+		}
+	} 
+    
+    all_power_cost = -0.1
+}
+
+upm_nordrassil = {
+    potential = {
+		owner = {
+			culture_group = night_elf_group
+		}
+	}
+
+	trigger = {
+		owner = {
+			culture_group = night_elf_group
+		}
+        NOT = { has_country_flag = nordrassil_destroyed }
+	} 
+    
+    all_power_cost = -0.1
+}
+
+upm_dark_portal = {
+    potential = {
+		owner = {
+			culture_group = orc_group
+		}
+	}
+
+	trigger = {
+		owner = {
+			culture_group = orc_group
+		}
+        NOT = { has_country_flag = dark_portal_destroyed }
+	}
+    
+    global_manpower = 100.0
+    land_forcelimit = 100
+}
+
+upm_ironforge = {
+    potential = {
+		owner = {
+			tag = IRO
+		}
+	}
+
+	trigger = {
+		owner = {
+			tag = IRO
+		}
+	} 
+    
+    fort_level = 2
+}
+
+upm_sunwell = {
+    potential = {
+		always = yes
+	}
+
+	trigger = {
+		owner = {
+			tag = QUE
+		}
+        NOT = { has_country_flag = sunwell_corruption }
+	} 
+    
+    all_power_cost = -0.1
+}
+
+upm_corrupted_sunwell = {
+    potential = {
+		always = yes
+	}
+
+	trigger = {
+        has_country_flag = sunwell_corruption
+	}
+    
+    on_activation = {
+	
+	}
+    on_deactivation = {
+	
+	}
+}

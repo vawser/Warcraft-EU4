@@ -1,0 +1,41 @@
+azerothian_ideas = {
+	start = {
+		diplomatic_upkeep = 2
+        global_unrest = -1
+	}
+
+	bonus = {
+		advisor_pool = 1
+	}
+	
+	trigger = {
+		primary_culture = azerothian
+	}
+	free = yes		
+	
+	azerothian_ideas_1 = {
+		global_tax_modifier = 0.1
+	}
+	azerothian_ideas_2 = {
+		global_manpower_modifier = 0.1
+	}
+	azerothian_ideas_3 = {
+		cavalry_cost = -0.10
+		cavalry_power = 0.1
+	}
+	azerothian_ideas_4 = {
+		build_cost = -0.25
+	}
+	azerothian_ideas_5 = {
+		technology_cost = -0.05
+		idea_cost = -0.1
+	}
+	azerothian_ideas_6 = {
+		num_accepted_cultures = 1
+		tolerance_heathen = 1
+	}
+	azerothian_ideas_7 = {
+		global_unrest = -1
+	}
+}
+

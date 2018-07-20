@@ -1,0 +1,193 @@
+namespace = game_setup
+
+country_event = {
+	id = game_setup.1
+	title = game_setup.1.title
+	desc = game_setup.1.desc
+	picture = ASSASSINATION_eventPicture
+	
+    hidden = yes
+    is_triggered_only = yes
+
+    trigger = {
+        NOT = { has_global_flag = completed_game_setup }
+    }
+
+    immediate = {
+        set_global_flag = completed_game_setup
+    }
+
+    option = {
+        name = game_setup.1.option.a
+
+    }  
+}
+
+country_event = {
+	id = game_setup.2
+	title = game_setup.2.title
+	desc = game_setup.2.desc
+	picture = ASSASSINATION_eventPicture
+	
+    hidden = yes
+    is_triggered_only = yes
+
+    trigger = {
+        NOT = { has_country_flag = completed_country_game_setup }
+    }
+
+    immediate = {
+        set_country_flag = completed_country_game_setup
+    }
+
+    option = {
+        name = game_setup.3.option.a
+
+    }  
+}
+
+country_event = {
+	id = game_setup.3
+	title = game_setup.3.title
+	desc = game_setup.3.desc
+	picture = ASSASSINATION_eventPicture
+	
+    hidden = yes
+    
+	trigger = { NOT = { has_country_flag = completed_discovery } }
+	
+	immediate = { hidden_effect = { set_country_flag = completed_discovery } }
+	
+	option = {
+		name = game_setup.3.option.a
+
+        every_province = {
+            undiscover_country = ROOT
+        }
+        
+        # Eastern Kingdoms
+        if = {
+            limit = {
+                capital_scope = { 
+                    OR = {
+                        continent = azeroth
+                        continent = khaz_modan
+                        continent = lordaeron
+                    }
+                }
+            }
+            plunder_isle = { discover_country = ROOT }
+            azeroth = { discover_country = ROOT }
+            khaz_modan = { discover_country = ROOT }
+            lordaeron = { discover_country = ROOT }
+            region_ocean_5 = { discover_country = ROOT }
+            region_ocean_8 = { discover_country = ROOT }
+            region_ocean_4 = { discover_country = ROOT }
+            region_ocean_3 = { discover_country = ROOT }
+            region_ocean_2 = { discover_country = ROOT }
+            region_ocean_22 = { discover_country = ROOT }
+        }
+        
+        # Kalimdor
+        if = {
+            limit = {
+                capital_scope = { 
+                    OR = {
+                        continent = northern_kalimdor
+                        continent = central_kalimdor
+                        continent = southern_kalimdor
+                    }
+                }
+            }
+            northern_kalimdor = { discover_country = ROOT }
+            central_kalimdor = { discover_country = ROOT }
+            southern_kalimdor = { discover_country = ROOT }
+            region_ocean_16 = { discover_country = ROOT }
+            region_ocean_15 = { discover_country = ROOT }
+            region_ocean_17 = { discover_country = ROOT }
+            region_ocean_18 = { discover_country = ROOT }
+            region_ocean_19 = { discover_country = ROOT }
+            region_ocean_20 = { discover_country = ROOT }
+        }
+        
+        # Northrend
+        if = {
+            limit = {
+                capital_scope = { 
+                    continent = northrend
+                }
+            }
+            northrend = { discover_country = ROOT }
+            region_ocean_13 = { discover_country = ROOT }
+            region_ocean_11 = { discover_country = ROOT }
+            region_ocean_12 = { discover_country = ROOT }
+        }
+        
+        # Pandaria
+        if = {
+            limit = {
+                capital_scope = { 
+                    continent = pandaria
+                }
+            }
+            pandaria = { discover_country = ROOT }
+            region_ocean_6 = { discover_country = ROOT }
+            region_ocean_14 = { discover_country = ROOT }
+            region_ocean_7 = { discover_country = ROOT }
+        }
+        
+        # Kezan
+        if = {
+            limit = {
+                capital_scope = { 
+                    continent = kezan
+                }
+            }
+            kezan = { discover_country = ROOT }
+            region_ocean_10 = { discover_country = ROOT }
+        }
+        
+        # Zandalar
+        if = {
+            limit = {
+                capital_scope = { 
+                    continent = zandalar
+                }
+            }
+            zandalar = { discover_country = ROOT }
+            region_ocean_9 = { discover_country = ROOT }
+        }
+        
+        # Plunder Isle
+        if = {
+            limit = {
+                capital_scope = { 
+                    continent = plunder_isle
+                }
+            }
+            plunder_isle = { discover_country = ROOT }
+            azeroth = { discover_country = ROOT }
+            khaz_modan = { discover_country = ROOT }
+            lordaeron = { discover_country = ROOT }
+            region_ocean_5 = { discover_country = ROOT }
+            region_ocean_8 = { discover_country = ROOT }
+            region_ocean_4 = { discover_country = ROOT }
+            region_ocean_3 = { discover_country = ROOT }
+            region_ocean_2 = { discover_country = ROOT }
+            region_ocean_22 = { discover_country = ROOT }
+        }
+        
+        # Broken Isles
+        if = {
+            limit = {
+                capital_scope = { 
+                    continent = broken_isles
+                }
+            }
+            broken_isles = { discover_country = ROOT }
+            region_ocean_9 = { discover_country = ROOT }
+        }
+    }
+}
+
+

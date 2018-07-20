@@ -1,0 +1,57 @@
+diety_tayutka = { 
+	global_tax_modifier = 0.15
+	
+    allow = { 
+        religion = tuskarr_pantheon
+        culture_group = tuskarr_group
+	}
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1	
+	}	
+}
+
+diety_issliruk = { 
+	production_efficiency = 0.15
+	
+    allow = { 
+        religion = tuskarr_pantheon
+        culture_group = tuskarr_group
+	}
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+
+diety_karkut = { 
+	siege_ability = 0.15
+
+    allow = { 
+        religion = tuskarr_pantheon
+        culture_group = tuskarr_group
+	}
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1		
+	}	
+}
+
+diety_oacha_noa = { 
+	development_cost = -0.1
+	
+    allow = { 
+        religion = tuskarr_pantheon
+        culture_group = tuskarr_group
+	}
+	sprite = 13
+	
+	ai_will_do = {
+		factor = 1	
+	}	
+}
+
+

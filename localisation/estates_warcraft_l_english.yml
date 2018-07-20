@@ -1,0 +1,206 @@
+﻿l_english:
+ #-----------------------------------
+ # Estates
+ #-----------------------------------
+ estate_nobility: "Nobility"
+ estate_nobility_desc: "The wealthy and powerful of our realm form our nobility. Fickle creatures as they are, nobles will only follow orders once they've been sufficiently motivated."
+ 
+ estate_chieftains: "Chieftains"
+ estate_chieftains_desC: "The wealthy and powerful of our realm that have been appointed chieftains. Fickle creatures as they are, chieftains will only follow orders once they've been sufficiently motivated."
+ 
+ estate_clergy: "Clergy"
+ estate_clergy_desc: "The devout and the downtrodden comprise our clergy. Charitable folks, they will help those who need it most. However, if we attempt to discourage worship of their favoured god, they will not go down without a fight."
+ 
+ estate_merchants: "Merchants"
+ estate_merchants_desc: "The buyers and sellers of our realm. Merchants care for one thing only, money and will pursue its accumulation without undue vigour. Attempting to separate a merchant and his wealth is not advised."
+ 
+ estate_peasantry: "Peasantry"
+ estate_peasantry_desc: "The common folk. A wide and unorganised group, commoners will rare want for much and are often satisfied if the status quo is not disturbed. However, if times get particularly tough, they will resent their overlords and plot rebellion."
+ 
+ estate_legion: "Legion Ambassadors"
+ estate_legion_desc: "Demonic emissaries and warlocks empowered by the Burning Legion.  Their gifts are many but we may not want them all."
+ 
+ estate_old_gods: "Old God Ambassadors"
+ estate_old_gods_desc: "More direct representatives of our gods.  Nightmares that cast such beautiful shadows in our society, let them seize too much power and they'll drag us into madness."
+ 
+ #------------------------------------------
+ # Actions
+ #------------------------------------------
+ DEMAND_BACKING: "Demand Backing"
+ SEEK_SUPPORT: "Seek Support"
+ SWEAR_FEALTY: "Swear Fealty"
+ 
+ BRIBE_CLERGY: "Bribe Clergy"
+ BRIBE_MERCHANTS: "Bribe Merchants"
+ BRIBE_NOBILITY: "Bribe Nobility"
+ BRIBE_PEASANTRY: "Bribe Peasantry"
+ BRIBE_LEGION: "Bribe Legion Ambassadors"
+ BRIBE_OLD_GODS: "Bribe Old God Ambassadors"
+ 
+ INSTITUTE_NEW_TAX: "Institute New Tax"
+ DEMAND_CONTRIBUTION: "Demand Contribution"
+ PURGE_CORRUPTION: "Purge Corruption"
+ CONSOLIDATE_DEBT: "Consolidate Debt"
+ LEGITIMIZE_GOVERNMENT: "Legitimize Government"
+ PROMOTE_MERCANTILISM: "Promote Mercantilism"
+ EMPLOY_MERCHANT: "Employ Merchant"
+ ENACT_MARKET_PROPAGANDA: "Enact Mercantile Propaganda"
+ ENFORCE_TRADITIONS: "Enforce Traditions"
+ APPOINT_GENERAL: "Appoint General"
+ APPOINT_ADMIRAL: "Appoint Admiral"
+ MUSTER_SOLDIERS: "Muster Soldiers"
+ MUSTER_SAILORS: "Muster Sailors"
+ AUTHORIZE_IDEAS_EXCHANGE: "Authorize Ideas Exchange"
+ INSTITUTE_HARSH_TREATMENT: "Institute Harsh Treatment"
+ INSTITUTE_CAPITAL_PUNISHMENT: "Institute Capital Punishment"
+ ENCOURAGE_EXPANSION: "Encourage Expansion of Borders"
+ ENCOURAGE_FREETHINKERS: "Encourage Freethinkers"
+ EMPLOY_EXOTIC_ADVISORS: "Employ Exotic Advisors"
+ DISPLAY_RELIGIOUS_GLORY: "Display Religious Glory"
+ INCITE_RELIGIOUS_FERVOR: "Incite Religious Fervor"
+ ENDORSE_RELIGIOUS_FIGURE: "Endorse Religious Figure"
+ HASTEN_CONSTRUCTION_PROJECTS: "Hasten Construction Projects"
+ ENFORCE_AUTHORITY: "Enforce Authority"
+ 
+ RECRUIT_THEOLOGIAN: "Recruit Theologian"
+ RECRUIT_INQUISITOR: "Recruit Inquisitor"
+ RECRUIT_JUDGE: "Recruit Judge"
+ RECRUIT_TRADER: "Recruit Trader"
+ RECRUIT_NAVIGATOR: "Recruit Navigator"
+ RECRUIT_TAILOR: "Recruit Tailor"
+ RECRUIT_PHILOSOPHER: "Recruit Philosopher"
+ RECRUIT_GOVERNOR: "Recruit Governor"
+ RECRUIT_COMMANDANT: "Recruit Commandant"
+ RECRUIT_STONEMASON: "Recruit Stonemason"
+ RECRUIT_ELDER: "Recruit Elder"
+ RECRUIT_BLACKSMITH: "Recruit Blacksmith"
+ RECRUIT_VOID_EMISSARY: "Recruit Void Emissary"
+ RECRUIT_VOID_ENVOY: "Recruit Void Envoy"
+ RECRUIT_VOID_DISCIPLE: "Recruit Void Disciple"
+ RECRUIT_OBSERVER: "Recruit Observer"
+ RECRUIT_ARANASI: "Recruit Aranasi"
+ RECRUIT_INQUISITOR: "Recruit Inquisitor"
+ RECRUIT_IMP_MOTHER: "Recruit Imp Mother"
+ RECRUIT_WRATHGUARD: "Recruit Wrathguard"
+ RECRUIT_PITLORD: "Recruit Pitlord"
+ 
+ #------------------------------------------
+ # Influence
+ #------------------------------------------
+ EST_VAL_RECRUITED_LEADER: "Recruited Leader: §Y$VAL$§!"
+ EST_VAL_RECRUITED_ADVISOR: "Recruited Advisor: §Y$VAL$§!"
+ EST_VAL_SOUGHT_SUPPORT: "Sought Support: §Y$VAL$§!"
+ EST_VAL_LEGITIMIZED_GOVERNMENT: "Legitimized Government: §Y$VAL$§!"
+ EST_VAL_CONSOLIDATED_DEBT: "Consolidated Debt: §Y$VAL$§!"
+ EST_VAL_PROMOTED_MERCANTILISM: "Promoted Mercantilism: §Y$VAL$§!"
+ EST_VAL_IDEAS_EXCHANGE: "Ideas Exchange: §Y$VAL$§!"
+ EST_VAL_FRONTIER_RUSH: "Frontier Rush: §Y$VAL$§!"
+ EST_VAL_CAPITAL_PUNISHMENT: "Capital Punishment: §Y$VAL$§!"
+ EST_VAL_HARSH_TREATMENT: "Harsh Treatment: §Y$VAL$§!"
+ EST_VAL_MERCANTILE_PROPAGANDA: "Mercantile Propaganda: §Y$VAL$§!"
+ EST_VAL_ADDITIONAL_MERCHANTS: "Additional Merchants: §Y$VAL$§!"
+ EST_VAL_FREETHINKERS: "Freethinkers: §Y$VAL$§!"
+ EST_VAL_EXOTIC_ADVISORS: "Exotic Advisors: §Y$VAL$§!"
+ EST_VAL_RELIGIOUS_GLORY: "Religious Glory: §Y$VAL$§!"
+ EST_VAL_ENDORSED_RELIGIOUS_FIGURE: "Endorsed Religious Figure: §Y$VAL$§!"
+
+ #------------------------------------------
+ # Loyalty
+ #------------------------------------------
+ EST_VAL_LEGITIMATE: "Legitimate Government: §Y$VAL$§!"
+ EST_VAL_ILLEGITIMATE: "Illegitimate Government: §Y$VAL$§!"
+ EST_VAL_HIGH_MERCANTILISM: "High Mercantilism: §Y$VAL$§!"
+ EST_VAL_LOW_MERCANTILISM: "Low Mercantilism: §Y$VAL$§!"
+ EST_VAL_HIGH_TRADITION: "High Army Tradition: §Y$VAL$§!"
+ EST_VAL_LOW_TRADITION: "Low Army Tradition: §Y$VAL$§!"
+ EST_VAL_HIGH_FEL_INFLUENCE: "High Fel Influence: §Y$VAL$§!"
+ EST_VAL_LOW_FEL_INFLUENCE: "Low Fel Influence: §Y$VAL$§!""
+
+ #------------------------------------------
+ # Event Modifiers
+ #------------------------------------------
+ frontier_rush: "Frontier Rush"
+ desc_frontier_rush: ""
+ idea_exchange: "Idea Exchange"
+ desc_idea_exchange: ""
+ additional_merchants: "Additional Merchants"
+ desc_additional_merchants: ""
+ persuasive_merchants: "Persuasive Merchants"
+ desc_persuasive_merchants: ""
+ harsh_treatment: "Harsh Treatment"
+ desc_harsh_treatment: ""
+ capital_punishment: "Capital Punishment"
+ desc_capital_punishment: ""
+ freethinkers: "Freethinkers"
+ desc_freethinkers: ""
+ exotic_advisors: "Exotic Advisors"
+ desc_exotic_advisors: ""
+ rush_of_religion: "Rush of Religion"
+ desc_rush_of_religion: ""
+ fast_construction: "Fast Construction"
+ desc_fast_construction: ""
+ 
+ #------------------------------------------
+ # Disasters
+ #------------------------------------------
+ estate_nobility_disaster: "Tyranny of the Nobles"
+ estate_clergy_disaster: "Tyranny of the Clergy"
+ estate_merchants_disaster: "Tyranny of the Merchants"
+ estate_peasantry_disaster: "Tyranny of the Masses"
+ estate_legion_disaster: "Legion Domination"
+ estate_old_gods_disaster: "Old God Domination"
+ 
+ EST_CRUSHED_NOBILITY: "The $ESTATE_NOBILITY$ have been curtailed"
+ EST_CRUSHED_CLERGY: "The $ESTATE_CLERGY$ have been curtailed"
+ EST_CRUSHED_MERCHANTS: "The $ESTATE_MERCHANTS$ have been curtailed"
+ EST_CRUSHED_PEASANTRY: "The $ESTATE_PEASANTRY$ have been curtailed"
+ EST_CRUSHED_LEGION: "The $ESTATE_LEGION$ have been curtailed"
+ EST_CRUSHED_OLD_GODS: "The $ESTATE_OLD_GODS$ have been curtailed"
+ 
+ TT_ESTATE_NOBILITY_DISASTER_EVENT: "[Root.GetName] will now be controlled by the §Y$ESTATE_NOBILITY§! until the §Y'Curtail the $ESTATE_NOBILITY'§! decision is taken."
+ TT_ESTATE_CLERGY_DISASTER_EVENT: "[Root.GetName] will now be controlled by the §Y$ESTATE_CLERGY§! until the §Y'Curtail the $ESTATE_CLERGY'§! decision is taken."
+ TT_ESTATE_MERCHANTS_DISASTER_EVENT: "[Root.GetName] will now be controlled by the §Y$ESTATE_MERCHANTS§! until the §Y'Curtail the $ESTATE_MERCHANTS'§! decision is taken."
+ TT_ESTATE_PEASANTRY_DISASTER_EVENT: "[Root.GetName] will now be controlled by the §Y$ESTATE_PEASANTRY§! until the §Y'Curtail the $ESTATE_PEASANTRY'§! decision is taken."
+ TT_ESTATE_LEGION_DISASTER_EVENT: "[Root.GetName] will now be controlled by the §Y$ESTATE_LEGION§! until the §Y'Curtail the $ESTATE_LEGION'§! decision is taken."
+ TT_ESTATE_OLD_GODS_DISASTER_EVENT: "[Root.GetName] will now be controlled by the §Y$ESTATE_OLD_GODS§! until the §Y'Curtail the $ESTATE_OLD_GODS'§! decision is taken."
+ 
+ curtail_the_nobility_title: "Curtail the $ESTATE_NOBILITY$"
+ curtail_the_nobility_desc: "Our realm is run by and for the $ESTATE_NOBILITY$. To adopt a more centralized administration we will need to curtail their power and privileges."
+ curtail_the_merchants_title: "Curtail the $ESTATE_MERCHANTS$"
+ curtail_the_merchants_desc: "Our realm is run by and for the $ESTATE_MERCHANTS$. To adopt a more centralized administration we will need to curtail their power and privileges."
+ curtail_the_clergy_title: "Curtail the $ESTATE_CLERGY$"
+ curtail_the_clergy_desc: "Our realm is run by and for the $ESTATE_CLERGY$. To adopt a more centralized administration we will need to curtail their power and privileges."
+ curtail_the_peasantry_title: "Curtail the $ESTATE_PEASANTRY$"
+ curtail_the_peasantry_desc: "Our realm is run by and for the $ESTATE_PEASANTRY$. To adopt a more centralized administration we will need to curtail their power and privileges."
+ curtail_the_legion_title: "Curtail the $ESTATE_LEGION$"
+ curtail_the_legion_desc: "Our realm is run by and for the $ESTATE_LEGION$. To adopt a more centralized administration we will need to curtail their power and privileges."
+ curtail_the_old_gods_title: "Curtail the $ESTATE_OLD_GODS$"
+ curtail_the_old_gods_desc: "Our realm is run by and for the $ESTATE_OLD_GODS$. To adopt a more centralized administration we will need to curtail their power and privileges."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

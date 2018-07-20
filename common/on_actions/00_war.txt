@@ -1,0 +1,40 @@
+# War
+on_battle_won_unit = {
+	if = { limit = { unit_owner = { ai = no } general_with_steam_name = yes }
+        unit_owner = { set_country_flag = general_with_steam_name_won_battle }
+	}
+}
+
+on_general_recruited = {
+	add_army_professionalism = 0.01
+}
+
+on_mercenary_recruited = {
+	FROM = {
+		add_army_professionalism = -0.0015
+	}
+}
+
+on_peace_actor = { }
+on_peace_recipient = { }
+on_war_won = { }                # ROOT = Winner, FROM = Loser
+on_war_lost = {}                # ROOT = Loser, FROM = Winner
+on_battle_won_country = { }     # ROOT = Winner, FROM = Loser
+on_battle_lost_country = { }    # ROOT = Loser, FROM = Winner
+on_siege_won_country = { }      # ROOT = Winner, FROM = Province
+on_siege_lost_country = { }     # ROOT = Loser, FROM = Province
+on_colonial_liberation = { }
+on_colonial_reintegration = { }
+
+on_battle_won_province = { }    # ROOT = Province, FROM = Loser
+on_battle_lost_province = { }   # ROOT = Province, FROM = Winner
+on_battle_lost_unit = { }
+on_siege_won_province = { }     # ROOT = Province, FROM = Loser
+on_siege_lost_province = { }    # ROOT = Province, FROM = Winner
+
+on_regiment_recruited = { }     # ROOT = Province, FROM = Actor
+on_explorer_recruited = { }
+on_conquistador_recruited = { }
+on_admiral_recruited = { }
+on_leader_recruited = { }
+

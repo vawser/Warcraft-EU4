@@ -1,0 +1,46 @@
+darnassian_ideas = {
+	start = {
+		army_tradition = 0.5
+        global_unrest = -1
+	}
+
+	bonus = {
+		tolerance_heretic = 2
+    }
+    
+	trigger = {
+		culture_group = night_elf_group
+	}
+	free = yes		
+	 
+    # Nature's Blessing
+	darnassian_ideas_1 = {
+        infantry_power = 0.10
+	}
+    # Ashenvale Lumber
+	darnassian_ideas_2 = {
+        global_ship_cost = -0.1
+        heavy_ship_power = 0.10
+	}
+    # Verdant Growth
+	darnassian_ideas_3 = {
+        global_trade_goods_size_modifier = 0.10
+	}
+    # Patient Hunters
+	darnassian_ideas_4 = {
+        leader_land_fire = 1
+	}
+    # Might of Darnassus
+	darnassian_ideas_5 = {
+        discipline = 0.05
+	}
+    # Venerable Commanders
+	darnassian_ideas_6 = {
+        land_morale = 0.10
+	}
+    # Power of the Ancients
+	darnassian_ideas_7 = {
+        cavalry_power = 0.10
+    }
+}
+

@@ -1,0 +1,36 @@
+save_government_type = {
+    if = { limit = { government = administrative_kingdom } set_country_flag = administrative_kingdom }
+    else_if = { limit = { government = mercantile_kingdom } set_country_flag = mercantile_kingdom }
+    else_if = { limit = { government = militaristic_kingdom } set_country_flag = militaristic_kingdom }
+    else_if = { limit = { government = administrative_republic } set_country_flag = administrative_republic }
+    else_if = { limit = { government = mercantile_republic } set_country_flag = mercantile_republic }
+    else_if = { limit = { government = militaristic_republic } set_country_flag = militaristic_republic }
+    else_if = { limit = { government = religious_tribe } set_country_flag = religious_tribe }
+    else_if = { limit = { government = mercantile_tribe } set_country_flag = mercantile_tribe }
+    else_if = { limit = { government = war_tribe } set_country_flag = war_tribe }
+    else = { set_country_flag = invalid_government }
+}
+
+restore_government_type = {
+    if = { limit = { has_country_flag = administrative_kingdom } change_government = administrative_kingdom }
+    else_if = { limit = { has_country_flag = mercantile_kingdom } change_government = mercantile_kingdom }
+    else_if = { limit = { has_country_flag = militaristic_kingdom } change_government = militaristic_kingdom }
+    else_if = { limit = { has_country_flag = administrative_republic } change_government = administrative_republic }
+    else_if = { limit = { has_country_flag = mercantile_republic } change_government = mercantile_republic }
+    else_if = { limit = { has_country_flag = militaristic_republic } change_government = militaristic_republic }
+    else_if = { limit = { has_country_flag = religious_tribe } change_government = religious_tribe }
+    else_if = { limit = { has_country_flag = mercantile_tribe } change_government = mercantile_tribe }
+    else_if = { limit = { has_country_flag = war_tribe } change_government = war_tribe }
+    
+    hidden_effect = {
+        clr_country_flag = administrative_kingdom
+        clr_country_flag = mercantile_kingdom
+        clr_country_flag = militaristic_kingdom
+        clr_country_flag = administrative_republic
+        clr_country_flag = mercantile_republic
+        clr_country_flag = militaristic_republic
+        clr_country_flag = religious_tribe
+        clr_country_flag = mercantile_tribe
+        clr_country_flag = war_tribe
+    }
+}

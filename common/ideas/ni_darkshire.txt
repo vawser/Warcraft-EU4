@@ -1,0 +1,52 @@
+darkshire_ideas = {
+	start = {
+		fort_maintenance_modifier = -0.15
+        hostile_attrition = 1
+	}
+
+	bonus = {
+		advisor_pool = 1
+	}
+	
+	trigger = {
+		tag = DAR
+	}
+	free = yes		
+	
+    # The Night Watch
+	darkshire_ideas_1 = {
+		land_forcelimit_modifier = 0.2
+	}
+    
+    # The Grand Hamlet
+	darkshire_ideas_2 = {
+		development_cost = -0.15
+	}
+    
+    # Purge the Undead
+	darkshire_ideas_3 = {
+		global_missionary_strength = 0.05
+	}
+    
+    # House of Ebonlocke
+	darkshire_ideas_4 = {
+		legitimacy = 1
+        republican_tradition = 1
+	}
+    
+    # The Harvest Witches
+	darkshire_ideas_5 = {
+		global_unrest = -1
+	}
+    
+    # Worgen Hunts
+	darkshire_ideas_6 = {
+		infantry_power = 0.1
+	}
+    
+    # The Great Tree
+	darkshire_ideas_7 = {
+		ae_impact = -0.1
+	}
+}
+

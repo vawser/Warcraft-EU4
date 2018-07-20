@@ -1,0 +1,220 @@
+# add_alliance_membership = yes
+# remove_alliance_membership = yes
+# add_horde_membership = yes
+# remove_horde_membership = yes
+# disband_alliance = yes
+# disband_horde = yes
+# add_alliance_leadership = yes
+# add_horde_leadership = yes
+# update_alliance_opinion_modifiers = yes
+# update_horde_opinion_modifiers = yes
+
+add_alliance_membership = {
+    add_country_modifier = {
+        name = alliance_member
+        duration = -1
+    }
+}
+
+remove_alliance_membership = {
+    if = {
+        limit = {
+            has_country_modifier = alliance_member
+        }
+        remove_country_modifier = alliance_member
+    }
+    if = {
+        limit = {
+            has_country_modifier = alliance_leader
+        }
+        remove_country_modifier = alliance_leader
+    }
+}
+
+add_horde_membership = {
+    add_country_modifier = {
+        name = horde_member
+        duration = -1
+    }
+}
+
+remove_horde_membership = {
+    if = {
+        limit = {
+            has_country_modifier = horde_member
+        }
+        remove_country_modifier = horde_member
+    }
+    if = {
+        limit = {
+            has_country_modifier = horde_leader
+        }
+        remove_country_modifier = horde_leader
+    }
+}
+
+add_alliance_leadership = {
+    if = {
+        limit = {
+            any_country = {
+                has_country_modifier = alliance_leader
+            }
+        }
+        remove_country_modifier = alliance_leader
+    }
+
+    add_country_modifier = {
+        name = alliance_leader
+        duration = -1
+    }
+}
+
+add_horde_leadership = {
+    if = {
+        limit = {
+            any_country = {
+                has_country_modifier = horde_leader
+            }
+        }
+        remove_country_modifier = horde_leader
+    }
+
+    add_country_modifier = {
+        name = horde_leader
+        duration = -1
+    }
+}
+
+disband_alliance = {
+    every_country = {
+        limit = {
+            has_country_modifier = alliance_member
+        }
+        remove_country_modifier = alliance_member
+        add_prestige = -100
+    }
+    every_country = {
+        limit = {
+            has_country_modifier = alliance_leader
+        }
+        remove_country_modifier = alliance_leader
+    }
+    set_global_flag = alliance_removed
+}
+
+disband_horde = {
+    every_country = {
+        limit = {
+            has_country_modifier = horde_member
+        }
+        remove_country_modifier = horde_member
+        add_prestige = -100
+    }
+    every_country = {
+        limit = {
+            has_country_modifier = horde_leader
+        }
+        remove_country_modifier = horde_leader
+    }
+    set_global_flag = horde_removed
+}
+
+update_alliance_opinion_modifiers = {
+    # Cleanup
+    every_country = {
+        remove_opinion = {
+            who = ROOT
+            modifier = faction_friendly_alliance
+        }
+        reverse_add_opinion = {
+            who = ROOT
+            modifier = faction_friendly_alliance
+        }
+        remove_opinion = {
+            who = ROOT
+            modifier = faction_hated_alliance
+        }
+        reverse_add_opinion = {
+            who = ROOT
+            modifier = faction_hated_alliance
+        }
+    }
+
+    # Friend
+    every_country = {
+        limit = { has_country_modifier = alliance_member }
+        
+        add_opinion = {
+            who = ROOT
+            modifier = faction_friendly_alliance
+        }
+        reverse_add_opinion = {
+            who = ROOT
+            modifier = faction_friendly_alliance
+        }
+    }
+    
+    # Enemy
+    every_country = {
+        limit = { has_country_modifier = horde_member }
+        
+        add_opinion = {
+            who = ROOT
+            modifier = faction_hated_alliance
+        }
+        reverse_add_opinion = {
+            who = ROOT
+            modifier = faction_hated_alliance
+        }
+    }
+}
+
+update_horde_opinion_modifiers = {
+    # Cleanup
+    every_country = {
+        remove_opinion = {
+            who = ROOT
+            modifier = faction_friendly_horde
+        }
+        reverse_add_opinion = {
+            who = ROOT
+            modifier = faction_friendly_horde
+        }
+        remove_opinion = {
+            who = ROOT
+            modifier = faction_hated_horde
+        }
+        reverse_add_opinion = {
+            who = ROOT
+            modifier = faction_hated_horde
+        }
+    }
+
+    # Friend
+    every_country = {
+        limit = { has_country_modifier = horde_member }
+        
+        add_opinion = {
+            who = ROOT
+            modifier = faction_friendly_horde
+        }
+        reverse_add_opinion = {
+            who = ROOT
+            modifier = faction_friendly_horde
+        }
+    }
+    
+    # Enemy
+    every_country = {
+        limit = { has_country_modifier = alliance_member }
+        
+        add_opinion = {
+            who = ROOT
+            modifier = faction_hated_horde
+        }
+        reverse_add_opinion = {
+            who = ROOT
+            modifier = faction_hated_horde
+        }
+    }
+}

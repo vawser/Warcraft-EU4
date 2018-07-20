@@ -1,0 +1,27 @@
+# Osul
+government 			= war_tribe
+mercantilism 		= 10
+technology_group 	= tech_yaungol
+religion			= fire_worship
+primary_culture 	= yaungol
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Ku-Tong" 
+        dynasty = "Osul" 
+		adm = 3
+		dip = 3
+		mil = 3
+    }
+} 
+
+776.1.1 = { 
+    monarch = { 
+        name = "Jung Duk" 
+        dynasty = "Osul" 
+		adm = 3
+		dip = 3
+		mil = 3
+    }
+} 

@@ -1,0 +1,571 @@
+spriteTypes = {
+    # ------------------------
+    # ADM
+    # ------------------------
+    spriteType = {
+        name = "GFX_advisor_titangfx_artist"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_artist_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_titangfx_philosopher"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_philosopher_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_titangfx_theologian"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_theologian_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_titangfx_inquisitor"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_inquisitor_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_titangfx_master_of_mint"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_master_of_mint_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_titangfx_treasurer"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_treasurer_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_titangfx_stonemason"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_stonemason_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_titangfx_carpenter"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_carpenter_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_titangfx_bailiff"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_bailiff_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_titangfx_judge"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_judge_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_titangfx_overseer"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_overseer_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    # ------------------------
+    # DIP
+    # ------------------------
+    spriteType = {
+        name = "GFX_advisor_titangfx_statesman"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_statesman_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_titangfx_governor"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_governor_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_titangfx_diplomat"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_diplomat_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_titangfx_naval_reformer"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_naval_reformer_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_titangfx_navigator"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_navigator_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_titangfx_trader"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_trader_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_titangfx_spymaster"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_spymaster_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_titangfx_miller"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_miller_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_titangfx_tailor"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_tailor_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_titangfx_elder"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_elder_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_titangfx_enforcer"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_enforcer_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    # ------------------------
+    # MIL
+    # ------------------------
+    spriteType = {
+        name = "GFX_advisor_titangfx_army_reformer"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_army_reformer_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_titangfx_army_organiser"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_army_organiser_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_titangfx_commandant"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_commandant_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_titangfx_quartermaster"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_quartermaster_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_titangfx_recruitmaster"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_recruitmaster_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_titangfx_fortification_expert"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_fortification_expert_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_titangfx_titangfxnd_captain"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_titangfxnd_captain_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_titangfx_blacksmith"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_blacksmith_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_titangfx_marshal"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_marshal_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_titangfx_constable"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_constable_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_titangfx_armorer"
+        texturefile = "gfx//interface//advisors//titan//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_titangfx_armorer_female"
+        texturefile = "gfx//interface//advisors//titan//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+}

@@ -1,0 +1,1287 @@
+# TODO: update references in other files !!!
+light_group = {
+	defender_of_faith = yes
+	can_form_personal_unions = yes
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+	
+	crusade_name = CRUSADE
+    
+    the_light = {
+		color = { 196 156 110 }
+		icon = 1
+		
+		country = {
+			improve_relation_modifier = 0.1
+		}
+		country_as_secondary = {
+			improve_relation_modifier = 0.1
+		}
+	}
+    
+    light_of_the_naaru = {
+		color = { 114 207 15 }
+		icon = 3
+		
+		country = {
+            tolerance_heretic = 2
+            tolerance_heathen = 2
+		}
+		country_as_secondary = {
+            tolerance_heretic = 2
+            tolerance_heathen = 2
+		}
+	}
+    
+    light_of_the_sunwell = {
+		color = { 228 234 6 }
+		icon = 32
+		
+		country = {
+            advisor_cost = -0.1
+            tolerance_heretic = -1
+		}
+		country_as_secondary = {
+            advisor_cost = -0.1
+            tolerance_heretic = -1
+		}
+	}
+}
+
+shadow_group = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    shadow = {
+		color = { 189 49 44 }
+		icon = 8
+		
+		country = {
+            unjustified_demands = -0.25
+		}
+		country_as_secondary = {
+            unjustified_demands = -0.25
+		}
+        
+        uses_church_power = yes
+		aspects = {
+            shadow_word_pain
+            shadow_word_death
+            shadow_mend
+            call_shadowfiend
+            master_of_duality
+            psychic_scream
+		}
+        aspects_name = SHADOW_ASPECTS
+    }
+    
+    forgotten_shadow = {
+		color = { 15 96 113 }
+		icon = 7
+		
+		country = {
+            discipline = 0.05
+		}
+		country_as_secondary = {
+            discipline = 0.05
+		}
+        
+        uses_church_power = yes
+		aspects = {
+            shadow_word_pain
+            shadow_word_death
+            shadow_mend
+            call_shadowfiend
+            master_of_duality
+            psychic_scream
+		}
+        aspects_name = SHADOW_ASPECTS
+    }
+}
+
+order_group = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    arcane = {
+		color = { 102 146 227 }
+		icon = 13
+		
+		country = {
+			technology_cost = -0.05
+		}
+		country_as_secondary = {
+			technology_cost = -0.05
+		}
+
+		uses_karma = yes # Attunement
+	}
+}
+
+disorder_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    fel = {
+		color = { 181 230 29 }
+		icon = 16
+		
+		country = {
+			siege_ability = 0.1
+		}
+		country_as_secondary = {
+			siege_ability = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		
+        allowed_center_conversion = {
+			the_light
+            light_of_the_naaru
+            light_of_the_sunwell
+            shadow
+            forgotten_shadow
+            titan_worship
+            corrupt_titan_worship
+            mystery_of_the_makers
+            shamanism
+            geomancy
+            druidism
+            elune_worship
+            yulon
+            chiji
+            niuzao
+            xuen
+            loa
+            voodoo
+            hakkari
+            arcane
+            tuskarr_pantheon
+            wolvar_pantheon
+            deep_mother
+            invention
+            avarice
+            fire_worship
+            earth_worship
+            water_worship
+            air_worship
+            sect_of_the_dragons
+            cult_of_the_damned
+            arkkorok
+            nath
+		}
+        
+        will_get_center = {
+			any_owned_province = {
+				is_in_capital_area = yes
+                is_reformation_center = no
+                is_island = no
+                development = 10
+                NOT = {
+                    any_neighbor_province = {
+                        is_reformation_center = yes
+                    }
+                }
+                NOT = {
+                    any_province = {
+                        area = PREV
+                        is_reformation_center = yes
+                        religion = fel
+                    }
+                }
+			}
+		}
+        
+        # Fel buttons
+        papacy = {
+			papal_tag = TBL
+			election_cost = 1000
+			seat_of_papacy = 1
+			
+			beckon_demonspawn = {
+				cost = 75
+				potential = {
+					NOT = { tag = TBL }
+				}
+				allow = {
+					NOT = { war_with = TBL }
+					NOT = { has_country_modifier = beckoned_demonspawn }
+				}
+				effect = {
+					add_country_modifier = {
+						name = "beckoned_demonspawn"
+						duration = 7300
+					}
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}
+  
+            summon_eredar_warlocks = {
+				cost = 100
+				potential = {
+					NOT = { tag = TBL }
+				}
+				allow = {
+					NOT = { war_with = TBL }
+					NOT = { has_country_modifier = eredar_warlocks }
+				}
+				effect = {
+					add_country_modifier = {
+						name = "eredar_warlocks"
+						duration = 3650
+					}
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}
+            
+            consult_with_nathrezim = {
+				cost = 75
+				potential = {
+					NOT = { tag = TBL }
+				}
+				allow = {
+					NOT = { war_with = TBL }
+					NOT = { has_country_modifier = nathrezim_guidance }
+				}
+				effect = {
+					add_country_modifier = {
+						name = "nathrezim_guidance"
+						duration = 3650
+					}
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}
+            
+            summon_succubi = {
+				cost = 100
+				potential = {
+					NOT = { tag = TBL }
+				}
+				allow = {
+					NOT = { war_with = TBL }
+					NOT = { has_country_modifier = succubi_seduction }
+				}
+				effect = {
+					add_country_modifier = {
+						name = "succubi_seduction"
+						duration = 3650
+					}
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}
+            
+            apply_demonic_wards = {
+				cost = 50
+				potential = {
+					NOT = { tag = TBL }
+				}
+				allow = {
+					NOT = { war_with = TBL }
+					NOT = { has_country_modifier = demonic_wards }
+				}
+				effect = {
+					add_country_modifier = {
+						name = "demonic_wards"
+						duration = 3650
+					}
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}
+            
+            summon_doomguards = {
+				cost = 100
+				potential = {
+					NOT = { tag = TBL }
+				}
+				allow = {
+					NOT = { war_with = TBL }
+					NOT = { has_country_modifier = doomguard_brutality }
+				}
+				effect = {
+					add_country_modifier = {
+						name = "doomguard_brutality"
+						duration = 3650
+					}
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}
+            
+            embolden_fire = {
+				cost = 75
+				potential = {
+					NOT = { tag = TBL }
+				}
+				allow = {
+					NOT = { war_with = TBL }
+					NOT = { has_country_modifier = strengthened_fire_magic }
+				}
+				effect = {
+					add_country_modifier = {
+						name = "strengthened_fire_magic"
+						duration = 3650
+					}
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}
+            
+            fuel_soul_engines = {
+				cost = 50
+				potential = {
+					NOT = { tag = TBL }
+				}
+				allow = {
+					NOT = { war_with = TBL }
+					NOT = { has_country_modifier = soul_engines }
+				}
+				effect = {
+					add_country_modifier = {
+						name = "soul_engines"
+						duration = 3650
+					}
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}
+            
+            # Effects
+            summon_legion_custodians = {
+				cost = 75
+				potential = {
+					NOT = { tag = TBL }
+				}
+				allow = {
+					NOT = { war_with = TBL }
+				}
+				effect = {
+					add_adm_power = 50
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}
+            
+            summon_legion_agents = {
+				cost = 75
+				potential = {
+					NOT = { tag = TBL }
+				}
+				allow = {
+					NOT = { war_with = TBL }
+				}
+				effect = {
+					add_dip_power = 50
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}
+            
+            summon_legion_commanders = {
+				cost = 75
+				potential = {
+					NOT = { tag = TBL }
+				}
+				allow = {
+					NOT = { war_with = TBL }
+				}
+				effect = {
+					add_mil_power = 50
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}
+            
+            conduct_extreme_vetting = {
+				cost = 50
+				potential = {
+					NOT = { tag = TBL }
+				}
+				allow = {
+					NOT = { war_with = TBL }
+				}
+				effect = {
+					add_corruption = -1
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}
+            
+            order_demonic_monuments = {
+				cost = 25
+				potential = {
+					NOT = { tag = TBL }
+				}
+				allow = {
+					NOT = { war_with = TBL }
+				}
+				effect = {
+					add_prestige = 10
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}
+            
+            supervise_encampments = {
+				cost = 100
+				potential = {
+					NOT = { tag = TBL }
+				}
+				allow = {
+					NOT = { war_with = TBL }
+				}
+				effect = {
+					add_stability = 1
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}
+            
+            siphon_slave_essence = {
+				cost = 50
+				potential = {
+					NOT = { tag = TBL }
+				}
+				allow = {
+					NOT = { war_with = TBL }
+				}
+				effect = {
+					add_war_exhaustion = -2
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}
+            
+            vet_commandants = {
+				cost = 75
+				potential = {
+					NOT = { tag = TBL }
+				}
+				allow = {
+					NOT = { war_with = TBL }
+				}
+				effect = {
+					add_army_tradition = 10
+                    add_navy_tradition = 10
+				}
+				ai_will_do = {
+					factor = 1
+				}				
+			}
+        }
+	}
+}
+
+disorder_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+
+    shamanism = {
+        color = { 150 74 41 }
+		icon = 20
+		
+		country = {
+			native_uprising_chance = -0.25
+            global_unrest = -1
+		}
+		country_as_secondary = {
+			native_uprising_chance = -0.25
+            global_unrest = -1
+		}
+        
+        personal_deity = yes
+    }
+    
+    druidism = {
+        color = { 113 254 123 }
+		icon = 11
+		
+		country = {
+			global_unrest = -2
+		}
+		country_as_secondary = {
+			global_unrest = -2
+		}
+    }
+    
+    geomancy = {
+        color = { 77 27 76 }
+		icon = 29
+		
+		country = {
+			land_forcelimit_modifier = 0.1
+		}
+		country_as_secondary = {
+			land_forcelimit_modifier = 0.1
+		}
+    }
+    
+    elune_worship = {
+        color = { 178 255 255 }
+		icon = 4
+		
+		country = {
+			ae_impact = -0.1
+		}
+		country_as_secondary = {
+			ae_impact = -0.1
+		}
+
+		personal_deity = yes
+    }
+}
+
+old_gods_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    cthun = {
+        color = { 106 54 112 }
+		icon = 15
+		
+		country = {
+			spy_offence = 0.25
+		}
+		country_as_secondary = {
+			spy_offence = 0.25
+		}
+		
+        uses_church_power = yes
+		aspects = {
+            maddenning_howl
+            call_from_beyond
+            shadowy_barrier
+            beacon_of_madness
+            lunatic_gaze
+            widsom_of_the_mad
+		}
+        aspects_name = OLD_GOD_ASPECTS
+    }
+    
+    nzoth = {
+        color = { 106 54 112 }
+		icon = 15
+		
+		country = {
+			ae_impact = -0.1
+		}
+		country_as_secondary = {
+			ae_impact = -0.1
+		}
+		
+        uses_church_power = yes
+		aspects = {
+            maddenning_howl
+            call_from_beyond
+            shadowy_barrier
+            beacon_of_madness
+            lunatic_gaze
+            widsom_of_the_mad
+		}
+        aspects_name = OLD_GOD_ASPECTS
+    }
+    
+    yogg_saron = {
+        color = { 106 54 112 }
+		icon = 15
+		
+		country = {
+			idea_cost = -0.05
+		}
+		country_as_secondary = {
+			idea_cost = -0.05
+		}
+		
+        uses_church_power = yes
+		aspects = {
+            maddenning_howl
+            call_from_beyond
+            shadowy_barrier
+            beacon_of_madness
+            lunatic_gaze
+            widsom_of_the_mad
+		}
+        aspects_name = OLD_GOD_ASPECTS
+    }
+    
+    yshaarj = {
+        color = { 106 54 112 }
+		icon = 15
+		
+		country = {
+			diplomatic_reputation = 1
+		}
+		country_as_secondary = {
+			diplomatic_reputation = 1
+		}
+		
+        uses_church_power = yes
+		aspects = {
+            maddenning_howl
+            call_from_beyond
+            shadowy_barrier
+            beacon_of_madness
+            lunatic_gaze
+            widsom_of_the_mad
+		}
+        aspects_name = OLD_GOD_ASPECTS
+    }
+    
+    twilight_cult = {
+        color = { 55 54 33 }
+		icon = 15
+		
+		country = {
+			land_morale = 0.1
+		}
+		country_as_secondary = {
+			land_morale = 0.1
+		}
+		
+        uses_church_power = yes
+		aspects = {
+            maddenning_howl
+            call_from_beyond
+            shadowy_barrier
+            beacon_of_madness
+            lunatic_gaze
+            widsom_of_the_mad
+		}
+        aspects_name = OLD_GOD_ASPECTS
+    }
+    
+    nightmare = {
+        color = { 83 40 50 }
+		icon = 15
+		
+		country = {
+			infantry_power = 0.1
+		}
+		country_as_secondary = {
+			infantry_power = 0.1
+		}
+		
+        uses_church_power = yes
+		aspects = {
+            maddenning_howl
+            call_from_beyond
+            shadowy_barrier
+            beacon_of_madness
+            lunatic_gaze
+            widsom_of_the_mad
+		}
+        aspects_name = OLD_GOD_ASPECTS
+    }
+}
+
+troll_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    loa = {
+        color = { 101 177 109 }
+		icon = 21
+		
+		country = {
+			state_maintenance_modifier = -0.15
+		}
+		country_as_secondary = {
+			state_maintenance_modifier = -0.15
+		}
+
+        allowed_conversion = {
+            voodoo
+        }
+		on_convert = {
+			change_religion = loa
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+
+        personal_deity = yes
+    }
+    
+    voodoo = {
+        color = { 0.25 0.15 0.25 }
+		icon = 6
+		
+        allowed_conversion = {
+            loa
+        }
+
+		country = {
+			land_morale = 0.1
+		}
+		country_as_secondary = {
+			land_morale = 0.1
+		}
+
+		on_convert = {
+			change_religion = voodoo
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+
+        personal_deity = yes
+    }
+    
+    hakkari = {
+        color = { 33 230 215 }
+		icon = 5
+		
+		country = {
+			tolerance_own = 1
+            global_tax_modifier = 0.1
+		}
+		country_as_secondary = {
+			tolerance_own = 1
+            global_tax_modifier = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+    }
+}
+
+dragon_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    sect_of_the_dragons = {
+        color = { 213 114 96 }
+		icon = 10
+		
+		country = {
+			all_power_cost = -0.1
+		}
+		country_as_secondary = {
+			all_power_cost = -0.1
+		}
+    }
+}
+
+titan_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    titan_worship = {
+		color = { 253 204 09 }
+		icon = 9
+		
+		country = {
+			yearly_corruption = -0.05
+		}
+		country_as_secondary = {
+			yearly_corruption = -0.05
+		}
+	}
+	
+	corrupt_titan_worship = {
+		color = { 225 215 09 }
+		icon = 9
+		
+		country = {
+			development_cost = -0.1
+		}
+		country_as_secondary = {
+			development_cost = -0.1
+		}
+		province = {
+		
+		}
+	}
+	
+	mystery_of_the_makers = {
+		color = { 0.33 0.33 0.33 }
+		icon = 23
+		
+		country = {
+			prestige = 1
+		}
+		country_as_secondary = {
+			prestige = 1
+		}
+	}
+}
+
+scourge_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    cult_of_the_damned = {
+		color = { 81 109 71 }
+		icon = 17
+		
+		country = {
+			land_maintenance_modifier = -0.2
+		}
+		country_as_secondary = {
+			land_maintenance_modifier = -0.2
+		}
+
+		uses_church_power = yes
+		aspects = {
+			unrelenting_conversion
+            unity_in_death
+            patchwork_minions
+            blight
+            flesh_supplies
+            raze_and_ruin
+            acolytes_of_the_damned
+            plague_bombs
+            corrupted_minds
+		}
+        aspects_name = UNDEAD_ASPECTS
+	}
+}
+
+arkkoroc_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    arkkorok = {
+		color = { 58 173 174 }
+		icon = 18
+		
+		country = {
+			global_unrest = -2
+		}
+		country_as_secondary = {
+			global_unrest = -2
+		}
+	}
+}
+
+ogre_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    nath = {
+        color = { 77 201 95 }
+		icon = 12
+		
+		country = {
+			global_unrest = -2
+		}
+		country_as_secondary = {
+			global_unrest = -2
+		}
+    }
+}
+
+tuskarr_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    tuskarr_pantheon = {
+        color = { 136 228 163 }
+		icon = 12
+		
+		country = {
+			global_unrest = -2
+		}
+		country_as_secondary = {
+			global_unrest = -2
+		}
+		
+		personal_deity = yes
+    }
+}
+
+wolvar_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    wolvar_pantheon = {
+        color = { 136 228 163 }
+		icon = 12
+		
+		country = {
+			global_unrest = -2
+		}
+		country_as_secondary = {
+			global_unrest = -2
+		}
+		
+		personal_deity = yes
+    }
+}
+
+murloc_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    deep_mother = {
+        color = { 149 112 5 }
+		icon = 12
+		
+		country = {
+			global_unrest = -2
+		}
+		country_as_secondary = {
+			global_unrest = -2
+		}
+    }
+}
+
+gnome_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    invention = {
+		color = { 48 232 229 }
+		icon = 30
+        
+		country = {
+			idea_cost = -0.1
+		}
+		country_as_secondary = {
+			idea_cost = -0.1
+		}
+		
+		fervor = yes
+	}
+}
+
+goblin_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    avarice = {
+		color = { 114 89 235 }
+		icon = 30
+        
+		country = {
+			global_tax_modifier = 0.2
+		}
+		country_as_secondary = {
+			global_tax_modifier = 0.2
+		}
+		
+		fervor = yes
+	}
+}
+
+celestial_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    yulon = {
+        color = { 49 177 85 }
+		icon = 24
+		
+		country = {
+			monarch_admin_power = 1
+		}
+		country_as_secondary = {
+			monarch_admin_power = 1
+		}
+        
+        allowed_conversion = {
+            chiji
+            niuzao
+            xuen
+        }
+        on_convert = {
+			change_religion = yulon
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+    }
+    
+    chiji = {
+        color = { 236 93 163 }
+		icon = 24
+		
+		country = {
+			reserves_organisation = 0.25
+		}
+		country_as_secondary = {
+			reserves_organisation = 0.25
+		}
+        
+        allowed_conversion = {
+            yulon
+            niuzao
+            xuen
+        }
+        on_convert = {
+			change_religion = chiji
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+    }
+    
+    niuzao = {
+        color = { 79 79 139 }
+		icon = 24
+		
+		country = {
+			reinforce_cost_modifier = -0.25
+		}
+		country_as_secondary = {
+			reinforce_cost_modifier = -0.25
+		}
+        
+        allowed_conversion = {
+            chiji
+            yulon
+            xuen
+        }
+        on_convert = {
+			change_religion = niuzao
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+    }
+    
+    xuen = {
+        color = { 30 119 164 }
+		icon = 24
+		
+		country = {
+			shock_damage = 0.1
+		}
+		country_as_secondary = {
+			shock_damage = 0.1
+		}
+        
+        allowed_conversion = {
+            chiji
+            niuzao
+            yulon
+        }
+        on_convert = {
+			change_religion = xuen
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+    }
+}
+
+elemental_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 33
+	flag_emblem_index_range = { 1 57 }
+    
+    crusade_name = CRUSADE
+    
+    fire_worship = {
+        color = { 241 124 42 }
+		icon = 25
+		
+		country = {	
+			fire_damage = 0.1
+		}
+		country_as_secondary = {
+			fire_damage = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+    }
+    
+    earth_worship = {
+        color = { 47 27 76 }
+		icon = 26
+		
+		country = {	
+			production_efficiency = 0.1
+		}
+		country_as_secondary = {
+			production_efficiency = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+    }
+    
+    water_worship = {
+        color = { 59 172 229 }
+		icon = 28
+		
+		country = {
+			naval_morale = 0.2
+		}
+		country_as_secondary = {
+			naval_morale = 0.2
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+    }
+    
+    air_worship = {
+        color = { 5 181 190 }
+		icon = 27
+		
+		country = {
+			movement_speed = 0.1
+		}
+		country_as_secondary = {
+			movement_speed = 0.1
+		}
+		province = {
+			local_missionary_strength = -0.01
+		}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

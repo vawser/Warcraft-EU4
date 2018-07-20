@@ -1,0 +1,1970 @@
+random_new_world_region = { }
+
+# --------------------------------------
+# Eastern Kingdoms
+# --------------------------------------
+region_isle_of_quel_danas = {
+    areas = {
+        area_isle_of_queldanas_1
+        area_isle_of_queldanas_2
+        area_isle_of_queldanas_3
+        area_isle_of_queldanas_4
+    }
+}
+
+# Ghostlands + Eversong Woods
+region_eversong_forest = {
+    areas = {
+        area_eversong_forest_1
+        area_eversong_forest_2
+        area_eversong_forest_3
+        area_eversong_forest_4
+        area_eversong_forest_5
+        area_eversong_forest_6
+        area_eversong_forest_7
+        area_eversong_forest_8
+        area_eversong_forest_9
+        area_eversong_forest_10
+        area_eversong_forest_11
+        area_eversong_forest_12
+        area_eversong_forest_13
+        area_eversong_forest_14
+        area_eversong_forest_15
+        area_eversong_forest_16
+        area_eversong_forest_17
+        area_eversong_forest_18
+        area_eversong_forest_19
+        area_eversong_forest_20
+        area_eversong_forest_21
+        area_eversong_forest_22
+        area_eversong_forest_23
+        area_eversong_forest_24
+        area_eversong_forest_25
+        area_eversong_forest_26
+        area_eversong_forest_27
+        area_eversong_forest_28
+        area_eversong_forest_29
+        area_eversong_forest_30
+        area_eversong_forest_31
+        area_eversong_forest_32
+        area_eversong_forest_33
+        area_eversong_forest_34
+        area_eversong_forest_35
+        area_eversong_forest_36
+        area_eversong_forest_37
+        area_eversong_forest_38
+        area_eversong_forest_39
+        area_eversong_forest_40
+        area_eversong_forest_41
+    }
+}
+
+# Western plaguelands
+region_andorhal = {
+    areas = {
+        area_andorhal_1
+        area_andorhal_2
+        area_andorhal_3
+        area_andorhal_4
+        area_andorhal_5
+        area_andorhal_6
+        area_andorhal_7
+        area_andorhal_8
+        area_andorhal_9
+        area_andorhal_10
+        area_andorhal_11
+        area_andorhal_12
+        area_andorhal_13
+    }
+}
+
+# Eastern Plaguelands
+region_stratholme = {
+    areas = {
+        area_stratholme_1
+        area_stratholme_2
+        area_stratholme_3
+        area_stratholme_4
+        area_stratholme_5
+        area_stratholme_6
+        area_stratholme_7
+        area_stratholme_8
+        area_stratholme_9
+        area_stratholme_10
+        area_stratholme_11
+        area_stratholme_12
+        area_stratholme_13
+        area_stratholme_14
+        area_stratholme_15
+        area_stratholme_16
+        area_stratholme_17
+        area_stratholme_18
+        area_stratholme_19
+        area_stratholme_20
+        area_stratholme_21
+        area_stratholme_22
+        area_stratholme_23
+        area_stratholme_24
+        area_stratholme_25
+        area_stratholme_26
+        area_stratholme_27
+        area_stratholme_28
+        area_stratholme_29
+        area_stratholme_30
+    }
+}
+
+# Lordaeron
+region_tirisfal_glades = {
+    areas = {
+        area_lordaeron_1
+        area_lordaeron_2
+        area_lordaeron_3
+        area_lordaeron_4
+        area_lordaeron_5
+        area_lordaeron_6
+        area_lordaeron_7
+        area_lordaeron_8
+        area_lordaeron_9
+        area_lordaeron_10
+        area_lordaeron_11
+        area_lordaeron_12
+        area_lordaeron_13
+        area_lordaeron_14
+        area_lordaeron_15
+        area_lordaeron_16
+    }
+}
+
+region_silverpine_forest = {
+    areas = {
+        area_silverpine_forest_1
+        area_silverpine_forest_2
+        area_silverpine_forest_3
+        area_silverpine_forest_4
+        area_silverpine_forest_5
+        area_silverpine_forest_6
+        area_silverpine_forest_7
+        area_silverpine_forest_8
+    }
+}
+
+region_gilneas = {
+    areas = {
+        area_gilneas_1
+        area_gilneas_2
+        area_gilneas_3
+        area_gilneas_4
+        area_gilneas_5
+        area_gilneas_6
+        area_gilneas_7
+        area_gilneas_8
+        area_gilneas_9
+    }
+}
+
+region_alterac = {
+    areas = {
+        area_alterac_1
+        area_alterac_2
+        area_alterac_3
+        area_alterac_4
+    }
+}
+
+region_hillsbrad_foothills = {
+    areas = {
+        area_hillsbrad_1
+        area_hillsbrad_2
+        area_hillsbrad_3
+        area_hillsbrad_4
+        area_hillsbrad_5
+        area_hillsbrad_6
+        area_hillsbrad_7
+        area_hillsbrad_8
+        area_hillsbrad_9
+        area_hillsbrad_10
+        area_hillsbrad_11
+    }
+}
+
+region_tol_barad = {
+    areas = {
+        area_tol_barad_1
+        area_tol_barad_2
+    }
+}
+
+region_kul_tiras = {
+    areas = {
+        area_kul_tiras_1
+        area_kul_tiras_2
+        area_kul_tiras_3
+    }
+}
+
+region_arathi_highlands = {
+    areas = {
+        area_arath_highlands_1
+        area_arath_highlands_2
+        area_arath_highlands_3
+        area_arath_highlands_4
+        area_arath_highlands_5
+        area_arath_highlands_6
+        area_arath_highlands_7
+        area_arath_highlands_8
+        area_arath_highlands_9
+        area_arath_highlands_10
+        area_arath_highlands_11
+        area_arath_highlands_12
+    }
+}
+
+region_the_hinterlands = {
+    areas = {
+        area_hinterlands_1
+        area_hinterlands_2
+        area_hinterlands_3
+        area_hinterlands_4
+        area_hinterlands_5
+        area_hinterlands_6
+        area_hinterlands_7
+        area_hinterlands_8
+        area_hinterlands_9
+        area_hinterlands_10
+        area_hinterlands_11
+        area_hinterlands_12
+        area_hinterlands_13
+        area_hinterlands_14
+        area_hinterlands_15
+        area_hinterlands_16
+        area_hinterlands_17
+    }   
+}
+
+region_wetlands = {
+    areas = {
+        area_wetlands_1
+        area_wetlands_2
+        area_wetlands_3
+        area_wetlands_4
+        area_wetlands_5
+        area_wetlands_6
+        area_wetlands_7
+        area_wetlands_8
+        area_wetlands_9
+        area_wetlands_10
+        area_wetlands_11
+        area_wetlands_12
+        area_wetlands_13
+        area_wetlands_14
+        area_wetlands_15
+        area_wetlands_16
+    }
+}
+
+# Twilight Highlands
+region_northeron = {
+    areas = {
+        area_northeron_1
+        area_northeron_2
+        area_northeron_3
+        area_northeron_4
+        area_northeron_5
+        area_northeron_6
+        area_northeron_7
+        area_northeron_8
+        area_northeron_9
+        area_northeron_10
+        area_northeron_11
+        area_northeron_12
+        area_northeron_13
+        area_northeron_14
+        area_northeron_15
+        area_northeron_16
+    }
+}
+
+region_loch_modan = {
+    areas = {
+        area_loch_modan_1
+        area_loch_modan_2
+        area_loch_modan_3
+        area_loch_modan_4
+        area_loch_modan_5
+        area_loch_modan_6
+        area_loch_modan_7
+        area_loch_modan_8
+        area_loch_modan_9
+        area_loch_modan_10
+        area_loch_modan_11
+    }
+}
+
+region_dun_morogh = {
+    areas = {
+        area_dun_morogh_1
+        area_dun_morogh_2
+        area_dun_morogh_3
+        area_dun_morogh_4
+        area_dun_morogh_5
+        area_dun_morogh_6
+        area_dun_morogh_7
+        area_dun_morogh_8
+        area_dun_morogh_9
+        area_dun_morogh_10
+        area_dun_morogh_11
+        area_dun_morogh_12
+        area_dun_morogh_13
+        area_dun_morogh_14
+        area_dun_morogh_15
+        area_dun_morogh_16
+        area_dun_morogh_17
+        area_dun_morogh_18
+        area_dun_morogh_19
+        area_dun_morogh_20
+        area_dun_morogh_21
+    }
+}
+
+region_badlands = {
+    areas = {
+        area_badlands_1
+        area_badlands_2
+        area_badlands_3
+        area_badlands_4
+        area_badlands_5
+        area_badlands_6
+        area_badlands_7
+        area_badlands_8
+        area_badlands_9
+        area_badlands_10
+    }
+}
+
+region_searing_gorge = {
+    areas = {
+        area_searing_gorge_1
+        area_searing_gorge_2
+        area_searing_gorge_3
+        area_searing_gorge_4
+        area_searing_gorge_5
+        area_searing_gorge_6
+    }
+}
+
+region_burning_steppes = {
+    areas = {
+        area_burning_steppes_1
+        area_burning_steppes_2
+        area_burning_steppes_3
+        area_burning_steppes_4
+        area_burning_steppes_5
+        area_burning_steppes_6
+        area_burning_steppes_7
+        area_burning_steppes_8
+        area_burning_steppes_9
+        area_burning_steppes_10
+    }
+}
+
+region_redridge_mountains = {
+    areas = {
+        area_redridge_1
+        area_redridge_2
+        area_redridge_3
+        area_redridge_4
+        area_redridge_5
+        area_redridge_6
+        area_redridge_7
+        area_redridge_8
+        area_redridge_9
+    }
+}
+
+region_elwynn_forest = {
+    areas = {
+        area_elwynn_forest_1
+        area_elwynn_forest_2
+        area_elwynn_forest_3
+        area_elwynn_forest_4
+        area_elwynn_forest_5
+        area_elwynn_forest_6
+        area_elwynn_forest_7
+        area_elwynn_forest_8
+        area_elwynn_forest_9
+        area_elwynn_forest_10
+        area_elwynn_forest_11
+        area_elwynn_forest_12
+        area_elwynn_forest_13
+        area_elwynn_forest_14
+        area_elwynn_forest_15
+        area_elwynn_forest_16
+        area_elwynn_forest_17
+    }
+}
+
+region_swamp_of_sorrows = {
+    areas = {
+        area_swamp_of_sorrows_1
+        area_swamp_of_sorrows_2
+        area_swamp_of_sorrows_3
+        area_swamp_of_sorrows_4
+        area_swamp_of_sorrows_5
+        area_swamp_of_sorrows_6
+        area_swamp_of_sorrows_7
+        area_swamp_of_sorrows_8
+    }
+}
+
+region_blasted_lands = {
+    areas = {
+        area_blasted_lands_1
+        area_blasted_lands_2
+        area_blasted_lands_3
+        area_blasted_lands_4
+        area_blasted_lands_5
+        area_blasted_lands_6
+        area_blasted_lands_7
+        area_blasted_lands_8
+        area_blasted_lands_9
+        area_blasted_lands_10
+        area_blasted_lands_11
+        area_blasted_lands_12
+    }
+}
+
+region_deadwind_pass = {
+    areas = {
+        area_deadwind_pass_1
+        area_deadwind_pass_2
+        area_deadwind_pass_3
+        area_deadwind_pass_4
+        area_deadwind_pass_5
+    }
+}
+
+region_duskwood = {
+    areas = {
+        area_duskwood_1
+        area_duskwood_2
+        area_duskwood_3
+        area_duskwood_4
+        area_duskwood_5
+        area_duskwood_6
+        area_duskwood_7
+        area_duskwood_8
+        area_duskwood_9
+    }
+}
+
+region_westfall = {
+    areas = {
+        area_westfall_1
+        area_westfall_2
+        area_westfall_3
+        area_westfall_4
+        area_westfall_5
+        area_westfall_6
+        area_westfall_7
+    }
+}
+
+region_stranglethorn_vale = {
+    areas = {
+        area_stranglethorn_vale_1
+        area_stranglethorn_vale_2
+        area_stranglethorn_vale_3
+        area_stranglethorn_vale_4
+        area_stranglethorn_vale_5
+        area_stranglethorn_vale_6
+        area_stranglethorn_vale_7
+        area_stranglethorn_vale_8
+        area_stranglethorn_vale_9
+        area_stranglethorn_vale_10
+        area_stranglethorn_vale_11
+        area_stranglethorn_vale_12
+        area_stranglethorn_vale_13
+        area_stranglethorn_vale_14
+        area_stranglethorn_vale_15
+        area_stranglethorn_vale_16
+        area_stranglethorn_vale_17
+        area_stranglethorn_vale_18
+        area_stranglethorn_vale_19
+        area_stranglethorn_vale_20
+        area_stranglethorn_vale_21
+    }
+}
+
+# --------------------------------------
+# Kalimdor
+# --------------------------------------
+region_teldrassil = {
+    areas = {
+        area_teldrassil_1
+        area_teldrassil_2
+        area_teldrassil_3
+        area_teldrassil_4
+        area_teldrassil_5
+        area_teldrassil_6
+        area_teldrassil_7
+        area_teldrassil_8
+        area_teldrassil_9
+        area_teldrassil_10
+        area_teldrassil_11
+        area_teldrassil_12
+        area_teldrassil_13
+    }
+}
+
+region_bloodmyst_isle = {
+    areas = {
+        area_bloodmyst_isle_1
+        area_bloodmyst_isle_2
+        area_bloodmyst_isle_3
+        area_bloodmyst_isle_4
+        area_bloodmyst_isle_5
+        area_bloodmyst_isle_6
+        area_bloodmyst_isle_7
+        area_bloodmyst_isle_8
+        area_bloodmyst_isle_9
+        area_bloodmyst_isle_10
+        area_bloodmyst_isle_11
+        area_bloodmyst_isle_12
+        area_bloodmyst_isle_13
+        area_bloodmyst_isle_14
+        area_bloodmyst_isle_15
+    }
+}
+
+region_azuremyst_isle = {
+    areas = {
+        area_azuremyst_isle_1
+        area_azuremyst_isle_2
+        area_azuremyst_isle_3
+        area_azuremyst_isle_4
+        area_azuremyst_isle_5
+        area_azuremyst_isle_6
+        area_azuremyst_isle_7
+        area_azuremyst_isle_8
+        area_azuremyst_isle_9
+        area_azuremyst_isle_10
+        area_azuremyst_isle_11
+        area_azuremyst_isle_12
+        area_azuremyst_isle_13
+        area_azuremyst_isle_14
+        area_azuremyst_isle_15
+    }
+}
+
+region_moonglade = {
+    areas = {
+        area_moonglade_1
+        area_moonglade_2
+        area_moonglade_3
+        area_moonglade_4
+        area_moonglade_5
+        area_moonglade_6
+        area_moonglade_7
+        area_moonglade_8
+        area_moonglade_9
+        area_moonglade_10
+        area_moonglade_11
+    }
+}
+
+region_darkshore = {
+    areas = {
+        area_darkshore_1
+        area_darkshore_2
+        area_darkshore_3
+        area_darkshore_4
+        area_darkshore_5
+        area_darkshore_6
+        area_darkshore_7
+        area_darkshore_8
+        area_darkshore_9
+        area_darkshore_10
+        area_darkshore_11
+        area_darkshore_12
+        area_darkshore_13
+        area_darkshore_14
+        area_darkshore_15
+        area_darkshore_16
+        area_darkshore_17
+        area_darkshore_18
+        area_darkshore_19
+        area_darkshore_20
+    }
+}
+
+region_winterspring = {
+    areas = {
+        area_winterspring_1
+        area_winterspring_2
+        area_winterspring_3
+        area_winterspring_4
+        area_winterspring_5
+        area_winterspring_6
+        area_winterspring_7
+        area_winterspring_8
+        area_winterspring_9
+        area_winterspring_10
+        area_winterspring_11
+        area_winterspring_12
+        area_winterspring_13
+        area_winterspring_14
+        area_winterspring_15
+        area_winterspring_16
+        area_winterspring_17
+        area_winterspring_18
+        area_winterspring_19
+        area_winterspring_20
+        area_winterspring_21
+        area_winterspring_22
+        area_winterspring_23
+        area_winterspring_24
+        area_winterspring_25
+    }
+}
+
+region_felwood = {
+    areas = {
+        area_felwood_1
+        area_felwood_2
+        area_felwood_3
+        area_felwood_4
+        area_felwood_5
+        area_felwood_6
+        area_felwood_7
+        area_felwood_8
+        area_felwood_9
+    }
+}
+
+region_mount_hyjal = {
+    areas = {
+        area_mount_hyjal_1
+        area_mount_hyjal_2
+        area_mount_hyjal_3
+        area_mount_hyjal_4
+        area_mount_hyjal_5
+        area_mount_hyjal_6
+        area_mount_hyjal_7
+        area_mount_hyjal_8
+        area_mount_hyjal_9
+        area_mount_hyjal_10
+        area_mount_hyjal_11
+        area_mount_hyjal_12
+        area_mount_hyjal_13
+        area_mount_hyjal_14
+        area_mount_hyjal_15
+        area_mount_hyjal_16
+        area_mount_hyjal_17
+        area_mount_hyjal_18
+        area_mount_hyjal_19
+        area_mount_hyjal_20
+        area_mount_hyjal_21
+        area_mount_hyjal_22
+        area_mount_hyjal_23
+        area_mount_hyjal_24
+        area_mount_hyjal_25
+        area_mount_hyjal_26
+        area_mount_hyjal_27
+        area_mount_hyjal_28
+        area_mount_hyjal_29
+        area_mount_hyjal_30
+        area_mount_hyjal_31
+        area_mount_hyjal_32
+        area_mount_hyjal_33
+        area_mount_hyjal_34
+        area_mount_hyjal_35
+        area_mount_hyjal_36
+        area_mount_hyjal_37
+        area_mount_hyjal_38
+        area_mount_hyjal_39
+        area_mount_hyjal_40
+        area_mount_hyjal_41
+        area_mount_hyjal_42
+        area_mount_hyjal_43
+        area_mount_hyjal_44
+        area_mount_hyjal_45
+    }   
+}
+
+region_ashenvale = {
+    areas = {
+        area_ashenvale_1
+        area_ashenvale_2
+        area_ashenvale_3
+        area_ashenvale_4
+        area_ashenvale_5
+        area_ashenvale_6
+        area_ashenvale_7
+        area_ashenvale_8
+        area_ashenvale_9
+        area_ashenvale_10
+        area_ashenvale_11
+        area_ashenvale_12
+        area_ashenvale_13
+        area_ashenvale_14
+        area_ashenvale_15
+        area_ashenvale_16
+        area_ashenvale_17
+        area_ashenvale_18
+        area_ashenvale_19
+        area_ashenvale_20
+        area_ashenvale_21
+        area_ashenvale_22
+        area_ashenvale_23
+        area_ashenvale_24
+        area_ashenvale_25
+        area_ashenvale_26
+        area_ashenvale_27
+        area_ashenvale_28
+        area_ashenvale_29
+        area_ashenvale_30
+    }
+}
+
+region_azshara = {
+    areas = {
+        area_azshara_1
+        area_azshara_2
+        area_azshara_3
+        area_azshara_4
+        area_azshara_5
+        area_azshara_6
+        area_azshara_7
+        area_azshara_8
+        area_azshara_9
+        area_azshara_10
+        area_azshara_11
+        area_azshara_12
+        area_azshara_13
+        area_azshara_14
+        area_azshara_15
+        area_azshara_16
+        area_azshara_17
+        area_azshara_18
+        area_azshara_19
+    }
+}
+
+region_durotar = {
+    areas = {
+        area_durotar_1
+        area_durotar_2
+        area_durotar_3
+        area_durotar_4
+        area_durotar_5
+        area_durotar_6
+        area_durotar_7
+        area_durotar_8
+        area_durotar_9
+        area_durotar_10
+        area_durotar_11
+        area_durotar_12
+        area_durotar_13
+        area_durotar_14
+        area_durotar_15
+        area_durotar_16
+        area_durotar_17
+        area_durotar_18
+    }
+}
+
+region_the_barrens = {
+    areas = {
+        area_barrens_1
+        area_barrens_2
+        area_barrens_3
+        area_barrens_4
+        area_barrens_5
+        area_barrens_6
+        area_barrens_7
+        area_barrens_8
+        area_barrens_9
+        area_barrens_10
+        area_barrens_11
+        area_barrens_12
+        area_barrens_13
+        area_barrens_14
+        area_barrens_15
+        area_barrens_16
+        area_barrens_17
+        area_barrens_18
+        area_barrens_19
+        area_barrens_20
+        area_barrens_21
+        area_barrens_22
+        area_barrens_23
+        area_barrens_24
+        area_barrens_25
+        area_barrens_26
+        area_barrens_27
+        area_barrens_28
+        area_barrens_29
+        area_barrens_30
+        area_barrens_31
+        area_barrens_32
+        area_barrens_33
+        area_barrens_34
+        area_barrens_35
+        area_barrens_36
+        area_barrens_37
+        area_barrens_38
+        area_barrens_39
+        area_barrens_40
+    }
+}
+
+region_stonetalon_mountains = {
+    areas = {
+        area_stonetalon_1
+        area_stonetalon_2
+        area_stonetalon_3
+        area_stonetalon_4
+        area_stonetalon_5
+        area_stonetalon_6
+        area_stonetalon_7
+        area_stonetalon_8
+        area_stonetalon_9
+        area_stonetalon_10
+        area_stonetalon_11
+        area_stonetalon_12
+        area_stonetalon_13
+        area_stonetalon_14
+        area_stonetalon_15
+        area_stonetalon_16
+        area_stonetalon_17
+        area_stonetalon_18
+        area_stonetalon_19
+        area_stonetalon_20
+        area_stonetalon_21
+        area_stonetalon_22
+        area_stonetalon_23
+        area_stonetalon_24
+        area_stonetalon_25
+        area_stonetalon_26
+        area_stonetalon_27
+        area_stonetalon_28
+        area_stonetalon_29
+        area_stonetalon_30
+        area_stonetalon_31
+    }
+}
+
+region_desolace = {
+    areas = {
+        area_desolace_1
+        area_desolace_2
+        area_desolace_3
+        area_desolace_4
+        area_desolace_5
+        area_desolace_6
+        area_desolace_7
+        area_desolace_8
+        area_desolace_9
+        area_desolace_10
+        area_desolace_11
+        area_desolace_12
+        area_desolace_13
+        area_desolace_14
+        area_desolace_15
+        area_desolace_16
+        area_desolace_17
+        area_desolace_18
+        area_desolace_19
+        area_desolace_20
+        area_desolace_21
+        area_desolace_22
+        area_desolace_23
+    }
+}
+
+region_mulgore = {
+    areas = {
+        area_mulgore_1
+        area_mulgore_2
+        area_mulgore_3
+        area_mulgore_4
+        area_mulgore_5
+        area_mulgore_6
+        area_mulgore_7
+        area_mulgore_8
+        area_mulgore_9
+        area_mulgore_10
+        area_mulgore_11
+        area_mulgore_12
+        area_mulgore_13
+        area_mulgore_14
+        area_mulgore_15
+        area_mulgore_16
+        area_mulgore_17
+        area_mulgore_18
+        area_mulgore_19
+        area_mulgore_20
+        area_mulgore_21
+        area_mulgore_22
+        area_mulgore_23
+        area_mulgore_24
+        area_mulgore_25
+        area_mulgore_26
+        area_mulgore_27
+        area_mulgore_28
+    }
+}
+
+region_dustwallow_marsh = {
+    areas = {
+        area_dustwallow_1
+        area_dustwallow_2
+        area_dustwallow_3
+        area_dustwallow_4
+        area_dustwallow_5
+        area_dustwallow_6
+        area_dustwallow_7
+        area_dustwallow_8
+        area_dustwallow_9
+        area_dustwallow_10
+        area_dustwallow_11
+        area_dustwallow_12
+        area_dustwallow_13
+        area_dustwallow_14
+        area_dustwallow_15
+        area_dustwallow_16
+        area_dustwallow_17
+        area_dustwallow_18
+        area_dustwallow_19
+        area_dustwallow_20
+        area_dustwallow_21
+        area_dustwallow_22
+    }
+}
+
+region_thousand_needles = {
+    areas = {
+        area_thousand_needles_1
+        area_thousand_needles_2
+        area_thousand_needles_3
+        area_thousand_needles_4
+        area_thousand_needles_5
+        area_thousand_needles_6
+        area_thousand_needles_7
+        area_thousand_needles_8
+        area_thousand_needles_9
+        area_thousand_needles_10
+        area_thousand_needles_11
+        area_thousand_needles_12
+        area_thousand_needles_13
+        area_thousand_needles_14
+        area_thousand_needles_15
+        area_thousand_needles_16
+        area_thousand_needles_17
+        area_thousand_needles_18
+        area_thousand_needles_19
+        area_thousand_needles_20
+    }
+}
+
+region_feralas = {
+    areas = {
+        area_feralas_1
+        area_feralas_2
+        area_feralas_3
+        area_feralas_4
+        area_feralas_5
+        area_feralas_6
+        area_feralas_7
+        area_feralas_8
+        area_feralas_9
+        area_feralas_10
+        area_feralas_11
+        area_feralas_12
+        area_feralas_13
+        area_feralas_14
+        area_feralas_15
+        area_feralas_16
+        area_feralas_17
+        area_feralas_18
+        area_feralas_19
+        area_feralas_20
+        area_feralas_21
+        area_feralas_22
+        area_feralas_23
+        area_feralas_24
+        area_feralas_25
+        area_feralas_26
+        area_feralas_27
+        area_feralas_28
+        area_feralas_29
+        area_feralas_30
+        area_feralas_31
+        area_feralas_32
+        area_feralas_33
+    }
+}
+
+region_silithus = {
+    areas = {
+        area_silithus_1
+        area_silithus_2
+        area_silithus_3
+        area_silithus_4
+        area_silithus_5
+        area_silithus_6
+        area_silithus_7
+        area_silithus_8
+        area_silithus_9
+        area_silithus_10
+        area_silithus_11
+        area_silithus_12
+        area_silithus_13
+        area_silithus_14
+        area_silithus_15
+        area_silithus_16
+        area_silithus_17
+        area_silithus_18
+        area_silithus_19
+        area_silithus_20
+        area_silithus_21
+        area_silithus_22
+        area_silithus_23
+        area_silithus_24
+        area_silithus_25
+        area_silithus_26
+        area_silithus_27
+        area_silithus_28
+        area_silithus_29
+        area_silithus_30
+        area_silithus_31
+        area_silithus_32
+    }
+}
+
+region_ungoro_crater = {
+    areas = {
+        area_ungoro_1
+        area_ungoro_2
+        area_ungoro_3
+        area_ungoro_4
+        area_ungoro_5
+        area_ungoro_6
+        area_ungoro_7
+        area_ungoro_8
+        area_ungoro_9
+        area_ungoro_10
+        area_ungoro_11
+        area_ungoro_12
+        area_ungoro_13
+        area_ungoro_14
+        area_ungoro_15
+        area_ungoro_16
+        area_ungoro_17
+        area_ungoro_18
+        area_ungoro_19
+        area_ungoro_20
+        area_ungoro_21
+        area_ungoro_22
+        area_ungoro_23
+    }
+}
+
+region_tanaris = {
+    areas = {
+        area_tanaris_1
+        area_tanaris_2
+        area_tanaris_3
+        area_tanaris_4
+        area_tanaris_5
+        area_tanaris_6
+        area_tanaris_7
+        area_tanaris_8
+        area_tanaris_9
+        area_tanaris_10
+        area_tanaris_11
+        area_tanaris_12
+        area_tanaris_13
+        area_tanaris_14
+        area_tanaris_15
+        area_tanaris_16
+        area_tanaris_17
+        area_tanaris_18
+        area_tanaris_19
+        area_tanaris_20
+        area_tanaris_21
+        area_tanaris_22
+        area_tanaris_23
+        area_tanaris_24
+        area_tanaris_25
+        area_tanaris_26
+        area_tanaris_27
+        area_tanaris_28
+        area_tanaris_29
+    }
+}
+
+region_uldum = {
+    areas = {
+        area_uldum_1
+        area_uldum_2
+        area_uldum_3
+        area_uldum_4
+        area_uldum_5
+        area_uldum_6
+        area_uldum_7
+        area_uldum_8
+        area_uldum_9
+        area_uldum_10
+        area_uldum_11
+        area_uldum_12
+        area_uldum_13
+        area_uldum_14
+        area_uldum_15
+        area_uldum_16
+        area_uldum_17
+        area_uldum_18
+        area_uldum_19
+        area_uldum_20
+        area_uldum_21
+        area_uldum_22
+        area_uldum_23
+        area_uldum_24
+        area_uldum_25
+        area_uldum_26
+    }
+}
+
+# --------------------------------------
+# Northrend
+# --------------------------------------
+region_borean_tundra = {
+    areas = {
+        area_borean_tundra_1
+        area_borean_tundra_2
+        area_borean_tundra_3
+        area_borean_tundra_4
+        area_borean_tundra_5
+        area_borean_tundra_6
+        area_borean_tundra_7
+        area_borean_tundra_8
+        area_borean_tundra_9
+        area_borean_tundra_10
+        area_borean_tundra_11
+        area_borean_tundra_12
+        area_borean_tundra_13
+        area_borean_tundra_14
+        area_borean_tundra_15
+        area_borean_tundra_16
+        area_borean_tundra_17
+        area_borean_tundra_18
+        area_borean_tundra_19
+        area_borean_tundra_20
+        area_borean_tundra_21
+        area_borean_tundra_22
+        area_borean_tundra_23
+        area_borean_tundra_24
+        area_borean_tundra_25
+        area_borean_tundra_26
+        area_borean_tundra_27
+        area_borean_tundra_28
+        area_borean_tundra_29
+        area_borean_tundra_30
+        area_borean_tundra_31
+        area_borean_tundra_32
+        area_borean_tundra_33
+        area_borean_tundra_34
+        area_borean_tundra_35
+        area_borean_tundra_36
+        area_borean_tundra_37
+        area_borean_tundra_38
+    }
+}
+
+region_wintergrasp = {
+    areas = {
+        area_wintergrasp_1
+        area_wintergrasp_2
+        area_wintergrasp_3
+        area_wintergrasp_4
+        area_wintergrasp_5
+        area_wintergrasp_6
+        area_wintergrasp_7
+    }
+}
+
+region_sholazar_basin = {
+    areas = {
+        area_sholazar_basin_1
+        area_sholazar_basin_2
+        area_sholazar_basin_3
+        area_sholazar_basin_4
+        area_sholazar_basin_5
+        area_sholazar_basin_6
+        area_sholazar_basin_7
+        area_sholazar_basin_8
+        area_sholazar_basin_9
+        area_sholazar_basin_10
+        area_sholazar_basin_11
+        area_sholazar_basin_12
+        area_sholazar_basin_13
+        area_sholazar_basin_14
+        area_sholazar_basin_15
+        area_sholazar_basin_16
+        area_sholazar_basin_17
+        area_sholazar_basin_18
+        area_sholazar_basin_19
+    }
+}
+
+region_dragonblight = {
+    areas = {
+        area_dragonblight_1
+        area_dragonblight_2
+        area_dragonblight_3
+        area_dragonblight_4
+        area_dragonblight_5
+        area_dragonblight_6
+        area_dragonblight_7
+        area_dragonblight_8
+        area_dragonblight_9
+        area_dragonblight_10
+        area_dragonblight_11
+        area_dragonblight_12
+        area_dragonblight_13
+        area_dragonblight_14
+        area_dragonblight_15
+        area_dragonblight_16
+        area_dragonblight_17
+        area_dragonblight_18
+        area_dragonblight_19
+        area_dragonblight_20
+        area_dragonblight_21
+        area_dragonblight_22
+        area_dragonblight_23
+        area_dragonblight_24
+        area_dragonblight_25
+        area_dragonblight_26
+        area_dragonblight_27
+        area_dragonblight_28
+        area_dragonblight_29
+        area_dragonblight_30
+        area_dragonblight_31
+        area_dragonblight_32
+        area_dragonblight_33
+        area_dragonblight_34
+        area_dragonblight_35
+        area_dragonblight_36
+        area_dragonblight_37
+        area_dragonblight_38
+        area_dragonblight_39
+        area_dragonblight_40
+        area_dragonblight_41
+        area_dragonblight_42
+    }
+}
+
+region_icecrown = {
+    areas = {
+        area_icecrown_1
+        area_icecrown_2
+        area_icecrown_3
+        area_icecrown_4
+        area_icecrown_5
+        area_icecrown_6
+        area_icecrown_7
+        area_icecrown_8
+        area_icecrown_9
+        area_icecrown_10
+        area_icecrown_11
+        area_icecrown_12
+        area_icecrown_13
+        area_icecrown_14
+        area_icecrown_15
+        area_icecrown_16
+        area_icecrown_17
+        area_icecrown_18
+        area_icecrown_19
+        area_icecrown_20
+        area_icecrown_21
+        area_icecrown_22
+        area_icecrown_23
+        area_icecrown_24
+        area_icecrown_25
+        area_icecrown_26
+        area_icecrown_27
+        area_icecrown_28
+        area_icecrown_29
+        area_icecrown_30
+        area_icecrown_31
+        area_icecrown_32
+        area_icecrown_33
+        area_icecrown_34
+        area_icecrown_35
+        area_icecrown_36
+        area_icecrown_37
+        area_icecrown_38
+        area_icecrown_39
+        area_icecrown_40
+        area_icecrown_41
+        area_icecrown_42
+        area_icecrown_43
+        area_icecrown_44
+        area_icecrown_45
+    }
+}
+
+region_storm_peak = {
+    areas = {
+        area_storm_peak_1
+        area_storm_peak_2
+        area_storm_peak_3
+        area_storm_peak_4
+        area_storm_peak_5
+        area_storm_peak_6
+        area_storm_peak_7
+        area_storm_peak_8
+        area_storm_peak_9
+        area_storm_peak_10
+        area_storm_peak_11
+        area_storm_peak_12
+        area_storm_peak_13
+        area_storm_peak_14
+        area_storm_peak_15
+        area_storm_peak_16
+        area_storm_peak_17
+        area_storm_peak_18
+        area_storm_peak_19
+        area_storm_peak_20
+        area_storm_peak_21
+        area_storm_peak_22
+        area_storm_peak_23
+        area_storm_peak_24
+        area_storm_peak_25
+        area_storm_peak_26
+        area_storm_peak_27
+    }
+}
+
+region_zuldrak = {
+    areas = {
+        area_zuldrak_1
+        area_zuldrak_2
+        area_zuldrak_3
+        area_zuldrak_4
+        area_zuldrak_5
+        area_zuldrak_6
+        area_zuldrak_7
+        area_zuldrak_8
+        area_zuldrak_9
+        area_zuldrak_10
+        area_zuldrak_11
+        area_zuldrak_12
+        area_zuldrak_13
+        area_zuldrak_14
+        area_zuldrak_15
+        area_zuldrak_16
+        area_zuldrak_17
+        area_zuldrak_18
+        area_zuldrak_19
+        area_zuldrak_20
+        area_zuldrak_21
+        area_zuldrak_22
+        area_zuldrak_23
+        area_zuldrak_24
+    }
+}
+
+region_grizzly_hills = {
+    areas = {
+        area_grizzly_hills_1
+        area_grizzly_hills_2
+        area_grizzly_hills_3
+        area_grizzly_hills_4
+        area_grizzly_hills_5
+        area_grizzly_hills_6
+        area_grizzly_hills_7
+        area_grizzly_hills_8
+        area_grizzly_hills_9
+        area_grizzly_hills_10
+        area_grizzly_hills_11
+        area_grizzly_hills_12
+        area_grizzly_hills_13
+        area_grizzly_hills_14
+        area_grizzly_hills_15
+        area_grizzly_hills_16
+        area_grizzly_hills_17
+        area_grizzly_hills_18
+        area_grizzly_hills_19
+        area_grizzly_hills_20
+        area_grizzly_hills_21
+        area_grizzly_hills_22
+        area_grizzly_hills_23
+        area_grizzly_hills_24
+        area_grizzly_hills_25
+        area_grizzly_hills_26
+        area_grizzly_hills_27
+        area_grizzly_hills_28
+        area_grizzly_hills_29
+        area_grizzly_hills_30
+        area_grizzly_hills_31
+        area_grizzly_hills_32
+    }
+}
+
+region_crystalsong = {
+    areas = {
+        area_crystalsong_1
+        area_crystalsong_2
+        area_crystalsong_3
+        area_crystalsong_4
+        area_crystalsong_5
+        area_crystalsong_6
+        area_crystalsong_7
+        area_crystalsong_8
+    }
+}
+
+region_howling_fjord = {
+    areas = {
+        area_howling_fjord_1
+        area_howling_fjord_2
+        area_howling_fjord_3
+        area_howling_fjord_4
+        area_howling_fjord_5
+        area_howling_fjord_6
+        area_howling_fjord_7
+        area_howling_fjord_8
+        area_howling_fjord_9
+        area_howling_fjord_10
+        area_howling_fjord_11
+        area_howling_fjord_12
+        area_howling_fjord_13
+        area_howling_fjord_14
+        area_howling_fjord_15
+        area_howling_fjord_16
+        area_howling_fjord_17
+        area_howling_fjord_18
+        area_howling_fjord_19
+        area_howling_fjord_20
+        area_howling_fjord_21
+        area_howling_fjord_22
+        area_howling_fjord_23
+        area_howling_fjord_24
+        area_howling_fjord_25
+        area_howling_fjord_26
+        area_howling_fjord_27
+        area_howling_fjord_28
+        area_howling_fjord_29
+        area_howling_fjord_30
+        area_howling_fjord_31
+        area_howling_fjord_32
+        area_howling_fjord_33
+    }
+}
+
+# --------------------------------------
+# Pandaria
+# --------------------------------------
+region_isle_of_thunder = {
+    areas = {
+        area_isle_of_thunder_1
+        area_isle_of_thunder_2
+        area_isle_of_thunder_3
+        area_isle_of_thunder_4
+        area_isle_of_thunder_5
+    }
+}
+
+region_isle_of_giants = {
+    areas = {
+        area_isle_of_giants_1
+        area_isle_of_giants_2
+    }
+}
+
+region_jade_forest = {
+    areas = {
+        area_hidden_valley_1
+        area_jade_forest_1
+        area_jade_forest_2
+        area_jade_forest_3
+        area_jade_forest_4
+        area_jade_forest_5
+        area_jade_forest_6
+        area_jade_forest_7
+        area_jade_forest_8
+        area_jade_forest_9
+        area_jade_forest_10
+        area_jade_forest_11
+        area_jade_forest_12
+        area_jade_forest_13
+        area_jade_forest_14
+        area_jade_forest_15
+        area_jade_forest_16
+        area_jade_forest_17
+        area_jade_forest_18
+        area_jade_forest_19
+        area_jade_forest_20
+        area_jade_forest_21
+        area_jade_forest_22
+        area_jade_forest_23
+        area_jade_forest_24
+        area_jade_forest_25
+        area_jade_forest_26
+        area_jade_forest_27
+        area_jade_forest_28
+        area_jade_forest_29
+        area_jade_forest_30
+        area_jade_forest_31
+        area_jade_forest_32
+        area_jade_forest_33
+        area_jade_forest_34
+        area_jade_forest_35
+    }
+}
+
+region_valley_of_the_four_winds = {
+    areas = {
+        area_valley_of_the_four_winds_1
+        area_valley_of_the_four_winds_2
+        area_valley_of_the_four_winds_3
+        area_valley_of_the_four_winds_4
+        area_valley_of_the_four_winds_5
+        area_valley_of_the_four_winds_6
+        area_valley_of_the_four_winds_7
+        area_valley_of_the_four_winds_8
+        area_valley_of_the_four_winds_9
+        area_valley_of_the_four_winds_10
+    }
+}
+
+region_krasarang_wilds = {
+    areas = {
+        area_krasarang_wilds_1
+        area_krasarang_wilds_2
+        area_krasarang_wilds_3
+        area_krasarang_wilds_4
+        area_krasarang_wilds_5
+        area_krasarang_wilds_6
+        area_krasarang_wilds_7
+        area_krasarang_wilds_8
+        area_krasarang_wilds_9
+        area_krasarang_wilds_10
+        area_krasarang_wilds_11
+        area_krasarang_wilds_12
+        area_krasarang_wilds_13
+        area_krasarang_wilds_14
+        area_krasarang_wilds_15
+        area_krasarang_wilds_16
+        area_krasarang_wilds_17
+        area_krasarang_wilds_18
+        area_krasarang_wilds_19
+        area_krasarang_wilds_20
+    }
+}
+
+region_dread_wastes = {
+    areas = {
+        area_dread_wastes_1
+        area_dread_wastes_2
+        area_dread_wastes_3
+        area_dread_wastes_4
+        area_dread_wastes_5
+        area_dread_wastes_6
+        area_dread_wastes_7
+        area_dread_wastes_8
+        area_dread_wastes_9
+        area_dread_wastes_10
+        area_dread_wastes_11
+        area_dread_wastes_12
+        area_dread_wastes_13
+        area_dread_wastes_14
+        area_dread_wastes_15
+        area_dread_wastes_16
+        area_dread_wastes_17
+        area_dread_wastes_18
+        area_dread_wastes_19
+        area_dread_wastes_20
+        area_dread_wastes_21
+    }
+}
+
+region_vale_of_eternal_blossoms = {
+    areas = {
+        area_vale_of_eternal_blossom_1
+        area_vale_of_eternal_blossom_2
+        area_vale_of_eternal_blossom_3
+        area_vale_of_eternal_blossom_4
+        area_vale_of_eternal_blossom_5
+        area_vale_of_eternal_blossom_6
+        area_vale_of_eternal_blossom_7
+        area_vale_of_eternal_blossom_8
+        area_vale_of_eternal_blossom_9
+        area_vale_of_eternal_blossom_10
+    }
+}
+
+region_townlong_steppes = {
+    areas = {
+        area_townlong_steppes_1
+        area_townlong_steppes_2
+        area_townlong_steppes_3
+        area_townlong_steppes_4
+        area_townlong_steppes_5
+        area_townlong_steppes_6
+        area_townlong_steppes_7
+        area_townlong_steppes_8
+        area_townlong_steppes_9
+        area_townlong_steppes_10
+        area_townlong_steppes_11
+        area_townlong_steppes_12
+        area_townlong_steppes_13
+        area_townlong_steppes_14
+        area_townlong_steppes_15
+        area_townlong_steppes_16
+        area_townlong_steppes_17
+        area_townlong_steppes_18
+        area_townlong_steppes_19
+        area_townlong_steppes_20
+        area_townlong_steppes_21
+        area_townlong_steppes_22
+        area_townlong_steppes_23
+    }
+}
+
+region_kun_lai_summit = {
+    areas = {
+        area_kunlai_summit_1
+        area_kunlai_summit_2
+        area_kunlai_summit_3
+        area_kunlai_summit_4
+        area_kunlai_summit_5
+        area_kunlai_summit_6
+        area_kunlai_summit_7
+        area_kunlai_summit_8
+        area_kunlai_summit_9
+        area_kunlai_summit_10
+        area_kunlai_summit_11
+        area_kunlai_summit_12
+        area_kunlai_summit_13
+        area_kunlai_summit_14
+        area_kunlai_summit_15
+        area_kunlai_summit_16
+        area_kunlai_summit_17
+        area_kunlai_summit_18
+        area_kunlai_summit_19
+        area_kunlai_summit_20
+        area_kunlai_summit_21
+        area_kunlai_summit_22
+        area_kunlai_summit_23
+        area_kunlai_summit_24
+        area_kunlai_summit_25
+    }
+}
+
+# --------------------------------------
+# Broken Isles
+# --------------------------------------
+region_azsuna = {
+    areas = {
+        area_azsuna_1
+        area_azsuna_2
+        area_azsuna_3
+    }
+}
+
+region_broken_shore = {
+    areas = {
+        area_broken_shore_1
+    }
+}
+
+region_highmountain = {
+    areas = {
+        area_highmountain_1
+        area_highmountain_2
+        area_highmountain_3
+        area_highmountain_4
+    }
+}
+
+region_stormheim = {
+    areas = {
+        area_stormheim_1
+        area_stormheim_2
+        area_stormheim_3
+        area_stormheim_4
+    }
+}
+
+region_suramar = {
+    areas = {
+        area_suramar_1
+        area_suramar_2
+        area_suramar_3
+    }
+}
+
+region_val_sharah = {
+    areas = {
+        area_val_sharah_1
+        area_val_sharah_2
+        area_val_sharah_3
+        area_val_sharah_4
+    }
+}
+
+region_eye_of_azshara = {
+    areas = {
+        area_eye_of_azshara_1
+    }
+}
+
+# --------------------------------------
+# Islands
+# --------------------------------------
+region_kezan = {
+    areas = {
+        area_kezan_1
+        area_kezan_2
+        area_kezan_3
+        area_kezan_4
+    }
+}
+
+region_zandalar = {
+    areas = {
+        area_zandalar_1
+        area_zandalar_2
+        area_zandalar_3
+        area_zandalar_4
+        area_zandalar_5
+        area_zandalar_6
+    }
+}
+
+region_plunder_isle = {
+    areas = {
+        area_plunder_isle_1
+        area_plunder_isle_2
+        area_plunder_isle_3
+        area_plunder_isle_4
+    }
+}
+
+#-------------------
+# Oceans
+#-------------------
+region_ocean_1 = {
+    areas = {
+        area_ocean_far_east_10
+        area_ocean_far_east_9
+        area_ocean_far_east_8
+    }
+}
+
+region_ocean_2 = {
+    areas = {
+        area_ocean_far_east_12
+        area_coast_eversong
+    }
+}
+
+region_ocean_3 = {
+    areas = {
+        area_ocean_far_east_7
+        area_ocean_far_east_6
+        area_ocean_far_east_11
+        area_coast_lordaeron_east
+        area_coast_khaz_modan_east
+    }
+}
+
+region_ocean_4 = {
+    areas = {
+        area_ocean_far_east_2
+        area_ocean_far_east_1
+        area_ocean_far_east_5
+        area_coast_azeroth_east
+    }
+}
+
+region_ocean_5 = {
+    areas = {
+        area_coast_azeroth_west
+        area_ocean_centre_east_4
+        area_ocean_southeast_1
+        area_coast_plunder_isle
+    }
+}
+
+region_ocean_6 = {
+    areas = {
+        area_ocean_southeast_3
+        area_ocean_southwest_1
+        area_coast_south_pandaria
+    }
+}
+
+region_ocean_7 = {
+    areas = {
+        area_ocean_southeast_2
+        area_coast_east_pandaria
+        area_ocean_centre_east_3
+    }
+}
+
+region_ocean_8 = {
+    areas = {
+        area_coast_khaz_modan_west
+        area_ocean_centre_east_1
+        area_ocean_centre_east_2
+        area_coast_gilneas
+        area_coast_kul_tiras_isles
+    }
+}
+
+region_ocean_9 = {
+    areas = {
+        area_coast_zandalar
+        area_coast_broken_isles
+        area_ocean_maelstrom_2
+    }
+}
+
+region_ocean_10 = {
+    areas = {
+        area_ocean_maelstrom_1
+        area_ocean_maelstrom_4
+        area_ocean_maelstrom_5
+        area_ocean_maelstrom_6
+        area_coast_kezan
+    }
+}
+
+region_ocean_11 = {
+    areas = {
+        area_coast_south_northrend
+        area_ocean_maelstrom_7
+        area_ocean_maelstrom_3
+    }
+}
+
+region_ocean_12 = {
+    areas = {
+        area_coast_east_northrend
+        area_ocean_northeast_top_4
+        area_ocean_northeast_top_5
+        area_ocean_northeast_top_3
+    }
+}
+
+region_ocean_13 = {
+    areas = {
+        area_coast_north_northrend
+        area_coast_west_northrend
+        area_ocean_northwest_top_2
+    }
+}
+
+region_ocean_14 = {
+    areas = {
+        area_coast_north_pandaria
+        area_coast_west_pandaria
+        area_coast_isle_of_thunder
+        area_ocean_central_west_4
+    }
+}
+
+region_ocean_15 = {
+    areas = {
+        area_coast_north_kalimdor_east
+        area_ocean_northwest_top_1
+        area_ocean_central_west_1
+    }
+}
+
+region_ocean_16 = {
+    areas = {
+        area_ocean_northwest_top_3
+        area_coast_north_kalimdor_west
+        area_coast_teldrassil
+        area_coast_north_kalimdor_isles
+    }
+}
+
+region_ocean_17 = {
+    areas = {
+        area_coast_central_kalimdor_east
+        area_ocean_central_west_2
+        area_ocean_central_west_3
+    }
+}
+
+region_ocean_18 = {
+    areas = {
+        area_ocean_southwest_3
+        area_ocean_southwest_2
+        area_coast_south_kalimdor_east
+    }
+}
+
+region_ocean_19 = {
+    areas = {
+        area_ocean_far_west_10
+        area_ocean_far_west_11
+        area_coast_south_kalimdor_west
+    }
+}
+
+region_ocean_20 = {
+    areas = {
+        area_ocean_far_west_7
+        area_ocean_far_west_5
+        area_coast_central_kalimdor_west
+    }
+}
+
+region_ocean_21 = {
+    areas = {
+        area_ocean_far_east_4
+        area_ocean_far_east_3
+    }
+}
+
+
+region_ocean_22 = {
+    areas = {
+        area_ocean_northeast_top_2
+        area_coast_lordaeron_west
+        area_ocean_northeast_top_1
+    }
+}
+
+region_ocean_23 = {
+    areas = {
+        area_ocean_far_west_8
+        area_ocean_far_west_9
+        area_ocean_far_west_6
+    }
+}
+
+region_ocean_24 = {
+    areas = {
+        area_ocean_far_west_4
+        area_ocean_far_west_3
+        area_ocean_far_west_2
+        area_ocean_far_west_1
+    }
+}
+
+#-------------------
+# Do Not Touch
+#-------------------
+# Supresses the therusawaken.txt error
+russia_region = {
+    areas = { }
+}
+

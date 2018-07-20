@@ -1,0 +1,13 @@
+sunwell_energies = {
+    monarch_admin_power = 1
+    monarch_diplomatic_power = 1
+    monarch_military_power = 1
+}
+
+forest_protection_act = {
+    movement_speed = 0.1
+}
+
+the_three_gates = {
+    defensiveness = 0.25
+}

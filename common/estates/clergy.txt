@@ -1,0 +1,641 @@
+estate_clergy =
+{
+	icon = 1
+	
+	color = { 185 64 130 }
+	
+	keep_on_conquest = no 							
+	always_remove_on_religious_conquest = yes 		
+			
+	min_autonomy = 25								
+    autonomy_does_not_affect = local_tax_modifier
+	
+	# ----- Conditions -----
+	trigger = {	
+        always = yes
+	}
+	
+	province_trigger = {
+		is_overseas = no
+	}
+
+    # ----- Country -----
+	country_modifier_happy = {
+		global_tax_modifier = 0.25
+		advisor_cost = -0.2
+        state_maintenance_modifier = -0.25
+	}
+	country_modifier_neutral = {
+		global_tax_modifier = 0.1
+	}	
+	country_modifier_angry = {
+		global_tax_modifier = -0.25
+		advisor_cost = 0.2
+        state_maintenance_modifier = 0.25
+	}
+	
+	# ----- Province -----
+	province_modifier_happy = {
+		local_tax_modifier = 0.5
+        local_unrest = -5
+	}
+	province_modifier_neutral = {
+		local_tax_modifier = 0.25
+        local_unrest = -1
+	}	
+	province_modifier_angry = {
+        local_tax_modifier = -0.5
+		local_unrest = 5
+	}		
+	
+    ai_grant_province = {
+        factor = 1    
+        modifier = {
+            factor = 2
+            development = 20
+        }
+        modifier = {
+            factor = 0.5
+            NOT = { development = 10 }
+        }                
+        modifier = {
+            factor = 1
+            has_owner_culture = yes
+        }
+        modifier = {
+            factor = 4
+            local_autonomy = 25
+        }
+        modifier = {
+            factor = 0.25
+            NOT = { local_autonomy = 25 }
+        }
+    }
+    
+    # ----- Territory -----
+    min_territory = 15
+    min_provinces_to_want_territory = 10
+    
+	# ----- Influence -----
+	base_influence = 20
+
+	influence_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER
+		trigger = {
+			OR = {
+				has_disaster = estate_nobility_disaster
+                has_disaster = estate_merchants_disaster
+                has_disaster = estate_peasantry_disaster
+                has_disaster = estate_legion_disaster
+                has_disaster = estate_old_gods_disaster
+			}
+		}	
+		influence = -40
+	}	
+    
+	# ----- Loyalty -----
+	loyalty_modifier = {
+		desc = EST_VAL_OTHER_ESTATE_IN_POWER_LOY
+		trigger = {
+			OR = {
+				has_disaster = estate_nobility_disaster
+                has_disaster = estate_merchants_disaster
+                has_disaster = estate_peasantry_disaster
+                has_disaster = estate_legion_disaster
+                has_disaster = estate_old_gods_disaster
+			}
+		}
+		loyalty = -40
+	}
+
+    
+	loyalty_modifier = {
+		desc = EST_VAL_LEGITIMATE
+        trigger = {
+            legitimacy_equivalent = 75
+		}
+		loyalty = 5
+	}
+    
+	loyalty_modifier = {
+		desc = EST_VAL_ILLEGITIMATE
+        trigger = {
+            NOT = { legitimacy_equivalent = 25 }
+		}
+		loyalty = -5
+	}
+
+	# ----- Interactions -----
+    interaction = {
+        name = "DEMAND_BACKING"
+        icon = 1
+        
+        years_between_use = 20
+        
+        potential = { }
+        
+        trigger = {        
+            estate_loyalty = {
+                estate = estate_clergy
+                loyalty = 30
+            }    
+            estate_influence = {
+                estate = estate_clergy
+                influence = 25
+            }            
+        }
+        
+        effect = {
+            add_scaled_adm_power = { ESTATE = estate_clergy }
+            
+            add_estate_loyalty = {
+                estate = estate_clergy
+                loyalty = -20
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = { 
+                factor = 0
+                
+                NOT = {
+                    estate_loyalty = {
+                        estate = estate_clergy
+                        loyalty = 60
+                    }
+                }
+            }
+        }
+    }
+    
+    interaction = {
+        name = "BRIBE_CLERGY"
+        icon = 1
+        
+        years_between_use = 10
+        
+        potential = { }
+        
+        trigger = {
+            always = yes
+        }
+        
+        effect = {
+            add_years_of_income = -0.5
+            
+            add_estate_loyalty = {
+                estate = estate_clergy
+                loyalty = 15
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = { 
+                factor = 0 
+                estate_loyalty = {
+                    estate = estate_clergy
+                    loyalty = 60
+                }
+            }
+            
+            modifier = {
+                factor = 0
+                NOT = { years_of_income = 0.5 }                
+            }           
+        }        
+    }
+    
+    interaction = {
+        name = "SEEK_SUPPORT"
+        icon = 1
+        
+        years_between_use = 20
+        
+        trigger = {
+            always = yes
+        }
+        
+        effect = {
+            add_estate_loyalty = {
+                estate = estate_clergy
+                loyalty = 10
+            }
+            add_estate_influence_modifier = {
+                estate = estate_clergy
+                desc = EST_VAL_SOUGHT_SUPPORT
+                influence = 10
+                duration = 7300
+            }
+        }
+    
+        ai_will_do = {
+            factor = 1
+            
+            modifier = { 
+                factor = 0 
+                estate_loyalty = {
+                    estate = estate_clergy
+                    loyalty = 60
+                }
+            }
+            
+            modifier = { 
+                factor = 0 
+                estate_influence = {
+                    estate = estate_clergy
+                    influence = 55
+                }
+            }
+        }
+    }
+
+    interaction = {
+		name = "PURGE_CORRUPTION"
+		icon = 1
+		
+		years_between_use = 25
+		
+        trigger = {
+            estate_loyalty = {
+                estate = estate_clergy
+                loyalty = 30
+            }
+            estate_influence = {
+                estate = estate_clergy
+                influence = 40
+            }
+        }
+		
+		effect = {
+            remove_scaled_corruption = { ESTATE = estate_clergy }
+            
+			add_estate_loyalty = {
+                estate = estate_clergy
+                loyalty = -20
+            }
+		}
+		
+		ai_will_do = {
+			factor = 1
+            
+            modifier = { 
+                factor = 0 
+                NOT = {
+                    estate_loyalty = {
+                        estate = estate_clergy
+                        loyalty = 60
+                    }
+                }
+            }
+            
+            modifier = {
+                factor = 0
+                NOT = { corruption = 5 }
+            }
+		}
+	}
+    
+    interaction = {
+		name = "LEGITIMIZE_GOVERNMENT"
+		icon = 1
+		
+		years_between_use = 20
+		
+        trigger = {
+            estate_loyalty = {
+                estate = estate_clergy
+                loyalty = 30
+            }
+            estate_influence = {
+                estate = estate_clergy
+                influence = 40
+            }
+        }
+		
+		effect = {
+            add_scaled_legitimacy = { ESTATE = estate_clergy }
+            add_scaled_republic_tradition = { ESTATE = estate_clergy }
+            add_scaled_devotion = { ESTATE = estate_clergy }
+            add_scaled_horde_unity = { ESTATE = estate_clergy }
+            add_scaled_meritocracy = { ESTATE = estate_clergy }
+            
+			add_estate_influence_modifier = {
+                estate = estate_clergy
+                desc = EST_VAL_LEGITIMIZED_GOVERNMENT
+                influence = 15
+                duration = 7300
+            }
+		}
+		
+		ai_will_do = {
+			factor = 1
+            
+            modifier = { 
+                factor = 0 
+                estate_influence = {
+                    estate = estate_clergy
+                    influence = 55
+                }
+            }
+            
+            modifier = {
+                factor = 0
+                
+                legitimacy_equivalent = 75
+            }
+		}
+	}
+    
+    interaction = {
+        name = "ENDORSE_RELIGIOUS_FIGURE"
+        icon = 1
+        
+        years_between_use = 10
+        
+        potential = { 
+            OR = {
+                uses_fervor = yes
+                uses_karma = yes
+                uses_church_aspects = yes
+                uses_papacy = yes
+                uses_patriarch_authority = yes
+                uses_piety = yes
+            }
+        }
+        
+        trigger = {
+            estate_loyalty = {
+                estate = estate_clergy
+                loyalty = 30
+            }    
+            estate_influence = {
+                estate = estate_clergy
+                influence = 40
+            }            
+        }
+        
+        effect = {
+            add_scaled_fervor = { ESTATE = estate_clergy }
+            add_scaled_karma = { ESTATE = estate_clergy }
+            add_scaled_church_power = { ESTATE = estate_clergy }
+            add_scaled_papal_influence = { ESTATE = estate_clergy }
+            add_scaled_patriarch_authority = { ESTATE = estate_clergy }
+            add_scaled_piety = { ESTATE = estate_clergy }
+            
+            add_estate_influence_modifier = {
+                estate = estate_clergy
+                desc = EST_VAL_ENDORSED_RELIGIOUS_FIGURE
+                influence = 15
+                duration = 3650
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                estate_influence = {
+                    estate = estate_clergy
+                    influence = 40
+                }                        
+            }
+        }
+    }
+    
+    interaction = {
+        name = "INCITE_RELIGIOUS_FERVOR"
+        icon = 1
+        
+        years_between_use = 10
+        
+        potential = { 
+            dominant_religion = ROOT
+        }
+        
+        trigger = {
+            estate_loyalty = {
+                estate = estate_clergy
+                loyalty = 30
+            }    
+            estate_influence = {
+                estate = estate_clergy
+                influence = 40
+            }            
+        }
+        
+        effect = {
+            add_country_modifier = {
+                name = rush_of_religion
+                duration = 1800
+            }
+            
+            add_estate_influence_modifier = {
+                estate = estate_clergy
+                desc = EST_VAL_RELIGIOUS_FERVOR
+                influence = 20
+                duration = 3650
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                religious_unity = 0.8
+            }
+            
+            modifier = {
+                factor = 0
+                estate_influence = {
+                    estate = estate_clergy
+                    influence = 40
+                }                        
+            }
+        }
+    }
+
+    interaction = {
+        name = "DISPLAY_RELIGIOUS_GLORY"
+        icon = 1
+        
+        years_between_use = 15
+        
+        potential = { }
+        
+        trigger = {
+            estate_loyalty = {
+                estate = estate_clergy
+                loyalty = 30
+            }    
+            estate_influence = {
+                estate = estate_clergy
+                influence = 40
+            }            
+        }
+        
+        effect = {
+            add_scaled_prestige = { ESTATE = estate_clergy }
+            
+            add_estate_influence_modifier = {
+                estate = estate_clergy
+                desc = EST_VAL_RELIGIOUS_GLORY
+                influence = 15
+                duration = 3650
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                prestige = 0
+            }
+            
+            modifier = {
+                factor = 0
+                estate_influence = {
+                    estate = estate_clergy
+                    influence = 40
+                }                        
+            }
+        }
+    }
+    
+    interaction = {
+        name = "RECRUIT_THEOLOGIAN"
+        icon = 1
+        
+        potential = { }
+        
+        years_between_use = 30
+        
+        trigger = {
+            estate_influence = {
+                estate = estate_clergy
+                influence = 40
+            }
+        }
+        
+        effect = {
+            add_scaled_estate_advisor = { 
+                ESTATE = estate_clergy 
+                ADVISOR = theologian
+            }
+            
+            add_estate_influence_modifier = {
+                estate = estate_clergy
+                desc = EST_VAL_RECRUITED_ADVISOR
+                influence = 15
+                duration = 10950
+            }
+        }
+        
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = { 
+                factor = 0 
+                estate_influence = {
+                    estate = estate_clergy
+                    influence = 55
+                }
+            }
+        }
+    }
+    
+    interaction = {
+        name = "RECRUIT_INQUISITOR"
+        icon = 1
+        
+        potential = { }
+        
+        years_between_use = 30
+        
+        trigger = {
+            estate_influence = {
+                estate = estate_clergy
+                influence = 40
+            }
+        }
+        
+        effect = {
+            add_scaled_estate_advisor = { 
+                ESTATE = estate_clergy 
+                ADVISOR = theologian
+            }
+            
+            add_estate_influence_modifier = {
+                estate = estate_clergy
+                desc = EST_VAL_RECRUITED_ADVISOR
+                influence = 15
+                duration = 10950
+            }
+        }
+        
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = { 
+                factor = 0 
+                estate_influence = {
+                    estate = estate_clergy
+                    influence = 55
+                }
+            }
+        }
+    }
+    
+    interaction = {
+        name = "RECRUIT_JUDGE"
+        icon = 1
+        
+        potential = { }
+        
+        years_between_use = 30
+        
+        trigger = {
+            estate_influence = {
+                estate = estate_clergy
+                influence = 40
+            }
+        }
+        
+        effect = {
+            add_scaled_estate_advisor = { 
+                ESTATE = estate_clergy 
+                ADVISOR = judge
+            }
+            
+            add_estate_influence_modifier = {
+                estate = estate_clergy
+                desc = EST_VAL_RECRUITED_ADVISOR
+                influence = 15
+                duration = 10950
+            }
+        }
+        
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = { 
+                factor = 0 
+                estate_influence = {
+                    estate = estate_clergy
+                    influence = 55
+                }
+            }
+        }
+    }
+}

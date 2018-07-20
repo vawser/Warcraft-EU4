@@ -1,0 +1,39 @@
+country_decisions = {
+	looting_settings = {
+		potential = {
+			ai = no
+            NOT = { is_civilized = yes } # Only non-civilized can loot
+		}
+		
+		allow = {
+			ai = no
+		}
+		
+		effect = {
+			country_event = { id = war_dynamism.100 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    ownership_settings = {
+		potential = {
+			ai = no
+            is_savage = yes
+		}
+		
+		allow = {
+			ai = no
+		}
+		
+		effect = {
+			country_event = { id = war_dynamism.101 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

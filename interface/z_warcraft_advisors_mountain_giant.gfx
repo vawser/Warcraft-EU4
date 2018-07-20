@@ -1,0 +1,571 @@
+spriteTypes = {
+    # ------------------------
+    # ADM
+    # ------------------------
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_artist"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_artist_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_philosopher"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_philosopher_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_theologian"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_theologian_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_inquisitor"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_inquisitor_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_master_of_mint"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_master_of_mint_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_treasurer"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_treasurer_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_stonemason"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_stonemason_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_carpenter"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_carpenter_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_bailiff"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_bailiff_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_judge"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_judge_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_overseer"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_overseer_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    # ------------------------
+    # DIP
+    # ------------------------
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_statesman"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_statesman_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_governor"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_governor_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_diplomat"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_diplomat_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_naval_reformer"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_naval_reformer_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_navigator"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_navigator_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_trader"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_trader_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_spymaster"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_spymaster_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_miller"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_miller_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_tailor"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_tailor_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_elder"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_elder_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_enforcer"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_enforcer_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    # ------------------------
+    # MIL
+    # ------------------------
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_army_reformer"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_army_reformer_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_army_organiser"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_army_organiser_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_commandant"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_commandant_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_quartermaster"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_quartermaster_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_recruitmaster"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_recruitmaster_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_fortification_expert"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_fortification_expert_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_grand_captain"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_grand_captain_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_blacksmith"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_blacksmith_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_marshal"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_marshal_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_constable"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_constable_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_armorer"
+        texturefile = "gfx//interface//advisors//mountain_giant//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_mountagiantgfx_armorer_female"
+        texturefile = "gfx//interface//advisors//mountain_giant//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+}

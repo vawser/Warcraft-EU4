@@ -1,0 +1,17 @@
+# Wildspawn
+government 			= warband
+mercantilism 		= 10
+technology_group 	= tech_satyr
+religion			= fel
+primary_culture 	= satyr
+capital = 1
+
+546.1.1 = { 
+	monarch = { 
+		 name = "Xalan" 
+		 dynasty = "the Feared" 
+		adm = 3
+		dip = 3
+		mil = 3
+	} 
+} 

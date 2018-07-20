@@ -1,0 +1,274 @@
+# aqir_group
+#   qiraji      # FIX
+#   nerubian    # FIX
+#   mantid      # FIX
+
+# arrakoa_group
+#   arrakoa
+
+# centaur_group
+#   centaur
+
+# demon_group
+#   demonic
+
+# draenei_group
+#   draenei
+
+# dragon_group
+#   black_dragonflight
+#   blue_dragonflight
+#   red_dragonflight
+#   green_dragonflight
+#   bronze_dragonflight
+#   infinite_dragonflight
+
+# dryad_group
+#   dryad
+#   nymph
+#   frost_nymph
+#   crystal_nymph
+
+# dwarf_group
+#   bronzebeard
+#   wildhammer
+#   dark_iron
+#   frostborn
+#   dwarf
+
+# elemental_air_group
+#   elemental_air
+
+# elemental_earth_group
+#   elemental_earth
+
+# elemental_fire_group
+#   elemental_fire
+
+# elemental_sha_group
+#   elemental_sha
+
+# elemental_water_group
+#   elemental_water
+
+# ethereal_group
+#   ethereal
+
+# forest_troll_group
+#   amani
+#   shadowpine
+#   vilebranch
+#   revantusk
+#   mossflayer
+#   firetree
+#   smolderthorn
+#   witherbark
+#   shadowglen
+#   forest_troll
+
+# furbolg_group
+#   furbolg
+
+# giant_group
+#   frost_giant
+#   ice_giant
+#   sea_giant
+#   mountain_giant
+
+# gnoll_group
+#   gnoll
+
+# gnome_group
+#   gnome
+
+# goblin_group
+#   bilgewater
+#   steamwheedle
+#   venture
+#   blackwater
+#   kezani
+#   goblin
+
+# gorloc_group
+#   gorloc
+
+# grummle_group
+#   grummle
+
+# harpy_group
+#   harpy
+
+# high_elf_group
+#   high_elf
+#   blood_elf
+#   nightborne
+
+# hozen_group
+#   hozen
+
+# human_group
+#   azerothian
+#   gilnean
+#   arathi
+#   lordaeronian
+#   alteraci
+#   dalaranian
+#   tirasian
+#   human
+
+# ice_troll_group
+#   frostmane
+#   winterax
+#   winterfang
+#   drakkari
+#   ice_troll
+
+# jinyu_group
+#   jinyu
+
+# jungle_troll_group
+#   gurubashi
+#   bloodscalp
+#   shatterspear
+#   skullsplitter
+#   darkspear
+#   atal_ai
+#   hakkari
+#   jellyneck
+#   jungle_troll
+
+# kobold_group
+#   kobold
+
+# magnataur_group
+#   magnataur
+
+# mechagnome_group
+#   mechagnome
+
+# mogu_group
+#   mogu
+
+# murloc_group
+#   murloc
+
+# naga_group
+#   naga
+
+# night_elf_group
+#   night_elf
+#   shen_dralari
+
+# ogre_group
+#   boulderfist
+#   crushridge
+#   stonemaul
+#   dunemaul
+#   gordunni
+#   dreadmaul
+#   splinterfist
+#   firegut
+#   mogrosh
+#   dustbelcher
+#   deadwind
+#   bloodeye
+#   moshogg
+#   ogre
+    
+# orc_group
+#   bleeding_hollow
+#   black_tooth_grin
+#   twilights_hammer
+#   blackrock
+#   stormreaver
+#   dragonmaw
+#   burning_blade
+#   warsong
+#   shadowmoon
+#   frostwolf
+#   bonechewer
+#   orc
+
+# pandaren_group
+#   huojin
+#   tushui
+#   shado_pan
+#   pandaren
+
+# pygmy_group
+#   sand_pygmy
+#   pygmy
+
+# quillboar_group
+#   quillboar
+
+# sand_troll_group
+#   sandfury
+#   sand_troll
+
+# satyr_group
+#   satyr
+
+# saurok_group
+#   saurok
+
+# scourge_group
+#   scourge
+#   death_knight
+#   crypt_fiend
+
+# sprite_group
+#   sprite
+
+# tauren_group
+#   bloodhoof
+#   grimtotem
+#   runetotem
+#   mistrunner
+#   dawnstrider
+#   winterhoof
+#   cliffwalker
+#   skychaser
+#   wildmane
+#   thunderhorn
+#   tauren
+#   taunka
+
+# titan_group
+#   titan_construct
+#   earthen
+#   iron_dwarf
+#   stone_tolvir
+
+# tolvir_group
+#   tolvir
+
+# trogg_group
+#   trogg
+
+# tuskarr_group
+#   tuskarr
+
+# undead_group
+#   forsaken
+#   undead
+
+# virmen_group
+#   virmen
+
+# vrykul_group
+#   vrykul
+#   undead_vrykul
+
+# wolvar_group
+#   wolvar
+
+# worgen_group
+#   wolfcult
+#   worgen
+
+# yaungol_group
+#   yaungol
+
+# zandalari_troll_group
+#   zandalari

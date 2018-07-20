@@ -1,0 +1,79 @@
+# Government
+# Country settings:
+# Type:
+#   monarchy = yes
+#   republic yes
+#   tribal = yes
+#   nomad = yes	
+#   religion = yes
+#   monastic = yes
+#   papacy = yes
+
+# Attributes:
+#	duration = 4
+#	min_autonomy = 50
+#	unique_government = yes
+#	valid_for_new_country
+#	valid_for_nation_designer
+#	nation_designer_cost
+#	allow_convert = no
+#	queen = no
+#   heir = no
+#   foreign_slave_rulers = yes
+#   allow_force_tributary = no
+#	republican_name = yes
+#	royal_marriage = no
+#	rulers_can_be_generals = no
+#	maintain_dynasty = yes          # Maintain Dynasty
+#	max_states = 1
+# 	different_religion_acceptance = -20
+# 	different_religion_group_acceptance = -50
+
+# Mechanics:
+#	has_parliament = yes            # Parliament
+#	has_harem = yes                 # Harem
+#	dutch_mechanics = yes           # Dutch Republic
+#	militarised_society = yes	    # Prussian Militarization
+#   government_abilities
+#       russian_mechanic
+#       feudal_theocracy_mechanic
+#       tribal_federation_mechanic
+#       mamluk_mechanic
+#       iqta_mechanic
+
+#	allow_vassal_war = yes          # Shogunate
+#	allow_vassal_alliance = yes     # Shogunate
+#	allow_migration = yes           # Tribal Migration
+#	native_mechanic = yes           # Tribal Advancement
+# 	has_devotion = yes              # Devotion
+#   has_meritocracy = yes           # Meritocracy
+#   has_pashas = yes                # Pasha
+#	is_elective = yes               # Elective Monarchy
+#	is_trading_city = yes           # Trading City
+#	free_city = yes                 # Free City
+#	boost_income = yes              # Merchant Republic Boost
+#	can_use_trade_post = yes        # Trade Post
+#	can_form_trade_league = yes     # Trade Leagues
+#	claim_states = yes              # Claim State
+#	faction = XXX
+
+# Religion
+#   hre_religion = yes
+#   hre_heretic_religion = yes
+#   declare_war_in_regency = yes
+#   misguided_heretic = yes
+
+#   uses_church_power = yes / aspects = { }
+#   papacy = { }
+#   fervor = yes
+#   has_patriarchs = yes / orthodox_icons = { }
+#   holy_sites = { } / blessings = { }
+#   uses_piety = yes
+#   uses_karma = yes
+#   uses_harmony = yes
+#   uses_isolationism = yes
+#   personal_deity = yes
+#   can_have_secondary_religion = yes
+#   religious_reforms = yes / authority = yes / reform_tooltip = INTI_REFORM_TOOLTIP
+#   religious_reforms = yes / doom = yes / reform_tooltip = NAHUATL_REFORM_TOOLTIP
+#   religious_reforms = yes / reform_tooltip = MESOAMERICAN_REFORM_TOOLTIP

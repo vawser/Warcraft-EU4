@@ -1,0 +1,571 @@
+spriteTypes = {
+    # ------------------------
+    # ADM
+    # ------------------------
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_artist"
+        texturefile = "gfx//interface//advisors//draenei//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_artist_female"
+        texturefile = "gfx//interface//advisors//draenei//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_philosopher"
+        texturefile = "gfx//interface//advisors//draenei//male//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_philosopher_female"
+        texturefile = "gfx//interface//advisors//draenei//female//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_theologian"
+        texturefile = "gfx//interface//advisors//draenei//male//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_theologian_female"
+        texturefile = "gfx//interface//advisors//draenei//female//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_inquisitor"
+        texturefile = "gfx//interface//advisors//draenei//male//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_inquisitor_female"
+        texturefile = "gfx//interface//advisors//draenei//female//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_master_of_mint"
+        texturefile = "gfx//interface//advisors//draenei//male//5.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_master_of_mint_female"
+        texturefile = "gfx//interface//advisors//draenei//female//5.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_treasurer"
+        texturefile = "gfx//interface//advisors//draenei//male//6.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_treasurer_female"
+        texturefile = "gfx//interface//advisors//draenei//female//6.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_stonemason"
+        texturefile = "gfx//interface//advisors//draenei//male//7.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_stonemason_female"
+        texturefile = "gfx//interface//advisors//draenei//female//7.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_carpenter"
+        texturefile = "gfx//interface//advisors//draenei//male//8.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_carpenter_female"
+        texturefile = "gfx//interface//advisors//draenei//female//8.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_bailiff"
+        texturefile = "gfx//interface//advisors//draenei//male//9.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_bailiff_female"
+        texturefile = "gfx//interface//advisors//draenei//female//9.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_judge"
+        texturefile = "gfx//interface//advisors//draenei//male//10.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_judge_female"
+        texturefile = "gfx//interface//advisors//draenei//female//10.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_overseer"
+        texturefile = "gfx//interface//advisors//draenei//male//11.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_overseer_female"
+        texturefile = "gfx//interface//advisors//draenei//female//11.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    # ------------------------
+    # DIP
+    # ------------------------
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_statesman"
+        texturefile = "gfx//interface//advisors//draenei//male//12.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_statesman_female"
+        texturefile = "gfx//interface//advisors//draenei//female//12.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_governor"
+        texturefile = "gfx//interface//advisors//draenei//male//13.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_governor_female"
+        texturefile = "gfx//interface//advisors//draenei//female//13.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_diplomat"
+        texturefile = "gfx//interface//advisors//draenei//male//14.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_diplomat_female"
+        texturefile = "gfx//interface//advisors//draenei//female//14.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_naval_reformer"
+        texturefile = "gfx//interface//advisors//draenei//male//15.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_naval_reformer_female"
+        texturefile = "gfx//interface//advisors//draenei//female//15.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_navigator"
+        texturefile = "gfx//interface//advisors//draenei//male//16.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_navigator_female"
+        texturefile = "gfx//interface//advisors//draenei//female//16.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_trader"
+        texturefile = "gfx//interface//advisors//draenei//male//17.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_trader_female"
+        texturefile = "gfx//interface//advisors//draenei//female//17.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_spymaster"
+        texturefile = "gfx//interface//advisors//draenei//male//18.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_spymaster_female"
+        texturefile = "gfx//interface//advisors//draenei//female//18.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_miller"
+        texturefile = "gfx//interface//advisors//draenei//male//19.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_miller_female"
+        texturefile = "gfx//interface//advisors//draenei//female//19.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_tailor"
+        texturefile = "gfx//interface//advisors//draenei//male//20.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_tailor_female"
+        texturefile = "gfx//interface//advisors//draenei//female//20.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_elder"
+        texturefile = "gfx//interface//advisors//draenei//male//21.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_elder_female"
+        texturefile = "gfx//interface//advisors//draenei//female//21.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_enforcer"
+        texturefile = "gfx//interface//advisors//draenei//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_enforcer_female"
+        texturefile = "gfx//interface//advisors//draenei//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    # ------------------------
+    # MIL
+    # ------------------------
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_army_reformer"
+        texturefile = "gfx//interface//advisors//draenei//male//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_army_reformer_female"
+        texturefile = "gfx//interface//advisors//draenei//female//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_army_organiser"
+        texturefile = "gfx//interface//advisors//draenei//male//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_army_organiser_female"
+        texturefile = "gfx//interface//advisors//draenei//female//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_commandant"
+        texturefile = "gfx//interface//advisors//draenei//male//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_commandant_female"
+        texturefile = "gfx//interface//advisors//draenei//female//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_quartermaster"
+        texturefile = "gfx//interface//advisors//draenei//male//5.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_quartermaster_female"
+        texturefile = "gfx//interface//advisors//draenei//female//5.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_recruitmaster"
+        texturefile = "gfx//interface//advisors//draenei//male//6.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_recruitmaster_female"
+        texturefile = "gfx//interface//advisors//draenei//female//6.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_fortification_expert"
+        texturefile = "gfx//interface//advisors//draenei//male//7.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_fortification_expert_female"
+        texturefile = "gfx//interface//advisors//draenei//female//7.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_draeneigfxnd_captain"
+        texturefile = "gfx//interface//advisors//draenei//male//8.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_draeneigfxnd_captain_female"
+        texturefile = "gfx//interface//advisors//draenei//female//8.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_blacksmith"
+        texturefile = "gfx//interface//advisors//draenei//male//9.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_blacksmith_female"
+        texturefile = "gfx//interface//advisors//draenei//female//9.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_marshal"
+        texturefile = "gfx//interface//advisors//draenei//male//10.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_marshal_female"
+        texturefile = "gfx//interface//advisors//draenei//female//10.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_constable"
+        texturefile = "gfx//interface//advisors//draenei//male//11.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_constable_female"
+        texturefile = "gfx//interface//advisors//draenei//female//11.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_armorer"
+        texturefile = "gfx//interface//advisors//draenei//male//12.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_draeneigfx_armorer_female"
+        texturefile = "gfx//interface//advisors//draenei//female//12.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+}

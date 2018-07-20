@@ -1,0 +1,117 @@
+# Replace <country>, <tag>, <ttag>
+
+force_union_with_<country> = {
+	type = country
+	ai_mission = yes
+
+	category = MIL
+	
+	allow = {
+		normal_or_historical_nations = yes
+		tag = <tag>
+		exists = <ttag>
+		is_subject = no
+		<ttag> = {
+			ai = yes
+			is_subject = no
+			is_emperor = no
+			is_neighbor_of = ROOT
+			NOT = { total_development = 140 }
+			NOT = { num_of_cities = ROOT }
+		}
+	}
+	abort = {
+		OR = {
+			is_subject_other_than_tributary_trigger = yes
+			NOT = { exists = <ttag> }
+			<ttag> = { is_subject_other_than_tributary_trigger = yes }
+		}
+	}
+	success = {
+		senior_union_with = <ttag>
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			NOT = { has_opinion = { who = <ttag> value = 0 } }
+		}
+	}
+	immediate = {
+		add_casus_belli = {
+			type = cb_restore_personal_union
+			months = 300
+			target = <ttag>
+		}
+	}
+	abort_effect = {
+		remove_casus_belli = {
+			type = cb_restore_personal_union
+			target = <ttag>
+		}
+	}
+	effect = {
+		add_prestige = 10
+		hidden_effect = {
+			remove_casus_belli = {
+				type = cb_restore_personal_union
+				target = <ttag>
+			}
+		}
+	}
+}
+
+conquer_<country> = {
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+    target_provinces = {
+        owned_by = <ttag>
+        is_in_capital_area = yes
+    }
+    
+	allow = {
+        tag = <tag>
+		normal_or_historical_nations = yes
+		is_free_or_tributary_trigger = yes
+        
+        <ttag> = {
+            NOT = { alliance_with = ROOT }
+			NOT = { vassal_of = ROOT }
+			NOT = { is_subject_of = ROOT }
+			NOT = { overlord_of = ROOT }
+        }
+		NOT = { has_country_flag = conquest_of_<country> }
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes		
+	}
+	success = {
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}	
+	}
+	immediate = {
+		all_target_province = {
+            add_permanent_claim = <tag>
+        }
+	}
+	abort_effect = {    
+        all_target_province = {
+            remove_claim = <tag>
+        }
+	}
+	effect = {
+		set_country_flag = conquest_of_<country>
+		add_adm_power = 100
+	}
+}

@@ -1,0 +1,8 @@
+# Frostmane
+government 			= warband
+mercantilism 		= 10
+technology_group 	= tech_troll
+religion			= voodoo
+primary_culture 	= frostmane
+capital = 1
+

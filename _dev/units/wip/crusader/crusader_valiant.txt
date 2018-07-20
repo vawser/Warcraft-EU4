@@ -1,0 +1,22 @@
+# valiant
+type = infantry
+unit_type = tech_human # Crusader
+
+maneuver = 1
+offensive_morale = 3
+defensive_morale = 4
+offensive_fire = 2
+defensive_fire = 2
+offensive_shock = 2
+defensive_shock = 2
+
+trigger = {
+	OR = {
+		tag = AGD # Argent Dawn
+		tag = SSL # Scarlet Onslaught
+		tag = SCC # Scarlet Crusade
+		tag = AGC # Argent Crusade
+        tag = SVH # Silver Hand
+	}
+}
+

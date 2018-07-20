@@ -1,0 +1,7 @@
+# Tidewalker
+government 			= religious_tribe
+mercantilism 		= 10
+technology_group 	= tech_murloc
+religion			= deep_mother
+primary_culture 	= murloc
+capital = 1

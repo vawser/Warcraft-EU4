@@ -1,0 +1,18 @@
+# Dawnchaser
+government 			= mercantile_tribe
+mercantilism 		= 10
+technology_group 	= tech_tauren
+religion			= shamanism
+primary_culture 	= dawnstrider
+capital = 1
+
+976.1.1 = { 
+    monarch = { 
+        name = "Dezco" 
+        dynasty = "Dawnchaser" 
+		adm = 3
+		dip = 4
+		mil = 4
+ 	}
+} 
+

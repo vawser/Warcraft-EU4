@@ -1,0 +1,19 @@
+######################################################
+# Documentation
+# ----------------------------------------------------
+# All dates are in the King's Calender format
+######################################################
+
+bookmark =
+{
+	name = "SECOND_WAR_NAME"
+	desc = "SECOND_WAR_DESC"
+	date = 806.1.1
+    
+    country = BEE
+    country = BKR
+    country = LOR
+    country = SMG
+    country = QUE
+    country = DAL
+}

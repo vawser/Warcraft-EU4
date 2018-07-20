@@ -1,0 +1,43 @@
+spriteTypes = {	
+    spriteType = {
+        name = "GFX_disaster_estate_clergy_disaster"
+        texturefile = "gfx//interface//disasters//estate_major_clergy_disaster.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_disaster_estate_merchants_disaster"
+        texturefile = "gfx//interface//disasters//estate_major_merchants_disaster.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_disaster_estate_nobility_disaster"
+        texturefile = "gfx//interface//disasters//estate_major_nobility_disaster.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+    }
+	
+    spriteType = {
+        name = "GFX_disaster_estate_peasantry_disaster"
+        texturefile = "gfx//interface//disasters//estate_major_commoners_disaster.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_disaster_estate_legion_disaster"
+        texturefile = "gfx//interface//disasters//estate_major_the_legion_disaster.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_disaster_estate_old_gods_disaster"
+        texturefile = "gfx//interface//disasters//estate_major_old_gods_disaster.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+    }
+}

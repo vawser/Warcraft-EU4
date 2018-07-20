@@ -1,0 +1,17 @@
+
+is_city = no
+native_size = 34
+native_ferocity = 10
+native_hostileness = 5
+
+base_tax = 2
+base_production = 3
+base_manpower = 1
+
+culture = hozen
+religion = yulon
+
+trade_goods = unknown
+hre = no
+
+

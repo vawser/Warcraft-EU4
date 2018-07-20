@@ -1,0 +1,18 @@
+# Formables
+EME = { always = no }
+ESS = { always = no }
+AME = { always = no }
+GUE = { always = no }
+DKE = { always = no }
+EOH = { always = no }
+MUH = { always = no }
+TGP = { always = no }
+CAN = { always = no }
+HIE = { always = no }
+
+# Scourge
+SCO = { always = no }
+CTD = { always = no }
+KEB = { always = no }
+SOL = { always = no }
+DTH = { always = no }

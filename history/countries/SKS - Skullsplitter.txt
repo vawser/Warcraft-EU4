@@ -1,0 +1,30 @@
+# Skullsplitter
+government 			= warband
+mercantilism 		= 10
+technology_group 	= tech_troll
+religion			= voodoo
+primary_culture 	= skullsplitter
+capital = 1
+
+546.1.1 = { 
+	monarch = { 
+		name = "Popen'frez" 
+		dynasty = "Skullsplitter" 
+		adm = 3
+		dip = 3
+		mil = 3
+                
+	} 
+}
+
+901.1.1 = { 
+	monarch = { 
+		name = "Ana'thek" 
+		dynasty = "Skullsplitter" 
+		adm = 3
+		dip = 3
+		mil = 4
+	} 
+} 
+
+

@@ -1,0 +1,64 @@
+# Dragonmaw
+government 			= warband
+mercantilism 		= 10
+technology_group 	= tech_orc
+religion			= shamanism
+primary_culture 	= dragonmaw
+capital = 1
+
+
+776.1.1 = { 
+	monarch = { 
+		name = "Zuluhed" 
+		dynasty = "the Whacked" 
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+    religion = fel
+}
+
+816.1.1 = { 
+	monarch = { 
+		name = "Nek'Rosh" 
+		dynasty = "Skullcrusher" 
+		adm = 3
+		dip = 4
+		mil = 3
+                
+	} 
+}
+
+946.1.1 = { 
+	monarch = { 
+		name = "Mor'ghor" 
+		dynasty = "the Fel" 
+		adm = 3
+		dip = 3
+		mil = 4
+                
+	} 
+}
+
+971.1.1 = {  
+    monarch = {  
+    name = "Zaela"  
+    dynasty = "Dragonmaw"  
+ 		adm = 3 
+		dip = 4
+		mil = 4 
+        female = yes
+  	}
+}  
+
+981.1.1 = { 
+	monarch = { 
+		name = "Gorfax" 
+		dynasty = "Angerfang" 
+		adm = 3
+		dip = 3
+		mil = 4
+                
+	} 
+}
+

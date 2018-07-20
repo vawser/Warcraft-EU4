@@ -1,0 +1,17 @@
+
+is_city = no
+native_size = 50
+native_ferocity = 2
+native_hostileness = 6
+
+base_tax = 1
+base_production = 3
+base_manpower = 3
+
+culture = gnoll
+religion = geomancy
+
+trade_goods = unknown
+hre = no
+
+

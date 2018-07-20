@@ -1,0 +1,46 @@
+lordaeron_ideas = {
+	start = {
+		diplomatic_upkeep = 1
+		legitimacy = 1	
+	}
+
+	bonus = {
+        advisor_pool = 1
+	}
+	
+	trigger = {
+		primary_culture = lordaeronian
+	}
+	free = yes		
+	
+	#Alliance of Lordaeron
+	lordaeron_ideas_1 = {
+		diplomatic_reputation = 1
+	}
+	#Feudal Farms
+	lordaeron_ideas_2 = {
+		land_maintenance_modifier = -0.10
+	}
+	#Devout Soldiers
+	lordaeron_ideas_3 = {
+		land_morale = 0.10
+	}
+	# Holy Light
+	lordaeron_ideas_4 = {
+		tolerance_own = 1
+	}
+	# Paladins
+	lordaeron_ideas_5 = {
+		discipline = 0.05
+		cavalry_power = 0.05
+	}
+	#Lordaeron Colonists
+	lordaeron_ideas_6 = {
+		colonists = 1
+	}
+	# Lordaeron Patriotism
+	lordaeron_ideas_7 = {
+		war_exhaustion_cost = -0.2
+	}
+}
+

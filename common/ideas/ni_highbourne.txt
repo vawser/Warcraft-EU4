@@ -1,0 +1,45 @@
+highbourne_ideas = {
+	start = {
+		legitimacy = 1
+        spy_offence = 0.1
+	}
+
+	bonus = {
+		prestige_decay = -0.01
+	}
+	
+	trigger = {
+		always = no
+	}
+	free = yes		
+	
+	
+	highbourne_ideas_1 = {
+		idea_cost = -0.05
+	}
+	
+	highbourne_ideas_2 = {
+		hostile_attrition = 0.5
+	}
+	
+	highbourne_ideas_3 = {
+		development_cost = -0.2
+	}
+	
+	highbourne_ideas_4 = {
+		stability_cost_modifier = -0.1
+	}
+	
+	highbourne_ideas_5 = {
+		defensiveness = 0.05
+	}
+	
+	highbourne_ideas_6 = {
+		technology_cost = -0.05
+	}
+	
+	highbourne_ideas_7 = {
+		diplomats = 1
+	}
+}
+

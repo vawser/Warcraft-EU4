@@ -1,0 +1,43 @@
+forest_troll_ideas = {
+	start = { 
+		manpower_recovery_speed = 0.10
+		naval_forcelimit_modifier = 0.25
+	}
+
+	bonus = { 
+        leader_land_shock = 1
+	}
+	
+	trigger = {
+		culture_group = forest_troll_group
+	}
+	free = yes		
+	
+	forest_troll_berserkers = { 
+		infantry_power = 0.1
+	}
+	forest_troll_empire = { 
+		core_creation = -0.15
+	}
+	
+	forest_troll_lumber_mills = {
+		production_efficiency = 0.1
+	}
+	
+	forest_troll_land = {
+		culture_conversion_cost = -0.2
+		global_missionary_strength = 0.01
+	}
+
+	forest_troll_destroyers = {
+		navy_tradition = 1
+		light_ship_power = 0.15
+	}
+	forest_troll_war_bears = {
+		cavalry_power = 0.1
+	}
+	forest_troll_hexxers = {
+		land_morale = 0.1
+	}
+}
+

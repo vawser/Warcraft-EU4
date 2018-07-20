@@ -1,0 +1,190 @@
+army_reformer = {
+	monarch_power = MIL
+	
+	land_morale = 0.1
+
+	skill_scaled_modifier = { meritocracy = 0.5 }	
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1.8
+	}
+}
+
+army_organiser = {
+	monarch_power = MIL
+	
+	army_tradition = 1
+	
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1.5
+	}
+}
+
+commandant = {
+	monarch_power = MIL
+
+	discipline = 0.05
+    
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1.8
+	}
+}
+
+quartermaster = {
+	monarch_power = MIL
+	
+	reinforce_speed = 0.33
+
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.4
+			is_at_war = yes
+		}
+	}
+}
+
+recruitmaster = {
+	monarch_power = MIL
+
+	global_manpower_modifier = 0.1
+	
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 1.5
+			is_at_war = no
+		}
+	}
+}
+
+fortification_expert = {
+	monarch_power = MIL
+	
+	siege_ability = 0.1
+    
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
+	chance = {
+		factor = 1
+		
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+grand_captain = {
+	monarch_power = MIL
+	
+	yearly_army_professionalism = 0.01
+    
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
+	chance = {
+		factor = 1
+        
+        modifier = {
+            factor = 0
+            NOT = { has_dlc = "Cradle of Civilization" }
+        }
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+blacksmith = {
+	monarch_power = MIL
+	
+    reinforce_cost_modifier = -0.2
+    
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+armorer = {
+	monarch_power = MIL
+	
+    global_regiment_cost = -0.2
+    
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+marshal = {
+	monarch_power = MIL
+	
+    fort_maintenance_modifier = -0.2
+    
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+constable = {
+	monarch_power = MIL
+	
+    garrison_size = 1.0
+    
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+

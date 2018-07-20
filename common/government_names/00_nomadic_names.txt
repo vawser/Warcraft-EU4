@@ -1,0 +1,450 @@
+gov_warband_true_horde = {
+	rank = {
+		1 = TRUE_HORDE
+		2 = TRUE_HORDE
+		3 = TRUE_HORDE
+	}
+	
+	ruler_male = {
+		1 = WARCHIEF
+		2 = WARCHIEF
+		3 = WARCHIEF
+	}
+	
+	ruler_female = {
+		1 = WAR_MISTRESS
+		2 = WAR_MISTRESS
+		3 = WAR_MISTRESS
+	}
+
+    consort_male = {
+		1 = CHIEF_CONSORT
+		2 = CHIEF_CONSORT
+		3 = CHIEF_CONSORT
+    }
+
+    consort_female = {
+		1 = CHIEFTESS_CONSORT
+		2 = CHIEFTESS_CONSORT
+		3 = CHIEFTESS_CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		government = warband
+		has_country_flag = true_horde
+		capital_scope = {
+			region = region_durotar
+		}
+	}
+}
+
+gov_warband_horde = {
+	rank = {
+		1 = HORDE
+		2 = HORDE
+		3 = HORDE
+	}
+	
+	ruler_male = {
+		1 = WARCHIEF
+		2 = WARCHIEF
+		3 = WARCHIEF
+	}
+	
+	ruler_female = {
+		1 = WAR_MISTRESS
+		2 = WAR_MISTRESS
+		3 = WAR_MISTRESS
+	}
+
+    consort_male = {
+		1 = CHIEF_CONSORT
+		2 = CHIEF_CONSORT
+		3 = CHIEF_CONSORT
+    }
+
+    consort_female = {
+		1 = CHIEFTESS_CONSORT
+		2 = CHIEFTESS_CONSORT
+		3 = CHIEFTESS_CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		government = warband
+		capital_scope = {
+			region = region_durotar
+		}
+	}
+}
+
+gov_warband_pirate = {
+	rank = {
+		1 = PIRATE_CLAN
+		2 = PIRATE_CLAN
+		3 = PIRATE_CLAN
+	}
+	
+	ruler_male = {
+		1 = CAPTAIN
+		2 = PIRATE_LORD
+		3 = PIRATE_KING
+	}
+	
+	ruler_female = {
+		1 = CAPTAIN
+		2 = PIRATE_LADY
+		3 = PIRATE_QUEEN
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		government = criminal_organisation
+		OR = {
+			tag = BLO
+			tag = SSP
+			tag = NSF
+		}
+	}
+}
+
+gov_warband = {
+	rank = {
+		1 = PETTY_WARBAND
+		2 = WARBAND
+		3 = HORDE
+	}
+	
+	ruler_male = {
+		1 = CHIEFTAIN
+		2 = WARLORD
+		3 = WARCHIEF
+	}
+	
+	ruler_female = {
+		1 = CHEIFESS
+		2 = WAR_MISTRESS
+		3 = WAR_MISTRESS
+	}
+
+    consort_male = {
+		1 = CHIEF_CONSORT
+		2 = CHIEF_CONSORT
+		3 = CHIEF_CONSORT
+    }
+
+    consort_female = {
+		1 = CHIEFTESS_CONSORT
+		2 = CHIEFTESS_CONSORT
+		3 = CHIEFTESS_CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		government = warband
+	}
+}
+
+gov_scourge_main = {
+	rank = {
+		1 = SCOURGE
+		2 = SCOURGE
+		3 = SCOURGE
+	}
+	
+	ruler_male = {
+		1 = LICH_KING
+		2 = LICH_KING
+		3 = LICH_KING
+	}
+	
+	ruler_female = {
+		1 = LICH_QUEEN
+		2 = LICH_QUEEN
+		3 = LICH_QUEEN
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		government = scourge_horde
+		tag = SCO
+	}
+}
+
+gov_scourge_cult = {
+	rank = {
+		1 = PETTY_CULT
+		2 = CULT
+		3 = GRAND_CULT
+	}
+	
+	ruler_male = {
+		1 = ACOLYTE
+		2 = CULTIST
+		3 = ARCHLICH
+	}
+	
+	ruler_female = {
+		1 = ACOLYTE
+		2 = CULTIST
+		3 = ARCHLICH
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		government = scourge_horde
+		tag = CTD
+	}
+}
+
+gov_scourge = {
+	rank = {
+		1 = SCOURGE
+		2 = SCOURGE
+		3 = SCOURGE
+	}
+	
+	ruler_male = {
+		1 = COMMANDER
+		2 = COMMANDER
+		3 = COMMANDER
+	}
+	
+	ruler_female = {
+		1 = COMMANDER
+		2 = COMMANDER
+		3 = COMMANDER
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		government = scourge_horde
+		OR = {
+			tag = SOL
+			tag = DTH
+			tag = KEB
+		}
+	}
+}
+
+gov_expeditionary_force = {
+	rank = {
+		1 = EXPEDITIONARY_FORCE
+		2 = EXPEDITIONARY_FORCE
+		3 = EXPEDITIONARY_FORCE
+	}
+	
+	ruler_male = {
+		1 = COMMANDER
+		2 = COMMANDER
+		3 = COMMANDER
+	}
+	
+	ruler_female = {
+		1 = COMMANDER
+		2 = COMMANDER
+		3 = COMMANDER
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		government = expeditionary_force
+	}
+}
+
+gov_criminal_organisation = {
+	rank = {
+		1 = CRIMINAL_GANG
+		2 = CRIMINAL_COLLECTIVE
+		3 = CRIMINAL_ORGANISATION
+	}
+	
+	ruler_male = {
+		1 = BOSS
+		2 = KINGPIN
+		3 = KINGPIN
+	}
+	
+	ruler_female = {
+		1 = BOSS
+		2 = KINGPIN
+		3 = KINGPIN
+	}
+
+    consort_male = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		government = criminal_organisation
+	}
+}

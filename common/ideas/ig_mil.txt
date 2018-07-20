@@ -1,0 +1,286 @@
+# army_logistics_ideas
+# army_leadership_ideas
+# army_quality_ideas
+# naval_logistics_ideas
+# naval_leadership_ideas
+# naval_quality_ideas
+# fortification_ideas
+# mercenary_ideas
+# piracy_ideas
+
+army_logistics_ideas = {
+	category = MIL
+	
+	bonus = {
+		global_manpower_modifier = 0.5
+	}
+	
+	competent_recruitment = {
+        global_regiment_cost = -0.25
+		global_regiment_recruit_speed = -0.25
+	}
+	proficient_suppliers = {
+		reinforce_speed = 0.25
+	}
+	self_maintenance = {
+		land_maintenance_modifier = -0.1
+	}
+    soldiers_glory = {
+        recover_army_morale_speed = 0.1
+        manpower_recovery_speed = 0.1
+    }
+	improved_foraging = {
+		land_attrition = -0.2
+	}
+    recruitment_network = {
+        land_forcelimit_modifier = 0.25
+    }
+	expeditious_reinforcements = {
+        reinforce_cost_modifier = -0.2
+    }
+    
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+army_leadership_ideas = {
+	category = MIL
+	
+	bonus = {
+		army_tradition = 1
+        yearly_army_professionalism = 0.01
+	}
+	
+	drill_regime = {
+		drill_gain_modifier = 1.0
+        prestige_from_land = 0.5
+	}
+	combat_maneuver = {
+		leader_land_manuever = 1
+	}
+    shock_tactics = {
+		leader_land_shock = 1
+	}
+    patient_leaders = {
+		leader_land_fire = 1
+	}
+    siege_master = {
+		leader_siege = 1
+	}
+    military_school = {
+        general_cost = -0.25
+    }
+    local_talent = {
+        free_leader_pool = 2
+    }
+    
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+army_quality_ideas = {
+	category = MIL
+	
+	bonus = {
+		land_morale = 0.2
+	}
+	
+    improved_infantry = {
+        infantry_power = 0.1
+    }
+    improved_cavalry = {
+        cavalry_power = 0.1
+    }
+    sappers = {
+        siege_ability = 0.1
+    }
+    improved_artillery = {
+        artillery_power = 0.1
+    }
+    calculated_shots = {
+        artillery_bonus_vs_fort = 1
+    }
+    flanking_tactics = {
+        cavalry_flanking = 0.1
+    }
+    disciplined_troops = {
+        discipline = 0.05
+    }
+    
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+naval_logistics_ideas = {
+	category = MIL
+	
+	trigger = {
+		num_of_ports = 1
+	}
+	
+	bonus = {
+
+	}
+    
+    # global_ship_cost
+    # global_ship_recruit_speed
+    # global_ship_repair
+    # naval_forcelimit_modifier
+    # naval_maintenance_modifier
+    # global_sailors_modifier
+    # sailor_maintenance_modifer
+    # sailors_recovery_speed
+
+    
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+naval_leadership_ideas = {
+	category = MIL
+	
+	trigger = {
+		num_of_ports = 1
+	}
+	
+	bonus = {
+        
+	}
+
+    # navy_tradition
+    # leader_naval_fire
+    # leader_naval_manuever
+    # leader_naval_shock
+    # prestige_from_naval
+    # naval_tradition_from_battle
+    # free_leader_pool
+    # navy_tradition_decay
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+naval_quality_ideas = {
+	category = MIL
+	
+	trigger = {
+		num_of_ports = 1
+	}
+	
+	bonus = {
+        
+	}
+    
+    # heavy_ship_power
+    # galley_power
+    # naval_attrition
+    # naval_morale
+    # ship_durability
+    # recover_navy_morale_speed
+    # sunk_ship_morale_hit_recieved
+    # naval_tradition_from_battle
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+mercenary_ideas = {
+	category = MIL
+	
+	bonus = {
+        fire_damage_received = -0.1
+		shock_damage_received = -0.1
+	}
+	
+    disciplined_mercenaries = {
+        mercenary_discipline = 0.05
+    }
+    mercenary_contracts = { 
+        mercenary_cost = -0.25
+    }
+    mercenary_networks = {
+        merc_maintenance_modifier = -0.15
+    }
+    mercenary_levies = {
+        possible_condottieri = 0.5
+    }
+    improved_mercenary_recruitment = {
+        possible_mercenaries = 1
+    }
+    rape_and_pillage = {
+        loot_amount = 1.0
+    }
+    offset_losses = {
+        war_exhaustion = -0.05
+    }
+    
+	ai_will_do = {
+		factor = 0.3 #probably unwise for the AI to take this, most times
+	}
+}
+
+fortification_ideas = {
+	category = MIL
+	
+	bonus = {
+		manpower_recovery_speed = 0.05
+		reinforce_speed = 0.05
+	}
+	
+    defensive_mentality = {
+        defensiveness = 0.33
+    }
+    bolstered_garrisons = {
+        garrison_size = 1.0
+    }
+    secured_supply_lines = {
+        global_garrison_growth = 1.0
+    }
+    local_materials = {
+        fort_maintenance_modifier = -0.25
+    }
+    incentivised_defence = {
+        rival_border_fort_maintenance = -0.5
+    }
+    hold_the_line = {
+        reserves_organisation = 0.5
+    }
+    secure_garrisons = {
+        war_exhaustion = -0.05
+    }
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+piracy_ideas = {
+	category = MIL
+	
+	trigger = {
+		num_of_ports = 1
+	}
+    
+	bonus = {
+
+	}
+
+    # light_ship_cost
+    # blockade_efficiency
+    # capture_ship_chance
+    # global_naval_engagement_modifier
+    # siege_blockade_progress
+    # global_sailors_modifier
+    # sailor_maintenance_modifer
+    # ship_durability
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

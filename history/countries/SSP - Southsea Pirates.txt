@@ -1,0 +1,17 @@
+# Southsea Pirates
+government 			= criminal_organisation
+mercantilism 		= 10
+technology_group 	= tech_human
+religion			= the_light
+primary_culture 	= tirasian
+capital = 1
+
+906.1.1 = {  
+    monarch = {  
+        name = "John"  
+        dynasty = "Longshore"  
+ 		adm = 3 
+		dip = 4
+		mil = 4 
+    }
+}

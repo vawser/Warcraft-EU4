@@ -1,0 +1,27 @@
+# Diplomacy
+on_gain_great_power_status = {
+    if = {
+        limit = {
+            NOT = { has_country_flag = became_great_power_flag }
+        }
+        set_country_flag = became_great_power_flag
+    }
+}
+
+on_diplomatic_annex = {
+    events = {
+        intergration_events.1
+    }
+}
+
+on_integrate = {
+    events = {
+        intergration_events.1
+    }
+}
+
+on_lose_great_power_status = { }
+on_accept_tribute = { }     # FROM = Overlord
+on_refuse_tribute = { }
+on_annexed = { }
+

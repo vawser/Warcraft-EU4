@@ -1,0 +1,15 @@
+######################################################
+# Documentation
+# ----------------------------------------------------
+# All dates are in the King's Calender format
+######################################################
+
+bookmark =
+{
+	name = "WAR_OF_THE_SPIDER_NAME"
+	desc = "WAR_OF_THE_SPIDER_DESC"
+	date = 860.1.1
+    
+    country = SCO
+    country = LOR
+}

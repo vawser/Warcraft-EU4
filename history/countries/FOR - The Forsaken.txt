@@ -1,0 +1,31 @@
+# The Forsaken
+government 			= militaristic_kingdom
+mercantilism 		= 10
+technology_group 	= tech_undead
+religion			= forgotten_shadow
+primary_culture 	= forsaken
+capital = 1
+
+906.1.1 = { 
+	monarch = { 
+		name = "Sylvannas" 
+		dynasty = "Windrunner" 
+		adm = 4
+		dip = 4
+		mil = 5
+        female = yes
+
+		leader = {
+			name = "Sylvannas Windrunner"
+			type = general
+			fire = 6
+			shock = 6
+			manuever = 6
+			siege = 4
+		}
+	}
+	
+    clear_scripted_personalities = yes
+    add_ruler_personality = immortal_personality
+}
+

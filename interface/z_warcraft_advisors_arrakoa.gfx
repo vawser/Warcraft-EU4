@@ -1,0 +1,571 @@
+spriteTypes = {
+    # ------------------------
+    # ADM
+    # ------------------------
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_artist"
+        texturefile = "gfx//interface//advisors//arrakoa//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_artist_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_philosopher"
+        texturefile = "gfx//interface//advisors//arrakoa//male//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_philosopher_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_theologian"
+        texturefile = "gfx//interface//advisors//arrakoa//male//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_theologian_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_inquisitor"
+        texturefile = "gfx//interface//advisors//arrakoa//male//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_inquisitor_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_master_of_mint"
+        texturefile = "gfx//interface//advisors//arrakoa//male//5.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_master_of_mint_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//5.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_treasurer"
+        texturefile = "gfx//interface//advisors//arrakoa//male//6.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_treasurer_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//6.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_stonemason"
+        texturefile = "gfx//interface//advisors//arrakoa//male//7.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_stonemason_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//7.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_carpenter"
+        texturefile = "gfx//interface//advisors//arrakoa//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_carpenter_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_bailiff"
+        texturefile = "gfx//interface//advisors//arrakoa//male//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_bailiff_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_judge"
+        texturefile = "gfx//interface//advisors//arrakoa//male//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_judge_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_overseer"
+        texturefile = "gfx//interface//advisors//arrakoa//male//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_overseer_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    # ------------------------
+    # DIP
+    # ------------------------
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_statesman"
+        texturefile = "gfx//interface//advisors//arrakoa//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_statesman_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_governor"
+        texturefile = "gfx//interface//advisors//arrakoa//male//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_governor_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_diplomat"
+        texturefile = "gfx//interface//advisors//arrakoa//male//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_diplomat_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_naval_reformer"
+        texturefile = "gfx//interface//advisors//arrakoa//male//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_naval_reformer_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_navigator"
+        texturefile = "gfx//interface//advisors//arrakoa//male//5.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_navigator_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//5.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_trader"
+        texturefile = "gfx//interface//advisors//arrakoa//male//6.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_trader_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//6.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_spymaster"
+        texturefile = "gfx//interface//advisors//arrakoa//male//7.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_spymaster_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//7.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_miller"
+        texturefile = "gfx//interface//advisors//arrakoa//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_miller_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_tailor"
+        texturefile = "gfx//interface//advisors//arrakoa//male//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_tailor_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_elder"
+        texturefile = "gfx//interface//advisors//arrakoa//male//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_elder_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_enforcer"
+        texturefile = "gfx//interface//advisors//arrakoa//male//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_enforcer_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    # ------------------------
+    # MIL
+    # ------------------------
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_army_reformer"
+        texturefile = "gfx//interface//advisors//arrakoa//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_army_reformer_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_army_organiser"
+        texturefile = "gfx//interface//advisors//arrakoa//male//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_army_organiser_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_commandant"
+        texturefile = "gfx//interface//advisors//arrakoa//male//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_commandant_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_quartermaster"
+        texturefile = "gfx//interface//advisors//arrakoa//male//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_quartermaster_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_recruitmaster"
+        texturefile = "gfx//interface//advisors//arrakoa//male//5.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_recruitmaster_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//5.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_fortification_expert"
+        texturefile = "gfx//interface//advisors//arrakoa//male//6.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_fortification_expert_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//6.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_arrakoagfxnd_captain"
+        texturefile = "gfx//interface//advisors//arrakoa//male//7.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_arrakoagfxnd_captain_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//7.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_blacksmith"
+        texturefile = "gfx//interface//advisors//arrakoa//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_blacksmith_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_marshal"
+        texturefile = "gfx//interface//advisors//arrakoa//male//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_marshal_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_constable"
+        texturefile = "gfx//interface//advisors//arrakoa//male//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_constable_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_armorer"
+        texturefile = "gfx//interface//advisors//arrakoa//male//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_arrakoagfx_armorer_female"
+        texturefile = "gfx//interface//advisors//arrakoa//female//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+}

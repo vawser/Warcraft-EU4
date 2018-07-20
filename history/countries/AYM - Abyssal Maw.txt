@@ -1,0 +1,17 @@
+# Abyssal Maw
+government 			= militaristic_kingdom
+mercantilism 		= 10
+technology_group 	= tech_water
+religion			= water_worship
+primary_culture 	= elemental_water
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Neptulon" 
+        dynasty = "the Tidehunter" 
+		adm = 4
+		dip = 4
+		mil = 5
+ 	} 
+} 

@@ -1,0 +1,93 @@
+# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+# ai_will do does not actually determine weighting, but AI will not pick an idea with ai_will_do = 0
+# ROOT = country picking the idea
+# groups set to colonial=yes will be higher prioritized by the AI when spending power
+
+warcraft_native_adm_ideas = {
+	category = ADM
+	
+	warcraft_native_adm_1 = {
+    
+    }
+    
+    warcraft_native_adm_2 = {
+    
+    }
+    
+    warcraft_native_adm_3 = {
+    
+    }
+    
+    warcraft_native_adm_4 = {
+    
+    }
+    
+    warcraft_native_adm_5 = {
+    
+    }
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+
+warcraft_native_dip_ideas = {
+	category = DIP
+
+	warcraft_native_dip_1 = {
+    
+    }
+    
+    warcraft_native_dip_2 = {
+    
+    }
+    
+    warcraft_native_dip_3 = {
+    
+    }
+    
+    warcraft_native_dip_4 = {
+    
+    }
+    
+    warcraft_native_dip_5 = {
+    
+    }
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+
+warcraft_native_mil_ideas = {
+	category = MIL	
+	
+	warcraft_native_mil_1 = {
+    
+    }
+    
+    warcraft_native_mil_2 = {
+    
+    }
+    
+    warcraft_native_mil_3 = {
+    
+    }
+    
+    warcraft_native_mil_4 = {
+    
+    }
+    
+    warcraft_native_mil_5 = {
+    
+    }
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

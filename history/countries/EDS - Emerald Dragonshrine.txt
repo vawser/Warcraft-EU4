@@ -1,0 +1,21 @@
+# Green Dragonflight
+government 			= dragonflight_council
+mercantilism 		= 10
+technology_group 	= tech_green_dragonflight
+religion			= sect_of_the_dragons
+primary_culture 	= green_dragonflight
+capital = 1
+
+546.1.1 = {
+    monarch = {
+        name = "Ysera"
+        dynasty = "the Dreamer"
+        adm = 3
+        dip = 3
+        mil = 4
+        female = yes
+    }
+    clear_scripted_personalities = yes
+    add_ruler_personality = immortal_personality
+}
+

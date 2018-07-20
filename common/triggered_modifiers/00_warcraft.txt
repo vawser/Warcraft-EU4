@@ -1,0 +1,52 @@
+the_power_of_fel = {
+    potential = {
+        culture_group = orc_group
+        religion = fel
+    }
+	trigger = {
+        culture_group = orc_group
+        religion = fel
+	}
+
+	manpower_recovery_speed = 0.5 
+    discipline = 0.05
+    land_morale = 0.1
+}
+
+fear_of_stromkar = {
+    potential = {
+        has_country_modifier = stromkar_the_warbreaker
+    }
+    
+	trigger = {
+        is_at_war = yes
+        any_country = {
+            war_with = ROOT
+            technology_group = tech_troll
+        }
+	}
+    
+    land_morale = 0.2
+}
+
+matriarchal = {
+	potential = {
+        OR = {
+            culture_group = naga_group
+            culture_group = harpy_group
+            culture_group = dryad_group
+        }
+	}
+	
+	trigger = {
+        OR = {
+            culture_group = naga_group
+            culture_group = harpy_group
+            culture_group = dryad_group
+        }
+	}
+	
+	female_advisor_chance = 1.0
+}
+
+

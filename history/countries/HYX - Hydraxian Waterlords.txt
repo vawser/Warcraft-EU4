@@ -1,0 +1,7 @@
+# Hydraxian Waterlords
+government 			= militaristic_kingdom
+mercantilism 		= 10
+technology_group 	= tech_water
+religion			= water_worship
+primary_culture 	= elemental_water
+capital = 1

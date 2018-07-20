@@ -1,0 +1,20 @@
+# Hyjal Legion Demons
+government 			= warband
+mercantilism 		= 10 
+technology_group 	= tech_demon
+religion			= fel
+capital = 1
+primary_culture = demonic
+
+906.1.1 = { 
+	monarch = {
+		name = "Garnoth" 
+		dynasty = "Fist of the Legion" 	
+		adm = 3
+		dip = 3	
+		mil = 3	
+	}  
+    clear_scripted_personalities = yes
+    add_ruler_personality = immortal_personality
+} 
+

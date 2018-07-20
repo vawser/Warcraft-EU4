@@ -1,0 +1,724 @@
+﻿l_english:
+ #-----------------------------------------------
+ # Rise of the Horde
+ #-----------------------------------------------
+ rise_of_the_horde.1.title: "Rulkan's Guidance"
+ rise_of_the_horde.1.desc: "Our [Root.Monarch.GetTitle] has announced that his deceased wife, Rulkan has spoken to him in a vision. She has urged [Root.Monarch.GetName] to encourage the other clans to attack the Draenei settlements.\n\nAlthough the Draenei have rarely ever threatened us, it would be treasonous to ignore the word of the [Root.Monarch.GetTitle]."
+ rise_of_the_horde.1.option.a: "Incite the clans"
+ rise_of_the_horde.1.option.b: "Refuse Rulkan's guidance"
+ 
+ rise_of_the_horde.2.title: "Messenger from Ner'zhul"
+ rise_of_the_horde.2.desc: "It appears that the shaman Ner'zhul has been contacted by his dearly departed wife, Rulkan. He urges that we attack our Draenei neighbours before they strike us first.\n\nWhether this is true or not remains to be seen, but to refuse his guidance would turn the Shadowmoon clan against us."
+ rise_of_the_horde.2.option.a: "Follow his guidance"
+ rise_of_the_horde.2.option.b: "Reject his guidance"
+ 
+ rise_of_the_horde.3.title: "Doubts of Ner'zhul"
+ rise_of_the_horde.3.desc: "Doubts have crept into Ner'zhul's mind. His vision of Rulkan is wrong, and he can no longer trust her spirit without question.\n\nAnd so, Ner'zhul journeyed to Oshu'gun, where he discovered the true spirit of Rulkan and realised the deception pulled on him.\n\nGul'dan, in turn, has been aiding Kil'jaeden, and has turned the shaman Teron'gor against the elements. With an apprentice of his own, Teron'gor will lead the Shadowmoon clan where Ner'zhul failed."
+ rise_of_the_horde.3.option.a: "Arise Teron'gor"
+ 
+ rise_of_the_horde.4.title: "The First Warlocks"
+ rise_of_the_horde.4.desc: "Eager to prove himself to Kil'jaeden, Gul'dan has named Blackhand as war chief of the Orcish Horde, and has begun corrupting the shamanistic practices of the orcs, teaching them to forbidden arts of necromancy and demonology."
+ rise_of_the_horde.4.option.a: "Accept Gul'dan's teachings"
+ rise_of_the_horde.4.option.b: "Reject Gul'dan's teachings"
+ 
+ rise_of_the_horde.5.title: "The Shadow Council"
+ rise_of_the_horde.5.desc: "To rein in any dissidents, Gul'dan has formed the Shadow Council to act as the guiding hand that leads orc society towards the 'correct' path. Those that doubt the power of the warlocks and necrolytes are swiftly punished."
+ rise_of_the_horde.5.option.a: "Mwuhahaha!"
+ 
+ rise_of_the_horde.6.title: "The Assault on Shattrath"
+ rise_of_the_horde.6.desc: "The orc clans have destroyed our cities, and they have finally reached the jewel of the Draenei civilisation. The city will hold for now, but the power of Gul'dan cannot be underestimated."
+ rise_of_the_horde.6.option.a: "Krona ki cristorr!"
+    
+ rise_of_the_horde.7.title: "The Blood of Mannoroth"
+ rise_of_the_horde.7.desc: "Gul'dan has offered our chieftain, [Root.Monarch.GetName] a cup of demonsblood from the pit lord Mannoroth. If [Root.Monarch.GetHeShe] accepts, [Root.Monarch.GetHeShe] will be overcome with a demonic bloodlust, and all the clan will have to partake, sealing our allegiance to Gul'dan."
+ rise_of_the_horde.7.option.a: "Accept the demonsblood"
+ rise_of_the_horde.7.option.b: "Reject the demonsblood"
+ 
+ rise_of_the_horde.8.title: "The Dying Time"
+ rise_of_the_horde.8.desc: "Gul'dan has been abandoned by his master Kil'jaeden. Without direction, our clan members become listless and ache for war. Infighting will occur until Gul'dan restores order."
+ rise_of_the_horde.8.option.a: "War!"
+ 
+ rise_of_the_horde.9.title: "Contact with Medivh"
+ rise_of_the_horde.9.desc: "Medivh, possessed by the corrupted titan Sargeras, has contacted Gul'dan, promising the orc clans power and glory in the lands of Azeroth. He has suggested that the Shadow Council should work on constructing a Dark Portal to teleport the Orcish Horde from Draenor to Azeroth."
+ rise_of_the_horde.9.option.a: "Begin construction post haste!"
+ rise_of_the_horde.9.option.b: "Begin construction!"
+ 
+ rise_of_the_horde.10.title: "Passage through the Dark Portal"
+ rise_of_the_horde.10.desc: "Gul'dan has promised us glory if we pass through the Dark Portal and conquer the lands on the other side. As his ally, we must obey and will be one of the first clans to set foot on Azeroth."
+ rise_of_the_horde.10.option.a: "March onwards!"
+ 
+ rise_of_the_horde.11.title: "Passage through the Dark Portal"
+ rise_of_the_horde.11.desc: "Although Gul'dan had promised us glory if we pass through the Dark Portal, the fall of the Shadowmoon clan slowed progress considerably. Have, those who learnt under him have continued work on the Dark Portal. Let us conquer the lands on the other side and be one of the first clans to set foot on Azeroth."
+ rise_of_the_horde.11.option.a: "March onwards!"
+ 
+ #-----------------------------------------------
+ # The First War
+ #-----------------------------------------------
+ the_first_war.1.title: "The First War"
+ the_first_war.1.desc: "Our clan have passaged through the Dark Portal into the now Blasted Lands of Azeroth. Let us spread across this land and pillage and plunder whatever we find."
+ the_first_war.1.option.a: "Zugzug!"
+ 
+ the_first_war.2.title: "Instruments of Gul'dan"
+ the_first_war.2.desc: "The orcs of the Pale, led by the ogre Cho'gall have been convinced of the role of the Horde in the Hour of Twilight. They have formed a new clan, called Twilight's Hammer."
+ the_first_war.2.option.a: "Let them loose!"
+ 
+ the_first_war.3.title: ""
+ the_first_war.3.desc: ""
+ the_first_war.3.option.a: ""
+ 
+ the_first_war.4.title: ""
+ the_first_war.4.desc: ""
+ the_first_war.4.option.a: ""
+ 
+ the_first_war.5.title: ""
+ the_first_war.5.desc: ""
+ the_first_war.5.option.a: ""
+ 
+ the_first_war.6.title: ""
+ the_first_war.6.desc: ""
+ the_first_war.6.option.a: ""
+ 
+ #-----------------------------------------------
+ # Artifacts
+ #-----------------------------------------------
+ wow_artifacts.1.title: "The Sword of Kings"
+ wow_artifacts.1.desc: "Our ruler, [Root.Monarch.GetTitle] [Root.Monarch.GetName] has set off to seek the legendary artefact known as Strom'kar, the Warbreaker. Their trip will take them to Tirisfal Glade, where they will search the Tomb of Tyr for the artefact. Whether they are successful or not is yet to be seen."
+ wow_artifacts.1.option.a: "Our people wait..."
+
+ wow_artifacts.2.title: "Strom'kar, the Warbreaker!"
+ wow_artifacts.2.desc: "Our ruler, [Root.Monarch.GetTitle] [Root.Monarch.GetName] had set off to seek a legendary artifact. [Root.Monarch.GetSheHe] has returned wielding the legendary artifact known as Strom'kar!"
+ wow_artifacts.2.option.a: "Wonderful!"
+ 
+ wow_artifacts.3.title: "Failure!"
+ wow_artifacts.3.desc: "Our ruler, [Root.Monarch.GetTitle] [Root.Monarch.GetName] had set off to seek a legendary artifact. [Root.Monarch.GetSheHe] has returned empty-handed..."
+ wow_artifacts.3.option.a: "Oh well..."
+ 
+ wow_artifacts.4.title: ""
+ wow_artifacts.4.desc: ""
+ wow_artifacts.4.option.a: ""
+ wow_artifacts.4.option.b: ""
+ 
+ wow_artifacts.5.title: ""
+ wow_artifacts.5.desc: ""
+ wow_artifacts.5.option.a: ""
+ wow_artifacts.5.option.b: ""
+ 
+ wow_artifacts.6.title: ""
+ wow_artifacts.6.desc: ""
+ wow_artifacts.6.option.a: ""
+ wow_artifacts.6.option.b: ""
+ 
+ wow_artifacts.7.title: ""
+ wow_artifacts.7.desc: ""
+ wow_artifacts.7.option.a: ""
+ wow_artifacts.7.option.b: ""
+ 
+ wow_artifacts.8.title: ""
+ wow_artifacts.8.desc: ""
+ wow_artifacts.8.option.a: ""
+ wow_artifacts.8.option.b: ""
+ 
+ wow_artifacts.9.title: ""
+ wow_artifacts.9.desc: ""
+ wow_artifacts.9.option.a: ""
+ wow_artifacts.9.option.b: ""
+ 
+ wow_artifacts.10.title: ""
+ wow_artifacts.10.desc: ""
+ wow_artifacts.10.option.a: ""
+ wow_artifacts.10.option.b: ""
+ 
+ 
+ #-----------------------------------------------
+ # Tirisfal
+ #-----------------------------------------------
+ WARCRAFT_TIRISFAL.1.title: "Council of Tirisfal"
+ WARCRAFT_TIRISFAL.1.desc: "Magna Aegwynn of the Tirisfal Council says, that She can help us prepare Our great kingdom for the coming war. Can we trust her, my liege?"
+ WARCRAFT_TIRISFAL.1.option.a: "I think it is a good idea!"
+ WARCRAFT_TIRISFAL.1.option.b: "I don't trust mages! Let the world know that we can do it ourselves..."
+ 
+ #-----------------------------------------------
+ # Outland
+ #-----------------------------------------------
+ wow_outland.1.title: "Dubious Dealings with Coilscar"
+ wow_outland.1.desc: "Our foes gather their strength whilst we flounder in irrelevancy. Let us unite with those that would follow our cause if only for their own gain, to better ourselves and our situation."
+ wow_outland.1.option.a: "Make a pact"
+ wow_outland.1.option.b: "Remain alone"
+ 
+ wow_outland.2.title: "Dubious Dealings with Sunfury"
+ wow_outland.2.desc: "Our foes gather their strength whilst we flounder in irrelevancy. Let us unite with those that would follow our cause if only for their own gain, to better ourselves and our situation."
+ wow_outland.2.option.a: "Make a pact"
+ wow_outland.2.option.b: "Remain alone"
+ 
+ wow_outland.3.title: "Dubious Dealings with Illidari"
+ wow_outland.3.desc: "Our foes gather their strength whilst we flounder in irrelevancy. Let us unite with those that would follow our cause if only for their own gain, to better ourselves and our situation."
+ wow_outland.3.option.a: "Make a pact"
+ wow_outland.3.option.b: "Remain alone"
+ 
+ wow_outland.4.title: "Legion Reinforcements"
+ wow_outland.4.desc: "Our reserves are unending, and our will is unbreakable. Let us summon more demons to help us with this war."
+ wow_outland.4.option.a: "Summon them!"
+ wow_outland.4.option.b: "Hold off"
+
+ #-----------------------------------------------
+ # Buildings
+ #-----------------------------------------------
+ building_events.1.title: "Prosperous Locals in [Root.GetName]"
+ building_events.1.desc: "The local people of [Root.GetName] have pooled together their wealth towards a town hall for their settlement. They have contacted [Owner.Monarch.GetTitle] [Owner.Monarch.GetName] to ensure their wealth is spent in accordance to [Owner.Monarch.GetHerHis] wishes."
+ building_events.1.option.a: "Build the town hall"
+ building_events.1.option.b: "Invest in other projects"
+ 
+ building_events.2.title: "Prosperous Locals in [Root.GetName]"
+ building_events.2.desc: "The local people of [Root.GetName] have pooled together their wealth towards a tavern for their settlement. They have contacted [Owner.Monarch.GetTitle] [Owner.Monarch.GetName] to ensure their wealth is spent in accordance to [Owner.Monarch.GetHerHis] wishes."
+ building_events.2.option.a: "Build the tavern"
+ building_events.2.option.b: "Invest in other projects"
+ 
+ building_events.3.title: "Prosperous Locals in [Root.GetName]"
+ building_events.3.desc: "The local people of [Root.GetName] have pooled together their wealth towards a temple for their settlement. They have contacted [Owner.Monarch.GetTitle] [Owner.Monarch.GetName] to ensure their wealth is spent in accordance to [Owner.Monarch.GetHerHis] wishes."
+ building_events.3.option.a: "Build the temple"
+ building_events.3.option.b: "Invest in other projects"
+ 
+ building_events.4.title: "Rich Veins found in [Root.GetName]"
+ building_events.4.desc: "Miners in [Root.GetName] are reporting the discovery of rich veins of ore in their province. It would be wise to take advantage of this before others do so."
+ building_events.4.option.a: "Build a mine"
+ building_events.4.option.b: "Encourage productivity in other areas"
+ 
+ building_events.5.title: "Crossroads in [Root.GetName]"
+ building_events.5.desc: "The peasants of [Root.GetName] have established a popular crossroads for travelers, and have found that the road has degraded. They wish to re-pave the road to make it suitable once more. It would be wise to take advantage of this before others do so."
+ building_events.5.option.a: "Build a paved road"
+ building_events.5.option.b: "Encourage productivity in other areas"
+ 
+ building_events.6.title: "Verdant farmland in [Root.GetName]"
+ building_events.6.desc: "Farmers in [Root.GetName] report that the soil quality in [Root.GetName] is unmatched elsewhere in the realm. It would be wise to invest in proper infrastructure for a farm to fully exploit the land."
+ building_events.6.option.a: "Build a farm"
+ building_events.6.option.b: "Encourage productivity in other areas"
+ 
+ building_events.7.title: "Strategic Report for [Root.GetName]"
+ building_events.7.desc: "Our military advisors report that [Root.GetName] would be a wise place for a military encampment. Failure to capitalise on this may harm our success in future military engagements."
+ building_events.7.option.a: "Build a barracks"
+ building_events.7.option.b: "Draft more locals instead"
+ 
+ building_events.8.title: "Strategic Report for [Root.GetName]"
+ building_events.8.desc: "Our military advisors report that [Root.GetName] would be a wise place for a military encampment. Failure to capitalise on this may harm our success in future military engagements."
+ building_events.8.option.a: "Build drill square"
+ building_events.8.option.b: "Draft more locals instead"
+ 
+ building_events.9.title: "Strategic Report for [Root.GetName]"
+ building_events.9.desc: "Our military advisors report that [Root.GetName] would be a wise place for a supply depot. Failure to capitalise on this may harm our success in future military engagements."
+ building_events.9.option.a: "Build a supply depot"
+ building_events.9.option.b: "Draft more locals instead"
+ 
+ building_events.10.title: "Strategic Report for [Root.GetName]"
+ building_events.10.desc: "Our naval advisors report that [Root.GetName] would be a excellent place for a shipyard. Failure to capitalise on this may harm our success in future naval engagements."
+ building_events.10.option.a: "Build a shipyard"
+ building_events.10.option.b: "Draft more locals instead"
+ 
+ building_events.11.title: "Strategic Report for [Root.GetName]"
+ building_events.11.desc: "Our naval advisors report that [Root.GetName] would be a excellent place for a dock. Failure to capitalise on this may harm our success in future naval engagements."
+ building_events.11.option.a: "Build a dock"
+ building_events.11.option.b: "Draft more locals instead"
+ 
+ building_events.12.title: "Strategic Report for [Root.GetName]"
+ building_events.12.desc: "Our trade advisors report that [Root.GetName] would be a excellent place for a market. Failure to capitalise on this may harm our future prospects."
+ building_events.12.option.a: "Build a market"
+ building_events.12.option.b: "Encourage manufacturing instead"
+ 
+ building_events.13.title: "[Root.GetName]'s Watering Hole"
+ building_events.13.desc: "Many peasants in [Root.GetName] have requested that their local tavern be refurbished, as it has reached a state of disrepair over the years."
+ building_events.13.option.a: "Restore the tavern"
+ building_events.13.option.b: "Provide other avenues for respite instead"
+ 
+ building_events.14.title: "Strategic Report for [Root.GetName]"
+ building_events.14.desc: "Our trade advisors report that [Root.GetName] would be a excellent place for a workshop. Failure to capitalise on this may harm our future prospects."
+ building_events.14.option.a: "Build a workshop"
+ building_events.14.option.b: "Encourage other forms of manufacturing instead"
+ 
+ building_events.15.title: "Defences for [Root.GetName]"
+ building_events.15.desc: "A strategic review of [Root.GetName] has revealed that they lack any measurable form of defence, and could become an vunerability if we were to engage in an war."
+ building_events.15.option.a: "Construct fortifications"
+ building_events.15.option.b: "Save the gold instead"
+ 
+ #-----------------------------------------------
+ # Province - Random
+ #-----------------------------------------------
+ random_province_events.1.title: "Upset in [Root.GetName]"
+ random_province_events.1.desc: "The people of [Root.GetName] have become discontent with their [Root.Monarch.GetName], and demand more autonomy over the land they reside on."
+ random_province_events.1.option.a: "Permit them more autonomy"
+ random_province_events.1.option.b: "Deny their request"
+ random_province_events.1.option.c: "Deny them, and punish them for their insolence"
+ 
+ random_province_events.2.title: "A Steamy Inn"
+ random_province_events.2.desc: "A local inn in [Root.Name] has become known for it's elicit nature, and rumours are it provides sexual services for those who seek such carnal desires. Reports by our enforcers have finally confirmed these rumours, and action should be taken before this business gets out of hand."
+ random_province_events.2.option.a: "Permit it, as long as we get a cut"
+ random_province_events.2.option.b: "Shut it down"
+ random_province_events.2.option.c: "Shut it down and punish the owners"
+ 
+ random_province_events.3.title: "Brawling Pit"
+ random_province_events.3.desc: "A brawling pit in [Root.GetName] has become well-known for intense brawls, and many have travelled there to participate. However, many of our soldiers have become deserting their posts to do so, threatening the stability of our lands."
+ random_province_events.3.option.a: "Look the other way"
+ random_province_events.3.option.b: "Punish the soldiers"
+ random_province_events.3.option.c: "Punish the owners of the pit"
+ 
+ #-----------------------------------------------
+ # Ruler
+ #-----------------------------------------------
+ rulership_events.1.title: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] falls ills"
+ rulership_events.1.desc: "Disease has gripped [Root.Monarch.GetTitle] [Root.Monarch.GetName] for many years, and alas, it has seems it will finally claim [Root.Monarch.GetHerHim] life."
+ rulership_events.1.option.a: "Farewell..."
+ rulership_events.1.option.b: "We must save [Root.Monarch.GetName]!"
+ 
+ rulership_events.2.title: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] dies"
+ rulership_events.2.desc: "Long in the tooth, [Root.Monarch.GetTitle] [Root.Monarch.GetName] has finally passed away due to old age."
+ rulership_events.2.option.a: "Farewell..."
+ 
+ rulership_events.3.title: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] dies"
+ rulership_events.3.desc: "Long in the tooth, [Root.Monarch.GetTitle] [Root.Monarch.GetName] has finally passed away due to old age."
+ rulership_events.3.option.a: "Farewell..."
+ 
+ rulership_events.4.title: "Administrative deterioration..."
+ rulership_events.4.desc: "As time passes, the administrative aptitude of [Root.Monarch.GetName] has decayed, and no longer can [Root.Monarch.GetSheHe] perform his administrative duties to the standard of yesteryear."
+ rulership_events.4.option.a: "[Root.Monarch.GetName] has no time for book keeping"
+ 
+ rulership_events.5.title: "Diplomatic deterioration..."
+ rulership_events.5.desc: "As time passes, the diplomatic aptitude of [Root.Monarch.GetName] has decayed, and no longer can [Root.Monarch.GetSheHe] perform his diplomatic duties to the standard of yesteryear."
+ rulership_events.5.option.a: "[Root.Monarch.GetName]'s wit has been dulled by time"
+ 
+ rulership_events.6.title: "Military deterioration..."
+ rulership_events.6.desc: "As time passes, the military aptitude of [Root.Monarch.GetName] has decayed, and no longer can [Root.Monarch.GetSheHe] perform his military duties to the standard of yesteryear."
+ rulership_events.6.option.a: "The warcry of [Root.Monarch.GetName] has become a whimper"
+ 
+ rulership_events.7.title: "Administrative Education"
+ rulership_events.7.desc: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has been expanding [Root.Monarch.GetHerHis] administrative knowledge."
+ rulership_events.7.option.a: "[Root.Monarch.GetName] feels studious"
+ 
+ rulership_events.8.title: "Diplomatic Education"
+ rulership_events.8.desc: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has been expanding [Root.Monarch.GetHerHis] diplomatic knowledge."
+ rulership_events.8.option.a: "[Root.Monarch.GetName] wit has sharpened"
+ 
+ rulership_events.9.title: "Military Education"
+ rulership_events.9.desc: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has been expanding [Root.Monarch.GetHerHis] military knowledge."
+ rulership_events.9.option.a: "[Root.Monarch.GetName] roars!"
+ 
+ #-----------------------------------------------
+ # Story
+ #-----------------------------------------------
+ story.1.title: "Balnazzar's Reveal"
+ story.1.desc: "The Scarlet Crusade has been betrayed from within. Grand Crusader Saiden Dathrohan has been revealed to have been the Dreadlord Balnazzar! The Scarlet Crusade attempted to resist the demon, only to be defeated, and raised from the earth as the Risen."
+ story.1.option.a: "Damnation!"
+ 
+ story.2.title: "Insidious Happenings"
+ story.2.desc: "The undead have begun taking control of our holdings, driving our people away. If we do not stem the tide of these foul beasts, who knows what could happen to us."
+ story.2.option.a: "They will be purged!"
+ 
+ story.3.title: "The True Horde Rises"
+ story.3.desc: "The Horde has finally settled their debts and calmed their grievances. Let the True Horde arise!"
+ story.3.option.a: "Arise!"
+
+ #-----------------------------------------------
+ # Gilneas
+ #-----------------------------------------------
+ gilneas.1.title: "Build the Wall!"
+ gilneas.1.desc: "We should build a wall to forever remove our nation from other people's troubles."
+ gilneas.1.option.a: "We care for ourselves and only ourselves."
+ gilneas.1.option.b: "We mustn't let our fellow humans stand alone."
+ gilneas.2.title: "Peasants Moving Behind the Wall"
+ gilneas.2.desc: "Peasants from the lands outside the wall are asking to come in."
+ gilneas.2.option.a: "Let them come."
+ 
+ #Eastern Plaguelands
+ WARCRAFT_EASTERNPLAGUELANDS.1.title: "Landing of Naxxramas"
+ WARCRAFT_EASTERNPLAGUELANDS.1.desc: "Great Citadel of Naxxramas has come to our land from Master's domain."
+ WARCRAFT_EASTERNPLAGUELANDS.1.option.a: "All Hail to the Lich King!"
+ 
+ #-----------------------------------------------
+ # Government
+ #-----------------------------------------------
+ wow_government.1.title: "The Education of [Root.Monarch.GetName]"
+ wow_government.1.desc: "The previous [Root.Monarch.GetTitle] has passed away, it is time for [Root.GetName] to pick a new [Root.Monarch.GetTitle]. However, if the people think ill of the chosen [Root.Monarch.GetTitle], there is likely to be pretenders to the position."
+ wow_government.1.option.a: "An administrative [Root.Monarch.GetTitle]"
+ wow_government.1.option.b: "An diplomatic [Root.Monarch.GetTitle]"
+ wow_government.1.option.c: "An militaristic [Root.Monarch.GetTitle]"
+ 
+ wow_government.2.title: "Ascension of [Root.Monarch.GetName]"
+ wow_government.2.desc: "As the cycle of life continues, [Root.Monarch.GetName] has arisen to the position of [Root.Monarch.GetTitle] in [Root.GetName]. "
+ wow_government.2.option.a: "An administrative [Root.Monarch.GetTitle]"
+ wow_government.2.option.b: "An diplomatic [Root.Monarch.GetTitle]"
+ wow_government.2.option.c: "An militaristic [Root.Monarch.GetTitle]"
+ 
+ #-----------------------------------------------
+ # Overextension
+ #-----------------------------------------------
+ overextension_events.1.title: "Troops Deserting"
+ overextension_events.1.desc: "Our infamy is causing widespread resent of our war effort. A lot of troops are running for the forest instead of reporting for duty."
+ overextension_events.1.option.a: "They would have been cowards anyway."
+ 
+ overextension_events.2.title: "Widespread Opposition"
+ overextension_events.2.desc: "Our realm has become infamous, and there are a lot of people in $COUNTRY$ that have taken exception to this."
+ overextension_events.2.option.a: "We need better whips..."
+ 
+ overextension_events.3.title: "Bad Reputation!"
+ overextension_events.3.desc: "Our recent strategy of unbridled conquest over whoever happens to be in the way surprisingly seems to have had a somewhat negative effect on our standing among our fellow realms."
+ overextension_events.3.option.a: "They are overreacting as always!"
+ 
+ overextension_events.4.title: "Inflation"
+ overextension_events.4.desc: "The state of constant war has eroded our economy and now inflation is spiralling out of control!"
+ overextension_events.4.option.a: "Try minting more coins!"
+ 
+ overextension_events.5.title: "Commanders Deserting"
+ overextension_events.5.desc: "Disillusioned by the repeated and seemingly aimless wars of $MONARCH$, many commanders in the army have deserted and formed splinter factions within [Root.GetName]."
+ overextension_events.5.option.a: "Bah, I'll lead the army myself!"
+ 
+ overextension_events.6.title: "Merchants Resented"
+ overextension_events.6.desc: "Apparently citing disgust with $COUNTRY$'s endless wars of conquest some markets have decided to expel our merchants."
+ overextension_events.6.option.a: "Then I'll conquer them too!"
+ 
+ overextension_events.7.title: "Merchants Assassinated!"
+ overextension_events.7.desc: "Some realms are so appalled by our ceaseless conquest that they've decided to retaliate by assassinating our merchants in an attempt to strike at our finances!\n\nWhat makes it even more shocking is that it happens even in our own markets.."
+ overextension_events.7.option.a: "Heads will roll! Hopefully not mine..."
+ 
+ overextension_events.8.title: "Legitimacy Questioned"
+ overextension_events.8.desc: "The bloodthirst shown by $MONARCH$ has ruined the reputation of $COUNTRY$ in the eyes of the world, and now our own subjects are starting to question the legitimacy of such a ruthless ruler."
+ overextension_events.8.option.a: "Tell my heir to start worrying..."
+ 
+ overextension_events.9.title: "Advisor Resigns"
+ overextension_events.9.desc: "Advisors form the administrative backbone of our realm, and unfortunately all ours are resigning! They claim this to be a protest to the burden of never-ending wars that has been laid upon them."
+ overextension_events.9.option.a: "I can do whatever they did myself!"
+ 
+ overextension_events.10.title: "Advisor Resigns"
+ overextension_events.10.desc: "Horrified by our ceaseless conquest, a notable court adviser has retired, citing that he tires of war."
+ overextension_events.10.option.a: "Typical naysayer... Good riddance!"
+ 
+ #-----------------------------------------------
+ # Disasters
+ #-----------------------------------------------
+ estate_disaster_events.1.title: "The $ESTATE_CLERGY$ Seize Power"
+ estate_disaster_events.1.desc: "$MONARCH$ has allowed the $ESTATE_CLERGY$ of $COUNTRY$ to grow too powerful and now they have made their move, seizing control of the realm."
+ estate_disaster_events.1.option.a: "We should have seen this coming..."
+ 
+ estate_disaster_events.2.title: "The $ESTATE_CLERGY$ Curtailed"
+ estate_disaster_events.2.desc: "We have managed to limit the influence of the $ESTATE_CLERGY$ to tolerable levels. The realm is back under own control."
+ estate_disaster_events.2.option.a: "The $MONARCHTITLE$ is back in control."
+ estate_disaster_events.2.option.b: "The $MONARCHTITLE$ adopts the new government form"
+ 
+ estate_disaster_events.3.title: "The $ESTATE_MERCHANTS$ Seize Power"
+ estate_disaster_events.3.desc: "$MONARCH$ has allowed the $ESTATE_MERCHANTS$ of $COUNTRY$ to grow too powerful and now they have made their move, seizing control of the realm."
+ estate_disaster_events.3.option.a: "We should have seen this coming..."
+ 
+ estate_disaster_events.4.title: "The $ESTATE_MERCHANTS$ Curtailed"
+ estate_disaster_events.4.desc: "We have managed to limit the influence of the $ESTATE_MERCHANTS$ to tolerable levels. The realm is back under own control."
+ estate_disaster_events.4.option.a: "The $MONARCHTITLE$ is back in control."
+ estate_disaster_events.4.option.b: "The $MONARCHTITLE$ adopts the new government form"
+ 
+ estate_disaster_events.5.title: "The $ESTATE_NOBILITY$ Seize Power"
+ estate_disaster_events.5.desc: "$MONARCH$ has allowed the $ESTATE_NOBILITY$ of $COUNTRY$ to grow too powerful and now they have made their move, seizing control of the realm."
+ estate_disaster_events.5.option.a: "We should have seen this coming..."
+ 
+ estate_disaster_events.6.title: "The $ESTATE_NOBILITY$ Curtailed"
+ estate_disaster_events.6.desc: "We have managed to limit the influence of the $ESTATE_NOBILITY$ to tolerable levels. The realm is back under own control."
+ estate_disaster_events.6.option.a: "The $MONARCHTITLE$ is back in control."
+ estate_disaster_events.6.option.b: "The $MONARCHTITLE$ adopts the new government form"
+ 
+ estate_disaster_events.7.title: "The $ESTATE_PEASANTRY$ Seize Power"
+ estate_disaster_events.7.desc: "$MONARCH$ has allowed the $ESTATE_PEASANTRY$ of $COUNTRY$ to grow too powerful and now they have made their move, seizing control of the realm."
+ estate_disaster_events.7.option.a: "We should have seen this coming..."
+ 
+ estate_disaster_events.8.title: "The $ESTATE_PEASANTRY$ Curtailed"
+ estate_disaster_events.8.desc: "We have managed to limit the influence of the $ESTATE_PEASANTRY$ to tolerable levels. The realm is back under own control."
+ estate_disaster_events.8.option.a: "The $MONARCHTITLE$ is back in control."
+ estate_disaster_events.8.option.b: "The $MONARCHTITLE$ adopts the new government form"
+ 
+ estate_disaster_events.9.title: "The $ESTATE_LEGION$ Seize Power"
+ estate_disaster_events.9.desc: "$MONARCH$ has allowed the $ESTATE_LEGION$ of $COUNTRY$ to grow too powerful and now they have made their move, seizing control of the realm."
+ estate_disaster_events.9.option.a: "We should have seen this coming..."
+ 
+ estate_disaster_events.10.title: "The $ESTATE_LEGION$ Curtailed"
+ estate_disaster_events.10.desc: "We have managed to limit the influence of the $ESTATE_LEGION$ to tolerable levels. The realm is back under own control."
+ estate_disaster_events.10.option.a: "The $MONARCHTITLE$ is back in control."
+
+ estate_disaster_events.11.title: "The $ESTATE_OLD_GODS$ Seize Power"
+ estate_disaster_events.11.desc: "$MONARCH$ has allowed the $ESTATE_OLD_GODS$ of $COUNTRY$ to grow too powerful and now they have made their move, seizing control of the realm."
+ estate_disaster_events.11.option.a: "We should have seen this coming..."
+ 
+ estate_disaster_events.12.title: "The $ESTATE_OLD_GODS$ Curtailed"
+ estate_disaster_events.12.desc: "We have managed to limit the influence of the $ESTATE_OLD_GODS$ to tolerable levels. The realm is back under own control."
+ estate_disaster_events.12.option.a: "The $MONARCHTITLE$ is back in control."
+ 
+ 
+ #-----------------------------------------------
+ # Council
+ #-----------------------------------------------
+ estate_council_events.1.title:0 "Council of [Root.GetName]"
+ estate_council_events.1.desc:0 "The [Root.Monarch.GetTitle] of [Root.GetName], [Root.Monarch.GetName] has met with a group of important nobles from our realm. They have petitioned for various different actions, and it is up to [Root.Monarch.GetName] to choose which to satisfy."
+ estate_council_events.1.option.a:0 "I will go to war with a neighbour"
+ estate_council_events.1.option.b:0 "I will ensure our realm's prosperity"
+ estate_council_events.1.option.c:0 "I will protect a neighbouring realm"
+ estate_council_events.1.option.d:0 "I will forge an alliance with a neighbouring realm"
+ estate_council_events.1.option.e:0 "I will support a royal marriage with a neighbouring realm"
+ estate_council_events.1.option.g:0 "I will ignore their requests"
+ 
+ estate_council_events.2.title:0 "Failure!"
+ estate_council_events.2.desc:0 "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has failed [Root.Monarch.GetHerHis] nobles, and failed to uphold the promises [Root.Monarch.GetSheHe] made ten years ago."
+ estate_council_events.2.option.a:0 "Oh well..."
+ 
+ estate_council_events.3.title:0 "Success!"
+ estate_council_events.3.desc:0 "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has met the request of [Root.Monarch.GetHerHis] nobles to war againsts a neighbour, and has been justly rewarded."
+ estate_council_events.3.option.a:0 "Great!"
+ 
+ estate_council_events.4.title:0 "Success!"
+ estate_council_events.4.desc:0 "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has met the request of [Root.Monarch.GetHerHis] nobles to guarantee a neighbour, and has been justly rewarded."
+ estate_council_events.4.option.a:0 "Great!"
+ 
+ estate_council_events.5.title:0 "Success!"
+ estate_council_events.5.desc:0 "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has met the request of [Root.Monarch.GetHerHis] nobles to ally a neighbour, and has been justly rewarded."
+ estate_council_events.5.option.a:0 "Great!"
+
+ estate_council_events.6.title:0 "Success!"
+ estate_council_events.6.desc:0 "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has met the request of [Root.Monarch.GetHerHis] nobles to marry a neighbour, and has been justly rewarded."
+ estate_council_events.6.option.a:0 "Great!"
+  
+ estate_council_events.7.title:0 "Success!"
+ estate_council_events.7.desc:0 "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has met the request of [Root.Monarch.GetHerHis] nobles to stabilise the realm, and has been justly rewarded."
+ estate_council_events.7.option.a:0 "Great!"
+ 
+ council_request_timer_001:0 "Request to war neighbour"
+ desc_council_request_timer_001:0 "This is how long you have left to complete the council's request of going to war with a neighbour."
+ council_request_timer_002:0 "Request to stabilise realm"
+ desc_council_request_timer_002:0 "This is how long you have left to complete the council's request of getting Stability to 3."
+ council_request_timer_003:0 "Request to guarantee neighbour"
+ desc_council_request_timer_003:0 "This is how long you have left to complete the council's request of guaranteeing a neighbour."
+ council_request_timer_004:0 "Request to ally neighbour"
+ desc_council_request_timer_004:0 "This is how long you have left to complete the council's request of allying with a neighbour."
+ council_request_timer_005:0 "Request to marry neighbour"
+ desc_council_request_timer_005:0 "This is how long you have left to complete the council's request of marrying a neighbour."
+ 
+ #-----------------------------------------------
+ # Savage
+ #-----------------------------------------------
+ random_savage.1.title: "Warlust"
+ random_savage.1.desc: "Our citizens ache for war, and we must deliver it to them, lest they turn on their leaders. Denying them this right will result in massive unrest."
+ random_savage.1.option.a: "Attack!"
+ random_savage.1.option.b: "We must wait!"
+ 
+ #-----------------------------------------------
+ # HRE - Pandaren Empire
+ #-----------------------------------------------
+ pandaren_empire.1.title: "Privileges Revoked"
+ pandaren_empire.1.desc: "In the year of our lord, $YEAR$, the most serene Augustus §Y$EMPERORNAME$§W, Romanorum Imperator, crowned by God, has again convened the Estates of the Holy Roman Empire. The Diet has agreed to a motion to centralize foreign policy and warfare by having all member states submit to a direct vassalage under the Emperor."
+ pandaren_empire.1.option.a: "Demand Oaths of Loyalty"
+ 
+ pandaren_empire.2.title: "Privileges Revoked"
+ pandaren_empire.2.desc: "The reform has been passed and our time as an independent country is no more. Our only choice is to submit to vassalage under the Emperor or turn against the Empire and fight it in a war."
+ pandaren_empire.2.option.a: "Swear Oath of Loyalty"
+ pandaren_empire.2.option.b: "He may take our lives, but he will never take our freedom."
+ 
+ pandaren_empire.3.title: "Renovatio Imperii Romanorum"
+ pandaren_empire.3.desc: "In the year of our lord, $YEAR$, the most serene Augustus §Y$EMPERORNAME$§W, Romanorum Imperator, crowned by God, has again convened the Estates of the Holy Roman Empire. The Diet has agreed to a motion to unite the disparate states of The Empire into a nation state and recrown the Emperor as its hereditary ruler."
+ pandaren_empire.3.option.a: "Claim the crown!"
+ 
+ pandaren_empire.4.title: "Renovatio Imperii Romanorum"
+ pandaren_empire.4.desc: "The reform has been passed and our time as a state is no more. As our provinces pass into the hands of the Emperor, we take comfort in being part of something greater."
+ pandaren_empire.4.option.a: "Ave Caesar!"
+ 
+ pandaren_empire.5.title: "The Emperor is Dead..."
+ pandaren_empire.5.desc: "Long Live the Emperor! The Imperial Crown remains in $COUNTRY$."
+ pandaren_empire.5.option.a: "Excellent!"
+ 
+ pandaren_empire.6.title: "A Prince Restored"
+ pandaren_empire.6.desc: "Like a phoenix, $FROMCOUNTRY$, a Holy Roman Empire member state has risen from the ashes!"
+ pandaren_empire.6.option.a: "Good!"
+ 
+ # Not Used
+ pandaren_empire.7.title: "A Heretic Prince"
+ pandaren_empire.7.desc: "$FROMCOUNTRY$, a Holy Roman Empire member state, has converted to a heretical faith!"
+ pandaren_empire.7.option.a: "Intolerable!"
+ 
+ # Not Used
+ pandaren_empire.8.title: "A Wayward Sheep Returns"
+ pandaren_empire.8.desc: "$FROMCOUNTRY$, a Holy Roman Empire member state, has converted to the True Faith!"
+ pandaren_empire.8.option.a: "Excellent!"
+ 
+ # Not Used
+ pandaren_empire.9.title: "Glory to the Empire!"
+ pandaren_empire.9.desc: "The Empire has triumphed against the vicious aggressors of $FROMCOUNTRY$!"
+ pandaren_empire.9.option.a: "I had foreseen it..."
+ 
+ pandaren_empire.10.title: "A Prince Undone"
+ pandaren_empire.10.desc: "$FROMCOUNTRY$, a Holy Roman Empire member state, has been annexed by a foreign power!"
+ pandaren_empire.10.option.a: "Alas!"
+ 
+ pandaren_empire.11.title: "A Prince Released"
+ pandaren_empire.11.desc: "$FROMCOUNTRY$, a Holy Roman Empire member state, has been released from foreign vassalage!"
+ pandaren_empire.11.option.a: "Good!"
+ 
+ pandaren_empire.12.title: "In Defense of the Empire!"
+ pandaren_empire.12.desc: "The Emperor has rushed to the defence of $FROMCOUNTRY$ against foreign aggression!"
+ pandaren_empire.12.option.a: "Naturally!"
+ 
+ pandaren_empire.14.title: "Dishonorable Emperor"
+ pandaren_empire.14.desc: "The Emperor has failed to defend $FROMCOUNTRY$ against foreign aggression."
+ pandaren_empire.14.option.a: "Dishonorable? Prudent, I say!"
+ 
+ pandaren_empire.15.title: "Imperial Reconquest"
+ pandaren_empire.15.desc: "$PROVINCENAME$ has been liberated from the clutches of $FROMCOUNTRY$ and restored to the Holy Roman Empire. Our service to the Empire has been recognized."
+ pandaren_empire.15.option.a: "As Planned"
+ 
+ # Reforms
+ repair_and_restore_pandaria_title: "Repair and Restore Pandaria"
+ repair_and_restore_pandaria_desc: "After the Pandaren campaign the land of Pandaria has suffered greatly. We must aim to rebuild and recover the land as it once was before the foreigners invaded and invoked the Sha to attack our land."
+ 
+ establish_embassies_of_the_empire_title: "Establish Embassies of the Empire"
+ establish_embassies_of_the_empire_desc: "As protectors of the Pandaren Empire, we should seek to negotiate with the rest of the world on the behalf of all its members. This will increase our world influence while preventing panic due to news of foreign troubles in the member states."
+ 
+ honour_the_legacy_of_shaohao_title: "Honour the Legacy of Shaohao"
+ honour_the_legacy_of_shaohao_desc: "We should remember the time when Shaohao ruled and brought Pandaria into its most prosperous era. We should honour him, as he has honoured us with allowing us to rule ourselves freely and seek to reclaim the Pandaren land as it was in his lifetime."
+ 
+ respect_the_legacy_of_eternal_peace_title: "Respect the Legacy of Eternal Peace"
+ respect_the_legacy_of_eternal_peace_desc: "Since the first sundering the Pandaren Empire remained at peace for millennia until the mists parted. We should seek to return to those peaceful times."
+ 
+ proclaim_the_last_protector_of_pandaria_title: "Proclaim the Last Protector of Pandaria"
+ proclaim_the_last_protector_of_pandaria_desc: "As Shaohao became one with Pandaria to become the last emperor, we must seek to become the last protectors, so that there may be no protector of Pandaria after us. This will surely only bring peace and prosperity to the land as it did when Shaohao merged with Pandaria."
+ 
+ end_leaderless_rule_title: "End Leaderless Rule"
+ end_leaderless_rule_desc: "We should proclaim ourselves as not only protectors but leaders of Pandaria. This will allow us to enact a more efficient protective rule that is more beneficial to the people of Pandaria, allowing us to deal quickly and swiftly with outside threats towards the Pandaren Empire."
+ 
+ restore_the_pandaren_empire_title: "Restore the Pandaren Empire"
+ restore_the_pandaren_empire_desc: "Times have changed since the mist parted, we must change with it. While Shaohao was the last emperor after the mists formed we must declare a new one now they have parted. This will benefit all members of the empire now that we are united under a new authority allowing us to deal with the uncertainty of the outside world beyond our lands more quickly and safely than before."
+ 
+ free_core.1.title: "Expeditionary Force"
+ free_core.1.desc: "Our expeditionary force in a distant land has finally seized land from the natives. As hardy men and women, they'll be able to act as a hub for our communications immediately."
+ free_core.1.option.a: "Great!"
+ 
+ #-----------------------------------------------
+ # Elections
+ #-----------------------------------------------
+ election_events.1.title: "Election!"
+ election_events.1.desc: "The term of [Root.Monarch.GetName] has come to an end, and as such it is time to elect a new [Root.Monarch.GetTitle]."
+ election_events.1.option.a: "An administrator"
+ election_events.1.option.b: "A diplomat"
+ election_events.1.option.c: "An officer"
+ election_events.1.option.d: "[Root.Monarch.GetName] will stay!"
+ 
+ election_events.2.title: "Election"
+ election_events.2.desc: "[Root.Monarch.GetName], the current [Root.Monarch.GetTitle] has passed on. It is time to elect an new [Root.Monarch.GetTitle]."
+ election_events.1.option.a: "An administrator"
+ election_events.1.option.b: "A diplomat"
+ election_events.1.option.c: "An officer"
+ 
+ #-----------------------------------------------
+ # Intergration
+ #-----------------------------------------------
+ intergration_events.1.title: "Integrating [From.GetName]"
+ intergration_events.1.desc: "When a smaller country gives up its independence to join a greater realm, there is a lot of adapting, and while some parts are easy, the administration of the realm will still need to expand to accommodate all possibilities."
+ intergration_events.1.option.a: "Integration is a slow process."
+ 
+ #-----------------------------------------------
+ # Pretender
+ #-----------------------------------------------
+ pretender_events.1.title: "Rise of a Pretender"
+ pretender_events.1.desc: "The disputed succession of [Root.Monarch.GetName] has caused a Pretender to raise an army and march for the capital!"
+ pretender_events.1.option.a: "Crush them!"
+ 
+ #-----------------------------------------------
+ # Attunement
+ #-----------------------------------------------
+ attunement_events.1.title: "[Root.GetElementalType] Attunement"
+ attunement_events.1.desc: "Our [Root.GetElementalTypeAdj] overlord demands regular tribute, else our attunement_events with the element of [Root.GetElementalType] will diminish."
+ attunement_events.1.option.a: "We must please our [Root.GetElementalTypeAdj] overlord"
+ attunement_events.1.option.b: "Our attunement_events with [Root.GetElementalType] means little"
+ 
+ attunement_events.2.title: "Favour of [Root.GetElementalLord]"
+ attunement_events.2.desc: "Our attunement_events to the element of [Root.GetElementalType] has strengthened. The elements favour us in this moment."
+ attunement_events.2.option.a: "O' lordly [Root.GetElementalLord]"
+ 
+ attunement_events.3.title: "Disfavour of [Root.GetElementalLord]"
+ attunement_events.3.desc: "Our attunement_events to the element of [Root.GetElementalType] has weakened. The elements disfavour us in this moment."
+ attunement_events.3.option.a: "How dare [Root.GetElementalLord] besmirch our people"
+ 
+ #-----------------------------------------------
+ # Game Setup
+ #-----------------------------------------------
+ game_setup.1.title: "Global Game Setup"
+ game_setup.1.desc: ""
+ game_setup.1.option.a: "Ok"
+ 
+ game_setup.2.title: "[Root.GetName] Game Setup"
+ game_setup.2.desc: ""
+ game_setup.2.option.a: "Ok"
+ 
+ game_setup.3.title: "[Root.GetName] Discovery"
+ game_setup.3.desc: ""
+ game_setup.3.option.a: "Ok"
+ 
+ #-----------------------------------------------
+ # Corruption
+ #-----------------------------------------------
+ corruption_events.1.t:0 "The Honest Merchants of [Root.GetName]"
+ corruption_events.1.d:0 "While many traders are known for cheating countrymen and foreigners alike, lying about the quality of goods and making fraudulent promises, [Root.GetAdjective] merchants are well known to be trustworthy, if competitive. Although they may sometimes cut deals that benefit themselves and not their trade partners, they rarely lie or take bribes. This has made us the first choice of traders around the world."
+ corruption_events.1.a:0 "Why would we lie when we have the best offers?"
+ corruption_events.2.t:0 "Trust Your Neighbor"
+ corruption_events.2.d:0 "Although citizens are encouraged to show trust and good faith in their exchanges, the reality in many nations is that it's a risk people cannot afford to take. This, however, is not the case in [Root.GetName]. We have successfully stamped out corruption on so many levels in society, people not only trust officials to do their jobs without the extra help of a bribe but they also trust each other more in general exchanges. This general belief in the honesty of others is the very thread from which the fabric of society is woven, and our country is a shining example of it."
+ corruption_events.2.a:0 "As stipulated in [Root.Religion.GetName] teachings."
+ corruption_events.3.t:0 "Rigorous Researchers"
+ corruption_events.3.d:0 "Academic institutions are not immune to corruption, and the profits that can be made by abusing positions of great influence can stand in the way of creating a good environment for research. However, [Root.GetAdjective] scientists are largely above this, focusing on genuine intellectual achievements above titles and financial contributions. The lack of corruption in society allows us to explore and invent without being impeded by selfish interests."
+ corruption_events.3.a:0 "The search for knowledge must be valued in itself."
+ corruption_events.4.t:0 "An Honorable People"
+ corruption_events.4.d:0 "Few are the countries in the world who do not claim to value honor and justice, but even fewer are the countries who actually live up to these ideals. However, the lack of large-scale and everyday corruption in [Root.GetName] has made it one of these rare places where principles matter over personal gain. Even abroad, [Root.GetAdjective] expatriates are sought-after for positions of trust, as our people are known for adherence to duty and rejecting attempted bribes. Who else can claim to live up to these ideals?"
+ corruption_events.4.a:0 "Few indeed."
+ corruption_events.5.t:0 "Incorruptible"
+ corruption_events.5.d:0 "Not everyone who aids the enemy knows the true nature of their transgression. Spies may be loyal to a foreign power, but many of their information sources are people who are simply paid well for telling secrets they shouldn't, without understanding who makes use of them. However, in [Root.GetName], corruption has been all but extinguished. Spies who recently tried to compromise our administration through bribery and extortion have found themselves reported instead of aided by our officials, and are now at our mercy."
+ corruption_events.5.a:0 "Death to spies!"
+ corruption_events.6.t:0 "Corrupt Taxmen"
+ corruption_events.6.d:0 "Those who handle large sums of money have always been tempted to claim more than their share of it, and tax collectors are no exception. However, while money getting lost along the way may be a price we can afford to pay, affluent citizens have now found that they can avoid some taxes altogether by paying large bribes to taxmen instead. Currently this seems to be a scheme supported by some of the older collectors trying to retire comfortably. While it is costly, we might be able to avoid spending time and effort on a detailed investigation and just wait it out."
+ corruption_events.6.a:0 "Investigate and replace them immediately."
+ corruption_events.6.b:0 "Let them retire, they've served us well in the past."
+ corruption_events.7.t:0 "Corrupt Advisor"
+ corruption_events.7.d:0 "[Root.GetName] may be plagued by corruption, but we try to ensure that those closest to the [Root.Monarch.GetTitle] can be trusted, at the very least. Try and fail, it seems, since one of [Root.Monarch.GetName]'s advisors was recently caught taking large bribes from people already wielding great influence in our country to provide the government with advice slanted to advance their interests. How shall we respond to this betrayal?"
+ corruption_events.7.a:0 "Publicly expose these lies and prepare an execution."
+ corruption_events.7.b:0 "Arrange for a quiet retirement in house arrest."
+ corruption_events.7.c:0 "A reprimand. Biased advice is still advice."
+ corruption_events.8.t:0 "Wily Smugglers"
+ corruption_events.8.d:0 "Smuggling is an activity even the most simple-minded can decide to pursue - the only difference is that they get caught. More worrying are those with genuine talent in knowing who to bribe and what lies to tell to elude capture, and as smuggling becomes more profitable, these tend to grow in numbers.\n\nWe have been on the trail of a particularly clever band of smugglers recently, and the network of deceit they have managed to create to continue their operations continues to surprise us. How should we go about resolving this?"
+ corruption_events.8.a:0 "Send our best men to track down their collaborators."
+ corruption_events.8.b:0 "Send an agent to recruit them as spies."
+ corruption_events.8.c:0 "Ignore them for the time being."
+ corruption_events.9.t:0 "[culture_province.Culture.GetName] Community Distrusts Us"
+ corruption_events.9.d:0 "[Root.GetName] may not house the most egregious liars and traitors in the world, but compared to some other countries, our people do tend to be a bit more easily bribed into abusing their authority. Most of the [Root.Owner.GetAdjective] population accepts the difficulties and, to the dishonest, occasional benefits this brings.\n\nThe [culture_province.Culture.GetName] people see things differently. They lament this state of things as a consequence of letting the easily corrupted [Root.Culture.GetName] people rule the nation, claiming that the country ruled by their own people doesn't suffer the same fate. Some of them are suggesting that they would be better off seceding."
+ corruption_events.9.a:0 "Apologize for our failure and promise to improve."
+ corruption_events.9.b:0 "Reject this as uneducated prejudice."
+ corruption_events.10.t:0 "Corrupt Ambassador"
+ corruption_events.10.d:0 "Our representatives to other countries should represent our very best people, but unfortunately, this is not always the case. Sometimes people are given posts as ambassadors because the administration wants them far away, and at worst, there is good reason for this.\n\nAs it turns out, one such ambassador has spent his well-paid exile further enriching himself with bribes. While this is not exactly improving our reputation with the locals, he has maintained important connections here at home and will not be dismissed without causing some trouble."
+ corruption_events.10.a:0 "He has caused more trouble where he is. Get rid of him."
+ corruption_events.10.b:0 "They'll have to get used to it."
+ corruption_events.11.t:0 "[trade_goods_province.GetTradeGoodsName] 'Disappearing'"
+ corruption_events.11.d:1 "With corruption ever on the rise in [Root.GetName], an increasing amount of [trade_goods_province.GetTradeGoodsName] has been disappearing from our legitimate trade networks onto the black market. While some blame too restrictive regulations and tariffs, part of the problem is clearly that these crimes are simply too easy to get away with. When silence is easily bought, secrets are easy to keep, and those secrets are growing more and more costly for [Root.GetName]."
+ corruption_events.11.a:0 "We must regain control of the [trade_goods_province.GetTradeGoodsName] market."
+ corruption_events.12.t:0 "Corrupt Generals"
+ corruption_events.12.d:0 "Military experience and expertise should be the main, if not only, factors influencing who rises through the ranks of the [Root.GetAdjective] army. As our society grew more and more corrupt, practices drew further and further away from this ideal. The reality today is that a position as general carries a lot of prestige, and those with money or connections are more than willing to use them to secure such a position. With the existing leadership being easily influenced with these tools, they can.\n\nFrom time to time, someone may rise through the ranks who have actually earned their title, but many of the finest minds in strategic matters will never have a chance to lend their skills to us."
+ corruption_events.12.a:0 "Such an unjust world."
+ corruption_events.13.t:0 "Corrupt Admirals"
+ corruption_events.13.d:0 "Those who command our ships in battle or are sent to explore lands to be claimed by the [Root.Monarch.GetTitle] should be chosen from the bravest and wisest in our navy. This is not the case today. From their very first day on a ship, sailors see money illicitly changing hands and protocol being broken as a matter of course, and quickly learn that both the letter and the spirit of the law carry little weight in [Root.GetName] when silver is put on the other pan of the scales.\n\nThose who do not learn quickly make enemies. To advance through the ranks of the [Root.GetAdjective] navy, you need to learn to play this system, and those who rise to the top are rarely those we wished would be there."
+ corruption_events.13.a:0 "No wonder we have mutinies."
+ corruption_events.14.t:0 "Foreign Merchants Distrust Us"
+ corruption_events.14.d:0 "Every trader tries to cut a deal that will be to their benefit, and many are willing to bend the truth a little to succeed. While this is expected, merchants from [Root.GetName] have a reputation abroad that goes beyond this into outright lies and fraud. The corruption which has become a part of how we do business can be shocking to outsiders, which has led to traders worldwide choosing to avoid us when possible.\n\nIt's too late to do anything about our present image, as the damage is already done, but perhaps we can stop this from reoccurring if we stamp out the casual corruption in our society."
+ corruption_events.14.a:0 "We're not dishonest, just pragmatic!"
+ corruption_events.15.t:0 "Governmental Functions Breaking Down"
+ corruption_events.15.d:0 "A corrupt administration operates less to sustain itself and more to sustain its members. Consequently, as it begins to fall apart, the immediate reaction of most officials is not to save what they all stand to lose, but to grab what they can while it lasts.\n\n[Root.GetName] may not be on its way to a complete collapse, but the severe corruption reaching all the way from the lowest clerk to those closest to the [Root.Monarch.GetTitle] has corroded several crucial governmental functions, leading to a widespread destabilization of the country. This has been a long time coming and we all pay the price."
+ corruption_events.15.a:0 "This cannot be allowed to continue."
+ corruption_events.16.t:0 "Mercenaries Extorting Locals"
+ corruption_events.16.d:0 "During wartime, soldiers of fortune often find ways to make it home with a bit more than they are paid by raiding the land where they are sent to fight. Normally, this is not a problem for us when they are sent abroad to terrorize our enemies, but sometimes this habit is hard to break, even during peacetime. Some farmers and travelers in [Root.GetName] have complained that mercenaries stationed here have been robbing and extorting them, despite - or perhaps because of - the fact that there isn't even a war ongoing.\n\nMeddling in the ranks of mercenaries, even ones that we hired, is always a difficult matter. Their accusers are unlikely to take the matter further if we let it slide, but the question remains how our society will change if we allow it to continue."
+ corruption_events.16.a:0 "Purge the mercenary ranks of such thugs."
+ corruption_events.16.b:0 "It's part of the price our country pays for their service."
+ corruption_events.17.t:0 "Incompetent Administrator"
+ corruption_events.17.d:0 "Matters of governmental organization have never been [Root.Monarch.GetName]'s strong suit. What a good leader does to compensate for such a known weakness is to delegate and this is exactly what our [Root.Monarch.GetTitle] has done, but the people who have handled administration in [Root.Monarch.GetHerHis] stead have proven to be more competent than honest. The government runs well enough, but tends to slowly shift its priorities towards matters which the benefactors of these irreplaceable officials find to be of importance.\n\nWith [Root.Monarch.GetName] [Root.Monarch.GetHerselfHimself] unable to fully grasp the intricacies of the matters in question, the guilty parties cannot easily be seen or removed from office. For now, we'll simply have to suffer the consequences."
+ corruption_events.17.a:0 "Unfortunate that skill and honor do not always go hand in hand."
+ corruption_events.18.t:0 "Overextension Exploited"
+ corruption_events.18.d:0 "The rapid expansion of the [Root.GetAdjective] borders is most fortunate, but brings with it new administrative challenges. As every person familiar with the optimistic language knows, "challenges" is the sweeter-tasting word for "problems". Our country has not fully adjusted to its new extent yet, and people who have noticed the confusion and poorly enforced law in these new acquisitions are reaping the benefits.\n\nThis lawlessness may eventually pass, but the temporary administrations appear to have built an unstable foundation for the future. It will take time and money to rid our society from the distrust forming in the present situation."
+ corruption_events.18.a:0 "We'll have to adapt as best we can."
+ corruption_events.19.t:0 "$TRADER$ Has Corrupt Connections"
+ corruption_events.19.d:0 "We try to keep our administration free of dishonest individuals, but we cannot always account for the friends and contacts which got them to where they are. $TRADER$ has unfortunately turned out to be a good example of the problems that follow from this, being skilled and personable but somewhat gullible in $TRADER_POSS_PRONOUN$ choice of associates.\n\nRecent investigations have revealed that much of our well-built trade network relies on bribes, smuggling, and other dubious activities to reach its current level of efficiency. $TRADER$ claims to have known nothing of this, which is likely true. Nevertheless, if we decide to expose and end this, the responsibility will be $TRADER_POSS_PRONOUN$ to take."
+ corruption_events.19.a:0 "Failure to see through lies is also a failure."
+ corruption_events.19.b:0 "If it works, it works."
+ corruption_events.20.t:0 "Bribes Growing More Accepted"
+ corruption_events.20.d:0 "'What is the difference between an honest man and a fool? The fool doesn't know he is being swindled.'\n\nSo goes an increasingly common saying in [Root.GetName], the spirit of which is proven through a more sinister change in the social fabric. Bribes are beginning to be seen as a natural consequence of the market, where any action carries a price. Those who refuse to take bribes are viewed as precisely what the saying suggests: fools. Worse than fools, since they are deliberately refusing money that could be theirs. The consequence of this cynicism is that any form of power truly corrupts, and no one who believes it is immune. Not even the [Root.Monarch.GetTitle]."
+ corruption_events.20.a:0 "It's still just a saying."
+ 

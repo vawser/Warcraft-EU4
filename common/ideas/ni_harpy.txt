@@ -1,0 +1,45 @@
+harpy_ideas = {
+	start = {
+        diplomats = 1
+        movement_speed = 0.1
+	}
+
+	bonus = {
+		core_creation = -0.15
+	}
+	
+	trigger = {
+		culture_group = harpy_group
+	}
+	free = yes		
+	
+	#Egg Clutches
+	harpy_ideas_1 = {
+		manpower_recovery_speed = 0.15
+	}
+	#Nest Builders
+	harpy_ideas_2 = {
+		build_cost = -0.1
+	}
+	#Matriarchs
+	harpy_ideas_3 = {
+		leader_land_fire = 1
+	}
+	#Harpy Raiders
+	harpy_ideas_4 = {
+		production_efficiency = 0.05
+	}
+	#Tool Traders
+	harpy_ideas_5 = {
+		merchants = 1
+	}
+	#Screechers
+	harpy_ideas_6 = {
+		infantry_power = 0.10
+	}
+	#Winged Fury
+	harpy_ideas_7 = {
+		cavalry_power = 0.15
+	}
+}
+

@@ -1,0 +1,40 @@
+# Bloodfury
+government 			= war_tribe
+mercantilism 		= 10
+technology_group 	= tech_harpy
+religion			= air_worship
+primary_culture 	= harpy
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Eduona" 
+        dynasty = "Bloodfeather" 
+		adm = 3
+		dip = 3
+		mil = 4
+        female = yes
+ 	}
+}
+
+901.1.1 = { 
+    monarch = { 
+        name = "Odina" 
+        dynasty = "Bloodfeather" 
+		adm = 3
+		dip = 3
+		mil = 4
+        female = yes
+ 	}
+}
+
+926.1.1 = { 
+    monarch = { 
+        name = "Serana" 
+        dynasty = "Bloodfeather" 
+		adm = 3
+		dip = 3
+		mil = 4
+        female = yes
+ 	}
+}

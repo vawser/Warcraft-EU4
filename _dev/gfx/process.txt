@@ -1,0 +1,12 @@
+Use WowModelViewer
+- Find suitable model
+- Frame looking to the right
+- Characters have 33+ options, allowing for the advisor_33 (full) template, otherwise work out the maximum variants that can be produced
+- Use the suitable advisor_x txt file, replacing GRA with graphical culture and race with the foldername
+
+Portrait:
+- Use template
+- Clear blue background from WMV screenshot, crop and resize to 120x120
+- Align head in the centre
+- Make sure placement is consistent, and the crop and resize are similar between images
+    

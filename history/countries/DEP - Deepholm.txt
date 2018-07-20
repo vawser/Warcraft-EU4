@@ -1,0 +1,18 @@
+# Deepholm
+government 			= militaristic_kingdom
+mercantilism 		= 10
+technology_group 	= tech_earth
+religion			= earth_worship
+primary_culture 	= elemental_earth
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Therazane" 
+        dynasty = "the Stonemother" 
+		adm = 4
+		dip = 4
+		mil = 4
+        female = yes
+ 	}
+}

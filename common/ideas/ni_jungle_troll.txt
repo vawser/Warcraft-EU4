@@ -1,0 +1,45 @@
+jungle_troll_ideas = {
+	start = {
+		manpower_recovery_speed = 0.10
+		infantry_cost = -0.10	
+	}
+
+	bonus = {
+		global_unrest = -1	
+	}
+	
+	trigger = {
+		culture_group = jungle_troll_group
+	}
+	free = yes		
+	
+	#Jungle Warfare
+	jungle_troll_ideas_1 = {
+		hostile_attrition = 1
+	}
+	#Tribal Conflicts
+	jungle_troll_ideas_2 = {
+		army_tradition_decay = -0.01
+	}
+	#Headhunting
+	jungle_troll_ideas_3 = {
+		recover_army_morale_speed = 0.05
+	}
+	#Voodoo
+	jungle_troll_ideas_4 = {
+		stability_cost_modifier = -0.1
+	}
+	#Primitive Armaments
+	jungle_troll_ideas_5 = {
+		land_maintenance_modifier = -0.1
+	}
+	#Shadow Hunters
+	jungle_troll_ideas_6 = {
+		land_morale = 0.1
+	}
+	#Witch Doctors
+	jungle_troll_ideas_7 = {
+		advisor_cost = -0.1
+	}
+}
+

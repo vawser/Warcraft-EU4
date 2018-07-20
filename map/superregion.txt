@@ -1,0 +1,35 @@
+# A region can only belong to one super region.
+
+azeroth_superregion = {
+
+}
+
+khaz_modan_superregion = {
+
+}
+
+lordaeron_superregion = {
+
+}
+
+northern_kalimdor_superregion = {
+
+}
+
+central_kalimdor_superregion = {
+
+}
+
+southern_kalimdor_superregion = {
+
+}
+
+northrend_superregion = {
+
+}
+
+pandaria_superregion = {
+
+}
+
+new_world_superregion = { }

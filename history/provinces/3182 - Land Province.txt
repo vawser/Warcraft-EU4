@@ -1,0 +1,17 @@
+
+is_city = no
+native_size = 82
+native_ferocity = 2
+native_hostileness = 10
+
+base_tax = 3
+base_production = 4
+base_manpower = 2
+
+culture = dark_iron
+religion = fire_worship
+
+trade_goods = unknown
+hre = no
+
+

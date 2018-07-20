@@ -1,0 +1,97 @@
+# Male
+define_advisor = { type = philosopher       name = "Philosopher" skill = 1 }
+define_advisor = { type = artist            name = "Artist" skill = 1 }
+define_advisor = { type = treasurer         name = "Treasurer" skill = 1 }
+define_advisor = { type = theologian        name = "Theologian" skill = 1 }
+define_advisor = { type = master_of_mint    name = "Master of Mint" skill = 1 }
+define_advisor = { type = inquisitor        name = "Inquisitor" skill = 1 }
+define_advisor = { type = stonemason        name = "Stonemason" skill = 1 }
+define_advisor = { type = carpenter         name = "Carpenter" skill = 1 }
+define_advisor = { type = bailiff           name = "Bailiff" skill = 1 }
+define_advisor = { type = judge             name = "Judge" skill = 1 }
+define_advisor = { type = overseer          name = "Overseer" skill = 1 }
+
+define_advisor = { type = statesman         name = "Statesman" skill = 1 }
+define_advisor = { type = naval_reformer    name = "Naval Reformer" skill = 1 }
+define_advisor = { type = trader            name = "Trader" skill = 1 }
+define_advisor = { type = spymaster         name = "Spymaster" skill = 1 }
+define_advisor = { type = diplomat          name = "Diplomat" skill = 1 }
+define_advisor = { type = navigator         name = "Navigator" skill = 1 }
+define_advisor = { type = governor          name = "Governor" skill = 1 }
+define_advisor = { type = miller            name = "Miller" skill = 1 }
+define_advisor = { type = tailor            name = "Tailor" skill = 1 }
+define_advisor = { type = elder             name = "Elder" skill = 1 }
+define_advisor = { type = enforcer          name = "Enforcer" skill = 1 }
+
+define_advisor = { type = army_reformer             name = "Army Reformer" skill = 1 }
+define_advisor = { type = army_organiser            name = "Army Organiser" skill = 1 }
+define_advisor = { type = commandant                name = "Commandant" skill = 1 }
+define_advisor = { type = quartermaster             name = "Quartermaster" skill = 1 }
+define_advisor = { type = recruitmaster             name = "Recruitmaster" skill = 1 }
+define_advisor = { type = fortification_expert      name = "Fortification Expert" skill = 1 }
+define_advisor = { type = grand_captain             name = "Grand Captain" skill = 1 }
+define_advisor = { type = blacksmith                name = "Blacksmith" skill = 1 }
+define_advisor = { type = armorer                   name = "Armorer" skill = 1 }
+define_advisor = { type = marshal                   name = "Marshal" skill = 1 }
+define_advisor = { type = constable                 name = "Constable" skill = 1 }
+
+define_advisor = { type = void_emissary         name = "Void Emissary" skill = 1 }
+define_advisor = { type = void_envoy            name = "Void Envoy" skill = 1 }
+define_advisor = { type = void_disciple         name = "Void Disciple" skill = 1 }
+
+define_advisor = { type = nathrezim         name = "Nathrezim" skill = 1 }
+define_advisor = { type = mo_arg            name = "Mo'arg" skill = 1 }
+define_advisor = { type = sayaad            name = "Sayaad" skill = 1 }
+define_advisor = { type = shivarra          name = "Shivarra" skill = 1 }
+define_advisor = { type = ered_ruin         name = "Ered'ruin" skill = 1 }
+define_advisor = { type = annihilan         name = "Annihilan" skill = 1 }
+
+# Female
+define_advisor = { type = philosopher       name = "Philosopher" skill = 1 female = yes }
+define_advisor = { type = artist            name = "Artist" skill = 1 female = yes }
+define_advisor = { type = treasurer         name = "Treasurer" skill = 1 female = yes }
+define_advisor = { type = theologian        name = "Theologian" skill = 1 female = yes }
+define_advisor = { type = master_of_mint    name = "Master of Mint" skill = 1 female = yes }
+define_advisor = { type = inquisitor        name = "Inquisitor" skill = 1 female = yes }
+define_advisor = { type = stonemason        name = "Stonemason" skill = 1 female = yes }
+define_advisor = { type = carpenter         name = "Carpenter" skill = 1 female = yes }
+define_advisor = { type = bailiff           name = "Bailiff" skill = 1 female = yes }
+define_advisor = { type = judge             name = "Judge" skill = 1 female = yes }
+define_advisor = { type = overseer          name = "Overseer" skill = 1 female = yes }
+
+define_advisor = { type = statesman         name = "Statesman" skill = 1 female = yes }
+define_advisor = { type = naval_reformer    name = "Naval Reformer" skill = 1 female = yes }
+define_advisor = { type = trader            name = "Trader" skill = 1 female = yes }
+define_advisor = { type = spymaster         name = "Spymaster" skill = 1 female = yes }
+define_advisor = { type = diplomat          name = "Diplomat" skill = 1 female = yes }
+define_advisor = { type = navigator         name = "Navigator" skill = 1 female = yes }
+define_advisor = { type = governor          name = "Governor" skill = 1 female = yes }
+define_advisor = { type = miller            name = "Miller" skill = 1 female = yes }
+define_advisor = { type = tailor            name = "Tailor" skill = 1 female = yes }
+define_advisor = { type = elder             name = "Elder" skill = 1 female = yes }
+define_advisor = { type = enforcer          name = "Enforcer" skill = 1 female = yes }
+
+define_advisor = { type = army_reformer             name = "Army Reformer" skill = 1 female = yes }
+define_advisor = { type = army_organiser            name = "Army Organiser" skill = 1 female = yes }
+define_advisor = { type = commandant                name = "Commandant" skill = 1 female = yes }
+define_advisor = { type = quartermaster             name = "Quartermaster" skill = 1 female = yes }
+define_advisor = { type = recruitmaster             name = "Recruitmaster" skill = 1 female = yes }
+define_advisor = { type = fortification_expert      name = "Fortification Expert" skill = 1 female = yes }
+define_advisor = { type = grand_captain             name = "Grand Captain" skill = 1 female = yes }
+define_advisor = { type = blacksmith                name = "Blacksmith" skill = 1 female = yes }
+define_advisor = { type = armorer                   name = "Armorer" skill = 1 female = yes }
+define_advisor = { type = marshal                   name = "Marshal" skill = 1 female = yes }
+define_advisor = { type = constable                 name = "Constable" skill = 1 female = yes }
+
+define_advisor = { type = void_emissary         name = "Void Emissary" skill = 1 female = yes }
+define_advisor = { type = void_envoy            name = "Void Envoy" skill = 1 female = yes }
+define_advisor = { type = void_disciple         name = "Void Disciple" skill = 1 female = yes }
+
+define_advisor = { type = nathrezim         name = "Nathrezim" skill = 1 female = yes }
+define_advisor = { type = mo_arg            name = "Mo'arg" skill = 1 female = yes }
+define_advisor = { type = sayaad            name = "Sayaad" skill = 1 female = yes }
+define_advisor = { type = shivarra          name = "Shivarra" skill = 1 female = yes }
+define_advisor = { type = ered_ruin         name = "Ered'ruin" skill = 1 female = yes }
+define_advisor = { type = annihilan         name = "Annihilan" skill = 1 female = yes }
+
+

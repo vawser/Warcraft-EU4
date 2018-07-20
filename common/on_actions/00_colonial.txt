@@ -1,0 +1,17 @@
+# Colonial
+on_replace_governor = { }
+
+on_added_to_trade_company = { } # ROOT = Province, FROM = Actor
+on_removed_from_company = { }   # ROOT = Province, FROM = Actor
+on_company_formed = { }         # ROOT = Province, FROM = Actor
+on_company_disolved = { }       # ROOT = Province, FROM = Actor
+on_abandon_colony = { }         # ROOT = Province, FROM = Actor
+
+on_siberian_pulse = { }
+on_colonial_pulse = { }
+
+on_explore_coast = { }
+on_conquistador_empty = { }
+on_conquistador_native = { }
+on_circumnavigation = { }
+

@@ -1,0 +1,82 @@
+namespace = attunement_events
+
+country_event = {
+	id = attunement_events.1
+	title = attunement_events.1.title
+	desc = attunement_events.1.desc
+	picture = MAGI_eventPicture
+
+	trigger = {
+        uses_patriarch_authority = yes
+	}
+	
+    mean_time_to_happen = {
+		months = 120
+    }
+    
+	option = {
+		name = attunement_events.1.option.a
+        
+        add_adm_power = -33
+        add_dip_power = -33
+        add_mil_power = -33
+        
+        add_patriarch_authority = 0.25
+        
+        ai_chance = {
+            factor = 25
+        }
+    }
+    
+    option = {
+		name = attunement_events.1.option.b
+
+        add_patriarch_authority = -0.25
+        
+        ai_chance = {
+            factor = 75
+        }
+    }
+}
+
+country_event = {
+	id = attunement_events.2
+	title = attunement_events.2.title
+	desc = attunement_events.2.desc
+	picture = MAGI_eventPicture
+    
+	trigger = {
+        uses_patriarch_authority = yes
+	}
+	
+    mean_time_to_happen = {
+		months = 240
+    }
+    
+	option = {
+		name = attunement_events.2.option.a
+        
+        add_patriarch_authority = 0.1
+    }
+}
+
+country_event = {
+	id = attunement_events.3
+	title = attunement_events.3.title
+	desc = attunement_events.3.desc
+	picture = MAGI_eventPicture
+
+	trigger = {
+        uses_patriarch_authority = yes
+	}
+	
+    mean_time_to_happen = {
+		months = 240
+    }
+    
+	option = {
+		name = attunement_events.3.option.a
+        
+        add_patriarch_authority = -0.1
+    }
+}

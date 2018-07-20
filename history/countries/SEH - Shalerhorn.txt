@@ -1,0 +1,19 @@
+# Shalerhorn
+government 			= war_tribe
+mercantilism 		= 10
+technology_group 	= tech_kobold
+religion			= geomancy
+primary_culture 	= kobold
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Toomgo" 
+        dynasty = "Shalerhorn" 
+		adm = 2
+		dip = 2
+		mil = 3
+    }
+}
+
+

@@ -1,0 +1,17 @@
+government 				= expeditionary_force
+mercantilism 			= 10
+technology_group 		= tech_night_elf
+religion				= druidism
+primary_culture 		= night_elf
+capital = 1
+
+941.1.1 = {
+	monarch = {
+		name = "Ysiel" 
+		dynasty = "Windsinger" 
+		adm = 3
+		dip = 3
+		mil = 4
+        female = yes
+ 	}
+}

@@ -1,0 +1,473 @@
+namespace = rulership_events
+
+# Random death due to disease
+# [Root.Monarch.GetTitle] [Root.Monarch.GetName] falls ills
+country_event = {
+	id = rulership_events.1
+	title = rulership_events.1.title
+	desc = rulership_events.1.desc
+	picture = BURNING_CASTLE_eventPicture
+	
+    trigger = {
+        NOT = { culture_group = draenei_group }
+        NOT = { culture_group = dryad_group }
+        NOT = { culture_group = dragon_group }
+        NOT = { culture_group = giant_group }
+        NOT = { culture_group = titan_group }
+        NOT = { culture_group = northrend_titan_group }
+        NOT = { culture_group = tolvir_group }
+        has_regency = no
+    }
+   
+    mean_time_to_happen = {
+		months = 2400
+        
+        modifier = {
+            factor = 0.75
+            NOT = { stability = 0 }
+        }
+    }
+    
+	option = {
+		name = rulership_events.1.option.a
+        
+        kill_ruler = yes
+	}
+    
+    option = {
+		name = rulership_events.1.option.b
+        
+        add_years_of_income = -1
+        
+        random = {
+            chance = 50
+            kill_ruler = yes
+        }
+	}
+}
+
+# For races that have lifespans that are under 100 years
+# [Root.Monarch.GetTitle] [Root.Monarch.GetName] passed away
+country_event = {
+	id = rulership_events.2
+	title = rulership_events.2.title
+	desc = rulership_events.2.desc
+	picture = BURNING_CASTLE_eventPicture
+	
+    trigger = {
+        NOT = { has_ruler_modifier = immense_magical_power }
+        has_regency = no
+        NOT = { culture_group = draenei_group }
+        NOT = { culture_group = dryad_group }
+        NOT = { culture_group = dragon_group }
+        NOT = { culture_group = giant_group }
+        NOT = { culture_group = titan_group }
+        NOT = { culture_group = northrend_titan_group }
+        NOT = { culture_group = tolvir_group }
+        
+        NOT = { culture_group = dwarf_group }
+        NOT = { culture_group = furbolg_group }
+        NOT = { culture_group = night_elf_group }
+        NOT = { culture_group = high_elf_group }
+        NOT = { culture_group = pandaren_group }
+        ruler_age = 60
+    }
+   
+    mean_time_to_happen = {
+		months = 120
+    }
+    
+	option = {
+		name = rulership_events.2.option.a
+        
+        kill_ruler = yes
+	}
+}
+
+# For races that have lifespans that exceed 100 years
+# [Root.Monarch.GetTitle] [Root.Monarch.GetName] passed away
+country_event = {
+	id = rulership_events.3
+	title = rulership_events.3.title
+	desc = rulership_events.3.desc
+	picture = BURNING_CASTLE_eventPicture
+	
+    trigger = {
+        has_regency = no
+        OR = {
+            AND = {
+                NOT = { culture_group = draenei_group }
+                NOT = { culture_group = dryad_group }
+                NOT = { culture_group = dragon_group }
+                NOT = { culture_group = giant_group }
+                NOT = { culture_group = titan_group }
+                NOT = { culture_group = northrend_titan_group }
+                NOT = { culture_group = tolvir_group }
+                OR = {
+                    AND = {
+                        culture_group = dwarf_group
+                        ruler_age = 250
+                    }
+                    AND = {
+                        culture_group = furbolg_group
+                        ruler_age = 130
+                    }
+                    AND = {
+                        culture_group = night_elf_group
+                        ruler_age = 1200
+                    }
+                    AND = {
+                        culture_group = high_elf_group
+                        ruler_age = 350
+                    }
+                    AND = {
+                        culture_group = pandaren_group
+                        ruler_age = 250
+                    }
+                    AND = {
+                        culture_group = giant_group
+                        ruler_age = 1200
+                    }
+                }
+            }
+            AND = {
+                has_ruler_modifier = immense_magical_power
+                ruler_age = 500
+            }
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 120
+    }
+   
+	option = {
+		name = rulership_events.3.option.a
+        
+        kill_ruler = yes
+	}
+}
+
+# ADM skill decays...
+country_event = {
+	id = rulership_events.4
+	title = rulership_events.4.title
+	desc = rulership_events.4.desc
+	picture = BURNING_CASTLE_eventPicture
+	
+    trigger = {
+        has_regency = no
+        ADM = 1
+    }
+   
+    mean_time_to_happen = {
+		months = 1200
+        
+        # Rarely fire for short lived rulers
+        modifier = {
+            factor = 10
+            NOT = { ruler_age = 60 }
+        }
+        
+        modifier = {
+            factor = 2
+            NOT = { ADM = 3 }
+        }
+        
+        modifier = {
+            factor = 2
+            NOT = { ADM = 2 }
+        }
+        
+        modifier = {
+            factor = 0.5
+            ADM = 4
+        }
+        
+        modifier = {
+            factor = 0.5
+            ADM = 5
+        }
+        
+        modifier = {
+            factor = 0.5
+            ADM = 6
+        }
+	}
+    
+	option = {
+		name = rulership_events.4.option.a
+        
+        change_adm = -1
+	}
+}
+
+# DIP skill decays...
+country_event = {
+	id = rulership_events.5
+	title = rulership_events.5.title
+	desc = rulership_events.5.desc
+	picture = BURNING_CASTLE_eventPicture
+	
+    trigger = {
+        has_regency = no
+        DIP = 1
+    }
+   
+    mean_time_to_happen = {
+		months = 1200
+        
+        # Rarely fire for short lived rulers
+        modifier = {
+            factor = 10
+            NOT = { ruler_age = 60 }
+        }
+        
+        modifier = {
+            factor = 2
+            NOT = { DIP = 3 }
+        }
+        
+        modifier = {
+            factor = 2
+            NOT = { DIP = 2 }
+        }
+        
+        modifier = {
+            factor = 0.5
+            DIP = 4
+        }
+        
+        modifier = {
+            factor = 0.5
+            DIP = 5
+        }
+        
+        modifier = {
+            factor = 0.5
+            DIP = 6
+        }
+	}
+    
+	option = {
+		name = rulership_events.5.option.a
+        
+        change_dip = -1
+	}
+}
+
+# MIL skill decays...
+country_event = {
+	id = rulership_events.6
+	title = rulership_events.6.title
+	desc = rulership_events.6.desc
+	picture = BURNING_CASTLE_eventPicture
+	
+    trigger = {
+        has_regency = no
+        MIL = 1
+    }
+   
+    mean_time_to_happen = {
+		months = 1200
+        
+        # Rarely fire for short lived rulers
+        modifier = {
+            factor = 10
+            NOT = { ruler_age = 60 }
+        }
+        
+        modifier = {
+            factor = 2
+            NOT = { MIL = 3 }
+        }
+        
+        modifier = {
+            factor = 2
+            NOT = { MIL = 2 }
+        }
+        
+        modifier = {
+            factor = 0.5
+            MIL = 4
+        }
+        
+        modifier = {
+            factor = 0.5
+            MIL = 5
+        }
+        
+        modifier = {
+            factor = 0.5
+            MIL = 6
+        }
+	}
+    
+	option = {
+		name = rulership_events.6.option.a
+        
+        change_mil = -1
+	}
+}
+
+# ADM skill improves...
+country_event = {
+	id = rulership_events.7
+	title = rulership_events.7.title
+	desc = rulership_events.7.desc
+	picture = TAVERN_eventPicture
+	
+    trigger = {
+        has_regency = no
+        NOT = { ADM = 6 }
+    }
+   
+    mean_time_to_happen = {
+		months = 1200
+        
+        # Rarely fire for short lived rulers
+        modifier = {
+            factor = 10
+            NOT = { ruler_age = 60 }
+        }
+        
+        modifier = {
+            factor = 0.5
+            NOT = { ADM = 3 }
+        }
+        
+        modifier = {
+            factor = 0.5
+            NOT = { ADM = 2 }
+        }
+        
+        modifier = {
+            factor = 2
+            ADM = 4
+        }
+        
+        modifier = {
+            factor = 2
+            ADM = 5
+        }
+        
+        modifier = {
+            factor = 2
+            ADM = 6
+        }
+	}
+    
+	option = {
+		name = rulership_events.7.option.a
+        
+        change_adm = 1
+	}
+}
+
+# DIP skill improves...
+country_event = {
+	id = rulership_events.8
+	title = rulership_events.8.title
+	desc = rulership_events.8.desc
+	picture = TAVERN_eventPicture
+	
+    trigger = {
+        has_regency = no
+        NOT = { DIP = 6 }
+    }
+   
+    mean_time_to_happen = {
+		months = 1200
+        
+        # Rarely fire for short lived rulers
+        modifier = {
+            factor = 10
+            NOT = { ruler_age = 60 }
+        }
+        
+        modifier = {
+            factor = 0.5
+            NOT = { DIP = 3 }
+        }
+        
+        modifier = {
+            factor = 0.5
+            NOT = { DIP = 2 }
+        }
+        
+        modifier = {
+            factor = 2
+            DIP = 4
+        }
+        
+        modifier = {
+            factor = 2
+            DIP = 5
+        }
+        
+        modifier = {
+            factor = 2
+            DIP = 6
+        }
+	}
+    
+	option = {
+		name = rulership_events.8.option.a
+        
+        change_dip = 1
+	}
+}
+
+# MIL skill improves...
+country_event = {
+	id = rulership_events.9
+	title = rulership_events.9.title
+	desc = rulership_events.9.desc
+	picture = TAVERN_eventPicture
+	
+    trigger = {
+        has_regency = no
+        NOT = { MIL = 6 }
+    }
+   
+    mean_time_to_happen = {
+		months = 1200
+        
+        # Rarely fire for short lived rulers
+        modifier = {
+            factor = 10
+            NOT = { ruler_age = 60 }
+        }
+        
+        modifier = {
+            factor = 0.5
+            NOT = { MIL = 3 }
+        }
+        
+        modifier = {
+            factor = 0.5
+            NOT = { MIL = 2 }
+        }
+        
+        modifier = {
+            factor = 2
+            MIL = 4
+        }
+        
+        modifier = {
+            factor = 2
+            MIL = 5
+        }
+        
+        modifier = {
+            factor = 2
+            MIL = 6
+        }
+	}
+    
+	option = {
+		name = rulership_events.7.option.a
+        
+        change_mil = 1
+	}
+}

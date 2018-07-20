@@ -1,0 +1,19 @@
+# Maraudon
+government 			= cult
+mercantilism 		= 10
+technology_group 	= tech_earth
+religion			= earth_worship
+primary_culture 	= elemental_earth
+capital = 1
+
+546.1.1 = { 
+	monarch = { 
+		name = "Theradras" 
+		adm = 2
+		dip = 2
+		mil = 4
+        birth_date = -1684.1.1
+        death_date = 2816.1.1
+        female = yes
+	} 
+}

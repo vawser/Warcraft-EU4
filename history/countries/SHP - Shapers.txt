@@ -1,0 +1,20 @@
+# Ungoro Titan Watcher + Constructs
+government 			= administrative_kingdom
+mercantilism 		= 10
+technology_group 	= tech_titan
+religion			= titan_worship
+primary_culture 	= titan_construct
+capital = 1
+
+546.1.1 = { 
+	monarch = { 
+		name = "Nablya" 
+		dynasty = "the Shaper" 
+		adm = 4
+		dip = 3
+		mil = 2  
+        female = yes     
+        birth_date = -1684.1.1
+        death_date = 2816.1.1
+	} 
+}

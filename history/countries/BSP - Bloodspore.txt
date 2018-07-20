@@ -1,0 +1,27 @@
+# Bloodspore/Gammoth
+government 			= war_tribe
+mercantilism 		= 10 
+technology_group 	= tech_magnataur
+religion			= geomancy
+primary_culture 	= magnataur
+capital = 1
+
+546.1.1 = { 
+	monarch = { 
+		name = "Gammoth" 
+		dynasty = "the Tormentor" 
+		adm = 1
+		dip = 1
+		mil = 5
+	} 
+} 
+
+816.1.1 = { 
+	monarch = { 
+		name = "Gammothra" 
+		dynasty = "the Tormentor" 
+		adm = 1
+		dip = 1
+		mil = 5
+	} 
+} 

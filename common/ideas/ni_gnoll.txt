@@ -1,0 +1,46 @@
+gnoll_ideas = {
+	start = {
+		fabricate_claims_cost = -0.25
+		infantry_cost = -0.2
+	}
+
+	bonus = {
+		land_forcelimit_modifier = 0.10
+	}
+	
+	trigger = {
+		culture_group = gnoll_group
+	}
+	free = yes		
+	
+	#Brawlers
+	gnoll_ideas_1 = {
+		army_tradition_decay = -0.01
+	}
+	#Scavengers
+	gnoll_ideas_2 = {
+		land_attrition = -0.25
+	}
+	#Skins and Tents
+	gnoll_ideas_3 = {
+		build_cost = -0.1
+		production_efficiency = 0.05
+	}
+	#Gnoll Mercenaries
+	gnoll_ideas_4 = {
+		possible_mercenaries = 0.5
+	}
+	#Ambush tactics
+	gnoll_ideas_5 = {
+		hostile_attrition = 1.0
+	}
+	#Only the Strong Lead
+	gnoll_ideas_6 = {
+		heir_chance = 0.5
+		leader_land_shock = 1
+	}
+	#The Weak are Food
+	gnoll_ideas_7 = {
+		defensiveness = 0.15
+	}
+}

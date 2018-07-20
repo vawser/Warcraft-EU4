@@ -1,0 +1,27 @@
+# Sand Pygmies
+government 			= war_tribe
+mercantilism 		= 10
+technology_group 	= tech_pygmy
+religion			= voodoo
+primary_culture 	= sand_pygmy
+capital = 1
+
+546.1.1 = { 
+	monarch = { 
+		name = "Fullhide" 
+		dynasty = "Oogah"
+		adm = 1
+		dip = 2
+		mil = 3        
+    }
+} 
+
+971.1.1 = { 
+	monarch = { 
+		name = "Squashrock" 
+		dynasty = "Oogah"
+		adm = 1
+		dip = 2
+		mil = 3        
+    }
+} 

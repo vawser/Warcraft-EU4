@@ -1,0 +1,78 @@
+#light_group 
+#   the_light
+#   light_of_the_naaru
+#   light_of_sunwell
+    
+#shadow_group
+#   shadow
+#   forgotten_shadow
+    
+#titan_group
+#   titan_worship
+#   corrupt_titan_worship
+#   mystery_of_the_makers
+
+#nature_group
+#   shamanism
+#   druidism
+#   geomancy
+#   elune_worship
+    
+#old_gods_group
+#   cthun
+#   nzoth
+#   yogg_saron
+#   yshaarj
+#   twilight_cult
+#   nightmare
+
+#celestial_group
+#   yulon
+#   chiji
+#   niuzao
+#   xuen
+    
+#elemental_group
+#   fire_worship
+#   earth_worship
+#   water_worship
+#   air_worship
+
+#troll_group
+#   loa
+#   voodoo
+#   hakkari
+
+#order_group
+#   arcane
+    
+#disorder_group
+#   fel
+   
+#dragon_group
+#   sect_of_the_dragons
+    
+#scourge_group
+#   cult_of_the_damned
+    
+#arkkoroc_group
+#   arkkoroc
+    
+#ogre_group
+#   nath
+    
+#tuskarr_group
+#   tuskarr_pantheon
+
+#wolvar_group
+#   wolvar_pantheon
+    
+#murloc_group
+#   deep_mother
+    
+#gnome_group
+#   invention
+    
+#goblin_group
+#   avarice
+    

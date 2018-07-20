@@ -1,0 +1,20 @@
+namespace = intergration_events
+
+country_event = {
+	id = intergration_events.1
+	title = intergration_events.1.title
+	desc = intergration_events.1.desc
+	picture = DEBATE_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = intergration_events.1.option.a
+
+		add_country_modifier = {
+			name = "annexers_legacy"
+			duration = 3650
+		}
+	}
+}
+

@@ -1,0 +1,8 @@
+type = heavy_ship
+sprite_level = 2
+
+hull_size = 25
+base_cannons = 50
+sail_speed = 5
+
+

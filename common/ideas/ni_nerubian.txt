@@ -1,0 +1,37 @@
+nerubian_ideas = {
+	start = {
+		stability_cost_modifier = -0.1
+		development_cost = -0.1
+	}
+
+	bonus = {
+		tolerance_own = 1
+	}
+	
+	trigger = {
+        primary_culture = nerubian
+	}
+	free = yes	
+	
+	masters_of_the_tunnels = {
+		hostile_attrition = 0.5
+	}
+	center_of_learning = {
+		technology_cost = -0.05
+	}
+	nerubian_swarm = {
+		shock_damage = 0.1
+	}
+	feircely_independent = {
+		enemy_core_creation = 0.15
+	}
+	we_must_repopulate_our_lands = {
+		colonists = 1
+	}
+	nerubian_workers = {
+		build_cost = -0.25
+	}
+	united_by_a_common_goal = {
+		global_unrest = -1
+	}
+}

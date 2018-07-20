@@ -1,0 +1,234 @@
+town_hall = {
+	cost = 250
+	time = 12
+
+	modifier = {
+        local_development_cost = -0.20
+		allowed_num_of_buildings = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+        
+        modifier = {
+			factor = 300
+			development = 20
+			is_state = yes
+		}
+        modifier = {
+			factor = 0.9
+			OR = 
+			{
+				has_climate = tropical
+				has_climate = arid
+			}			
+		}
+		modifier = {
+			factor = 0.4
+			has_climate = arctic
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				has_terrain = grasslands
+				has_terrain = drylands
+			}
+		}
+		modifier = {
+			factor = 3
+			has_terrain = farmlands
+		}
+	}
+}
+
+tavern = {
+	cost = 200
+	time = 12
+
+	modifier = {
+        local_unrest = -2
+        local_autonomy = -0.1
+	}
+	
+	ai_will_do = {
+		factor = 1
+        
+        modifier = {
+			factor = 210
+			development = 15
+			is_state = yes
+		}
+	}
+}
+
+market = {
+	cost = 200
+	time = 12
+
+	modifier = {
+        province_trade_power_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 1.5
+	}
+}
+
+farm = {
+	cost = 200
+	time = 12
+
+	modifier = {
+        local_tax_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+mine = {
+	cost = 200
+	time = 12
+
+	modifier = {
+        local_production_efficiency = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+temple = {
+	cost = 300
+	time = 12
+
+	modifier = {
+        local_missionary_strength = 0.03
+        local_tax_modifier = 0.5
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+dock = {
+	cost = 200
+	time = 12
+
+    trigger = {
+		has_port = yes
+	}
+    
+	modifier = {
+        local_sailors_modifier = 1.0
+	}
+	
+	ai_will_do = {
+		factor = 1
+        
+        modifier = {
+			factor = 210
+			FROM = { navy_size_percentage = 0.95 }
+		}
+	}
+}
+
+shipyard = {
+	cost = 200
+	time = 12
+
+    trigger = {
+		has_port = yes
+	}
+    
+	modifier = {
+        naval_forcelimit = 2
+		ship_recruit_speed = -0.25
+		local_ship_repair = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 1
+        
+        modifier = {
+			factor = 110
+			FROM = { navy_size_percentage = 0.95 }
+		}
+	}
+}
+
+barracks = {
+	cost = 200
+	time = 12
+
+	modifier = {
+        local_manpower_modifier = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+drill_square = {
+	cost = 200
+	time = 12
+
+	modifier = {
+        land_forcelimit = 2
+        regiment_recruit_speed = -0.25
+	}
+	
+	ai_will_do = {
+		factor = 1
+        
+        modifier = {
+			factor = 210
+            
+			FROM = { army_size_percentage = 0.95 }
+		}
+	}
+}
+
+paved_road = {
+	cost = 200
+	time = 12
+
+	modifier = {
+        local_friendly_movement_speed = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 1
+        
+        modifier = {
+			factor = 210
+            
+            has_influencing_fort = yes
+			is_state = yes
+		}
+	}
+}
+
+supply_depot = {
+	cost = 200
+	time = 12
+
+	modifier = {
+        supply_limit_modifier = 0.25
+	}
+	
+	ai_will_do = {
+		factor = 1
+        
+        modifier = {
+			factor = 210
+            
+            development = 10
+			is_state = yes
+		}
+	}
+}

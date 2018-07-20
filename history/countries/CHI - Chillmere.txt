@@ -1,0 +1,27 @@
+# Chillmere
+government 			= war_tribe
+mercantilism 		= 10 
+technology_group 	= tech_murloc
+religion			= deep_mother
+primary_culture 	= murloc
+capital = 1
+
+546.1.1 = { 
+	monarch = { 
+		name = "Old Icefin" 
+		dynasty = "Chillmere" 
+		adm = 1
+		dip = 3
+		mil = 1
+	} 
+} 
+
+946.1.1 = {
+	monarch = { 
+		name = "Young Icefin" 
+		dynasty = "Chillmere" 
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+} 

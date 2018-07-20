@@ -1,0 +1,103 @@
+--- The First War ---
+Model the First war in this age.
+
+Orc advancement will be modelled in history files, but the exact province ownership won't be required for the Orc Invasion to complete.
+
+Whilst active, Orcs will get events that relate to the Dark Portal and the "support" they get from Outland.
+
+Whilst active, Humans and alliance members (once formed) will get events relating to pushing back the orcs.
+
+Ends:
+- Stormwind falls
+- Orcs wiped out (skip to Scourge)
+- Humans capture Dark Portal (skip to Scourge)
+
+--- The Second War ---
+Model the Second War in this age.
+
+Ends:
+- Dark Portal is captured.
+- Orcs wiped out (skip to Scourge)
+- Humans wiped out 
+
+--- Invasion of Draenor ---
+Model the invasion of Draenor.
+
+Abstract the human invasion through events.
+
+Remains of the Orc clans on Azeroth will get events showing their struggle. (Battle of Grim Batol)
+
+Spawn Scourge in Northrend during the final years of this age.
+
+Ends: 
+- After a set period
+
+--- War of the Spider ---
+Model the War of the Spider
+
+- Scourge attack Azjol'Nerub
+- Medivh speaks to Thrall, travels to Kalimdor, forms the Horde
+
+Ends:
+- After the Scourge win
+- After Azjol'Nerub win (skip to Pax Azeroth)
+
+--- Reign of Chaos ---
+Model the Third War.
+
+- Scourge Plague in Lordaeron
+    - Distracted by rebelling orc camps + horde flight
+- Cult of the Damned
+    - Andorhal grain corrupted with Plague
+    - Kel'Thuzad arc
+- Culling of Stratholme
+    - Arthas attacked in Hearthglen
+    - Medivh warns Arthas
+    - Travels to Stratholme
+    - Kills townsfolk of Stratholme, offends Uther
+    - Knights of the Silver Hand split off
+- Rise of the Death Knight
+    - Arthas travels to Northrend
+    - Meets Muradin, finds Frostmourne
+    - Defeats Mal'Ganis, flees leaving his men behind
+    - Arthas returns months later to Lordaeron
+    - Kills his father, claims Lordaeron in the name of the Scourge
+    - Tasked to revive Kel'Thuzad, requires Sunwell
+- Fall of Quel'Thalas
+    - Sylvanas Windrunner attacks Arthas
+    - Scourge pushes into Silvermoon -> Isle of Quel'Danas
+    - Sylvanas captured, becomes banshee
+    - Kel'Thuzad revived in Sunwell, corrupting into
+    - Destroys Quel'Thalas
+- The Defiler
+    - Scourge travel to Dalaran, take Book of Medivh
+    - Kel'Thuzad summons Archimonde, destroys Dalaran
+- Battle of Mount Hyjal 
+    - Medivh informs Malfurion and Tyrande of his history
+    - Malfurion plans to destroy Archimonde using Nordrassil
+    - Archimonde is destroyed, killing the World Tree and ending the night elves immortality.
+- Flight to Kalimdor
+    - Jaina Proudmoore moves thousands to Kalimdor (Theramore)
+    - Warsong clan moves to Kalimdor
+    - Thrall meets the tauren, tauren join the Horde
+    - Warsong clan anger the Night elfs, Cenarius attacks them
+    - Warsong clan drinks from a fel-corrupted fountain (Mannoroth) unknowingly
+    - Warsong becomes fel orcs, defeat Cenarius
+    - Thrall and Jaina cleanse Grom.
+    - Thrall and Jaina challenge Mannoroth, Grom kills him, dying as well
+
+- The Scourge attack Lordaeron region
+- Arthas and his fall
+- The fall of Quel'Thalas
+- Orc flight to Kalimdor
+- Theramore created
+- Tauren move to Mulgore
+- Return of the Night Elfs
+- Battle of Mount Hyjal
+
+Ends:
+- Once Lordaeron falls
+
+--- Pax Azeroth ---
+Filler age for period after lore-specific ages
+

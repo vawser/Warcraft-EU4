@@ -1,0 +1,17 @@
+# Alterac
+government 			= administrative_kingdom
+mercantilism 		= 10
+technology_group 	= tech_human
+religion			= the_light
+primary_culture 	= alteraci
+capital = 1
+
+816.1.1 = { 
+    monarch = { 
+        name = "George" 
+        dynasty = "Falconcrest" 
+		adm = 2
+		dip = 1
+		mil = 4
+    }
+}

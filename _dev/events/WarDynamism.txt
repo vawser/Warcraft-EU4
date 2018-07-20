@@ -1,0 +1,579 @@
+namespace = war_dynamism
+
+# Add auto-loot options
+
+# $PROVINCENAME$ has been looted
+# a: Oh dear...
+province_event = {
+	id = war_dynamism.1
+	title = war_dynamism.1.title
+	desc = war_dynamism.1.desc
+	picture = ANGRY_MOB_eventPicture # Placeholder
+
+    hidden = yes
+    
+	trigger = {
+		controller = {
+            NOT = { culture_group = ROOT }
+            NOT = { religion_group = ROOT } 
+            NOT = { is_civilized = yes }
+        }
+		NOT = { controlled_by = REB }
+        NOT = { controlled_by = owner }
+        OR = {
+            NOT = { has_province_modifier = untouched }
+            NOT = { has_province_modifier = recently_looted }
+            NOT = { has_province_modifier = scorched_earth_wd }
+        }
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+    
+	option = {
+		name = war_dynamism.1.option.a
+        
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.1.option.a" }
+
+        if = {
+            limit = { 
+                controller = { NOT = { has_country_flag = auto_loot_set } }
+            }
+        
+            controller = { country_event = { id = war_dynamism.2 } }
+        }
+        if = {
+            limit = { 
+                controller = { has_country_flag = auto_loot_set }
+            }
+        
+            controller = { country_event = { id = war_dynamism.3 } }
+        } 
+    }
+}
+
+# Loot $PROVINCENAME$
+# a: Leave $PROVINCENAME$ alone
+# b: Loot $PROVINCENAME$
+# c: Burn $PROVINCENAME$ to the ground!
+country_event = {
+	id = war_dynamism.2
+	title = war_dynamism.2.title
+	desc = war_dynamism.2.desc
+	picture = ANGRY_MOB_eventPicture # Placeholder
+
+	is_triggered_only = yes
+    
+	option = {
+		name = war_dynamism.2.option.a
+        
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.2.option.a" }
+
+        FROM = {
+            add_province_modifier = {
+                name = untouched
+                duration = 1825
+            }
+        }
+        
+        ai_chance = {
+            factor = 90
+        }
+    }
+    option = {
+		name = war_dynamism.2.option.b
+        
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.2.option.b" }
+
+        FROM = {
+            add_province_modifier = {
+                name = recently_looted
+                duration = 1825
+            }
+            
+            grant_ducats_from_development = yes
+            remove_1_development_of_each = yes 
+        }
+        
+        ai_chance = {
+            factor = 5
+        }
+    }
+    option = {
+		name = war_dynamism.2.option.c
+        
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.2.option.c" }
+
+        FROM = {
+            grant_ducats_from_development = yes
+            remove_2_development_of_each = yes
+            
+            add_province_modifier = {
+                name = scorched_earth_wd
+                duration = 1825
+            }
+        }
+        
+        ai_chance = {
+            factor = 5
+        }
+    }
+}
+
+# Auto-resolve
+country_event = {
+	id = war_dynamism.3
+	title = war_dynamism.3.title
+	desc = war_dynamism.3.desc
+	picture = ANGRY_MOB_eventPicture # Placeholder
+
+    hidden = yes
+	is_triggered_only = yes
+    
+	option = {
+		name = war_dynamism.2.option.a
+        
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.3.option.a" }
+
+        trigger = {
+            has_country_flag = auto_loot_pick_pass_over
+        }
+        
+        FROM = {
+            add_province_modifier = {
+                name = untouched
+                duration = 1825
+            }
+        }
+    }
+    option = {
+		name = war_dynamism.2.option.b
+        
+        trigger = {
+            has_country_flag = auto_loot_pick_loot
+        }
+
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.3.option.b" }
+        
+        FROM = {
+            add_province_modifier = {
+                name = recently_looted
+                duration = 1825
+            }
+            
+            grant_ducats_from_development = yes
+            remove_1_development_of_each = yes 
+        }
+    }
+    option = {
+		name = war_dynamism.2.option.c
+       
+        trigger = {
+            has_country_flag = auto_loot_pick_scorched_earth
+        }
+        
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.3.option.c" }
+
+        FROM = {
+            grant_ducats_from_development = yes
+            remove_2_development_of_each = yes
+            
+            add_province_modifier = {
+                name = scorched_earth_wd
+                duration = 1825
+            }
+        }
+    }
+}
+
+# Ownership
+# Adjusted to only be for Savage attackers
+province_event = {
+	id = war_dynamism.10
+	title = war_dynamism.10.title
+	desc = war_dynamism.10.desc
+	picture = ANGRY_MOB_eventPicture # Placeholder
+
+    hidden = yes
+    
+	trigger = {
+		NOT = { controlled_by = REB }
+		NOT = { controlled_by = owner }
+		NOT = { owned_by = controller }
+        NOT = { is_capital = yes }
+        NOT = { has_province_flag = ownership_option_picked_for_province }
+        
+        owner = {   
+            is_at_war = yes
+        }
+        controller = {
+            is_at_war = yes
+            is_savage = yes
+        }
+	}
+    
+    mean_time_to_happen = {
+		months = 12
+
+        # Border provinces
+		modifier = { 
+            factor = 0.5
+            
+			any_neighbor_province = {
+                owned_by = controller
+            }
+		}
+        
+        # Legitimate claims
+		modifier = { 
+			is_core = controller
+			factor = 0.5
+		}
+        
+        # Popular resistance
+		modifier = { 
+			is_core = owner
+			factor = 1.5
+		}
+		modifier = {
+			has_owner_culture = yes
+			factor = 1.5
+        }
+
+		modifier = {
+			has_owner_religion = yes
+			factor = 1.5
+        }
+	}
+    
+    option = {
+		name = war_dynamism.10.option.a
+        
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.10.option.a" }
+
+        if = {
+            limit = {
+                controller = {
+                    has_country_flag = auto_claim_set
+                }
+            }
+            
+            controller = { country_event = { id = war_dynamism.12 } }
+        }
+        if = {
+            limit = {
+                controller = {
+                    NOT = { has_country_flag = auto_claim_set }
+                }
+            }
+            
+            controller = { country_event = { id = war_dynamism.11 } }
+        }
+	}
+}
+
+country_event = {
+	id = war_dynamism.11
+	title = war_dynamism.11.title
+	desc = war_dynamism.11.desc
+	picture = ANGRY_MOB_eventPicture # Placeholder
+
+	is_triggered_only = yes
+    
+    immediate = {
+        set_province_flag = ownership_option_picked_for_province
+    }
+    
+    # Leave it alone
+    option = {
+		name = war_dynamism.11.option.a
+
+	}
+    
+    # Claim it
+    option = {
+		name = war_dynamism.11.option.b
+
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.11.option.a" }
+
+        FROM = { cede_province = ROOT }
+        
+        # Legitimate claim
+        if = {
+            limit = {
+                FROM = { is_core = ROOT }
+            }
+            
+            grant_adm_from_development = yes
+            grant_dip_from_development = yes
+            grant_mil_from_development = yes
+        }
+        
+        # Illegitimate claim
+        # Bad culture/religion
+        if = {
+            limit = {
+                FROM = { 
+                    OR = {
+                        NOT = { culture = ROOT }
+                        NOT = { religion = ROOT }
+                    }
+                }
+            }
+            
+            FROM = {
+                add_province_modifier = {
+                    name = rebellious_population
+                    duration = 3650
+                }
+            }
+        }
+        
+        # Same culture/religion
+        if = {
+            limit = {
+                FROM = { 
+                    culture = ROOT
+                    religion = ROOT
+                }
+            }
+            
+            # Do nothing
+        }  
+	}
+}
+   
+country_event = {
+	id = war_dynamism.12
+	title = war_dynamism.11.title
+	desc = war_dynamism.11.desc
+	picture = ANGRY_MOB_eventPicture # Placeholder
+
+    hidden = yes
+	is_triggered_only = yes
+    
+    immediate = {
+        set_province_flag = ownership_option_picked_for_province
+    }
+    
+    # Leave it alone
+    option = {
+		name = war_dynamism.11.option.a
+
+        trigger = {
+            has_country_flag = auto_claim_pick_peace_treaty
+        }
+
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.12.option.a" }
+	}
+    
+    # Claim it
+    option = {
+		name = war_dynamism.11.option.b
+
+        trigger = {
+            has_country_flag = auto_claim_pick_seize
+        }
+        
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.12.option.b" }
+
+        # Legitimate claim
+        if = {
+            limit = {
+                FROM = { is_core = ROOT }
+            }
+            
+            grant_adm_from_development = yes
+            grant_dip_from_development = yes
+            grant_mil_from_development = yes
+        }
+        
+        # Illegitimate claim
+        # Bad culture/religion
+        if = {
+            limit = {
+                FROM = { 
+                    OR = {
+                        NOT = { culture = ROOT }
+                        NOT = { religion = ROOT }
+                    }
+                }
+            }
+            
+            add_province_modifier = {
+                name = rebellious_population
+                duration = 3650
+            }
+        }
+        
+        # Same culture/religion
+        if = {
+            limit = {
+                FROM = { 
+                    culture = ROOT
+                    religion = ROOT
+                }
+            }
+            
+            # Do nothing
+        }
+        
+        FROM = { cede_province = ROOT }
+	}
+}
+   
+# Tidy up flag
+province_event = {
+	id = war_dynamism.13
+	title = war_dynamism.13.title
+	desc = war_dynamism.13.desc
+	picture = ANGRY_MOB_eventPicture # Placeholder
+
+    hidden = yes
+    
+	trigger = {
+		has_province_flag = ownership_option_picked_for_province
+        NOT = { controlled_by = REB }
+        owner = {
+            is_at_war = no
+        }
+	}
+    
+    mean_time_to_happen = {
+		months = 1
+	}
+    
+    option = {
+		name = war_dynamism.13.option.a
+        
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.13.option.a" }
+
+        clr_province_flag = ownership_option_picked_for_province
+	}
+}
+
+# Settings
+country_event = {
+	id = war_dynamism.100
+	title = war_dynamism.100.title
+	desc = war_dynamism.100.desc
+	picture = ANGRY_MOB_eventPicture # Placeholder
+
+    is_triggered_only = yes
+
+	option = {
+		name = war_dynamism.100.option.a
+        
+        trigger = {
+            NOT = { has_country_flag = auto_loot_set }
+        }
+        
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.100.option.a" }
+
+        set_country_flag = auto_loot_set
+        set_country_flag = auto_loot_pick_pass_over
+    }
+    
+    option = {
+		name = war_dynamism.100.option.b
+        
+        trigger = {
+            NOT = { has_country_flag = auto_loot_set }
+        }
+        
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.100.option.b" }
+
+        set_country_flag = auto_loot_set
+        set_country_flag = auto_loot_pick_loot
+    }
+    
+    option = {
+		name = war_dynamism.100.option.c
+        
+        trigger = {
+            NOT = { has_country_flag = auto_loot_set }
+        }
+        
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.100.option.c" }
+
+        set_country_flag = auto_loot_set
+        set_country_flag = auto_loot_pick_scorched_earth
+    }
+    
+    option = {
+		name = war_dynamism.100.option.d
+        
+        trigger = {
+            has_country_flag = auto_loot_set
+        }
+        
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.100.option.d" }
+
+        clr_country_flag = auto_loot_set
+        clr_country_flag = auto_loot_pick_pass_over
+        clr_country_flag = auto_loot_pick_loot
+        clr_country_flag = auto_loot_pick_scorched_earth
+    }
+    
+    option = {
+		name = war_dynamism.100.option.e
+
+    }
+}
+
+country_event = {
+	id = war_dynamism.101
+	title = war_dynamism.101.title
+	desc = war_dynamism.101.desc
+	picture = ANGRY_MOB_eventPicture # Placeholder
+
+    is_triggered_only = yes
+
+	option = {
+		name = war_dynamism.101.option.a
+        
+        trigger = {
+            NOT = { has_country_flag = auto_claim_set }
+        }
+        
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.101.option.a" }
+
+        set_country_flag = auto_claim_set
+        set_country_flag = auto_claim_pick_peace_treaty
+    }
+    
+    option = {
+		name = war_dynamism.101.option.b
+        
+        trigger = {
+            NOT = { has_country_flag = auto_claim_set }
+        }
+        
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.101.option.b" }
+
+        set_country_flag = auto_claim_set
+        set_country_flag = auto_claim_pick_seize
+    }
+    
+    option = {
+		name = war_dynamism.101.option.c
+        
+        trigger = {
+            has_country_flag = auto_claim_set
+        }
+        
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.101.option.c" }
+
+        clr_country_flag = auto_claim_set
+        clr_country_flag = auto_claim_pick_seize
+        clr_country_flag = auto_claim_pick_peace_treaty
+    }
+    
+    option = {
+		name = war_dynamism.101.option.d
+    
+        if = { limit = { has_global_flag = enable_event_logging } log = "[Root.GetName] - war_dynamism.101.option.d" }
+    }
+}
+

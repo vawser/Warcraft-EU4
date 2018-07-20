@@ -1,0 +1,19 @@
+# New Stromgarde
+government 			= militaristic_kingdom
+mercantilism 		= 10
+technology_group 	= tech_undead
+religion			= forgotten_shadow
+primary_culture 	= forsaken
+capital = 1
+
+971.1.1 = { 
+	monarch = { 
+		name = "Galen" 
+		dynasty = "Trollbane" 
+		adm = 1
+		dip = 1
+		mil = 3  
+	} 
+}
+
+

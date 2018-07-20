@@ -1,0 +1,7 @@
+government 			= warband
+mercantilism 		= 10 
+technology_group 	= tech_ogre
+religion			= geomancy
+primary_culture 	= firegut
+government_rank     = 1
+capital = 1

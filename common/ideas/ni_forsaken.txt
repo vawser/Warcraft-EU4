@@ -1,0 +1,48 @@
+forsaken_ideas = {
+	start = {
+		culture_conversion_cost = -0.2
+		artillery_power = 0.1
+	}
+
+	bonus = {
+		global_tax_modifier = 0.1
+	}
+	
+	trigger = {
+		OR = {
+			tag = FOR
+			tag = HOV
+		}
+	}
+	free = yes		
+	
+    # Absence of Hunger
+	forsaken_ideas_1 = {
+		land_maintenance_modifier = -0.20
+	}
+    # Undeath
+	forsaken_ideas_2 = {
+		global_manpower_modifier = 0.1
+	}
+    # Horde Connections
+	forsaken_ideas_3 = {
+		diplomats = 1
+	}
+    # Unwavering Loyalty
+	forsaken_ideas_4 = {
+		land_morale = 0.05
+	}
+    # Distant Allies
+	forsaken_ideas_5 = {
+		global_ship_recruit_speed = -0.2
+	}
+    # Plague Bombs
+	forsaken_ideas_6 = {
+		siege_ability = 0.05
+	}
+    # Horrific Visages
+	forsaken_ideas_7 = {
+		hostile_attrition = 1
+	}
+}
+

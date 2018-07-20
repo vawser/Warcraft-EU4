@@ -1,0 +1,51 @@
+gov_tribe = {
+	rank = {
+		1 = PETTY_TRIBE
+		2 = TRIBE
+		3 = GRAND_TRIBE
+	}
+	
+	ruler_male = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+	}
+	
+	ruler_female = {
+		1 = CHIEFESS
+		2 = CHIEFESS
+		3 = CHIEFESS
+	}
+
+    consort_male = {
+		1 = CHIEF_CONSORT
+		2 = CHIEF_CONSORT
+		3 = CHIEF_CONSORT
+    }
+
+    consort_female = {
+		1 = CHIEFTESS_CONSORT
+		2 = CHIEFTESS_CONSORT
+		3 = CHIEFTESS_CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+        2 = HEIR
+        3 = HEIR
+    }
+	
+	trigger = {
+		OR = {
+			government = religious_tribe
+			government = mercantile_tribe
+			government = war_tribe
+		}
+	}
+}

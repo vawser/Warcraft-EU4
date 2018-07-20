@@ -1,0 +1,32 @@
+# Silverbrook
+government 			= mercantile_republic
+mercantilism 		= 10
+technology_group 	= tech_human
+religion			= the_light
+primary_culture 	= lordaeronian
+capital = 1
+
+901.1.1 = { 
+    monarch = { 
+        name = "Sergei" 
+        dynasty = "of Silverbrook" 
+		adm = 3
+		dip = 3
+		mil = 3
+	} 
+} 
+
+
+941.1.1 = { 
+    monarch = { 
+        name = "Arugal" 
+        dynasty = "of Gilneas" 
+		adm = 3
+		dip = 3
+		mil = 3
+ 	} 
+	government 	= cult
+	primary_culture = worgen
+	religion = shadow
+	technology_group = tech_worgen
+}

@@ -1,0 +1,571 @@
+spriteTypes = {
+        # ------------------------
+    # ADM
+    # ------------------------
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_artist"
+        texturefile = "gfx//interface//advisors//dark_iron//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_artist_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_philosopher"
+        texturefile = "gfx//interface//advisors//dark_iron//male//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_philosopher_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_theologian"
+        texturefile = "gfx//interface//advisors//dark_iron//male//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_theologian_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_inquisitor"
+        texturefile = "gfx//interface//advisors//dark_iron//male//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_inquisitor_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_master_of_mint"
+        texturefile = "gfx//interface//advisors//dark_iron//male//5.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_master_of_mint_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//5.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_treasurer"
+        texturefile = "gfx//interface//advisors//dark_iron//male//6.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_treasurer_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//6.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_stonemason"
+        texturefile = "gfx//interface//advisors//dark_iron//male//7.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_stonemason_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//7.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_carpenter"
+        texturefile = "gfx//interface//advisors//dark_iron//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_carpenter_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_bailiff"
+        texturefile = "gfx//interface//advisors//dark_iron//male//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_bailiff_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_judge"
+        texturefile = "gfx//interface//advisors//dark_iron//male//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_judge_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_overseer"
+        texturefile = "gfx//interface//advisors//dark_iron//male//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_overseer_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    # ------------------------
+    # DIP
+    # ------------------------
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_statesman"
+        texturefile = "gfx//interface//advisors//dark_iron//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_statesman_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_governor"
+        texturefile = "gfx//interface//advisors//dark_iron//male//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_governor_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_diplomat"
+        texturefile = "gfx//interface//advisors//dark_iron//male//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_diplomat_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_naval_reformer"
+        texturefile = "gfx//interface//advisors//dark_iron//male//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_naval_reformer_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_navigator"
+        texturefile = "gfx//interface//advisors//dark_iron//male//5.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_navigator_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//5.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_trader"
+        texturefile = "gfx//interface//advisors//dark_iron//male//6.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_trader_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//6.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_spymaster"
+        texturefile = "gfx//interface//advisors//dark_iron//male//7.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_spymaster_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//7.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_miller"
+        texturefile = "gfx//interface//advisors//dark_iron//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_miller_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_tailor"
+        texturefile = "gfx//interface//advisors//dark_iron//male//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_tailor_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_elder"
+        texturefile = "gfx//interface//advisors//dark_iron//male//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_elder_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_enforcer"
+        texturefile = "gfx//interface//advisors//dark_iron//male//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_enforcer_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    # ------------------------
+    # MIL
+    # ------------------------
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_army_reformer"
+        texturefile = "gfx//interface//advisors//dark_iron//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_army_reformer_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_army_organiser"
+        texturefile = "gfx//interface//advisors//dark_iron//male//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_army_organiser_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_commandant"
+        texturefile = "gfx//interface//advisors//dark_iron//male//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_commandant_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_quartermaster"
+        texturefile = "gfx//interface//advisors//dark_iron//male//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_quartermaster_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_recruitmaster"
+        texturefile = "gfx//interface//advisors//dark_iron//male//5.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_recruitmaster_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//5.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_fortification_expert"
+        texturefile = "gfx//interface//advisors//dark_iron//male//6.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_fortification_expert_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//6.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_grand_captain"
+        texturefile = "gfx//interface//advisors//dark_iron//male//7.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_grand_captain_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//7.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_blacksmith"
+        texturefile = "gfx//interface//advisors//dark_iron//male//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_blacksmith_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//1.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_marshal"
+        texturefile = "gfx//interface//advisors//dark_iron//male//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_marshal_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//2.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_constable"
+        texturefile = "gfx//interface//advisors//dark_iron//male//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_constable_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//3.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_armorer"
+        texturefile = "gfx//interface//advisors//dark_iron//male//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_advisor_darkirondwarfgfx_armorer_female"
+        texturefile = "gfx//interface//advisors//dark_iron//female//4.dds"
+        noOfFrames = 1
+        norefcount = yes
+        effectFile = "gfx/FX/buttonstate.lua"
+        loadType = "INGAME"
+    }
+}

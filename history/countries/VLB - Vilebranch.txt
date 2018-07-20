@@ -1,0 +1,53 @@
+# Vilebranch
+government 			= warband
+mercantilism 		= 10
+technology_group 	= tech_troll
+religion			= voodoo
+primary_culture 	= vilebranch
+capital = 1
+
+546.1.1 = {  
+	monarch = {
+		name = "Ro'gash"  
+		dynasty = "Vilebranch"  
+ 		adm = 2
+		dip = 1 
+		mil = 3 
+  	} 
+}
+
+776.1.1 = {  
+	monarch = {  
+		name = "Kaz'jin"  
+		dynasty = "Vilebranch"  
+ 		adm = 2
+		dip = 2 
+		mil = 3 
+	}
+}  
+
+
+926.1.1 = { 
+	monarch = { 
+		name = "Hexx" 
+		dynasty = "Vilebranch" 
+		adm = 4
+		dip = 2
+		mil = 3 
+		female = yes
+ 	} 
+ 	religion = hakkari
+    government = militaristic_theocracy
+} 
+ 
+971.1.1 = { 
+	monarch = { 
+		name = "Qiaga" 
+		dynasty = "Vilebranch" 
+		adm = 2
+		dip = 2
+		mil = 2 
+		female = yes
+ 	} 
+} 
+

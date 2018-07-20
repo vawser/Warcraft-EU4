@@ -1,0 +1,126 @@
+#	Warband					: Petty Warband, Warband, Grand Warband
+#	warband
+warband = {
+	nomad = yes
+	monarchy = yes
+	queen = no
+
+	valid_for_new_country = yes
+	
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	maintain_dynasty = yes
+	
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+	
+    max_states = 2
+    
+    militarised_society = yes
+    
+	rank = {
+		1 = {
+			land_forcelimit_modifier = 0.15
+            max_absolutism = 50
+		}
+		2 = {
+			land_forcelimit_modifier = 0.2
+            max_absolutism = 50
+		}
+		3 = {
+			land_forcelimit_modifier = 0.25
+            max_absolutism = 50
+		}
+	}
+}
+
+#	Scourge					: Scourge
+#	scourge_horde
+scourge_horde = {
+	nomad = yes
+	monarchy = yes
+	queen = no
+    
+	unique_government = yes
+	
+	valid_for_new_country = no
+	allow_convert = no
+	
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	maintain_dynasty = yes
+	
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+	
+    max_states = 2
+    
+    faction = faction_lower_spire
+    faction = faction_crimson_halls
+    faction = faction_plagueworks
+    
+    militarised_society = yes
+    
+	rank = {
+		1 = {
+			global_regiment_cost = -0.33
+			land_attrition = -0.2
+            max_absolutism = 50
+		}
+		2 = {
+			global_regiment_cost = -0.33
+			land_attrition = -0.25
+            max_absolutism = 50
+		}
+		3 = {
+			global_regiment_cost = -0.33
+			land_attrition = -0.3
+            max_absolutism = 50
+			
+		}
+	}
+}
+
+#	Expeditionary Force		: Expeditionary Force
+#	expeditionary_force
+expeditionary_force = {
+	nomad = yes
+	monarchy = yes
+	queen = no
+    
+	unique_government = yes
+	
+	valid_for_new_country = no
+	allow_convert = no
+	
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+	
+    max_states = 2
+    
+	rank = {
+		1 = {
+			global_manpower_modifier = 0.1
+			global_colonial_growth = 10
+		}
+		2 = {
+			global_manpower_modifier = 0.15
+			global_colonial_growth = 10
+		}
+		3 = {
+			global_manpower_modifier = 0.2
+			global_colonial_growth = 10
+		}
+	}
+}

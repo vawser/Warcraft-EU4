@@ -1,0 +1,17 @@
+# Timbermaw
+government 			= war_tribe
+mercantilism 		= 10
+technology_group 	= tech_furbolg
+religion			= shamanism
+primary_culture 	= furbolg
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Meilosh" 
+        dynasty = "Timbermaw"
+		adm = 1
+		dip = 3
+		mil = 1
+	} 
+} 

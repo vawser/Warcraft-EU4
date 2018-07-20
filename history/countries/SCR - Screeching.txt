@@ -1,0 +1,29 @@
+# Screeching
+government 			= war_tribe
+mercantilism 		= 10
+technology_group 	= tech_harpy
+religion			= air_worship
+primary_culture 	= harpy
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Sister" 
+        dynasty = "Bloodscreech" 
+		adm = 3
+		dip = 2
+		mil = 3
+        female = yes
+    }
+}
+
+901.1.1 = { 
+    monarch = { 
+        name = "Grenka" 
+        dynasty = "Bloodscreech" 
+		adm = 3
+		dip = 2
+		mil = 3
+        female = yes
+    }
+}

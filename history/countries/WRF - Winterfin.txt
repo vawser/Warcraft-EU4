@@ -1,0 +1,28 @@
+# Winterfin
+government 			= war_tribe
+mercantilism 		= 10
+technology_group 	= tech_murloc
+religion			= deep_mother
+primary_culture 	= murloc
+capital = 1
+
+546.1.1 = { 
+	monarch = {
+		name = "Bmurglbrm" 
+		dynasty = "Winterfin" 	
+		adm = 3
+		dip = 3	
+		mil = 3	
+	}
+}
+
+946.1.1 = { 
+	monarch = {
+		name = "King" 
+		dynasty = "Mrgl-Mrgl" 	
+		adm = 3
+		dip = 3	
+		mil = 3	
+ 	}
+}
+

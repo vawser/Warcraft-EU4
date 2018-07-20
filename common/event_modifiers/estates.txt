@@ -1,0 +1,39 @@
+frontier_rush = {
+    global_colonial_growth = 10
+}
+
+idea_exchange = {
+    idea_cost = -0.1
+}
+
+additional_merchants = {
+    merchants = 1
+}
+
+persuasive_merchants = {
+    trade_steering = 0.15
+}
+
+harsh_treatment = {
+    years_of_nationalism = -5
+}
+
+capital_punishment = {
+    yearly_corruption = -0.05
+}
+
+freethinkers = {
+    embracement_cost = -0.25
+}
+
+exotic_advisors = {
+    advisor_pool = 1
+}
+
+rush_of_religion = {
+    global_missionary_strength = 0.03
+}
+
+fast_construction = {
+    build_time = -0.5
+}

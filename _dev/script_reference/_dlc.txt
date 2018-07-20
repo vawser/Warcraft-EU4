@@ -1,0 +1,114 @@
+# Cradle of Civilization
+- Army: Army Professionalism
+- Religion: Religious Schools
+- Government: Mamluk Buttons
+- Government: Iqta Buttons
+- Government: Tribal Allegiance Buttons
+- Government: Feudal Theocracy Buttons
+- Government: Janissary unique unit
+- Government: Pasha state 
+- Trade: Trading Policy
+- Court: Advisor Promotion (to Level 5)
+- Province: Exploit Development
+
+# Third Rome
+- Subject Interaction: Press Sailors
+- Estate: Cossack unique unit
+- Government: Streltsy unique unit
+- Government: Claim State
+- Government: Russian Buttons
+- Religion: Patriarch Icons
+- Religion: Consecrate Metropolitan
+
+# Mandate of Heaven
+- Province: Prosperity
+- Province: State Edicts
+- Mechanic: Ages
+- Mechanic: Mandate of Heaven
+- Subject Interaction: Tributes
+- Subject Interaction: Diamyo
+- Religion: Harmonization
+- Religion: Isolationism
+- Culture: Manchu unique unit
+- Army: Artillery Barrage breach
+- Government: Shogunate buttons
+
+# Rights of Man
+- Court: Ruler Personalities
+- Court: Abdicate button
+- Court: Disinherit button
+- Mechanic: Great Powers
+- Army: Leader traits
+- Religion: Cults
+- Government: Maintain Dynasty effect
+- Government: Strengthen button
+- Government: Prussian Militarisation
+- Diplomacy: Abandon Personal Union button
+
+# Mare Nostrum
+- Mechanic: Raid for Slaves
+- Mechanic: Condottieri
+- Diplomacy: Steal Maps action
+- Diplomacy: Slander Merchants
+- Diplomacy: Sabotage Recruitment
+- Diplomacy: Corrupt Officials
+- Navy: Specific naval missions (Hunting, Evasion, Blockade and Intercept)
+- Government: Trade Leagues
+
+# The Cossacks
+- Diplomacy: Diplomatic Feedback
+- Mechanic: Estates
+- Mechanic: Native Policies
+- Diplomacy: Threaten War
+- Diplomacy: Study Technology
+- Diplomacy: Agitate for Liberty
+- Government: Horde Unity
+- Government: Raze
+- Religion: Syncretic Faith
+- Subject Interaction: Grant Province
+- Subject Interaction: Grant Core/Claim
+
+# Common Sense
+- Mechanic: Development
+- Mechanic: Free City
+- Court: Dismiss Advisor
+- Government: Devotion
+- Government: Parliaments
+- Government: Gov. Ranks
+- Religion: Church Power
+- Religion: Karma
+- Subject Interactions: basic set
+
+# El Dorado
+- Mechanic: Nation Designer
+- Mechanic: Hunt for the Seven Cities
+- Mechanic: Treat of Toresillas
+- Religion: Religious Reforms
+- Religion: Doom / Authority
+
+# Art of War
+- Mechanic: Client States
+- Mechanic: Transfer Occupation
+- Mechanic: Abandon Idea
+- Mechanic: Religious Leagues
+- Mechanic: Unit Builder
+- Army: Prioritize Siege
+- Army: Subject Focuses
+- Navy: Mothball Fleets
+- Diplomacy: March
+- Diplomacy: Sell Ships
+
+# Res Publica
+- Mechanic: National Focus
+- Government: Dutch Republics
+- Government: TRading Posts
+- Diplomacy: Support Heir
+
+# Wealth of Nations
+- Mechanic: Buildable Great Projects
+- Trade: Privateers
+- Trade: Trade Companies
+- Diplomacy: Justify Trade Conflict
+- Religion: Fervor
+- Religion: Personal Deities
+- Government: Mercant Republic boost goods effect

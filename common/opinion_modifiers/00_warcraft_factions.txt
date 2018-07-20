@@ -1,0 +1,19 @@
+faction_friendly_alliance = {
+    opinion = 50
+}
+
+faction_hated_alliance = {
+    opinion = -100
+}
+
+faction_friendly_horde = {
+    opinion = 50
+}
+
+faction_hated_horde = {
+    opinion = -100
+}
+
+disobeyed_faction_leader = {
+    opinion = -50
+}

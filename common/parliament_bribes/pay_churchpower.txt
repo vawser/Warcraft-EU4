@@ -1,0 +1,13 @@
+pay_churchpower = {
+	trigger = {
+		uses_church_aspects = yes
+	}
+	
+	effect = {
+		add_church_power = -10
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

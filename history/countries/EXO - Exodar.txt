@@ -1,0 +1,19 @@
+# Exodar
+government 			= administrative_theocracy
+mercantilism 		= 10
+technology_group 	= tech_draenei
+religion			= light_of_the_naaru
+primary_culture 	= draenei
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Velen" 
+        dynasty = "of Argus" 
+		adm = 3
+		dip = 5
+		mil = 2
+    }
+    clear_scripted_personalities = yes
+    add_ruler_personality = immortal_personality
+}

@@ -1,0 +1,39 @@
+# Blue Dragonflight
+government 			= dragonflight_council
+mercantilism 		= 10
+technology_group 	= tech_blue_dragonflight
+religion			= sect_of_the_dragons
+primary_culture 	= blue_dragonflight
+capital = 1
+
+546.1.1 = {
+    monarch = {
+        name = "Malygos"
+        dynasty = "the Spellweaver"
+        adm = 5
+        dip = 5
+        mil = 4
+    }
+}
+
+# Cataclysm
+971.1.1 = {
+    monarch = {
+        name = "Arygos"
+        dynasty = "the Spellweaver"
+        adm = 4
+        dip = 4
+        mil = 4
+    }
+}
+
+# Mists of Panadaria
+976.1.1 = {
+    monarch = {
+        name = "Kalecgos"
+        dynasty = "the Wise"
+        adm = 5
+        dip = 5
+        mil = 3
+    }
+}

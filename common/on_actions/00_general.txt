@@ -1,0 +1,98 @@
+# Country
+on_startup = {
+    events = {
+        game_setup.1
+        game_setup.2
+        game_setup.3
+    }
+
+}
+
+on_enforce_rebel_demands = { 
+    set_country_flag = helped_rebels_win_war 
+}
+
+on_overextension_pulse = {
+    random_events = {
+        100 = overextension_events.1
+        100 = overextension_events.2
+        100 = overextension_events.3
+        100 = overextension_events.4
+        100 = overextension_events.5
+        100 = overextension_events.6
+        100 = overextension_events.7
+        100 = overextension_events.8
+        100 = overextension_events.9
+        100 = overextension_events.10
+    }
+}
+
+on_bi_yearly_pulse = {
+    events = {
+        faction_events.1000   # Alliance opinion update
+        faction_events.1001   # Horde opinion update
+    }
+}
+
+on_bi_yearly_pulse_2 = {
+    random_events = {
+        100 = corruption_events.1
+        100 = corruption_events.2
+        100 = corruption_events.3
+        100 = corruption_events.4
+        100 = corruption_events.5
+        100 = corruption_events.6
+        100 = corruption_events.7
+        100 = corruption_events.8
+        100 = corruption_events.9
+        100 = corruption_events.10
+        100 = corruption_events.11
+        100 = corruption_events.12
+        100 = corruption_events.13
+        100 = corruption_events.14
+        100 = corruption_events.15
+        100 = corruption_events.16
+        100 = corruption_events.17
+        100 = corruption_events.18
+        100 = corruption_events.19
+        100 = corruption_events.20
+        
+        4000 = 0
+    }
+}
+
+on_four_year_pulse = {
+    random_events = {
+        100 = faction_events.10 # Alliance - Send Soldiers
+        100 = faction_events.11 # Horde - Send Soldiers
+        1000 = 0
+    }
+}
+
+on_bi_yearly_pulse_3 = { }
+on_bi_yearly_pulse_4 = { }
+on_thri_yearly_pulse = { }
+on_thri_yearly_pulse_2 = { }
+on_thri_yearly_pulse_3 = { }
+on_thri_yearly_pulse_4 = { }
+on_four_year_pulse_2 = { }
+on_four_year_pulse_3 = { }
+on_four_year_pulse_4 = { }
+on_five_year_pulse = { }
+on_five_year_pulse_2 = { }
+on_five_year_pulse_3 = { }
+on_five_year_pulse_4 = { }
+
+on_bankruptcy = { }
+on_revoke_estate_land_ai = { }
+on_revoke_estate_land = { }
+on_grant_estate_land = { }
+
+on_adm_development = { }    # ROOT = Province
+on_dip_development = { }    # ROOT = Province
+on_mil_development = { }    # ROOT = Province
+on_province_religion_converted = { }
+on_province_culture_converted = { }
+on_province_owner_change = { }
+
+

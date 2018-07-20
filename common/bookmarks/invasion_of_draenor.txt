@@ -1,0 +1,17 @@
+######################################################
+# Documentation
+# ----------------------------------------------------
+# All dates are in the King's Calender format
+######################################################
+
+bookmark =
+{
+	name = "INVASION_OF_DRAENOR_NAME"
+	desc = "INVASION_OF_DRAENOR_DESC"
+	date = 830.1.1
+    
+    country = STW
+    country = LOR
+    country = DAL
+    country = SMG
+}

@@ -1,0 +1,29 @@
+# Colonial Nations
+colonial_government = {
+	republic = yes
+	
+	color = { 80 120 180 }
+	
+	unique_government = yes
+
+	duration = 8
+	
+	valid_for_new_country = no
+	allow_convert = no
+	
+	republican_name = yes
+	royal_marriage = no
+	
+	ai_will_do = {
+		factor = 0
+	}
+
+	rank = {
+		1 = {
+			global_autonomy = -0.05
+			recover_army_morale_speed = 0.02	
+            embracement_cost = -0.1
+		}
+	}
+	fixed_rank = 1
+}

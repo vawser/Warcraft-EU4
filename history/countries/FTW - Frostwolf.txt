@@ -1,0 +1,41 @@
+# Frostwolf
+government 			= warband
+government_rank 	= 1
+mercantilism 		= 10
+technology_group 	= tech_orc
+primary_culture 	= frostwolf
+religion			= shamanism
+capital = 1
+
+816.1.1 = {
+    monarch = {
+		name = "Durotan" 
+		dynasty = "Frostwolf" 
+        birth_date = 606.1.1
+		adm = 3
+		dip = 3
+		mil = 4
+ 	}
+}
+
+841.1.1 = {
+    monarch = {
+        name = "Thrall"
+        dynasty = "Frostwolf"
+        birth_date = 776.1.1
+        adm = 4
+        dip = 5
+        mil = 3
+    }
+}
+
+906.1.1 = {
+	monarch = {
+		name = "Drek'Thar" 
+		dynasty = "Frostwolf" 
+        birth_date = 601.1.1
+		adm = 3
+		dip = 1
+		mil = 5
+ 	}
+}

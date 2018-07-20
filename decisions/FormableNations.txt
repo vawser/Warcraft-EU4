@@ -1,0 +1,474 @@
+country_decisions = {
+
+    decision_form_westfall = {
+		potential = {
+			NOT = { exists = WES }
+			NOT = { tag = WES }
+            culture_group = human_group
+			any_owned_province = {
+				region = region_westfall
+			}
+		}
+		
+		allow = {
+			is_at_war = no
+			is_subject = no
+			is_nomad = no
+		}
+		
+		effect = {
+			region_westfall = {
+				add_core = WES
+			}
+			every_owned_province = {
+				limit = {
+					is_core = WES
+				}
+				
+				cede_province = WES
+			}
+			vassalize = WES
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+	theramore_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = TRM }
+			is_colonial_nation = no
+			is_subject = no
+			culture_group = human_group
+		}
+		allow = {
+			is_at_war = no
+
+			capital_scope = { 
+				region = region_dustwallow_marsh 
+			}
+
+			area_dustwallow_10 = {
+		    	owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+		}
+		effect = {
+			change_government = administrative_kingdom
+			set_capital = 3655
+
+			execute_formable_nation_benefits = { TAG = TRM }
+            
+			region_dustwallow_marsh = {
+				add_permanent_claim = TRM
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	found_orgrimmar = {
+		major = yes
+		potential = {
+			NOT = { exists = ORG }
+			is_colonial_nation = no
+			is_subject = no
+			culture_group = orc_group
+		}
+		allow = {
+			is_at_war = no
+
+			capital_scope = { continent = central_kalimdor }
+
+			area_durotar_1 = {
+		    	owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			area_durotar_2 = {
+		    	owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+		}
+		effect = {
+            execute_formable_nation_benefits = { TAG = ORG }
+
+			change_primary_culture = culture_horde
+
+            every_owned_province = {
+                limit = {
+                    is_in_capital_area = yes
+                }
+                change_culture = culture_horde
+            }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	found_thunder_bluff = {
+		major = yes
+		potential = {
+			NOT = { exists = TDB }
+			is_colonial_nation = no
+			is_subject = no
+			culture_group = tauren_group
+		}
+		allow = {
+			is_at_war = NOT
+
+			capital_scope = { continent = central_kalimdor }
+
+			area_mulgore_25 = {
+		    	owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+		}
+		effect = {
+            execute_formable_nation_benefits = { TAG = TDB }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	form_the_frostmane_empire = {
+		major = yes
+		
+		potential = {
+			NOT = { exists = EME } 
+			is_colonial_nation = no
+			is_subject = no
+			primary_culture = frostmane
+		}
+		allow = {
+			is_at_war = no
+
+			capital_scope = { region = region_dun_morogh }
+
+            region_dun_morogh = {
+                owned_by = ROOT
+				is_core = ROOT
+                type = all
+            }		
+		}
+		effect = {
+			execute_formable_nation_benefits = { TAG = EME }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    establish_the_empire_of_the_shifting_sands = {
+		major = yes
+		
+		potential = {
+			NOT = { exists = ESS } 
+			is_colonial_nation = no
+			is_subject = no
+			culture_group = aqir_group
+		}
+		
+		allow = {
+			is_at_war = no
+
+			capital_scope = { continent = southern_kalimdor }
+
+            region_silithus = {
+                owned_by = ROOT
+				is_core = ROOT
+                type = all
+            }	
+		}
+		
+		effect = {
+			execute_formable_nation_benefits = { TAG = ESS }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    # Troll
+    reform_the_amani_empire = {
+		major = yes
+		
+		potential = {
+			NOT = { exists = AME } 
+			is_colonial_nation = no
+			is_subject = no
+			culture_group = forest_troll_group
+		}
+		
+		allow = {
+			is_at_war = no
+			
+			capital_scope = { continent = lordaeron }
+
+            area_eversong_forest_39 = {
+                owned_by = ROOT
+                is_core = ROOT
+				type = all
+            }
+			area_eversong_forest_38 = {
+                owned_by = ROOT
+                is_core = ROOT
+				type = all
+            }
+			area_eversong_forest_40 = {
+                owned_by = ROOT
+                is_core = ROOT
+				type = all
+            }
+			area_eversong_forest_41 = {
+                owned_by = ROOT
+                is_core = ROOT
+				type = all
+            }
+			area_eversong_forest_36 = {
+                owned_by = ROOT
+                is_core = ROOT
+				type = all
+            }
+			area_eversong_forest_35 = {
+                owned_by = ROOT
+                is_core = ROOT
+				type = all
+            }
+			area_eversong_forest_34 = {
+                owned_by = ROOT
+                is_core = ROOT
+				type = all
+            }
+		}
+		
+		effect = {
+			execute_formable_nation_benefits = { TAG = AME }			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    reform_the_gurubashi_empire = {
+		major = yes
+		
+		potential = {
+			NOT = { exists = GUE } 
+			is_colonial_nation = no
+			is_subject = no
+			culture_group = forest_troll_group
+		}
+		
+		allow = {
+			is_at_war = no
+
+			capital_scope = { continent = azeroth }
+			NOT = { religion = hakkari }
+
+			area_stranglethorn_vale_7 = {
+                owned_by = ROOT
+                is_core = ROOT
+				type = all
+            }
+            area_stranglethorn_vale_8 = {
+                owned_by = ROOT
+                is_core = ROOT
+				type = all
+            }
+		}
+		
+		effect = {
+			execute_formable_nation_benefits = { TAG = GUE }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    reform_the_drakkari_empire = {
+		major = yes
+		
+		potential = {
+			NOT = { exists = DKE } 
+			is_colonial_nation = no
+			is_subject = no
+			culture_group = ice_troll_group
+            NOT = { primary_culture = frostmane }
+		}
+		
+		allow = {
+			is_at_war = no		
+
+			capital_scope = { continent = northrend }
+
+            region_zuldrak = {
+                owned_by = ROOT
+                is_core = ROOT
+				type = all
+            }
+		}
+		
+		effect = {
+			execute_formable_nation_benefits = { TAG = DKE }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    form_the_empire_of_hakkar = {
+		major = yes
+		
+		potential = {
+			NOT = { exists = EOH } 
+			religion = hakkari
+			is_colonial_nation = no
+			is_subject = no
+		}
+		
+		allow = {
+			is_at_war = no		
+
+            region_swamp_of_sorrows = {
+                owned_by = ROOT
+                is_core = ROOT
+				type = all
+            }
+            area_stranglethorn_vale_7 = {
+                owned_by = ROOT
+                is_core = ROOT
+				type = all
+            }
+            area_stranglethorn_vale_8 = {
+                owned_by = ROOT
+                is_core = ROOT
+				type = all
+            }
+		}
+		
+		effect = {
+			execute_formable_nation_benefits = { TAG = EOH }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    form_the_murloc_horde = {
+		major = yes
+		
+		potential = {
+			NOT = { exists = MUH } 
+			culture_group = murloc_group
+			is_colonial_nation = no
+			is_subject = no
+		}
+		
+		allow = {
+            total_development = 500
+			is_at_war = no
+		}
+		
+		effect = {
+			execute_formable_nation_benefits = { TAG = MUH }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    form_the_grand_pack = {
+		major = yes
+		
+		potential = {
+			NOT = { exists = TGP } 
+			culture_group = gnoll_group
+			is_colonial_nation = no
+			is_subject = no
+		}
+		
+		allow = {
+            total_development = 500
+			is_at_war = no
+		}
+		
+		effect = {
+			execute_formable_nation_benefits = { TAG = TGP }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    form_the_candleborn = {
+		major = yes
+		
+		potential = {
+			NOT = { exists = CAN } 
+			culture_group = kobold_group
+			is_colonial_nation = no
+			is_subject = no
+		}
+		
+		allow = {
+            total_development = 500
+			is_at_war = no
+		}
+		
+		effect = {
+			execute_formable_nation_benefits = { TAG = CAN }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    form_the_highborne_empire = {
+		major = yes
+		
+		potential = {
+			NOT = { exists = HIE } 
+			culture_group = high_elf
+            
+			is_colonial_nation = no
+			is_subject = no
+		}
+		
+		allow = {
+			is_at_war = no
+			capital_scope = { 
+				OR = {
+					region = region_eversong_forest
+					region = region_isle_of_quel_danas
+				}	
+			}
+            total_development = 750
+		}
+		
+		effect = {
+			execute_formable_nation_benefits = { TAG = HIE }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
