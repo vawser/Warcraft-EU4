@@ -1,7 +1,0 @@
-# Sunreaver
-government 			= administrative_kingdom
-mercantilism 		= 10
-technology_group 	= tech_blood_elf
-religion			= arcane
-primary_culture 	= blood_elf
-capital = 1

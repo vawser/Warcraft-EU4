@@ -1,8 +1,0 @@
-# Abyssal Maw
-government 			= militaristic_kingdom
-mercantilism 		= 10
-technology_group 	= tech_air
-religion			= air_worship
-primary_culture 	= elemental_air
-capital = 1
-

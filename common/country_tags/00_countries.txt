@@ -6,6 +6,7 @@ NAT = "countries/Natives.txt"
 ALT = "countries/human/Alterac.txt"     
 ANO = "countries/human/Andorhal.txt"
 DAL = "countries/human/Dalaran.txt"
+BRI = "countries/human/Brightwood.txt"
 DAR = "countries/human/Darkshire.txt"
 GIL = "countries/human/Gilneas.txt"
 KUL = "countries/human/Kul Tiras.txt"
@@ -58,6 +59,7 @@ AER = "countries/dwarf/Aerie Peak.txt"
 # ---- Dryad ----
 UNB = "countries/dryad/The Unbound.txt" 
 SOW = "countries/dryad/Sisterhood of Winter.txt" 
+COC = "countries/dryad/Daughters of Cenarius.txt" 
 
 # ---- Earthern ----
 TMN = "countries/earthern/Thor Modan.txt"    

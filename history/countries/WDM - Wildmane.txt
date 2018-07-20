@@ -1,9 +1,0 @@
-# Wildmane Tribe
-government 			= mercantile_tribe
-mercantilism 		= 10
-technology_group 	= tech_tauren
-religion			= shamanism
-primary_culture 	= wildmane
-capital = 1
-
-

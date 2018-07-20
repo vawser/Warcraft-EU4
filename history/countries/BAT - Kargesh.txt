@@ -1,7 +1,0 @@
-# Kargesh
-government 			= warband
-mercantilism 		= 10
-technology_group 	= tech_mogu
-religion			= corrupt_titan_worship
-primary_culture 	= mogu
-capital = 1
