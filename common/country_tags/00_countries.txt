@@ -49,6 +49,7 @@ ODS = "countries/dragonflight/Obsidian Dragonshrine.txt"
 NEX = "countries/dragonflight/The Nexus.txt" 
 ADS = "countries/dragonflight/Azure Dragonshrine.txt" 
 AZW = "countries/dragonflight/Azurewing.txt"
+BDF = "countries/dragonflight/Caverns of Time.txt"
 
 # ---- Dwarf ----
 WIL = "countries/dwarf/Wildhammer.txt" 

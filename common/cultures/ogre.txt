@@ -1,20 +1,5 @@
 ogre_group = {
     graphical_culture = ogregfx 
-    
-    # boulderfist
-    # crushridge
-    # stonemaul
-    # dunemaul
-    # gordunni
-    # dreadmaul
-    # splinterfist
-    # firegut
-    # mogrosh
-    # dustbelcher
-    # deadwind
-    # bloodeye
-    # moshogg
-    # ogre
 
     boulderfist = {
         primary = BLF

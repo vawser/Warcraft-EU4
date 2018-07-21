@@ -1,19 +1,6 @@
 orc_group = {
     graphical_culture = orcgfx 
 
-    # bleeding_hollow
-    # black_tooth_grin
-    # twilights_hammer
-    # blackrock
-    # stormreaver
-    # dragonmaw
-    # burning_blade
-    # warsong
-    # shadowmoon
-    # frostwolf
-    # bonechewer
-    # orc
-    
     bleeding_hollow = {
         primary = BEE
         

@@ -1,4 +1,427 @@
 ﻿l_english:
+ #--------------------------------
+ # Human
+ #--------------------------------
+ azerothian_group: "Azerothian"
+ stormwind: "Stormwind"
+ brightwood: "Brightwood"
+ darkshire: "Darkshire"
+ westfall: "Westfall"
+ redridge: "Redridge"
+ bloodsail: "Bloodsail"
+ azerothian: "Azerothian"       
+ 
+ gilnean_group: "Gilnean"
+ gilneas: "Gilneas"
+ 
+ kul_tiran_group: "Kul Tirasian"
+ kul_tiras: "Kul Tiras"
+ 
+ arathi_group: "Arathi"
+ stromgarde: "Stromgarde"
+ tol_barad: "Tol Barad"
+ arathi: "Arathi"               
+ 
+ alteraci_group: "Alteraci"
+ alterac: "Alterac" 
+ alteraci: "Alteraci"           
+ 
+ lordaeron_group: "Lordaeronian"
+ andorhal: "Andorhal"
+ southshore: "Southshore"
+ stratholme: "Stratholme"
+ lordaeronian: "Lordaeronian"   
+ 
+ arcaneum_group: "Arcaneum"
+ dalaran: "Dalaran"
+ karazhan: "Karazhan"
+
+ #--------------------------------
+ # Aqir
+ #--------------------------------
+ qiraji_group: "Qiraji"
+ ahn_qiraj: "Ahn'Qiraj"
+ qiraji: "Qiraji"           
+ 
+ nerubian_group: "Nerubian"
+ azjol_nerbu: "Azjol'Nerub"
+ nerubian: "Nerubian"       
+ 
+ mantid_group: "Mantid"
+ mantid: "Mantid"           
+
+ #--------------------------------
+ # Centaur
+ #--------------------------------
+ centaur_group: "Centaur"
+ galak: "Galak"
+ gelkis: "Gelkis"
+ magram: "Magram"
+ mauraudine: "Mauraudine"
+ kolkar: "Kolkar"
+ centaur: "Centaur"         
+
+ #--------------------------------
+ # Draenei
+ #--------------------------------
+ draenei_group: "Draenei"
+ exodar: "Exodar"
+ draenei: "Draenei"
+ 
+ broken_group: "Broken"
+ lost_ones: "Lost Ones"
+ portal_seekers: "Portal Seekers"
+ broken: "Broken"           
+
+ #--------------------------------
+ # Dragon Aspects
+ #--------------------------------
+ red_dragonflight_group: "Red Dragonflight"
+ wyrmrest_temple: "Wyremrest Temple"
+ grim_batol: "Grim Batol"
+ red_dragonflight: "Red Dragonflight"
+ 
+ green_dragonflight_group: "Green Dragonflight"
+ twilight_grove: "Twilight Grove"
+ seradane: "Seradane"
+ emerald_dragonshrine: "Emerald Dragonshrine"
+ dream_bough: "Dream Bough"
+ green_dragonflight: "Green Dragonflight"
+
+ black_dragonflight_group: "Black Dragonflight"
+ obsidian_dragonshrine: "Obsidian Dragonshrine"
+ wyrmbog: "Wyrmbog"
+ black_dragonflight: "Black Dragonflight"
+ 
+ blue_dragonflight_group: "Blue Dragonflight"
+ the_nexus: "The Nexus"
+ azure_dragonshrine: "Azure Dragonshrine"
+ azurewing: "Azurewing"
+ blue_dragonflight: "Blue Dragonflight"
+ 
+ bronze_dragonflight_group: "Bronze Dragonflight"
+ caverns_of_time: "Caverns of Time"
+ bronze_dragonflight: "Bronze Dragonflight"
+
+ #--------------------------------
+ # Dwarf
+ #--------------------------------
+ dwarf_group: "Dwarven"
+ wildhammer: "Wildhammer"
+ ironforge: "Ironforge"
+ dark_iron: "Dark Iron"
+ aerie_peak: "Aerie Peak"
+ dwarf: "Dwarf"
+
+ #--------------------------------
+ # Dryad
+ #--------------------------------
+ dryad_group: "Dryad"
+ daughters_of_cenarius: "Daughters of Cenarius"
+ dryad: "Dryad"
+ 
+ crystal_nymph_group: "Crystal Nymph"
+ the_unbound: "The Unbound"
+ crystal_nymph: "Crystal Nymph"
+ 
+ frost_nymph_group: "Frost Nymph"
+ sisterhood_of_winter: "Sisterhood of Winter"
+ frost_nymph: "Frost Nymph"
+ 
+ #--------------------------------
+ # Earthen
+ #--------------------------------
+ earthen_group: "Earthen"
+ thor_modan: "Thor Modan"
+ frostborn: "Frostborn"
+ uldaman: "Uldaman"
+ earthen: "Earthen"
+ 
+ #--------------------------------
+ # High Elf
+ #--------------------------------
+ high_elf_group: "High Elf"
+ quelthalas: "Quel'Thalas"
+ high_elf: "High Elf"
+ blood_elf: "Blood Elf"
+ 
+ #--------------------------------
+ # Nightborne
+ #--------------------------------
+ nightborne_group: "Nightborne"
+ suramar: "Suramar"
+ nightborne: "Nightborne"
+ 
+ #--------------------------------
+ # Night Elf
+ #--------------------------------
+ night_elf_group: "Night Elf"
+ darnassus: "Darnassus"
+ sentinels_of_hyjal: "Sentinels of Hyjal"
+ moonglade: "Moonglade"
+ cenarion_expedition: "Cenarion Expedition"
+ sentinels_of_ashenvale: "Sentinels of Ashenvale"
+ sentinels_of_auberdine: "Sentinels of Auberdine"
+ sentinels_of_feathermoon: "Sentinels of Feathermoon"
+ night_elf: "Night Elf"
+ 
+ #--------------------------------
+ # Furbolg
+ #--------------------------------
+ furbolg_group: "Furbolg"
+ timbermaw: "Timbermaw"
+ stillpine: "Stillpine"
+ winterfall: "Winterfall"
+ frostpaw: "Frostpaw"
+ redfang: "Redfang"
+ thistlefur: "Thistlefur"
+ blackmaw: "Blackmaw"
+ bloodtooth: "Bloodtooth"
+ bristlelimb: "Bristlelimb"
+ deadwood: "Deadwood"
+ foulweald: "Foulweald"
+ blackwood: "Blackwood"
+ grizzleweald: "Grizzleweald"
+ furbolg: "Furbolg"
+ 
+ #--------------------------------
+ # Gnoll
+ #--------------------------------
+ gnoll_group: "Gnoll"
+ palemane: "Palemane"
+ mosshide: "Mosshide"
+ riverpaw: "Riverpaw"
+ blackmane: "Blackmane"
+ blackpaw: "Blackpaw"
+ drysnout: "Drysnout"
+ grimtail: "Grimtail"
+ mudsnout: "Mudsnout"
+ redpine: "Redpine"
+ redridge_pack: "Redridge Pack"
+ rot_hide: "Rot Hide"
+ savage_hill: "Savage Hill"
+ shadowhide: "Shadowhide"
+ woodpaw: "Woodpaw"
+ gnoll: "Gnoll"
+ 
+ #--------------------------------
+ # Gnome
+ #--------------------------------
+ gnome_group: "Gnome"
+ gnomeregan: "Gnomeregan"
+ gnome: "Gnome"
+ 
+ #--------------------------------
+ # Goblin
+ #--------------------------------
+ goblin_group: "Goblin"
+ bilgewater_cartel: "Bilgewater"
+ steamwheedle_cartel: "Steamwheedle"
+ venture_company: "Venture Company"
+ blackwater_cartel: "Blackwater Cartel"
+ goblin: "Goblin"
+ 
+ #--------------------------------
+ # Gorloc
+ #--------------------------------
+ gorloc_group: "Gorloc"
+ mistwhisper: "Mistwhisper"
+ rainspeaker: "Rainspeaker"
+ mosswalker: "Mosswalker"
+ sparktouched: "Sparktouched"
+ gorloc: "Gorloc"
+ 
+ #--------------------------------
+ # Harpy
+ #--------------------------------
+ harpy_group: "Harpy"
+ bloodfury: "Bloodfury"
+ coldwind: "Coldwind"
+ dustwind: "Dustwind"
+ windfury: "Windfury"
+ witchwing: "Witchwing"
+ harpy: "Harpy"
+ 
+ #--------------------------------
+ # Hozen
+ #--------------------------------
+ hozen_group: "Hozen"
+ grookin: "Grookin"
+ oona: "Oona"
+ hozen: "Hozen"
+ 
+ #--------------------------------
+ # Jinyu
+ #--------------------------------
+ jinyu_group: "Jinyu"
+ pearlfin: "Pearlfin"
+ jinyu: "Jinyu"
+ 
+ #--------------------------------
+ # Kobold
+ #--------------------------------
+ kobold_group: "Kobold"
+ gravelsnout: "Gravelsnout"
+ windshear: "Windshear"
+ kobold: "Kobold"
+ 
+ #--------------------------------
+ # Magnataur
+ #--------------------------------
+ magnataur_group: "Magnataur"
+ magmoth: "Magmoth"
+ garm: "Garm"
+ magnataur: "Magnataur"
+ 
+ #--------------------------------
+ # Mogu
+ #--------------------------------
+ mogu_group: "Mogu"
+ mogu_shan: "Mogu-shan"
+ gormali: "Gormali"
+ dojani: "Dojani"
+ shanze: "Shan'ze"
+ shao_tien: "Shao-tien"
+ mogu: "Mogu"
+ 
+ #--------------------------------
+ # Murloc
+ #--------------------------------
+ murloc_group: "Murloc"
+ siltfin: "Siltfin"
+ bluegill: "Bluegill"
+ vilefin: "Vilefin"
+ saltscale: "Saltscale"
+ rockpool: "Rockpool"
+ redgill: "Redgill"
+ winterfin: "Winterfin"
+ chillmere: "Chillmere"
+ murloc: "Murloc"
+ 
+ #--------------------------------
+ # Naga
+ #--------------------------------
+ naga_group: "Naga"
+ riplash: "Riplash"
+ blackfathom: "Blackfathom"
+ eye_of_azshara: "Eye of Azshara"
+ bloodcursed: "Bloodcursed"
+ daggerspine: "Daggerspine"
+ hatecrest: "Hatecrest"
+ slitherblade: "Slitherblade"
+ spitelash: "Spitelash"
+ stormscale: "Stormscale"
+ strashaz: "Strashaz"
+ wrathscale: "Wrathscale"
+ wrathtail: "Wrathtail"
+ naga: "Naga"
+ 
+ #--------------------------------
+ # Ogre
+ #--------------------------------
+ ogre_group: "Ogre"
+ dreadmaul: "Dreadmaul"
+ dunemaul: "Dunemaul"
+ gordunni: "Gordunni"
+ mogrosh: "Mo'grosh"
+ boulderfist: "Boulderfist"
+ crushridge: "Crushridge"
+ deadwind: "Deadwind"
+ dustbelcher: "Dustbelcher"
+ firegut: "Firegut"
+ moshogg: "Mosh'Ogg"
+ stone_fist: "Stone Fist"
+ stonemaul: "Stonemaul"
+ stonegullet: "Stonegullet"
+ torchbelcher: "Torchbelcher"
+ 
+ #--------------------------------
+ # Orc
+ #--------------------------------
+ orc_group: "Orc"
+ orgrimmar: "Orgrimmar"
+ blackrock: "Blackrock"
+ black_tooth_grin: "Black Tooth Grin"
+ bleeding_hollow: "Bleeding Hollow"
+ twilights_hammer: "Twilight's Hammer"
+ stormreaver: "Stormreaver"
+ dragonmaw: "Dragonmaw"
+ burning_blade: "Burning Blade"
+ the_orcish_horde: "The Orcish Horde"
+ thrall_horde: "The Horde"
+ orc: "Orc"
+ 
+ #--------------------------------
+ # Pandaren
+ #--------------------------------
+ pandaren_group: "Pandaren"
+ shadopan: "Shado-pan"
+ yulon: "Yu'lon"
+ niuzao: "Niuzao"
+ chiji: "Chi'ji"
+ xuen: "Xu'en"
+ tillers: "Tillers"
+ pandaren: "Pandaren"
+ 
+ #--------------------------------
+ # Pygmy
+ #--------------------------------
+ pygmy_group: "Pygmy"
+ oogah: "Oogah"
+ pygmy: "Pygmy"
+ 
+ #--------------------------------
+ # Quillboar
+ #--------------------------------
+ quillboar_group: "Quillboar"
+ bristleback: "Bristleback"
+ razormane: "Razormane"
+ razorfen: "Razorfen"
+ quillboar: "Quillboar"
+ 
+ #--------------------------------
+ # Satyr
+ #--------------------------------
+ satyr_group: "Satyr"
+ legashi: "Legashi"
+ nazzivus: "Nazzivus"
+ xavian: "Xavian"
+ haldarr: "Haldarr"
+ jadefire: "Jadefire"
+ axxarian: "Axxarian"
+ wildspawn: "Wildspawn"
+ satyr: "Satyr"
+ 
+ #--------------------------------
+ # Saurok
+ #--------------------------------
+ saurok_group: "Saurok"
+ glintrok: "Glintrok"
+ mistblade: "Mistblade"
+ riverblade: "Riverblade"
+ 
+ #--------------------------------
+ # Scourge
+ #--------------------------------
+ scourge_group: "The Scourge"
+ scourge: "Scourge"
+ 
+ #--------------------------------
+ # Sprite
+ #--------------------------------
+ spriteling_group: "Spriteling"
+ rikkitun: "Rikkitun"
+ spriteling: "Spritelin"
+ 
+ #--------------------------------
+ # Tauren
+ #--------------------------------
+ kalimdor_tauren_group: "Tauren"
+ 
+ highmountain_tauren_group: "Highmountain Tauren"
+ 
+ 
+
  aqir_group: "Aqir"
  qiraji: "Qiraji"
  nerubian: "Nerubian"
@@ -37,24 +460,6 @@
  dark_iron: "Dark Iron"
  frostborn: "Frostborn"
  dwarf: "Dwarf"
-
- elemental_air_group: "Air"
- elemental_air: "Air"
-
- elemental_earth_group: "Earth"
- elemental_earth: "Earth"
-
- elemental_fire_group: "Fire"
- elemental_fire: "Fire"
-
- elemental_sha_group: "Sha"
- elemental_sha: "Sha"
-
- elemental_water_group: "Water"
- elemental_water: "Water"
-
- ethereal_group: "Ethereal"
- ethereal: "Ethereal"
 
  forest_troll_group: "Forest Troll"
  amani: "Amani"
@@ -123,7 +528,7 @@
  winterax: "Winterax"
  winterfang: "Winterfang"
  drakkari: "Drakkari"
- ice_troll: "Ice Troll"
+ frost_troll: "Frost Troll"
 
  jinyu_group: "Jinyu"
  jinyu: "Jinyu"
