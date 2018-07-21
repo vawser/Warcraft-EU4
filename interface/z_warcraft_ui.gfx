@@ -1,0 +1,101 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_sk_red_banner"
+		texturefile = "gfx//interface//banner_red_long.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_sk_green_banner"
+		texturefile = "gfx//interface//banner_green_long.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_sk_gold_banner"
+		texturefile = "gfx//interface//banner_gold_long.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_sk_green_banner_small"
+		texturefile = "gfx//interface//banner_green_thin.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_sk_purple_banner_small"
+		texturefile = "gfx//interface//banner_purple_thin.dds"
+		loadType = "INGAME"
+	}
+    
+    #----------------------------------------------
+    # Technology Tab
+    #----------------------------------------------
+    spriteType = {
+		name = "GFX_technology_view_research_thin"
+		texturefile = "gfx//interface//country_technology_researchbutton_thin.dds"
+		loadType = "INGAME"
+	}
+    
+    #----------------------------------------------
+    # UI
+    #----------------------------------------------
+    spriteType = {
+		name = "GFX_large_square_bg"
+		texturefile = "gfx//interface//gui//gui_large_square_bg.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_burning_legion_bg"
+		texturefile = "gfx//interface//ui//burning_legion_bg.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_tarnished_metal_block_large"
+		texturefile = "gfx//interface//ui//tarnished_metal_block_large.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_tarnished_metal_block_medium"
+		texturefile = "gfx//interface//ui//tarnished_metal_block_medium.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_tarnished_metal_block_medium_long"
+		texturefile = "gfx//interface//ui//tarnished_metal_block_medium_long.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_banner_left_5"
+		texturefile = "gfx//interface//ui//banner_left_5.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_banner_left_6"
+		texturefile = "gfx//interface//ui//banner_left_6.dds"
+	}
+
+    spriteType = {
+		name = "GFX_pandaria_hre_bg"
+		texturefile = "gfx//interface//ui//pandaria_hre_bg.dds"
+		loadType = "INGAME"
+	}
+    
+    spriteType = {
+		name = "GFX_banner_bamboo_310"
+		texturefile = "gfx//interface//ui//bamboo_60_310.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_combat_banner_opposite"
+		texturefile = "gfx//interface//ui//combat_banner_opposite.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_bamboo_underline"
+		texturefile = "gfx//interface//ui//bamboo_underline.dds"
+	}
+}

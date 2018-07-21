@@ -1,0 +1,96 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_icon_religion"
+		texturefile = "gfx/interface/religion/religion_icons_64.tga"
+		noOfFrames = 26
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_icon_religion_small"
+		texturefile = "gfx/interface/religion/religion_icons_32.tga"
+		noOfFrames = 26
+		loadType = "INGAME"
+	}
+	
+    spriteType = {
+		name = "GFX_country_icon_religion"
+		texturefile = "gfx//interface/religion/religion_icons_44.dds"
+		noOfFrames = 26
+	}
+    
+	spriteType = {
+		name = "GFX_religion_icon_strip"
+		texturefile = "gfx/interface/religion/religion_icons_32.dds"
+		transparencecheck = yes
+		noOfFrames = 26
+	}
+	
+	spriteType = {
+		name = "GFX_province_view_religion"
+		texturefile = "gfx/interface/religion/religion_icons_56.tga"
+		noOfFrames = 26
+		loadType = "INGAME"
+		allwaystransparent = yes
+	}
+
+    # ---------------- Piety
+    spriteType = {
+		name = "GFX_piety_icon_high"
+		texturefile = "gfx/interface/religion/high_piety.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_piety_icon_low"
+		texturefile = "gfx/interface/religion/low_piety.dds"
+	}
+    
+    # ---------------- Personal Deities
+    spriteType = {
+		name = "GFX_hindu_deities_strip"
+		texturefile = "gfx//interface//religion/deities_strip.dds"
+		noOfFrames = 20
+	}
+
+    # ---------------- Cults
+	spriteType = {
+		name = "GFX_fetishists_strip"
+		texturefile = "gfx//interface//religion/fetishists_strip.dds"
+		noOfFrames = 20
+	}
+
+    # ---------------- Harmony
+    spriteType = {
+		name = "GFX_low_harmony"
+		texturefile = "gfx/interface/religion/low_harmony.dds"
+	}
+
+    spriteType = {
+		name = "GFX_high_harmony"
+		texturefile = "gfx/interface/religion/high_harmony.dds"
+	}	
+	
+    # ---------------- Karma
+    spriteType = {
+		name = "GFX_low_karma"
+		texturefile = "gfx/interface/religion/low_karma.dds"
+	}
+
+	spriteType = {
+		name = "GFX_high_karma"
+		texturefile = "gfx/interface/religion/high_karma.dds"
+	}
+
+    # ---------------- Blessings
+    spriteType = {
+		name = "GFX_holy_site_default"
+		texturefile = "gfx//interface//religion/holy_site.dds"
+	}
+    
+    # ---------------- Papacy
+    spriteType = {
+		name = "GFX_legion_action_strip"
+		texturefile = "gfx//interface//religion//legion_action_strip.dds"
+		noOfFrames = 16
+	}
+}

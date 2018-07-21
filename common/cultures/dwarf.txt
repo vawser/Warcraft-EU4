@@ -1,6 +1,7 @@
 dwarf_group = {
-    bronzebeard = {
-        graphical_culture = dwarfgfx
+    graphical_culture = dwarfgfx
+    
+    ironforge = {
         primary = IRO
         
         male_names = { 
@@ -16,8 +17,22 @@ dwarf_group = {
 	}
     
     wildhammer = {
-        graphical_culture = dwarfgfx
         primary = WIL
+        
+        male_names = { 
+             Brann Kroldil Dytherdaggs Sograrn Drodurgaggs Bholfem Suirrargan Brongathend Daldonn Braguahr Dunguigrund Arnohr Mugdurn Mogags Taldorm Ginden Halfurn Urnuk Bregrudriaggs Dromor Tumurdin Ulfand Rumuagg Igrath Grodruignegs Ognur Grodruldann Ugdukann Umur Mirahrgil Radrehmurm Bagrohrgand Tirrar Khurnikan Brigrugs Durogg Baral Sulfend Birdum Kornor Jakolfar Drarmur Gadrus Jurmom Erdorn Hudul Khumdirnugs Krorgadriuth Demdiuk Kardarruaggs Grodaggs Gimdak Grornugs Mudrorm Brarohm Jumdar Drandul Gamdunann Arguarn Bhenil Drougnogg 
+        }
+		female_names = { 
+            Kesto Eva Onguan Gweamme Remdus Gwymmonro Lanmo Nemmess Gwemde Neshi Nashyvia Sonlo Osu Bradi Kanlou Ume Kole Surun Bengrenn Eihgi Janezu Thahlehda Thamwia Ese Oshi Segainglu Essa Kenwhasann Annu Ugahdio Kaihdua Ronga Masinn Rehge Sazahlua Dinniss Ysho Tamdimwou Twollu Twome Kohminvis Gwiraven Thangren Twida Side Jonomgua Bradio Twogearua Emwengli Bronna 
+        }
+		dynasty_names = { 
+            "Thundereye" "Fireeye" "Earthhammer" "Firebeard" "Stormforge" "Earthpike" "Anvilhammer" "Stormeye" "Ironhammer" "Thunderhammer" "Silverforge" "Thunderrage"   "Ironfist" "Wildforge" "Windhammer" "Stormbeard" "Stormpike" "Anvilbeard" "Bronzeeye" "Fireforge" "Earthfist" "Thunderpike" "Wildhammer" "Silvereye"   "Anvilforge" "Anvilfist" "Thunderfist" "Ironmar" "Firehammer" "Wildfist" "Bronzemar" "Silverbeard" "Goldforge" "Bronzehammer" "Thunderbeard" "Bronzepike"   "Stormhammer" "Goldrage" "Goldeye" "Ironrage" "Stormrage" "Wildeye" "Bronzerage" "Ironeye" "Eartheye" "Stormmar" "Bronzeforge" "Silvermar" "Silverfist"   "Ironpike" "Earthmar" "Silverhammer" "Wildbeard" "Goldbeard" "Windfist" "Ironbeard" "Thunderforge" "Windforge" "Anvilpike" "Wildmar" "Anvilrage" "Goldmar"   "Firefist" "Windeye" "Thundermar" "Silverrage" "Windbeard" "Bronzebeard" "Firemar" "Goldfist" "Anvileye" "Bronzefist" "Earthrage" "Wildrage" "Earthbeard"   "Earthforge" "Goldhammer" "Stormfist" "Ironforge" "Goldpike" "Windmar" "Firerage" "Firepike" "Wildpike" "Windrage" "Anvilmar" "Silverpike" "Windpike" 
+            "Deepaxe" "Barleybattle" "Slowfall" "Steeldust" "Moltenhead" "Blackrock" "Coolrest" "Cliffblade" "Frosthonor" "Swiftcave" "Warbraid" "Starkflight" "Grimkind" "Greatfist" "Moltengem" "Hardfeast" "Vastpeak" "Sternbelt" "Boldbattle" "Flinthand" "Halfdepth" "Moltenbrow" "Goldbeer" "Strongroar" "Eagerpride" "Stoutaxe" "Flintback" "Cliffhold" "Strongstorm" "Oddforce" "Steelbelly" "Mightstorm" "Ironrock" "Dimgift" "Greattale" "Warflow" "Drunkshield" "Bonehead" "Stormgate" "Coldhost" "Fusebreaker" "Slowbelt" "Lightfront" "Deeppride" "Coarsehand" "Boldgame" "Goldmight" "Evenmail" "Redboot" "Broadfront" "Blankfight" "Vastshaper" "Casknight" "Mightarm" "Frostfavor" "Stoutbottom" "Marblehelm" "Goldentoe" "Madback" "Sternforce"
+        }
+    }
+    
+    aerie_peak = {
+        primary = AER
         
         male_names = { 
              Brann Kroldil Dytherdaggs Sograrn Drodurgaggs Bholfem Suirrargan Brongathend Daldonn Braguahr Dunguigrund Arnohr Mugdurn Mogags Taldorm Ginden Halfurn Urnuk Bregrudriaggs Dromor Tumurdin Ulfand Rumuagg Igrath Grodruignegs Ognur Grodruldann Ugdukann Umur Mirahrgil Radrehmurm Bagrohrgand Tirrar Khurnikan Brigrugs Durogg Baral Sulfend Birdum Kornor Jakolfar Drarmur Gadrus Jurmom Erdorn Hudul Khumdirnugs Krorgadriuth Demdiuk Kardarruaggs Grodaggs Gimdak Grornugs Mudrorm Brarohm Jumdar Drandul Gamdunann Arguarn Bhenil Drougnogg 
@@ -46,25 +61,8 @@ dwarf_group = {
             "Deepaxe" "Barleybattle" "Slowfall" "Steeldust" "Moltenhead" "Blackrock" "Coolrest" "Cliffblade" "Frosthonor" "Swiftcave" "Warbraid" "Starkflight" "Grimkind" "Greatfist" "Moltengem" "Hardfeast" "Vastpeak" "Sternbelt" "Boldbattle" "Flinthand" "Halfdepth" "Moltenbrow" "Goldbeer" "Strongroar" "Eagerpride" "Stoutaxe" "Flintback" "Cliffhold" "Strongstorm" "Oddforce" "Steelbelly" "Mightstorm" "Ironrock" "Dimgift" "Greattale" "Warflow" "Drunkshield" "Bonehead" "Stormgate" "Coldhost" "Fusebreaker" "Slowbelt" "Lightfront" "Deeppride" "Coarsehand" "Boldgame" "Goldmight" "Evenmail" "Redboot" "Broadfront" "Blankfight" "Vastshaper" "Casknight" "Mightarm" "Frostfavor" "Stoutbottom" "Marblehelm" "Goldentoe" "Madback" "Sternforce"
         }
     }
-    
-    frostborn = {
-        graphical_culture = dwarfgfx
-        primary = FRO
-        
-        male_names = { 
-             Brann Kroldil Dytherdaggs Sograrn Drodurgaggs Bholfem Suirrargan Brongathend Daldonn Braguahr Dunguigrund Arnohr Mugdurn Mogags Taldorm Ginden Halfurn Urnuk Bregrudriaggs Dromor Tumurdin Ulfand Rumuagg Igrath Grodruignegs Ognur Grodruldann Ugdukann Umur Mirahrgil Radrehmurm Bagrohrgand Tirrar Khurnikan Brigrugs Durogg Baral Sulfend Birdum Kornor Jakolfar Drarmur Gadrus Jurmom Erdorn Hudul Khumdirnugs Krorgadriuth Demdiuk Kardarruaggs Grodaggs Gimdak Grornugs Mudrorm Brarohm Jumdar Drandul Gamdunann Arguarn Bhenil Drougnogg 
-        }
-		female_names = { 
-            Kesto Eva Onguan Gweamme Remdus Gwymmonro Lanmo Nemmess Gwemde Neshi Nashyvia Sonlo Osu Bradi Kanlou Ume Kole Surun Bengrenn Eihgi Janezu Thahlehda Thamwia Ese Oshi Segainglu Essa Kenwhasann Annu Ugahdio Kaihdua Ronga Masinn Rehge Sazahlua Dinniss Ysho Tamdimwou Twollu Twome Kohminvis Gwiraven Thangren Twida Side Jonomgua Bradio Twogearua Emwengli Bronna 
-        }
-		dynasty_names = { 
-            "Frostbeard" "Steelbeard" "Bronzepike" "Bronzemantle" "Frostpike" "Bronzeshaper" "Steelspike" "Silverpike" "Goldmar" "Icecrag" "Icemantle"   "Iceshaper" "Goldmantle" "Bronzemar" "Ironbeard" "Bronzebeard" "Steelmantle" "Silverspike" "Frostcrag" "Silverheart" "Ironheart" "Silvershaper"   "Icecutter" "Goldspike" "Silvercutter" "Steelcrag" "Bronzecutter" "Frostmantle" "Bronzeheart" "Ironpike" "Silvermar" "Ironcrag" "Goldpike"   "Goldcrag" "Silverbeard" "Frostshaper" "Ironcutter" "Frostspike" "Ironspike" "Ironmantle" "Steelheart" "Silvermantle" "Goldbeard" "Ironshaper"   "Steelpike" "Steelshaper" "Steelmar" "Icespike" "Frostheart" "Silvercrag" "Steelcutter" "Iceheart" "Bronzecrag" "Icebeard" "Bronzespike" "Frostmar"   "Frostcutter" "Goldshaper" "Ironmar" "Goldheart" "Icemar" "Icepike" "Goldcutter" 
-        }
-    }
-    
-    dwarf = {
-        graphical_culture = dwarfgfx
 
+    dwarf = {
         male_names = { 
              Brann Kroldil Dytherdaggs Sograrn Drodurgaggs Bholfem Suirrargan Brongathend Daldonn Braguahr Dunguigrund Arnohr Mugdurn Mogags Taldorm Ginden Halfurn Urnuk Bregrudriaggs Dromor Tumurdin Ulfand Rumuagg Igrath Grodruignegs Ognur Grodruldann Ugdukann Umur Mirahrgil Radrehmurm Bagrohrgand Tirrar Khurnikan Brigrugs Durogg Baral Sulfend Birdum Kornor Jakolfar Drarmur Gadrus Jurmom Erdorn Hudul Khumdirnugs Krorgadriuth Demdiuk Kardarruaggs Grodaggs Gimdak Grornugs Mudrorm Brarohm Jumdar Drandul Gamdunann Arguarn Bhenil Drougnogg 
         }

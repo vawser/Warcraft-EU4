@@ -1,7 +1,7 @@
 demon_group = {
     graphical_culture = demongfx 
     
-    demonic = {
+    demon = {
         male_names = { 
             "Ikzeruk" "Zonal'rash" "Vak'vorosh" "Xalel'zazz" "Kirgavath" "Ar'zac" "Zozrizac" "Brarteth" "Xul" "Bruthek'dok" "Tholsteruadoth" "Gaelgrengouduth" "Nel'thaverduurr" "Guk'zestrush" "Mil'drourdol" "Sathas" "Dathradugrux" "Halatezous" "Dril'mul" "Porvurdrakh" "Tikkan" "En'da" "Yekthih" "Hohna" "Kokthiraz" "Tihrin" "Lysecy" "Oh'rin" "Cindra" "Ondryr" "Branannol" "Bunalez" "Rolvin" "Selgrennach" "Ulgoth" "Kogthomoz" "Ugronaz" "Rirkath" "Xunnonur" "Or'onal"
         }

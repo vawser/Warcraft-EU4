@@ -26,13 +26,13 @@
  alterac: "Alterac" 
  alteraci: "Alteraci"           
  
- lordaeron_group: "Lordaeronian"
+ lordaeron_group: "Lordaeron"
  andorhal: "Andorhal"
  southshore: "Southshore"
  stratholme: "Stratholme"
- lordaeronian: "Lordaeronian"   
+ lordaeron: "Lordaeron"   
  
- arcaneum_group: "Arcaneum"
+ arcane_group: "Arcaneum"
  dalaran: "Dalaran"
  karazhan: "Karazhan"
 
@@ -44,7 +44,7 @@
  qiraji: "Qiraji"           
  
  nerubian_group: "Nerubian"
- azjol_nerbu: "Azjol'Nerub"
+ azjol_nerub: "Azjol'Nerub"
  nerubian: "Nerubian"       
  
  mantid_group: "Mantid"
@@ -60,6 +60,12 @@
  mauraudine: "Mauraudine"
  kolkar: "Kolkar"
  centaur: "Centaur"         
+ 
+ #--------------------------------
+ # Demon
+ #--------------------------------
+ demon_group: "Demon"
+ demon: "Demon"
 
  #--------------------------------
  # Draenei
@@ -334,6 +340,7 @@
  stonemaul: "Stonemaul"
  stonegullet: "Stonegullet"
  torchbelcher: "Torchbelcher"
+ ogre: "Ogre"
  
  #--------------------------------
  # Orc
@@ -347,19 +354,13 @@
  stormreaver: "Stormreaver"
  dragonmaw: "Dragonmaw"
  burning_blade: "Burning Blade"
- the_orcish_horde: "The Orcish Horde"
- thrall_horde: "The Horde"
  orc: "Orc"
  
  #--------------------------------
  # Pandaren
  #--------------------------------
  pandaren_group: "Pandaren"
- shadopan: "Shado-pan"
- yulon: "Yu'lon"
- niuzao: "Niuzao"
- chiji: "Chi'ji"
- xuen: "Xu'en"
+ shado_pan: "Shado-pan"
  tillers: "Tillers"
  pandaren: "Pandaren"
  
@@ -417,121 +418,75 @@
  # Tauren
  #--------------------------------
  kalimdor_tauren_group: "Tauren"
+ cliffwalker: "Cliffwalker"
+ grimtotem: "Grimtotem"
+ runetotem: "Runetotem"
+ dawnstrider: "Dawnstrider"
+ bloodhoof: "Bloodhoof"
+ winterhoof: "Winterhoof"
+ cloudsong: "Cloudsong"
+ darkmane: "Darkmane"
+ eagletalon: "Eagletalon"
+ mistrunner: "Mistrunner"
+ skychaser: "Skychaser"
+ stonehoof: "Stonehoof"
+ stonespire: "Stonespire"
+ skyseer: "Skyseer"
+ wheathoof: "Wheathoof"
+ whitehoof: "Whitehoof"
+ wildmane: "Wildmane"
+ wildrunner: "Wildrunner"
+ windtotem: "Windtotem"
+ younghoof: "Younghoof"
+ tauren: "Tauren"
  
  highmountain_tauren_group: "Highmountain Tauren"
+ highmountain: "Highmountain"
+ bloodtotem: "Bloodtotem"
+ ironhorn: "Ironhorn"
+ prepfoot: "Prepfoot"
+ rivermane: "Rivermane"
+ skyhorn: "Skyhorn"
  
+ #--------------------------------
+ # Taunka
+ #--------------------------------
+ taunka_group: "Taunka"
+ icemist: "Icemist"
+ ashtotem: "Ashtotem"
+ wintergale: "Wintergale"
+ taunka: "Taunka"
  
-
- aqir_group: "Aqir"
- qiraji: "Qiraji"
- nerubian: "Nerubian"
- mantid: "Mantid"
-
- arrakoa_group: "Arrakoa"
- arrakoa: "Arrakoa"
-
- centaur_group: "Centaur"
- centaur: "Centaur"
-
- demon_group: "Demonic"
- demonic: "Demonic"
-
- draenei_group: "Draenei"
- draenei: "Draenei"
- broken: "Broken"
-
- dragon_group: "Dragon"
- black_dragonflight: "Black Dragonflight"
- blue_dragonflight: "Blue Dragonflight"
- red_dragonflight: "Red Dragonflight"
- green_dragonflight: "Green Dragonflight"
- bronze_dragonflight: "Bronze Dragonflight"
- infinite_dragonflight: "Infinite Dragonflight"
-
- dryad_group: "Dryad"
- dryad: "Dryad"
- nymph: "Nymph"
- frost_nymph: "Frost Nymph"
- crystal_nymph: "Crystal Nymph"
-
- dwarf_group: "Dwarf"
- bronzebeard: "Bronzebeard"
- wildhammer: "Wildhammer"
- dark_iron: "Dark Iron"
- frostborn: "Frostborn"
- dwarf: "Dwarf"
-
+ #--------------------------------
+ # Tol'vir
+ #--------------------------------
+ tolvir_group: "Tol'vir"
+ neferset: "Neferset"
+ orsis: "Orsis"
+ ramkahen: "Ramkahen"
+ tolvir: "Tol'vir"
+ 
+ #--------------------------------
+ # Titan
+ #--------------------------------
+ titan_group: "Titan"
+ ulduar: "Ulduar"
+ lifewarder: "Lifewarder"
+ titan: "Titan"
+ 
+ #--------------------------------
+ # Troll
+ #--------------------------------
  forest_troll_group: "Forest Troll"
  amani: "Amani"
  shadowpine: "Shadowpine"
  vilebranch: "Vilebranch"
  revantusk: "Revantusk"
- mossflayer: "Mossflayer"
  firetree: "Firetree"
  smolderthorn: "Smoulderthorn"
  witherbark: "Witherbark"
  shadowglen: "Shadowglen"
  forest_troll: "Forest Troll"
-
- furbolg_group: "Furbolg"
- furbolg: "Furbolg"
-
- giant_group: "Giant"
- frost_giant: "Frost Giant"
- ice_giant: "Ice Giant"
- sea_giant: "Sea Giant"
- mountain_giant: "Mountain Giant"
-
- gnoll_group: "Gnoll"
- gnoll: "Gnoll"
-
- gnome_group: "Gnome"
- gnome: "Gnome"
-
- goblin_group: "Goblin"
- bilgewater: "Bilgewater"
- steamwheedle: "Steamwheedle"
- venture: "Venture"
- blackwater: "Blackwater"
- kezani: "Kezani"
- goblin: "Goblin"
-
- gorloc_group: "Gorloc"
- gorloc: "Gorloc"
-
- grummle_group: "Grummle"
- grummle: "Grummle"
-
- harpy_group: "Harpy"
- harpy: "Harpy"
-
- high_elf_group: "High Elf"
- high_elf: "High Elf"
- blood_elf: "Blood Elf"
- nightborne: "Nightborne"
-
- hozen_group: "Hozen"
- hozen: "Hozen"
-
- human_group: "Human"
- azerothian: "Azerothian"
- gilnean: "Gilnean"
- arathi: "Arathi"
- lordaeronian: "Lordaeronian"
- alteraci: "Alteraci"
- dalaranian: "Dalaranian"
- tirasian: "Tirasian"
- human: "Human"
-
- ice_troll_group: "Ice Troll"
- frostmane: "Frostmane"
- winterax: "Winterax"
- winterfang: "Winterfang"
- drakkari: "Drakkari"
- frost_troll: "Frost Troll"
-
- jinyu_group: "Jinyu"
- jinyu: "Jinyu"
 
  jungle_troll_group: "Jungle Troll"
  gurubashi: "Gurubashi"
@@ -539,145 +494,75 @@
  shatterspear: "Shatterspear"
  skullsplitter: "Skullsplitter"
  darkspear: "Darkspear"
- atal_ai: "Atal'ai"
- hakkari: "Hakkari"
+ atalai: "Atal'ai"
  jellyneck: "Jellyneck"
  jungle_troll: "Jungle Troll"
-
- kobold_group: "Kobold"
- kobold: "Kobold"
-
- magnataur_group: "Magnataur"
- magnataur: "Magnataur"
-
- mechagnome_group: "Mechagnome"
- mechagnome: "Mechagnome"
-
- mogu_group: "Mogu"
- mogu: "Mogu"
-
- murloc_group: "Murloc"
- murloc: "Murloc"
-
- naga_group: "Naga"
- naga: "Naga"
-
- night_elf_group: "Night Elf"
- night_elf: "Night Elf"
- shen_dralari: "She'dralari"
-
- ogre_group: "Ogre"
- boulderfist: "Boulderfist"
- crushridge: "Crushridge"
- stonemaul: "Stonemaul"
- dunemaul: "Dunemaul"
- gordunni: "Gordunni"
- dreadmaul: "Dreadmaul"
- splinterfist: "Splinterfist"
- firegut: "Firegut"
- mogrosh: "Mogrosh"
- dustbelcher: "Dustbelcher"
- deadwind: "Deadwind"
- bloodeye: "Bloodeye"
- moshogg: "Mosh'Ogg"
- ogre: "Ogre"
-    
- orc_group: "Ore"
- bleeding_hollow: "Bleeding Hollow"
- black_tooth_grin: "Black Tooth Grin"
- twilights_hammer: "Twilight's Hammer"
- blackrock: "Blackrock"
- stormreaver: "Stormreaver"
- dragonmaw: "Dragonmaw"
- burning_blade: "Burning Blade"
- warsong: "Warsong"
- shadowmoon: "Shadowmoon"
- frostwolf: "Frostwolf"
- bonechewer: "Bonechewer"
- orc: "Orc"
-
- pandaren_group: "Pandaren"
- huojin: "Huojin"
- tushui: "Tushui"
- shado_pan: "Shado Pan"
- pandaren: "Pandaren"
-
- pygmy_group: "Pygmy"
- sand_pygmy: "Sand Pygmy"
- pygmy: "Pygmy"
-
- quillboar_group: "Quillboar"
- quillboar: "Quillboar"
-
+ 
+ frost_troll_group: "Ice Troll"
+ frostmane: "Frostmane"
+ winterax: "Winterax"
+ winterfang: "Winterfang"
+ drakkari: "Drakkari"
+ frost_troll: "Frost Troll"
+ 
  sand_troll_group: "Sand Troll"
  sandfury: "Sandfury"
  sand_troll: "Sand Troll"
 
- satyr_group: "Satyr"
- satyr: "Satyr"
-
- saurok_group: "Saurok"
- saurok: "Saurok"
-
- scourge_group: "Scourge"
- scourge: "Scourge"
- death_knight: "Death Knight"
- crypt_fiend: "Crypt Fiend"
-
- sprite_group: "Sprite"
- sprite: "Sprite"
-
- tauren_group: "Tauren"
- bloodhoof: "Bloodhoof"
- grimtotem: "Grimtotem"
- runetotem: "Runetotem"
- mistrunner: "Mistrunner"
- dawnstrider: "Dawnstrider"
- winterhoof: "Winterhoof"
- cliffwalker: "Cliffwalker"
- skychaser: "Skychaser"
- wildmane: "Wildmane"
- thunderhorn: "Thunderhorn"
- tauren: "Tauren"
- taunka: "Taunka"
-
- titan_group: "Titan"
- earthen: "Earthen"
- titan_construct: "Titan Construct"
- stone_tolvir: "Stone Tol'vir"
- iron_dwarf: "Ironforged"
-
- tolvir_group: "Tol'vir"
- tolvir: "Tol'vir"
-
- trogg_group: "Trogg"
- trogg: "Trogg"
-
- tuskarr_group: "Tuskarr"
- tuskarr: "Tuskarr"
-
- undead_group: "Undead"
- forsaken: "Forsaken"
- undead: "Undead"
-
- virmen_group: "Virmen"
- virmen: "Virmen"
-
- vrykul_group: "Vrykul"
- vrykul: "Vrykul"
- frost_vrykul: "Frost Vrykul"
-
- wolvar_group: "Wolvar"
- wolvar: "Wolvar"
-
- worgen_group: "Worgen"
- wolfcult: "Wolfcult"
- worgen: "Worgen"
-
- yaungol_group: "Yaungol"
- yaungol: "Yaungol"
-
  zandalari_troll_group: "Zandalari Troll"
  zandalari: "Zandalari"
     
+ #--------------------------------
+ # Tuskarr
+ #--------------------------------
+ tuskarr_group: "Tuskarr"
+ kaluak: "Kalu'ak"
+ moaki: "Moa'ki"
+ tuskarr: "Tuskarr"
+ 
+ #--------------------------------
+ # Undead
+ #--------------------------------
+ undead_group: "Undead"
+ undead: "Undead"
+ forsaken: "Forsaken"
+ 
+ #--------------------------------
+ # Vrykul
+ #--------------------------------
+ vrykul_group: "Vrykul"
+ dragonflayer: "Dragonflayer"
+ winterskorn: "Winterskorn"
+ skadir: "Skadir"
+ ymirjar: "Ymirjar"
+ hyldnir: "Hyldnir"
+ jotunheim: "Jotunheim"
+ stormheim: "Stormheim"
+ vrykul: "Vrykul"
+ 
+ #--------------------------------
+ # Wolvar
+ #--------------------------------
+ wolvar_group: "Wolvar"
+ bloodpaw: "Bloodpaw"
+ frenzyheart: "Frenzyheart"
+ howling: "Howling"
+ rageclaw: "Rageclaw"
+ snowfall: "Snowfall"
+ wolvar: "Wolvar"
+ 
+ #--------------------------------
+ # Yaungol
+ #--------------------------------
+ yaungol_group: "Yaungol"
+ bataari: "Batarri"
+ burilgi: "Burilgi"
+ ordo: "Ordo"
+ ruqin: "Ruqin"
+ yongqi: "Yongqi"
+ osul: "Osul"
+ deadtalker: "Deadtalker"
+ palewind: "Palewind"
+ gaicho: "Gai-cho"
+ yaungol: "Yaungol"
  

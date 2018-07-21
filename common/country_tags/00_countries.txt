@@ -202,7 +202,6 @@ SGL = "countries/ogre/Stonegullet.txt"  # Searing Gorge
 TBC = "countries/ogre/Torchbelcher.txt" # Wetlands
 
 # ---- Orc ----
-TTH = "countries/orc/The Horde.txt"     # Blasted Lands
 ORG = "countries/orc/Orgrimmar.txt"     # Durotar
 BLK = "countries/orc/Blackrock.txt"
 BTG = "countries/orc/Black Tooth Grin.txt"
@@ -269,6 +268,8 @@ WIM = "countries/tauren/Wildmane.txt"       # Kalimdor
 WIR = "countries/tauren/Wildrunner.txt"     # Mulgore
 WIT = "countries/tauren/Windtotem.txt"      # Mulgore
 YOU = "countries/tauren/Younghoof.txt"      # Mulgore
+
+# ---- Highmountain Tauren ----
 HMT = "countries/tauren/Highmountain.txt"   # Broken Isles
 BOT = "countries/tauren/Bloodtotem.txt"     # Broken Isles
 IRH = "countries/tauren/Ironhorn.txt"       # Broken Isles
@@ -313,6 +314,7 @@ STS = "countries/troll/Shatterspear.txt"    # Darkshore
 SKS = "countries/troll/Skullsplitter.txt"   # Stranglethorn
 ATL = "countries/troll/Atalai.txt"          # Swamp of Sorrows
 JEL = "countries/troll/Jellyneck.txt"       # Twi. Highlands
+DRK = "countries/troll/Darkspear.txt"       # Echo Isles
 
 # ---- Sand Troll ----
 SAN = "countries/troll/Sandfury.txt"        # Tanaris

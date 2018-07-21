@@ -1,0 +1,9 @@
+bitmapfonts = {	    
+    # Map font
+    bitmapfont = {
+		name = "tahoma_60"
+		path = "gfx/fonts/warcraft_font_100"	
+		color = 0xffffffff
+	}
+}
+
