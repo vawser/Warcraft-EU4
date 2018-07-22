@@ -12,7 +12,7 @@ disorder_group = {
     
     fel = {
 		color = { 181 230 29 }
-		icon = 16
+		icon = 11
 		
 		country = {
 			siege_ability = 0.1

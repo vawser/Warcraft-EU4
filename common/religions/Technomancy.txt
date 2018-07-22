@@ -12,7 +12,7 @@ technomancy_group = {
     
     technomancy = {
 		color = { 48 232 229 }
-		icon = 30
+		icon = 23
         
 		country = {
 			idea_cost = -0.1

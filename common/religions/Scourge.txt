@@ -12,13 +12,39 @@ scourge_group = {
     
     cult_of_the_damned = {
 		color = { 81 109 71 }
-		icon = 17
+		icon = 12
 		
 		country = {
 			land_maintenance_modifier = -0.2
 		}
 		country_as_secondary = {
 			land_maintenance_modifier = -0.2
+		}
+
+		uses_church_power = yes
+		aspects = {
+			unrelenting_conversion
+            unity_in_death
+            patchwork_minions
+            blight
+            flesh_supplies
+            raze_and_ruin
+            acolytes_of_the_damned
+            plague_bombs
+            corrupted_minds
+		}
+        aspects_name = UNDEAD_ASPECTS
+	}
+    
+    necromancy = {
+		color = { 121 109 71 }
+		icon = 12
+		
+		country = {
+			
+		}
+		country_as_secondary = {
+			
 		}
 
 		uses_church_power = yes

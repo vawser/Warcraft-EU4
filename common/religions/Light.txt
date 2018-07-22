@@ -24,7 +24,7 @@ light_group = {
     
     light_of_the_naaru = {
 		color = { 114 207 15 }
-		icon = 3
+		icon = 21
 		
 		country = {
             tolerance_heretic = 2

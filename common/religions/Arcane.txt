@@ -12,7 +12,7 @@ order_group = {
     
     arcane = {
 		color = { 102 146 227 }
-		icon = 13
+		icon = 8
 		
 		country = {
 			technology_cost = -0.05
@@ -22,5 +22,19 @@ order_group = {
 		}
 
 		uses_karma = yes
+	}
+    
+    azshara = {
+		color = { 50 20 100 }
+		icon = 28
+		
+		country = {
+			
+		}
+		country_as_secondary = {
+			
+		}
+
+		
 	}
 }

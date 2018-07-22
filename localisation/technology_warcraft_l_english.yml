@@ -1,138 +1,181 @@
 ﻿l_english:
- tech_dwarf: "Dwarven"
- tech_dwarf_desc: "With the Dwarven technology group, technology levels are standard cost (100%)."
  tech_human: "Human"
  tech_human_desc: "With the Human technology group, technology levels are standard cost (100%)."
- tech_night_elf: "Night Elf"
- tech_night_elf_desc: "With the Night Elf technology group, technology levels are standard cost (100%)."
- tech_high_elf: "High Elf"
- tech_high_elf_desc: "With the High Elf technology group, technology levels are standard cost (100%)."
- tech_blood_elf: "Blood Elf"
- tech_blood_elf_desc: "With the High Elf technology group, technology levels are standard cost (100%)."
- tech_vrykul: "Vrykul"
- tech_vrykul_desc: "With the Vrykul technology group, technology levels are standard cost (100%)."
- tech_orc: "Orc"
- tech_orc_desc: "With the Orc technology group, technology levels are standard cost (100%)."
- tech_ogre: "Ogre"
- tech_ogre_desc: "With the Ogre technology group, technology levels are standard cost (100%)."
- tech_draenei: "Draenei"
- tech_draenei_desc: "With the Draenei technology group, technology levels are standard cost (100%)."
- tech_troll: "Troll"
- tech_troll_desc: "With the Troll technology group, technology levels are standard cost (100%)."
- tech_goblin: "Goblin"
- tech_goblin_desc: "With the Goblin technology group, technology levels are standard cost (100%)."
- tech_tauren: "Tauren"
- tech_tauren_desc: "With the Tauren technology group, technology levels are standard cost (100%)."
- tech_aqir: "Aqir"
- tech_aqir_desc: "With the Aqir technology group, technology levels are standard cost (100%)."
- tech_demon: "Demonic"
- tech_demon_desc: "With the Demonic technology group, technology levels are standard cost (100%)."
- tech_satyr: "Satyr"
- tech_satyr_desc: "With the Satyr technology group, technology levels are standard cost (100%)."
- tech_naga: "Naga"
- tech_naga_desc: "With the Naga technology group, technology levels are standard cost (100%)."
- tech_murloc: "Murloc"
- tech_murloc_desc: "With the Murloc technology group, technology levels are standard cost (100%)."
- tech_scourge: "Scourge"
- tech_scourge_desc: "With the Scourge technology group, technology levels are standard cost (100%)."
- tech_undead: "Undead"
- tech_undead_desc: "With the Undead technology group, technology levels are standard cost (100%)."
- tech_gnoll: "Gnoll"
- tech_gnoll_desc: "With the Gnoll technology group, technology levels are standard cost (100%)."
- tech_centaur: "Centaur"
- tech_centaur_desc: "With the Centaur technology group, technology levels are standard cost (100%)."
- tech_furbolg: "Furbolg"
- tech_furbolg_desc: "With the Furbolg technology group, technology levels are standard cost (100%)."
- tech_wolfvar: "Wolvar"
- tech_wolfvar_desc: "With the Wolvar technology group, technology levels are standard cost (100%)."
- tech_gorloc: "Gorloc"
- tech_gorloc_desc: "With the Gorloc technology group, technology levels are standard cost (100%)."
- tech_kobold: "Kobold"
- tech_kobold_desc: "With the Kobold technology group, technology levels are standard cost (100%)."
- tech_harpy: "Harpy"
- tech_harpy_desc: "With the Harpy technology group, technology levels are standard cost (100%)."
- tech_quillboar: "Quillboar"
- tech_quillboar_desc: "With the Quillboar technology group, technology levels are standard cost (100%)."
- tech_titan: "Titan"
- tech_titan_desc: "With the Titan technology group, technology levels are standard cost (100%)."
- tech_worgen: "Worgen"
- tech_worgen_desc: "With the Worgen technology group, technology levels are standard cost (100%)."
- tech_arrakoa: "Arrakoa"
- tech_arrakoa_desc: "With the Arrakoa technology group, technology levels are standard cost (100%)."
- tech_tuskarr: "Tuskarr"
- tech_tuskarr_desc: "With the Tuskarr technology group, technology levels are standard cost (100%)."
- tech_pandaren: "Pandaren"
- tech_pandaren_desc: "With the Pandaren technology group, technology levels are standard cost (100%)."
+ 
+ tech_qiraji: "Qiraji"
+ tech_qiraji_desc: "With the Qiraji technology group, technology levels are standard cost (100%)."
+ 
+ tech_nerubian: "Nerubian"
+ tech_nerubian_desc: "With the Nerubian technology group, technology levels are standard cost (100%)."
+ 
  tech_mantid: "Mantid"
  tech_mantid_desc: "With the Mantid technology group, technology levels are standard cost (100%)."
- tech_mogu: "Mogu"
- tech_mogu_desc: "With the Mogu technology group, technology levels are standard cost (100%)."
- tech_yaungol: "Yaungol"
- tech_yaungol_desc: "With the Yaungol technology group, technology levels are standard cost (100%)."
- tech_ethereal: "Ethereal"
- tech_ethereal_desc: "With the Ethereal technology group, technology levels are standard cost (100%)."
- tech_gnome: "Gnomish"
- tech_gnome_desc: "With the Gnomish technology group, technology levels are standard cost (100%)."
- tech_primitive: "Primitive"
- tech_primitive_desc: "With the Primitive technology group, technology levels are standard cost (100%)."
- tech_magnataur: "Magnataur"
- tech_magnataur_desc: "With the Magnataur technology group, technology levels are standard cost (100%)."
- tech_saurok: "Saurok"
- tech_saurok_desc: "With the Saurok technology group, technology levels are standard cost (100%)."
- tech_jinyu: "Jinyu"
- tech_jinyu_desc: "With the Jinyu technology group, technology levels are standard cost (100%)."
- tech_hozen: "Hozen"
- tech_hozen_desc: "With the Hozen technology group, technology levels are standard cost (100%)."
- tech_grummle: "Grummle"
- tech_grummle_desc: "With the Grummle technology group, technology levels are standard cost (100%)."
- tech_tolvir: "Tol'vir"
- tech_tolvir_desc: "With the Tol'vir technology group, technology levels are standard cost (100%)."
- tech_mechagnome: "Mechagnome"
- tech_mechagnome_desc: "With the Mechagnome technology group, technology levels are standard cost (100%)."
- tech_trogg: "Trogg"
- tech_trogg_desc: "With the Trogg technology group, technology levels are standard cost (100%)."
- tech_pygmy: "Pygmy"
- tech_pygmy_desc: "With the Pygmy technology group, technology levels are standard cost (100%)."
- tech_sprite: "Sprite"
- tech_sprite_desc: "With the Sprite technology group, technology levels are standard cost (100%)."
- tech_virmen: "Virmen"
- tech_virmen_desc: "With the Virmen technology group, technology levels are standard cost (100%)."
- tech_water: "Water"
- tech_water_desc: "With the Water technology group, technology levels are standard cost (100%)."
- tech_fire: "Fire"
- tech_fire_desc: "With the Fire technology group, technology levels are standard cost (100%)."
- tech_earth: "Earth"
- tech_earth_desc: "With the Earth technology group, technology levels are standard cost (100%)."
- tech_air: "Air"
- tech_air_desc: "With the Air technology group, technology levels are standard cost (100%)."
- tech_ooze: "Ooze"
- tech_ooze_desc: "With the Ooze technology group, technology levels are standard cost (100%)."
- tech_sha: "Sha"
- tech_sha_desc: "With the Sha technology group, technology levels are standard cost (100%)."
- tech_giant: "Giant"
- tech_giant_desc: "With the Giant technology group, technology levels are standard cost (100%)."
- tech_dryad: "Dryad"
- tech_dryad_desc: "With the Dryad technology group, technology levels are standard cost (100%)."
+ 
+ tech_centaur: "Centaur"
+ tech_centaur_desc: "With the Centaur technology group, technology levels are standard cost (100%)."
+ 
+ tech_draenei: "Draenei"
+ tech_draenei_desc: "With the Draenei technology group, technology levels are standard cost (100%)."
+ 
+ tech_broken: "Broken"
+ tech_broken_desc: "With the Broken technology group, technology levels are standard cost (100%)."
+ 
  tech_red_dragonflight: "Red Dragonflight"
  tech_red_dragonflight_desc: "With the Red Dragonflight technology group, technology levels are standard cost (100%)."
- tech_blue_dragonflight: "Blue Dragonflight"
- tech_blue_dragonflight_desc: "With the Blue Dragonflight technology group, technology levels are standard cost (100%)."
- tech_black_dragonflight: "Black Dragonflight"
- tech_black_dragonflight_desc: "With the Black Dragonflight technology group, technology levels are standard cost (100%)."
+ 
  tech_green_dragonflight: "Green Dragonflight"
  tech_green_dragonflight_desc: "With the Green Dragonflight technology group, technology levels are standard cost (100%)."
+ 
+ tech_black_dragonflight: "Black Dragonflight"
+ tech_black_dragonflight_desc: "With the Black Dragonflight technology group, technology levels are standard cost (100%)."
+ 
+ tech_blue_dragonflight: "Blue Dragonflight"
+ tech_blue_dragonflight_desc: "With the Blue Dragonflight technology group, technology levels are standard cost (100%)."
+ 
  tech_bronze_dragonflight: "Bronze Dragonflight"
  tech_bronze_dragonflight_desc: "With the Bronze Dragonflight technology group, technology levels are standard cost (100%)."
- tech_infinite_dragonflight: "Infinite Dragonflight"
- tech_infinite_dragonflight_desc: "With the Infinite Dragonflight technology group, technology levels are standard cost (100%)."
  
+ tech_dwarf: "Dwarf"
+ tech_dwarf_desc: "With the Dwarf technology group, technology levels are standard cost (100%)."
  
+ tech_dark_iron_dwarf: "Dark Iron Dwarf"
+ tech_dark_iron_dwarf_desc: "With the Dark Iron Dwarf technology group, technology levels are standard cost (100%)."
  
+ tech_dryad: "Dryad"
+ tech_dryad_desc: "With the Dryad technology group, technology levels are standard cost (100%)."
  
+ tech_frost_nymph: "Frost Nymph"
+ tech_frost_nymph_desc: "With the Frost Nymph technology group, technology levels are standard cost (100%)."
  
+ tech_crystal_nymph: "Crystal Nymph"
+ tech_crystal_nymph_desc: "With the Crystal Nymph technology group, technology levels are standard cost (100%)."
  
+ tech_earthen: "Earthen"
+ tech_earthen_desc: "With the Earthen technology group, technology levels are standard cost (100%)."
  
+ tech_high_elf: "High Elf"
+ tech_high_elf_desc: "With the High Elf technology group, technology levels are standard cost (100%)."
  
+ tech_blood_elf: "Blood Elf"
+ tech_blood_elf_desc: "With the Blood Elf technology group, technology levels are standard cost (100%)."
  
+ tech_nightborne: "Nightborne"
+ tech_nightborne_desc: "With the Nightborne technology group, technology levels are standard cost (100%)."
  
+ tech_night_elf: "Night Elf"
+ tech_night_elf_desc: "With the Night Elf technology group, technology levels are standard cost (100%)."
+ 
+ tech_furbolg: "Furbolg"
+ tech_furbolg_desc: "With the Furbolg technology group, technology levels are standard cost (100%)."
+ 
+ tech_gnoll: "Gnoll"
+ tech_gnoll_desc: "With the Gnoll technology group, technology levels are standard cost (100%)."
+ 
+ tech_gnome: "Gnome"
+ tech_gnome_desc: "With the Gnome technology group, technology levels are standard cost (100%)."
+ 
+ tech_goblin: "Goblin"
+ tech_goblin_desc: "With the Goblin technology group, technology levels are standard cost (100%)."
+ 
+ tech_gorloc: "Gorloc"
+ tech_gorloc_desc: "With the Gorloc technology group, technology levels are standard cost (100%)."
+ 
+ tech_harpy: "Harpy"
+ tech_harpy_desc: "With the Harpy technology group, technology levels are standard cost (100%)."
+ 
+ tech_hozen: "Hozen"
+ tech_hozen_desc: "With the Hozen technology group, technology levels are standard cost (100%)."
+ 
+ tech_jinyu: "Jinyu"
+ tech_jinyu_desc: "With the Jinyu technology group, technology levels are standard cost (100%)."
+ 
+ tech_kobold: "Kobold"
+ tech_kobold_desc: "With the Kobold technology group, technology levels are standard cost (100%)."
+ 
+ tech_magnataur: "Magnataur"
+ tech_magnataur_desc: "With the Magnataur technology group, technology levels are standard cost (100%)."
+ 
+ tech_mogu: "Mogu"
+ tech_mogu_desc: "With the Mogu technology group, technology levels are standard cost (100%)."
+ 
+ tech_murloc: "Murloc"
+ tech_murloc_desc: "With the Murloc technology group, technology levels are standard cost (100%)."
+ 
+ tech_naga: "Naga"
+ tech_naga_desc: "With the Naga technology group, technology levels are standard cost (100%)."
+ 
+ tech_ogre: "Ogre"
+ tech_ogre_desc: "With the Ogre technology group, technology levels are standard cost (100%)."
+ 
+ tech_orc: "Orc"
+ tech_orc_desc: "With the Orc technology group, technology levels are standard cost (100%)."
+ 
+ tech_pandaren: "Pandaren"
+ tech_pandaren_desc: "With the Pandaren technology group, technology levels are standard cost (100%)."
+ 
+ tech_pygmy: "Pygmy"
+ tech_pygmy_desc: "With the Pygmy technology group, technology levels are standard cost (100%)."
+ 
+ tech_quillboar: "Quillboar"
+ tech_quillboar_desc: "With the Quillboar technology group, technology levels are standard cost (100%)."
+ 
+ tech_satyr: "Satyr"
+ tech_satyr_desc: "With the Satyr technology group, technology levels are standard cost (100%)."
+ 
+ tech_saurok: "Saurok"
+ tech_saurok_desc: "With the Saurok technology group, technology levels are standard cost (100%)."
+ 
+ tech_scourge: "Scourge"
+ tech_scourge_desc: "With the Scourge technology group, technology levels are standard cost (100%)."
+ 
+ tech_spriteling: "Spriteling"
+ tech_spriteling_desc: "With the Spriteling technology group, technology levels are standard cost (100%)."
+ 
+ tech_tauren: "Tauren"
+ tech_tauren_desc: "With the Tauren technology group, technology levels are standard cost (100%)."
+ 
+ tech_highmountain_tauren: "Highmountain Tauren"
+ tech_highmountain_tauren_desc: "With the Highmountain Tauren technology group, technology levels are standard cost (100%)."
+ 
+ tech_taunka: "Taunka"
+ tech_taunka_desc: "With the Taunka technology group, technology levels are standard cost (100%)."
+ 
+ tech_tolvir: "Tol'vir"
+ tech_tolvir_desc: "With the Tol'vir technology group, technology levels are standard cost (100%)."
+ 
+ tech_titan: "Titan"
+ tech_titan_desc: "With the Titan technology group, technology levels are standard cost (100%)."
+ 
+ tech_trogg: "Trogg"
+ tech_trogg_desc: "With the Trogg technology group, technology levels are standard cost (100%)."
+ 
+ tech_zandalari_troll: "Zandalari Troll"
+ tech_zandalari_troll_desc: "With the Zandalari Troll technology group, technology levels are standard cost (100%)."
+ 
+ tech_jungle_troll: "Jungle Troll"
+ tech_jungle_troll_desc: "With the Jungle Troll technology group, technology levels are standard cost (100%)."
+ 
+ tech_forest_troll: "Forest Troll"
+ tech_forest_troll_desc: "With the Forest Troll technology group, technology levels are standard cost (100%)."
+ 
+ tech_sand_troll: "Sand Troll"
+ tech_sand_troll_desc: "With the Sand Troll technology group, technology levels are standard cost (100%)."
+ 
+ tech_frost_troll: "Frost Troll"
+ tech_frost_troll_desc: "With the Frost Troll technology group, technology levels are standard cost (100%)."
+ 
+ tech_tuskarr: "Tuskarr"
+ tech_tuskarr_desc: "With the Tuskarr technology group, technology levels are standard cost (100%)."
+ 
+ tech_undead: "Undead"
+ tech_undead_desc: "With the Undead technology group, technology levels are standard cost (100%)."
+ 
+ tech_vrykul: "Vrykul"
+ tech_vrykul_desc: "With the Vrykul technology group, technology levels are standard cost (100%)."
+ 
+ tech_wolvar: "Wolvar"
+ tech_wolvar_desc: "With the Wolvar technology group, technology levels are standard cost (100%)."
+ 
+ tech_yaungol: "Yaungol"
+ tech_yaungol_desc: "With the Yaungol technology group, technology levels are standard cost (100%)."
  

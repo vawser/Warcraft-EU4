@@ -169,6 +169,7 @@
  sentinels_of_ashenvale: "Sentinels of Ashenvale"
  sentinels_of_auberdine: "Sentinels of Auberdine"
  sentinels_of_feathermoon: "Sentinels of Feathermoon"
+ valsharah: "Val'sharah"
  night_elf: "Night Elf"
  
  #--------------------------------
@@ -473,6 +474,13 @@
  ulduar: "Ulduar"
  lifewarder: "Lifewarder"
  titan: "Titan"
+ 
+ #--------------------------------
+ # Trogg
+ #--------------------------------
+ trogg_group: "Trogg"
+ stonevault: "Stonevault"
+ trogg: "Trogg"
  
  #--------------------------------
  # Troll

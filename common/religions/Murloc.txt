@@ -12,7 +12,7 @@ murloc_group = {
     
     deep_mother = {
         color = { 149 112 5 }
-		icon = 12
+		icon = 19
 		
 		country = {
 			global_unrest = -2

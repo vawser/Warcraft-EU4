@@ -1,0 +1,59 @@
+#-------------------------------------------------------------
+# Quick Reference
+#-------------------------------------------------------------
+# Locked means they cannot convert using the government button
+
+# Monarchy
+#   Administrative Kingdom              - administrative_kingdom
+#   Mercantile Kingdom                  - mercantile_kingdom
+#   Militaristic Kingdom                - militaristic_kingdom
+
+# Republic
+#   Administrative Republic             - administrative_republic
+#   Mercantile Republic                 - mercantile_republic
+#   Militaristic Republic               - militaristic_republic
+
+# Theocracy
+#   Administrative Theocracy            - administrative_theocracy
+#   Mercantile Theocracy                - mercantile_theocracy
+#   Militaristic Theocracy              - militaristic_theocracy
+
+# Monastic Order
+#   Administrative Order                - administrative_order
+#   Mercantile Order                    - mercantile_order
+#   Militaristic Order                  - militaristic_order
+
+# Tribal
+#   Religious Tribe                     - religious_tribe
+#   Mercantile Tribe                    - mercantile_tribe
+#   War Tribe                           - war_tribe
+
+# Locked Nomad
+#   Scourge                             - scourge
+#   Qiraji Swarm                        - qiraji_swarm
+#   Nerubian Swarm                      - nerubian_swarm
+#   Mantid Swarm                        - mantid_swarm
+#   The Horde                           - the_horde
+#   Tauren Camp                         - tauren_camp
+#   Troll Warband                       - troll_warband
+#   Satyr Warband                       - satyr_warband
+#   Orc Warband                         - orc_warband
+#   Ogre Warband                        - ogre_warband
+#   Naga Warband                        - naga_warband
+#   Centaur Warband                     - centaur_warband
+
+# Locked Monarchy
+#   Dragonflight                        - dragonflight_council
+#   Criminal Organisation               - criminal_organisation
+#   Magocracy                           - magocracy
+#   Titan Outpost                       - titan_outpost
+#   Technocracy                         - technocracy
+#   Cartel                              - cartel
+#   Forsaken                            - forsaken
+
+# Locked Republic
+#   Dictatorship                        - dictatorship
+
+# Locked Religion
+#   Cult                                - cult
+

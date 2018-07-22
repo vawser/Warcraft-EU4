@@ -12,7 +12,7 @@ nature_group = {
 
     shamanism = {
         color = { 150 74 41 }
-		icon = 20
+		icon = 13
 		
 		country = {
 			native_uprising_chance = -0.25
@@ -28,7 +28,7 @@ nature_group = {
     
     geomancy = {
         color = { 77 27 76 }
-		icon = 29
+		icon = 20
 		
 		country = {
 			land_forcelimit_modifier = 0.1
@@ -40,7 +40,7 @@ nature_group = {
     
     druidism = {
         color = { 113 254 123 }
-		icon = 11
+		icon = 9
 		
 		country = {
 			global_unrest = -2
@@ -50,9 +50,9 @@ nature_group = {
 		}
     }
 
-    elune_worship = {
+    elune = {
         color = { 178 255 255 }
-		icon = 4
+		icon = 2
 		
 		country = {
 			ae_impact = -0.1
@@ -62,5 +62,19 @@ nature_group = {
 		}
 
 		personal_deity = yes
+    }
+    
+    earth_mother = {
+        color = { 40 50 120 }
+		icon = 6
+		
+		country = {
+			
+		}
+		country_as_secondary = {
+			
+		}
+
+		
     }
 }

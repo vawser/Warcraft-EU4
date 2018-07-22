@@ -12,11 +12,7 @@ troll_group = {
 
     voodoo = {
         color = { 0.25 0.15 0.25 }
-		icon = 6
-		
-        allowed_conversion = {
-            loa
-        }
+		icon = 4
 
 		country = {
 			land_morale = 0.1
@@ -40,7 +36,7 @@ troll_group = {
     
     hakkari = {
         color = { 33 230 215 }
-		icon = 5
+		icon = 3
 		
 		country = {
 			tolerance_own = 1

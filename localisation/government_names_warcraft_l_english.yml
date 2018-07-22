@@ -120,10 +120,23 @@
  CRIMINAL_COLLECTIVE: "Criminal Collective"
  CRIMINAL_ORGANISATION: "Criminal Organisation"
  
+ PETTY_SWARM: "Petty Swarm"
+ SWARM: "Swarm"
+ GRAND_SWARM: "Grand Swarm"
+ 
  # Tribal
  PETTY_TRIBE: "Clan"
  TRIBE: "Tribe"
  GRAND_TRIBE: "Tribal Federation"
+ 
+ PETTY_CAMP: "Camp"
+ CAMP: "Camp"
+ GRAND_CAMP: "Grand Camp"
+ 
+ TITAN_OUTPOST: "Titan Outpost"
+ WATCHER: "Watcher"
+ 
+ FORSAKEN: "Forsaken"
  
  # Ruler Names
  # Kingdoms

@@ -10,9 +10,9 @@ dragon_group = {
     
     crusade_name = CRUSADE
     
-    sect_of_the_dragons = {
+    dragon_aspects = {
         color = { 213 114 96 }
-		icon = 10
+		icon = 22
 		
 		country = {
 			all_power_cost = -0.1

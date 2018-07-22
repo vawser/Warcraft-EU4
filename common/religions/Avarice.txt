@@ -12,7 +12,7 @@ avarice_group = {
     
     avarice = {
 		color = { 114 89 235 }
-		icon = 30
+		icon = 24
         
 		country = {
 			global_tax_modifier = 0.2

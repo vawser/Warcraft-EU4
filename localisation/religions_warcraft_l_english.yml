@@ -68,6 +68,9 @@
  arcane: "Arcane"
  arcane_religion_desc: "Arcane power is the primal source of order, from which all Arcane magic derives. Though it is not 'worshipped' itself, many races and nations are wholly devoted to the study of this cosmic energy."
  
+ azshara: "Azshara"
+ azshara_religion_desc: "The naga worship Queen Azshara as a god, and through her mastery of the arcane comes theirs."
+ 
  # Fel
  fel: "Fel"
  fel_religion_desc: "Fel energy is the primal source of disorder. It originates in the Twisting Nether, an ethereal dimension between worlds. It is a destructing energy and its use frequently results in corruption that manifests in a physical transformation. Widely used by the demons of the Burning Legion for all purposes, all of them carry the taint of fel magic within their very blood."
@@ -79,11 +82,14 @@
  druidism: "Druidic"
  druidism_religion_desc: "Druidic teachings involve achieving balance, harmony and oneness with the wilds. Introduced by the demigod Cenarius to the Night Elves and the Tauren long ago, this teaching has spread to many races, who now seek to live in balance with nature."
  
- elune_worship: "Elune"
- elune_worship_religion_desc: "Elune, the Moon Goddess, is the main deity of the Night Elf pantheon, also known as Mu'sha to the Tauren. The Kaldorei also believe her to be the mother of Cenarius. She emphasizes tranquility to allow for the greatest nurturing of Azeroth's creatures, however, Elune does not advocate pacifism in the face of threats to her harmony. Her priesthood is the Sisterhood of Elune."
+ elune: "Elune"
+ elune_religion_desc: "Elune, the Moon Goddess, is the main deity of the Night Elf pantheon, also known as Mu'sha to the Tauren. The Kaldorei also believe her to be the mother of Cenarius. She emphasizes tranquility to allow for the greatest nurturing of Azeroth's creatures, however, Elune does not advocate pacifism in the face of threats to her harmony. Her priesthood is the Sisterhood of Elune."
  
  geomancy: "Geomancy"
  geomancy_religion_desc: "Many of the simpler races, like the Kobolds, Troggs and Quilboar practise a crude form of Shamanism known as Geomancy. Instead of striving for oneness with the elements and calling upon them for aid, Geomancy uses odd rites like devotion dances or runemaking in order to impress the elements."
+ 
+ earth_mother: "Earth Mother"
+ earth_mother_religion_desc: "The tauren worship the Earth Mother as their creator. According to the tauren myth Sorrow of the Earthmother, when the Earth Mother saw her children falling to the corrupting whispers from below the earth, she tore out her eyes and set them spinning endlessly across the sky. Her left eye became Mu'sha, the moon, and her right eye became An'she, the sun. Neither of both is better than the other, and together they see with balanced vision."
  
  # Old God
  cthun: "C'Thun"
@@ -112,8 +118,8 @@
  hakkari_religion_desc: "Hakkar the Soulflayer is the Blood God of the Gurubashi tribe. A vile, bloodthirsty Loa, he heard the trolls' call after the Great Sundering and decided to aid them. Hakkar gave his secrets of blood to the Gurubashi and helped them extend their civilization across most of Stranglethorn Vale, in exchange, the bloodthirsty god demands souls be sacrificed to him daily."
  
  # Dragon Aspects
- sect_of_the_dragons: "Sect of Dragons"
- sect_of_the_dragons_religion_desc: "Dragons are majestic winged creatures, given power long ago by the Titans to safeguard Azeroth. They are divided into many Dragonflights, whose leaders are the Aspects. Mainly worshipped by other Dragons and the Dragonspawn, many mortals also venerate these ancient creatures."
+ dragon_aspects: "Dragon Aspects"
+ dragon_aspects_religion_desc: "Dragons are majestic winged creatures, given power long ago by the Titans to safeguard Azeroth. They are divided into many Dragonflights, whose leaders are the Aspects. Mainly worshipped by other Dragons and the Dragonspawn, many mortals also venerate these ancient creatures."
  
  # Titan
  titan_worship: "Titanic"
@@ -129,6 +135,9 @@
  cult_of_the_damned: "Cult of the Damned"
  cult_of_the_damned_religion_desc: "The Scourge and other groups under the thrall of the Lich King directly worship him as the God of Death. Many mortals also willingly worship him, hoping to achieve undeath as the ultimate reward, most of these are members of the Cult of the Damned, the insidious organization responsible for the fall of Lordaeron during the Third War."
  
+ necromancy: "Necromancy"
+ necromancy_religion_desc: "The practice of necromancy and the art of undead magics."
+ 
  # Murloc
  deep_mother: "Deep Mother"
  deep_mother_religion_desc: "The Deep Mother seems to be the symbol of all the things in the ocean, or the ocean itself for murlocs."
@@ -142,30 +151,34 @@
  avarice_religion_desc: "Wealth is valued everywhere, but some societies value it more than others. For some, it is practically a religion, and they are willing to make any deal to secure profit."
  
  # Celestials
- yulon: "Yu'lon"
- yulon_religion_desc: "The August Celestials are primal manifestations of life and nature, not unlike the Ancients or the Troll Loa. They are four powerful beings that watch over and protect Pandaria. These 4 creatures are Niuzao the Black Ox, Chi-Ji the Red Crane, Xuen the White Tiger and Yu'lon the Jade Serpent."
- 
- chiji: "Chi'ji"
- chiji_religion_desc: "The August Celestials are primal manifestations of life and nature, not unlike the Ancients or the Troll Loa. They are four powerful beings that watch over and protect Pandaria. These 4 creatures are Niuzao the Black Ox, Chi-Ji the Red Crane, Xuen the White Tiger and Yu'lon the Jade Serpent."
- 
- niuzao: "Niuzao"
- niuzao_religion_desc: "The August Celestials are primal manifestations of life and nature, not unlike the Ancients or the Troll Loa. They are four powerful beings that watch over and protect Pandaria. These 4 creatures are Niuzao the Black Ox, Chi-Ji the Red Crane, Xuen the White Tiger and Yu'lon the Jade Serpent."
- 
- xuen: "Xuen"
- xuen_religion_desc: "The August Celestials are primal manifestations of life and nature, not unlike the Ancients or the Troll Loa. They are four powerful beings that watch over and protect Pandaria. These 4 creatures are Niuzao the Black Ox, Chi-Ji the Red Crane, Xuen the White Tiger and Yu'lon the Jade Serpent."
+ celestials: "August Celestials"
+ celestials_religion_desc: "The August Celestials are primal manifestations of life and nature, not unlike the Ancients or the Troll Loa. They are four powerful beings that watch over and protect Pandaria. These 4 creatures are Niuzao the Black Ox, Chi-Ji the Red Crane, Xuen the White Tiger and Yu'lon the Jade Serpent."
  
  # Elementals
- fire_worship: "Fire"
- fire_worship_religion_desc: "Many races pay homage to the Elemental Lords, masters of the elements. Rangnaros, the Firelord, is the master of all fire elementals and rules over the elemental plane of the Firelands. Few mortals serve him willingly, and indeed, his foremost mortal servants, the Dark Iron Dwarves, are his unwilling slaves."
+ ordos: "Ordos"
+ ordos_religion_desc: "The ritual worship of the deity Ordos by the yaungol."
  
- earth_worship: "Earth"
- earth_worship_religion_desc: "Many races pay homage to the Elemental Lords, masters of the elements. Therazane, the Stonemother is the ruler of the element of earth and rules over the elemental plane of Deepholm. Her foremost mortal servants are the Centaurs, the children of Therazane's daughter, Princess Theradras."
+ fire: "Fire"
+ fire_religion_desc: "Many races pay homage to the Elemental Lords, masters of the elements. Rangnaros, the Firelord, is the master of all fire elementals and rules over the elemental plane of the Firelands. Few mortals serve him willingly, and indeed, his foremost mortal servants, the Dark Iron Dwarves, are his unwilling slaves."
  
- air_worship: "Air"
- air_worship_religion_desc: "Many races pay homage to the Elemental Lords, masters of the elements. Al'Akir, the Windlord is the lord of the air elementals and rules over the elemental plane of Skywall. He has few known mortal servants, though some Tol'vir and Harpies do worship him."
+ earth: "Earth"
+ earth_religion_desc: "Many races pay homage to the Elemental Lords, masters of the elements. Therazane, the Stonemother is the ruler of the element of earth and rules over the elemental plane of Deepholm. Her foremost mortal servants are the Centaurs, the children of Therazane's daughter, Princess Theradras."
+ 
+ wind: "Wind"
+ wind_desc: "Many races pay homage to the Elemental Lords, masters of the elements. Al'Akir, the Windlord is the lord of the air elementals and rules over the elemental plane of Skywall. He has few known mortal servants, though some Tol'vir and Harpies do worship him."
  
  water_worship: "Water"
  water_worship_religion_desc: "Many races pay homage to the Elemental Lords, masters of the elements. Neptulon, the Tidehunter, is the sovereign of the element of water and rules over the elemental plane of the Abyssal Maw. Many of the creatures of the sea, like the Murlocs or the marauding Kvaldir worship him as a god."
+ 
+ # Soul
+ soul_group: "Soul"
+ fleshshaping: "Fleshshaping"
+ fleshshaping_religion_desc: "The art of fleshshaping."
+ 
+ # Runic
+ runic_group: "Runic"
+ runic: "Runic"
+ runic_religion_desc: "The art of runic magic."
 
  #-----------------------------------
  # Papacy (Burning Legion)

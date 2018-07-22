@@ -12,7 +12,7 @@ old_gods_group = {
     
     cthun = {
         color = { 106 54 112 }
-		icon = 15
+		icon = 10
 		
 		country = {
 			spy_offence = 0.25
@@ -35,7 +35,7 @@ old_gods_group = {
     
     nzoth = {
         color = { 106 54 112 }
-		icon = 15
+		icon = 10
 		
 		country = {
 			ae_impact = -0.1
@@ -58,7 +58,7 @@ old_gods_group = {
     
     yogg_saron = {
         color = { 106 54 112 }
-		icon = 15
+		icon = 10
 		
 		country = {
 			idea_cost = -0.05
@@ -81,7 +81,7 @@ old_gods_group = {
     
     yshaarj = {
         color = { 106 54 112 }
-		icon = 15
+		icon = 10
 		
 		country = {
 			diplomatic_reputation = 1
@@ -104,7 +104,7 @@ old_gods_group = {
     
     twilight_cult = {
         color = { 55 54 33 }
-		icon = 15
+		icon = 10
 		
 		country = {
 			land_morale = 0.1
@@ -127,7 +127,7 @@ old_gods_group = {
     
     nightmare = {
         color = { 83 40 50 }
-		icon = 15
+		icon = 10
 		
 		country = {
 			infantry_power = 0.1

@@ -12,7 +12,7 @@ shadow_group = {
     
     shadow = {
 		color = { 189 49 44 }
-		icon = 8
+		icon = 5
 		
 		country = {
             unjustified_demands = -0.25
@@ -35,7 +35,7 @@ shadow_group = {
     
     forgotten_shadow = {
 		color = { 15 96 113 }
-		icon = 7
+		icon = 5
 		
 		country = {
             discipline = 0.05
