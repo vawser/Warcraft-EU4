@@ -47,6 +47,12 @@
  elemental_group: "Elemental"
  elemental_group_desc: ""
  
+ soul_group: "Soul"
+ soul_group_desc: ""
+ 
+ runic_group: "Runic"
+ runic_group_desc: ""
+ 
  #-----------------------------------------------
  # Religions
  #-----------------------------------------------
@@ -171,12 +177,10 @@
  water_worship_religion_desc: "Many races pay homage to the Elemental Lords, masters of the elements. Neptulon, the Tidehunter, is the sovereign of the element of water and rules over the elemental plane of the Abyssal Maw. Many of the creatures of the sea, like the Murlocs or the marauding Kvaldir worship him as a god."
  
  # Soul
- soul_group: "Soul"
  fleshshaping: "Fleshshaping"
  fleshshaping_religion_desc: "The art of fleshshaping."
  
  # Runic
- runic_group: "Runic"
  runic: "Runic"
  runic_religion_desc: "The art of runic magic."
 

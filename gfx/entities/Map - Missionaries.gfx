@@ -1,0 +1,102 @@
+entity = {
+	name = "light_group_missionary"
+	pdxmesh = "western_missionary_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "shadow_group_missionary"
+	pdxmesh = "western_missionary_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "order_group_missionary"
+	pdxmesh = "western_missionary_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "disorder_group_missionary"
+	pdxmesh = "western_missionary_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "nature_group_missionary"
+	pdxmesh = "western_missionary_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "old_gods_group_missionary"
+	pdxmesh = "western_missionary_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "troll_group_missionary"
+	pdxmesh = "western_missionary_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "dragon_group_missionary"
+	pdxmesh = "western_missionary_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "titan_group_missionary"
+	pdxmesh = "western_missionary_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "scourge_group_missionary"
+	pdxmesh = "western_missionary_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "murloc_group_missionary"
+	pdxmesh = "western_missionary_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "technomancy_group_missionary"
+	pdxmesh = "western_missionary_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "avarice_group_missionary"
+	pdxmesh = "western_missionary_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "celestial_group_missionary"
+	pdxmesh = "western_missionary_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "elemental_group_missionary"
+	pdxmesh = "western_missionary_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "soul_group_missionary"
+	pdxmesh = "western_missionary_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "runic_group_missionary"
+	pdxmesh = "western_missionary_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+

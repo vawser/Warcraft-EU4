@@ -1,0 +1,118 @@
+
+# --------------------------------------------------------------
+# Infantry
+# --------------------------------------------------------------
+entity = {
+	name = "elemnetalairgfx_INFANTRY_1"
+	pdxmesh = "western_generic_01_type1"
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+
+	attach = { Right_hand_node = "western_halbard" }
+}
+
+entity = { clone = "elemnetalairgfx_INFANTRY_1"  name = "elemnetalairgfx_INFANTRY_2" }
+entity = { clone = "elemnetalairgfx_INFANTRY_1"  name = "elemnetalairgfx_INFANTRY_3" }
+entity = { clone = "elemnetalairgfx_INFANTRY_1"  name = "elemnetalairgfx_INFANTRY_4" }
+
+# --------------------------------------------------------------
+# Cavalry
+# --------------------------------------------------------------
+entity = {
+	name = "elemnetalairgfx_CAVALRY_1_rider"
+	pdxmesh = "western_generic_01_type1"
+
+	state = { name = "idle" 		animation = "horse_idle" }
+	state = { name = "walk" 		animation = "horse_walk" }
+	state = { name = "attack"		animation = "horse_attack" }
+	state = { name = "retreat"		animation = "horse_retreat" }
+
+	attach = { Right_hand_node = "cavalry_saber" }
+}
+
+entity = { clone = "elemnetalairgfx_CAVALRY_1_rider" name = "elemnetalairgfx_CAVALRY_2_rider" pdxmesh = "western_generic_02_type1" }
+entity = { clone = "elemnetalairgfx_CAVALRY_1_rider" name = "elemnetalairgfx_CAVALRY_3_rider" pdxmesh = "western_generic_03_type1" }
+entity = { clone = "elemnetalairgfx_CAVALRY_1_rider" name = "elemnetalairgfx_CAVALRY_4_rider" pdxmesh = "western_generic_04_type1" }
+
+entity = {
+	name = "elemnetalairgfx_CAVALRY_1"
+	pdxmesh = "cavalry_horse"
+
+	state = { name = "idle" 		animation = "horse_idle" }
+	state = { name = "walk" 		animation = "horse_walk" }
+	state = { name = "retreat" 		animation = "horse_walk" }
+	state = { name = "attack"		animation = "horse_attack" }
+
+	attach = { name = "rider"       Saddle_Node = "elemnetalairgfx_CAVALRY_1_rider" }
+}
+
+
+entity = { 
+	clone = "elemnetalairgfx_CAVALRY_1"
+	name = "elemnetalairgfx_CAVALRY_2"
+    
+	attach = { name = "rider"   Saddle_Node = "elemnetalairgfx_CAVALRY_2_rider" }
+}
+
+entity = { 
+	clone = "elemnetalairgfx_CAVALRY_1"
+	name = "elemnetalairgfx_CAVALRY_3" 
+	pdxmesh = "cavalry_horse_3_mesh"	
+    
+	attach = { name = "rider"   Saddle_Node = "elemnetalairgfx_CAVALRY_3_rider" }
+}
+
+entity = { 
+	clone = "elemnetalairgfx_CAVALRY_1"
+	name = "elemnetalairgfx_CAVALRY_4"
+	pdxmesh = "cavalry_horse_3_mesh"		
+	
+    attach = { name = "rider"   Saddle_Node = "elemnetalairgfx_CAVALRY_4_rider" }
+}
+
+# --------------------------------------------------------------
+# Artillery
+# --------------------------------------------------------------
+entity = {
+	name = "elemnetalairgfx_ARTILLERY_1_cannon"
+	pdxmesh = "artillery_mesh"
+
+	state = { 
+        name = "attack"
+        animation = "artillery_attack" 	
+        event = { time = 0.0	node = "cannon_muzzle"	particle = "artillery_cannon" }	
+    }
+	state = { name = "idle" 		animation = "artillery_idle" }
+	state = { name = "walk" 		animation = "artillery_moving" }
+	state = { name = "retreat" 		animation = "artillery_moving" }
+	
+}
+
+entity = { clone = "elemnetalairgfx_ARTILLERY_1_cannon" name = "elemnetalairgfx_ARTILLERY_2_cannon" }
+entity = { clone = "elemnetalairgfx_ARTILLERY_1_cannon" name = "elemnetalairgfx_ARTILLERY_3_cannon" }
+entity = { clone = "elemnetalairgfx_ARTILLERY_1_cannon" name = "elemnetalairgfx_ARTILLERY_4_cannon" }
+
+entity = {
+	name = "elemnetalairgfx_ARTILLERY_1"
+	pdxmesh = "artillery_base_mesh"
+
+	state = { name = "attack"		animation = "artillery_base_attack" }
+	state = { name = "idle" 		animation = "artillery_base_idle" }
+	state = { name = "walk" 		animation = "artillery_base_moving" }
+	state = { name = "retreat" 		animation = "artillery_base_moving" }
+	
+	attach = { 
+		name = "gunman"
+		infantry_node = "elemnetalairgfx_INFANTRY_1" 
+		cannon_node = "elemnetalairgfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = { clone = "elemnetalairgfx_ARTILLERY_1" name = "elemnetalairgfx_ARTILLERY_2" }
+entity = { clone = "elemnetalairgfx_ARTILLERY_1" name = "elemnetalairgfx_ARTILLERY_3" }
+entity = { clone = "elemnetalairgfx_ARTILLERY_1" name = "elemnetalairgfx_ARTILLERY_4" }
+
+

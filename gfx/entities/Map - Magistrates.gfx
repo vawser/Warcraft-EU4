@@ -1,0 +1,422 @@
+entity = {
+	name = "?westerngfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "humangfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "pirategfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "worgengfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "gnomegfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "nightelfgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "highelfgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "bloodelfgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "dwarfgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "orcgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "ogregfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "draeneigfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "trollgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "goblingfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "taurengfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "undeadgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "scourgegfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "satyrgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "centaurgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "murlocgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "gnollgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "furbolggfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "koboldgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "harpygfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "quillboargfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "trogggfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "pygmygfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "spritegfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "virmengfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "vrykulgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "magnataurgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "wolvargfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "gorlocgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "tuskarrgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "pandarengfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "mantidgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "mogugfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "yaungolgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "saurokgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "jinyugfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "hozengfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "grummlegfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "titangfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "irondwarfgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "earthengfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "tolvirgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "stonetolvirgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "mechagnomegfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "elementalwatergfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "elementalfiregfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "elementalearthgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "elemnetalairgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "elementalshagfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "dragongfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "aqirgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "nagagfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "mountaingiantgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "seagiantgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "icegiantgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "dryadgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "demongfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "taunkagfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "nerubiangfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "darkirondwarfgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "nightbornegfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "crystaldryadgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "frostdryadgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "arrakoagfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "etherealgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+entity = {
+	name = "frostvrykulgfx_magistrate"
+	pdxmesh = "western_magistrate_mesh"
+	state = { name = "idle" 		animation = "idle" }
+}
+
+
+
