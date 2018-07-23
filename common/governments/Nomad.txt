@@ -4,12 +4,11 @@ qiraji_swarm = {
 	monarchy = yes
 	queen = no
 
-	valid_for_new_country = yes
+	valid_for_new_country = no
+	allow_convert = no
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
-	maintain_dynasty = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -40,13 +39,12 @@ nerubian_swarm = {
 	monarchy = yes
 	queen = no
 
-	valid_for_new_country = yes
+	valid_for_new_country = no
+	allow_convert = no
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
-	maintain_dynasty = yes
-	
+
 	ai_will_do = {
 		factor = 0
 	}
@@ -76,12 +74,11 @@ mantid_swarm = {
 	monarchy = yes
 	queen = no
 
-	valid_for_new_country = yes
+    valid_for_new_country = no
+	allow_convert = no
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
-	maintain_dynasty = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -114,13 +111,12 @@ the_horde = {
 	monarchy = yes
 	queen = no
 
-	valid_for_new_country = yes
+	valid_for_new_country = no
+	allow_convert = no
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
-	maintain_dynasty = yes
-	
+
 	ai_will_do = {
 		factor = 0
 	}
@@ -155,7 +151,7 @@ tauren_camp = {
 	native_mechanic = no
 	allow_migration = yes
 	
-	valid_for_new_country = yes
+	valid_for_new_country = no
 	allow_convert = no
 	
 	valid_for_nation_designer = yes
@@ -194,12 +190,11 @@ troll_warband = {
 	monarchy = yes
 	queen = no
 
-	valid_for_new_country = yes
+	valid_for_new_country = no
+	allow_convert = no
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
-	maintain_dynasty = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -230,12 +225,11 @@ satyr_warband = {
 	monarchy = yes
 	queen = no
 
-	valid_for_new_country = yes
+	valid_for_new_country = no
+	allow_convert = no
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
-	maintain_dynasty = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -266,12 +260,11 @@ orc_warband = {
 	monarchy = yes
 	queen = no
 
-	valid_for_new_country = yes
+	valid_for_new_country = no
+	allow_convert = no
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
-	maintain_dynasty = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -302,12 +295,11 @@ ogre_warband = {
 	monarchy = yes
 	queen = no
 
-	valid_for_new_country = yes
+	valid_for_new_country = no
+	allow_convert = no
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
-	maintain_dynasty = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -338,12 +330,11 @@ naga_warband = {
 	monarchy = yes
 	queen = no
 
-	valid_for_new_country = yes
+	valid_for_new_country = no
+	allow_convert = no
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
-	maintain_dynasty = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -374,12 +365,11 @@ centaur_warband = {
 	monarchy = yes
 	queen = no
 
-	valid_for_new_country = yes
+	valid_for_new_country = no
+	allow_convert = no
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
-	maintain_dynasty = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -419,8 +409,6 @@ scourge = {
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
-	maintain_dynasty = yes
 	
 	ai_will_do = {
 		factor = 0

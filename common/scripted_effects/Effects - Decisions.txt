@@ -1,3 +1,4 @@
+# Effects
 execute_formable_nation_benefits = {
     change_tag = $TAG$
     add_prestige = 25

@@ -1297,13 +1297,6 @@ free_shipping_through_the_sound = {
 	province_trade_power_value = 15
 	province_trade_power_modifier = 0.25
 }
-
-illegitimate_ruler = {
-	legitimacy = -1
-	global_unrest = 2
-	global_autonomy = 0.05
-}
-
 thalassocracy = {
 	navy_tradition = 0.25
 	light_ship_cost = -0.1
@@ -1328,20 +1321,6 @@ cult_of_reason = {
 	prestige = -1
 	technology_cost = -0.15
 	stability_cost_modifier = 0.10
-}
-
-relief_from = {
-	global_unrest = -2
-	stability_cost_modifier = -0.1
-}
-
-sought_after_bachelor = {
-	prestige = 1
-}
-
-a_woman_scorned = {
-	prestige = -2
-	legitimacy = -5
 }
 
 blooming_renaissance = {
@@ -3908,11 +3887,6 @@ to_the_last_man = {
 
 regimental_spirit = {
 	land_attrition = -0.10
-}
-
-
-adopted_heir = {
-	global_unrest = 2
 }
 
 golden_age_of_timbuktu = {
@@ -6979,11 +6953,6 @@ escalated_witch_trials = {
 	trade_goods_size = -0.5
 }
 
-dyn_newborn_daughter = {
-	heir_chance = -1
-	global_unrest = 3
-}
-
 #Parliament Events
 withdrawn_parliamentary_seat = {
 	local_unrest = 3
@@ -9187,54 +9156,6 @@ took_land_from_monastics = {
 
 #Professionalism Events
 
-enemies_sacked_city = {
-	global_unrest = -2
-}
-
-soldiers_stimulating_local_economy = {
-	local_production_efficiency = 0.1
-	local_tax_modifier = 0.1
-}
-
-integration_of_local_militias = {
-	defensiveness = 0.25
-	manpower_recovery_speed = -0.2
-}
-
-thriving_weapons_industry = {
-	local_development_cost = -0.15
-	trade_goods_size_modifier = 0.35
-}
-
-regimental_town = {
-	local_manpower_modifier = 0.25
-	local_development_cost = -0.15
-}
-
-wargames = {
-	yearly_army_professionalism = 0.01
-	land_maintenance_modifier = 0.1
-}
-
-cheated_rolls = {
-	local_manpower_modifier = -0.5
-}
-
-reassessement_provinces = {
-	local_unrest = 8
-	local_manpower_modifier = -0.25
-}
-
-gunpowder_core = {
-	drill_gain_modifier = 0.4
-	land_maintenance_modifier = 0.15
-}
-
-standardized_uniforms_modifier = {
-	drill_gain_modifier = 0.4
-	land_maintenance_modifier = 0.1
-}
-
 #Muslim Schools
 wahabism_modifier = {
 	religion = yes
@@ -9707,101 +9628,6 @@ furusiyya = {
 }
 
 #Agent Culture/Religion Events
-heir_is_our_heir = {
-	local_unrest = -3
-}
-
-foreigner_on_throne = {
-	local_unrest = 2
-}
-
-support_for_ruler = {
-	local_unrest = -2
-}
-
-heretic_on_throne = {
-	local_unrest = 3
-	local_missionary_strength = -0.05
-}
-
-heathen_on_throne = {
-	local_unrest = 5
-	local_missionary_strength = -0.05
-}
-
-support_for_heretic_ruler = {
-	local_unrest = -3
-	local_missionary_strength = -0.05
-}
-
-support_for_heathen_ruler = {
-	local_unrest = -3
-	local_missionary_strength = -0.05
-}
-
-alien_ruler = {
-	local_unrest = 5
-	local_missionary_strength = -0.05
-}
-
-increased_tolerance_of_heretics = {
-	tolerance_heretic = 1
-	global_heretic_missionary_strength = -0.02
-}
-
-supressing_personal_faith = {
-	legitimacy = 0.5
-	religion = yes
-}
-
-supressed_religious_minority = {
-	local_unrest = 3
-}
-
-heathen_ruler_religious_tensions = {
-	local_unrest = 4
-}
-
-learning_from_cultural_brethren = {
-	technology_cost = -0.05
-}
-
-support_for_advisor = {
-	local_unrest = -2
-	local_production_efficiency = 0.1
-}
-
-influential_power_holder = {
-	state_maintenance_modifier = -0.1
-	local_manpower_modifier = 0.1
-	local_tax_modifier = 0.1
-	local_development_cost = -0.1
-}
-
-social_unrest_mysticism = {
-	local_unrest = 6
-}
-
-loss_of_legal_competence = {
-	advisor_cost = 0.1
-}
-
-fraternities_strengthened = {
-	trade_goods_size_modifier = 0.25
-	local_autonomy = 0.03
-}
-
-coffee_house_turmoil = {
-	local_unrest = 6
-}
-
-sufi_orders_in_check = {
-	local_autonomy = -0.05
-}
-
-sufi_order_integration = {
-	local_unrest = -4
-}
 
 #Industrialization
 introduction_of_newcommen_engine = {

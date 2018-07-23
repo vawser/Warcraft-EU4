@@ -1,10 +1,10 @@
-namespace = overextension_events
+namespace = warcraft_overextension
 
 # Troops Deserting
 country_event = {
-	id = overextension_events.1
-	title = overextension_events.1.title
-	desc = overextension_events.1.desc
+	id = warcraft_overextension.1
+	title = warcraft_overextension.1.title
+	desc = warcraft_overextension.1.desc
 	picture = MILITARY_CAMP_eventPicture
 	
 	trigger = {
@@ -17,7 +17,7 @@ country_event = {
 	}
 
 	option = {
-		name = overextension_events.1.option.a
+		name = warcraft_overextension.1.option.a
 
 		add_war_exhaustion = 1
 		add_manpower = -0.05
@@ -35,9 +35,9 @@ country_event = {
 
 # Widespread Opposition
 country_event = {
-	id = overextension_events.2
-	title = overextension_events.2.title
-	desc = overextension_events.2.desc
+	id = warcraft_overextension.2
+	title = warcraft_overextension.2.title
+	desc = warcraft_overextension.2.desc
 	picture = DEBATE_REPUBLICAN_eventPicture
 	
 	trigger = {
@@ -50,7 +50,7 @@ country_event = {
 	}
 
 	option = {
-		name = overextension_events.2.option.a
+		name = warcraft_overextension.2.option.a
 
 		add_stability = -1
 		
@@ -67,9 +67,9 @@ country_event = {
 
 # Bad Reputation!
 country_event = {
-	id = overextension_events.3
-	title = overextension_events.3.title
-	desc = overextension_events.3.desc
+	id = warcraft_overextension.3
+	title = warcraft_overextension.3.title
+	desc = warcraft_overextension.3.desc
 	picture = DIPLOMACY_eventPicture
 	
 	is_triggered_only = yes
@@ -83,7 +83,7 @@ country_event = {
 	}
 
 	option = {
-		name = overextension_events.3.option.a
+		name = warcraft_overextension.3.option.a
 
 		add_prestige = -25
 		
@@ -100,9 +100,9 @@ country_event = {
 
 # Inflation
 country_event = {
-	id = overextension_events.4
-	title = overextension_events.4.title
-	desc = overextension_events.4.desc
+	id = warcraft_overextension.4
+	title = warcraft_overextension.4.title
+	desc = warcraft_overextension.4.desc
 	picture = DIPLOMACY_eventPicture
 	
 	is_triggered_only = yes
@@ -116,7 +116,7 @@ country_event = {
 	}
 
 	option = {
-		name = overextension_events.4.option.a
+		name = warcraft_overextension.4.option.a
 
 		add_inflation = 1
 		
@@ -133,9 +133,9 @@ country_event = {
 
 # Officers Deserting
 country_event = {
-	id = overextension_events.5
-	title = overextension_events.5.title
-	desc = overextension_events.5.desc
+	id = warcraft_overextension.5
+	title = warcraft_overextension.5.title
+	desc = warcraft_overextension.5.desc
 	picture = LAND_MILITARY_eventPicture
 
 	is_triggered_only = yes
@@ -149,7 +149,7 @@ country_event = {
 	}
 
 	option = {
-		name = overextension_events.5.option.a
+		name = warcraft_overextension.5.option.a
 
 		add_army_tradition = -10
 		
@@ -166,9 +166,9 @@ country_event = {
 
 # Merchants Resented
 country_event = {
-	id = overextension_events.6
-	title = overextension_events.6.title
-	desc = overextension_events.6.desc
+	id = warcraft_overextension.6
+	title = warcraft_overextension.6.title
+	desc = warcraft_overextension.6.desc
 	picture = MERCHANTS_TALKING_eventPicture
 
 	is_triggered_only = yes
@@ -190,7 +190,7 @@ country_event = {
 	}
 
 	option = {
-		name = overextension_events.6.option.a
+		name = warcraft_overextension.6.option.a
 
 		random_active_trade_node = {
 			limit = {
@@ -231,9 +231,9 @@ country_event = {
 
 # Merchants Assassinated!
 country_event = {
-	id = overextension_events.7
-	title = overextension_events.7.title
-	desc = overextension_events.7.desc
+	id = warcraft_overextension.7
+	title = warcraft_overextension.7.title
+	desc = warcraft_overextension.7.desc
 	picture = ASSASSINATION_eventPicture
 
 	is_triggered_only = yes
@@ -255,7 +255,7 @@ country_event = {
 	}
 
 	option = {
-		name = overextension_events.7.option.a
+		name = warcraft_overextension.7.option.a
 
 		random_active_trade_node = {
 			limit = {
@@ -287,9 +287,9 @@ country_event = {
 
 # Legitimacy Questioned
 country_event = {
-	id = overextension_events.8
-	title = overextension_events.8.title
-	desc = overextension_events.8.desc
+	id = warcraft_overextension.8
+	title = warcraft_overextension.8.title
+	desc = warcraft_overextension.8.desc
 	picture = COURT_eventPicture
 	
 	is_triggered_only = yes
@@ -305,7 +305,7 @@ country_event = {
 	}
 	
 	option = {
-		name = overextension_events.8.option.a
+		name = warcraft_overextension.8.option.a
 
         add_legitimacy = -15
         add_horde_unity = -15
@@ -323,9 +323,9 @@ country_event = {
 
 # Magistrates Resigns
 country_event = {
-	id = overextension_events.9
-	title = overextension_events.9.title
-	desc = overextension_events.9.desc
+	id = warcraft_overextension.9
+	title = warcraft_overextension.9.title
+	desc = warcraft_overextension.9.desc
 	picture = DEBATE_REPUBLICAN_eventPicture
 
 	is_triggered_only = yes
@@ -339,7 +339,7 @@ country_event = {
 	}
 
 	option = {
-		name = overextension_events.9.option.a
+		name = warcraft_overextension.9.option.a
 
 		add_dip_power = -50
 		
@@ -356,10 +356,10 @@ country_event = {
 
 # Advisor Resigns
 country_event = {
-	id = overextension_events.10
-	title = overextension_events.10.title
-	desc = overextension_events.10.desc
-	picture = overextension_events_eventPicture
+	id = warcraft_overextension.10
+	title = warcraft_overextension.10.title
+	desc = warcraft_overextension.10.desc
+	picture = warcraft_overextension_eventPicture
 	
 	is_triggered_only = yes
 	
@@ -372,7 +372,7 @@ country_event = {
 	}
 
 	option = {
-		name = overextension_events.10.option.a
+		name = warcraft_overextension.10.option.a
 
 		kill_advisor = random
 		

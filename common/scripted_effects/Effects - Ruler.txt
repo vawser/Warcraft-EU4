@@ -1,5 +1,88 @@
 #All are Country Scope unless otherwise stated.
 
+succession_culture_religion_effect = {
+	if = {
+        limit = {
+			has_regency = no
+			NOT = { has_ruler_flag = had_culture_religion_reaction_event_flag }
+			OR = {
+				NOT = { ruler_culture = ROOT }
+				NOT = { ruler_religion = ROOT }
+			}
+		}
+		set_country_flag = had_culture_religion_reaction_event_flag
+		country_event = { id = culture_religion_events.2 days = 75 random = 7 }
+	}
+}
+
+# Ruler
+new_monarch_effect = {
+    if = {
+		limit = {
+			has_consort_regency = no
+			any_owned_province = {
+				has_province_modifier = domain_of_spouses_family
+			}
+		}
+		random_owned_province = {
+			limit = { has_province_modifier = domain_of_spouses_family }
+			remove_province_modifier = domain_of_spouses_family
+		}
+	}
+}
+
+#Heirs
+heir_death_effect = {
+    if = {
+        limit = { has_country_flag = heir_dip_education }
+        clr_ruler_flag = heir_dip_education
+    }
+    if = {
+        limit = { has_country_flag = heir_mil_education }
+        clr_ruler_flag = heir_mil_education
+    }
+    if = {
+        limit = { has_country_flag = heir_adm_education }
+        clr_ruler_flag = heir_adm_education
+    }
+    if = {
+        limit = { has_ruler_flag = well_advised_tutored_heir }
+        clr_ruler_flag = well_advised_tutored_heir
+    }
+    if = {
+        limit = { has_ruler_flag = heir_went_on_grand_tour }
+        clr_ruler_flag = heir_went_on_grand_tour
+    }
+}
+
+increase_heir_dip_effect = {
+	if = {
+		limit = { NOT = { heir_dip = 6 } }
+		change_heir_dip = 1
+		ELSE = {
+			add_dip_power = 50
+		}
+	}
+}
+increase_heir_adm_effect = {
+	if = {
+		limit = { NOT = { heir_adm = 6 } }
+		change_heir_adm = 1
+		ELSE = {
+			add_adm_power = 50
+		}
+	}
+}
+increase_heir_mil_effect = {
+	if = {
+		limit = { NOT = { heir_mil = 6 } }
+		change_heir_mil = 1
+		ELSE = {
+			add_mil_power = 50
+		}
+	}
+}
+
 #Consorts
 create_new_internal_consort_effect = { #Don't use if you want more options with different random consorts.
 	if = {
@@ -13,7 +96,63 @@ create_new_internal_consort_effect = { #Don't use if you want more options with 
 	}
 }
 
-save_origin_of_consort_effect = { #Used for all internal consorts.
+divorce_consort_effect = {
+	if = {
+		limit = {
+			has_foreign_consort = yes
+		}
+
+		random_country = {
+			limit = { is_origin_of_consort = ROOT } 
+
+			hidden_effect = { country_event = { id = consort_events.205 days = 1 } } 
+
+			tooltip = {
+				add_opinion = {
+					who = ROOT
+					modifier = offended_by_divorce	
+				}
+
+				add_casus_belli = {
+					target = ROOT
+					type = cb_insult
+					months = 60
+				}
+			}
+		}
+	}
+    else_if = {
+		limit = {
+			has_foreign_consort = no
+			any_owned_province = { has_province_modifier = domain_of_spouses_family }
+		} 
+
+		every_owned_province = {
+			limit = { has_province_modifier = domain_of_spouses_family } 
+
+			add_province_modifier = {
+				name = angered_nobles
+				duration = 7300
+			}
+		}
+	}
+    else = {
+		custom_tooltip = divorce.a.tt
+
+		hidden_effect = {	
+			if = {
+				limit = { NOT = { any_country = { is_origin_of_consort = ROOT } } }
+				remove_consort = yes
+				country_event = { id = consort_events.206 }
+			}
+		}	
+	
+		define_consort = { }
+	}
+}
+
+
+save_origin_of_consort_effect = {
 	if = { # finds and saves foreign country as origin
 		limit = {
 			has_foreign_consort = yes
@@ -53,33 +192,120 @@ save_origin_of_consort_effect = { #Used for all internal consorts.
 	}
 }
 
-#Heirs
-increase_heir_dip_effect = {
+
+new_consort_effect = {
+    country_event = { id = consort_events.2 }
 	if = {
-		limit = { NOT = { heir_dip = 6 } }
-		change_heir_dip = 1
-		ELSE = {
-			add_dip_power = 50
-		}
+		limit = { has_ruler_flag = had_10_years_anniversary }
+		clr_ruler_flag = had_10_years_anniversary
 	}
-}
-increase_heir_adm_effect = {
 	if = {
-		limit = { NOT = { heir_adm = 6 } }
-		change_heir_adm = 1
-		ELSE = {
-			add_adm_power = 50
-		}
+		limit = { has_ruler_flag = had_20_years_anniversary }
+		clr_ruler_flag = had_20_years_anniversary
 	}
-}
-increase_heir_mil_effect = {
 	if = {
-		limit = { NOT = { heir_mil = 6 } }
-		change_heir_mil = 1
-		ELSE = {
-			add_mil_power = 50
-		}
+		limit = { has_ruler_flag = consort_had_affection_of_ruler }
+		clr_ruler_flag = consort_had_affection_of_ruler
 	}
 }
 
-#Rulers
+queen_death_effect = {
+    if = {
+		limit = { has_consort_flag = 10_years_anniversary }
+		set_ruler_flag = had_10_years_anniversary
+	}
+	if = {
+		limit = { has_consort_flag = 20_years_anniversary }
+		set_ruler_flag = had_20_years_anniversary
+	}
+	if = {
+		limit = { has_consort_flag = consort_has_affection_of_ruler }
+		set_ruler_flag = consort_had_affection_of_ruler
+	}
+
+	if = {
+		limit = {
+			has_regency = no
+			NOT = { has_ruler_flag = widow_widower }
+		}
+		set_ruler_flag = widow_widower
+	}
+	if = {
+		limit = { has_consort_regency = no }
+		random_owned_province = {
+			limit = { has_province_modifier = domain_of_spouses_family }
+			remove_province_modifier = domain_of_spouses_family
+		}
+	}
+	if = {
+		limit = { has_ruler_flag = accepted_help_from_spouses_family }
+		clr_ruler_flag = accepted_help_from_spouses_family
+	}
+	if = {
+		limit = { has_ruler_flag = helped_spouses_family }
+		clr_ruler_flag = helped_spouses_family
+	}
+	if = {
+		limit = { has_ruler_flag = refused_to_help_spouses_family }
+		clr_ruler_flag = refused_to_help_spouses_family
+	}
+	if = {
+		limit = { has_ruler_flag = lowborn_consort }
+		random_owned_province = {
+			limit = { has_province_modifier = home_of_consort }
+			remove_province_modifier = home_of_consort
+		}
+	}
+	if = {
+		limit = { has_ruler_flag = lowborn_consort }
+		clr_ruler_flag = lowborn_consort
+	}
+	if = {
+		limit = { has_country_modifier = consort_adm_advice }
+		remove_country_modifier = consort_adm_advice
+	}
+	if = {
+		limit = { has_country_modifier = consort_dip_advice }
+		remove_country_modifier = consort_dip_advice
+	}
+	if = {
+		limit = { has_country_modifier = consort_mil_advice }
+		remove_country_modifier = consort_mil_advice
+	}
+	if = {
+		limit = { has_country_modifier = without_spouse_advice }
+		remove_country_modifier = without_spouse_advice
+	}
+	if = {
+		limit = { has_ruler_modifier = affectionate_royal_couple }
+		remove_country_modifier = affectionate_royal_couple
+	}
+	clr_ruler_flag = marriage_length
+}
+
+government_change_effect = {
+    if = {
+		limit = {
+			NOT = { government = monarchy }
+			any_owned_province = {
+				has_province_modifier = domain_of_spouses_family
+			}
+		}
+		random_owned_province = {
+			limit = { has_province_modifier = domain_of_spouses_family }
+			remove_province_modifier = domain_of_spouses_family
+		}
+	}
+	if = {
+		limit = {
+			NOT = { government = monarchy }
+			any_owned_province = {
+				has_province_modifier = home_of_consort
+			}
+		}
+		random_owned_province = {
+			limit = { has_province_modifier = home_of_consort }
+			remove_province_modifier = home_of_consort
+		}
+	}
+}

@@ -1,11 +1,11 @@
-namespace = rulership_events
+namespace = warcraft_ruler
 
 # Random death due to disease
 # [Root.Monarch.GetTitle] [Root.Monarch.GetName] falls ills
 country_event = {
-	id = rulership_events.1
-	title = rulership_events.1.title
-	desc = rulership_events.1.desc
+	id = warcraft_ruler.1
+	title = warcraft_ruler.1.title
+	desc = warcraft_ruler.1.desc
 	picture = BURNING_CASTLE_eventPicture
 	
     trigger = {
@@ -23,13 +23,13 @@ country_event = {
     }
     
 	option = {
-		name = rulership_events.1.option.a
+		name = warcraft_ruler.1.option.a
         
         kill_ruler = yes
 	}
     
     option = {
-		name = rulership_events.1.option.b
+		name = warcraft_ruler.1.option.b
         
         add_years_of_income = -1
         
@@ -43,9 +43,9 @@ country_event = {
 # For races that have lifespans that are under 100 years
 # [Root.Monarch.GetTitle] [Root.Monarch.GetName] passed away
 country_event = {
-	id = rulership_events.2
-	title = rulership_events.2.title
-	desc = rulership_events.2.desc
+	id = warcraft_ruler.2
+	title = warcraft_ruler.2.title
+	desc = warcraft_ruler.2.desc
 	picture = BURNING_CASTLE_eventPicture
 	
     trigger = {
@@ -66,7 +66,7 @@ country_event = {
     }
     
 	option = {
-		name = rulership_events.2.option.a
+		name = warcraft_ruler.2.option.a
         
         kill_ruler = yes
 	}
@@ -75,9 +75,9 @@ country_event = {
 # For races that have lifespans that exceed 100 years
 # [Root.Monarch.GetTitle] [Root.Monarch.GetName] passed away
 country_event = {
-	id = rulership_events.3
-	title = rulership_events.3.title
-	desc = rulership_events.3.desc
+	id = warcraft_ruler.3
+	title = warcraft_ruler.3.title
+	desc = warcraft_ruler.3.desc
 	picture = BURNING_CASTLE_eventPicture
 	
     trigger = {
@@ -111,7 +111,7 @@ country_event = {
     }
    
 	option = {
-		name = rulership_events.3.option.a
+		name = warcraft_ruler.3.option.a
         
         kill_ruler = yes
 	}
@@ -119,9 +119,9 @@ country_event = {
 
 # ADM skill decays...
 country_event = {
-	id = rulership_events.4
-	title = rulership_events.4.title
-	desc = rulership_events.4.desc
+	id = warcraft_ruler.4
+	title = warcraft_ruler.4.title
+	desc = warcraft_ruler.4.desc
 	picture = BURNING_CASTLE_eventPicture
 	
     trigger = {
@@ -165,7 +165,7 @@ country_event = {
 	}
     
 	option = {
-		name = rulership_events.4.option.a
+		name = warcraft_ruler.4.option.a
         
         change_adm = -1
 	}
@@ -173,9 +173,9 @@ country_event = {
 
 # DIP skill decays...
 country_event = {
-	id = rulership_events.5
-	title = rulership_events.5.title
-	desc = rulership_events.5.desc
+	id = warcraft_ruler.5
+	title = warcraft_ruler.5.title
+	desc = warcraft_ruler.5.desc
 	picture = BURNING_CASTLE_eventPicture
 	
     trigger = {
@@ -219,7 +219,7 @@ country_event = {
 	}
     
 	option = {
-		name = rulership_events.5.option.a
+		name = warcraft_ruler.5.option.a
         
         change_dip = -1
 	}
@@ -227,9 +227,9 @@ country_event = {
 
 # MIL skill decays...
 country_event = {
-	id = rulership_events.6
-	title = rulership_events.6.title
-	desc = rulership_events.6.desc
+	id = warcraft_ruler.6
+	title = warcraft_ruler.6.title
+	desc = warcraft_ruler.6.desc
 	picture = BURNING_CASTLE_eventPicture
 	
     trigger = {
@@ -273,7 +273,7 @@ country_event = {
 	}
     
 	option = {
-		name = rulership_events.6.option.a
+		name = warcraft_ruler.6.option.a
         
         change_mil = -1
 	}
@@ -281,9 +281,9 @@ country_event = {
 
 # ADM skill improves...
 country_event = {
-	id = rulership_events.7
-	title = rulership_events.7.title
-	desc = rulership_events.7.desc
+	id = warcraft_ruler.7
+	title = warcraft_ruler.7.title
+	desc = warcraft_ruler.7.desc
 	picture = TAVERN_eventPicture
 	
     trigger = {
@@ -327,7 +327,7 @@ country_event = {
 	}
     
 	option = {
-		name = rulership_events.7.option.a
+		name = warcraft_ruler.7.option.a
         
         change_adm = 1
 	}
@@ -335,9 +335,9 @@ country_event = {
 
 # DIP skill improves...
 country_event = {
-	id = rulership_events.8
-	title = rulership_events.8.title
-	desc = rulership_events.8.desc
+	id = warcraft_ruler.8
+	title = warcraft_ruler.8.title
+	desc = warcraft_ruler.8.desc
 	picture = TAVERN_eventPicture
 	
     trigger = {
@@ -381,7 +381,7 @@ country_event = {
 	}
     
 	option = {
-		name = rulership_events.8.option.a
+		name = warcraft_ruler.8.option.a
         
         change_dip = 1
 	}
@@ -389,9 +389,9 @@ country_event = {
 
 # MIL skill improves...
 country_event = {
-	id = rulership_events.9
-	title = rulership_events.9.title
-	desc = rulership_events.9.desc
+	id = warcraft_ruler.9
+	title = warcraft_ruler.9.title
+	desc = warcraft_ruler.9.desc
 	picture = TAVERN_eventPicture
 	
     trigger = {
@@ -435,7 +435,7 @@ country_event = {
 	}
     
 	option = {
-		name = rulership_events.7.option.a
+		name = warcraft_ruler.7.option.a
         
         change_mil = 1
 	}

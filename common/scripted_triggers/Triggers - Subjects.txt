@@ -1,4 +1,4 @@
-﻿
+# Triggers
 is_subject_other_than_tributary_trigger = { 
 	is_subject = yes
 	NOT = { is_subject_of_type = tributary_state }

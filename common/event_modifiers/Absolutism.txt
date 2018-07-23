@@ -1,0 +1,6 @@
+tyrannical_ruler = {
+    yearly_absolutism = 1
+}
+
+
+

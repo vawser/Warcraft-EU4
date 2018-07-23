@@ -9,8 +9,6 @@ dragonflight_council = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 	
-	maintain_dynasty = yes
-	
 	ai_will_do = {
 		factor = 0
 	}
@@ -84,12 +82,11 @@ criminal_organisation = {
 magocracy = {
 	monarchy = yes
 
-	valid_for_new_country = yes
-	
+	valid_for_new_country = no
+	allow_convert = no
+    
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
-	maintain_dynasty = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -123,12 +120,11 @@ magocracy = {
 titan_outpost = {
 	monarchy = yes
 
-	valid_for_new_country = yes
+	valid_for_new_country = no
+	allow_convert = no
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
-	maintain_dynasty = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -162,12 +158,11 @@ titan_outpost = {
 technocracy = {
 	monarchy = yes
 
-	valid_for_new_country = yes
+	valid_for_new_country = no
+	allow_convert = no
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
-	maintain_dynasty = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -201,12 +196,11 @@ technocracy = {
 cartel = {
 	monarchy = yes
 
-	valid_for_new_country = yes
+	valid_for_new_country = no
+	allow_convert = no
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
-	maintain_dynasty = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -240,12 +234,11 @@ cartel = {
 forsaken = {
 	monarchy = yes
 
-	valid_for_new_country = yes
+	valid_for_new_country = no
+	allow_convert = no
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	
-	maintain_dynasty = yes
 	
 	ai_will_do = {
 		factor = 0
@@ -281,6 +274,7 @@ cult = {
 	religion = yes
 	
 	valid_for_new_country = no
+	allow_convert = no
 	
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0

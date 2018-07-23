@@ -14,48 +14,73 @@ on_enforce_rebel_demands = {
 
 on_overextension_pulse = {
     random_events = {
-        100 = overextension_events.1
-        100 = overextension_events.2
-        100 = overextension_events.3
-        100 = overextension_events.4
-        100 = overextension_events.5
-        100 = overextension_events.6
-        100 = overextension_events.7
-        100 = overextension_events.8
-        100 = overextension_events.9
-        100 = overextension_events.10
+        100 = warcraft_overextension.1
+        100 = warcraft_overextension.2
+        100 = warcraft_overextension.3
+        100 = warcraft_overextension.4
+        100 = warcraft_overextension.5
+        100 = warcraft_overextension.6
+        100 = warcraft_overextension.7
+        100 = warcraft_overextension.8
+        100 = warcraft_overextension.9
+        100 = warcraft_overextension.10
     }
 }
 
 on_bi_yearly_pulse = {
     events = {
-        #faction_events.1000   # Alliance opinion update
-        #faction_events.1001   # Horde opinion update
+         #warcraft_factions.1000   # Alliance opinion update
+        #warcraft_factions.1001   # Horde opinion update
     }
 }
 
 on_bi_yearly_pulse_2 = {
     random_events = {
-        100 = corruption_events.1
-        100 = corruption_events.2
-        100 = corruption_events.3
-        100 = corruption_events.4
-        100 = corruption_events.5
-        100 = corruption_events.6
-        100 = corruption_events.7
-        100 = corruption_events.8
-        100 = corruption_events.9
-        100 = corruption_events.10
-        100 = corruption_events.11
-        100 = corruption_events.12
-        100 = corruption_events.13
-        100 = corruption_events.14
-        100 = corruption_events.15
-        100 = corruption_events.16
-        100 = corruption_events.17
-        100 = corruption_events.18
-        100 = corruption_events.19
-        100 = corruption_events.20
+        100 = warcraft_corruption.1
+        100 = warcraft_corruption.2
+        100 = warcraft_corruption.3
+        100 = warcraft_corruption.4
+        100 = warcraft_corruption.5
+        100 = warcraft_corruption.6
+        100 = warcraft_corruption.7
+        100 = warcraft_corruption.8
+        100 = warcraft_corruption.9
+        100 = warcraft_corruption.10
+        100 = warcraft_corruption.11
+        100 = warcraft_corruption.12
+        100 = warcraft_corruption.13
+        100 = warcraft_corruption.14
+        100 = warcraft_corruption.15
+        100 = warcraft_corruption.16
+        100 = warcraft_corruption.17
+        100 = warcraft_corruption.18
+        100 = warcraft_corruption.19
+        100 = warcraft_corruption.20
+        
+        100 = warcraft_cultural_uprising.1 
+        
+        125 = culture_religion_events.1
+		125 = culture_religion_events.3
+		125 = culture_religion_events.4
+		125 = culture_religion_events.5
+		125 = culture_religion_events.6
+		125 = culture_religion_events.7
+		125 = culture_religion_events.8
+		125 = culture_religion_events.9
+		125 = culture_religion_events.10
+		125 = culture_religion_events.11
+		125 = culture_religion_events.12
+		125 = culture_religion_events.13
+		125 = culture_religion_events.14
+		125 = culture_religion_events.15
+		125 = culture_religion_events.16
+		100 = culture_religion_events.17
+		125 = culture_religion_events.18
+		125 = culture_religion_events.19
+		125 = culture_religion_events.20
+		175 = culture_religion_events.21
+		125 = culture_religion_events.22
+		125 = culture_religion_events.23 
         
         4000 = 0
     }
@@ -63,8 +88,8 @@ on_bi_yearly_pulse_2 = {
 
 on_four_year_pulse = {
     random_events = {
-        #100 = faction_events.10 # Alliance - Send Soldiers
-        #100 = faction_events.11 # Horde - Send Soldiers
+        #100 = warcraft_factions.10 # Alliance - Send Soldiers
+        #100 = warcraft_factions.11 # Horde - Send Soldiers
         1000 = 0
     }
 }
@@ -78,7 +103,15 @@ on_thri_yearly_pulse_4 = { }
 on_four_year_pulse_2 = { }
 on_four_year_pulse_3 = { }
 on_four_year_pulse_4 = { }
-on_five_year_pulse = { }
+on_five_year_pulse = { 
+    random_events = {
+        200 = warcraft_absolutism.1
+        200 = warcraft_absolutism.2
+        200 = warcraft_absolutism.3
+
+		10000 = 0
+	}
+}
 on_five_year_pulse_2 = { }
 on_five_year_pulse_3 = { }
 on_five_year_pulse_4 = { }

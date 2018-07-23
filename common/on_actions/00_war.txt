@@ -15,13 +15,28 @@ on_mercenary_recruited = {
 	}
 }
 
+# ROOT = Winner, FROM = Province
+on_siege_won_country = { 
+    random_events = {
+        10 = warcraft_army_professionalism.1 #City Sacked
+        100 = 0
+    }
+}   
+
+# ROOT = Winner, FROM = Loser
+on_battle_won_country = { 
+    random_events = {
+		100 = warcraft_battles.1	# $FROMCOUNTRY$ has humiliated us!
+    }
+}    
+
 on_peace_actor = { }
 on_peace_recipient = { }
 on_war_won = { }                # ROOT = Winner, FROM = Loser
 on_war_lost = {}                # ROOT = Loser, FROM = Winner
-on_battle_won_country = { }     # ROOT = Winner, FROM = Loser
 on_battle_lost_country = { }    # ROOT = Loser, FROM = Winner
-on_siege_won_country = { }      # ROOT = Winner, FROM = Province
+
+   
 on_siege_lost_country = { }     # ROOT = Loser, FROM = Province
 on_colonial_liberation = { }
 on_colonial_reintegration = { }

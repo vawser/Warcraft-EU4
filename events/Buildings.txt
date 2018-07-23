@@ -1,4 +1,4 @@
-namespace = building_events
+namespace = warcraft_buildings
 
 #-------------------------------------------------------
 # Administration
@@ -8,9 +8,9 @@ namespace = building_events
 # Build the town hall
 # Invest in other projects
 province_event = {
-	id = building_events.1
-	title = building_events.1.title
-	desc = building_events.1.desc
+	id = warcraft_buildings.1
+	title = warcraft_buildings.1.title
+	desc = warcraft_buildings.1.desc
 	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
@@ -30,13 +30,13 @@ province_event = {
     }
     
 	option = {
-		name = building_events.1.option.a
+		name = warcraft_buildings.1.option.a
 
         add_building = town_hall
 	}
     
     option = {
-		name = building_events.1.option.b
+		name = warcraft_buildings.1.option.b
 
         add_base_tax = 1
 	}
@@ -47,9 +47,9 @@ province_event = {
 # Build the court
 # Invest in other projects
 province_event = {
-	id = building_events.2
-	title = building_events.2.title
-	desc = building_events.2.desc
+	id = warcraft_buildings.2
+	title = warcraft_buildings.2.title
+	desc = warcraft_buildings.2.desc
 	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
@@ -69,13 +69,13 @@ province_event = {
     }
     
 	option = {
-		name = building_events.2.option.a
+		name = warcraft_buildings.2.option.a
 
         add_building = tavern
 	}
     
     option = {
-		name = building_events.2.option.b
+		name = warcraft_buildings.2.option.b
 
         add_base_tax = 1
 	}
@@ -86,9 +86,9 @@ province_event = {
 # Build the temple
 # Invest in other projects
 province_event = {
-	id = building_events.3
-	title = building_events.3.title
-	desc = building_events.3.desc
+	id = warcraft_buildings.3
+	title = warcraft_buildings.3.title
+	desc = warcraft_buildings.3.desc
 	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
@@ -108,13 +108,13 @@ province_event = {
     }
     
 	option = {
-		name = building_events.3.option.a
+		name = warcraft_buildings.3.option.a
 
         add_building = temple
 	}
     
     option = {
-		name = building_events.3.option.b
+		name = warcraft_buildings.3.option.b
 
         add_base_tax = 1
 	}
@@ -128,9 +128,9 @@ province_event = {
 # Build a mine
 # Encourage productivity in other areas
 province_event = {
-	id = building_events.4
-	title = building_events.4.title
-	desc = building_events.4.desc
+	id = warcraft_buildings.4
+	title = warcraft_buildings.4.title
+	desc = warcraft_buildings.4.desc
 	picture = CITY_DEVELOPMENT_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
@@ -150,13 +150,13 @@ province_event = {
     }
     
 	option = {
-		name = building_events.4.option.a
+		name = warcraft_buildings.4.option.a
 
         add_building = mine
 	}
     
     option = {
-		name = building_events.4.option.b
+		name = warcraft_buildings.4.option.b
 
         add_base_production = 1
 	}
@@ -167,9 +167,9 @@ province_event = {
 # Build a paved road
 # Encourage productivity in other areas
 province_event = {
-	id = building_events.5
-	title = building_events.5.title
-	desc = building_events.5.desc
+	id = warcraft_buildings.5
+	title = warcraft_buildings.5.title
+	desc = warcraft_buildings.5.desc
 	picture = CITY_DEVELOPMENT_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
@@ -189,13 +189,13 @@ province_event = {
     }
     
 	option = {
-		name = building_events.5.option.a
+		name = warcraft_buildings.5.option.a
         
         add_building = paved_road
 	}
     
     option = {
-		name = building_events.5.option.b
+		name = warcraft_buildings.5.option.b
 
         add_base_production = 1
 	}
@@ -206,9 +206,9 @@ province_event = {
 # Build a farm
 # Encourage productivity in other areas
 province_event = {
-	id = building_events.6
-	title = building_events.6.title
-	desc = building_events.6.desc
+	id = warcraft_buildings.6
+	title = warcraft_buildings.6.title
+	desc = warcraft_buildings.6.desc
 	picture = FARMING_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
@@ -233,13 +233,13 @@ province_event = {
     }
     
 	option = {
-		name = building_events.6.option.a
+		name = warcraft_buildings.6.option.a
 
         add_building = farm
 	}
     
     option = {
-		name = building_events.6.option.b
+		name = warcraft_buildings.6.option.b
 
         add_base_production = 1
 	}
@@ -253,9 +253,9 @@ province_event = {
 # Build a barracks
 # Draft more locals instead
 province_event = {
-	id = building_events.7
-	title = building_events.7.title
-	desc = building_events.7.desc
+	id = warcraft_buildings.7
+	title = warcraft_buildings.7.title
+	desc = warcraft_buildings.7.desc
 	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
@@ -275,13 +275,13 @@ province_event = {
     }
     
 	option = {
-		name = building_events.7.option.a
+		name = warcraft_buildings.7.option.a
 
         add_building = barracks
 	}
     
     option = {
-		name = building_events.7.option.b
+		name = warcraft_buildings.7.option.b
 
         add_base_manpower = 1
 	}
@@ -292,9 +292,9 @@ province_event = {
 # Build training grounds
 # Draft more locals instead
 province_event = {
-	id = building_events.8
-	title = building_events.8.title
-	desc = building_events.8.desc
+	id = warcraft_buildings.8
+	title = warcraft_buildings.8.title
+	desc = warcraft_buildings.8.desc
 	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
@@ -314,13 +314,13 @@ province_event = {
     }
     
 	option = {
-		name = building_events.8.option.a
+		name = warcraft_buildings.8.option.a
 
         add_building = drill_square
 	}
     
     option = {
-		name = building_events.8.option.b
+		name = warcraft_buildings.8.option.b
 
         add_base_manpower = 1
 	}
@@ -331,9 +331,9 @@ province_event = {
 # Build a supply depot
 # Draft more locals instead
 province_event = {
-	id = building_events.9
-	title = building_events.9.title
-	desc = building_events.9.desc
+	id = warcraft_buildings.9
+	title = warcraft_buildings.9.title
+	desc = warcraft_buildings.9.desc
 	picture = TRADEGOODS_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
@@ -353,13 +353,13 @@ province_event = {
     }
     
 	option = {
-		name = building_events.9.option.a
+		name = warcraft_buildings.9.option.a
 
         add_building = supply_depot
 	}
     
     option = {
-		name = building_events.9.option.b
+		name = warcraft_buildings.9.option.b
 
         add_base_manpower = 1
 	}
@@ -373,9 +373,9 @@ province_event = {
 # Build a shipyard
 # Draft more locals instead
 province_event = {
-	id = building_events.10
-	title = building_events.10.title
-	desc = building_events.10.desc
+	id = warcraft_buildings.10
+	title = warcraft_buildings.10.title
+	desc = warcraft_buildings.10.desc
 	picture = NAVAL_MILITARY_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
@@ -396,13 +396,13 @@ province_event = {
     }
     
 	option = {
-		name = building_events.10.option.a
+		name = warcraft_buildings.10.option.a
 
         add_building = shipyard
 	}
     
     option = {
-		name = building_events.10.option.b
+		name = warcraft_buildings.10.option.b
 
         add_base_manpower = 1
 	}
@@ -413,9 +413,9 @@ province_event = {
 # Build a dock
 # Draft more locals instead
 province_event = {
-	id = building_events.11
-	title = building_events.11.title
-	desc = building_events.11.desc
+	id = warcraft_buildings.11
+	title = warcraft_buildings.11.title
+	desc = warcraft_buildings.11.desc
 	picture = HARBOUR_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
@@ -436,13 +436,13 @@ province_event = {
     }
     
 	option = {
-		name = building_events.11.option.a
+		name = warcraft_buildings.11.option.a
 
         add_building = dock
 	}
     
     option = {
-		name = building_events.11.option.b
+		name = warcraft_buildings.11.option.b
 
         add_base_manpower = 1
 	}
@@ -456,9 +456,9 @@ province_event = {
 # Build a market
 # Encourage manufacturing instead
 province_event = {
-	id = building_events.12
-	title = building_events.12.title
-	desc = building_events.12.desc
+	id = warcraft_buildings.12
+	title = warcraft_buildings.12.title
+	desc = warcraft_buildings.12.desc
 	picture = CORRUPTION_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
@@ -478,13 +478,13 @@ province_event = {
     }
     
 	option = {
-		name = building_events.12.option.a
+		name = warcraft_buildings.12.option.a
 
         add_building = market
 	}
     
     option = {
-		name = building_events.12.option.b
+		name = warcraft_buildings.12.option.b
 
         add_base_production = 1
 	}
@@ -498,9 +498,9 @@ province_event = {
 # Construct fortifications
 # Save the gold instead
 province_event = {
-	id = building_events.15
-	title = building_events.15.title
-	desc = building_events.15.desc
+	id = warcraft_buildings.15
+	title = warcraft_buildings.15.title
+	desc = warcraft_buildings.15.desc
 	picture = BUILDING_DEVELOPMENT_HUMAN_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
@@ -520,13 +520,13 @@ province_event = {
     }
     
 	option = {
-		name = building_events.15.option.a
+		name = warcraft_buildings.15.option.a
 
         add_building = motte_and_bailey
 	}
     
     option = {
-		name = building_events.15.option.b
+		name = warcraft_buildings.15.option.b
 
         owner = { add_treasury = 50 }
 	}

@@ -1,4 +1,4 @@
-namespace = random_province_events
+namespace = warcraft_random_province
 
 # Upset in [Root.GetName]
 # The people of [Root.GetName] have become discontent with their [Root.Monarch.GetName], and demand more autonomy over the land they reside on.
@@ -6,9 +6,9 @@ namespace = random_province_events
 # Deny their request
 # Dent them, and punish them for their insolence
 province_event = {
-	id = random_province_events.1
-	title = random_province_events.1.title
-	desc = random_province_events.1.desc
+	id = warcraft_random_province.1
+	title = warcraft_random_province.1.title
+	desc = warcraft_random_province.1.desc
 	picture = ANGRY_MOB_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
@@ -42,13 +42,13 @@ province_event = {
     }
     
 	option = {
-		name = random_province_events.1.option.a
+		name = warcraft_random_province.1.option.a
 
         set_local_autonomy = 75
 	}
     
     option = {
-		name = random_province_events.1.option.b
+		name = warcraft_random_province.1.option.b
 
         add_province_modifier = {
             name = denied_autonomy
@@ -57,7 +57,7 @@ province_event = {
 	}
     
     option = {
-		name = random_province_events.1.option.c
+		name = warcraft_random_province.1.option.c
 
         add_province_modifier = {
             name = incensed_people
@@ -74,9 +74,9 @@ province_event = {
 # Shut it down
 # Shut it down and punish the owners
 province_event = {
-	id = random_province_events.2
-	title = random_province_events.2.title
-	desc = random_province_events.2.desc
+	id = warcraft_random_province.2
+	title = warcraft_random_province.2.title
+	desc = warcraft_random_province.2.desc
 	picture = TAVERN_eventPicture
 
     is_mtth_scaled_to_size = 1
@@ -94,19 +94,19 @@ province_event = {
     }
     
 	option = {
-		name = random_province_events.2.option.a
+		name = warcraft_random_province.2.option.a
 
         add_base_tax = 2
 	}
     
     option = {
-		name = random_province_events.2.option.b
+		name = warcraft_random_province.2.option.b
 
         add_scaled_local_adm_power = 10
 	}
     
     option = {
-		name = random_province_events.2.option.c
+		name = warcraft_random_province.2.option.c
 
         add_province_modifier = {
             name = sexually_frustrated
@@ -123,9 +123,9 @@ province_event = {
 # Punish the soldiers
 # Punish the owners of the pit
 province_event = {
-	id = random_province_events.3
-	title = random_province_events.3.title
-	desc = random_province_events.3.desc
+	id = warcraft_random_province.3
+	title = warcraft_random_province.3.title
+	desc = warcraft_random_province.3.desc
 	picture = BRAWL_eventPicture
 
     is_mtth_scaled_to_size = 1
@@ -143,19 +143,19 @@ province_event = {
     }
     
 	option = {
-		name = random_province_events.3.option.a
+		name = warcraft_random_province.3.option.a
         
         add_scaled_local_dip_power = 10
 	}
     
     option = {
-		name = random_province_events.3.option.b
+		name = warcraft_random_province.3.option.b
 
         add_scaled_local_mil_power = 10
 	}
     
     option = {
-		name = random_province_events.3.option.c
+		name = warcraft_random_province.3.option.c
 
         add_scaled_local_adm_power = 10
 	}

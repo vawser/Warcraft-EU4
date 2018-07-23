@@ -1,16 +1,16 @@
-namespace = election_events
+namespace = warcraft_elections
 
 # Election!
 country_event = {
-	id = election_events.1
-	title = election_events.1.title
-	desc = election_events.1.desc
+	id = warcraft_elections.1
+	title = warcraft_elections.1.title
+	desc = warcraft_elections.1.desc
 	picture = ELECTION_REPUBLICAN_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = election_events.1.option.d
+		name = warcraft_elections.1.option.d
 
 		trigger = {
 			has_regency = no
@@ -53,7 +53,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = election_events.1.option.a
+		name = warcraft_elections.1.option.a
 
 		ai_chance = { factor = 20 }
 		define_ruler = {
@@ -65,7 +65,7 @@ country_event = {
 
 	}
 	option = {
-		name = election_events.1.option.b
+		name = warcraft_elections.1.option.b
 
 		ai_chance = { factor = 20 }
 		define_ruler = {
@@ -77,7 +77,7 @@ country_event = {
 	
 	}
 	option = {
-		name = election_events.1.option.c
+		name = warcraft_elections.1.option.c
 
 		ai_chance = { factor = 20 }
 		define_ruler = {
@@ -92,15 +92,15 @@ country_event = {
 
 # Election!
 country_event = {
-	id = election_events.2
-	title = election_events.2.title
-	desc = election_events.2.desc
+	id = warcraft_elections.2
+	title = warcraft_elections.2.title
+	desc = warcraft_elections.2.desc
 	picture = ELECTION_REPUBLICAN_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = election_events.2.option.a
+		name = warcraft_elections.2.option.a
 
 		ai_chance = { factor = 40 }
 		define_ruler = {
@@ -111,7 +111,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = election_events.2.option.b
+		name = warcraft_elections.2.option.b
 
 		ai_chance = { factor = 30 }
 		define_ruler = {
@@ -122,7 +122,7 @@ country_event = {
 		}	
 	}
 	option = {
-		name = election_events.2.option.c
+		name = warcraft_elections.2.option.c
 
 		ai_chance = { factor = 30 }
 		define_ruler = {
@@ -131,5 +131,110 @@ country_event = {
 			dip = 1					
 			fixed = yes
 		}		
+	}
+}
+
+# Election!
+country_event = {
+	id = warcraft_elections.3
+	title = warcraft_elections.3.title
+	desc = warcraft_elections.3.desc
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = warcraft_elections.3.option.a
+		ai_chance = { factor = 20 }
+		FROM = {
+			define_ruler = {
+				adm = 4
+				mil = 2
+				dip = 2
+				fixed = yes
+			}
+			set_ruler_flag = appointed_by_overlord
+		}
+	}
+	option = {
+		name = warcraft_elections.3.option.b
+		ai_chance = { factor = 20 }
+		FROM = {
+			define_ruler = {
+				adm = 2
+				dip = 4
+				mil = 2
+				fixed = yes
+			}
+			set_ruler_flag = appointed_by_overlord
+		}
+	}
+	option = {
+		name = warcraft_elections.3.option.c
+		ai_chance = { factor = 20 }
+		FROM = {
+			define_ruler = {
+				adm = 2
+				dip = 2
+				mil = 4
+				fixed = yes
+			}	
+			set_ruler_flag = appointed_by_overlord
+		}
+	}
+}
+
+# Dutch Republic
+country_event = {
+	id = warcraft_elections.4
+	title = warcraft_elections.4.title
+	desc = warcraft_elections.4.desc
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		always = no # Change to government
+	}
+	
+	option = {
+		name = warcraft_elections.4.option.a
+		define_ruler = {
+		}
+		change_statists_vs_orangists = 0.33
+	
+	}
+	option = {
+		name = warcraft_elections.4.option.b
+		define_ruler = {
+		}
+		change_statists_vs_orangists = -0.33
+	}
+}
+
+country_event = {
+	id = warcraft_elections.5
+	title = warcraft_elections.5.title
+	desc = warcraft_elections.5.desc
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		always = no # Change to government
+	}
+	
+	option = {
+		name = warcraft_elections.5.option.a
+		define_ruler = {
+		}
+		change_statists_vs_orangists = 0.33
+	
+	}
+	option = {
+		name = warcraft_elections.5.option.a
+		define_ruler = {
+		}
+		change_statists_vs_orangists = -0.33
 	}
 }

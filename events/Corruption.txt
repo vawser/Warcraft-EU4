@@ -1,10 +1,10 @@
-namespace = corruption_events
+namespace = warcraft_corruption
 
 # The Honest Merchants of [Root.GetName]
 country_event = {
-	id = corruption_events.1
-	title = "corruption_events.1.t"
-	desc = "corruption_events.1.d"
+	id = warcraft_corruption.1
+	title = "warcraft_corruption.1.t"
+	desc = "warcraft_corruption.1.d"
 	picture = MERCHANTS_TALKING_eventPicture
 	
 	is_triggered_only = yes
@@ -16,7 +16,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "corruption_events.1.a"
+		name = "warcraft_corruption.1.a"
         
 		add_country_modifier = {
 			name = "trusted_merchants"
@@ -27,9 +27,9 @@ country_event = {
 
 # Trust Your Neighbor
 country_event = {
-	id = corruption_events.2
-	title = "corruption_events.2.t"
-	desc = "corruption_events.2.d"
+	id = warcraft_corruption.2
+	title = "warcraft_corruption.2.t"
+	desc = "warcraft_corruption.2.d"
 	picture = DIPLOMACY_eventPicture
 	
 	is_triggered_only = yes
@@ -40,7 +40,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "corruption_events.2.a"
+		name = "warcraft_corruption.2.a"
 
 		add_stability = 1
 	}
@@ -48,9 +48,9 @@ country_event = {
 
 # Rigorous Researchers
 country_event = {
-	id = corruption_events.3
-	title = "corruption_events.3.t"
-	desc = "corruption_events.3.d"
+	id = warcraft_corruption.3
+	title = "warcraft_corruption.3.t"
+	desc = "warcraft_corruption.3.d"
 	picture = INVENTION_eventPicture
 	
 	is_triggered_only = yes
@@ -61,7 +61,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "corruption_events.3.a"
+		name = "warcraft_corruption.3.a"
 
 		add_adm_power = 40
 		add_dip_power = 40
@@ -71,9 +71,9 @@ country_event = {
 
 # An Honorable People
 country_event = {
-	id = corruption_events.4
-	title = "corruption_events.4.t"
-	desc = "corruption_events.4.d"
+	id = warcraft_corruption.4
+	title = "warcraft_corruption.4.t"
+	desc = "warcraft_corruption.4.d"
 	picture = GOOD_WITH_MONARCH_eventPicture
 	
 	is_triggered_only = yes
@@ -84,7 +84,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "corruption_events.4.a"
+		name = "warcraft_corruption.4.a"
 
 		add_prestige = 20
 	}
@@ -92,9 +92,9 @@ country_event = {
 
 # Incorruptible
 country_event = {
-	id = corruption_events.5
-	title = "corruption_events.5.t"
-	desc = "corruption_events.5.d"
+	id = warcraft_corruption.5
+	title = "warcraft_corruption.5.t"
+	desc = "warcraft_corruption.5.d"
 	picture = ADVISOR_eventPicture
 	
 	is_triggered_only = yes
@@ -113,7 +113,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "corruption_events.5.a"
+		name = "warcraft_corruption.5.a"
 		
 		random_known_country = {
 			limit = {
@@ -134,9 +134,9 @@ country_event = {
 
 # Corrupt Taxmen
 country_event = {
-	id = corruption_events.6
-	title = "corruption_events.6.t"
-	desc = "corruption_events.6.d"
+	id = warcraft_corruption.6
+	title = "warcraft_corruption.6.t"
+	desc = "warcraft_corruption.6.d"
 	picture = CORRUPTION_eventPicture
 	
 	is_triggered_only = yes
@@ -148,14 +148,14 @@ country_event = {
 	
 	# Launch an investigation
 	option = {
-		name = "corruption_events.6.a"
+		name = "warcraft_corruption.6.a"
 
 		add_adm_power = -40
 	}
 
 	# Take the loss
 	option = {
-		name = "corruption_events.6.b"
+		name = "warcraft_corruption.6.b"
 
 		add_years_of_income = -0.25
 	}
@@ -163,9 +163,9 @@ country_event = {
 
 # Corrupt Advisor
 country_event = {
-	id = corruption_events.7
-	title = "corruption_events.7.t"
-	desc = "corruption_events.7.d"
+	id = warcraft_corruption.7
+	title = "warcraft_corruption.7.t"
+	desc = "warcraft_corruption.7.d"
 	picture = CORRUPTION_eventPicture
 	
 	is_triggered_only = yes
@@ -177,14 +177,14 @@ country_event = {
 	}
 	
 	option = {
-		name = "corruption_events.7.a"
+		name = "warcraft_corruption.7.a"
 
 		kill_advisor = random
 		add_prestige = -10
 	}
 
 	option = {
-		name = "corruption_events.7.b"
+		name = "warcraft_corruption.7.b"
 
 		remove_advisor = random
 		add_adm_power = -15
@@ -193,7 +193,7 @@ country_event = {
 	}
 
 	option = {
-		name = "corruption_events.7.c"
+		name = "warcraft_corruption.7.c"
 
 		add_adm_power = -30
 		add_dip_power = -30
@@ -203,9 +203,9 @@ country_event = {
 
 # Wily Smugglers
 country_event = {
-	id = corruption_events.8
-	title = "corruption_events.8.t"
-	desc = "corruption_events.8.d"
+	id = warcraft_corruption.8
+	title = "warcraft_corruption.8.t"
+	desc = "warcraft_corruption.8.d"
 	picture = SHIP_SAILING_eventPicture
 	
 	is_triggered_only = yes
@@ -218,14 +218,14 @@ country_event = {
 	}
 	
 	option = {
-		name = "corruption_events.8.a"
+		name = "warcraft_corruption.8.a"
 
 		add_dip_power = -30
 		add_years_of_income = -0.1
 	}
 
 	option = {
-		name = "corruption_events.8.b"
+		name = "warcraft_corruption.8.b"
 
 		add_country_modifier = {
 			name = "recruited_smugglers"
@@ -236,7 +236,7 @@ country_event = {
 	}
 
 	option = {
-		name = "corruption_events.8.c"
+		name = "warcraft_corruption.8.c"
 
 		add_country_modifier = {
 			name = "smugglers_dominating"
@@ -248,9 +248,9 @@ country_event = {
 
 # [Root.Culture.GetName] Community Distrusts Us
 province_event = {
-	id = corruption_events.9
-	title = "corruption_events.9.t"
-	desc = "corruption_events.9.d"
+	id = warcraft_corruption.9
+	title = "warcraft_corruption.9.t"
+	desc = "warcraft_corruption.9.d"
 	picture = ACCUSATION_eventPicture
 	
 	is_triggered_only = yes
@@ -271,7 +271,7 @@ province_event = {
 	
 	# Apologize, promise to improve
 	option = {
-		name = "corruption_events.9.a"
+		name = "warcraft_corruption.9.a"
 
 		owner = {
 			add_prestige = -10
@@ -284,7 +284,7 @@ province_event = {
 
 	# Reject it as prejudice
 	option = {
-		name = "corruption_events.9.b"
+		name = "warcraft_corruption.9.b"
 
 		owner = {
 			every_owned_province = {
@@ -297,9 +297,9 @@ province_event = {
 
 # Corrupt Ambassador
 country_event = {
-	id = corruption_events.10
-	title = "corruption_events.10.t"
-	desc = "corruption_events.10.d"
+	id = warcraft_corruption.10
+	title = "warcraft_corruption.10.t"
+	desc = "warcraft_corruption.10.d"
 	picture = ACCUSATION_eventPicture
 	
 	is_triggered_only = yes
@@ -311,13 +311,13 @@ country_event = {
 	}
 	
 	option = {
-		name = "corruption_events.10.a"
+		name = "warcraft_corruption.10.a"
 
 		add_dip_power = -30
 	}
 
 	option = {
-		name = "corruption_events.10.b"
+		name = "warcraft_corruption.10.b"
 
 		random_known_country = {
 			limit = { alliance_with = ROOT }
@@ -330,9 +330,9 @@ country_event = {
 }
 
 province_event = {
-	id = corruption_events.11
-	title = "corruption_events.11.t"
-	desc = "corruption_events.11.d"
+	id = warcraft_corruption.11
+	title = "warcraft_corruption.11.t"
+	desc = "warcraft_corruption.11.d"
 	picture = HARBOUR_eventPicture
 	
 	is_triggered_only = yes
@@ -342,7 +342,7 @@ province_event = {
 	}
 	
 	option = {
-		name = "corruption_events.11.a"
+		name = "warcraft_corruption.11.a"
 
 		owner = {
 			every_owned_province = {
@@ -358,9 +358,9 @@ province_event = {
 
 # Corrupt Officers
 country_event = {
-	id = corruption_events.12
-	title = "corruption_events.12.t"
-	desc = "corruption_events.12.d"
+	id = warcraft_corruption.12
+	title = "warcraft_corruption.12.t"
+	desc = "warcraft_corruption.12.d"
 	picture = CORRUPTION_eventPicture
 	
 	is_triggered_only = yes
@@ -370,7 +370,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "corruption_events.12.a"
+		name = "warcraft_corruption.12.a"
 
 		add_army_tradition = -10
 	}
@@ -378,9 +378,9 @@ country_event = {
 
 # Corrupt Admirals
 country_event = {
-	id = corruption_events.13
-	title = "corruption_events.13.t"
-	desc = "corruption_events.13.d"
+	id = warcraft_corruption.13
+	title = "warcraft_corruption.13.t"
+	desc = "warcraft_corruption.13.d"
 	picture = CORRUPTION_eventPicture
 
 	is_triggered_only = yes
@@ -392,7 +392,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "corruption_events.13.a"
+		name = "warcraft_corruption.13.a"
 
 		add_navy_tradition = -10
 	}
@@ -400,9 +400,9 @@ country_event = {
 
 # Merchants Distrust Us
 country_event = {
-	id = corruption_events.14
-	title = "corruption_events.14.t"
-	desc = "corruption_events.14.d"
+	id = warcraft_corruption.14
+	title = "warcraft_corruption.14.t"
+	desc = "warcraft_corruption.14.d"
 	picture = CORRUPTION_eventPicture
 	
 	is_triggered_only = yes
@@ -413,7 +413,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "corruption_events.14.a"
+		name = "warcraft_corruption.14.a"
 
 		add_country_modifier = {
 			name = "distrusted_merchants"
@@ -424,9 +424,9 @@ country_event = {
 
 # Governmental Functions Breaking Down
 country_event = {
-	id = corruption_events.15
-	title = "corruption_events.15.t"
-	desc = "corruption_events.15.d"
+	id = warcraft_corruption.15
+	title = "warcraft_corruption.15.t"
+	desc = "warcraft_corruption.15.d"
 	picture = BANKRUPCY_eventPicture
 	
 	is_triggered_only = yes
@@ -436,7 +436,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "corruption_events.15.a"
+		name = "warcraft_corruption.15.a"
 
 		add_stability = -1
 	}
@@ -446,9 +446,9 @@ country_event = {
 
 # Mercenaris Extorting Locals
 country_event = {
-	id = corruption_events.16
-	title = "corruption_events.16.t"
-	desc = "corruption_events.16.d"
+	id = warcraft_corruption.16
+	title = "warcraft_corruption.16.t"
+	desc = "warcraft_corruption.16.d"
 	picture = BORDER_TENSION_eventPicture
 	
 	is_triggered_only = yes
@@ -459,13 +459,13 @@ country_event = {
 	}
 	
 	option = {
-		name = "corruption_events.16.a"
+		name = "warcraft_corruption.16.a"
 
 		add_mil_power = -50
 	}
 
 	option = {
-		name = "corruption_events.16.b"
+		name = "warcraft_corruption.16.b"
 
 		add_corruption = 1
 	}
@@ -473,9 +473,9 @@ country_event = {
 
 # Incompetent Administrator
 country_event = {
-	id = corruption_events.17
-	title = "corruption_events.17.t"
-	desc = "corruption_events.17.d"
+	id = warcraft_corruption.17
+	title = "warcraft_corruption.17.t"
+	desc = "warcraft_corruption.17.d"
 	picture = BAD_WITH_MONARCH_eventPicture
 	
 	is_triggered_only = yes
@@ -485,7 +485,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "corruption_events.17.a"
+		name = "warcraft_corruption.17.a"
 
 		add_corruption = 0.5
 	}
@@ -493,9 +493,9 @@ country_event = {
 
 # Overextension Exploited
 country_event = {
-	id = corruption_events.18
-	title = "corruption_events.18.t"
-	desc = "corruption_events.18.d"
+	id = warcraft_corruption.18
+	title = "warcraft_corruption.18.t"
+	desc = "warcraft_corruption.18.d"
 	picture = OVEREXTENSION_eventPicture
 	
 	is_triggered_only = yes
@@ -505,7 +505,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "corruption_events.18.a"
+		name = "warcraft_corruption.18.a"
     
 		add_corruption = 1
 	}
@@ -513,9 +513,9 @@ country_event = {
 
 # $TRADER$ has Corrupt Connections
 country_event = {
-	id = corruption_events.19
-	title = "corruption_events.19.t"
-	desc = "corruption_events.19.d"
+	id = warcraft_corruption.19
+	title = "warcraft_corruption.19.t"
+	desc = "warcraft_corruption.19.d"
 	picture = BAD_WITH_MONARCH_eventPicture
 	
 	is_triggered_only = yes
@@ -525,7 +525,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "corruption_events.19.a"
+		name = "warcraft_corruption.19.a"
 
 		remove_advisor = trader
 		add_country_modifier = {
@@ -535,7 +535,7 @@ country_event = {
 	}
 
 	option = {
-		name = "corruption_events.19.b"
+		name = "warcraft_corruption.19.b"
 
 		add_corruption = 0.5
 	}
@@ -543,15 +543,15 @@ country_event = {
 
 # Bribes Growing More Accepted
 country_event = {
-	id = corruption_events.20
-	title = "corruption_events.20.t"
-	desc = "corruption_events.20.d"
+	id = warcraft_corruption.20
+	title = "warcraft_corruption.20.t"
+	desc = "warcraft_corruption.20.d"
 	picture = CORRUPTION_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "corruption_events.20.a"
+		name = "warcraft_corruption.20.a"
 
 		add_corruption = 0.5
 	}

@@ -103,7 +103,6 @@ phlogiston = {
 			is_capital = yes
 			normal_or_historical_nations = no
 		}
-        NOT = { is_lesser = yes }
 	}
 	start_chance = 5		#in 100 for when a province can_start
 	on_start = warcraft_institution_events.100
@@ -267,7 +266,6 @@ clockwerk_engineering = {
 			is_capital = yes
 			normal_or_historical_nations = no
 		}
-        NOT = { is_lesser = yes }
 	}
 	start_chance = 5		#in 100 for when a province can_start
 	on_start = warcraft_institution_events.200
@@ -431,7 +429,6 @@ boomsticks = {
 			is_capital = yes
 			normal_or_historical_nations = no
 		}
-        NOT = { is_lesser = yes }
 	}
 	start_chance = 5		#in 100 for when a province can_start
 	on_start = warcraft_institution_events.300
@@ -594,7 +591,6 @@ oil_extraction = {
 			is_capital = yes
 			normal_or_historical_nations = no
 		}
-        NOT = { is_lesser = yes }
 	}
 	start_chance = 5		#in 100 for when a province can_start
 	on_start = warcraft_institution_events.400
@@ -758,7 +754,6 @@ mechanical_constructs = {
 			is_capital = yes
 			normal_or_historical_nations = no
 		}
-        NOT = { is_lesser = yes }
 	}
 	start_chance = 5		#in 100 for when a province can_start
 	on_start = warcraft_institution_events.500
@@ -921,7 +916,6 @@ pneumatics = {
 			is_capital = yes
 			normal_or_historical_nations = no
 		}
-        NOT = { is_lesser = yes }
 	}
 	start_chance = 5		#in 100 for when a province can_start
 	on_start = warcraft_institution_events.600

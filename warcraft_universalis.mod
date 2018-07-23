@@ -52,6 +52,9 @@ replace_path="common/trade_companies"
 replace_path="common/tradenodes"
 replace_path="common/units"
 replace_path="common/wargoal_types"
+replace_path="common/scripted_effects"
+replace_path="common/scripted_triggers"
+
 
 replace_path="history/provinces"
 replace_path="history/countries"

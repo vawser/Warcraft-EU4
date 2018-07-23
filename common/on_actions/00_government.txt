@@ -1,53 +1,53 @@
 # Government
 on_new_term_election = {
     events = {
-        election_events.1
+        warcraft_elections.1
+        warcraft_elections.4
     }
 }
 
 on_death_election = {
     events = {
-        election_events.2
+        warcraft_elections.2
+        warcraft_elections.5
     }
 }
 
 on_weak_heir_claim = {
     events = {
-        pretender_events.1
+        warcraft_pretender.1
     }
+}
+
+on_government_change = { 
+    government_change_effect = yes
 }
 
 on_heir_death = {
-    if = {
-        limit = { has_country_flag = heir_dip_education }
-        clr_ruler_flag = heir_dip_education
-    }
-    if = {
-        limit = { has_country_flag = heir_mil_education }
-        clr_ruler_flag = heir_mil_education
-    }
-    if = {
-        limit = { has_country_flag = heir_adm_education }
-        clr_ruler_flag = heir_adm_education
-    }
-    if = {
-        limit = { has_ruler_flag = well_advised_tutored_heir }
-        clr_ruler_flag = well_advised_tutored_heir
-    }
-    if = {
-        limit = { has_ruler_flag = heir_went_on_grand_tour }
-        clr_ruler_flag = heir_went_on_grand_tour
+    heir_death_effect = yes
+}
+
+on_new_monarch = { 
+    new_monarch_effect = yes
+    succession_culture_religion_effect = yes
+    
+    events = {
+        warcraft_dynastic.21
     }
 }
 
-on_new_monarch = { }
-on_new_consort = { }
+on_new_consort = { 
+    new_consort_effect = yes
+}
+
+on_queen_death = { 
+    queen_death_effect = yes
+}
+
 on_new_heir = { }
 on_monarch_death = { }
-on_queen_death = { }
 on_heir_needed_theocracy = { }
 on_regent = { }
-on_government_change = { }
 on_native_change_government = { }
 on_death_has_harem = { }
 on_select_heir_from_harem = { }

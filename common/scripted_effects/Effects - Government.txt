@@ -1,3 +1,4 @@
+# Effects
 save_government_type = {
     if = { limit = { government = administrative_kingdom } set_country_flag = administrative_kingdom }
     else_if = { limit = { government = mercantile_kingdom } set_country_flag = mercantile_kingdom }

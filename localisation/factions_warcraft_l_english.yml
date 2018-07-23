@@ -2,55 +2,55 @@
  #-----------------------------------------------
  # Events
  #-----------------------------------------------
- faction_events.100.title: "Formation of the Grand Alliance"
- faction_events.100.desc: "The orcish hordes have destroyed Stormwind and threaten to advance northwards. [Root.Monarch.GetTitle] [Root.Monarch.GetName] has urged the leaders of the human kingdoms to unite under one banner, a grand alliance of sorts."
- faction_events.100.option.a: "For Azeroth!"
+ warcraft_factions.100.title: "Formation of the Grand Alliance"
+ warcraft_factions.100.desc: "The orcish hordes have destroyed Stormwind and threaten to advance northwards. [Root.Monarch.GetTitle] [Root.Monarch.GetName] has urged the leaders of the human kingdoms to unite under one banner, a grand alliance of sorts."
+ warcraft_factions.100.option.a: "For Azeroth!"
  
- faction_events.101: "A New Leader for the Alliance"
- faction_events.101.desc: "Our former leader has passed on, and so a new ruler must take hold of the reigns of the Alliance."
- faction_events.101.option.a: "Hurrah"
+ warcraft_factions.101: "A New Leader for the Alliance"
+ warcraft_factions.101.desc: "Our former leader has passed on, and so a new ruler must take hold of the reigns of the Alliance."
+ warcraft_factions.101.option.a: "Hurrah"
  
- faction_events.102.title: "Formation of the Horde"
- faction_events.102.desc: ""
- faction_events.102.option.a: "Zug zug!"
+ warcraft_factions.102.title: "Formation of the Horde"
+ warcraft_factions.102.desc: ""
+ warcraft_factions.102.option.a: "Zug zug!"
  
- faction_events.103: "A New Leader for the Horde"
- faction_events.103.desc: "Our former leader has passed on, and so a new ruler must take hold of the reigns of the Horde."
- faction_events.103.option.a: "Hurrah"
+ warcraft_factions.103: "A New Leader for the Horde"
+ warcraft_factions.103.desc: "Our former leader has passed on, and so a new ruler must take hold of the reigns of the Horde."
+ warcraft_factions.103.option.a: "Hurrah"
  
- faction_events.1.title: "Kicked out of the Alliance"
- faction_events.1.desc: "It would appear we have offended the delicate sensibilities of our fellow members of the Alliance. After our recent change of moral alignment, we have been kicked out."
- faction_events.1.option.a: "Those fools are doomed anyway."
+ warcraft_factions.1.title: "Kicked out of the Alliance"
+ warcraft_factions.1.desc: "It would appear we have offended the delicate sensibilities of our fellow members of the Alliance. After our recent change of moral alignment, we have been kicked out."
+ warcraft_factions.1.option.a: "Those fools are doomed anyway."
  
- faction_events.2.title: "Forced out of the Alliance"
- faction_events.2.desc: "We no longer have control of our foreign relations, and as such can no longer claim to be true members of the Alliance."
- faction_events.2.option.a: "A shame things had to end this way."
+ warcraft_factions.2.title: "Forced out of the Alliance"
+ warcraft_factions.2.desc: "We no longer have control of our foreign relations, and as such can no longer claim to be true members of the Alliance."
+ warcraft_factions.2.option.a: "A shame things had to end this way."
  
- faction_events.3.title: "Kicked out of the Horde"
- faction_events.3.desc: "It would appear we have offended the delicate sensibilities of our fellow members of the Horde. After our recent change of moral alignment, we have been kicked out."
- faction_events.3.option.a: "Those fools are doomed anyway."
+ warcraft_factions.3.title: "Kicked out of the Horde"
+ warcraft_factions.3.desc: "It would appear we have offended the delicate sensibilities of our fellow members of the Horde. After our recent change of moral alignment, we have been kicked out."
+ warcraft_factions.3.option.a: "Those fools are doomed anyway."
  
- faction_events.4.title: "Forced out of the Horde"
- faction_events.4.desc: "We no longer have control of our foreign relations, and as such can no longer claim to be true members of the Horde."
- faction_events.4.option.a: "A shame things had to end this way."
+ warcraft_factions.4.title: "Forced out of the Horde"
+ warcraft_factions.4.desc: "We no longer have control of our foreign relations, and as such can no longer claim to be true members of the Horde."
+ warcraft_factions.4.option.a: "A shame things had to end this way."
  
- faction_events.5.title: "A New Leader for the Alliance"
- faction_events.5.desc: "With the head of the Alliance's passing, a new leader has ascended to guide the people of the Alliance forward."
- faction_events.5.option.a: "May the Alliance Flourish!"
+ warcraft_factions.5.title: "A New Leader for the Alliance"
+ warcraft_factions.5.desc: "With the head of the Alliance's passing, a new leader has ascended to guide the people of the Alliance forward."
+ warcraft_factions.5.option.a: "May the Alliance Flourish!"
  
- faction_events.6.title: "A New Leader for the Horde"
- faction_events.6.desc: "With the Warchief's passing, a new leader has ascended to lead the Horde."
- faction_events.6.option.a: "Long live the Warchief!"
+ warcraft_factions.6.title: "A New Leader for the Horde"
+ warcraft_factions.6.desc: "With the Warchief's passing, a new leader has ascended to lead the Horde."
+ warcraft_factions.6.option.a: "Long live the Warchief!"
  
- faction_events.10.title: "[event_target:current_leader.Monarch.GetName] demands soldiers"
- faction_events.10.desc: "The [event_target:current_leader.Monarch.GetTitle] of [event_target:current_leader.GetName], the leader of the Alliance is demanding soldiers from our reserves to fight in imminent conflicts."
- faction_events.10.option.a: "Send the soldiers"
- faction_events.10.option.b: "Ignore [event_target:current_leader.Monarch.GetHerHis] order"
+ warcraft_factions.10.title: "[event_target:current_leader.Monarch.GetName] demands soldiers"
+ warcraft_factions.10.desc: "The [event_target:current_leader.Monarch.GetTitle] of [event_target:current_leader.GetName], the leader of the Alliance is demanding soldiers from our reserves to fight in imminent conflicts."
+ warcraft_factions.10.option.a: "Send the soldiers"
+ warcraft_factions.10.option.b: "Ignore [event_target:current_leader.Monarch.GetHerHis] order"
  
- faction_events.11.title: "[event_target:current_leader.Monarch.GetName] demands soldiers"
- faction_events.11.desc: "The [event_target:current_leader.Monarch.GetTitle] of [event_target:current_leader.GetName], the leader of the Horde is demanding soldiers from our reserves to fight in imminent conflicts."
- faction_events.11.option.a: "Send the soldiers"
- faction_events.11.option.b: "Ignore [event_target:current_leader.Monarch.GetHerHis] order"
+ warcraft_factions.11.title: "[event_target:current_leader.Monarch.GetName] demands soldiers"
+ warcraft_factions.11.desc: "The [event_target:current_leader.Monarch.GetTitle] of [event_target:current_leader.GetName], the leader of the Horde is demanding soldiers from our reserves to fight in imminent conflicts."
+ warcraft_factions.11.option.a: "Send the soldiers"
+ warcraft_factions.11.option.b: "Ignore [event_target:current_leader.Monarch.GetHerHis] order"
  
  #------------------------------------------------
  # Event Modifiers

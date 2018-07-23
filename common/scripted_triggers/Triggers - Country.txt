@@ -1,4 +1,4 @@
-﻿
+# Triggers
 is_civilized = {
     OR = {
         culture_group = azerothian_group

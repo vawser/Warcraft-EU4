@@ -1,15 +1,56 @@
-﻿
+# Triggers
 is_vunerable_to_illness = {
     NOT = { has_ruler_modifier = immense_magical_power }
+    NOT = { culture_group = draenei_group }
+    NOT = { culture_group = broken_group }
+    
+    NOT = { culture_group = red_dragonflight_group }
+    NOT = { culture_group = green_dragonflight_group }
+    NOT = { culture_group = black_dragonflight_group }
+    NOT = { culture_group = blue_dragonflight_group }
+    NOT = { culture_group = bronze_dragonflight_group }
+
+    NOT = { culture_group = dryad_group }
+    NOT = { culture_group = crystal_nymph_group }
+    NOT = { culture_group = frost_nymph_group }
+    
+    NOT = { culture_group = earthen_group }
+    NOT = { culture_group = titan_group }
+    NOT = { culture_group = tolvir_group }
+    NOT = { culture_group = undead_group }
 }
 
 is_short_lived = {
-
+    is_vunerable_to_illness = yes
+    NOT = { culture_group = dwarf_group }
+    NOT = { culture_group = furbolg_group }
+    NOT = { culture_group = night_elf_group }
+    NOT = { culture_group = high_elf_group }
+    NOT = { culture_group = pandaren_group }
 }
 
 is_long_lived = {
     OR = {
         has_ruler_modifier = immense_magical_power
+        culture_group = draenei_group
+        culture_group = broken_group 
+        culture_group = red_dragonflight_group
+        culture_group = green_dragonflight_group
+        culture_group = black_dragonflight_group
+        culture_group = blue_dragonflight_group
+        culture_group = bronze_dragonflight_group
+        culture_group = dryad_group
+        culture_group = crystal_nymph_group
+        culture_group = frost_nymph_group  
+        culture_group = earthen_group
+        culture_group = titan_group
+        culture_group = tolvir_group
+        culture_group = undead_group
+        culture_group = dwarf_group
+        culture_group = furbolg_group
+        culture_group = night_elf_group
+        culture_group = high_elf_group
+        culture_group = pandaren_group
     }
 }
 

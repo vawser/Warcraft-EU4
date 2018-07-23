@@ -1,9 +1,9 @@
-namespace = attunement_events
+namespace = warcraft_attunement
 
 country_event = {
-	id = attunement_events.1
-	title = attunement_events.1.title
-	desc = attunement_events.1.desc
+	id = warcraft_attunement.1
+	title = warcraft_attunement.1.title
+	desc = warcraft_attunement.1.desc
 	picture = MAGI_eventPicture
 
 	trigger = {
@@ -15,7 +15,7 @@ country_event = {
     }
     
 	option = {
-		name = attunement_events.1.option.a
+		name = warcraft_attunement.1.option.a
         
         add_adm_power = -33
         add_dip_power = -33
@@ -29,7 +29,7 @@ country_event = {
     }
     
     option = {
-		name = attunement_events.1.option.b
+		name = warcraft_attunement.1.option.b
 
         add_patriarch_authority = -0.25
         
@@ -40,9 +40,9 @@ country_event = {
 }
 
 country_event = {
-	id = attunement_events.2
-	title = attunement_events.2.title
-	desc = attunement_events.2.desc
+	id = warcraft_attunement.2
+	title = warcraft_attunement.2.title
+	desc = warcraft_attunement.2.desc
 	picture = MAGI_eventPicture
     
 	trigger = {
@@ -54,16 +54,16 @@ country_event = {
     }
     
 	option = {
-		name = attunement_events.2.option.a
+		name = warcraft_attunement.2.option.a
         
         add_patriarch_authority = 0.1
     }
 }
 
 country_event = {
-	id = attunement_events.3
-	title = attunement_events.3.title
-	desc = attunement_events.3.desc
+	id = warcraft_attunement.3
+	title = warcraft_attunement.3.title
+	desc = warcraft_attunement.3.desc
 	picture = MAGI_eventPicture
 
 	trigger = {
@@ -75,7 +75,7 @@ country_event = {
     }
     
 	option = {
-		name = attunement_events.3.option.a
+		name = warcraft_attunement.3.option.a
         
         add_patriarch_authority = -0.1
     }

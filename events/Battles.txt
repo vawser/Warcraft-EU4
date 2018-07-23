@@ -1,0 +1,50 @@
+namespace = warcraft_battles
+
+#title: $FROMCOUNTRY$ has humiliated us!
+#desc: Our poor performance during a recent battle has brought $MONARCH$ $MONARCHTITLE$'s legitimacy into question.
+#1: Damn them!
+country_event = {
+	id = warcraft_battles.1
+	title = warcraft_battles.1.title
+	desc = warcraft_battles.1.desc
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { tag = REB }
+	}
+	
+	option = {
+		name = warcraft_battles.1.option.a
+		
+		add_legitimacy = -5
+		add_prestige = -5
+        
+        FROM = { country_event = { id = warcraft_battles.2 } }
+	}
+}
+
+#title: We humiliated $FROMCOUNTRY$
+#desc: Our excellent performance during a recent battle has given the legitimacy of $MONARCH$ $MONARCHTITLE$'s rule a much needed bolster among [Root.Monarch.GetHerHis] people. 
+#1: Wonderful!
+country_event = {
+	id = warcraft_battles.2
+	title = warcraft_battles.2.title
+	desc = warcraft_battles.2.desc
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { FROM = { tag = REB } }
+	}
+	
+	option = {
+		name = warcraft_battles.2.option.a
+		
+		add_legitimacy = 5
+		add_prestige = 5
+	}
+}
+

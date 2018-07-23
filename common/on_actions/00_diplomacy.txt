@@ -10,13 +10,13 @@ on_gain_great_power_status = {
 
 on_diplomatic_annex = {
     events = {
-        intergration_events.1
+        warcraft_intergration.1
     }
 }
 
 on_integrate = {
     events = {
-        intergration_events.1
+        warcraft_intergration.1
     }
 }
 

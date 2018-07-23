@@ -1,10 +1,10 @@
-# namespace = faction_events
+# namespace = warcraft_factions
 
 # # Formation of the Grand Alliance
 # country_event = {
-	# id = faction_events.100
-	# title = faction_events.100.title
-	# desc = faction_events.100.desc
+	# id = warcraft_factions.100
+	# title = warcraft_factions.100.title
+	# desc = warcraft_factions.100.desc
 	# picture = LOTHAR_FIRE_eventPicture
 
 	# major = yes
@@ -20,7 +20,7 @@
 	# }
     
 	# option = {
-		# name = faction_events.100.option.a
+		# name = warcraft_factions.100.option.a
 		
         # if = { limit = { exists = LOR } LOR = { add_alliance_membership = yes } } # Lordaeron
         # if = { limit = { exists = STW } STW = { add_alliance_membership = yes } } # Stormwind
@@ -53,9 +53,9 @@
 
 # # A New Leader! (Alliance)
 # country_event = {
-	# id = faction_events.101
-	# title = faction_events.101.title
-	# desc = faction_events.101.desc
+	# id = warcraft_factions.101
+	# title = warcraft_factions.101.title
+	# desc = warcraft_factions.101.desc
 	# picture = LOTHAR_FIRE_eventPicture
 
 	# major = yes
@@ -74,7 +74,7 @@
 	# }
     
 	# option = {
-		# name = faction_events.101.option.a
+		# name = warcraft_factions.101.option.a
 		
         # random_country = {
             # limit = {
@@ -100,9 +100,9 @@
 
 # # Formation of the Horde
 # country_event = {
-	# id = faction_events.102
-	# title = faction_events.102.title
-	# desc = faction_events.102.desc
+	# id = warcraft_factions.102
+	# title = warcraft_factions.102.title
+	# desc = warcraft_factions.102.desc
 	# picture = BLOODLUST_eventPicture
 
 	# major = yes
@@ -117,7 +117,7 @@
 	# }
     
 	# option = {
-		# name = faction_events.102.option.a
+		# name = warcraft_factions.102.option.a
 		
         # if = { limit = { exists = ORG } ORG = { add_horde_membership = yes } } # Lordaeron
         
@@ -138,9 +138,9 @@
 
 # # A New Leader! (Horde)
 # country_event = {
-	# id = faction_events.103
-	# title = faction_events.103.title
-	# desc = faction_events.103.desc
+	# id = warcraft_factions.103
+	# title = warcraft_factions.103.title
+	# desc = warcraft_factions.103.desc
 	# picture = BLOODLUST_eventPicture
 
 	# major = yes
@@ -159,7 +159,7 @@
 	# }
     
 	# option = {
-		# name = faction_events.103.option.a
+		# name = warcraft_factions.103.option.a
 		
         # random_country = {
             # limit = {
@@ -185,9 +185,9 @@
 
 # # Kicked out of the Alliance
 # country_event = {
-	# id = faction_events.1
-	# title = faction_events.1.title
-	# desc = faction_events.1.desc
+	# id = warcraft_factions.1
+	# title = warcraft_factions.1.title
+	# desc = warcraft_factions.1.desc
 	# picture = LOTHAR_FIRE_eventPicture
 
 	# major = yes
@@ -212,7 +212,7 @@
 	# }
 
 	# option = {
-		# name = faction_events.1.option.a
+		# name = warcraft_factions.1.option.a
        
         # remove_alliance_membership = yes
         # update_alliance_opinion_modifiers = yes
@@ -221,9 +221,9 @@
 
 # # Forced out of the Alliance
 # country_event = {
-	# id = faction_events.2
-	# title = faction_events.2.title
-	# desc = faction_events.2.desc
+	# id = warcraft_factions.2
+	# title = warcraft_factions.2.title
+	# desc = warcraft_factions.2.desc
 	# picture = LOTHAR_FIRE_eventPicture
 
 	# major = yes
@@ -238,7 +238,7 @@
 	# }
 
 	# option = {
-		# name = faction_events.2.option.a
+		# name = warcraft_factions.2.option.a
        
         # remove_alliance_membership = yes
         # update_alliance_opinion_modifiers = yes
@@ -247,9 +247,9 @@
 
 # # Kicked out of the Horde
 # country_event = {
-	# id = faction_events.3
-	# title = faction_events.3.title
-	# desc = faction_events.3.desc
+	# id = warcraft_factions.3
+	# title = warcraft_factions.3.title
+	# desc = warcraft_factions.3.desc
 	# picture = INTERNMENT_CAMP_eventPicture
 
 	# major = yes
@@ -274,7 +274,7 @@
 	# }
 
 	# option = {
-		# name = faction_events.3.option.a
+		# name = warcraft_factions.3.option.a
 
         # remove_horde_membership = yes
         # update_horde_opinion_modifiers = yes
@@ -283,9 +283,9 @@
 
 # # Forced out of the Horde
 # country_event = {
-	# id = faction_events.4
-	# title = faction_events.4.title
-	# desc = faction_events.4.desc
+	# id = warcraft_factions.4
+	# title = warcraft_factions.4.title
+	# desc = warcraft_factions.4.desc
 	# picture = INTERNMENT_CAMP_eventPicture
 
 	# major = yes
@@ -300,7 +300,7 @@
 	# }
 
 	# option = {
-		# name = faction_events.4.option.a
+		# name = warcraft_factions.4.option.a
 		
         # remove_horde_membership = yes
         # update_horde_opinion_modifiers = yes
@@ -309,9 +309,9 @@
 
 # # Opinion update
 # country_event = {
-	# id = faction_events.1000
-	# title = faction_events.1000.title
-	# desc = faction_events.1000.desc
+	# id = warcraft_factions.1000
+	# title = warcraft_factions.1000.title
+	# desc = warcraft_factions.1000.desc
 	# picture = INTERNMENT_CAMP_eventPicture
 
 	# hidden = yes
@@ -324,16 +324,16 @@
 	# }
     
 	# option = {
-		# name = faction_events.1000.option.a
+		# name = warcraft_factions.1000.option.a
        
         # update_alliance_opinion_modifiers = yes
 	# }
 # }
 
 # country_event = {
-	# id = faction_events.1001
-	# title = faction_events.1001.title
-	# desc = faction_events.1001.desc
+	# id = warcraft_factions.1001
+	# title = warcraft_factions.1001.title
+	# desc = warcraft_factions.1001.desc
 	# picture = INTERNMENT_CAMP_eventPicture
 
 	# hidden = yes
@@ -346,7 +346,7 @@
 	# }
     
 	# option = {
-		# name = faction_events.1001.option.a
+		# name = warcraft_factions.1001.option.a
 		
         # update_horde_opinion_modifiers = yes
 	# }
@@ -355,9 +355,9 @@
 # # ---- Flavor ----
 # # [event_target:current_leader] demands soldiers
 # country_event = {
-	# id = faction_events.10
-	# title = faction_events.10.title
-	# desc = faction_events.10.desc
+	# id = warcraft_factions.10
+	# title = warcraft_factions.10.title
+	# desc = warcraft_factions.10.desc
 	# picture = DWARVENARMY_eventPicture
 
     # is_triggered_only = yes
@@ -376,7 +376,7 @@
     # }
     
 	# option = {
-		# name = faction_events.10.option.a
+		# name = warcraft_factions.10.option.a
 		
         # add_country_modifier = {
             # name = diminished_reserves
@@ -389,7 +389,7 @@
 	# }
     
     # option = {
-		# name = faction_events.10.option.b
+		# name = warcraft_factions.10.option.b
        
         # event_target:current_leader = {
             # reverse_add_opinion = {
@@ -402,9 +402,9 @@
 
 # # [event_target:current_leader] demands soldiers
 # country_event = {
-	# id = faction_events.11
-	# title = faction_events.11.title
-	# desc = faction_events.11.desc
+	# id = warcraft_factions.11
+	# title = warcraft_factions.11.title
+	# desc = warcraft_factions.11.desc
 	# picture = ORC_THRONE_eventPicture
 
     # is_triggered_only = yes
@@ -423,7 +423,7 @@
     # }
     
 	# option = {
-		# name = faction_events.11.option.a
+		# name = warcraft_factions.11.option.a
 
         # add_country_modifier = {
             # name = diminished_reserves
@@ -436,7 +436,7 @@
 	# }
     
     # option = {
-		# name = faction_events.11.option.b
+		# name = warcraft_factions.11.option.b
 
         # event_target:current_leader = {
             # reverse_add_opinion = {

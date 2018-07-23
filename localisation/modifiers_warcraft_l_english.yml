@@ -2,6 +2,9 @@
  #-----------------------------------------------
  # Event Modifiers
  #-----------------------------------------------
+ tyrannical_ruler: "Absolute Ruler"
+ desc_tyrannical_ruler: "This ruler believes in violence over debate."
+ 
  sexually_frustrated: "Sexually Frustrated"
  desc_sexually_frustrated: "We have denied the people of this settlement an outlet for their carnal desires."
  

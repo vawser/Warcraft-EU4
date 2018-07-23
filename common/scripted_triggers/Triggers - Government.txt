@@ -1,4 +1,4 @@
-﻿
+# Triggers
 is_kingdom = {
     OR = {
         government = administrative_kingdom

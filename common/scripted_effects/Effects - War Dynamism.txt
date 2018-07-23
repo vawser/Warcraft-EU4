@@ -1,4 +1,4 @@
-
+# Effects
 cede_province_fully = {
     cede_province = PREV
     add_core = PREV

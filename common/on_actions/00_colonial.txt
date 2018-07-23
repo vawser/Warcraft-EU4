@@ -1,5 +1,23 @@
 # Colonial
-on_replace_governor = { }
+on_colonial_pulse = { 
+    random_events = {
+		100 = warcraft_colonial.1
+		100 = warcraft_colonial.2
+		100 = warcraft_colonial.3
+		100 = warcraft_colonial.4
+		100 = warcraft_colonial.5
+		100 = warcraft_colonial.6
+		100 = warcraft_colonial.7
+		100 = warcraft_colonial.8
+		10000 = 0
+	}
+}
+
+on_replace_governor = {
+    events = {
+        warcraft_elections.3
+    }
+}
 
 on_added_to_trade_company = { } # ROOT = Province, FROM = Actor
 on_removed_from_company = { }   # ROOT = Province, FROM = Actor
@@ -8,7 +26,6 @@ on_company_disolved = { }       # ROOT = Province, FROM = Actor
 on_abandon_colony = { }         # ROOT = Province, FROM = Actor
 
 on_siberian_pulse = { }
-on_colonial_pulse = { }
 
 on_explore_coast = { }
 on_conquistador_empty = { }
