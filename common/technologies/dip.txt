@@ -119,8 +119,6 @@ technology = {
 	year = 906
 	
 	trade_efficiency = 0.05
-
-	enable = transport_13
 }
 # 14
 technology = {
