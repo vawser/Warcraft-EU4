@@ -1,0 +1,37 @@
+# The Scourge (Northrend)
+government 			= scourge_horde
+mercantilism 		= 10 
+technology_group 	= tech_scourge
+religion			= cult_of_the_damned
+primary_culture     = scourge
+capital = 1
+
+841.1.1 = { 
+	monarch = {
+		name = "Ner'zhul"
+		dynasty = "Shadowmoon" 	
+		adm = 6
+		dip = 5	
+		mil = 1	
+	}  
+}
+
+926.1.1 = { 
+	monarch = {
+		name = "Arthas" 
+		dynasty = "Menethil" 	
+		adm = 5
+		dip = 3
+		mil = 6
+	}  
+}
+
+971.1.1 = { 
+	monarch = {
+		name = "Bolvar" 
+		dynasty = "Fordragon" 	
+		adm = 5
+		dip = 3	
+		mil = 4
+	}
+}

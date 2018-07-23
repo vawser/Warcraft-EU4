@@ -1,0 +1,46 @@
+# Bloodhoof
+government 			= mercantile_tribe
+mercantilism 		= 10
+technology_group 	= tech_tauren
+religion			= shamanism
+primary_culture 	= bloodhoof
+capital = 1
+
+546.1.1 = {
+	monarch = {
+		name = "Dain" 
+		dynasty = "Bloodhoof" 
+		adm = 3
+		dip = 2
+		mil = 2
+ 	}
+}
+
+776.1.1 = {
+	monarch = {
+		name = "Cairne" 
+		dynasty = "Bloodhoof" 
+		adm = 3
+		dip = 4
+		mil = 2
+ 	}
+}
+
+901.1.1 = {
+    historical_friend = ORG # Orgrimmar
+    historical_friend = DSR # Darkspear
+}
+
+906.1.1 = {
+	capital = 1
+}
+
+971.1.1 = {
+	monarch = {
+		name = "Baine" 
+		dynasty = "Bloodhoof" 
+		adm = 3
+		dip = 3
+		mil = 3
+ 	}
+}

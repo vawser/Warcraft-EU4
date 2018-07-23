@@ -1,0 +1,61 @@
+technology_group = tech_wolvar
+government = war_tribe
+primary_culture = bloodpaw
+religion = shamanism
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Jekmok"
+        dynasty = "Moldweald"
+        adm = 0
+        dip = 1
+        mil = 5
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Rakjak"
+        dynasty = "Thornpine"
+        adm = 5
+        dip = 3
+        mil = 4
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Jakjik"
+        dynasty = "Thornbite"
+        adm = 5
+        dip = 5
+        mil = 4
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Gekjak"
+        dynasty = "Snarlmaw"
+        adm = 5
+        dip = 4
+        mil = 5
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Jekrak"
+        dynasty = "Huskfang"
+        adm = 2
+        dip = 3
+        mil = 0
+    }
+}

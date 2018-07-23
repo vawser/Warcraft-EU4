@@ -1,0 +1,61 @@
+technology_group = tech_tauren
+government = tauren_camp
+primary_culture = whitehoof
+religion = earth_mother
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Ceietha"
+        dynasty = "Runerunner"
+        adm = 3
+        dip = 5
+        mil = 1
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Porhum"
+        dynasty = "Grimmane"
+        adm = 2
+        dip = 1
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Vonetha"
+        dynasty = "Winterstrider"
+        adm = 0
+        dip = 4
+        mil = 2
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Perdez"
+        dynasty = "Dawnchaser"
+        adm = 2
+        dip = 1
+        mil = 1
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Coat"
+        dynasty = "Runetotem"
+        adm = 2
+        dip = 5
+        mil = 0
+    }
+}

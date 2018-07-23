@@ -1,0 +1,61 @@
+technology_group = tech_crystal_nymph
+government = religious_tribe
+primary_culture = the_unbound
+religion = arcane
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Aveze"
+        dynasty = "Windhelm"
+        adm = 2
+        dip = 4
+        mil = 1
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Malnive"
+        dynasty = "Oceanwhisper"
+        adm = 1
+        dip = 0
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Cessir"
+        dynasty = "Oceanstar"
+        adm = 2
+        dip = 4
+        mil = 0
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Hevralan"
+        dynasty = "Evenwater"
+        adm = 2
+        dip = 1
+        mil = 2
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Manthevu"
+        dynasty = "Stormwalker"
+        adm = 2
+        dip = 1
+        mil = 3
+    }
+}

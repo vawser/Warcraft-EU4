@@ -1,0 +1,17 @@
+# Redgill
+government 			= war_tribe
+mercantilism 		= 10 
+technology_group 	= tech_murloc
+religion			= deep_mother
+primary_culture 	= murloc
+capital = 1
+
+816.1.1 = { 
+	monarch = { 
+		name = "Old Murkeye" 
+		dynasty = "Redgill" 
+		adm = 2
+		dip = 2
+		mil = 2
+	} 
+} 

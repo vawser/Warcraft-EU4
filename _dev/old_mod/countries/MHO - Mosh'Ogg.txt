@@ -1,0 +1,18 @@
+# Deadwind
+government 			= warband
+mercantilism 		= 10 
+technology_group 	= tech_ogre
+religion			= geomancy
+primary_culture 	= moshogg
+capital = 1
+
+776.1.1 = { 
+	monarch = { 
+		name = "Mai'Zoth" 
+		dynasty = "Mosh'Ogg" 
+		adm = 3
+		dip = 3
+		mil = 3
+	} 
+} 
+

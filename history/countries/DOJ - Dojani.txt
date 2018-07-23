@@ -1,0 +1,61 @@
+technology_group = tech_mogu
+government = militaristic_kingdom
+primary_culture = dojani
+religion = fleshshaping
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Jai-Shen"
+        dynasty = "Zhuke"
+        adm = 4
+        dip = 5
+        mil = 3
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Lao"
+        dynasty = "Sheng"
+        adm = 1
+        dip = 1
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Bro Feng"
+        dynasty = "Sheng"
+        adm = 5
+        dip = 0
+        mil = 1
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Qi Ang"
+        dynasty = "Tefeng"
+        adm = 1
+        dip = 4
+        mil = 4
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Qonju"
+        dynasty = "Bu"
+        adm = 0
+        dip = 0
+        mil = 2
+    }
+}

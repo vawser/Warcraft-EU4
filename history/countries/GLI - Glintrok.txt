@@ -1,0 +1,61 @@
+technology_group = tech_saurok
+government = war_tribe
+primary_culture = glintrok
+religion = fleshshaping
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Vortriss"
+        dynasty = "the Sane"
+        adm = 5
+        dip = 1
+        mil = 3
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Karrok"
+        dynasty = "the Punchy"
+        adm = 5
+        dip = 2
+        mil = 4
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Gekluk"
+        dynasty = "the Wise"
+        adm = 2
+        dip = 4
+        mil = 3
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Vorddraka"
+        dynasty = "the Furious"
+        adm = 0
+        dip = 5
+        mil = 4
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Kartus"
+        dynasty = "the Perceptive"
+        adm = 2
+        dip = 2
+        mil = 2
+    }
+}

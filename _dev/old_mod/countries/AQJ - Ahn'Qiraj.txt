@@ -1,0 +1,17 @@
+# AhnQiraj
+government 			= dictatorship_gov
+mercantilism 		= 10
+technology_group 	= tech_aqir
+religion			= cthun
+primary_culture 	= qiraji
+capital = 1
+
+316.1.1 = {
+    monarch = {
+        name = "Vek'nilash" 
+        dynasty = "Qiraji" 
+		adm = 2
+		dip = 1
+		mil = 4 
+ 	}
+}

@@ -1,0 +1,61 @@
+technology_group = tech_zandalari_troll
+government = troll_warband
+primary_culture = zandalari
+religion = voodoo
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Kragkrag"
+        dynasty = "the Wise"
+        adm = 1
+        dip = 5
+        mil = 3
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Runhulg"
+        dynasty = "the Enlightened"
+        adm = 3
+        dip = 1
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Tamar"
+        dynasty = "the Lusty"
+        adm = 4
+        dip = 4
+        mil = 4
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Kelvorsh"
+        dynasty = "the Stout"
+        adm = 1
+        dip = 5
+        mil = 2
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Barta"
+        dynasty = "the Coy"
+        adm = 2
+        dip = 4
+        mil = 4
+    }
+}

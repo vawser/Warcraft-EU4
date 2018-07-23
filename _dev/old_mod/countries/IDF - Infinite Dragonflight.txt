@@ -1,0 +1,7 @@
+# Infinite Dragonflight
+government 			= dragonflight_council
+mercantilism 		= 10
+technology_group 	= tech_infinite_dragonflight
+religion			= twilight_cult
+primary_culture 	= infinite_dragonflight
+capital = 1

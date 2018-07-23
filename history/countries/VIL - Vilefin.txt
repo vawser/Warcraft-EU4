@@ -1,0 +1,61 @@
+technology_group = tech_murloc
+government = war_tribe
+primary_culture = vilefin
+religion = deep_mother
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Glrpur"
+        dynasty = "the Fierce"
+        adm = 0
+        dip = 4
+        mil = 1
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Gllbmu"
+        dynasty = "the Cunning"
+        adm = 3
+        dip = 1
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Bmu'gmu"
+        dynasty = "the Frantic"
+        adm = 5
+        dip = 5
+        mil = 1
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Nurgll"
+        dynasty = "the Hearty"
+        adm = 5
+        dip = 1
+        mil = 5
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Lur'gmu"
+        dynasty = "the Insane"
+        adm = 5
+        dip = 4
+        mil = 3
+    }
+}

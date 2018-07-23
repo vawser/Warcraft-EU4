@@ -1,0 +1,17 @@
+technology_group = tech_human
+government = magocracy
+primary_culture = dalaran
+religion = arcane
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = { 
+        name = "Antonidas"
+        dynasty = "of Dalaran" 
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

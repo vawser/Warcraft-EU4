@@ -1,0 +1,22 @@
+# The Harborage (Broken)
+government 			= religious_tribe
+mercantilism 		= 10
+technology_group 	= tech_draenei
+religion			= shamanism
+primary_culture 	= draenei
+capital = 1
+
+816.1.1 = { 
+    monarch = { 
+        name = "Noboru" 
+        dynasty = "the Cudgel" 
+		adm = 2
+		dip = 2
+		mil = 3
+    }
+}
+
+
+
+
+ 

@@ -1,0 +1,61 @@
+technology_group = tech_gnoll
+government = war_tribe
+primary_culture = woodpaw
+religion = shamanism
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Brildozg"
+        dynasty = "Bruisepike"
+        adm = 2
+        dip = 3
+        mil = 2
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Brildozg"
+        dynasty = "Rashclaw"
+        adm = 4
+        dip = 5
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Guzg"
+        dynasty = "Rashmane"
+        adm = 1
+        dip = 4
+        mil = 0
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Harglerk"
+        dynasty = "Whipgore"
+        adm = 1
+        dip = 2
+        mil = 0
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Brerg"
+        dynasty = "Gashclaw"
+        adm = 0
+        dip = 5
+        mil = 3
+    }
+}

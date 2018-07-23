@@ -1,0 +1,17 @@
+# Ymirjar
+government 			= militaristic_kingdom
+mercantilism 		= 10
+technology_group 	= tech_vrykul
+religion			= cult_of_the_damned
+primary_culture 	= undead_vrykul
+capital = 1
+
+946.1.1 = { 
+    monarch = { 
+        name = "Kreug" 
+        dynasty = "Oathbreaker"
+		adm = 2
+		dip = 2
+		mil = 4 
+    }
+}

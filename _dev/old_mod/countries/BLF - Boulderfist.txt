@@ -1,0 +1,35 @@
+# Boulderfist
+government 			= warband
+mercantilism 		= 10 
+technology_group 	= tech_ogre
+religion			= geomancy
+primary_culture 	= boulderfist
+government_rank     = 1
+capital = 1
+
+816.1.1 = {
+	historical_friend = WTR # Witherbark
+}
+
+901.1.1 = { 
+	monarch = { 
+		name = "Kor'gresh" 
+		dynasty = "Coldrage" 
+		adm = 1
+		dip = 2
+		mil = 4 
+	}
+	
+	leader = {
+		name = "Kovork"
+		type = general
+		
+		fire = 2
+		shock = 1
+		manuever = 0
+		siege = 2
+		death_date = 2811.1.1 
+	}
+} 
+
+

@@ -1,0 +1,34 @@
+technology_group = tech_tauren
+government = tauren_camp
+primary_culture = bloodhoof
+religion = earth_mother
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+		name = "Cairne"
+		dynasty = "Bloodhoof"
+        birth_date = 406.1.1
+		adm = 4
+		dip = 4
+		mil = 3
+ 	}
+}
+
+# Second War
+806.1.1 = {
+    heir = {
+        name = "Baine"
+        monarch_name = "Baine"
+        dynasty = "Bloodhoof"
+        birth_date = 816.1.1
+        death_date = 1316.1.1
+        claim = 95
+		adm = 3
+		dip = 4
+		mil = 2
+    }
+}
+

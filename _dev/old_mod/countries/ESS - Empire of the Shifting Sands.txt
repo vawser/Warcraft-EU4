@@ -1,0 +1,8 @@
+# AhnQiraj
+government 			= dictatorship_gov
+mercantilism 		= 10
+technology_group 	= tech_aqir
+religion			= cthun
+primary_culture 	= qiraji
+capital = 1
+

@@ -1,0 +1,18 @@
+# White Tiger Clan
+government 			= administrative_theocracy
+mercantilism 		= 10 
+technology_group 	= tech_pandaren
+religion			= xuen
+primary_culture 	= pandaren
+capital = 1
+
+546.1.1 = { 
+	monarch = { 
+		name = "Xia" 
+		dynasty = "Starwalker" 
+		adm = 3
+		dip = 3
+		mil = 4
+        female = yes
+	}
+} 

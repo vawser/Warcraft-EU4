@@ -1,0 +1,29 @@
+# Palemane
+government 			= war_tribe
+mercantilism 		= 10
+technology_group 	= tech_gnoll
+religion			= geomancy
+primary_culture 	= gnoll
+capital = 1
+
+546.1.1 = { 
+	monarch = { 
+		name = "Whiteaxe" 
+		dynasty = "Palemane" 
+		adm = 3
+		dip = 3
+		mil = 3
+                
+	} 
+}
+
+816.1.1 = { 
+	monarch = { 
+		name = "Snagglespear" 
+		dynasty = "Palemane" 
+		adm = 3
+		dip = 3
+		mil = 3
+    }
+} 
+

@@ -1,0 +1,61 @@
+technology_group = tech_murloc
+government = war_tribe
+primary_culture = saltscale
+religion = deep_mother
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Bmugll"
+        dynasty = "the Prudent"
+        adm = 4
+        dip = 4
+        mil = 0
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Glrkr"
+        dynasty = "the Sage"
+        adm = 5
+        dip = 4
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Er'nr"
+        dynasty = "the Gigantic"
+        adm = 0
+        dip = 2
+        mil = 0
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Lrlr"
+        dynasty = "the Ripper"
+        adm = 1
+        dip = 5
+        mil = 4
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Rmglb"
+        dynasty = "the Careful"
+        adm = 5
+        dip = 3
+        mil = 3
+    }
+}

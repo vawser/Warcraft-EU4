@@ -1,0 +1,61 @@
+technology_group = tech_gorloc
+government = religious_tribe
+primary_culture = mosswalker
+religion = shamanism
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Rgbrgl"
+        dynasty = "the Bonebreaker"
+        adm = 5
+        dip = 2
+        mil = 2
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Gmuglr"
+        dynasty = "the Punchy"
+        adm = 3
+        dip = 1
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Prgmu"
+        dynasty = "the Smart"
+        adm = 4
+        dip = 1
+        mil = 3
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Brglbrgl"
+        dynasty = "the Stout"
+        adm = 2
+        dip = 2
+        mil = 4
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Nrglr"
+        dynasty = "the Raging"
+        adm = 5
+        dip = 3
+        mil = 1
+    }
+}

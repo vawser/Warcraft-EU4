@@ -1,0 +1,32 @@
+# Deadwood
+government 			= war_tribe
+mercantilism 		= 10
+technology_group 	= tech_furbolg
+religion			= shamanism
+primary_culture 	= furbolg
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Klaw" 
+        dynasty = "Deadwood" 
+		adm = 3
+		dip = 3
+		mil = 2
+ 	}
+}
+
+816.1.1 = { 
+    monarch = { 
+        name = "Arg" 
+        dynasty = "Deadwood" 
+		adm = 3
+		dip = 3
+		mil = 4 
+ 	}
+}
+
+906.1.1 = {
+    religion = fel
+    government = war_tribe
+}

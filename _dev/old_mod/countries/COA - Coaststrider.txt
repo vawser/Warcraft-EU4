@@ -1,0 +1,21 @@
+# Coaststrider Tribe (Sea Giants)
+government 			= war_tribe
+mercantilism 		= 10
+technology_group 	= tech_titan
+religion			= titan_worship
+primary_culture 	= sea_giant
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Mok'rash" 
+        dynasty = "the Cleaver" 
+		adm = 3
+		dip = 2
+		mil = 4
+ 	}
+}
+
+
+
+ 

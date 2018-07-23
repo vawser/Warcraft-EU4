@@ -1,0 +1,18 @@
+technology_group = tech_human
+government = administrative_order
+primary_culture = lordaeron
+religion = the_holy_light
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = { 
+        name = "Uther" 
+        dynasty = "the Lightbringer" 
+		adm = 4
+		dip = 4
+		mil = 5
+    }
+}
+

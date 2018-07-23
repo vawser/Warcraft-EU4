@@ -1,0 +1,18 @@
+# Green Dragonflight
+government 			= dragonflight_council
+mercantilism 		= 10
+technology_group 	= tech_green_dragonflight
+religion			= sect_of_the_dragons
+primary_culture 	= green_dragonflight
+capital = 1
+
+546.1.1 = {
+    monarch = {
+        name = "Lethlas"
+        dynasty = "the Unwoken"
+        adm = 3
+        dip = 3
+        mil = 3
+    }
+}
+

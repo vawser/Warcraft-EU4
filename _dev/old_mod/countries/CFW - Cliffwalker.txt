@@ -1,0 +1,29 @@
+# Cliffwalker
+government 			= mercantile_tribe
+mercantilism 		= 10
+technology_group 	= tech_tauren
+religion			= shamanism
+primary_culture 	= cliffwalker
+capital = 1
+
+546.1.1 = {
+	monarch = {
+		name = "Orthus"
+		dynasty = "Cliffwalker"
+		adm = 3
+		dip = 4
+		mil = 2
+ 	}
+}
+
+901.1.1 = {
+	monarch = {
+		name = "Huln"
+		dynasty = "Cliffwalker"
+		adm = 3
+		dip = 4
+		mil = 2
+ 	}
+}
+
+

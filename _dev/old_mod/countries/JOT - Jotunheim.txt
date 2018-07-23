@@ -1,0 +1,28 @@
+# Jotunheim
+government 			= militaristic_kingdom
+mercantilism 		= 10
+technology_group 	= tech_vrykul
+religion			= titan_worship
+primary_culture 	= vrykul
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Jotgarde" 
+        dynasty = "Jotunheim"
+		adm = 2
+		dip = 2
+		mil = 4 
+ 	} 
+}
+
+891.1.1 = { 
+    monarch = { 
+        name = "Balargarde" 
+        dynasty = "Jotunheim"
+		adm = 2
+		dip = 2
+		mil = 4 
+    }
+    religion = cult_of_the_damned
+}

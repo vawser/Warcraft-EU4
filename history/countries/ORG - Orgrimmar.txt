@@ -1,0 +1,20 @@
+technology_group = tech_orc
+government = the_horde
+primary_culture = orgrimmar
+religion = shamanism
+
+capital = 1
+
+# Third War
+901.1.1 = {
+    monarch = {
+		name = "Thrall"
+		dynasty = "Durotan"
+        birth_date = 776.1.1
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+    historical_friend = DRK
+    historical_friend = BDH
+}

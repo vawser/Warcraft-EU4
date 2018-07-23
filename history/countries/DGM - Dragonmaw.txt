@@ -1,0 +1,61 @@
+technology_group = tech_orc
+government = orc_warband
+primary_culture = dragonmaw
+religion = fel
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = { 
+		name = "Zuluhed" 
+		dynasty = "the Whacked" 
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Thulbag"
+        dynasty = "Bloodskull"
+        adm = 5
+        dip = 2
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Muzrub"
+        dynasty = "Stormfang"
+        adm = 5
+        dip = 5
+        mil = 1
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Ghudhagh"
+        dynasty = "Bonehand"
+        adm = 3
+        dip = 0
+        mil = 2
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Muzg"
+        dynasty = "Ragetusk"
+        adm = 4
+        dip = 1
+        mil = 1
+    }
+}

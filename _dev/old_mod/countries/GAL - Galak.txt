@@ -1,0 +1,37 @@
+# Galak
+government 			= warband
+mercantilism 		= 10
+technology_group 	= tech_centaur
+religion			= geomancy
+primary_culture 	= centaur
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Veng" 
+        dynasty = "Galak" 
+		adm = 2
+		dip = 1
+		mil = 4
+    }
+}
+
+776.1.1 = { 
+    monarch = { 
+        name = "Ablinh" 
+        dynasty = "Galak" 
+		adm = 3
+		dip = 1
+		mil = 4
+    }
+}
+
+971.1.1 = { 
+    monarch = { 
+        name = "Blizh" 
+        dynasty = "Galak" 
+		adm = 3
+		dip = 1
+		mil = 4
+    }
+}

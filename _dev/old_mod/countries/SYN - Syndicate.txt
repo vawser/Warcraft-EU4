@@ -1,0 +1,27 @@
+# Syndicate
+government 			= criminal_organisation
+mercantilism 		= 10
+technology_group 	= tech_human
+religion			= shadow
+primary_culture 	= alteraci
+capital = 1
+
+816.1.1 = { 
+    monarch = { 
+        name = "Aiden" 
+        dynasty = "Perenolde" 
+		adm = 3
+		dip = 4
+		mil = 2 
+    }
+}
+ 
+901.1.1 = { 
+    monarch = { 
+        name = "Aliden" 
+        dynasty = "Perenolde" 
+		adm = 3
+		dip = 3
+		mil = 4 
+    }
+}

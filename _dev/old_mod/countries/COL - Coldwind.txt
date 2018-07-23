@@ -1,0 +1,29 @@
+# Coldwind
+government 			= war_tribe
+mercantilism 		= 10
+technology_group 	= tech_harpy
+religion			= air_worship
+primary_culture 	= harpy
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Frostfeather" 
+        dynasty = "Coldwind" 
+		adm = 3
+		dip = 3
+		mil = 3
+        female = yes
+ 	}
+}
+
+776.1.1 = { 
+    monarch = { 
+        name = "Icetalon" 
+        dynasty = "Coldwind" 
+		adm = 3
+		dip = 3
+		mil = 3
+        female = yes
+ 	}
+}

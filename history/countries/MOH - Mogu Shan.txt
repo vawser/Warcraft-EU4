@@ -1,0 +1,61 @@
+technology_group = tech_mogu
+government = militaristic_kingdom
+primary_culture = mogu_shan
+religion = fleshshaping
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Jai-Bu"
+        dynasty = "Qonju"
+        adm = 0
+        dip = 0
+        mil = 5
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Bu"
+        dynasty = "Shenbu"
+        adm = 1
+        dip = 2
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Shenjai"
+        dynasty = "Kukien"
+        adm = 1
+        dip = 4
+        mil = 5
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Kien-Bro"
+        dynasty = "Shen"
+        adm = 5
+        dip = 2
+        mil = 5
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Lao-Lao"
+        dynasty = "Shang"
+        adm = 4
+        dip = 4
+        mil = 5
+    }
+}

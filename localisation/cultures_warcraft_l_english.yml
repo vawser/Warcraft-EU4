@@ -8,8 +8,12 @@
  darkshire: "Darkshire"
  westfall: "Westfall"
  redridge: "Redridge"
+ azerothian: "Azerothian"     
+
+ criminal_group: "Criminal"
  bloodsail: "Bloodsail"
- azerothian: "Azerothian"       
+ southsea_freebooter: "Southsea Freebooter"
+ wastewander: "Wastewander"
  
  gilnean_group: "Gilnean"
  gilneas: "Gilneas"

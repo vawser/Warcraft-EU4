@@ -1,0 +1,77 @@
+# Hillsbrad
+government 			= administrative_kingdom
+government_rank 	= 1
+mercantilism 		= 10
+technology_group 	= tech_human
+religion			= the_light
+primary_culture 	= lordaeronian
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Aedelyn" 
+        dynasty = "Blackmoore" 
+		adm = 2
+		dip = 2
+		mil = 4
+    }
+}
+
+776.1.1 = { 
+    monarch = {
+        name = "Luke" 
+        dynasty = "Abbendis" 
+		adm = 3
+		dip = 3
+		mil = 4
+ 	} 
+ 	government = dictatorship_gov
+}
+
+801.1.1 = { 
+    monarch = { 
+        name = "Anduin " 
+        dynasty = "Lothar" 
+		adm = 4
+		dip = 5
+		mil = 5
+    }
+}
+
+816.1.1 = { 
+    monarch = { 
+        name = "Aedelas" 
+        dynasty = "Blackmoore" 
+		adm = 3
+		dip = 3
+		mil = 3 
+    }
+}
+
+901.1.1 = { 
+	monarch = { 
+		name = "Henry" 
+		dynasty = "Maleb" 
+		adm = 3
+		dip = 3
+		mil = 3 
+		
+		leader = {
+			name = "Henry Maleb"
+			type = general
+			
+			fire = 2
+			shock = 2
+			manuever = 3
+			siege = 1
+		}
+ 	} 
+ 	government = administrative_republic
+} 
+
+
+971.1.1 = {
+	primary_culture = worgen
+	technology_group = tech_worgen 
+	government = dictatorship_gov
+}

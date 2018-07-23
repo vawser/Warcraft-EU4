@@ -1,0 +1,25 @@
+# The Unbound (Crystal Nymphs and Satyrs)
+government 			= religious_tribe
+mercantilism 		= 10
+technology_group 	= tech_dryad
+religion			= arcane
+primary_culture 	= crystal_nymph
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Crysali" 
+        dynasty = "the Unbound"
+        female = yes  
+		adm = 3
+		dip = 3
+		mil = 3
+    }
+    clear_scripted_personalities = yes
+    add_ruler_personality = immortal_personality
+}
+
+
+
+
+ 

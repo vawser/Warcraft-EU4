@@ -1,0 +1,61 @@
+technology_group = tech_naga
+government = naga_warband
+primary_culture = spitelash
+religion = azshara
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Jat'jak"
+        dynasty = "the Sly"
+        adm = 2
+        dip = 1
+        mil = 2
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Nazshe"
+        dynasty = "the Colossal"
+        adm = 4
+        dip = 2
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Krelkre"
+        dynasty = "the Raging"
+        adm = 1
+        dip = 2
+        mil = 2
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Jissak"
+        dynasty = "the Stalwart"
+        adm = 0
+        dip = 3
+        mil = 1
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Zin'zar"
+        dynasty = "the Powerful"
+        adm = 0
+        dip = 5
+        mil = 4
+    }
+}

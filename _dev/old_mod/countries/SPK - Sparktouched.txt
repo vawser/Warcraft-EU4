@@ -1,0 +1,27 @@
+# Sparktouched
+government 			= war_tribe
+mercantilism 		= 10
+technology_group 	= tech_gorloc
+religion			= titan_worship
+primary_culture 	= gorloc
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Soo-raa" 
+        dynasty = "Sparktouched"
+		adm = 1
+		dip = 3
+		mil = 1
+    }
+}
+
+776.1.1 = { 
+    monarch = { 
+        name = "Soo-ree"
+        dynasty = "Sparktouched" 
+		adm = 2
+		dip = 4
+		mil = 2 
+    }
+}

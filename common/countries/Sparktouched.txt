@@ -1,0 +1,341 @@
+graphical_culture = gorlocgfx
+
+color = { 45 223 205 }
+
+monarch_names = {
+	"Rm'glr #0" = 20
+	"Glrgmu #0" = 20
+	"Nus'glb #0" = 20
+	"Prnur #0" = 20
+	"Kurgll #0" = 20
+	"Mutmr #0" = 20
+	"Prgll #0" = 20
+	"Gmu'nus #0" = 20
+	"Rg'nr #0" = 20
+	"Glblr #0" = 20
+	"Gmukur #0" = 20
+	"Glb'kur #0" = 20
+	"Bmu'gmu #0" = 20
+	"Kurgmu #0" = 20
+	"Murglrm #0" = 20
+	"Gllmut #0" = 20
+	"Rglur #0" = 20
+	"Gmubrgl #0" = 20
+	"Glbrg #0" = 20
+	"Purnus #0" = 20
+	"Glbmr #0" = 20
+	"Prbrgl #0" = 20
+	"Nur'nus #0" = 20
+	"Bmugll #0" = 20
+	"Murgl'lur #0" = 20
+	"Krnus #0" = 20
+	"Rmer #0" = 20
+	"Rglbmu #0" = 20
+	"Rm'murgl #0" = 20
+	"Nurlur #0" = 20
+	"Lrgll #0" = 20
+	"Bmuglr #0" = 20
+	"Glr'lur #0" = 20
+	"Gll'nus #0" = 20
+	"Kr'kr #0" = 20
+	"Mr'nr #0" = 20
+	"Gllnur #0" = 20
+	"Ernr #0" = 20
+	"Prmut #0" = 20
+	"Prrgl #0" = 20
+	"Kurrg #0" = 20
+	"Mrbmu #0" = 20
+	"Gllgll #0" = 20
+	"Rglpr #0" = 20
+	"Rglnur #0" = 20
+	"Nr'brgl #0" = 20
+	"Glbrgl #0" = 20
+	"Murgl'nr #0" = 20
+	"Brglrgl #0" = 20
+	"Bmu'rg #0" = 20
+	"Nurgmu #0" = 20
+	"Lr'glr #0" = 20
+	"Prgmu #0" = 20
+	"Brglgll #0" = 20
+	"Mut'rm #0" = 20
+	"Lurnr #0" = 20
+	"Bmu'rm #0" = 20
+	"Glb'pr #0" = 20
+	"Pr'lur #0" = 20
+	"Nrpur #0" = 20
+	"Gmumurgl #0" = 20
+	"Prnur #0" = 20
+	"Mrglb #0" = 20
+	"Brglnus #0" = 20
+	"Kr'pr #0" = 20
+	"Mut'mr #0" = 20
+	"Rg'nus #0" = 20
+	"Glrrg #0" = 20
+	"Lurgmu #0" = 20
+	"Gmuglr #0" = 20
+	"Glrer #0" = 20
+	"Pr'rg #0" = 20
+	"Rgbrgl #0" = 20
+	"Prbmu #0" = 20
+	"Gllgll #0" = 20
+	"Brglbrgl #0" = 20
+	"Ernus #0" = 20
+	"Nrpr #0" = 20
+	"Ernr #0" = 20
+	"Murglmr #0" = 20
+	"Er'rg #0" = 20
+	"Purkr #0" = 20
+	"Lrglr #0" = 20
+	"Bmubmu #0" = 20
+	"Pur'mr #0" = 20
+	"Murglbrgl #0" = 20
+	"Kr'mr #0" = 20
+	"Gmu'rm #0" = 20
+	"Kurgmu #0" = 20
+	"Lurkur #0" = 20
+	"Nusmr #0" = 20
+	"Brglpr #0" = 20
+	"Nrgmu #0" = 20
+	"Nrbmu #0" = 20
+	"Lrkur #0" = 20
+	"Bmu'pur #0" = 20
+	"Bmupr #0" = 20
+	"Nrglr #0" = 20
+	"Glrbmu #0" = 20
+	"Rglkur #0" = 20
+	"Nus'gll #0" = 20
+	"Lurlr #0" = 20
+	"Nurpr #0" = 20
+	"Er'pr #0" = 20
+	"Er'kr #0" = 20
+	"Lrpr #0" = 20
+	"Pur'brgl #0" = 20
+	"Krkr #0" = 20
+	"Rgglr #0" = 20
+	"Krgmu #0" = 20
+	"Nusrm #0" = 20
+	"Lurmurgl #0" = 20
+	"Murglnr #0" = 20
+	"Rgglb #0" = 20
+	"Glrbrgl #0" = 20
+	"Lr'gmu #0" = 20
+	"Lurnus #0" = 20
+	"Kr'glr #0" = 20
+	"Nrnr #0" = 20
+	"Mutlr #0" = 20
+	"Rm'glr #0" = -20
+	"Glrgmu #0" = -20
+	"Nus'glb #0" = -20
+	"Prnur #0" = -20
+	"Kurgll #0" = -20
+	"Mutmr #0" = -20
+	"Prgll #0" = -20
+	"Gmu'nus #0" = -20
+	"Rg'nr #0" = -20
+	"Glblr #0" = -20
+	"Gmukur #0" = -20
+	"Glb'kur #0" = -20
+	"Bmu'gmu #0" = -20
+	"Kurgmu #0" = -20
+	"Murglrm #0" = -20
+	"Gllmut #0" = -20
+	"Rglur #0" = -20
+	"Gmubrgl #0" = -20
+	"Glbrg #0" = -20
+	"Purnus #0" = -20
+	"Glbmr #0" = -20
+	"Prbrgl #0" = -20
+	"Nur'nus #0" = -20
+	"Bmugll #0" = -20
+	"Murgl'lur #0" = -20
+	"Krnus #0" = -20
+	"Rmer #0" = -20
+	"Rglbmu #0" = -20
+	"Rm'murgl #0" = -20
+	"Nurlur #0" = -20
+	"Lrgll #0" = -20
+	"Bmuglr #0" = -20
+	"Glr'lur #0" = -20
+	"Gll'nus #0" = -20
+	"Kr'kr #0" = -20
+	"Mr'nr #0" = -20
+	"Gllnur #0" = -20
+	"Ernr #0" = -20
+	"Prmut #0" = -20
+	"Prrgl #0" = -20
+	"Kurrg #0" = -20
+	"Mrbmu #0" = -20
+	"Gllgll #0" = -20
+	"Rglpr #0" = -20
+	"Rglnur #0" = -20
+	"Nr'brgl #0" = -20
+	"Glbrgl #0" = -20
+	"Murgl'nr #0" = -20
+	"Brglrgl #0" = -20
+	"Bmu'rg #0" = -20
+	"Nurgmu #0" = -20
+	"Lr'glr #0" = -20
+	"Prgmu #0" = -20
+	"Brglgll #0" = -20
+	"Mut'rm #0" = -20
+	"Lurnr #0" = -20
+	"Bmu'rm #0" = -20
+	"Glb'pr #0" = -20
+	"Pr'lur #0" = -20
+	"Nrpur #0" = -20
+	"Gmumurgl #0" = -20
+	"Prnur #0" = -20
+	"Mrglb #0" = -20
+	"Brglnus #0" = -20
+	"Kr'pr #0" = -20
+	"Mut'mr #0" = -20
+	"Rg'nus #0" = -20
+	"Glrrg #0" = -20
+	"Lurgmu #0" = -20
+	"Gmuglr #0" = -20
+	"Glrer #0" = -20
+	"Pr'rg #0" = -20
+	"Rgbrgl #0" = -20
+	"Prbmu #0" = -20
+	"Gllgll #0" = -20
+	"Brglbrgl #0" = -20
+	"Ernus #0" = -20
+	"Nrpr #0" = -20
+	"Ernr #0" = -20
+	"Murglmr #0" = -20
+	"Er'rg #0" = -20
+	"Purkr #0" = -20
+	"Lrglr #0" = -20
+	"Bmubmu #0" = -20
+	"Pur'mr #0" = -20
+	"Murglbrgl #0" = -20
+	"Kr'mr #0" = -20
+	"Gmu'rm #0" = -20
+	"Kurgmu #0" = -20
+	"Lurkur #0" = -20
+	"Nusmr #0" = -20
+	"Brglpr #0" = -20
+	"Nrgmu #0" = -20
+	"Nrbmu #0" = -20
+	"Lrkur #0" = -20
+	"Bmu'pur #0" = -20
+	"Bmupr #0" = -20
+	"Nrglr #0" = -20
+	"Glrbmu #0" = -20
+	"Rglkur #0" = -20
+	"Nus'gll #0" = -20
+	"Lurlr #0" = -20
+	"Nurpr #0" = -20
+	"Er'pr #0" = -20
+	"Er'kr #0" = -20
+	"Lrpr #0" = -20
+	"Pur'brgl #0" = -20
+	"Krkr #0" = -20
+	"Rgglr #0" = -20
+	"Krgmu #0" = -20
+	"Nusrm #0" = -20
+	"Lurmurgl #0" = -20
+	"Murglnr #0" = -20
+	"Rgglb #0" = -20
+	"Glrbrgl #0" = -20
+	"Lr'gmu #0" = -20
+	"Lurnus #0" = -20
+	"Kr'glr #0" = -20
+	"Nrnr #0" = -20
+	"Mutlr #0" = -20
+
+}
+
+leader_names = {
+	"the Bonebreaker"
+	"the Throatslicer"
+	"the Wise"
+	"the Quick"
+	"the Sly"
+	"the Coy"
+	"the Smasher"
+	"the Stabber"
+	"the Gutter"
+	"the Ripper"
+	"the Puncher"
+	"the Kicker"
+	"the Massive"
+	"the Mammoth"
+	"the Monstrous"
+	"the Colossal"
+	"the Gigantic"
+	"the Giant"
+	"the Immense"
+	"the Vast"
+	"the Towering"
+	"the Bulky"
+	"the Lusty"
+	"the Mighty"
+	"the Titanic"
+	"the Potent"
+	"the Powerful"
+	"the Stout"
+	"the Tough"
+	"the Strong"
+	"the Sturdy"
+	"the Stalwart"
+	"the Brawny"
+	"the Hearty"
+	"the Great"
+	"the Almighty"
+	"the Gutsy"
+	"the Punchy"
+	"the Astute"
+	"the Careful"
+	"the Enlightened"
+	"the Perceptive"
+	"the Prudent"
+	"the Sane"
+	"the Shrewd"
+	"the Smart"
+	"the Wary"
+	"the Cunning"
+	"the Keen"
+	"the Sage"
+	"the Sharp"
+	"the Crafty"
+	"the Erudite"
+	"the Witty"
+	"the Sapient"
+	"the Tactful"
+	"the Furious"
+	"the Desperate"
+	"the Fierce"
+	"the Frantic"
+	"the Livid"
+	"the Raging"
+	"the Violent"
+	"the Frenzied"
+	"the Inciter"
+	"the Insane"
+	"the Crazed"
+	"the Maniac"
+	"the Vicious"
+	"the Rabid"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+

@@ -1,0 +1,35 @@
+# Lordaeron
+government 			= administrative_kingdom
+mercantilism 		= 10
+technology_group 	= tech_human
+religion			= the_light
+primary_culture 	= lordaeronian
+capital = 1
+
+historical_friend = QUE # Quel'Thalas
+
+546.1.1 = { 
+    monarch = { 
+        name = "Terenas" 
+        dynasty = "Menethil" 
+		adm = 3
+		dip = 4
+		mil = 3
+ 	} 
+}
+
+776.1.1 = { 
+    monarch = { 
+        name = "Terenas II" 
+        dynasty = "Menethil" 
+		adm = 4
+		dip = 5
+		mil = 3 
+ 	} 
+}
+ 
+901.1.1 = {
+	add_accepted_culture = gilnean
+}
+
+

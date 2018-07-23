@@ -1,0 +1,61 @@
+technology_group = tech_frost_nymph
+government = religious_tribe
+primary_culture = sisterhood_of_winter
+religion = druidism
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Maedri"
+        dynasty = "Farshade"
+        adm = 1
+        dip = 3
+        mil = 3
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Cessir"
+        dynasty = "Bladespirit"
+        adm = 3
+        dip = 0
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Malnive"
+        dynasty = "Evenclouds"
+        adm = 0
+        dip = 3
+        mil = 5
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Divrinne"
+        dynasty = "Evencloud"
+        adm = 3
+        dip = 5
+        mil = 3
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Tayed"
+        dynasty = "Bearmantle"
+        adm = 4
+        dip = 2
+        mil = 5
+    }
+}

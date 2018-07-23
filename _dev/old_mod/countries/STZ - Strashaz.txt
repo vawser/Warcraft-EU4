@@ -1,0 +1,17 @@
+# Strashaz
+government 			= militaristic_kingdom
+mercantilism 		= 10
+technology_group 	= tech_naga
+religion			= nzoth
+primary_culture 	= naga
+capital = 1
+
+901.1.1 = {
+	monarch = {
+		name = "Rrurgaz"
+        dynasty = "Strashaz"
+		adm = 3
+		mil = 3
+		dip = 3
+    }
+}

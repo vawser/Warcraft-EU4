@@ -1,0 +1,17 @@
+# Blackpaw
+government 			= war_tribe
+mercantilism 		= 10
+technology_group 	= tech_gnoll
+religion			= geomancy
+primary_culture 	= gnoll
+capital = 1
+
+906.1.1 = { 
+	monarch = { 
+		name = "Banzai" 
+		dynasty = "Blackpaw" 
+		adm = 1
+		dip = 0
+		mil = 3
+ 	} 
+} 

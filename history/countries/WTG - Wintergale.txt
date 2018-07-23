@@ -1,0 +1,61 @@
+technology_group = tech_taunka
+government = mercantile_tribe
+primary_culture = wintergale
+religion = shamanism
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Roaain"
+        dynasty = "Whitemane"
+        adm = 2
+        dip = 1
+        mil = 3
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Junnauk"
+        dynasty = "Snowborn"
+        adm = 1
+        dip = 1
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Dorhan"
+        dynasty = "Chillborn"
+        adm = 4
+        dip = 1
+        mil = 0
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Juntun"
+        dynasty = "Stormwhisper"
+        adm = 3
+        dip = 2
+        mil = 5
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Grunauk"
+        dynasty = "Spiritcloud"
+        adm = 3
+        dip = 1
+        mil = 2
+    }
+}

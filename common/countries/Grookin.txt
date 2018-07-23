@@ -1,0 +1,117 @@
+graphical_culture = hozengfx
+
+color = { 46 15 14 }
+
+monarch_names = {
+	"Runk-Runk Logo Mat Mat Zik Zik Kaklu Granuhl Jehl Jehl #0" = 20
+	"Juh Juh Abon Gubek Bo Bo Ringok Jagba Jumenku Tom Tom #0" = 20
+	"Uhl-Uhl Umben Kot-Kot Zhuru Lena Uklu Zumbohlo Fan-Fan #0" = 20
+	"Ot Ot Mekka Wuku Zooboomu Langka Eko Goklahe Moro Arlang To-to #0" = 20
+	"Mit Mit #0" = 20
+	"Lap-Lap Gramba Grom-Grom Eklaro Gikik Grukomu Wuk-Wuk #0" = 20
+	"Ip-Ip #0" = 20
+	"Te Te Unbu Doko Kah Kah Ruguru Gangkeno Groka Gramoon #0" = 20
+	"Runk-Runk Logo Mat Mat Zik Zik Kaklu Granuhl Jehl Jehl #0" = -20
+	"Juh Juh Abon Gubek Bo Bo Ringok Jagba Jumenku Tom Tom #0" = -20
+	"Uhl-Uhl Umben Kot-Kot Zhuru Lena Uklu Zumbohlo Fan-Fan #0" = -20
+	"Ot Ot Mekka Wuku Zooboomu Langka Eko Goklahe Moro Arlang To-to #0" = -20
+	"Mit Mit #0" = -20
+	"Lap-Lap Gramba Grom-Grom Eklaro Gikik Grukomu Wuk-Wuk #0" = -20
+	"Ip-Ip #0" = -20
+	"Te Te Unbu Doko Kah Kah Ruguru Gangkeno Groka Gramoon #0" = -20
+
+}
+
+leader_names = {
+	"the Bonebreaker"
+	"the Throatslicer"
+	"the Wise"
+	"the Quick"
+	"the Sly"
+	"the Coy"
+	"the Smasher"
+	"the Stabber"
+	"the Gutter"
+	"the Ripper"
+	"the Puncher"
+	"the Kicker"
+	"the Massive"
+	"the Mammoth"
+	"the Monstrous"
+	"the Colossal"
+	"the Gigantic"
+	"the Giant"
+	"the Immense"
+	"the Vast"
+	"the Towering"
+	"the Bulky"
+	"the Lusty"
+	"the Mighty"
+	"the Titanic"
+	"the Potent"
+	"the Powerful"
+	"the Stout"
+	"the Tough"
+	"the Strong"
+	"the Sturdy"
+	"the Stalwart"
+	"the Brawny"
+	"the Hearty"
+	"the Great"
+	"the Almighty"
+	"the Gutsy"
+	"the Punchy"
+	"the Astute"
+	"the Careful"
+	"the Enlightened"
+	"the Perceptive"
+	"the Prudent"
+	"the Sane"
+	"the Shrewd"
+	"the Smart"
+	"the Wary"
+	"the Cunning"
+	"the Keen"
+	"the Sage"
+	"the Sharp"
+	"the Crafty"
+	"the Erudite"
+	"the Witty"
+	"the Sapient"
+	"the Tactful"
+	"the Furious"
+	"the Desperate"
+	"the Fierce"
+	"the Frantic"
+	"the Livid"
+	"the Raging"
+	"the Violent"
+	"the Frenzied"
+	"the Inciter"
+	"the Insane"
+	"the Crazed"
+	"the Maniac"
+	"the Vicious"
+	"the Rabid"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+

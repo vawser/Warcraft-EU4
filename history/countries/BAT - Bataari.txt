@@ -1,0 +1,61 @@
+technology_group = tech_yaungol
+government = war_tribe
+primary_culture = bataari
+religion = ordos
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Kutakgan"
+        dynasty = "the Gigantic"
+        adm = 1
+        dip = 5
+        mil = 2
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Qolan"
+        dynasty = "the Gutter"
+        adm = 4
+        dip = 3
+        mil = 4
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Gangdus"
+        dynasty = "the Puncher"
+        adm = 0
+        dip = 2
+        mil = 5
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Katokbi"
+        dynasty = "the Vast"
+        adm = 4
+        dip = 5
+        mil = 4
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Chatut"
+        dynasty = "the Raging"
+        adm = 2
+        dip = 4
+        mil = 2
+    }
+}

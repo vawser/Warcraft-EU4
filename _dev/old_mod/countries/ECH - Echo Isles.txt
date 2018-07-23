@@ -1,0 +1,19 @@
+# Echo Isles
+government 			= militaristic_kingdom
+mercantilism 		= 10
+technology_group 	= tech_titan
+religion			= titan_worship
+primary_culture 	= sea_giant
+capital = 1
+
+
+546.1.1 = {
+    monarch = {
+        name = "Moroc"
+        dynasty = "Sea King"
+        adm = 3
+        dip = 3
+        mil = 3
+    }
+}
+

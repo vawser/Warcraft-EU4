@@ -1,0 +1,17 @@
+# Sunhawk
+government 			= expeditionary_force
+mercantilism 		= 10
+technology_group 	= tech_blood_elf
+religion			= fel
+primary_culture 	= blood_elf
+capital = 1
+
+941.1.1 = {
+	monarch = {
+		name = "Sironas"
+		dynasty = "the Cruel"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

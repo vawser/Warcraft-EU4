@@ -1,0 +1,34 @@
+graphical_culture = humangfx
+
+color = { 125 92 44 }
+
+monarch_names = {
+	" #0" = 20
+	" #0" = -20
+
+}
+
+leader_names = {
+	""
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+

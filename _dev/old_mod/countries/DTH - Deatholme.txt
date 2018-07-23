@@ -1,0 +1,31 @@
+# Deatholme
+government			= scourge_horde
+mercantilism 		= 10
+technology_group 	= tech_scourge
+religion			= cult_of_the_damned
+primary_culture 	= scourge
+capital = 1
+
+906.1.1 = {
+	monarch = {
+		name = "Dar'Khan"
+		dynasty = "Drathir"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+    clear_scripted_personalities = yes
+    add_ruler_personality = immortal_personality
+}
+
+951.1.1 = {
+	monarch = {
+		name = "Masophet"
+		dynasty = "the Black"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+    clear_scripted_personalities = yes
+    add_ruler_personality = immortal_personality
+}

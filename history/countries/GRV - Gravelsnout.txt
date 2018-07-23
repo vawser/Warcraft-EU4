@@ -1,0 +1,61 @@
+technology_group = tech_kobold
+government = war_tribe
+primary_culture = gravelsnout
+religion = geomancy
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Kubbslee"
+        dynasty = "Whitespore"
+        adm = 0
+        dip = 4
+        mil = 4
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Blevle"
+        dynasty = "Gutwhisker"
+        adm = 3
+        dip = 2
+        mil = 4
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Gugruk"
+        dynasty = "Huskrat"
+        adm = 3
+        dip = 4
+        mil = 5
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Bleslee"
+        dynasty = "Thornshear"
+        adm = 1
+        dip = 0
+        mil = 2
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Grible"
+        dynasty = "Dryrat"
+        adm = 2
+        dip = 3
+        mil = 4
+    }
+}

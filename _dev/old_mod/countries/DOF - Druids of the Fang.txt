@@ -1,0 +1,17 @@
+# Druids of the fang
+government 			= cult
+mercantilism 		= 10
+technology_group 	= tech_night_elf
+religion			= nightmare
+primary_culture 	= night_elf
+capital = 1
+
+926.1.1 = {
+	monarch = {
+		name = "Serpentis" 
+		dynasty = "of the Fang" 
+		adm = 3
+		dip = 3
+		mil = 3
+ 	}
+}

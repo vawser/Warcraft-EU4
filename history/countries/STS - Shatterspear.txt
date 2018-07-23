@@ -1,0 +1,61 @@
+technology_group = tech_jungle_troll
+government = troll_warband
+primary_culture = shatterspear
+religion = voodoo
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Longofon"
+        dynasty = "the Brawny"
+        adm = 0
+        dip = 1
+        mil = 3
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Bar'man"
+        dynasty = "the Stalwart"
+        adm = 3
+        dip = 1
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Fon'run"
+        dynasty = "the Titanic"
+        adm = 0
+        dip = 5
+        mil = 0
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Juarrak"
+        dynasty = "the Frantic"
+        adm = 4
+        dip = 5
+        mil = 0
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Zol'Maz"
+        dynasty = "the Astute"
+        adm = 2
+        dip = 3
+        mil = 5
+    }
+}

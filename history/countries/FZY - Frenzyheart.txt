@@ -1,0 +1,61 @@
+technology_group = tech_wolvar
+government = war_tribe
+primary_culture = frenzyheart
+religion = shamanism
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Jaklog"
+        dynasty = "Gnarlbarb"
+        adm = 0
+        dip = 2
+        mil = 1
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Uhnjak"
+        dynasty = "Foulbarb"
+        adm = 2
+        dip = 3
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Rejgek"
+        dynasty = "Deadfall"
+        adm = 3
+        dip = 5
+        mil = 3
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Jikke"
+        dynasty = "Barkwood"
+        adm = 0
+        dip = 3
+        mil = 5
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Tektar"
+        dynasty = "Whitemaw"
+        adm = 3
+        dip = 0
+        mil = 5
+    }
+}

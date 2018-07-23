@@ -1,0 +1,29 @@
+# Burning Blade
+government 			= warband
+mercantilism 		= 10
+technology_group 	= tech_orc
+religion			= shamanism
+primary_culture 	= burning_blade
+capital = 1
+
+776.1.1 = { 
+    religion = fel
+}
+
+801.1.1 = { 
+	monarch = { 
+		name = "Dharl" 
+		dynasty = "Bladefury" 
+		adm = 2
+		dip = 2
+		mil = 4      
+	} 
+    heir = { 
+		name = "Azuka" 
+		dynasty = "Bladefury" 
+		adm = 2
+		dip = 2
+		mil = 4
+        female = yes
+	} 
+}

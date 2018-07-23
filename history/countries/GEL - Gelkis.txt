@@ -1,0 +1,61 @@
+technology_group = tech_centaur
+government = centaur_warband
+primary_culture = gelkis
+religion = shamanism
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Duldrik"
+        dynasty = "the Almighty"
+        adm = 5
+        dip = 5
+        mil = 4
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Fir"
+        dynasty = "the Smasher"
+        adm = 1
+        dip = 2
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Jazel"
+        dynasty = "the Coy"
+        adm = 4
+        dip = 5
+        mil = 5
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Kildro"
+        dynasty = "the Puncher"
+        adm = 0
+        dip = 5
+        mil = 0
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Ocha"
+        dynasty = "the Livid"
+        adm = 2
+        dip = 2
+        mil = 5
+    }
+}

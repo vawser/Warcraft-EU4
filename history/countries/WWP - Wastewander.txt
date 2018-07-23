@@ -1,0 +1,17 @@
+technology_group = tech_human
+government = criminal_organisation
+primary_culture = wastewander
+religion = the_holy_light
+
+capital = 1
+
+# Third War
+901.1.1 = {
+    monarch = { 
+		name = "Hamed" 
+		dynasty = "Scorpidsting" 
+		adm = 4
+		dip = 3
+		mil = 2
+    }
+}

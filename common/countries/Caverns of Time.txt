@@ -1,0 +1,197 @@
+graphical_culture = dragongfx
+
+color = { 129 139 42 }
+
+monarch_names = {
+	"Nokodnos #0" = 20
+	"Maraldomu #0" = 20
+	"Kardanzion #0" = 20
+	"Gridundormu #0" = 20
+	"Panardomu #0" = 20
+	"Tolnizdomu #0" = 20
+	"Kirzarrion #0" = 20
+	"Kizgoddomu #0" = 20
+	"Pegardormu #0" = 20
+	"Trotilzion #0" = 20
+	"Eremrion #0" = 20
+	"Rizzezzion #0" = 20
+	"Egamrion #0" = 20
+	"Kimdirdormu #0" = 20
+	"Trarizdomu #0" = 20
+	"Trozardormu #0" = 20
+	"Piaddumdomu #0" = 20
+	"Nakomdomu #0" = 20
+	"Daumelrius #0" = 20
+	"Kitorrion #0" = 20
+	"Rekkemdormu #0" = 20
+	"Ilmuzzion #0" = 20
+	"Naukurdomu #0" = 20
+	"Zelimdomu #0" = 20
+	"Iangaddormu #0" = 20
+	"Dradazdomu #0" = 20
+	"Pilimdomu #0" = 20
+	"Rizzemdormu #0" = 20
+	"Ryddannos #0" = 20
+	"Akamnos #0" = 20
+	"Algoznos #0" = 20
+	"Daramnos #0" = 20
+	"Zoleznos #0" = 20
+	"Gargondomu #0" = 20
+	"Tridezdormu #0" = 20
+	"Gramdezdomu #0" = 20
+	"Dratirdomu #0" = 20
+	"Pirguddormu #0" = 20
+	"Dokomnos #0" = 20
+	"Tronmaddomu #0" = 20
+	"Dynnerdomu #0" = 20
+	"Drinnerdomu #0" = 20
+	"Nomnurdormu #0" = 20
+	"Ydduzdomu #0" = 20
+	"Paurgomzion #0" = 20
+	"Grauggerdomu #0" = 20
+	"Yrzezdormu #0" = 20
+	"Tangindomu #0" = 20
+	"Pateddomu #0" = 20
+	"Irrudzion #0" = 20
+	"Irmu #0" = -20
+	"Chrirmi #0" = -20
+	"Tairmu #0" = -20
+	"Nirmi #0" = -20
+	"Mogarmi #0" = -20
+	"Zoldadormi #0" = -20
+	"Muldodormi #0" = -20
+	"Nazodormi #0" = -20
+	"Vuslirmu #0" = -20
+	"Mudirmi #0" = -20
+	"Girmu #0" = -20
+	"Tormi #0" = -20
+	"Sormi #0" = -20
+	"Zudormi #0" = -20
+	"Kidririmi #0" = -20
+	"Kridadormi #0" = -20
+	"Grauzadormi #0" = -20
+	"Gudodormi #0" = -20
+	"Idridormi #0" = -20
+	"Zodormu #0" = -20
+	"Cormu #0" = -20
+	"Naidormi #0" = -20
+	"Sadormi #0" = -20
+	"Kirmi #0" = -20
+	"Sindadormi #0" = -20
+	"Miagadormi #0" = -20
+	"Sanidormi #0" = -20
+	"Cagodormi #0" = -20
+	"Vudrirmi #0" = -20
+	"Konadormi #0" = -20
+	"Kaarmi #0" = -20
+	"Cirmi #0" = -20
+	"Garmi #0" = -20
+	"Todormi #0" = -20
+	"Tolririmi #0" = -20
+	"Graisladormi #0" = -20
+	"Tugnodormi #0" = -20
+	"Aunridormi #0" = -20
+	"Gruznirmi #0" = -20
+	"Sidormi #0" = -20
+	"Murimi #0" = -20
+	"Krurimi #0" = -20
+	"Korimi #0" = -20
+	"Drormi #0" = -20
+	"Nopradormi #0" = -20
+	"Valnirimi #0" = -20
+	"Vuprirmi #0" = -20
+	"Kaiznidormi #0" = -20
+	"Gropririmi #0" = -20
+	"Izormi #0" = -20
+
+}
+
+leader_names = {
+	"the Wise"
+	"the Quick"
+	"the Sly"
+	"the Coy"
+	"the Giant"
+	"the Immense"
+	"the Vast"
+	"the Towering"
+	"the Bulky"
+	"the Lusty"
+	"the Mighty"
+	"the Titanic"
+	"the Potent"
+	"the Powerful"
+	"the Stout"
+	"the Tough"
+	"the Strong"
+	"the Sturdy"
+	"the Stalwart"
+	"the Brawny"
+	"the Hearty"
+	"the Great"
+	"the Almighty"
+	"the Gutsy"
+	"the Punchy"
+	"the Astute"
+	"the Careful"
+	"the Enlightened"
+	"the Perceptive"
+	"the Prudent"
+	"the Sane"
+	"the Shrewd"
+	"the Smart"
+	"the Wary"
+	"the Cunning"
+	"the Keen"
+	"the Sage"
+	"the Sharp"
+	"the Crafty"
+	"the Erudite"
+	"the Witty"
+	"the Sapient"
+	"the Tactful"
+	"the Furious"
+	"the Desperate"
+	"the Fierce"
+	"the Frantic"
+	"the Livid"
+	"the Raging"
+	"the Violent"
+	"the Frenzied"
+	"the Inciter"
+	"the Insane"
+	"the Crazed"
+	"the Maniac"
+	"the Vicious"
+	"the Rabid"
+	"the Delirious"
+	"the Fanatical"
+	"the Fervent"
+	"the Virulent"
+	"the Zealous"
+	"the Astute"
+	"the Educated"
+	"the Ample"
+	"the Judicious"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+

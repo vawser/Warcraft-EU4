@@ -1,0 +1,61 @@
+technology_group = tech_nightborne
+government = administrative_kingdom
+primary_culture = suramar
+religion = arcane
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Mishomis"
+        dynasty = "Terofin"
+        adm = 1
+        dip = 3
+        mil = 3
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Fythautria"
+        dynasty = "Mirthheart"
+        adm = 5
+        dip = 3
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Gludithe"
+        dynasty = "Bloodwalker"
+        adm = 4
+        dip = 0
+        mil = 1
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Dilfan"
+        dynasty = "Moongazer"
+        adm = 4
+        dip = 1
+        mil = 1
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Tolvuc"
+        dynasty = "Heartforge"
+        adm = 0
+        dip = 5
+        mil = 3
+    }
+}

@@ -1,0 +1,22 @@
+# Dark Iron
+government 			= militaristic_kingdom
+mercantilism 		= 10
+technology_group 	= tech_dwarf
+religion			= fire_worship
+primary_culture 	= dark_iron
+capital = 1
+
+546.1.1 = { 
+    government_rank	= 3
+    monarch = { 
+        name = "Dagran" 
+        dynasty = "Thaurissan" 
+		adm = 4
+		dip = 3
+		mil = 4
+ 	}
+} 
+ 
+971.1.1 = { 
+	religion = arcane
+}

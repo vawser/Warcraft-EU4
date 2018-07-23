@@ -1,0 +1,61 @@
+technology_group = tech_qiraji
+government = qiraji_swarm
+primary_culture = ahn_qiraj
+religion = cthun
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Rixa"
+        dynasty = "the Immense"
+        adm = 5
+        dip = 2
+        mil = 4
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Ikkuk"
+        dynasty = "the Smart"
+        adm = 4
+        dip = 3
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Kazkor"
+        dynasty = "the Coy"
+        adm = 2
+        dip = 0
+        mil = 2
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Xa'kuk"
+        dynasty = "the Bonebreaker"
+        adm = 0
+        dip = 2
+        mil = 5
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Valakkaz"
+        dynasty = "the Witty"
+        adm = 1
+        dip = 1
+        mil = 3
+    }
+}

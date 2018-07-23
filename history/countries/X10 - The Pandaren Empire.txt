@@ -1,0 +1,61 @@
+technology_group = tech_pandaren
+government = mercantile_kingdom
+primary_culture = pandaren
+religion = celestials
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Bohai"
+        dynasty = "Gustbrew"
+        adm = 3
+        dip = 1
+        mil = 1
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Ning"
+        dynasty = "Thunderrub"
+        adm = 5
+        dip = 5
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Huang"
+        dynasty = "Firerub"
+        adm = 1
+        dip = 4
+        mil = 0
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Park"
+        dynasty = "Ironrub"
+        adm = 1
+        dip = 5
+        mil = 1
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Gang"
+        dynasty = "Gustrub"
+        adm = 4
+        dip = 1
+        mil = 4
+    }
+}

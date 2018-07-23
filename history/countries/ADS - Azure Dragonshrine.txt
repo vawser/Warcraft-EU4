@@ -1,0 +1,61 @@
+technology_group = tech_blue_dragonflight
+government = dragonflight_council
+primary_culture = azure_dragonshrine
+religion = dragon_aspects
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Nezigos"
+        dynasty = "the Educated"
+        adm = 4
+        dip = 3
+        mil = 2
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Sunrengos"
+        dynasty = "the Violent"
+        adm = 2
+        dip = 0
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Iralgos"
+        dynasty = "the Crafty"
+        adm = 1
+        dip = 5
+        mil = 5
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Egdagos"
+        dynasty = "the Virulent"
+        adm = 2
+        dip = 5
+        mil = 0
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Arzargos"
+        dynasty = "the Giant"
+        adm = 1
+        dip = 0
+        mil = 5
+    }
+}

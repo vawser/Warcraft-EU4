@@ -1,0 +1,61 @@
+technology_group = tech_night_elf
+government = militaristic_theocracy
+primary_culture = sentinels_of_feathermoon
+religion = elune
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Anionfan"
+        dynasty = "Evenoak"
+        adm = 4
+        dip = 1
+        mil = 2
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Driandedon"
+        dynasty = "Farsinger"
+        adm = 3
+        dip = 3
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Donvasseam"
+        dynasty = "Ravencrest"
+        adm = 0
+        dip = 4
+        mil = 0
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Telstann"
+        dynasty = "Mossoak"
+        adm = 5
+        dip = 2
+        mil = 5
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Draval"
+        dynasty = "Swiftwhisper"
+        adm = 4
+        dip = 1
+        mil = 0
+    }
+}

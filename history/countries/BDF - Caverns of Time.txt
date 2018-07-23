@@ -1,0 +1,17 @@
+technology_group = tech_bronze_dragonflight
+government = dragonflight_council
+primary_culture = caverns_of_time
+religion = dragon_aspects
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Nozdormu"
+        dynasty = "the Timeless"
+        adm = 5
+        dip = 5
+        mil = 4
+    }
+}

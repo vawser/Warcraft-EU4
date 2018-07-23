@@ -1,0 +1,30 @@
+# Hinterlands Wildhammer Branch
+government 			= administrative_kingdom
+mercantilism 		= 10
+technology_group 	= tech_dwarf
+religion			= shamanism
+primary_culture 	= wildhammer
+capital = 1
+
+546.1.1 = { 
+    monarch = { 
+        name = "Kurdran" 
+        dynasty = "Wildhammer" 
+		adm = 3
+		dip = 2
+		mil = 5
+ 	} 
+    historical_friend = WIL # Wildhammer
+    historical_rival = RVT # Revantusk
+} 
+
+901.1.1 = { 
+    monarch = { 
+        name = "Falstad" 
+        dynasty = "Wildhammer" 
+		adm = 3
+		dip = 3
+		mil = 4
+  	}
+}
+

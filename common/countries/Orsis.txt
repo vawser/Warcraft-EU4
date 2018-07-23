@@ -1,0 +1,421 @@
+graphical_culture = tolvirgfx
+
+color = { 98 114 12 }
+
+monarch_names = {
+	"Huhotep #0" = 20
+	"Husam #0" = 20
+	"Tekbas #0" = 20
+	"Tebter #0" = 20
+	"Hurim #0" = 20
+	"Ninjsam #0" = 20
+	"Ammanris #0" = 20
+	"Ammandun #0" = 20
+	"Phaoahn #0" = 20
+	"Huret #0" = 20
+	"Phaohotep #0" = 20
+	"Itsam #0" = 20
+	"Atulsam #0" = 20
+	"Ammanbas #0" = 20
+	"Atulbas #0" = 20
+	"Ammanahn #0" = 20
+	"Tekter #0" = 20
+	"Naris #0" = 20
+	"Ninjahn #0" = 20
+	"Anudun #0" = 20
+	"Huahn #0" = 20
+	"Menret #0" = 20
+	"Phaobas #0" = 20
+	"Tektep #0" = 20
+	"Teksam #0" = 20
+	"Hudun #0" = 20
+	"Tahbas #0" = 20
+	"Anuahn #0" = 20
+	"Narim #0" = 20
+	"Menesh #0" = 20
+	"Tekrim #0" = 20
+	"Tekhet #0" = 20
+	"Atulesh #0" = 20
+	"Itahn #0" = 20
+	"Huris #0" = 20
+	"Tebtep #0" = 20
+	"Menvat #0" = 20
+	"Ithotep #0" = 20
+	"Anuvat #0" = 20
+	"Mensam #0" = 20
+	"Barim #0" = 20
+	"Tahvat #0" = 20
+	"Phaosam #0" = 20
+	"Batep #0" = 20
+	"Tahrim #0" = 20
+	"Atulahn #0" = 20
+	"Ithet #0" = 20
+	"Ninjris #0" = 20
+	"Phaodun #0" = 20
+	"Anusam #0" = 20
+	"Tahris #0" = 20
+	"Ittep #0" = 20
+	"Atulret #0" = 20
+	"Baret #0" = 20
+	"Tahsam #0" = 20
+	"Mendun #0" = 20
+	"Naret #0" = 20
+	"Itbas #0" = 20
+	"Anutep #0" = 20
+	"Tekret #0" = 20
+	"Ammanhotep #0" = 20
+	"Badun #0" = 20
+	"Phaotep #0" = 20
+	"Atulhotep #0" = 20
+	"Bavat #0" = 20
+	"Tahahn #0" = 20
+	"Ammanesh #0" = 20
+	"Phaovat #0" = 20
+	"Phaoesh #0" = 20
+	"Hutep #0" = 20
+	"Tekris #0" = 20
+	"Baris #0" = 20
+	"Atulvat #0" = 20
+	"Mentep #0" = 20
+	"Bahotep #0" = 20
+	"Atuldun #0" = 20
+	"Tebvat #0" = 20
+	"Natep #0" = 20
+	"Atultep #0" = 20
+	"Tahret #0" = 20
+	"Tebhet #0" = 20
+	"Anuris #0" = 20
+	"Tekhotep #0" = 20
+	"Atulris #0" = 20
+	"Tebret #0" = 20
+	"Tebesh #0" = 20
+	"Menhet #0" = 20
+	"Huesh #0" = 20
+	"Anuesh #0" = 20
+	"Anubas #0" = 20
+	"Tahhotep #0" = 20
+	"Ninjter #0" = 20
+	"Anuhet #0" = 20
+	"Baesh #0" = 20
+	"Itdun #0" = 20
+	"Tebrim #0" = 20
+	"Nadun #0" = 20
+	"Itesh #0" = 20
+	"Menter #0" = 20
+	"Phaoris #0" = 20
+	"Ammanhet #0" = 20
+	"Itvat #0" = 20
+	"Atulter #0" = 20
+	"Ammanter #0" = 20
+	"Tebris #0" = 20
+	"Ninjrim #0" = 20
+	"Tebsam #0" = 20
+	"Nahet #0" = 20
+	"Anuret #0" = 20
+	"Bahet #0" = 20
+	"Ninjdun #0" = 20
+	"Anurim #0" = 20
+	"Phaohet #0" = 20
+	"Tekdun #0" = 20
+	"Ammansam #0" = 20
+	"Hubas #0" = 20
+	"Ninjhotep #0" = 20
+	"Itter #0" = 20
+	"Menris #0" = 20
+	"Tebhotep #0" = 20
+	"Tebahn #0" = 20
+	"Nater #0" = 20
+	"Tahdun #0" = 20
+	"Navat #0" = 20
+	"Tebbas #0" = 20
+	"Naahn #0" = 20
+	"Tahter #0" = 20
+	"Baahn #0" = 20
+	"Ninjret #0" = 20
+	"Ammanret #0" = 20
+	"Tekesh #0" = 20
+	"Menhotep #0" = 20
+	"Ammanvat #0" = 20
+	"Tebdun #0" = 20
+	"Huter #0" = 20
+	"Huhet #0" = 20
+	"Nabas #0" = 20
+	"Basam #0" = 20
+	"Nahotep #0" = 20
+	"Itret #0" = 20
+	"Itris #0" = 20
+	"Anuhotep #0" = 20
+	"Menbas #0" = 20
+	"Bater #0" = 20
+	"Ninjbas #0" = 20
+	"Ninjhet #0" = 20
+	"Tahesh #0" = 20
+	"Ninjesh #0" = 20
+	"Atulrim #0" = 20
+	"Phaorim #0" = 20
+	"Phaoret #0" = 20
+	"Huvat #0" = 20
+	"Phaoter #0" = 20
+	"Nasam #0" = 20
+	"Anuter #0" = 20
+	"Menahn #0" = 20
+	"Naesh #0" = 20
+	"Ninjtep #0" = 20
+	"Ammanrim #0" = 20
+	"Tahhet #0" = 20
+	"Huhotep #0" = -20
+	"Husam #0" = -20
+	"Tekbas #0" = -20
+	"Tebter #0" = -20
+	"Hurim #0" = -20
+	"Ninjsam #0" = -20
+	"Ammanris #0" = -20
+	"Ammandun #0" = -20
+	"Phaoahn #0" = -20
+	"Huret #0" = -20
+	"Phaohotep #0" = -20
+	"Itsam #0" = -20
+	"Atulsam #0" = -20
+	"Ammanbas #0" = -20
+	"Atulbas #0" = -20
+	"Ammanahn #0" = -20
+	"Tekter #0" = -20
+	"Naris #0" = -20
+	"Ninjahn #0" = -20
+	"Anudun #0" = -20
+	"Huahn #0" = -20
+	"Menret #0" = -20
+	"Phaobas #0" = -20
+	"Tektep #0" = -20
+	"Teksam #0" = -20
+	"Hudun #0" = -20
+	"Tahbas #0" = -20
+	"Anuahn #0" = -20
+	"Narim #0" = -20
+	"Menesh #0" = -20
+	"Tekrim #0" = -20
+	"Tekhet #0" = -20
+	"Atulesh #0" = -20
+	"Itahn #0" = -20
+	"Huris #0" = -20
+	"Tebtep #0" = -20
+	"Menvat #0" = -20
+	"Ithotep #0" = -20
+	"Anuvat #0" = -20
+	"Mensam #0" = -20
+	"Barim #0" = -20
+	"Tahvat #0" = -20
+	"Phaosam #0" = -20
+	"Batep #0" = -20
+	"Tahrim #0" = -20
+	"Atulahn #0" = -20
+	"Ithet #0" = -20
+	"Ninjris #0" = -20
+	"Phaodun #0" = -20
+	"Anusam #0" = -20
+	"Tahris #0" = -20
+	"Ittep #0" = -20
+	"Atulret #0" = -20
+	"Baret #0" = -20
+	"Tahsam #0" = -20
+	"Mendun #0" = -20
+	"Naret #0" = -20
+	"Itbas #0" = -20
+	"Anutep #0" = -20
+	"Tekret #0" = -20
+	"Ammanhotep #0" = -20
+	"Badun #0" = -20
+	"Phaotep #0" = -20
+	"Atulhotep #0" = -20
+	"Bavat #0" = -20
+	"Tahahn #0" = -20
+	"Ammanesh #0" = -20
+	"Phaovat #0" = -20
+	"Phaoesh #0" = -20
+	"Hutep #0" = -20
+	"Tekris #0" = -20
+	"Baris #0" = -20
+	"Atulvat #0" = -20
+	"Mentep #0" = -20
+	"Bahotep #0" = -20
+	"Atuldun #0" = -20
+	"Tebvat #0" = -20
+	"Natep #0" = -20
+	"Atultep #0" = -20
+	"Tahret #0" = -20
+	"Tebhet #0" = -20
+	"Anuris #0" = -20
+	"Tekhotep #0" = -20
+	"Atulris #0" = -20
+	"Tebret #0" = -20
+	"Tebesh #0" = -20
+	"Menhet #0" = -20
+	"Huesh #0" = -20
+	"Anuesh #0" = -20
+	"Anubas #0" = -20
+	"Tahhotep #0" = -20
+	"Ninjter #0" = -20
+	"Anuhet #0" = -20
+	"Baesh #0" = -20
+	"Itdun #0" = -20
+	"Tebrim #0" = -20
+	"Nadun #0" = -20
+	"Itesh #0" = -20
+	"Menter #0" = -20
+	"Phaoris #0" = -20
+	"Ammanhet #0" = -20
+	"Itvat #0" = -20
+	"Atulter #0" = -20
+	"Ammanter #0" = -20
+	"Tebris #0" = -20
+	"Ninjrim #0" = -20
+	"Tebsam #0" = -20
+	"Nahet #0" = -20
+	"Anuret #0" = -20
+	"Bahet #0" = -20
+	"Ninjdun #0" = -20
+	"Anurim #0" = -20
+	"Phaohet #0" = -20
+	"Tekdun #0" = -20
+	"Ammansam #0" = -20
+	"Hubas #0" = -20
+	"Ninjhotep #0" = -20
+	"Itter #0" = -20
+	"Menris #0" = -20
+	"Tebhotep #0" = -20
+	"Tebahn #0" = -20
+	"Nater #0" = -20
+	"Tahdun #0" = -20
+	"Navat #0" = -20
+	"Tebbas #0" = -20
+	"Naahn #0" = -20
+	"Tahter #0" = -20
+	"Baahn #0" = -20
+	"Ninjret #0" = -20
+	"Ammanret #0" = -20
+	"Tekesh #0" = -20
+	"Menhotep #0" = -20
+	"Ammanvat #0" = -20
+	"Tebdun #0" = -20
+	"Huter #0" = -20
+	"Huhet #0" = -20
+	"Nabas #0" = -20
+	"Basam #0" = -20
+	"Nahotep #0" = -20
+	"Itret #0" = -20
+	"Itris #0" = -20
+	"Anuhotep #0" = -20
+	"Menbas #0" = -20
+	"Bater #0" = -20
+	"Ninjbas #0" = -20
+	"Ninjhet #0" = -20
+	"Tahesh #0" = -20
+	"Ninjesh #0" = -20
+	"Atulrim #0" = -20
+	"Phaorim #0" = -20
+	"Phaoret #0" = -20
+	"Huvat #0" = -20
+	"Phaoter #0" = -20
+	"Nasam #0" = -20
+	"Anuter #0" = -20
+	"Menahn #0" = -20
+	"Naesh #0" = -20
+	"Ninjtep #0" = -20
+	"Ammanrim #0" = -20
+	"Tahhet #0" = -20
+
+}
+
+leader_names = {
+	"the Bonebreaker"
+	"the Throatslicer"
+	"the Wise"
+	"the Quick"
+	"the Sly"
+	"the Coy"
+	"the Smasher"
+	"the Stabber"
+	"the Gutter"
+	"the Ripper"
+	"the Puncher"
+	"the Kicker"
+	"the Massive"
+	"the Mammoth"
+	"the Monstrous"
+	"the Colossal"
+	"the Gigantic"
+	"the Giant"
+	"the Immense"
+	"the Vast"
+	"the Towering"
+	"the Bulky"
+	"the Lusty"
+	"the Mighty"
+	"the Titanic"
+	"the Potent"
+	"the Powerful"
+	"the Stout"
+	"the Tough"
+	"the Strong"
+	"the Sturdy"
+	"the Stalwart"
+	"the Brawny"
+	"the Hearty"
+	"the Great"
+	"the Almighty"
+	"the Gutsy"
+	"the Punchy"
+	"the Astute"
+	"the Careful"
+	"the Enlightened"
+	"the Perceptive"
+	"the Prudent"
+	"the Sane"
+	"the Shrewd"
+	"the Smart"
+	"the Wary"
+	"the Cunning"
+	"the Keen"
+	"the Sage"
+	"the Sharp"
+	"the Crafty"
+	"the Erudite"
+	"the Witty"
+	"the Sapient"
+	"the Tactful"
+	"the Furious"
+	"the Desperate"
+	"the Fierce"
+	"the Frantic"
+	"the Livid"
+	"the Raging"
+	"the Violent"
+	"the Frenzied"
+	"the Inciter"
+	"the Insane"
+	"the Crazed"
+	"the Maniac"
+	"the Vicious"
+	"the Rabid"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+

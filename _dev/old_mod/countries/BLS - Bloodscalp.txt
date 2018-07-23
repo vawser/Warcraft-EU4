@@ -1,0 +1,27 @@
+# Bloodscalp
+government 			= warband
+mercantilism 		= 10
+technology_group 	= tech_troll
+religion			= voodoo
+primary_culture 	= bloodscalp
+capital = 1
+
+546.1.1 = { 
+	monarch = { 
+		name = "Nezzliok" 
+		dynasty = "Bloodscalp" 
+		adm = 3
+		dip = 3
+		mil = 3     
+	} 
+}
+
+901.1.1 = { 
+	monarch = { 
+		name = "Gan'zulah" 
+		dynasty = "Bloodscalp" 
+		adm = 3
+		dip = 3
+		mil = 4     
+	} 
+}  

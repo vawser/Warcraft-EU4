@@ -1,0 +1,36 @@
+technology_group = tech_human
+government = militaristic_kingdom
+primary_culture = stratholme
+religion = the_holy_light
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = { 
+		name = "Alexander II" 
+		dynasty = "Rivendare" 
+		adm = 3
+		dip = 3
+		mil = 3
+ 	} 
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+		name = "Regency Council"
+		adm = 0
+		mil = 0
+		dip = 1
+		regent = yes
+	}
+	heir = { 
+		name = "Aurius" 
+		dynasty = "Rivendare" 
+		birth_date = 816.1.1
+		adm = 3
+		dip = 3
+		mil = 4 
+ 	} 
+}

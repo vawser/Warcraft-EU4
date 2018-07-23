@@ -1,0 +1,61 @@
+technology_group = tech_naga
+government = naga_warband
+primary_culture = stormscale
+religion = azshara
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = {
+        name = "Idrajata"
+        dynasty = "the Giant"
+        adm = 3
+        dip = 0
+        mil = 4
+    }
+}
+
+# Second War
+806.1.1 = {
+    monarch = {
+        name = "Hethjar"
+        dynasty = "the Stabber"
+        adm = 3
+        dip = 2
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+830.1.1 = {
+    monarch = {
+        name = "Jiihag"
+        dynasty = "the Towering"
+        adm = 0
+        dip = 3
+        mil = 0
+    }
+}
+
+# War of the Spider
+860.1.1 = {
+    monarch = {
+        name = "Lianato"
+        dynasty = "the Gigantic"
+        adm = 2
+        dip = 1
+        mil = 4
+    }
+}
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Tized"
+        dynasty = "the Titanic"
+        adm = 3
+        dip = 1
+        mil = 2
+    }
+}

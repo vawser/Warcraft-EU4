@@ -1,0 +1,19 @@
+# Kvaldir
+government 			= war_tribe
+mercantilism 		= 10
+technology_group 	= tech_vrykul
+religion			= water_worship
+primary_culture 	= vrykul
+capital = 1
+
+946.1.1 = { 
+    monarch = { 
+        name = "Hrothgar" 
+        dynasty = "Kvaldir"
+		adm = 3
+		dip = 3
+		mil = 2 
+ 	} 
+}
+
+

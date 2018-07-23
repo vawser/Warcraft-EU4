@@ -1,0 +1,27 @@
+# Boulderslide
+government 			= war_tribe
+mercantilism 		= 10 
+technology_group 	= tech_kobold
+religion			= geomancy
+primary_culture 	= kobold
+capital = 1
+
+546.1.1 = { 
+	monarch = { 
+		name = "" 
+		dynasty = "Goggeroc" 
+		adm = 3
+		dip = 3
+		mil = 3
+	} 
+} 
+
+971.1.1 = { 
+	monarch = { 
+		name = "Subjugator" 
+		dynasty = "Devo" 
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+} 

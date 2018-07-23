@@ -1,0 +1,161 @@
+graphical_culture = gnomegfx
+
+color = { 236 191 158 }
+
+monarch_names = {
+	"Krebribi #0" = 20
+	"Itlas #0" = 20
+	"Ithkazz #0" = 20
+	"Klunlonk #0" = 20
+	"Klilkilik #0" = 20
+	"Eefoteern #0" = 20
+	"Ditkock #0" = 20
+	"Mavamkuzz #0" = 20
+	"Timku #0" = 20
+	"Muciflorn #0" = 20
+	"Krimoldazz #0" = 20
+	"Ittlick #0" = 20
+	"Leethkogic #0" = 20
+	"Edinkak #0" = 20
+	"Itkish #0" = 20
+	"Ithkega #0" = 20
+	"Irkoc #0" = 20
+	"Krinklitla #0" = 20
+	"Terkirek #0" = 20
+	"Ittlizz #0" = 20
+	"Tinlizz #0" = 20
+	"Gutes #0" = 20
+	"Pikinlarn #0" = 20
+	"Pikidi #0" = 20
+	"Glimosh #0" = 20
+	"Eebu #0" = 20
+	"Mares #0" = 20
+	"Iclink #0" = 20
+	"Heerkozz #0" = 20
+	"Curkin #0" = 20
+	"Pattlenk #0" = 20
+	"Glankush #0" = 20
+	"Feerkish #0" = 20
+	"Krimkuk #0" = 20
+	"Callin #0" = 20
+	"Okeemkish #0" = 20
+	"Cithkec #0" = 20
+	"Glidizz #0" = 20
+	"Undos #0" = 20
+	"Oldick #0" = 20
+	"Hifinke #0" = 20
+	"Krorki #0" = 20
+	"Mukiblun #0" = 20
+	"Kreerlones #0" = 20
+	"Eesinceek #0" = 20
+	"Konleevonk #0" = 20
+	"Ciduklo #0" = 20
+	"Beetlas #0" = 20
+	"Kramkash #0" = 20
+	"Klurgotla #0" = 20
+	"Lulbank #0" = -20
+	"Gledok #0" = -20
+	"Klerenk #0" = -20
+	"Sitkock #0" = -20
+	"Tenni #0" = -20
+	"Jopock #0" = -20
+	"Selbe #0" = -20
+	"Thekiklu #0" = -20
+	"Klemku #0" = -20
+	"Thapuzz #0" = -20
+	"Fottluz #0" = -20
+	"Botik #0" = -20
+	"Jyttlozz #0" = -20
+	"Inkeys #0" = -20
+	"Leflinu #0" = -20
+	"Lutkil #0" = -20
+	"Eflullu #0" = -20
+	"Glilkeyl #0" = -20
+	"Nasuz #0" = -20
+	"Lilkene #0" = -20
+	"Jomos #0" = -20
+	"Klolbiz #0" = -20
+	"Nelonk #0" = -20
+	"Nulbesh #0" = -20
+	"Gnosliz #0" = -20
+	"Gnithull #0" = -20
+	"Salildeyz #0" = -20
+	"Fynnofluk #0" = -20
+	"Utkeenk #0" = -20
+	"Thedekle #0" = -20
+
+}
+
+leader_names = {
+	"Battlefield"
+	"Coppernozzle"
+	"Buzzdata"
+	"Shineclue"
+	"Silvergauge"
+	"Buzzinguard"
+	"Pumpcheek"
+	"Finesteel"
+	"Fastwizzle"
+	"Shiftcollar"
+	"Gripcount"
+	"Sparkdwadle"
+	"Temperfield"
+	"Wigglelight"
+	"Gearcup"
+	"Fuzzchalk"
+	"Sparklecable"
+	"Wheelbranch"
+	"Oilcog"
+	"Copperblast"
+	"Buzzinkettle"
+	"Castneedle"
+	"Trickbox"
+	"Singlenozzle"
+	"Toggleshape"
+	"Clockmaster"
+	"Luckpipe"
+	"Flickertrick"
+	"Sharpnozzle"
+	"Quickguard"
+	"Fizzlechalk"
+	"Mekkalaugh"
+	"Bizzcount"
+	"Berrysprocket"
+	"Pullcheek"
+	"Portersignal"
+	"Railgauge"
+	"Wheelfield"
+	"Buzzinlocket"
+	"Railfizz"
+	"Clockpitch"
+	"Overcup"
+	"Lockbadge"
+	"Shortcoil"
+	"Overchalk"
+	"Fixwizzle"
+	"Slipbit"
+	"Thunderpocket"
+	"Pullspring"
+	"Grindchart"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+

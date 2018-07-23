@@ -1,0 +1,30 @@
+technology_group = tech_dwarf
+government = administrative_kingdom
+primary_culture = aerie_peak
+religion = shamanism
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = { 
+        name = "Kurdran" 
+        dynasty = "Wildhammer" 
+		adm = 3
+		dip = 2
+		mil = 5
+ 	} 
+    historical_friend = WIL
+    historical_rival = RVT
+}
+
+# Third War
+901.1.1 = {
+    monarch = { 
+        name = "Falstad" 
+        dynasty = "Wildhammer" 
+		adm = 3
+		dip = 3
+		mil = 4
+  	}
+}

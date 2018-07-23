@@ -1,0 +1,28 @@
+# The Tillers
+government 			= mercantile_tribe
+mercantilism 		= 10 
+technology_group 	= tech_pandaren
+religion			= yulon
+primary_culture 	= pandaren
+capital = 1
+
+546.1.1 = { 
+	monarch = { 
+		name = "Yoon" 
+		dynasty = "Mudclaw" 
+		adm = 4
+		dip = 3
+		mil = 2
+	} 
+} 
+
+
+726.1.1 = { 
+	monarch = { 
+		name = "Haohan" 
+		dynasty = "Mudclaw" 
+		adm = 5
+		dip = 3
+		mil = 2
+	} 
+} 

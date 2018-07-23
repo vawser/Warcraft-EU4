@@ -1,0 +1,18 @@
+# Swinegart
+government 			= cult
+mercantilism 		= 10
+technology_group 	= tech_quillboar
+religion			= cult_of_the_damned
+primary_culture 	= quillboar
+capital = 1
+
+926.1.1 = {
+    monarch = {
+        name = "Charlga"
+        dynasty = "Razorflank"
+        birth_date = 621.1.1
+        adm = 1
+        dip = 2
+        mil = 3
+    }
+}

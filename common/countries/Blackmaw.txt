@@ -1,0 +1,3031 @@
+graphical_culture = furbolggfx
+
+color = { 74 126 54 }
+
+monarch_names = {
+	"Wenog #0" = 20
+	"Ngan #0" = 20
+	"Murtur #0" = 20
+	"Wengarl #0" = 20
+	"Anwen #0" = 20
+	"Wenmur #0" = 20
+	"Gramota #0" = 20
+	"Leak #0" = 20
+	"Dalgra #0" = 20
+	"Krati #0" = 20
+	"Otati #0" = 20
+	"Gramkro #0" = 20
+	"Dalgram #0" = 20
+	"Ranun #0" = 20
+	"Ngun #0" = 20
+	"Turti #0" = 20
+	"Otaun #0" = 20
+	"Ranbald #0" = 20
+	"Turran #0" = 20
+	"Garlun #0" = 20
+	"Oggrum #0" = 20
+	"Garlkra #0" = 20
+	"Tigrum #0" = 20
+	"Kragra #0" = 20
+	"Legraz #0" = 20
+	"Grazkra #0" = 20
+	"Ankra #0" = 20
+	"Murran #0" = 20
+	"Grazan #0" = 20
+	"Grazran #0" = 20
+	"Gramkro #0" = 20
+	"Graog #0" = 20
+	"Otaak #0" = 20
+	"Ankro #0" = 20
+	"Purkra #0" = 20
+	"Kraran #0" = 20
+	"Tigra #0" = 20
+	"Gramle #0" = 20
+	"Wengrum #0" = 20
+	"Ogun #0" = 20
+	"Murgrum #0" = 20
+	"Unmur #0" = 20
+	"Wenle #0" = 20
+	"Tipur #0" = 20
+	"Ngog #0" = 20
+	"Gragra #0" = 20
+	"Grazog #0" = 20
+	"Grumkra #0" = 20
+	"Ogdal #0" = 20
+	"Gramkro #0" = 20
+	"Anmur #0" = 20
+	"Grumdal #0" = 20
+	"Grumak #0" = 20
+	"Turmur #0" = 20
+	"Tigarl #0" = 20
+	"Undal #0" = 20
+	"Tikra #0" = 20
+	"Purog #0" = 20
+	"Baldng #0" = 20
+	"Legarl #0" = 20
+	"Wenog #0" = 20
+	"Krodal #0" = 20
+	"Kraran #0" = 20
+	"Dalran #0" = 20
+	"Kragra #0" = 20
+	"Baldle #0" = 20
+	"Dalgram #0" = 20
+	"Baldun #0" = 20
+	"Grumota #0" = 20
+	"Grumle #0" = 20
+	"Ogpur #0" = 20
+	"Garlgram #0" = 20
+	"Baldle #0" = 20
+	"Grazan #0" = 20
+	"Baldti #0" = 20
+	"Purota #0" = 20
+	"Otagarl #0" = 20
+	"Turgarl #0" = 20
+	"Nggram #0" = 20
+	"Turtur #0" = 20
+	"Grapur #0" = 20
+	"Grazgrum #0" = 20
+	"Grale #0" = 20
+	"Graota #0" = 20
+	"Ngti #0" = 20
+	"Krakro #0" = 20
+	"Ngtur #0" = 20
+	"Krograz #0" = 20
+	"Krong #0" = 20
+	"Kraak #0" = 20
+	"Ngun #0" = 20
+	"Daltur #0" = 20
+	"Gramdal #0" = 20
+	"Ungraz #0" = 20
+	"Wenti #0" = 20
+	"Baldkra #0" = 20
+	"Ngwen #0" = 20
+	"Garlng #0" = 20
+	"Ungraz #0" = 20
+	"Kraran #0" = 20
+	"Anbald #0" = 20
+	"Garlgrum #0" = 20
+	"Dalng #0" = 20
+	"Untur #0" = 20
+	"Garlgarl #0" = 20
+	"Murti #0" = 20
+	"Ngog #0" = 20
+	"Grazmur #0" = 20
+	"Tikro #0" = 20
+	"Turgrum #0" = 20
+	"Ranti #0" = 20
+	"Turun #0" = 20
+	"Krong #0" = 20
+	"Ungra #0" = 20
+	"Akpur #0" = 20
+	"Akbald #0" = 20
+	"Grazmur #0" = 20
+	"Turpur #0" = 20
+	"Kraun #0" = 20
+	"Baldng #0" = 20
+	"Ledal #0" = 20
+	"Grazng #0" = 20
+	"Grumun #0" = 20
+	"Ogog #0" = 20
+	"Ranak #0" = 20
+	"Gragarl #0" = 20
+	"Kradal #0" = 20
+	"Dalun #0" = 20
+	"Kraan #0" = 20
+	"Baldle #0" = 20
+	"Akgraz #0" = 20
+	"Dalgarl #0" = 20
+	"Tikra #0" = 20
+	"Baldan #0" = 20
+	"Garlgarl #0" = 20
+	"Unti #0" = 20
+	"Ogan #0" = 20
+	"Titur #0" = 20
+	"Grambald #0" = 20
+	"Tikra #0" = 20
+	"Baldle #0" = 20
+	"Unpur #0" = 20
+	"Ngun #0" = 20
+	"Kragram #0" = 20
+	"Grazbald #0" = 20
+	"Murkra #0" = 20
+	"Ungarl #0" = 20
+	"Legraz #0" = 20
+	"Anti #0" = 20
+	"Akota #0" = 20
+	"Ngle #0" = 20
+	"Ngun #0" = 20
+	"Grakra #0" = 20
+	"Balddal #0" = 20
+	"Grumle #0" = 20
+	"Murtur #0" = 20
+	"Lekro #0" = 20
+	"Akak #0" = 20
+	"Kraran #0" = 20
+	"Wenle #0" = 20
+	"Ungrum #0" = 20
+	"Garlbald #0" = 20
+	"Krogra #0" = 20
+	"Wenog #0" = 20
+	"Otamur #0" = 20
+	"Graztur #0" = 20
+	"Krole #0" = 20
+	"Gramur #0" = 20
+	"Ranun #0" = 20
+	"Otaan #0" = 20
+	"Antur #0" = 20
+	"Ngran #0" = 20
+	"Kroak #0" = 20
+	"Garlwen #0" = 20
+	"Legram #0" = 20
+	"Akdal #0" = 20
+	"Tiran #0" = 20
+	"Lepur #0" = 20
+	"Graak #0" = 20
+	"Anwen #0" = 20
+	"Grumota #0" = 20
+	"Grumota #0" = 20
+	"Tiota #0" = 20
+	"Wengraz #0" = 20
+	"Kradal #0" = 20
+	"Ankro #0" = 20
+	"Baldun #0" = 20
+	"Gragrum #0" = 20
+	"Turtur #0" = 20
+	"Turak #0" = 20
+	"Baldmur #0" = 20
+	"Akng #0" = 20
+	"Otakra #0" = 20
+	"Gragrum #0" = 20
+	"Grazwen #0" = 20
+	"Nggarl #0" = 20
+	"Purkro #0" = 20
+	"Ranpur #0" = 20
+	"Ngpur #0" = 20
+	"Ranng #0" = 20
+	"Dalgra #0" = 20
+	"Grumota #0" = 20
+	"Akgram #0" = 20
+	"Ogak #0" = 20
+	"Baldti #0" = 20
+	"Krole #0" = 20
+	"Ting #0" = 20
+	"Purng #0" = 20
+	"Ngtur #0" = 20
+	"Dalgram #0" = 20
+	"Titi #0" = 20
+	"Turgra #0" = 20
+	"Otaan #0" = 20
+	"Gragraz #0" = 20
+	"Murdal #0" = 20
+	"Akgra #0" = 20
+	"Kragrum #0" = 20
+	"Turng #0" = 20
+	"Murgrum #0" = 20
+	"Anti #0" = 20
+	"Grazgrum #0" = 20
+	"Turmur #0" = 20
+	"Ogkro #0" = 20
+	"Purpur #0" = 20
+	"Ngdal #0" = 20
+	"Ogog #0" = 20
+	"Gramgarl #0" = 20
+	"Graun #0" = 20
+	"Akran #0" = 20
+	"Tiun #0" = 20
+	"Ogpur #0" = 20
+	"Otagrum #0" = 20
+	"Ogti #0" = 20
+	"Unmur #0" = 20
+	"Krogrum #0" = 20
+	"Otale #0" = 20
+	"Dalpur #0" = 20
+	"Turran #0" = 20
+	"Kragrum #0" = 20
+	"Anog #0" = 20
+	"Akgarl #0" = 20
+	"Dalng #0" = 20
+	"Baldpur #0" = 20
+	"Turle #0" = 20
+	"Unkra #0" = 20
+	"Purran #0" = 20
+	"Gramgra #0" = 20
+	"Krong #0" = 20
+	"Tikra #0" = 20
+	"Garlpur #0" = 20
+	"Purgra #0" = 20
+	"Ungraz #0" = 20
+	"Daltur #0" = 20
+	"Kragram #0" = 20
+	"Gramti #0" = 20
+	"Murgra #0" = 20
+	"Tiwen #0" = 20
+	"Tile #0" = 20
+	"Turle #0" = 20
+	"Murti #0" = 20
+	"Otagrum #0" = 20
+	"Wenan #0" = 20
+	"Murkro #0" = 20
+	"Tiog #0" = 20
+	"Gramran #0" = 20
+	"Kroun #0" = 20
+	"Ranbald #0" = 20
+	"Garlgra #0" = 20
+	"Murtur #0" = 20
+	"Ogwen #0" = 20
+	"Otamur #0" = 20
+	"Grumota #0" = 20
+	"Grazun #0" = 20
+	"Baldpur #0" = 20
+	"Grumgra #0" = 20
+	"Dalti #0" = 20
+	"Anota #0" = 20
+	"Gramtur #0" = 20
+	"Untur #0" = 20
+	"Murun #0" = 20
+	"Ngan #0" = 20
+	"Akran #0" = 20
+	"Kratur #0" = 20
+	"Dalan #0" = 20
+	"Wenbald #0" = 20
+	"Ranpur #0" = 20
+	"Gramti #0" = 20
+	"Baldmur #0" = 20
+	"Wenmur #0" = 20
+	"Grumgra #0" = 20
+	"Ogog #0" = 20
+	"Gramgraz #0" = 20
+	"Grumgra #0" = 20
+	"Garlun #0" = 20
+	"Dalran #0" = 20
+	"Baldkra #0" = 20
+	"Unog #0" = 20
+	"Purun #0" = 20
+	"Kraun #0" = 20
+	"Grambald #0" = 20
+	"Otagraz #0" = 20
+	"Unpur #0" = 20
+	"Grazng #0" = 20
+	"Baldan #0" = 20
+	"Garldal #0" = 20
+	"Purtur #0" = 20
+	"Gramun #0" = 20
+	"Lean #0" = 20
+	"Unti #0" = 20
+	"Purti #0" = 20
+	"Rantur #0" = 20
+	"Anak #0" = 20
+	"Kroog #0" = 20
+	"Ledal #0" = 20
+	"Gramtur #0" = 20
+	"Otawen #0" = 20
+	"Turgra #0" = 20
+	"Ankro #0" = 20
+	"Grummur #0" = 20
+	"Grazun #0" = 20
+	"Akmur #0" = 20
+	"Wenwen #0" = 20
+	"Kragrum #0" = 20
+	"Turgra #0" = 20
+	"Ogwen #0" = 20
+	"Titi #0" = 20
+	"Untur #0" = 20
+	"Titur #0" = 20
+	"Turtur #0" = 20
+	"Otabald #0" = 20
+	"Purran #0" = 20
+	"Kroak #0" = 20
+	"Kragram #0" = 20
+	"Garlmur #0" = 20
+	"Grumota #0" = 20
+	"Dalun #0" = 20
+	"Turgraz #0" = 20
+	"Murgrum #0" = 20
+	"Unota #0" = 20
+	"Ungrum #0" = 20
+	"Murota #0" = 20
+	"Dalota #0" = 20
+	"Grapur #0" = 20
+	"Legraz #0" = 20
+	"Otawen #0" = 20
+	"Otaan #0" = 20
+	"Baldran #0" = 20
+	"Krogrum #0" = 20
+	"Otaun #0" = 20
+	"Unng #0" = 20
+	"Oggraz #0" = 20
+	"Gramgra #0" = 20
+	"Garlak #0" = 20
+	"Otagra #0" = 20
+	"Ungram #0" = 20
+	"Graztur #0" = 20
+	"Unpur #0" = 20
+	"Murgarl #0" = 20
+	"Krati #0" = 20
+	"Akak #0" = 20
+	"Gruman #0" = 20
+	"Akti #0" = 20
+	"Rankra #0" = 20
+	"Garlun #0" = 20
+	"Legarl #0" = 20
+	"Murmur #0" = 20
+	"Grumle #0" = 20
+	"Timur #0" = 20
+	"Garlti #0" = 20
+	"Krong #0" = 20
+	"Kromur #0" = 20
+	"Purkra #0" = 20
+	"Akun #0" = 20
+	"Anle #0" = 20
+	"Garlkro #0" = 20
+	"Gruman #0" = 20
+	"Dalak #0" = 20
+	"Lele #0" = 20
+	"Grummur #0" = 20
+	"Grumdal #0" = 20
+	"Grazun #0" = 20
+	"Grumgram #0" = 20
+	"Kragraz #0" = 20
+	"Otaota #0" = 20
+	"Rangra #0" = 20
+	"Dalun #0" = 20
+	"Timur #0" = 20
+	"Titur #0" = 20
+	"Balddal #0" = 20
+	"Murti #0" = 20
+	"Unog #0" = 20
+	"Murran #0" = 20
+	"Puran #0" = 20
+	"Purgra #0" = 20
+	"Otatur #0" = 20
+	"Grazgram #0" = 20
+	"Otatur #0" = 20
+	"Kratur #0" = 20
+	"Kragra #0" = 20
+	"Otawen #0" = 20
+	"Turpur #0" = 20
+	"Dalkra #0" = 20
+	"Turbald #0" = 20
+	"Grambald #0" = 20
+	"Turak #0" = 20
+	"Grazota #0" = 20
+	"Grang #0" = 20
+	"Baldog #0" = 20
+	"Purdal #0" = 20
+	"Tiwen #0" = 20
+	"Tian #0" = 20
+	"Otaun #0" = 20
+	"Purak #0" = 20
+	"Dalti #0" = 20
+	"Akgram #0" = 20
+	"Otagarl #0" = 20
+	"Akti #0" = 20
+	"Baldtur #0" = 20
+	"Unng #0" = 20
+	"Kroran #0" = 20
+	"Unota #0" = 20
+	"Anbald #0" = 20
+	"Garlan #0" = 20
+	"Kratur #0" = 20
+	"Murgraz #0" = 20
+	"Gramran #0" = 20
+	"Otaun #0" = 20
+	"Garldal #0" = 20
+	"Rangra #0" = 20
+	"Kroog #0" = 20
+	"Unng #0" = 20
+	"Anog #0" = 20
+	"Aktur #0" = 20
+	"Baldtur #0" = 20
+	"Ogran #0" = 20
+	"Gragram #0" = 20
+	"Unbald #0" = 20
+	"Gragarl #0" = 20
+	"Ogota #0" = 20
+	"Otaan #0" = 20
+	"Oggram #0" = 20
+	"Murdal #0" = 20
+	"Oggra #0" = 20
+	"Krong #0" = 20
+	"Purgram #0" = 20
+	"Nggrum #0" = 20
+	"Baldota #0" = 20
+	"Turbald #0" = 20
+	"Unkra #0" = 20
+	"Unan #0" = 20
+	"Kragram #0" = 20
+	"Gramtur #0" = 20
+	"Otagra #0" = 20
+	"Randal #0" = 20
+	"Unmur #0" = 20
+	"Garlkro #0" = 20
+	"Ogdal #0" = 20
+	"Ranan #0" = 20
+	"Grumgram #0" = 20
+	"Krole #0" = 20
+	"Dalkra #0" = 20
+	"Purtur #0" = 20
+	"Ogkro #0" = 20
+	"Krodal #0" = 20
+	"Ungra #0" = 20
+	"Garlgraz #0" = 20
+	"Akota #0" = 20
+	"Grumran #0" = 20
+	"Baldpur #0" = 20
+	"Titi #0" = 20
+	"Murak #0" = 20
+	"Wengarl #0" = 20
+	"Angrum #0" = 20
+	"Gragra #0" = 20
+	"Akgraz #0" = 20
+	"Wengrum #0" = 20
+	"Grumng #0" = 20
+	"Turak #0" = 20
+	"Grazota #0" = 20
+	"Leun #0" = 20
+	"Kroun #0" = 20
+	"Balddal #0" = 20
+	"Nggram #0" = 20
+	"Ogbald #0" = 20
+	"Tiog #0" = 20
+	"Garlkra #0" = 20
+	"Kragrum #0" = 20
+	"Garlog #0" = 20
+	"Gramdal #0" = 20
+	"Ngran #0" = 20
+	"Baldmur #0" = 20
+	"Ogti #0" = 20
+	"Ngle #0" = 20
+	"Krapur #0" = 20
+	"Oggrum #0" = 20
+	"Garlan #0" = 20
+	"Ranti #0" = 20
+	"Ngkra #0" = 20
+	"Baldle #0" = 20
+	"Lekra #0" = 20
+	"Ranan #0" = 20
+	"Grumun #0" = 20
+	"Ungarl #0" = 20
+	"Murkro #0" = 20
+	"Baldran #0" = 20
+	"Krowen #0" = 20
+	"Grazkro #0" = 20
+	"Untur #0" = 20
+	"Baldbald #0" = 20
+	"Unran #0" = 20
+	"Dalgraz #0" = 20
+	"Ranog #0" = 20
+	"Nggarl #0" = 20
+	"Tibald #0" = 20
+	"Grang #0" = 20
+	"Murwen #0" = 20
+	"Murng #0" = 20
+	"Grazpur #0" = 20
+	"Ungraz #0" = 20
+	"Tigarl #0" = 20
+	"Grazog #0" = 20
+	"Otagarl #0" = 20
+	"Baldbald #0" = 20
+	"Wenkra #0" = 20
+	"Dalgarl #0" = 20
+	"Garlbald #0" = 20
+	"Grumti #0" = 20
+	"Krakra #0" = 20
+	"Garlng #0" = 20
+	"Unota #0" = 20
+	"Garlgra #0" = 20
+	"Murti #0" = 20
+	"Dalkra #0" = 20
+	"Leran #0" = 20
+	"Grumwen #0" = 20
+	"Anog #0" = 20
+	"Akmur #0" = 20
+	"Baldwen #0" = 20
+	"Unak #0" = 20
+	"Wenti #0" = 20
+	"Ungra #0" = 20
+	"Murog #0" = 20
+	"Akota #0" = 20
+	"Nggram #0" = 20
+	"Wenti #0" = 20
+	"Kromur #0" = 20
+	"Kromur #0" = 20
+	"Ngng #0" = 20
+	"Dalota #0" = 20
+	"Purbald #0" = 20
+	"Unog #0" = 20
+	"Ranran #0" = 20
+	"Anan #0" = 20
+	"Ngkra #0" = 20
+	"Akgraz #0" = 20
+	"Ungarl #0" = 20
+	"Dalgram #0" = 20
+	"Lekro #0" = 20
+	"Dalkro #0" = 20
+	"Wengra #0" = 20
+	"Tibald #0" = 20
+	"Otakro #0" = 20
+	"Purgrum #0" = 20
+	"Baldwen #0" = 20
+	"Angraz #0" = 20
+	"Turun #0" = 20
+	"Ogng #0" = 20
+	"Nggra #0" = 20
+	"Ogdal #0" = 20
+	"Ogun #0" = 20
+	"Murgarl #0" = 20
+	"Untur #0" = 20
+	"Grumti #0" = 20
+	"Dalran #0" = 20
+	"Purgrum #0" = 20
+	"Grumng #0" = 20
+	"Purmur #0" = 20
+	"Leran #0" = 20
+	"Anpur #0" = 20
+	"Unog #0" = 20
+	"Garlkra #0" = 20
+	"Akle #0" = 20
+	"Baldtur #0" = 20
+	"Krong #0" = 20
+	"Grumdal #0" = 20
+	"Grumkro #0" = 20
+	"Unota #0" = 20
+	"Unak #0" = 20
+	"Unak #0" = 20
+	"Grumkra #0" = 20
+	"Angra #0" = 20
+	"Murkro #0" = 20
+	"Tiran #0" = 20
+	"Dalota #0" = 20
+	"Grazota #0" = 20
+	"Otaran #0" = 20
+	"Dalun #0" = 20
+	"Oggram #0" = 20
+	"Nggram #0" = 20
+	"Wendal #0" = 20
+	"Garlgram #0" = 20
+	"Rangra #0" = 20
+	"Garlran #0" = 20
+	"Unun #0" = 20
+	"Grapur #0" = 20
+	"Anbald #0" = 20
+	"Unun #0" = 20
+	"Tipur #0" = 20
+	"Grazan #0" = 20
+	"Gramkra #0" = 20
+	"Purota #0" = 20
+	"Grumti #0" = 20
+	"Unun #0" = 20
+	"Ngmur #0" = 20
+	"Baldti #0" = 20
+	"Murpur #0" = 20
+	"Otagra #0" = 20
+	"Otakro #0" = 20
+	"Leti #0" = 20
+	"Ogtur #0" = 20
+	"Gramun #0" = 20
+	"Ogtur #0" = 20
+	"Gramun #0" = 20
+	"Murbald #0" = 20
+	"Wenbald #0" = 20
+	"Leti #0" = 20
+	"Tian #0" = 20
+	"Garlkro #0" = 20
+	"Graun #0" = 20
+	"Garlpur #0" = 20
+	"Gramog #0" = 20
+	"Ogmur #0" = 20
+	"Leng #0" = 20
+	"Lean #0" = 20
+	"Leun #0" = 20
+	"Graun #0" = 20
+	"Dalgrum #0" = 20
+	"Turgram #0" = 20
+	"Baldgra #0" = 20
+	"Anun #0" = 20
+	"Garlkro #0" = 20
+	"Kroan #0" = 20
+	"Lemur #0" = 20
+	"Baldun #0" = 20
+	"Wenota #0" = 20
+	"Grazdal #0" = 20
+	"Murti #0" = 20
+	"Akun #0" = 20
+	"Untur #0" = 20
+	"Otaak #0" = 20
+	"Akak #0" = 20
+	"Graak #0" = 20
+	"Turun #0" = 20
+	"Murkro #0" = 20
+	"Daldal #0" = 20
+	"Turran #0" = 20
+	"Ngkro #0" = 20
+	"Ogun #0" = 20
+	"Wenng #0" = 20
+	"Muran #0" = 20
+	"Murkro #0" = 20
+	"Grazdal #0" = 20
+	"Murgra #0" = 20
+	"Undal #0" = 20
+	"Tidal #0" = 20
+	"Anran #0" = 20
+	"Wengram #0" = 20
+	"Ranan #0" = 20
+	"Purak #0" = 20
+	"Ogwen #0" = 20
+	"Grazgram #0" = 20
+	"Grumbald #0" = 20
+	"Akmur #0" = 20
+	"Ngota #0" = 20
+	"Leran #0" = 20
+	"Tigraz #0" = 20
+	"Baldun #0" = 20
+	"Unog #0" = 20
+	"Baldan #0" = 20
+	"Kroun #0" = 20
+	"Kramur #0" = 20
+	"Titi #0" = 20
+	"Akun #0" = 20
+	"Balddal #0" = 20
+	"Turgarl #0" = 20
+	"Ogak #0" = 20
+	"Rankra #0" = 20
+	"Murak #0" = 20
+	"Otale #0" = 20
+	"Purgarl #0" = 20
+	"Krogrum #0" = 20
+	"Anun #0" = 20
+	"Anan #0" = 20
+	"Grakro #0" = 20
+	"Turmur #0" = 20
+	"Grazran #0" = 20
+	"Titur #0" = 20
+	"Kroun #0" = 20
+	"Wenmur #0" = 20
+	"Ngota #0" = 20
+	"Gragra #0" = 20
+	"Dalgrum #0" = 20
+	"Tian #0" = 20
+	"Ogran #0" = 20
+	"Grambald #0" = 20
+	"Otang #0" = 20
+	"Garlle #0" = 20
+	"Baldun #0" = 20
+	"Akog #0" = 20
+	"Turkro #0" = 20
+	"Turran #0" = 20
+	"Anmur #0" = 20
+	"Gragram #0" = 20
+	"Purun #0" = 20
+	"Nggrum #0" = 20
+	"Krong #0" = 20
+	"Garlti #0" = 20
+	"Graun #0" = 20
+	"Garlgarl #0" = 20
+	"Grazgarl #0" = 20
+	"Kragra #0" = 20
+	"Turtur #0" = 20
+	"Angram #0" = 20
+	"Purak #0" = 20
+	"Turgrum #0" = 20
+	"Ankro #0" = 20
+	"Garlota #0" = 20
+	"Grabald #0" = 20
+	"Grumtur #0" = 20
+	"Anog #0" = 20
+	"Krokra #0" = 20
+	"Murmur #0" = 20
+	"Grazgraz #0" = 20
+	"Angarl #0" = 20
+	"Krokra #0" = 20
+	"Turgrum #0" = 20
+	"Legrum #0" = 20
+	"Garlog #0" = 20
+	"Akle #0" = 20
+	"Gramwen #0" = 20
+	"Turgra #0" = 20
+	"Krati #0" = 20
+	"Titi #0" = 20
+	"Dalkro #0" = 20
+	"Undal #0" = 20
+	"Turgra #0" = 20
+	"Unmur #0" = 20
+	"Dalti #0" = 20
+	"Antur #0" = 20
+	"Krong #0" = 20
+	"Leran #0" = 20
+	"Ranun #0" = 20
+	"Wenun #0" = 20
+	"Anng #0" = 20
+	"Oggraz #0" = 20
+	"Gragram #0" = 20
+	"Ogan #0" = 20
+	"Baldun #0" = 20
+	"Krogrum #0" = 20
+	"Turng #0" = 20
+	"Rangra #0" = 20
+	"Ngan #0" = 20
+	"Kradal #0" = 20
+	"Baldng #0" = 20
+	"Grazng #0" = 20
+	"Baldota #0" = 20
+	"Otaun #0" = 20
+	"Wenkro #0" = 20
+	"Tigraz #0" = 20
+	"Murdal #0" = 20
+	"Turog #0" = 20
+	"Ngkro #0" = 20
+	"Anog #0" = 20
+	"Turgra #0" = 20
+	"Untur #0" = 20
+	"Ranun #0" = 20
+	"Baldng #0" = 20
+	"Tigra #0" = 20
+	"Ogmur #0" = 20
+	"Garldal #0" = 20
+	"Leng #0" = 20
+	"Gruman #0" = 20
+	"Akgraz #0" = 20
+	"Gramgraz #0" = 20
+	"Murak #0" = 20
+	"Krang #0" = 20
+	"Kragra #0" = 20
+	"Krodal #0" = 20
+	"Murgarl #0" = 20
+	"Grumkra #0" = 20
+	"Unkro #0" = 20
+	"Graog #0" = 20
+	"Ogdal #0" = 20
+	"Ogti #0" = 20
+	"Grazog #0" = 20
+	"Baldgrum #0" = 20
+	"Ranota #0" = 20
+	"Ranle #0" = 20
+	"Ogota #0" = 20
+	"Ogwen #0" = 20
+	"Grampur #0" = 20
+	"Ngan #0" = 20
+	"Gragra #0" = 20
+	"Ungrum #0" = 20
+	"Leak #0" = 20
+	"Grazgraz #0" = 20
+	"Ngak #0" = 20
+	"Ngng #0" = 20
+	"Lepur #0" = 20
+	"Untur #0" = 20
+	"Tigrum #0" = 20
+	"Purgarl #0" = 20
+	"Krang #0" = 20
+	"Kragra #0" = 20
+	"Baldle #0" = 20
+	"Rangarl #0" = 20
+	"Grumran #0" = 20
+	"Murbald #0" = 20
+	"Rangram #0" = 20
+	"Otati #0" = 20
+	"Ngdal #0" = 20
+	"Baldun #0" = 20
+	"Kraak #0" = 20
+	"Akmur #0" = 20
+	"Ranak #0" = 20
+	"Turkro #0" = 20
+	"Otakro #0" = 20
+	"Anmur #0" = 20
+	"Otagarl #0" = 20
+	"Otaun #0" = 20
+	"Anog #0" = 20
+	"Garlan #0" = 20
+	"Ungra #0" = 20
+	"Grang #0" = 20
+	"Gragarl #0" = 20
+	"Purle #0" = 20
+	"Tigraz #0" = 20
+	"Rankro #0" = 20
+	"Akkra #0" = 20
+	"Purmur #0" = 20
+	"Purkra #0" = 20
+	"Dalran #0" = 20
+	"Kraun #0" = 20
+	"Grazota #0" = 20
+	"Akpur #0" = 20
+	"Otagrum #0" = 20
+	"Baldtur #0" = 20
+	"Unkra #0" = 20
+	"Kroti #0" = 20
+	"Otaak #0" = 20
+	"Unran #0" = 20
+	"Lekro #0" = 20
+	"Purpur #0" = 20
+	"Murti #0" = 20
+	"Dalgrum #0" = 20
+	"Otagarl #0" = 20
+	"Otamur #0" = 20
+	"Baldkra #0" = 20
+	"Krogarl #0" = 20
+	"Rangarl #0" = 20
+	"Krabald #0" = 20
+	"Akun #0" = 20
+	"Purgraz #0" = 20
+	"Angarl #0" = 20
+	"Purgram #0" = 20
+	"Garlran #0" = 20
+	"Grazgraz #0" = 20
+	"Garlmur #0" = 20
+	"Krogra #0" = 20
+	"Grazgram #0" = 20
+	"Wenpur #0" = 20
+	"Grazgra #0" = 20
+	"Tiog #0" = 20
+	"Turgraz #0" = 20
+	"Akpur #0" = 20
+	"Anun #0" = 20
+	"Dalran #0" = 20
+	"Grazmur #0" = 20
+	"Akgram #0" = 20
+	"Ranun #0" = 20
+	"Krapur #0" = 20
+	"Leun #0" = 20
+	"Grakro #0" = 20
+	"Murti #0" = 20
+	"Ogkra #0" = 20
+	"Akan #0" = 20
+	"Gramkra #0" = 20
+	"Tikro #0" = 20
+	"Wengra #0" = 20
+	"Grazwen #0" = 20
+	"Unun #0" = 20
+	"Gramdal #0" = 20
+	"Nggrum #0" = 20
+	"Wenng #0" = 20
+	"Grazgrum #0" = 20
+	"Anti #0" = 20
+	"Otati #0" = 20
+	"Purkro #0" = 20
+	"Purtur #0" = 20
+	"Rantur #0" = 20
+	"Ungarl #0" = 20
+	"Dalan #0" = 20
+	"Murgra #0" = 20
+	"Rangrum #0" = 20
+	"Graman #0" = 20
+	"Ogkro #0" = 20
+	"Purdal #0" = 20
+	"Nggarl #0" = 20
+	"Grazan #0" = 20
+	"Garlwen #0" = 20
+	"Krakro #0" = 20
+	"Dalgram #0" = 20
+	"Wenti #0" = 20
+	"Unng #0" = 20
+	"Ogtur #0" = 20
+	"Otaun #0" = 20
+	"Gramwen #0" = 20
+	"Akpur #0" = 20
+	"Krapur #0" = 20
+	"Grumgraz #0" = 20
+	"Ngti #0" = 20
+	"Ngkro #0" = 20
+	"Anota #0" = 20
+	"Murpur #0" = 20
+	"Anak #0" = 20
+	"Otaan #0" = 20
+	"Lele #0" = 20
+	"Murran #0" = 20
+	"Ungrum #0" = 20
+	"Grati #0" = 20
+	"Dalkra #0" = 20
+	"Unog #0" = 20
+	"Leng #0" = 20
+	"Leun #0" = 20
+	"Otaun #0" = 20
+	"Gramgraz #0" = 20
+	"Ledal #0" = 20
+	"Gramkro #0" = 20
+	"Gramgraz #0" = 20
+	"Ngkro #0" = 20
+	"Garldal #0" = 20
+	"Rangarl #0" = 20
+	"Baldng #0" = 20
+	"Akran #0" = 20
+	"Wengrum #0" = 20
+	"Murtur #0" = 20
+	"Andal #0" = 20
+	"Unan #0" = 20
+	"Rantur #0" = 20
+	"Kroran #0" = 20
+	"Gramle #0" = 20
+	"Ranan #0" = 20
+	"Ogdal #0" = 20
+	"Grumgra #0" = 20
+	"Otale #0" = 20
+	"Grazota #0" = 20
+	"Gramtur #0" = 20
+	"Tiota #0" = 20
+	"Otaun #0" = 20
+	"Krati #0" = 20
+	"Grumgrum #0" = 20
+	"Oggarl #0" = 20
+	"Murle #0" = 20
+	"Purng #0" = 20
+	"Rangrum #0" = 20
+	"Ngbald #0" = 20
+	"Grumgrum #0" = 20
+	"Unun #0" = 20
+	"Gramgram #0" = 20
+	"Krowen #0" = 20
+	"Angram #0" = 20
+	"Grazpur #0" = 20
+	"Daltur #0" = 20
+	"Ogbald #0" = 20
+	"Purota #0" = 20
+	"Otabald #0" = 20
+	"Wenpur #0" = 20
+	"Turng #0" = 20
+	"Graota #0" = 20
+	"Dalgrum #0" = 20
+	"Grazak #0" = 20
+	"Balddal #0" = 20
+	"Legarl #0" = 20
+	"Ngpur #0" = 20
+	"Purle #0" = 20
+	"Ranun #0" = 20
+	"Turwen #0" = 20
+	"Wenle #0" = 20
+	"Tiak #0" = 20
+	"Krobald #0" = 20
+	"Lekro #0" = 20
+	"Wenng #0" = 20
+	"Garlwen #0" = 20
+	"Akgarl #0" = 20
+	"Turgrum #0" = 20
+	"Ogog #0" = 20
+	"Oggram #0" = 20
+	"Grazgram #0" = 20
+	"Krobald #0" = 20
+	"Unmur #0" = 20
+	"Wenog #0" = -20
+	"Ngan #0" = -20
+	"Murtur #0" = -20
+	"Wengarl #0" = -20
+	"Anwen #0" = -20
+	"Wenmur #0" = -20
+	"Gramota #0" = -20
+	"Leak #0" = -20
+	"Dalgra #0" = -20
+	"Krati #0" = -20
+	"Otati #0" = -20
+	"Gramkro #0" = -20
+	"Dalgram #0" = -20
+	"Ranun #0" = -20
+	"Ngun #0" = -20
+	"Turti #0" = -20
+	"Otaun #0" = -20
+	"Ranbald #0" = -20
+	"Turran #0" = -20
+	"Garlun #0" = -20
+	"Oggrum #0" = -20
+	"Garlkra #0" = -20
+	"Tigrum #0" = -20
+	"Kragra #0" = -20
+	"Legraz #0" = -20
+	"Grazkra #0" = -20
+	"Ankra #0" = -20
+	"Murran #0" = -20
+	"Grazan #0" = -20
+	"Grazran #0" = -20
+	"Gramkro #0" = -20
+	"Graog #0" = -20
+	"Otaak #0" = -20
+	"Ankro #0" = -20
+	"Purkra #0" = -20
+	"Kraran #0" = -20
+	"Tigra #0" = -20
+	"Gramle #0" = -20
+	"Wengrum #0" = -20
+	"Ogun #0" = -20
+	"Murgrum #0" = -20
+	"Unmur #0" = -20
+	"Wenle #0" = -20
+	"Tipur #0" = -20
+	"Ngog #0" = -20
+	"Gragra #0" = -20
+	"Grazog #0" = -20
+	"Grumkra #0" = -20
+	"Ogdal #0" = -20
+	"Gramkro #0" = -20
+	"Anmur #0" = -20
+	"Grumdal #0" = -20
+	"Grumak #0" = -20
+	"Turmur #0" = -20
+	"Tigarl #0" = -20
+	"Undal #0" = -20
+	"Tikra #0" = -20
+	"Purog #0" = -20
+	"Baldng #0" = -20
+	"Legarl #0" = -20
+	"Wenog #0" = -20
+	"Krodal #0" = -20
+	"Kraran #0" = -20
+	"Dalran #0" = -20
+	"Kragra #0" = -20
+	"Baldle #0" = -20
+	"Dalgram #0" = -20
+	"Baldun #0" = -20
+	"Grumota #0" = -20
+	"Grumle #0" = -20
+	"Ogpur #0" = -20
+	"Garlgram #0" = -20
+	"Baldle #0" = -20
+	"Grazan #0" = -20
+	"Baldti #0" = -20
+	"Purota #0" = -20
+	"Otagarl #0" = -20
+	"Turgarl #0" = -20
+	"Nggram #0" = -20
+	"Turtur #0" = -20
+	"Grapur #0" = -20
+	"Grazgrum #0" = -20
+	"Grale #0" = -20
+	"Graota #0" = -20
+	"Ngti #0" = -20
+	"Krakro #0" = -20
+	"Ngtur #0" = -20
+	"Krograz #0" = -20
+	"Krong #0" = -20
+	"Kraak #0" = -20
+	"Ngun #0" = -20
+	"Daltur #0" = -20
+	"Gramdal #0" = -20
+	"Ungraz #0" = -20
+	"Wenti #0" = -20
+	"Baldkra #0" = -20
+	"Ngwen #0" = -20
+	"Garlng #0" = -20
+	"Ungraz #0" = -20
+	"Kraran #0" = -20
+	"Anbald #0" = -20
+	"Garlgrum #0" = -20
+	"Dalng #0" = -20
+	"Untur #0" = -20
+	"Garlgarl #0" = -20
+	"Murti #0" = -20
+	"Ngog #0" = -20
+	"Grazmur #0" = -20
+	"Tikro #0" = -20
+	"Turgrum #0" = -20
+	"Ranti #0" = -20
+	"Turun #0" = -20
+	"Krong #0" = -20
+	"Ungra #0" = -20
+	"Akpur #0" = -20
+	"Akbald #0" = -20
+	"Grazmur #0" = -20
+	"Turpur #0" = -20
+	"Kraun #0" = -20
+	"Baldng #0" = -20
+	"Ledal #0" = -20
+	"Grazng #0" = -20
+	"Grumun #0" = -20
+	"Ogog #0" = -20
+	"Ranak #0" = -20
+	"Gragarl #0" = -20
+	"Kradal #0" = -20
+	"Dalun #0" = -20
+	"Kraan #0" = -20
+	"Baldle #0" = -20
+	"Akgraz #0" = -20
+	"Dalgarl #0" = -20
+	"Tikra #0" = -20
+	"Baldan #0" = -20
+	"Garlgarl #0" = -20
+	"Unti #0" = -20
+	"Ogan #0" = -20
+	"Titur #0" = -20
+	"Grambald #0" = -20
+	"Tikra #0" = -20
+	"Baldle #0" = -20
+	"Unpur #0" = -20
+	"Ngun #0" = -20
+	"Kragram #0" = -20
+	"Grazbald #0" = -20
+	"Murkra #0" = -20
+	"Ungarl #0" = -20
+	"Legraz #0" = -20
+	"Anti #0" = -20
+	"Akota #0" = -20
+	"Ngle #0" = -20
+	"Ngun #0" = -20
+	"Grakra #0" = -20
+	"Balddal #0" = -20
+	"Grumle #0" = -20
+	"Murtur #0" = -20
+	"Lekro #0" = -20
+	"Akak #0" = -20
+	"Kraran #0" = -20
+	"Wenle #0" = -20
+	"Ungrum #0" = -20
+	"Garlbald #0" = -20
+	"Krogra #0" = -20
+	"Wenog #0" = -20
+	"Otamur #0" = -20
+	"Graztur #0" = -20
+	"Krole #0" = -20
+	"Gramur #0" = -20
+	"Ranun #0" = -20
+	"Otaan #0" = -20
+	"Antur #0" = -20
+	"Ngran #0" = -20
+	"Kroak #0" = -20
+	"Garlwen #0" = -20
+	"Legram #0" = -20
+	"Akdal #0" = -20
+	"Tiran #0" = -20
+	"Lepur #0" = -20
+	"Graak #0" = -20
+	"Anwen #0" = -20
+	"Grumota #0" = -20
+	"Grumota #0" = -20
+	"Tiota #0" = -20
+	"Wengraz #0" = -20
+	"Kradal #0" = -20
+	"Ankro #0" = -20
+	"Baldun #0" = -20
+	"Gragrum #0" = -20
+	"Turtur #0" = -20
+	"Turak #0" = -20
+	"Baldmur #0" = -20
+	"Akng #0" = -20
+	"Otakra #0" = -20
+	"Gragrum #0" = -20
+	"Grazwen #0" = -20
+	"Nggarl #0" = -20
+	"Purkro #0" = -20
+	"Ranpur #0" = -20
+	"Ngpur #0" = -20
+	"Ranng #0" = -20
+	"Dalgra #0" = -20
+	"Grumota #0" = -20
+	"Akgram #0" = -20
+	"Ogak #0" = -20
+	"Baldti #0" = -20
+	"Krole #0" = -20
+	"Ting #0" = -20
+	"Purng #0" = -20
+	"Ngtur #0" = -20
+	"Dalgram #0" = -20
+	"Titi #0" = -20
+	"Turgra #0" = -20
+	"Otaan #0" = -20
+	"Gragraz #0" = -20
+	"Murdal #0" = -20
+	"Akgra #0" = -20
+	"Kragrum #0" = -20
+	"Turng #0" = -20
+	"Murgrum #0" = -20
+	"Anti #0" = -20
+	"Grazgrum #0" = -20
+	"Turmur #0" = -20
+	"Ogkro #0" = -20
+	"Purpur #0" = -20
+	"Ngdal #0" = -20
+	"Ogog #0" = -20
+	"Gramgarl #0" = -20
+	"Graun #0" = -20
+	"Akran #0" = -20
+	"Tiun #0" = -20
+	"Ogpur #0" = -20
+	"Otagrum #0" = -20
+	"Ogti #0" = -20
+	"Unmur #0" = -20
+	"Krogrum #0" = -20
+	"Otale #0" = -20
+	"Dalpur #0" = -20
+	"Turran #0" = -20
+	"Kragrum #0" = -20
+	"Anog #0" = -20
+	"Akgarl #0" = -20
+	"Dalng #0" = -20
+	"Baldpur #0" = -20
+	"Turle #0" = -20
+	"Unkra #0" = -20
+	"Purran #0" = -20
+	"Gramgra #0" = -20
+	"Krong #0" = -20
+	"Tikra #0" = -20
+	"Garlpur #0" = -20
+	"Purgra #0" = -20
+	"Ungraz #0" = -20
+	"Daltur #0" = -20
+	"Kragram #0" = -20
+	"Gramti #0" = -20
+	"Murgra #0" = -20
+	"Tiwen #0" = -20
+	"Tile #0" = -20
+	"Turle #0" = -20
+	"Murti #0" = -20
+	"Otagrum #0" = -20
+	"Wenan #0" = -20
+	"Murkro #0" = -20
+	"Tiog #0" = -20
+	"Gramran #0" = -20
+	"Kroun #0" = -20
+	"Ranbald #0" = -20
+	"Garlgra #0" = -20
+	"Murtur #0" = -20
+	"Ogwen #0" = -20
+	"Otamur #0" = -20
+	"Grumota #0" = -20
+	"Grazun #0" = -20
+	"Baldpur #0" = -20
+	"Grumgra #0" = -20
+	"Dalti #0" = -20
+	"Anota #0" = -20
+	"Gramtur #0" = -20
+	"Untur #0" = -20
+	"Murun #0" = -20
+	"Ngan #0" = -20
+	"Akran #0" = -20
+	"Kratur #0" = -20
+	"Dalan #0" = -20
+	"Wenbald #0" = -20
+	"Ranpur #0" = -20
+	"Gramti #0" = -20
+	"Baldmur #0" = -20
+	"Wenmur #0" = -20
+	"Grumgra #0" = -20
+	"Ogog #0" = -20
+	"Gramgraz #0" = -20
+	"Grumgra #0" = -20
+	"Garlun #0" = -20
+	"Dalran #0" = -20
+	"Baldkra #0" = -20
+	"Unog #0" = -20
+	"Purun #0" = -20
+	"Kraun #0" = -20
+	"Grambald #0" = -20
+	"Otagraz #0" = -20
+	"Unpur #0" = -20
+	"Grazng #0" = -20
+	"Baldan #0" = -20
+	"Garldal #0" = -20
+	"Purtur #0" = -20
+	"Gramun #0" = -20
+	"Lean #0" = -20
+	"Unti #0" = -20
+	"Purti #0" = -20
+	"Rantur #0" = -20
+	"Anak #0" = -20
+	"Kroog #0" = -20
+	"Ledal #0" = -20
+	"Gramtur #0" = -20
+	"Otawen #0" = -20
+	"Turgra #0" = -20
+	"Ankro #0" = -20
+	"Grummur #0" = -20
+	"Grazun #0" = -20
+	"Akmur #0" = -20
+	"Wenwen #0" = -20
+	"Kragrum #0" = -20
+	"Turgra #0" = -20
+	"Ogwen #0" = -20
+	"Titi #0" = -20
+	"Untur #0" = -20
+	"Titur #0" = -20
+	"Turtur #0" = -20
+	"Otabald #0" = -20
+	"Purran #0" = -20
+	"Kroak #0" = -20
+	"Kragram #0" = -20
+	"Garlmur #0" = -20
+	"Grumota #0" = -20
+	"Dalun #0" = -20
+	"Turgraz #0" = -20
+	"Murgrum #0" = -20
+	"Unota #0" = -20
+	"Ungrum #0" = -20
+	"Murota #0" = -20
+	"Dalota #0" = -20
+	"Grapur #0" = -20
+	"Legraz #0" = -20
+	"Otawen #0" = -20
+	"Otaan #0" = -20
+	"Baldran #0" = -20
+	"Krogrum #0" = -20
+	"Otaun #0" = -20
+	"Unng #0" = -20
+	"Oggraz #0" = -20
+	"Gramgra #0" = -20
+	"Garlak #0" = -20
+	"Otagra #0" = -20
+	"Ungram #0" = -20
+	"Graztur #0" = -20
+	"Unpur #0" = -20
+	"Murgarl #0" = -20
+	"Krati #0" = -20
+	"Akak #0" = -20
+	"Gruman #0" = -20
+	"Akti #0" = -20
+	"Rankra #0" = -20
+	"Garlun #0" = -20
+	"Legarl #0" = -20
+	"Murmur #0" = -20
+	"Grumle #0" = -20
+	"Timur #0" = -20
+	"Garlti #0" = -20
+	"Krong #0" = -20
+	"Kromur #0" = -20
+	"Purkra #0" = -20
+	"Akun #0" = -20
+	"Anle #0" = -20
+	"Garlkro #0" = -20
+	"Gruman #0" = -20
+	"Dalak #0" = -20
+	"Lele #0" = -20
+	"Grummur #0" = -20
+	"Grumdal #0" = -20
+	"Grazun #0" = -20
+	"Grumgram #0" = -20
+	"Kragraz #0" = -20
+	"Otaota #0" = -20
+	"Rangra #0" = -20
+	"Dalun #0" = -20
+	"Timur #0" = -20
+	"Titur #0" = -20
+	"Balddal #0" = -20
+	"Murti #0" = -20
+	"Unog #0" = -20
+	"Murran #0" = -20
+	"Puran #0" = -20
+	"Purgra #0" = -20
+	"Otatur #0" = -20
+	"Grazgram #0" = -20
+	"Otatur #0" = -20
+	"Kratur #0" = -20
+	"Kragra #0" = -20
+	"Otawen #0" = -20
+	"Turpur #0" = -20
+	"Dalkra #0" = -20
+	"Turbald #0" = -20
+	"Grambald #0" = -20
+	"Turak #0" = -20
+	"Grazota #0" = -20
+	"Grang #0" = -20
+	"Baldog #0" = -20
+	"Purdal #0" = -20
+	"Tiwen #0" = -20
+	"Tian #0" = -20
+	"Otaun #0" = -20
+	"Purak #0" = -20
+	"Dalti #0" = -20
+	"Akgram #0" = -20
+	"Otagarl #0" = -20
+	"Akti #0" = -20
+	"Baldtur #0" = -20
+	"Unng #0" = -20
+	"Kroran #0" = -20
+	"Unota #0" = -20
+	"Anbald #0" = -20
+	"Garlan #0" = -20
+	"Kratur #0" = -20
+	"Murgraz #0" = -20
+	"Gramran #0" = -20
+	"Otaun #0" = -20
+	"Garldal #0" = -20
+	"Rangra #0" = -20
+	"Kroog #0" = -20
+	"Unng #0" = -20
+	"Anog #0" = -20
+	"Aktur #0" = -20
+	"Baldtur #0" = -20
+	"Ogran #0" = -20
+	"Gragram #0" = -20
+	"Unbald #0" = -20
+	"Gragarl #0" = -20
+	"Ogota #0" = -20
+	"Otaan #0" = -20
+	"Oggram #0" = -20
+	"Murdal #0" = -20
+	"Oggra #0" = -20
+	"Krong #0" = -20
+	"Purgram #0" = -20
+	"Nggrum #0" = -20
+	"Baldota #0" = -20
+	"Turbald #0" = -20
+	"Unkra #0" = -20
+	"Unan #0" = -20
+	"Kragram #0" = -20
+	"Gramtur #0" = -20
+	"Otagra #0" = -20
+	"Randal #0" = -20
+	"Unmur #0" = -20
+	"Garlkro #0" = -20
+	"Ogdal #0" = -20
+	"Ranan #0" = -20
+	"Grumgram #0" = -20
+	"Krole #0" = -20
+	"Dalkra #0" = -20
+	"Purtur #0" = -20
+	"Ogkro #0" = -20
+	"Krodal #0" = -20
+	"Ungra #0" = -20
+	"Garlgraz #0" = -20
+	"Akota #0" = -20
+	"Grumran #0" = -20
+	"Baldpur #0" = -20
+	"Titi #0" = -20
+	"Murak #0" = -20
+	"Wengarl #0" = -20
+	"Angrum #0" = -20
+	"Gragra #0" = -20
+	"Akgraz #0" = -20
+	"Wengrum #0" = -20
+	"Grumng #0" = -20
+	"Turak #0" = -20
+	"Grazota #0" = -20
+	"Leun #0" = -20
+	"Kroun #0" = -20
+	"Balddal #0" = -20
+	"Nggram #0" = -20
+	"Ogbald #0" = -20
+	"Tiog #0" = -20
+	"Garlkra #0" = -20
+	"Kragrum #0" = -20
+	"Garlog #0" = -20
+	"Gramdal #0" = -20
+	"Ngran #0" = -20
+	"Baldmur #0" = -20
+	"Ogti #0" = -20
+	"Ngle #0" = -20
+	"Krapur #0" = -20
+	"Oggrum #0" = -20
+	"Garlan #0" = -20
+	"Ranti #0" = -20
+	"Ngkra #0" = -20
+	"Baldle #0" = -20
+	"Lekra #0" = -20
+	"Ranan #0" = -20
+	"Grumun #0" = -20
+	"Ungarl #0" = -20
+	"Murkro #0" = -20
+	"Baldran #0" = -20
+	"Krowen #0" = -20
+	"Grazkro #0" = -20
+	"Untur #0" = -20
+	"Baldbald #0" = -20
+	"Unran #0" = -20
+	"Dalgraz #0" = -20
+	"Ranog #0" = -20
+	"Nggarl #0" = -20
+	"Tibald #0" = -20
+	"Grang #0" = -20
+	"Murwen #0" = -20
+	"Murng #0" = -20
+	"Grazpur #0" = -20
+	"Ungraz #0" = -20
+	"Tigarl #0" = -20
+	"Grazog #0" = -20
+	"Otagarl #0" = -20
+	"Baldbald #0" = -20
+	"Wenkra #0" = -20
+	"Dalgarl #0" = -20
+	"Garlbald #0" = -20
+	"Grumti #0" = -20
+	"Krakra #0" = -20
+	"Garlng #0" = -20
+	"Unota #0" = -20
+	"Garlgra #0" = -20
+	"Murti #0" = -20
+	"Dalkra #0" = -20
+	"Leran #0" = -20
+	"Grumwen #0" = -20
+	"Anog #0" = -20
+	"Akmur #0" = -20
+	"Baldwen #0" = -20
+	"Unak #0" = -20
+	"Wenti #0" = -20
+	"Ungra #0" = -20
+	"Murog #0" = -20
+	"Akota #0" = -20
+	"Nggram #0" = -20
+	"Wenti #0" = -20
+	"Kromur #0" = -20
+	"Kromur #0" = -20
+	"Ngng #0" = -20
+	"Dalota #0" = -20
+	"Purbald #0" = -20
+	"Unog #0" = -20
+	"Ranran #0" = -20
+	"Anan #0" = -20
+	"Ngkra #0" = -20
+	"Akgraz #0" = -20
+	"Ungarl #0" = -20
+	"Dalgram #0" = -20
+	"Lekro #0" = -20
+	"Dalkro #0" = -20
+	"Wengra #0" = -20
+	"Tibald #0" = -20
+	"Otakro #0" = -20
+	"Purgrum #0" = -20
+	"Baldwen #0" = -20
+	"Angraz #0" = -20
+	"Turun #0" = -20
+	"Ogng #0" = -20
+	"Nggra #0" = -20
+	"Ogdal #0" = -20
+	"Ogun #0" = -20
+	"Murgarl #0" = -20
+	"Untur #0" = -20
+	"Grumti #0" = -20
+	"Dalran #0" = -20
+	"Purgrum #0" = -20
+	"Grumng #0" = -20
+	"Purmur #0" = -20
+	"Leran #0" = -20
+	"Anpur #0" = -20
+	"Unog #0" = -20
+	"Garlkra #0" = -20
+	"Akle #0" = -20
+	"Baldtur #0" = -20
+	"Krong #0" = -20
+	"Grumdal #0" = -20
+	"Grumkro #0" = -20
+	"Unota #0" = -20
+	"Unak #0" = -20
+	"Unak #0" = -20
+	"Grumkra #0" = -20
+	"Angra #0" = -20
+	"Murkro #0" = -20
+	"Tiran #0" = -20
+	"Dalota #0" = -20
+	"Grazota #0" = -20
+	"Otaran #0" = -20
+	"Dalun #0" = -20
+	"Oggram #0" = -20
+	"Nggram #0" = -20
+	"Wendal #0" = -20
+	"Garlgram #0" = -20
+	"Rangra #0" = -20
+	"Garlran #0" = -20
+	"Unun #0" = -20
+	"Grapur #0" = -20
+	"Anbald #0" = -20
+	"Unun #0" = -20
+	"Tipur #0" = -20
+	"Grazan #0" = -20
+	"Gramkra #0" = -20
+	"Purota #0" = -20
+	"Grumti #0" = -20
+	"Unun #0" = -20
+	"Ngmur #0" = -20
+	"Baldti #0" = -20
+	"Murpur #0" = -20
+	"Otagra #0" = -20
+	"Otakro #0" = -20
+	"Leti #0" = -20
+	"Ogtur #0" = -20
+	"Gramun #0" = -20
+	"Ogtur #0" = -20
+	"Gramun #0" = -20
+	"Murbald #0" = -20
+	"Wenbald #0" = -20
+	"Leti #0" = -20
+	"Tian #0" = -20
+	"Garlkro #0" = -20
+	"Graun #0" = -20
+	"Garlpur #0" = -20
+	"Gramog #0" = -20
+	"Ogmur #0" = -20
+	"Leng #0" = -20
+	"Lean #0" = -20
+	"Leun #0" = -20
+	"Graun #0" = -20
+	"Dalgrum #0" = -20
+	"Turgram #0" = -20
+	"Baldgra #0" = -20
+	"Anun #0" = -20
+	"Garlkro #0" = -20
+	"Kroan #0" = -20
+	"Lemur #0" = -20
+	"Baldun #0" = -20
+	"Wenota #0" = -20
+	"Grazdal #0" = -20
+	"Murti #0" = -20
+	"Akun #0" = -20
+	"Untur #0" = -20
+	"Otaak #0" = -20
+	"Akak #0" = -20
+	"Graak #0" = -20
+	"Turun #0" = -20
+	"Murkro #0" = -20
+	"Daldal #0" = -20
+	"Turran #0" = -20
+	"Ngkro #0" = -20
+	"Ogun #0" = -20
+	"Wenng #0" = -20
+	"Muran #0" = -20
+	"Murkro #0" = -20
+	"Grazdal #0" = -20
+	"Murgra #0" = -20
+	"Undal #0" = -20
+	"Tidal #0" = -20
+	"Anran #0" = -20
+	"Wengram #0" = -20
+	"Ranan #0" = -20
+	"Purak #0" = -20
+	"Ogwen #0" = -20
+	"Grazgram #0" = -20
+	"Grumbald #0" = -20
+	"Akmur #0" = -20
+	"Ngota #0" = -20
+	"Leran #0" = -20
+	"Tigraz #0" = -20
+	"Baldun #0" = -20
+	"Unog #0" = -20
+	"Baldan #0" = -20
+	"Kroun #0" = -20
+	"Kramur #0" = -20
+	"Titi #0" = -20
+	"Akun #0" = -20
+	"Balddal #0" = -20
+	"Turgarl #0" = -20
+	"Ogak #0" = -20
+	"Rankra #0" = -20
+	"Murak #0" = -20
+	"Otale #0" = -20
+	"Purgarl #0" = -20
+	"Krogrum #0" = -20
+	"Anun #0" = -20
+	"Anan #0" = -20
+	"Grakro #0" = -20
+	"Turmur #0" = -20
+	"Grazran #0" = -20
+	"Titur #0" = -20
+	"Kroun #0" = -20
+	"Wenmur #0" = -20
+	"Ngota #0" = -20
+	"Gragra #0" = -20
+	"Dalgrum #0" = -20
+	"Tian #0" = -20
+	"Ogran #0" = -20
+	"Grambald #0" = -20
+	"Otang #0" = -20
+	"Garlle #0" = -20
+	"Baldun #0" = -20
+	"Akog #0" = -20
+	"Turkro #0" = -20
+	"Turran #0" = -20
+	"Anmur #0" = -20
+	"Gragram #0" = -20
+	"Purun #0" = -20
+	"Nggrum #0" = -20
+	"Krong #0" = -20
+	"Garlti #0" = -20
+	"Graun #0" = -20
+	"Garlgarl #0" = -20
+	"Grazgarl #0" = -20
+	"Kragra #0" = -20
+	"Turtur #0" = -20
+	"Angram #0" = -20
+	"Purak #0" = -20
+	"Turgrum #0" = -20
+	"Ankro #0" = -20
+	"Garlota #0" = -20
+	"Grabald #0" = -20
+	"Grumtur #0" = -20
+	"Anog #0" = -20
+	"Krokra #0" = -20
+	"Murmur #0" = -20
+	"Grazgraz #0" = -20
+	"Angarl #0" = -20
+	"Krokra #0" = -20
+	"Turgrum #0" = -20
+	"Legrum #0" = -20
+	"Garlog #0" = -20
+	"Akle #0" = -20
+	"Gramwen #0" = -20
+	"Turgra #0" = -20
+	"Krati #0" = -20
+	"Titi #0" = -20
+	"Dalkro #0" = -20
+	"Undal #0" = -20
+	"Turgra #0" = -20
+	"Unmur #0" = -20
+	"Dalti #0" = -20
+	"Antur #0" = -20
+	"Krong #0" = -20
+	"Leran #0" = -20
+	"Ranun #0" = -20
+	"Wenun #0" = -20
+	"Anng #0" = -20
+	"Oggraz #0" = -20
+	"Gragram #0" = -20
+	"Ogan #0" = -20
+	"Baldun #0" = -20
+	"Krogrum #0" = -20
+	"Turng #0" = -20
+	"Rangra #0" = -20
+	"Ngan #0" = -20
+	"Kradal #0" = -20
+	"Baldng #0" = -20
+	"Grazng #0" = -20
+	"Baldota #0" = -20
+	"Otaun #0" = -20
+	"Wenkro #0" = -20
+	"Tigraz #0" = -20
+	"Murdal #0" = -20
+	"Turog #0" = -20
+	"Ngkro #0" = -20
+	"Anog #0" = -20
+	"Turgra #0" = -20
+	"Untur #0" = -20
+	"Ranun #0" = -20
+	"Baldng #0" = -20
+	"Tigra #0" = -20
+	"Ogmur #0" = -20
+	"Garldal #0" = -20
+	"Leng #0" = -20
+	"Gruman #0" = -20
+	"Akgraz #0" = -20
+	"Gramgraz #0" = -20
+	"Murak #0" = -20
+	"Krang #0" = -20
+	"Kragra #0" = -20
+	"Krodal #0" = -20
+	"Murgarl #0" = -20
+	"Grumkra #0" = -20
+	"Unkro #0" = -20
+	"Graog #0" = -20
+	"Ogdal #0" = -20
+	"Ogti #0" = -20
+	"Grazog #0" = -20
+	"Baldgrum #0" = -20
+	"Ranota #0" = -20
+	"Ranle #0" = -20
+	"Ogota #0" = -20
+	"Ogwen #0" = -20
+	"Grampur #0" = -20
+	"Ngan #0" = -20
+	"Gragra #0" = -20
+	"Ungrum #0" = -20
+	"Leak #0" = -20
+	"Grazgraz #0" = -20
+	"Ngak #0" = -20
+	"Ngng #0" = -20
+	"Lepur #0" = -20
+	"Untur #0" = -20
+	"Tigrum #0" = -20
+	"Purgarl #0" = -20
+	"Krang #0" = -20
+	"Kragra #0" = -20
+	"Baldle #0" = -20
+	"Rangarl #0" = -20
+	"Grumran #0" = -20
+	"Murbald #0" = -20
+	"Rangram #0" = -20
+	"Otati #0" = -20
+	"Ngdal #0" = -20
+	"Baldun #0" = -20
+	"Kraak #0" = -20
+	"Akmur #0" = -20
+	"Ranak #0" = -20
+	"Turkro #0" = -20
+	"Otakro #0" = -20
+	"Anmur #0" = -20
+	"Otagarl #0" = -20
+	"Otaun #0" = -20
+	"Anog #0" = -20
+	"Garlan #0" = -20
+	"Ungra #0" = -20
+	"Grang #0" = -20
+	"Gragarl #0" = -20
+	"Purle #0" = -20
+	"Tigraz #0" = -20
+	"Rankro #0" = -20
+	"Akkra #0" = -20
+	"Purmur #0" = -20
+	"Purkra #0" = -20
+	"Dalran #0" = -20
+	"Kraun #0" = -20
+	"Grazota #0" = -20
+	"Akpur #0" = -20
+	"Otagrum #0" = -20
+	"Baldtur #0" = -20
+	"Unkra #0" = -20
+	"Kroti #0" = -20
+	"Otaak #0" = -20
+	"Unran #0" = -20
+	"Lekro #0" = -20
+	"Purpur #0" = -20
+	"Murti #0" = -20
+	"Dalgrum #0" = -20
+	"Otagarl #0" = -20
+	"Otamur #0" = -20
+	"Baldkra #0" = -20
+	"Krogarl #0" = -20
+	"Rangarl #0" = -20
+	"Krabald #0" = -20
+	"Akun #0" = -20
+	"Purgraz #0" = -20
+	"Angarl #0" = -20
+	"Purgram #0" = -20
+	"Garlran #0" = -20
+	"Grazgraz #0" = -20
+	"Garlmur #0" = -20
+	"Krogra #0" = -20
+	"Grazgram #0" = -20
+	"Wenpur #0" = -20
+	"Grazgra #0" = -20
+	"Tiog #0" = -20
+	"Turgraz #0" = -20
+	"Akpur #0" = -20
+	"Anun #0" = -20
+	"Dalran #0" = -20
+	"Grazmur #0" = -20
+	"Akgram #0" = -20
+	"Ranun #0" = -20
+	"Krapur #0" = -20
+	"Leun #0" = -20
+	"Grakro #0" = -20
+	"Murti #0" = -20
+	"Ogkra #0" = -20
+	"Akan #0" = -20
+	"Gramkra #0" = -20
+	"Tikro #0" = -20
+	"Wengra #0" = -20
+	"Grazwen #0" = -20
+	"Unun #0" = -20
+	"Gramdal #0" = -20
+	"Nggrum #0" = -20
+	"Wenng #0" = -20
+	"Grazgrum #0" = -20
+	"Anti #0" = -20
+	"Otati #0" = -20
+	"Purkro #0" = -20
+	"Purtur #0" = -20
+	"Rantur #0" = -20
+	"Ungarl #0" = -20
+	"Dalan #0" = -20
+	"Murgra #0" = -20
+	"Rangrum #0" = -20
+	"Graman #0" = -20
+	"Ogkro #0" = -20
+	"Purdal #0" = -20
+	"Nggarl #0" = -20
+	"Grazan #0" = -20
+	"Garlwen #0" = -20
+	"Krakro #0" = -20
+	"Dalgram #0" = -20
+	"Wenti #0" = -20
+	"Unng #0" = -20
+	"Ogtur #0" = -20
+	"Otaun #0" = -20
+	"Gramwen #0" = -20
+	"Akpur #0" = -20
+	"Krapur #0" = -20
+	"Grumgraz #0" = -20
+	"Ngti #0" = -20
+	"Ngkro #0" = -20
+	"Anota #0" = -20
+	"Murpur #0" = -20
+	"Anak #0" = -20
+	"Otaan #0" = -20
+	"Lele #0" = -20
+	"Murran #0" = -20
+	"Ungrum #0" = -20
+	"Grati #0" = -20
+	"Dalkra #0" = -20
+	"Unog #0" = -20
+	"Leng #0" = -20
+	"Leun #0" = -20
+	"Otaun #0" = -20
+	"Gramgraz #0" = -20
+	"Ledal #0" = -20
+	"Gramkro #0" = -20
+	"Gramgraz #0" = -20
+	"Ngkro #0" = -20
+	"Garldal #0" = -20
+	"Rangarl #0" = -20
+	"Baldng #0" = -20
+	"Akran #0" = -20
+	"Wengrum #0" = -20
+	"Murtur #0" = -20
+	"Andal #0" = -20
+	"Unan #0" = -20
+	"Rantur #0" = -20
+	"Kroran #0" = -20
+	"Gramle #0" = -20
+	"Ranan #0" = -20
+	"Ogdal #0" = -20
+	"Grumgra #0" = -20
+	"Otale #0" = -20
+	"Grazota #0" = -20
+	"Gramtur #0" = -20
+	"Tiota #0" = -20
+	"Otaun #0" = -20
+	"Krati #0" = -20
+	"Grumgrum #0" = -20
+	"Oggarl #0" = -20
+	"Murle #0" = -20
+	"Purng #0" = -20
+	"Rangrum #0" = -20
+	"Ngbald #0" = -20
+	"Grumgrum #0" = -20
+	"Unun #0" = -20
+	"Gramgram #0" = -20
+	"Krowen #0" = -20
+	"Angram #0" = -20
+	"Grazpur #0" = -20
+	"Daltur #0" = -20
+	"Ogbald #0" = -20
+	"Purota #0" = -20
+	"Otabald #0" = -20
+	"Wenpur #0" = -20
+	"Turng #0" = -20
+	"Graota #0" = -20
+	"Dalgrum #0" = -20
+	"Grazak #0" = -20
+	"Balddal #0" = -20
+	"Legarl #0" = -20
+	"Ngpur #0" = -20
+	"Purle #0" = -20
+	"Ranun #0" = -20
+	"Turwen #0" = -20
+	"Wenle #0" = -20
+	"Tiak #0" = -20
+	"Krobald #0" = -20
+	"Lekro #0" = -20
+	"Wenng #0" = -20
+	"Garlwen #0" = -20
+	"Akgarl #0" = -20
+	"Turgrum #0" = -20
+	"Ogog #0" = -20
+	"Oggram #0" = -20
+	"Grazgram #0" = -20
+	"Krobald #0" = -20
+	"Unmur #0" = -20
+
+}
+
+leader_names = {
+	"Foulclaw"
+	"Snarlpile"
+	"Rotskin"
+	"Winterskin"
+	"Thistlefall"
+	"Gnarlpaw"
+	"Crustlimb"
+	"Timberwood"
+	"Crusttooth"
+	"Blightbite"
+	"Bramblelimb"
+	"Lumberclaw"
+	"Prickleweald"
+	"Rotskin"
+	"Stillpelt"
+	"Bristlemaw"
+	"Gutbite"
+	"Redskin"
+	"Whiskerweald"
+	"Deadmaw"
+	"Gutweald"
+	"Snarlpelt"
+	"Bristlebarb"
+	"Winterpelt"
+	"Whiskerpile"
+	"Bloodweald"
+	"Huskmaw"
+	"Deadbarb"
+	"Whiskerpine"
+	"Bloodpelt"
+	"Flowerskin"
+	"Redlimb"
+	"Rotweald"
+	"Stubblebarb"
+	"Flowermaw"
+	"Nettleskin"
+	"Lumberfang"
+	"Huskfall"
+	"Gnarlbarb"
+	"Lumbertooth"
+	"Whiskerpaw"
+	"Nettleskin"
+	"Blackbarb"
+	"Flowerpelt"
+	"Blightpaw"
+	"Thistlefall"
+	"Prickleskin"
+	"Thornpine"
+	"Huskbite"
+	"Lumberclaw"
+	"Bristleweald"
+	"Bloodpine"
+	"Stubblelimb"
+	"Redmaw"
+	"Moldfur"
+	"Foulpile"
+	"Stubblepile"
+	"Whiskerlimb"
+	"Blackskin"
+	"Blightweald"
+	"Blightbarb"
+	"Moldfur"
+	"Whitepelt"
+	"Whitepine"
+	"Timberpaw"
+	"Barkmaw"
+	"Stillfur"
+	"Timberweald"
+	"Thornfall"
+	"Foulfur"
+	"Winterpile"
+	"Lumberlimb"
+	"Flowerlimb"
+	"Crustweald"
+	"Pricklepaw"
+	"Rotskin"
+	"Thornpile"
+	"Snarlmaw"
+	"Bloodlimb"
+	"Bloodpile"
+	"Whiskerfall"
+	"Redfang"
+	"Whitebarb"
+	"Huskfang"
+	"Thornclaw"
+	"Bramblepelt"
+	"Crustskin"
+	"Frostweald"
+	"Thornfang"
+	"Foulfang"
+	"Crustbarb"
+	"Blightpile"
+	"Snarlmaw"
+	"Gnarlpelt"
+	"Foulpelt"
+	"Rotfang"
+	"Stilltooth"
+	"Whitefall"
+	"Bristlepaw"
+	"Huskfur"
+	"Redfall"
+	"Flowerpile"
+	"Snowfall"
+	"Foulweald"
+	"Bramblepile"
+	"Whiskerpile"
+	"Frostweald"
+	"Stubbleclaw"
+	"Snarlclaw"
+	"Blackpaw"
+	"Huskpaw"
+	"Gutfang"
+	"Prickleskin"
+	"Timberwood"
+	"Wintertooth"
+	"Flowerbite"
+	"Crustfall"
+	"Gnarlfall"
+	"Nettleclaw"
+	"Blightfur"
+	"Gnarlclaw"
+	"Timberweald"
+	"Brambleclaw"
+	"Crustpaw"
+	"Bloodpelt"
+	"Bramblefall"
+	"Whiskerweald"
+	"Frostpine"
+	"Thistleskin"
+	"Barkfall"
+	"Winterfall"
+	"Bristlepine"
+	"Deadfall"
+	"Crustbite"
+	"Flowerpaw"
+	"Thornbarb"
+	"Blighttooth"
+	"Moldweald"
+	"Lumberbarb"
+	"Foulfall"
+	"Deadlimb"
+	"Stubblepelt"
+	"Bloodfang"
+	"Lumberpine"
+	"Moldfall"
+	"Prickletooth"
+	"Moldbarb"
+	"Thornfur"
+	"Snarlwood"
+	"Flowerbarb"
+	"Barkweald"
+	"Bloodfall"
+	"Flowerpaw"
+	"Gnarlbite"
+	"Gnarlfall"
+	"Foulskin"
+	"Huskpelt"
+	"Gnarlbite"
+	"Thistlepelt"
+	"Gnarlwood"
+	"Flowermaw"
+	"Huskfang"
+	"Flowerbite"
+	"Snowpile"
+	"Husklimb"
+	"Bristlewood"
+	"Timberskin"
+	"Barkpine"
+	"Bloodmaw"
+	"Deadbite"
+	"Nettleclaw"
+	"Foulwood"
+	"Bloodfang"
+	"Nettlepine"
+	"Huskfall"
+	"Rotpile"
+	"Rotpine"
+	"Crustfang"
+	"Thistletooth"
+	"Lumberweald"
+	"Thistlewood"
+	"Redpile"
+	"Whitebarb"
+	"Snarlbite"
+	"Snarlfang"
+	"Thornfur"
+	"Winterpaw"
+	"Barkclaw"
+	"Bristlepile"
+	"Barkpile"
+	"Foulbarb"
+	"Thistlefang"
+	"Whitemaw"
+	"Nettlepaw"
+	"Pricklefang"
+	"Rotfang"
+	"Redpelt"
+	"Flowerbarb"
+	"Lumberclaw"
+	"Flowerweald"
+	"Thornfang"
+	"Blightmaw"
+	"Whiskerbarb"
+	"Stilllimb"
+	"Frostwood"
+	"Nettlewood"
+	"Deadfall"
+	"Moldpile"
+	"Stillweald"
+	"Foulmaw"
+	"Whitetooth"
+	"Whiskerpine"
+	"Deadskin"
+	"Foulpine"
+	"Thornfur"
+	"Blightbite"
+	"Wintermaw"
+	"Thistlepile"
+	"Flowerwood"
+	"Thistlelimb"
+	"Bristlepaw"
+	"Barkclaw"
+	"Brambletooth"
+	"Nettlefall"
+	"Huskfall"
+	"Bristlepaw"
+	"Brambletooth"
+	"Whiskerfang"
+	"Blightclaw"
+	"Thornfall"
+	"Snarlpelt"
+	"Bloodwood"
+	"Thornbarb"
+	"Timberwood"
+	"Flowerbarb"
+	"Thistlebarb"
+	"Whiskerpile"
+	"Snarlfur"
+	"Lumberbite"
+	"Redlimb"
+	"Moldmaw"
+	"Flowerbite"
+	"Timberfang"
+	"Gutbite"
+	"Frostbarb"
+	"Lumberfall"
+	"Thorntooth"
+	"Frostlimb"
+	"Huskbarb"
+	"Wintermaw"
+	"Huskpile"
+	"Moldwood"
+	"Nettlepelt"
+	"Timberfur"
+	"Rotpelt"
+	"Snowpelt"
+	"Moldlimb"
+	"Nettlefur"
+	"Bristleclaw"
+	"Timberpaw"
+	"Redskin"
+	"Blackbite"
+	"Bloodpaw"
+	"Frostpine"
+	"Gnarlpaw"
+	"Deadbarb"
+	"Blacklimb"
+	"Thistlepelt"
+	"Stubblebite"
+	"Rotmaw"
+	"Gnarlmaw"
+	"Thistlelimb"
+	"Lumbertooth"
+	"Rotclaw"
+	"Timbertooth"
+	"Crustwood"
+	"Bloodtooth"
+	"Stillwood"
+	"Whiskerweald"
+	"Guttooth"
+	"Snowfang"
+	"Snarlpile"
+	"Timberbarb"
+	"Gnarlbarb"
+	"Stillfall"
+	"Rotskin"
+	"Thistlewood"
+	"Huskweald"
+	"Redfur"
+	"Gutskin"
+	"Huskweald"
+	"Husktooth"
+	"Rotmaw"
+	"Foulfall"
+	"Thornbite"
+	"Timberlimb"
+	"Stubblebite"
+	"Frostfang"
+	"Moldpelt"
+	"Nettlebite"
+	"Crustpile"
+	"Thistlelimb"
+	"Snarlweald"
+	"Wintertooth"
+	"Lumberpine"
+	"Huskfur"
+	"Rotfang"
+	"Barkweald"
+	"Stillpelt"
+	"Gutpile"
+	"Bristleskin"
+	"Barkpile"
+	"Snarlweald"
+	"Moldpile"
+	"Timberskin"
+	"Rotfang"
+	"Foulmaw"
+	"Snowpile"
+	"Bramblefall"
+	"Winterfur"
+	"Flowerpile"
+	"Whiskerbite"
+	"Gutmaw"
+	"Pricklepine"
+	"Whiskerpelt"
+	"Lumberwood"
+	"Redlimb"
+	"Stubbleskin"
+	"Whiskerpile"
+	"Bramblebite"
+	"Huskclaw"
+	"Bloodclaw"
+	"Barkfang"
+	"Deadwood"
+	"Bloodweald"
+	"Redwood"
+	"Thornclaw"
+	"Whiskerclaw"
+	"Whiskermaw"
+	"Stubblefur"
+	"Timbertooth"
+	"Whitefang"
+	"Gnarltooth"
+	"Snarlfang"
+	"Snarlpaw"
+	"Bramblefall"
+	"Frostweald"
+	"Bloodlimb"
+	"Bramblepile"
+	"Bloodbite"
+	"Foulpaw"
+	"Snowfur"
+	"Thistlewood"
+	"Pricklepaw"
+	"Timberskin"
+	"Winterclaw"
+	"Huskbite"
+	"Nettlewood"
+	"Thistlefur"
+	"Thornbite"
+	"Bloodmaw"
+	"Thistleskin"
+	"Snowbarb"
+	"Flowerfang"
+	"Gutpile"
+	"Bramblepelt"
+	"Snowtooth"
+	"Thistleskin"
+	"Bramblebarb"
+	"Bristlemaw"
+	"Timberpile"
+	"Snowtooth"
+	"Gnarlskin"
+	"Snowfang"
+	"Nettlemaw"
+	"Winterfur"
+	"Whiteweald"
+	"Frostpine"
+	"Bloodtooth"
+	"Huskpine"
+	"Lumbermaw"
+	"Stillbarb"
+	"Bristlelimb"
+	"Nettlefall"
+	"Gnarlclaw"
+	"Moldwood"
+	"Barkpile"
+	"Snowtooth"
+	"Foulweald"
+	"Crustlimb"
+	"Bristlefang"
+	"Snarlbite"
+	"Deadfall"
+	"Whiskerfur"
+	"Blightskin"
+	"Stillwood"
+	"Pricklepile"
+	"Crustlimb"
+	"Moldfall"
+	"Blighttooth"
+	"Snarlpile"
+	"Rotlimb"
+	"Winterpile"
+	"Blackpile"
+	"Stillfall"
+	"Nettlebarb"
+	"Lumberlimb"
+	"Blightskin"
+	"Bristlefur"
+	"Bristlepile"
+	"Winterweald"
+	"Moldmaw"
+	"Lumberbarb"
+	"Blightpine"
+	"Bristlepelt"
+	"Frostbite"
+	"Stillbarb"
+	"Bloodpelt"
+	"Moldbite"
+	"Timberlimb"
+	"Moldfang"
+	"Deadpaw"
+	"Moldbarb"
+	"Gnarlpile"
+	"Bramblelimb"
+	"Lumberpaw"
+	"Deadweald"
+	"Huskbite"
+	"Stubblemaw"
+	"Pricklemaw"
+	"Thistlefang"
+	"Stubbletooth"
+	"Bristlefang"
+	"Flowerwood"
+	"Stillwood"
+	"Winterpaw"
+	"Timberpaw"
+	"Blightpaw"
+	"Redfall"
+	"Redwood"
+	"Thornpile"
+	"Bristlepaw"
+	"Huskwood"
+	"Bristlepelt"
+	"Nettleclaw"
+	"Pricklewood"
+	"Stubbleweald"
+	"Moldwood"
+	"Foulfang"
+	"Crustpile"
+	"Timberlimb"
+	"Bramblepaw"
+	"Timberbarb"
+	"Snowfang"
+	"Blackfall"
+	"Winterlimb"
+	"Bristleweald"
+	"Deadskin"
+	"Flowerfang"
+	"Thornfall"
+	"Huskpine"
+	"Blightlimb"
+	"Crustmaw"
+	"Crustpile"
+	"Bloodtooth"
+	"Barkpine"
+	"Winterpile"
+	"Moldweald"
+	"Bloodbite"
+	"Bristlepile"
+	"Gutpelt"
+	"Gutpine"
+	"Thornbite"
+	"Crustpelt"
+	"Barkfur"
+	"Stubblepile"
+	"Thistlefur"
+	"Crustlimb"
+	"Lumberpelt"
+	"Snarlpaw"
+	"Barkpelt"
+	"Gnarlwood"
+	"Rotfur"
+	"Crustweald"
+	"Stillclaw"
+	"Huskpine"
+	"Nettlefall"
+	"Snarlmaw"
+	"Timbertooth"
+	"Gnarlwood"
+	"Huskmaw"
+	"Bloodbarb"
+	"Lumberfall"
+	"Deadclaw"
+	"Bristlepile"
+	"Nettlemaw"
+	"Nettlefall"
+	"Flowerskin"
+	"Rotfur"
+	"Lumbermaw"
+	"Blightpaw"
+	"Huskclaw"
+	"Crustmaw"
+	"Huskfang"
+	"Redbite"
+	"Barkpile"
+	"Gutfur"
+	"Whitewood"
+	"Crustpaw"
+	"Nettleskin"
+	"Rotskin"
+	"Blackskin"
+	"Bramblebite"
+	"Thistleweald"
+	"Gutweald"
+	"Winterweald"
+	"Crustpaw"
+	"Flowermaw"
+	"Lumberweald"
+	"Whitefall"
+	"Flowerclaw"
+	"Bloodpelt"
+	"Lumbertooth"
+	"Rotskin"
+	"Bloodfur"
+	"Thistleskin"
+	"Thornmaw"
+	"Blackfang"
+	"Bristleclaw"
+	"Redskin"
+	"Bramblefang"
+	"Brambletooth"
+	"Flowerbite"
+	"Thistlepile"
+	"Crustpaw"
+	"Blackfur"
+	"Moldwood"
+	"Timberweald"
+	"Whiskerpine"
+	"Gutclaw"
+	"Deadpelt"
+	"Stubblepine"
+	"Barkpelt"
+	"Gutfang"
+	"Stubbletooth"
+	"Stubblepaw"
+	"Bloodfang"
+	"Redtooth"
+	"Lumberpile"
+	"Thornweald"
+	"Gutclaw"
+	"Moldpine"
+	"Bloodfur"
+	"Timberpaw"
+	"Barkskin"
+	"Lumberskin"
+	"Gutpelt"
+	"Brambletooth"
+	"Huskfall"
+	"Pricklewood"
+	"Stillclaw"
+	"Blackpile"
+	"Whiskertooth"
+	"Blackwood"
+	"Rotfall"
+	"Bloodpine"
+	"Gnarlmaw"
+	"Gutfall"
+	"Deadfang"
+	"Deadclaw"
+	"Bristlewood"
+	"Flowermaw"
+	"Redfall"
+	"Whiskerweald"
+	"Bloodpine"
+	"Thorntooth"
+	"Stillpile"
+	"Stillpaw"
+	"Rotweald"
+	"Blightpaw"
+	"Rotbite"
+	"Gutfang"
+	"Barkpile"
+	"Bramblefall"
+	"Whitefang"
+	"Thornclaw"
+	"Thornfur"
+	"Thistlewood"
+	"Snowweald"
+	"Prickletooth"
+	"Gnarlwood"
+	"Blackbarb"
+	"Huskbite"
+	"Blacklimb"
+	"Bloodpine"
+	"Moldclaw"
+	"Whitepile"
+	"Nettlepelt"
+	"Thistlepine"
+	"Thornfur"
+	"Thornweald"
+	"Rotskin"
+	"Redskin"
+	"Thistlepile"
+	"Winterclaw"
+	"Gnarlskin"
+	"Lumberfang"
+	"Flowerfall"
+	"Frostweald"
+	"Snowbite"
+	"Lumberbite"
+	"Winterpelt"
+	"Thistleskin"
+	"Deadskin"
+	"Pricklepine"
+	"Whiskerweald"
+	"Wintertooth"
+	"Timberpelt"
+	"Blightweald"
+	"Pricklepine"
+	"Nettleweald"
+	"Stillmaw"
+	"Moldmaw"
+	"Timberwood"
+	"Blightfur"
+	"Thistlepine"
+	"Stillmaw"
+	"Snowmaw"
+	"Deadpelt"
+	"Frostpelt"
+	"Crustlimb"
+	"Thornweald"
+	"Redfang"
+	"Frostlimb"
+	"Rotbarb"
+	"Deadfur"
+	"Gutbite"
+	"Whiskerpine"
+	"Thornclaw"
+	"Blackfall"
+	"Stubblefang"
+	"Winterwood"
+	"Timberfall"
+	"Lumberpaw"
+	"Deadpile"
+	"Gnarlmaw"
+	"Crustpaw"
+	"Thistlebite"
+	"Snarlfur"
+	"Stillweald"
+	"Snowmaw"
+	"Crustmaw"
+	"Nettlefang"
+	"Rottooth"
+	"Nettlefang"
+	"Thornskin"
+	"Moldpine"
+	"Foulmaw"
+	"Foulfall"
+	"Huskpaw"
+	"Bristlebarb"
+	"Flowerpelt"
+	"Blackfur"
+	"Gnarlclaw"
+	"Lumberfur"
+	"Whiskerlimb"
+	"Bristlepaw"
+	"Lumberlimb"
+	"Redpaw"
+	"Moldlimb"
+	"Deadfang"
+	"Snarlfall"
+	"Blightskin"
+	"Lumberfang"
+	"Foulweald"
+	"Bristlelimb"
+	"Bramblewood"
+	"Bristlemaw"
+	"Frostpile"
+	"Bristlefall"
+	"Bramblebarb"
+	"Deadfall"
+	"Nettlepile"
+	"Whiskerfang"
+	"Bristlepine"
+	"Blackbarb"
+	"Redskin"
+	"Stillmaw"
+	"Blightwood"
+	"Thornpaw"
+	"Stubbleclaw"
+	"Bloodtooth"
+	"Snowpile"
+	"Deadlimb"
+	"Deadfall"
+	"Lumberpine"
+	"Thornclaw"
+	"Winterfall"
+	"Gnarlweald"
+	"Timberbite"
+	"Thistletooth"
+	"Redclaw"
+	"Crustpaw"
+	"Barkweald"
+	"Barkskin"
+	"Thistletooth"
+	"Flowermaw"
+	"Thornbarb"
+	"Snarltooth"
+	"Whitepine"
+	"Crustweald"
+	"Rotpine"
+	"Brambleweald"
+	"Thistleweald"
+	"Snarltooth"
+	"Rotpine"
+	"Snowmaw"
+	"Bristleweald"
+	"Gnarltooth"
+	"Foulskin"
+	"Gnarlwood"
+	"Gutfang"
+	"Moldbarb"
+	"Whiskerpile"
+	"Thistletooth"
+	"Thorntooth"
+	"Snowfang"
+	"Stilltooth"
+	"Barkbite"
+	"Barkwood"
+	"Thornskin"
+	"Bramblemaw"
+	"Moldlimb"
+	"Barkpine"
+	"Whiteweald"
+	"Stillwood"
+	"Foulfall"
+	"Whitebarb"
+	"Lumberfang"
+	"Bristlefall"
+	"Blackmaw"
+	"Barkpelt"
+	"Bristlepine"
+	"Stillpaw"
+	"Huskpaw"
+	"Frostbite"
+	"Thornpine"
+	"Gnarllimb"
+	"Crustpine"
+	"Moldweald"
+	"Bramblefang"
+	"Nettlefall"
+	"Blackpaw"
+	"Pricklepelt"
+	"Huskweald"
+	"Bloodmaw"
+	"Thistlebarb"
+	"Pricklepine"
+	"Snowpaw"
+	"Pricklewood"
+	"Timberfall"
+	"Barkpelt"
+	"Whiteweald"
+	"Snarltooth"
+	"Thistlewood"
+	"Winterfall"
+	"Stubbletooth"
+	"Foulfall"
+	"Bramblefang"
+	"Bramblepile"
+	"Stubblelimb"
+	"Bloodbarb"
+	"Whiteclaw"
+	"Moldbarb"
+	"Redfur"
+	"Deadwood"
+	"Snarlpine"
+	"Frostpile"
+	"Bristlefall"
+	"Winterweald"
+	"Lumberwood"
+	"Barkweald"
+	"Blackpile"
+	"Blackweald"
+	"Snowfall"
+	"Winterpine"
+	"Whitemaw"
+	"Bristlelimb"
+	"Rotwood"
+	"Snarlfall"
+	"Blightpile"
+	"Thornweald"
+	"Moldskin"
+	"Whitepine"
+	"Gnarlclaw"
+	"Moldbarb"
+	"Brambleclaw"
+	"Timberlimb"
+	"Snarlmaw"
+	"Blightfang"
+	"Bramblelimb"
+	"Stillbarb"
+	"Timberfur"
+	"Barkclaw"
+	"Guttooth"
+	"Barkpile"
+	"Blightpaw"
+	"Snarlfur"
+	"Moldweald"
+	"Gutclaw"
+	"Stillfang"
+	"Rotpaw"
+	"Moldfang"
+	"Moldpine"
+	"Deadbarb"
+	"Whitemaw"
+	"Bramblepile"
+	"Stillpelt"
+	"Timberwood"
+	"Thornweald"
+	"Moldfang"
+	"Nettlepine"
+	"Blacktooth"
+	"Gutpine"
+	"Whiteweald"
+	"Nettlebite"
+	"Whitelimb"
+	"Bramblewood"
+	"Wintertooth"
+	"Redmaw"
+	"Whiskerfall"
+	"Gutpaw"
+	"Deadbite"
+	"Bloodpaw"
+	"Bramblepine"
+	"Flowerpaw"
+	"Lumberlimb"
+	"Bloodpaw"
+	"Thistlepaw"
+	"Bloodfur"
+	"Flowerweald"
+	"Snowpelt"
+	"Crustlimb"
+	"Snarlpelt"
+	"Huskfall"
+	"Whiteclaw"
+	"Bristlepine"
+	"Lumberweald"
+	"Snowfang"
+	"Rotpine"
+	"Blackmaw"
+	"Frostclaw"
+	"Bloodbarb"
+	"Deadbite"
+	"Bramblewood"
+	"Nettlefang"
+	"Bramblepile"
+	"Blightskin"
+	"Bristlelimb"
+	"Redbarb"
+	"Whitepaw"
+	"Stillweald"
+	"Timberpaw"
+	"Gnarlweald"
+	"Frostfall"
+	"Snowbite"
+	"Husktooth"
+	"Deadskin"
+	"Whiskerclaw"
+	"Thornfall"
+	"Huskskin"
+	"Moldpelt"
+	"Wintermaw"
+	"Flowerfang"
+	"Thistlebite"
+	"Bristlefall"
+	"Stubblebite"
+	"Prickleclaw"
+	"Barkweald"
+	"Thistlemaw"
+	"Moldfall"
+	"Frostmaw"
+	"Timberclaw"
+	"Barkbarb"
+	"Blacklimb"
+	"Crustskin"
+	"Timberbarb"
+	"Foulclaw"
+	"Lumberskin"
+	"Lumberfall"
+	"Blightfang"
+	"Winterpelt"
+	"Bloodpelt"
+	"Gnarlfall"
+	"Bristleweald"
+	"Pricklebite"
+	"Timberpelt"
+	"Whitefur"
+	"Gnarlweald"
+	"Whiskerbite"
+	"Pricklebarb"
+	"Thistletooth"
+	"Bloodfur"
+	"Bramblelimb"
+	"Rotpelt"
+	"Lumberpile"
+	"Flowerclaw"
+	"Blighttooth"
+	"Bloodfall"
+	"Whitemaw"
+	"Winterfang"
+	"Gutpelt"
+	"Whiskerpile"
+	"Flowerweald"
+	"Frostweald"
+	"Snarlwood"
+	"Bramblelimb"
+	"Frostpelt"
+	"Foulfur"
+	"Moldfang"
+	"Crustbarb"
+	"Whitepine"
+	"Thistleclaw"
+	"Whiskerpelt"
+	"Barklimb"
+	"Moldfang"
+	"Whitefang"
+	"Huskbarb"
+	"Frostweald"
+	"Flowerbite"
+	"Huskmaw"
+	"Stubblebite"
+	"Winterpelt"
+	"Nettlewood"
+	"Winterweald"
+	"Thornfall"
+	"Whiskerpaw"
+	"Foulbarb"
+	"Moldtooth"
+	"Gutfur"
+	"Thornpine"
+	"Huskbite"
+	"Bloodpaw"
+	"Deadpelt"
+	"Timberlimb"
+	"Bloodpelt"
+	"Bristlefur"
+	"Barkclaw"
+	"Stilltooth"
+	"Flowerpine"
+	"Nettletooth"
+	"Nettleweald"
+	"Wintertooth"
+	"Blightbite"
+	"Gutskin"
+	"Stillskin"
+	"Crustskin"
+	"Snarlbite"
+	"Rotclaw"
+	"Bramblepaw"
+	"Timberfur"
+	"Blackpaw"
+	"Whiskerpelt"
+	"Blacktooth"
+	"Wintertooth"
+	"Nettlepelt"
+	"Huskpaw"
+	"Stubblebarb"
+	"Redpelt"
+	"Thornskin"
+	"Barkfur"
+	"Bristleweald"
+	"Deadpile"
+	"Whitetooth"
+	"Whiskerbarb"
+	"Moldfang"
+	"Barkfur"
+	"Thistleskin"
+	"Rotskin"
+	"Moldpelt"
+	"Snowfur"
+	"Stubblemaw"
+	"Blackpile"
+	"Redtooth"
+	"Winterfang"
+	"Gutpile"
+	"Bloodfur"
+	"Rotmaw"
+	"Frostmaw"
+	"Snowfang"
+	"Brambleclaw"
+	"Barkpelt"
+	"Barktooth"
+	"Stillweald"
+	"Flowerweald"
+	"Thistleclaw"
+	"Deadfur"
+	"Stillmaw"
+	"Gutwood"
+	"Thistlepine"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+

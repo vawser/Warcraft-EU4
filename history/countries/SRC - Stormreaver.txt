@@ -1,0 +1,18 @@
+technology_group = tech_orc
+government = orc_warband
+primary_culture = stormreaver
+religion = fel
+
+capital = 1
+
+# The First War
+776.1.1 = {
+    monarch = { 
+		name = "Gul'dan" 
+		dynasty = "Shadowmoon" 
+		adm = 5
+		dip = 5
+		mil = 3
+	} 
+}
+

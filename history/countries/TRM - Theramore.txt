@@ -1,0 +1,19 @@
+technology_group = tech_human
+government = administrative_kingdom
+primary_culture = kul_tiras
+religion = the_holy_light
+
+capital = 1
+
+# Third War
+901.1.1 = {
+    monarch = {
+        name = "Jaina" 
+        dynasty = "Proudmoore" 
+		adm = 4
+		dip = 5
+		mil = 1
+		female = yes
+ 	}
+}
+
