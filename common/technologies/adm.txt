@@ -1,8 +1,8 @@
 monarch_power = ADM
 
 ahead_of_time = {
-	production_efficiency 	=	0.2
-    yearly_corruption       = -0.05
+	production_efficiency = 0.2
+    yearly_corruption = -0.05
 }
 
 # 0
@@ -32,7 +32,7 @@ technology = {
 technology = {
 	year = 776
 
-	production_efficiency	=	0.05
+	production_efficiency = 0.05
 }
 # 4
 technology = {
@@ -45,7 +45,7 @@ technology = {
 	year = 802
 
 	allowed_idea_groups = 1
-	production_efficiency	 =	0.05
+	production_efficiency = 0.05
 }
 # 6
 technology = {
@@ -71,7 +71,7 @@ technology = {
 technology = {
 	year = 854
 
-	production_efficiency 	=	0.05
+	production_efficiency = 0.05
     mine = yes
 }
 # 10
@@ -106,13 +106,13 @@ technology = {
     militaristic_theocracy = yes
     militaristic_order = yes
     
-	production_efficiency 	=	0.05
+	production_efficiency = 0.05
 }
 # 14
 technology = {
 	year = 919
 	
-	allowed_idea_groups	= 4
+	allowed_idea_groups = 4
     foresters_guild = yes
 }
 # 15
@@ -126,7 +126,7 @@ technology = {
 technology = {
 	year = 945
 	
-	production_efficiency 	=	0.05
+	production_efficiency = 0.05
 
     grand_temple = yes
 }
@@ -143,7 +143,7 @@ technology = {
 technology = {
 	year = 971
 	
-	allowed_idea_groups	= 5
+	allowed_idea_groups = 5
 }
 # 19
 technology = {
@@ -161,7 +161,7 @@ technology = {
 technology = {
 	year = 1010
 	
-	production_efficiency 	=	0.05
+	production_efficiency = 0.05
 }
 # 22
 technology = {
@@ -186,13 +186,13 @@ technology = {
 technology = {
 	year = 1062
 	
-	production_efficiency 	=	0.05
+	production_efficiency = 0.05
 }
 # 26
 technology = {
 	year = 1075
 	
-	allowed_idea_groups 	= 	7
+	allowed_idea_groups = 7
 }
 # 27
 technology = {
@@ -206,7 +206,7 @@ technology = {
 technology = {
 	year = 1101
 
-	production_efficiency 	=	0.05
+	production_efficiency = 0.05
 }
 # 29
 technology = {
@@ -218,7 +218,7 @@ technology = {
 technology = {
 	year = 1127
 	
-	production_efficiency 	=	0.05
+	production_efficiency = 0.05
 }
 # 31
 technology = {
@@ -230,6 +230,6 @@ technology = {
 technology = {
 	year = 1153
 	
-	production_efficiency 	=	0.05
+	production_efficiency = 0.05
 }
 
