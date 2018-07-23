@@ -96,29 +96,29 @@
  tooltip_development_fm_30: "30 development province"
 
  # Events
- warcraft_institution_events.100.title: "Phlogiston"
- warcraft_institution_events.100.desc: "The miracle substance that drives most technology across Azeroth. Phlogiston is a gas collected from the air and then distilled into a vial. A precise mixture of oil, water and gas, phlogiston allows mechanical engines to run. This will greatly help production in our nation."
- warcraft_institution_events.100.option.a: "This changes everything..."
+ warcraft_institution_events.1.title: "Phlogiston"
+ warcraft_institution_events.1.desc: "The miracle substance that drives most technology across Azeroth. Phlogiston is a gas collected from the air and then distilled into a vial. A precise mixture of oil, water and gas, phlogiston allows mechanical engines to run. This will greatly help production in our nation."
+ warcraft_institution_events.1.option.a: "This changes everything..."
  
- warcraft_institution_events.200.title: "Clockwerk Engineering"
- warcraft_institution_events.200.desc: "A type of technology derived from the use of gears, steam and other simple mechanical devices. This will greatly help our troops shock our enemies."
- warcraft_institution_events.200.option.a: "This changes everything..."
+ warcraft_institution_events.2.title: "Clockwerk Engineering"
+ warcraft_institution_events.2.desc: "A type of technology derived from the use of gears, steam and other simple mechanical devices. This will greatly help our troops shock our enemies."
+ warcraft_institution_events.2.option.a: "This changes everything..."
  
- warcraft_institution_events.300.title: "Boomsticks"
- warcraft_institution_events.300.desc: "A primitive gun, a boomstick allows for an explosive charge to be shot by a lone soldier, rather than from a specialised device such as a cannon. This will greatly improve the firepower of our troops."
- warcraft_institution_events.300.option.a: "This changes everything..."
+ warcraft_institution_events.3.title: "Boomsticks"
+ warcraft_institution_events.3.desc: "A primitive gun, a boomstick allows for an explosive charge to be shot by a lone soldier, rather than from a specialised device such as a cannon. This will greatly improve the firepower of our troops."
+ warcraft_institution_events.3.option.a: "This changes everything..."
  
- warcraft_institution_events.400.title: "Oil Extraction"
- warcraft_institution_events.400.desc:  "Used to fuel mechanical ships, as well as being one of the primary ingredients of phlogiston. By using specialised platforms over the ocean, we will be able to drill into the ocean floor and extract previously unobtainable oil. This will greatly improve our navy."
- warcraft_institution_events.400.option.a: "This changes everything..."
+ warcraft_institution_events.4.title: "Oil Extraction"
+ warcraft_institution_events.4.desc:  "Used to fuel mechanical ships, as well as being one of the primary ingredients of phlogiston. By using specialised platforms over the ocean, we will be able to drill into the ocean floor and extract previously unobtainable oil. This will greatly improve our navy."
+ warcraft_institution_events.4.option.a: "This changes everything..."
  
- warcraft_institution_events.500.title: "Mechanical Constructs"
- warcraft_institution_events.500.desc: "A mechanical construct is one that is at least partially technological. Often called robots, these beings can be immensely useful for both peacetime and wartime efforts. This will make construction quicker and cheaper for all."
- warcraft_institution_events.500.option.a: "This changes everything..."
+ warcraft_institution_events.5.title: "Mechanical Constructs"
+ warcraft_institution_events.5.desc: "A mechanical construct is one that is at least partially technological. Often called robots, these beings can be immensely useful for both peacetime and wartime efforts. This will make construction quicker and cheaper for all."
+ warcraft_institution_events.5.option.a: "This changes everything..."
  
- warcraft_institution_events.600.title: "Pneumatics"
- warcraft_institution_events.600.desc: "Powered by steam, pneumatics have arisen from the constant conflicts that plague Azeroth. Pioneered by the Goblins, pneumatics allow for vehicles like the goblin shredder, a machine capable of levelling entire forests, killing slews of troops and sustaining immense amounts of punishment whilst operating. This will greatly help our siege efforts."
- warcraft_institution_events.600.option.a: "This changes everything..."
+ warcraft_institution_events.6.title: "Pneumatics"
+ warcraft_institution_events.6.desc: "Powered by steam, pneumatics have arisen from the constant conflicts that plague Azeroth. Pioneered by the Goblins, pneumatics allow for vehicles like the goblin shredder, a machine capable of levelling entire forests, killing slews of troops and sustaining immense amounts of punishment whilst operating. This will greatly help our siege efforts."
+ warcraft_institution_events.6.option.a: "This changes everything..."
  
  
  

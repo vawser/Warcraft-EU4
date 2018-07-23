@@ -5,8 +5,8 @@ soul_group = {
     defender_of_faith = no
 	can_form_personal_unions = no
 	
-	flags_with_emblem_percentage = 33
-	flag_emblem_index_range = { 1 57 }
+	flags_with_emblem_percentage = 0
+	flag_emblem_index_range = { 1 1 }
     
     crusade_name = CRUSADE
     

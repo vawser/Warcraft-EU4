@@ -105,7 +105,7 @@ phlogiston = {
 		}
 	}
 	start_chance = 5		#in 100 for when a province can_start
-	on_start = warcraft_institution_events.100
+	on_start = warcraft_institution_events.1
     
 	can_embrace = {
 		owner = { has_institution = civic_code }
@@ -268,7 +268,7 @@ clockwerk_engineering = {
 		}
 	}
 	start_chance = 5		#in 100 for when a province can_start
-	on_start = warcraft_institution_events.200
+	on_start = warcraft_institution_events.2
     
     can_embrace = {
 		owner = { has_institution = phlogiston }
@@ -431,7 +431,7 @@ boomsticks = {
 		}
 	}
 	start_chance = 5		#in 100 for when a province can_start
-	on_start = warcraft_institution_events.300
+	on_start = warcraft_institution_events.3
     
     can_embrace = {
 		owner = { has_institution = clockwerk_engineering }
@@ -593,7 +593,7 @@ oil_extraction = {
 		}
 	}
 	start_chance = 5		#in 100 for when a province can_start
-	on_start = warcraft_institution_events.400
+	on_start = warcraft_institution_events.4
     
     can_embrace = {
 		owner = { has_institution = boomsticks }
@@ -756,7 +756,7 @@ mechanical_constructs = {
 		}
 	}
 	start_chance = 5		#in 100 for when a province can_start
-	on_start = warcraft_institution_events.500
+	on_start = warcraft_institution_events.5
     
     can_embrace = {
 		owner = { has_institution = oil_extraction }
@@ -918,7 +918,7 @@ pneumatics = {
 		}
 	}
 	start_chance = 5		#in 100 for when a province can_start
-	on_start = warcraft_institution_events.600
+	on_start = warcraft_institution_events.6
     
     can_embrace = {
 		owner = { has_institution = mechanical_constructs }
