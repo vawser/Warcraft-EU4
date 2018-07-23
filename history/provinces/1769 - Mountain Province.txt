@@ -9,7 +9,7 @@ base_production = 3
 base_manpower = 1
 
 culture = gnome
-religion = invention
+religion = technomancy
 
 trade_goods = unknown
 hre = no

@@ -10,7 +10,7 @@ bookmark =
 	desc = "INVASION_OF_DRAENOR_DESC"
 	date = 830.1.1
     
-    country = STW
+    country = SRW
     country = LOR
     country = DAL
     country = SMG

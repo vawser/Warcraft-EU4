@@ -1,6 +1,6 @@
 graphical_culture = crystaldryadgfx
 
-color = { 217 11 143 }
+color = { 146 195 68 }
 
 monarch_names = {
 	"Tira #0" = 20

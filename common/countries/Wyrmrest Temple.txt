@@ -1,6 +1,6 @@
 graphical_culture = dragongfx
 
-color = { 11 155 81 }
+color = { 183 62 6 }
 
 monarch_names = {
 	"Nestrasz #0" = 20

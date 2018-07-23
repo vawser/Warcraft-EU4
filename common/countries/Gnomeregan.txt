@@ -1,6 +1,6 @@
 graphical_culture = gnomegfx
 
-color = { 236 191 158 }
+color = { 11 238 146 }
 
 monarch_names = {
 	"Krebribi #0" = 20

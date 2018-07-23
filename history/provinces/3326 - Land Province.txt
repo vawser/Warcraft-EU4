@@ -9,7 +9,7 @@ base_production = 4
 base_manpower = 4
 
 culture = red_dragonflight
-religion = sect_of_the_dragons
+religion = dragon_aspects
 
 trade_goods = unknown
 hre = no

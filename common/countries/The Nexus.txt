@@ -1,6 +1,6 @@
 graphical_culture = dragongfx
 
-color = { 214 176 192 }
+color = { 207 51 147 }
 
 monarch_names = {
 	"Nelmydgos #0" = 20

@@ -26,7 +26,7 @@ disorder_group = {
         
         # Fel buttons
         papacy = {
-			papal_tag = TBL
+			papal_tag = ---
 			election_cost = 1000
 			seat_of_papacy = 1
 			

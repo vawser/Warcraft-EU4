@@ -9,10 +9,7 @@ forsaken_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			tag = FOR
-			tag = HOV
-		}
+		culture_group = undead_group
 	}
 	free = yes		
 	

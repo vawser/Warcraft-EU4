@@ -1,6 +1,6 @@
 graphical_culture = nightbornegfx
 
-color = { 142 53 38 }
+color = { 76 103 27 }
 
 monarch_names = {
 	"Qilgrorn #0" = 20

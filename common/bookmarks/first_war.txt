@@ -10,8 +10,8 @@ bookmark =
 	desc = "FIRST_WAR_DESC"
 	date = 776.1.1
     
-    country = STW
-    country = BKR
+    country = SRW
+    country = BLK
     country = LOR
     country = SMG
 }

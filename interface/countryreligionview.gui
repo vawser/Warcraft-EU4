@@ -2506,7 +2506,7 @@ guiTypes = {
 	################################################################################################
 	################# Church aspect item (for selection) For Protestants
 	windowType = {
-		name = "countryreligionview_aspectitem_yshaarj"
+		name = "countryreligionview_aspectitem_cthun"
 		backGround =""
 		position = { x=10 y=-20 }	
 		size = { x=50 y=46 }

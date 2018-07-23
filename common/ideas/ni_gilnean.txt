@@ -9,7 +9,7 @@ gilnean_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = gilnean
+        culture_group = gilnean_group
 	}
 	free = yes		
 	

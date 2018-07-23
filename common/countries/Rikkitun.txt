@@ -1,6 +1,6 @@
 graphical_culture = spritegfx
 
-color = { 243 113 216 }
+color = { 60 124 114 }
 
 monarch_names = {
 	"Tos #0" = 20

@@ -185,7 +185,7 @@ phlogiston = {
                 owner = {
                     OR = {
                         culture_group = dwarf_group
-                        culture_group = mechagnome_group
+                        culture_group = gnome_group
                         culture_group = goblin_group
                     }
                 }
@@ -200,24 +200,14 @@ phlogiston = {
 			potential = {
                 owner = {
                     OR = {
-                        culture_group = tauren_group
+                        culture_group = highmountain_tauren_group
+                        culture_group = kalimdor_tauren_group
                         culture_group = night_elf_group
                     }
                 }
 			}
 			custom_trigger_tooltip = {
 				tooltip = tt_averse_to_technology
-			}
-		}
-        
-        modifier = {
-			factor = -1
-			scale = yes
-			potential = {
-                owner = { is_lesser = yes }
-			}
-			custom_trigger_tooltip = {
-				tooltip = tt_primitive
 			}
 		}
 	}
@@ -359,7 +349,7 @@ clockwerk_engineering = {
                 owner = {
                     OR = {
                         culture_group = dwarf_group
-                        culture_group = mechagnome_group
+                        culture_group = gnome_group
                         culture_group = goblin_group
                     }
                 }
@@ -374,24 +364,14 @@ clockwerk_engineering = {
 			potential = {
                 owner = {
                     OR = {
-                        culture_group = tauren_group
+                        culture_group = highmountain_tauren_group
+                        culture_group = kalimdor_tauren_group
                         culture_group = night_elf_group
                     }
                 }
 			}
 			custom_trigger_tooltip = {
 				tooltip = tt_averse_to_technology
-			}
-		}
-        
-        modifier = {
-			factor = -1
-			scale = yes
-			potential = {
-                owner = { is_lesser = yes }
-			}
-			custom_trigger_tooltip = {
-				tooltip = tt_primitive
 			}
 		}
 	}
@@ -533,7 +513,7 @@ boomsticks = {
                 owner = {
                     OR = {
                         culture_group = dwarf_group
-                        culture_group = mechagnome_group
+                        culture_group = gnome_group
                         culture_group = goblin_group
                     }
                 }
@@ -548,24 +528,14 @@ boomsticks = {
 			potential = {
                 owner = {
                     OR = {
-                        culture_group = tauren_group
+                        culture_group = highmountain_tauren_group
+                        culture_group = kalimdor_tauren_group
                         culture_group = night_elf_group
                     }
                 }
 			}
 			custom_trigger_tooltip = {
 				tooltip = tt_averse_to_technology
-			}
-		}
-        
-        modifier = {
-			factor = -1
-			scale = yes
-			potential = {
-                owner = { is_lesser = yes }
-			}
-			custom_trigger_tooltip = {
-				tooltip = tt_primitive
 			}
 		}
 	}
@@ -706,7 +676,7 @@ oil_extraction = {
                 owner = {
                     OR = {
                         culture_group = dwarf_group
-                        culture_group = mechagnome_group
+                        culture_group = gnome_group
                         culture_group = goblin_group
                     }
                 }
@@ -721,24 +691,14 @@ oil_extraction = {
 			potential = {
                 owner = {
                     OR = {
-                        culture_group = tauren_group
+                        culture_group = highmountain_tauren_group
+                        culture_group = kalimdor_tauren_group
                         culture_group = night_elf_group
                     }
                 }
 			}
 			custom_trigger_tooltip = {
 				tooltip = tt_averse_to_technology
-			}
-		}
-        
-        modifier = {
-			factor = -1
-			scale = yes
-			potential = {
-                owner = { is_lesser = yes }
-			}
-			custom_trigger_tooltip = {
-				tooltip = tt_primitive
 			}
 		}
 	}
@@ -880,7 +840,7 @@ mechanical_constructs = {
                 owner = {
                     OR = {
                         culture_group = dwarf_group
-                        culture_group = mechagnome_group
+                        culture_group = gnome_group
                         culture_group = goblin_group
                     }
                 }
@@ -895,24 +855,14 @@ mechanical_constructs = {
 			potential = {
                 owner = {
                     OR = {
-                        culture_group = tauren_group
+                        culture_group = highmountain_tauren_group
+                        culture_group = kalimdor_tauren_group
                         culture_group = night_elf_group
                     }
                 }
 			}
 			custom_trigger_tooltip = {
 				tooltip = tt_averse_to_technology
-			}
-		}
-        
-        modifier = {
-			factor = -1
-			scale = yes
-			potential = {
-                owner = { is_lesser = yes }
-			}
-			custom_trigger_tooltip = {
-				tooltip = tt_primitive
 			}
 		}
 	}
@@ -1053,7 +1003,7 @@ pneumatics = {
                 owner = {
                     OR = {
                         culture_group = dwarf_group
-                        culture_group = mechagnome_group
+                        culture_group = gnome_group
                         culture_group = goblin_group
                     }
                 }
@@ -1068,24 +1018,14 @@ pneumatics = {
 			potential = {
                 owner = {
                     OR = {
-                        culture_group = tauren_group
+                        culture_group = highmountain_tauren_group
+                        culture_group = kalimdor_tauren_group
                         culture_group = night_elf_group
                     }
                 }
 			}
 			custom_trigger_tooltip = {
 				tooltip = tt_averse_to_technology
-			}
-		}
-        
-        modifier = {
-			factor = -1
-			scale = yes
-			potential = {
-                owner = { is_lesser = yes }
-			}
-			custom_trigger_tooltip = {
-				tooltip = tt_primitive
 			}
 		}
     }

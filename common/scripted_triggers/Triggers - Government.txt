@@ -1,0 +1,52 @@
+﻿
+is_kingdom = {
+    OR = {
+        government = administrative_kingdom
+        government = mercantile_kingdom
+        government = militaristic_kingdom
+    }
+}
+
+is_republic = {
+    OR = {
+        government = administrative_republic
+        government = mercantile_republic
+        government = militaristic_republic
+    }
+}
+
+is_theocracy = {
+    OR = {
+        government = administrative_theocracy
+        government = mercantile_theocracy
+        government = militaristic_theocracy
+    }
+}
+
+is_religious_order = {
+    OR = {
+        government = administrative_order
+        government = mercantile_order
+        government = militaristic_order
+    }
+}
+
+is_tribe = {
+    OR = {
+        government = religious_tribe
+        government = mercantile_tribe
+        government = war_tribe
+        government = tauren_camp
+    }
+}
+
+is_warband = {
+    OR = {
+        government = troll_warband
+        government = satyr_warband
+        government = orc_warband
+        government = ogre_warband
+        government = naga_warband
+        government = centaur_warband
+    }
+}

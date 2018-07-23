@@ -1,6 +1,6 @@
 graphical_culture = centaurgfx
 
-color = { 160 37 203 }
+color = { 218 222 134 }
 
 monarch_names = {
 	"Mulk #0" = 20

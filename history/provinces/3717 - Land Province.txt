@@ -9,7 +9,7 @@ base_production = 1
 base_manpower = 4
 
 culture = zandalari
-religion = loa
+religion = voodoo
 
 trade_goods = unknown
 hre = no

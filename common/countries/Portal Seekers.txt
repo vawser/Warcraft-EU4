@@ -1,6 +1,6 @@
 graphical_culture = draeneigfx
 
-color = { 57 164 171 }
+color = { 105 248 93 }
 
 monarch_names = {
 	"Hammor #0" = 20

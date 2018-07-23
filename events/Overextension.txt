@@ -23,10 +23,10 @@ country_event = {
 		add_manpower = -0.05
 		
 		if = {
-			limit = { has_estate = estate_commoners }
+			limit = { has_estate = estate_peasantry }
 						
 			add_estate_loyalty = {
-				estate = estate_commoners
+				estate = estate_peasantry
 				loyalty = -5
 			}
 		}
@@ -55,10 +55,10 @@ country_event = {
 		add_stability = -1
 		
 		if = {
-			limit = { has_estate = estate_commoners }
+			limit = { has_estate = estate_peasantry }
 						
 			add_estate_loyalty = {
-				estate = estate_commoners
+				estate = estate_peasantry
 				loyalty = -10
 			}
 		}
@@ -88,10 +88,10 @@ country_event = {
 		add_prestige = -25
 		
 		if = {
-			limit = { has_estate = estate_nobles }
+			limit = { has_estate = estate_nobility }
 						
 			add_estate_loyalty = {
-				estate = estate_nobles
+				estate = estate_nobility
 				loyalty = -5
 			}
 		}
@@ -154,10 +154,10 @@ country_event = {
 		add_army_tradition = -10
 		
 		if = {
-			limit = { has_estate = estate_nobles }
+			limit = { has_estate = estate_nobility }
 						
 			add_estate_loyalty = {
-				estate = estate_nobles
+				estate = estate_nobility
 				loyalty = -5
 			}
 		}
@@ -307,20 +307,14 @@ country_event = {
 	option = {
 		name = overextension_events.8.option.a
 
-		if = {
-			limit = { NOT = { government = khas } }
-			add_legitimacy = -15
-		}
-		if = {
-			limit = { government = khas }
-			add_horde_unity = -15
-		}
+        add_legitimacy = -15
+        add_horde_unity = -15
 		
 		if = {
-			limit = { has_estate = estate_nobles }
+			limit = { has_estate = estate_nobility }
 						
 			add_estate_loyalty = {
-				estate = estate_nobles
+				estate = estate_nobility
 				loyalty = -5
 			}
 		}
@@ -350,10 +344,10 @@ country_event = {
 		add_dip_power = -50
 		
 		if = {
-			limit = { has_estate = estate_nobles }
+			limit = { has_estate = estate_nobility }
 						
 			add_estate_loyalty = {
-				estate = estate_nobles
+				estate = estate_nobility
 				loyalty = -5
 			}
 		}
@@ -383,10 +377,10 @@ country_event = {
 		kill_advisor = random
 		
 		if = {
-			limit = { has_estate = estate_nobles }
+			limit = { has_estate = estate_nobility }
 						
 			add_estate_loyalty = {
-				estate = estate_nobles
+				estate = estate_nobility
 				loyalty = -5
 			}
 		}

@@ -2,7 +2,7 @@ country_decisions = {
 
 	initiate_guerilla_warfare = {
 		potential = {
-			technology_group = tech_troll
+			is_troll = yes
             NOT = { has_country_modifier = initiate_guerilla_warfare }
 		}
 		
@@ -26,7 +26,7 @@ country_decisions = {
     
     enforce_loa_worship = {
 		potential = {
-			technology_group = tech_troll
+			is_troll = yes
             NOT = { has_country_modifier = enforcing_loa_worship }
             religion = loa
 		}
@@ -50,7 +50,7 @@ country_decisions = {
     
     summon_loa_spirit = {
 		potential = {
-			technology_group = tech_troll
+			is_troll = yes
             NOT = { has_country_modifier = summoned_loa_spirit }
             religion = loa
 		}
@@ -85,7 +85,7 @@ country_decisions = {
     # Hakkari
     summon_the_blood_god = {
 		potential = {
-			technology_group = tech_troll
+			is_troll = yes
             religion = hakkari
             NOT = { has_country_modifier = summoned_blood_god }
 		}
@@ -120,7 +120,7 @@ country_decisions = {
 
     conduct_blood_sacrifice = {
 		potential = {
-			technology_group = tech_troll
+			is_troll = yes
             religion = hakkari
             NOT = { has_country_modifier = summoned_blood_god }
 		}
@@ -146,7 +146,7 @@ country_decisions = {
     
     sacrifice_prisoners = {
 		potential = {
-			technology_group = tech_troll
+			is_troll = yes
             religion = hakkari
             NOT = { has_country_modifier = sacrificed_prisoners }
             is_at_war = yes

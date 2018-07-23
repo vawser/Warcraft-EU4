@@ -1,6 +1,6 @@
 graphical_culture = nagagfx
 
-color = { 40 248 173 }
+color = { 168 188 180 }
 
 monarch_names = {
 	"Fayfay #0" = 20

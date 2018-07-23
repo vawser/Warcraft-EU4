@@ -9,7 +9,7 @@ base_production = 3
 base_manpower = 2
 
 culture = harpy
-religion = air_worship
+religion = wind
 
 trade_goods = unknown
 hre = no

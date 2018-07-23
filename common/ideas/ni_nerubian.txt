@@ -9,7 +9,7 @@ nerubian_ideas = {
 	}
 	
 	trigger = {
-        primary_culture = nerubian
+        culture_group = nerubian_group
 	}
 	free = yes	
 	

@@ -34,10 +34,6 @@ country_event = {
                         ROOT = { is_savage = yes }
                         is_savage = yes
                     }
-                    AND = {
-                        ROOT = { is_lesser = yes }
-                        is_lesser = yes
-                    }
                 }
 			}
 		}

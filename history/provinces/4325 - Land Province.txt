@@ -9,7 +9,7 @@ base_production = 3
 base_manpower = 2
 
 culture = hozen
-religion = chiji
+religion = celestials
 
 trade_goods = unknown
 hre = no

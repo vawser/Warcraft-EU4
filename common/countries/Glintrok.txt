@@ -1,6 +1,6 @@
 graphical_culture = saurokgfx
 
-color = { 136 171 231 }
+color = { 189 65 35 }
 
 monarch_names = {
 	"Akodraka #0" = 20

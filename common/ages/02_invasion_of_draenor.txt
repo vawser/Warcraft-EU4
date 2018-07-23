@@ -13,7 +13,8 @@ invasion_of_draenor = {
                 technology_group = tech_human
                 has_country_modifier = alliance_member
             }
-            controls = 3135
+            always = no
+            #controls = 3135
         }
 	}
 	

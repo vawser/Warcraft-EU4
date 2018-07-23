@@ -1,6 +1,6 @@
 graphical_culture = militaristic_theocracy
 
-color = { 44 231 2 }
+color = { 174 127 3 }
 
 monarch_names = {
 	"Dridral #0" = 20

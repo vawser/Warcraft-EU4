@@ -1,6 +1,6 @@
 graphical_culture = hozengfx
 
-color = { 114 90 76 }
+color = { 29 228 118 }
 
 monarch_names = {
 	"Runk-Runk Logo Mat Mat Zik Zik Kaklu Granuhl Jehl Jehl #0" = 20

@@ -1,6 +1,6 @@
 graphical_culture = titangfx
 
-color = { 127 151 201 }
+color = { 247 238 52 }
 
 monarch_names = {
 	"Nargird #0" = 20

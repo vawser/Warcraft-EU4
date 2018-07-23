@@ -134,10 +134,7 @@ province_event = {
         is_capital = no
         controlled_by = owner
         owner = {
-            OR = {
-                is_savage = yes
-                is_lesser = yes
-            }
+            is_savage = yes
         }
 	}
 

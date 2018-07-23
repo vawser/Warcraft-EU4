@@ -29,8 +29,8 @@ on_overextension_pulse = {
 
 on_bi_yearly_pulse = {
     events = {
-        faction_events.1000   # Alliance opinion update
-        faction_events.1001   # Horde opinion update
+        #faction_events.1000   # Alliance opinion update
+        #faction_events.1001   # Horde opinion update
     }
 }
 
@@ -63,8 +63,8 @@ on_bi_yearly_pulse_2 = {
 
 on_four_year_pulse = {
     random_events = {
-        100 = faction_events.10 # Alliance - Send Soldiers
-        100 = faction_events.11 # Horde - Send Soldiers
+        #100 = faction_events.10 # Alliance - Send Soldiers
+        #100 = faction_events.11 # Horde - Send Soldiers
         1000 = 0
     }
 }

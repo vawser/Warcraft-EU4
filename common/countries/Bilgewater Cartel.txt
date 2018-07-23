@@ -1,6 +1,6 @@
 graphical_culture = goblingfx
 
-color = { 98 246 97 }
+color = { 162 35 161 }
 
 monarch_names = {
 	"Jees #0" = 20

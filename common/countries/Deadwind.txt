@@ -1,6 +1,6 @@
 graphical_culture = ogregfx
 
-color = { 30 25 3 }
+color = { 25 199 72 }
 
 monarch_names = {
 	"Maulgar #0" = 20

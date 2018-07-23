@@ -101,7 +101,8 @@ ai_diplomat = {
             OR = {
                 culture_group = night_elf_group
                 culture_group = draenei_group
-                culture_group = tauren_group
+                culture_group = kalimdor_tauren_group
+                culture_group = highmountain_tauren_group
             }
 		}
 	}
@@ -161,11 +162,12 @@ ai_militarist = {
                 culture_group = ogre_group
                 culture_group = forest_troll_group
                 culture_group = jungle_troll_group
-                culture_group = ice_troll_group
+                culture_group = frost_troll_group
                 culture_group = sand_troll_group
                 culture_group = zandalari_troll_group
-                culture_group = aqir_group
-                culture_group = demon_group
+                culture_group = qiraji_group
+                culture_group = nerubian_group
+                culture_group = mantid_group
                 culture_group = satyr_group
                 culture_group = naga_group
                 culture_group = murloc_group

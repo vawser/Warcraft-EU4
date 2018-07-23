@@ -9,7 +9,7 @@ base_production = 4
 base_manpower = 3
 
 culture = jinyu
-religion = chiji
+religion = celestials
 
 trade_goods = unknown
 hre = no

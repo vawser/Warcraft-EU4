@@ -1,6 +1,6 @@
 graphical_culture = dragongfx
 
-color = { 220 120 161 }
+color = { 232 132 65 }
 
 monarch_names = {
 	"Unsylion #0" = 20

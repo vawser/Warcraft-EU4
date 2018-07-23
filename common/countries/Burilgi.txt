@@ -1,6 +1,6 @@
 graphical_culture = yaungolgfx
 
-color = { 236 233 73 }
+color = { 126 88 31 }
 
 monarch_names = {
 	"Gongang #0" = 20

@@ -1,0 +1,14 @@
+﻿
+is_subject_other_than_tributary_trigger = { 
+	is_subject = yes
+	NOT = { is_subject_of_type = tributary_state }
+}
+
+is_free_or_tributary_trigger = { 
+	OR = {
+		is_subject = no
+		is_subject_of_type = tributary_state
+	}
+}
+
+

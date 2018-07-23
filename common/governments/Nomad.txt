@@ -71,7 +71,7 @@ nerubian_swarm = {
 		}
 	}
 }
-mantid_swamr = {
+mantid_swarm = {
 	nomad = yes
 	monarchy = yes
 	queen = no

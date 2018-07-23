@@ -1,7 +1,0 @@
-type = galley
-sprite_level = 3
-
-hull_size = 16
-base_cannons = 24
-sail_speed = 8
-

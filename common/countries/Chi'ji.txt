@@ -1,6 +1,6 @@
 graphical_culture = pandarengfx
 
-color = { 209 172 180 }
+color = { 236 206 55 }
 
 monarch_names = {
 	"Ah #0" = 20

@@ -6,7 +6,8 @@ the_second_war = {
         current_age = the_first_war 
         any_country = {
             technology_group = tech_orc
-            controls = 2993
+            always = no
+            #controls = 2993
         }
 	}
 	

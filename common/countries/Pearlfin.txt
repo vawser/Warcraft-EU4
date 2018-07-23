@@ -1,6 +1,6 @@
 graphical_culture = jinyugfx
 
-color = { 143 60 140 }
+color = { 5 54 116 }
 
 monarch_names = {
 	"Ru'jin #0" = 20

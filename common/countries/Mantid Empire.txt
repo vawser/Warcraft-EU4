@@ -1,6 +1,6 @@
 graphical_culture = mantidgfx
 
-color = { 180 205 161 }
+color = { 176 161 72 }
 
 monarch_names = {
 	"Kli'duk #0" = 20

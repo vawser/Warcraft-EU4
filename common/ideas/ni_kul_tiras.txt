@@ -9,7 +9,7 @@ tirasian_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = tirasian
+		culture_group = kul_tiran_group
 	}
 	free = yes		
 	

@@ -1,449 +1,449 @@
-namespace = faction_events
+# namespace = faction_events
 
-# Formation of the Grand Alliance
-country_event = {
-	id = faction_events.100
-	title = faction_events.100.title
-	desc = faction_events.100.desc
-	picture = LOTHAR_FIRE_eventPicture
+# # Formation of the Grand Alliance
+# country_event = {
+	# id = faction_events.100
+	# title = faction_events.100.title
+	# desc = faction_events.100.desc
+	# picture = LOTHAR_FIRE_eventPicture
 
-	major = yes
-    fire_only_once = yes
+	# major = yes
+    # fire_only_once = yes
     
-    trigger = {
-        current_age = the_second_war
-        tag = LOR
-    }
+    # trigger = {
+        # current_age = the_second_war
+        # tag = LOR
+    # }
     
-    mean_time_to_happen = {
-		months = 12
-	}
+    # mean_time_to_happen = {
+		# months = 12
+	# }
     
-	option = {
-		name = faction_events.100.option.a
+	# option = {
+		# name = faction_events.100.option.a
 		
-        if = { limit = { exists = LOR } LOR = { add_alliance_membership = yes } } # Lordaeron
-        if = { limit = { exists = STW } STW = { add_alliance_membership = yes } } # Stormwind
-        if = { limit = { exists = WES } WES = { add_alliance_membership = yes } } # Westfall
-        if = { limit = { exists = DAR } DAR = { add_alliance_membership = yes } } # Darkshire
-        if = { limit = { exists = RED } RED = { add_alliance_membership = yes } } # Redridge
-        if = { limit = { exists = NOR } NOR = { add_alliance_membership = yes } } # Northshire
-        if = { limit = { exists = ANO } ANO = { add_alliance_membership = yes } } # Andorhal
-        if = { limit = { exists = STR } STR = { add_alliance_membership = yes } } # Stratholme
-        if = { limit = { exists = SOU } SOU = { add_alliance_membership = yes } } # Southshore
-        if = { limit = { exists = KUL } KUL = { add_alliance_membership = yes } } # Kul Tiras
-        if = { limit = { exists = SMG } SMG = { add_alliance_membership = yes } } # Stromgarde
-        if = { limit = { exists = ALT } ALT = { add_alliance_membership = yes } } # Alterac
-        if = { limit = { exists = DAL } DAL = { add_alliance_membership = yes } } # Dalaran
+        # if = { limit = { exists = LOR } LOR = { add_alliance_membership = yes } } # Lordaeron
+        # if = { limit = { exists = STW } STW = { add_alliance_membership = yes } } # Stormwind
+        # if = { limit = { exists = WES } WES = { add_alliance_membership = yes } } # Westfall
+        # if = { limit = { exists = DAR } DAR = { add_alliance_membership = yes } } # Darkshire
+        # if = { limit = { exists = RED } RED = { add_alliance_membership = yes } } # Redridge
+        # if = { limit = { exists = NOR } NOR = { add_alliance_membership = yes } } # Northshire
+        # if = { limit = { exists = ANO } ANO = { add_alliance_membership = yes } } # Andorhal
+        # if = { limit = { exists = STR } STR = { add_alliance_membership = yes } } # Stratholme
+        # if = { limit = { exists = SOU } SOU = { add_alliance_membership = yes } } # Southshore
+        # if = { limit = { exists = KUL } KUL = { add_alliance_membership = yes } } # Kul Tiras
+        # if = { limit = { exists = SMG } SMG = { add_alliance_membership = yes } } # Stromgarde
+        # if = { limit = { exists = ALT } ALT = { add_alliance_membership = yes } } # Alterac
+        # if = { limit = { exists = DAL } DAL = { add_alliance_membership = yes } } # Dalaran
         
-        if = { limit = { exists = LOR } LOR = { add_alliance_leadership = yes } } # Lordaeron
+        # if = { limit = { exists = LOR } LOR = { add_alliance_leadership = yes } } # Lordaeron
         
-        every_country = {
-            limit = {
-                has_country_modifier = alliance_member
-            }
-            update_alliance_opinion_modifiers = yes
-        }
+        # every_country = {
+            # limit = {
+                # has_country_modifier = alliance_member
+            # }
+            # update_alliance_opinion_modifiers = yes
+        # }
         
-        hidden_effect = {
-            set_global_flag = alliance_formed
-        }
-	}
-}
+        # hidden_effect = {
+            # set_global_flag = alliance_formed
+        # }
+	# }
+# }
 
-# A New Leader! (Alliance)
-country_event = {
-	id = faction_events.101
-	title = faction_events.101.title
-	desc = faction_events.101.desc
-	picture = LOTHAR_FIRE_eventPicture
+# # A New Leader! (Alliance)
+# country_event = {
+	# id = faction_events.101
+	# title = faction_events.101.title
+	# desc = faction_events.101.desc
+	# picture = LOTHAR_FIRE_eventPicture
 
-	major = yes
+	# major = yes
 
-    trigger = {
-        has_global_flag = alliance_formed
-        NOT = {
-            any_country = {
-                has_country_modifier = alliance_leader
-            }
-        }
-    }
+    # trigger = {
+        # has_global_flag = alliance_formed
+        # NOT = {
+            # any_country = {
+                # has_country_modifier = alliance_leader
+            # }
+        # }
+    # }
     
-    mean_time_to_happen = {
-		months = 1
-	}
+    # mean_time_to_happen = {
+		# months = 1
+	# }
     
-	option = {
-		name = faction_events.101.option.a
+	# option = {
+		# name = faction_events.101.option.a
 		
-        random_country = {
-            limit = {
-                has_country_modifier = alliance_member
-            }
-            add_alliance_leadership = yes
-            update_alliance_opinion_modifiers = yes
-        }
+        # random_country = {
+            # limit = {
+                # has_country_modifier = alliance_member
+            # }
+            # add_alliance_leadership = yes
+            # update_alliance_opinion_modifiers = yes
+        # }
         
-        # No valid country, disband
-        if = {
-            limit = {
-                NOT = {
-                    any_country = {
-                        has_country_modifier = alliance_leader
-                    }
-                }
-            }
-            disband_alliance = yes
-        }
-	}
-}
+        # # No valid country, disband
+        # if = {
+            # limit = {
+                # NOT = {
+                    # any_country = {
+                        # has_country_modifier = alliance_leader
+                    # }
+                # }
+            # }
+            # disband_alliance = yes
+        # }
+	# }
+# }
 
-# Formation of the Horde
-country_event = {
-	id = faction_events.102
-	title = faction_events.102.title
-	desc = faction_events.102.desc
-	picture = BLOODLUST_eventPicture
+# # Formation of the Horde
+# country_event = {
+	# id = faction_events.102
+	# title = faction_events.102.title
+	# desc = faction_events.102.desc
+	# picture = BLOODLUST_eventPicture
 
-	major = yes
-    fire_only_once = yes
+	# major = yes
+    # fire_only_once = yes
     
-    trigger = {
-        always = no # TODO
-    }
+    # trigger = {
+        # always = no # TODO
+    # }
     
-    mean_time_to_happen = {
-		months = 12
-	}
+    # mean_time_to_happen = {
+		# months = 12
+	# }
     
-	option = {
-		name = faction_events.102.option.a
+	# option = {
+		# name = faction_events.102.option.a
 		
-        if = { limit = { exists = ORG } ORG = { add_horde_membership = yes } } # Lordaeron
+        # if = { limit = { exists = ORG } ORG = { add_horde_membership = yes } } # Lordaeron
         
-        if = { limit = { exists = ORG } ORG = { add_horde_leadership = yes } } # Lordaeron
+        # if = { limit = { exists = ORG } ORG = { add_horde_leadership = yes } } # Lordaeron
         
-        every_country = {
-            limit = {
-                has_country_modifier = horde_member
-            }
-            update_horde_opinion_modifiers = yes
-        }
+        # every_country = {
+            # limit = {
+                # has_country_modifier = horde_member
+            # }
+            # update_horde_opinion_modifiers = yes
+        # }
         
-        hidden_effect = {
-            set_global_flag = horde_formed
-        }
-	}
-}
+        # hidden_effect = {
+            # set_global_flag = horde_formed
+        # }
+	# }
+# }
 
-# A New Leader! (Horde)
-country_event = {
-	id = faction_events.103
-	title = faction_events.103.title
-	desc = faction_events.103.desc
-	picture = BLOODLUST_eventPicture
+# # A New Leader! (Horde)
+# country_event = {
+	# id = faction_events.103
+	# title = faction_events.103.title
+	# desc = faction_events.103.desc
+	# picture = BLOODLUST_eventPicture
 
-	major = yes
+	# major = yes
 
-    trigger = {
-        has_global_flag = horde_formed
-        NOT = {
-            any_country = {
-                has_country_modifier = horde_leader
-            }
-        }
-    }
+    # trigger = {
+        # has_global_flag = horde_formed
+        # NOT = {
+            # any_country = {
+                # has_country_modifier = horde_leader
+            # }
+        # }
+    # }
     
-    mean_time_to_happen = {
-		months = 1
-	}
+    # mean_time_to_happen = {
+		# months = 1
+	# }
     
-	option = {
-		name = faction_events.103.option.a
+	# option = {
+		# name = faction_events.103.option.a
 		
-        random_country = {
-            limit = {
-                has_country_modifier = horde_member
-            }
-            add_horde_leadership = yes
-            update_horde_opinion_modifiers = yes
-        }
+        # random_country = {
+            # limit = {
+                # has_country_modifier = horde_member
+            # }
+            # add_horde_leadership = yes
+            # update_horde_opinion_modifiers = yes
+        # }
         
-        # No valid country, disband
-        if = {
-            limit = {
-                NOT = {
-                    any_country = {
-                        has_country_modifier = horde_leader
-                    }
-                }
-            }
-            disband_horde = yes
-        }
-	}
-}
+        # # No valid country, disband
+        # if = {
+            # limit = {
+                # NOT = {
+                    # any_country = {
+                        # has_country_modifier = horde_leader
+                    # }
+                # }
+            # }
+            # disband_horde = yes
+        # }
+	# }
+# }
 
-# Kicked out of the Alliance
-country_event = {
-	id = faction_events.1
-	title = faction_events.1.title
-	desc = faction_events.1.desc
-	picture = LOTHAR_FIRE_eventPicture
+# # Kicked out of the Alliance
+# country_event = {
+	# id = faction_events.1
+	# title = faction_events.1.title
+	# desc = faction_events.1.desc
+	# picture = LOTHAR_FIRE_eventPicture
 
-	major = yes
+	# major = yes
     
-	trigger = {
-		has_country_modifier = alliance_member
+	# trigger = {
+		# has_country_modifier = alliance_member
         
-        # Alliance leader has < -100 opinion
-        any_country = {
-            has_country_modifier = alliance_leader
-            NOT = {
-                has_opinion = {
-                    who = ROOT
-                    value = -100
-                }
-            }
-        }
-	}
+        # # Alliance leader has < -100 opinion
+        # any_country = {
+            # has_country_modifier = alliance_leader
+            # NOT = {
+                # has_opinion = {
+                    # who = ROOT
+                    # value = -100
+                # }
+            # }
+        # }
+	# }
 
-	mean_time_to_happen = {
-		months = 1
-	}
+	# mean_time_to_happen = {
+		# months = 1
+	# }
 
-	option = {
-		name = faction_events.1.option.a
+	# option = {
+		# name = faction_events.1.option.a
        
-        remove_alliance_membership = yes
-        update_alliance_opinion_modifiers = yes
-	}
-}
+        # remove_alliance_membership = yes
+        # update_alliance_opinion_modifiers = yes
+	# }
+# }
 
-# Forced out of the Alliance
-country_event = {
-	id = faction_events.2
-	title = faction_events.2.title
-	desc = faction_events.2.desc
-	picture = LOTHAR_FIRE_eventPicture
+# # Forced out of the Alliance
+# country_event = {
+	# id = faction_events.2
+	# title = faction_events.2.title
+	# desc = faction_events.2.desc
+	# picture = LOTHAR_FIRE_eventPicture
 
-	major = yes
+	# major = yes
     
-	trigger = {
-		is_subject = yes
-		has_country_modifier = alliance_member
-	}
+	# trigger = {
+		# is_subject = yes
+		# has_country_modifier = alliance_member
+	# }
 
-	mean_time_to_happen = {
-		months = 1
-	}
+	# mean_time_to_happen = {
+		# months = 1
+	# }
 
-	option = {
-		name = faction_events.2.option.a
+	# option = {
+		# name = faction_events.2.option.a
        
-        remove_alliance_membership = yes
-        update_alliance_opinion_modifiers = yes
-	}
-}
+        # remove_alliance_membership = yes
+        # update_alliance_opinion_modifiers = yes
+	# }
+# }
 
-# Kicked out of the Horde
-country_event = {
-	id = faction_events.3
-	title = faction_events.3.title
-	desc = faction_events.3.desc
-	picture = INTERNMENT_CAMP_eventPicture
+# # Kicked out of the Horde
+# country_event = {
+	# id = faction_events.3
+	# title = faction_events.3.title
+	# desc = faction_events.3.desc
+	# picture = INTERNMENT_CAMP_eventPicture
 
-	major = yes
+	# major = yes
     
-	trigger = {
-		has_country_modifier = horde_member
+	# trigger = {
+		# has_country_modifier = horde_member
         
-        # Horde leader has < -100 opinion
-        any_country = {
-            has_country_modifier = horde_leader
-            NOT = {
-                has_opinion = {
-                    who = ROOT
-                    value = -100
-                }
-            }
-        }
-	}
+        # # Horde leader has < -100 opinion
+        # any_country = {
+            # has_country_modifier = horde_leader
+            # NOT = {
+                # has_opinion = {
+                    # who = ROOT
+                    # value = -100
+                # }
+            # }
+        # }
+	# }
 
-	mean_time_to_happen = {
-		months = 1
-	}
+	# mean_time_to_happen = {
+		# months = 1
+	# }
 
-	option = {
-		name = faction_events.3.option.a
+	# option = {
+		# name = faction_events.3.option.a
 
-        remove_horde_membership = yes
-        update_horde_opinion_modifiers = yes
-	}
-}
+        # remove_horde_membership = yes
+        # update_horde_opinion_modifiers = yes
+	# }
+# }
 
-# Forced out of the Horde
-country_event = {
-	id = faction_events.4
-	title = faction_events.4.title
-	desc = faction_events.4.desc
-	picture = INTERNMENT_CAMP_eventPicture
+# # Forced out of the Horde
+# country_event = {
+	# id = faction_events.4
+	# title = faction_events.4.title
+	# desc = faction_events.4.desc
+	# picture = INTERNMENT_CAMP_eventPicture
 
-	major = yes
+	# major = yes
     
-	trigger = {
-		is_subject = yes
-		has_country_modifier = horde_member
-	}
+	# trigger = {
+		# is_subject = yes
+		# has_country_modifier = horde_member
+	# }
 
-	mean_time_to_happen = {
-		months = 1
-	}
+	# mean_time_to_happen = {
+		# months = 1
+	# }
 
-	option = {
-		name = faction_events.4.option.a
+	# option = {
+		# name = faction_events.4.option.a
 		
-        remove_horde_membership = yes
-        update_horde_opinion_modifiers = yes
-	}
-}
+        # remove_horde_membership = yes
+        # update_horde_opinion_modifiers = yes
+	# }
+# }
 
-# Opinion update
-country_event = {
-	id = faction_events.1000
-	title = faction_events.1000.title
-	desc = faction_events.1000.desc
-	picture = INTERNMENT_CAMP_eventPicture
+# # Opinion update
+# country_event = {
+	# id = faction_events.1000
+	# title = faction_events.1000.title
+	# desc = faction_events.1000.desc
+	# picture = INTERNMENT_CAMP_eventPicture
 
-	hidden = yes
-    is_triggered_only = yes
+	# hidden = yes
+    # is_triggered_only = yes
     
-    trigger = { has_country_modifier = alliance_member }
+    # trigger = { has_country_modifier = alliance_member }
 
-    mean_time_to_happen = {
-		days = 1
-	}
+    # mean_time_to_happen = {
+		# days = 1
+	# }
     
-	option = {
-		name = faction_events.1000.option.a
+	# option = {
+		# name = faction_events.1000.option.a
        
-        update_alliance_opinion_modifiers = yes
-	}
-}
+        # update_alliance_opinion_modifiers = yes
+	# }
+# }
 
-country_event = {
-	id = faction_events.1001
-	title = faction_events.1001.title
-	desc = faction_events.1001.desc
-	picture = INTERNMENT_CAMP_eventPicture
+# country_event = {
+	# id = faction_events.1001
+	# title = faction_events.1001.title
+	# desc = faction_events.1001.desc
+	# picture = INTERNMENT_CAMP_eventPicture
 
-	hidden = yes
-    is_triggered_only = yes
+	# hidden = yes
+    # is_triggered_only = yes
     
-    trigger = { has_country_modifier = horde_member }
+    # trigger = { has_country_modifier = horde_member }
 
-    mean_time_to_happen = {
-		days = 1
-	}
+    # mean_time_to_happen = {
+		# days = 1
+	# }
     
-	option = {
-		name = faction_events.1001.option.a
+	# option = {
+		# name = faction_events.1001.option.a
 		
-        update_horde_opinion_modifiers = yes
-	}
-}
+        # update_horde_opinion_modifiers = yes
+	# }
+# }
 
-# ---- Flavor ----
-# [event_target:current_leader] demands soldiers
-country_event = {
-	id = faction_events.10
-	title = faction_events.10.title
-	desc = faction_events.10.desc
-	picture = DWARVENARMY_eventPicture
+# # ---- Flavor ----
+# # [event_target:current_leader] demands soldiers
+# country_event = {
+	# id = faction_events.10
+	# title = faction_events.10.title
+	# desc = faction_events.10.desc
+	# picture = DWARVENARMY_eventPicture
 
-    is_triggered_only = yes
+    # is_triggered_only = yes
     
-    trigger = { has_country_modifier = alliance_member }
+    # trigger = { has_country_modifier = alliance_member }
 
-    mean_time_to_happen = {
-		days = 1
-	}
+    # mean_time_to_happen = {
+		# days = 1
+	# }
     
-    immediate = {
-        every_country = {
-            limit = { has_country_modifier = alliance_leader }
-            save_event_target_as = current_leader
-        }
-    }
+    # immediate = {
+        # every_country = {
+            # limit = { has_country_modifier = alliance_leader }
+            # save_event_target_as = current_leader
+        # }
+    # }
     
-	option = {
-		name = faction_events.10.option.a
+	# option = {
+		# name = faction_events.10.option.a
 		
-        add_country_modifier = {
-            name = diminished_reserves
-            duration = 3650
-        }
+        # add_country_modifier = {
+            # name = diminished_reserves
+            # duration = 3650
+        # }
         
-        event_target:current_leader = {
-            add_yearly_manpower = 1.0
-        }
-	}
+        # event_target:current_leader = {
+            # add_yearly_manpower = 1.0
+        # }
+	# }
     
-    option = {
-		name = faction_events.10.option.b
+    # option = {
+		# name = faction_events.10.option.b
        
-        event_target:current_leader = {
-            reverse_add_opinion = {
-                who = ROOT
-                modifier = disobeyed_faction_leader
-            }
-        }
-	}
-}
+        # event_target:current_leader = {
+            # reverse_add_opinion = {
+                # who = ROOT
+                # modifier = disobeyed_faction_leader
+            # }
+        # }
+	# }
+# }
 
-# [event_target:current_leader] demands soldiers
-country_event = {
-	id = faction_events.11
-	title = faction_events.11.title
-	desc = faction_events.11.desc
-	picture = ORC_THRONE_eventPicture
+# # [event_target:current_leader] demands soldiers
+# country_event = {
+	# id = faction_events.11
+	# title = faction_events.11.title
+	# desc = faction_events.11.desc
+	# picture = ORC_THRONE_eventPicture
 
-    is_triggered_only = yes
+    # is_triggered_only = yes
     
-    trigger = { has_country_modifier = horde_member }
+    # trigger = { has_country_modifier = horde_member }
 
-    mean_time_to_happen = {
-		days = 1
-	}
+    # mean_time_to_happen = {
+		# days = 1
+	# }
     
-    immediate = {
-        every_country = {
-            limit = { has_country_modifier = horde_leader }
-            save_event_target_as = current_leader
-        }
-    }
+    # immediate = {
+        # every_country = {
+            # limit = { has_country_modifier = horde_leader }
+            # save_event_target_as = current_leader
+        # }
+    # }
     
-	option = {
-		name = faction_events.11.option.a
+	# option = {
+		# name = faction_events.11.option.a
 
-        add_country_modifier = {
-            name = diminished_reserves
-            duration = 3650
-        }
+        # add_country_modifier = {
+            # name = diminished_reserves
+            # duration = 3650
+        # }
         
-        event_target:current_leader = {
-            add_yearly_manpower = 1.0
-        }
-	}
+        # event_target:current_leader = {
+            # add_yearly_manpower = 1.0
+        # }
+	# }
     
-    option = {
-		name = faction_events.11.option.b
+    # option = {
+		# name = faction_events.11.option.b
 
-        event_target:current_leader = {
-            reverse_add_opinion = {
-                who = ROOT
-                modifier = disobeyed_faction_leader
-            }
-        }
-	}
-}
+        # event_target:current_leader = {
+            # reverse_add_opinion = {
+                # who = ROOT
+                # modifier = disobeyed_faction_leader
+            # }
+        # }
+	# }
+# }
 

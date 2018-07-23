@@ -9,7 +9,7 @@ base_production = 3
 base_manpower = 1
 
 culture = tirasian
-religion = the_light
+religion = the_holy_light
 
 trade_goods = unknown
 hre = no

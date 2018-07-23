@@ -9,7 +9,7 @@ arathi_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = arathi
+		culture_group = arathi_group
 	}
 	free = yes		
 	

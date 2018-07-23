@@ -24,17 +24,3 @@ cb_for_the_horde = {
 	war_goal = superiority_insult_mutual
 }
 
-cb_petty_squabbles = {
-	valid_for_subject = no
-
-	prerequisites = {
-        is_neighbor_of = FROM
-		is_lesser = yes
-		FROM = {
-			is_lesser = yes
-		}
-	}
-	
-	war_goal = superiority_horde
-}
-

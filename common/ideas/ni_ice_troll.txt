@@ -9,7 +9,7 @@ ice_troll_ideas = {
 	}
 	
 	trigger = {
-		culture_group = ice_troll_group
+		culture_group = frost_troll_group
 	}
 	free = yes		
 	

@@ -1,6 +1,6 @@
 graphical_culture = dwarfgfx
 
-color = { 104 53 229 }
+color = { 56 189 209 }
 
 monarch_names = {
 	"Brann #0" = 20

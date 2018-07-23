@@ -207,7 +207,7 @@ gov_centaur_warband = {
 	}
 	
 	ruler_female = {
-		1 = CHEIFESS
+		1 = CHIEFESS
 		2 = WAR_MISTRESS
 		3 = WAR_MISTRESS
 	}
@@ -255,7 +255,7 @@ gov_naga_warband = {
 	}
 	
 	ruler_female = {
-		1 = CHEIFESS
+		1 = CHIEFESS
 		2 = WAR_MISTRESS
 		3 = WAR_MISTRESS
 	}
@@ -303,7 +303,7 @@ gov_ogre_warband = {
 	}
 	
 	ruler_female = {
-		1 = CHEIFESS
+		1 = CHIEFESS
 		2 = WAR_MISTRESS
 		3 = WAR_MISTRESS
 	}
@@ -351,7 +351,7 @@ gov_satyr_warband = {
 	}
 	
 	ruler_female = {
-		1 = CHEIFESS
+		1 = CHIEFESS
 		2 = WAR_MISTRESS
 		3 = WAR_MISTRESS
 	}
@@ -399,7 +399,7 @@ gov_troll_warband = {
 	}
 	
 	ruler_female = {
-		1 = CHEIFESS
+		1 = CHIEFESS
 		2 = WAR_MISTRESS
 		3 = WAR_MISTRESS
 	}
@@ -573,7 +573,7 @@ gov_tauren_camp = {
     }
 	
 	trigger = {
-		governmnet = tauren_camp
+		government = tauren_camp
 	}
 }
 

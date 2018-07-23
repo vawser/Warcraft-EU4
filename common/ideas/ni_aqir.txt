@@ -9,7 +9,7 @@ aqir_ideas = {
 	}
 	
 	trigger = {
-		culture_group = aqir_group
+		culture_group = qiraji_group
 	}
 	free = yes		
 	

@@ -1,6 +1,6 @@
 graphical_culture = trollgfx
 
-color = { 223 202 230 }
+color = { 69 138 221 }
 
 monarch_names = {
 	"Daakara #0" = 20

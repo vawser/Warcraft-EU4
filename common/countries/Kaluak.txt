@@ -1,6 +1,6 @@
 graphical_culture = tuskarrgfx
 
-color = { 159 159 13 }
+color = { 230 118 123 }
 
 monarch_names = {
 	"Yitnani #0" = 20

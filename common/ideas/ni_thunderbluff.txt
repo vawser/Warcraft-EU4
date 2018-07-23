@@ -9,7 +9,7 @@ thunderbluff_ideas = {
 	}
 	
 	trigger = {
-		tag = TDB
+		has_country_flag = established_thunderbluff
 	}
 	free = yes		
 	

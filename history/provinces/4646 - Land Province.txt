@@ -9,7 +9,7 @@ base_production = 4
 base_manpower = 1
 
 culture = shado_pan
-religion = yulon
+religion = celestials
 
 trade_goods = unknown
 hre = no

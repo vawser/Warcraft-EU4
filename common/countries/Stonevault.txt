@@ -1,6 +1,6 @@
 graphical_culture = trogggfx
 
-color = { 7 184 236 }
+color = { 209 163 2 }
 
 monarch_names = {
 	"Argh #0" = 20

@@ -1,6 +1,6 @@
 graphical_culture = murlocgfx
 
-color = { 136 20 135 }
+color = { 197 162 201 }
 
 monarch_names = {
 	"Rm'glr #0" = 20

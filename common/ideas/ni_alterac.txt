@@ -9,7 +9,7 @@ alterac_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = alteraci
+        culture_group = alteraci_group
 	}
 	free = yes		
 	

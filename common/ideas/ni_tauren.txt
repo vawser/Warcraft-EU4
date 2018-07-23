@@ -8,8 +8,11 @@ tauren_ideas = {
         tolerance_own = 1
 	}
 	
-	trigger = {
-		culture_group = tauren_group
+	trigger = { 
+        OR = {
+            culture_group = highmountain_tauren_group
+            culture_group = kalimdor_tauren_group
+        }
 	}
 	free = yes		
 	

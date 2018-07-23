@@ -54,13 +54,7 @@ country_decisions = {
     encourage_fervor = {
         potential = {
             religion_group = light_group
-            OR = {
-                tag = SCC
-                tag = AGD
-                tag = SVH
-                tag = SSL
-                tag = AGC
-            }
+            is_crusader_state = yes
             NOT = { has_country_modifier = the_light_fervor }
         }
         allow = {
@@ -87,15 +81,7 @@ country_decisions = {
     enforce_daily_contemplation = {
         potential = {
             religion_group = light_group
-            NOT = {
-                OR = {
-                    tag = SCC
-                    tag = AGD
-                    tag = SVH
-                    tag = SSL
-                    tag = AGC
-                }
-            }
+            NOT = { is_crusader_state = yes }
             NOT = { has_country_modifier = the_light_contemplation }
         }
         allow = {
@@ -121,11 +107,10 @@ country_decisions = {
     
     display_the_power_of_the_sunwell = {
         potential = {
-            religion = light_of_the_sunwell
+            culture_group = high_elf_group
             NOT = { has_country_modifier = the_light_sunwell }
         }
         allow = {
-            religion = light_of_the_sunwell
             adm_power = 100
         }
         effect = {

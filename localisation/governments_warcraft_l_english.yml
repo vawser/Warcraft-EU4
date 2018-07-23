@@ -1,145 +1,115 @@
 ﻿l_english:
- #-----------------------------------------------
- # Governments
- #-----------------------------------------------
- magocracy_republic: "Magocracy Republic"
- magocracy_republic_desc: ""
- magocracy_republic_ruler: "Grand Magus"
- magocracy_republic_ruler_female: "Grand Magus"
+ # Monarchy
+ administrative_kingdom: "Administrative Kingdom"
+ administrative_kingdom_desc: "A kingdom focusing on administrative duties."
  
- despotic_magocracy: "Despotic Magocracy"
- despotic_magocracy_desc: ""
- despotic_magocracy_ruler: "Grand Magus"
- despotic_magocracy_ruler_female: "Grand Magus"
+ mercantile_kingdom: "Mercantile Kingdom"
+ mercantile_kingdom_desc: "A kingdom focusing on mercantile opportunities."
  
- tinker_republic: "Tinker Republic"
- tinker_republic_desc: ""
- tinker_republic_ruler: "High Tinkerer"
- tinker_republic_ruler_female: "High Tinkerer"
+ militaristic_kingdom: "Militaristic Kingdom"
+ militaristic_kingdom_desc: "A kingdom focusing on conquest."
  
- orcish_horde: "Orcish Horde"
- orcish_horde_desc: ""
- orcish_horde_ruler: "Warchief"
- orcish_horde_ruler_female: "Warchieftess"
+ # Republic
+ administrative_republic: "Administrative Republic"
+ administrative_republic_desc: "A republic focusing on administrative duties."
  
- warcraft_horde: "Horde"
- warcraft_horde_desc: ""
- warcraft_horde_ruler: "Warchief"
- warcraft_horde_ruler_female: "Warchieftess"
+ mercantile_republic: "Mercantile Republic"
+ mercantile_republic_desc: "A republic focusing on mercantile opportunities."
  
- warband: "Warband"
- warband_desc: ""
- warband_ruler: "Warlord"
- warband_ruler_female: "Warlord"
+ militaristic_republic: "Militaristic Republic"
+ militaristic_republic_desc: "A republic focusing on conquest."
  
- roaming_trade_company: "Trade Company"
- roaming_trade_company_desc: ""
- roaming_trade_company_ruler: "Trade Prince"
- roaming_trade_company_ruler_female: "Trade Princess"
+ dictatorship: "Dictatorship"
+ dictatorship_desc: "A former republic governed by military might."
  
- pirate_clan: "Pirate Clan"
- pirate_clan_desc: ""
- pirate_clan_ruler: "Baron"
- pirate_clan_ruler_female: "Baroness"
+ # Religion
+ administrative_theocracy: "Administrative Theocracy"
+ administrative_theocracy_desc: "A theocracy focusing on administrative duties."
  
- kul_tiras: "Kul Tiras"
- kul_tiras_desc: ""
- kul_tiras_ruler: "Lord Admiral"
- kul_tiras_ruler_female: "Lady Admiral"
+ mercantile_theocracy: "Mercantile Theocracy"
+ mercantile_theocracy_desc: "A theocracy focusing on mercantile opportunities."
  
- draconic_kingdom: "Draconic Kingdom"
- draconic_kingdom_desc: ""
- draconic_kingdom_ruler: "King"
- draconic_kingdom_ruler_female: "Queen"
+ militaristic_theocracy: "Militaristic Theocracy"
+ militaristic_theocracy_desc: "A theocracy focusing on military opportunities."
  
- scourge_horde: "Scourge"
- scourge_horde_desc: ""
- scourge_horde_ruler: "Lich King"
- scourge_horde_ruler_female: "Lich Queen"
+ administrative_order: "Administrative Order"
+ administrative_order_desc: "A religious order focusing on administrative duties."
  
- insectoid_kingdom: "Insectoid Kingdom"
- insectoid_kingdom_desc: ""
- insectoid_kingdom_ruler: "Emperor"
- insectoid_kingdom_ruler_female: "Empress"
+ mercantile_order: "Mercantile Order"
+ mercantile_order_desc: "A religious order focusing on mercantile opportunities."
  
- legion: "Legion"
- legion_desc: ""
- legion_ruler: "Legion Commander"
- legion_ruler_female: "Legion Commander"
+ militaristic_order: "Militaristic Order"
+ militaristic_order_desc: "A religious order focusing on conquest, fueled by religious fervour."
  
- elemental_kingdom: "Elemental Kingdom"
- elemental_kingdom_desc: ""
- elemental_kingdom_ruler: "Elemental Lord"
- elemental_kingdom_ruler_female: "Elemental Lady"
+ # Tribe
+ religious_tribe: "Religious Tribe"
+ religious_tribe_desc: "A tribe with a religious focus."
  
- wind_trader_coalition: "Wind Trader Coalition"
- wind_trader_coalition_desc: ""
- wind_trader_coalition_ruler: "Nexus King"
- wind_trader_coalition_ruler_female: "Nexus Queen"
+ mercantile_tribe: "Mercantile Tribe"
+ mercantile_tribe_desc: "A trading tribe."
  
- shado_pan: "Shado-pan"
- shado_pan_desc: ""
- shado_pan_ruler: "Lord"
- shado_pan_ruler_female: "Lady"
+ war_tribe: "War Tribe"
+ war_tribe_desc: "A tribe focused on the conquest of its neighbours."
  
- high_monarchy: "High Monarchy"
- high_monarchy_desc: ""
- high_monarchy_ruler: "High King"
- high_monarchy_ruler_female: "High Queen"
+ # Nomad
+ qiraji_swarm: "Qiraji Empire"
+ qiraji_swarm_desc: "A empire of the Qiraji."
  
- seventh_legion: "7th Legion"
- seventh_legion_desc: ""
- seventh_legion_ruler: "High Commander"
- seventh_legion_ruler_female: "High Commander"
+ nerubian_swarm: "Nerubian Kingdom"
+ nerubian_swarm_desc: "A nerubian kingdom."
  
- argent_crusade: "Argent Crusade"
- argent_crusade_desc: ""
- argent_crusade_ruler: "Highlord"
- argent_crusade_ruler_female: "Highlord"
+ mantid_swarm: "Mantid Empire"
+ mantid_swarm_desc: "The empire of the Mantid."
  
- military_dictat: "Military Dictatiorship"
- military_dictat_desc: ""
- military_dictat_ruler: "Lord"
- military_dictat_ruler_female: "Lady"
+ the_horde: "The Horde"
+ the_horde_desc: "The horde under the principles of Thrall."
  
- scarlet_crusade: "Scarlet Crusade"
- scarlet_crusade_desc: ""
- scarlet_crusade_ruler: "Grand Crusader"
- scarlet_crusade_ruler_female: "Grand Crusader"
+ tauren_camp: "Encampment"
+ tauren_camp_desc: "A encampment of taurens."
  
- exodar_city: "Exodar"
- exodar_city_desc: ""
- exodar_city_ruler: "Prophet"
- exodar_city_ruler_female: "Prophetess"
+ troll_warband: "Warband"
+ troll_warband_desc: "A warband led by trolls."
  
- twilight_cabal: "Twilight Cabal"
- twilight_cabal_desc: ""
- twilight_cabal_ruler: "High Councillor"
- twilight_cabal_ruler_female: "High Councillor"
+ satyr_warband: "Warband"
+ satyr_warband_desc: "A warband led by satyr."
  
- old_god_lair: "Cult"
- old_god_lair_desc: ""
- old_god_lair_ruler: "Herald"
- old_god_lair_ruler_female: "Herald"
+ orc_warband: "Warband"
+ orc_warband_desc: "A warband led by orcs."
  
- thunderbluff_tribe: "Tribe"
- thunderbluff_tribe_desc: ""
- thunderbluff_tribe_ruler: "Chief"
- thunderbluff_tribe_ruler_female: "Cheiftess"
+ ogre_warband: "Warband"
+ ogre_warband_desc: "A warband led by ogres."
  
- minor_tribe: "Tribe"
- minor_tribe_desc: ""
- minor_tribe_ruler: "Chief"
- minor_tribe_ruler_female: "Cheiftess"
+ naga_warband: "Warband"
+ naga_warband_desc: "A warband led by naga."
  
- criminal_organization: "Criminal Organization"
- criminal_organization_desc: ""
- criminal_organization_ruler: "Kingpin"
- criminal_organization_ruler_female: "Kingpin"
+ centaur_warband: "Warband"
+ centaur_warband_desc: "A warband led by centaurs."
+ 
+ scourge: "Scourge"
+ scourge_desc: "The unstoppable horde of undead under the control of the Lich King."
+ 
+ # Unique
+ dragonflight_council: "Dragonflight"
+ dragonflight_council_desc: "One of the elusive dragonflights."
+ 
+ criminal_organisation: "Criminal Organisation"
+ criminal_organisation_desc: "An organisation in open rebellion against a kingdom or republic."
+ 
+ magocracy: "Magocracy"
+ magocracy_desc: "A kingdom based around the Kirin Tor."
+ 
+ titan_outpost: "Titan Outpost"
+ titan_outpost_desc: "An former titan outpost contained watchers."
+ 
+ technocracy: "Technocracy"
+ technocracy_desc: "A kingdom based on the combination of technomancy and merit."
+ 
+ cartel: "Trade Cartel"
+ cartel_desc: "A classical trade cartel."
+ 
+ forsaken: "Forsaken"
+ forsaken_desc: "The forsaken peoples."
+ 
+ cult: "Cult"
+ cult_desc: "A gathering of suspicious minds."
 
- horde_kingdom: "Horde Kingdom"
- horde_kingdom_desc: ""
- horde_kingdom_ruler: "King"
- horde_kingdom_ruler_female: "Queen"
- 
- CHEIFESS: "Chiefess"

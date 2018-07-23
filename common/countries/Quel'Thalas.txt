@@ -1,6 +1,6 @@
 graphical_culture = highelfgfx
 
-color = { 186 196 71 }
+color = { 36 115 172 }
 
 monarch_names = {
 	"Vyraezaen #0" = 20

@@ -1,6 +1,6 @@
 graphical_culture = gnollgfx
 
-color = { 133 138 120 }
+color = { 215 104 4 }
 
 monarch_names = {
 	"Zahh #0" = 20

@@ -9,7 +9,7 @@ lordaeron_ideas = {
 	}
 	
 	trigger = {
-		primary_culture = lordaeronian
+		culture_group = lordaeron_group
 	}
 	free = yes		
 	

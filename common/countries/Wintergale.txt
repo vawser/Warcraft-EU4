@@ -1,6 +1,6 @@
 graphical_culture = taunkagfx
 
-color = { 249 163 118 }
+color = { 45 5 137 }
 
 monarch_names = {
 	"Totun #0" = 20

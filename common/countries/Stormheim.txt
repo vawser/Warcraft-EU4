@@ -1,6 +1,6 @@
 graphical_culture = vrykulgfx
 
-color = { 152 11 23 }
+color = { 125 2 121 }
 
 monarch_names = {
 	"Ake #0" = 20

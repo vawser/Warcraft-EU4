@@ -1,6 +1,6 @@
 graphical_culture = nightelfgfx
 
-color = { 141 37 234 }
+color = { 197 238 102 }
 
 monarch_names = {
 	"Dridral #0" = 20

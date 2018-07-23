@@ -1,6 +1,6 @@
 graphical_culture = earthengfx
 
-color = { 123 141 99 }
+color = { 154 23 203 }
 
 monarch_names = {
 	"Nargird #0" = 20

@@ -1,6 +1,6 @@
 graphical_culture = taurengfx
 
-color = { 196 254 60 }
+color = { 133 220 62 }
 
 monarch_names = {
 	"Uthamug #0" = 20

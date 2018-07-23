@@ -1,6 +1,6 @@
 graphical_culture = frostdryadgfx
 
-color = { 192 239 236 }
+color = { 158 209 98 }
 
 monarch_names = {
 	"Tira #0" = 20

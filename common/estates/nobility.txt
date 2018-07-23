@@ -13,10 +13,7 @@ estate_nobility =
     custom_name = {
 		desc = estate_chieftains
 		trigger = {
-			OR = {
-                is_savage = yes
-                is_lesser = yes
-            }
+			is_savage = yes
 		}
 	}
     

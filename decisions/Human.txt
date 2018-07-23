@@ -189,7 +189,7 @@ country_decisions = {
 		major = yes
 		
 		potential = {
-			NOT = { exists = STW } 
+			NOT = { exists = SRW } 
 			culture_group = human_group
             capital_scope = {
                 continent = azeroth

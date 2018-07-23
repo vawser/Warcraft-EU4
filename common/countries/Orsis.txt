@@ -1,6 +1,6 @@
 graphical_culture = tolvirgfx
 
-color = { 98 114 12 }
+color = { 195 197 158 }
 
 monarch_names = {
 	"Huhotep #0" = 20

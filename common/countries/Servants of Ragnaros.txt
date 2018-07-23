@@ -1,6 +1,6 @@
 graphical_culture = darkirondwarfgfx
 
-color = { 96 92 192 }
+color = { 63 226 194 }
 
 monarch_names = {
 	"Brann #0" = 20
