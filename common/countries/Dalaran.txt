@@ -1,6 +1,6 @@
 graphical_culture = humangfx
 
-color = { 90 165 108 }
+color = { 118 49 124 }
 
 monarch_names = {
 	"Harry #0" = 20

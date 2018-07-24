@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 87
-native_ferocity = 5
-native_hostileness = 5
+is_city = yes
+owner = STR
+controller = STR
+add_core = STR
 
 base_tax = 1
 base_production = 4
 base_manpower = 1
 
-culture = noculture
-religion = noreligion
+culture = stratholme
+religion = the_holy_light
 
 trade_goods = unknown
 hre = no

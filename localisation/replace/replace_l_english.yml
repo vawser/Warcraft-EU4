@@ -1,5 +1,8 @@
 ﻿l_english:
  # Place lines from vanilla localisations files that you want to override in here
+ BLO: "Bloodsail"
+ BLO_ADJ: "Bloodsail"
+ 
  #---------------------------------------------------------
  # General
  #---------------------------------------------------------

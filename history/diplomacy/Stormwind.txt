@@ -1,0 +1,40 @@
+
+# First War
+vassal = {
+	first = SRW
+	second = RED
+	start_date = 776.1.1
+	end_date = 806.1.1
+}
+vassal = {
+	first = SRW
+	second = WES
+	start_date = 776.1.1
+	end_date = 806.1.1
+}
+vassal = {
+	first = SRW
+	second = BRI
+	start_date = 776.1.1
+	end_date = 806.1.1
+}
+
+# Third War
+vassal = {
+	first = SRW
+	second = RED
+	start_date = 901.1.1
+	end_date = 1000.1.1
+}
+vassal = {
+	first = SRW
+	second = WES
+	start_date = 901.1.1
+	end_date = 1000.1.1
+}
+vassal = {
+	first = SRW
+	second = DAR
+	start_date = 901.1.1
+	end_date = 1000.1.1
+}

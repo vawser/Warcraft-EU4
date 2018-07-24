@@ -4156,7 +4156,7 @@ area_icecrown_7 = {
 }
 
 area_icecrown_8 = {
-    2103 2104 2105
+    2103 2104 
 }
 
 area_icecrown_9 = {
@@ -4416,6 +4416,10 @@ area_storm_peak_26 = {
 
 area_storm_peak_27 = {
     6538 6539 6537 6540 6541
+}
+
+area_storm_peak_28 = {
+    2105
 }
 
 #-------------------

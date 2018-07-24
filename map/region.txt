@@ -1344,6 +1344,7 @@ region_storm_peak = {
         area_storm_peak_25
         area_storm_peak_26
         area_storm_peak_27
+        area_storm_peak_28
     }
 }
 

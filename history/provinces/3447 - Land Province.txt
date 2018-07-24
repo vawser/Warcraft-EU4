@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 19
-native_ferocity = 0
-native_hostileness = 7
+is_city = yes
+owner = SMG
+controller = SMG
+add_core = SMG
 
 base_tax = 4
 base_production = 1
 base_manpower = 1
 
-culture = noculture
-religion = noreligion
+culture = stromgarde
+religion = the_holy_light
 
 trade_goods = unknown
 hre = no

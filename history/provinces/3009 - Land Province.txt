@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 34
-native_ferocity = 0
-native_hostileness = 5
+is_city = yes
+owner = WES
+controller = WES
+add_core = WES
 
 base_tax = 3
 base_production = 4
 base_manpower = 1
 
-culture = azerothian
+culture = westfall
 religion = the_holy_light
 
 trade_goods = unknown
