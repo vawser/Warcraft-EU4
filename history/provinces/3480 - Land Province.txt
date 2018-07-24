@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 29
-native_ferocity = 10
-native_hostileness = 10
+is_city = yes
+owner = ALT
+controller = ALT
+add_core = ALT
 
 base_tax = 1
 base_production = 3
 base_manpower = 3
 
-culture = noculture
-religion = noreligion
+culture = alterac
+religion = the_holy_light
 
 trade_goods = unknown
 hre = no

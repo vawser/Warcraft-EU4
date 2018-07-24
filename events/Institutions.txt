@@ -14,7 +14,7 @@ country_event = {
 	}
 
 	option = {
-		name = warcraft_institution_events.100.option.a
+		name = warcraft_institution_events.1.option.a
 
 		add_adm_power = 100
 		add_dip_power = 100

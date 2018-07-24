@@ -5713,7 +5713,7 @@ area_coast_khaz_modan_west = {
 }
 
 area_coast_lordaeron_east = {
-    374 370  369 368 367 366 365 364 363 362 
+    374 370 369 368 367 366 365 364 363 362 
 }
 
 area_coast_lordaeron_west = {

@@ -1959,12 +1959,3 @@ region_ocean_24 = {
         area_ocean_far_west_1
     }
 }
-
-#-------------------
-# Do Not Touch
-#-------------------
-# Supresses the therusawaken.txt error
-russia_region = {
-    areas = { }
-}
-

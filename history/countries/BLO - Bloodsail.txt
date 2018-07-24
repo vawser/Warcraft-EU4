@@ -1,7 +1,7 @@
 technology_group = tech_human
 government = criminal_organisation
 primary_culture = bloodsail
-religion = the_holy_light
+religion = avarice
 
 capital = 1
 

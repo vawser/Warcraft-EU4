@@ -25,6 +25,10 @@
 categories =  {
 	pti = {
 		type = pti
+        
+        terrain_override = {
+
+		}
 	}
 
 	ocean = {
@@ -34,6 +38,10 @@ categories =  {
 		is_water = yes
 
 		movement_cost = 1.0
+        
+        terrain_override = {
+
+		}
 	}
 
 	inland_ocean = {
@@ -44,6 +52,10 @@ categories =  {
 		inland_sea = yes
 
 		movement_cost = 1.0
+        
+        terrain_override = {
+
+		}
 	}	
 
 	glacier = {
