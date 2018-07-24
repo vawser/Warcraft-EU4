@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 56
-native_ferocity = 2
-native_hostileness = 8
+is_city = yes
+owner = LOR
+controller = LOR
+add_core = LOR
 
 base_tax = 4
 base_production = 1
 base_manpower = 2
 
-culture = noculture
-religion = noreligion
+culture = lordaeron
+religion = the_holy_light
 
 trade_goods = unknown
 hre = no

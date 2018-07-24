@@ -1,17 +1,26 @@
 
-is_city = no
-native_size = 72
-native_ferocity = 10
-native_hostileness = 0
+is_city = yes
+owner = BRI
+controller = BRI
+add_core = BRI
 
 base_tax = 4
 base_production = 1
 base_manpower = 4
 
-culture = azerothian
+culture = brightwood
 religion = the_holy_light
 
 trade_goods = unknown
 hre = no
 
+806.1.1 = {
+    remove_core = BRI
+    
+    owner = DAR
+    controller = DAR
+    add_core = DAR
+    
+    culture = darkshire
+}
 

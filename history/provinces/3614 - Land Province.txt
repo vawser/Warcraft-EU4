@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 81
-native_ferocity = 8
-native_hostileness = 10
+is_city = yes
+owner = GIL
+controller = GIL
+add_core = GIL
 
 base_tax = 3
 base_production = 3
 base_manpower = 1
 
-culture = noculture
-religion = noreligion
+culture = gilnean
+religion = the_holy_light
 
 trade_goods = unknown
 hre = no
