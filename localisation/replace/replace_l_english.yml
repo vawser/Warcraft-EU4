@@ -2,7 +2,8 @@
  # Place lines from vanilla localisations files that you want to override in here
  BLO: "Bloodsail"
  BLO_ADJ: "Bloodsail"
- 
+ KSH: "Knights of the Silver Hand"
+ KSH_ADJ: "Knights of the Silver Hand"
  #---------------------------------------------------------
  # General
  #---------------------------------------------------------

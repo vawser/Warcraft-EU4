@@ -3,7 +3,7 @@ government = qiraji_swarm
 primary_culture = ahn_qiraj
 religion = cthun
 
-capital = 1
+capital = 5005
 
 # The First War
 776.1.1 = {

@@ -3,7 +3,7 @@ government = nerubian_swarm
 primary_culture = azjol_nerub
 religion = yogg_saron
 
-capital = 1
+capital = 6313
 
 # The First War
 776.1.1 = {

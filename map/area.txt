@@ -1197,54 +1197,42 @@ area_stranglethorn_vale_17 = {
 # Teldrassil
 #-------------------
 area_teldrassil_1 = {
-    4759 2205 2197 2198
+    2197 4759
 }
 
 area_teldrassil_2 = {
-    2204 2208 2207
-}
-
-area_teldrassil_3 = {
-	2206 2203 2202        
-}
-
-area_teldrassil_4 = {
-    2199 2200 2201
-}
-
-area_teldrassil_5 = {
     4773 4776 4777 4794 4795
 }
 
-area_teldrassil_6 = {
+area_teldrassil_3 = {
 	4781 4782 4789 4780 4761       
 }
 
-area_teldrassil_7 = {
+area_teldrassil_4 = {
 	4764 4763 4762        
 }
 
-area_teldrassil_8 = {   
+area_teldrassil_5 = {   
     4778 4760 4779       
 }
 
-area_teldrassil_9 = {
+area_teldrassil_6 = {
     4772 4775 4774 4771
 }
 
-area_teldrassil_10 = {
+area_teldrassil_7 = {
 	4788 4770 4769 4787        
 }
 
-area_teldrassil_11 = {
+area_teldrassil_8 = {
 	4796 4797 4792 4793        
 }
 
-area_teldrassil_12 = {
+area_teldrassil_9 = {
     4790 4784 4766 4765 4783
 }
 
-area_teldrassil_13 = {
+area_teldrassil_10 = {
     4767 4768 4786 4785 4791
 }
 
@@ -1252,7 +1240,7 @@ area_teldrassil_13 = {
 # Bloodmyst Isle
 #-------------------
 area_bloodmyst_isle_1 = {
-    4710 4711 4708 4709 2190
+    4710 4711 4708 4709
 }
 
 area_bloodmyst_isle_2 = {
@@ -1280,34 +1268,22 @@ area_bloodmyst_isle_7 = {
 }
 
 area_bloodmyst_isle_8 = {
-    2186 2187 2670
+    4717 4718 4719
 }
 
 area_bloodmyst_isle_9 = {
-    2185 2184 2183 2182
-}
-
-area_bloodmyst_isle_10 = {
-    2669 2671 2181
-}
-
-area_bloodmyst_isle_11 = {
-    2668 4717 4718 4719
-}
-
-area_bloodmyst_isle_12 = {
     4737 4736 4738 4721 4720
 }
 
-area_bloodmyst_isle_13 = {
+area_bloodmyst_isle_10 = {
     4750 4758 4751 4749
 }
 
-area_bloodmyst_isle_14 = {
+area_bloodmyst_isle_11 = {
     4748 4754 4752 4753
 }
 
-area_bloodmyst_isle_15 = {
+area_bloodmyst_isle_12 = {
     4755 4757 4756 4712
 }
 
@@ -1315,62 +1291,54 @@ area_bloodmyst_isle_15 = {
 # Azuremyst Isle
 #-------------------
 area_azuremyst_isle_1 = {
-    2194 2193 2195
-}
-
-area_azuremyst_isle_2 = {
-    2196 2191 2192
-}
-
-area_azuremyst_isle_3 = {
     4704 4703 4705
 }
 
-area_azuremyst_isle_4 = {
-    4698 4706 4699 4700
+area_azuremyst_isle_2 = {
+    4698 4706 4699 4700 2192
 }
 
-area_azuremyst_isle_5 = {
+area_azuremyst_isle_3 = {
     4655 4653 4652 4654
 }
 
-area_azuremyst_isle_6 = {
-    4691 4690 4687 2188
+area_azuremyst_isle_4 = {
+    4691 4690 4687
 }
 
-area_azuremyst_isle_7 = {
+area_azuremyst_isle_5 = {
     4692 4693 4694 4696
 }
 
-area_azuremyst_isle_8 = {
+area_azuremyst_isle_6 = {
     4689 4688 4686 4695 4697
 }
 
-area_azuremyst_isle_9 = {
+area_azuremyst_isle_7 = {
     4679 4680 4681 4683 4682
 }
 
-area_azuremyst_isle_10 = {
+area_azuremyst_isle_8 = {
     4685 4684 4675 4674 4676
 }
 
-area_azuremyst_isle_11 = {
+area_azuremyst_isle_9 = {
     4702 4701 4677 4678 4664
 }
 
-area_azuremyst_isle_12 = {
+area_azuremyst_isle_10 = {
     4663 4665 4662 4666 4661
 }
 
-area_azuremyst_isle_13 = {
+area_azuremyst_isle_11 = {
     4667 4671 4673 4672 4658
 }
 
-area_azuremyst_isle_14 = {
+area_azuremyst_isle_12 = {
     4670 4669 4668
 }
 
-area_azuremyst_isle_15 = {
+area_azuremyst_isle_13 = {
     4660 4659 4656 4657
 }
 
@@ -1386,39 +1354,7 @@ area_moonglade_2 = {
 }
 
 area_moonglade_3 = {
-	5840 5831 5832    
-}
-
-area_moonglade_4 = {
-    2243 2244 2242 2245
-}
-
-area_moonglade_5 = {
-    2241 2246 2238
-}
-
-area_moonglade_6 = {
-	2248 2239 2240 2247 2249    
-}
-
-area_moonglade_7 = {
-    2259 2260 2261 2262
-}
-
-area_moonglade_8 = {
-    2266 2265 2267 2254 2268
-}
-
-area_moonglade_9 = {
-    2269 2258 2257 
-}
-
-area_moonglade_10 = {
-	2256 2255 2251    
-}
-
-area_moonglade_11 = {
-    2253 2250 2252
+	5840 5831 5832 2261
 }
 
 #-------------------
@@ -1429,78 +1365,62 @@ area_darkshore_1 = {
 }
 
 area_darkshore_2 = {
-    2271 2272 2270 2273
-}
-
-area_darkshore_3 = {
     5867 5864 5865 5866 5847
 }
 
-area_darkshore_4 = {
+area_darkshore_3 = {
     5862 5848 5863 5860
 }
 
-area_darkshore_5 = {
+area_darkshore_4 = {
     5849 5850 5851 5861 5859
 }
 
-area_darkshore_6 = {
+area_darkshore_5 = {
     5853 5852 5854 4806 5868
 }
 
-area_darkshore_7 = {
+area_darkshore_6 = {
     5869 5857 5858 5870
 }
 
-area_darkshore_8 = {
+area_darkshore_7 = {
     5855 5856 5891 5871 4804
 }
 
-area_darkshore_9 = {
+area_darkshore_8 = {
     4805 5872 5892 5893 5873
 }
 
-area_darkshore_10 = {
-    2274 2275 2277 2276
-}
-
-area_darkshore_11 = {
+area_darkshore_9 = {
     5874 5894 5895 5875 5896
 }
 
-area_darkshore_12 = {
+area_darkshore_10 = {
     4807 4808 5876 5897 5877
 }
 
-area_darkshore_13 = {
+area_darkshore_11 = {
     5898 5899 5905 5878 5879
 }
 
-area_darkshore_14 = {
-    2278 2279 2280 2281 2282
-}
-
-area_darkshore_15 = {
+area_darkshore_12 = {
     5890 5889 5888 5887
 }
 
-area_darkshore_16 = {
-    2283 2284 2285
+area_darkshore_13 = {
+    4802
 }
 
-area_darkshore_17 = {
-    2286 2287 2289 2288 4802
-}
-
-area_darkshore_18 = {
+area_darkshore_14 = {
     4803 5880 5881 5901 
 }
 
-area_darkshore_19 = {
-    5882 5900 5883 5884 5885
+area_darkshore_15 = {
+    5882 5900 5883 5884 5885 2286
 }
 
-area_darkshore_20 = {
+area_darkshore_16 = {
     5903 5904 5902 5886
 }
 
@@ -1508,102 +1428,78 @@ area_darkshore_20 = {
 # Winterspring
 #-------------------
 area_winterspring_1 = {
-    2209 2210 2212 2211
-}
-
-area_winterspring_2 = {
-    2214 2213 2215 2216 2217
-}
-
-area_winterspring_3 = {
-    2220 2219 2221 2218 2222
-}
-
-area_winterspring_4 = {
-    2223 2224 2225 2226 2227
-}
-
-area_winterspring_5 = {
-    2237 2229 2228 2230 2231
-}
-
-area_winterspring_6 = {
-    2233 2236 2235 2234 2232
-}
-
-area_winterspring_7 = {
     5918 5917 5915 5916
 }
 
-area_winterspring_8 = {
+area_winterspring_2 = {
     5913 5914 5912 5911 5920
 }
 
-area_winterspring_9 = {
+area_winterspring_3 = {
     5906 5907 5908 5909 5910
 }
 
-area_winterspring_10 = {
+area_winterspring_4 = {
     5919 5967 5966 5921 
 }
 
-area_winterspring_11 = {
+area_winterspring_5 = {
     5968 5969 5973 5975
 }
 
-area_winterspring_12 = {
+area_winterspring_6 = {
     5963 5972 5961 5964 5958
 }
 
-area_winterspring_13 = {
+area_winterspring_7 = {
     5923 5924 5927 5925
 }
 
-area_winterspring_14 = {
+area_winterspring_8 = {
     5922 5971 5970 5965 5962
 }
 
-area_winterspring_15 = {
+area_winterspring_9 = {
     5926 5928 5952 5929
 }
 
-area_winterspring_16 = {
+area_winterspring_10 = {
     5949 5948 5946 5947 5930
 }
 
-area_winterspring_17 = {
+area_winterspring_11 = {
     5931 5944 5932 5939 5933
 }
 
-area_winterspring_18 = {
+area_winterspring_12 = {
     5934 5938 5935 5940 5936
 }
 
-area_winterspring_19 = {
+area_winterspring_13 = {
     5937 5941 5942 5945 5943
 }
 
-area_winterspring_20 = {
+area_winterspring_14 = {
     5950 5960 5951 5959 5953
 }
 
-area_winterspring_21 = {
+area_winterspring_15 = {
     5957 5954 5956 5955
 }
 
-area_winterspring_22 = {
+area_winterspring_16 = {
     5974 5978 5977 5981 5976
 }
 
-area_winterspring_23 = {
+area_winterspring_17 = {
     5988 5989 5990 5991 5987
 }
 
-area_winterspring_24 = {
+area_winterspring_18 = {
     5986 5985 5984 5983
 }
 
-area_winterspring_25 = {
+area_winterspring_19 = {
     5979 5982 5980
 }
 
@@ -1646,186 +1542,114 @@ area_felwood_9 = {
     5790 5791 5789 5788
 }
 
+area_felwood_10 = {
+    2265 2262
+}
+
 #-------------------
 # Mount Hyjal
 #-------------------
 area_mount_hyjal_1 = {
-    2351 2263 2264 2346
+    2303 2300
 }
 
 area_mount_hyjal_2 = {
-    2298 2343 2344 2345
-}
-
-area_mount_hyjal_3 = {
-    2347 2348 2350 2349
-}
-
-area_mount_hyjal_4 = {
-    2352 2354 2355 2353
-}
-
-area_mount_hyjal_5 = {
-    2362 2361 2359 2360 
-}
-
-area_mount_hyjal_6 = {
-    2358 2357 2356 2301
-}
-
-area_mount_hyjal_7 = {
-    2304 2299 2300 2303 2302
-}
-
-area_mount_hyjal_8 = {
-    2363 2364 2365
-}
-
-area_mount_hyjal_9 = {
-    2368 2370 2369 2367
-}
-
-area_mount_hyjal_10 = {
-    2372 2371 2366
-}
-
-area_mount_hyjal_11 = {
-    2341 2340 2339 2342
-}
-
-area_mount_hyjal_12 = {
-    2338 2337 2336 2334 2335
-}
-
-area_mount_hyjal_13 = {
-    2333 2332 2330 2331
-}
-
-area_mount_hyjal_14 = {
-    2328 2327 2329 2323 
-}
-
-area_mount_hyjal_15 = {
-    2325 2326 2324
-}
-
-area_mount_hyjal_16 = {
-    2321 2320 2322 2319 
-}
-
-area_mount_hyjal_17 = {
-    2318 2317 2316 2315
-}
-
-area_mount_hyjal_18 = {
-    2314 2313 2312 2311 
-}
-
-area_mount_hyjal_19 = {
-    2310 2309 2308
-}
-
-area_mount_hyjal_20 = {
-    2307 2306 2305
-}
-
-area_mount_hyjal_21 = {
     5992 5996 5993 5994 6010
 }
 
-area_mount_hyjal_22 = {
+area_mount_hyjal_3 = {
     5995 5997 6016 6015
 }
 
-area_mount_hyjal_23 = {
+area_mount_hyjal_4 = {
     5999 5998 6012 6000
 }
 
-area_mount_hyjal_24 = {
+area_mount_hyjal_5 = {
     6013 6001 6017 6011 6014
 }
 
-area_mount_hyjal_25 = {
+area_mount_hyjal_6 = {
     6002 6003 6008 6009
 }
 
-area_mount_hyjal_26 = {
+area_mount_hyjal_7 = {
     6004 6007 6006 6005
 }
 
-area_mount_hyjal_27 = {
+area_mount_hyjal_8 = {
     6025 6026 6024 6027
 }
 
-area_mount_hyjal_28 = {
+area_mount_hyjal_9 = {
     6020 6019 6018 6021 6022
 }
 
-area_mount_hyjal_29 = {
+area_mount_hyjal_10 = {
     6033 6023 6031 6034
 }
 
-area_mount_hyjal_30 = {
+area_mount_hyjal_11 = {
     6030 6028 6029 6032 6035
 }
 
-area_mount_hyjal_31 = {
+area_mount_hyjal_12 = {
     6037 6036 6041 6045 6038
 }
 
-area_mount_hyjal_32 = {
+area_mount_hyjal_13 = {
     6042 6043 6047 6046
 }
 
-area_mount_hyjal_33 = {
+area_mount_hyjal_14 = {
     6050 6044 6049 6054 6051
 }
 
-area_mount_hyjal_34 = {
+area_mount_hyjal_15 = {
     6039 6040 6048 6055
 }
 
-area_mount_hyjal_35 = {
+area_mount_hyjal_16 = {
     6057 6056 6052 6058
 }
 
-area_mount_hyjal_36 = {
+area_mount_hyjal_17 = {
     6060 6059 6053 6061
 }
 
-area_mount_hyjal_37 = {
+area_mount_hyjal_18 = {
     6066 6064 6065
 }
 
-area_mount_hyjal_38 = {
+area_mount_hyjal_19 = {
     6062 6063 6067 
 }
 
-area_mount_hyjal_39 = {
+area_mount_hyjal_20 = {
     6071 6070 6072 6073
 }
 
-area_mount_hyjal_40 = {
+area_mount_hyjal_21 = {
     6069 6076 6068
 }
 
-area_mount_hyjal_41 = {
+area_mount_hyjal_22 = {
     6074 6078 6079 6077 6075
 }
 
-area_mount_hyjal_42 = {
+area_mount_hyjal_23 = {
     6094 6080 6095 6081
 }
 
-area_mount_hyjal_43 = {
+area_mount_hyjal_24 = {
     6091 6082 6089 6083
 }
 
-area_mount_hyjal_44 = {
+area_mount_hyjal_25 = {
     6084 6088 6085 6086
 }
 
-area_mount_hyjal_45 = {
+area_mount_hyjal_26 = {
     6090 6092 6087 6093
 }
 
@@ -1885,70 +1709,62 @@ area_ashenvale_13 = {
 }
 
 area_ashenvale_14 = {
-    2292 2293 2291
-}
-
-area_ashenvale_15 = {
-    2294 2295 2296 2297
-}
-
-area_ashenvale_16 = {
     5693 5700 5690 5702 5691
 }
 
-area_ashenvale_17 = {
+area_ashenvale_15 = {
     5704 5703 5705
 }
 
-area_ashenvale_18 = {
+area_ashenvale_16 = {
     5632 5633 5710 5631 
 }
 
-area_ashenvale_19 = {
+area_ashenvale_17 = {
     5634 5707 5635 5709
 }
 
-area_ashenvale_20 = {
+area_ashenvale_18 = {
     5708 5706 5722 5721 5713
 }
 
-area_ashenvale_21 = {
+area_ashenvale_19 = {
     5712 5711 5714 5630
 }
 
-area_ashenvale_22 = {
+area_ashenvale_20 = {
     5701 5694 5695 5692
 }
 
-area_ashenvale_23 = {
+area_ashenvale_21 = {
     5699 5698 5606 5607 5719
 }
 
-area_ashenvale_24 = {
+area_ashenvale_22 = {
     5716 5717 5720 
 }
 
-area_ashenvale_25 = {
+area_ashenvale_23 = {
     5715 5629 5612
 }
 
-area_ashenvale_26 = {
+area_ashenvale_24 = {
     5613 5718 5608 5609
 }
 
-area_ashenvale_27 = {
+area_ashenvale_25 = {
     5610 5614 5615 5616 5611
 }
 
-area_ashenvale_28 = {
+area_ashenvale_26 = {
     5625 5628 5627 5626
 }
 
-area_ashenvale_29 = {
-    2374 2373 7203 7195 5617
+area_ashenvale_27 = {
+    7203 7195 5617
 }
 
-area_ashenvale_30 = {
+area_ashenvale_28 = {
     5622 5620 5624 5623
 }
 
@@ -1992,42 +1808,38 @@ area_azshara_9 = {
 }
 
 area_azshara_10 = {
-    2375 2383 2382 2380 2379
-}
-
-area_azshara_11 = {
     5737 5756 5736 7256
 }
 
-area_azshara_12 = {
+area_azshara_11 = {
     5735 5723 5621
 }
 
-area_azshara_13 = {
+area_azshara_12 = {
     5618 5619 7254
 }
 
-area_azshara_14 = {
+area_azshara_13 = {
     7258 7194 7257 7229 7259
 }
 
-area_azshara_15 = {
+area_azshara_14 = {
     5739 5741 5742 5740 5734
 }
 
-area_azshara_16 = {
+area_azshara_15 = {
     5724 5754 7260 5725
 }
 
-area_azshara_17 = {
+area_azshara_16 = {
     5730 5745 5733 5731
 }
 
-area_azshara_18 = {
+area_azshara_17 = {
     5729 5728 5732 5744
 }
 
-area_azshara_19 = {
+area_azshara_18 = {
     5743 5726 5727
 }
 
@@ -2044,66 +1856,50 @@ area_durotar_2 = {
 }
 
 area_durotar_3 = {
-    2390 2391 2389 2392 2393
+    7214 7200 7198 7213
 }
 
 area_durotar_4 = {
-    2376 2377 2378 2381 2384
-}
-
-area_durotar_5 = {
-    7214 7200 7198 2385 7213
-}
-
-area_durotar_6 = {
     2386 7216 7211 7210 7215
 }
 
-area_durotar_7 = {
-    7219 7218 2388 7206
+area_durotar_5 = {
+    7219 7218 7206
 }
 
-area_durotar_8 = {
+area_durotar_6 = {
     2387 5530 5529 5526
 }
 
-area_durotar_9 = {
+area_durotar_7 = {
     7253 7222 5538
 }
 
-area_durotar_10 = {
+area_durotar_8 = {
     5531 5532 5534 5535
 }
 
-area_durotar_11 = {
+area_durotar_9 = {
     5525 7251 7252 5537
 }
 
-area_durotar_12 = {
-    2411 2410 2409
-}
-
-area_durotar_13 = {
-    2408 2407 2406
-}
-
-area_durotar_14 = {
+area_durotar_10 = {
     5552 5551 5550 5549
 }
 
-area_durotar_15 = {
+area_durotar_11 = {
     5548 5547 5546 5545
 }
 
-area_durotar_16 = {
+area_durotar_12 = {
     5533 5527 5541 5528 5542
 }
 
-area_durotar_17 = {
-    5543 5544 2405 5539
+area_durotar_13 = {
+    5543 5544 5539
 }
 
-area_durotar_18 = {
+area_durotar_14 = {
     4809 4814 4813 4812 4811 4810
 }
 
@@ -2111,162 +1907,130 @@ area_durotar_18 = {
 # The Barrens
 #-------------------
 area_barrens_1 = {
-    2395 2401 2403 2402
-}
-
-area_barrens_2 = {
-    2394 2396 2397
-}
-
-area_barrens_3 = {
-    2400 2399 2398
-}
-
-area_barrens_4 = {
-    2422 2423 2424
-}
-
-area_barrens_5 = {
-    2426 2427 2431 2425 2434
-}
-
-area_barrens_6 = {
-    2421 2419 2420
-}
-
-area_barrens_7 = {
-    2440 2441 2436
-}
-
-area_barrens_8 = {
-    2439 2438 2437
-}
-
-area_barrens_9 = {
     7278 7277 7275 7276
 }
 
-area_barrens_10 = {
+area_barrens_2 = {
     7178 7177 7176 
 }
 
-area_barrens_11 = {
+area_barrens_3 = {
     7186 7187 7270 7271 
 }
 
-area_barrens_12 = {
+area_barrens_4 = {
     5605 7173 7174 7179
 }
 
-area_barrens_13 = {
+area_barrens_5 = {
     7170 7169 7168 7171
 }
 
-area_barrens_14 = {
+area_barrens_6 = {
     7209 7226 7208 7207 7228
 }
 
-area_barrens_15 = {
+area_barrens_7 = {
     7221 7217 7193 7220 7192
 }
 
-area_barrens_16 = {
-    2404 7184 7188 7175 7189
+area_barrens_8 = {
+    7184 7188 7175 7189
 }
 
-area_barrens_17 = {
+area_barrens_9 = {
     7225 7223 7191 7190 7182
 }
 
-area_barrens_18 = {
+area_barrens_10 = {
     7230 7227 5536 7224 7247
 }
 
-area_barrens_19 = {
+area_barrens_11 = {
     7245 5524 7243 7248 7250 
 }
 
-area_barrens_20 = {
+area_barrens_12 = {
     4815 5520 5521 5523 5522
 }
 
-area_barrens_21 = {
-    5430 4816 5432 2416 2415
+area_barrens_13 = {
+    5430 4816 5432 
 }
 
-area_barrens_22 = {
+area_barrens_14 = {
     5431 5429 5433 5438
 }
 
-area_barrens_23 = {
+area_barrens_15 = {
     5437 5434 5435 5436
 }
 
-area_barrens_24 = {
+area_barrens_16 = {
     7244 7249 7246 7242
 }
 
-area_barrens_25 = {
-    2412 5540 7255 7240 7241
+area_barrens_17 = {
+    5540 7255 7240 7241
 }
 
-area_barrens_26 = {
-    7238 7180 2413 7239 
+area_barrens_18 = {
+    7238 7180 7239 
 }
 
-area_barrens_27 = {
+area_barrens_19 = {
     7183 7181 7185 7172 7267
 }
 
-area_barrens_28 = {
+area_barrens_20 = {
     7268 7269 7272 7273 
 }
 
-area_barrens_29 = {
-    7231 7266 7265 2414
+area_barrens_21 = {
+    7231 7266 7265 
 }
 
-area_barrens_30 = {
+area_barrens_22 = {
     7264 7274 7263 7236 7262
 }
 
-area_barrens_31 = {
+area_barrens_23 = {
     7232 7261 7233 7235 
 }
 
-area_barrens_32 = {
-    2417 2418 5446 5439 5444
+area_barrens_24 = {
+    5446 5439 5444
 }
 
-area_barrens_33 = {
+area_barrens_25 = {
     7237 5447 5448 5445 7234
 }
 
-area_barrens_34 = {
+area_barrens_26 = {
     5441 5440 5428 5442 5426 
 }
 
-area_barrens_35 = {
+area_barrens_27 = {
     5443 5424 5422 5423
 }
 
-area_barrens_36 = {
+area_barrens_28 = {
     5427 5425 5421 5420 
 }
 
-area_barrens_37 = {
+area_barrens_29 = {
     5419 5418 5417 5416 5414
 }
 
-area_barrens_38 = {
+area_barrens_30 = {
     5413 5409 5408 5410
 }
 
-area_barrens_39 = {
+area_barrens_31 = {
     5415 5406 5412 5411
 }
 
-area_barrens_40 = {
+area_barrens_32 = {
     5407 5404 5405 4876 5403
 }
 
@@ -2274,126 +2038,50 @@ area_barrens_40 = {
 # Stonetalon Mountains
 #-------------------
 area_stonetalon_1 = {
-    2444 2445 2446 2447 
-}
-
-area_stonetalon_2 = {
-    2443 2448 2442 2433
-}
-
-area_stonetalon_3 = {
     5554 5553 5555 5556 5557
 }
 
-area_stonetalon_4 = {
+area_stonetalon_2 = {
     5558 5559 5560 5561 5562
 }
 
-area_stonetalon_5 = {
+area_stonetalon_3 = {
     5565 5564 5576 5563 5575
 }
 
-area_stonetalon_6 = {
+area_stonetalon_4 = {
     5566 5567 5568 5569
 }
 
-area_stonetalon_7 = {
+area_stonetalon_5 = {
     5574 5573 5570 5572 5571
 }
 
-area_stonetalon_8 = {
-    2435 2432 2430 2429 2428
-}
-
-area_stonetalon_9 = {
-    2449 2452 2453 
-}
-
-area_stonetalon_10 = {
-    2454 2451 2450
-}
-
-area_stonetalon_11 = {
-    2510 2511 2509 2508 2500
-}
-
-area_stonetalon_12 = {
-    2505 2504 2503
-}
-
-area_stonetalon_13 = {
-    2502 2506 2507 2501
-}
-
-area_stonetalon_14 = {
-    2499 2477 2476 
-}
-
-area_stonetalon_15 = {
-    2475 2478 2474 2473
-}
-
-area_stonetalon_16 = {
-    2472 2471 2470
-}
-
-area_stonetalon_17 = {
-    2483 2482 2479 2481 2480
-}
-
-area_stonetalon_18 = {
-    2469 2468 2496 2484
-}
-
-area_stonetalon_19 = {
-    2485 2495 2486 2491 2487
-}
-
-area_stonetalon_20 = {
-    2488 2489 2490 2492 2466
-}
-
-area_stonetalon_21 = {
-    2494 2493 2467 2465
-}
-
-area_stonetalon_22 = {
-    2464 2461 2463 
-}
-
-area_stonetalon_23 = {
-    2460 2459 2462
-}
-
-area_stonetalon_24 = {
-    2458 2455 2456 2457
-}
-
-area_stonetalon_25 = {
+area_stonetalon_6 = {
     5578 5579 5577
 }
 
-area_stonetalon_26 = {
+area_stonetalon_7 = {
     5580 5581 5582 5583 5584
 }
 
-area_stonetalon_27 = {
+area_stonetalon_8 = {
     5585 5586 5587 5588
 }
 
-area_stonetalon_28 = {
+area_stonetalon_9 = {
     5598 5599 5600
 }
 
-area_stonetalon_29 = {
-    5604 5603 5601 5602
+area_stonetalon_10 = {
+    5604 5603 5601 5602 2499
 }
 
-area_stonetalon_30 = {
-    5589 5596 5597 5590
+area_stonetalon_11 = {
+    5589 5596 5597 5590 2457 
 }
 
-area_stonetalon_31 = {
+area_stonetalon_12 = {
     5595 5593 5594 5592 5591
 }
 
@@ -2401,209 +2089,129 @@ area_stonetalon_31 = {
 # Desolace
 #-------------------
 area_desolace_1 = {
-    2514 2515 2512 2513
+    5347 5348
 }
 
 area_desolace_2 = {
-    2520 2518 2519 2516 2517
+    5349 5352 5350 5353 5351 2600
 }
 
 area_desolace_3 = {
-    2521 2522 2523
-}
-
-area_desolace_4 = {
-    2589 2590 2640 2638 2639
-}
-
-area_desolace_5 = {
-    2594 2592 2593 2591 2595
-}
-
-area_desolace_6 = {
-    2598 2597 2599 2600 2596
-}
-
-area_desolace_7 = {
-    2602 2601 2607 2603
-}
-
-area_desolace_8 = {
-    2581 2582 2583 
-}
-
-area_desolace_9 = {
-    2584 2585 2586
-}
-
-area_desolace_10 = {
-    5347 5348 2588 2587
-}
-
-area_desolace_11 = {
-    5349 5352 5350 5353 5351
-}
-
-area_desolace_12 = {
     5355 5356 5354 5357
 }
 
-area_desolace_13 = {
+area_desolace_4 = {
     5359 5360 5361 5358 
 }
 
-area_desolace_14 = {
+area_desolace_5 = {
     5363 5362 5366 5367 5364
 }
 
-area_desolace_15 = {
+area_desolace_6 = {
     5365 5393 5392 5391
 }
 
-area_desolace_16 = {
+area_desolace_7 = {
     5370 5395 5394 5369 5368
 }
 
-area_desolace_17 = {
+area_desolace_8 = {
     5396 5397 5390 5399 5389
 }
 
-area_desolace_18 = {
+area_desolace_9 = {
     5371 5373 5372 5374
 }
 
-area_desolace_19 = {
+area_desolace_10 = {
     5381 5382 5376 5375 5377
 }
 
-area_desolace_20 = {
-    2498 5378 5379 5383 5380
+area_desolace_11 = {
+    5378 5379 5383 5380
 }
 
-area_desolace_21 = {
+area_desolace_12 = {
     5384 5385 5398  
 }
 
-area_desolace_22 = {
+area_desolace_13 = {
     5401 5402 5400 5388
 }
 
-area_desolace_23 = {
-    2497 4801 5387 5386
+area_desolace_14 = {
+    4801 5387 5386 2497
 }
 
 #-------------------
 # Mulgore
 #-------------------
 area_mulgore_1 = {
-    2537 2524 2525
-}
-
-area_mulgore_2 = {
-    2526 2536 2634 2633
-}
-
-area_mulgore_3 = {
-    2535 2527 2530 2529
-}
-
-area_mulgore_4 = {
-    2528 2531 2533 2534
-}
-
-area_mulgore_5 = {
-    2532 2548 2547 
-}
-
-area_mulgore_6 = {
-    2538 2546 2545 2539 2543
-}
-
-area_mulgore_7 = {
-    2544 2542 2541 2540
-}
-
-area_mulgore_8 = {
-    2569 2570 2568 2571 2567
-}
-
-area_mulgore_9 = {
-    2566 2565 2563
-}
-
-area_mulgore_10 = {
-    2562 2564 2561 2556 2560
-}
-
-area_mulgore_11 = {
-    2558 2559 2555 2557 2554
-}
-
-area_mulgore_12 = {
-    5465 5464 2667 5466
+    5465 5464 5466
 }   
 
-area_mulgore_13 = {
+area_mulgore_2 = {
     5467 5468 5475 5469 5476
 }
 
-area_mulgore_14 = {
+area_mulgore_3 = {
     5463 5478 5462 5473 
 }
 
-area_mulgore_15 = {
+area_mulgore_4 = {
     5477 5472 5474
 }
 
-area_mulgore_16 = {
+area_mulgore_5 = {
     5471 5470 5479 5480
 }
 
-area_mulgore_17 = {
+area_mulgore_6 = {
     5458 5459 5457 5461
 }
 
-area_mulgore_18 = {
+area_mulgore_7 = {
     5456 5460 5455 5449 5450
 }
 
-area_mulgore_19 = {
+area_mulgore_8 = {
     5454 5452 5451 5453 5516
 }
 
-area_mulgore_20 = {
+area_mulgore_9 = {
     5482 5485 5481 5484 5483
 }
 
-area_mulgore_21 = {
+area_mulgore_10 = {
     5506 5505 5511 5512 5504
 }
 
-area_mulgore_22 = {
+area_mulgore_11 = {
     5498 5507 5510 5508 5497
 }
 
-area_mulgore_23 = {
+area_mulgore_12 = {
     5494 5495 5493 5496 5492
 }
 
-area_mulgore_24 = {
+area_mulgore_13 = {
     5491 5490 5489
 }
 
-area_mulgore_25 = {
+area_mulgore_14 = {
     2666 2665 2664 2663
 }
 
-area_mulgore_26 = {
+area_mulgore_15 = {
     5488 5501 5487 5499 5500
 }
 
-area_mulgore_27 = {
+area_mulgore_16 = {
     5486 5502 5503 5519 5518
 }
 
-area_mulgore_28 = {
+area_mulgore_17 = {
     5513 5515 5517 5509 5514
 }
 
@@ -2619,85 +2227,60 @@ area_dustwallow_2 = {
 }
 
 area_dustwallow_3 = {
-    2573 2574 2572 2575
-}
-
-area_dustwallow_4 = {
-    2580 2579 2578 2577 2576
-}
-
-area_dustwallow_5 = {
-    2641 2642 2643 2644
-}
-
-area_dustwallow_6 = {
-    2646 2645 2647 2648
-}
-
-area_dustwallow_7 = {
-    2649 2650 2652 2651 2662
-}
-
-area_dustwallow_8 = {
-    2653 2654 2661 2655 2660
-}
-
-area_dustwallow_9 = {
-    2656 4823 2657 2658 2659
-}
-
-area_dustwallow_10 = {
     4822 3671 3655 
 }
 
-area_dustwallow_11 = {
+area_dustwallow_4 = {
     4829 4835 4836 4830 4834
 }
 
-area_dustwallow_12 = {
+area_dustwallow_5 = {
     4837 4838 4839 
 }
 
-area_dustwallow_13 = {
+area_dustwallow_6 = {
     4840 4843 4841 4842
 }
 
-area_dustwallow_14 = {
+area_dustwallow_7 = {
     4844 4846 4845 4847
 }
 
-area_dustwallow_15 = {
+area_dustwallow_8 = {
     4832 4833 4848 4850 4849
 }
 
-area_dustwallow_16 = {
+area_dustwallow_9 = {
     4852 4851 4875 4874
 }
 
-area_dustwallow_17 = {
+area_dustwallow_10 = {
     4871 4872 4873 4870 4853
 }
 
-area_dustwallow_18 = {
+area_dustwallow_11 = {
     4827 4828 4831 4855 4854
 }
 
-area_dustwallow_19 = {
+area_dustwallow_12 = {
     4824 4826 4825 4861
 }
 
-area_dustwallow_20 = {
+area_dustwallow_13 = {
     4856 4858 4857 4859 4860
 }
 
-area_dustwallow_21 = {
+area_dustwallow_14 = {
     4869 4868 4867 4866
 }
 
-area_dustwallow_22 = {
+area_dustwallow_15 = {
     4865 4862 4864 4863
 }
 
+area_dustwallow_16 = {
+    4823
+}
 
 #-------------------
 # Thousand Needles
@@ -2735,50 +2318,46 @@ area_thousand_needles_8 = {
 }
 
 area_thousand_needles_9 = {
-    2552 2551 2550 2549 2553
-}
-
-area_thousand_needles_10 = {
     5176 5177 5178 5179
 }
 
-area_thousand_needles_11 = {
+area_thousand_needles_10 = {
     5180 5181 5182 5183
 }
 
-area_thousand_needles_12 = {
+area_thousand_needles_11 = {
     3818 5194 5195 5202 5203
 }
 
-area_thousand_needles_13 = {
+area_thousand_needles_12 = {
     5193 5201 5192 5200 5199
 }
 
-area_thousand_needles_14 = {
+area_thousand_needles_13 = {
     5191 3965 5196 5190 5198
 }
 
-area_thousand_needles_15 = {
+area_thousand_needles_14 = {
     5197 5204 5205 5206
 }
 
-area_thousand_needles_16 = {
+area_thousand_needles_15 = {
     5210 5208 5207 5209 5212
 }
 
-area_thousand_needles_17 = {
+area_thousand_needles_16 = {
     5211 5214 5213 4508 5216
 }
 
-area_thousand_needles_18 = {
+area_thousand_needles_17 = {
     5215 5217 5218 5022 5220
 }
 
-area_thousand_needles_19 = {
+area_thousand_needles_18 = {
     5221 5223 5225 5228
 }
 
-area_thousand_needles_20 = {
+area_thousand_needles_19 = {
     5226 5222 5219 5224 5227
 }
 
@@ -2790,356 +2369,204 @@ area_feralas_1 = {
 }
 
 area_feralas_2 = {
-    2637 2615 2636 2616
-}
-
-area_feralas_3 = {
-    2635 2630 2631 2632 2629
-}
-
-area_feralas_4 = {
-    2621 2624 2620 2622 2623
-}
-
-area_feralas_5 = {
-    2618 2619 2617 
-}
-
-area_feralas_6 = {
-    2625 2628 2627 2626
-}
-
-area_feralas_7 = {
-    2604 2606 2605 2608
-}
-
-area_feralas_8 = {
-    2609 2610 2611
-}
-
-area_feralas_9 = {
-    2612 2614 2613
-}
-
-area_feralas_10 = {
     5279 5280 5281 5278
 }
 
-area_feralas_11 = {
+area_feralas_3 = {
     5273 5277 5276 5274
 }
 
-area_feralas_12 = {
+area_feralas_4 = {
     5289 5291 5290 5288
 }
 
-area_feralas_13 = {
+area_feralas_5 = {
     5287 5292 5286 5293
 }
 
-area_feralas_14 = {
+area_feralas_6 = {
     5295 5294 5297 5284
 }
 
-area_feralas_15 = {
+area_feralas_7 = {
     5285 5283 5282 5298
 }
 
-area_feralas_16 = {
+area_feralas_8 = {
     5296 5313 5314 5299 5315
 }
 
-area_feralas_17 = {
+area_feralas_9 = {
     5312 5302 5310 5303
 }
 
-area_feralas_18 = {
+area_feralas_10 = {
     5305 5304 5308 5306
 }
 
-area_feralas_19 = {
+area_feralas_11 = {
     5309 5307 5311
 }
 
-area_feralas_20 = {
+area_feralas_12 = {
     5317 5318 5319 5320
 }
 
-area_feralas_21 = {
+area_feralas_13 = {
     5316 5301 5300
 }
 
-area_feralas_22 = {
+area_feralas_14 = {
     5326 5321 5324 5322
 }
 
-area_feralas_23 = {
+area_feralas_15 = {
     5325 5323 5327 5342 5339
 }
 
-area_feralas_24 = {
+area_feralas_16 = {
     5340 5337 5336 5335 5334
 }
 
-area_feralas_25 = {
+area_feralas_17 = {
     5333 5332 5338 5346 5341
 }
 
-area_feralas_26 = {
+area_feralas_18 = {
     5331 5330 5345
 }
 
-area_feralas_27 = {
+area_feralas_19 = {
     5343 5344 5329 5328
-}
-
-area_feralas_28 = {
-    2785 2784 2786 
-}
-
-area_feralas_29 = {
-    2787 2788 2783
-}
-
-area_feralas_30 = {
-    2779 2778 2777 2780
-}
-
-area_feralas_31 = {
-    2776 2775 2774
-}
-
-area_feralas_32 = {
-    2730 2729 2742 2747
-}
-
-area_feralas_33 = {
-    2726 2728 2727 2725 2724
 }
 
 #-------------------
 # Silithus
 #-------------------
 area_silithus_1 = {
-    2732 2731 2745 2746
-}
-
-area_silithus_2 = {
-    2770 2771 2772
-}
-
-area_silithus_3 = {
-    2773 2781 2782
-}
-
-area_silithus_4 = {
-    2791 2790 2789 2793 2792
-}
-
-area_silithus_5 = {
-    2794 2795 2810 2809 2796
-}
-
-area_silithus_6 = {
-    2808 2806 2804 2807
-}
-
-area_silithus_7 = {
-    2797 2798 2805 2799
-}
-
-area_silithus_8 = {
-    2803 2801 2800 2802
-}
-
-area_silithus_9 = {
-    2811 2812 2814 2813
-}
-
-area_silithus_10 = {
-    2816 2815 2817 2818 2819
-}
-
-area_silithus_11 = {
-    2820 2821 2822 2823 2824
-}
-
-area_silithus_12 = {
-    2826 2825 2828 2827
-}
-
-area_silithus_13 = {
-    2830 2829 2831 2832
-}
-
-area_silithus_14 = {
-    2833 2834 2835 2836
-}
-
-area_silithus_15 = {
-    2838 2837 2839 2840
-}
-
-area_silithus_16 = {
     5030 5029 5031
 }
 
-area_silithus_17 = {
+area_silithus_2 = {
     5047 5028 5027 5046
 }
 
-area_silithus_18 = {
+area_silithus_3 = {
     5025 5026 5045 5024
 }
 
-area_silithus_19 = {
+area_silithus_4 = {
     5048 5056 5057 5032
 }
 
-area_silithus_20 = {
+area_silithus_5 = {
     5033 5034 5060 5059 
 }
 
-area_silithus_21 = {
+area_silithus_6 = {
     5036 5035 5037 5054
 }
 
-area_silithus_22 = {
+area_silithus_7 = {
     5058 5055 5051 5053 5038
 }
 
-area_silithus_23 = {
+area_silithus_8 = {
     5049 5050 5044 5043
 }
 
-area_silithus_24 = {
+area_silithus_9 = {
     5052 5039 5041 5040
 }
 
-area_silithus_25 = {
+area_silithus_10 = {
     5042 5023 4995 4996
 }
 
-area_silithus_26 = {
+area_silithus_11 = {
     4998 4997 4994 5001 5000
 }
 
-area_silithus_27 = {
+area_silithus_12 = {
     4999 5006 5007 5008
 }
 
-area_silithus_28 = {
+area_silithus_13 = {
     4993 5002 4992 5004 4991
 }
 
-area_silithus_29 = {
+area_silithus_14 = {
     4990 5003 4989 5005 5013
 }
 
-area_silithus_30 = {
+area_silithus_15 = {
     4987 5021 5020
 }
 
-area_silithus_31 = {
+area_silithus_16 = {
     5012 5014 5011 5009 5010
 }
 
-area_silithus_32 = {
+area_silithus_17 = {
     5015 5019 5017 5016 5018
+}
+
+area_silithus_18 = {
+    2772 2774
+}
+
+area_silithus_19 = {
+    2732 2733
 }
 
 #-------------------
 # Un'goro Crater
 #-------------------
 area_ungoro_1 = {
-    2695 2755 2750 2696 2697
-}
-
-area_ungoro_2 = {
-    2756 2758 2757 2760 2759
-}
-
-area_ungoro_3 = {
-    2762 2761 2764 2763
-}
-
-area_ungoro_4 = {
-    2766 2765 2769 2767 2768
-}
-
-area_ungoro_5 = {
-    2733 2734 2735 2744
-}
-
-area_ungoro_6 = {
-    2743 2741 2740 2723 2739
-}
-
-area_ungoro_7 = {
-    2722 2721 2737 2719
-}
-
-area_ungoro_8 = {
-    2716 2714 2713 2715
-}
-
-area_ungoro_9 = {
-    2718 2703 2701 2717
-}
-
-area_ungoro_10 = {
-    2720 2738 2736
-}
-
-area_ungoro_11 = {
-    2698 2699 2700
-}
-
-area_ungoro_12 = {
     5087 5086 5089 5088 
 }
 
-area_ungoro_13 = {
+area_ungoro_2 = {
     5080 5079 5078 5105
 }
 
-area_ungoro_14 = {
+area_ungoro_3 = {
     5081 5065 5064 5077 5085
 }
 
-area_ungoro_15 = {
+area_ungoro_4 = {
     5090 5102 5103 5104
 }
 
-area_ungoro_16 = {
+area_ungoro_5 = {
     5092 5091 5093 5100
 }
 
-area_ungoro_17 = {
+area_ungoro_6 = {
     5101 5063 5062 6633
 }
 
-area_ungoro_18 = {
+area_ungoro_7 = {
     2754 2748 2753 2751 2752 2672
 }
 
-area_ungoro_19 = {
+area_ungoro_8 = {
     5099 5097 5098 5094 5095
 }
 
-area_ungoro_20 = {
+area_ungoro_9 = {
     5070 5096 5069 5071
 }
 
-area_ungoro_21 = {
+area_ungoro_10 = {
     5068 5061 5067 5066
 }
 
-area_ungoro_22 = {
+area_ungoro_11 = {
     5084 5083 5076 5075
 }
 
-area_ungoro_23 = {
+area_ungoro_12 = {
     5072 5074 5073 5082
 }
 
@@ -3147,19 +2574,19 @@ area_ungoro_23 = {
 # Tanaris
 #-------------------
 area_tanaris_1 = {
-    5146 2712 2711 5145 5144
+    5146 5145 5144
 }
 
 area_tanaris_2 = {
-    2710 2709 2708 2707
+    2708 
 }
 
 area_tanaris_3 = {
-    5106 2702 2706 2705 2704
+    5106
 }
 
 area_tanaris_4 = {
-    2674 2675 5133 2673 2676
+    5133
 }
 
 area_tanaris_5 = {
@@ -3179,86 +2606,66 @@ area_tanaris_8 = {
 }
 
 area_tanaris_9 = {
-    2677 2678 2684 
-}
-
-area_tanaris_10 = {
-    2680 2681 2682 2683 2679
-}
-
-area_tanaris_11 = {
-    2685 2687 2686
-}
-
-area_tanaris_12 = {
-    2689 2688 2690
-}
-
-area_tanaris_13 = {
-    2691 2692 2693 2694
-}
-
-area_tanaris_14 = {
     5140 5141 5229 5139
 }
 
-area_tanaris_15 = {
+area_tanaris_10 = {
     5142 5143 5147 5233
 }
 
-area_tanaris_16 = {
+area_tanaris_11 = {
     5108 5107 5110 5109 5111
 }
 
-area_tanaris_17 = {
+area_tanaris_12 = {
     5234 5148 5236 5149 
 }
 
-area_tanaris_18 = {
+area_tanaris_13 = {
     5150 5240 5241 5151
 }
 
-area_tanaris_19 = {
+area_tanaris_14 = {
     5235 5237 5230 5238 5239
 }
 
-area_tanaris_20 = {
+area_tanaris_15 = {
     5231 5138 5232 5247
 }
 
-area_tanaris_21 = {
+area_tanaris_16 = {
     5250 5251 5252 5253
 }
 
-area_tanaris_22 = {
+area_tanaris_17 = {
     5249 5254 5255 5268 5271
 }
 
-area_tanaris_23 = {
+area_tanaris_18 = {
     5243 5112 5244 5113
 }
 
-area_tanaris_24 = {
+area_tanaris_19 = {
     5258 5242 5245 5257 5246
 }
 
-area_tanaris_25 = {
-    5116 5115 5114 5117
+area_tanaris_20 = {
+    5116 5115 5114 5117 2696
 }
 
-area_tanaris_26 = {
+area_tanaris_21 = {
     5259 5261 5260 5269 5256
 }
 
-area_tanaris_27 = {
+area_tanaris_22 = {
     5270 5272 5265 5123 5122
 }
 
-area_tanaris_28 = {
+area_tanaris_23 = {
     5267 5262 5266 5264
 }
 
-area_tanaris_29 = {
+area_tanaris_24 = {
     5118 5119 5263 5120 5121
 }
 
@@ -3270,7 +2677,7 @@ area_uldum_1 = {
 }
 
 area_uldum_2 = {
-    2841 2842 2843 4918 4917
+    4918 4917
 }
 
 area_uldum_3 = {
@@ -3302,7 +2709,7 @@ area_uldum_9 = {
 }
 
 area_uldum_10 = {
-    4904 4903 4902 4905 4959
+    4904 4903 4902 4905 4959 2688
 }
 
 area_uldum_11 = {
@@ -3373,19 +2780,11 @@ area_uldum_26 = {
 # Kezan
 #-------------------
 area_kezan_1 = {
-    1958 1957 3729
+    1958 1957 3729 3727 3728 3726
 }
 
 area_kezan_2 = {
-    1962 1961 1960 1959 
-}
-
-area_kezan_3 = {
     1963 1964 1965
-}
-
-area_kezan_4 = {
-    3727 3728 3726
 }
 
 
@@ -3396,154 +2795,134 @@ area_kezan_4 = {
 # Borean Tundra
 #-------------------
 area_borean_tundra_1 = {
-    2044 2045 2043
-}
-
-area_borean_tundra_2 = {
-    2046 2047 2048
-}
-
-area_borean_tundra_3 = {
-    2049 2050 2051
-}
-
-area_borean_tundra_4 = {
     6098 6099 6100 6097
 }
 
-area_borean_tundra_5 = {
+area_borean_tundra_2 = {
     6096 6101 6102
 }
 
-area_borean_tundra_6 = {
-    6105 6106 6104 6103
+area_borean_tundra_3 = {
+    6105 6106 6104 6103 2047
 }
 
-area_borean_tundra_7 = {
+area_borean_tundra_4 = {
     6108 6109 6112 6110
 }
 
-area_borean_tundra_8 = {
+area_borean_tundra_5 = {
     6111 6113 6114 6115
 }
 
-area_borean_tundra_9 = {
+area_borean_tundra_6 = {
     6118 6119 6117 6116
 }
 
-area_borean_tundra_10 = {
+area_borean_tundra_7 = {
     6121 6120 6182 6122
 }
 
-area_borean_tundra_11 = {
+area_borean_tundra_8 = {
     6124 6125 6127 6126 6129 6128
 }
 
-area_borean_tundra_12 = {
+area_borean_tundra_9 = {
     6130 6198 6298 
 }
 
-area_borean_tundra_13 = {
+area_borean_tundra_10 = {
     6301 6299 6289 6297 6288
 }
 
-area_borean_tundra_14 = {
-    2058 2059 2057
-}
-
-area_borean_tundra_15 = {
-    2052 2053 2054 2055
-}
-
-area_borean_tundra_16 = {
+area_borean_tundra_11 = {
     6197 6196 6285 6195 
 }
 
-area_borean_tundra_17 = {
+area_borean_tundra_12 = {
     6296 6295 6287 6294 6293
 }
 
-area_borean_tundra_18 = {
+area_borean_tundra_13 = {
     6279 6286 6291 6277 6278
 }
 
-area_borean_tundra_19 = {
+area_borean_tundra_14 = {
     6284 6281 6292 6290 6280
 }
 
-area_borean_tundra_20 = {
+area_borean_tundra_15 = {
     6275 6276 6273 6272 6274
 }
 
-area_borean_tundra_21 = {
+area_borean_tundra_16 = {
     6271 6269 6270 6268 6267
 }
 
-area_borean_tundra_22 = {
+area_borean_tundra_17 = {
     6194 6193 6282 6283
 }
 
-area_borean_tundra_23 = {
+area_borean_tundra_18 = {
     6192 6191 6265 6264 6266
 }
 
-area_borean_tundra_24 = {
+area_borean_tundra_19 = {
     6123 6190 6189 6188 6247
 }
 
-area_borean_tundra_25 = {
+area_borean_tundra_20 = {
     6263 6236 6246 6237 6233
 }
 
-area_borean_tundra_26 = {
+area_borean_tundra_21 = {
     6187 6248 6249 6245 6244
 }
 
-area_borean_tundra_27 = {
+area_borean_tundra_22 = {
     6186 6252 6183 6253 6184
 }
 
-area_borean_tundra_28 = {
+area_borean_tundra_23 = {
     6185 6208 6254 6256 6209
 }
 
-area_borean_tundra_29 = {
+area_borean_tundra_24 = {
     6255 6251 6250 6243 6258
 }
 
-area_borean_tundra_30 = {
+area_borean_tundra_25 = {
     6211 6210 6260 6261
 }
 
-area_borean_tundra_31 = {
+area_borean_tundra_26 = {
     6259 6262 6257 6212
 }
 
-area_borean_tundra_32 = {
+area_borean_tundra_27 = {
     6241 6242 6213 
 }
 
-area_borean_tundra_33 = {
+area_borean_tundra_28 = {
     6238 6240 6214 6239
 }
 
-area_borean_tundra_34 = {
+area_borean_tundra_29 = {
     6232 6235 6231 6234 6230
 }
 
-area_borean_tundra_35 = {
+area_borean_tundra_30 = {
     6215 6229 6216 
 }
 
-area_borean_tundra_36 = {
+area_borean_tundra_31 = {
     6107 6217 6218 6220
 }
 
-area_borean_tundra_37 = {
+area_borean_tundra_32 = {
     6227 6228 6226 6221 6219
 }
 
-area_borean_tundra_38 = {
+area_borean_tundra_33 = {
     6222 6223 6224 6225
 }
 
@@ -3583,170 +2962,154 @@ area_wintergrasp_7 = {
 # Dragonblight
 #-------------------
 area_dragonblight_1 = {
-    2070 2071 2072
-}
-
-area_dragonblight_2 = {
-    2073 2075 2076
-}
-
-area_dragonblight_3 = {
-    2109 2110 2111
-}
-
-area_dragonblight_4 = {
-    2115 2114 2113
-}
-
-area_dragonblight_5 = {
     6310 6308 6312 6311 6309
 }
 
-area_dragonblight_6 = {
-    2069 6313 6314 6300
+area_dragonblight_2 = {
+    6313 6314 6300
 }
 
-area_dragonblight_7 = {
+area_dragonblight_3 = {
     6316 6315 6200 6199 6131
 }
 
-area_dragonblight_8 = {
+area_dragonblight_4 = {
     6201 6202 6203 6204
 }
 
-area_dragonblight_9 = {
+area_dragonblight_5 = {
     6205 6206 6823 6207 6132
 }
 
-area_dragonblight_10 = {
+area_dragonblight_6 = {
     6830 6834 6826 6825 6824
 }
 
-area_dragonblight_11 = {
+area_dragonblight_7 = {
     6318 6317 6320 6831 6319
 }
 
-area_dragonblight_12 = {
+area_dragonblight_8 = {
     6833 7137 7146 7138
 }
 
-area_dragonblight_13 = {
+area_dragonblight_9 = {
     6344 6832 7136 6345 7135
 }   
 
-area_dragonblight_14 = {
+area_dragonblight_10 = {
     6820 6819 6821 6818 6133
 }
 
-area_dragonblight_15 = {
+area_dragonblight_11 = {
     6817 6822 6829 6816 7103
 }
 
-area_dragonblight_16 = {
+area_dragonblight_12 = {
     6815 6814 7099 7102 7085
 }
 
-area_dragonblight_17 = {
+area_dragonblight_13 = {
     6813 6812 7083 6811 
 }
 
-area_dragonblight_18 = {
+area_dragonblight_14 = {
     6806 6807 6808 6810
 }
 
-area_dragonblight_19 = {
+area_dragonblight_15 = {
     6977 6842 6979 6841
 }
 
-area_dragonblight_20 = {
+area_dragonblight_16 = {
     6997 6840 6838 6998
 }
 
-area_dragonblight_21 = {
+area_dragonblight_17 = {
     6839 6837 6794 6836
 }
 
-area_dragonblight_22 = {
+area_dragonblight_18 = {
     6795 6798 6796 6835 6843
 }
 
-area_dragonblight_23 = {
+area_dragonblight_19 = {
     6570 6844 6569 7070 7071
 }
 
-area_dragonblight_24 = {
+area_dragonblight_20 = {
     6567 6568 7072 6850 7073
 }
 
-area_dragonblight_25 = {
+area_dragonblight_21 = {
     6845 7075 6849 6848 
 }
 
-area_dragonblight_26 = {
+area_dragonblight_22 = {
     6809 6846 6847 7078 7079
 }
 
-area_dragonblight_27 = {
+area_dragonblight_23 = {
     7082 7084 7081 7080 7086
 }
 
-area_dragonblight_28 = {
+area_dragonblight_24 = {
     6851 6852 7106 7111 7112
 }
 
-area_dragonblight_29 = {
+area_dragonblight_25 = {
     6853 6350 7108 7107
 }
 
-area_dragonblight_30 = {
+area_dragonblight_26 = {
     6349 7109 7123 6348 
 }
 
-area_dragonblight_31 = {
+area_dragonblight_27 = {
     6346 6347 7125 7134
 }
 
-area_dragonblight_32 = {
+area_dragonblight_28 = {
     7074 7110 7113 7089 
 }
 
-area_dragonblight_33 = {
+area_dragonblight_29 = {
     7076 7091 7077 
 }
 
-area_dragonblight_34 = {
+area_dragonblight_30 = {
     7092 7087 7094
 }
 
-area_dragonblight_35 = {
+area_dragonblight_31 = {
     7100 7096 7097 7101
 }
 
-area_dragonblight_36 = {
+area_dragonblight_32 = {
     7093 7095 7090 7114 7088
 }
 
-area_dragonblight_37 = {
+area_dragonblight_33 = {
     7115 7117 7120 7116 
 }
 
-area_dragonblight_38 = {
+area_dragonblight_34 = {
     7128 7126 7122 7124 7121
 }
 
-area_dragonblight_39 = {
+area_dragonblight_35 = {
     7104 7105 7131 7118 7098
 }
 
-area_dragonblight_40 = {
+area_dragonblight_36 = {
     7130 7129 7119 7127 7133
 }
 
-area_dragonblight_41 = {
+area_dragonblight_37 = {
     7142 7143 7144 7145 7141
 }
 
-area_dragonblight_42 = {
+area_dragonblight_38 = {
     6828 6827 7139 7132 7140
 }
 
@@ -3755,262 +3118,214 @@ area_dragonblight_42 = {
 # Sholazar Basin
 #-------------------
 area_sholazar_basin_1 = {
-    6351 6352 6353
-}
-
-area_sholazar_basin_2 = {
-    6354 6355 6357 6356
-}
-
-area_sholazar_basin_3 = {
-    2056 2060 2061 2062 2063
-}
-
-area_sholazar_basin_4 = {
-    2091 2090 2086 2084
-}
-
-area_sholazar_basin_5 = {
     6375 6377 6376 6378
 }
 
-area_sholazar_basin_6 = {
+area_sholazar_basin_2 = {
     6379 6414 6415 6380 
 }
 
-area_sholazar_basin_7 = {
-    6382 6383 6384 6413
+area_sholazar_basin_3 = {
+    6382 6383 6384 6413 2091
 }
 
-area_sholazar_basin_8 = {
+area_sholazar_basin_4 = {
     6381 6416 6417 6419
 }
 
-area_sholazar_basin_9 = {
+area_sholazar_basin_5 = {
     6386 6393 6412 6385 6387
 }
 
-area_sholazar_basin_10 = {
+area_sholazar_basin_6 = {
     6418 6392 6425 6421 6391
 }
 
-area_sholazar_basin_11 = {
+area_sholazar_basin_7 = {
     6374 6373 6372 6371
 }
 
-area_sholazar_basin_12 = {
+area_sholazar_basin_8 = {
     6406 6405 6411 6410 6409
 }
 
-area_sholazar_basin_13 = {
+area_sholazar_basin_9 = {
     6408 6407 6404 6403 6401
 }
 
-area_sholazar_basin_14 = {
+area_sholazar_basin_10 = {
     6402 6422 6423 6420 6424
 }
 
-area_sholazar_basin_15 = {
+area_sholazar_basin_11 = {
     6390 6398 6395 6366 6394
 }
 
-area_sholazar_basin_16 = {
+area_sholazar_basin_12 = {
     6388 6389 6369 6367 6368
 }
 
-area_sholazar_basin_17 = {
-    6359 6358 6360 6364 6361
+area_sholazar_basin_13 = {
+    6359 6358 6360 6364 6361 2052
 }
 
-area_sholazar_basin_18 = {
+area_sholazar_basin_14 = {
     6363 6362 6400 6399
 }
 
-area_sholazar_basin_19 = {
+area_sholazar_basin_15 = {
     6397 6396 6365 6370
 }
 
 #-------------------
 # Icecrown
-#-------------------
+#------------------
 area_icecrown_1 = {
-    2068 2077 2078 2074 2067
-}
-
-area_icecrown_2 = {
-    2066 2064 2065 2085
-}
-
-area_icecrown_3 = {
-    2088 2087 2089
-}
-
-area_icecrown_4 = {
-    2079 2080 2081 2083 2082
-}
-
-area_icecrown_5 = {
-    2092 2093 2094
-}
-
-area_icecrown_6 = {
-    2095 2096 2097 2098
-}
-
-area_icecrown_7 = {
-    2099 2100 2101 2102
-}
-
-area_icecrown_8 = {
-    2103 2104 
-}
-
-area_icecrown_9 = {
-    2106 2107 2108
-}
-
-area_icecrown_10 = {
     6552 6550 6551 6571 6573
 }
 
-area_icecrown_11 = {
+area_icecrown_2 = {
     6464 6463 6460
 }
 
-area_icecrown_12 = {
+area_icecrown_3 = {
     6462 6459 6461 6458 6457
 }
 
-area_icecrown_13 = {
+area_icecrown_4 = {
     6167 6168 6169 6170
 }
 
-area_icecrown_14 = {
+area_icecrown_5 = {
     2141 2142 2143 6166
 }
 
-area_icecrown_15 = {
+area_icecrown_6 = {
     6173 6171 6172 6456 6455
 }
 
-area_icecrown_16 = {
+area_icecrown_7 = {
     6453 6452 6451 6450 6454
 }
 
-area_icecrown_17 = {
+area_icecrown_8 = {
     6174 6176 6175
 }
 
-area_icecrown_18 = {
+area_icecrown_9 = {
     6447 6448 6449 6446
 }
 
-area_icecrown_19 = {
+area_icecrown_10 = {
     6179 6178 6177
 }
 
-area_icecrown_20 = {
+area_icecrown_11 = {
     6426 6427 6428 
 }
 
-area_icecrown_21 = {
+area_icecrown_12 = {
     6429 6430 6431 6433 
 }
 
-area_icecrown_22 = {
+area_icecrown_13 = {
     6432 6434 6435
 }
 
-area_icecrown_23 = {
+area_icecrown_14 = {
     6437 6436 6439 6438 6440
 }
 
-area_icecrown_24 = {
+area_icecrown_15 = {
     6442 6444 6445 6443 6441
 }
 
-area_icecrown_25 = {
+area_icecrown_16 = {
     6578 6579 6580 6582 6581
 }
 
-area_icecrown_26 = {
+area_icecrown_17 = {
     6583 6577 6584 6576
 }
 
-area_icecrown_27 = {
+area_icecrown_18 = {
     6574 6575 6600 6585 6602
 }
 
-area_icecrown_28 = {
+area_icecrown_19 = {
     6603 6586 6604 6587 6594
 }
 
-area_icecrown_29 = {
+area_icecrown_20 = {
     6589 6593 6590 6588 6591
 }
 
-area_icecrown_30 = {
+area_icecrown_21 = {
     6597 6572 6599 6601 6595
 }
 
-area_icecrown_31 = {
+area_icecrown_22 = {
     6596 6606 6598 6605
 }
 
-area_icecrown_32 = {
+area_icecrown_23 = {
     6607 6592 6608 
 }
 
-area_icecrown_33 = {
+area_icecrown_24 = {
     6610 6612 6609 6613 6611
 }
 
-area_icecrown_34 = {
+area_icecrown_25 = {
     6615 6616 6614 6617 6619
 }
 
-area_icecrown_35 = {
+area_icecrown_26 = {
     6618 6644 6643 6642 
 }
 
-area_icecrown_36 = {
+area_icecrown_27 = {
     6620 6621 6646 6650
 }
 
-area_icecrown_37 = {
+area_icecrown_28 = {
     6645 6647 6648 6649 
 }
 
-area_icecrown_38 = {
+area_icecrown_29 = {
     6653 6641 6640 6639 6654
 }
 
-area_icecrown_39 = {
+area_icecrown_30 = {
     6622 6651 6623 6652 6656
 }
 
-area_icecrown_40 = {
+area_icecrown_31 = {
     6626 6627 6625 6629 6624
 }
 
-area_icecrown_41 = {
-    6661 6628 6630 6631 6663
+area_icecrown_32 = {
+    6661 6628 6630 6631 6663 2068 
 }
 
-area_icecrown_42 = {
+area_icecrown_33 = {
     6632 6634 6635
 }
 
-area_icecrown_43 = {
+area_icecrown_34 = {
     6638 6655 6637 6636 6657
 }
 
-area_icecrown_44 = {
+area_icecrown_35 = {
     6658 6669 6667 6659 6668
 }
 
-area_icecrown_45 = {
+area_icecrown_36 = {
     6665 6666 6660 6664 6662
+}
+
+area_icecrown_37 = {
+    2079 2080 2082 2083 2081
 }
 
 #-------------------
@@ -4037,7 +3352,7 @@ area_storm_peak_5 = {
 }
 
 area_storm_peak_6 = {
-    2112 6472 6473 6470
+    6472 6473 6470
 }
 
 area_storm_peak_7 = {
@@ -4049,82 +3364,62 @@ area_storm_peak_8 = {
 }
 
 area_storm_peak_9 = {
-    2116 6482 6480 6479
+    6482 6480 6479
 }
 
 area_storm_peak_10 = {
-    2133 2134 2132 2130 2131
-}
-
-area_storm_peak_11 = {
-    2135 2136 2137 2138 2139
-}
-
-area_storm_peak_12 = {
     6505 6508 6507 6506 2140
 }
 
-area_storm_peak_13 = {
+area_storm_peak_11 = {
     6491 6490 6497 6496 6489
 }
 
-area_storm_peak_14 = {
+area_storm_peak_12 = {
     6501 6500 6502 6503 6499
 }
 
-area_storm_peak_15 = {
+area_storm_peak_13 = {
     6504 6495 6498 6493
 }
 
-area_storm_peak_16 = {
+area_storm_peak_14 = {
     6494 6488 6492 6487 6486
 }
 
-area_storm_peak_17 = {
+area_storm_peak_15 = {
     6471 6484 6481 6483 6485
 }
 
-area_storm_peak_18 = {
+area_storm_peak_16 = {
     6510 6509 6511 6513 6512
 }
 
-area_storm_peak_19 = {
-    2126 2125 2124 2127
-}
-
-area_storm_peak_20 = {
-    2122 2123 2121 2128
-}
-
-area_storm_peak_21 = {
-    2117 2118 2119 2120 2129
-}
-
-area_storm_peak_22 = {
+area_storm_peak_17 = {
     6514 6515 6516 6517
 }
 
-area_storm_peak_23 = {
+area_storm_peak_18 = {
     6518 6519 6520 6523 6521
 }
 
-area_storm_peak_24 = {
+area_storm_peak_19 = {
     6522 6524 6525 6526 6527
 }
 
-area_storm_peak_25 = {
+area_storm_peak_20 = {
     6528 6529 6530
 }
 
-area_storm_peak_26 = {
+area_storm_peak_21 = {
     6547 6532 6531
 }
 
-area_storm_peak_27 = {
+area_storm_peak_22 = {
     6538 6539 6537 6540 6541
 }
 
-area_storm_peak_28 = {
+area_storm_peak_23 = {
     2105
 }
 
@@ -4132,7 +3427,7 @@ area_storm_peak_28 = {
 # Zul'drak
 #-------------------
 area_zuldrak_1 = {
-    6697 6701 6702 2162
+    6697 6701 6702
 }
 
 area_zuldrak_2 = {
@@ -4140,7 +3435,7 @@ area_zuldrak_2 = {
 }
 
 area_zuldrak_3 = {
-    2161 6675 6707 
+    6675 6707 
 }
 
 area_zuldrak_4 = {
@@ -4425,106 +3720,90 @@ area_howling_fjord_7 = {
 }
 
 area_howling_fjord_8 = {
-    2166 2165 2164 2169
-}
-
-area_howling_fjord_9 = {
-    2170 2167 2168
-}
-
-area_howling_fjord_10 = {
-    2177 2176 2173
-}
-
-area_howling_fjord_11 = {
-    2175 2174 2171 2172
-}
-
-area_howling_fjord_12 = {
     6727 6728 6729 6732 6730
 }
 
-area_howling_fjord_13 = {
+area_howling_fjord_9 = {
     6735 6763 6764 6734 6733
 }
 
-area_howling_fjord_14 = {
+area_howling_fjord_10 = {
     6736 6739 6738 6737 6731
 }
 
-area_howling_fjord_15 = {
+area_howling_fjord_11 = {
     6740 6877 6741 6880 6876
 }
 
-area_howling_fjord_16 = {
+area_howling_fjord_12 = {
     6742 6743 6881 6744 6882
 }
 
-area_howling_fjord_17 = {
+area_howling_fjord_13 = {
     6879 6878 6870 6871 6872
 }
 
-area_howling_fjord_18 = {
+area_howling_fjord_14 = {
     6886 6887 6885 6899
 }
 
-area_howling_fjord_19 = {
+area_howling_fjord_15 = {
     6869 6873 6888 6874 6875
 }
 
-area_howling_fjord_20 = {
+area_howling_fjord_16 = {
     6884 6865 6864 6883 6863
 }
 
-area_howling_fjord_21 = {
+area_howling_fjord_17 = {
     6746 6745 6862 6861 6747
 }
 
-area_howling_fjord_22 = {
+area_howling_fjord_18 = {
     6859 6860 6858 6748
 }
 
-area_howling_fjord_23 = {
+area_howling_fjord_19 = {
     6749 6857 6856 6854 6750
 }
 
-area_howling_fjord_24 = {
+area_howling_fjord_20 = {
     6891 6752 6751 6890 6855
 }
 
-area_howling_fjord_25 = {
+area_howling_fjord_21 = {
     6867 6889 6866 6868
 }
 
-area_howling_fjord_26 = {
+area_howling_fjord_22 = {
     6894 6903 6904 6895
 }
 
-area_howling_fjord_27 = {
+area_howling_fjord_23 = {
     6892 6896 6897 6905
 }
 
-area_howling_fjord_28 = {
+area_howling_fjord_24 = {
     6906 6900 6898 6907 6908
 }
 
-area_howling_fjord_29 = {
+area_howling_fjord_25 = {
     6902 6901 6909 6917
 }
 
-area_howling_fjord_30 = {
+area_howling_fjord_26 = {
     6923 6920 6922 6760
 }
 
-area_howling_fjord_31 = {
+area_howling_fjord_27 = {
     6758 6759 6916 6918 6919
 }
 
-area_howling_fjord_32 = {
+area_howling_fjord_28 = {
     6756 6757 6914 6755
 }
 
-area_howling_fjord_33 = {
+area_howling_fjord_29 = {
     6912 6911 6913 6910 6915
 }
 
@@ -4535,19 +3814,19 @@ area_howling_fjord_33 = {
 # Zandalar
 #-------------------
 area_zandalar_1 = {
-    1950 1951 3707 3711 3710
+    3707 3711 3710
 }
 
 area_zandalar_2 = {
-    3706 3703 3704 3708
+    3706 3703 3704 3708 3705
 }
 
 area_zandalar_3 = {
-    1952 3705 3722 3724 3709
+    3722 3724 3709
 }
 
 area_zandalar_4 = {
-    1953 3712 3713 3714 3715
+    3712 3713 3714 3715
 }
 
 area_zandalar_5 = {
@@ -4566,7 +3845,7 @@ area_plunder_isle_1 = {
 }
 
 area_plunder_isle_2 = {
-    2844 2845 3735 3734 3733
+    3735 3734 3733
 }
 
 area_plunder_isle_3 = {
@@ -4591,22 +3870,18 @@ area_hidden_valley_1 = {
 # Isle of Thunder
 #-------------------
 area_isle_of_thunder_1 = {
-    1968 3748 1966 1967
+    3748 3750 3749 
 }
 
 area_isle_of_thunder_2 = {
-    3750 3749 3751
-}
-
-area_isle_of_thunder_3 = {
     3752 3754 3755
 }
 
-area_isle_of_thunder_4 = {
-    1969 3753 3757
+area_isle_of_thunder_3 = {
+    3753 3757 3751
 }
 
-area_isle_of_thunder_5 = {
+area_isle_of_thunder_4 = {
     3759 3758 3756
 }
 
@@ -4614,11 +3889,11 @@ area_isle_of_thunder_5 = {
 # Isle of Giants
 #-------------------
 area_isle_of_giants_1 = {
-	1954 3700 3698 1955 3699
+    3700 3698 3699
 }
 
 area_isle_of_giants_2 = {
-    1956 3695 3696 3697
+    3695 3696 3697
 }
 
 #-------------------
@@ -4633,7 +3908,7 @@ area_jade_forest_2 = {
 }
 
 area_jade_forest_3 = {
-    2036 4427 4428 4429 4443
+    4427 4428 4429 4443
 }
 
 area_jade_forest_4 = {
@@ -4653,7 +3928,7 @@ area_jade_forest_7 = {
 }
 
 area_jade_forest_8 = {
-    3874 2029 4229 4230 4231
+    3874 4229 4230 4231
 }
 
 area_jade_forest_9 = {
@@ -4673,19 +3948,19 @@ area_jade_forest_12 = {
 }
 
 area_jade_forest_13 = {
-    4434 4433 2030 4235 4407
+    4434 4433 4235 4407
 }
 
 area_jade_forest_14 = {
-    4237 2031 4238 4408 4382
+    4237 4238 4408 4382
 }
 
 area_jade_forest_15 = {
-    4431 4409 2032 4400 4383
+    4431 4409 4400 4383
 }
 
 area_jade_forest_16 = {
-    2035 4399 4384 4396 
+    4399 4384 4396 
 }
 
 area_jade_forest_17 = {
@@ -4697,11 +3972,11 @@ area_jade_forest_18 = {
 }
 
 area_jade_forest_19 = {
-    2040 2041 2042
+    3864 3863 3867 3866 3865   
 }
 
 area_jade_forest_20 = {
-    4393 2039 4395 4397 4398
+    4393 4395 4397 4398
 }
 
 area_jade_forest_21 = {
@@ -4709,11 +3984,11 @@ area_jade_forest_21 = {
 }
 
 area_jade_forest_22 = {
-    4403 2038 4402 4404
+    4403 4402 4404
 }
 
 area_jade_forest_23 = {
-    4406 2037 4405 4422
+    4406 4405 4422
 }
 
 area_jade_forest_24 = {
@@ -4745,7 +4020,7 @@ area_jade_forest_30 = {
 }
 
 area_jade_forest_31 = {
-    2034 3848 2033 3849 3850
+    3848 3849 3850
 }
 
 area_jade_forest_32 = {
@@ -4758,10 +4033,6 @@ area_jade_forest_33 = {
 
 area_jade_forest_34 = {
     3859 3860 3861 3862
-}
-
-area_jade_forest_35 = {
-    3864 3863 3867 3866 3865   
 }
 
 #-------------------
@@ -4819,7 +4090,7 @@ area_krasarang_wilds_2 = {
 }
 
 area_krasarang_wilds_3 = {
-    4309 2022 4308 
+    4309 4308 2022
 }
 
 area_krasarang_wilds_4 = {
@@ -4867,7 +4138,7 @@ area_krasarang_wilds_14 = {
 }
 
 area_krasarang_wilds_15 = {
-    4276 2026 2027 4275 
+    4276 4275 
 }
 
 area_krasarang_wilds_16 = {
@@ -4981,42 +4252,26 @@ area_dread_wastes_21 = {
 # Vale of Eternal Blossoms
 #-------------------
 area_vale_of_eternal_blossom_1 = {
-    2007 2006 4380 
-}
-
-area_vale_of_eternal_blossom_2 = {
     4496 4381 4494 4495
 }
 
+area_vale_of_eternal_blossom_2 = {
+    4379 4492 4488 4380
+}
+
 area_vale_of_eternal_blossom_3 = {
-    2010 2011 2012 2013 2014
-}
-
-area_vale_of_eternal_blossom_4 = {
-    2015 2016 2017 2018 
-}
-
-area_vale_of_eternal_blossom_5 = {
-    2019 2020 2021
-}
-
-area_vale_of_eternal_blossom_6 = {
-    4379 4492 4488 
-}
-
-area_vale_of_eternal_blossom_7 = {
     4493 4485 4486 4487
 }
 
-area_vale_of_eternal_blossom_8 = {
+area_vale_of_eternal_blossom_4 = {
     4491 4490 4498 4489 4497
 }
 
-area_vale_of_eternal_blossom_9 = {
+area_vale_of_eternal_blossom_5 = {
     4500 4501 4499 4502
 }
 
-area_vale_of_eternal_blossom_10 = {
+area_vale_of_eternal_blossom_6 = {
     4503 4504 4506 4505 4507
 }
 
@@ -5028,7 +4283,7 @@ area_townlong_steppes_1 = {
 }
 
 area_townlong_steppes_2 = {
-    1930 2004 2005
+    3763 3762 3761
 }
 
 area_townlong_steppes_3 = {
@@ -5104,15 +4359,11 @@ area_townlong_steppes_20 = {
 }
 
 area_townlong_steppes_21 = {
-    3769 3770 3771 1970 3760
+    3769 3770 3771 3760
 }
 
 area_townlong_steppes_22 = {
     3772 3773 3764
-}
-
-area_townlong_steppes_23 = {
-    3763 3762 3761
 }
 
 #-------------------
@@ -5127,7 +4378,7 @@ area_kunlai_summit_2 = {
 }
 
 area_kunlai_summit_3 = {
-    2009 4516 4515 4559 
+    4516 4515 4559 2009
 }
 
 area_kunlai_summit_4 = {
@@ -5151,11 +4402,11 @@ area_kunlai_summit_8 = {
 }
 
 area_kunlai_summit_9 = {
-    2002 2003 4535 4534 4536
+    4535 4534 4536 2003 2002
 }
 
 area_kunlai_summit_10 = {
-    2001 4541 4537 4538 4540
+    4541 4537 4538 4540
 }
 
 area_kunlai_summit_11 = {
@@ -5175,47 +4426,27 @@ area_kunlai_summit_14 = {
 }
 
 area_kunlai_summit_15 = {
-    1975 1977 1978 1976 1981
-}
-
-area_kunlai_summit_16 = {
-    1988 1971 1990 1972 1973
-}
-
-area_kunlai_summit_17 = {
-    1974 1987 1985 1986 1989
-}
-
-area_kunlai_summit_18 = {
-    1984 1983 1991 1992 3868
-}
-
-area_kunlai_summit_19 = {
-    1982 1980 1979 1994 1993
-}
-
-area_kunlai_summit_20 = {
-    1995 1996 1997
-}
-
-area_kunlai_summit_21 = {
-    1998 2000 1999
-}
-
-area_kunlai_summit_22 = {
     3873 3702 3701 3872
 }
 
-area_kunlai_summit_23 = {
-    3871 3870 3869
+area_kunlai_summit_16 = {
+    3871 3870 3869 3868
 }
 
-area_kunlai_summit_24 = {
+area_kunlai_summit_17 = {
     4528 4527 4526 4529
 }
 
-area_kunlai_summit_25 = {
+area_kunlai_summit_18 = {
     4525 4524 4523
+}
+
+area_kunlai_summit_19 = {
+    1974 1987 1985 1981
+}
+
+area_kunlai_summit_20 = {
+    1982 1980 1994
 }
 
 # --------------------------------------

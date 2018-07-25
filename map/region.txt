@@ -439,9 +439,6 @@ region_teldrassil = {
         area_teldrassil_8
         area_teldrassil_9
         area_teldrassil_10
-        area_teldrassil_11
-        area_teldrassil_12
-        area_teldrassil_13
     }
 }
 
@@ -459,9 +456,6 @@ region_bloodmyst_isle = {
         area_bloodmyst_isle_10
         area_bloodmyst_isle_11
         area_bloodmyst_isle_12
-        area_bloodmyst_isle_13
-        area_bloodmyst_isle_14
-        area_bloodmyst_isle_15
     }
 }
 
@@ -480,8 +474,6 @@ region_azuremyst_isle = {
         area_azuremyst_isle_11
         area_azuremyst_isle_12
         area_azuremyst_isle_13
-        area_azuremyst_isle_14
-        area_azuremyst_isle_15
     }
 }
 
@@ -490,14 +482,6 @@ region_moonglade = {
         area_moonglade_1
         area_moonglade_2
         area_moonglade_3
-        area_moonglade_4
-        area_moonglade_5
-        area_moonglade_6
-        area_moonglade_7
-        area_moonglade_8
-        area_moonglade_9
-        area_moonglade_10
-        area_moonglade_11
     }
 }
 
@@ -519,10 +503,6 @@ region_darkshore = {
         area_darkshore_14
         area_darkshore_15
         area_darkshore_16
-        area_darkshore_17
-        area_darkshore_18
-        area_darkshore_19
-        area_darkshore_20
     }
 }
 
@@ -547,12 +527,6 @@ region_winterspring = {
         area_winterspring_17
         area_winterspring_18
         area_winterspring_19
-        area_winterspring_20
-        area_winterspring_21
-        area_winterspring_22
-        area_winterspring_23
-        area_winterspring_24
-        area_winterspring_25
     }
 }
 
@@ -567,6 +541,7 @@ region_felwood = {
         area_felwood_7
         area_felwood_8
         area_felwood_9
+        area_felwood_10
     }
 }
 
@@ -598,25 +573,6 @@ region_mount_hyjal = {
         area_mount_hyjal_24
         area_mount_hyjal_25
         area_mount_hyjal_26
-        area_mount_hyjal_27
-        area_mount_hyjal_28
-        area_mount_hyjal_29
-        area_mount_hyjal_30
-        area_mount_hyjal_31
-        area_mount_hyjal_32
-        area_mount_hyjal_33
-        area_mount_hyjal_34
-        area_mount_hyjal_35
-        area_mount_hyjal_36
-        area_mount_hyjal_37
-        area_mount_hyjal_38
-        area_mount_hyjal_39
-        area_mount_hyjal_40
-        area_mount_hyjal_41
-        area_mount_hyjal_42
-        area_mount_hyjal_43
-        area_mount_hyjal_44
-        area_mount_hyjal_45
     }   
 }
 
@@ -650,8 +606,6 @@ region_ashenvale = {
         area_ashenvale_26
         area_ashenvale_27
         area_ashenvale_28
-        area_ashenvale_29
-        area_ashenvale_30
     }
 }
 
@@ -675,7 +629,6 @@ region_azshara = {
         area_azshara_16
         area_azshara_17
         area_azshara_18
-        area_azshara_19
     }
 }
 
@@ -695,10 +648,6 @@ region_durotar = {
         area_durotar_12
         area_durotar_13
         area_durotar_14
-        area_durotar_15
-        area_durotar_16
-        area_durotar_17
-        area_durotar_18
     }
 }
 
@@ -736,14 +685,6 @@ region_the_barrens = {
         area_barrens_30
         area_barrens_31
         area_barrens_32
-        area_barrens_33
-        area_barrens_34
-        area_barrens_35
-        area_barrens_36
-        area_barrens_37
-        area_barrens_38
-        area_barrens_39
-        area_barrens_40
     }
 }
 
@@ -761,25 +702,6 @@ region_stonetalon_mountains = {
         area_stonetalon_10
         area_stonetalon_11
         area_stonetalon_12
-        area_stonetalon_13
-        area_stonetalon_14
-        area_stonetalon_15
-        area_stonetalon_16
-        area_stonetalon_17
-        area_stonetalon_18
-        area_stonetalon_19
-        area_stonetalon_20
-        area_stonetalon_21
-        area_stonetalon_22
-        area_stonetalon_23
-        area_stonetalon_24
-        area_stonetalon_25
-        area_stonetalon_26
-        area_stonetalon_27
-        area_stonetalon_28
-        area_stonetalon_29
-        area_stonetalon_30
-        area_stonetalon_31
     }
 }
 
@@ -799,15 +721,6 @@ region_desolace = {
         area_desolace_12
         area_desolace_13
         area_desolace_14
-        area_desolace_15
-        area_desolace_16
-        area_desolace_17
-        area_desolace_18
-        area_desolace_19
-        area_desolace_20
-        area_desolace_21
-        area_desolace_22
-        area_desolace_23
     }
 }
 
@@ -830,17 +743,6 @@ region_mulgore = {
         area_mulgore_15
         area_mulgore_16
         area_mulgore_17
-        area_mulgore_18
-        area_mulgore_19
-        area_mulgore_20
-        area_mulgore_21
-        area_mulgore_22
-        area_mulgore_23
-        area_mulgore_24
-        area_mulgore_25
-        area_mulgore_26
-        area_mulgore_27
-        area_mulgore_28
     }
 }
 
@@ -862,12 +764,6 @@ region_dustwallow_marsh = {
         area_dustwallow_14
         area_dustwallow_15
         area_dustwallow_16
-        area_dustwallow_17
-        area_dustwallow_18
-        area_dustwallow_19
-        area_dustwallow_20
-        area_dustwallow_21
-        area_dustwallow_22
     }
 }
 
@@ -892,7 +788,6 @@ region_thousand_needles = {
         area_thousand_needles_17
         area_thousand_needles_18
         area_thousand_needles_19
-        area_thousand_needles_20
     }
 }
 
@@ -917,20 +812,6 @@ region_feralas = {
         area_feralas_17
         area_feralas_18
         area_feralas_19
-        area_feralas_20
-        area_feralas_21
-        area_feralas_22
-        area_feralas_23
-        area_feralas_24
-        area_feralas_25
-        area_feralas_26
-        area_feralas_27
-        area_feralas_28
-        area_feralas_29
-        area_feralas_30
-        area_feralas_31
-        area_feralas_32
-        area_feralas_33
     }
 }
 
@@ -955,19 +836,6 @@ region_silithus = {
         area_silithus_17
         area_silithus_18
         area_silithus_19
-        area_silithus_20
-        area_silithus_21
-        area_silithus_22
-        area_silithus_23
-        area_silithus_24
-        area_silithus_25
-        area_silithus_26
-        area_silithus_27
-        area_silithus_28
-        area_silithus_29
-        area_silithus_30
-        area_silithus_31
-        area_silithus_32
     }
 }
 
@@ -985,17 +853,6 @@ region_ungoro_crater = {
         area_ungoro_10
         area_ungoro_11
         area_ungoro_12
-        area_ungoro_13
-        area_ungoro_14
-        area_ungoro_15
-        area_ungoro_16
-        area_ungoro_17
-        area_ungoro_18
-        area_ungoro_19
-        area_ungoro_20
-        area_ungoro_21
-        area_ungoro_22
-        area_ungoro_23
     }
 }
 
@@ -1025,11 +882,6 @@ region_tanaris = {
         area_tanaris_22
         area_tanaris_23
         area_tanaris_24
-        area_tanaris_25
-        area_tanaris_26
-        area_tanaris_27
-        area_tanaris_28
-        area_tanaris_29
     }
 }
 
@@ -1102,11 +954,6 @@ region_borean_tundra = {
         area_borean_tundra_31
         area_borean_tundra_32
         area_borean_tundra_33
-        area_borean_tundra_34
-        area_borean_tundra_35
-        area_borean_tundra_36
-        area_borean_tundra_37
-        area_borean_tundra_38
     }
 }
 
@@ -1139,10 +986,6 @@ region_sholazar_basin = {
         area_sholazar_basin_13
         area_sholazar_basin_14
         area_sholazar_basin_15
-        area_sholazar_basin_16
-        area_sholazar_basin_17
-        area_sholazar_basin_18
-        area_sholazar_basin_19
     }
 }
 
@@ -1186,10 +1029,6 @@ region_dragonblight = {
         area_dragonblight_36
         area_dragonblight_37
         area_dragonblight_38
-        area_dragonblight_39
-        area_dragonblight_40
-        area_dragonblight_41
-        area_dragonblight_42
     }
 }
 
@@ -1232,14 +1071,6 @@ region_icecrown = {
         area_icecrown_35
         area_icecrown_36
         area_icecrown_37
-        area_icecrown_38
-        area_icecrown_39
-        area_icecrown_40
-        area_icecrown_41
-        area_icecrown_42
-        area_icecrown_43
-        area_icecrown_44
-        area_icecrown_45
     }
 }
 
@@ -1268,11 +1099,6 @@ region_storm_peak = {
         area_storm_peak_21
         area_storm_peak_22
         area_storm_peak_23
-        area_storm_peak_24
-        area_storm_peak_25
-        area_storm_peak_26
-        area_storm_peak_27
-        area_storm_peak_28
     }
 }
 
@@ -1386,10 +1212,6 @@ region_howling_fjord = {
         area_howling_fjord_27
         area_howling_fjord_28
         area_howling_fjord_29
-        area_howling_fjord_30
-        area_howling_fjord_31
-        area_howling_fjord_32
-        area_howling_fjord_33
     }
 }
 
@@ -1402,7 +1224,6 @@ region_isle_of_thunder = {
         area_isle_of_thunder_2
         area_isle_of_thunder_3
         area_isle_of_thunder_4
-        area_isle_of_thunder_5
     }
 }
 
@@ -1450,7 +1271,6 @@ region_jade_forest = {
         area_jade_forest_32
         area_jade_forest_33
         area_jade_forest_34
-        area_jade_forest_35
     }
 }
 
@@ -1528,10 +1348,6 @@ region_vale_of_eternal_blossoms = {
         area_vale_of_eternal_blossom_4
         area_vale_of_eternal_blossom_5
         area_vale_of_eternal_blossom_6
-        area_vale_of_eternal_blossom_7
-        area_vale_of_eternal_blossom_8
-        area_vale_of_eternal_blossom_9
-        area_vale_of_eternal_blossom_10
     }
 }
 
@@ -1559,7 +1375,6 @@ region_townlong_steppes = {
         area_townlong_steppes_20
         area_townlong_steppes_21
         area_townlong_steppes_22
-        area_townlong_steppes_23
     }
 }
 
@@ -1585,11 +1400,6 @@ region_kun_lai_summit = {
         area_kunlai_summit_18
         area_kunlai_summit_19
         area_kunlai_summit_20
-        area_kunlai_summit_21
-        area_kunlai_summit_22
-        area_kunlai_summit_23
-        area_kunlai_summit_24
-        area_kunlai_summit_25
     }
 }
 
@@ -1658,8 +1468,6 @@ region_kezan = {
     areas = {
         area_kezan_1
         area_kezan_2
-        area_kezan_3
-        area_kezan_4
     }
 }
 

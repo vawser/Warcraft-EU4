@@ -1,9 +1,9 @@
 # Country
 on_startup = {
     events = {
-        game_setup.1
-        game_setup.2
-        game_setup.3
+        warcraft_setup.1
+        warcraft_setup.2
+        warcraft_discovery.1
     }
 
 }

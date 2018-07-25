@@ -1,6 +1,6 @@
 graphical_culture = aqirgfx
 
-color = { 232 192 47 }
+color = { 138 37 178 }
 
 monarch_names = {
 	"Onokzor #0" = 20
