@@ -1,0 +1,47 @@
+namespace = warcraft_setup
+
+country_event = {
+	id = warcraft_setup.1
+	title = warcraft_setup.1.title
+	desc = warcraft_setup.1.desc
+	picture = ASSASSINATION_eventPicture
+	
+    hidden = yes
+    is_triggered_only = yes
+
+    trigger = {
+        NOT = { has_global_flag = completed_warcraft_setup }
+    }
+
+    immediate = {
+        set_global_flag = completed_warcraft_setup
+    }
+
+    option = {
+        name = warcraft_setup.1.option.a
+
+    }  
+}
+
+country_event = {
+	id = warcraft_setup.2
+	title = warcraft_setup.2.title
+	desc = warcraft_setup.2.desc
+	picture = ASSASSINATION_eventPicture
+	
+    hidden = yes
+    is_triggered_only = yes
+
+    trigger = {
+        NOT = { has_country_flag = completed_country_warcraft_setup }
+    }
+
+    immediate = {
+        set_country_flag = completed_country_warcraft_setup
+    }
+
+    option = {
+        name = warcraft_setup.2.option.a
+
+    }  
+}

@@ -49,3 +49,4 @@ entity = {
 	
 	state = { name = "idle" 		animation = "idle" }
 }
+
