@@ -3,7 +3,7 @@ government = administrative_kingdom
 primary_culture = lordaeron
 religion = the_holy_light
 
-capital = 1
+capital = 3905
 
 historical_friend = QUE
 

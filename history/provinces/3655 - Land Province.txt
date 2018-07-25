@@ -14,4 +14,15 @@ religion = noreligion
 trade_goods = unknown
 hre = no
 
+901.1.1 = {
+    is_city = yes
+    
+    owner = TRM
+    controller = TRM
+    add_core = TRM
+    
+    culture = theramore
+    religion = the_holy_light
+}
+
 

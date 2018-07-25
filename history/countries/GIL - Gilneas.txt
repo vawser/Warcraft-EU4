@@ -3,7 +3,7 @@ government = militaristic_kingdom
 primary_culture = gilnean
 religion = the_holy_light
 
-capital = 1
+capital = 3599
 
 # The First War
 776.1.1 = {

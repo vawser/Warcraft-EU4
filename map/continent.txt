@@ -1,3 +1,4 @@
+# Include wasteland provinces
 azeroth = {
     # Badlands
     1733 1732 1679
@@ -286,7 +287,7 @@ lordaeron = {
     1833 1834 1831 1832
 }
 
-northern_kalimdor = {
+islands_kalimdor = {
     # Teldrassil
     4759 2205 2197 2198
     2204 2208 2207
@@ -336,6 +337,9 @@ northern_kalimdor = {
     4670 4669 4668
     4660 4659 4656 4657
 
+}
+
+northern_kalimdor = {
     # Moonglade
     5836 5834 5835 5833
     5837 5838 5839 5841 

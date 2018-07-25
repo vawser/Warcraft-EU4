@@ -57,3 +57,10 @@ vassal = {
 	start_date = 776.1.1
 	end_date = 901.1.1
 }
+
+vassal = {
+	first = LOR
+	second = KSH
+	start_date = 806.1.1
+	end_date = 901.1.1
+}

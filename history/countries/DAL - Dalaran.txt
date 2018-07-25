@@ -3,7 +3,7 @@ government = magocracy
 primary_culture = dalaran
 religion = arcane
 
-capital = 1
+capital = 3470
 
 # The First War
 776.1.1 = {

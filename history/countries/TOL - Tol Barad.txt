@@ -3,7 +3,7 @@ government = administrative_kingdom
 primary_culture = tol_barad
 religion = the_holy_light
 
-capital = 1
+capital = 3626
 
 # The First War
 776.1.1 = {

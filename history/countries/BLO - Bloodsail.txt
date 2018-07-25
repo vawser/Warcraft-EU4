@@ -3,7 +3,7 @@ government = criminal_organisation
 primary_culture = bloodsail
 religion = avarice
 
-capital = 1
+capital = 3732
 
 # The First War
 776.1.1 = {

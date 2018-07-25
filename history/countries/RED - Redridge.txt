@@ -3,7 +3,7 @@ government = mercantile_kingdom
 primary_culture = redridge
 religion = the_holy_light
 
-capital = 1
+capital = 3060
 
 # The First War
 776.1.1 = {

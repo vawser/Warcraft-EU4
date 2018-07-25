@@ -71,10 +71,6 @@ region_andorhal = {
         area_andorhal_7
         area_andorhal_8
         area_andorhal_9
-        area_andorhal_10
-        area_andorhal_11
-        area_andorhal_12
-        area_andorhal_13
     }
 }
 
@@ -101,16 +97,6 @@ region_stratholme = {
         area_stratholme_18
         area_stratholme_19
         area_stratholme_20
-        area_stratholme_21
-        area_stratholme_22
-        area_stratholme_23
-        area_stratholme_24
-        area_stratholme_25
-        area_stratholme_26
-        area_stratholme_27
-        area_stratholme_28
-        area_stratholme_29
-        area_stratholme_30
     }
 }
 
@@ -130,9 +116,6 @@ region_tirisfal_glades = {
         area_lordaeron_11
         area_lordaeron_12
         area_lordaeron_13
-        area_lordaeron_14
-        area_lordaeron_15
-        area_lordaeron_16
     }
 }
 
@@ -159,7 +142,6 @@ region_gilneas = {
         area_gilneas_6
         area_gilneas_7
         area_gilneas_8
-        area_gilneas_9
     }
 }
 
@@ -168,7 +150,6 @@ region_alterac = {
         area_alterac_1
         area_alterac_2
         area_alterac_3
-        area_alterac_4
     }
 }
 
@@ -205,18 +186,15 @@ region_kul_tiras = {
 
 region_arathi_highlands = {
     areas = {
-        area_arath_highlands_1
-        area_arath_highlands_2
-        area_arath_highlands_3
-        area_arath_highlands_4
-        area_arath_highlands_5
-        area_arath_highlands_6
-        area_arath_highlands_7
-        area_arath_highlands_8
-        area_arath_highlands_9
-        area_arath_highlands_10
-        area_arath_highlands_11
-        area_arath_highlands_12
+        area_arathi_highlands_1
+        area_arathi_highlands_2
+        area_arathi_highlands_3
+        area_arathi_highlands_4
+        area_arathi_highlands_5
+        area_arathi_highlands_6
+        area_arathi_highlands_7
+        area_arathi_highlands_8
+        area_arathi_highlands_9
     }
 }
 
@@ -233,12 +211,6 @@ region_the_hinterlands = {
         area_hinterlands_9
         area_hinterlands_10
         area_hinterlands_11
-        area_hinterlands_12
-        area_hinterlands_13
-        area_hinterlands_14
-        area_hinterlands_15
-        area_hinterlands_16
-        area_hinterlands_17
     }   
 }
 
@@ -279,9 +251,6 @@ region_northeron = {
         area_northeron_11
         area_northeron_12
         area_northeron_13
-        area_northeron_14
-        area_northeron_15
-        area_northeron_16
     }
 }
 
@@ -293,11 +262,6 @@ region_loch_modan = {
         area_loch_modan_4
         area_loch_modan_5
         area_loch_modan_6
-        area_loch_modan_7
-        area_loch_modan_8
-        area_loch_modan_9
-        area_loch_modan_10
-        area_loch_modan_11
     }
 }
 
@@ -315,15 +279,6 @@ region_dun_morogh = {
         area_dun_morogh_10
         area_dun_morogh_11
         area_dun_morogh_12
-        area_dun_morogh_13
-        area_dun_morogh_14
-        area_dun_morogh_15
-        area_dun_morogh_16
-        area_dun_morogh_17
-        area_dun_morogh_18
-        area_dun_morogh_19
-        area_dun_morogh_20
-        area_dun_morogh_21
     }
 }
 
@@ -334,11 +289,6 @@ region_badlands = {
         area_badlands_3
         area_badlands_4
         area_badlands_5
-        area_badlands_6
-        area_badlands_7
-        area_badlands_8
-        area_badlands_9
-        area_badlands_10
     }
 }
 
@@ -348,8 +298,6 @@ region_searing_gorge = {
         area_searing_gorge_2
         area_searing_gorge_3
         area_searing_gorge_4
-        area_searing_gorge_5
-        area_searing_gorge_6
     }
 }
 
@@ -361,10 +309,6 @@ region_burning_steppes = {
         area_burning_steppes_4
         area_burning_steppes_5
         area_burning_steppes_6
-        area_burning_steppes_7
-        area_burning_steppes_8
-        area_burning_steppes_9
-        area_burning_steppes_10
     }
 }
 
@@ -377,8 +321,6 @@ region_redridge_mountains = {
         area_redridge_5
         area_redridge_6
         area_redridge_7
-        area_redridge_8
-        area_redridge_9
     }
 }
 
@@ -397,10 +339,6 @@ region_elwynn_forest = {
         area_elwynn_forest_11
         area_elwynn_forest_12
         area_elwynn_forest_13
-        area_elwynn_forest_14
-        area_elwynn_forest_15
-        area_elwynn_forest_16
-        area_elwynn_forest_17
     }
 }
 
@@ -429,8 +367,6 @@ region_blasted_lands = {
         area_blasted_lands_8
         area_blasted_lands_9
         area_blasted_lands_10
-        area_blasted_lands_11
-        area_blasted_lands_12
     }
 }
 
@@ -438,9 +374,6 @@ region_deadwind_pass = {
     areas = {
         area_deadwind_pass_1
         area_deadwind_pass_2
-        area_deadwind_pass_3
-        area_deadwind_pass_4
-        area_deadwind_pass_5
     }
 }
 
@@ -466,7 +399,6 @@ region_westfall = {
         area_westfall_4
         area_westfall_5
         area_westfall_6
-        area_westfall_7
     }
 }
 
@@ -489,10 +421,6 @@ region_stranglethorn_vale = {
         area_stranglethorn_vale_15
         area_stranglethorn_vale_16
         area_stranglethorn_vale_17
-        area_stranglethorn_vale_18
-        area_stranglethorn_vale_19
-        area_stranglethorn_vale_20
-        area_stranglethorn_vale_21
     }
 }
 

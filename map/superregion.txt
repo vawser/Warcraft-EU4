@@ -1,35 +1,111 @@
 # A region can only belong to one super region.
 
 azeroth_superregion = {
-
+    region_badlands
+    region_searing_gorge
+    region_burning_steppes
+    region_redridge_mountains
+    region_elwynn_forest
+    region_swamp_of_sorrows
+    region_blasted_lands
+    region_deadwind_pass
+    region_duskwood
+    region_westfall
+    region_stranglethorn_vale
 }
 
 khaz_modan_superregion = {
-
+    region_wetlands
+    region_northeron
+    region_loch_modan
+    region_dun_morogh
 }
 
 lordaeron_superregion = {
+    region_isle_of_quel_danas
+    region_eversong_forest
+    region_andorhal
+    region_stratholme
+    region_tirisfal_glades
+    region_silverpine_forest
+    region_gilneas
+    region_alterac
+    region_hillsbrad_foothills
+    region_tol_barad
+    region_kul_tiras
+    region_arathi_highlands
+    region_the_hinterlands
+}
 
+kalimdor_islands_superregion = {
+    region_teldrassil
+    region_bloodmyst_isle
+    region_azuremyst_isle
 }
 
 northern_kalimdor_superregion = {
+    region_moonglade
+    region_darkshore
+    region_winterspring
+    region_felwood
+    region_mount_hyjal
+    region_ashenvale
+    region_azshara
 
 }
 
 central_kalimdor_superregion = {
-
+    region_durotar
+    region_the_barrens
+    region_stonetalon_mountains
+    region_desolace
+    region_mulgore
+    region_dustwallow_marsh
 }
 
 southern_kalimdor_superregion = {
-
+    region_thousand_needles
+    region_feralas
+    region_silithus
+    region_ungoro_crater
+    region_tanaris
+    region_uldum
 }
 
 northrend_superregion = {
-
+    region_borean_tundra
+    region_wintergrasp
+    region_sholazar_basin
+    region_dragonblight
+    region_icecrown
+    region_storm_peak
+    region_zuldrak
+    region_grizzly_hills
+    region_crystalsong
+    region_howling_fjord
 }
 
 pandaria_superregion = {
-
+    region_isle_of_thunder
+    region_isle_of_giants
+    region_jade_forest
+    region_valley_of_the_four_winds
+    region_krasarang_wilds
+    region_dread_wastes
+    region_vale_of_eternal_blossoms
+    region_townlong_steppes
+    region_kun_lai_summit
 }
+
+broken_isles_superregion = {
+    region_azsuna
+    region_broken_shore
+    region_highmountain
+    region_stormheim
+    region_suramar
+    region_val_sharah
+    region_eye_of_azshara
+}
+
 
 new_world_superregion = { }

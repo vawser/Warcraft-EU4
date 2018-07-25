@@ -3,7 +3,7 @@ government = magocracy
 primary_culture = karazhan
 religion = arcane
 
-capital = 1
+capital = 3079
 
 # The First War
 776.1.1 = {

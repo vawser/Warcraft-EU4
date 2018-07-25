@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 3
-native_ferocity = 1
-native_hostileness = 6
+is_city = yes
+owner = KAZ
+controller = KAZ
+add_core = KAZ
 
 base_tax = 4
 base_production = 1
 base_manpower = 1
 
-culture = azerothian
+culture = karazhan
 religion = arcane
 
 trade_goods = unknown
