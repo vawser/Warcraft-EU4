@@ -42,3 +42,10 @@ entity = {
 	name = "fel_crystal"
 	pdxmesh = "mesh_green_crystal"
 }
+
+entity = {
+	name = "big_bertha"
+	pdxmesh = "whale"
+	
+	state = { name = "idle" 		animation = "idle" }
+}

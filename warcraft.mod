@@ -1,5 +1,5 @@
 name="Warcraft"
-path="mod/warcraft_universalis"
+path="mod/warcraft"
 
 replace_path="common/advisortypes"
 replace_path="common/ages"

@@ -287,3 +287,22 @@ type={
 		}
 	}
 }
+
+type={
+	type="big_bertha"
+	use_animation=no
+	scale=2.0
+	time_duration=300.000000
+	always_visible=yes
+	visible_in_all_map_modes=yes
+	object={
+		name="big_bertha"
+		hidden_on_start=no
+		position={
+			3600.000 0.000 98.000 
+		}
+		rotation={
+			0.000 80.000 0.000 
+		}
+	}
+}
