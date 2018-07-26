@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 98
-native_ferocity = 9
-native_hostileness = 3
+is_city = yes
+owner = ULM
+controller = ULM
+add_core =  ULM
 
 base_tax = 2
 base_production = 1
 base_manpower = 3
 
-culture = earthen
+culture = uldaman
 religion = titan_worship
 
 trade_goods = unknown

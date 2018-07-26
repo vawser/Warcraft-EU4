@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 99
-native_ferocity = 7
-native_hostileness = 2
+is_city = yes
+owner = CEN
+controller = CEN
+add_core = CEN
 
 base_tax = 1
 base_production = 1
 base_manpower = 2
 
-culture = noculture
-religion = noreligion
+culture = moonglade
+religion = elune
 
 trade_goods = unknown
 hre = no

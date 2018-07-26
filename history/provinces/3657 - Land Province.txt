@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 69
-native_ferocity = 8
-native_hostileness = 3
+is_city = yes
+owner = NTB
+controller = NTB
+add_core = NTB
 
 base_tax = 2
 base_production = 4
 base_manpower = 3
 
-culture = nightborne
+culture = suramar
 religion = arcane
 
 trade_goods = unknown

@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 61
-native_ferocity = 3
-native_hostileness = 3
+is_city = yes
+owner = SEN
+controller = SEN
+add_core = SEN
 
 base_tax = 3
 base_production = 1
 base_manpower = 4
 
-culture = noculture
-religion = noreligion
+culture = sentinels_of_hyjal
+religion = elune
 
 trade_goods = unknown
 hre = no

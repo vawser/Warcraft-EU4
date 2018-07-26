@@ -1,12 +1,4 @@
 ﻿l_english:
- # Place lines from vanilla localisations files that you want to override in here
- BLO: "Bloodsail"
- BLO_ADJ: "Bloodsail"
- KSH: "Knights of the Silver Hand"
- KSH_ADJ: "Knights of the Silver Hand"
- KOL: "Kolkar"
- KOL_ADJ: "Kolkar"
- 
  #---------------------------------------------------------
  # General
  #---------------------------------------------------------
@@ -17,6 +9,9 @@
  colonial_government: "Splinter"
  colonial_government_desc: "A splinter realm of another realm from a distant continent."
 
+ shamanism: "Shamanism"
+ shamanism_religion_desc: "Shamans honour the spirits of their ancestors and the elemental forces. Many carve totems to represent the spirits and animals from which they draw power, and it is within these totems that the true potency of a shaman lies. Some shamans live in balance with the elements and call upon them for aid, while others bind and twist them to their will."
+ 
  #------------------------------------------------------
  # Gov Abilities
  #------------------------------------------------------

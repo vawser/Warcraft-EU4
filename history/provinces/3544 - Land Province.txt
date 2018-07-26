@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 58
-native_ferocity = 5
-native_hostileness = 3
+is_city = yes
+owner = AER
+controller = AER
+add_core = AER
 
 base_tax = 3
 base_production = 4
 base_manpower = 2
 
-culture = noculture
-religion = noreligion
+culture = aerie_peak
+religion = shamanism
 
 trade_goods = unknown
 hre = no

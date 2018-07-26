@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 31
-native_ferocity = 9
-native_hostileness = 8
+is_city = yes
+owner = SFR
+controller = SFR
+add_core = SFR
 
 base_tax = 1
 base_production = 3
 base_manpower = 4
 
-culture = noculture
-religion = noreligion
+culture = sentinels_of_feathermoon
+religion = elune
 
 trade_goods = unknown
 hre = no

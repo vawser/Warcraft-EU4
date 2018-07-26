@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 1
-native_ferocity = 2
-native_hostileness = 6
+is_city = yes
+owner = DAS
+controller = DAS
+add_core = DAS
 
 base_tax = 1
 base_production = 3
 base_manpower = 2
 
-culture = night_elf
+culture = darnassus
 religion = elune
 
 trade_goods = unknown

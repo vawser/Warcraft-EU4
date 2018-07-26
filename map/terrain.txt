@@ -175,6 +175,7 @@ categories =  {
 	impassable_mountains = {
 		color = { 128 128 128 }
 
+        type = mountains
 		sound_type = desert
 
 		movement_cost = 10.0
@@ -330,6 +331,7 @@ categories =  {
 	savannah = {
 		color = { 248 199 23  }
 
+        type = plains
 		sound_type = plains
 
 		supply_limit = 6
