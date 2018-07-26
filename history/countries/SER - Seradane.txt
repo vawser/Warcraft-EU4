@@ -3,7 +3,7 @@ government = dragonflight_council
 primary_culture = seradane
 religion = dragon_aspects
 
-capital = 1
+capital = 3579
 
 # The First War
 776.1.1 = {

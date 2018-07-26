@@ -3,7 +3,7 @@ government = dragonflight_council
 primary_culture = wyrmrest_temple
 religion = dragon_aspects
 
-capital = 1
+capital = 7090
 
 # The First War
 776.1.1 = {

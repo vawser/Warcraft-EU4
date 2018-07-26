@@ -1126,8 +1126,6 @@ region_zuldrak = {
         area_zuldrak_20
         area_zuldrak_21
         area_zuldrak_22
-        area_zuldrak_23
-        area_zuldrak_24
     }
 }
 
@@ -1165,6 +1163,7 @@ region_grizzly_hills = {
         area_grizzly_hills_30
         area_grizzly_hills_31
         area_grizzly_hills_32
+        area_grizzly_hills_33
     }
 }
 

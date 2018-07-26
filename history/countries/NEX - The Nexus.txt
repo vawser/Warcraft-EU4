@@ -3,7 +3,7 @@ government = dragonflight_council
 primary_culture = the_nexus
 religion = dragon_aspects
 
-capital = 1
+capital = 6105
 
 # The First War
 776.1.1 = {

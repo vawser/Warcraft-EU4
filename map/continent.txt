@@ -686,6 +686,8 @@ central_kalimdor = {
 }
 
 southern_kalimdor = {
+    7293
+
     # Thousand Needles
     5189 3792 5188 5187 5152
     5185 5184 5186
@@ -858,6 +860,8 @@ southern_kalimdor = {
 }
 
 northrend = {
+    7285 7286 7287 7288 7289 7290 7291 7292 
+    
     # Borean Tundra
     2044 2045 2043
     2046 2047 2048
@@ -1155,6 +1159,8 @@ northrend = {
 }
 
 pandaria = {
+    7279 7280 7281 7282 7283 7284 
+    
     # Isle of Thunder
     1968 3748 1966 1967
     3750 3749 3751

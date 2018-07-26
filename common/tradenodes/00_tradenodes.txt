@@ -94,6 +94,7 @@ node_stratholme = {
 node_andorhal = {
 	location=3514
     color = { 196 156 110 }
+    inland=yes
 	members={
         3508 3507 3505 1838 1839 3506 3511 3512 3520 3516 3514 3516 3518 3517 3515 3521 3509 3513 3510 3528 3527 3525 3524 3529 1883 1885 1884 1882 1880 1881 1877 1875 1874 1876 1872 1871 1879 1878 3534 3536 3530 3538 3519 3522 3523 3535 3532 3531 3533 3537 3539 3540 3541 
 	}
@@ -441,6 +442,7 @@ node_gilneas = {
 node_loch_modan = {
 	location=3224
     color = { 140 180 218 }
+    inland=yes
 	members={
         1747 1746 1748 1749
         1750 1751 1726
@@ -582,6 +584,7 @@ node_redridge = {
 node_deadwind_pass = {
 	location=3079
     color = { 232 87 156 }
+    inland=yes
 	members={
         3079 3078 3077
         3076 3075 3074 3080
@@ -808,6 +811,7 @@ node_mount_hyjal = {
 node_winterspring = {
 	location=5962
     color = { 157 133 3 }
+    inland=yes
 	members={
         2209 2210 2212 2211
         2214 2213 2215 2216 2217
@@ -857,6 +861,7 @@ node_winterspring = {
 node_moonglade = {
 	location=5836
     color = { 144 70 110 }
+    inland=yes
 	members={
         5836 5834 5835 5833
         5837 5838 5839 5841 
@@ -988,6 +993,7 @@ node_desolace = {
 node_stonetalon_mountains = {
 	location=5597
     color = { 74 149 1 }
+    inland=yes
 	members={
         2444 2445 2446 2447 
         2443 2448 2442 2433
@@ -2172,6 +2178,7 @@ node_durotar = {
 node_silithus = {
 	location=4997
     color = { 81 109 71 }
+    inland=yes
     end = yes
 	members={
         2732 2731 2745 2746
@@ -2263,6 +2270,7 @@ node_icecrown = {
 node_vale_of_eternal_blossom = {
 	location=4502
     color = { 44 180 2 }
+    inland=yes
     end = yes
 	members={
         2007 2006 4380 
@@ -2280,6 +2288,7 @@ node_vale_of_eternal_blossom = {
 node_dun_morogh = {
 	location=1757
     color = { 185 50 96 }
+    inland=yes
     end = yes
 	members={
         1753 1754 1755 1752 1756

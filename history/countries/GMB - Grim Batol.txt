@@ -3,7 +3,7 @@ government = dragonflight_council
 primary_culture = grim_batol
 religion = dragon_aspects
 
-capital = 1
+capital = 1785
 
 # The First War
 776.1.1 = {

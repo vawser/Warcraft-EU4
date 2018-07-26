@@ -1,8 +1,8 @@
 
 is_city = yes
-owner = ADS
-controller = ADS
-add_core = ADS
+owner = ODS
+controller = ODS
+add_core = ODS
 
 base_tax = 4
 base_production = 4

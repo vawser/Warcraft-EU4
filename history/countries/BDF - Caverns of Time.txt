@@ -3,7 +3,7 @@ government = dragonflight_council
 primary_culture = caverns_of_time
 religion = dragon_aspects
 
-capital = 1
+capital = 5133
 
 # The First War
 776.1.1 = {

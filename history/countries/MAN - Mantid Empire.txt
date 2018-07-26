@@ -3,7 +3,7 @@ government = mantid_swarm
 primary_culture = mantid
 religion = yshaarj
 
-capital = 1
+capital = 4636
 
 # The First War
 776.1.1 = {

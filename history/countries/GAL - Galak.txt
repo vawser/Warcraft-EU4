@@ -3,7 +3,7 @@ government = centaur_warband
 primary_culture = galak
 religion = shamanism
 
-capital = 1
+capital = 5202
 
 # The First War
 776.1.1 = {

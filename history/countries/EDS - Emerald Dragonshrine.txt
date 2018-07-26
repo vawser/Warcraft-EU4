@@ -3,7 +3,7 @@ government = dragonflight_council
 primary_culture = emerald_dragonshrine
 religion = dragon_aspects
 
-capital = 1
+capital = 6814
 
 # The First War
 776.1.1 = {

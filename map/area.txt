@@ -3030,7 +3030,7 @@ area_dragonblight_17 = {
 }
 
 area_dragonblight_18 = {
-    6795 6798 6796 6835 6843
+    6795 6798 6796 6835 6843 6797
 }
 
 area_dragonblight_19 = {
@@ -3427,27 +3427,27 @@ area_storm_peak_23 = {
 # Zul'drak
 #-------------------
 area_zuldrak_1 = {
-    6697 6701 6702
+    6697 7061 7024
 }
 
 area_zuldrak_2 = {
-    6704 6705 6706 6703
+    7058 7052 7059 7053 7066 7057
 }
 
 area_zuldrak_3 = {
-    6675 6707 
+    6675 6707 6674 6954
 }
 
 area_zuldrak_4 = {
-    6692 6693 6694 7009 7007
+    6692 6693 6694 7009 7007 7008
 }
 
 area_zuldrak_5 = {
-    6797 6691 6690 7010 7012
+    6691 6690 7010 7012
 }
 
 area_zuldrak_6 = {
-    6696 6695 7023 7021 7008
+    6696 6695 7023 7021 
 }
 
 area_zuldrak_7 = {
@@ -3459,27 +3459,27 @@ area_zuldrak_8 = {
 }
 
 area_zuldrak_9 = {
-    6670 6671 6950 6676 
+    7043 7040 6952 6676 6953
 }
 
 area_zuldrak_10 = {
-    6672 6951 6952 
+    6672 6951 6670 6671 6950 6673
 }
 
 area_zuldrak_11 = {
-    6674 6673 6953 6954
-}
+    7068 7067 7065
+} 
 
 area_zuldrak_12 = {
-    7043 7040 7042 6677 6678
+    7042 6677 6678
 }
 
 area_zuldrak_13 = {
-    6679 7037 6680 7038
+    6679 7037 7038 7056
 }
 
 area_zuldrak_14 = {
-    6681 7032 7031 7036
+    6681 7032 7031 7036 6680
 }
 
 area_zuldrak_15 = {
@@ -3487,11 +3487,11 @@ area_zuldrak_15 = {
 }
 
 area_zuldrak_16 = {
-    7025 7016 7018 7017 7019
+    7025 7016 7018 7017 7019 7028
 }
 
 area_zuldrak_17 = {
-    7020 7026 7022 7028 
+    7020 7026 7022  
 }
 
 area_zuldrak_18 = {
@@ -3499,11 +3499,11 @@ area_zuldrak_18 = {
 }
 
 area_zuldrak_19 = {
-    7024 7062 7063 7064 7065
+    7062 7063 7064 
 }
 
 area_zuldrak_20 = {
-    7061 7060 7049 7050 7048
+    7060 7049 7050 7048
 }
 
 area_zuldrak_21 = {
@@ -3512,14 +3512,6 @@ area_zuldrak_21 = {
 
 area_zuldrak_22 = {
     7055 7039 7054 7051 7041
-}
-
-area_zuldrak_23 = {
-    7056 7068 7067 7066 7057
-} 
-
-area_zuldrak_24 = {
-    7058 7052 7059 7053
 }
 
 #-------------------
@@ -3638,7 +3630,7 @@ area_grizzly_hills_28 = {
 }
 
 area_grizzly_hills_29 = {
-    6782 6775 6779 6777 6776
+    6782 6775 6779 6777 6776 6701 
 }
 
 area_grizzly_hills_30 = {
@@ -3652,6 +3644,11 @@ area_grizzly_hills_31 = {
 area_grizzly_hills_32 = {
     6774 6937 6781 6780 6939
 }
+
+area_grizzly_hills_33 = {
+    6704 6705 6706 6703 6702
+}
+
 
 #-------------------
 # Crystalsong
@@ -4043,7 +4040,7 @@ area_valley_of_the_four_winds_1 = {
 }
 
 area_valley_of_the_four_winds_2 = {
-    4597 4595 4596 4593 4261
+    4595 4596 4593 4261
 }
 
 area_valley_of_the_four_winds_3 = {
@@ -4197,7 +4194,7 @@ area_dread_wastes_8 = {
 }
 
 area_dread_wastes_9 = {
-    4262 4598 4599 4602 4601
+    4262 4598 4599 4602 4601 4597
 }
 
 area_dread_wastes_10 = {
@@ -4252,11 +4249,11 @@ area_dread_wastes_21 = {
 # Vale of Eternal Blossoms
 #-------------------
 area_vale_of_eternal_blossom_1 = {
-    4496 4381 4494 4495
+    4494 4495 4380
 }
 
 area_vale_of_eternal_blossom_2 = {
-    4379 4492 4488 4380
+    4379 4492 4488 
 }
 
 area_vale_of_eternal_blossom_3 = {
@@ -4279,7 +4276,7 @@ area_vale_of_eternal_blossom_6 = {
 # Townlong Steppes
 #-------------------
 area_townlong_steppes_1 = {
-    4374 4373 4372 4375 4376
+    4372 4375 4376
 }
 
 area_townlong_steppes_2 = {
@@ -4287,7 +4284,7 @@ area_townlong_steppes_2 = {
 }
 
 area_townlong_steppes_3 = {
-    4365 4369 4570 4364
+    4369 4570 4364
 }
 
 area_townlong_steppes_4 = {
@@ -4410,7 +4407,7 @@ area_kunlai_summit_10 = {
 }
 
 area_kunlai_summit_11 = {
-    4539 4368 4367 4366
+    4539 4368 4367 4366 4365
 }
 
 area_kunlai_summit_12 = {
@@ -4418,11 +4415,11 @@ area_kunlai_summit_12 = {
 }
 
 area_kunlai_summit_13 = {
-    4569 4568 4545
+    4569 4568 4545 4496 4381 
 }
 
 area_kunlai_summit_14 = {
-    4543 4544 4542
+    4543 4544 4542 4374 4373 
 }
 
 area_kunlai_summit_15 = {

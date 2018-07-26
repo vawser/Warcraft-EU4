@@ -3,7 +3,7 @@ government = centaur_warband
 primary_culture = kolkar
 religion = shamanism
 
-capital = 1
+capital = 5385
 
 # The First War
 776.1.1 = {

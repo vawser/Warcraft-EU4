@@ -3,7 +3,7 @@ government = dragonflight_council
 primary_culture = azurewing
 religion = dragon_aspects
 
-capital = 1
+capital = 3648
 
 # The First War
 776.1.1 = {
