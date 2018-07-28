@@ -1,115 +1,242 @@
 ﻿l_english:
- # Monarchy
- administrative_kingdom: "Administrative Kingdom"
- administrative_kingdom_desc: "A kingdom focusing on administrative duties."
+ #------------------
+ # Names
+ #------------------
+ BUREAUCRATIC_KINGDOM: "Bureaucratic Kingdom"
+ DESPOTIC_KINGDOM: "Despotic Kingdom"
+ RELIGIOUS_KINGDOM: "Religious Kingdom"
+ TOLVIR_KINGDOM: "Tol'viri Kingdom"
+ NERUBIAN_KINGDOM: "Nerubian Kingdom"
+ VRYKUL_KINGDOM: "Vrykul Kingdom"
+ HOLY_ORDER: "Holy Order"
+ TITAN_ORDER: "Titanic Order"
+ DRAGON_COUNCIL: "Dragon Council"
+ EARTHEN_ORDER: "Titanic Order"
+ PANDAREN_COMMUNE: "Pandaren Commune"
+ DRYAD_COMMUNE: "Dryad Glade"
+ TAUREN_TRIBE: "Tauren Camp"
+ TAUNKA_TRIBE: "Taunka Moot"
+ TUSKARR_TRIBE: "Tuskarr Moot"
+ JINYU_TRIBE: "Jinyu Commune"
+ TECHNOCRACY: "Technocracy"
+ TRADE_CARTEL: "Trade Cartel"
+ MAGOCRACY: "Magocracy"
+ FORSAKEN: "Forsaken"
+ SCOURGE: "Scourge"
+ QIRAJI_HIVE: "Qiraji Hive"
+ MANTID_HIVE: "Mantid Hive"
+ PIRATE_CREW: "Pirate Crew"
+ CENTAUR_WARBAND: "Centaur Warband"
+ MOGU_WARBAND: "Mogu Warband"
+ NAGA_WARBAND: "Naga Warband"
+ OGRE_CLAN: "Ogre Clan"
+ ORC_CLAN: "Orc Clan"
+ SATYR_WARBAND: "Satyr Warband"
+ TROLL_TRIBE: "Troll Tribe"
+ YAUNGOL_WARBAND: "Yaungol Warband"
+ SAUROK_CLAN: "Saurok Clan"
+ FURBOLG_TRIBE: "Furbolg Tribe"
+ GNOLL_TRIBE: "Gnoll Tribe"
+ GORLOC_TRIBE: "Gorloc Tribe"
+ HARPY_TRIBE: "Harpy Tribe"
+ HOZEN_TRIBE: "Hozen Tribe"
+ KOBOLD_TRIBE: "Kobold Tribe"
+ MAGNATAUR_TRIBE: "Magnataur Tribe"
+ MURLOC_TRIBE: "Murloc Tribe"
+ PYGMY_TRIBE: "Pygmy Tribe"
+ QUILLBOAR_TRIBE: "Quillboar Tribe"
+ SPRITELING_TRIBE: "Spriteling Tribe"
+ WOLVAR_TRIBE: "Wolvar Tribe"
+ DESPOTIC_EMPIRE: "Despotic Empire"
+ BUREAUCRATIC_EMPIRE: "Bureaucratic Empire"
+ RELIGIOUS_EMPIRE: "Religious Empire"
  
- mercantile_kingdom: "Mercantile Kingdom"
- mercantile_kingdom_desc: "A kingdom focusing on mercantile opportunities."
+ #------------------
+ # Titles
+ #------------------
+ KING: "King"
+ QUEEN: "Queen"
+ PRINCE: "Prince"
+ PRINCESS: "Princess"
+ HEIR: "Heir"
+ HIGH_PRIEST: "High Priest"
+ HIGH_PRIESTESS: "High Priestess"
+ SEER: "Seer"
+ HIGHLORD: "Highlord"
+ HIGHLADY: "Highlady"
+ WATCHER: "Watcher"
+ DRAGONKING: "Dragonking"
+ DRAGONQUEEN: "Dragonqueen"
+ ELDER: "Elder"
+ CHIEFTAIN: "Chieftain"
+ HIGH_TINKER: "High Tinker"
+ TRADE_PRINCE: "Trade Prince"
+ ARCHMAGE: "Archmage"
+ GUARDIAN: "Guardian"
+ BANSHEE_KING: "Banshee King"
+ BANSHEE_QUEEN: "Banshee Queen"
+ LICH_KING: "Lich King"
+ LICH_QUEEN: "Lich Queen"
+ EMPEROR: "Emperor"
+ EMPRESS: "Empress"
+ PIRATE_LORD: "Pirate Lord"
+ PIRATE_LADY: "Pirate Lady"
+ KHAN: "Khan"
+ KHANUM: "Khanum"
+ WARLORD: "Wardlord"
+ LADY: "Lady"
+ WARCHIEF: "Warchief"
+ WARBRINGER: "Warbringer"
+ ORACLE: "Oracle"
+ WITCH: "Witch"
+ TASKMASTER: "Taskmaster"
+ SULTAN: "Sultan"
+ SULTANA: "Sultana"
+ CHIEF: "Chief"
+
+ #------------------
+ # Governments
+ #------------------
+ bureaucratic_kingdom: "Bureaucratic Kingdom"
+ bureaucratic_kingdom_desc: ""
  
- militaristic_kingdom: "Militaristic Kingdom"
- militaristic_kingdom_desc: "A kingdom focusing on conquest."
+ despotic_kingdom: "Despotic Kingdom"
+ despotic_kingdom_desc: ""
  
- # Republic
- administrative_republic: "Administrative Republic"
- administrative_republic_desc: "A republic focusing on administrative duties."
+ religious_kingdom: "Religious Kingdom"
+ religious_kingdom_desc: ""
  
- mercantile_republic: "Mercantile Republic"
- mercantile_republic_desc: "A republic focusing on mercantile opportunities."
+ tolvir_kingdom: "Tol'viri Kingdom"
+ tolvir_kingdom_desc: ""
  
- militaristic_republic: "Militaristic Republic"
- militaristic_republic_desc: "A republic focusing on conquest."
+ nerubian_kingdom: "Nerubian Kingdom"
+ nerubian_kingdom_desc: ""
  
- dictatorship: "Dictatorship"
- dictatorship_desc: "A former republic governed by military might."
+ vrykul_kingdom: "Vrykul Kingdom"
+ vrykul_kingdom_desc: ""
  
- # Religion
- administrative_theocracy: "Administrative Theocracy"
- administrative_theocracy_desc: "A theocracy focusing on administrative duties."
+ holy_order: "Holy Order"
+ holy_order_desc: ""
  
- mercantile_theocracy: "Mercantile Theocracy"
- mercantile_theocracy_desc: "A theocracy focusing on mercantile opportunities."
+ titan_order: "Titanic Order"
+ titan_order_desc: ""
  
- militaristic_theocracy: "Militaristic Theocracy"
- militaristic_theocracy_desc: "A theocracy focusing on military opportunities."
+ dragon_council: "Dragon Council"
+ dragon_council_desc: ""
  
- administrative_order: "Administrative Order"
- administrative_order_desc: "A religious order focusing on administrative duties."
+ earthen_order: "Titanic Order"
+ earthen_order_desc: ""
  
- mercantile_order: "Mercantile Order"
- mercantile_order_desc: "A religious order focusing on mercantile opportunities."
+ pandaren_commune: "Pandaren Commune"
+ pandaren_commune_desc: ""
  
- militaristic_order: "Militaristic Order"
- militaristic_order_desc: "A religious order focusing on conquest, fueled by religious fervour."
+ dryad_commune: "Dryad Glade"
+ dryad_commune_desc: ""
  
- # Tribe
- religious_tribe: "Religious Tribe"
- religious_tribe_desc: "A tribe with a religious focus."
+ tauren_tribe: "Tauren Camp"
+ tauren_tribe_desc: ""
  
- mercantile_tribe: "Mercantile Tribe"
- mercantile_tribe_desc: "A trading tribe."
+ taunka_tribe: "Taunka Moot"
+ taunka_tribe_desc: ""
  
- war_tribe: "War Tribe"
- war_tribe_desc: "A tribe focused on the conquest of its neighbours."
+ tuskarr_tribe: "Tuskarr Moot"
+ tuskarr_tribe_desc: ""
  
- # Nomad
- qiraji_swarm: "Qiraji Empire"
- qiraji_swarm_desc: "A empire of the Qiraji."
- 
- nerubian_swarm: "Nerubian Kingdom"
- nerubian_swarm_desc: "A nerubian kingdom."
- 
- mantid_swarm: "Mantid Empire"
- mantid_swarm_desc: "The empire of the Mantid."
- 
- the_horde: "The Horde"
- the_horde_desc: "The horde under the principles of Thrall."
- 
- tauren_camp: "Encampment"
- tauren_camp_desc: "A encampment of taurens."
- 
- troll_warband: "Warband"
- troll_warband_desc: "A warband led by trolls."
- 
- satyr_warband: "Warband"
- satyr_warband_desc: "A warband led by satyr."
- 
- orc_warband: "Warband"
- orc_warband_desc: "A warband led by orcs."
- 
- ogre_warband: "Warband"
- ogre_warband_desc: "A warband led by ogres."
- 
- naga_warband: "Warband"
- naga_warband_desc: "A warband led by naga."
- 
- centaur_warband: "Warband"
- centaur_warband_desc: "A warband led by centaurs."
- 
- scourge: "Scourge"
- scourge_desc: "The unstoppable horde of undead under the control of the Lich King."
- 
- # Unique
- dragonflight_council: "Dragonflight"
- dragonflight_council_desc: "One of the elusive dragonflights."
- 
- criminal_organisation: "Criminal Organisation"
- criminal_organisation_desc: "An organisation in open rebellion against a kingdom or republic."
- 
- magocracy: "Magocracy"
- magocracy_desc: "A kingdom based around the Kirin Tor."
- 
- titan_outpost: "Titan Outpost"
- titan_outpost_desc: "An former titan outpost contained watchers."
+ jinyu_tribe: "Jinyu Clan"
+ jinyu_tribe_desc: ""
  
  technocracy: "Technocracy"
- technocracy_desc: "A kingdom based on the combination of technomancy and merit."
+ technocracy_desc: ""
  
- cartel: "Trade Cartel"
- cartel_desc: "A classical trade cartel."
+ trade_cartel: "Trade Cartel"
+ trade_cartel_desc: ""
  
- forsaken: "Forsaken"
- forsaken_desc: "The forsaken peoples."
+ magocracy: "Magocracy"
+ magocracy_desc: ""
  
- cult: "Cult"
- cult_desc: "A gathering of suspicious minds."
-
+ forsaken_warband: "Forsaken"
+ forsaken_warband_desc: ""
+ 
+ scourge_warband: "Scourge"
+ scourge_warband_desc: ""
+ 
+ qiraji_hive: "Qiraji Hive"
+ qiraji_hive_desc: ""
+ 
+ mantid_hive: "Mantid Hive"
+ mantid_hive_desc: ""
+ 
+ pirate_clan: "Pirate Crew"
+ pirate_clan_desc: ""
+ 
+ centaur_clan: "Centaur Warband"
+ centaur_clan_desc: ""
+ 
+ mogu_clan: "Mogu Warband"
+ mogu_clan_desc: ""
+ 
+ naga_clan: "Naga Warband"
+ naga_clan_desc: ""
+ 
+ ogre_clan: "Ogre Clan"
+ ogre_clan_desc: ""
+ 
+ orc_clan: "Orc Clan"
+ orc_clan_desc: ""
+ 
+ satyr_clan: "Satyr Warband"
+ satyr_clan_desc: ""
+ 
+ troll_tribe: "Troll Tribe"
+ troll_tribe_desc: ""
+ 
+ yaungol_tribe: "Yaungol Warband"
+ yaungol_tribe_desc: ""
+ 
+ saurok_tribe: "Saurok Clan"
+ saurok_tribe_desc: ""
+ 
+ furbolg_tribe: "Furbolg Tribe"
+ furbolg_tribe_desC: ""
+ 
+ gnoll_tribe: "Gnoll Tribe"
+ gnoll_tribe_desc: ""
+ 
+ gorloc_tribe: "Gorloc Tribe"
+ gorloc_tribe_desc: ""
+ 
+ harpy_tribe: "Harpy Tribe"
+ harpy_tribe_desc: ""
+ 
+ hozen_tribe: "Hozen Tribe"
+ hozen_tribe_desc: ""
+ 
+ kobold_tribe: "Kobold Tribe"
+ kobold_tribe_desc: ""
+ 
+ magnataur_tribe: "Magnataur Tribe"
+ magnataur_tribe_desc: ""
+ 
+ murloc_tribe: "Murloc Tribe"
+ murloc_tribe_desc: ""
+ 
+ pygmy_tribe: "Pygmy Tribe"
+ pygmy_tribe_desc: ""
+ 
+ quillboar_tribe: "Quillboar Tribe"
+ quillboar_tribe_desc: ""
+ 
+ spriteling_tribe: "Spriteling Tribe"
+ spriteling_tribe_desc: ""
+ 
+ wolvar_tribe: "Wolvar Tribe"
+ wolvar_tribe_desc: ""
+ 
+ despotic_empire: "Despotic Empire"
+ despotic_empire_desc: ""
+ 
+ bureaucratic_empire: "Bureaucratic Empire"
+ bureaucratic_empire_desc: ""
+ 
+ religious_empire: "Religious Empire"
+ religious_empire_desc: ""

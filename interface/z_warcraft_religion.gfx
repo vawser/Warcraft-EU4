@@ -1,4 +1,7 @@
 spriteTypes = {
+    #----------------------------------------------
+    # Icons
+    #----------------------------------------------
     spriteType = {
 		name = "GFX_icon_religion"
 		texturefile = "gfx/interface/religion/religion_icons_64.tga"
@@ -33,8 +36,28 @@ spriteTypes = {
 		loadType = "INGAME"
 		allwaystransparent = yes
 	}
+    
+    #----------------------------------------------
+    # Aspects
+    #----------------------------------------------
+    spriteType = {
+		name = "GFX_protestant_aspects_icon"
+		texturefile = "gfx/interface/religion/protestant_aspects_icon.dds"
+	}	
+    
+    spriteType = {
+		name = "GFX_anglican_aspects_icon"
+		texturefile = "gfx/interface/religion/anglican_aspects_icon.dds"
+	}
 
-    # ---------------- Piety
+    spriteType = {
+		name = "GFX_example_aspect"
+		texturefile = "gfx/interface/religion/divorce_consort_icon.dds"
+	}		
+
+    #----------------------------------------------
+    # Piety
+    #----------------------------------------------
     spriteType = {
 		name = "GFX_piety_icon_high"
 		texturefile = "gfx/interface/religion/high_piety.dds"
@@ -45,21 +68,38 @@ spriteTypes = {
 		texturefile = "gfx/interface/religion/low_piety.dds"
 	}
     
-    # ---------------- Personal Deities
+    spriteType = {
+		name = "GFX_low_piety"
+		texturefile = "gfx/interface/religion/low_piety.dds"
+	}
+
+	spriteType = {
+		name = "GFX_high_piety"
+		texturefile = "gfx/interface/religion/high_piety.dds"
+	}
+    
+    
+    #----------------------------------------------
+    # Deities
+    #----------------------------------------------
     spriteType = {
 		name = "GFX_hindu_deities_strip"
-		texturefile = "gfx//interface//religion/deities_strip.dds"
+		texturefile = "gfx//interface//religion/deity_icon_strip.dds"
 		noOfFrames = 20
 	}
 
-    # ---------------- Cults
+    #----------------------------------------------
+    # Cults
+    #----------------------------------------------
 	spriteType = {
 		name = "GFX_fetishists_strip"
-		texturefile = "gfx//interface//religion/fetishists_strip.dds"
+		texturefile = "gfx//interface//religion/cult_icon_strip.dds"
 		noOfFrames = 20
 	}
 
-    # ---------------- Harmony
+    #----------------------------------------------
+    # Harmony
+    #----------------------------------------------
     spriteType = {
 		name = "GFX_low_harmony"
 		texturefile = "gfx/interface/religion/low_harmony.dds"
@@ -70,7 +110,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/religion/high_harmony.dds"
 	}	
 	
-    # ---------------- Karma
+    #----------------------------------------------
+    # Karma
+    #----------------------------------------------
     spriteType = {
 		name = "GFX_low_karma"
 		texturefile = "gfx/interface/religion/low_karma.dds"
@@ -81,16 +123,87 @@ spriteTypes = {
 		texturefile = "gfx/interface/religion/high_karma.dds"
 	}
 
-    # ---------------- Blessings
+    #----------------------------------------------
+    # Blessings
+    #----------------------------------------------
     spriteType = {
 		name = "GFX_holy_site_default"
 		texturefile = "gfx//interface//religion/holy_site.dds"
 	}
     
-    # ---------------- Papacy
+    #----------------------------------------------
+    # Papacy
+    #----------------------------------------------
     spriteType = {
 		name = "GFX_legion_action_strip"
 		texturefile = "gfx//interface//religion//legion_action_strip.dds"
 		noOfFrames = 16
+	}
+    
+    spriteType = {
+        name = "GFX_papal_influence"
+        texturefile = "gfx//interface//religion//papal_influence.dds"
+        loadType = "INGAME"
+        transparencecheck = yes	
+    }
+    
+    spriteType = {
+        name = "GFX_icon_catholic_reform_desire"
+        texturefile = "gfx//interface//religion//icon_catholic_reform_desire.dds"
+        loadType = "INGAME"
+        transparencecheck = yes	
+    }
+        
+    #----------------------------------------------
+    # Patriarch Authority
+    #----------------------------------------------
+    spriteType = {
+		name = "GFX_icon_patriarch_authority"
+		texturefile = "gfx/interface/religion//icon_patriarch_authority.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_high_patriarch_authority"
+		texturefile = "gfx/interface/religion//icon_high_patriarch_authority.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_low_patriarch_authority"
+		texturefile = "gfx/interface/religion//icon_low_patriarch_authority.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_patriarch_icon"
+		texturefile = "gfx/interface/religion/patriarch_icon.dds"
+		noOfFrames = 2
+	}	
+    
+    spriteType = {
+		name = "GFX_orthodox_icons_strip"
+		texturefile = "gfx//interface//religion//orthodox_icon_strip.dds"
+		noOfFrames = 12
+	}
+    
+    #----------------------------------------------
+    # Isolationism
+    #----------------------------------------------
+    spriteType = {
+		name = "GFX_isolationism_icons"
+		texturefile = "gfx/interface/religion/isolationism_icons.dds"
+		noOfFrames = 5
+	}
+
+	spriteType = {
+		name = "GFX_incident_icons"
+		texturefile = "gfx/interface/religion/incident_icons.dds"
+		noOfFrames = 8
+	}
+    
+    #----------------------------------------------
+    # Religious Schools
+    #----------------------------------------------
+    spriteType = {
+		name = "GFX_icon_example"
+		texturefile = "gfx/interface/religion/icon_muslim_school_jafari.dds"
 	}
 }

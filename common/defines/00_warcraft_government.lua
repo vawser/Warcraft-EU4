@@ -1,6 +1,24 @@
 --------------------------------
 -- GOVERNMENT
 --------------------------------
+NDefines.NCountry.MAX_GOV_RANK = 10
+
+NDefines.NCountry.CULTURAL_UNION_MIN_RANK = 10
+NDefines.NCountry.HRE_RANK = 5
+NDefines.NCountry.HRE_MAX_RANK = 10
+NDefines.NCountry.HRE_MAX_RANK_ELECTOR = 5
+NDefines.NCountry.SUBJECT_MAX_RANK = 9
+
+NDefines.NCountry.PRESTIGE_GAIN_FOR_GOV_RANK_2 = 25
+NDefines.NCountry.MIN_PRESTIGE_FOR_GOV_RANK_2 = 75
+NDefines.NCountry.MIN_DEVELOPMENT_FOR_GOV_RANK_2 = 250
+NDefines.NCountry.PRESTIGE_GAIN_FOR_GOV_RANK_3 = 25
+NDefines.NCountry.MIN_PRESTIGE_FOR_GOV_RANK_3 = 75
+NDefines.NCountry.MIN_DEVELOPMENT_FOR_GOV_RANK_3 = 500
+NDefines.NCountry.PRESTIGE_GAIN_FOR_GOV_RANK_X = 25
+NDefines.NCountry.MIN_PRESTIGE_FOR_GOV_RANK_X = 75
+NDefines.NCountry.ADDITIONAL_MIN_DEVELOPMENT_FOR_GOV_RANK_X = 250
+
 NDefines.NGovernment.RUSSIAN_ABILITY_COST = 100
 NDefines.NGovernment.RUSSIAN_ABILITY_POOL_SIZE = 150
 NDefines.NGovernment.RUSSIAN_ABILITY_BASE_GAIN = 3
@@ -37,3 +55,5 @@ NDefines.NGovernment.TRIBAL_ALLEGIANCE_MAX = 100
 NDefines.NGovernment.TRIBAL_ALLEGIANCE_HUMILIATE = 30.0
 NDefines.NGovernment.TRIBAL_FEDERATION_ABILITY_COST = 50
 NDefines.NGovernment.ENLIST_GENERAL_TRADITION = 50
+
+NDefines.NNationDesigner.MAX_GOVERNMENT_RANK = 10

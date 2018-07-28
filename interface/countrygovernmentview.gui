@@ -817,7 +817,7 @@ guiTypes = {
 
 		iconType = {
 			name ="mamluk_mechanic_bg"
-			spriteType = "GFX_mamluk_mechanic_bg"
+			spriteType = "GFX_enlist_general_button"
 			position = { x = 4 y = -9999 }
 			Orientation = "UPPER_LEFT"
 		}			
@@ -918,7 +918,7 @@ guiTypes = {
 		
 		iconType = {
 			name ="feudal_theocracy_bg"
-			spriteType = "GFX_feudal_theocracy_bg"
+			spriteType = "GFX_enlist_general_button"
 			position = { x = 6 y = -9999 }
 			Orientation = "UPPER_LEFT"
 		}		
@@ -974,7 +974,7 @@ guiTypes = {
 
 		iconType = {
 			name ="tribal_federation_bg"
-			spriteType = "GFX_tribal_federation_bg"
+			spriteType = "GFX_enlist_general_button"
 			position = { x = 16 y = -9999 }
 			Orientation = "UPPER_LEFT"
 		}		
@@ -1045,7 +1045,7 @@ guiTypes = {
 
 		iconType = {
 			name ="iqta_bg"
-			spriteType = "GFX_iqta_bg"
+			spriteType = "GFX_enlist_general_button"
 			position = { x = 14 y = -9999 }
 			Orientation = "UPPER_LEFT"
 		}			
