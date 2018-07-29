@@ -275,10 +275,11 @@ patriarch_authority_global = {
 }
 
 pasha_state = {
-	local_state_maintenance_modifier = -0.5
-	local_unrest = -2
-	local_build_cost = 0.2
-	local_regiment_cost = 0.2
+	local_defensiveness = 1.0
+    local_manpower_modifier = 1.0
+    fort_level = 2
+    local_tax_modifier = -0.5
+    local_production_efficiency = -0.5
 }
 
 colony_level = {
@@ -1403,85 +1404,34 @@ lenient_taxation_modifier = {
 
 # Tribal Allegiance (Tribes)
 train_horsemanship_modifier = {
-	global_colonial_growth = 30
+	global_colonial_growth = 25
 }
 
 # Mamluk
 promote_culture_in_government_modifier = {
-	shock_damage = 0.15
+	years_of_nationalism = -10
 }
 
 # Feudal Theocracy 
 seize_clerical_holdings_modifier = {
-	idea_cost = -0.1
+	core_creation = -0.2
 }
 
 invite_minorities_modifier = {
 	local_manpower_modifier = 0.25
-    local_regiment_cost = -0.1
+    local_regiment_cost = -0.25
 }
 
 ########################################
 # Religious Schools
 ########################################
-hanafi_scholar_modifier = {
-	religion_sub_modifier = yes # Will make icon placed next to religion modifier
-	religion = yes
-	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	adm_tech_cost_modifier = -0.05
-}
-
-hanbali_scholar_modifier = {
-	religion_sub_modifier = yes # Will make icon placed next to religion modifier
-	religion = yes
-	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	ae_impact = -0.1
-}
-
-maliki_scholar_modifier = {
-	religion_sub_modifier = yes # Will make icon placed next to religion modifier
-	religion = yes
-	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	development_cost = -0.1
-}
-
-shafii_scholar_modifier = {
-	religion_sub_modifier = yes # Will make icon placed next to religion modifier
-	religion = yes
-	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	merchants = 1
-}
-
-ismaili_scholar_modifier = {
-	religion_sub_modifier = yes # Will make icon placed next to religion modifier
-	religion = yes
-	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	horde_unity = 1
-	legitimacy = 1
-	republican_tradition = 0.5
-	devotion = 1
-}
-
-jafari_scholar_modifier = {
-	religion_sub_modifier = yes # Will make icon placed next to religion modifier
-	religion = yes
-	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	shock_damage = 0.1
-}
-
-zaidi_scholar_modifier = {
-	religion_sub_modifier = yes # Will make icon placed next to religion modifier
-	religion = yes
-	is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
-	expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
-	shock_damage_received = -0.1
-}
+# hanafi_scholar_modifier = {
+	# religion_sub_modifier = yes # Will make icon placed next to religion modifier
+	# religion = yes
+	# is_scholar_modifier = yes # Tells the AI and will only show the alert if country has none
+	# expire_message_type = "RELIGIOUS_SCHOLAR_EXPIRY"
+	# adm_tech_cost_modifier = -0.05
+# }
 
 ########################################
 # Regiment Types Modifiers
@@ -1494,14 +1444,13 @@ regiment_drill_modifier = { # Used by individual regiments
 }
 
 army_drill_modifier = { # Used by an entire army, is the average of all subunits drill
-	movement_speed = 0.2
+	
 }
 
 janissary_regiment = {
-	fire_damage_received = -0.1
-	shock_damage_received = -0.1
-	reinforce_cost_modifier = 1.0
-	drill_gain_modifier = 1.0
+	shock_damage = 0.2
+	fire_damage = 0.2
+    reinforce_cost_modifier = 1.0
 }
 
 innovativeness = {

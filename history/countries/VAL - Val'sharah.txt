@@ -9,54 +9,11 @@ capital = 1
 # The First War
 776.1.1 = {
     monarch = {
-        name = "Stademai"
-        dynasty = "Stormwater"
-        adm = 0
+        name = "Elucendri"
+        dynasty = "Skywater"
+        adm = 3
         dip = 3
         mil = 1
-    }
-}
-
-# Second War
-806.1.1 = {
-    monarch = {
-        name = "Elucendri"
-        dynasty = "Evenoak"
-        adm = 4
-        dip = 4
-        mil = 0
-    }
-}
-
-# Invasion of Draenor
-830.1.1 = {
-    monarch = {
-        name = "Sharal"
-        dynasty = "Skywater"
-        adm = 5
-        dip = 2
-        mil = 3
-    }
-}
-
-# War of the Spider
-860.1.1 = {
-    monarch = {
-        name = "Elustacen"
-        dynasty = "Rainshadow"
-        adm = 2
-        dip = 0
-        mil = 4
-    }
-}
-
-# Third War
-901.1.1 = {
-    monarch = {
-        name = "Raltal"
-        dynasty = "Misteye"
-        adm = 2
-        dip = 4
-        mil = 4
+        female = yes
     }
 }

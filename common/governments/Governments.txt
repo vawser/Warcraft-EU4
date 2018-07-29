@@ -70,26 +70,26 @@
 #----------------------------
 # Government Mechanics
 #----------------------------
-# Parliament: 
+# Parliament: laws to pass
+    # human_kingdom, dwarf_kingdom
+# Dutch Mechanics: balance between communal leadership and absolute leadership
     # 
-# Dutch Mechanics:
-    # 
-# Harem:
-    # 
-# Militerized Society:
-    # 
+# Harem: orc encampments and warlocks (jannissaries)
+    # orc_clan
+# Militerized Society: bloodlust
+    # forsaken_warband, scourge_warband, centaur_clan, mogu_clan, naga_clan, ogre_clan, orc_clan, satyr_clan, troll_tribe, yaungol_tribe, saurok_tribe
 # Shogunate:
     # 
 # Russian:
-    # 
+    # pirate_clan
 # Feudal Theocracy:
-    # 
+    # qiraji_hive, mantid_hive
 # Tribal Federation:
-    # 
+    # all tribal governments
 # Mamluk:
-    # 
+    # night_elf_theocracy, night_elf_order
 # Iqta:
-    # 
+    # generic 
 
 #----------------------------
 # Static

@@ -20,44 +20,66 @@ forsaken_warband = {
 
     max_states = 10
 
+    militarised_society = yes
+    
 	rank = {
 		1 = {
+            global_manpower_modifier = 0.1
+            reinforce_cost_modifier = -0.025
             global_autonomy = -0.01
             max_absolutism = 20
 		}
 		2 = {
+            global_manpower_modifier = 0.2
+            reinforce_cost_modifier = -0.05
             global_autonomy = -0.02
             max_absolutism = 20
 		}
 		3 = {
+            global_manpower_modifier = 0.3
+            reinforce_cost_modifier = -0.075
             global_autonomy = -0.03
             max_absolutism = 20
 		}
         4 = {
+            global_manpower_modifier = 0.4
+            reinforce_cost_modifier = -0.1
             global_autonomy = -0.04
             max_absolutism = 20
         }
         5 = {
+            global_manpower_modifier = 0.5
+            reinforce_cost_modifier = -0.125
             global_autonomy = -0.05
             max_absolutism = 20
         }
         6 = {
+            global_manpower_modifier = 0.6
+            reinforce_cost_modifier = -0.15
             global_autonomy = -0.06
             max_absolutism = 20
         }
         7 = {
+            global_manpower_modifier = 0.7
+            reinforce_cost_modifier = -0.175
             global_autonomy = -0.07
             max_absolutism = 20
         }
         8 = {
+            global_manpower_modifier = 0.8
+            reinforce_cost_modifier = -0.2
             global_autonomy = -0.08
             max_absolutism = 20
         }
         9 = {
+            global_manpower_modifier = 0.9
+            reinforce_cost_modifier = -0.225
             global_autonomy = -0.09
             max_absolutism = 20
         }
         10 = {
+            global_manpower_modifier = 1.0
+            reinforce_cost_modifier = -0.25
             global_autonomy = -0.1
             max_absolutism = 20
         }
@@ -86,44 +108,66 @@ scourge_warband = {
 
     max_states = 10
 
+    militarised_society = yes
+    
 	rank = {
 		1 = {
+            global_manpower_modifier = 0.1
+            reinforce_cost_modifier = -0.025
             global_autonomy = -0.01
             max_absolutism = 20
 		}
 		2 = {
+            global_manpower_modifier = 0.2
+            reinforce_cost_modifier = -0.05
             global_autonomy = -0.02
             max_absolutism = 20
 		}
 		3 = {
+            global_manpower_modifier = 0.3
+            reinforce_cost_modifier = -0.075
             global_autonomy = -0.03
             max_absolutism = 20
 		}
         4 = {
+            global_manpower_modifier = 0.4
+            reinforce_cost_modifier = -0.1
             global_autonomy = -0.04
             max_absolutism = 20
         }
         5 = {
+            global_manpower_modifier = 0.5
+            reinforce_cost_modifier = -0.125
             global_autonomy = -0.05
             max_absolutism = 20
         }
         6 = {
+            global_manpower_modifier = 0.6
+            reinforce_cost_modifier = -0.15
             global_autonomy = -0.06
             max_absolutism = 20
         }
         7 = {
+            global_manpower_modifier = 0.7
+            reinforce_cost_modifier = -0.175
             global_autonomy = -0.07
             max_absolutism = 20
         }
         8 = {
+            global_manpower_modifier = 0.8
+            reinforce_cost_modifier = -0.2
             global_autonomy = -0.08
             max_absolutism = 20
         }
         9 = {
+            global_manpower_modifier = 0.9
+            reinforce_cost_modifier = -0.225
             global_autonomy = -0.09
             max_absolutism = 20
         }
         10 = {
+            global_manpower_modifier = 1.0
+            reinforce_cost_modifier = -0.25
             global_autonomy = -0.1
             max_absolutism = 20
         }
@@ -151,44 +195,68 @@ qiraji_hive = {
 
     max_states = 10
 
+    government_abilities = {
+        feudal_theocracy_mechanic
+    }
+    
 	rank = {
 		1 = {
+            core_creation = -0.025
+            global_regiment_recruit_speed = -0.025
             global_autonomy = -0.01
             max_absolutism = 20
 		}
 		2 = {
+            core_creation = -0.05
+            global_regiment_recruit_speed = -0.05
             global_autonomy = -0.02
             max_absolutism = 20
 		}
 		3 = {
+            core_creation = -0.075
+            global_regiment_recruit_speed = -0.075
             global_autonomy = -0.03
             max_absolutism = 20
 		}
         4 = {
+            core_creation = -0.1
+            global_regiment_recruit_speed = -0.1
             global_autonomy = -0.04
             max_absolutism = 20
         }
         5 = {
+            core_creation = -0.125
+            global_regiment_recruit_speed = -0.125
             global_autonomy = -0.05
             max_absolutism = 20
         }
         6 = {
+            core_creation = -0.15
+            global_regiment_recruit_speed = -0.15
             global_autonomy = -0.06
             max_absolutism = 20
         }
         7 = {
+            core_creation = -0.175
+            global_regiment_recruit_speed = -0.175
             global_autonomy = -0.07
             max_absolutism = 20
         }
         8 = {
+            core_creation = -0.2
+            global_regiment_recruit_speed = -0.2
             global_autonomy = -0.08
             max_absolutism = 20
         }
         9 = {
+            core_creation = -0.225
+            global_regiment_recruit_speed = -0.225
             global_autonomy = -0.09
             max_absolutism = 20
         }
         10 = {
+            core_creation = -0.25
+            global_regiment_recruit_speed = -0.25
             global_autonomy = -0.1
             max_absolutism = 20
         }
@@ -216,44 +284,68 @@ mantid_hive = {
 
     max_states = 10
 
+    government_abilities = {
+        feudal_theocracy_mechanic
+    }
+    
 	rank = {
 		1 = {
+            land_maintenance_modifier = -0.025
+            global_regiment_recruit_speed = -0.025
             global_autonomy = -0.01
             max_absolutism = 20
 		}
 		2 = {
+            land_maintenance_modifier = -0.05
+            global_regiment_recruit_speed = -0.05
             global_autonomy = -0.02
             max_absolutism = 20
 		}
 		3 = {
+            land_maintenance_modifier = -0.075
+            global_regiment_recruit_speed = -0.075
             global_autonomy = -0.03
             max_absolutism = 20
 		}
         4 = {
+            land_maintenance_modifier = -0.1
+            global_regiment_recruit_speed = -0.1
             global_autonomy = -0.04
             max_absolutism = 20
         }
         5 = {
+            land_maintenance_modifier = -0.125
+            global_regiment_recruit_speed = -0.125
             global_autonomy = -0.05
             max_absolutism = 20
         }
         6 = {
+            land_maintenance_modifier = -0.15
+            global_regiment_recruit_speed = -0.15
             global_autonomy = -0.06
             max_absolutism = 20
         }
         7 = {
+            land_maintenance_modifier = -0.175
+            global_regiment_recruit_speed = -0.175
             global_autonomy = -0.07
             max_absolutism = 20
         }
         8 = {
+            land_maintenance_modifier = -0.2
+            global_regiment_recruit_speed = -0.2
             global_autonomy = -0.08
             max_absolutism = 20
         }
         9 = {
+            land_maintenance_modifier = -0.225
+            global_regiment_recruit_speed = -0.225
             global_autonomy = -0.09
             max_absolutism = 20
         }
         10 = {
+            land_maintenance_modifier = -0.25
+            global_regiment_recruit_speed = -0.25
             global_autonomy = -0.1
             max_absolutism = 20
         }
@@ -281,44 +373,68 @@ pirate_clan = {
 
     max_states = 5
 
+    government_abilities = {
+        russian_mechanic
+    }
+    
 	rank = {
 		1 = {
+            naval_forcelimit_modifier = 0.025
+            naval_maintenance_modifier = -0.025
             global_autonomy = -0.01
             max_absolutism = 10
 		}
 		2 = {
+            naval_forcelimit_modifier = 0.05
+            naval_maintenance_modifier = -0.05
             global_autonomy = -0.02
             max_absolutism = 10
 		}
 		3 = {
+            naval_forcelimit_modifier = 0.075
+            naval_maintenance_modifier = -0.075
             global_autonomy = -0.03
             max_absolutism = 10
 		}
         4 = {
+            naval_forcelimit_modifier = 0.1
+            naval_maintenance_modifier = -0.1
             global_autonomy = -0.04
             max_absolutism = 10
         }
         5 = {
+            naval_forcelimit_modifier = 0.125
+            naval_maintenance_modifier = -0.125
             global_autonomy = -0.05
             max_absolutism = 10
         }
         6 = {
+            naval_forcelimit_modifier = 0.15
+            naval_maintenance_modifier = -0.15
             global_autonomy = -0.06
             max_absolutism = 10
         }
         7 = {
+            naval_forcelimit_modifier = 0.175
+            naval_maintenance_modifier = -0.175
             global_autonomy = -0.07
             max_absolutism = 10
         }
         8 = {
+            naval_forcelimit_modifier = 0.2
+            naval_maintenance_modifier = -0.2
             global_autonomy = -0.08
             max_absolutism = 10
         }
         9 = {
+            naval_forcelimit_modifier = 0.225
+            naval_maintenance_modifier = -0.225
             global_autonomy = -0.09
             max_absolutism = 10
         }
         10 = {
+            naval_forcelimit_modifier = 0.25
+            naval_maintenance_modifier = -0.25
             global_autonomy = -0.1
             max_absolutism = 10
         }
@@ -350,44 +466,66 @@ centaur_clan = {
 
     max_states = 5
 
+    militarised_society = yes
+    
 	rank = {
 		1 = {
+            cavalry_power = 0.025
+            cavalry_cost = -0.025
             global_autonomy = -0.01
             max_absolutism = 10
 		}
 		2 = {
+            cavalry_power = 0.05
+            cavalry_cost = -0.05
             global_autonomy = -0.02
             max_absolutism = 10
 		}
 		3 = {
+            cavalry_power = 0.075
+            cavalry_cost = -0.075
             global_autonomy = -0.03
             max_absolutism = 10
 		}
         4 = {
+            cavalry_power = 0.1
+            cavalry_cost = -0.1
             global_autonomy = -0.04
             max_absolutism = 10
         }
         5 = {
+            cavalry_power = 0.125
+            cavalry_cost = -0.125
             global_autonomy = -0.05
             max_absolutism = 10
         }
         6 = {
+            cavalry_power = 0.15
+            cavalry_cost = -0.15
             global_autonomy = -0.06
             max_absolutism = 10
         }
         7 = {
+            cavalry_power = 0.175
+            cavalry_cost = -0.175
             global_autonomy = -0.07
             max_absolutism = 10
         }
         8 = {
+            cavalry_power = 0.2
+            cavalry_cost = -0.2
             global_autonomy = -0.08
             max_absolutism = 10
         }
         9 = {
+            cavalry_power = 0.225
+            cavalry_cost = -0.225
             global_autonomy = -0.09
             max_absolutism = 10
         }
         10 = {
+            cavalry_power = 0.25
+            cavalry_cost = -0.25
             global_autonomy = -0.1
             max_absolutism = 10
         }
@@ -418,44 +556,56 @@ mogu_clan = {
 
     max_states = 5
 
+    militarised_society = yes
+    
 	rank = {
 		1 = {
+            discipline = 0.01
             global_autonomy = -0.01
             max_absolutism = 10
 		}
 		2 = {
+            discipline = 0.02
             global_autonomy = -0.02
             max_absolutism = 10
 		}
 		3 = {
+            discipline = 0.03
             global_autonomy = -0.03
             max_absolutism = 10
 		}
         4 = {
+            discipline = 0.04
             global_autonomy = -0.04
             max_absolutism = 10
         }
         5 = {
+            discipline = 0.05
             global_autonomy = -0.05
             max_absolutism = 10
         }
         6 = {
+            discipline = 0.06
             global_autonomy = -0.06
             max_absolutism = 10
         }
         7 = {
+            discipline = 0.07
             global_autonomy = -0.07
             max_absolutism = 10
         }
         8 = {
+            discipline = 0.08
             global_autonomy = -0.08
             max_absolutism = 10
         }
         9 = {
+            discipline = 0.09
             global_autonomy = -0.09
             max_absolutism = 10
         }
         10 = {
+            discipline = 0.1
             global_autonomy = -0.1
             max_absolutism = 10
         }
@@ -486,44 +636,56 @@ naga_clan = {
 
     max_states = 5
 
+    militarised_society = yes
+    
 	rank = {
 		1 = {
+            shock_damage = 0.025
             global_autonomy = -0.01
             max_absolutism = 10
 		}
 		2 = {
+            shock_damage = 0.05
             global_autonomy = -0.02
             max_absolutism = 10
 		}
 		3 = {
+            shock_damage = 0.075
             global_autonomy = -0.03
             max_absolutism = 10
 		}
         4 = {
+            shock_damage = 0.1
             global_autonomy = -0.04
             max_absolutism = 10
         }
         5 = {
+            shock_damage = 0.125
             global_autonomy = -0.05
             max_absolutism = 10
         }
         6 = {
+            shock_damage = 0.15
             global_autonomy = -0.06
             max_absolutism = 10
         }
         7 = {
+            shock_damage = 0.175
             global_autonomy = -0.07
             max_absolutism = 10
         }
         8 = {
+            shock_damage = 0.2
             global_autonomy = -0.08
             max_absolutism = 10
         }
         9 = {
+            shock_damage = 0.225
             global_autonomy = -0.09
             max_absolutism = 10
         }
         10 = {
+            shock_damage = 0.25
             global_autonomy = -0.1
             max_absolutism = 10
         }
@@ -554,44 +716,56 @@ ogre_clan = {
 
     max_states = 5
 
+    militarised_society = yes
+    
 	rank = {
 		1 = {
+            siege_ability = 0.025
             global_autonomy = -0.01
             max_absolutism = 10
 		}
 		2 = {
+            siege_ability = 0.05
             global_autonomy = -0.02
             max_absolutism = 10
 		}
 		3 = {
+            siege_ability = 0.075
             global_autonomy = -0.03
             max_absolutism = 10
 		}
         4 = {
+            siege_ability = 0.1
             global_autonomy = -0.04
             max_absolutism = 10
         }
         5 = {
+            siege_ability = 0.125
             global_autonomy = -0.05
             max_absolutism = 10
         }
         6 = {
+            siege_ability = 0.15
             global_autonomy = -0.06
             max_absolutism = 10
         }
         7 = {
+            siege_ability = 0.175
             global_autonomy = -0.07
             max_absolutism = 10
         }
         8 = {
+            siege_ability = 0.2
             global_autonomy = -0.08
             max_absolutism = 10
         }
         9 = {
+            siege_ability = 0.225
             global_autonomy = -0.09
             max_absolutism = 10
         }
         10 = {
+            siege_ability = 0.25
             global_autonomy = -0.1
             max_absolutism = 10
         }
@@ -622,44 +796,69 @@ orc_clan = {
 
     max_states = 5
 
+    has_harem = yes
+	has_pashas = yes
+    
+    militarised_society = yes
+    
 	rank = {
 		1 = {
+            global_manpower_modifier = 0.025
+            land_morale = 0.025
             global_autonomy = -0.01
             max_absolutism = 10
 		}
 		2 = {
+            global_manpower_modifier = 0.05
+            land_morale = 0.05
             global_autonomy = -0.02
             max_absolutism = 10
 		}
 		3 = {
+            global_manpower_modifier = 0.075
+            land_morale = 0.075
             global_autonomy = -0.03
             max_absolutism = 10
 		}
         4 = {
+            global_manpower_modifier = 0.1
+            land_morale = 0.1
             global_autonomy = -0.04
             max_absolutism = 10
         }
         5 = {
+            global_manpower_modifier = 0.125
+            land_morale = 0.125
             global_autonomy = -0.05
             max_absolutism = 10
         }
         6 = {
+            global_manpower_modifier = 0.15
+            land_morale = 0.15
             global_autonomy = -0.06
             max_absolutism = 10
         }
         7 = {
+            global_manpower_modifier = 0.175
+            land_morale = 0.175
             global_autonomy = -0.07
             max_absolutism = 10
         }
         8 = {
+            global_manpower_modifier = 0.2
+            land_morale = 0.2
             global_autonomy = -0.08
             max_absolutism = 10
         }
         9 = {
+            global_manpower_modifier = 0.225
+            land_morale = 0.225
             global_autonomy = -0.09
             max_absolutism = 10
         }
         10 = {
+            global_manpower_modifier = 0.25
+            land_morale = 0.25
             global_autonomy = -0.1
             max_absolutism = 10
         }
@@ -691,44 +890,66 @@ satyr_clan = {
 
     max_states = 5
 
+    militarised_society = yes
+    
 	rank = {
 		1 = {
+            fire_damage = 0.025
+            war_exhaustion_cost = -0.025
             global_autonomy = -0.01
             max_absolutism = 10
 		}
 		2 = {
+            fire_damage = 0.05
+            war_exhaustion_cost = -0.05
             global_autonomy = -0.02
             max_absolutism = 10
 		}
 		3 = {
+            fire_damage = 0.075
+            war_exhaustion_cost = -0.075
             global_autonomy = -0.03
             max_absolutism = 10
 		}
         4 = {
+            fire_damage = 0.1
+            war_exhaustion_cost = -0.1
             global_autonomy = -0.04
             max_absolutism = 10
         }
         5 = {
+            fire_damage = 0.125
+            war_exhaustion_cost = -0.125
             global_autonomy = -0.05
             max_absolutism = 10
         }
         6 = {
+            fire_damage = 0.15
+            war_exhaustion_cost = -0.15
             global_autonomy = -0.06
             max_absolutism = 10
         }
         7 = {
+            fire_damage = 0.175
+            war_exhaustion_cost = -0.175
             global_autonomy = -0.07
             max_absolutism = 10
         }
         8 = {
+            fire_damage = 0.2
+            war_exhaustion_cost = -0.2
             global_autonomy = -0.08
             max_absolutism = 10
         }
         9 = {
+            fire_damage = 0.225
+            war_exhaustion_cost = -0.225
             global_autonomy = -0.09
             max_absolutism = 10
         }
         10 = {
+            fire_damage = 0.25
+            war_exhaustion_cost = -0.25
             global_autonomy = -0.1
             max_absolutism = 10
         }
@@ -759,44 +980,66 @@ troll_tribe = {
 
     max_states = 5
 
+    militarised_society = yes
+    
 	rank = {
 		1 = {
+            land_forcelimit_modifier = 0.025
+            global_regiment_cost = -0.025
             global_autonomy = -0.01
             max_absolutism = 10
 		}
 		2 = {
+            land_forcelimit_modifier = 0.05
+            global_regiment_cost = -0.05
             global_autonomy = -0.02
             max_absolutism = 10
 		}
 		3 = {
+            land_forcelimit_modifier = 0.075
+            global_regiment_cost = -0.075
             global_autonomy = -0.03
             max_absolutism = 10
 		}
         4 = {
+            land_forcelimit_modifier = 0.1
+            global_regiment_cost = -0.1
             global_autonomy = -0.04
             max_absolutism = 10
         }
         5 = {
+            land_forcelimit_modifier = 0.125
+            global_regiment_cost = -0.125
             global_autonomy = -0.05
             max_absolutism = 10
         }
         6 = {
+            land_forcelimit_modifier = 0.15
+            global_regiment_cost = -0.15
             global_autonomy = -0.06
             max_absolutism = 10
         }
         7 = {
+            land_forcelimit_modifier = 0.175
+            global_regiment_cost = -0.175
             global_autonomy = -0.07
             max_absolutism = 10
         }
         8 = {
+            land_forcelimit_modifier = 0.2
+            global_regiment_cost = -0.2
             global_autonomy = -0.08
             max_absolutism = 10
         }
         9 = {
+            land_forcelimit_modifier = 0.225
+            global_regiment_cost = -0.225
             global_autonomy = -0.09
             max_absolutism = 10
         }
         10 = {
+            land_forcelimit_modifier = 0.25
+            global_regiment_cost = -0.25
             global_autonomy = -0.1
             max_absolutism = 10
         }
@@ -827,44 +1070,66 @@ yaungol_tribe = {
 
     max_states = 5
 
+    militarised_society = yes
+    
 	rank = {
-		1 = {
+		1 = {   
+            global_manpower_modifier = 0.025
+            shock_damage_received = -0.025
             global_autonomy = -0.01
             max_absolutism = 10
 		}
 		2 = {
+            global_manpower_modifier = 0.05
+            shock_damage_received = -0.05
             global_autonomy = -0.02
             max_absolutism = 10
 		}
 		3 = {
+            global_manpower_modifier = 0.075
+            shock_damage_received = -0.075
             global_autonomy = -0.03
             max_absolutism = 10
 		}
         4 = {
+            global_manpower_modifier = 0.1
+            shock_damage_received = -0.1
             global_autonomy = -0.04
             max_absolutism = 10
         }
         5 = {
+            global_manpower_modifier = 0.125
+            shock_damage_received = -0.125
             global_autonomy = -0.05
             max_absolutism = 10
         }
         6 = {
+            global_manpower_modifier = 0.15
+            shock_damage_received = -0.15
             global_autonomy = -0.06
             max_absolutism = 10
         }
         7 = {
+            global_manpower_modifier = 0.175
+            shock_damage_received = -0.175
             global_autonomy = -0.07
             max_absolutism = 10
         }
         8 = {
+            global_manpower_modifier = 0.2
+            shock_damage_received = -0.2
             global_autonomy = -0.08
             max_absolutism = 10
         }
         9 = {
+            global_manpower_modifier = 0.225
+            shock_damage_received = -0.225
             global_autonomy = -0.09
             max_absolutism = 10
         }
         10 = {
+            global_manpower_modifier = 0.25
+            shock_damage_received = -0.25
             global_autonomy = -0.1
             max_absolutism = 10
         }
@@ -895,44 +1160,66 @@ saurok_tribe = {
 
     max_states = 5
 
+    militarised_society = yes
+    
 	rank = {
 		1 = {
+            global_regiment_cost = -0.025
+            movement_speed = 0.025
             global_autonomy = -0.01
             max_absolutism = 10
 		}
 		2 = {
+            global_regiment_cost = -0.05
+            movement_speed = 0.05
             global_autonomy = -0.02
             max_absolutism = 10
 		}
 		3 = {
+            global_regiment_cost = -0.075
+            movement_speed = 0.075
             global_autonomy = -0.03
             max_absolutism = 10
 		}
         4 = {
+            global_regiment_cost = -0.1
+            movement_speed = 0.1
             global_autonomy = -0.04
             max_absolutism = 10
         }
         5 = {
+            global_regiment_cost = -0.125
+            movement_speed = 0.125
             global_autonomy = -0.05
             max_absolutism = 10
         }
         6 = {
+            global_regiment_cost = -0.15
+            movement_speed = 0.15
             global_autonomy = -0.06
             max_absolutism = 10
         }
         7 = {
+            global_regiment_cost = -0.175
+            movement_speed = 0.175
             global_autonomy = -0.07
             max_absolutism = 10
         }
         8 = {
+            global_regiment_cost = -0.2
+            movement_speed = 0.2
             global_autonomy = -0.08
             max_absolutism = 10
         }
         9 = {
+            global_regiment_cost = -0.225
+            movement_speed = 0.225
             global_autonomy = -0.09
             max_absolutism = 10
         }
         10 = {
+            global_regiment_cost = -0.25
+            movement_speed = 0.25
             global_autonomy = -0.1
             max_absolutism = 10
         }

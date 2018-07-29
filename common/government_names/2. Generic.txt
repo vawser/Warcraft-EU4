@@ -110,29 +110,29 @@ gov_human_settlement = {
 	}
 
 	ruler_male = {
-		1 = GOVERNOR
-		2 = GOVERNOR
-		3 = GOVERNOR
-		4 = GOVERNOR
-		5 = GOVERNOR
-		6 = GOVERNOR
-		7 = GOVERNOR
-		8 = GOVERNOR
-		9 = GOVERNOR
-		10 = GOVERNOR
+		1 = LORD
+		2 = LORD
+		3 = LORD
+		4 = LORD
+		5 = LORD
+		6 = LORD
+		7 = LORD
+		8 = LORD
+		9 = LORD
+		10 = LORD
 	}
 
 	ruler_female = {
-		1 = GOVERNOR
-		2 = GOVERNOR
-		3 = GOVERNOR
-		4 = GOVERNOR
-		5 = GOVERNOR
-		6 = GOVERNOR
-		7 = GOVERNOR
-		8 = GOVERNOR
-		9 = GOVERNOR
-		10 = GOVERNOR
+		1 = LORD
+		2 = LORD
+		3 = LORD
+		4 = LORD
+		5 = LORD
+		6 = LORD
+		7 = LORD
+		8 = LORD
+		9 = LORD
+		10 = LORD
 	}
 
     consort_male = {
@@ -304,29 +304,29 @@ gov_dwarf_settlement = {
 	}
 
 	ruler_male = {
-		1 = GOVERNOR
-		2 = GOVERNOR
-		3 = GOVERNOR
-		4 = GOVERNOR
-		5 = GOVERNOR
-		6 = GOVERNOR
-		7 = GOVERNOR
-		8 = GOVERNOR
-		9 = GOVERNOR
-		10 = GOVERNOR
+		1 = LORD
+		2 = LORD
+		3 = LORD
+		4 = LORD
+		5 = LORD
+		6 = LORD
+		7 = LORD
+		8 = LORD
+		9 = LORD
+		10 = LORD
 	}
 
 	ruler_female = {
-		1 = GOVERNOR
-		2 = GOVERNOR
-		3 = GOVERNOR
-		4 = GOVERNOR
-		5 = GOVERNOR
-		6 = GOVERNOR
-		7 = GOVERNOR
-		8 = GOVERNOR
-		9 = GOVERNOR
-		10 = GOVERNOR
+		1 = LORD
+		2 = LORD
+		3 = LORD
+		4 = LORD
+		5 = LORD
+		6 = LORD
+		7 = LORD
+		8 = LORD
+		9 = LORD
+		10 = LORD
 	}
 
     consort_male = {
@@ -388,16 +388,16 @@ gov_dwarf_settlement = {
 }
 gov_dark_iron_kingdom = {
 	rank = {
-		1 = DESPOTIC_KINGDOM
-		2 = DESPOTIC_KINGDOM
-		3 = DESPOTIC_KINGDOM
-		4 = DESPOTIC_KINGDOM
-		5 = DESPOTIC_KINGDOM
-		6 = DESPOTIC_KINGDOM
-		7 = DESPOTIC_KINGDOM
-		8 = DESPOTIC_KINGDOM
-		9 = DESPOTIC_KINGDOM
-		10 = DESPOTIC_KINGDOM
+		1 = DARK_IRON_KINGDOM
+		2 = DARK_IRON_KINGDOM
+		3 = DARK_IRON_KINGDOM
+		4 = DARK_IRON_KINGDOM
+		5 = DARK_IRON_KINGDOM
+		6 = DARK_IRON_KINGDOM
+		7 = DARK_IRON_KINGDOM
+		8 = DARK_IRON_KINGDOM
+		9 = DARK_IRON_KINGDOM
+		10 = DARK_IRON_KINGDOM
 	}
 
 	ruler_male = {
@@ -1151,7 +1151,7 @@ gov_night_elf_order = {
     }
 
 	trigger = {
-		government = night_elf
+		government = night_elf_order
 	}
 }
 gov_draenei_order = {
@@ -2404,16 +2404,16 @@ gov_magocracy = {
 }
 gov_forsaken_warband = {
 	rank = {
-		1 = FORSAKEN_WARBAND
-		2 = FORSAKEN_WARBAND
-		3 = FORSAKEN_WARBAND
-		4 = FORSAKEN_WARBAND
-		5 = FORSAKEN_WARBAND
-		6 = FORSAKEN_WARBAND
-		7 = FORSAKEN_WARBAND
-		8 = FORSAKEN_WARBAND
-		9 = FORSAKEN_WARBAND
-		10 = FORSAKEN_WARBAND
+		1 = FORSAKEN
+		2 = FORSAKEN
+		3 = FORSAKEN
+		4 = FORSAKEN
+		5 = FORSAKEN
+		6 = FORSAKEN
+		7 = FORSAKEN
+		8 = FORSAKEN
+		9 = FORSAKEN
+		10 = FORSAKEN
 	}
 
 	ruler_male = {
@@ -2500,16 +2500,16 @@ gov_forsaken_warband = {
 }
 gov_scourge_warband = {
 	rank = {
-		1 = SCOURGE_WARBAND
-		2 = SCOURGE_WARBAND
-		3 = SCOURGE_WARBAND
-		4 = SCOURGE_WARBAND
-		5 = SCOURGE_WARBAND
-		6 = SCOURGE_WARBAND
-		7 = SCOURGE_WARBAND
-		8 = SCOURGE_WARBAND
-		9 = SCOURGE_WARBAND
-		10 = SCOURGE_WARBAND
+		1 = SCOURGE
+		2 = SCOURGE
+		3 = SCOURGE
+		4 = SCOURGE
+		5 = SCOURGE
+		6 = SCOURGE
+		7 = SCOURGE
+		8 = SCOURGE
+		9 = SCOURGE
+		10 = SCOURGE
 	}
 
 	ruler_male = {
@@ -2788,16 +2788,16 @@ gov_mantid_hive = {
 }
 gov_pirate_clan = {
 	rank = {
-		1 = PIRATE_CLAN
-		2 = PIRATE_CLAN
-		3 = PIRATE_CLAN
-		4 = PIRATE_CLAN
-		5 = PIRATE_CLAN
-		6 = PIRATE_CLAN
-		7 = PIRATE_CLAN
-		8 = PIRATE_CLAN
-		9 = PIRATE_CLAN
-		10 = PIRATE_CLAN
+		1 = PIRATE_CREW
+		2 = PIRATE_CREW
+		3 = PIRATE_CREW
+		4 = PIRATE_CREW
+		5 = PIRATE_CREW
+		6 = PIRATE_CREW
+		7 = PIRATE_CREW
+		8 = PIRATE_CREW
+		9 = PIRATE_CREW
+		10 = PIRATE_CREW
 	}
 
 	ruler_male = {
@@ -2884,16 +2884,16 @@ gov_pirate_clan = {
 }
 gov_centaur_clan = {
 	rank = {
-		1 = CENTAUR_CLAN
-		2 = CENTAUR_CLAN
-		3 = CENTAUR_CLAN
-		4 = CENTAUR_CLAN
-		5 = CENTAUR_CLAN
-		6 = CENTAUR_CLAN
-		7 = CENTAUR_CLAN
-		8 = CENTAUR_CLAN
-		9 = CENTAUR_CLAN
-		10 = CENTAUR_CLAN
+		1 = CENTAUR_WARBAND
+		2 = CENTAUR_WARBAND
+		3 = CENTAUR_WARBAND
+		4 = CENTAUR_WARBAND
+		5 = CENTAUR_WARBAND
+		6 = CENTAUR_WARBAND
+		7 = CENTAUR_WARBAND
+		8 = CENTAUR_WARBAND
+		9 = CENTAUR_WARBAND
+		10 = CENTAUR_WARBAND
 	}
 
 	ruler_male = {
@@ -2980,16 +2980,16 @@ gov_centaur_clan = {
 }
 gov_mogu_clan = {
 	rank = {
-		1 = MOGU_CLAN
-		2 = MOGU_CLAN
-		3 = MOGU_CLAN
-		4 = MOGU_CLAN
-		5 = MOGU_CLAN
-		6 = MOGU_CLAN
-		7 = MOGU_CLAN
-		8 = MOGU_CLAN
-		9 = MOGU_CLAN
-		10 = MOGU_CLAN
+		1 = MOGU_WARBAND
+		2 = MOGU_WARBAND
+		3 = MOGU_WARBAND
+		4 = MOGU_WARBAND
+		5 = MOGU_WARBAND
+		6 = MOGU_WARBAND
+		7 = MOGU_WARBAND
+		8 = MOGU_WARBAND
+		9 = MOGU_WARBAND
+		10 = MOGU_WARBAND
 	}
 
 	ruler_male = {
@@ -3076,16 +3076,16 @@ gov_mogu_clan = {
 }
 gov_naga_clan = {
 	rank = {
-		1 = NAGA_CLAN
-		2 = NAGA_CLAN
-		3 = NAGA_CLAN
-		4 = NAGA_CLAN
-		5 = NAGA_CLAN
-		6 = NAGA_CLAN
-		7 = NAGA_CLAN
-		8 = NAGA_CLAN
-		9 = NAGA_CLAN
-		10 = NAGA_CLAN
+		1 = NAGA_WARBAND
+		2 = NAGA_WARBAND
+		3 = NAGA_WARBAND
+		4 = NAGA_WARBAND
+		5 = NAGA_WARBAND
+		6 = NAGA_WARBAND
+		7 = NAGA_WARBAND
+		8 = NAGA_WARBAND
+		9 = NAGA_WARBAND
+		10 = NAGA_WARBAND
 	}
 
 	ruler_male = {
@@ -3364,16 +3364,16 @@ gov_orc_clan = {
 }
 gov_satyr_clan = {
 	rank = {
-		1 = SATYR_CLAN
-		2 = SATYR_CLAN
-		3 = SATYR_CLAN
-		4 = SATYR_CLAN
-		5 = SATYR_CLAN
-		6 = SATYR_CLAN
-		7 = SATYR_CLAN
-		8 = SATYR_CLAN
-		9 = SATYR_CLAN
-		10 = SATYR_CLAN
+		1 = SATYR_WARBAND
+		2 = SATYR_WARBAND
+		3 = SATYR_WARBAND
+		4 = SATYR_WARBAND
+		5 = SATYR_WARBAND
+		6 = SATYR_WARBAND
+		7 = SATYR_WARBAND
+		8 = SATYR_WARBAND
+		9 = SATYR_WARBAND
+		10 = SATYR_WARBAND
 	}
 
 	ruler_male = {
@@ -3556,16 +3556,16 @@ gov_troll_tribe = {
 }
 gov_yaungol_tribe = {
 	rank = {
-		1 = YAUNGOL_TRIBE
-		2 = YAUNGOL_TRIBE
-		3 = YAUNGOL_TRIBE
-		4 = YAUNGOL_TRIBE
-		5 = YAUNGOL_TRIBE
-		6 = YAUNGOL_TRIBE
-		7 = YAUNGOL_TRIBE
-		8 = YAUNGOL_TRIBE
-		9 = YAUNGOL_TRIBE
-		10 = YAUNGOL_TRIBE
+		1 = YAUNGOL_WARBAND
+		2 = YAUNGOL_WARBAND
+		3 = YAUNGOL_WARBAND
+		4 = YAUNGOL_WARBAND
+		5 = YAUNGOL_WARBAND
+		6 = YAUNGOL_WARBAND
+		7 = YAUNGOL_WARBAND
+		8 = YAUNGOL_WARBAND
+		9 = YAUNGOL_WARBAND
+		10 = YAUNGOL_WARBAND
 	}
 
 	ruler_male = {
@@ -3652,16 +3652,16 @@ gov_yaungol_tribe = {
 }
 gov_saurok_tribe = {
 	rank = {
-		1 = SAUROK_TRIBE
-		2 = SAUROK_TRIBE
-		3 = SAUROK_TRIBE
-		4 = SAUROK_TRIBE
-		5 = SAUROK_TRIBE
-		6 = SAUROK_TRIBE
-		7 = SAUROK_TRIBE
-		8 = SAUROK_TRIBE
-		9 = SAUROK_TRIBE
-		10 = SAUROK_TRIBE
+		1 = SAUROK_CLAN
+		2 = SAUROK_CLAN
+		3 = SAUROK_CLAN
+		4 = SAUROK_CLAN
+		5 = SAUROK_CLAN
+		6 = SAUROK_CLAN
+		7 = SAUROK_CLAN
+		8 = SAUROK_CLAN
+		9 = SAUROK_CLAN
+		10 = SAUROK_CLAN
 	}
 
 	ruler_male = {

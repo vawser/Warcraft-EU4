@@ -45,13 +45,13 @@
  alert_can_use_feudal_theocracy_ability_instant:0 "§YCan use a Government ability!§!"
  alert_can_use_tribal_federation_ability_instant:0 "§YCan use a Government ability!§!"
  
- # Russian (Legion)
+ # Russian 
  russian_adm_power:0 "Administrative Progress"
  russian_dip_power:0 "Diplomatic Progress"
  russian_mil_power:0 "Military Progress"
  RUSABIL_SUDEBNIK: "Consolidate Power"
  RUSABIL_OPRICHNINA:0 "Suppress Dissent"
- RUSABIL_STRELTSY:0 "Muster Veterans"
+ RUSABIL_STRELTSY:0 "Muster Troops"
  RUSABIL_SUDEBNIK_Q:0 "This will impact Autonomy by $CHANGE|G$ in all our Provinces."
  RUSABIL_OPRICHNINA_Q:0 "This will impact progress for all rebel factions by $CHANGE$."
  RUSABIL_STRELTSY_Q:0 "This will impact war exhaustion by $CHANGE$ and raise $UNITS|Y$ Veteran Regiments in our capital."
@@ -61,7 +61,7 @@
  RUSABIL_NO_REBELS:0 "There are no rebel factions with a progress of at least $VAL|R$, so there is no need to '$NAME|Y$'."
  RUSABIL_DO_IT_OPRI:0 "By using $VAL|Y$ gathered power for '$NAME|Y$', we will impact progress for all rebel factions by $CHANGE$."
  RUSABIL_NO_CAPITAL:0 "Your capital needs to be under your control for you to be able to '$NAME|Y$'."
- RUSABIL_DO_IT_STRELTSY:0 "By using $VAL|Y$ gathered power for '$NAME|Y$', we will impact war exhaustion by $CHANGE$ and raise $UNITS|Y$ Veteran Legionary Regiments in our capital. "
+ RUSABIL_DO_IT_STRELTSY:0 "By using $VAL|Y$ gathered power for '$NAME|Y$', we will impact war exhaustion by $CHANGE$ and raise $UNITS|Y$ Elite Regiments in our capital. "
  RUSABIL_STRELTSY_MODIFIER:0 "This will increase our stability cost to $MODIFIER$ by relying on these regiments."
  RUSABIL_POOL:0 "We gain §G+$GAIN$§! to the pool at the start of each year, up to a maximum of $MAX|Y$\nWe currently have $CURR|R$ and using an ability costs $NEED|Y$."
  
@@ -84,43 +84,43 @@
  desc_lenient_taxation_modifier:0 ""
  
  # Mamluk (New Vegas)
- promote_culture_in_government:0 "Empower Securitrons"
+ promote_culture_in_government:0 "Seek Elune's Blessing"
  promote_culture_in_government_desc:0 ""
- sell_off_culture_slaves:0 "Advertise Casinos"
+ sell_off_culture_slaves:0 "Commune with Nature"
  sell_off_culture_slaves_desc:0 "You will get $AMOUNT|Y$ ducats, from your $CULTURE|Y$ Culture provinces.\n"
- recruit_from_culture_lands:0 "Conscript Tribals"
+ recruit_from_culture_lands:0 "Befriend Wild Creatures"
  recruit_from_culture_lands_desc:0 "You will get $AMOUNT|Y$ manpower, from your $CULTURE|Y$ Culture provinces.\n"
  
  mamluk_adm_power: "Administrative Progress"
  mamluk_dip_power: "Diplomatic Progress"
  mamluk_mil_power: "Military Progress"
  
- promote_culture_in_government_modifier: "Empower Securitrons"
- desc_promote_culture_in_government_modifier: "Mr. House has chosen to divert some of his stored power into empowering his Securitrons. This greatly improves their killing effectiveness, although empowerment cannot be sustained for long."
+ promote_culture_in_government_modifier: "Elune's Blessing"
+ desc_promote_culture_in_government_modifier: "Elune has seen it wise to bless our soldiers with here awesome power, strictly for the defence of the wilds."
  
  # Feudal Theocracy (BoS Order)
  SANCTION_HOLY_WAR_NO_PROVINCES:0 "You already have a Claim or a Core on all valid Provinces.\n"
  INVITE_MINORITIES_NOT_OWNED:0 "You need to own and control every Province in your capital Area to do this.\n"
  INVITE_MINORITIES_NO_MINORITY:0 "You need to know about a foreign Province of your Religion, owned by a Heathen or Heretic, to do this.\n"
  
- seize_clerical_holdings:0 "Conduct Research"
+ seize_clerical_holdings:0 "Establish Hives"
  seize_clerical_holdings_desc:0 ""
- invite_minorities:0 "Conscript External Recruits"
+ invite_minorities:0 "Harness Latent Evil"
  invite_minorities_desc:0 "$DEV|Y$ Development will be randomly distributed in your capital Area."
- sanction_holy_war:0 "Quell Potential Rivals"
+ sanction_holy_war:0 "Consume Enemies"
  sanction_holy_war_desc:0 "This gives us a Claim on all neighboring Provinces currently owned by neutral or enemy heretics or heathens:\n$LIST$"
  
- seize_clerical_holdings_modifier:0 "Conducted Research"
- desc_seize_clerical_holdings_modifier:0 "We have researched the uses and attributes of various pieces of technology we scavenged."
- invite_minorities_modifier:0 "Conscripted External Recruits"
- desc_invite_minorities_modifier:0 "By accepting non-familial members, we can bolster our forces quicker and be battle-ready sooner."
+ seize_clerical_holdings_modifier:0 "Established Hives"
+ desc_seize_clerical_holdings_modifier:0 "We have established new hives."
+ invite_minorities_modifier:0 "Harnessed Latent Evil"
+ desc_invite_minorities_modifier:0 "By harnessing latent forces of evil in enemy lands, we have empowered our own forces."
  
  # Tribal Allegiance (Tribes)
  enlist_general:0 "Enlist General"
  enlist_general_desc:0 "You will get a new General with $TRADITION|Y$ Tradition.\n"
  train_horsemanship:0 "Expand Tribal Influence"
  train_horsemanship_desc:0 ""
- conscript_from_tribes:0 "Form Roaming Deathsquad"
+ conscript_from_tribes:0 "Conscript from Tribes"
  conscript_from_tribes_desc:0 ""
  
  tribal_allegiance:0 "Tribal Allegiance"
@@ -128,7 +128,35 @@
  tribal_allegiance_effect:0 "Effects from $VAL|Y$ Tribal Allegiance:\n$EFFECTS$"
  
  train_horsemanship_modifier:0 "Expanded Tribal Influence"
- desc_train_horsemanship_modifier:0 "Let our tribesmen settle new lands and exert control over them."
+ desc_train_horsemanship_modifier:0 "Let our tribal people settle new lands and exert control over them."
+ 
+ #------------------------------------------------------
+ # Militarization
+ #------------------------------------------------------
+ militarized_society:0 "Bloodlust"
+ INCMILSOCTITLE:0 "Increase Bloodlust of Country"
+ INC_M_ALREADY_MAX:0 "Bloodlust is already at its highest!"
+ MIL_SOC_CHANGE:0 "The Bloodlust of our Country change by $VAL$ each month due to:\n"
+ INC_MIL_NO_POINTS:0 "You require at least $COST|Y$ military power to increase the Bloodlust of your country, but you only have $VAL|Y$!"
+ INC_MIL_DO_IT:0 "Spend $COST|Y$ military power to increase the Bloodlust of your country by §G+$EFFECT$§!."
+ MODIFIER_MONTHLY_MILITARIZED_SOCIETY:0 "Bloodlust"
+ ADD_MILSOC_EFFECT:0 "$DIRECTION$ $VALUE$ Bloodlust of country.\n"
+ 
+ #------------------------------------------------------
+ # Pasha
+ #------------------------------------------------------
+ ADD_PASHA_BUTTON:0 "Assign Encampment"
+ REMOVE_PASHA_BUTTON:0 "Remove Encampment"
+ ADD_PASHA_TOOLTIP:0 "§YAssign Encampment§!"
+ REMOVE_PASHA_TOOLTIP:0 "§YRemove Encampment§!"
+ ADD_PASHA_TOOLTIP_DESC:0 "With §YOrc Clan§! we are capable of assigning Encampments in States.\nAssigning a Encampment in $STATE|Y$ will give us the following effects:\n$EFFECT$"
+ REMOVE_PASHA_TOOLTIP_DESC:0 "Removing the Encampment in $STATE|Y$ will give us the following effects:\n$EFFECT$"
+ CONFIRMADDPASHA:0 "Assign Encampment"
+ CONFIRMADDPASHA_TEXT:1 "Assigning a Encampment in $STATE|Y$ will give us the following effects:\n$EFFECT$"
+ CONFIRMREMOVEPASHA:0 "Remove Encampment"
+ CONFIRMREMOVEPASHA_TEXT:1 "Removing the Encampment in $STATE|Y$ will give us the following effects:\n$EFFECT$"
+ pasha_removed_modifier:0 "Encampment Removed"
+ PASHA_MODIFIER:0 "Encampment in State"
  
  #------------------------------------------------------
  # Parliament
@@ -204,9 +232,9 @@
  ASPECTS: "Augmentations"
  SHOW_ASPECTS: "Show Augmentations"
  PICK_ASPECT: "§YYou can now pick a new Augmentation!§!"
- PICK_ASPECT_DESC: "Picking an Augmentation unlocks a unique bonus for your religion. You can only do so once you have accumulated enough Temple Power, and only if having less than the total maximum number of aspects already selected."
+ PICK_ASPECT_DESC: "Picking an Augmentation unlocks a unique bonus for your religion. You can only do so once you have accumulated enough Augmentation Power, and only if having less than the total maximum number of aspects already selected."
  CONFIRM_NEW_ASPECT_TITLE: "Confirm New Augmentation"
- CONFIRM_NEW_ASPECT_DESC: "Do you wish to add $NAME|Y$ to your Augmentations? It will cost us $COST$ Temple Power"
+ CONFIRM_NEW_ASPECT_DESC: "Do you wish to add $NAME|Y$ to your Augmentations? It will cost us $COST$ Augmentation Power"
  CONFIRM_REMOVE_ASPECT_TITLE: "Confirm Removing Augmentation"
  CONFIRM_REMOVE_ASPECT_DESC_A: "Do you wish to remove $NAME|Y$ from your Augmentations?"
  CONFIRM_REMOVE_ASPECT_DESC_B: "It will cause a $COST$ loss to stability."
@@ -216,8 +244,8 @@
  NUM_ASPECTS_LESS_THAN: "Number of Augmentations less than "
  NUM_ASPECTS_MORE_THAN: "Number of Augmentations more than "
  NO_ASPECT_SELECTED: "No Augmentation chosen"
- CHANGE_ASPECT_TOO_LOW_POWER: "§RYou need at least $COST$ Temple Power to be able to add another vision§! (currently have $CURRENT|Y$)\n"
- CHANGE_ASPECT_TOO_LOW_STAB: "§RYou need to have at least $MIN$ stability to be able to remove an vision§!\n"
+ CHANGE_ASPECT_TOO_LOW_POWER: "§RYou need at least $COST$ Augmentation Power to be able to add another augmentation§! (currently have $CURRENT|Y$)\n"
+ CHANGE_ASPECT_TOO_LOW_STAB: "§RYou need to have at least $MIN$ stability to be able to remove an augmentation§!\n"
  CHANGE_ASPECT_TOO_MANY: "Can at most have $MAX$ Augmentations. Remove one to pick another.\n"
  CHANGE_ASPECT_NONE: "There are no Augmentations to remove!\n"
  CHANGE_ASPECT_TAKEN: "§RThe slot is already taken! Remove Augmentation first.§!\n"
@@ -264,7 +292,7 @@
  #---------------------------------------------------------
  # Patriarchy (Attunement)
  #---------------------------------------------------------
- PATRIARCH_DESCRIPTION: "Attunement represents the level of connection our citizens have with their elemental overlord. In attuned provinces, high Attunement will confer bonuses."
+ PATRIARCH_DESCRIPTION: "Attunement represents the level of connection our citizens have with the elements. In attuned provinces, high Attunement will confer bonuses."
  CURRENT_PATRIARCH_AUTHORITY: "Current Attunement"
  CURRENT_PATRIARCH_AUTHORITY: "Current Attunement"
  PATRIARCH_AUTHORIT_AT_LEAST: "Attunement is at least §Y$VAL$§W percent.\n"
@@ -329,34 +357,6 @@
  GAIN_PIETY:0 "Gain $VALUE|Y$ Warlust"
  LOSE_PIETY:0 "Lose $VALUE|Y$ Warlust"
  
- #------------------------------------------------------
- # Militarization
- #------------------------------------------------------
- militarized_society:0 "Militarization"
- INCMILSOCTITLE:0 "Increase Militarization of Country"
- INC_M_ALREADY_MAX:0 "Militarization is already at its highest!"
- MIL_SOC_CHANGE:0 "The Militarization of our Country change by $VAL$ each month due to:\n"
- INC_MIL_NO_POINTS:0 "You require at least $COST|Y$ military power to increase the Militarization of your country, but you only have $VAL|Y$!"
- INC_MIL_DO_IT:0 "Spend $COST|Y$ military power to increase the Militarization of your country by §G+$EFFECT$§!."
- MODIFIER_MONTHLY_MILITARIZED_SOCIETY:0 "Militarization"
- ADD_MILSOC_EFFECT:0 "$DIRECTION$ $VALUE$ Militarization of country.\n"
- 
- #------------------------------------------------------
- # Pasha
- #------------------------------------------------------
- ADD_PASHA_BUTTON:0 "Assign Pasha"
- REMOVE_PASHA_BUTTON:0 "Remove Pasha"
- ADD_PASHA_TOOLTIP:0 "§YAssign Pasha§!"
- REMOVE_PASHA_TOOLTIP:0 "§YRemove Pasha§!"
- ADD_PASHA_TOOLTIP_DESC:0 "With §YOttoman Government§! we are capable of giving out positions of Pashas in States.\nAssigning a Pasha in $STATE|Y$ will give us the following effects:\n$EFFECT$"
- REMOVE_PASHA_TOOLTIP_DESC:0 "Removing the Pasha in $STATE|Y$ will give us the following effects:\n$EFFECT$"
- CONFIRMADDPASHA:0 "Assign Pasha"
- CONFIRMADDPASHA_TEXT:1 "Assigning a Pasha in $STATE|Y$ will give us the following effects:\n$EFFECT$"
- CONFIRMREMOVEPASHA:0 "Remove Pasha"
- CONFIRMREMOVEPASHA_TEXT:1 "Removing the Pasha in $STATE|Y$ will give us the following effects:\n$EFFECT$"
- pasha_removed_modifier:0 "Pasha Removed"
- PASHA_MODIFIER:0 "Pasha in State"
- 
  #---------------------------------------------------------
  # Reform Desire
  #---------------------------------------------------------
@@ -371,16 +371,53 @@
  #------------------------------------------------------
  # Units
  #------------------------------------------------------
- REGCAT_normal:0 "Infantry"
- REGCAT_mercenary:0 "Mercenaries"
- REGCAT_banner:0 "Cavalry"
- REGCAT_streltsy:0 "Veteran Infantry Regiment"
- REGCAT_cossacks:0 "Veteran Cavalry Regiment"
- COSSACKS_NAME:0 "$HOME$'s $NUM$$ORDER$ Veteran Cavalry Regiment"
- COSSACKS_REGIMENT:0 "Veteran Cavalry Regiment\nShock Damage Bonus: $VAL$"
- STRELTSY_NAME:0 "$HOME$'s $NUM$$ORDER$ Veteran Infantry Regiment"
- STRELTSY_REGIMENT:0 "Veteran Cavalry Regiment\nFire Damage Bonus: $VAL$"
+ REGCAT_streltsy:0 "Elites"
+ STRELTSY_NAME:0 "$HOME$'s $NUM$$ORDER$ Elites"
+ STRELTSY_REGIMENT:0 "Elite Regiment\nFire Damage Bonus: $VAL$"
+ 
+ REGCAT_cossacks:0 "Elites"
+ COSSACKS_NAME:0 "$HOME$'s $NUM$$ORDER$ Elites"
+ COSSACKS_REGIMENT:0 "Elite Regiment\nShock Damage Bonus: $VAL$"
 
+ #------------------------------------------------------
+ # Banners
+ #------------------------------------------------------
+ REGCAT_banner:0 "Elites"
+ BANNERS_NOT_OURS:0 "You can raise Elites here. Elites cost Corruption to raise and have higher Discipline than normal troops.\n\nYou can only raise Elites from states that you own. Please select a province that you are the owner of."
+ BANNER_NOWHERE_TO_GO:0 "There are no provinces fully under our control in $NAME$ for us to be able to raise Elites."
+ BANNER_ALL_RAISED:0 "$NAME$ can not raise more Elites, as there are already $CURR$ raised."
+ RAISE_MANCHU_BANNERS:0 "Raise Elites"
+ BANNERS_FROM_TT:0 "You can raise Elites here. Elites cost Corruption to raise and have higher Discipline than normal troops.\n\n$NAME$ can raise a total of $AMOUNT|Y$ Horse Riders due to:\n"
+ STATE_CORRUPTION_INC:0 "Raising $RAISED|Y$ regiments as Horse Riders will increase corruption by $INC$."
+ 
+ MODIFIER_AMOUNT_OF_BANNERS:0 "Possible Elites"
+ MODIFIER_LOCAL_AMOUNT_OF_BANNERS:0 "Possible Elites"
+ MODIFIER_HAS_BANNERS:0 "Has Elites"
+ 
+ HAVE_LESS_BANNERS_THAN:0 "Have less Elites than §Y$VALUE$§!.\n"
+ HAVE_AT_LEAST_BANNERS_THAN:0 "Have at least §Y$VALUE$§! Elites.\n"
+ 
+ CONFIRRAISEBANNER:0 "Confirm Raise Elites"
+ 
+ BANNER_REGIMENT:0 "Elite Regiment\nDiscipline Bonus: $DISC$"
+ 
+ BANNER_NONE_AVAIL:0 "There are not enough People in $NAME$ for us to be able to raise a single elite."
+ 
+ #------------------------------------------------------
+ # Jannissaries
+ #------------------------------------------------------
+ STATE_JANISSARIES_GOVERNMENT_ALLOWS:0 "Only nations with Orc Clan can Conscript Warlocks."
+ STATE_JANISSARIES_COOLDOWN:0 "Can recruit more Warlocks at $DATE|Y$."
+ STATE_JANISSARIES_NEED_MIL_POWER:0 "You need $AMOUNT|Y$ £mil£ to Conscript Warlocks"
+ STATE_JANISSARIES_DESC:1 "§YConscript Warlocks§!\nWith §YOrc Clan§! we are capable of recruting Warlocks in heathen provinces. The more heathen development, the more Warlocks we can draw from them. This can only be done once every 5 years."
+ ONLY_JANISSARY_MODIFIER:0 "§YAffects only Warlock Regiments§!"
+ CREATE_JANISSARIES_BUTTON:1 "Conscript Warlocks"
+ CREATEJANISSARIES:1 "Conscript Warlocks"
+ JANISSARIES_REGIMENT:0 "Warlock Regiment\n$EFFECT$"
+ STATE_JANISSARIES_CREATED_REGIMENTS:0 "$NUM|Y$ Warlocks will spawn in $PROV|Y$"
+ STATE_JANISSARIES_HEATHEN_PROVINCES:1 "State needs at least $AMOUNT|Y$ development of Heathen faith fully cored and controlled by you."
+ STATE_JANISSARIES_BATTLE_OR_SIEGE:0 "You cannot conscript Warlocks in a province with an ongoing battle or siege."
+ 
  #------------------------------------------------------
  # Exploration
  #------------------------------------------------------

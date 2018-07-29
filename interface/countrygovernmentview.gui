@@ -362,7 +362,7 @@ guiTypes = {
 				name ="prussia_boost"
 				quadTextureSprite= "GFX_standard_button_224"
 				position = { x= 60 y = -30 }
-                buttonText = "Support"
+                buttonText = "Bloodlust"
                 buttonFont = "vic_18"		
 			}
 
@@ -723,7 +723,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "RUSABIL_SUDEBNIK_button"
-			position = { x = 22 y = 10 }
+			position = { x = 27 y = 10 }
 			quadTextureSprite ="GFX_russian_ability_ADM"	
 			tooltip = ""
 			tooltipText =""
@@ -735,7 +735,7 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name = "RUSABIL_OPRICHNINA_button"
-			position = { x = 140 y = 10 }
+			position = { x = 145 y = 10 }
 			quadTextureSprite ="GFX_russian_ability_DIP"	
 			tooltip = ""
 			tooltipText =""
@@ -747,7 +747,7 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name = "RUSABIL_STRELTSY_button"
-			position = { x = 258 y = 10 }
+			position = { x = 263 y = 10 }
 			quadTextureSprite ="GFX_russian_ability_MIL"	
 			tooltip = ""
 			tooltipText =""
@@ -981,7 +981,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "enlist_general_button"
-			position = { x = 41 y = 10 }
+			position = { x = 50 y = 0 }
 			quadTextureSprite ="GFX_enlist_general_button"	
 			tooltip = ""
 			tooltipText =""
@@ -993,7 +993,7 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name = "train_horsemanship_button"
-			position = { x = 138 y = 10 }
+			position = { x = 145 y = 0 }
 			quadTextureSprite ="GFX_train_horsemanship_button"	
 			tooltip = ""
 			tooltipText =""
@@ -1005,7 +1005,7 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name = "conscript_from_tribes_button"
-			position = { x = 235 y = 10 }
+			position = { x = 245 y = 0 }
 			quadTextureSprite ="GFX_conscript_from_tribes_button"	
 			tooltip = ""
 			tooltipText =""

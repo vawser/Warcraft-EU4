@@ -1,6 +1,6 @@
 technology_group = tech_goblin
 government = trade_cartel
-primary_culture = blackwater_trade_cartel
+primary_culture = blackwater_cartel
 religion = avarice
 
 capital = 1
