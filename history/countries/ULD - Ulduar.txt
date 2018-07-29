@@ -1,5 +1,5 @@
 technology_group = tech_titan
-government = titan_outpost
+government = titan_order
 primary_culture = ulduar
 religion = titan_worship
 

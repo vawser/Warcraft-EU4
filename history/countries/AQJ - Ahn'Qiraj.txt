@@ -1,5 +1,6 @@
 technology_group = tech_qiraji
-government = qiraji_swarm
+government = qiraji_hive
+government_rank = 10
 primary_culture = ahn_qiraj
 religion = cthun
 

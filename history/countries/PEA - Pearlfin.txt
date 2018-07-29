@@ -1,5 +1,5 @@
 technology_group = tech_jinyu
-government = mercantile_kingdom
+government = jinyu_tribe
 primary_culture = pearlfin
 religion = celestials
 

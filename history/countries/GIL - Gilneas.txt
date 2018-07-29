@@ -1,5 +1,6 @@
 technology_group = tech_human
-government = militaristic_kingdom
+government = human_kingdom
+government_rank = 6
 primary_culture = gilnean
 religion = the_holy_light
 

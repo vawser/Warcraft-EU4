@@ -1,5 +1,5 @@
 technology_group = tech_saurok
-government = war_tribe
+government = saurok_tribe
 primary_culture = glintrok
 religion = fleshshaping
 

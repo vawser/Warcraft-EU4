@@ -1,5 +1,6 @@
 technology_group = tech_human
 government = magocracy
+government_rank = 4
 primary_culture = karazhan
 religion = arcane
 

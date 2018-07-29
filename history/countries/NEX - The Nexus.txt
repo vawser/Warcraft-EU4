@@ -1,5 +1,5 @@
 technology_group = tech_blue_dragonflight
-government = dragonflight_council
+government = dragon_council
 primary_culture = the_nexus
 religion = dragon_aspects
 

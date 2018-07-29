@@ -1,5 +1,5 @@
 technology_group = tech_furbolg
-government = war_tribe
+government = furbolg_tribe
 primary_culture = bloodtooth
 religion = shamanism
 

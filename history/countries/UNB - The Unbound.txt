@@ -1,5 +1,5 @@
 technology_group = tech_crystal_nymph
-government = religious_tribe
+government = dryad_commune
 primary_culture = the_unbound
 religion = arcane
 

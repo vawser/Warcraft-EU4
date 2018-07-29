@@ -1,0 +1,5301 @@
+gov_human_kingdom = {
+	rank = {
+		1 = HUMAN_KINGDOM
+		2 = HUMAN_KINGDOM
+		3 = HUMAN_KINGDOM
+		4 = HUMAN_KINGDOM
+		5 = HUMAN_KINGDOM
+		6 = HUMAN_KINGDOM
+		7 = HUMAN_KINGDOM
+		8 = HUMAN_KINGDOM
+		9 = HUMAN_KINGDOM
+		10 = HUMAN_KINGDOM
+	}
+
+	ruler_male = {
+		1 = KING
+		2 = KING
+		3 = KING
+		4 = KING
+		5 = KING
+		6 = KING
+		7 = KING
+		8 = KING
+		9 = KING
+		10 = KING
+	}
+
+	ruler_female = {
+		1 = QUEEN
+		2 = QUEEN
+		3 = QUEEN
+		4 = QUEEN
+		5 = QUEEN
+		6 = QUEEN
+		7 = QUEEN
+		8 = QUEEN
+		9 = QUEEN
+		10 = QUEEN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+		4 = PRINCE
+		5 = PRINCE
+		6 = PRINCE
+		7 = PRINCE
+		8 = PRINCE
+		9 = PRINCE
+		10 = PRINCE
+    }
+
+    heir_female = {
+        1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+		4 = PRINCESS
+		5 = PRINCESS
+		6 = PRINCESS
+		7 = PRINCESS
+		8 = PRINCESS
+		9 = PRINCESS
+		10 = PRINCESS
+    }
+
+	trigger = {
+		government = human_kingdom
+        is_subject = no
+	}
+}
+gov_human_settlement = {
+	rank = {
+		1 = HUMAN_SETTLEMENT
+		2 = HUMAN_SETTLEMENT
+		3 = HUMAN_SETTLEMENT
+		4 = HUMAN_SETTLEMENT
+		5 = HUMAN_SETTLEMENT
+		6 = HUMAN_SETTLEMENT
+		7 = HUMAN_SETTLEMENT
+		8 = HUMAN_SETTLEMENT
+		9 = HUMAN_SETTLEMENT
+		10 = HUMAN_SETTLEMENT
+	}
+
+	ruler_male = {
+		1 = GOVERNOR
+		2 = GOVERNOR
+		3 = GOVERNOR
+		4 = GOVERNOR
+		5 = GOVERNOR
+		6 = GOVERNOR
+		7 = GOVERNOR
+		8 = GOVERNOR
+		9 = GOVERNOR
+		10 = GOVERNOR
+	}
+
+	ruler_female = {
+		1 = GOVERNOR
+		2 = GOVERNOR
+		3 = GOVERNOR
+		4 = GOVERNOR
+		5 = GOVERNOR
+		6 = GOVERNOR
+		7 = GOVERNOR
+		8 = GOVERNOR
+		9 = GOVERNOR
+		10 = GOVERNOR
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+		4 = PRINCE
+		5 = PRINCE
+		6 = PRINCE
+		7 = PRINCE
+		8 = PRINCE
+		9 = PRINCE
+		10 = PRINCE
+    }
+
+    heir_female = {
+        1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+		4 = PRINCESS
+		5 = PRINCESS
+		6 = PRINCESS
+		7 = PRINCESS
+		8 = PRINCESS
+		9 = PRINCESS
+		10 = PRINCESS
+    }
+
+	trigger = {
+		government = human_kingdom
+        is_subject = yes
+	}
+}
+gov_dwarf_kingdom = {
+	rank = {
+		1 = DWARF_KINGDOM
+		2 = DWARF_KINGDOM
+		3 = DWARF_KINGDOM
+		4 = DWARF_KINGDOM
+		5 = DWARF_KINGDOM
+		6 = DWARF_KINGDOM
+		7 = DWARF_KINGDOM
+		8 = DWARF_KINGDOM
+		9 = DWARF_KINGDOM
+		10 = DWARF_KINGDOM
+	}
+
+	ruler_male = {
+		1 = KING
+		2 = KING
+		3 = KING
+		4 = KING
+		5 = KING
+		6 = KING
+		7 = KING
+		8 = KING
+		9 = KING
+		10 = KING
+	}
+
+	ruler_female = {
+		1 = QUEEN
+		2 = QUEEN
+		3 = QUEEN
+		4 = QUEEN
+		5 = QUEEN
+		6 = QUEEN
+		7 = QUEEN
+		8 = QUEEN
+		9 = QUEEN
+		10 = QUEEN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+		4 = PRINCE
+		5 = PRINCE
+		6 = PRINCE
+		7 = PRINCE
+		8 = PRINCE
+		9 = PRINCE
+		10 = PRINCE
+    }
+
+    heir_female = {
+        1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+		4 = PRINCESS
+		5 = PRINCESS
+		6 = PRINCESS
+		7 = PRINCESS
+		8 = PRINCESS
+		9 = PRINCESS
+		10 = PRINCESS
+    }
+
+	trigger = {
+		government = dwarf_kingdom
+        is_subject = no
+	}
+}
+gov_dwarf_settlement = {
+	rank = {
+		1 = DWARF_SETTLEMENT
+		2 = DWARF_SETTLEMENT
+		3 = DWARF_SETTLEMENT
+		4 = DWARF_SETTLEMENT
+		5 = DWARF_SETTLEMENT
+		6 = DWARF_SETTLEMENT
+		7 = DWARF_SETTLEMENT
+		8 = DWARF_SETTLEMENT
+		9 = DWARF_SETTLEMENT
+		10 = DWARF_SETTLEMENT
+	}
+
+	ruler_male = {
+		1 = GOVERNOR
+		2 = GOVERNOR
+		3 = GOVERNOR
+		4 = GOVERNOR
+		5 = GOVERNOR
+		6 = GOVERNOR
+		7 = GOVERNOR
+		8 = GOVERNOR
+		9 = GOVERNOR
+		10 = GOVERNOR
+	}
+
+	ruler_female = {
+		1 = GOVERNOR
+		2 = GOVERNOR
+		3 = GOVERNOR
+		4 = GOVERNOR
+		5 = GOVERNOR
+		6 = GOVERNOR
+		7 = GOVERNOR
+		8 = GOVERNOR
+		9 = GOVERNOR
+		10 = GOVERNOR
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+		4 = PRINCE
+		5 = PRINCE
+		6 = PRINCE
+		7 = PRINCE
+		8 = PRINCE
+		9 = PRINCE
+		10 = PRINCE
+    }
+
+    heir_female = {
+        1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+		4 = PRINCESS
+		5 = PRINCESS
+		6 = PRINCESS
+		7 = PRINCESS
+		8 = PRINCESS
+		9 = PRINCESS
+		10 = PRINCESS
+    }
+
+	trigger = {
+		government = dwarf_kingdom
+        is_subject = yes
+	}
+}
+gov_dark_iron_kingdom = {
+	rank = {
+		1 = DESPOTIC_KINGDOM
+		2 = DESPOTIC_KINGDOM
+		3 = DESPOTIC_KINGDOM
+		4 = DESPOTIC_KINGDOM
+		5 = DESPOTIC_KINGDOM
+		6 = DESPOTIC_KINGDOM
+		7 = DESPOTIC_KINGDOM
+		8 = DESPOTIC_KINGDOM
+		9 = DESPOTIC_KINGDOM
+		10 = DESPOTIC_KINGDOM
+	}
+
+	ruler_male = {
+		1 = KING
+		2 = KING
+		3 = KING
+		4 = KING
+		5 = KING
+		6 = KING
+		7 = KING
+		8 = KING
+		9 = KING
+		10 = KING
+	}
+
+	ruler_female = {
+		1 = QUEEN
+		2 = QUEEN
+		3 = QUEEN
+		4 = QUEEN
+		5 = QUEEN
+		6 = QUEEN
+		7 = QUEEN
+		8 = QUEEN
+		9 = QUEEN
+		10 = QUEEN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+		4 = PRINCE
+		5 = PRINCE
+		6 = PRINCE
+		7 = PRINCE
+		8 = PRINCE
+		9 = PRINCE
+		10 = PRINCE
+    }
+
+    heir_female = {
+        1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+		4 = PRINCESS
+		5 = PRINCESS
+		6 = PRINCESS
+		7 = PRINCESS
+		8 = PRINCESS
+		9 = PRINCESS
+		10 = PRINCESS
+    }
+
+	trigger = {
+		government = dark_iron_kingdom
+	}
+}
+gov_night_elf_theocracy = {
+	rank = {
+		1 = SISTERHOOD
+		2 = SISTERHOOD
+		3 = SISTERHOOD
+		4 = SISTERHOOD
+		5 = SISTERHOOD
+		6 = SISTERHOOD
+		7 = SISTERHOOD
+		8 = SISTERHOOD
+		9 = SISTERHOOD
+		10 = SISTERHOOD
+	}
+
+	ruler_male = {
+		1 = HIGH_PRIEST
+		2 = HIGH_PRIEST
+		3 = HIGH_PRIEST
+		4 = HIGH_PRIEST
+		5 = HIGH_PRIEST
+		6 = HIGH_PRIEST
+		7 = HIGH_PRIEST
+		8 = HIGH_PRIEST
+		9 = HIGH_PRIEST
+		10 = HIGH_PRIEST
+	}
+
+	ruler_female = {
+		1 = HIGH_PRIESTESS
+		2 = HIGH_PRIESTESS
+		3 = HIGH_PRIESTESS
+		4 = HIGH_PRIESTESS
+		5 = HIGH_PRIESTESS
+		6 = HIGH_PRIESTESS
+		7 = HIGH_PRIESTESS
+		8 = HIGH_PRIESTESS
+		9 = HIGH_PRIESTESS
+		10 = HIGH_PRIESTESS
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+		4 = PRINCE
+		5 = PRINCE
+		6 = PRINCE
+		7 = PRINCE
+		8 = PRINCE
+		9 = PRINCE
+		10 = PRINCE
+    }
+
+    heir_female = {
+        1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+		4 = PRINCESS
+		5 = PRINCESS
+		6 = PRINCESS
+		7 = PRINCESS
+		8 = PRINCESS
+		9 = PRINCESS
+		10 = PRINCESS
+    }
+
+	trigger = {
+		government = night_elf_theocracy
+	}
+}
+gov_night_elf_theocracy = {
+	rank = {
+		1 = THEOCRACY
+		2 = THEOCRACY
+		3 = THEOCRACY
+		4 = THEOCRACY
+		5 = THEOCRACY
+		6 = THEOCRACY
+		7 = THEOCRACY
+		8 = THEOCRACY
+		9 = THEOCRACY
+		10 = THEOCRACY
+	}
+
+	ruler_male = {
+		1 = PROPHET
+		2 = PROPHET
+		3 = PROPHET
+		4 = PROPHET
+		5 = PROPHET
+		6 = PROPHET
+		7 = PROPHET
+		8 = PROPHET
+		9 = PROPHET
+		10 = PROPHET
+	}
+
+	ruler_female = {
+		1 = PROPHET
+		2 = PROPHET
+		3 = PROPHET
+		4 = PROPHET
+		5 = PROPHET
+		6 = PROPHET
+		7 = PROPHET
+		8 = PROPHET
+		9 = PROPHET
+		10 = PROPHET
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+		4 = PRINCE
+		5 = PRINCE
+		6 = PRINCE
+		7 = PRINCE
+		8 = PRINCE
+		9 = PRINCE
+		10 = PRINCE
+    }
+
+    heir_female = {
+        1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+		4 = PRINCESS
+		5 = PRINCESS
+		6 = PRINCESS
+		7 = PRINCESS
+		8 = PRINCESS
+		9 = PRINCESS
+		10 = PRINCESS
+    }
+
+	trigger = {
+		government = draenei_theocracy
+	}
+}
+gov_tolvir_kingdom = {
+	rank = {
+		1 = TOLVIR_KINGDOM
+		2 = TOLVIR_KINGDOM
+		3 = TOLVIR_KINGDOM
+		4 = TOLVIR_KINGDOM
+		5 = TOLVIR_KINGDOM
+		6 = TOLVIR_KINGDOM
+		7 = TOLVIR_KINGDOM
+		8 = TOLVIR_KINGDOM
+		9 = TOLVIR_KINGDOM
+		10 = TOLVIR_KINGDOM
+	}
+
+	ruler_male = {
+		1 = KING
+		2 = KING
+		3 = KING
+		4 = KING
+		5 = KING
+		6 = KING
+		7 = KING
+		8 = KING
+		9 = KING
+		10 = KING
+	}
+
+	ruler_female = {
+		1 = QUEEN
+		2 = QUEEN
+		3 = QUEEN
+		4 = QUEEN
+		5 = QUEEN
+		6 = QUEEN
+		7 = QUEEN
+		8 = QUEEN
+		9 = QUEEN
+		10 = QUEEN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+		4 = PRINCE
+		5 = PRINCE
+		6 = PRINCE
+		7 = PRINCE
+		8 = PRINCE
+		9 = PRINCE
+		10 = PRINCE
+    }
+
+    heir_female = {
+        1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+		4 = PRINCESS
+		5 = PRINCESS
+		6 = PRINCESS
+		7 = PRINCESS
+		8 = PRINCESS
+		9 = PRINCESS
+		10 = PRINCESS
+    }
+
+	trigger = {
+		government = tolvir_kingdom
+	}
+}
+gov_nerubian_kingdom = {
+	rank = {
+		1 = NERUBIAN_KINGDOM
+		2 = NERUBIAN_KINGDOM
+		3 = NERUBIAN_KINGDOM
+		4 = NERUBIAN_KINGDOM
+		5 = NERUBIAN_KINGDOM
+		6 = NERUBIAN_KINGDOM
+		7 = NERUBIAN_KINGDOM
+		8 = NERUBIAN_KINGDOM
+		9 = NERUBIAN_KINGDOM
+		10 = NERUBIAN_KINGDOM
+	}
+
+	ruler_male = {
+		1 = SEER
+		2 = SEER
+		3 = SEER
+		4 = SEER
+		5 = SEER
+		6 = SEER
+		7 = SEER
+		8 = SEER
+		9 = SEER
+		10 = SEER
+	}
+
+	ruler_female = {
+		1 = SEER
+		2 = SEER
+		3 = SEER
+		4 = SEER
+		5 = SEER
+		6 = SEER
+		7 = SEER
+		8 = SEER
+		9 = SEER
+		10 = SEER
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = nerubian_kingdom
+	}
+}
+gov_vrykul_kingdom = {
+	rank = {
+		1 = VRYKUL_KINGDOM
+		2 = VRYKUL_KINGDOM
+		3 = VRYKUL_KINGDOM
+		4 = VRYKUL_KINGDOM
+		5 = VRYKUL_KINGDOM
+		6 = VRYKUL_KINGDOM
+		7 = VRYKUL_KINGDOM
+		8 = VRYKUL_KINGDOM
+		9 = VRYKUL_KINGDOM
+		10 = VRYKUL_KINGDOM
+	}
+
+	ruler_male = {
+		1 = KING
+		2 = KING
+		3 = KING
+		4 = KING
+		5 = KING
+		6 = KING
+		7 = KING
+		8 = KING
+		9 = KING
+		10 = KING
+	}
+
+	ruler_female = {
+		1 = QUEEN
+		2 = QUEEN
+		3 = QUEEN
+		4 = QUEEN
+		5 = QUEEN
+		6 = QUEEN
+		7 = QUEEN
+		8 = QUEEN
+		9 = QUEEN
+		10 = QUEEN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+		4 = PRINCE
+		5 = PRINCE
+		6 = PRINCE
+		7 = PRINCE
+		8 = PRINCE
+		9 = PRINCE
+		10 = PRINCE
+    }
+
+    heir_female = {
+        1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+		4 = PRINCESS
+		5 = PRINCESS
+		6 = PRINCESS
+		7 = PRINCESS
+		8 = PRINCESS
+		9 = PRINCESS
+		10 = PRINCESS
+    }
+
+	trigger = {
+		government = vrykul_kingdom
+	}
+}
+gov_holy_order = {
+	rank = {
+		1 = HOLY_ORDER
+		2 = HOLY_ORDER
+		3 = HOLY_ORDER
+		4 = HOLY_ORDER
+		5 = HOLY_ORDER
+		6 = HOLY_ORDER
+		7 = HOLY_ORDER
+		8 = HOLY_ORDER
+		9 = HOLY_ORDER
+		10 = HOLY_ORDER
+	}
+
+	ruler_male = {
+		1 = HIGHLORD
+		2 = HIGHLORD
+		3 = HIGHLORD
+		4 = HIGHLORD
+		5 = HIGHLORD
+		6 = HIGHLORD
+		7 = HIGHLORD
+		8 = HIGHLORD
+		9 = HIGHLORD
+		10 = HIGHLORD
+	}
+
+	ruler_female = {
+		1 = HIGHLADY
+		2 = HIGHLADY
+		3 = HIGHLADY
+		4 = HIGHLADY
+		5 = HIGHLADY
+		6 = HIGHLADY
+		7 = HIGHLADY
+		8 = HIGHLADY
+		9 = HIGHLADY
+		10 = HIGHLADY
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = holy_order
+	}
+}
+gov_night_elf_order = {
+	rank = {
+		1 = KALDOREI_ORDER
+		2 = KALDOREI_ORDER
+		3 = KALDOREI_ORDER
+		4 = KALDOREI_ORDER
+		5 = KALDOREI_ORDER
+		6 = KALDOREI_ORDER
+		7 = KALDOREI_ORDER
+		8 = KALDOREI_ORDER
+		9 = KALDOREI_ORDER
+		10 = KALDOREI_ORDER
+	}
+
+	ruler_male = {
+		1 = HIGH_PRIEST
+		2 = HIGH_PRIEST
+		3 = HIGH_PRIEST
+		4 = HIGH_PRIEST
+		5 = HIGH_PRIEST
+		6 = HIGH_PRIEST
+		7 = HIGH_PRIEST
+		8 = HIGH_PRIEST
+		9 = HIGH_PRIEST
+		10 = HIGH_PRIEST
+	}
+
+	ruler_female = {
+		1 = HIGH_PRIESTESS
+		2 = HIGH_PRIESTESS
+		3 = HIGH_PRIESTESS
+		4 = HIGH_PRIESTESS
+		5 = HIGH_PRIESTESS
+		6 = HIGH_PRIESTESS
+		7 = HIGH_PRIESTESS
+		8 = HIGH_PRIESTESS
+		9 = HIGH_PRIESTESS
+		10 = HIGH_PRIESTESS
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+		4 = PRINCE
+		5 = PRINCE
+		6 = PRINCE
+		7 = PRINCE
+		8 = PRINCE
+		9 = PRINCE
+		10 = PRINCE
+    }
+
+    heir_female = {
+        1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+		4 = PRINCESS
+		5 = PRINCESS
+		6 = PRINCESS
+		7 = PRINCESS
+		8 = PRINCESS
+		9 = PRINCESS
+		10 = PRINCESS
+    }
+
+	trigger = {
+		government = night_elf
+	}
+}
+gov_draenei_order = {
+	rank = {
+		1 = HOLY_ORDER
+		2 = HOLY_ORDER
+		3 = HOLY_ORDER
+		4 = HOLY_ORDER
+		5 = HOLY_ORDER
+		6 = HOLY_ORDER
+		7 = HOLY_ORDER
+		8 = HOLY_ORDER
+		9 = HOLY_ORDER
+		10 = HOLY_ORDER
+	}
+
+	ruler_male = {
+		1 = EXARCH
+		2 = EXARCH
+		3 = EXARCH
+		4 = EXARCH
+		5 = EXARCH
+		6 = EXARCH
+		7 = EXARCH
+		8 = EXARCH
+		9 = EXARCH
+		10 = EXARCH
+	}
+
+	ruler_female = {
+		1 = EXARCH
+		2 = EXARCH
+		3 = EXARCH
+		4 = EXARCH
+		5 = EXARCH
+		6 = EXARCH
+		7 = EXARCH
+		8 = EXARCH
+		9 = EXARCH
+		10 = EXARCH
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = draenei_order
+	}
+}
+gov_titan_order = {
+	rank = {
+		1 = TITAN_ORDER
+		2 = TITAN_ORDER
+		3 = TITAN_ORDER
+		4 = TITAN_ORDER
+		5 = TITAN_ORDER
+		6 = TITAN_ORDER
+		7 = TITAN_ORDER
+		8 = TITAN_ORDER
+		9 = TITAN_ORDER
+		10 = TITAN_ORDER
+	}
+
+	ruler_male = {
+		1 = WATCHER
+		2 = WATCHER
+		3 = WATCHER
+		4 = WATCHER
+		5 = WATCHER
+		6 = WATCHER
+		7 = WATCHER
+		8 = WATCHER
+		9 = WATCHER
+		10 = WATCHER
+	}
+
+	ruler_female = {
+		1 = WATCHER
+		2 = WATCHER
+		3 = WATCHER
+		4 = WATCHER
+		5 = WATCHER
+		6 = WATCHER
+		7 = WATCHER
+		8 = WATCHER
+		9 = WATCHER
+		10 = WATCHER
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = titan_order
+	}
+}
+gov_dragon_council = {
+	rank = {
+		1 = DRAGON_COUNCIL
+		2 = DRAGON_COUNCIL
+		3 = DRAGON_COUNCIL
+		4 = DRAGON_COUNCIL
+		5 = DRAGON_COUNCIL
+		6 = DRAGON_COUNCIL
+		7 = DRAGON_COUNCIL
+		8 = DRAGON_COUNCIL
+		9 = DRAGON_COUNCIL
+		10 = DRAGON_COUNCIL
+	}
+
+	ruler_male = {
+		1 = DRAGONKING
+		2 = DRAGONKING
+		3 = DRAGONKING
+		4 = DRAGONKING
+		5 = DRAGONKING
+		6 = DRAGONKING
+		7 = DRAGONKING
+		8 = DRAGONKING
+		9 = DRAGONKING
+		10 = DRAGONKING
+	}
+
+	ruler_female = {
+		1 = DRAGONQUEEN
+		2 = DRAGONQUEEN
+		3 = DRAGONQUEEN
+		4 = DRAGONQUEEN
+		5 = DRAGONQUEEN
+		6 = DRAGONQUEEN
+		7 = DRAGONQUEEN
+		8 = DRAGONQUEEN
+		9 = DRAGONQUEEN
+		10 = DRAGONQUEEN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = dragon_council
+	}
+}
+gov_earthen_order = {
+	rank = {
+		1 = EARTHEN_ORDER
+		2 = EARTHEN_ORDER
+		3 = EARTHEN_ORDER
+		4 = EARTHEN_ORDER
+		5 = EARTHEN_ORDER
+		6 = EARTHEN_ORDER
+		7 = EARTHEN_ORDER
+		8 = EARTHEN_ORDER
+		9 = EARTHEN_ORDER
+		10 = EARTHEN_ORDER
+	}
+
+	ruler_male = {
+		1 = WATCHER
+		2 = WATCHER
+		3 = WATCHER
+		4 = WATCHER
+		5 = WATCHER
+		6 = WATCHER
+		7 = WATCHER
+		8 = WATCHER
+		9 = WATCHER
+		10 = WATCHER
+	}
+
+	ruler_female = {
+		1 = WATCHER
+		2 = WATCHER
+		3 = WATCHER
+		4 = WATCHER
+		5 = WATCHER
+		6 = WATCHER
+		7 = WATCHER
+		8 = WATCHER
+		9 = WATCHER
+		10 = WATCHER
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = earthen_order
+	}
+}
+gov_pandaren_commune = {
+	rank = {
+		1 = PANDAREN_COMMUNE
+		2 = PANDAREN_COMMUNE
+		3 = PANDAREN_COMMUNE
+		4 = PANDAREN_COMMUNE
+		5 = PANDAREN_COMMUNE
+		6 = PANDAREN_COMMUNE
+		7 = PANDAREN_COMMUNE
+		8 = PANDAREN_COMMUNE
+		9 = PANDAREN_COMMUNE
+		10 = PANDAREN_COMMUNE
+	}
+
+	ruler_male = {
+		1 = ELDER
+		2 = ELDER
+		3 = ELDER
+		4 = ELDER
+		5 = ELDER
+		6 = ELDER
+		7 = ELDER
+		8 = ELDER
+		9 = ELDER
+		10 = ELDER
+	}
+
+	ruler_female = {
+		1 = ELDER
+		2 = ELDER
+		3 = ELDER
+		4 = ELDER
+		5 = ELDER
+		6 = ELDER
+		7 = ELDER
+		8 = ELDER
+		9 = ELDER
+		10 = ELDER
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = pandaren_commune
+	}
+}
+gov_dryad_commune = {
+	rank = {
+		1 = DRYAD_COMMUNE
+		2 = DRYAD_COMMUNE
+		3 = DRYAD_COMMUNE
+		4 = DRYAD_COMMUNE
+		5 = DRYAD_COMMUNE
+		6 = DRYAD_COMMUNE
+		7 = DRYAD_COMMUNE
+		8 = DRYAD_COMMUNE
+		9 = DRYAD_COMMUNE
+		10 = DRYAD_COMMUNE
+	}
+
+	ruler_male = {
+		1 = LORD
+		2 = LORD
+		3 = LORD
+		4 = LORD
+		5 = LORD
+		6 = LORD
+		7 = LORD
+		8 = LORD
+		9 = LORD
+		10 = LORD
+	}
+
+	ruler_female = {
+		1 = LADY
+		2 = LADY
+		3 = LADY
+		4 = LADY
+		5 = LADY
+		6 = LADY
+		7 = LADY
+		8 = LADY
+		9 = LADY
+		10 = LADY
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = dryad_commune
+	}
+}
+gov_tauren_tribe = {
+	rank = {
+		1 = TAUREN_TRIBE
+		2 = TAUREN_TRIBE
+		3 = TAUREN_TRIBE
+		4 = TAUREN_TRIBE
+		5 = TAUREN_TRIBE
+		6 = TAUREN_TRIBE
+		7 = TAUREN_TRIBE
+		8 = TAUREN_TRIBE
+		9 = TAUREN_TRIBE
+		10 = TAUREN_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+	ruler_female = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = tauren_tribe
+	}
+}
+gov_taunka_tribe = {
+	rank = {
+		1 = TAUNKA_TRIBE
+		2 = TAUNKA_TRIBE
+		3 = TAUNKA_TRIBE
+		4 = TAUNKA_TRIBE
+		5 = TAUNKA_TRIBE
+		6 = TAUNKA_TRIBE
+		7 = TAUNKA_TRIBE
+		8 = TAUNKA_TRIBE
+		9 = TAUNKA_TRIBE
+		10 = TAUNKA_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+	ruler_female = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = taunka_tribe
+	}
+}
+gov_tuskarr_tribe = {
+	rank = {
+		1 = TUSKARR_TRIBE
+		2 = TUSKARR_TRIBE
+		3 = TUSKARR_TRIBE
+		4 = TUSKARR_TRIBE
+		5 = TUSKARR_TRIBE
+		6 = TUSKARR_TRIBE
+		7 = TUSKARR_TRIBE
+		8 = TUSKARR_TRIBE
+		9 = TUSKARR_TRIBE
+		10 = TUSKARR_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+	ruler_female = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = tuskarr_tribe
+	}
+}
+gov_jinyu_tribe = {
+	rank = {
+		1 = JINYU_TRIBE
+		2 = JINYU_TRIBE
+		3 = JINYU_TRIBE
+		4 = JINYU_TRIBE
+		5 = JINYU_TRIBE
+		6 = JINYU_TRIBE
+		7 = JINYU_TRIBE
+		8 = JINYU_TRIBE
+		9 = JINYU_TRIBE
+		10 = JINYU_TRIBE
+	}
+
+	ruler_male = {
+		1 = ELDER
+		2 = ELDER
+		3 = ELDER
+		4 = ELDER
+		5 = ELDER
+		6 = ELDER
+		7 = ELDER
+		8 = ELDER
+		9 = ELDER
+		10 = ELDER
+	}
+
+	ruler_female = {
+		1 = ELDER
+		2 = ELDER
+		3 = ELDER
+		4 = ELDER
+		5 = ELDER
+		6 = ELDER
+		7 = ELDER
+		8 = ELDER
+		9 = ELDER
+		10 = ELDER
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = jinyu_tribe
+	}
+}
+gov_technocracy = {
+	rank = {
+		1 = TECHNOCRACY
+		2 = TECHNOCRACY
+		3 = TECHNOCRACY
+		4 = TECHNOCRACY
+		5 = TECHNOCRACY
+		6 = TECHNOCRACY
+		7 = TECHNOCRACY
+		8 = TECHNOCRACY
+		9 = TECHNOCRACY
+		10 = TECHNOCRACY
+	}
+
+	ruler_male = {
+		1 = HIGH_TINKER
+		2 = HIGH_TINKER
+		3 = HIGH_TINKER
+		4 = HIGH_TINKER
+		5 = HIGH_TINKER
+		6 = HIGH_TINKER
+		7 = HIGH_TINKER
+		8 = HIGH_TINKER
+		9 = HIGH_TINKER
+		10 = HIGH_TINKER
+	}
+
+	ruler_female = {
+		1 = HIGH_TINKER
+		2 = HIGH_TINKER
+		3 = HIGH_TINKER
+		4 = HIGH_TINKER
+		5 = HIGH_TINKER
+		6 = HIGH_TINKER
+		7 = HIGH_TINKER
+		8 = HIGH_TINKER
+		9 = HIGH_TINKER
+		10 = HIGH_TINKER
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = technocracy
+	}
+}
+gov_trade_cartel = {
+	rank = {
+		1 = TRADE_CARTEL
+		2 = TRADE_CARTEL
+		3 = TRADE_CARTEL
+		4 = TRADE_CARTEL
+		5 = TRADE_CARTEL
+		6 = TRADE_CARTEL
+		7 = TRADE_CARTEL
+		8 = TRADE_CARTEL
+		9 = TRADE_CARTEL
+		10 = TRADE_CARTEL
+	}
+
+	ruler_male = {
+		1 = TRADE_PRINCE
+		2 = TRADE_PRINCE
+		3 = TRADE_PRINCE
+		4 = TRADE_PRINCE
+		5 = TRADE_PRINCE
+		6 = TRADE_PRINCE
+		7 = TRADE_PRINCE
+		8 = TRADE_PRINCE
+		9 = TRADE_PRINCE
+		10 = TRADE_PRINCE
+	}
+
+	ruler_female = {
+		1 = TRADE_PRINCE
+		2 = TRADE_PRINCE
+		3 = TRADE_PRINCE
+		4 = TRADE_PRINCE
+		5 = TRADE_PRINCE
+		6 = TRADE_PRINCE
+		7 = TRADE_PRINCE
+		8 = TRADE_PRINCE
+		9 = TRADE_PRINCE
+		10 = TRADE_PRINCE
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = trade_cartel
+	}
+}
+gov_magocracy = {
+	rank = {
+		1 = MAGOCRACY
+		2 = MAGOCRACY
+		3 = MAGOCRACY
+		4 = MAGOCRACY
+		5 = MAGOCRACY
+		6 = MAGOCRACY
+		7 = MAGOCRACY
+		8 = MAGOCRACY
+		9 = MAGOCRACY
+		10 = MAGOCRACY
+	}
+
+	ruler_male = {
+		1 = ARCHMAGE
+		2 = ARCHMAGE
+		3 = ARCHMAGE
+		4 = ARCHMAGE
+		5 = ARCHMAGE
+		6 = ARCHMAGE
+		7 = ARCHMAGE
+		8 = ARCHMAGE
+		9 = ARCHMAGE
+		10 = ARCHMAGE
+	}
+
+	ruler_female = {
+		1 = ARCHMAGE
+		2 = ARCHMAGE
+		3 = ARCHMAGE
+		4 = ARCHMAGE
+		5 = ARCHMAGE
+		6 = ARCHMAGE
+		7 = ARCHMAGE
+		8 = ARCHMAGE
+		9 = ARCHMAGE
+		10 = ARCHMAGE
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = magocracy
+	}
+}
+gov_forsaken_warband = {
+	rank = {
+		1 = FORSAKEN_WARBAND
+		2 = FORSAKEN_WARBAND
+		3 = FORSAKEN_WARBAND
+		4 = FORSAKEN_WARBAND
+		5 = FORSAKEN_WARBAND
+		6 = FORSAKEN_WARBAND
+		7 = FORSAKEN_WARBAND
+		8 = FORSAKEN_WARBAND
+		9 = FORSAKEN_WARBAND
+		10 = FORSAKEN_WARBAND
+	}
+
+	ruler_male = {
+		1 = BANSHEE_KING
+		2 = BANSHEE_KING
+		3 = BANSHEE_KING
+		4 = BANSHEE_KING
+		5 = BANSHEE_KING
+		6 = BANSHEE_KING
+		7 = BANSHEE_KING
+		8 = BANSHEE_KING
+		9 = BANSHEE_KING
+		10 = BANSHEE_KING
+	}
+
+	ruler_female = {
+		1 = BANSHEE_QUEEN
+		2 = BANSHEE_QUEEN
+		3 = BANSHEE_QUEEN
+		4 = BANSHEE_QUEEN
+		5 = BANSHEE_QUEEN
+		6 = BANSHEE_QUEEN
+		7 = BANSHEE_QUEEN
+		8 = BANSHEE_QUEEN
+		9 = BANSHEE_QUEEN
+		10 = BANSHEE_QUEEN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = forsaken_warband
+	}
+}
+gov_scourge_warband = {
+	rank = {
+		1 = SCOURGE_WARBAND
+		2 = SCOURGE_WARBAND
+		3 = SCOURGE_WARBAND
+		4 = SCOURGE_WARBAND
+		5 = SCOURGE_WARBAND
+		6 = SCOURGE_WARBAND
+		7 = SCOURGE_WARBAND
+		8 = SCOURGE_WARBAND
+		9 = SCOURGE_WARBAND
+		10 = SCOURGE_WARBAND
+	}
+
+	ruler_male = {
+		1 = LICH_KING
+		2 = LICH_KING
+		3 = LICH_KING
+		4 = LICH_KING
+		5 = LICH_KING
+		6 = LICH_KING
+		7 = LICH_KING
+		8 = LICH_KING
+		9 = LICH_KING
+		10 = LICH_KING
+	}
+
+	ruler_female = {
+		1 = LICH_QUEEN
+		2 = LICH_QUEEN
+		3 = LICH_QUEEN
+		4 = LICH_QUEEN
+		5 = LICH_QUEEN
+		6 = LICH_QUEEN
+		7 = LICH_QUEEN
+		8 = LICH_QUEEN
+		9 = LICH_QUEEN
+		10 = LICH_QUEEN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = scourge_warband
+	}
+}
+gov_qiraji_hive = {
+	rank = {
+		1 = QIRAJI_HIVE
+		2 = QIRAJI_HIVE
+		3 = QIRAJI_HIVE
+		4 = QIRAJI_HIVE
+		5 = QIRAJI_HIVE
+		6 = QIRAJI_HIVE
+		7 = QIRAJI_HIVE
+		8 = QIRAJI_HIVE
+		9 = QIRAJI_HIVE
+		10 = QIRAJI_HIVE
+	}
+
+	ruler_male = {
+		1 = EMPEROR
+		2 = EMPEROR
+		3 = EMPEROR
+		4 = EMPEROR
+		5 = EMPEROR
+		6 = EMPEROR
+		7 = EMPEROR
+		8 = EMPEROR
+		9 = EMPEROR
+		10 = EMPEROR
+	}
+
+	ruler_female = {
+		1 = EMPRESS
+		2 = EMPRESS
+		3 = EMPRESS
+		4 = EMPRESS
+		5 = EMPRESS
+		6 = EMPRESS
+		7 = EMPRESS
+		8 = EMPRESS
+		9 = EMPRESS
+		10 = EMPRESS
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = qiraji_hive
+	}
+}
+gov_mantid_hive = {
+	rank = {
+		1 = MANTID_HIVE
+		2 = MANTID_HIVE
+		3 = MANTID_HIVE
+		4 = MANTID_HIVE
+		5 = MANTID_HIVE
+		6 = MANTID_HIVE
+		7 = MANTID_HIVE
+		8 = MANTID_HIVE
+		9 = MANTID_HIVE
+		10 = MANTID_HIVE
+	}
+
+	ruler_male = {
+		1 = EMPEROR
+		2 = EMPEROR
+		3 = EMPEROR
+		4 = EMPEROR
+		5 = EMPEROR
+		6 = EMPEROR
+		7 = EMPEROR
+		8 = EMPEROR
+		9 = EMPEROR
+		10 = EMPEROR
+	}
+
+	ruler_female = {
+		1 = EMPRESS
+		2 = EMPRESS
+		3 = EMPRESS
+		4 = EMPRESS
+		5 = EMPRESS
+		6 = EMPRESS
+		7 = EMPRESS
+		8 = EMPRESS
+		9 = EMPRESS
+		10 = EMPRESS
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = mantid_hive
+	}
+}
+gov_pirate_clan = {
+	rank = {
+		1 = PIRATE_CLAN
+		2 = PIRATE_CLAN
+		3 = PIRATE_CLAN
+		4 = PIRATE_CLAN
+		5 = PIRATE_CLAN
+		6 = PIRATE_CLAN
+		7 = PIRATE_CLAN
+		8 = PIRATE_CLAN
+		9 = PIRATE_CLAN
+		10 = PIRATE_CLAN
+	}
+
+	ruler_male = {
+		1 = PIRATE_LORD
+		2 = PIRATE_LORD
+		3 = PIRATE_LORD
+		4 = PIRATE_LORD
+		5 = PIRATE_LORD
+		6 = PIRATE_LORD
+		7 = PIRATE_LORD
+		8 = PIRATE_LORD
+		9 = PIRATE_LORD
+		10 = PIRATE_LORD
+	}
+
+	ruler_female = {
+		1 = PIRATE_LADY
+		2 = PIRATE_LADY
+		3 = PIRATE_LADY
+		4 = PIRATE_LADY
+		5 = PIRATE_LADY
+		6 = PIRATE_LADY
+		7 = PIRATE_LADY
+		8 = PIRATE_LADY
+		9 = PIRATE_LADY
+		10 = PIRATE_LADY
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = pirate_clan
+	}
+}
+gov_centaur_clan = {
+	rank = {
+		1 = CENTAUR_CLAN
+		2 = CENTAUR_CLAN
+		3 = CENTAUR_CLAN
+		4 = CENTAUR_CLAN
+		5 = CENTAUR_CLAN
+		6 = CENTAUR_CLAN
+		7 = CENTAUR_CLAN
+		8 = CENTAUR_CLAN
+		9 = CENTAUR_CLAN
+		10 = CENTAUR_CLAN
+	}
+
+	ruler_male = {
+		1 = KHAN
+		2 = KHAN
+		3 = KHAN
+		4 = KHAN
+		5 = KHAN
+		6 = KHAN
+		7 = KHAN
+		8 = KHAN
+		9 = KHAN
+		10 = KHAN
+	}
+
+	ruler_female = {
+		1 = KHANUM
+		2 = KHANUM
+		3 = KHANUM
+		4 = KHANUM
+		5 = KHANUM
+		6 = KHANUM
+		7 = KHANUM
+		8 = KHANUM
+		9 = KHANUM
+		10 = KHANUM
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = centaur_clan
+	}
+}
+gov_mogu_clan = {
+	rank = {
+		1 = MOGU_CLAN
+		2 = MOGU_CLAN
+		3 = MOGU_CLAN
+		4 = MOGU_CLAN
+		5 = MOGU_CLAN
+		6 = MOGU_CLAN
+		7 = MOGU_CLAN
+		8 = MOGU_CLAN
+		9 = MOGU_CLAN
+		10 = MOGU_CLAN
+	}
+
+	ruler_male = {
+		1 = WARLORD
+		2 = WARLORD
+		3 = WARLORD
+		4 = WARLORD
+		5 = WARLORD
+		6 = WARLORD
+		7 = WARLORD
+		8 = WARLORD
+		9 = WARLORD
+		10 = WARLORD
+	}
+
+	ruler_female = {
+		1 = WARLORD
+		2 = WARLORD
+		3 = WARLORD
+		4 = WARLORD
+		5 = WARLORD
+		6 = WARLORD
+		7 = WARLORD
+		8 = WARLORD
+		9 = WARLORD
+		10 = WARLORD
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = mogu_clan
+	}
+}
+gov_naga_clan = {
+	rank = {
+		1 = NAGA_CLAN
+		2 = NAGA_CLAN
+		3 = NAGA_CLAN
+		4 = NAGA_CLAN
+		5 = NAGA_CLAN
+		6 = NAGA_CLAN
+		7 = NAGA_CLAN
+		8 = NAGA_CLAN
+		9 = NAGA_CLAN
+		10 = NAGA_CLAN
+	}
+
+	ruler_male = {
+		1 = WARLORD
+		2 = WARLORD
+		3 = WARLORD
+		4 = WARLORD
+		5 = WARLORD
+		6 = WARLORD
+		7 = WARLORD
+		8 = WARLORD
+		9 = WARLORD
+		10 = WARLORD
+	}
+
+	ruler_female = {
+		1 = LADY
+		2 = LADY
+		3 = LADY
+		4 = LADY
+		5 = LADY
+		6 = LADY
+		7 = LADY
+		8 = LADY
+		9 = LADY
+		10 = LADY
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = naga_clan
+	}
+}
+gov_ogre_clan = {
+	rank = {
+		1 = OGRE_CLAN
+		2 = OGRE_CLAN
+		3 = OGRE_CLAN
+		4 = OGRE_CLAN
+		5 = OGRE_CLAN
+		6 = OGRE_CLAN
+		7 = OGRE_CLAN
+		8 = OGRE_CLAN
+		9 = OGRE_CLAN
+		10 = OGRE_CLAN
+	}
+
+	ruler_male = {
+		1 = KING
+		2 = KING
+		3 = KING
+		4 = KING
+		5 = KING
+		6 = KING
+		7 = KING
+		8 = KING
+		9 = KING
+		10 = KING
+	}
+
+	ruler_female = {
+		1 = QUEEN
+		2 = QUEEN
+		3 = QUEEN
+		4 = QUEEN
+		5 = QUEEN
+		6 = QUEEN
+		7 = QUEEN
+		8 = QUEEN
+		9 = QUEEN
+		10 = QUEEN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = ogre_clan
+	}
+}
+gov_orc_clan = {
+	rank = {
+		1 = ORC_CLAN
+		2 = ORC_CLAN
+		3 = ORC_CLAN
+		4 = ORC_CLAN
+		5 = ORC_CLAN
+		6 = ORC_CLAN
+		7 = ORC_CLAN
+		8 = ORC_CLAN
+		9 = ORC_CLAN
+		10 = ORC_CLAN
+	}
+
+	ruler_male = {
+		1 = WARCHIEF
+		2 = WARCHIEF
+		3 = WARCHIEF
+		4 = WARCHIEF
+		5 = WARCHIEF
+		6 = WARCHIEF
+		7 = WARCHIEF
+		8 = WARCHIEF
+		9 = WARCHIEF
+		10 = WARCHIEF
+	}
+
+	ruler_female = {
+		1 = WARCHIEF
+		2 = WARCHIEF
+		3 = WARCHIEF
+		4 = WARCHIEF
+		5 = WARCHIEF
+		6 = WARCHIEF
+		7 = WARCHIEF
+		8 = WARCHIEF
+		9 = WARCHIEF
+		10 = WARCHIEF
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = orc_clan
+	}
+}
+gov_satyr_clan = {
+	rank = {
+		1 = SATYR_CLAN
+		2 = SATYR_CLAN
+		3 = SATYR_CLAN
+		4 = SATYR_CLAN
+		5 = SATYR_CLAN
+		6 = SATYR_CLAN
+		7 = SATYR_CLAN
+		8 = SATYR_CLAN
+		9 = SATYR_CLAN
+		10 = SATYR_CLAN
+	}
+
+	ruler_male = {
+		1 = WARLORD
+		2 = WARLORD
+		3 = WARLORD
+		4 = WARLORD
+		5 = WARLORD
+		6 = WARLORD
+		7 = WARLORD
+		8 = WARLORD
+		9 = WARLORD
+		10 = WARLORD
+	}
+
+	ruler_female = {
+		1 = WARLORD
+		2 = WARLORD
+		3 = WARLORD
+		4 = WARLORD
+		5 = WARLORD
+		6 = WARLORD
+		7 = WARLORD
+		8 = WARLORD
+		9 = WARLORD
+		10 = WARLORD
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = satyr_clan
+	}
+}
+gov_troll_tribe = {
+	rank = {
+		1 = TROLL_TRIBE
+		2 = TROLL_TRIBE
+		3 = TROLL_TRIBE
+		4 = TROLL_TRIBE
+		5 = TROLL_TRIBE
+		6 = TROLL_TRIBE
+		7 = TROLL_TRIBE
+		8 = TROLL_TRIBE
+		9 = TROLL_TRIBE
+		10 = TROLL_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+	ruler_female = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = troll_tribe
+	}
+}
+gov_yaungol_tribe = {
+	rank = {
+		1 = YAUNGOL_TRIBE
+		2 = YAUNGOL_TRIBE
+		3 = YAUNGOL_TRIBE
+		4 = YAUNGOL_TRIBE
+		5 = YAUNGOL_TRIBE
+		6 = YAUNGOL_TRIBE
+		7 = YAUNGOL_TRIBE
+		8 = YAUNGOL_TRIBE
+		9 = YAUNGOL_TRIBE
+		10 = YAUNGOL_TRIBE
+	}
+
+	ruler_male = {
+		1 = WARBRINGER
+		2 = WARBRINGER
+		3 = WARBRINGER
+		4 = WARBRINGER
+		5 = WARBRINGER
+		6 = WARBRINGER
+		7 = WARBRINGER
+		8 = WARBRINGER
+		9 = WARBRINGER
+		10 = WARBRINGER
+	}
+
+	ruler_female = {
+		1 = WARBRINGER
+		2 = WARBRINGER
+		3 = WARBRINGER
+		4 = WARBRINGER
+		5 = WARBRINGER
+		6 = WARBRINGER
+		7 = WARBRINGER
+		8 = WARBRINGER
+		9 = WARBRINGER
+		10 = WARBRINGER
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = yaungol_tribe
+	}
+}
+gov_saurok_tribe = {
+	rank = {
+		1 = SAUROK_TRIBE
+		2 = SAUROK_TRIBE
+		3 = SAUROK_TRIBE
+		4 = SAUROK_TRIBE
+		5 = SAUROK_TRIBE
+		6 = SAUROK_TRIBE
+		7 = SAUROK_TRIBE
+		8 = SAUROK_TRIBE
+		9 = SAUROK_TRIBE
+		10 = SAUROK_TRIBE
+	}
+
+	ruler_male = {
+		1 = WARLORD
+		2 = WARLORD
+		3 = WARLORD
+		4 = WARLORD
+		5 = WARLORD
+		6 = WARLORD
+		7 = WARLORD
+		8 = WARLORD
+		9 = WARLORD
+		10 = WARLORD
+	}
+
+	ruler_female = {
+		1 = WARLORD
+		2 = WARLORD
+		3 = WARLORD
+		4 = WARLORD
+		5 = WARLORD
+		6 = WARLORD
+		7 = WARLORD
+		8 = WARLORD
+		9 = WARLORD
+		10 = WARLORD
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = saurok_tribe
+	}
+}
+gov_furbolg_tribe = {
+	rank = {
+		1 = FURBOLG_TRIBE
+		2 = FURBOLG_TRIBE
+		3 = FURBOLG_TRIBE
+		4 = FURBOLG_TRIBE
+		5 = FURBOLG_TRIBE
+		6 = FURBOLG_TRIBE
+		7 = FURBOLG_TRIBE
+		8 = FURBOLG_TRIBE
+		9 = FURBOLG_TRIBE
+		10 = FURBOLG_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+	ruler_female = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = furbolg_tribe
+	}
+}
+gov_gnoll_tribe = {
+	rank = {
+		1 = GNOLL_TRIBE
+		2 = GNOLL_TRIBE
+		3 = GNOLL_TRIBE
+		4 = GNOLL_TRIBE
+		5 = GNOLL_TRIBE
+		6 = GNOLL_TRIBE
+		7 = GNOLL_TRIBE
+		8 = GNOLL_TRIBE
+		9 = GNOLL_TRIBE
+		10 = GNOLL_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+	ruler_female = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = gnoll_tribe
+	}
+}
+gov_gorloc_tribe = {
+	rank = {
+		1 = GORLOC_TRIBE
+		2 = GORLOC_TRIBE
+		3 = GORLOC_TRIBE
+		4 = GORLOC_TRIBE
+		5 = GORLOC_TRIBE
+		6 = GORLOC_TRIBE
+		7 = GORLOC_TRIBE
+		8 = GORLOC_TRIBE
+		9 = GORLOC_TRIBE
+		10 = GORLOC_TRIBE
+	}
+
+	ruler_male = {
+		1 = ORACLE
+		2 = ORACLE
+		3 = ORACLE
+		4 = ORACLE
+		5 = ORACLE
+		6 = ORACLE
+		7 = ORACLE
+		8 = ORACLE
+		9 = ORACLE
+		10 = ORACLE
+	}
+
+	ruler_female = {
+		1 = ORACLE
+		2 = ORACLE
+		3 = ORACLE
+		4 = ORACLE
+		5 = ORACLE
+		6 = ORACLE
+		7 = ORACLE
+		8 = ORACLE
+		9 = ORACLE
+		10 = ORACLE
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = gorloc_tribe
+	}
+}
+gov_harpy_tribe = {
+	rank = {
+		1 = HARPY_TRIBE
+		2 = HARPY_TRIBE
+		3 = HARPY_TRIBE
+		4 = HARPY_TRIBE
+		5 = HARPY_TRIBE
+		6 = HARPY_TRIBE
+		7 = HARPY_TRIBE
+		8 = HARPY_TRIBE
+		9 = HARPY_TRIBE
+		10 = HARPY_TRIBE
+	}
+
+	ruler_male = {
+		1 = WITCH
+		2 = WITCH
+		3 = WITCH
+		4 = WITCH
+		5 = WITCH
+		6 = WITCH
+		7 = WITCH
+		8 = WITCH
+		9 = WITCH
+		10 = WITCH
+	}
+
+	ruler_female = {
+		1 = WITCH
+		2 = WITCH
+		3 = WITCH
+		4 = WITCH
+		5 = WITCH
+		6 = WITCH
+		7 = WITCH
+		8 = WITCH
+		9 = WITCH
+		10 = WITCH
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = harpy_tribe
+	}
+}
+gov_hozen_tribe = {
+	rank = {
+		1 = HOZEN_TRIBE
+		2 = HOZEN_TRIBE
+		3 = HOZEN_TRIBE
+		4 = HOZEN_TRIBE
+		5 = HOZEN_TRIBE
+		6 = HOZEN_TRIBE
+		7 = HOZEN_TRIBE
+		8 = HOZEN_TRIBE
+		9 = HOZEN_TRIBE
+		10 = HOZEN_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+	ruler_female = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = hozen_tribe
+	}
+}
+gov_kobold_tribe = {
+	rank = {
+		1 = KOBOLD_TRIBE
+		2 = KOBOLD_TRIBE
+		3 = KOBOLD_TRIBE
+		4 = KOBOLD_TRIBE
+		5 = KOBOLD_TRIBE
+		6 = KOBOLD_TRIBE
+		7 = KOBOLD_TRIBE
+		8 = KOBOLD_TRIBE
+		9 = KOBOLD_TRIBE
+		10 = KOBOLD_TRIBE
+	}
+
+	ruler_male = {
+		1 = TASKMASTER
+		2 = TASKMASTER
+		3 = TASKMASTER
+		4 = TASKMASTER
+		5 = TASKMASTER
+		6 = TASKMASTER
+		7 = TASKMASTER
+		8 = TASKMASTER
+		9 = TASKMASTER
+		10 = TASKMASTER
+	}
+
+	ruler_female = {
+		1 = TASKMASTER
+		2 = TASKMASTER
+		3 = TASKMASTER
+		4 = TASKMASTER
+		5 = TASKMASTER
+		6 = TASKMASTER
+		7 = TASKMASTER
+		8 = TASKMASTER
+		9 = TASKMASTER
+		10 = TASKMASTER
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = kobold_tribe
+	}
+}
+gov_magnataur_tribe = {
+	rank = {
+		1 = MAGNATAUR_TRIBE
+		2 = MAGNATAUR_TRIBE
+		3 = MAGNATAUR_TRIBE
+		4 = MAGNATAUR_TRIBE
+		5 = MAGNATAUR_TRIBE
+		6 = MAGNATAUR_TRIBE
+		7 = MAGNATAUR_TRIBE
+		8 = MAGNATAUR_TRIBE
+		9 = MAGNATAUR_TRIBE
+		10 = MAGNATAUR_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+	ruler_female = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = magnataur_tribe
+	}
+}
+gov_murloc_tribe = {
+	rank = {
+		1 = MURLOC_TRIBE
+		2 = MURLOC_TRIBE
+		3 = MURLOC_TRIBE
+		4 = MURLOC_TRIBE
+		5 = MURLOC_TRIBE
+		6 = MURLOC_TRIBE
+		7 = MURLOC_TRIBE
+		8 = MURLOC_TRIBE
+		9 = MURLOC_TRIBE
+		10 = MURLOC_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+	ruler_female = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = murloc_tribe
+	}
+}
+gov_pygmy_tribe = {
+	rank = {
+		1 = PYGMY_TRIBE
+		2 = PYGMY_TRIBE
+		3 = PYGMY_TRIBE
+		4 = PYGMY_TRIBE
+		5 = PYGMY_TRIBE
+		6 = PYGMY_TRIBE
+		7 = PYGMY_TRIBE
+		8 = PYGMY_TRIBE
+		9 = PYGMY_TRIBE
+		10 = PYGMY_TRIBE
+	}
+
+	ruler_male = {
+		1 = SULTAN
+		2 = SULTAN
+		3 = SULTAN
+		4 = SULTAN
+		5 = SULTAN
+		6 = SULTAN
+		7 = SULTAN
+		8 = SULTAN
+		9 = SULTAN
+		10 = SULTAN
+	}
+
+	ruler_female = {
+		1 = SULTANA
+		2 = SULTANA
+		3 = SULTANA
+		4 = SULTANA
+		5 = SULTANA
+		6 = SULTANA
+		7 = SULTANA
+		8 = SULTANA
+		9 = SULTANA
+		10 = SULTANA
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = pygmy_tribe
+	}
+}
+gov_quillboar_tribe = {
+	rank = {
+		1 = QUILLBOAR_TRIBE
+		2 = QUILLBOAR_TRIBE
+		3 = QUILLBOAR_TRIBE
+		4 = QUILLBOAR_TRIBE
+		5 = QUILLBOAR_TRIBE
+		6 = QUILLBOAR_TRIBE
+		7 = QUILLBOAR_TRIBE
+		8 = QUILLBOAR_TRIBE
+		9 = QUILLBOAR_TRIBE
+		10 = QUILLBOAR_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+	ruler_female = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = quillboar_tribe
+	}
+}
+gov_spriteling_tribe = {
+	rank = {
+		1 = SPRITELING_TRIBE
+		2 = SPRITELING_TRIBE
+		3 = SPRITELING_TRIBE
+		4 = SPRITELING_TRIBE
+		5 = SPRITELING_TRIBE
+		6 = SPRITELING_TRIBE
+		7 = SPRITELING_TRIBE
+		8 = SPRITELING_TRIBE
+		9 = SPRITELING_TRIBE
+		10 = SPRITELING_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+	ruler_female = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = spriteling_tribe
+	}
+}
+gov_wolvar_tribe = {
+	rank = {
+		1 = WOLVAR_TRIBE
+		2 = WOLVAR_TRIBE
+		3 = WOLVAR_TRIBE
+		4 = WOLVAR_TRIBE
+		5 = WOLVAR_TRIBE
+		6 = WOLVAR_TRIBE
+		7 = WOLVAR_TRIBE
+		8 = WOLVAR_TRIBE
+		9 = WOLVAR_TRIBE
+		10 = WOLVAR_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+	ruler_female = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = wolvar_tribe
+	}
+}
+gov_trogg_tribe = {
+	rank = {
+		1 = TROGG_TRIBE
+		2 = TROGG_TRIBE
+		3 = TROGG_TRIBE
+		4 = TROGG_TRIBE
+		5 = TROGG_TRIBE
+		6 = TROGG_TRIBE
+		7 = TROGG_TRIBE
+		8 = TROGG_TRIBE
+		9 = TROGG_TRIBE
+		10 = TROGG_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+	ruler_female = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = trogg_tribe
+	}
+}
+gov_despotic_empire = {
+	rank = {
+		1 = DESPOTIC_EMPIRE
+		2 = DESPOTIC_EMPIRE
+		3 = DESPOTIC_EMPIRE
+		4 = DESPOTIC_EMPIRE
+		5 = DESPOTIC_EMPIRE
+		6 = DESPOTIC_EMPIRE
+		7 = DESPOTIC_EMPIRE
+		8 = DESPOTIC_EMPIRE
+		9 = DESPOTIC_EMPIRE
+		10 = DESPOTIC_EMPIRE
+	}
+
+	ruler_male = {
+		1 = EMPEROR
+		2 = EMPEROR
+		3 = EMPEROR
+		4 = EMPEROR
+		5 = EMPEROR
+		6 = EMPEROR
+		7 = EMPEROR
+		8 = EMPEROR
+		9 = EMPEROR
+		10 = EMPEROR
+	}
+
+	ruler_female = {
+		1 = EMPRESS
+		2 = EMPRESS
+		3 = EMPRESS
+		4 = EMPRESS
+		5 = EMPRESS
+		6 = EMPRESS
+		7 = EMPRESS
+		8 = EMPRESS
+		9 = EMPRESS
+		10 = EMPRESS
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = despotic_empire
+	}
+}
+gov_bureaucratic_empire = {
+	rank = {
+		1 = BUREAUCRATIC_EMPIRE
+		2 = BUREAUCRATIC_EMPIRE
+		3 = BUREAUCRATIC_EMPIRE
+		4 = BUREAUCRATIC_EMPIRE
+		5 = BUREAUCRATIC_EMPIRE
+		6 = BUREAUCRATIC_EMPIRE
+		7 = BUREAUCRATIC_EMPIRE
+		8 = BUREAUCRATIC_EMPIRE
+		9 = BUREAUCRATIC_EMPIRE
+		10 = BUREAUCRATIC_EMPIRE
+	}
+
+	ruler_male = {
+		1 = EMPEROR
+		2 = EMPEROR
+		3 = EMPEROR
+		4 = EMPEROR
+		5 = EMPEROR
+		6 = EMPEROR
+		7 = EMPEROR
+		8 = EMPEROR
+		9 = EMPEROR
+		10 = EMPEROR
+	}
+
+	ruler_female = {
+		1 = EMPRESS
+		2 = EMPRESS
+		3 = EMPRESS
+		4 = EMPRESS
+		5 = EMPRESS
+		6 = EMPRESS
+		7 = EMPRESS
+		8 = EMPRESS
+		9 = EMPRESS
+		10 = EMPRESS
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = bureaucratic_empire
+	}
+}
+gov_religious_empire = {
+	rank = {
+		1 = RELIGIOUS_EMPIRE
+		2 = RELIGIOUS_EMPIRE
+		3 = RELIGIOUS_EMPIRE
+		4 = RELIGIOUS_EMPIRE
+		5 = RELIGIOUS_EMPIRE
+		6 = RELIGIOUS_EMPIRE
+		7 = RELIGIOUS_EMPIRE
+		8 = RELIGIOUS_EMPIRE
+		9 = RELIGIOUS_EMPIRE
+		10 = RELIGIOUS_EMPIRE
+	}
+
+	ruler_male = {
+		1 = EMPEROR
+		2 = EMPEROR
+		3 = EMPEROR
+		4 = EMPEROR
+		5 = EMPEROR
+		6 = EMPEROR
+		7 = EMPEROR
+		8 = EMPEROR
+		9 = EMPEROR
+		10 = EMPEROR
+	}
+
+	ruler_female = {
+		1 = EMPRESS
+		2 = EMPRESS
+		3 = EMPRESS
+		4 = EMPRESS
+		5 = EMPRESS
+		6 = EMPRESS
+		7 = EMPRESS
+		8 = EMPRESS
+		9 = EMPRESS
+		10 = EMPRESS
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = religious_empire
+	}
+}
+gov_colonial_government = {
+	rank = {
+		1 = COLONIAL_GOVERNMENT
+	}
+	
+	ruler_male = {
+		1 = OVERSEER
+	}
+	
+	ruler_female = {
+		1 = OVERSEER
+	}
+	
+	trigger = {
+		government = colonial_government
+	}
+}

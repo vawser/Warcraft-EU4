@@ -1,5 +1,5 @@
 technology_group = tech_spriteling
-government = religious_tribe
+government = spriteling_tribe
 primary_culture = rikkitun
 religion = druidism
 

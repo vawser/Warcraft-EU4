@@ -1,5 +1,5 @@
 technology_group = tech_naga
-government = naga_warband
+government = naga_clan
 primary_culture = eye_of_azshara
 religion = azshara
 

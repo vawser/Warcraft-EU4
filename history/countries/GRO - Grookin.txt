@@ -1,5 +1,5 @@
 technology_group = tech_hozen
-government = mercantile_tribe
+government = hozen_tribe
 primary_culture = grookin
 religion = celestials
 

@@ -1,5 +1,6 @@
 technology_group = tech_night_elf
-government = administrative_order
+government = night_elf_order
+government_rank = 6
 primary_culture = moonglade
 religion = elune
 

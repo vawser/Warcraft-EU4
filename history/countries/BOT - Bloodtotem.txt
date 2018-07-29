@@ -1,5 +1,5 @@
 technology_group = tech_highmountain_tauren
-government = tauren_camp
+government = tauren_tribe
 primary_culture = bloodtotem
 religion = earth_mother
 

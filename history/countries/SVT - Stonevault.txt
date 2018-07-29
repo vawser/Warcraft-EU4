@@ -1,5 +1,5 @@
 technology_group = tech_trogg
-government = war_tribe
+government = trogg_tribe
 primary_culture = stonevault
 religion = geomancy
 

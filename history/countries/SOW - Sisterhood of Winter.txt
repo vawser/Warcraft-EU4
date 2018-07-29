@@ -1,5 +1,5 @@
 technology_group = tech_frost_nymph
-government = religious_tribe
+government = dryad_commune
 primary_culture = sisterhood_of_winter
 religion = druidism
 

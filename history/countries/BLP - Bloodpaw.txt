@@ -1,5 +1,5 @@
 technology_group = tech_wolvar
-government = war_tribe
+government = wolvar_tribe
 primary_culture = bloodpaw
 religion = shamanism
 

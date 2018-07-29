@@ -1,5 +1,5 @@
 technology_group = tech_naga
-government = naga_warband
+government = despotic_empire
 primary_culture = naga
 religion = azshara
 

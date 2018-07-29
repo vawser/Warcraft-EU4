@@ -1,5 +1,5 @@
 technology_group = tech_murloc
-government = war_tribe
+government = despotic_empire
 primary_culture = murloc
 religion = deep_mother
 

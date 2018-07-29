@@ -1,8 +1,8 @@
 technology_group = tech_human
-government = administrative_kingdom
+government = human_kingdom
 primary_culture = andorhal
 religion = the_holy_light
-
+government_rank = 4
 capital = 3517
 
 # The First War

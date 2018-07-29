@@ -1,5 +1,6 @@
 technology_group = tech_forest_troll
-government = troll_warband
+government = troll_tribe
+government_rank = 6
 primary_culture = amani
 religion = voodoo
 

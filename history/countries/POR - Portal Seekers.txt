@@ -1,5 +1,5 @@
 technology_group = tech_broken
-government = religious_tribe
+government = draenei_order
 primary_culture = broken
 religion = shadow
 

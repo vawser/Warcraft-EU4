@@ -1,5 +1,5 @@
 technology_group = tech_orc
-government = orc_warband
+government = orc_clan
 primary_culture = orc
 religion = the_holy_light
 

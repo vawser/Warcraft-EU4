@@ -1,5 +1,5 @@
 technology_group = tech_vrykul
-government = militaristic_kingdom
+government = vrykul_kingdom
 primary_culture = dragonflayer
 religion = runic
 

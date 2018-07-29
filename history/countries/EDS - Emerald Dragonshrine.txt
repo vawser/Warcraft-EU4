@@ -1,5 +1,5 @@
 technology_group = tech_green_dragonflight
-government = dragonflight_council
+government = dragon_council
 primary_culture = emerald_dragonshrine
 religion = dragon_aspects
 

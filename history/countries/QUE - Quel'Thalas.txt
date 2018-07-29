@@ -1,5 +1,6 @@
 technology_group = tech_high_elf
-government = militaristic_kingdom
+government = magocracy
+government_rank = 8
 primary_culture = quelthalas
 religion = arcane
 

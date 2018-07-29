@@ -1,5 +1,5 @@
 technology_group = tech_taunka
-government = mercantile_tribe
+government = taunka_tribe
 primary_culture = ashtotem
 religion = shamanism
 

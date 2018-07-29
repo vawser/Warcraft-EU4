@@ -1,5 +1,5 @@
 technology_group = tech_quillboar
-government = war_tribe
+government = quillboar_tribe
 primary_culture = razorfen
 religion = shamanism
 

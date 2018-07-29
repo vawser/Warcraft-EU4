@@ -1,5 +1,5 @@
 technology_group = tech_magnataur
-government = war_tribe
+government = magnataur_tribe
 primary_culture = magmoth
 religion = geomancy
 

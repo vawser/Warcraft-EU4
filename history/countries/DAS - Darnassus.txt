@@ -1,5 +1,6 @@
 technology_group = tech_night_elf
-government = administrative_theocracy
+government = night_elf_theocracy
+government_rank = 10
 primary_culture = darnassus
 religion = elune
 

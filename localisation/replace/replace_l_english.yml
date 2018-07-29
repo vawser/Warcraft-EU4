@@ -13,6 +13,30 @@
  shamanism_religion_desc: "Shamans honour the spirits of their ancestors and the elemental forces. Many carve totems to represent the spirits and animals from which they draw power, and it is within these totems that the true potency of a shaman lies. Some shamans live in balance with the elements and call upon them for aid, while others bind and twist them to their will."
  
  #------------------------------------------------------
+ # Government
+ #------------------------------------------------------
+ horde_unity:0 "Unity"
+ HORDE_RAZE_TOOLTIP_DELAYED:0 "§Y$NAME$§! will be razed to the ground, lowering its Development level by §R$AMT$§!.\n\nThis will give you §G$ADM$§! £adm, §G$DIP$§! £dip, §G$MIL$§! £mil and §G$LOOT$§!¤ of loot, as well as $UNITY$ Unity."
+ HORDE_RAZE_TOOLTIP_LATER:0 "If we raze $NAME|Y$ at a later time, we will gain §G$ADM$§! £adm, §G$DIP$§! £dip, §G$MIL$§! £mil and §G$LOOT$§!¤ of loot, as well as $UNITY$ Unity."
+ ADM_SCORE_UNITY:0 "Unity: $VAL$\n"
+ YEARLY_HORDE_UNITY:0 "Yearly Unity"
+ YOU_YEARLY_HORDE_UNITY_NO:0 "§YUnity§!\nCurrently your Unity is not changing."
+ THEY_YEARLY_HORDE_UNITY_NO:0 "§YUnity§!\nCurrently your Unity is not changing."
+ YOU_YEARLY_HORDE_UNITY:0 "§YUnity§!\nYour Unity changes by §Y$VALUE$§! every year, due to:\n"
+ THEY_YEARLY_HORDE_UNITY:0 "§YUnity§!\nTheir Unity changes by §Y$VALUE$§! every year, due to:\n"
+ CVIEW_HORDE_UNITY_DESC:1 "Unity is a measure of the how much support a Chief has from the tribes. It goes down over time and is increased by §Ylooting and razing provinces§!. States with low cohesion are likely to succumb to internal strife."
+ YOU_HORDE_UNITY_EFFECTS:0 "§YEffects from your current Unity:§!"
+ THEY_HORDE_UNITY_EFFECTS:0 "§YEffects from their current Unity:§!"
+ STR_HORDE_UNITY:0 "Gain $VAL|G$ Unity"
+ STR_GOV_ALREADY_MAX_HORDE_UNIT:0 "Unity is already at its highest!"
+ ABDICATE_LOW_HORDE_UNITY:0 "Unity must be at least $NEED|Y$ if you wish to Abdicate."
+ ABDICATE_PERFORM_IRO2_HORDE:0 "There will be a hit of $HIT|R$ Unity and $PRESTIGE_HIT|R$ prestige from this action, after the Heir's claim has been considered."
+ LOOT_HORDE_UNITY:0 "We will gain $CHANGE$ Unity due to this."
+ HAVE_HORDE_UNITY_LESS_THAN:0 "Have less Unity than "
+ HAVE_HORDE_UNITY_MORE_THAN:0 "Have Unity of at least "
+ HORDE_UNITY_EFFECT:0 "$DIRECTION$ $VALUE$ Unity.\n"
+ 
+ #------------------------------------------------------
  # Gov Abilities
  #------------------------------------------------------
  alert_can_use_russian_ability_instant:0 "§YCan use a Government ability!§!"
@@ -356,31 +380,7 @@
  COSSACKS_REGIMENT:0 "Veteran Cavalry Regiment\nShock Damage Bonus: $VAL$"
  STRELTSY_NAME:0 "$HOME$'s $NUM$$ORDER$ Veteran Infantry Regiment"
  STRELTSY_REGIMENT:0 "Veteran Cavalry Regiment\nFire Damage Bonus: $VAL$"
- 
- #------------------------------------------------------
- # Horde Unity
- #------------------------------------------------------
- horde_unity:0 "Tribal Cohesion"
- HORDE_RAZE_TOOLTIP_DELAYED:0 "§Y$NAME$§! will be razed to the ground, lowering its Development level by §R$AMT$§!.\n\nThis will give you §G$ADM$§! £adm, §G$DIP$§! £dip, §G$MIL$§! £mil and §G$LOOT$§!¤ of loot, as well as $UNITY$ Tribal Cohesion."
- HORDE_RAZE_TOOLTIP_LATER:0 "If we raze $NAME|Y$ at a later time, we will gain §G$ADM$§! £adm, §G$DIP$§! £dip, §G$MIL$§! £mil and §G$LOOT$§!¤ of loot, as well as $UNITY$ Tribal Cohesion."
- ADM_SCORE_UNITY:0 "Tribal Cohesion: $VAL$\n"
- YEARLY_HORDE_UNITY:0 "Yearly Tribal Cohesion"
- YOU_YEARLY_HORDE_UNITY_NO:0 "§YTribal Cohesion§!\nCurrently your Tribal Cohesion is not changing."
- THEY_YEARLY_HORDE_UNITY_NO:0 "§YTribal Cohesion§!\nCurrently your Tribal Cohesion is not changing."
- YOU_YEARLY_HORDE_UNITY:0 "§YTribal Cohesion§!\nYour Tribal Cohesion changes by §Y$VALUE$§! every year, due to:\n"
- THEY_YEARLY_HORDE_UNITY:0 "§YTribal Cohesion§!\nTheir Tribal Cohesion changes by §Y$VALUE$§! every year, due to:\n"
- CVIEW_HORDE_UNITY_DESC:1 "Tribal Cohesion is a measure of the how much support a Chief has from the tribes. It goes down over time and is increased by §Ylooting and razing provinces§!. States with low cohesion are likely to succumb to internal strife."
- YOU_HORDE_UNITY_EFFECTS:0 "§YEffects from your current Tribal Cohesion:§!"
- THEY_HORDE_UNITY_EFFECTS:0 "§YEffects from their current Tribal Cohesion:§!"
- STR_HORDE_UNITY:0 "Gain $VAL|G$ Tribal Cohesion"
- STR_GOV_ALREADY_MAX_HORDE_UNIT:0 "Tribal Cohesion is already at its highest!"
- ABDICATE_LOW_HORDE_UNITY:0 "Tribal Cohesion must be at least $NEED|Y$ if you wish to Abdicate."
- ABDICATE_PERFORM_IRO2_HORDE:0 "There will be a hit of $HIT|R$ Tribal Cohesion and $PRESTIGE_HIT|R$ prestige from this action, after the Heir's claim has been considered."
- LOOT_HORDE_UNITY:0 "We will gain $CHANGE$ Tribal Cohesion due to this."
- HAVE_HORDE_UNITY_LESS_THAN:0 "Have less Tribal Cohesion than "
- HAVE_HORDE_UNITY_MORE_THAN:0 "Have Tribal Cohesion of at least "
- HORDE_UNITY_EFFECT:0 "$DIRECTION$ $VALUE$ Tribal Cohesion.\n"
- 
+
  #------------------------------------------------------
  # Exploration
  #------------------------------------------------------

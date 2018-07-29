@@ -1,5 +1,5 @@
 technology_group = tech_human
-government = criminal_organisation
+government = pirate_clan
 primary_culture = southsea_freebooter
 religion = avarice
 

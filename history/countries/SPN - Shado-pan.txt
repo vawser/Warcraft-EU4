@@ -1,5 +1,6 @@
 technology_group = tech_pandaren
-government = militaristic_kingdom
+government = pandaren_commune
+government_rank = 6
 primary_culture = shado_pan
 religion = celestials
 

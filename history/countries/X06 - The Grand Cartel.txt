@@ -1,5 +1,5 @@
 technology_group = tech_goblin
-government = cartel
+government = bureaucratic_empire
 primary_culture = goblin
 religion = avarice
 

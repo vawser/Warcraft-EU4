@@ -1,5 +1,5 @@
 technology_group = tech_nightborne
-government = administrative_kingdom
+government = magocracy
 primary_culture = suramar
 religion = arcane
 

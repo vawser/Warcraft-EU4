@@ -1,5 +1,5 @@
 technology_group = tech_gnoll
-government = war_tribe
+government = gnoll_tribe
 primary_culture = drysnout
 religion = shamanism
 

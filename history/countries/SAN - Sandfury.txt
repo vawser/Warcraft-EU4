@@ -1,5 +1,6 @@
 technology_group = tech_sand_troll
-government = troll_warband
+government = troll_tribe
+government_rank = 4
 primary_culture = sandfury
 religion = voodoo
 

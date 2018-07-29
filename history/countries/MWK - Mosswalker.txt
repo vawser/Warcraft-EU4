@@ -1,5 +1,5 @@
 technology_group = tech_gorloc
-government = religious_tribe
+government = gorloc_tribe
 primary_culture = mosswalker
 religion = shamanism
 

@@ -1,5 +1,5 @@
 technology_group = tech_black_dragonflight
-government = dragonflight_council
+government = dragon_council
 primary_culture = wyrmbog
 religion = dragon_aspects
 

@@ -1,0 +1,728 @@
+furbolg_tribe = {
+	monarchy = yes
+    tribal = yes
+    
+    unique_government = yes
+        
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            global_autonomy = -0.005
+		}
+		2 = {
+            global_autonomy = -0.01
+		}
+		3 = {
+            global_autonomy = -0.015
+		}
+        4 = {
+            global_autonomy = -0.02
+        }
+        5 = {
+            global_autonomy = -0.025
+        }
+        6 = {
+            global_autonomy = -0.03
+        }
+        7 = {
+            global_autonomy = -0.035
+        }
+        8 = {
+            global_autonomy = -0.04
+        }
+        9 = {
+            global_autonomy = -0.045
+        }
+        10 = {
+            global_autonomy = -0.05
+        }
+	}
+}
+
+gnoll_tribe = {
+	monarchy = yes
+    tribal = yes
+    
+    unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            global_autonomy = -0.005
+		}
+		2 = {
+            global_autonomy = -0.01
+		}
+		3 = {
+            global_autonomy = -0.015
+		}
+        4 = {
+            global_autonomy = -0.02
+        }
+        5 = {
+            global_autonomy = -0.025
+        }
+        6 = {
+            global_autonomy = -0.03
+        }
+        7 = {
+            global_autonomy = -0.035
+        }
+        8 = {
+            global_autonomy = -0.04
+        }
+        9 = {
+            global_autonomy = -0.045
+        }
+        10 = {
+            global_autonomy = -0.05
+        }
+	}
+}
+
+gorloc_tribe = {
+	monarchy = yes
+    tribal = yes
+    
+    unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            global_autonomy = -0.005
+		}
+		2 = {
+            global_autonomy = -0.01
+		}
+		3 = {
+            global_autonomy = -0.015
+		}
+        4 = {
+            global_autonomy = -0.02
+        }
+        5 = {
+            global_autonomy = -0.025
+        }
+        6 = {
+            global_autonomy = -0.03
+        }
+        7 = {
+            global_autonomy = -0.035
+        }
+        8 = {
+            global_autonomy = -0.04
+        }
+        9 = {
+            global_autonomy = -0.045
+        }
+        10 = {
+            global_autonomy = -0.05
+        }
+	}
+}
+
+harpy_tribe = {
+	monarchy = yes
+    tribal = yes
+    
+    unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            global_autonomy = -0.005
+		}
+		2 = {
+            global_autonomy = -0.01
+		}
+		3 = {
+            global_autonomy = -0.015
+		}
+        4 = {
+            global_autonomy = -0.02
+        }
+        5 = {
+            global_autonomy = -0.025
+        }
+        6 = {
+            global_autonomy = -0.03
+        }
+        7 = {
+            global_autonomy = -0.035
+        }
+        8 = {
+            global_autonomy = -0.04
+        }
+        9 = {
+            global_autonomy = -0.045
+        }
+        10 = {
+            global_autonomy = -0.05
+        }
+	}
+}
+
+hozen_tribe = {
+	monarchy = yes
+    tribal = yes
+    
+    unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            global_autonomy = -0.005
+		}
+		2 = {
+            global_autonomy = -0.01
+		}
+		3 = {
+            global_autonomy = -0.015
+		}
+        4 = {
+            global_autonomy = -0.02
+        }
+        5 = {
+            global_autonomy = -0.025
+        }
+        6 = {
+            global_autonomy = -0.03
+        }
+        7 = {
+            global_autonomy = -0.035
+        }
+        8 = {
+            global_autonomy = -0.04
+        }
+        9 = {
+            global_autonomy = -0.045
+        }
+        10 = {
+            global_autonomy = -0.05
+        }
+	}
+}
+
+kobold_tribe = {
+	monarchy = yes
+    tribal = yes
+    
+    unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            global_autonomy = -0.005
+		}
+		2 = {
+            global_autonomy = -0.01
+		}
+		3 = {
+            global_autonomy = -0.015
+		}
+        4 = {
+            global_autonomy = -0.02
+        }
+        5 = {
+            global_autonomy = -0.025
+        }
+        6 = {
+            global_autonomy = -0.03
+        }
+        7 = {
+            global_autonomy = -0.035
+        }
+        8 = {
+            global_autonomy = -0.04
+        }
+        9 = {
+            global_autonomy = -0.045
+        }
+        10 = {
+            global_autonomy = -0.05
+        }
+	}
+}
+
+magnataur_tribe = {
+	monarchy = yes
+    tribal = yes
+    
+    unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            global_autonomy = -0.005
+		}
+		2 = {
+            global_autonomy = -0.01
+		}
+		3 = {
+            global_autonomy = -0.015
+		}
+        4 = {
+            global_autonomy = -0.02
+        }
+        5 = {
+            global_autonomy = -0.025
+        }
+        6 = {
+            global_autonomy = -0.03
+        }
+        7 = {
+            global_autonomy = -0.035
+        }
+        8 = {
+            global_autonomy = -0.04
+        }
+        9 = {
+            global_autonomy = -0.045
+        }
+        10 = {
+            global_autonomy = -0.05
+        }
+	}
+}
+
+murloc_tribe = {
+	monarchy = yes
+    tribal = yes
+    
+    unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            global_autonomy = -0.005
+		}
+		2 = {
+            global_autonomy = -0.01
+		}
+		3 = {
+            global_autonomy = -0.015
+		}
+        4 = {
+            global_autonomy = -0.02
+        }
+        5 = {
+            global_autonomy = -0.025
+        }
+        6 = {
+            global_autonomy = -0.03
+        }
+        7 = {
+            global_autonomy = -0.035
+        }
+        8 = {
+            global_autonomy = -0.04
+        }
+        9 = {
+            global_autonomy = -0.045
+        }
+        10 = {
+            global_autonomy = -0.05
+        }
+	}
+}
+
+pygmy_tribe = {
+	monarchy = yes
+    tribal = yes
+    
+    unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            global_autonomy = -0.005
+		}
+		2 = {
+            global_autonomy = -0.01
+		}
+		3 = {
+            global_autonomy = -0.015
+		}
+        4 = {
+            global_autonomy = -0.02
+        }
+        5 = {
+            global_autonomy = -0.025
+        }
+        6 = {
+            global_autonomy = -0.03
+        }
+        7 = {
+            global_autonomy = -0.035
+        }
+        8 = {
+            global_autonomy = -0.04
+        }
+        9 = {
+            global_autonomy = -0.045
+        }
+        10 = {
+            global_autonomy = -0.05
+        }
+	}
+}
+
+quillboar_tribe = {
+	monarchy = yes
+    tribal = yes
+    
+    unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            global_autonomy = -0.005
+		}
+		2 = {
+            global_autonomy = -0.01
+		}
+		3 = {
+            global_autonomy = -0.015
+		}
+        4 = {
+            global_autonomy = -0.02
+        }
+        5 = {
+            global_autonomy = -0.025
+        }
+        6 = {
+            global_autonomy = -0.03
+        }
+        7 = {
+            global_autonomy = -0.035
+        }
+        8 = {
+            global_autonomy = -0.04
+        }
+        9 = {
+            global_autonomy = -0.045
+        }
+        10 = {
+            global_autonomy = -0.05
+        }
+	}
+}
+
+spriteling_tribe = {
+	monarchy = yes
+    tribal = yes
+    
+    unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            global_autonomy = -0.005
+		}
+		2 = {
+            global_autonomy = -0.01
+		}
+		3 = {
+            global_autonomy = -0.015
+		}
+        4 = {
+            global_autonomy = -0.02
+        }
+        5 = {
+            global_autonomy = -0.025
+        }
+        6 = {
+            global_autonomy = -0.03
+        }
+        7 = {
+            global_autonomy = -0.035
+        }
+        8 = {
+            global_autonomy = -0.04
+        }
+        9 = {
+            global_autonomy = -0.045
+        }
+        10 = {
+            global_autonomy = -0.05
+        }
+	}
+}
+
+wolvar_tribe = {
+	monarchy = yes
+    tribal = yes
+    
+    unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            global_autonomy = -0.005
+		}
+		2 = {
+            global_autonomy = -0.01
+		}
+		3 = {
+            global_autonomy = -0.015
+		}
+        4 = {
+            global_autonomy = -0.02
+        }
+        5 = {
+            global_autonomy = -0.025
+        }
+        6 = {
+            global_autonomy = -0.03
+        }
+        7 = {
+            global_autonomy = -0.035
+        }
+        8 = {
+            global_autonomy = -0.04
+        }
+        9 = {
+            global_autonomy = -0.045
+        }
+        10 = {
+            global_autonomy = -0.05
+        }
+	}
+}
+
+trogg_tribe = {
+	monarchy = yes
+    tribal = yes
+    
+    unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            global_autonomy = -0.005
+		}
+		2 = {
+            global_autonomy = -0.01
+		}
+		3 = {
+            global_autonomy = -0.015
+		}
+        4 = {
+            global_autonomy = -0.02
+        }
+        5 = {
+            global_autonomy = -0.025
+        }
+        6 = {
+            global_autonomy = -0.03
+        }
+        7 = {
+            global_autonomy = -0.035
+        }
+        8 = {
+            global_autonomy = -0.04
+        }
+        9 = {
+            global_autonomy = -0.045
+        }
+        10 = {
+            global_autonomy = -0.05
+        }
+	}
+}
+

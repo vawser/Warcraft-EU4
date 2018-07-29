@@ -1,5 +1,6 @@
 technology_group = tech_orc
-government = the_horde
+government = orc_clan
+government_rank = 5
 primary_culture = orgrimmar
 religion = shamanism
 

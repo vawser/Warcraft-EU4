@@ -1,5 +1,5 @@
 technology_group = tech_qiraji
-government = qiraji_swarm
+government = despotic_empire
 primary_culture = qiraji
 religion = cthun
 

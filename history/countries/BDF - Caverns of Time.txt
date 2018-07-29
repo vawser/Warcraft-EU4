@@ -1,5 +1,5 @@
 technology_group = tech_bronze_dragonflight
-government = dragonflight_council
+government = dragon_council
 primary_culture = caverns_of_time
 religion = dragon_aspects
 

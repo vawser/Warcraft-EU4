@@ -1,0 +1,679 @@
+gov_magocracy_karazhan = {
+	rank = {
+		1 = MAGOCRACY
+		2 = MAGOCRACY
+		3 = MAGOCRACY
+		4 = MAGOCRACY
+		5 = MAGOCRACY
+		6 = MAGOCRACY
+		7 = MAGOCRACY
+		8 = MAGOCRACY
+		9 = MAGOCRACY
+		10 = MAGOCRACY
+	}
+
+	ruler_male = {
+		1 = GUARDIAN
+		2 = GUARDIAN
+		3 = GUARDIAN
+		4 = GUARDIAN
+		5 = GUARDIAN
+		6 = GUARDIAN
+		7 = GUARDIAN
+		8 = GUARDIAN
+		9 = GUARDIAN
+		10 = GUARDIAN
+	}
+
+	ruler_female = {
+		1 = GUARDIAN
+		2 = GUARDIAN
+		3 = GUARDIAN
+		4 = GUARDIAN
+		5 = GUARDIAN
+		6 = GUARDIAN
+		7 = GUARDIAN
+		8 = GUARDIAN
+		9 = GUARDIAN
+		10 = GUARDIAN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = magocracy
+        tag = KAZ
+	}
+}
+gov_kingdom_kul_tiras = {
+	rank = {
+		1 = ADMIRALITY
+		2 = ADMIRALITY
+		3 = ADMIRALITY
+		4 = ADMIRALITY
+		5 = ADMIRALITY
+		6 = ADMIRALITY
+		7 = ADMIRALITY
+		8 = ADMIRALITY
+		9 = ADMIRALITY
+		10 = ADMIRALITY
+	}
+
+	ruler_male = {
+		1 = ADMIRAL
+		2 = ADMIRAL
+		3 = ADMIRAL
+		4 = ADMIRAL
+		5 = ADMIRAL
+		6 = ADMIRAL
+		7 = ADMIRAL
+		8 = ADMIRAL
+		9 = ADMIRAL
+		10 = ADMIRAL
+	}
+
+	ruler_female = {
+		1 = ADMIRAL
+		2 = ADMIRAL
+		3 = ADMIRAL
+		4 = ADMIRAL
+		5 = ADMIRAL
+		6 = ADMIRAL
+		7 = ADMIRAL
+		8 = ADMIRAL
+		9 = ADMIRAL
+		10 = ADMIRAL
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+        government = human_kingdom
+        primary_culture = kul_tiras
+	}
+}
+gov_pandaren_commune_shadopan = {
+	rank = {
+		1 = SHADOPAN
+		2 = SHADOPAN
+		3 = SHADOPAN
+		4 = SHADOPAN
+		5 = SHADOPAN
+		6 = SHADOPAN
+		7 = SHADOPAN
+		8 = SHADOPAN
+		9 = SHADOPAN
+		10 = SHADOPAN
+	}
+
+	ruler_male = {
+		1 = GRANDMASTER
+		2 = GRANDMASTER
+		3 = GRANDMASTER
+		4 = GRANDMASTER
+		5 = GRANDMASTER
+		6 = GRANDMASTER
+		7 = GRANDMASTER
+		8 = GRANDMASTER
+		9 = GRANDMASTER
+		10 = GRANDMASTER
+	}
+
+	ruler_female = {
+		1 = GRANDMASTER
+		2 = GRANDMASTER
+		3 = GRANDMASTER
+		4 = GRANDMASTER
+		5 = GRANDMASTER
+		6 = GRANDMASTER
+		7 = GRANDMASTER
+		8 = GRANDMASTER
+		9 = GRANDMASTER
+		10 = GRANDMASTER
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = pandaren_commune
+        tag = SPN
+	}
+}
+gov_orc_clan_orgrimmar = {
+	rank = {
+		1 = THE_HORDE
+		2 = THE_HORDE
+		3 = THE_HORDE
+		4 = THE_HORDE
+		5 = THE_HORDE
+		6 = THE_HORDE
+		7 = THE_HORDE
+		8 = THE_HORDE
+		9 = THE_HORDE
+		10 = THE_HORDE
+	}
+
+	ruler_male = {
+		1 = WARCHIEF
+		2 = WARCHIEF
+		3 = WARCHIEF
+		4 = WARCHIEF
+		5 = WARCHIEF
+		6 = WARCHIEF
+		7 = WARCHIEF
+		8 = WARCHIEF
+		9 = WARCHIEF
+		10 = WARCHIEF
+	}
+
+	ruler_female = {
+		1 = WARCHIEF
+		2 = WARCHIEF
+		3 = WARCHIEF
+		4 = WARCHIEF
+		5 = WARCHIEF
+		6 = WARCHIEF
+		7 = WARCHIEF
+		8 = WARCHIEF
+		9 = WARCHIEF
+		10 = WARCHIEF
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = orc_clan
+        tag = ORG
+	}
+}
+gov_magocracy_nightborne = {
+	rank = {
+		1 = MAGOCRACY
+		2 = MAGOCRACY
+		3 = MAGOCRACY
+		4 = MAGOCRACY
+		5 = MAGOCRACY
+		6 = MAGOCRACY
+		7 = MAGOCRACY
+		8 = MAGOCRACY
+		9 = MAGOCRACY
+		10 = MAGOCRACY
+	}
+
+	ruler_male = {
+		1 = GRAND_MAGISTER
+		2 = GRAND_MAGISTER
+		3 = GRAND_MAGISTER
+		4 = GRAND_MAGISTER
+		5 = GRAND_MAGISTER
+		6 = GRAND_MAGISTER
+		7 = GRAND_MAGISTER
+		8 = GRAND_MAGISTER
+		9 = GRAND_MAGISTER
+		10 = GRAND_MAGISTER
+	}
+
+	ruler_female = {
+		1 = GRAND_MAGISTRIX
+		2 = GRAND_MAGISTRIX
+		3 = GRAND_MAGISTRIX
+		4 = GRAND_MAGISTRIX
+		5 = GRAND_MAGISTRIX
+		6 = GRAND_MAGISTRIX
+		7 = GRAND_MAGISTRIX
+		8 = GRAND_MAGISTRIX
+		9 = GRAND_MAGISTRIX
+		10 = GRAND_MAGISTRIX
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = magocracy
+        tag = NTB
+	}
+}
+gov_magocracy_high_elf = {
+	rank = {
+		1 = MAGOCRACY
+		2 = MAGOCRACY
+		3 = MAGOCRACY
+		4 = MAGOCRACY
+		5 = MAGOCRACY
+		6 = MAGOCRACY
+		7 = MAGOCRACY
+		8 = MAGOCRACY
+		9 = MAGOCRACY
+		10 = MAGOCRACY
+	}
+
+	ruler_male = {
+		1 = KING
+		2 = KING
+		3 = KING
+		4 = KING
+		5 = KING
+		6 = KING
+		7 = KING
+		8 = KING
+		9 = KING
+		10 = KING
+	}
+
+	ruler_female = {
+		1 = QUEEN
+		2 = QUEEN
+		3 = QUEEN
+		4 = QUEEN
+		5 = QUEEN
+		6 = QUEEN
+		7 = QUEEN
+		8 = QUEEN
+		9 = QUEEN
+		10 = QUEEN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = PRINCE
+		2 = PRINCE
+		3 = PRINCE
+		4 = PRINCE
+		5 = PRINCE
+		6 = PRINCE
+		7 = PRINCE
+		8 = PRINCE
+		9 = PRINCE
+		10 = PRINCE
+    }
+
+    heir_female = {
+        1 = PRINCESS
+		2 = PRINCESS
+		3 = PRINCESS
+		4 = PRINCESS
+		5 = PRINCESS
+		6 = PRINCESS
+		7 = PRINCESS
+		8 = PRINCESS
+		9 = PRINCESS
+		10 = PRINCESS
+    }
+
+	trigger = {
+		government = magocracy
+        tag = QUE
+	}
+}
+gov_draenei_order = {
+	rank = {
+		1 = FALLEN_ORDER
+		2 = FALLEN_ORDER
+		3 = FALLEN_ORDER
+		4 = FALLEN_ORDER
+		5 = FALLEN_ORDER
+		6 = FALLEN_ORDER
+		7 = FALLEN_ORDER
+		8 = FALLEN_ORDER
+		9 = FALLEN_ORDER
+		10 = FALLEN_ORDER
+	}
+
+	ruler_male = {
+		1 = FALLEN
+		2 = FALLEN
+		3 = FALLEN
+		4 = FALLEN
+		5 = FALLEN
+		6 = FALLEN
+		7 = FALLEN
+		8 = FALLEN
+		9 = FALLEN
+		10 = FALLEN
+	}
+
+	ruler_female = {
+		1 = FALLEN
+		2 = FALLEN
+		3 = FALLEN
+		4 = FALLEN
+		5 = FALLEN
+		6 = FALLEN
+		7 = FALLEN
+		8 = FALLEN
+		9 = FALLEN
+		10 = FALLEN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		government = draenei_order
+        religion_group = shadow_group
+	}
+}

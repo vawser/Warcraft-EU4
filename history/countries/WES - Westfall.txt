@@ -1,5 +1,6 @@
 technology_group = tech_human
-government = mercantile_kingdom
+government = human_kingdom
+government_rank = 3
 primary_culture = westfall
 religion = the_holy_light
 

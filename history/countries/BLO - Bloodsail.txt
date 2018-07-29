@@ -1,5 +1,6 @@
 technology_group = tech_human
-government = criminal_organisation
+government = pirate_clan
+government_rank = 5
 primary_culture = bloodsail
 religion = avarice
 

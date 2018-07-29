@@ -1,5 +1,5 @@
 technology_group = tech_earthen
-government = titan_outpost
+government = earthen_order
 primary_culture = frostborn
 religion = titan_worship
 

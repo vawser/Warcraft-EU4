@@ -1,5 +1,5 @@
 technology_group = tech_pandaren
-government = mercantile_kingdom
+government = pandaren_commune
 primary_culture = tillers
 religion = celestials
 

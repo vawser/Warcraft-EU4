@@ -1,5 +1,5 @@
 technology_group = tech_harpy
-government = religious_tribe
+government = harpy_tribe
 primary_culture = windfury
 religion = wind
 

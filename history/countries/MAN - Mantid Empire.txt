@@ -1,5 +1,6 @@
 technology_group = tech_mantid
-government = mantid_swarm
+government = mantid_hive
+government_rank = 10
 primary_culture = mantid
 religion = yshaarj
 

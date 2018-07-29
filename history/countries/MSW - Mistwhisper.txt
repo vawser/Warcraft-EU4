@@ -1,5 +1,5 @@
 technology_group = tech_gorloc
-government = mercantile_tribe
+government = gorloc_tribe
 primary_culture = mistwhisper
 religion = shamanism
 

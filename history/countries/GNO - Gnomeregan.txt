@@ -1,5 +1,6 @@
 technology_group = tech_gnome
 government = technocracy
+government_rank = 4
 primary_culture = gnomeregan
 religion = technomancy
 

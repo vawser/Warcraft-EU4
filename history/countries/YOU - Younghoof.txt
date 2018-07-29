@@ -1,5 +1,5 @@
 technology_group = tech_tauren
-government = tauren_camp
+government = tauren_tribe
 primary_culture = younghoof
 religion = earth_mother
 

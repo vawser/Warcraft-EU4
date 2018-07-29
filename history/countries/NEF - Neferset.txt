@@ -1,5 +1,6 @@
 technology_group = tech_tolvir
-government = militaristic_kingdom
+government = tolvir_kingdom
+government_rank = 4
 primary_culture = neferset
 religion = wind
 

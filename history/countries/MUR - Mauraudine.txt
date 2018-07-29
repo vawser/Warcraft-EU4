@@ -1,5 +1,5 @@
 technology_group = tech_centaur
-government = centaur_warband
+government = centaur_clan
 primary_culture = mauraudine
 religion = shamanism
 

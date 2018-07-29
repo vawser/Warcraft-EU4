@@ -1,5 +1,5 @@
 technology_group = tech_pygmy
-government = war_tribe
+government = pygmy_tribe
 primary_culture = oogah
 religion = shamanism
 

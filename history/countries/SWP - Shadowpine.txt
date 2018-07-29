@@ -1,5 +1,5 @@
 technology_group = tech_forest_troll
-government = troll_warband
+government = troll_tribe
 primary_culture = shadowpine
 religion = voodoo
 

@@ -1,5 +1,6 @@
 technology_group = tech_zandalari_troll
-government = troll_warband
+government = troll_tribe
+government_rank = 6
 primary_culture = zandalari
 religion = voodoo
 

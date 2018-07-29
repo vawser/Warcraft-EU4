@@ -1,5 +1,6 @@
 technology_group = tech_human
-government = administrative_kingdom
+government = human_kingdom
+government_rank = 4
 primary_culture = alterac
 religion = the_holy_light
 

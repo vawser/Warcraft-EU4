@@ -1,5 +1,5 @@
 technology_group = tech_kobold
-government = war_tribe
+government = kobold_tribe
 primary_culture = gravelsnout
 religion = geomancy
 

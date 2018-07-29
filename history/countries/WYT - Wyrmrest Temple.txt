@@ -1,5 +1,5 @@
 technology_group = tech_red_dragonflight
-government = dragonflight_council
+government = dragon_council
 primary_culture = wyrmrest_temple
 religion = dragon_aspects
 

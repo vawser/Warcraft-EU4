@@ -1,5 +1,5 @@
 technology_group = tech_pandaren
-government = mercantile_kingdom
+government = bureaucratic_empire
 primary_culture = pandaren
 religion = celestials
 

@@ -1,5 +1,5 @@
 technology_group = tech_yaungol
-government = war_tribe
+government = yaungol_tribe
 primary_culture = ruqin
 religion = ordos
 

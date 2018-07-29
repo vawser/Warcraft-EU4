@@ -1,0 +1,1707 @@
+human_kingdom = {
+	monarchy = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            global_tax_modifier = 0.02
+            global_autonomy = -0.01
+		}
+		2 = {
+            global_tax_modifier = 0.04
+            global_autonomy = -0.02
+		}
+		3 = {
+            global_tax_modifier = 0.06
+            global_autonomy = -0.03
+		}
+        4 = {
+            global_tax_modifier = 0.08
+            global_autonomy = -0.04
+        }
+        5 = {
+            global_tax_modifier = 0.1
+            global_autonomy = -0.05
+        }
+        6 = {
+            global_tax_modifier = 0.12
+            global_autonomy = -0.06
+        }
+        7 = {
+            global_tax_modifier = 0.14
+            global_autonomy = -0.07
+        }
+        8 = {
+            global_tax_modifier = 0.16
+            global_autonomy = -0.08
+        }
+        9 = {
+            global_tax_modifier = 0.18
+            global_autonomy = -0.09
+        }
+        10 = {
+            global_tax_modifier = 0.2
+            global_autonomy = -0.1
+        }
+	}
+}
+
+dwarf_kingdom = {
+	monarchy = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            global_tax_modifier = 0.02
+            global_autonomy = -0.01
+		}
+		2 = {
+            global_tax_modifier = 0.04
+            global_autonomy = -0.02
+		}
+		3 = {
+            global_tax_modifier = 0.06
+            global_autonomy = -0.03
+		}
+        4 = {
+            global_tax_modifier = 0.08
+            global_autonomy = -0.04
+        }
+        5 = {
+            global_tax_modifier = 0.1
+            global_autonomy = -0.05
+        }
+        6 = {
+            global_tax_modifier = 0.12
+            global_autonomy = -0.06
+        }
+        7 = {
+            global_tax_modifier = 0.14
+            global_autonomy = -0.07
+        }
+        8 = {
+            global_tax_modifier = 0.16
+            global_autonomy = -0.08
+        }
+        9 = {
+            global_tax_modifier = 0.18
+            global_autonomy = -0.09
+        }
+        10 = {
+            global_tax_modifier = 0.2
+            global_autonomy = -0.1
+        }
+	}
+}
+
+dark_iron_kingdom = {
+	monarchy = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            global_manpower_modifier = 0.02
+            global_autonomy = -0.01
+            max_absolutism = 10
+		}
+		2 = {
+            global_manpower_modifier = 0.04
+            global_autonomy = -0.02
+            max_absolutism = 10
+		}
+		3 = {
+            global_manpower_modifier = 0.06
+            global_autonomy = -0.03
+            max_absolutism = 10
+		}
+        4 = {
+            global_manpower_modifier = 0.08
+            global_autonomy = -0.04
+            max_absolutism = 10
+        }
+        5 = {
+            global_manpower_modifier = 0.1
+            global_autonomy = -0.05
+            max_absolutism = 10
+        }
+        6 = {
+            global_manpower_modifier = 0.12
+            global_autonomy = -0.06
+            max_absolutism = 10
+        }
+        7 = {
+            global_manpower_modifier = 0.14
+            global_autonomy = -0.07
+            max_absolutism = 10
+        }
+        8 = {
+            global_manpower_modifier = 0.16
+            global_autonomy = -0.08
+            max_absolutism = 10
+        }
+        9 = {
+            global_manpower_modifier = 0.18
+            global_autonomy = -0.09
+            max_absolutism = 10
+        }
+        10 = {
+            global_manpower_modifier = 0.2
+            global_autonomy = -0.1
+            max_absolutism = 10
+        }
+	}
+}
+
+night_elf_theocracy = {
+    religion = yes
+    
+    has_devotion = yes
+    
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+    different_religion_acceptance = -20
+	different_religion_group_acceptance = -50
+    
+	rank = {
+		1 = {
+            prestige = 0.2
+            tolerance_own = 1
+            global_autonomy = -0.01
+		}
+		2 = {
+            prestige = 0.4
+            tolerance_own = 1
+            global_autonomy = -0.02
+		}
+		3 = {
+            prestige = 0.6
+            tolerance_own = 1
+            global_autonomy = -0.03
+		}
+        4 = {
+            prestige = 0.8
+            tolerance_own = 2
+            global_autonomy = -0.04
+        }
+        5 = {
+            prestige = 1.0
+            tolerance_own = 2
+            global_autonomy = -0.05
+        }
+        6 = {
+            prestige = 1.2
+            tolerance_own = 2
+            global_autonomy = -0.06
+        }
+        7 = {
+            prestige = 1.4
+            tolerance_own = 2
+            global_autonomy = -0.07
+        }
+        8 = {
+            prestige = 1.6
+            tolerance_own = 3
+            global_autonomy = -0.08
+        }
+        9 = {
+            prestige = 1.8
+            tolerance_own = 3
+            global_autonomy = -0.09
+        }
+        10 = {
+            prestige = 2.0
+            tolerance_own = 3
+            global_autonomy = -0.1
+        }
+	}
+}
+
+draenei_theocracy = {
+    religion = yes
+    
+    has_devotion = yes
+    
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+    different_religion_acceptance = -20
+	different_religion_group_acceptance = -50
+    
+	rank = {
+		1 = {
+            prestige = 0.2
+            tolerance_own = 1
+            global_autonomy = -0.01
+		}
+		2 = {
+            prestige = 0.4
+            tolerance_own = 1
+            global_autonomy = -0.02
+		}
+		3 = {
+            prestige = 0.6
+            tolerance_own = 1
+            global_autonomy = -0.03
+		}
+        4 = {
+            prestige = 0.8
+            tolerance_own = 2
+            global_autonomy = -0.04
+        }
+        5 = {
+            prestige = 1.0
+            tolerance_own = 2
+            global_autonomy = -0.05
+        }
+        6 = {
+            prestige = 1.2
+            tolerance_own = 2
+            global_autonomy = -0.06
+        }
+        7 = {
+            prestige = 1.4
+            tolerance_own = 2
+            global_autonomy = -0.07
+        }
+        8 = {
+            prestige = 1.6
+            tolerance_own = 3
+            global_autonomy = -0.08
+        }
+        9 = {
+            prestige = 1.8
+            tolerance_own = 3
+            global_autonomy = -0.09
+        }
+        10 = {
+            prestige = 2.0
+            tolerance_own = 3
+            global_autonomy = -0.1
+        }
+	}
+}
+
+tolvir_kingdom = {
+	monarchy = yes
+    unique_government = yes
+    
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            production_efficiency = 0.02
+            global_autonomy = -0.01
+		}
+		2 = {
+            production_efficiency = 0.04
+            global_autonomy = -0.02
+		}
+		3 = {
+            production_efficiency = 0.06
+            global_autonomy = -0.03
+		}
+        4 = {
+            production_efficiency = 0.08
+            global_autonomy = -0.04
+        }
+        5 = {
+            production_efficiency = 0.1
+            global_autonomy = -0.05
+        }
+        6 = {
+            production_efficiency = 0.12
+            global_autonomy = -0.06
+        }
+        7 = {
+            production_efficiency = 0.14
+            global_autonomy = -0.07
+        }
+        8 = {
+            production_efficiency = 0.16
+            global_autonomy = -0.08
+        }
+        9 = {
+            production_efficiency = 0.18
+            global_autonomy = -0.09
+        }
+        10 = {
+            production_efficiency = 0.2
+            global_autonomy = -0.1
+        }
+	}
+}
+
+nerubian_kingdom = {
+	monarchy = yes
+    unique_government = yes
+    
+    queen = no
+    royal_marriage = no
+    
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            technology_cost = -0.02
+            innovativeness_gain = 1
+            global_autonomy = -0.01
+		}
+		2 = {
+            technology_cost = -0.04
+            innovativeness_gain = 1
+            global_autonomy = -0.02
+		}
+		3 = {
+            technology_cost = -0.06
+            innovativeness_gain = 1
+            global_autonomy = -0.03
+		}
+        4 = {
+            technology_cost = -0.08
+            innovativeness_gain = 1
+            global_autonomy = -0.04
+        }
+        5 = {
+            technology_cost = -0.1
+            innovativeness_gain = 1
+            global_autonomy = -0.05
+        }
+        6 = {
+            technology_cost = -0.12
+            innovativeness_gain = 1
+            global_autonomy = -0.06
+        }
+        7 = {
+            technology_cost = -0.14
+            innovativeness_gain = 1
+            global_autonomy = -0.07
+        }
+        8 = {
+            technology_cost = -0.16
+            innovativeness_gain = 1
+            global_autonomy = -0.08
+        }
+        9 = {
+            technology_cost = -0.18
+            innovativeness_gain = 1
+            global_autonomy = -0.09
+        }
+        10 = {
+            technology_cost = -0.2
+            innovativeness_gain = 1
+            global_autonomy = -0.1
+        }
+	}
+}
+
+vrykul_kingdom = {
+	monarchy = yes
+    unique_government = yes
+    
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            army_tradition = 0.2
+            global_autonomy = -0.01
+            max_absolutism = 5
+		}
+		2 = {
+            army_tradition = 0.4
+            global_autonomy = -0.02
+            max_absolutism = 5
+		}
+		3 = {
+            army_tradition = 0.6
+            global_autonomy = -0.03
+            max_absolutism = 5
+		}
+        4 = {
+            army_tradition = 0.8
+            global_autonomy = -0.04
+            max_absolutism = 5
+        }
+        5 = {
+            army_tradition = 1.0
+            global_autonomy = -0.05
+            max_absolutism = 5
+        }
+        6 = {
+            army_tradition = 1.2
+            global_autonomy = -0.06
+            max_absolutism = 5
+        }
+        7 = {
+            army_tradition = 1.4
+            global_autonomy = -0.07
+            max_absolutism = 5
+        }
+        8 = {
+            army_tradition = 1.6
+            global_autonomy = -0.08
+            max_absolutism = 5
+        }
+        9 = {
+            army_tradition = 1.8
+            global_autonomy = -0.09
+            max_absolutism = 5
+        }
+        10 = {
+            army_tradition = 2.0
+            global_autonomy = -0.1
+            max_absolutism = 5
+        }
+	}
+}
+
+holy_order = {
+	religion = yes
+    monastic = yes
+    
+    has_devotion = yes
+    
+	queen = no
+    royal_marriage = no
+    
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+    different_religion_acceptance = -20
+	different_religion_group_acceptance = -50
+    
+	rank = {
+		1 = {
+            tolerance_own = 1
+            global_missionary_strength = 0.005
+            global_autonomy = -0.01
+		}
+		2 = {
+            tolerance_own = 1
+            global_missionary_strength = 0.01
+            global_autonomy = -0.02
+		}
+		3 = {
+            tolerance_own = 1
+            global_missionary_strength = 0.015
+            global_autonomy = -0.03
+		}
+        4 = {
+            tolerance_own = 2
+            global_missionary_strength = 0.02
+            global_autonomy = -0.04
+        }
+        5 = {
+            tolerance_own = 2
+            global_missionary_strength = 0.025
+            global_autonomy = -0.05
+        }
+        6 = {
+            tolerance_own = 2
+           global_missionary_strength = 0.03
+            global_autonomy = -0.06
+        }
+        7 = {
+            tolerance_own = 2
+            global_missionary_strength = 0.035
+            global_autonomy = -0.07
+        }
+        8 = {
+            tolerance_own = 3
+            global_missionary_strength = 0.04
+            global_autonomy = -0.08
+        }
+        9 = {
+            tolerance_own = 3
+            global_missionary_strength = 0.045
+            global_autonomy = -0.09
+        }
+        10 = {
+            tolerance_own = 3
+            global_missionary_strength = 0.05
+            global_autonomy = -0.1
+        }
+	}
+}
+
+night_elf_order = {
+	religion = yes
+    monastic = yes
+    
+    has_devotion = yes
+    
+	queen = no
+    royal_marriage = no
+    
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+    different_religion_acceptance = -20
+	different_religion_group_acceptance = -50
+    
+	rank = {
+		1 = {
+            tolerance_own = 1
+            global_missionary_strength = 0.005
+            global_autonomy = -0.01
+		}
+		2 = {
+            tolerance_own = 1
+            global_missionary_strength = 0.01
+            global_autonomy = -0.02
+		}
+		3 = {
+            tolerance_own = 1
+            global_missionary_strength = 0.015
+            global_autonomy = -0.03
+		}
+        4 = {
+            tolerance_own = 2
+            global_missionary_strength = 0.02
+            global_autonomy = -0.04
+        }
+        5 = {
+            tolerance_own = 2
+            global_missionary_strength = 0.025
+            global_autonomy = -0.05
+        }
+        6 = {
+            tolerance_own = 2
+           global_missionary_strength = 0.03
+            global_autonomy = -0.06
+        }
+        7 = {
+            tolerance_own = 2
+            global_missionary_strength = 0.035
+            global_autonomy = -0.07
+        }
+        8 = {
+            tolerance_own = 3
+            global_missionary_strength = 0.04
+            global_autonomy = -0.08
+        }
+        9 = {
+            tolerance_own = 3
+            global_missionary_strength = 0.045
+            global_autonomy = -0.09
+        }
+        10 = {
+            tolerance_own = 3
+            global_missionary_strength = 0.05
+            global_autonomy = -0.1
+        }
+	}
+}
+
+draenei_order = {
+	religion = yes
+    monastic = yes
+    
+    has_devotion = yes
+    
+	queen = no
+    royal_marriage = no
+    
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+    different_religion_acceptance = -20
+	different_religion_group_acceptance = -50
+    
+	rank = {
+		1 = {
+            tolerance_own = 1
+            global_missionary_strength = 0.005
+            global_autonomy = -0.01
+		}
+		2 = {
+            tolerance_own = 1
+            global_missionary_strength = 0.01
+            global_autonomy = -0.02
+		}
+		3 = {
+            tolerance_own = 1
+            global_missionary_strength = 0.015
+            global_autonomy = -0.03
+		}
+        4 = {
+            tolerance_own = 2
+            global_missionary_strength = 0.02
+            global_autonomy = -0.04
+        }
+        5 = {
+            tolerance_own = 2
+            global_missionary_strength = 0.025
+            global_autonomy = -0.05
+        }
+        6 = {
+            tolerance_own = 2
+           global_missionary_strength = 0.03
+            global_autonomy = -0.06
+        }
+        7 = {
+            tolerance_own = 2
+            global_missionary_strength = 0.035
+            global_autonomy = -0.07
+        }
+        8 = {
+            tolerance_own = 3
+            global_missionary_strength = 0.04
+            global_autonomy = -0.08
+        }
+        9 = {
+            tolerance_own = 3
+            global_missionary_strength = 0.045
+            global_autonomy = -0.09
+        }
+        10 = {
+            tolerance_own = 3
+            global_missionary_strength = 0.05
+            global_autonomy = -0.1
+        }
+	}
+}
+
+titan_order = {
+	religion = yes
+    monastic = yes
+    
+    has_devotion = yes
+    
+	queen = no
+    royal_marriage = no
+    
+    unique_government = yes
+    
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            defensiveness = 0.1
+            global_autonomy = -0.01
+            max_absolutism = -20
+		}
+		2 = {
+            defensiveness = 0.2
+            global_autonomy = -0.02
+            max_absolutism = -20
+		}
+		3 = {
+            defensiveness = 0.3
+            global_autonomy = -0.03
+            max_absolutism = -20
+		}
+        4 = {
+            defensiveness = 0.4
+            global_autonomy = -0.04
+            max_absolutism = -20
+        }
+        5 = {
+            defensiveness = 0.5
+            global_autonomy = -0.05
+            max_absolutism = -20
+        }
+        6 = {
+            defensiveness = 0.6
+            global_autonomy = -0.06
+            max_absolutism = -20
+        }
+        7 = {
+            defensiveness = 0.7
+            global_autonomy = -0.07
+            max_absolutism = -20
+        }
+        8 = {
+            defensiveness = 0.8
+            global_autonomy = -0.08
+            max_absolutism = -20
+        }
+        9 = {
+            defensiveness = 0.9
+            global_autonomy = -0.09
+            max_absolutism = -20
+        }
+        10 = {
+            defensiveness = 1.0
+            global_autonomy = -0.1
+            max_absolutism = -20
+        }
+	}
+}
+
+dragon_council = {
+	monarchy = yes
+    
+    unique_government = yes
+    
+	queen = no
+    royal_marriage = no
+    
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            idea_cost = -0.02
+            global_autonomy = -0.01
+            max_absolutism = -20
+		}
+		2 = {
+            idea_cost = -0.04
+            global_autonomy = -0.02
+            max_absolutism = -20
+		}
+		3 = {
+            idea_cost = -0.06
+            global_autonomy = -0.03
+            max_absolutism = -20
+		}
+        4 = {
+            idea_cost = -0.08
+            global_autonomy = -0.04
+            max_absolutism = -20
+        }
+        5 = {
+            idea_cost = -0.1
+            global_autonomy = -0.05
+            max_absolutism = -20
+        }
+        6 = {
+            idea_cost = -0.12
+            global_autonomy = -0.06
+            max_absolutism = -20
+        }
+        7 = {
+            idea_cost = -0.14
+            global_autonomy = -0.07
+            max_absolutism = -20
+        }
+        8 = {
+            idea_cost = -0.16
+            global_autonomy = -0.08
+            max_absolutism = -20
+        }
+        9 = {
+            idea_cost = -0.18
+            global_autonomy = -0.09
+            max_absolutism = -20
+        }
+        10 = {
+            idea_cost = -0.20
+            global_autonomy = -0.1
+            max_absolutism = -20
+        }
+	}
+}
+
+earthen_order = {
+	religion = yes
+    monastic = yes
+    
+    has_devotion = yes
+    
+    unique_government = yes
+
+	queen = no
+    royal_marriage = no
+    
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            fort_maintenance_modifier = -0.05
+            global_autonomy = -0.01
+            max_absolutism = -20
+		}
+		2 = {
+            fort_maintenance_modifier = -0.1
+            global_autonomy = -0.02
+            max_absolutism = -20
+		}
+		3 = {
+            fort_maintenance_modifier = -0.15
+            global_autonomy = -0.03
+            max_absolutism = -20
+		}
+        4 = {
+            fort_maintenance_modifier = -0.2
+            global_autonomy = -0.04
+            max_absolutism = -20
+        }
+        5 = {
+            fort_maintenance_modifier = -0.25
+            global_autonomy = -0.05
+            max_absolutism = -20
+        }
+        6 = {
+            fort_maintenance_modifier = -0.3
+            global_autonomy = -0.06
+            max_absolutism = -20
+        }
+        7 = {
+            fort_maintenance_modifier = -0.35
+            global_autonomy = -0.07
+            max_absolutism = -20
+        }
+        8 = {
+            fort_maintenance_modifier = -0.4
+            global_autonomy = -0.08
+            max_absolutism = -20
+        }
+        9 = {
+            fort_maintenance_modifier = -0.45
+            global_autonomy = -0.09
+            max_absolutism = -20
+        }
+        10 = {
+            fort_maintenance_modifier = -0.5
+            global_autonomy = -0.1
+            max_absolutism = -20
+        }
+	}
+}
+
+pandaren_commune = {
+	monarchy = yes
+    
+    unique_government = yes
+    
+	queen = no
+    royal_marriage = no
+    
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            development_cost = -0.025
+            global_autonomy = -0.01
+            max_absolutism = -20
+		}
+		2 = {
+            development_cost = -0.05
+            global_autonomy = -0.02
+            max_absolutism = -20
+		}
+		3 = {
+            development_cost = -0.075
+            global_autonomy = -0.03
+            max_absolutism = -20
+		}
+        4 = {
+            development_cost = -0.1
+            global_autonomy = -0.04
+            max_absolutism = -20
+        }
+        5 = {
+            development_cost = -0.125
+            global_autonomy = -0.05
+            max_absolutism = -20
+        }
+        6 = {
+            development_cost = -0.15
+            global_autonomy = -0.06
+            max_absolutism = -20
+        }
+        7 = {
+            development_cost = -0.175
+            global_autonomy = -0.07
+            max_absolutism = -20
+        }
+        8 = {
+            development_cost = -0.2
+            global_autonomy = -0.08
+            max_absolutism = -20
+        }
+        9 = {
+            development_cost = -0.225
+            global_autonomy = -0.09
+            max_absolutism = -20
+        }
+        10 = {
+            development_cost = -0.25
+            global_autonomy = -0.1
+            max_absolutism = -20
+        }
+	}
+}
+
+dryad_commune = {
+	monarchy = yes
+    
+    unique_government = yes
+    
+	queen = no
+    royal_marriage = no
+    
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            recover_army_morale_speed = 0.02
+            global_autonomy = -0.01
+            max_absolutism = -20
+		}
+		2 = {
+            recover_army_morale_speed = 0.04
+            global_autonomy = -0.02
+            max_absolutism = -20
+		}
+		3 = {
+            recover_army_morale_speed = 0.06
+            global_autonomy = -0.03
+            max_absolutism = -20
+		}
+        4 = {
+            recover_army_morale_speed = 0.08
+            global_autonomy = -0.04
+            max_absolutism = -20
+        }
+        5 = {
+            recover_army_morale_speed = 0.1
+            global_autonomy = -0.05
+            max_absolutism = -20
+        }
+        6 = {
+            recover_army_morale_speed = 0.12
+            global_autonomy = -0.06
+            max_absolutism = -20
+        }
+        7 = {
+            recover_army_morale_speed = 0.14
+            global_autonomy = -0.07
+            max_absolutism = -20
+        }
+        8 = {
+            recover_army_morale_speed = 0.16
+            global_autonomy = -0.08
+            max_absolutism = -20
+        }
+        9 = {
+            recover_army_morale_speed = 0.18
+            global_autonomy = -0.09
+            max_absolutism = -20
+        }
+        10 = {
+            recover_army_morale_speed = 0.2
+            global_autonomy = -0.1
+            max_absolutism = -20
+        }
+	}
+}
+
+tauren_tribe = {
+    monarchy = yes
+	tribal = yes
+	
+    unique_government = yes
+
+	queen = no
+    royal_marriage = no
+    
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = no
+	allow_migration = yes
+    
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            diplomatic_reputation = 0.25
+            global_autonomy = -0.01
+            max_absolutism = -20
+		}
+		2 = {
+            diplomatic_reputation = 0.5
+            global_autonomy = -0.02
+            max_absolutism = -20
+		}
+		3 = {
+            diplomatic_reputation = 0.75
+            global_autonomy = -0.03
+            max_absolutism = -20
+		}
+        4 = {
+            diplomatic_reputation = 1
+            global_autonomy = -0.04
+            max_absolutism = -20
+        }
+        5 = {
+            diplomatic_reputation = 1.25
+            global_autonomy = -0.05
+            max_absolutism = -20
+        }
+        6 = {
+            diplomatic_reputation = 1.5
+            global_autonomy = -0.06
+            max_absolutism = -20
+        }
+        7 = {
+            diplomatic_reputation = 1.75
+            global_autonomy = -0.07
+            max_absolutism = -20
+        }
+        8 = {
+            diplomatic_reputation = 2
+            global_autonomy = -0.08
+            max_absolutism = -20
+        }
+        9 = {
+            diplomatic_reputation = 2.25
+            global_autonomy = -0.09
+            max_absolutism = -20
+        }
+        10 = {
+            diplomatic_reputation = 2.5
+            global_autonomy = -0.1
+            max_absolutism = -20
+        }
+	}
+}
+
+taunka_tribe = {
+	monarchy = yes
+	tribal = yes
+	
+    queen = no
+    royal_marriage = no
+    
+    unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = no
+	allow_migration = yes
+    
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            state_maintenance_modifier = -0.025
+            global_autonomy = -0.01
+            max_absolutism = -20
+		}
+		2 = {
+            state_maintenance_modifier = -0.05
+            global_autonomy = -0.02
+            max_absolutism = -20
+		}
+		3 = {
+            state_maintenance_modifier = -0.075
+            global_autonomy = -0.03
+            max_absolutism = -20
+		}
+        4 = {
+            state_maintenance_modifier = -0.1
+            global_autonomy = -0.04
+            max_absolutism = -20
+        }
+        5 = {
+            state_maintenance_modifier = -0.125
+            global_autonomy = -0.05
+            max_absolutism = -20
+        }
+        6 = {
+            state_maintenance_modifier = -0.15
+            global_autonomy = -0.06
+            max_absolutism = -20
+        }
+        7 = {
+            state_maintenance_modifier = -0.175
+            global_autonomy = -0.07
+            max_absolutism = -20
+        }
+        8 = {
+            state_maintenance_modifier = -0.2
+            global_autonomy = -0.08
+            max_absolutism = -20
+        }
+        9 = {
+            state_maintenance_modifier = -0.225
+            global_autonomy = -0.09
+            max_absolutism = -20
+        }
+        10 = {
+            state_maintenance_modifier = -0.25
+            global_autonomy = -0.1
+            max_absolutism = -20
+        }
+	}
+}
+
+tuskarr_tribe = {
+	monarchy = yes
+	tribal = yes
+	
+    queen = no
+    royal_marriage = no
+    
+    unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = no
+	allow_migration = yes
+    
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            land_attrition = -0.025
+            global_autonomy = -0.01
+            max_absolutism = -20
+		}
+		2 = {
+            land_attrition = -0.05
+            global_autonomy = -0.02
+            max_absolutism = -20
+		}
+		3 = {
+            land_attrition = -0.075
+            global_autonomy = -0.03
+            max_absolutism = -20
+		}
+        4 = {
+            land_attrition = -0.1
+            global_autonomy = -0.04
+            max_absolutism = -20
+        }
+        5 = {
+            land_attrition = -0.125
+            global_autonomy = -0.05
+            max_absolutism = -20
+        }
+        6 = {
+            land_attrition = -0.15
+            global_autonomy = -0.06
+            max_absolutism = -20
+        }
+        7 = {
+            land_attrition = -0.175
+            global_autonomy = -0.07
+            max_absolutism = -20
+        }
+        8 = {
+            land_attrition = -0.2
+            global_autonomy = -0.08
+            max_absolutism = -20
+        }
+        9 = {
+            land_attrition = -0.225
+            global_autonomy = -0.09
+            max_absolutism = -20
+        }
+        10 = {
+            land_attrition = -0.25
+            global_autonomy = -0.1
+            max_absolutism = -20
+        }
+	}
+}
+
+jinyu_tribe = {
+	monarchy = yes
+
+    queen = no
+    royal_marriage = no
+    
+    unique_government = yes
+    
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            yearly_corruption = -0.01
+            global_autonomy = -0.01
+            max_absolutism = -20
+		}
+		2 = {
+            yearly_corruption = -0.02
+            global_autonomy = -0.02
+            max_absolutism = -20
+		}
+		3 = {
+            yearly_corruption = -0.03
+            global_autonomy = -0.03
+            max_absolutism = -20
+		}
+        4 = {
+            yearly_corruption = -0.04
+            global_autonomy = -0.04
+            max_absolutism = -20
+        }
+        5 = {
+            yearly_corruption = -0.05
+            global_autonomy = -0.05
+            max_absolutism = -20
+        }
+        6 = {
+            yearly_corruption = -0.06
+            global_autonomy = -0.06
+            max_absolutism = -20
+        }
+        7 = {
+            yearly_corruption = -0.07
+            global_autonomy = -0.07
+            max_absolutism = -20
+        }
+        8 = {
+            yearly_corruption = -0.08
+            global_autonomy = -0.08
+            max_absolutism = -20
+        }
+        9 = {
+            yearly_corruption = -0.09
+            global_autonomy = -0.09
+            max_absolutism = -20
+        }
+        10 = {
+            yearly_corruption = -0.1
+            global_autonomy = -0.1
+            max_absolutism = -20
+        }
+	}
+}
+
+technocracy = {
+	monarchy = yes
+
+	queen = no
+    royal_marriage = no
+    
+    has_meritocracy = yes
+    
+    unique_government = yes
+    
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            technology_cost = -0.01
+            embracement_cost = -0.05
+            global_autonomy = -0.01
+		}
+		2 = {
+            technology_cost = -0.02
+            embracement_cost = -0.1
+            global_autonomy = -0.02
+		}
+		3 = {
+            technology_cost = -0.03
+            embracement_cost = -0.15
+            global_autonomy = -0.03
+		}
+        4 = {
+            technology_cost = -0.04
+            embracement_cost = -0.2
+            global_autonomy = -0.04
+        }
+        5 = {
+            technology_cost = -0.05
+            embracement_cost = -0.25
+            global_autonomy = -0.05
+        }
+        6 = {
+            technology_cost = -0.06
+            embracement_cost = -0.3
+            global_autonomy = -0.06
+        }
+        7 = {
+            technology_cost = -0.07
+            embracement_cost = -0.35
+            global_autonomy = -0.07
+        }
+        8 = {
+            technology_cost = -0.08
+            embracement_cost = -0.4
+            global_autonomy = -0.08
+        }
+        9 = {
+            technology_cost = -0.09
+            embracement_cost = -0.45
+            global_autonomy = -0.09
+        }
+        10 = {
+            technology_cost = -0.1
+            embracement_cost = -0.5
+            global_autonomy = -0.1
+        }
+	}
+}
+
+trade_cartel = {
+	dictatorship = yes
+    
+    queen = no
+    royal_marriage = no
+    
+    unique_government = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    boost_income = yes
+	can_use_trade_post = yes
+	can_form_trade_league = yes
+    
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            global_trade_power = 0.02
+            merchants = 1
+            global_autonomy = -0.01
+		}
+		2 = {
+            global_trade_power = 0.04
+            merchants = 1
+            global_autonomy = -0.02
+		}
+		3 = {
+            global_trade_power = 0.06
+            merchants = 1
+            global_autonomy = -0.03
+		}
+        4 = {
+            global_trade_power = 0.08
+            merchants = 2
+            global_autonomy = -0.04
+        }
+        5 = {
+            global_trade_power = 0.1
+            merchants = 2
+            global_autonomy = -0.05
+        }
+        6 = {
+            global_trade_power = 0.12
+            merchants = 2
+            global_autonomy = -0.06
+        }
+        7 = {
+            global_trade_power = 0.14
+            merchants = 2
+            global_autonomy = -0.07
+        }
+        8 = {
+            global_trade_power = 0.16
+            merchants = 3
+            global_autonomy = -0.08
+        }
+        9 = {
+            global_trade_power = 0.18
+            merchants = 3
+            global_autonomy = -0.09
+        }
+        10 = {
+            global_trade_power = 0.2
+            merchants = 3
+            global_autonomy = -0.1
+        }
+	}
+}
+
+magocracy = {
+	monarchy = yes
+
+    queen = no
+    royal_marriage = no
+    
+    unique_government = yes
+    
+	valid_for_new_country = no
+	allow_convert = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+    max_states = 5
+
+	rank = {
+		1 = {
+            advisor_pool = 1
+            advisor_cost = -0.025
+            global_autonomy = -0.01
+		}
+		2 = {
+            advisor_pool = 1
+            advisor_cost = -0.05
+            global_autonomy = -0.02
+		}
+		3 = {
+            advisor_pool = 1
+            advisor_cost = -0.075
+            global_autonomy = -0.03
+		}
+        4 = {
+            advisor_pool = 2
+            advisor_cost = -0.1
+            global_autonomy = -0.04
+        }
+        5 = {
+            advisor_pool = 2
+            advisor_cost = -0.125
+            global_autonomy = -0.05
+        }
+        6 = {
+            advisor_pool = 2
+            advisor_cost = -0.15
+            global_autonomy = -0.06
+        }
+        7 = {
+            advisor_pool = 2
+            advisor_cost = -0.175
+            global_autonomy = -0.07
+        }
+        8 = {
+            advisor_pool = 3
+            advisor_cost = -0.2
+            global_autonomy = -0.08
+        }
+        9 = {
+            advisor_pool = 3
+            advisor_cost = -0.225
+            global_autonomy = -0.09
+        }
+        10 = {
+            advisor_pool = 3
+            advisor_cost = -0.25
+            global_autonomy = -0.1
+        }
+	}
+}
+

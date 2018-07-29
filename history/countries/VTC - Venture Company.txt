@@ -1,5 +1,5 @@
 technology_group = tech_goblin
-government = cartel
+government = trade_cartel
 primary_culture = venture_company
 religion = avarice
 

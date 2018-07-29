@@ -4,10 +4,9 @@
 NDefines.NCountry.MAX_GOV_RANK = 10
 
 NDefines.NCountry.CULTURAL_UNION_MIN_RANK = 10
-NDefines.NCountry.HRE_RANK = 5
-NDefines.NCountry.HRE_MAX_RANK = 10
-NDefines.NCountry.HRE_MAX_RANK_ELECTOR = 5
-NDefines.NCountry.SUBJECT_MAX_RANK = 9
+NDefines.NCountry.HRE_RANK = 10
+NDefines.NCountry.HRE_MAX_RANK = 9
+NDefines.NCountry.HRE_MAX_RANK_ELECTOR = 9
 
 NDefines.NCountry.PRESTIGE_GAIN_FOR_GOV_RANK_2 = 25
 NDefines.NCountry.MIN_PRESTIGE_FOR_GOV_RANK_2 = 75

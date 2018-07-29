@@ -1,5 +1,5 @@
 technology_group = tech_furbolg
-government = religious_tribe
+government = furbolg_tribe
 primary_culture = grizzleweald
 religion = shamanism
 

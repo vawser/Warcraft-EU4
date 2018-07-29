@@ -2,9 +2,11 @@
  #------------------
  # Names
  #------------------
- BUREAUCRATIC_KINGDOM: "Bureaucratic Kingdom"
- DESPOTIC_KINGDOM: "Despotic Kingdom"
- RELIGIOUS_KINGDOM: "Religious Kingdom"
+ HUMAN_KINGDOM: "Human Kingdom"
+ HUMAN_SETTLEMENT: "Human Settlement"
+ DWARF_KINGDOM: "Dwarf Kingdom"
+ DWARF_SETTLEMENT: "Dwarf Settlement"
+ DARK_IRON_KINGDOM: "Dark Iron Kingdom"
  TOLVIR_KINGDOM: "Tol'viri Kingdom"
  NERUBIAN_KINGDOM: "Nerubian Kingdom"
  VRYKUL_KINGDOM: "Vrykul Kingdom"
@@ -23,8 +25,8 @@
  MAGOCRACY: "Magocracy"
  FORSAKEN: "Forsaken"
  SCOURGE: "Scourge"
- QIRAJI_HIVE: "Qiraji Hive"
- MANTID_HIVE: "Mantid Hive"
+ QIRAJI_HIVE: "Qiraji Empire"
+ MANTID_HIVE: "Mantid Empire"
  PIRATE_CREW: "Pirate Crew"
  CENTAUR_WARBAND: "Centaur Warband"
  MOGU_WARBAND: "Mogu Warband"
@@ -47,9 +49,22 @@
  QUILLBOAR_TRIBE: "Quillboar Tribe"
  SPRITELING_TRIBE: "Spriteling Tribe"
  WOLVAR_TRIBE: "Wolvar Tribe"
+ SISTERHOOD: "Sisterhood"
+ DRUID_CIRCLE: "Druid Circle"
+ SHADOW_CULT: "Cult"
+ ADMIRALITY: "Admirality"
+ SHADOPAN: "Shado-pan"
+ THE_HORDE: "The Horde"
+ TROGG_TRIBE: "Trogg Tribe"
+ THEOCRACY: "Theocracy"
+ FALLEN_ORDER: "The Broken"
+ KALDOREI_ORDER: "Kaldorei Order"
+ 
  DESPOTIC_EMPIRE: "Despotic Empire"
  BUREAUCRATIC_EMPIRE: "Bureaucratic Empire"
  RELIGIOUS_EMPIRE: "Religious Empire"
+ 
+ COLONIAL_GOVERNMENT: "Colonial Outpost"
  
  #------------------
  # Titles
@@ -93,18 +108,34 @@
  SULTAN: "Sultan"
  SULTANA: "Sultana"
  CHIEF: "Chief"
-
+ OVERSEER: "Overseer"
+ ARCHDRUID: "Archdruid"
+ PROPHET: "Prophet"
+ MASTER: "Master"
+ MISTRESS: "Mistress"
+ GRANDMASTER: "Grandmaster"
+ GRAND_MAGISTER: "Grand Magister"
+ GRAND_MAGISTRIX: "Grand Magistrix"
+ EXARCH: "Exarch"
+ FALLEN: "Broken"
+ 
  #------------------
  # Governments
  #------------------
- bureaucratic_kingdom: "Bureaucratic Kingdom"
- bureaucratic_kingdom_desc: ""
+ human_kingdom: "Human Kingdom"
+ human_kingdom_desc: ""
  
- despotic_kingdom: "Despotic Kingdom"
- despotic_kingdom_desc: ""
+ dwarf_kingdom: "Dwarf Kingdom"
+ dwarf_kingdom_desc: ""
  
- religious_kingdom: "Religious Kingdom"
- religious_kingdom_desc: ""
+ dark_iron_kingdom: "Dark Iron Kingdom"
+ dark_iron_kingdom_desc: ""
+ 
+ night_elf_theocracy: "Night Elf Theocracy"
+ night_elf_theocracy_desc: ""
+ 
+ draenei_theocracy: "Draenei Theocracy"
+ draenei_theocracy_desc: ""
  
  tolvir_kingdom: "Tol'viri Kingdom"
  tolvir_kingdom_desc: ""
@@ -118,7 +149,13 @@
  holy_order: "Holy Order"
  holy_order_desc: ""
  
- titan_order: "Titanic Order"
+ night_elf_order: "Kaldorei Order"
+ night_elf_order_desc: ""
+
+ draenei_order: "Draenei Order"
+ draenei_order_desc: ""
+ 
+ titan_order: "Holy Order"
  titan_order_desc: ""
  
  dragon_council: "Dragon Council"
@@ -231,6 +268,9 @@
  
  wolvar_tribe: "Wolvar Tribe"
  wolvar_tribe_desc: ""
+ 
+ trogg_tribe: "Trogg Tribe"
+ trogg_tribe_desc: ""
  
  despotic_empire: "Despotic Empire"
  despotic_empire_desc: ""

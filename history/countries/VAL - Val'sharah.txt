@@ -1,5 +1,6 @@
 technology_group = tech_night_elf
-government = militaristic_theocracy
+government = night_elf_order
+government_rank = 4
 primary_culture = valsharah
 religion = elune
 

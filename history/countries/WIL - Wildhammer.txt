@@ -1,5 +1,6 @@
 technology_group = tech_dwarf
-government = administrative_kingdom
+government = dwarf_kingdom
+government_rank = 4
 primary_culture = wildhammer
 religion = shamanism
 

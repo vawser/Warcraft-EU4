@@ -1,5 +1,5 @@
 technology_group = tech_mogu
-government = militaristic_kingdom
+government = mogu_clan
 primary_culture = dojani
 religion = fleshshaping
 

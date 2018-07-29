@@ -1,5 +1,5 @@
 technology_group = tech_frost_troll
-government = troll_warband
+government = troll_tribe
 primary_culture = winterfang
 religion = voodoo
 

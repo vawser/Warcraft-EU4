@@ -1,5 +1,5 @@
 technology_group = tech_human
-government = administrative_kingdom
+government = bureaucratic_empire
 primary_culture = lordaeron
 religion = the_holy_light
 

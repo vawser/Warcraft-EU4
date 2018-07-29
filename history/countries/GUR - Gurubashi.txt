@@ -1,5 +1,6 @@
 technology_group = tech_jungle_troll
-government = troll_warband
+government = troll_tribe
+government_rank = 6
 primary_culture = gurubashi
 religion = voodoo
 

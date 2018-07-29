@@ -1,5 +1,6 @@
 technology_group = tech_dwarf
-government = administrative_kingdom
+government = dwarf_kingdom
+government_rank = 6
 primary_culture = ironforge
 religion = the_holy_light
 

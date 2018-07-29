@@ -1,5 +1,5 @@
 technology_group = tech_satyr
-government = satyr_warband
+government = satyr_clan
 primary_culture = axxarian
 religion = fel
 

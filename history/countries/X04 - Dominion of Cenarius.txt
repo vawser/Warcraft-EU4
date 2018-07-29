@@ -1,5 +1,5 @@
 technology_group = tech_dryad
-government = religious_tribe
+government = religious_empire
 primary_culture = dryad
 religion = druidism
 
