@@ -1172,7 +1172,6 @@ country_event = {
 					random_owned_province = {
 						limit = {
 							owner = { government = monarchy }
-							NOT = { owner ={ government = ottoman_government } }
 							is_state = yes
 							OR = {
 								has_owner_culture = yes

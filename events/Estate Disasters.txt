@@ -17,18 +17,6 @@ country_event = {
 		name = estate_disaster_events.1.option.a
         
 		add_stability = -1
-        
-        hidden_effect = { save_government_type = yes }
-        
-        if = {
-            limit = { NOT = { has_country_flag = invalid_government } }
-            
-            hidden_effect = { set_country_flag = estate_changed_government }
-            
-            change_government = administrative_theocracy
-        }
-        
-		custom_tooltip = TT_ESTATE_CLERGY_DISASTER_EVENT
 	}
 }
 
@@ -40,19 +28,7 @@ country_event = {
 	
 	major = yes
 	is_triggered_only = yes
-	
-	option = {
-		name = estate_disaster_events.2.option.a
-        
-        if = {
-            limit = { has_country_flag = estate_change_government }
-           
-            hidden_effect = { clr_country_flag = estate_changed_government }
-            
-            restore_government_type = yes
-        }
-	}
-    
+
     option = {
 		name = estate_disaster_events.2.option.b
         
@@ -78,17 +54,6 @@ country_event = {
         
 		add_stability = -1
         
-        hidden_effect = { save_government_type = yes }
-        
-        if = {
-            limit = { NOT = { has_country_flag = invalid_government } }
-            
-            hidden_effect = { set_country_flag = estate_changed_government }
-            
-            change_government = mercantile_republic
-        }
-        
-		custom_tooltip = TT_ESTATE_MERCHANTS_DISASTER_EVENT
 	}
 }
 
@@ -100,18 +65,6 @@ country_event = {
 	
 	major = yes
 	is_triggered_only = yes
-	
-	option = {
-		name = estate_disaster_events.4.option.a
-        
-        if = {
-            limit = { has_country_flag = estate_change_government }
-           
-            hidden_effect = { clr_country_flag = estate_changed_government }
-            
-            restore_government_type = yes
-        }
-	}
     
     option = {
 		name = estate_disaster_events.4.option.b
@@ -137,18 +90,7 @@ country_event = {
 		name = estate_disaster_events.5.option.a
         
 		add_stability = -1
-        
-        hidden_effect = { save_government_type = yes }
-        
-        if = {
-            limit = { NOT = { has_country_flag = invalid_government } }
-            
-            hidden_effect = { set_country_flag = estate_changed_government }
-            
-            change_government = militaristic_kingdom
-        }
-        
-		custom_tooltip = TT_ESTATE_NOBILITY_DISASTER_EVENT
+
 	}
 }
 
@@ -160,19 +102,7 @@ country_event = {
 	
 	major = yes
 	is_triggered_only = yes
-	
-	option = {
-		name = estate_disaster_events.6.option.a
-        
-        if = {
-            limit = { has_country_flag = estate_change_government }
-           
-            hidden_effect = { clr_country_flag = estate_changed_government }
-            
-            restore_government_type = yes
-        }
-	}
-    
+
     option = {
 		name = estate_disaster_events.6.option.b
         
@@ -197,18 +127,6 @@ country_event = {
 		name = estate_disaster_events.7.option.a
         
 		add_stability = -1
-        
-        hidden_effect = { save_government_type = yes }
-        
-        if = {
-            limit = { NOT = { has_country_flag = invalid_government } }
-            
-            hidden_effect = { set_country_flag = estate_changed_government }
-            
-            change_government = cult
-        }
-        
-		custom_tooltip = TT_ESTATE_PEASANTRY_DISASTER_EVENT
 	}
 }
 
@@ -220,19 +138,7 @@ country_event = {
 	
 	major = yes
 	is_triggered_only = yes
-	
-	option = {
-		name = estate_disaster_events.8.option.a
-        
-        if = {
-            limit = { has_country_flag = estate_change_government }
-           
-            hidden_effect = { clr_country_flag = estate_changed_government }
-            
-            restore_government_type = yes
-        }
-	}
-    
+
     option = {
 		name = estate_disaster_events.8.option.b
         
@@ -257,11 +163,6 @@ country_event = {
 		name = estate_disaster_events.9.option.a
         
 		add_stability = -1
-        
-        change_technology_group = tech_demonic
-        change_unit_type = tech_demonic
-        
-		custom_tooltip = TT_ESTATE_LEGION_DISASTER_EVENT
 	}
 }
 
@@ -296,11 +197,6 @@ country_event = {
 		name = estate_disaster_events.11.option.a
         
 		add_stability = -1
-        
-        change_technology_group = tech_old_god
-        change_unit_type = tech_old_god
-        
-		custom_tooltip = TT_ESTATE_OLD_GODS_DISASTER_EVENT
 	}
 }
 

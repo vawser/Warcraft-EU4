@@ -57,7 +57,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			change_government = administrative_kingdom
+			change_government = human_kingdom
 			#set_capital = 3655
 
 			execute_formable_nation_benefits = { TAG = TRM }

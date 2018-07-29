@@ -5,10 +5,7 @@ civil_war = {
 			base_tax = 5
 			is_capital = no
 		}
-		OR = {
-            government = monarchy
-            government = warband
-        }
+		government = monarchy
 		is_free_or_tributary_trigger = yes
 		uses_doom = no
 		NOT = { has_country_flag = had_civil_war }

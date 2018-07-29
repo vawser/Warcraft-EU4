@@ -145,11 +145,7 @@ righteous_personality = {
 			government = republic
 			government = monarchy
 		}
-		NOT = { government = dragonflight_council }
-		NOT = { government = criminal_organisation }
-		NOT = { government = regency_council }
-		NOT = { government = warband }
-		NOT = { government = scourge_horde }
+		is_civilized_government = yes
 	}
 	
 	chance = {
@@ -652,7 +648,6 @@ fertile_personality = {
 	}
 	allow = {
 		government = monarchy
-		NOT = { government = ottoman_government }
 	}
 	
 	chance = {
@@ -846,15 +841,7 @@ pious_personality = {
 	}
 
 	allow = {
-    OR = {
-      government = administrative_theocracy
-      government = mercantile_theocracy
-      government = militaristic_theocracy
-      government = administrative_order
-      government = mercantile_order
-      government = militaristic_order
-      government = cult
-    }
+        is_religion_government = yes
 	}
 	
 	chance = {
@@ -1206,7 +1193,6 @@ entrepreneur_personality = {
 	chance = {
 		modifier = {
 			factor = 1
-			government = mercantile_republic
 		}
 	}
 	
@@ -1250,7 +1236,6 @@ industrious_personality = {
 	chance = {
 		modifier = {
 			factor = 1
-			government = merchant_republic
 		}
 	}
 	

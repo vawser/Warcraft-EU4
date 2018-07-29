@@ -1,52 +1,71 @@
 # Triggers
-is_kingdom = {
+is_civilized_government = {
     OR = {
-        government = administrative_kingdom
-        government = mercantile_kingdom
-        government = militaristic_kingdom
+		government = human_kingdom
+		government = dwarf_kingdom
+		government = dark_iron_kingdom
+		government = tolvir_kingdom        
+		government = nerubian_kingdom      
+		government = vrykul_kingdom        
+		government = titan_order           
+		government = dragon_council        
+		government = earthen_order         
+		government = pandaren_commune      
+		government = dryad_commune         
+		government = tauren_tribe
+		government = taunka_tribe
+		government = tuskarr_tribe
+		government = jinyu_tribe
+		government = technocracy           
+		government = trade_cartel          
+		government = magocracy
+        is_religion_government = yes
     }
 }
 
-is_republic = {
+is_tribal_government = {
     OR = {
-        government = administrative_republic
-        government = mercantile_republic
-        government = militaristic_republic
+		government = furbolg_tribe     
+		government = gnoll_tribe       
+		government = gorloc_tribe      
+		government = harpy_tribe       
+		government = hozen_tribe       
+		government = kobold_tribe      
+		government = magnataur_tribe   
+		government = murloc_tribe      
+		government = pygmy_tribe       
+		government = quillboar_tribe   
+		government = spriteling_tribe  
+		government = wolvar_tribe      
+		government = trogg_tribe   
     }
 }
 
-is_theocracy = {
+is_savage_government = {
     OR = {
-        government = administrative_theocracy
-        government = mercantile_theocracy
-        government = militaristic_theocracy
+		government = forsaken_warband  
+		government = scourge_warband   
+		government = qiraji_hive       
+		government = mantid_hive       
+		government = pirate_clan       
+		government = centaur_clan      
+		government = mogu_clan         
+		government = naga_clan         
+		government = ogre_clan         
+		government = orc_clan          
+		government = satyr_clan        
+		government = troll_tribe       
+		government = yaungol_tribe     
+		government = saurok_tribe 
     }
 }
 
-is_religious_order = {
+is_religion_government = {
     OR = {
-        government = administrative_order
-        government = mercantile_order
-        government = militaristic_order
-    }
-}
-
-is_tribe = {
-    OR = {
-        government = religious_tribe
-        government = mercantile_tribe
-        government = war_tribe
-        government = tauren_camp
-    }
-}
-
-is_warband = {
-    OR = {
-        government = troll_warband
-        government = satyr_warband
-        government = orc_warband
-        government = ogre_warband
-        government = naga_warband
-        government = centaur_warband
+		government = night_elf_theocracy
+		government = draenei_theocracy
+		government = holy_order
+		government = night_elf_order
+		government = draenei_order   
     }
 }

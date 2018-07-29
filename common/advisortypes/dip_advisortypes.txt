@@ -153,7 +153,7 @@ tailor = {
             NOT = { government = monarchy }
             NOT = { government = republic }
             NOT = { government = theocracy }
-            NOT = { government = warband }
+            NOT = { is_savage_government = yes }
         }
 	}
 	

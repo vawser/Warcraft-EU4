@@ -1135,7 +1135,6 @@ country_event = {
 	
 	trigger = {
 		government = monarchy
-		NOT = { government = elective_monarchy }
 		has_heir = yes
 		is_heir_leader = yes
 		heir_age = 20
