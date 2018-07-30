@@ -260,6 +260,10 @@
  hozen_group: "Hozen"
  grookin: "Grookin"
  oona: "Oona"
+ nooka_nooka: "Nooka Nooka"
+ broketooth: "Broketooth"
+ ookin: "Ookin"
+ knucklethump: "Knucklethump"
  hozen: "Hozen"
  
  #--------------------------------
@@ -267,6 +271,8 @@
  #--------------------------------
  jinyu_group: "Jinyu"
  pearlfin: "Pearlfin"
+ inkgill: "Inkgill"
+ fallsong: "Fallsong"
  jinyu: "Jinyu"
  
  #--------------------------------
@@ -275,6 +281,12 @@
  kobold_group: "Kobold"
  gravelsnout: "Gravelsnout"
  windshear: "Windshear"
+ bluewax: "Bluewax"
+ gogger: "Gogger"
+ drywhisker: "Drywhisker"
+ skywhisker: "Skywhisker"
+ tunnel_rat: "Tunnel Rat"
+ whitewhisker: "Whitewhisker"
  kobold: "Kobold"
  
  #--------------------------------
@@ -283,6 +295,7 @@
  magnataur_group: "Magnataur"
  magmoth: "Magmoth"
  garm: "Garm"
+ gammoth: "Gammoth"
  magnataur: "Magnataur"
  
  #--------------------------------
@@ -294,6 +307,14 @@
  dojani: "Dojani"
  shanze: "Shan'ze"
  shao_tien: "Shao-tien"
+ gurthan: "Gurthan"
+ harthak: "Harthak"
+ kargesh: "Kargesh"
+ kao_tien: "Kao-tien"
+ korjan: "Korjan"
+ korune: "Korune"
+ krasari: "Krasari"
+ jitong: "Jitong"
  mogu: "Mogu"
  
  #--------------------------------
@@ -367,7 +388,28 @@
  #--------------------------------
  pandaren_group: "Pandaren"
  shado_pan: "Shado-pan"
- tillers: "Tillers"
+ order_of_yulon: "Order of Yu'lon"
+ order_of_niuzao: "Order of Niuzao"
+ order_of_chiji: "Order of Chi'ji"
+ order_of_xuen: "Order of Xu'en"
+ tillers: "Tiller"
+ anglers: "Angler"
+ golden_lotus: "Golden Lotus"
+ order_of_the_cloud_serpent: "Order of the Cloud Serpent"
+ greenstone: "Greestone"
+ dawns_blossom: "Dawn's Blossom"
+ honeydew: "Honeydew"
+ pawdon: "Paw'don"
+ sri_la: "Sri-la"
+ tian: "Tian"
+ binan: "Binan"
+ muskpaw: "Muskpaw"
+ one_keg: "One Kegger"
+ yinying: "Yinying"
+ zouchin: "Zouchin"
+ zhu: "Zhu"
+ mistfall: "Mistfall"
+ soggy_gamble: "Soggy's Gamble"
  pandaren: "Pandaren"
  
  #--------------------------------
@@ -375,6 +417,7 @@
  #--------------------------------
  pygmy_group: "Pygmy"
  oogah: "Oogah"
+ oomlot: "Oomlot"
  pygmy: "Pygmy"
  
  #--------------------------------
@@ -406,6 +449,16 @@
  glintrok: "Glintrok"
  mistblade: "Mistblade"
  riverblade: "Riverblade"
+ bladescale: "Bladescale"
+ darkhatched: "Darkhatched"
+ hatescale: "Hatescale"
+ muckscale: "Muckscale"
+ palebalde: "Paleblade"
+ skumblade: "Skumblade"
+ slitherscale: "Slitherblade"
+ viletongue: "Viletongue"
+ wildscale: "Wildscale"
+ saurok: "Saurok"
  
  #--------------------------------
  # Scourge
@@ -418,6 +471,10 @@
  #--------------------------------
  spriteling_group: "Spriteling"
  rikkitun: "Rikkitun"
+ prankster: "Prankster"
+ darkwood: "Darkwood"
+ shadowfae: "Shadowfae"
+ thistleleaf: "Thistleleaf"
  spriteling: "Spritelin"
  
  #--------------------------------
@@ -485,6 +542,9 @@
  #--------------------------------
  trogg_group: "Trogg"
  stonevault: "Stonevault"
+ gravelflint: "Gravelflint"
+ rockjaw: "Rockjaw"
+ stonesplinter: "Stonesplinter"
  trogg: "Trogg"
  
  #--------------------------------

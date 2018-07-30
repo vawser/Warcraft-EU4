@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 26
-native_ferocity = 10
-native_hostileness = 1
+is_city = yes
+owner = GRO
+controller = GRO
+add_core = GRO
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = pandaren
+culture = oona
 religion = celestials
 
 trade_goods = unknown

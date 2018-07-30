@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 4
-native_ferocity = 9
-native_hostileness = 9
+is_city = yes
+owner = SAZ
+controller = SAZ
+add_core = SAZ
 
 base_tax = 3
 base_production = 1
 base_manpower = 2
 
-culture = noculture
-religion = noreligion
+culture = shanze
+religion = fleshshaping
 
 trade_goods = unknown
 hre = no

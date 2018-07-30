@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 83
-native_ferocity = 6
-native_hostileness = 7
+is_city = yes
+owner = DSN
+controller = DSN
+add_core = DSN
 
 base_tax = 2
 base_production = 3
 base_manpower = 4
 
-culture = earthen
-religion = titan_worship
+culture = drysnout
+religion = shamanism
 
 trade_goods = unknown
 hre = no

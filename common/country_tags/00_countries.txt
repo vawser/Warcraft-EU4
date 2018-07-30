@@ -160,28 +160,49 @@ WIW = "countries/Witchwing.txt"       # Dry Hills, Barrens
        
 # ---- Hozen ----
 GRO = "countries/Grookin.txt" 
-OON = "countries/Oona.txt" 
+OON = "countries/Oona.txt"
+NKN = "countries/Nooka Nooka.txt"       # Jade Forest
+BRT = "countries/Broketooth.txt"        # Kunlai
+OOK = "countries/Ookin.txt"             # Kunlai (Dooker dome)
+KKT = "countries/Knucklethump.txt"      # Kunlai
 
 # ---- Jinyu ----
-PEA = "countries/Pearlfin.txt" 
+PEA = "countries/Pearlfin.txt"          # Jade Forest
+INK = "countries/Inkgill.txt"           # Kunlai
+FAL = "countries/Fallsong.txt"          # Krasarang
 
 # ---- Kobold ----
 GRV = "countries/Gravelsnout.txt"    # Thousand Needles
 WIS = "countries/Windshear.txt"      # Stonetalon Mountains
+BWX = "countries/Bluewax.txt"        # Highmountain
+GOG = "countries/Goggers.txt"        # Stonetalon Mountain
+DRY = "countries/Drywhisker.txt"     # Arathi Highlands
+SKW = "countries/Skywhisper.txt"     # Highmountain
+TNR = "countries/Tunnel Rat.txt"     # Loch Modan
+WWK = "countries/Whitewhisker.txt"   # Alterac Valley
 
 # ---- Magnataur ----
-MAG = "countries/Magmoth.txt" 
-GAM = "countries/Garm.txt" 
+MAG = "countries/Magmoth.txt"       # Borean Tundra
+GAM = "countries/Garm.txt"          # Storm Peaks (K3)
+GMM = "countries/Gammoth.txt"       # Borean Tundra
 
 # ---- Mantid ----
 MAN = "countries/Mantid Empire.txt" 
 
 # ---- Mogu ----
-MOH = "countries/Mogu Shan.txt"              
-GOM = "countries/Gormali.txt" 
-DOJ = "countries/Dojani.txt" 
-SAZ = "countries/Shan'ze.txt" 
-SHO = "countries/Shao Tien.txt" 
+MOH = "countries/Mogu Shan.txt"     # Mogu'shan Vaults             
+GOM = "countries/Gormali.txt"       # Jade forest
+DOJ = "countries/Dojani.txt"        # Krasarang
+SAZ = "countries/Shan'ze.txt"       # Shan'ze Dao island
+SHO = "countries/Shao Tien.txt"     # Vale
+GTH = "countries/Gurthan.txt"       # Dread Wastes
+HRT = "countries/Harthak.txt"       # Dread Wastes
+KGH = "countries/Kargesh.txt"       # Dread Wastes
+KAO = "countries/Kao-Tien.txt"      # Kunlai (islands)
+KRJ = "countries/Korjan.txt"        # Krasrang Wilds
+KRN = "countries/Korune.txt"        # Townlong Steppes (islands)
+KRS = "countries/Krasari.txt"       # Krasarang Wilds
+JIT = "countries/Jitong.txt"        # Jade Forest
 
 # ---- Murloc ----
 SIF = "countries/Siltfin.txt"           
@@ -234,15 +255,34 @@ DGM = "countries/Dragonmaw.txt"
 BBC = "countries/Burning Blade.txt"
 
 # ---- Pandaren ----
-SPN = "countries/Shado-pan.txt" 
-JAS = "countries/Yu'lon.txt"       
-BOX = "countries/Niuzao.txt"    
-RCR = "countries/Chi'ji.txt"          
-TIG = "countries/Xu'en.txt"       
-TIL = "countries/Tillers.txt" 
+SPN = "countries/Shado-pan.txt"         # Shado-pan Monastery
+JAS = "countries/Yu'lon.txt"                       
+BOX = "countries/Niuzao.txt"                      
+RCR = "countries/Chi'ji.txt"            
+TIG = "countries/Xu'en.txt"             
+TIL = "countries/Tillers.txt"
+ANG = "countries/Anglers.txt"           # Angler's Wharf
+GOL = "countries/Golden Lotus.txt"      # Vale
+LRW = "countries/Lorewalkers.txt"       # Mogu'shan Palace
+OCS = "countries/Order of the Cloud Serpent.txt"    # Jade Forest, Arbetoreum
+GSV = "countries/Greenstone.txt"        # Jade Forest, Dawn's Blossom
+DWB = "countries/Dawn's Blossom.txt"    # Jade Forest, Dawn's Blossom
+HDV = "countries/Honeydew.txt"          # Jade Forest, northwest
+PWD = "countries/Paw'don.txt"           # Jade Forest, southwest
+SRL = "countries/Sri-la.txt"            # Jade Forest, northeast
+TIA = "countries/Tian.txt"              # Jade Forest, north
+BIV = "countries/Binan.txt"             # Kunlai
+MSP = "countries/Muskpaw.txt"           # Kunlai
+ONK = "countries/One Keg.txt"           # Kunlai
+YYV = "countries/Yinying.txt"           # Kunlai
+ZUC = "countries/Zouchin.txt"           # Kunlai
+ZHU = "countries/Zhu.txt"               # Krasarang
+MSF = "countries/Mistfall.txt"          # Vale
+SOG = "countries/Soggy's Gamble.txt"    # Dread Wastes
 
 # ---- Pygmy ----
 OOG = "countries/Oogah.txt" 
+OOM = "countries/Oomlot.txt"            # Kezan
 
 # ---- Quillboar ----
 BIS = "countries/Bristleback.txt"     # Mulgore, Barrens    
@@ -259,15 +299,29 @@ AXX = "countries/Axxarian.txt"        # Bloodmyst Isle
 WDP = "countries/Wildspawn.txt"       # Dire Maul
 
 # ---- Saurok  ----
-GLI = "countries/Glintrok.txt" 
-MTD = "countries/Mistblade.txt"      # Dread Wastes
-RVE = "countries/Riverblade.txt"     # Krasarang Wilds
+GLI = "countries/Glintrok.txt"      # Jade Forest
+MTD = "countries/Mistblade.txt"     # Dread Wastes
+RVE = "countries/Riverblade.txt"    # Krasarang Wilds
+
+BDS = "countries/Bladescale.txt"    # Townlong Steppes
+DKH = "countries/Darkhatched.txt"   # Veiled Stair 
+HES = "countries/Hatescale.txt"     # Veiled Stair
+MKS = "countries/Muckscale.txt"     # Dread Wastes
+PLB = "countries/Paleblade.txt"     # Vale
+SKM = "countries/Skumblade.txt"     # Isle of Thunder
+SLI = "countries/Slitherscale.txt"  # Jade Forest
+VLT = "countries/Viletongue.txt"    # Jade Forest
+WDS = "countries/Wildscale.txt"     # Krasarang
 
 # ---- Scourge ----
 SCO = "countries/The Scourge.txt" 
 
 # ---- Sprite ----
 RIK = "countries/Rikkitun.txt" 
+PKH = "countries/Prankster's Hollow.txt"    # Kunlai
+DKW = "countries/Darkwood.txt"              # Shan'ze Dao
+SOF = "countries/Shadowfae.txt"             # Jade Forest, Windward Isle
+TLF = "countries/Thistleleaf.txt"           # Val'sharah
 
 # ---- Tauren ----
 CFW = "countries/Cliffwalker.txt"    # Stonetalon Pass
@@ -314,7 +368,10 @@ ULD = "countries/Ulduar.txt"
 LIF = "countries/Lifewarders.txt"           
 
 # ---- Trogg ----
-SVT = "countries/Stonevault.txt"      # Badlands
+SVT = "countries/Stonevault.txt"        # Badlands
+GVF = "countries/Gravelflint.txt"       # Darkshore
+RJW = "countries/Rockjaw.txt"           # Dun Morogh
+SPI = "countries/Stonesplinter.txt"      # Loch Modan
 
 # ---- Zandalari Troll ----
 ZDL = "countries/Zandalar.txt"        # Zandalar

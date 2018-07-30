@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 6
-native_ferocity = 0
-native_hostileness = 1
+is_city = yes
+owner = PEA
+controller = PEA
+add_core = PEA
 
 base_tax = 4
 base_production = 3
 base_manpower = 3
 
-culture = jinyu
+culture = pearlfin
 religion = celestials
 
 trade_goods = unknown

@@ -1,1 +1,37 @@
-- Updated for 1.24
+
+# Sprite
+PKH,Prankster's Hollow
+DKW,Darkwood
+SOF,Shadowfae
+TLF,Thistleleaf
+
+# Saurok
+BDS,Bladescale
+DKH,Darkhatched
+HES,Hatescale
+MKS,Muckscale
+PLB,Paleblade
+SKM,Skumblade
+SLI,Slitherscale
+VLT,Viletongue
+WDS,Wildscale
+
+# Pygmy
+OOM,Oomlot
+
+# Trogg
+GVF,Gravelflint
+RJW,Rockjaw
+SPI,Stonesplinter
+
+# Kobold
+BWX,Bluewax
+GOG,Goggers
+DRY,Drywhisker
+SKW,Skywhisper
+TNR,Tunnel Rat
+WWK,Whitewhisker
+
+# Magnataur
+GMM,Gammoth
+

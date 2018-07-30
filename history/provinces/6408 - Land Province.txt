@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 85
-native_ferocity = 3
-native_hostileness = 3
+is_city = yes
+owner = RAI
+controller = RAI
+add_core = RAI
 
 base_tax = 1
 base_production = 2
 base_manpower = 3
 
-culture = noculture
-religion = noreligion
+culture = rainspeaker
+religion = shamanism
 
 trade_goods = unknown
 hre = no

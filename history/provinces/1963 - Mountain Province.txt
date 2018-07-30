@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 87
-native_ferocity = 3
-native_hostileness = 2
+is_city = yes
+owner = BIL
+controller = BIL
+add_core = BIL
 
 base_tax = 3
 base_production = 1
 base_manpower = 2
 
-culture = kezani
+culture = bilgewater_cartel
 religion = avarice
 
 trade_goods = unknown

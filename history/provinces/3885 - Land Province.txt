@@ -14,4 +14,13 @@ religion = the_holy_light
 trade_goods = unknown
 hre = no
 
-
+901.1.1 = {
+    remove_core = LOR
+    
+    owner = ROT
+    controller = ROT
+    add_core = ROT
+    
+    culture = rot_hide
+    religion = shamanism
+}
