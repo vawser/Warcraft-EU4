@@ -155,6 +155,9 @@
  quelthalas: "Quel'Thalas"
  high_elf: "High Elf"
  blood_elf: "Blood Elf"
+ felblood: "Felblood"
+ void_elf: "Void Elf"
+ wretched: "Wretched"
  
  #--------------------------------
  # Nightborne
@@ -162,6 +165,9 @@
  nightborne_group: "Nightborne"
  suramar: "Suramar"
  nightborne: "Nightborne"
+ faldorei: "Fal'dorei"
+ nightfallen: "Nightfallen"
+ felborne: "Felborne"
  
  #--------------------------------
  # Night Elf
@@ -381,6 +387,8 @@
  stormreaver: "Stormreaver"
  dragonmaw: "Dragonmaw"
  burning_blade: "Burning Blade"
+ pale_orc: "Pale Orc"
+ fel_orc: "Fel Orc"
  orc: "Orc"
  
  #--------------------------------
@@ -550,7 +558,7 @@
  #--------------------------------
  # Troll
  #--------------------------------
- forest_troll_group: "Forest Troll"
+ troll_group: "Troll"
  amani: "Amani"
  shadowpine: "Shadowpine"
  vilebranch: "Vilebranch"
@@ -561,7 +569,6 @@
  shadowglen: "Shadowglen"
  forest_troll: "Forest Troll"
 
- jungle_troll_group: "Jungle Troll"
  gurubashi: "Gurubashi"
  bloodscalp: "Bloodscalp"
  shatterspear: "Shatterspear"
@@ -571,20 +578,21 @@
  jellyneck: "Jellyneck"
  jungle_troll: "Jungle Troll"
  
- frost_troll_group: "Ice Troll"
  frostmane: "Frostmane"
  winterax: "Winterax"
  winterfang: "Winterfang"
  drakkari: "Drakkari"
  frost_troll: "Frost Troll"
  
- sand_troll_group: "Sand Troll"
  sandfury: "Sandfury"
  sand_troll: "Sand Troll"
 
- zandalari_troll_group: "Zandalari Troll"
- zandalari: "Zandalari"
+ zandalari: "Zandalari Troll"
     
+ blood_troll: "Blood Troll"
+ 
+ dark_troll: "Dark Troll"
+ 
  #--------------------------------
  # Tuskarr
  #--------------------------------
@@ -612,6 +620,8 @@
  jotunheim: "Jotunheim"
  stormheim: "Stormheim"
  vrykul: "Vrykul"
+ frost_vrykul: "Frost Vrykul"
+ kvaldir: "Kvaldir"
  
  #--------------------------------
  # Wolvar
@@ -639,3 +649,95 @@
  gaicho: "Gai-cho"
  yaungol: "Yaungol"
  
+ #--------------------------------
+ # Faceless Ones
+ #--------------------------------
+ nraqi_group: "N'raqi"
+ nraqi: "N'raqi"
+ 
+ #--------------------------------
+ # Void
+ #--------------------------------
+ void_group: "Void"
+ void: "Void"
+ 
+ #--------------------------------
+ # Giant
+ #--------------------------------
+ giant_group: "Giant"
+ sea_giant: "Sea Giant"
+ frost_giant: "Frost Giant"
+ giant: "Giant"
+ 
+ #--------------------------------
+ # Grummle
+ #--------------------------------
+ grummle_group: "Grummle"
+ grummle: "Grummle"
+ 
+ #--------------------------------
+ # Drogbar
+ #--------------------------------
+ drogbar_group: "Drogbar"
+ drogbar: "Drogbar"
+ 
+ #--------------------------------
+ # Fungarian
+ #--------------------------------
+ fungarian_group: "Fungarian"
+ fungarian: "Fungarian"
+ 
+ #--------------------------------
+ # Botani
+ #--------------------------------
+ botani_group: "Botani"
+ botani: "Botani"
+ podling: "Podling"
+ 
+ #--------------------------------
+ # Arrakoa
+ #--------------------------------
+ arrakoa_group: "Arrakoa"
+ arrakoa: "Arrakoa"
+ 
+ #--------------------------------
+ # Ethereal
+ #--------------------------------
+ ethereal_group: "Ethereal"
+ ethereal: "Ethereal"
+ 
+ #--------------------------------
+ # Sethrak
+ #--------------------------------
+ sethrak_group: "Sethrak"
+ sethrak: "Sethrak"
+ 
+ #--------------------------------
+ # Sporeling
+ #--------------------------------
+ sporeling_group: "Sporeling"
+ sporeling: "Sporeling"
+ 
+ #--------------------------------
+ # Saberon
+ #--------------------------------
+ saberon_group: "Saberon"
+ saberon: "Saberon"
+ 
+ #--------------------------------
+ # Tortollan
+ #--------------------------------
+ tortollan_group: "Tortollan"
+ tortollan: "Tortollan"
+ 
+ #--------------------------------
+ # Virmen
+ #--------------------------------
+ virmen_group: "Virmen"
+ virmen: "Virmen"
+ 
+ #--------------------------------
+ # Vulpera
+ #--------------------------------
+ vulpera_group: "Vulpera"
+ vulpera: "Vulpera"

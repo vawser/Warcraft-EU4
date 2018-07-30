@@ -161,7 +161,7 @@ WIW = "countries/Witchwing.txt"       # Dry Hills, Barrens
 # ---- Hozen ----
 GRO = "countries/Grookin.txt" 
 OON = "countries/Oona.txt"
-NKN = "countries/Nooka Nooka.txt"       # Jade Forest
+NRN = "countries/Nooka Nooka.txt"       # Jade Forest
 BRT = "countries/Broketooth.txt"        # Kunlai
 OOK = "countries/Ookin.txt"             # Kunlai (Dooker dome)
 KKT = "countries/Knucklethump.txt"      # Kunlai

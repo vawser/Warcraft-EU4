@@ -1,37 +1,35 @@
-
-# Sprite
-PKH,Prankster's Hollow
-DKW,Darkwood
-SOF,Shadowfae
-TLF,Thistleleaf
-
-# Saurok
-BDS,Bladescale
-DKH,Darkhatched
-HES,Hatescale
-MKS,Muckscale
-PLB,Paleblade
-SKM,Skumblade
-SLI,Slitherscale
-VLT,Viletongue
-WDS,Wildscale
-
-# Pygmy
-OOM,Oomlot
-
-# Trogg
-GVF,Gravelflint
-RJW,Rockjaw
-SPI,Stonesplinter
-
-# Kobold
-BWX,Bluewax
-GOG,Goggers
-DRY,Drywhisker
-SKW,Skywhisper
-TNR,Tunnel Rat
-WWK,Whitewhisker
-
-# Magnataur
-GMM,Gammoth
-
+# Groups to add:
+N'raqi (Faceless Ones)
+Void (Void Beings) 
+Demon 
+Ulduar
+Frost Giant
+Sea Giant
+Frost Dwarf
+Grummle
+Hill Dwarf
+Frost Vrykul
+Kvaldir
+Blood Troll
+Dark Troll
+Drogbar
+Fungarian
+Fal'dorei
+Nightfallen
+Felblood
+Felborne
+Void Elf
+Wretched
+Lost One
+Botani
+Podling
+Pale Orc
+Fel Orc
+Arrakoa
+Ethereal
+Sethrak
+Sporeling
+Saberon
+Tortollan
+Virmen
+Vulpera

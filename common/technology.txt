@@ -239,6 +239,142 @@ groups = {
         start_cost_modifier = 0 
         start_level = 1 
     }
+    tech_nraqi = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_void = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_demon = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_ulduar = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_frost_giant = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_sea_giant = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_frost_dwarf = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_grummle = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_hill_dwarf = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_frost_vrykul = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_kvaldir = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_blood_troll = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_dark_troll = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_drogbar = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_fungarian = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_faldorei = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_nightfallen = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_felblood = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_felborne = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_void_elf = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_wretched = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_lost_one = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_botani = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_podling = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_pale_orc = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_fel_orc = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_arrakoa = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_ethereal = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_sethrak = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_sporeling = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_saberon = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_tortollan = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_virmen = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
+    tech_vulpera = {
+        start_cost_modifier = 0 
+        start_level = 1 
+    }
 }
 
 tables = {
