@@ -185,6 +185,9 @@
  tech_void: "Void"
  tech_void_desc: "With the Void technology group, technology levels are standard cost (100%)."
  
+ tech_demon: "Demon"
+ tech_demon_desc: "With the Demon technology group, technology levels are standard cost (100%)."
+ 
  tech_ulduar: "Ulduar"
  tech_ulduar_desc: "With the Ulduar technology group, technology levels are standard cost (100%)."
  
