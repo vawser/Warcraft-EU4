@@ -4,7 +4,7 @@ government_rank = 2
 primary_culture = cenarion_expedition
 religion = elune
 
-capital = 1
+capital = 5048
 
 # The First War
 776.1.1 = {

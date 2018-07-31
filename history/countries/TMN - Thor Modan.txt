@@ -3,7 +3,7 @@ government = earthen_order
 primary_culture = thor_modan
 religion = titan_worship
 
-capital = 1
+capital = 6709
 
 # The First War
 776.1.1 = {

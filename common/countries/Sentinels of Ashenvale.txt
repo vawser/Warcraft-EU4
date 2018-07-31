@@ -1,4 +1,4 @@
-graphical_culture = nightelf_gfx
+graphical_culture = night_elf_gfx
 
 color = { 144 35 6 }
 

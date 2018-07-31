@@ -4,7 +4,7 @@ government_rank = 4
 primary_culture = sentinels_of_ashenvale
 religion = elune
 
-capital = 1
+capital = 5667
 
 # The First War
 776.1.1 = {

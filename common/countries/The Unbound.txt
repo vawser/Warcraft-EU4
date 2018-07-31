@@ -1,4 +1,4 @@
-graphical_culture = crystaldryad_gfx
+graphical_culture = crystal_nymph_gfx
 
 color = { 146 195 68 }
 

@@ -1,4 +1,4 @@
-graphical_culture = highelf_gfx
+graphical_culture = high_elf_gfx
 
 color = { 36 115 172 }
 

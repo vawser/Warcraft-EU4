@@ -1,4 +1,4 @@
-graphical_culture = troll_gfx
+graphical_culture = jungle_troll_gfx
 
 color = { 21 179 92 }
 

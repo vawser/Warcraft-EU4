@@ -1,4 +1,4 @@
-graphical_culture = troll_gfx
+graphical_culture = forest_troll_gfx
 
 color = { 57 59 3 }
 

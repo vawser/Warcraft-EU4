@@ -4,7 +4,7 @@ government_rank = 8
 primary_culture = quelthalas
 religion = arcane
 
-capital = 1
+capital = 4210
 
 # The First War
 776.1.1 = {

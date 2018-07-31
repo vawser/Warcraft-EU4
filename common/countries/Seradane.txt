@@ -1,4 +1,4 @@
-graphical_culture = dragon_gfx
+graphical_culture = green_dragonflight_gfx
 
 color = { 31 76 129 }
 

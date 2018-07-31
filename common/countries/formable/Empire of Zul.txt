@@ -1,4 +1,4 @@
-graphical_culture = troll_gfx
+graphical_culture = zandalari_troll_gfx
 
 color = { 29 3 221 }
 

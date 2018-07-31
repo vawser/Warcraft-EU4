@@ -3,7 +3,7 @@ government = dryad_commune
 primary_culture = daughters_of_cenarius
 religion = druidism
 
-capital = 1
+capital = 6070
 
 # The First War
 776.1.1 = {

@@ -3,7 +3,7 @@ government = dryad_commune
 primary_culture = the_unbound
 religion = arcane
 
-capital = 1
+capital = 6559
 
 # The First War
 776.1.1 = {

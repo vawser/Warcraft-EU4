@@ -1,4 +1,4 @@
-graphical_culture = tauren_gfx
+graphical_culture = highmountain_tauren_gfx
 
 color = { 228 115 187 }
 

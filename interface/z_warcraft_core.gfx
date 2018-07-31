@@ -10,6 +10,16 @@ spriteTypes = {
 	}	
     
     #----------------------------------------------
+    # Natives
+    #----------------------------------------------
+    spriteType = {
+		name = "GFX_natives"
+		texturefile = "gfx//interface//natives.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+	}
+    
+    #----------------------------------------------
     # Resources
     #----------------------------------------------
 	spriteType = {

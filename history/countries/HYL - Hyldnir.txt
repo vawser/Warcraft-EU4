@@ -1,4 +1,4 @@
-technology_group = tech_vrykul
+technology_group = tech_frost_vrykul
 government = vrykul_kingdom
 primary_culture = hyldnir
 religion = runic

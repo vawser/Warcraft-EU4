@@ -76,7 +76,7 @@ BDF = "countries/Caverns of Time.txt"
 # ---- Dwarf ----
 WIL = "countries/Wildhammer.txt" 
 IRO = "countries/Khaz Modan.txt" 
-DKI = "countries/Servants of Ragnaros.txt" 
+DKI = "countries/Dark Iron.txt" 
 AER = "countries/Aerie Peak.txt" 
 
 # ---- Dryad ----

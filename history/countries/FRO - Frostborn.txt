@@ -1,9 +1,9 @@
 technology_group = tech_earthen
 government = earthen_order
-primary_culture = frostborn
+primary_culture = tech_frost_dwarf
 religion = titan_worship
 
-capital = 1
+capital = 2105
 
 # The First War
 776.1.1 = {

@@ -1,10 +1,10 @@
-technology_group = tech_dwarf
+technology_group = tech_hill_dwarf
 government = dwarf_kingdom
 government_rank = 4
 primary_culture = aerie_peak
 religion = shamanism
 
-capital = 1
+capital = 3544
 
 # The First War
 776.1.1 = {

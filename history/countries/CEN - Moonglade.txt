@@ -4,7 +4,7 @@ government_rank = 6
 primary_culture = moonglade
 religion = elune
 
-capital = 1
+capital = 5834
 
 # The First War
 776.1.1 = {

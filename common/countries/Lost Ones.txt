@@ -1,4 +1,4 @@
-graphical_culture = draenei_gfx
+graphical_culture = lost_one_gfx
 
 color = { 69 63 196 }
 

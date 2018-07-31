@@ -1,4 +1,4 @@
-graphical_culture = frostdryad_gfx
+graphical_culture = frost_nymph_gfx
 
 color = { 158 209 98 }
 

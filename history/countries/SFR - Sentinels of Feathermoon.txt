@@ -4,7 +4,7 @@ government_rank = 4
 primary_culture = sentinels_of_feathermoon
 religion = elune
 
-capital = 1
+capital = 4800
 
 # The First War
 776.1.1 = {

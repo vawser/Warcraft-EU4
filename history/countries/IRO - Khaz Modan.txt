@@ -4,7 +4,7 @@ government_rank = 6
 primary_culture = ironforge
 religion = the_holy_light
 
-capital = 1
+capital = 1757
 
 # The First War
 776.1.1 = {

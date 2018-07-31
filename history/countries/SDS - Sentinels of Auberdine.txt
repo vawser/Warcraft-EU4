@@ -4,7 +4,7 @@ government_rank = 4
 primary_culture = sentinels_of_auberdine
 religion = elune
 
-capital = 1
+capital = 4804
 
 # The First War
 776.1.1 = {

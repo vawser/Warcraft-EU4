@@ -3,7 +3,7 @@ government = dryad_commune
 primary_culture = sisterhood_of_winter
 religion = druidism
 
-capital = 1
+capital = 6885
 
 # The First War
 776.1.1 = {
