@@ -1,5 +1,5 @@
 mogu_group = {
-    graphical_culture = mogugfx
+    graphical_culture = mogu_gfx
     
     mogu_shan = {
         primary = MOH

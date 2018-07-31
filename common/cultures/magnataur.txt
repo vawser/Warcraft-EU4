@@ -1,5 +1,5 @@
 magnataur_group = {
-    graphical_culture = magnataurgfx 
+    graphical_culture = magnataur_gfx 
     
     magmoth = {
         primary = MAG

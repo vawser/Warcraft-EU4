@@ -1,4 +1,4 @@
-graphical_culture = gorlocgfx
+graphical_culture = gorloc_gfx
 
 color = { 131 77 129 }
 

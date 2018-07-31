@@ -1,4 +1,4 @@
-graphical_culture = murlocgfx
+graphical_culture = murloc_gfx
 
 color = { 223 172 4 }
 

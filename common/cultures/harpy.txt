@@ -1,5 +1,5 @@
 harpy_group = {
-    graphical_culture = harpygfx 
+    graphical_culture = harpy_gfx 
     
     bloodfury = {
         primary = BFY

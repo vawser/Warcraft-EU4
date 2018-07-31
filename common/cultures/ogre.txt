@@ -1,5 +1,5 @@
 ogre_group = {
-    graphical_culture = ogregfx 
+    graphical_culture = ogre_gfx 
 
     dreadmaul = {
         primary = DRD

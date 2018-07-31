@@ -1,4 +1,4 @@
-graphical_culture = dragongfx
+graphical_culture = dragon_gfx
 
 color = { 190 225 124 }
 

@@ -1,4 +1,4 @@
-graphical_culture = wolvargfx
+graphical_culture = wolvar_gfx
 
 color = { 32 157 93 }
 

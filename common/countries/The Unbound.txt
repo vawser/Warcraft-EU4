@@ -1,4 +1,4 @@
-graphical_culture = crystaldryadgfx
+graphical_culture = crystaldryad_gfx
 
 color = { 146 195 68 }
 

@@ -1,5 +1,5 @@
 azerothian_group = {
-    graphical_culture = humangfx 
+    graphical_culture = human_gfx 
     
     stormwind = {
         primary = SRW

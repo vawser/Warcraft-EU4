@@ -1,4 +1,4 @@
-graphical_culture = pygmygfx
+graphical_culture = pygmy_gfx
 
 color = { 81 148 239 }
 

@@ -1,4 +1,4 @@
-graphical_culture = ogregfx
+graphical_culture = ogre_gfx
 
 color = { 123 251 58 }
 

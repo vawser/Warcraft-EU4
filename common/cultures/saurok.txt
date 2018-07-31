@@ -1,5 +1,5 @@
 saurok_group = {
-    graphical_culture = saurokgfx 
+    graphical_culture = saurok_gfx 
     
     glintrok = {
         primary = GLI

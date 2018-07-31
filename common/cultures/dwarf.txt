@@ -1,5 +1,5 @@
 dwarf_group = {
-    graphical_culture = dwarfgfx
+    graphical_culture = dwarf_gfx
     
     ironforge = {
         primary = IRO
@@ -17,6 +17,7 @@ dwarf_group = {
 	}
     
     wildhammer = {
+        graphical_culture = hill_dwarf_gfx
         primary = WIL
         
         male_names = { 
@@ -32,6 +33,7 @@ dwarf_group = {
     }
     
     aerie_peak = {
+        graphical_culture = hill_dwarf_gfx
         primary = AER
         
         male_names = { 
@@ -47,7 +49,7 @@ dwarf_group = {
     }
     
     dark_iron = {
-        graphical_culture = darkirondwarfgfx
+        graphical_culture = dark_iron_dwarf_gfx
         primary = DKI
         
         male_names = { 

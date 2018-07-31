@@ -1,5 +1,5 @@
 gnoll_group = {
-	graphical_culture = gnollgfx 
+	graphical_culture = gnoll_gfx 
 
     palemane = {    
         primary = PAL

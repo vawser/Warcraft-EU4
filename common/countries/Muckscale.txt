@@ -1,4 +1,4 @@
-graphical_culture = saurokgfx
+graphical_culture = saurok_gfx
 
 color = { 71 61 138 }
 

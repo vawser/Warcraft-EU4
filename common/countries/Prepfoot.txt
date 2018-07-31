@@ -1,4 +1,4 @@
-graphical_culture = taurengfx
+graphical_culture = tauren_gfx
 
 color = { 133 220 62 }
 

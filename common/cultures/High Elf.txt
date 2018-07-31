@@ -1,5 +1,5 @@
 high_elf_group = {
-    graphical_culture = highelfgfx
+    graphical_culture = high_elf_gfx
     
     quelthalas = {
         male_names = { 
@@ -28,7 +28,7 @@ high_elf_group = {
     }
     
     blood_elf = {
-        graphical_culture = bloodelfgfx
+        graphical_culture = blood_elf_gfx
         
         male_names = { 
              Vyraezaen Inenesaen Keellnis Onimaezen Retthan Kruhnerrish Mohlur Latel Paemhaer Ailmash Nonaenae Saetleaeth Bemnven Aerma'daras Yihieth Quyos Drehthum Vamreth Ralhosh Sihmi'dian Soeron Sateon Perthhean Erimaris Ehrosh Rurlomel Qormorzith Onmel Aimal Vethar Bimhein Baemmanis Baemasaen Dranasaen Zornivin Norleth Druviyath Drinom Irzamael Kethal Beeron Ine'theas Dunis Baehaelaen Dravelor Nayam Bale So'durrash Bimal Krache'thush 
@@ -43,6 +43,8 @@ high_elf_group = {
     }
     
     felblood = {
+        graphical_culture = felblood_gfx
+        
         male_names = { 
              Vyraezaen Inenesaen Keellnis Onimaezen Retthan Kruhnerrish Mohlur Latel Paemhaer Ailmash Nonaenae Saetleaeth Bemnven Aerma'daras Yihieth Quyos Drehthum Vamreth Ralhosh Sihmi'dian Soeron Sateon Perthhean Erimaris Ehrosh Rurlomel Qormorzith Onmel Aimal Vethar Bimhein Baemmanis Baemasaen Dranasaen Zornivin Norleth Druviyath Drinom Irzamael Kethal Beeron Ine'theas Dunis Baehaelaen Dravelor Nayam Bale So'durrash Bimal Krache'thush 
         }
@@ -56,6 +58,8 @@ high_elf_group = {
     }
     
     void_elf = {
+        graphical_culture = void_elf_gfx
+        
         male_names = { 
              Vyraezaen Inenesaen Keellnis Onimaezen Retthan Kruhnerrish Mohlur Latel Paemhaer Ailmash Nonaenae Saetleaeth Bemnven Aerma'daras Yihieth Quyos Drehthum Vamreth Ralhosh Sihmi'dian Soeron Sateon Perthhean Erimaris Ehrosh Rurlomel Qormorzith Onmel Aimal Vethar Bimhein Baemmanis Baemasaen Dranasaen Zornivin Norleth Druviyath Drinom Irzamael Kethal Beeron Ine'theas Dunis Baehaelaen Dravelor Nayam Bale So'durrash Bimal Krache'thush 
         }
@@ -69,6 +73,8 @@ high_elf_group = {
     }
     
     wretched = {
+        graphical_culture = wretched_gfx
+        
         male_names = { 
              Vyraezaen Inenesaen Keellnis Onimaezen Retthan Kruhnerrish Mohlur Latel Paemhaer Ailmash Nonaenae Saetleaeth Bemnven Aerma'daras Yihieth Quyos Drehthum Vamreth Ralhosh Sihmi'dian Soeron Sateon Perthhean Erimaris Ehrosh Rurlomel Qormorzith Onmel Aimal Vethar Bimhein Baemmanis Baemasaen Dranasaen Zornivin Norleth Druviyath Drinom Irzamael Kethal Beeron Ine'theas Dunis Baehaelaen Dravelor Nayam Bale So'durrash Bimal Krache'thush 
         }

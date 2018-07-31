@@ -1,5 +1,5 @@
 gorloc_group = {
-    graphical_culture = gorlocgfx
+    graphical_culture = gorloc_gfx
     
     mistwhisper = {
         primary = MSW

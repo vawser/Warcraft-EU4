@@ -1,4 +1,4 @@
-graphical_culture = dryadgfx
+graphical_culture = dryad_gfx
 
 color = { 239 65 183 }
 

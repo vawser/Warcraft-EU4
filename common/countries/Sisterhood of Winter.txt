@@ -1,4 +1,4 @@
-graphical_culture = frostdryadgfx
+graphical_culture = frostdryad_gfx
 
 color = { 158 209 98 }
 

@@ -1,4 +1,4 @@
-graphical_culture = trogggfx
+graphical_culture = trogg_gfx
 
 color = { 128 228 110 }
 

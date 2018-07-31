@@ -1,4 +1,4 @@
-graphical_culture = taunkagfx
+graphical_culture = taunka_gfx
 
 color = { 124 221 51 }
 

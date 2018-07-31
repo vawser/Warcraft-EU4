@@ -1,5 +1,5 @@
 hozen_group = {
-    graphical_culture = hozengfx 
+    graphical_culture = hozen_gfx 
     
     grookin = {
         primary = GRO

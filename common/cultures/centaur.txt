@@ -1,5 +1,5 @@
 centaur_group = {
-	graphical_culture = centaurgfx 
+	graphical_culture = centaur_gfx 
     
     galak = {
         primary = GAL

@@ -1,4 +1,4 @@
-graphical_culture = hozengfx
+graphical_culture = hozen_gfx
 
 color = { 29 228 118 }
 

@@ -1,4 +1,4 @@
-graphical_culture = gnollgfx
+graphical_culture = gnoll_gfx
 
 color = { 25 141 199 }
 

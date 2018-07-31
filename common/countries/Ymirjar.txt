@@ -1,4 +1,4 @@
-graphical_culture = vrykulgfx
+graphical_culture = vrykul_gfx
 
 color = { 190 57 38 }
 

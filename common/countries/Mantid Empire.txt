@@ -1,4 +1,4 @@
-graphical_culture = mantidgfx
+graphical_culture = mantid_gfx
 
 color = { 176 161 72 }
 

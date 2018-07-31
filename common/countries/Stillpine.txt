@@ -1,4 +1,4 @@
-graphical_culture = furbolggfx
+graphical_culture = furbolg_gfx
 
 color = { 193 118 197 }
 

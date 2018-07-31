@@ -1,5 +1,5 @@
 earthen_group = {
-    graphical_culture = earthengfx 
+    graphical_culture = earthen_gfx 
     
     thor_modan = {
         primary = TMN

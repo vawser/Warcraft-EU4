@@ -1,5 +1,5 @@
 kobold_group = {
-    graphical_culture = koboldgfx 
+    graphical_culture = kobold_gfx 
     
     gravelsnout = {
         primary = GRV

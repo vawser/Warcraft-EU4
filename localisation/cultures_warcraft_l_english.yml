@@ -541,7 +541,6 @@
  # Titan
  #--------------------------------
  titan_group: "Titan"
- ulduar: "Ulduar"
  lifewarder: "Lifewarder"
  titan: "Titan"
  
@@ -665,6 +664,7 @@
  # Giant
  #--------------------------------
  giant_group: "Giant"
+ ulduar: "Ulduar"
  sea_giant: "Sea Giant"
  frost_giant: "Frost Giant"
  giant: "Giant"

@@ -1,4 +1,4 @@
-graphical_culture = undeadgfx
+graphical_culture = undead_gfx
 
 color = { 166 43 201 }
 

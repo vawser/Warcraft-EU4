@@ -1,4 +1,4 @@
-graphical_culture = jinyugfx
+graphical_culture = jinyu_gfx
 
 color = { 182 21 217 }
 

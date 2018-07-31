@@ -1,4 +1,4 @@
-graphical_culture = satyrgfx
+graphical_culture = satyr_gfx
 
 color = { 9 223 180 }
 

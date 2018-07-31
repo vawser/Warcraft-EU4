@@ -1,5 +1,5 @@
 demon_group = {
-    graphical_culture = demongfx 
+    graphical_culture = demon_gfx 
     
     demon = {
         male_names = { 

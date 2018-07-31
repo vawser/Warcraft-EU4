@@ -1,4 +1,4 @@
-graphical_culture = tolvirgfx
+graphical_culture = tolvir_gfx
 
 color = { 43 79 226 }
 

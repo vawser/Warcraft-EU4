@@ -1,4 +1,4 @@
-graphical_culture = draeneigfx
+graphical_culture = draenei_gfx
 
 color = { 144 95 162 }
 

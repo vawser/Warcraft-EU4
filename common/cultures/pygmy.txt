@@ -1,5 +1,5 @@
 pygmy_group = {
-    graphical_culture = pygmygfx
+    graphical_culture = pygmy_gfx
     
     oogah = {
         primary = OOG

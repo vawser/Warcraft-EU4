@@ -1,4 +1,4 @@
-graphical_culture = titangfx
+graphical_culture = titan_gfx
 
 color = { 247 238 52 }
 

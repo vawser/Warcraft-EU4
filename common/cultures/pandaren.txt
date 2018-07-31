@@ -1,5 +1,5 @@
 pandaren_group = {
-    graphical_culture = pandarengfx 
+    graphical_culture = pandaren_gfx 
     
     shado_pan = {
         primary = SPN

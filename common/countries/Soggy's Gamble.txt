@@ -1,4 +1,4 @@
-graphical_culture = pandarengfx
+graphical_culture = pandaren_gfx
 
 color = { 53 247 102 }
 

@@ -1,4 +1,4 @@
-graphical_culture = yaungolgfx
+graphical_culture = yaungol_gfx
 
 color = { 132 51 180 }
 

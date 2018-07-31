@@ -1,5 +1,5 @@
 kalimdor_tauren_group = {
-    graphical_culture = taurengfx
+    graphical_culture = tauren_gfx
     
     cliffwalker = {
         primary = CFW
@@ -275,7 +275,7 @@ kalimdor_tauren_group = {
 }
 
 highmountain_tauren_group = {
-    graphical_culture = taurengfx
+    graphical_culture = highmountain_tauren_gfx
     
     highmountain = {
         primary = HMT

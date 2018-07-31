@@ -1,5 +1,5 @@
 satyr_group = {
-	graphical_culture = satyrgfx 
+	graphical_culture = satyr_gfx 
     
     legashi = {
         primary = LEG

@@ -1,4 +1,4 @@
-graphical_culture = nightbornegfx
+graphical_culture = nightborne_gfx
 
 color = { 76 103 27 }
 

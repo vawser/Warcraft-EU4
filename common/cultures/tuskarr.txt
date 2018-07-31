@@ -1,5 +1,5 @@
 tuskarr_group = {
-    graphical_culture = tuskarrgfx 
+    graphical_culture = tuskarr_gfx 
     
     kaluak = {
         primary = KAL

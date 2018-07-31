@@ -1,4 +1,4 @@
-graphical_culture = goblingfx
+graphical_culture = goblin_gfx
 
 color = { 237 132 233 }
 

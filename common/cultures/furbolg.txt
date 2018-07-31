@@ -1,5 +1,5 @@
 furbolg_group = {
-    graphical_culture = furbolggfx 
+    graphical_culture = furbolg_gfx 
     
     timbermaw = {
         primary = TIM

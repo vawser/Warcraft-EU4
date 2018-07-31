@@ -1,5 +1,5 @@
 dryad_group = {
-    graphical_culture = dryadgfx 
+    graphical_culture = dryad_gfx 
     
     daughters_of_cenarius = {
         primary = COC
@@ -28,7 +28,7 @@ dryad_group = {
 }
 
 frost_nymph_group = {
-    graphical_culture = frostdryadgfx 
+    graphical_culture = frost_nymph_gfx 
 
     sisterhood_of_winter = {
         primary = SOW
@@ -57,7 +57,7 @@ frost_nymph_group = {
 }
 
 crystal_nymph_group = {
-    graphical_culture = crystaldryadgfx 
+    graphical_culture = crystal_nymph_gfx 
     
     the_unbound = {
         primary = UNB

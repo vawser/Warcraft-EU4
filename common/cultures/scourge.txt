@@ -1,5 +1,5 @@
 scourge_group = {
-    graphical_culture = scourgegfx 
+    graphical_culture = scourge_gfx 
     
     scourge = { 
         primary = SCO

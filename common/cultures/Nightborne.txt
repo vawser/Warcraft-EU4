@@ -1,5 +1,5 @@
 nightborne_group = {
-    graphical_culture = nightbornegfx
+    graphical_culture = nightborne_gfx
     
     suramar = {  
         male_names = { 
@@ -26,6 +26,8 @@ nightborne_group = {
         }
     }
     faldorei = {  
+        graphical_culture = faldorei_gfx
+        
         male_names = { 
              Qilgrorn Kinthaeure Dilfan Geruith Fenthell Nelmer Feondauth Qithigas Silfostrus Jurdru Glundreure Qeovar Fisyr Sastrothel Ninnucox Qastindrell Qeogrul Caulgris Micaeu Phostalle Drothoran Thaldrarn Phathy Gludithe Meelgreth Virdraeuc Glirdruth Nendrun Cervire Fythautria Firlorruirn Mishomis Maetristrirn Tarvyx Grurrulthas Thunlin Taundresmir Lurasian Tolvuc Jilmen 
         }
@@ -38,6 +40,8 @@ nightborne_group = {
         }
     }
     nightfallen = {  
+        graphical_culture = nightfallen_gfx
+        
         male_names = { 
              Qilgrorn Kinthaeure Dilfan Geruith Fenthell Nelmer Feondauth Qithigas Silfostrus Jurdru Glundreure Qeovar Fisyr Sastrothel Ninnucox Qastindrell Qeogrul Caulgris Micaeu Phostalle Drothoran Thaldrarn Phathy Gludithe Meelgreth Virdraeuc Glirdruth Nendrun Cervire Fythautria Firlorruirn Mishomis Maetristrirn Tarvyx Grurrulthas Thunlin Taundresmir Lurasian Tolvuc Jilmen 
         }
@@ -50,6 +54,8 @@ nightborne_group = {
         }
     }
     felborne = {  
+        graphical_culture = felborne_gfx
+        
         male_names = { 
              Qilgrorn Kinthaeure Dilfan Geruith Fenthell Nelmer Feondauth Qithigas Silfostrus Jurdru Glundreure Qeovar Fisyr Sastrothel Ninnucox Qastindrell Qeogrul Caulgris Micaeu Phostalle Drothoran Thaldrarn Phathy Gludithe Meelgreth Virdraeuc Glirdruth Nendrun Cervire Fythautria Firlorruirn Mishomis Maetristrirn Tarvyx Grurrulthas Thunlin Taundresmir Lurasian Tolvuc Jilmen 
         }

@@ -1,4 +1,4 @@
-graphical_culture = pirategfx
+graphical_culture = pirate_gfx
 
 color = { 34 23 37 }
 

@@ -1,5 +1,5 @@
 red_dragonflight_group = {
-    graphical_culture = dragongfx 
+    graphical_culture = red_dragonflight_gfx 
     
     wyrmrest_temple = {
         primary = WYT
@@ -41,7 +41,7 @@ red_dragonflight_group = {
 }
 
 green_dragonflight_group = {
-    graphical_culture = dragongfx 
+    graphical_culture = green_dragonflight_gfx 
     
     twilight_grove = {
         primary = TWG
@@ -109,7 +109,7 @@ green_dragonflight_group = {
 }
 
 black_dragonflight_group = {
-    graphical_culture = dragongfx 
+    graphical_culture = black_dragonflight_gfx 
     
     obsidian_dragonshrine = {
         primary = ODS
@@ -151,7 +151,7 @@ black_dragonflight_group = {
 }
 
 blue_dragonflight_group = {
-    graphical_culture = dragongfx 
+    graphical_culture = blue_dragonflight_gfx 
     
     the_nexus = {
         primary = NEX
@@ -242,7 +242,7 @@ blue_dragonflight_group = {
 }
 
 bronze_dragonflight_group = {
-    graphical_culture = dragongfx 
+    graphical_culture = bronze_dragonflight_gfx 
     
     caverns_of_time = {
         primary = BDF

@@ -1,4 +1,4 @@
-graphical_culture = quillboargfx
+graphical_culture = quillboar_gfx
 
 color = { 199 169 97 }
 

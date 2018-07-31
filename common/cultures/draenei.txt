@@ -1,5 +1,5 @@
 draenei_group = {
-    graphical_culture = draeneigfx 
+    graphical_culture = draenei_gfx 
     
     exodar = {
         primary = EXO
@@ -32,9 +32,10 @@ draenei_group = {
 }
 
 broken_group = {
-    graphical_culture = draeneigfx 
+    graphical_culture = broken_gfx 
     
     lost_ones = {
+        graphical_culture = lost_one_gfx
         primary = LSO
         
         male_names = { 
@@ -50,6 +51,7 @@ broken_group = {
         }
     }
     portal_seekers = {
+        graphical_culture = lost_one_gfx
         primary = POR
         
         male_names = { 

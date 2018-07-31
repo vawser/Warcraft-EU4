@@ -1,4 +1,4 @@
-graphical_culture = gnomegfx
+graphical_culture = gnome_gfx
 
 color = { 11 238 146 }
 

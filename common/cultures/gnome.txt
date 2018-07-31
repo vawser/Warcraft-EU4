@@ -1,5 +1,5 @@
 gnome_group = {
-    graphical_culture = gnomegfx 
+    graphical_culture = gnome_gfx 
    
     gnomeregan = {
         primary = GNO

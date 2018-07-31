@@ -1,4 +1,4 @@
-graphical_culture = mogugfx
+graphical_culture = mogu_gfx
 
 color = { 21 186 80 }
 

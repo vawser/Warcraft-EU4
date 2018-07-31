@@ -1,4 +1,4 @@
-graphical_culture = koboldgfx
+graphical_culture = kobold_gfx
 
 color = { 116 210 148 }
 

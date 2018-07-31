@@ -1,4 +1,4 @@
-graphical_culture = earthengfx
+graphical_culture = earthen_gfx
 
 color = { 205 171 60 }
 

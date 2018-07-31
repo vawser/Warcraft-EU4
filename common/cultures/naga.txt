@@ -1,5 +1,5 @@
 naga_group = {
-	graphical_culture = nagagfx 
+	graphical_culture = naga_gfx 
     
     riplash = {
         primary = RIP

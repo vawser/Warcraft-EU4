@@ -1,5 +1,5 @@
 yaungol_group = {
-    graphical_culture = yaungolgfx
+    graphical_culture = yaungol_gfx
     
     bataari = {
         primary = BAT

@@ -1,5 +1,5 @@
 murloc_group = {
-	graphical_culture = murlocgfx 
+	graphical_culture = murloc_gfx 
     
     siltfin = {
         primary = SIF

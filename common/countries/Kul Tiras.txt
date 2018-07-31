@@ -1,4 +1,4 @@
-graphical_culture = humangfx
+graphical_culture = human_gfx
 
 color = { 51 128 202 }
 

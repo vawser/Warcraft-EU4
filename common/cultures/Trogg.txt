@@ -1,5 +1,5 @@
 trogg_group = {
-    graphical_culture = trogggfx
+    graphical_culture = trogg_gfx
     
     stonevault = {
         primary = SVT

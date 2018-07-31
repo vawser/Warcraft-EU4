@@ -1,5 +1,5 @@
 tolvir_group = {
-    graphical_culture = tolvirgfx 
+    graphical_culture = tolvir_gfx 
     
     neferset = {
         primary = NEF

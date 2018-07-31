@@ -1,4 +1,4 @@
-graphical_culture = centaurgfx
+graphical_culture = centaur_gfx
 
 color = { 148 14 122 }
 

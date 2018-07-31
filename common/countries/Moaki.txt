@@ -1,4 +1,4 @@
-graphical_culture = tuskarrgfx
+graphical_culture = tuskarr_gfx
 
 color = { 182 32 116 }
 

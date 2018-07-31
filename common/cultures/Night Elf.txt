@@ -1,5 +1,5 @@
 night_elf_group = {
-    graphical_culture = nightelfgfx
+    graphical_culture = nightelf_gfx
     
     darnassus = {
         primary = DAS

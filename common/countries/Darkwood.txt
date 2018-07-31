@@ -1,4 +1,4 @@
-graphical_culture = spritegfx
+graphical_culture = sprite_gfx
 
 color = { 37 127 114 }
 

@@ -1,5 +1,5 @@
 wolvar_group = {
-    graphical_culture = wolvargfx 
+    graphical_culture = wolvar_gfx 
     
     bloodpaw = {
         primary = BLP

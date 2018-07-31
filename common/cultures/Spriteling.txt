@@ -1,5 +1,5 @@
 spriteling_group = {
-    graphical_culture = spritegfx 
+    graphical_culture = spriteling_gfx 
     
     rikkitun = {
         primary = RIK

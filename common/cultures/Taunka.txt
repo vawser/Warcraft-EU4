@@ -1,5 +1,5 @@
 taunka_group = {
-    graphical_culture = taunkagfx
+    graphical_culture = taunka_gfx
     
     icemist = {
         primary = ICE

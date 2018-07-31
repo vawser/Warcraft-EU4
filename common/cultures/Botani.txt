@@ -1,12 +1,12 @@
 botani_group = {
-    graphical_culture = humangfx
+    graphical_culture = botani_gfx
     
     botani = {  
         male_names = { 
-            "Dummy"
+            Tira Naenthiphi Thasannal Femalillu Divrinne Ima Hevralan Seyildre Idriye Shilnad Mennivi Salgrisa Sidriphus Tayed Hired Sandinar Rinnilele Issenar Manthevu Aza Ranalne Annith Faezani Cisildrenne Dezendrinath Myphildralas Thandrad Ceamiyud Candrin Femudreth Sandimu Thelgrireph Missu Shaedrale Maedri Tilnazi Tivriya Malnive Fephaza Ysannessur Cyssalli Meaphanthazer Aressa Innezinel Ima Meleye Ravrunned Kileph Lendripha Cessir Saeruvrith Nelandi Thaemirenna Imize Aveze Haevevrera Eldrille Rave Laphivi Raendavi
         }
         female_names = { 
-            "Dummy"
+            Tira Naenthiphi Thasannal Femalillu Divrinne Ima Hevralan Seyildre Idriye Shilnad Mennivi Salgrisa Sidriphus Tayed Hired Sandinar Rinnilele Issenar Manthevu Aza Ranalne Annith Faezani Cisildrenne Dezendrinath Myphildralas Thandrad Ceamiyud Candrin Femudreth Sandimu Thelgrireph Missu Shaedrale Maedri Tilnazi Tivriya Malnive Fephaza Ysannessur Cyssalli Meaphanthazer Aressa Innezinel Ima Meleye Ravrunned Kileph Lendripha Cessir Saeruvrith Nelandi Thaemirenna Imize Aveze Haevevrera Eldrille Rave Laphivi Raendavi
         }
         dynasty_names = { 
             "the Bonebreaker" "the Throatslicer" "the Wise" "the Quick" "the Sly" "the Coy" "the Smasher" "the Stabber" "the Gutter" "the Ripper" "the Puncher" "the Kicker" "the Massive" "the Mammoth" "the Monstrous" "the Colossal" "the Gigantic" "the Giant" "the Immense" "the Vast" "the Towering" "the Bulky" "the Lusty" "the Mighty" "the Titanic" "the Potent" "the Powerful" "the Stout" "the Tough" "the Strong" "the Sturdy" "the Stalwart" "the Brawny" "the Hearty" "the Great" "the Almighty" "the Gutsy" "the Punchy" "the Astute" "the Careful" "the Enlightened" "the Perceptive" "the Prudent" "the Sane" "the Shrewd" "the Smart" "the Wary" "the Cunning" "the Keen" "the Sage" "the Sharp" "the Crafty" "the Erudite" "the Witty" "the Sapient" "the Tactful" "the Furious" "the Desperate" "the Fierce" "the Frantic" "the Livid" "the Raging" "the Violent" "the Frenzied" "the Inciter" "the Insane" "the Crazed" "the Maniac" "the Vicious" "the Rabid"
@@ -15,11 +15,13 @@ botani_group = {
         }
     }
     podling = {  
+        graphical_culture = podling_gfx
+        
         male_names = { 
-            "Dummy"
+            Tira Naenthiphi Thasannal Femalillu Divrinne Ima Hevralan Seyildre Idriye Shilnad Mennivi Salgrisa Sidriphus Tayed Hired Sandinar Rinnilele Issenar Manthevu Aza Ranalne Annith Faezani Cisildrenne Dezendrinath Myphildralas Thandrad Ceamiyud Candrin Femudreth Sandimu Thelgrireph Missu Shaedrale Maedri Tilnazi Tivriya Malnive Fephaza Ysannessur Cyssalli Meaphanthazer Aressa Innezinel Ima Meleye Ravrunned Kileph Lendripha Cessir Saeruvrith Nelandi Thaemirenna Imize Aveze Haevevrera Eldrille Rave Laphivi Raendavi
         }
         female_names = { 
-            "Dummy"
+            Tira Naenthiphi Thasannal Femalillu Divrinne Ima Hevralan Seyildre Idriye Shilnad Mennivi Salgrisa Sidriphus Tayed Hired Sandinar Rinnilele Issenar Manthevu Aza Ranalne Annith Faezani Cisildrenne Dezendrinath Myphildralas Thandrad Ceamiyud Candrin Femudreth Sandimu Thelgrireph Missu Shaedrale Maedri Tilnazi Tivriya Malnive Fephaza Ysannessur Cyssalli Meaphanthazer Aressa Innezinel Ima Meleye Ravrunned Kileph Lendripha Cessir Saeruvrith Nelandi Thaemirenna Imize Aveze Haevevrera Eldrille Rave Laphivi Raendavi
         }
         dynasty_names = { 
             "the Bonebreaker" "the Throatslicer" "the Wise" "the Quick" "the Sly" "the Coy" "the Smasher" "the Stabber" "the Gutter" "the Ripper" "the Puncher" "the Kicker" "the Massive" "the Mammoth" "the Monstrous" "the Colossal" "the Gigantic" "the Giant" "the Immense" "the Vast" "the Towering" "the Bulky" "the Lusty" "the Mighty" "the Titanic" "the Potent" "the Powerful" "the Stout" "the Tough" "the Strong" "the Sturdy" "the Stalwart" "the Brawny" "the Hearty" "the Great" "the Almighty" "the Gutsy" "the Punchy" "the Astute" "the Careful" "the Enlightened" "the Perceptive" "the Prudent" "the Sane" "the Shrewd" "the Smart" "the Wary" "the Cunning" "the Keen" "the Sage" "the Sharp" "the Crafty" "the Erudite" "the Witty" "the Sapient" "the Tactful" "the Furious" "the Desperate" "the Fierce" "the Frantic" "the Livid" "the Raging" "the Violent" "the Frenzied" "the Inciter" "the Insane" "the Crazed" "the Maniac" "the Vicious" "the Rabid"

@@ -1,4 +1,4 @@
-graphical_culture = magnataurgfx
+graphical_culture = magnataur_gfx
 
 color = { 64 203 162 }
 

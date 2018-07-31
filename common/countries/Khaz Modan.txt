@@ -1,4 +1,4 @@
-graphical_culture = dwarfgfx
+graphical_culture = dwarf_gfx
 
 color = { 56 189 209 }
 

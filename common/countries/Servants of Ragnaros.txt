@@ -1,4 +1,4 @@
-graphical_culture = darkirondwarfgfx
+graphical_culture = darkirondwarf_gfx
 
 color = { 63 226 194 }
 

@@ -1,5 +1,5 @@
 jinyu_group = {
-	graphical_culture = jinyugfx 
+	graphical_culture = jinyu_gfx 
     
     pearlfin = {
         primary = PEA

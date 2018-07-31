@@ -1,4 +1,4 @@
-graphical_culture = nerubiangfx
+graphical_culture = nerubian_gfx
 
 color = { 117 6 18 }
 

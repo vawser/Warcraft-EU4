@@ -1,5 +1,5 @@
 quillboar_group = {
-    graphical_culture = quillboargfx 
+    graphical_culture = quillboar_gfx 
     
     bristleback = {
         primary = BIS

@@ -1,4 +1,4 @@
-graphical_culture = orcgfx
+graphical_culture = orc_gfx
 
 color = { 234 33 244 }
 

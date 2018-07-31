@@ -1,4 +1,4 @@
-graphical_culture = harpygfx
+graphical_culture = harpy_gfx
 
 color = { 90 50 65 }
 

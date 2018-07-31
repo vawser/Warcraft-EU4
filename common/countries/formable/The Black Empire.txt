@@ -1,4 +1,4 @@
-graphical_culture = aqirgfx
+graphical_culture = aqir_gfx
 
 color = { 243 153 39 }
 
