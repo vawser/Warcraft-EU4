@@ -12,7 +12,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_overseer"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//2.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -20,7 +20,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_artist"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//3.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -28,7 +28,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_treasurer"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//4.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -36,7 +36,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_theologian"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//5.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -52,7 +52,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_inquisitor"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//2.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -60,7 +60,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_stonemason"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//3.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -68,7 +68,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_carpenter"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//4.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -76,7 +76,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_bailiff"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//5.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -92,7 +92,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_statesman"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//2.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -100,7 +100,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_naval_reformer"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//3.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -108,7 +108,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_trader"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//4.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -116,7 +116,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_spymaster"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//5.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -132,7 +132,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_diplomat"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//2.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -140,7 +140,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_navigator"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//3.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -148,7 +148,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_miller"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//4.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -156,7 +156,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_tailor"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//5.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -172,7 +172,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_enforcer"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//2.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -180,7 +180,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_army_reformer"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//3.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -188,7 +188,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_army_organiser"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//4.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -196,7 +196,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_commandant"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//5.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -212,7 +212,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_recruitmaster"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//2.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -220,7 +220,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_fortification_expert"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//3.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -228,7 +228,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_grand_captain"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//4.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -236,7 +236,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_blacksmith"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//5.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -252,7 +252,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_marshal"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//2.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -260,7 +260,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_constable"
-        texturefile = "gfx//advisors//naga//male//1.dds"
+        texturefile = "gfx//advisors//naga//male//3.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -279,7 +279,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_overseer_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//2.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -287,7 +287,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_artist_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//3.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -295,7 +295,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_treasurer_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//4.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -303,7 +303,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_theologian_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//5.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -319,7 +319,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_inquisitor_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//2.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -327,7 +327,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_stonemason_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//3.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -335,7 +335,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_carpenter_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//4.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -343,7 +343,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_bailiff_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//5.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -359,7 +359,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_statesman_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//2.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -367,7 +367,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_naval_reformer_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//3.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -375,7 +375,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_trader_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//4.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -383,7 +383,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_spymaster_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//5.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -399,7 +399,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_diplomat_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//2.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -407,7 +407,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_navigator_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//3.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -415,7 +415,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_miller_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//4.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -423,7 +423,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_tailor_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//5.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -439,7 +439,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_enforcer_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//2.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -447,7 +447,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_army_reformer_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//3.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -455,7 +455,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_army_organiser_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//4.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -463,7 +463,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_commandant_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//5.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -479,7 +479,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_recruitmaster_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//2.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -487,7 +487,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_fortification_expert_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//3.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -495,7 +495,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_grand_captain_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//4.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -503,7 +503,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_blacksmith_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//5.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -519,7 +519,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_marshal_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//2.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
@@ -527,7 +527,7 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_advisor_naga_gfx_constable_female"
-        texturefile = "gfx//advisors//naga//female//1.dds"
+        texturefile = "gfx//advisors//naga//female//3.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"

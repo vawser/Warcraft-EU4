@@ -1,6 +1,6 @@
-technology_group = tech_earthen
+technology_group = tech_frost_dwarf
 government = earthen_order
-primary_culture = tech_frost_dwarf
+primary_culture = frostborn
 religion = titan_worship
 
 capital = 2105

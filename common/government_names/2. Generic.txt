@@ -578,7 +578,7 @@ gov_night_elf_theocracy = {
 		government = night_elf_theocracy
 	}
 }
-gov_night_elf_theocracy = {
+gov_draenei_theocracy = {
 	rank = {
 		1 = THEOCRACY
 		2 = THEOCRACY

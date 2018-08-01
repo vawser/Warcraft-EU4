@@ -168,7 +168,7 @@ guiTypes = {
 			guiButtonType = {
 				name ="shield"
 				quadTextureSprite = "GFX_shield_fancy"
-				position = { x= 140 y = 247 }
+				position = { x= 160 y = 260 }
 			}
 			
 			

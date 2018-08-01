@@ -4,6 +4,10 @@ dwarf_group = {
     ironforge = {
         primary = IRO
         
+        country = { 
+            female_advisor_chance = 0.5 
+        }
+    
         male_names = { 
              Brann Kroldil Dytherdaggs Sograrn Drodurgaggs Bholfem Suirrargan Brongathend Daldonn Braguahr Dunguigrund Arnohr Mugdurn Mogags Taldorm Ginden Halfurn Urnuk Bregrudriaggs Dromor Tumurdin Ulfand Rumuagg Igrath Grodruignegs Ognur Grodruldann Ugdukann Umur Mirahrgil Radrehmurm Bagrohrgand Tirrar Khurnikan Brigrugs Durogg Baral Sulfend Birdum Kornor Jakolfar Drarmur Gadrus Jurmom Erdorn Hudul Khumdirnugs Krorgadriuth Demdiuk Kardarruaggs Grodaggs Gimdak Grornugs Mudrorm Brarohm Jumdar Drandul Gamdunann Arguarn Bhenil Drougnogg 
         }
@@ -52,6 +56,10 @@ dwarf_group = {
         graphical_culture = dark_iron_dwarf_gfx
         primary = DKI
         
+        country = { 
+            female_advisor_chance = 0.5 
+        }
+        
         male_names = { 
              Brann Kroldil Dytherdaggs Sograrn Drodurgaggs Bholfem Suirrargan Brongathend Daldonn Braguahr Dunguigrund Arnohr Mugdurn Mogags Taldorm Ginden Halfurn Urnuk Bregrudriaggs Dromor Tumurdin Ulfand Rumuagg Igrath Grodruignegs Ognur Grodruldann Ugdukann Umur Mirahrgil Radrehmurm Bagrohrgand Tirrar Khurnikan Brigrugs Durogg Baral Sulfend Birdum Kornor Jakolfar Drarmur Gadrus Jurmom Erdorn Hudul Khumdirnugs Krorgadriuth Demdiuk Kardarruaggs Grodaggs Gimdak Grornugs Mudrorm Brarohm Jumdar Drandul Gamdunann Arguarn Bhenil Drougnogg 
         }
@@ -65,6 +73,10 @@ dwarf_group = {
     }
 
     dwarf = {
+        country = { 
+            female_advisor_chance = 0.5 
+        }
+        
         male_names = { 
              Brann Kroldil Dytherdaggs Sograrn Drodurgaggs Bholfem Suirrargan Brongathend Daldonn Braguahr Dunguigrund Arnohr Mugdurn Mogags Taldorm Ginden Halfurn Urnuk Bregrudriaggs Dromor Tumurdin Ulfand Rumuagg Igrath Grodruignegs Ognur Grodruldann Ugdukann Umur Mirahrgil Radrehmurm Bagrohrgand Tirrar Khurnikan Brigrugs Durogg Baral Sulfend Birdum Kornor Jakolfar Drarmur Gadrus Jurmom Erdorn Hudul Khumdirnugs Krorgadriuth Demdiuk Kardarruaggs Grodaggs Gimdak Grornugs Mudrorm Brarohm Jumdar Drandul Gamdunann Arguarn Bhenil Drougnogg 
         }

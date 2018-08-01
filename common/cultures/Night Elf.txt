@@ -1,5 +1,9 @@
 night_elf_group = {
-    graphical_culture = nightelf_gfx
+    graphical_culture = night_elf_gfx
+    
+    country = { 
+        female_advisor_chance = 0.5 
+    }
     
     darnassus = {
         primary = DAS

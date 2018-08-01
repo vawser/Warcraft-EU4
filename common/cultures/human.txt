@@ -1,6 +1,10 @@
 azerothian_group = {
     graphical_culture = human_gfx 
     
+    country = { 
+        female_advisor_chance = 0.5 
+    }
+    
     stormwind = {
         primary = SRW
         

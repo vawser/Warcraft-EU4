@@ -1,6 +1,10 @@
 gnome_group = {
     graphical_culture = gnome_gfx 
    
+    country = { 
+        female_advisor_chance = 0.5 
+    }
+    
     gnomeregan = {
         primary = GNO
         

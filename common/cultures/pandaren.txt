@@ -1,6 +1,10 @@
 pandaren_group = {
     graphical_culture = pandaren_gfx 
     
+    country = { 
+        female_advisor_chance = 0.5 
+    }
+    
     shado_pan = {
         primary = SPN
         

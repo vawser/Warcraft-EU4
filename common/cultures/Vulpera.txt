@@ -1,6 +1,10 @@
 vulpera_group = {
     graphical_culture = vulpera_gfx
     
+    country = { 
+        female_advisor_chance = 1.0 
+    }
+    
     vulpera = {  
         male_names = { 
              Jees Vat Exinkle Zeeshneekle Revix Meta Valameeld Zizmos Eenmeti Grigzoshi Fonk Qin Enbe Kleenqe Nizbeenzart Axik Qivogteek Byqa Eshzie Vomiert Qeexle Klokle Ditez Walmat Kashqild Deshet Nilni Kyshanxik Dilnixle Jexien Grald Min Nazga Releex Bazen Gregi Jibi Oqa Baxabiz Amongink Qyt Kal Qyzeedrenk Detzert Bevyxvert Jenben Bema Dolqik Jitqoti Sybenienkle 

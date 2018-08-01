@@ -3,7 +3,6 @@ dryad_group = {
     
     country = { 
         female_advisor_chance = 1.0 
-        may_recruit_female_generals = yes
     }
      
     daughters_of_cenarius = {
@@ -37,7 +36,6 @@ frost_nymph_group = {
 
     country = { 
         female_advisor_chance = 1.0 
-        may_recruit_female_generals = yes
     }
      
     sisterhood_of_winter = {
@@ -71,7 +69,6 @@ crystal_nymph_group = {
     
     country = { 
         female_advisor_chance = 1.0 
-        may_recruit_female_generals = yes
     }
      
     the_unbound = {

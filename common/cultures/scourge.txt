@@ -1,6 +1,10 @@
 scourge_group = {
     graphical_culture = scourge_gfx 
     
+    country = { 
+        female_advisor_chance = 0.5 
+    }
+    
     scourge = { 
         primary = SCO
         

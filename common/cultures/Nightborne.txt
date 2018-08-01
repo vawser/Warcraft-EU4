@@ -1,6 +1,10 @@
 nightborne_group = {
     graphical_culture = nightborne_gfx
     
+    country = { 
+        female_advisor_chance = 0.5 
+    }
+    
     suramar = {  
         male_names = { 
              Qilgrorn Kinthaeure Dilfan Geruith Fenthell Nelmer Feondauth Qithigas Silfostrus Jurdru Glundreure Qeovar Fisyr Sastrothel Ninnucox Qastindrell Qeogrul Caulgris Micaeu Phostalle Drothoran Thaldrarn Phathy Gludithe Meelgreth Virdraeuc Glirdruth Nendrun Cervire Fythautria Firlorruirn Mishomis Maetristrirn Tarvyx Grurrulthas Thunlin Taundresmir Lurasian Tolvuc Jilmen 

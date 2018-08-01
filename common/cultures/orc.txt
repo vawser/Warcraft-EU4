@@ -1,8 +1,12 @@
 orc_group = {
     graphical_culture = orc_gfx 
-
+    
     orgrimmar = {
         primary = ORG
+        
+        country = { 
+            female_advisor_chance = 0.5 
+        }
         
         male_names = { 
             "Gludbog" "Ulgha" "Kubguk" "Duugh" "Tobdakh" "Zugrak" "Drutrug" "Thokgor" "Zikgor" "Bugrog" "Brughnab" "Mashnakh" "Sugugh" "Bludmuk" "Sagdakh" "Skagblug" "Thughnab" "Odbog" "Ruglut" "Garzug" "Drurk" "Hubbag" "Brubbag" "Glagha" "Sulgob" "Mubmak" "Igugh" "Trobmag" "Oznag" "Durgash" "Kukpug" "Blokpug" "Snuzdush" "Nugrog" "Nozdakh" "Ubgorg" "Kratruk" "Krorgash" "Guzgub" "Blulbug" "Muzrub" "Trogburz" "Skurduk" "Sobkog" "Bakduh" "Tromburz" "Ghudhagh" "Smimbub" "Ubmak" "Ogdush" "Kulbulg" "Thorg" "Ubgug" "Grurk" "Hulbog" "Umdush" "Murghud" "Thugdugh" "Bulgug" "Smibzagh" "Idkush" "Kuzdush" "Marthug" "Nabzagh" "Nuzhug" "Bugbu" "Bligmub" "Brulbag" "Goshog" "Mulurg" "Smudbagh" "Gradgig" "Thrazgash" "Zuzg" "Rulgha" "Kuggug" "Muzg" "Ghukpug" "Kubgu" "Ubgu" "Ugzag" "Ulurg" "Dobdug" "Thulbag" "Skubdakh" "Rugrurg" "Ughbub" "Marg" "Zamburz" "Moghnab" "Thushzog" "Sogrunk" "Blazrub" "Ogug" "Blodak" "Smuzhug" "Glurdag" "Thorbosh" "Noknug" "Throlbulg" "Sugburz" "Agugh" "Rukduh" "Glodkuh" "Sorlug" "Ghungash" "Ishnok" "Gribug" "Skugdakh" "Dunak" "Trodzug" "Skagdug" "Gugguh" "Thruzdub" "Arguh" "Rubdig" "Mubgagh" "Drarguh" "Throdzog" "Nubdakh" "Surgab" "Udmuk" "Buznag" "Trablag" "Ruglug" "Obpug" "Kumhosh" "Tugzag" "Grogblug" "Thorbok" "Sablag" "Kubzurg" "Snudbog" "Zabgub" "Brublug" "Brashog" "Ukduh" "Gurgug" "Hagdugh" "Gradak" "Kubgug" "Ibub" "Rughug" "Sudzush" "Tubdakh" "Zuzgub" "Hagluk" "Zorpug" "Grormug" "Skutruk" "Rurduk" "Mutsnak" "Zurduk" "Zagh" 
@@ -17,6 +21,10 @@ orc_group = {
     blackrock = {
         primary = BLK
         
+        country = { 
+            female_advisor_chance = 0.5 
+        }
+        
         male_names = { 
             "Gludbog" "Ulgha" "Kubguk" "Duugh" "Tobdakh" "Zugrak" "Drutrug" "Thokgor" "Zikgor" "Bugrog" "Brughnab" "Mashnakh" "Sugugh" "Bludmuk" "Sagdakh" "Skagblug" "Thughnab" "Odbog" "Ruglut" "Garzug" "Drurk" "Hubbag" "Brubbag" "Glagha" "Sulgob" "Mubmak" "Igugh" "Trobmag" "Oznag" "Durgash" "Kukpug" "Blokpug" "Snuzdush" "Nugrog" "Nozdakh" "Ubgorg" "Kratruk" "Krorgash" "Guzgub" "Blulbug" "Muzrub" "Trogburz" "Skurduk" "Sobkog" "Bakduh" "Tromburz" "Ghudhagh" "Smimbub" "Ubmak" "Ogdush" "Kulbulg" "Thorg" "Ubgug" "Grurk" "Hulbog" "Umdush" "Murghud" "Thugdugh" "Bulgug" "Smibzagh" "Idkush" "Kuzdush" "Marthug" "Nabzagh" "Nuzhug" "Bugbu" "Bligmub" "Brulbag" "Goshog" "Mulurg" "Smudbagh" "Gradgig" "Thrazgash" "Zuzg" "Rulgha" "Kuggug" "Muzg" "Ghukpug" "Kubgu" "Ubgu" "Ugzag" "Ulurg" "Dobdug" "Thulbag" "Skubdakh" "Rugrurg" "Ughbub" "Marg" "Zamburz" "Moghnab" "Thushzog" "Sogrunk" "Blazrub" "Ogug" "Blodak" "Smuzhug" "Glurdag" "Thorbosh" "Noknug" "Throlbulg" "Sugburz" "Agugh" "Rukduh" "Glodkuh" "Sorlug" "Ghungash" "Ishnok" "Gribug" "Skugdakh" "Dunak" "Trodzug" "Skagdug" "Gugguh" "Thruzdub" "Arguh" "Rubdig" "Mubgagh" "Drarguh" "Throdzog" "Nubdakh" "Surgab" "Udmuk" "Buznag" "Trablag" "Ruglug" "Obpug" "Kumhosh" "Tugzag" "Grogblug" "Thorbok" "Sablag" "Kubzurg" "Snudbog" "Zabgub" "Brublug" "Brashog" "Ukduh" "Gurgug" "Hagdugh" "Gradak" "Kubgug" "Ibub" "Rughug" "Sudzush" "Tubdakh" "Zuzgub" "Hagluk" "Zorpug" "Grormug" "Skutruk" "Rurduk" "Mutsnak" "Zurduk" "Zagh" 
         }
@@ -29,6 +37,10 @@ orc_group = {
     }
     black_tooth_grin = {
         primary = BTG
+        
+        country = { 
+            female_advisor_chance = 0.5 
+        }
         
         male_names = { 
             "Gludbog" "Ulgha" "Kubguk" "Duugh" "Tobdakh" "Zugrak" "Drutrug" "Thokgor" "Zikgor" "Bugrog" "Brughnab" "Mashnakh" "Sugugh" "Bludmuk" "Sagdakh" "Skagblug" "Thughnab" "Odbog" "Ruglut" "Garzug" "Drurk" "Hubbag" "Brubbag" "Glagha" "Sulgob" "Mubmak" "Igugh" "Trobmag" "Oznag" "Durgash" "Kukpug" "Blokpug" "Snuzdush" "Nugrog" "Nozdakh" "Ubgorg" "Kratruk" "Krorgash" "Guzgub" "Blulbug" "Muzrub" "Trogburz" "Skurduk" "Sobkog" "Bakduh" "Tromburz" "Ghudhagh" "Smimbub" "Ubmak" "Ogdush" "Kulbulg" "Thorg" "Ubgug" "Grurk" "Hulbog" "Umdush" "Murghud" "Thugdugh" "Bulgug" "Smibzagh" "Idkush" "Kuzdush" "Marthug" "Nabzagh" "Nuzhug" "Bugbu" "Bligmub" "Brulbag" "Goshog" "Mulurg" "Smudbagh" "Gradgig" "Thrazgash" "Zuzg" "Rulgha" "Kuggug" "Muzg" "Ghukpug" "Kubgu" "Ubgu" "Ugzag" "Ulurg" "Dobdug" "Thulbag" "Skubdakh" "Rugrurg" "Ughbub" "Marg" "Zamburz" "Moghnab" "Thushzog" "Sogrunk" "Blazrub" "Ogug" "Blodak" "Smuzhug" "Glurdag" "Thorbosh" "Noknug" "Throlbulg" "Sugburz" "Agugh" "Rukduh" "Glodkuh" "Sorlug" "Ghungash" "Ishnok" "Gribug" "Skugdakh" "Dunak" "Trodzug" "Skagdug" "Gugguh" "Thruzdub" "Arguh" "Rubdig" "Mubgagh" "Drarguh" "Throdzog" "Nubdakh" "Surgab" "Udmuk" "Buznag" "Trablag" "Ruglug" "Obpug" "Kumhosh" "Tugzag" "Grogblug" "Thorbok" "Sablag" "Kubzurg" "Snudbog" "Zabgub" "Brublug" "Brashog" "Ukduh" "Gurgug" "Hagdugh" "Gradak" "Kubgug" "Ibub" "Rughug" "Sudzush" "Tubdakh" "Zuzgub" "Hagluk" "Zorpug" "Grormug" "Skutruk" "Rurduk" "Mutsnak" "Zurduk" "Zagh" 
@@ -43,6 +55,10 @@ orc_group = {
     bleeding_hollow = {
         primary = BLH
         
+        country = { 
+            female_advisor_chance = 0.5 
+        }
+        
         male_names = { 
             "Gludbog" "Ulgha" "Kubguk" "Duugh" "Tobdakh" "Zugrak" "Drutrug" "Thokgor" "Zikgor" "Bugrog" "Brughnab" "Mashnakh" "Sugugh" "Bludmuk" "Sagdakh" "Skagblug" "Thughnab" "Odbog" "Ruglut" "Garzug" "Drurk" "Hubbag" "Brubbag" "Glagha" "Sulgob" "Mubmak" "Igugh" "Trobmag" "Oznag" "Durgash" "Kukpug" "Blokpug" "Snuzdush" "Nugrog" "Nozdakh" "Ubgorg" "Kratruk" "Krorgash" "Guzgub" "Blulbug" "Muzrub" "Trogburz" "Skurduk" "Sobkog" "Bakduh" "Tromburz" "Ghudhagh" "Smimbub" "Ubmak" "Ogdush" "Kulbulg" "Thorg" "Ubgug" "Grurk" "Hulbog" "Umdush" "Murghud" "Thugdugh" "Bulgug" "Smibzagh" "Idkush" "Kuzdush" "Marthug" "Nabzagh" "Nuzhug" "Bugbu" "Bligmub" "Brulbag" "Goshog" "Mulurg" "Smudbagh" "Gradgig" "Thrazgash" "Zuzg" "Rulgha" "Kuggug" "Muzg" "Ghukpug" "Kubgu" "Ubgu" "Ugzag" "Ulurg" "Dobdug" "Thulbag" "Skubdakh" "Rugrurg" "Ughbub" "Marg" "Zamburz" "Moghnab" "Thushzog" "Sogrunk" "Blazrub" "Ogug" "Blodak" "Smuzhug" "Glurdag" "Thorbosh" "Noknug" "Throlbulg" "Sugburz" "Agugh" "Rukduh" "Glodkuh" "Sorlug" "Ghungash" "Ishnok" "Gribug" "Skugdakh" "Dunak" "Trodzug" "Skagdug" "Gugguh" "Thruzdub" "Arguh" "Rubdig" "Mubgagh" "Drarguh" "Throdzog" "Nubdakh" "Surgab" "Udmuk" "Buznag" "Trablag" "Ruglug" "Obpug" "Kumhosh" "Tugzag" "Grogblug" "Thorbok" "Sablag" "Kubzurg" "Snudbog" "Zabgub" "Brublug" "Brashog" "Ukduh" "Gurgug" "Hagdugh" "Gradak" "Kubgug" "Ibub" "Rughug" "Sudzush" "Tubdakh" "Zuzgub" "Hagluk" "Zorpug" "Grormug" "Skutruk" "Rurduk" "Mutsnak" "Zurduk" "Zagh" 
         }
@@ -55,6 +71,10 @@ orc_group = {
     }
     twilights_hammer = {
         primary = TWI
+        
+        country = { 
+            female_advisor_chance = 0.5 
+        }
         
         male_names = { 
             "Gludbog" "Ulgha" "Kubguk" "Duugh" "Tobdakh" "Zugrak" "Drutrug" "Thokgor" "Zikgor" "Bugrog" "Brughnab" "Mashnakh" "Sugugh" "Bludmuk" "Sagdakh" "Skagblug" "Thughnab" "Odbog" "Ruglut" "Garzug" "Drurk" "Hubbag" "Brubbag" "Glagha" "Sulgob" "Mubmak" "Igugh" "Trobmag" "Oznag" "Durgash" "Kukpug" "Blokpug" "Snuzdush" "Nugrog" "Nozdakh" "Ubgorg" "Kratruk" "Krorgash" "Guzgub" "Blulbug" "Muzrub" "Trogburz" "Skurduk" "Sobkog" "Bakduh" "Tromburz" "Ghudhagh" "Smimbub" "Ubmak" "Ogdush" "Kulbulg" "Thorg" "Ubgug" "Grurk" "Hulbog" "Umdush" "Murghud" "Thugdugh" "Bulgug" "Smibzagh" "Idkush" "Kuzdush" "Marthug" "Nabzagh" "Nuzhug" "Bugbu" "Bligmub" "Brulbag" "Goshog" "Mulurg" "Smudbagh" "Gradgig" "Thrazgash" "Zuzg" "Rulgha" "Kuggug" "Muzg" "Ghukpug" "Kubgu" "Ubgu" "Ugzag" "Ulurg" "Dobdug" "Thulbag" "Skubdakh" "Rugrurg" "Ughbub" "Marg" "Zamburz" "Moghnab" "Thushzog" "Sogrunk" "Blazrub" "Ogug" "Blodak" "Smuzhug" "Glurdag" "Thorbosh" "Noknug" "Throlbulg" "Sugburz" "Agugh" "Rukduh" "Glodkuh" "Sorlug" "Ghungash" "Ishnok" "Gribug" "Skugdakh" "Dunak" "Trodzug" "Skagdug" "Gugguh" "Thruzdub" "Arguh" "Rubdig" "Mubgagh" "Drarguh" "Throdzog" "Nubdakh" "Surgab" "Udmuk" "Buznag" "Trablag" "Ruglug" "Obpug" "Kumhosh" "Tugzag" "Grogblug" "Thorbok" "Sablag" "Kubzurg" "Snudbog" "Zabgub" "Brublug" "Brashog" "Ukduh" "Gurgug" "Hagdugh" "Gradak" "Kubgug" "Ibub" "Rughug" "Sudzush" "Tubdakh" "Zuzgub" "Hagluk" "Zorpug" "Grormug" "Skutruk" "Rurduk" "Mutsnak" "Zurduk" "Zagh" 
@@ -69,6 +89,10 @@ orc_group = {
     stormreaver = {
         primary = SRC
         
+        country = { 
+            female_advisor_chance = 0.5 
+        }
+        
         male_names = { 
             "Gludbog" "Ulgha" "Kubguk" "Duugh" "Tobdakh" "Zugrak" "Drutrug" "Thokgor" "Zikgor" "Bugrog" "Brughnab" "Mashnakh" "Sugugh" "Bludmuk" "Sagdakh" "Skagblug" "Thughnab" "Odbog" "Ruglut" "Garzug" "Drurk" "Hubbag" "Brubbag" "Glagha" "Sulgob" "Mubmak" "Igugh" "Trobmag" "Oznag" "Durgash" "Kukpug" "Blokpug" "Snuzdush" "Nugrog" "Nozdakh" "Ubgorg" "Kratruk" "Krorgash" "Guzgub" "Blulbug" "Muzrub" "Trogburz" "Skurduk" "Sobkog" "Bakduh" "Tromburz" "Ghudhagh" "Smimbub" "Ubmak" "Ogdush" "Kulbulg" "Thorg" "Ubgug" "Grurk" "Hulbog" "Umdush" "Murghud" "Thugdugh" "Bulgug" "Smibzagh" "Idkush" "Kuzdush" "Marthug" "Nabzagh" "Nuzhug" "Bugbu" "Bligmub" "Brulbag" "Goshog" "Mulurg" "Smudbagh" "Gradgig" "Thrazgash" "Zuzg" "Rulgha" "Kuggug" "Muzg" "Ghukpug" "Kubgu" "Ubgu" "Ugzag" "Ulurg" "Dobdug" "Thulbag" "Skubdakh" "Rugrurg" "Ughbub" "Marg" "Zamburz" "Moghnab" "Thushzog" "Sogrunk" "Blazrub" "Ogug" "Blodak" "Smuzhug" "Glurdag" "Thorbosh" "Noknug" "Throlbulg" "Sugburz" "Agugh" "Rukduh" "Glodkuh" "Sorlug" "Ghungash" "Ishnok" "Gribug" "Skugdakh" "Dunak" "Trodzug" "Skagdug" "Gugguh" "Thruzdub" "Arguh" "Rubdig" "Mubgagh" "Drarguh" "Throdzog" "Nubdakh" "Surgab" "Udmuk" "Buznag" "Trablag" "Ruglug" "Obpug" "Kumhosh" "Tugzag" "Grogblug" "Thorbok" "Sablag" "Kubzurg" "Snudbog" "Zabgub" "Brublug" "Brashog" "Ukduh" "Gurgug" "Hagdugh" "Gradak" "Kubgug" "Ibub" "Rughug" "Sudzush" "Tubdakh" "Zuzgub" "Hagluk" "Zorpug" "Grormug" "Skutruk" "Rurduk" "Mutsnak" "Zurduk" "Zagh" 
         }
@@ -81,6 +105,10 @@ orc_group = {
     }
     dragonmaw = {
         primary = DGM
+        
+        country = { 
+            female_advisor_chance = 0.5 
+        }
         
         male_names = { 
             "Gludbog" "Ulgha" "Kubguk" "Duugh" "Tobdakh" "Zugrak" "Drutrug" "Thokgor" "Zikgor" "Bugrog" "Brughnab" "Mashnakh" "Sugugh" "Bludmuk" "Sagdakh" "Skagblug" "Thughnab" "Odbog" "Ruglut" "Garzug" "Drurk" "Hubbag" "Brubbag" "Glagha" "Sulgob" "Mubmak" "Igugh" "Trobmag" "Oznag" "Durgash" "Kukpug" "Blokpug" "Snuzdush" "Nugrog" "Nozdakh" "Ubgorg" "Kratruk" "Krorgash" "Guzgub" "Blulbug" "Muzrub" "Trogburz" "Skurduk" "Sobkog" "Bakduh" "Tromburz" "Ghudhagh" "Smimbub" "Ubmak" "Ogdush" "Kulbulg" "Thorg" "Ubgug" "Grurk" "Hulbog" "Umdush" "Murghud" "Thugdugh" "Bulgug" "Smibzagh" "Idkush" "Kuzdush" "Marthug" "Nabzagh" "Nuzhug" "Bugbu" "Bligmub" "Brulbag" "Goshog" "Mulurg" "Smudbagh" "Gradgig" "Thrazgash" "Zuzg" "Rulgha" "Kuggug" "Muzg" "Ghukpug" "Kubgu" "Ubgu" "Ugzag" "Ulurg" "Dobdug" "Thulbag" "Skubdakh" "Rugrurg" "Ughbub" "Marg" "Zamburz" "Moghnab" "Thushzog" "Sogrunk" "Blazrub" "Ogug" "Blodak" "Smuzhug" "Glurdag" "Thorbosh" "Noknug" "Throlbulg" "Sugburz" "Agugh" "Rukduh" "Glodkuh" "Sorlug" "Ghungash" "Ishnok" "Gribug" "Skugdakh" "Dunak" "Trodzug" "Skagdug" "Gugguh" "Thruzdub" "Arguh" "Rubdig" "Mubgagh" "Drarguh" "Throdzog" "Nubdakh" "Surgab" "Udmuk" "Buznag" "Trablag" "Ruglug" "Obpug" "Kumhosh" "Tugzag" "Grogblug" "Thorbok" "Sablag" "Kubzurg" "Snudbog" "Zabgub" "Brublug" "Brashog" "Ukduh" "Gurgug" "Hagdugh" "Gradak" "Kubgug" "Ibub" "Rughug" "Sudzush" "Tubdakh" "Zuzgub" "Hagluk" "Zorpug" "Grormug" "Skutruk" "Rurduk" "Mutsnak" "Zurduk" "Zagh" 
@@ -95,6 +123,10 @@ orc_group = {
     burning_blade = {
         primary = BBC
         
+        country = { 
+            female_advisor_chance = 0.5 
+        }
+        
         male_names = { 
             "Gludbog" "Ulgha" "Kubguk" "Duugh" "Tobdakh" "Zugrak" "Drutrug" "Thokgor" "Zikgor" "Bugrog" "Brughnab" "Mashnakh" "Sugugh" "Bludmuk" "Sagdakh" "Skagblug" "Thughnab" "Odbog" "Ruglut" "Garzug" "Drurk" "Hubbag" "Brubbag" "Glagha" "Sulgob" "Mubmak" "Igugh" "Trobmag" "Oznag" "Durgash" "Kukpug" "Blokpug" "Snuzdush" "Nugrog" "Nozdakh" "Ubgorg" "Kratruk" "Krorgash" "Guzgub" "Blulbug" "Muzrub" "Trogburz" "Skurduk" "Sobkog" "Bakduh" "Tromburz" "Ghudhagh" "Smimbub" "Ubmak" "Ogdush" "Kulbulg" "Thorg" "Ubgug" "Grurk" "Hulbog" "Umdush" "Murghud" "Thugdugh" "Bulgug" "Smibzagh" "Idkush" "Kuzdush" "Marthug" "Nabzagh" "Nuzhug" "Bugbu" "Bligmub" "Brulbag" "Goshog" "Mulurg" "Smudbagh" "Gradgig" "Thrazgash" "Zuzg" "Rulgha" "Kuggug" "Muzg" "Ghukpug" "Kubgu" "Ubgu" "Ugzag" "Ulurg" "Dobdug" "Thulbag" "Skubdakh" "Rugrurg" "Ughbub" "Marg" "Zamburz" "Moghnab" "Thushzog" "Sogrunk" "Blazrub" "Ogug" "Blodak" "Smuzhug" "Glurdag" "Thorbosh" "Noknug" "Throlbulg" "Sugburz" "Agugh" "Rukduh" "Glodkuh" "Sorlug" "Ghungash" "Ishnok" "Gribug" "Skugdakh" "Dunak" "Trodzug" "Skagdug" "Gugguh" "Thruzdub" "Arguh" "Rubdig" "Mubgagh" "Drarguh" "Throdzog" "Nubdakh" "Surgab" "Udmuk" "Buznag" "Trablag" "Ruglug" "Obpug" "Kumhosh" "Tugzag" "Grogblug" "Thorbok" "Sablag" "Kubzurg" "Snudbog" "Zabgub" "Brublug" "Brashog" "Ukduh" "Gurgug" "Hagdugh" "Gradak" "Kubgug" "Ibub" "Rughug" "Sudzush" "Tubdakh" "Zuzgub" "Hagluk" "Zorpug" "Grormug" "Skutruk" "Rurduk" "Mutsnak" "Zurduk" "Zagh" 
         }
@@ -106,6 +138,10 @@ orc_group = {
         }
     }
     orc = {
+        country = { 
+            female_advisor_chance = 0.5 
+        }
+        
         male_names = { 
             "Gludbog" "Ulgha" "Kubguk" "Duugh" "Tobdakh" "Zugrak" "Drutrug" "Thokgor" "Zikgor" "Bugrog" "Brughnab" "Mashnakh" "Sugugh" "Bludmuk" "Sagdakh" "Skagblug" "Thughnab" "Odbog" "Ruglut" "Garzug" "Drurk" "Hubbag" "Brubbag" "Glagha" "Sulgob" "Mubmak" "Igugh" "Trobmag" "Oznag" "Durgash" "Kukpug" "Blokpug" "Snuzdush" "Nugrog" "Nozdakh" "Ubgorg" "Kratruk" "Krorgash" "Guzgub" "Blulbug" "Muzrub" "Trogburz" "Skurduk" "Sobkog" "Bakduh" "Tromburz" "Ghudhagh" "Smimbub" "Ubmak" "Ogdush" "Kulbulg" "Thorg" "Ubgug" "Grurk" "Hulbog" "Umdush" "Murghud" "Thugdugh" "Bulgug" "Smibzagh" "Idkush" "Kuzdush" "Marthug" "Nabzagh" "Nuzhug" "Bugbu" "Bligmub" "Brulbag" "Goshog" "Mulurg" "Smudbagh" "Gradgig" "Thrazgash" "Zuzg" "Rulgha" "Kuggug" "Muzg" "Ghukpug" "Kubgu" "Ubgu" "Ugzag" "Ulurg" "Dobdug" "Thulbag" "Skubdakh" "Rugrurg" "Ughbub" "Marg" "Zamburz" "Moghnab" "Thushzog" "Sogrunk" "Blazrub" "Ogug" "Blodak" "Smuzhug" "Glurdag" "Thorbosh" "Noknug" "Throlbulg" "Sugburz" "Agugh" "Rukduh" "Glodkuh" "Sorlug" "Ghungash" "Ishnok" "Gribug" "Skugdakh" "Dunak" "Trodzug" "Skagdug" "Gugguh" "Thruzdub" "Arguh" "Rubdig" "Mubgagh" "Drarguh" "Throdzog" "Nubdakh" "Surgab" "Udmuk" "Buznag" "Trablag" "Ruglug" "Obpug" "Kumhosh" "Tugzag" "Grogblug" "Thorbok" "Sablag" "Kubzurg" "Snudbog" "Zabgub" "Brublug" "Brashog" "Ukduh" "Gurgug" "Hagdugh" "Gradak" "Kubgug" "Ibub" "Rughug" "Sudzush" "Tubdakh" "Zuzgub" "Hagluk" "Zorpug" "Grormug" "Skutruk" "Rurduk" "Mutsnak" "Zurduk" "Zagh" 
         }

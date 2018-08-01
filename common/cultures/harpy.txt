@@ -3,7 +3,6 @@ harpy_group = {
     
     country = { 
         female_advisor_chance = 1.0 
-        may_recruit_female_generals = yes
     }
     
     bloodfury = {

@@ -59,6 +59,7 @@ country_event = {
             northern_kalimdor = { discover_country = ROOT }
             central_kalimdor = { discover_country = ROOT }
             southern_kalimdor = { discover_country = ROOT }
+            islands_kalimdor = { discover_country = ROOT }
             region_ocean_16 = { discover_country = ROOT }
             region_ocean_15 = { discover_country = ROOT }
             region_ocean_17 = { discover_country = ROOT }
