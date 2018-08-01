@@ -29,9 +29,12 @@ nightborne_group = {
             "Toramith" "Thorgeluth" "Nendilull" "Veti" "Monthae" "Guball" "Ketes" "Fadrin" "Melsil" "Imath" "Firgarqill" "Telurqa" "Ecinty" "Tultro" "Rottuth" "Fessilu" "Fophu" "Ilsu" "Gargunn" "Kustroll" "Konneth" "Lillethal" "Kitarga" "Ilis" "Kindor" "Omeull" "Terofin" "Iretall" "Tocirrull" "Vergoseith" "Famun" "Undinn" "Tiral" "Inellis" "Mece" "Thamith" "Vustrin" "Vustrin" "Thamith" "Nottoro" "Leti" "Upholl"
         }
     }
+}
+ 
+faldorei_group = {
+    graphical_culture = faldorei_gfx
+    
     faldorei = {  
-        graphical_culture = faldorei_gfx
-        
         male_names = { 
              Qilgrorn Kinthaeure Dilfan Geruith Fenthell Nelmer Feondauth Qithigas Silfostrus Jurdru Glundreure Qeovar Fisyr Sastrothel Ninnucox Qastindrell Qeogrul Caulgris Micaeu Phostalle Drothoran Thaldrarn Phathy Gludithe Meelgreth Virdraeuc Glirdruth Nendrun Cervire Fythautria Firlorruirn Mishomis Maetristrirn Tarvyx Grurrulthas Thunlin Taundresmir Lurasian Tolvuc Jilmen 
         }
@@ -43,9 +46,12 @@ nightborne_group = {
             "Toramith" "Thorgeluth" "Nendilull" "Veti" "Monthae" "Guball" "Ketes" "Fadrin" "Melsil" "Imath" "Firgarqill" "Telurqa" "Ecinty" "Tultro" "Rottuth" "Fessilu" "Fophu" "Ilsu" "Gargunn" "Kustroll" "Konneth" "Lillethal" "Kitarga" "Ilis" "Kindor" "Omeull" "Terofin" "Iretall" "Tocirrull" "Vergoseith" "Famun" "Undinn" "Tiral" "Inellis" "Mece" "Thamith" "Vustrin" "Vustrin" "Thamith" "Nottoro" "Leti" "Upholl"
         }
     }
+}
+
+nightfallen_group = {
+    graphical_culture = nightfallen_gfx
+    
     nightfallen = {  
-        graphical_culture = nightfallen_gfx
-        
         male_names = { 
              Qilgrorn Kinthaeure Dilfan Geruith Fenthell Nelmer Feondauth Qithigas Silfostrus Jurdru Glundreure Qeovar Fisyr Sastrothel Ninnucox Qastindrell Qeogrul Caulgris Micaeu Phostalle Drothoran Thaldrarn Phathy Gludithe Meelgreth Virdraeuc Glirdruth Nendrun Cervire Fythautria Firlorruirn Mishomis Maetristrirn Tarvyx Grurrulthas Thunlin Taundresmir Lurasian Tolvuc Jilmen 
         }
@@ -57,9 +63,12 @@ nightborne_group = {
             "Toramith" "Thorgeluth" "Nendilull" "Veti" "Monthae" "Guball" "Ketes" "Fadrin" "Melsil" "Imath" "Firgarqill" "Telurqa" "Ecinty" "Tultro" "Rottuth" "Fessilu" "Fophu" "Ilsu" "Gargunn" "Kustroll" "Konneth" "Lillethal" "Kitarga" "Ilis" "Kindor" "Omeull" "Terofin" "Iretall" "Tocirrull" "Vergoseith" "Famun" "Undinn" "Tiral" "Inellis" "Mece" "Thamith" "Vustrin" "Vustrin" "Thamith" "Nottoro" "Leti" "Upholl"
         }
     }
+}
+
+felborne_group = {
+    graphical_culture = felborne_gfx
+    
     felborne = {  
-        graphical_culture = felborne_gfx
-        
         male_names = { 
              Qilgrorn Kinthaeure Dilfan Geruith Fenthell Nelmer Feondauth Qithigas Silfostrus Jurdru Glundreure Qeovar Fisyr Sastrothel Ninnucox Qastindrell Qeogrul Caulgris Micaeu Phostalle Drothoran Thaldrarn Phathy Gludithe Meelgreth Virdraeuc Glirdruth Nendrun Cervire Fythautria Firlorruirn Mishomis Maetristrirn Tarvyx Grurrulthas Thunlin Taundresmir Lurasian Tolvuc Jilmen 
         }

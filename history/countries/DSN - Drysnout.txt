@@ -3,7 +3,7 @@ government = gnoll_tribe
 primary_culture = drysnout
 religion = shamanism
 
-capital = 1
+capital = 3211
 
 # The First War
 776.1.1 = {

@@ -3,7 +3,7 @@ government = furbolg_tribe
 primary_culture = foulweald
 religion = shamanism
 
-capital = 1
+capital = 5635
 
 # The First War
 776.1.1 = {

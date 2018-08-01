@@ -1,4 +1,4 @@
-graphical_culture = earthen_gfx
+graphical_culture = frost_dwarf_gfx
 
 color = { 154 23 203 }
 

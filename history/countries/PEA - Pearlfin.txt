@@ -3,7 +3,7 @@ government = jinyu_tribe
 primary_culture = pearlfin
 religion = celestials
 
-capital = 1
+capital = 4332
 
 # The First War
 776.1.1 = {

@@ -3,7 +3,7 @@ government = gnoll_tribe
 primary_culture = palemane
 religion = shamanism
 
-capital = 1
+capital = 5484
 
 # The First War
 776.1.1 = {

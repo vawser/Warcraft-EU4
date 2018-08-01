@@ -3,7 +3,7 @@ government = gorloc_tribe
 primary_culture = mosswalker
 religion = shamanism
 
-capital = 1
+capital = 6422
 
 # The First War
 776.1.1 = {

@@ -80,6 +80,7 @@
  draenei: "Draenei"
  
  broken_group: "Broken"
+ lost_one_group: "Lost Ones"
  lost_ones: "Lost Ones"
  portal_seekers: "Portal Seekers"
  broken: "Broken"           
@@ -123,6 +124,9 @@
  dark_iron: "Dark Iron"
  aerie_peak: "Aerie Peak"
  dwarf: "Dwarf"
+ hill_dwarf: "Hill Dwarf"
+ hill_dwarf_group: "Hill Dwarf"
+ dark_iron_dwarf_group: "Dark Iron Dwarf"
 
  #--------------------------------
  # Dryad
@@ -147,6 +151,7 @@
  frostborn: "Frostborn"
  uldaman: "Uldaman"
  earthen: "Earthen"
+ frostborn_group: "Frostborn"
  
  #--------------------------------
  # High Elf
@@ -158,6 +163,10 @@
  felblood: "Felblood"
  void_elf: "Void Elf"
  wretched: "Wretched"
+ wretched_group: "Wretched"
+ void_elf_group: "Void Elf"
+ felblood_group: "Felblood"
+ blood_elf_group: "Blood Elf"
  
  #--------------------------------
  # Nightborne
@@ -168,6 +177,9 @@
  faldorei: "Fal'dorei"
  nightfallen: "Nightfallen"
  felborne: "Felborne"
+ faldorei_group: "Fal'dorei"
+ nightfallen_group: "Nightfallen"
+ felborne_group: "Felborne"
  
  #--------------------------------
  # Night Elf
@@ -390,6 +402,8 @@
  pale_orc: "Pale Orc"
  fel_orc: "Fel Orc"
  orc: "Orc"
+ pale_orc_group: "Pale Orc"
+ fel_orc_group: "Fel Orc"
  
  #--------------------------------
  # Pandaren
@@ -557,7 +571,7 @@
  #--------------------------------
  # Troll
  #--------------------------------
- troll_group: "Troll"
+ forest_troll_group: "Troll"
  amani: "Amani"
  shadowpine: "Shadowpine"
  vilebranch: "Vilebranch"
@@ -568,6 +582,7 @@
  shadowglen: "Shadowglen"
  forest_troll: "Forest Troll"
 
+ jungle_troll_group: "Jungle Troll"
  gurubashi: "Gurubashi"
  bloodscalp: "Bloodscalp"
  shatterspear: "Shatterspear"
@@ -577,19 +592,24 @@
  jellyneck: "Jellyneck"
  jungle_troll: "Jungle Troll"
  
+ frost_troll_group: "Frost Troll"
  frostmane: "Frostmane"
  winterax: "Winterax"
  winterfang: "Winterfang"
  drakkari: "Drakkari"
  frost_troll: "Frost Troll"
  
+ sand_troll_group: "Sand Troll"
  sandfury: "Sandfury"
  sand_troll: "Sand Troll"
 
+ zandalari_troll_group: "Zandalari Troll"
  zandalari: "Zandalari Troll"
     
+ blood_troll_group: "Blood Troll"
  blood_troll: "Blood Troll"
  
+ dark_troll_group: "Dark Troll"
  dark_troll: "Dark Troll"
  
  #--------------------------------
@@ -621,6 +641,8 @@
  vrykul: "Vrykul"
  frost_vrykul: "Frost Vrykul"
  kvaldir: "Kvaldir"
+ kvaldir_group: "Kvaldir"
+ frost_vrykul_group: "Frost Vrykul"
  
  #--------------------------------
  # Wolvar
@@ -663,11 +685,12 @@
  #--------------------------------
  # Giant
  #--------------------------------
- giant_group: "Giant"
+ ulduar_giant_group: "Ulduar Giant"
  ulduar: "Ulduar"
+ sea_giant_group: "Sea Giant"
  sea_giant: "Sea Giant"
+ frost_giant_group: "Frost Giant"
  frost_giant: "Frost Giant"
- giant: "Giant"
  
  #--------------------------------
  # Grummle
@@ -692,6 +715,8 @@
  #--------------------------------
  botani_group: "Botani"
  botani: "Botani"
+ 
+ podling_group: "Podling"
  podling: "Podling"
  
  #--------------------------------

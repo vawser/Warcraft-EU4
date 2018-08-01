@@ -3,7 +3,7 @@ government = mogu_clan
 primary_culture = shao_tien
 religion = fleshshaping
 
-capital = 1
+capital = 4380
 
 # The First War
 776.1.1 = {

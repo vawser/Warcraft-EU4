@@ -1,6 +1,10 @@
 draenei_group = {
     graphical_culture = draenei_gfx 
     
+    country = { 
+        female_advisor_chance = 0.5
+    }
+    
     exodar = {
         primary = EXO
         
@@ -31,11 +35,10 @@ draenei_group = {
     }
 }
 
-broken_group = {
-    graphical_culture = broken_gfx 
+lost_one_group = {
+    graphical_culture = lost_one_gfx
     
     lost_ones = {
-        graphical_culture = lost_one_gfx
         primary = LSO
         
         male_names = { 
@@ -51,7 +54,6 @@ broken_group = {
         }
     }
     portal_seekers = {
-        graphical_culture = lost_one_gfx
         primary = POR
         
         male_names = { 
@@ -66,6 +68,11 @@ broken_group = {
             "the Wise" "the Quick" "the Sly" "the Coy" "the Giant" "the Immense" "the Vast" "the Towering" "the Bulky" "the Lusty" "the Mighty" "the Titanic" "the Potent" "the Powerful" "the Stout" "the Tough" "the Strong" "the Sturdy" "the Stalwart" "the Brawny" "the Hearty" "the Great" "the Almighty" "the Gutsy" "the Punchy" "the Astute" "the Careful" "the Enlightened" "the Perceptive" "the Prudent" "the Sane" "the Shrewd" "the Smart" "the Wary" "the Cunning" "the Keen" "the Sage" "the Sharp" "the Crafty" "the Erudite" "the Witty" "the Sapient" "the Tactful" "the Furious" "the Desperate" "the Fierce" "the Frantic" "the Livid" "the Raging" "the Violent" "the Frenzied" "the Inciter" "the Insane" "the Crazed" "the Maniac" "the Vicious" "the Rabid" "the Delirious" "the Fanatical" "the Fervent" "the Virulent" "the Zealous" "the Astute" "the Educated" "the Ample" "the Judicious"
         }
     }
+}
+
+broken_group = {
+    graphical_culture = broken_gfx 
+    
     broken = {
         male_names = { 
             "Hammor" "Baal'or" "Jaebad" "Thahechet" "Ridged" "Stannird" "Ekot" "Yugid" "Cuachad" "Hegem" "Uagal'ar" "Enirat" "Igid" "Begnan" "Bugmis" "Eliuth" "Gefiun" "Laphaarurd" "Fondehdu" "Thobhol" "Rubdet" "Khacu" "Dendosen" "Lihres" "Barneg" "Yumi" "Drol'mig" "Nodoro" "Nackiin" "Khertes" "Judot" "Garhiid" "Stadus" "Dresom" "Stuggi" "Tikdoc" "Aasmal" "Jizruk" "Lozord" "Osmen" "Ducibgor" "Thickor" "Tarre" "Tabraa" "Khulna" "Hardog" "Tullon'el"

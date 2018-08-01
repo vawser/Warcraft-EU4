@@ -3,7 +3,7 @@ government = gorloc_tribe
 primary_culture = mistwhisper
 religion = shamanism
 
-capital = 1
+capital = 6419
 
 # The First War
 776.1.1 = {

@@ -86,6 +86,10 @@ azerothian_group = {
 criminal_group = {
     graphical_culture = humangfx 
     
+    country = { 
+        female_advisor_chance = 0.5 
+    }
+    
     bloodsail = {
         primary = BLO
         
@@ -130,6 +134,10 @@ criminal_group = {
 gilnean_group = {
     graphical_culture = humangfx 
     
+    country = { 
+        female_advisor_chance = 0.5 
+    }
+    
     gilnean = {
         primary = GIL
         
@@ -147,6 +155,10 @@ gilnean_group = {
 
 kul_tiran_group = {
     graphical_culture = humangfx 
+    
+    country = { 
+        female_advisor_chance = 0.5 
+    }
     
     kul_tiras = {
         primary = KUL
@@ -179,6 +191,10 @@ kul_tiran_group = {
 arathi_group = {
     graphical_culture = humangfx 
 
+    country = { 
+        female_advisor_chance = 0.5 
+    }
+    
     stromgarde = {
         primary = SMG
         
@@ -223,6 +239,10 @@ arathi_group = {
 alteraci_group = {
     graphical_culture = humangfx 
     
+    country = { 
+        female_advisor_chance = 0.5 
+    }
+    
     alterac = {
         primary = ALT
         
@@ -252,6 +272,10 @@ alteraci_group = {
 
 lordaeron_group = {
     graphical_culture = humangfx 
+    
+    country = { 
+        female_advisor_chance = 0.5 
+    }
     
     lordaeron = {
         primary = LOR
@@ -312,6 +336,10 @@ lordaeron_group = {
 
 arcane_group = {
     graphical_culture = humangfx 
+    
+    country = { 
+        female_advisor_chance = 0.5 
+    }
     
     dalaran = { 
         primary = DAL

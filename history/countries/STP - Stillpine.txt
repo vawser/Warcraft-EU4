@@ -3,7 +3,7 @@ government = furbolg_tribe
 primary_culture = stillpine
 religion = shamanism
 
-capital = 1
+capital = 4695
 
 # The First War
 776.1.1 = {

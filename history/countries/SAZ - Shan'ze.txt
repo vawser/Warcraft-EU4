@@ -3,7 +3,7 @@ government = mogu_clan
 primary_culture = shanze
 religion = fleshshaping
 
-capital = 1
+capital = 3773
 
 # The First War
 776.1.1 = {

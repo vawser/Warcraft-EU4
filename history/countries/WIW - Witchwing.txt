@@ -3,7 +3,7 @@ government = harpy_tribe
 primary_culture = witchwing
 religion = wind
 
-capital = 1
+capital = 7186
 
 # The First War
 776.1.1 = {

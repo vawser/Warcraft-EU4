@@ -3,7 +3,7 @@ government = hozen_tribe
 primary_culture = grookin
 religion = celestials
 
-capital = 1
+capital = 4449
 
 # The First War
 776.1.1 = {

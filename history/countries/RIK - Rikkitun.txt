@@ -3,7 +3,7 @@ government = spriteling_tribe
 primary_culture = rikkitun
 religion = druidism
 
-capital = 1
+capital = 4622
 
 # The First War
 776.1.1 = {

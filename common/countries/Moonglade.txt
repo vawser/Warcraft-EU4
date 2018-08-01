@@ -1,4 +1,4 @@
-graphical_culture = militaristic_theocracy
+graphical_culture = night_elf_gfx
 
 color = { 174 127 3 }
 

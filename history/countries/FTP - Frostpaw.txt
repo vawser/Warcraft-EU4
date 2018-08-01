@@ -3,7 +3,7 @@ government = furbolg_tribe
 primary_culture = frostpaw
 religion = shamanism
 
-capital = 1
+capital = 6946
 
 # The First War
 776.1.1 = {

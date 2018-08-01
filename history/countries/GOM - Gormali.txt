@@ -3,7 +3,7 @@ government = mogu_clan
 primary_culture = gormali
 religion = fleshshaping
 
-capital = 1
+capital = 4250
 
 # The First War
 776.1.1 = {

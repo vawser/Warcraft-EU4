@@ -3,7 +3,7 @@ government = mogu_clan
 primary_culture = mogu_shan
 religion = fleshshaping
 
-capital = 1
+capital = 1994
 
 # The First War
 776.1.1 = {

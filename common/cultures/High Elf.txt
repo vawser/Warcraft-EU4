@@ -1,11 +1,11 @@
 high_elf_group = {
     graphical_culture = high_elf_gfx
-
+    
+    country = { 
+        female_advisor_chance = 0.5 
+    }
+    
     quelthalas = {
-        country = { 
-            female_advisor_chance = 0.5 
-        }
-        
         male_names = { 
              Vyraezaen Inenesaen Keellnis Onimaezen Retthan Kruhnerrish Mohlur Latel Paemhaer Ailmash Nonaenae Saetleaeth Bemnven Aerma'daras Yihieth Quyos Drehthum Vamreth Ralhosh Sihmi'dian Soeron Sateon Perthhean Erimaris Ehrosh Rurlomel Qormorzith Onmel Aimal Vethar Bimhein Baemmanis Baemasaen Dranasaen Zornivin Norleth Druviyath Drinom Irzamael Kethal Beeron Ine'theas Dunis Baehaelaen Dravelor Nayam Bale So'durrash Bimal Krache'thush 
         }
@@ -19,10 +19,6 @@ high_elf_group = {
     }
     
     high_elf = {
-        country = { 
-            female_advisor_chance = 0.5 
-        }
-        
         male_names = { 
              Vyraezaen Inenesaen Keellnis Onimaezen Retthan Kruhnerrish Mohlur Latel Paemhaer Ailmash Nonaenae Saetleaeth Bemnven Aerma'daras Yihieth Quyos Drehthum Vamreth Ralhosh Sihmi'dian Soeron Sateon Perthhean Erimaris Ehrosh Rurlomel Qormorzith Onmel Aimal Vethar Bimhein Baemmanis Baemasaen Dranasaen Zornivin Norleth Druviyath Drinom Irzamael Kethal Beeron Ine'theas Dunis Baehaelaen Dravelor Nayam Bale So'durrash Bimal Krache'thush 
         }
@@ -34,14 +30,16 @@ high_elf_group = {
             "Truefate" "Violetwish" "Sweetrange" "Morningkind" "Glowdream" "Whitepower" "Whitebell" "Palehold" "Crimsonpost" "Mageshadow" "Autumnbreath" "Lividrest" "Keenmight" "Goldenfall" "Brassthread" "Boldforge" "Dawnspell" "Runetrail" "Cindersong" "Goldenblood" "Glaredown" "Nightflame" "Dayblood" "Longflare" "Solarmind" "Wildblossom" "Dayflame" "Slimwood" "Darkdreamer" "Lividbrook" "Tinderbrook" "Summersinger" "Flameflight" "Evenblossom" "Heartbane" "Duskfeast" "Palewish" "Flameblossom" "Crimsonfaith" "Brightflame" "Strongspell" "Summerkind" "Phoenixwing" "Boldmight" "Nightbinder" "Velvetvale" "Solarshadow" "Ancientforge" "Coldfold" "Phoenixflame"
         }
     }
+}
+
+blood_elf_group = {
+    graphical_culture = blood_elf_gfx
     
+    country = { 
+        female_advisor_chance = 0.5 
+    }
+        
     blood_elf = {
-        graphical_culture = blood_elf_gfx
-        
-        country = { 
-            female_advisor_chance = 0.5 
-        }
-    
         male_names = { 
              Vyraezaen Inenesaen Keellnis Onimaezen Retthan Kruhnerrish Mohlur Latel Paemhaer Ailmash Nonaenae Saetleaeth Bemnven Aerma'daras Yihieth Quyos Drehthum Vamreth Ralhosh Sihmi'dian Soeron Sateon Perthhean Erimaris Ehrosh Rurlomel Qormorzith Onmel Aimal Vethar Bimhein Baemmanis Baemasaen Dranasaen Zornivin Norleth Druviyath Drinom Irzamael Kethal Beeron Ine'theas Dunis Baehaelaen Dravelor Nayam Bale So'durrash Bimal Krache'thush 
         }
@@ -53,10 +51,12 @@ high_elf_group = {
             "Truefate" "Violetwish" "Sweetrange" "Morningkind" "Glowdream" "Whitepower" "Whitebell" "Palehold" "Crimsonpost" "Mageshadow" "Autumnbreath" "Lividrest" "Keenmight" "Goldenfall" "Brassthread" "Boldforge" "Dawnspell" "Runetrail" "Cindersong" "Goldenblood" "Glaredown" "Nightflame" "Dayblood" "Longflare" "Solarmind" "Wildblossom" "Dayflame" "Slimwood" "Darkdreamer" "Lividbrook" "Tinderbrook" "Summersinger" "Flameflight" "Evenblossom" "Heartbane" "Duskfeast" "Palewish" "Flameblossom" "Crimsonfaith" "Brightflame" "Strongspell" "Summerkind" "Phoenixwing" "Boldmight" "Nightbinder" "Velvetvale" "Solarshadow" "Ancientforge" "Coldfold" "Phoenixflame"
         }
     }
+}
+
+felblood_group = {
+    graphical_culture = felblood_gfx
     
     felblood = {
-        graphical_culture = felblood_gfx
-        
         male_names = { 
              Vyraezaen Inenesaen Keellnis Onimaezen Retthan Kruhnerrish Mohlur Latel Paemhaer Ailmash Nonaenae Saetleaeth Bemnven Aerma'daras Yihieth Quyos Drehthum Vamreth Ralhosh Sihmi'dian Soeron Sateon Perthhean Erimaris Ehrosh Rurlomel Qormorzith Onmel Aimal Vethar Bimhein Baemmanis Baemasaen Dranasaen Zornivin Norleth Druviyath Drinom Irzamael Kethal Beeron Ine'theas Dunis Baehaelaen Dravelor Nayam Bale So'durrash Bimal Krache'thush 
         }
@@ -68,10 +68,12 @@ high_elf_group = {
             "Truefate" "Violetwish" "Sweetrange" "Morningkind" "Glowdream" "Whitepower" "Whitebell" "Palehold" "Crimsonpost" "Mageshadow" "Autumnbreath" "Lividrest" "Keenmight" "Goldenfall" "Brassthread" "Boldforge" "Dawnspell" "Runetrail" "Cindersong" "Goldenblood" "Glaredown" "Nightflame" "Dayblood" "Longflare" "Solarmind" "Wildblossom" "Dayflame" "Slimwood" "Darkdreamer" "Lividbrook" "Tinderbrook" "Summersinger" "Flameflight" "Evenblossom" "Heartbane" "Duskfeast" "Palewish" "Flameblossom" "Crimsonfaith" "Brightflame" "Strongspell" "Summerkind" "Phoenixwing" "Boldmight" "Nightbinder" "Velvetvale" "Solarshadow" "Ancientforge" "Coldfold" "Phoenixflame"
         }
     }
+}
+
+void_elf_group = {
+    graphical_culture = void_elf_gfx
     
     void_elf = {
-        graphical_culture = void_elf_gfx
-        
         male_names = { 
              Vyraezaen Inenesaen Keellnis Onimaezen Retthan Kruhnerrish Mohlur Latel Paemhaer Ailmash Nonaenae Saetleaeth Bemnven Aerma'daras Yihieth Quyos Drehthum Vamreth Ralhosh Sihmi'dian Soeron Sateon Perthhean Erimaris Ehrosh Rurlomel Qormorzith Onmel Aimal Vethar Bimhein Baemmanis Baemasaen Dranasaen Zornivin Norleth Druviyath Drinom Irzamael Kethal Beeron Ine'theas Dunis Baehaelaen Dravelor Nayam Bale So'durrash Bimal Krache'thush 
         }
@@ -83,10 +85,12 @@ high_elf_group = {
             "Truefate" "Violetwish" "Sweetrange" "Morningkind" "Glowdream" "Whitepower" "Whitebell" "Palehold" "Crimsonpost" "Mageshadow" "Autumnbreath" "Lividrest" "Keenmight" "Goldenfall" "Brassthread" "Boldforge" "Dawnspell" "Runetrail" "Cindersong" "Goldenblood" "Glaredown" "Nightflame" "Dayblood" "Longflare" "Solarmind" "Wildblossom" "Dayflame" "Slimwood" "Darkdreamer" "Lividbrook" "Tinderbrook" "Summersinger" "Flameflight" "Evenblossom" "Heartbane" "Duskfeast" "Palewish" "Flameblossom" "Crimsonfaith" "Brightflame" "Strongspell" "Summerkind" "Phoenixwing" "Boldmight" "Nightbinder" "Velvetvale" "Solarshadow" "Ancientforge" "Coldfold" "Phoenixflame"
         }
     }
+}
+
+wretched_group = {
+    graphical_culture = wretched_gfx
     
     wretched = {
-        graphical_culture = wretched_gfx
-        
         male_names = { 
              Vyraezaen Inenesaen Keellnis Onimaezen Retthan Kruhnerrish Mohlur Latel Paemhaer Ailmash Nonaenae Saetleaeth Bemnven Aerma'daras Yihieth Quyos Drehthum Vamreth Ralhosh Sihmi'dian Soeron Sateon Perthhean Erimaris Ehrosh Rurlomel Qormorzith Onmel Aimal Vethar Bimhein Baemmanis Baemasaen Dranasaen Zornivin Norleth Druviyath Drinom Irzamael Kethal Beeron Ine'theas Dunis Baehaelaen Dravelor Nayam Bale So'durrash Bimal Krache'thush 
         }

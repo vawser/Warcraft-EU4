@@ -3,7 +3,7 @@ government = gorloc_tribe
 primary_culture = sparktouched
 religion = shamanism
 
-capital = 1
+capital = 6391
 
 # The First War
 776.1.1 = {

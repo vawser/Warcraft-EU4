@@ -3,7 +3,7 @@ government = gnoll_tribe
 primary_culture = woodpaw
 religion = shamanism
 
-capital = 1
+capital = 5310
 
 # The First War
 776.1.1 = {

@@ -3,7 +3,7 @@ government = trade_cartel
 primary_culture = steamwheedle_cartel
 religion = avarice
 
-capital = 1
+capital = 5143
 
 # The First War
 776.1.1 = {

@@ -3,7 +3,7 @@ government = furbolg_tribe
 primary_culture = blackmaw
 religion = shamanism
 
-capital = 1
+capital = 5767
 
 # The First War
 776.1.1 = {

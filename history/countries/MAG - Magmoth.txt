@@ -3,7 +3,7 @@ government = magnataur_tribe
 primary_culture = magmoth
 religion = geomancy
 
-capital = 1
+capital = 6245
 
 # The First War
 776.1.1 = {

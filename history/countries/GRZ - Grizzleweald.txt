@@ -3,7 +3,7 @@ government = furbolg_tribe
 primary_culture = grizzleweald
 religion = shamanism
 
-capital = 1
+capital = 3664
 
 # The First War
 776.1.1 = {

@@ -4,7 +4,7 @@ government_rank = 4
 primary_culture = gnomeregan
 religion = technomancy
 
-capital = 1
+capital = 3297
 
 # The First War
 776.1.1 = {
