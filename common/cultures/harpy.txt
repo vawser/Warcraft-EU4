@@ -1,6 +1,11 @@
 harpy_group = {
     graphical_culture = harpy_gfx 
     
+    country = { 
+        female_advisor_chance = 1.0 
+        may_recruit_female_generals = yes
+    }
+    
     bloodfury = {
         primary = BFY
         

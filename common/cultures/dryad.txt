@@ -1,6 +1,11 @@
 dryad_group = {
     graphical_culture = dryad_gfx 
     
+    country = { 
+        female_advisor_chance = 1.0 
+        may_recruit_female_generals = yes
+    }
+     
     daughters_of_cenarius = {
         primary = COC
         
@@ -30,6 +35,11 @@ dryad_group = {
 frost_nymph_group = {
     graphical_culture = frost_nymph_gfx 
 
+    country = { 
+        female_advisor_chance = 1.0 
+        may_recruit_female_generals = yes
+    }
+     
     sisterhood_of_winter = {
         primary = SOW
         
@@ -59,6 +69,11 @@ frost_nymph_group = {
 crystal_nymph_group = {
     graphical_culture = crystal_nymph_gfx 
     
+    country = { 
+        female_advisor_chance = 1.0 
+        may_recruit_female_generals = yes
+    }
+     
     the_unbound = {
         primary = UNB
         
