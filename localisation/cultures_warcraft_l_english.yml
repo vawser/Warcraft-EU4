@@ -697,8 +697,8 @@
  #--------------------------------
  # Arrakoa
  #--------------------------------
- arrakoa_group: "Arrakoa"
- arrakoa: "Arrakoa"
+ arrakoa_group: "Arakkoa"
+ arrakoa: "Arakkoa"
  
  #--------------------------------
  # Ethereal

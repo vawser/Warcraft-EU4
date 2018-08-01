@@ -1,6 +1,10 @@
 arrakoa_group = {
     graphical_culture = arrakoa_gfx
     
+    country = { 
+        female_advisor_chance = 0.5
+    }
+    
     arrakoa = {  
         male_names = { 
             "Skrakk" "Kekk" "Grad" "Skobo" "Ssarbiks" "Skuarruh" "Kraasske" "Uarrulyam" "Ai'skolyeth" "Kronjirer" "Dayk" "Koss" "Tokk" "Fazrul" "Ssezrot" "O'zykk" "Erot" "Mikmuvar" "Cho'zazekk" "Lisharyos" "Skrorr" "Jakk" "Poss" "Chissar" "Ssollush" "E'rrys" "Isskuk" "Oklykix" "Tirazer"

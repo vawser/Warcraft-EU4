@@ -1,595 +1,536 @@
 spriteTypes = {
-    # Notes:
-    #   Advisor circle should be 64x64 to fit the frame (which is 96x96)
-    #   21
-    
+	#------------------
+	# Male
+	#------------------
     spriteType = {
-        name = "GFX_advisor_noAdvisorType"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_philosopher"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
-        effectFile = "gfx/FX/buttonstate.lua"
-        loadType = "INGAME"
-    }
-
-    spriteType = {
-        name = "GFX_advisor_noAdvisorType_female"
-        texturefile = "gfx//advisors//blank.dds"
-        noOfFrames = 1
-        norefcount = yes
-        effectFile = "gfx/FX/buttonstate.lua"
-        loadType = "INGAME"
-    }
-    
-    
-    
-    #-------------------------
-    # ADM
-    #-------------------------
-    spriteType = {
-        name = "GFX_advisor_artist"
-        texturefile = "gfx//advisors//blank.dds"
-        noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_artist_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_overseer"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-
     spriteType = {
-        name = "GFX_advisor_philosopher"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_artist"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_treasurer"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-
     spriteType = {
-        name = "GFX_advisor_theologian"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_theologian"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_theologian_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_master_of_mint"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-
     spriteType = {
-        name = "GFX_advisor_inquisitor"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_inquisitor"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_inquisitor_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_stonemason"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-
     spriteType = {
-        name = "GFX_advisor_master_of_mint"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_carpenter"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_master_of_mint_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_bailiff"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-
     spriteType = {
-        name = "GFX_advisor_treasurer"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_judge"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_treasurer_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_statesman"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-    
     spriteType = {
-        name = "GFX_advisor_stonemason"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_naval_reformer"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_stonemason_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_trader"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-    
     spriteType = {
-        name = "GFX_advisor_carpenter"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_spymaster"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_carpenter_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_governor"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-    
     spriteType = {
-        name = "GFX_advisor_bailiff"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_diplomat"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_bailiff_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_navigator"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-    
     spriteType = {
-        name = "GFX_advisor_judge"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_miller"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_judge_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_tailor"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-
     spriteType = {
-        name = "GFX_advisor_overseer"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_elder"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_overseer_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_enforcer"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-    
-    #-------------------------
-    # DIP
-    #-------------------------
     spriteType = {
-        name = "GFX_advisor_statesman"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_army_reformer"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_statesman_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_army_organiser"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-
     spriteType = {
-        name = "GFX_advisor_governor"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_commandant"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_governor_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_quartermaster"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-
     spriteType = {
-        name = "GFX_advisor_diplomat"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_recruitmaster"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_diplomat_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_fortification_expert"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-
     spriteType = {
-        name = "GFX_advisor_naval_reformer"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_grand_captain"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_naval_reformer_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_blacksmith"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-
     spriteType = {
-        name = "GFX_advisor_navigator"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_armorer"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_navigator_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_marshal"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-
     spriteType = {
-        name = "GFX_advisor_trader"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_constable"
+        texturefile = "gfx//advisors//highmountain_tauren//male//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
+	#------------------
+	# Female
+	#------------------
     spriteType = {
-        name = "GFX_advisor_trader_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_philosopher_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-
     spriteType = {
-        name = "GFX_advisor_spymaster"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_overseer_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_spymaster_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_artist_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-    
     spriteType = {
-        name = "GFX_advisor_miller"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_treasurer_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_miller_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_theologian_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-    
     spriteType = {
-        name = "GFX_advisor_tailor"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_master_of_mint_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_tailor_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_inquisitor_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-    
     spriteType = {
-        name = "GFX_advisor_elder"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_stonemason_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_elder_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_carpenter_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-    
     spriteType = {
-        name = "GFX_advisor_enforcer"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_bailiff_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_enforcer_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_judge_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-
-    #-------------------------
-    # MIL
-    #-------------------------
     spriteType = {
-        name = "GFX_advisor_army_reformer"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_statesman_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_army_reformer_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_naval_reformer_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-
     spriteType = {
-        name = "GFX_advisor_army_organiser"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_trader_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_army_organiser_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_spymaster_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-    
     spriteType = {
-        name = "GFX_advisor_commandant"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_governor_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_commandant_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_diplomat_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-
     spriteType = {
-        name = "GFX_advisor_quartermaster"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_navigator_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_quartermaster_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_miller_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-    
     spriteType = {
-        name = "GFX_advisor_recruitmaster"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_tailor_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_recruitmaster_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_elder_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-    
     spriteType = {
-        name = "GFX_advisor_fortification_expert"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_enforcer_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_fortification_expert_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_army_reformer_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-    
     spriteType = {
-        name = "GFX_advisor_grand_captain"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_army_organiser_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_grand_captain_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_commandant_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-    
     spriteType = {
-        name = "GFX_advisor_blacksmith"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_quartermaster_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_blacksmith_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_recruitmaster_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-    
     spriteType = {
-        name = "GFX_advisor_marshal"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_fortification_expert_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_marshal_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_grand_captain_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-    
     spriteType = {
-        name = "GFX_advisor_constable"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_blacksmith_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_constable_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_armorer_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
-    
     spriteType = {
-        name = "GFX_advisor_armorer"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_marshal_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
     spriteType = {
-        name = "GFX_advisor_armorer_female"
-        texturefile = "gfx//advisors//blank.dds"
+        name = "GFX_advisor_highmountain_tauren_gfx_constable_female"
+        texturefile = "gfx//advisors//highmountain_tauren//female//1.dds"
         noOfFrames = 1
         norefcount = yes
         effectFile = "gfx/FX/buttonstate.lua"
         loadType = "INGAME"
     }
 }
-
