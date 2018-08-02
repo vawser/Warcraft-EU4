@@ -1,31 +1,6 @@
-Portraits:
-bronze_dragonflight
-botani
-drogbar
-faldorei
-fel_orc
-felblood
-felborne
-frost_dwarf
-frost_giant
-frost_vrykul
-fungarian
-highmountain_tauren
-hill_dwarf
-kvaldir
-lost_one
-nightfallen
-nraqi
-pale_orc
-podling
-saberon
-sea_giant
-sethrak
-sporeling
-tortollan
-ulduar
-virmen
-void_elf
-void
-vulpera
-wretched
+# Todo:
+Finish adding positions for Northrend + Kalimdor
+Add province names
+Add area names
+Generate religious rebels for new set
+Overhaul localization handling, override vanilla and include base keys

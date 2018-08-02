@@ -177,7 +177,7 @@ WIS = "countries/Windshear.txt"      # Stonetalon Mountains
 BWX = "countries/Bluewax.txt"        # Highmountain
 GOG = "countries/Goggers.txt"        # Stonetalon Mountain
 DRY = "countries/Drywhisker.txt"     # Arathi Highlands
-SKW = "countries/Skywhisper.txt"     # Highmountain
+SKW = "countries/Skywhisker.txt"     # Highmountain
 TNR = "countries/Tunnel Rat.txt"     # Loch Modan
 WWK = "countries/Whitewhisker.txt"   # Alterac Valley
 
@@ -302,7 +302,6 @@ WDP = "countries/Wildspawn.txt"       # Dire Maul
 GLI = "countries/Glintrok.txt"      # Jade Forest
 MTD = "countries/Mistblade.txt"     # Dread Wastes
 RVE = "countries/Riverblade.txt"    # Krasarang Wilds
-
 BDS = "countries/Bladescale.txt"    # Townlong Steppes
 DKH = "countries/Darkhatched.txt"   # Veiled Stair 
 HES = "countries/Hatescale.txt"     # Veiled Stair
