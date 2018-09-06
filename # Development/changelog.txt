@@ -1,5 +1,4 @@
 # Todo:
-Finish adding positions for Northrend + Kalimdor
 Add province names
 Add area names
 Generate religious rebels for new set

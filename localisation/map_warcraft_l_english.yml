@@ -35,8 +35,6 @@
  #-----------------------------------------------
  region_isle_of_quel_danas: "Isle of Quel'Danas"
  region_eversong_forest: "Eversong Forest"
- region_ghostlands: "Ghostlands"
- region_zul_aman: "Zul'Aman"
  region_andorhal: "Andorhal"
  region_stratholme: "Stratholme"
  region_tirisfal_glades: "Tirisfal Glades"
@@ -45,7 +43,6 @@
  region_hillsbrad_foothills: "Hillsbrad Foothills"
  region_gilneas: "Gilneas"
  region_tol_barad: "Tol Barad"
- region_zul_dare: "Zul'Dare"
  region_kul_tiras: "Kul Tiras"
  region_arathi_highlands: "Arathi Highlands"
  region_the_hinterlands: "The Hinterlands"
