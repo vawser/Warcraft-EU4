@@ -52,11 +52,7 @@
 # quillboar_tribe   
 # spriteling_tribe  
 # wolvar_tribe      
-# trogg_tribe
-
-# despotic_empire       
-# bureaucratic_empire   
-# religious_empire      
+# trogg_tribe 
 
 #----------------------------
 # Government Values
@@ -91,34 +87,20 @@
 # Iqta:
     # generic 
 
-#----------------------------
-# Static
-#----------------------------
-colonial_government = {
-	republic = yes
-	
-	color = { 80 120 180 }
-	
-	unique_government = yes
+human_kingdom = {
+    color = { 179 25 25 }
+    
+    basic_reform = human_kingdom_base
+    
+    legacy_government = {
+        human_kingdom
+    }
+    
+    reform_levels = {
+        
+    }
 
-	duration = 8
-	
-	valid_for_new_country = no
-	allow_convert = no
-	
-	republican_name = yes
-	royal_marriage = no
-	
-	ai_will_do = {
-		factor = 0
-	}
-
-	rank = {
-		1 = {
-			global_autonomy = -0.05
-			recover_army_morale_speed = 0.02	
-            embracement_cost = -0.1
-		}
-	}
-	fixed_rank = 1
+    exclusive_reforms = {
+    
+    }
 }

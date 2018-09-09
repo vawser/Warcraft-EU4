@@ -22,3 +22,6 @@ NDefines.NCountry.REVOLT_SIZE_BASE = 4
 NDefines.NCountry.MONARCH_DEATH = 0
 
 -- NDefines.NCountry.PS_BUY_IDEA = 100
+
+NDefines.NCountry.CAN_CONVERT_TERRITORY_CULTURE = 1
+NDefines.NCountry.CAN_CONVERT_TERRITORY_RELIGION = 1

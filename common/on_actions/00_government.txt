@@ -44,18 +44,29 @@ on_queen_death = {
     queen_death_effect = yes
 }
 
+on_reform_enacted = { }
+on_reform_changed = { }
+
 on_new_heir = { }
 on_monarch_death = { }
 on_heir_needed_theocracy = { }
 on_regent = { }
+
 on_native_change_government = { }
+
 on_death_has_harem = { }            # Called for governments with has_harem when the ruler dies
 on_select_heir_from_harem = { }     # Called for governments with has_harem when the ruler is 30 without a heir
+
 on_parliament_debate_failed = { }
 on_parliament_debate_succeeded = { }
+
 on_russian_subednik = { }
 on_russian_oprichnina = { }
 on_russian_streltsy = { }
+
 on_add_pasha = { }      # THIS = Province in state
 on_remove_pasha = { }
 on_janissaries_raised = { }
+
+on_dependency_gained = { }  # ROOT = Overlord, FROM = Minor
+on_dependency_lost = { }    # ROOT = Overlord, FROM = Minor

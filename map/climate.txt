@@ -1,3 +1,5 @@
+equator_y_on_province_image = 656
+
 tropical = {
     # Krasarang Wilds
     4313 4312 4315 
@@ -1267,3 +1269,17 @@ impassable = {
      # Walls
      7279 7280 7281 7282 7283 7284 7285 7286 7287 7288 7289 7290 7291 7292 7293
 }
+
+mild_monsoon = {
+
+}
+
+normal_monsoon = {
+
+}
+
+severe_monsoon = {
+
+}
+
+

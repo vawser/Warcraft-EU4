@@ -196,6 +196,30 @@ severe_winter = {
 	picture = "winter_severe"
 }
 
+mild_monsoon = {
+	local_hostile_attrition = 1
+	local_hostile_movement_speed = -0.20
+	local_friendly_movement_speed = -0.20
+
+	picture = "monsoon_mild"
+}
+
+normal_monsoon = {
+	local_hostile_attrition = 2
+	local_hostile_movement_speed = -0.25
+	local_friendly_movement_speed = -0.25
+
+	picture = "monsoon_normal"
+}
+
+severe_monsoon = {
+	local_hostile_attrition = 3
+	local_hostile_movement_speed = -0.50
+	local_friendly_movement_speed = -0.50
+
+	picture = "monsoon_severe"
+}
+
 blockaded = {
 	regiment_recruit_speed = 0.2
 	ship_recruit_speed = 0.2
@@ -874,6 +898,30 @@ over_extension = {
 	yearly_corruption = 0.5
 }
 
+territory_very_easy_difficulty = { # Penalties for territories on very easy difficulty
+
+}
+
+territory_easy_difficulty = { # Penalties for territories on easy difficulty
+	yearly_corruption = 0.01
+}
+
+territory_normal_difficulty = { # Penalties for territories on normal difficulty
+	yearly_corruption = 0.02
+}
+
+territory_hard_difficulty = { # Penalties for territories on hard difficulty
+	yearly_corruption = 0.02
+}
+
+territory_very_hard_difficulty = { # Penalties for territories on very hard difficulty
+	yearly_corruption = 0.02
+}
+
+territory_ai_difficulty = { #Penalties for territories owned by AI regardless of difficulty.
+	yearly_corruption = 0.02
+}
+
 prestige = {
 	global_trade_power = 0.15			#+15/-15 total bonus from prestige.
 	land_morale = 0.1
@@ -1092,15 +1140,9 @@ gov_rank_1 = {
 }
 
 gov_rank_2 = {
-	diplomats = 1
-	max_states = 5
 }
 
 gov_rank_3 = {
-	diplomats = 1
-	free_leader_pool = 1
-	max_states = 10
-	max_absolutism = 5
 }
 
 # for mod support...
@@ -1199,24 +1241,6 @@ in_trade_league = {
 
 tutorial_colonial_range = {
 	range = 0.1
-}
-
-
-########################################
-# For Dutch Mechanics
-########################################
-
-statists = {
-	naval_forcelimit_modifier = 0.10
-	global_trade_power = 0.05
-	republican_tradition = 1
-
-}
-
-orangists = {
-	land_forcelimit_modifier = 0.25
-	stability_cost_modifier = -0.10
-	republican_tradition = -1
 }
 
 ########################################
@@ -1457,4 +1481,22 @@ innovativeness = {
 	all_power_cost	= -0.1
 	army_tradition_decay = -0.01
 	navy_tradition_decay = -0.01
+}
+
+rajput_regiment = {
+	drill_decay_modifier = -0.25
+	discipline = 0.05
+}
+
+raiding_parties_modifier = {
+	hostile_attrition = 1
+	movement_speed = 0.1
+}
+
+serfs_recieved_by_cossacks = {
+	global_tax_modifier = -0.1
+}
+
+cossacks_modifier = {
+	stability_cost_modifier = 1.0
 }

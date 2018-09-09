@@ -27,7 +27,7 @@
  TAUREN_TRIBE: "Tauren Camp"
  TAUNKA_TRIBE: "Taunka Moot"
  TUSKARR_TRIBE: "Tuskarr Moot"
- JINYU_TRIBE: "Jinyu Commune"
+ JINYU_CLAN: "Jinyu Commune"
  TECHNOCRACY: "Technocracy"
  TRADE_CARTEL: "Trade Cartel"
  MAGOCRACY: "Magocracy"
@@ -187,8 +187,8 @@
  tuskarr_tribe: "Tuskarr Moot"
  tuskarr_tribe_desc: ""
  
- jinyu_tribe: "Jinyu Clan"
- jinyu_tribe_desc: ""
+ jinyu_kingdom: "Jinyu Clan"
+ jinyu_kingdom_desc: ""
  
  technocracy: "Technocracy"
  technocracy_desc: ""

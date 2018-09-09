@@ -127,5 +127,6 @@ on_mil_development = { }    # ROOT = Province
 on_province_religion_converted = { }
 on_province_culture_converted = { }
 on_province_owner_change = { }
+on_culture_promoted = { }
 
 

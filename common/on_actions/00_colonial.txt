@@ -19,10 +19,16 @@ on_replace_governor = {
     }
 }
 
+on_center_of_trade_upgrade = { }
+on_center_of_trade_downgrade = { }
+
 on_added_to_trade_company = { } # ROOT = Province, FROM = Actor
 on_removed_from_company = { }   # ROOT = Province, FROM = Actor
 on_company_formed = { }         # ROOT = Province, FROM = Actor
 on_company_disolved = { }       # ROOT = Province, FROM = Actor
+on_company_chartered = { }
+on_trade_company_investment = { }
+
 on_abandon_colony = { }         # ROOT = Province, FROM = Actor
 
 on_siberian_pulse = { }

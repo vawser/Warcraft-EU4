@@ -2018,18 +2018,18 @@ gov_tuskarr_tribe = {
 		government = tuskarr_tribe
 	}
 }
-gov_jinyu_tribe = {
+gov_jinyu_kingdom = {
 	rank = {
-		1 = JINYU_TRIBE
-		2 = JINYU_TRIBE
-		3 = JINYU_TRIBE
-		4 = JINYU_TRIBE
-		5 = JINYU_TRIBE
-		6 = JINYU_TRIBE
-		7 = JINYU_TRIBE
-		8 = JINYU_TRIBE
-		9 = JINYU_TRIBE
-		10 = JINYU_TRIBE
+		1 = JINYU_CLAN
+		2 = JINYU_CLAN
+		3 = JINYU_CLAN
+		4 = JINYU_CLAN
+		5 = JINYU_CLAN
+		6 = JINYU_CLAN
+		7 = JINYU_CLAN
+		8 = JINYU_CLAN
+		9 = JINYU_CLAN
+		10 = JINYU_CLAN
 	}
 
 	ruler_male = {
@@ -2111,7 +2111,7 @@ gov_jinyu_tribe = {
     }
 
 	trigger = {
-		government = jinyu_tribe
+		government = jinyu_kingdom
 	}
 }
 gov_technocracy = {
