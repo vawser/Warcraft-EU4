@@ -1,5 +1,6 @@
 technology_group = tech_magnataur
-government = magnataur_tribe
+government = tribal
+add_government_reform = magnataur_government_form
 primary_culture = garm
 religion = geomancy
 

@@ -141,11 +141,7 @@ righteous_personality = {
 	}
 	
 	allow = {
-		OR = {
-			government = republic
-			government = monarchy
-		}
-		is_civilized_government = yes
+		is_civilized = yes
 	}
 	
 	chance = {
@@ -841,7 +837,7 @@ pious_personality = {
 	}
 
 	allow = {
-        is_religion_government = yes
+        government = theocracy
 	}
 	
 	chance = {

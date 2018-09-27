@@ -1,5 +1,6 @@
 technology_group = tech_saurok
-government = saurok_tribe
+government = monarchy
+add_government_reform = saurok_government_form
 primary_culture = palebalde
 religion = fleshshaping
 

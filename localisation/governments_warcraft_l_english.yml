@@ -10,6 +10,11 @@
  #------------------
  # Names
  #------------------
+ KINGDOM: "Kingdom"
+ THEOCRACY: "Theocracy"
+ TRIBE: "Tribe"
+ WARBAND: "Warband"
+ 
  HUMAN_KINGDOM: "Human Kingdom"
  HUMAN_SETTLEMENT: "Human Settlement"
  DWARF_KINGDOM: "Dwarf Kingdom"
@@ -67,12 +72,11 @@
  THEOCRACY: "Theocracy"
  FALLEN_ORDER: "The Broken"
  KALDOREI_ORDER: "Kaldorei Order"
- 
- DESPOTIC_EMPIRE: "Despotic Empire"
- BUREAUCRATIC_EMPIRE: "Bureaucratic Empire"
- RELIGIOUS_EMPIRE: "Religious Empire"
- 
+ ARRAKOA_KINGDOM: "Arrakoa Kingdom"
  COLONIAL_GOVERNMENT: "Colonial Outpost"
+ SETHRAK_KINGDOM: "Sethrak Kingdom"
+ FROST_DWARF_KINGDOM: "Frost Dwarf Kingdom"
+ NRAQI_CULT: "N'Raqi Cult"
  
  #------------------
  # Titles
@@ -92,6 +96,7 @@
  DRAGONQUEEN: "Dragonqueen"
  ELDER: "Elder"
  CHIEFTAIN: "Chieftain"
+ CHIEFTAINESS: "Chieftainess"
  HIGH_TINKER: "High Tinker"
  TRADE_PRINCE: "Trade Prince"
  ARCHMAGE: "Archmage"
@@ -109,6 +114,7 @@
  WARLORD: "Wardlord"
  LADY: "Lady"
  WARCHIEF: "Warchief"
+ WARCHIEFESS: "Warchiefess"
  WARBRINGER: "Warbringer"
  ORACLE: "Oracle"
  WITCH: "Witch"
@@ -126,6 +132,9 @@
  GRAND_MAGISTRIX: "Grand Magistrix"
  EXARCH: "Exarch"
  FALLEN: "Broken"
+ TALONKING: "Talonking"
+ TALONQUEEN: "Talonqueen"
+ HEAD_CULTIST: "Head Cultist"
  
  #------------------
  # Governments

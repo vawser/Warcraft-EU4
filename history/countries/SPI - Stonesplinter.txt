@@ -1,5 +1,6 @@
 technology_group = tech_trogg
-government = trogg_tribe
+government = tribal
+add_government_reform = trogg_government_form
 primary_culture = stonesplinter
 religion = geomancy
 

@@ -1,5 +1,6 @@
 technology_group = tech_wolvar
-government = wolvar_tribe
+government = tribal
+add_government_reform = wolvar_government_form
 primary_culture = frenzyheart
 religion = shamanism
 

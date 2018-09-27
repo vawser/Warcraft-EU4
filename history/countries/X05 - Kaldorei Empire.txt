@@ -1,5 +1,6 @@
 technology_group = tech_night_elf
-government = religious_empire
+government = theocracy
+add_government_reform = night_elf_government_form
 primary_culture = night_elf
 religion = elune
 

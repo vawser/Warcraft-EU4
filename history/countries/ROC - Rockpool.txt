@@ -1,5 +1,6 @@
 technology_group = tech_murloc
-government = murloc_tribe
+government = tribal
+add_government_reform = murloc_government_form
 primary_culture = rockpool
 religion = deep_mother
 

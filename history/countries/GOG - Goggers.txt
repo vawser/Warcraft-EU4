@@ -1,5 +1,6 @@
 technology_group = tech_kobold
-government = kobold_tribe
+government = tribal
+add_government_reform = kobold_government_form
 primary_culture = gogger
 religion = geomancy
 

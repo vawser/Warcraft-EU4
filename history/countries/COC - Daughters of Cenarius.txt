@@ -1,5 +1,6 @@
 technology_group = tech_dryad
-government = dryad_commune
+government = monarchy
+add_government_reform = dryad_government_form
 primary_culture = daughters_of_cenarius
 religion = druidism
 

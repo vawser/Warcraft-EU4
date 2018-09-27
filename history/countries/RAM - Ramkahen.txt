@@ -1,5 +1,6 @@
 technology_group = tech_tolvir
-government = tolvir_kingdom
+government = monarchy
+add_government_reform = tolvir_government_form
 government_rank = 4
 primary_culture = ramkahen
 religion = wind

@@ -1,5 +1,6 @@
 technology_group = tech_titan
-government = titan_order
+government = theocracy
+add_government_reform = titan_government_form
 primary_culture = lifewarder
 religion = titan_worship
 

@@ -1,5 +1,6 @@
 technology_group = tech_naga
-government = naga_clan
+government = monarchy
+add_government_reform = naga_government_form
 primary_culture = spitelash
 religion = azshara
 

@@ -1,5 +1,6 @@
 technology_group = tech_naga
-government = despotic_empire
+government = monarchy
+add_government_reform = naga_government_form
 primary_culture = naga
 religion = azshara
 

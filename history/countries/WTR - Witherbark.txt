@@ -1,5 +1,6 @@
 technology_group = tech_forest_troll
-government = troll_tribe
+government = monarchy
+add_government_reform = forest_troll_government_form
 primary_culture = witherbark
 religion = voodoo
 

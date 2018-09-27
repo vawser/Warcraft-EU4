@@ -1,5 +1,6 @@
 technology_group = tech_hill_dwarf
-government = dwarf_kingdom
+government = monarchy
+add_government_reform = hill_dwarf_government_form
 government_rank = 4
 primary_culture = aerie_peak
 religion = shamanism

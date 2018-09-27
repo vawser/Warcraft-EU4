@@ -93,3 +93,5 @@ is_crusader_state = {
         tag = KSH
     }
 }
+
+has_dharma_elephants_trigger = { always = no }

@@ -1,5 +1,6 @@
 technology_group = tech_quillboar
-government = quillboar_tribe
+government = tribal
+add_government_reform = quillboar_government_form
 primary_culture = bristleback
 religion = shamanism
 

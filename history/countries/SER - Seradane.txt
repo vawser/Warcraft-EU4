@@ -1,5 +1,6 @@
 technology_group = tech_green_dragonflight
-government = dragon_council
+government = monarchy
+add_government_reform = green_dragonflight_government_form
 primary_culture = seradane
 religion = dragon_aspects
 

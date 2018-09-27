@@ -1,5 +1,6 @@
 technology_group = tech_highmountain_tauren
-government = tauren_tribe
+government = tribal
+add_government_reform = highmountain_tauren_government_form
 primary_culture = ironhorn
 religion = earth_mother
 

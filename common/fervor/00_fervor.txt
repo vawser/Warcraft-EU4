@@ -6,10 +6,7 @@ fervor_trade = {
 	}
 	ai_will_do = {
 		factor = 1
-		modifier = {
-			factor = 1.25
-			government = republic
-		}
+
 		modifier = {
 			factor = 0.5
 			NOT = { trade_income_percentage = 0.1 }

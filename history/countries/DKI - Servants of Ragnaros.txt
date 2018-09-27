@@ -1,5 +1,6 @@
 technology_group = tech_dark_iron_dwarf
-government = dark_iron_kingdom
+government = monarchy
+add_government_reform = dark_iron_dwarf_government_form
 government_rank = 6
 primary_culture = dark_iron
 religion = fire

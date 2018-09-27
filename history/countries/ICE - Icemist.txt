@@ -1,5 +1,6 @@
 technology_group = tech_taunka
-government = taunka_tribe
+government = tribal
+add_government_reform = taunka_government_form
 primary_culture = icemist
 religion = shamanism
 

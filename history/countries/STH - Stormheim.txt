@@ -1,5 +1,6 @@
 technology_group = tech_vrykul
-government = vrykul_kingdom
+government = monarchy
+add_government_reform = vrykul_government_form
 primary_culture = stormheim
 religion = runic
 

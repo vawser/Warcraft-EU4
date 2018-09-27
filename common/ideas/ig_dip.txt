@@ -14,7 +14,7 @@ aristocracy_ideas = {
 	category = DIP
 	
 	trigger = {
-		NOT = { government = republic }
+		government = monarchy
 	}
 	
 	bonus = {
@@ -57,7 +57,7 @@ plutocracy_ideas = {
 	category = DIP
 	
 	trigger = {
-		government = republic
+		always = no
 	}
 	
 	bonus = {

@@ -1,5 +1,6 @@
 technology_group = tech_mogu
-government = despotic_empire
+government = monarchy
+add_government_reform = mogu_government_form
 primary_culture = mogu
 religion = fleshshaping
 

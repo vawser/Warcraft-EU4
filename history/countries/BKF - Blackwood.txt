@@ -1,5 +1,6 @@
 technology_group = tech_furbolg
-government = furbolg_tribe
+government = tribal
+add_government_reform = furbolg_government_form
 primary_culture = blackwood
 religion = shamanism
 

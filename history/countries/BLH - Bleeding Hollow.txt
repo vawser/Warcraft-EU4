@@ -1,5 +1,6 @@
 technology_group = tech_orc
-government = orc_clan
+government = monarchy
+add_government_reform = orc_government_form
 government_rank = 4
 primary_culture = bleeding_hollow
 religion = fel

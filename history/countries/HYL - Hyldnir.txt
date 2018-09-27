@@ -1,5 +1,6 @@
 technology_group = tech_frost_vrykul
-government = vrykul_kingdom
+government = monarchy
+add_government_reform = frost_vrykul_government_form
 primary_culture = hyldnir
 religion = runic
 

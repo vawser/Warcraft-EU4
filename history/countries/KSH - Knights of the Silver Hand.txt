@@ -1,5 +1,6 @@
 technology_group = tech_human
-government = holy_order
+government = theocracy
+add_government_reform = holy_order_government_form
 government_rank = 4
 primary_culture = lordaeron
 religion = the_holy_light

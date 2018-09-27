@@ -1,6 +1,6 @@
 pay_rep_tradition = {
 	trigger = {
-		government = republic
+		always = no
 	}
 	
 	effect = {

@@ -1,5 +1,6 @@
 technology_group = tech_orc
-government = orc_clan
+government = monarchy
+add_government_reform = orc_government_form
 government_rank = 3
 primary_culture = burning_blade
 religion = fel

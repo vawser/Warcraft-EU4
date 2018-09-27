@@ -5,7 +5,7 @@ internal_conflicts = {
 		NOT = {
 			has_country_flag = had_internal_conflicts
 		}
-        NOT = { is_tribal_government = yes }
+        NOT = { government = tribal }
 	}
 
 

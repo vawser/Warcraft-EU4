@@ -118,10 +118,6 @@ ai_militarist = {
 		}	
 		modifier = {
 			factor = 0.5
-			government = republic
-		}
-		modifier = {
-			factor = 0.5
 			NOT = { mil = 1 }
 		}			
 		modifier = {

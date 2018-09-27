@@ -1,7 +1,7 @@
 #------------------------------------
 # Monarchy
 #------------------------------------
-human_kingdom = {
+human_kingdom_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -49,7 +49,7 @@ human_kingdom = {
     ai = { factor = 0 }
 }
 
-dwarf_kingdom = {
+dwarf_kingdom_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -97,7 +97,7 @@ dwarf_kingdom = {
     ai = { factor = 0 }
 }
 
-dark_iron_kingdom = {
+dark_iron_kingdom_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -126,7 +126,7 @@ dark_iron_kingdom = {
     ai = { factor = 0 }
 }
 
-tolvir_kingdom = {
+tolvir_kingdom_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -154,7 +154,7 @@ tolvir_kingdom = {
     ai = { factor = 0 }
 }
 
-nerubian_kingdom = {
+nerubian_kingdom_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -186,7 +186,7 @@ nerubian_kingdom = {
     ai = { factor = 0 }
 }
 
-vrykul_kingdom = {
+vrykul_kingdom_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -214,7 +214,7 @@ vrykul_kingdom = {
     ai = { factor = 0 }
 }
 
-dragon_council = {
+dragon_council_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -245,7 +245,7 @@ dragon_council = {
     ai = { factor = 0 }
 }
 
-pandaren_commune = {
+pandaren_commune_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -276,7 +276,7 @@ pandaren_commune = {
     ai = { factor = 0 }
 }
 
-dryad_commune = {
+dryad_commune_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -307,7 +307,7 @@ dryad_commune = {
     ai = { factor = 0 }
 }
 
-jinyu_kingdom = {
+jinyu_kingdom_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -338,7 +338,69 @@ jinyu_kingdom = {
     ai = { factor = 0 }
 }
 
-technocracy = {
+arrakoa_kingdom_legacy = {
+	monarchy = yes
+    icon = "crown"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    queen = no
+    royal_marriage = no
+    
+    modifiers = {
+        technology_cost = -0.05
+    }
+    
+    conditional = {
+		allow = { 
+            has_dlc = "Cradle of Civilization"
+        }
+        
+		government_abilities = {
+			iqta_mechanic
+		}
+	}
+    
+    ai = { factor = 0 }
+}
+
+sethrak_kingdom_legacy = {
+	monarchy = yes
+    icon = "crown"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    queen = no
+    royal_marriage = no
+    
+    modifiers = {
+        recover_army_morale_speed = 0.05
+    }
+    
+    conditional = {
+		allow = { 
+            has_dlc = "Cradle of Civilization"
+        }
+        
+		government_abilities = {
+			iqta_mechanic
+		}
+	}
+    
+    ai = { factor = 0 }
+}
+
+technocracy_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -370,7 +432,7 @@ technocracy = {
     ai = { factor = 0 }
 }
 
-magocracy = {
+magocracy_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -402,7 +464,7 @@ magocracy = {
     ai = { factor = 0 }
 }
 
-forsaken_warband = {
+forsaken_warband_legacy = {
 	monarchy = yes
     icon = "king_2"
     
@@ -431,7 +493,7 @@ forsaken_warband = {
     ai = { factor = 0 }
 }
 
-scourge_warband = {
+scourge_warband_legacy = {
 	monarchy = yes
     icon = "king_2"
     
@@ -460,7 +522,7 @@ scourge_warband = {
     ai = { factor = 0 }
 }
 
-qiraji_hive = {
+qiraji_hive_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -493,7 +555,7 @@ qiraji_hive = {
     ai = { factor = 0 }
 }
 
-mantid_hive = {
+mantid_hive_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -526,7 +588,7 @@ mantid_hive = {
     ai = { factor = 0 }
 }
 
-mogu_clan = {
+mogu_clan_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -553,7 +615,7 @@ mogu_clan = {
     ai = { factor = 0 }
 }
 
-naga_clan = {
+naga_clan_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -580,7 +642,7 @@ naga_clan = {
     ai = { factor = 0 }
 }
 
-ogre_clan = {
+ogre_clan_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -607,7 +669,7 @@ ogre_clan = {
     ai = { factor = 0 }
 }
 
-orc_clan = {
+orc_clan_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -655,7 +717,7 @@ orc_clan = {
     ai = { factor = 0 }
 }
 
-troll_tribe = {
+troll_tribe_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -683,7 +745,7 @@ troll_tribe = {
     ai = { factor = 0 }
 }
 
-yaungol_tribe = {
+yaungol_tribe_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -711,7 +773,7 @@ yaungol_tribe = {
     ai = { factor = 0 }
 }
 
-saurok_tribe = {
+saurok_tribe_legacy = {
 	monarchy = yes
     icon = "crown"
     
@@ -742,7 +804,7 @@ saurok_tribe = {
 #------------------------------------
 # Dictatorship
 #------------------------------------
-trade_cartel = {
+trade_cartel_legacy = {
 	dictatorship = yes
     icon = "paper_money_map"
     
@@ -827,7 +889,92 @@ trade_cartel = {
     ai = { factor = 0 }
 }
 
-pirate_clan = {
+ethereal_cartel_legacy = {
+	dictatorship = yes
+    icon = "paper_money_map"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    queen = no
+    royal_marriage = no
+    boost_income = yes
+    
+    modifiers = {
+        global_trade_power = 0.1
+        merchants = 1
+    }
+    
+    conditional = {
+		allow = { 
+            has_dlc = "Cradle of Civilization"
+            NOT = { has_dlc = "Mare Nostrum" }
+            NOT = { has_dlc = "Res Publica" }
+        }
+        
+		government_abilities = {
+			iqta_mechanic
+		}
+	}
+    conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+            NOT = { has_dlc = "Cradle of Civilization" }
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Res Publica" }
+            NOT = { has_dlc = "Cradle of Civilization" }
+		}
+		can_form_trade_league = yes
+	}
+    conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+            has_dlc = "Cradle of Civilization"
+		}
+		can_use_trade_post = yes
+        government_abilities = {
+			iqta_mechanic
+		}
+	}
+    conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Res Publica" }
+            has_dlc = "Cradle of Civilization"
+		}
+		can_form_trade_league = yes
+        government_abilities = {
+			iqta_mechanic
+		}
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			has_dlc = "Mare Nostrum"
+            has_dlc = "Cradle of Civilization"
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+        government_abilities = {
+			iqta_mechanic
+		}
+	}
+    
+    ai = { factor = 0 }
+}
+
+pirate_clan_legacy = {
 	dictatorship = yes
     icon = "paper_money_map"
     
@@ -863,7 +1010,7 @@ pirate_clan = {
 #------------------------------------
 # Religion
 #------------------------------------
-night_elf_theocracy = {
+night_elf_theocracy_legacy = {
     religion = yes
     icon = "religious_leader"
     
@@ -913,7 +1060,7 @@ night_elf_theocracy = {
 	}
 }
 
-draenei_theocracy = {
+draenei_theocracy_legacy = {
     religion = yes
     icon = "religious_leader"
     
@@ -966,7 +1113,7 @@ draenei_theocracy = {
 #------------------------------------
 # Monastic
 #------------------------------------
-holy_order = {
+holy_order_legacy = {
     religion = yes
     monastic = yes
     icon = "reform_soldiers"
@@ -1020,7 +1167,7 @@ holy_order = {
 	}
 }
 
-night_elf_order = {
+night_elf_order_legacy = {
     religion = yes
     monastic = yes
     icon = "reform_soldiers"
@@ -1074,7 +1221,7 @@ night_elf_order = {
 	}
 }
 
-draenei_order = {
+draenei_order_legacy = {
     religion = yes
     monastic = yes
     icon = "reform_soldiers"
@@ -1128,7 +1275,7 @@ draenei_order = {
 	}
 }
 
-titan_order = {
+titan_order_legacy = {
     religion = yes
     monastic = yes
     icon = "reform_soldiers"
@@ -1181,7 +1328,219 @@ titan_order = {
 	}
 }
 
-earthen_order = {
+earthen_order_legacy = {
+    religion = yes
+    monastic = yes
+    icon = "reform_soldiers"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    different_religion_acceptance = -20
+	different_religion_group_acceptance = -50
+
+    queen = no
+    royal_marriage = no
+    
+    modifiers = {
+        fort_maintenance_modifier = -0.2
+    }
+    
+    conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+            NOT = { has_dlc = "Cradle of Civilization" }
+		}
+
+		has_devotion = yes
+	}
+    conditional = {
+		allow = { 
+            has_dlc = "Cradle of Civilization"
+            NOT = { has_dlc = "Common Sense" }
+        }
+        
+		government_abilities = {
+			iqta_mechanic
+		}
+	}
+    conditional = {
+		allow = {
+            has_dlc = "Common Sense"
+            has_dlc = "Cradle of Civilization"
+        }
+        
+        has_devotion = yes
+		government_abilities = {
+			iqta_mechanic
+		}
+	}
+}
+
+nraqi_cult_legacy = {
+    religion = yes
+    monastic = yes
+    icon = "reform_soldiers"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    different_religion_acceptance = -20
+	different_religion_group_acceptance = -50
+
+    queen = no
+    royal_marriage = no
+    
+    modifiers = {
+        fort_maintenance_modifier = -0.2
+    }
+    
+    conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+            NOT = { has_dlc = "Cradle of Civilization" }
+		}
+
+		has_devotion = yes
+	}
+    conditional = {
+		allow = { 
+            has_dlc = "Cradle of Civilization"
+            NOT = { has_dlc = "Common Sense" }
+        }
+        
+		government_abilities = {
+			iqta_mechanic
+		}
+	}
+    conditional = {
+		allow = {
+            has_dlc = "Common Sense"
+            has_dlc = "Cradle of Civilization"
+        }
+        
+        has_devotion = yes
+		government_abilities = {
+			iqta_mechanic
+		}
+	}
+}
+
+void_cult_legacy = {
+    religion = yes
+    monastic = yes
+    icon = "reform_soldiers"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    different_religion_acceptance = -20
+	different_religion_group_acceptance = -50
+
+    queen = no
+    royal_marriage = no
+    
+    modifiers = {
+        fort_maintenance_modifier = -0.2
+    }
+    
+    conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+            NOT = { has_dlc = "Cradle of Civilization" }
+		}
+
+		has_devotion = yes
+	}
+    conditional = {
+		allow = { 
+            has_dlc = "Cradle of Civilization"
+            NOT = { has_dlc = "Common Sense" }
+        }
+        
+		government_abilities = {
+			iqta_mechanic
+		}
+	}
+    conditional = {
+		allow = {
+            has_dlc = "Common Sense"
+            has_dlc = "Cradle of Civilization"
+        }
+        
+        has_devotion = yes
+		government_abilities = {
+			iqta_mechanic
+		}
+	}
+}
+
+demon_cult_legacy = {
+    religion = yes
+    monastic = yes
+    icon = "reform_soldiers"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    different_religion_acceptance = -20
+	different_religion_group_acceptance = -50
+
+    queen = no
+    royal_marriage = no
+    
+    modifiers = {
+        fort_maintenance_modifier = -0.2
+    }
+    
+    conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+            NOT = { has_dlc = "Cradle of Civilization" }
+		}
+
+		has_devotion = yes
+	}
+    conditional = {
+		allow = { 
+            has_dlc = "Cradle of Civilization"
+            NOT = { has_dlc = "Common Sense" }
+        }
+        
+		government_abilities = {
+			iqta_mechanic
+		}
+	}
+    conditional = {
+		allow = {
+            has_dlc = "Common Sense"
+            has_dlc = "Cradle of Civilization"
+        }
+        
+        has_devotion = yes
+		government_abilities = {
+			iqta_mechanic
+		}
+	}
+}
+
+arcane_cult_legacy = {
     religion = yes
     monastic = yes
     icon = "reform_soldiers"
@@ -1237,7 +1596,7 @@ earthen_order = {
 #------------------------------------
 # Tribal
 #------------------------------------
-tauren_tribe = {
+tauren_tribe_legacy = {
 	monarchy = yes
     tribal = yes
     icon = "tribal_council"
@@ -1271,7 +1630,7 @@ tauren_tribe = {
     ai = { factor = 0 }
 }
 
-taunka_tribe = {
+taunka_tribe_legacy = {
 	monarchy = yes
     tribal = yes
     icon = "tribal_council"
@@ -1305,7 +1664,7 @@ taunka_tribe = {
     ai = { factor = 0 }
 }
 
-tuskarr_tribe = {
+tuskarr_tribe_legacy = {
 	monarchy = yes
     tribal = yes
     icon = "tribal_council"
@@ -1339,7 +1698,7 @@ tuskarr_tribe = {
     ai = { factor = 0 }
 }
 
-furbolg_tribe = {
+furbolg_tribe_legacy = {
 	monarchy = yes
     tribal = yes
     icon = "tribal_council"
@@ -1372,7 +1731,7 @@ furbolg_tribe = {
     ai = { factor = 0 }
 }
 
-gnoll_tribe = {
+gnoll_tribe_legacy = {
 	monarchy = yes
     tribal = yes
     icon = "tribal_council"
@@ -1404,7 +1763,7 @@ gnoll_tribe = {
     ai = { factor = 0 }
 }
 
-gorloc_tribe = {
+gorloc_tribe_legacy = {
 	monarchy = yes
     tribal = yes
     icon = "tribal_council"
@@ -1436,7 +1795,7 @@ gorloc_tribe = {
     ai = { factor = 0 }
 }
 
-harpy_tribe = {
+harpy_tribe_legacy = {
 	monarchy = yes
     tribal = yes
     icon = "tribal_council"
@@ -1468,7 +1827,7 @@ harpy_tribe = {
     ai = { factor = 0 }
 }
 
-hozen_tribe = {
+hozen_tribe_legacy = {
 	monarchy = yes
     tribal = yes
     icon = "tribal_council"
@@ -1500,7 +1859,7 @@ hozen_tribe = {
     ai = { factor = 0 }
 }
 
-kobold_tribe = {
+kobold_tribe_legacy = {
 	monarchy = yes
     tribal = yes
     icon = "tribal_council"
@@ -1532,7 +1891,7 @@ kobold_tribe = {
     ai = { factor = 0 }
 }
 
-magnataur_tribe = {
+magnataur_tribe_legacy = {
 	monarchy = yes
     tribal = yes
     icon = "tribal_council"
@@ -1564,7 +1923,7 @@ magnataur_tribe = {
     ai = { factor = 0 }
 }
 
-murloc_tribe = {
+murloc_tribe_legacy = {
 	monarchy = yes
     tribal = yes
     icon = "tribal_council"
@@ -1596,7 +1955,7 @@ murloc_tribe = {
     ai = { factor = 0 }
 }
 
-pygmy_tribe = {
+pygmy_tribe_legacy = {
 	monarchy = yes
     tribal = yes
     icon = "tribal_council"
@@ -1628,7 +1987,7 @@ pygmy_tribe = {
     ai = { factor = 0 }
 }
 
-quillboar_tribe = {
+quillboar_tribe_legacy = {
 	monarchy = yes
     tribal = yes
     icon = "tribal_council"
@@ -1660,7 +2019,7 @@ quillboar_tribe = {
     ai = { factor = 0 }
 }
 
-spriteling_tribe = {
+spriteling_tribe_legacy = {
 	monarchy = yes
     tribal = yes
     icon = "tribal_council"
@@ -1692,7 +2051,7 @@ spriteling_tribe = {
     ai = { factor = 0 }
 }
 
-wolvar_tribe = {
+wolvar_tribe_legacy = {
 	monarchy = yes
     tribal = yes
     icon = "tribal_council"
@@ -1724,7 +2083,301 @@ wolvar_tribe = {
     ai = { factor = 0 }
 }
 
-trogg_tribe = {
+trogg_tribe_legacy = {
+	monarchy = yes
+    tribal = yes
+    icon = "tribal_council"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+    modifiers = {
+        war_exhaustion_cost = -0.2
+    }
+    
+    conditional = {
+		allow = { 
+            has_dlc = "Cradle of Civilization"
+        }
+        
+		government_abilities = {
+			tribal_federation_mechanic
+		}
+	}
+    
+    ai = { factor = 0 }
+}
+
+broken_tribe_legacy = {
+	monarchy = yes
+    tribal = yes
+    icon = "tribal_council"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+    modifiers = {
+        global_unrest = -1
+    }
+    
+    conditional = {
+		allow = { 
+            has_dlc = "Cradle of Civilization"
+        }
+        
+		government_abilities = {
+			tribal_federation_mechanic
+		}
+	}
+    
+    ai = { factor = 0 }
+}
+
+grummle_tribe_legacy = {
+	monarchy = yes
+    tribal = yes
+    icon = "tribal_council"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+    modifiers = {
+        global_trade_power = 0.1
+    }
+    
+    conditional = {
+		allow = { 
+            has_dlc = "Cradle of Civilization"
+        }
+        
+		government_abilities = {
+			tribal_federation_mechanic
+		}
+	}
+    
+    ai = { factor = 0 }
+}
+
+frost_giant_tribe_legacy = {
+	monarchy = yes
+    tribal = yes
+    icon = "tribal_council"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+    modifiers = {
+        hostile_attrition = 1
+    }
+    
+    ai = { factor = 0 }
+}
+
+sea_giant_tribe_legacy = {
+	monarchy = yes
+    tribal = yes
+    icon = "tribal_council"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+    modifiers = {
+        hostile_attrition = 1
+    }
+    
+    ai = { factor = 0 }
+}
+
+drogbar_tribe_legacy = {
+	monarchy = yes
+    tribal = yes
+    icon = "tribal_council"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+    modifiers = {
+        siege_ability = 0.05
+    }
+    
+    ai = { factor = 0 }
+}
+
+fungarian_tribe_legacy = {
+	monarchy = yes
+    tribal = yes
+    icon = "tribal_council"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+    modifiers = {
+        land_forcelimit_modifier = 0.1
+    }
+    
+    ai = { factor = 0 }
+}
+
+botani_tribe_legacy = {
+	monarchy = yes
+    tribal = yes
+    icon = "tribal_council"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+    modifiers = {
+        global_regiment_recruit_speed = -0.25
+    }
+    
+    ai = { factor = 0 }
+}
+
+podling_tribe_legacy = {
+	monarchy = yes
+    tribal = yes
+    icon = "tribal_council"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+    modifiers = {
+        global_regiment_cost = -0.15
+    }
+    
+    ai = { factor = 0 }
+}
+
+sporeling_tribe_legacy = {
+	monarchy = yes
+    tribal = yes
+    icon = "tribal_council"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+    modifiers = {
+        global_regiment_cost = -0.15
+    }
+    
+    ai = { factor = 0 }
+}
+
+saberon_tribe_legacy = {
+	monarchy = yes
+    tribal = yes
+    icon = "tribal_council"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+    modifiers = {
+        shock_damage = 0.05
+    }
+    
+    ai = { factor = 0 }
+}
+
+tortollan_tribe_legacy = {
+	monarchy = yes
+    tribal = yes
+    icon = "tribal_council"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+    modifiers = {
+        advisor_cost = -0.33
+    }
+    
+    ai = { factor = 0 }
+}
+
+virmen_tribe_legacy = {
 	monarchy = yes
     tribal = yes
     icon = "tribal_council"
@@ -1743,15 +2396,27 @@ trogg_tribe = {
         global_manpower_modifier = 0.15
     }
     
-    conditional = {
-		allow = { 
-            has_dlc = "Cradle of Civilization"
-        }
-        
-		government_abilities = {
-			tribal_federation_mechanic
-		}
-	}
+    ai = { factor = 0 }
+}
+
+vulpera_tribe_legacy = {
+	monarchy = yes
+    tribal = yes
+    icon = "tribal_council"
+    
+	valid_for_new_country = no
+	allow_normal_conversion = no
+	legacy_government = yes
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+    native_mechanic = yes
+	allow_migration = yes
+    
+    modifiers = {
+        land_morale = 0.1
+    }
     
     ai = { factor = 0 }
 }
@@ -1759,7 +2424,7 @@ trogg_tribe = {
 #------------------------------------
 # Nomad
 #------------------------------------
-centaur_clan = {
+centaur_clan_legacy = {
 	nomad = yes
     tribal = yes
     icon = "tribal_council"
@@ -1790,7 +2455,7 @@ centaur_clan = {
     ai = { factor = 0 }
 }
 
-satyr_clan = {
+satyr_clan_legacy = {
 	nomad = yes
     tribal = yes
     icon = "tribal_council"
@@ -1824,7 +2489,7 @@ satyr_clan = {
 #------------------------------------
 # Colonial
 #------------------------------------
-colonial_government = {
+colonial_government_legacy = {
     republic = yes
 	icon = "peasants"
     

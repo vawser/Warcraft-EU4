@@ -1,5 +1,6 @@
 technology_group = tech_satyr
-government = satyr_clan
+government = nomadic
+add_government_reform = satyr_government_form
 primary_culture = legashi
 religion = fel
 

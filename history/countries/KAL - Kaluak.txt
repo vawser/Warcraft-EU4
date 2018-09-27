@@ -1,5 +1,6 @@
 technology_group = tech_tuskarr
-government = tuskarr_tribe
+government = tribal
+add_government_reform = tuskarr_government_form
 primary_culture = kaluak
 religion = shamanism
 

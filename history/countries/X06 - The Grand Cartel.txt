@@ -1,5 +1,6 @@
 technology_group = tech_goblin
-government = bureaucratic_empire
+government = monarchy
+add_government_reform = goblin_government_form
 primary_culture = goblin
 religion = avarice
 

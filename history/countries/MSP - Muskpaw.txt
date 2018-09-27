@@ -1,5 +1,6 @@
 technology_group = tech_pandaren
-government = pandaren_commune
+government = monarchy
+add_government_reform = pandaren_government_form
 primary_culture = muskpaw
 religion = celestials
 

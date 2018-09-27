@@ -1,5 +1,6 @@
 technology_group = tech_hozen
-government = hozen_tribe
+government = tribal
+add_government_reform = hozen_government_form
 primary_culture = ookin
 religion = celestials
 

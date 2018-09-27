@@ -1,0 +1,356 @@
+#--------------------------------------------
+# Monarchy
+#--------------------------------------------
+monarchy = {
+    color = { 179 25 25 }
+    
+    basic_reform = monarchy_mechanic
+    
+    reform_levels = {
+        government_form = {
+			reforms = {
+                human_government_form
+                dwarf_government_form
+                dark_iron_dwarf_government_form
+                hill_dwarf_government_form
+                tolvir_government_form
+                nerubian_government_form
+                vrykul_government_form
+                frost_vrykul_government_form
+                kvaldir_government_form
+                red_dragonflight_government_form
+                green_dragonflight_government_form
+                black_dragonflight_government_form
+                blue_dragonflight_government_form
+                bronze_dragonflight_government_form
+                pandaren_government_form
+                dryad_government_form
+                frost_nymph_government_form
+                crystal_nymph_government_form
+                jinyu_government_form
+                arrakoa_government_form
+                sethrak_government_form
+                gnome_government_form
+                high_elf_government_form
+                blood_elf_government_form
+                nightborne_government_form
+                undead_government_form
+                scourge_government_form
+                qiraji_government_form
+                mantid_government_form
+                mogu_government_form
+                naga_government_form
+                ogre_government_form
+                orc_government_form
+                pale_orc_government_form
+                fel_orc_government_form
+                zandalari_troll_government_form
+                jungle_troll_government_form
+                forest_troll_government_form
+                sand_troll_government_form
+                frost_troll_government_form
+                blood_troll_government_form
+                dark_troll_government_form
+                yaungol_government_form
+                saurok_government_form
+                goblin_government_form
+                ethereal_government_form
+                pirate_government_form
+			}
+		}
+    }
+    
+    legacy_government = {
+        human_kingdom_legacy
+        dwarf_kingdom_legacy
+        dark_iron_kingdom_legacy
+        tolvir_kingdom_legacy
+        nerubian_kingdom_legacy
+        vrykul_kingdom_legacy
+        dragon_council_legacy
+        pandaren_commune_legacy
+        dryad_commune_legacy
+        jinyu_kingdom_legacy
+        arrakoa_kingdom_legacy
+        sethrak_kingdom_legacy
+        technocracy_legacy
+        magocracy_legacy
+        forsaken_warband_legacy
+        scourge_warband_legacy
+        qiraji_hive_legacy
+        mantid_hive_legacy
+        mogu_clan_legacy
+        naga_clan_legacy
+        ogre_clan_legacy
+        orc_clan_legacy
+        troll_tribe_legacy
+        yaungol_tribe_legacy
+        saurok_tribe_legacy
+        trade_cartel_legacy
+        ethereal_cartel_legacy
+        pirate_clan_legacy
+        
+    }
+    
+    exclusive_reforms = {
+        human_government_form
+        dwarf_government_form
+		dark_iron_dwarf_government_form
+		hill_dwarf_government_form
+		tolvir_government_form
+		nerubian_government_form
+		vrykul_government_form
+		frost_vrykul_government_form
+		kvaldir_government_form
+		red_dragonflight_government_form
+		green_dragonflight_government_form
+		black_dragonflight_government_form
+		blue_dragonflight_government_form
+		bronze_dragonflight_government_form
+		pandaren_government_form
+		dryad_government_form
+		frost_nymph_government_form
+		crystal_nymph_government_form
+		jinyu_government_form
+		arrakoa_government_form
+		sethrak_government_form
+		gnome_government_form
+		high_elf_government_form
+		blood_elf_government_form
+		nightborne_government_form
+		undead_government_form
+		scourge_government_form
+		qiraji_government_form
+		mantid_government_form
+		mogu_government_form
+		naga_government_form
+		ogre_government_form
+		orc_government_form
+		pale_orc_government_form
+		fel_orc_government_form
+		zandalari_troll_government_form
+		jungle_troll_government_form
+		forest_troll_government_form
+		sand_troll_government_form
+		frost_troll_government_form
+		blood_troll_government_form
+		dark_troll_government_form
+		yaungol_government_form
+		saurok_government_form
+		goblin_government_form
+		ethereal_government_form
+		pirate_government_form
+    }
+}
+
+#--------------------------------------------
+# Theocracy
+#--------------------------------------------
+theocracy = {
+    color = { 179 25 25 }
+    
+    basic_reform = theocracy_mechanic
+    
+    reform_levels = {
+        government_form = {
+			reforms = {
+				night_elf_government_form
+                draenei_government_form
+                holy_order_government_form
+                night_elf_order_government_form
+                draenei_order_government_form
+                titan_government_form
+                frost_dwarf_government_form
+                earthen_government_form
+                nraqi_government_form
+                void_government_form
+                demon_government_form
+                ulduar_government_form
+                faldorei_government_form
+                nightfallen_government_form
+                felblood_government_form
+                felborne_government_form
+                void_elf_government_form
+                wretched_government_form
+                lost_one_government_form
+			}
+		}
+    }
+    
+    legacy_government = {
+        night_elf_theocracy_legacy
+        draenei_theocracy_legacy
+        holy_order_legacy
+        night_elf_order_legacy
+        draenei_order_legacy
+        titan_order_legacy
+        earthen_order_legacy
+        nraqi_cult_legacy
+        void_cult_legacy
+        demon_cult_legacy
+        arcane_cult_legacy
+        
+    }
+    
+    exclusive_reforms = {
+        night_elf_government_form
+        draenei_government_form
+        holy_order_government_form
+        night_elf_order_government_form
+        draenei_order_government_form
+        titan_government_form
+        frost_dwarf_government_form
+        earthen_government_form
+        nraqi_government_form
+        void_government_form
+        demon_government_form
+        ulduar_government_form
+        faldorei_government_form
+        nightfallen_government_form
+        felblood_government_form
+        felborne_government_form
+        void_elf_government_form
+        wretched_government_form
+        lost_one_government_form
+    }
+}
+
+#--------------------------------------------
+# Tribal
+#--------------------------------------------
+tribal = {
+    color = { 179 25 25 }
+    
+    basic_reform = tribal_mechanic
+    
+    reform_levels = {
+        government_form = {
+			reforms = {
+				tauren_government_form
+                highmountain_tauren_government_form
+                taunka_government_form
+                tuskarr_government_form
+                furbolg_government_form
+                gnoll_government_form
+                gorloc_government_form
+                harpy_government_form
+                hozen_government_form
+                kobold_government_form
+                magnataur_government_form
+                murloc_government_form
+                pygmy_government_form
+                quillboar_government_form
+                spriteling_government_form
+                wolvar_government_form
+                trogg_government_form
+                broken_government_form
+                grummle_government_form
+                frost_giant_government_form
+                sea_giant_government_form
+                drogbar_government_form
+                fungarian_government_form
+                botani_government_form
+                podling_government_form
+                sporeling_government_form
+                saberon_government_form
+                tortollan_government_form
+                virmen_government_form
+                vulpera_government_form
+			}
+		}
+    }
+    
+    legacy_government = {
+        tauren_tribe_legacy
+        taunka_tribe_legacy
+        tuskarr_tribe_legacy
+        furbolg_tribe_legacy
+        gnoll_tribe_legacy
+        gorloc_tribe_legacy
+        harpy_tribe_legacy
+        hozen_tribe_legacy
+        kobold_tribe_legacy
+        magnataur_tribe_legacy
+        murloc_tribe_legacy
+        pygmy_tribe_legacy
+        quillboar_tribe_legacy
+        spriteling_tribe_legacy
+        wolvar_tribe_legacy
+        trogg_tribe_legacy
+        broken_tribe_legacy
+        grummle_tribe_legacy
+        frost_giant_tribe_legacy
+        sea_giant_tribe_legacy
+        drogbar_tribe_legacy
+        fungarian_tribe_legacy
+        botani_tribe_legacy
+        podling_tribe_legacy
+        sporeling_tribe_legacy
+        saberon_tribe_legacy
+        tortollan_tribe_legacy
+        virmen_tribe_legacy
+        vulpera_tribe_legacy
+    }
+    
+    exclusive_reforms = {
+        tauren_government_form
+        highmountain_tauren_government_form
+        taunka_government_form
+        tuskarr_government_form
+        furbolg_government_form
+        gnoll_government_form
+        gorloc_government_form
+        harpy_government_form
+        hozen_government_form
+        kobold_government_form
+        magnataur_government_form
+        murloc_government_form
+        pygmy_government_form
+        quillboar_government_form
+        spriteling_government_form
+        wolvar_government_form
+        trogg_government_form
+        broken_government_form
+        grummle_government_form
+        frost_giant_government_form
+        sea_giant_government_form
+        drogbar_government_form
+        fungarian_government_form
+        botani_government_form
+        podling_government_form
+        sporeling_government_form
+        saberon_government_form
+        tortollan_government_form
+        virmen_government_form
+        vulpera_government_form
+    }
+}
+
+#--------------------------------------------
+# Nomadic
+#--------------------------------------------
+nomadic = {
+    color = { 179 25 25 }
+    
+    basic_reform = nomadic_mechanic
+    
+    reform_levels = {
+        government_form = {
+			reforms = {
+				centaur_government_form
+                satyr_government_form
+			}
+		}
+    }
+    
+    legacy_government = {
+        centaur_clan_legacy
+        satyr_clan_legacy
+    }
+    
+    exclusive_reforms = {
+        centaur_government_form
+        satyr_government_form
+    }
+}
+

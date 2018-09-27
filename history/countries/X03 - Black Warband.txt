@@ -1,5 +1,6 @@
 technology_group = tech_centaur
-government = despotic_empire
+government = nomadic
+add_government_reform = centaur_government_form
 primary_culture = centaur
 religion = shamanism
 

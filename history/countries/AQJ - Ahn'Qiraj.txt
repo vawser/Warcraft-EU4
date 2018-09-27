@@ -1,5 +1,6 @@
 technology_group = tech_qiraji
-government = qiraji_hive
+government = monarchy
+add_government_reform = qiraji_government_form
 government_rank = 10
 primary_culture = ahn_qiraj
 religion = cthun

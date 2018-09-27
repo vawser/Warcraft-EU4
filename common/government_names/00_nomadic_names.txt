@@ -1,0 +1,199 @@
+gov_satyr_clan = {
+	rank = {
+		1 = SATYR_WARBAND
+		2 = SATYR_WARBAND
+		3 = SATYR_WARBAND
+		4 = SATYR_WARBAND
+		5 = SATYR_WARBAND
+		6 = SATYR_WARBAND
+		7 = SATYR_WARBAND
+		8 = SATYR_WARBAND
+		9 = SATYR_WARBAND
+		10 = SATYR_WARBAND
+	}
+
+	ruler_male = {
+		1 = WARLORD
+		2 = WARLORD
+		3 = WARLORD
+		4 = WARLORD
+		5 = WARLORD
+		6 = WARLORD
+		7 = WARLORD
+		8 = WARLORD
+		9 = WARLORD
+		10 = WARLORD
+	}
+
+	ruler_female = {
+		1 = WARLORD
+		2 = WARLORD
+		3 = WARLORD
+		4 = WARLORD
+		5 = WARLORD
+		6 = WARLORD
+		7 = WARLORD
+		8 = WARLORD
+		9 = WARLORD
+		10 = WARLORD
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = satyr_government_form
+            has_reform = satyr_clan_legacy
+        }
+	}
+}
+gov_centaur_clan = {
+	rank = {
+		1 = CENTAUR_WARBAND
+		2 = CENTAUR_WARBAND
+		3 = CENTAUR_WARBAND
+		4 = CENTAUR_WARBAND
+		5 = CENTAUR_WARBAND
+		6 = CENTAUR_WARBAND
+		7 = CENTAUR_WARBAND
+		8 = CENTAUR_WARBAND
+		9 = CENTAUR_WARBAND
+		10 = CENTAUR_WARBAND
+	}
+
+	ruler_male = {
+		1 = KHAN
+		2 = KHAN
+		3 = KHAN
+		4 = KHAN
+		5 = KHAN
+		6 = KHAN
+		7 = KHAN
+		8 = KHAN
+		9 = KHAN
+		10 = KHAN
+	}
+
+	ruler_female = {
+		1 = KHANUM
+		2 = KHANUM
+		3 = KHANUM
+		4 = KHANUM
+		5 = KHANUM
+		6 = KHANUM
+		7 = KHANUM
+		8 = KHANUM
+		9 = KHANUM
+		10 = KHANUM
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = centaur_government_form
+            has_reform = centaur_clan_legacy
+        }
+	}
+}
+

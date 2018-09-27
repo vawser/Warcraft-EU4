@@ -1,5 +1,6 @@
 technology_group = tech_dryad
-government = religious_empire
+government = monarchy
+add_government_reform = dryad_government_form
 primary_culture = dryad
 religion = druidism
 

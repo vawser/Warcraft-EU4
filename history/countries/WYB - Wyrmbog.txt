@@ -1,5 +1,6 @@
 technology_group = tech_black_dragonflight
-government = dragon_council
+government = monarchy
+add_government_reform = black_dragonflight_government_form
 primary_culture = wyrmbog
 religion = dragon_aspects
 

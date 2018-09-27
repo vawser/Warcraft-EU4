@@ -1,5 +1,6 @@
 technology_group = tech_tauren
-government = tauren_tribe
+government = tribal
+add_government_reform = tauren_government_form
 primary_culture = runetotem
 religion = earth_mother
 

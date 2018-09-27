@@ -1,5 +1,6 @@
 technology_group = tech_spriteling
-government = spriteling_tribe
+government = tribal
+add_government_reform = spriteling_government_form
 primary_culture = darkwood
 religion = druidism
 

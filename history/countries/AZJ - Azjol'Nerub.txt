@@ -1,5 +1,6 @@
 technology_group = tech_nerubian
-government = nerubian_kingdom
+government = monarchy
+add_government_reform = nerubian_government_form
 government_rank = 8
 primary_culture = azjol_nerub
 religion = yogg_saron

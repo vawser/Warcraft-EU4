@@ -52,26 +52,12 @@ pretender_rebels = {
 			is_overseas = yes
 		}
 		modifier = {
-			factor = 2
-			owner = {
-				government = republic
-				aristocracy_ideas = 1
-			}
-		}
-		modifier = {
 			factor = 20
 			owner = {
 				has_disaster = civil_war
 				#has_disaster = counts_feud
 			}
 		}
-		modifier = {
-			factor = 5.0
-			owner = {
-				government = republic
-				NOT = { republican_tradition = 40 }
-			}
-		}	
 		modifier = {
 			factor = 30
 			owner = {

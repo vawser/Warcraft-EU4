@@ -1,5 +1,6 @@
 technology_group = tech_pygmy
-government = pygmy_tribe
+government = tribal
+add_government_reform = pygmy_government_form
 primary_culture = oomlot
 religion = shamanism
 

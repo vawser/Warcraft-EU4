@@ -8,10 +8,39 @@ ahead_of_time = {
 # 0
 technology = {
 	year = 686
+    
+    tauren_tribe_legacy = yes
+	taunka_tribe_legacy = yes
+	tuskarr_tribe_legacy = yes
+	furbolg_tribe_legacy = yes
+	gnoll_tribe_legacy = yes
+	gorloc_tribe_legacy = yes
+	harpy_tribe_legacy = yes
+	hozen_tribe_legacy = yes
+	kobold_tribe_legacy = yes
+	magnataur_tribe_legacy = yes
+	murloc_tribe_legacy = yes
+	pygmy_tribe_legacy = yes
+	quillboar_tribe_legacy = yes
+	spriteling_tribe_legacy = yes
+	wolvar_tribe_legacy = yes
+	trogg_tribe_legacy = yes
+	broken_tribe_legacy = yes
+	grummle_tribe_legacy = yes
+	frost_giant_tribe_legacy = yes
+	sea_giant_tribe_legacy = yes
+	drogbar_tribe_legacy = yes
+	fungarian_tribe_legacy = yes
+	botani_tribe_legacy = yes
+	podling_tribe_legacy = yes
+	sporeling_tribe_legacy = yes
+	saberon_tribe_legacy = yes
+	tortollan_tribe_legacy = yes
+	virmen_tribe_legacy = yes
+	vulpera_tribe_legacy = yes
 	
-    religious_tribe = yes
-    mercantile_tribe = yes
-    war_tribe = yes
+    centaur_clan_legacy = yes
+	satyr_clan_legacy = yes
 }
 # 1
 technology = {
@@ -22,11 +51,35 @@ technology = {
 # 2
 technology = {
 	year = 756
-
-    administrative_kingdom = yes
-    administrative_republic = yes
-    administrative_theocracy = yes
-    administrative_order = yes	
+    
+    human_kingdom_legacy = yes
+	dwarf_kingdom_legacy = yes
+	dark_iron_kingdom_legacy = yes
+	tolvir_kingdom_legacy = yes
+	nerubian_kingdom_legacy = yes
+	vrykul_kingdom_legacy = yes
+	dragon_council_legacy = yes
+	pandaren_commune_legacy = yes
+	dryad_commune_legacy = yes
+	jinyu_kingdom_legacy = yes
+	arrakoa_kingdom_legacy = yes
+	sethrak_kingdom_legacy = yes
+	technocracy_legacy = yes
+	magocracy_legacy = yes
+	forsaken_warband_legacy = yes
+	scourge_warband_legacy = yes
+	qiraji_hive_legacy = yes
+	mantid_hive_legacy = yes
+	mogu_clan_legacy = yes
+	naga_clan_legacy = yes
+	ogre_clan_legacy = yes
+	orc_clan_legacy = yes
+	troll_tribe_legacy = yes
+	yaungol_tribe_legacy = yes
+	saurok_tribe_legacy = yes
+	trade_cartel_legacy = yes
+	ethereal_cartel_legacy = yes
+	pirate_clan_legacy = yes
 }
 # 3
 technology = {
@@ -80,10 +133,17 @@ technology = {
 	
 	allowed_idea_groups = 3
 
-    mercantile_kingdom = yes
-    mercantile_republic = yes
-    mercantile_theocracy = yes
-    mercantile_order = yes
+    night_elf_theocracy_legacy = yes
+	draenei_theocracy_legacy = yes
+	holy_order_legacy = yes
+	night_elf_order_legacy = yes
+	draenei_order_legacy = yes
+	titan_order_legacy = yes
+	earthen_order_legacy = yes
+	nraqi_cult_legacy = yes
+	void_cult_legacy = yes
+	demon_cult_legacy = yes
+	arcane_cult_legacy = yes
 }
 # 11
 technology = {
@@ -101,11 +161,6 @@ technology = {
 technology = {
 	year = 906
 	
-    militaristic_kingdom = yes
-    militaristic_republic = yes
-    militaristic_theocracy = yes
-    militaristic_order = yes
-    
 	production_efficiency = 0.05
 }
 # 14

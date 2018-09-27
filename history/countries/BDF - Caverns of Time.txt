@@ -1,5 +1,6 @@
 technology_group = tech_bronze_dragonflight
-government = dragon_council
+government = monarchy
+add_government_reform = bronze_dragonflight_government_form
 primary_culture = caverns_of_time
 religion = dragon_aspects
 

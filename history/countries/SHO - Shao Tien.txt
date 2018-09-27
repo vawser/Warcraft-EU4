@@ -1,5 +1,6 @@
 technology_group = tech_mogu
-government = mogu_clan
+government = monarchy
+add_government_reform = mogu_government_form
 primary_culture = shao_tien
 religion = fleshshaping
 

@@ -1,5 +1,6 @@
 technology_group = tech_harpy
-government = harpy_tribe
+government = tribal
+add_government_reform = harpy_government_form
 primary_culture = coldwind
 religion = wind
 

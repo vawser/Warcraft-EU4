@@ -1,5 +1,6 @@
 technology_group = tech_red_dragonflight
-government = dragon_council
+government = monarchy
+add_government_reform = red_dragonflight_government_form
 primary_culture = grim_batol
 religion = dragon_aspects
 

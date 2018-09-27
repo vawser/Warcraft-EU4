@@ -1,5 +1,6 @@
 technology_group = tech_night_elf
-government = night_elf_order
+government = theocracy
+add_government_reform = night_elf_order_government_form
 government_rank = 2
 primary_culture = cenarion_expedition
 religion = elune

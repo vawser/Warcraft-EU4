@@ -1,5 +1,6 @@
 technology_group = tech_jungle_troll
-government = troll_tribe
+government = monarchy
+add_government_reform = jungle_troll_government_form
 primary_culture = shatterspear
 religion = voodoo
 

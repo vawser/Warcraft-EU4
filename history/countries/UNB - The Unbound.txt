@@ -1,5 +1,6 @@
 technology_group = tech_crystal_nymph
-government = dryad_commune
+government = monarchy
+add_government_reform = crystal_nymph_government_form
 primary_culture = the_unbound
 religion = arcane
 

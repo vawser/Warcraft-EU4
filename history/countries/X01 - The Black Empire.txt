@@ -1,5 +1,6 @@
 technology_group = tech_qiraji
-government = despotic_empire
+government = monarchy
+add_government_reform = qiraji_government_form
 primary_culture = qiraji
 religion = cthun
 

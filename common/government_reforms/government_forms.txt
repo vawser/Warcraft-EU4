@@ -1,0 +1,1877 @@
+#--------------------------------------------
+# Monarchy
+#--------------------------------------------
+human_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_human
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = human_kingdom_legacy
+}
+
+dwarf_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_dwarf
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = dwarf_kingdom_legacy
+}
+
+dark_iron_dwarf_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_dark_iron_dwarf
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = dark_iron_kingdom_legacy
+}
+
+hill_dwarf_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_hill_dwarf
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = dwarf_kingdom_legacy
+}
+
+tolvir_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_tolvir
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = tolvir_kingdom_legacy
+}
+
+nerubian_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_nerubian
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = nerubian_kingdom_legacy
+}
+
+vrykul_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_vrykul
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = vrykul_kingdom_legacy
+}
+
+frost_vrykul_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_frost_vrykul
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = vrykul_kingdom_legacy
+}
+
+kvaldir_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_kvaldir
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = vrykul_kingdom_legacy
+}
+
+red_dragonflight_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_red_dragonflight
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = dragon_council_legacy
+}
+
+green_dragonflight_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_green_dragonflight
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = dragon_council_legacy
+}
+
+black_dragonflight_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_black_dragonflight
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = dragon_council_legacy
+}
+
+blue_dragonflight_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_blue_dragonflight
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = dragon_council_legacy
+}
+
+bronze_dragonflight_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_bronze_dragonflight
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = dragon_council_legacy
+}
+
+pandaren_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_pandaren
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = pandaren_commune_legacy
+}
+
+dryad_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_dryad
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = dryad_commune_legacy
+}
+
+frost_nymph_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_frost_nymph
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = dryad_commune_legacy
+}
+
+crystal_nymph_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_crystal_nymph
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = dryad_commune_legacy
+}
+
+jinyu_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_jinyu
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = jinyu_kingdom_legacy
+}
+
+arrakoa_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_arrakoa
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = arrakoa_kingdom_legacy
+}
+
+sethrak_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_sethrak
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = sethrak_kingdom_legacy
+}
+
+gnome_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_gnome
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = technocracy_legacy
+}
+
+high_elf_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_high_elf
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = magocracy_legacy
+}
+
+blood_elf_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_blood_elf
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = magocracy_legacy
+}
+
+nightborne_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_nightborne
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = magocracy_legacy
+}
+
+undead_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_undead
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = forsaken_warband_legacy
+}
+
+scourge_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_scourge
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = scourge_warband_legacy
+}
+
+qiraji_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_qiraji
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = qiraji_hive_legacy
+}
+
+mantid_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_mantid
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = mantid_hive_legacy
+}
+
+mogu_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_mogu
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = mogu_clan_legacy
+}
+
+naga_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_naga
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = naga_clan_legacy
+}
+
+ogre_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_ogre
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = ogre_clan_legacy
+}
+
+orc_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_orc
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = orc_clan_legacy
+}
+
+pale_orc_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_pale_orc
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = orc_clan_legacy
+}
+
+fel_orc_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_fel_orc
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = orc_clan_legacy
+}
+
+zandalari_troll_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_zandalari_troll
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = troll_tribe_legacy
+}
+
+jungle_troll_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_jungle_troll
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = troll_tribe_legacy
+}
+
+forest_troll_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_forest_troll
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = troll_tribe_legacy
+}
+
+sand_troll_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_sand_troll
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = troll_tribe_legacy
+}
+
+frost_troll_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_frost_troll
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = troll_tribe_legacy
+}
+
+blood_troll_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_blood_troll
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = troll_tribe_legacy
+}
+
+dark_troll_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_dark_troll
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = troll_tribe_legacy
+}
+
+yaungol_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_yaungol
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = yaungol_tribe_legacy
+}
+
+saurok_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_saurok
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = saurok_tribe_legacy
+}
+
+goblin_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_goblin
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = trade_cartel_legacy
+}
+
+ethereal_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_ethereal
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = ethereal_cartel_legacy
+}
+
+pirate_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        OR = {
+            tag = BLO
+            tag = SSP
+            tag = WWP
+        }
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = pirate_clan_legacy
+}
+
+#------------------------------------
+# Religion
+#------------------------------------
+night_elf_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_night_elf
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = night_elf_theocracy_legacy
+}
+
+draenei_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_draenei
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = draenei_theocracy_legacy
+}
+
+holy_order_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        always = no
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = holy_order_legacy
+}
+
+night_elf_order_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        always = no
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = night_elf_order_legacy
+}
+
+draenei_order_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        always = no
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = draenei_order_legacy
+}
+
+titan_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_titan
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = titan_order_legacy
+}
+
+frost_dwarf_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_frost_dwarf
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = titan_order_legacy
+}
+
+earthen_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_earthen
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = earthen_order_legacy
+}
+
+nraqi_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_nraqi
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = nraqi_cult_legacy
+}
+
+void_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_void
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = void_cult_legacy
+}
+
+demon_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_demon
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = demon_cult_legacy
+}
+
+ulduar_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_ulduar
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = titan_order_legacy
+}
+
+faldorei_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_faldorei
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = arcane_cult_legacy
+}
+
+nightfallen_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_nightfallen
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = arcane_cult_legacy
+}
+
+felblood_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_felblood
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = demon_cult_legacy
+}
+
+felborne_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_felborne
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = demon_cult_legacy
+}
+
+void_elf_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_void_elf
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = void_cult_legacy
+}
+
+wretched_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_wretched
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = arcane_cult_legacy
+}
+
+lost_one_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_lost_one
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = void_cult_legacy
+}
+
+#------------------------------------
+# Tribal
+#------------------------------------
+tauren_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_tauren
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = tauren_tribe_legacy
+}
+
+highmountain_tauren_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_highmountain_tauren
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = tauren_tribe_legacy
+}
+
+taunka_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_taunka
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = taunka_tribe_legacy
+}
+
+tuskarr_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_tuskarr
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = tuskarr_tribe_legacy
+}
+
+furbolg_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_furbolg
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = furbolg_tribe_legacy
+}
+
+gnoll_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_gnoll
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = gnoll_tribe_legacy
+}
+
+gorloc_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_gorloc
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = gorloc_tribe_legacy
+}
+
+harpy_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_harpy
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = harpy_tribe_legacy
+}
+
+hozen_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_hozen
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = hozen_tribe_legacy
+}
+
+kobold_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_kobold
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = kobold_tribe_legacy
+}
+
+magnataur_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_magnataur
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = magnataur_tribe_legacy
+}
+
+murloc_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_murloc
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = murloc_tribe_legacy
+}
+
+pygmy_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_pygmy
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = pygmy_tribe_legacy
+}
+
+quillboar_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_quillboar
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = quillboar_tribe_legacy
+}
+
+spriteling_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_spriteling
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = spriteling_tribe_legacy
+}
+
+wolvar_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_wolvar
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = wolvar_tribe_legacy
+}
+
+trogg_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_trogg
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = trogg_tribe_legacy
+}
+
+broken_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_broken
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = broken_tribe_legacy
+}
+
+grummle_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_grummle
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = grummle_tribe_legacy
+}
+
+frost_giant_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_frost_giant
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = frost_giant_tribe_legacy
+}
+
+sea_giant_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_sea_giant
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = sea_giant_tribe_legacy
+}
+
+drogbar_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_drogbar
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = drogbar_tribe_legacy
+}
+
+fungarian_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_fungarian
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = fungarian_tribe_legacy
+}
+
+botani_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_botani
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = botani_tribe_legacy
+}
+
+podling_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_podling
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = podling_tribe_legacy
+}
+
+sporeling_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_sporeling
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = sporeling_tribe_legacy
+}
+
+saberon_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_saberon
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = saberon_tribe_legacy
+}
+
+tortollan_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_tortollan
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = tortollan_tribe_legacy
+}
+
+virmen_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_virmen
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = virmen_tribe_legacy
+}
+
+vulpera_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_vulpera
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = vulpera_tribe_legacy
+}
+
+#--------------------------------------------
+# Nomadic
+#--------------------------------------------
+centaur_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_centaur
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = centaur_clan_legacy
+}
+
+satyr_government_form = {
+	icon = "crown"
+    
+	allow_normal_conversion = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+    
+    potential = {
+        technology_group = tech_satyr
+    }
+    
+    modifiers = {
+        
+    }
+    
+    legacy_equivalent = satyr_clan_legacy
+}

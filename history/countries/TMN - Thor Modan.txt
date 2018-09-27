@@ -1,5 +1,6 @@
 technology_group = tech_earthen
-government = earthen_order
+government = theocracy
+add_government_reform = earthen_government_form
 primary_culture = thor_modan
 religion = titan_worship
 

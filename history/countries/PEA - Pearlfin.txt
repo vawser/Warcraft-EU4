@@ -1,5 +1,6 @@
 technology_group = tech_jinyu
-government = jinyu_tribe
+government = monarchy
+add_government_reform = jinyu_government_form
 primary_culture = pearlfin
 religion = celestials
 

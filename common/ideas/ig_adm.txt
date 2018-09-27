@@ -99,10 +99,6 @@ religious_ideas = {
 			factor = 1.4
 		}
 		modifier = {
-			government = republic
-			factor = 0.5
-		}
-		modifier = {
 			government = theocracy
 			factor = 2
 		}
@@ -192,10 +188,6 @@ ceremony_ideas = {
 	ai_will_do = {
 		factor = 0.7
 
-		modifier = {
-			government = republic
-			factor = 0.5
-		}
 		modifier = {
 			government = theocracy
 			factor = 2

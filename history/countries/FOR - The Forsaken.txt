@@ -1,5 +1,6 @@
 technology_group = tech_undead
-government = forsaken_warband
+government = monarchy
+add_government_reform = undead_government_form
 government_rank = 6
 primary_culture = forsaken
 religion = necromancy

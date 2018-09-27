@@ -57,8 +57,15 @@ country_decisions = {
 			}
 		}
 		effect = {
-			change_government = human_kingdom
-			#set_capital = 3655
+            if = { 
+                limit = { has_dlc = "Dharma" }
+                change_government = monarchy
+                add_government_reform = human_government_form
+            }
+            else = {
+                set_legacy_government = human_kingdom_legacy
+            }
+                #set_capital = 3655
 
 			execute_formable_nation_benefits = { TAG = TRM }
             

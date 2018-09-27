@@ -1,5 +1,6 @@
 technology_group = tech_goblin
-government = trade_cartel
+government = monarchy
+add_government_reform = goblin_government_form
 primary_culture = steamwheedle_cartel
 religion = avarice
 

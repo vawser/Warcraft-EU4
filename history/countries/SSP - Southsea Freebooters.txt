@@ -1,5 +1,6 @@
 technology_group = tech_human
-government = pirate_clan
+government = monarchy
+add_government_reform = pirate_government_form
 primary_culture = southsea_freebooter
 religion = avarice
 

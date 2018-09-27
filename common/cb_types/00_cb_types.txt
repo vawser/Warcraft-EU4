@@ -238,7 +238,7 @@ cb_humiliate = {
 
 	prerequisites = {
 		has_dlc = "Conquest of Paradise"
-		is_tribal_government = yes
+		government = tribal
 		NOT = {
 			truce_with = FROM
 			num_of_cities = 2

@@ -1,5 +1,6 @@
 technology_group = tech_frost_dwarf
-government = earthen_order
+government = theocracy
+add_government_reform = frost_dwarf_government_form
 primary_culture = frostborn
 religion = titan_worship
 

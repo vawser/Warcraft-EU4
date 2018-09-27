@@ -119,11 +119,7 @@ adm_idea_modifiers = {
 		
 		# Used for random generation
 		chance = {
-			factor = 0.1
-			modifier = {
-				factor = 0
-				NOT = { government = republic }
-			}
+			factor = 0
 		}		
 	}		
 	custom_idea_technology_cost = {

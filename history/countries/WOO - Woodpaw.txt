@@ -1,5 +1,6 @@
 technology_group = tech_gnoll
-government = gnoll_tribe
+government = tribal
+add_government_reform = gnoll_government_form
 primary_culture = woodpaw
 religion = shamanism
 

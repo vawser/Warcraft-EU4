@@ -151,9 +151,8 @@ tailor = {
         modifier = {
             factor = 0
             NOT = { government = monarchy }
-            NOT = { government = republic }
             NOT = { government = theocracy }
-            NOT = { is_savage_government = yes }
+            NOT = { government = nomadic }
         }
 	}
 	

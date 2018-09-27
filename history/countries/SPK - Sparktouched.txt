@@ -1,5 +1,6 @@
 technology_group = tech_gorloc
-government = gorloc_tribe
+government = tribal
+add_government_reform = gorloc_government_form
 primary_culture = sparktouched
 religion = shamanism
 

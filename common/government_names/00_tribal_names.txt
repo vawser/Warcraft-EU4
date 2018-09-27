@@ -1,0 +1,1585 @@
+gov_tauren_tribe = {
+	rank = {
+		1 = TAUREN_TRIBE
+		2 = TAUREN_TRIBE
+		3 = TAUREN_TRIBE
+		4 = TAUREN_TRIBE
+		5 = TAUREN_TRIBE
+		6 = TAUREN_TRIBE
+		7 = TAUREN_TRIBE
+		8 = TAUREN_TRIBE
+		9 = TAUREN_TRIBE
+		10 = TAUREN_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+	ruler_female = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = tauren_government_form
+            has_reform = highmountain_tauren_government_form
+            has_reform = tauren_tribe_legacy
+        }
+	}
+}
+gov_taunka_tribe = {
+	rank = {
+		1 = TAUNKA_TRIBE
+		2 = TAUNKA_TRIBE
+		3 = TAUNKA_TRIBE
+		4 = TAUNKA_TRIBE
+		5 = TAUNKA_TRIBE
+		6 = TAUNKA_TRIBE
+		7 = TAUNKA_TRIBE
+		8 = TAUNKA_TRIBE
+		9 = TAUNKA_TRIBE
+		10 = TAUNKA_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+	ruler_female = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = taunka_government_form
+            has_reform = taunka_tribe_legacy
+        }
+	}
+}
+gov_tuskarr_tribe = {
+	rank = {
+		1 = TUSKARR_TRIBE
+		2 = TUSKARR_TRIBE
+		3 = TUSKARR_TRIBE
+		4 = TUSKARR_TRIBE
+		5 = TUSKARR_TRIBE
+		6 = TUSKARR_TRIBE
+		7 = TUSKARR_TRIBE
+		8 = TUSKARR_TRIBE
+		9 = TUSKARR_TRIBE
+		10 = TUSKARR_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+	ruler_female = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = tuskarr_government_form
+            has_reform = tuskarr_tribe_legacy
+        }
+	}
+}
+gov_furbolg_tribe = {
+	rank = {
+		1 = FURBOLG_TRIBE
+		2 = FURBOLG_TRIBE
+		3 = FURBOLG_TRIBE
+		4 = FURBOLG_TRIBE
+		5 = FURBOLG_TRIBE
+		6 = FURBOLG_TRIBE
+		7 = FURBOLG_TRIBE
+		8 = FURBOLG_TRIBE
+		9 = FURBOLG_TRIBE
+		10 = FURBOLG_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+	ruler_female = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = furbolg_government_form
+            has_reform = furbolg_tribe_legacy
+        }
+	}
+}
+gov_gnoll_tribe = {
+	rank = {
+		1 = GNOLL_TRIBE
+		2 = GNOLL_TRIBE
+		3 = GNOLL_TRIBE
+		4 = GNOLL_TRIBE
+		5 = GNOLL_TRIBE
+		6 = GNOLL_TRIBE
+		7 = GNOLL_TRIBE
+		8 = GNOLL_TRIBE
+		9 = GNOLL_TRIBE
+		10 = GNOLL_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+	ruler_female = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = gnoll_government_form
+            has_reform = gnoll_tribe_legacy
+        }
+	}
+}
+gov_gorloc_tribe = {
+	rank = {
+		1 = GORLOC_TRIBE
+		2 = GORLOC_TRIBE
+		3 = GORLOC_TRIBE
+		4 = GORLOC_TRIBE
+		5 = GORLOC_TRIBE
+		6 = GORLOC_TRIBE
+		7 = GORLOC_TRIBE
+		8 = GORLOC_TRIBE
+		9 = GORLOC_TRIBE
+		10 = GORLOC_TRIBE
+	}
+
+	ruler_male = {
+		1 = ORACLE
+		2 = ORACLE
+		3 = ORACLE
+		4 = ORACLE
+		5 = ORACLE
+		6 = ORACLE
+		7 = ORACLE
+		8 = ORACLE
+		9 = ORACLE
+		10 = ORACLE
+	}
+
+	ruler_female = {
+		1 = ORACLE
+		2 = ORACLE
+		3 = ORACLE
+		4 = ORACLE
+		5 = ORACLE
+		6 = ORACLE
+		7 = ORACLE
+		8 = ORACLE
+		9 = ORACLE
+		10 = ORACLE
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = gorloc_government_form
+            has_reform = gorloc_tribe_legacy
+        }
+	}
+}
+gov_harpy_tribe = {
+	rank = {
+		1 = HARPY_TRIBE
+		2 = HARPY_TRIBE
+		3 = HARPY_TRIBE
+		4 = HARPY_TRIBE
+		5 = HARPY_TRIBE
+		6 = HARPY_TRIBE
+		7 = HARPY_TRIBE
+		8 = HARPY_TRIBE
+		9 = HARPY_TRIBE
+		10 = HARPY_TRIBE
+	}
+
+	ruler_male = {
+		1 = WITCH
+		2 = WITCH
+		3 = WITCH
+		4 = WITCH
+		5 = WITCH
+		6 = WITCH
+		7 = WITCH
+		8 = WITCH
+		9 = WITCH
+		10 = WITCH
+	}
+
+	ruler_female = {
+		1 = WITCH
+		2 = WITCH
+		3 = WITCH
+		4 = WITCH
+		5 = WITCH
+		6 = WITCH
+		7 = WITCH
+		8 = WITCH
+		9 = WITCH
+		10 = WITCH
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = harpy_government_form
+            has_reform = harpy_tribe_legacy
+        }
+	}
+}
+gov_hozen_tribe = {
+	rank = {
+		1 = HOZEN_TRIBE
+		2 = HOZEN_TRIBE
+		3 = HOZEN_TRIBE
+		4 = HOZEN_TRIBE
+		5 = HOZEN_TRIBE
+		6 = HOZEN_TRIBE
+		7 = HOZEN_TRIBE
+		8 = HOZEN_TRIBE
+		9 = HOZEN_TRIBE
+		10 = HOZEN_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+	ruler_female = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = hozen_government_form
+            has_reform = hozen_tribe_legacy
+        }
+	}
+}
+gov_kobold_tribe = {
+	rank = {
+		1 = KOBOLD_TRIBE
+		2 = KOBOLD_TRIBE
+		3 = KOBOLD_TRIBE
+		4 = KOBOLD_TRIBE
+		5 = KOBOLD_TRIBE
+		6 = KOBOLD_TRIBE
+		7 = KOBOLD_TRIBE
+		8 = KOBOLD_TRIBE
+		9 = KOBOLD_TRIBE
+		10 = KOBOLD_TRIBE
+	}
+
+	ruler_male = {
+		1 = TASKMASTER
+		2 = TASKMASTER
+		3 = TASKMASTER
+		4 = TASKMASTER
+		5 = TASKMASTER
+		6 = TASKMASTER
+		7 = TASKMASTER
+		8 = TASKMASTER
+		9 = TASKMASTER
+		10 = TASKMASTER
+	}
+
+	ruler_female = {
+		1 = TASKMASTER
+		2 = TASKMASTER
+		3 = TASKMASTER
+		4 = TASKMASTER
+		5 = TASKMASTER
+		6 = TASKMASTER
+		7 = TASKMASTER
+		8 = TASKMASTER
+		9 = TASKMASTER
+		10 = TASKMASTER
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = kobold_government_form
+            has_reform = kobold_tribe_legacy
+        }
+	}
+}
+gov_magnataur_tribe = {
+	rank = {
+		1 = MAGNATAUR_TRIBE
+		2 = MAGNATAUR_TRIBE
+		3 = MAGNATAUR_TRIBE
+		4 = MAGNATAUR_TRIBE
+		5 = MAGNATAUR_TRIBE
+		6 = MAGNATAUR_TRIBE
+		7 = MAGNATAUR_TRIBE
+		8 = MAGNATAUR_TRIBE
+		9 = MAGNATAUR_TRIBE
+		10 = MAGNATAUR_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+	ruler_female = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = magnataur_government_form
+            has_reform = magnataur_tribe_legacy
+        }
+	}
+}
+gov_murloc_tribe = {
+	rank = {
+		1 = MURLOC_TRIBE
+		2 = MURLOC_TRIBE
+		3 = MURLOC_TRIBE
+		4 = MURLOC_TRIBE
+		5 = MURLOC_TRIBE
+		6 = MURLOC_TRIBE
+		7 = MURLOC_TRIBE
+		8 = MURLOC_TRIBE
+		9 = MURLOC_TRIBE
+		10 = MURLOC_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+	ruler_female = {
+		1 = CHIEFTAIN
+		2 = CHIEFTAIN
+		3 = CHIEFTAIN
+		4 = CHIEFTAIN
+		5 = CHIEFTAIN
+		6 = CHIEFTAIN
+		7 = CHIEFTAIN
+		8 = CHIEFTAIN
+		9 = CHIEFTAIN
+		10 = CHIEFTAIN
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = murloc_government_form
+            has_reform = murloc_tribe_legacy
+        }
+	}
+}
+gov_pygmy_tribe = {
+	rank = {
+		1 = PYGMY_TRIBE
+		2 = PYGMY_TRIBE
+		3 = PYGMY_TRIBE
+		4 = PYGMY_TRIBE
+		5 = PYGMY_TRIBE
+		6 = PYGMY_TRIBE
+		7 = PYGMY_TRIBE
+		8 = PYGMY_TRIBE
+		9 = PYGMY_TRIBE
+		10 = PYGMY_TRIBE
+	}
+
+	ruler_male = {
+		1 = SULTAN
+		2 = SULTAN
+		3 = SULTAN
+		4 = SULTAN
+		5 = SULTAN
+		6 = SULTAN
+		7 = SULTAN
+		8 = SULTAN
+		9 = SULTAN
+		10 = SULTAN
+	}
+
+	ruler_female = {
+		1 = SULTANA
+		2 = SULTANA
+		3 = SULTANA
+		4 = SULTANA
+		5 = SULTANA
+		6 = SULTANA
+		7 = SULTANA
+		8 = SULTANA
+		9 = SULTANA
+		10 = SULTANA
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = pygmy_government_form
+            has_reform = pygmy_tribe_legacy
+        }
+	}
+}
+gov_quillboar_tribe = {
+	rank = {
+		1 = QUILLBOAR_TRIBE
+		2 = QUILLBOAR_TRIBE
+		3 = QUILLBOAR_TRIBE
+		4 = QUILLBOAR_TRIBE
+		5 = QUILLBOAR_TRIBE
+		6 = QUILLBOAR_TRIBE
+		7 = QUILLBOAR_TRIBE
+		8 = QUILLBOAR_TRIBE
+		9 = QUILLBOAR_TRIBE
+		10 = QUILLBOAR_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+	ruler_female = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = quillboar_government_form
+            has_reform = quillboar_tribe_legacy
+        }
+	}
+}
+gov_spriteling_tribe = {
+	rank = {
+		1 = SPRITELING_TRIBE
+		2 = SPRITELING_TRIBE
+		3 = SPRITELING_TRIBE
+		4 = SPRITELING_TRIBE
+		5 = SPRITELING_TRIBE
+		6 = SPRITELING_TRIBE
+		7 = SPRITELING_TRIBE
+		8 = SPRITELING_TRIBE
+		9 = SPRITELING_TRIBE
+		10 = SPRITELING_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+	ruler_female = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = spriteling_government_form
+            has_reform = spriteling_tribe_legacy
+        }
+	}
+}
+gov_wolvar_tribe = {
+	rank = {
+		1 = WOLVAR_TRIBE
+		2 = WOLVAR_TRIBE
+		3 = WOLVAR_TRIBE
+		4 = WOLVAR_TRIBE
+		5 = WOLVAR_TRIBE
+		6 = WOLVAR_TRIBE
+		7 = WOLVAR_TRIBE
+		8 = WOLVAR_TRIBE
+		9 = WOLVAR_TRIBE
+		10 = WOLVAR_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+	ruler_female = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = wolvar_government_form
+            has_reform = wolvar_tribe_legacy
+        }
+	}
+}
+gov_trogg_tribe = {
+	rank = {
+		1 = TROGG_TRIBE
+		2 = TROGG_TRIBE
+		3 = TROGG_TRIBE
+		4 = TROGG_TRIBE
+		5 = TROGG_TRIBE
+		6 = TROGG_TRIBE
+		7 = TROGG_TRIBE
+		8 = TROGG_TRIBE
+		9 = TROGG_TRIBE
+		10 = TROGG_TRIBE
+	}
+
+	ruler_male = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+	ruler_female = {
+		1 = CHIEF
+		2 = CHIEF
+		3 = CHIEF
+		4 = CHIEF
+		5 = CHIEF
+		6 = CHIEF
+		7 = CHIEF
+		8 = CHIEF
+		9 = CHIEF
+		10 = CHIEF
+	}
+
+    consort_male = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    consort_female = {
+        1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+		4 = CONSORT
+		5 = CONSORT
+		6 = CONSORT
+		7 = CONSORT
+		8 = CONSORT
+		9 = CONSORT
+		10 = CONSORT
+    }
+
+    heir_male = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+    heir_female = {
+        1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
+		6 = HEIR
+		7 = HEIR
+		8 = HEIR
+		9 = HEIR
+		10 = HEIR
+    }
+
+	trigger = {
+		OR = {
+            has_reform = trogg_government_form
+            has_reform = trogg_tribe_legacy
+        }
+	}
+}

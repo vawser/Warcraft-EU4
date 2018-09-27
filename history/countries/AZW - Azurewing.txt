@@ -1,5 +1,6 @@
 technology_group = tech_blue_dragonflight
-government = dragon_council
+government = monarchy
+add_government_reform = blue_dragonflight_government_form
 primary_culture = azurewing
 religion = dragon_aspects
 

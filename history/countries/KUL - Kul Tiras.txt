@@ -1,5 +1,6 @@
 technology_group = tech_human
-government = human_kingdom
+government = monarchy
+add_government_reform = human_government_form
 government_rank = 6
 primary_culture = kul_tiras
 religion = the_holy_light

@@ -1,5 +1,6 @@
 technology_group = tech_lost_one
-government = draenei_order
+government = theocracy
+add_government_reform = lost_one_government_form
 primary_culture = broken
 religion = shadow
 

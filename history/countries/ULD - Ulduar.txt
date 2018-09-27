@@ -1,5 +1,6 @@
 technology_group = tech_ulduar
-government = titan_order
+government = theocracy
+add_government_reform = ulduar_government_form
 primary_culture = ulduar
 religion = titan_worship
 

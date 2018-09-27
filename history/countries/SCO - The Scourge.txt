@@ -1,5 +1,6 @@
 technology_group = tech_scourge
-government = scourge_warband
+government = monarchy
+add_government_reform = scourge_government_form
 government_rank = 10
 primary_culture = scourge
 religion = cult_of_the_damned
