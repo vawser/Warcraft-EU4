@@ -146,13 +146,13 @@ upm_ulduar = {
 upm_the_nexus = {
     potential = {
 		owner = {
-			culture_group = dragon_group
+			is_dragon_culture = yes
 		}
 	}
 
 	trigger = {
 		owner = {
-			culture_group = dragon_group
+			is_dragon_culture = yes
 		}
         culture = blue_dragonflight
 	} 

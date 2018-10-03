@@ -10165,7 +10165,7 @@ company_interference = {
 
 failed_monsoon = {
 	local_tax_modifier = -0.2
-	local_monthly_devastation = 0.5
+	local_monthly_devastation = 0.15
 }
 
 good_monsoon_modifier = {
@@ -10185,6 +10185,22 @@ plum_rains = {
 
 revoked_estate_modifier = {
 	local_unrest = 5
+}
+
+pru_confederation_curtailed_modifier = {
+	global_unrest = -1
+}
+
+mayan_dinosaur_cavalry = {
+	cavalry_power = 0.5
+}
+
+mayan_ufo_support = {
+	fire_damage = 0.33
+}
+
+swiss_guard_last_stand = {
+	discipline = 0.1
 }
 
 ##################################################

@@ -328,6 +328,10 @@ core = {
 non_core = {
 }
 
+territory = {
+	local_missionary_strength = -0.02
+}
+
 march_bonus = {
 	global_manpower_modifier = 0.25
 	land_forcelimit_modifier = 0.30

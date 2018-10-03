@@ -2,11 +2,11 @@ country_decisions = {
 
 	inspire_righteousness = {
 		potential = {
-			culture_group = human_group
+			is_human_culture = yes
             NOT = { has_country_modifier = inspire_righteousness_modifier }
 		}
 		allow =  {
-			culture_group = human_group
+			is_human_culture = yes
             adm_power = 100
 		}
 	  	effect = {
@@ -32,11 +32,11 @@ country_decisions = {
     
     enact_civil_code = {
         potential = {
-			culture_group = human_group
+			is_human_culture = yes
             NOT = { has_country_modifier = civil_code }
 		}
 		allow =  {
-			culture_group = human_group
+			is_human_culture = yes
             adm_power = 100
             stability = 1
 		}
@@ -59,11 +59,11 @@ country_decisions = {
     
     mobilise_workforces = {
         potential = {
-			culture_group = human_group
+			is_human_culture = yes
             NOT = { has_country_modifier = mobilised_workforces }
 		}
 		allow =  {
-			culture_group = human_group
+			is_human_culture = yes
             dip_power = 100
 		}
 	  	effect = {
@@ -85,7 +85,7 @@ country_decisions = {
     
     encourage_research = {
         potential = {
-			culture_group = human_group
+			is_human_culture = yes
             NOT = { has_country_modifier = illusion_of_grandeur }
             NOT = { has_country_modifier = enchanted_spyglass }
             NOT = { has_country_modifier = scrying_orb }
@@ -98,7 +98,7 @@ country_decisions = {
             NOT = { has_country_modifier = arcane_crystal }
 		}
 		allow =  {
-			culture_group = human_group
+			is_human_culture = yes
             adm_power = 100
             dip_power = 100
             mil_power = 100
@@ -190,7 +190,7 @@ country_decisions = {
 		
 		potential = {
 			NOT = { exists = SRW } 
-			culture_group = human_group
+			is_human_culture = yes
             capital_scope = {
                 continent = azeroth
             }
@@ -198,7 +198,7 @@ country_decisions = {
 		}
 		
 		allow = {
-            culture_group = human_group
+            is_human_culture = yes
             region_elwynn_forest = {
                 owns_core_province = ROOT
                 type = all

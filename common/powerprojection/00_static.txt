@@ -91,6 +91,12 @@ insulted_rival = {
 	max = 5
 }
 
+scornfully_insulted_rival = {
+	power = 10
+	yearly_decay = 1
+	max = 10
+}
+
 humiliated_rival = {
 	power = 30
 	yearly_decay = 1

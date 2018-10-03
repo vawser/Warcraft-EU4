@@ -19,6 +19,7 @@ defaults_reform = {
 	has_meritocracy = no
 	allow_force_tributary = yes
 	duration = 0
+	election_on_death = no
 	monarchy = no
 	tribal = no
 	different_religion_acceptance = 0
@@ -50,5 +51,5 @@ defaults_reform = {
 	valid_for_nation_designer = yes
 	allow_normal_conversion = yes
 	start_territory_to_estates = 0.8
+	has_term_election = no
 }
-

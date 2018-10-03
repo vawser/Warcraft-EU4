@@ -24,4 +24,4 @@ on_lose_great_power_status = { }
 on_accept_tribute = { }     # FROM = Overlord
 on_refuse_tribute = { }
 on_annexed = { }
-
+on_create_vassal = { }

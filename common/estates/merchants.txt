@@ -1,5 +1,4 @@
-estate_merchants =
-{
+estate_merchants = {
 	icon = 4
 	
 	color = { 120 65 180 }
@@ -10,7 +9,6 @@ estate_merchants =
 	min_autonomy = 25								
     autonomy_does_not_affect = province_trade_power_modifier
 
-    
 	# ----- Conditions -----
 	trigger = {	
         always = yes
@@ -78,8 +76,8 @@ estate_merchants =
     }
     
 	# ----- Territory -----
-    min_territory = 10
-    min_provinces_to_want_territory = 10
+    min_territory = 0.25
+    start_territory_weight = 25
     
 	# ----- Influence -----
 	base_influence = 20

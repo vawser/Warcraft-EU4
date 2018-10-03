@@ -2,5 +2,4 @@
 Add province names
 Add area names
 Generate religious rebels for new set
-Overhaul localization handling, override vanilla and include base keys
 

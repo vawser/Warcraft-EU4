@@ -1,5 +1,4 @@
-estate_nobility =
-{
+estate_nobility = {
 	icon = 3
 	
 	color = { 33 50 100 }
@@ -84,8 +83,8 @@ estate_nobility =
     }
     
 	# ----- Territory -----
-    min_territory = 10
-    min_provinces_to_want_territory = 10
+    min_territory = 0.1
+    start_territory_weight = 10
     
 	# ----- Influence -----
 	base_influence = 20

@@ -444,9 +444,10 @@ guiTypes = {
 		}		
 	}
 
-	##########################################
+	#---------------------------------------
+    # Buildings 
+    #---------------------------------------
 
-	### New buildings window (Common Sense and beyond) where layout is manual
 	windowType = {
 		name = "new_buildings_entry"
 		backGround=""
@@ -903,6 +904,10 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
+
+	#---------------------------------------
+    # Buildings END
+    #---------------------------------------
 
 	# List entry for the window with a list of provinces that a specific building can be built in
 	windowType = {

@@ -1,5 +1,4 @@
-estate_peasantry =
-{
+estate_peasantry = {
 	icon = 2
 	
 	color = { 214 109 123 }
@@ -73,8 +72,8 @@ estate_peasantry =
     }
     
 	# ----- Territory -----
-    min_territory = 5
-    min_provinces_to_want_territory = 10
+    min_territory = 0.25
+    start_territory_weight = 25
     
 	# ----- Influence -----
 	base_influence = 20

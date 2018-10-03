@@ -4,7 +4,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = WES }
 			NOT = { tag = WES }
-            culture_group = human_group
+            is_human_culture = yes
 			any_owned_province = {
 				region = region_westfall
 			}
@@ -41,7 +41,7 @@ country_decisions = {
 			NOT = { exists = TRM }
 			is_colonial_nation = no
 			is_subject = no
-			culture_group = human_group
+			is_human_culture = yes
 		}
 		allow = {
 			is_at_war = no

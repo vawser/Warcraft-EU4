@@ -9,7 +9,7 @@ dragonkin_ideas = {
 	}
 	
 	trigger = {
-		culture_group = dragon_group
+		is_dragon_culture = yes
 	}
 	free = yes		
 	

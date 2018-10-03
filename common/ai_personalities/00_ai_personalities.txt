@@ -46,10 +46,7 @@ ai_capitalist = {
 		}
         modifier = {
 			factor = 1.1
-            OR = {
-                culture_group = human_group
-                culture_group = high_elf_group
-            }
+            is_civilized = yes
 		}
 	}
 	icon = 2

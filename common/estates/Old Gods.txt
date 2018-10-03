@@ -1,5 +1,4 @@
-estate_old_gods =
-{
+estate_old_gods = {
 	icon = 33
 	
 	color = { 106 54 112 }
@@ -8,7 +7,7 @@ estate_old_gods =
 	always_remove_on_religious_conquest = yes 		
 			
 	min_autonomy = 25								
-
+    
 	# ----- Conditions -----
 	trigger = {	
         religion_group = old_gods_group
@@ -69,8 +68,6 @@ estate_old_gods =
     }
     
 	# ----- Territory -----
-    min_territory = 5
-    min_provinces_to_want_territory = 10
     
 	# ----- Influence -----
 	base_influence = 20

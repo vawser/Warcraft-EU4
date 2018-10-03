@@ -1,5 +1,4 @@
-estate_legion =
-{
+estate_legion = {
 	icon = 34
 	
 	color = { 181 230 29 }
@@ -8,7 +7,7 @@ estate_legion =
 	always_remove_on_religious_conquest = yes 		
 			
 	min_autonomy = 25								
-
+    
 	# ----- Conditions -----
 	trigger = {	
         religion = fel
@@ -69,8 +68,6 @@ estate_legion =
     }
     
 	# ----- Territory -----
-    min_territory = 5
-    min_provinces_to_want_territory = 10
     
 	# ----- Influence -----
 	base_influence = 20
