@@ -63,7 +63,7 @@
 #   declare_war_in_regency = yes
 #   misguided_heretic = yes
 
-#   uses_church_power = yes / aspects = { }
+#   uses_church_power = yes / uses_anglican_power = yes / aspects = { }
 #   papacy = { }
 #   fervor = yes
 #   has_patriarchs = yes / orthodox_icons = { }
