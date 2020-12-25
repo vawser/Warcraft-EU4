@@ -37,6 +37,11 @@ client_vassal = {}
 client_march = {}
 colony = {}
 tributary_state = {}
+contract = {}
+faction_alliance = {}
+faction_horde = {}
+enslavement = {}
+magical_enslavement = {}
 
 default = {
 	# Graphics:
@@ -83,6 +88,7 @@ default = {
 	can_set_mil_focus = yes
 	can_send_missionary_to_subject = yes				# Requires Cradle of Civilization
 	can_union_break = no								# Only works together with has_overlords_ruler
+	overlord_can_fabricate_for = yes
 	
 	max_government_rank = 0								# 0 means no limit
 	cities_required_for_bonuses = 0						# How many cities the subject needs before giving bonuses to overlord
@@ -171,20 +177,59 @@ vassal = {
 	diplomacy_subject_sprite = GFX_diplomacy_amvassal
 
 	# Properties:
+	has_power_projection = yes
+	gives_daimyo_bonuses = yes
 	transfer_trade_if_merchant_republic = yes
 	can_be_annexed = yes
-	has_power_projection = no
+	
+	takes_diplo_slot = no
 	gets_help_with_rebels = yes
+	separatists_become_subjects = yes
+	allows_taking_land_without_independence = yes
+	
+	can_send_missionary_to_subject = yes
+	counts_for_borders = yes
+	share_rebel_popup = yes	
+	can_have_subjects_of_other_types = yes
+	overlord_can_be_subject = yes
+	overlord_protects_external = yes
 
 	max_government_rank = 1
 
-	liberty_desire_development_ratio = 0.25
-	liberty_desire_same_dynasty = -5.0
+	liberty_desire_development_ratio = 0.50
 	pays_overlord = 1.0
 	forcelimit_bonus = 1.0
-	forcelimit_to_overlord = 0.1
+	forcelimit_to_overlord = 0
+	
+	military_focus = 1.25
 
-	relative_power_class = 2
+	relative_power_class = 1.75
+	
+	can_fight = {
+		same_overlord = vassal
+		same_overlord = client_vassal
+		same_overlord = faction_alliance
+		same_overlord = faction_horde
+	}
+	can_rival = {
+		same_overlord = vassal
+		same_overlord = client_vassal
+		same_overlord = faction_alliance
+		same_overlord = faction_horde
+	}
+	can_ally = {
+		same_overlord = vassal
+		same_overlord = client_vassal
+		same_overlord = faction_alliance
+		same_overlord = faction_horde
+	}
+	can_marry = {
+		same_overlord = vassal
+		same_overlord = client_vassal
+		same_overlord = march
+		same_overlord = faction_alliance
+		same_overlord = faction_horde
+	}
 	
 	restoration_cb = cb_disloyal_vassal
 
@@ -195,6 +240,15 @@ vassal = {
 	sacrifice_heir = yes
 	divert_trade = yes
 	seize_territory = yes
+	
+	force_seppuku = yes
+	contribute_to_capital = yes
+	return_land = yes
+	conscript_general = yes
+	
+	sword_hunt = yes
+	sankin_kotai = yes
+	expel_ronin = yes
 
 	# Modifiers:
 	modifier_subject = {
@@ -209,7 +263,7 @@ vassal = {
 }
 
 march = {
-	copy_from = vassal
+	copy_from = default
 	
 	# Graphics:
 	sprite = GFX_icon_march
@@ -217,14 +271,43 @@ march = {
 	diplomacy_subject_sprite = GFX_diplomacy_weakmarch
 
 	# Properties:
-	pays_overlord = 0.0
-	military_focus = 1.5
-	base_liberty_desire = -15.0
+	transfer_trade_if_merchant_republic = yes
 	can_be_annexed = no
-	forcelimit_to_overlord = 0.2
+	
+	has_power_projection = yes
+	takes_diplo_slot = no
+	gets_help_with_rebels = yes
+	
+	sword_hunt = yes
+	sankin_kotai = yes
+	expel_ronin = yes
+
+	base_liberty_desire = -50
+	pays_overlord = 0.5
+	forcelimit_bonus = 1.0
+	forcelimit_to_overlord = 0
+	
+	relative_power_class = 1
+	
+	can_marry = {
+		same_overlord = vassal
+		same_overlord = march
+	}
 
 	# Subject Interactions:
-	scutage = no
+	
+	scutage = yes
+	place_relative_on_throne = yes
+	sacrifice_ruler = yes
+	sacrifice_heir = yes
+	divert_trade = yes
+	seize_territory = yes
+	
+	force_seppuku = yes
+	contribute_to_capital = yes
+	return_land = yes
+	conscript_general = yes
+	
 	subsidize_armies = yes
 	fortify_march = yes
 	
@@ -248,79 +331,6 @@ march = {
 		}
 		expiration_message_overlord = MARCHTOOLARGE
 		expiration_message_subject = MARCHTOOLARGEUS
-	}
-}
-
-daimyo_vassal = {
-	copy_from = vassal
-	count = vassal
-	
-	# Properties:
-	has_power_projection = yes
-	takes_diplo_slot = no
-	gives_daimyo_bonuses = yes
-	gets_help_with_rebels = no
-	separatists_become_subjects = yes
-	allows_taking_land_without_independence = yes
-	can_use_claims = no
-
-	trust_on_start = 0
-	
-	base_liberty_desire = 10.0
-	military_focus = 1.2
-
-	relative_power_class = 1
-
-	can_fight = {
-		same_overlord = daimyo_vassal
-	}
-	can_rival = {
-		same_overlord = daimyo_vassal
-	}
-	can_ally = {
-		same_overlord = daimyo_vassal
-	}
-	can_marry = {
-		same_overlord = daimyo_vassal
-	}
-	
-	# Subject Interactions
-	#(disable)
-	scutage = no
-	grant_core_claim = yes
-	grant_province = yes
-	place_relative_on_throne = no
-	enforce_religion = no
-	enforce_culture = no
-	seize_territory = no
-	#(enable)
-	force_seppuku = yes
-	contribute_to_capital = yes
-	force_isolation = yes
-	return_land = yes
-	conscript_general = yes
-	#(special)
-	sword_hunt = yes
-	sankin_kotai = yes
-	expel_ronin = yes
-	
-	# Modifiers
-	
-	modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
-	modifier_subject = clear #Ditto
-	modifier_subject = {
-		modifier = subject_nation
-	}
-	modifier_overlord = {
-		modifier = daimyo_subject
-	}
-	
-	
-	modifier_overlord = {
-		modifier = overlord_sword_hunt
-		trigger = {
-			has_country_modifier = subject_sword_hunt
-		}
 	}
 }
 
@@ -354,6 +364,14 @@ personal_union = {
 	enforce_culture = yes
 	siphon_income = yes
 	support_loyalists = yes
+	
+	scutage = yes
+	divert_trade = yes
+	seize_territory = yes
+	
+	subsidize_armies = yes
+	
+	send_officers = yes
 
 	# Modifiers:
 	modifier_overlord = {
@@ -375,8 +393,6 @@ client_vassal = {
 	# Properties:
 	created_by_overlord = yes
 
-	base_liberty_desire = -25.0
-
 	# Subject Interactions:
 	customize_subject = yes
 }
@@ -392,7 +408,9 @@ client_march = {
 	# Properties:
 	created_by_overlord = yes
 
-	base_liberty_desire = -40.0
+	base_liberty_desire = -9999.0
+	pays_overlord = 1.0
+	forcelimit_bonus = 2.5
 
 	# Subject Interactions:
 	customize_subject = yes
@@ -423,7 +441,7 @@ colony = {
 	press_sailors = yes
 	forcelimit_bonus = 1.0
 	
-	liberty_desire_development_ratio = 0.1
+	liberty_desire_development_ratio = 0.075
 
 	max_government_rank = 1
 	cities_required_for_bonuses = 10
@@ -472,6 +490,10 @@ tributary_state = {
 	# Triggers:
 	is_potential_overlord = {
 		has_dlc = "Mandate of Heaven"
+		NOT = { 
+			is_subject_of_type = tributary_state
+		}
+		total_development = 1000
 	}
 	
 	# Graphics:
@@ -480,14 +502,14 @@ tributary_state = {
 	diplomacy_subject_sprite = GFX_diplomacy_amtributary
 
 	# Properties:
-	transfer_trade_power = no
-	can_fight_independence_war = no
+	transfer_trade_power = yes
+	can_fight_independence_war = yes
 	joins_overlords_wars = no
 	joins_colonial_wars = no
 	is_voluntary = yes
 	overlord_can_attack = yes
 	takes_diplo_slot = no
-	base_liberty_desire = -5
+	base_liberty_desire = -25
 	relative_power_class = 1
 	can_send_tribute = yes
 	can_have_subjects_of_other_types = yes
@@ -498,10 +520,12 @@ tributary_state = {
 	share_rebel_popup = no
 	can_transfer_in_peace = no
 	can_set_mil_focus = no
+	
 	can_send_missionary_to_subject = no
+	overlord_can_fabricate_for = no
 	
 	liberty_desire_development_ratio = 0.175
-	trust_on_start = 0
+	
 	
 	overlord_opinion_modifier = is_tributary
 	subject_opinion_modifier = is_tributary
@@ -524,6 +548,7 @@ tributary_state = {
 	can_marry = {
 		independent_nations = yes
 		same_overlord = tributary_state
+		same_overlord = vassal
 		other_overlord = all
 	}
 
@@ -568,8 +593,490 @@ tributary_state = {
 	}
 }
 
-# Completely scripted subject type (no code used). Add any number of these. Check common/new_diplomatic_actions for how to make visible in game.
-dummy =
-{
+contract = {
+	#If similar subject added check if it needs to be added to these scripted triggers:
+	#is_subject_except_tributary_trigger
+	#is_free_or_tributary_trigger
 	copy_from = default
+
+	# Triggers:
+	is_potential_overlord = {
+		always = yes
+	}
+	
+	# Graphics:
+	sprite = GFX_subject_tributary_state
+	diplomacy_overlord_sprite = GFX_diplomacy_leadtributary
+	diplomacy_subject_sprite = GFX_diplomacy_amtributary
+
+	# Properties:
+	transfer_trade_power = no
+	can_fight_independence_war = no
+	joins_overlords_wars = no
+	joins_colonial_wars = no
+	is_voluntary = yes
+	overlord_can_attack = yes
+	takes_diplo_slot = no
+	base_liberty_desire = -25
+	relative_power_class = 1
+	can_send_tribute = yes
+	can_have_subjects_of_other_types = yes
+	uses_military_focus = no
+	overlord_protects_external = no
+	counts_for_borders = no
+	can_use_claims = no
+	share_rebel_popup = no
+	can_transfer_in_peace = no
+	can_set_mil_focus = no
+	can_send_missionary_to_subject = no
+	overlord_can_fabricate_for = no
+		
+	can_fight = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_ally = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_marry = {
+		independent_nations = yes
+		other_overlord = all
+	}
+
+	# Subject Interactions:
+	# (immediate)
+	enforce_religion = no
+	grant_core_claim = no
+	bestow_gifts = no
+	send_additional_troops = no
+	demand_artifacts = no
+	demand_additional_tribute = no
+	placate_rulers = no
+	knowledge_sharing = no
+	# (continuous)
+	embargo_rivals = no
+
+	# Modifiers:
+	modifier_subject = clear # Tributaries don't get the ordinary subject_nation penalty 
+	modifier_overlord = clear # Tributaries don't get the ordinary subject_nation penalty 
+	modifier_subject = {
+		modifier = contract_subject
+	}
+	modifier_overlord = {
+		modifier = contract_overlord
+	}
+}
+
+native_reservation = {
+	copy_from = march
+	
+	# Graphics:
+	sprite = GFX_icon_federation
+	diplomacy_overlord_sprite = GFX_diplomacy_federation
+	diplomacy_subject_sprite = GFX_diplomacy_federation
+	
+	pays_overlord = 3.5
+}
+
+holy_order_1 = {
+	copy_from = march
+	
+	# Graphics:
+	sprite = GFX_icon_march
+	diplomacy_overlord_sprite = GFX_diplomacy_leadmarch
+	diplomacy_subject_sprite = GFX_diplomacy_weakmarch
+
+	# Modifiers:
+	modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+	modifier_subject = clear #Ditto
+	modifier_subject = {
+		modifier = subject_nation
+	}
+	modifier_overlord = {
+		modifier = march_subject
+	}
+	modifier_subject = {
+		modifier = march_bonus
+		trigger = {
+			NOT = {
+				development_of_overlord_fraction = 0.25
+			}
+		}
+		expiration_message_overlord = MARCHTOOLARGE
+		expiration_message_subject = MARCHTOOLARGEUS
+	}
+}
+
+transitional_state = {
+	copy_from = vassal
+
+	# Properties:
+	
+	restoration_cb = cb_disloyal_vassal
+
+	# Modifiers:
+	modifier_subject = {
+		modifier = vassal_nation
+	}
+	modifier_overlord = {
+		modifier = vassal_subject
+	}
+
+	overlord_opinion_modifier = is_vassal
+	subject_opinion_modifier = is_vassal
+}
+faction_alliance = {
+	#If similar subject added check if it needs to be added to these scripted triggers:
+	#is_subject_except_tributary_trigger
+	#is_free_or_tributary_trigger
+	copy_from = default
+
+	# Triggers:
+	is_potential_overlord = { always = yes } 			# This part is not copied in copy_from. Actual default is equivalent to always = yes
+	can_be_established = { always = yes }
+	
+	# Graphics:
+	sprite = GFX_diplomacy_alliance_faction
+	diplomacy_overlord_sprite = GFX_diplomacy_alliance_faction
+	diplomacy_subject_sprite = GFX_diplomacy_alliance_faction
+
+	# Properties:
+	transfer_trade_power = no
+	can_fight_independence_war = no
+	joins_overlords_wars = yes
+	joins_colonial_wars = no
+	is_voluntary = no
+	takes_diplo_slot = no
+	base_liberty_desire = -15
+	uses_military_focus = no
+	overlord_protects_external = yes
+	counts_for_borders = yes
+	can_use_claims = yes
+	share_rebel_popup = no
+	can_transfer_in_peace = no
+	can_set_mil_focus = yes
+	can_send_missionary_to_subject = no
+	overlord_can_fabricate_for = no
+	allows_taking_land_without_independence = yes
+	overlord_can_attack = no
+	overlord_can_be_subject = no
+	can_have_subjects_of_other_types = yes
+	gives_daimyo_bonuses = no
+	can_be_annexed = no
+	can_be_integrated = no
+	
+	pays_overlord = 0.0									# 1.0 represents the amount payed by vassals
+	forcelimit_bonus = 0.0								# 1.0 represents bonus from having a vassal
+	forcelimit_to_overlord = -0.25	
+	liberty_desire_development_ratio = 0.0
+	trust_on_start = 50
+	
+	relative_power_class = 0							# See description above
+	diplomacy_view_class = 10							# See description above
+
+	
+	overlord_opinion_modifier = alliance_alliance
+	subject_opinion_modifier = alliance_alliance
+	
+	can_fight = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_ally = {
+		independent_nations = yes
+		same_overlord = all
+		other_overlord = all
+	}
+	can_marry = {
+		independent_nations = yes
+		same_overlord = all
+		other_overlord = all
+	}
+
+	# Subject Interactions:
+	# (immediate)
+	enforce_religion = no
+	grant_core_claim = yes
+	bestow_gifts = yes
+	send_additional_troops = yes
+	demand_artifacts = no
+	demand_additional_tribute = no
+	placate_rulers = yes
+	knowledge_sharing = yes
+	# (continuous)
+	embargo_rivals = no
+
+	# Modifiers:
+	modifier_subject = clear
+	modifier_subject = {
+		modifier = alliance_member # Tributaries don't get the ordinary subject_nation penalty 
+	}
+	modifier_overlord = clear
+}
+faction_horde = {
+	#If similar subject added check if it needs to be added to these scripted triggers:
+	#is_subject_except_tributary_trigger
+	#is_free_or_tributary_trigger
+	copy_from = default
+
+	# Triggers:
+	is_potential_overlord = { always = yes } 			# This part is not copied in copy_from. Actual default is equivalent to always = yes
+	can_be_established = { always = yes }
+	
+	# Graphics:
+	sprite = GFX_diplomacy_horde_faction
+	diplomacy_overlord_sprite = GFX_diplomacy_horde_faction
+	diplomacy_subject_sprite = GFX_diplomacy_horde_faction
+
+	# Properties:
+	transfer_trade_power = no
+	can_fight_independence_war = no
+	joins_overlords_wars = yes
+	joins_colonial_wars = no
+	is_voluntary = no
+	takes_diplo_slot = no
+	base_liberty_desire = -15
+	uses_military_focus = no
+	overlord_protects_external = yes
+	counts_for_borders = yes
+	can_use_claims = yes
+	share_rebel_popup = no
+	can_transfer_in_peace = no
+	can_set_mil_focus = yes
+	can_send_missionary_to_subject = no
+	overlord_can_fabricate_for = no
+	allows_taking_land_without_independence = yes
+	overlord_can_attack = no
+	overlord_can_be_subject = no
+	can_have_subjects_of_other_types = yes
+	gives_daimyo_bonuses = no
+	can_be_annexed = no
+	can_be_integrated = no
+	
+	pays_overlord = 0.0									# 1.0 represents the amount payed by vassals
+	forcelimit_bonus = 0.0								# 1.0 represents bonus from having a vassal
+	forcelimit_to_overlord = 0.0	
+	liberty_desire_development_ratio = 0.0
+	trust_on_start = 50
+	
+	relative_power_class = 0 							# See description above
+	diplomacy_view_class = 11							# See description above
+
+	
+	overlord_opinion_modifier = alliance_alliance
+	subject_opinion_modifier = alliance_alliance
+	
+	can_fight = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_ally = {
+		independent_nations = yes
+		same_overlord = all
+	}
+	can_marry = {
+		independent_nations = yes
+		same_overlord = all
+	}
+
+	# Subject Interactions:
+	# (immediate)
+	enforce_religion = no
+	grant_core_claim = yes
+	bestow_gifts = yes
+	send_additional_troops = yes
+	demand_artifacts = no
+	demand_additional_tribute = no
+	placate_rulers = yes
+	knowledge_sharing = yes
+	# (continuous)
+	embargo_rivals = no
+
+	# Modifiers:
+	modifier_subject = clear
+	modifier_subject = {
+		modifier = horde_member # Tributaries don't get the ordinary subject_nation penalty 
+	}
+	modifier_overlord = clear
+}
+
+enslavement = {
+	copy_from = default
+	
+	# Graphics:
+	sprite = GFX_icon_vassal
+	diplomacy_overlord_sprite = GFX_diplomacy_leadvassal
+	diplomacy_subject_sprite = GFX_diplomacy_amvassal
+
+	# Properties:
+	has_power_projection = yes
+	gives_daimyo_bonuses = no
+	transfer_trade_if_merchant_republic = yes
+	can_be_annexed = no
+	can_fight_independence_war = yes
+	joins_overlords_wars = yes
+	joins_colonial_wars = no
+	is_voluntary = no
+	can_release_in_peace = yes
+	overlord_can_attack = yes
+	uses_military_focus = no
+	takes_diplo_slot = no
+	gets_help_with_rebels = no
+	separatists_become_subjects = no
+	allows_taking_land_without_independence = no
+	
+	can_send_missionary_to_subject = yes
+	counts_for_borders = yes
+	share_rebel_popup = yes	
+	can_have_subjects_of_other_types = yes
+	overlord_can_be_subject = yes
+	overlord_protects_external = yes
+
+	base_liberty_desire = 50
+	
+	max_government_rank = 1
+
+	liberty_desire_development_ratio = 1
+	pays_overlord = 1.0
+	forcelimit_bonus = 0.5
+	forcelimit_to_overlord = 1.0
+	
+	military_focus = 1.25
+
+	relative_power_class = 0
+	
+	can_fight = {
+		same_overlord = vassal
+		same_overlord = client_vassal
+		same_overlord = faction_alliance
+		same_overlord = faction_horde
+	}
+	can_rival = {
+		same_overlord = vassal
+		same_overlord = client_vassal
+		same_overlord = faction_alliance
+		same_overlord = faction_horde
+	}
+	can_ally = {
+	}
+	can_marry = {
+	}
+	
+	restoration_cb = cb_disloyal_vassal
+
+	# Subject Interactions:
+	scutage = yes
+	place_relative_on_throne = yes
+	sacrifice_ruler = yes
+	sacrifice_heir = yes
+	divert_trade = yes
+	seize_territory = yes
+	
+	force_seppuku = no
+	contribute_to_capital = yes
+	return_land = no
+	conscript_general = yes
+
+	# Modifiers:
+	modifier_subject = {
+		modifier = magically_enslaved_subject
+	}
+	subject_opinion_modifier = is_vassal
+}
+
+magical_enslavement = {
+	copy_from = default
+	
+	# Graphics:
+	sprite = GFX_icon_vassal
+	diplomacy_overlord_sprite = GFX_diplomacy_leadvassal
+	diplomacy_subject_sprite = GFX_diplomacy_amvassal
+
+	# Properties:
+	has_power_projection = yes
+	gives_daimyo_bonuses = no
+	transfer_trade_if_merchant_republic = yes
+	can_be_annexed = no
+	can_fight_independence_war = no
+	joins_overlords_wars = yes
+	joins_colonial_wars = no
+	is_voluntary = no
+	can_release_in_peace = yes
+	overlord_can_attack = yes
+	uses_military_focus = no
+	takes_diplo_slot = no
+	gets_help_with_rebels = no
+	separatists_become_subjects = no
+	allows_taking_land_without_independence = no
+	
+	can_send_missionary_to_subject = yes
+	counts_for_borders = yes
+	share_rebel_popup = yes	
+	can_have_subjects_of_other_types = yes
+	overlord_can_be_subject = yes
+	overlord_protects_external = yes
+
+	base_liberty_desire = -100
+	
+	max_government_rank = 1
+
+	liberty_desire_development_ratio = 1
+	pays_overlord = 1.0
+	forcelimit_bonus = 0.5
+	forcelimit_to_overlord = 1.0
+	
+	military_focus = 1.25
+
+	relative_power_class = 0
+	
+	can_fight = {
+		same_overlord = vassal
+		same_overlord = client_vassal
+		same_overlord = faction_alliance
+		same_overlord = faction_horde
+	}
+	can_rival = {
+		same_overlord = vassal
+		same_overlord = client_vassal
+		same_overlord = faction_alliance
+		same_overlord = faction_horde
+	}
+	can_ally = {
+	}
+	can_marry = {
+	}
+	
+	restoration_cb = cb_disloyal_vassal
+
+	# Subject Interactions:
+	scutage = yes
+	place_relative_on_throne = yes
+	sacrifice_ruler = yes
+	sacrifice_heir = yes
+	divert_trade = yes
+	seize_territory = yes
+	
+	force_seppuku = no
+	contribute_to_capital = yes
+	return_land = no
+	conscript_general = yes
+
+	# Modifiers:
+	modifier_subject = {
+		modifier = magically_enslaved_subject
+	}
+	subject_opinion_modifier = is_vassal
 }

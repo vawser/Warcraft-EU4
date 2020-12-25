@@ -1,0 +1,15 @@
+
+owner = VLJ
+controller = VLJ
+add_core = VLJ
+
+base_tax = 6
+base_production = 3
+base_manpower = 3
+
+culture = culture_tideskorn
+religion = religion_titan
+
+trade_goods = artifacts 
+hre = no 
+

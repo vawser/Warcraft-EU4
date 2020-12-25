@@ -1,7 +1,0 @@
-# Hand of Vengeance
-government 			= expeditionary_force
-mercantilism 		= 10
-technology_group 	= tech_undead
-religion			= forgotten_shadow
-primary_culture 	= forsaken
-capital = 1

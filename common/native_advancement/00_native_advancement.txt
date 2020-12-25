@@ -6,28 +6,24 @@
 # ROOT = country picking the idea
 # groups set to colonial=yes will be higher prioritized by the AI when spending power
 
-warcraft_native_adm_ideas = {
+native_adm_ideas = {
 	category = ADM
 	
-	warcraft_native_adm_1 = {
-    
-    }
-    
-    warcraft_native_adm_2 = {
-    
-    }
-    
-    warcraft_native_adm_3 = {
-    
-    }
-    
-    warcraft_native_adm_4 = {
-    
-    }
-    
-    warcraft_native_adm_5 = {
-    
-    }
+	wwu_forestcraft = {
+		build_cost = -0.1
+	}
+	wwu_primitive_societies = {
+		global_tax_modifier = 0.25
+	}
+	wwu_bone_stacks = {
+		stability_cost_modifier = -0.2
+	}	
+	wwu_survival_of_the_fittest = {
+		global_unrest = -2
+	}
+	wwu_primitive_unity = {
+		adm_tech_cost_modifier = -0.15
+	}
 	
 	ai_will_do = {
 		factor = 1
@@ -35,28 +31,25 @@ warcraft_native_adm_ideas = {
 }
 
 
-warcraft_native_dip_ideas = {
+native_dip_ideas = {
 	category = DIP
 
-	warcraft_native_dip_1 = {
-    
-    }
-    
-    warcraft_native_dip_2 = {
-    
-    }
-    
-    warcraft_native_dip_3 = {
-    
-    }
-    
-    warcraft_native_dip_4 = {
-    
-    }
-    
-    warcraft_native_dip_5 = {
-    
-    }
+	wwu_migrative_traditions = {
+		migration_cooldown = -0.25
+		auto_explore_adjacent_to_colony = yes
+	}
+	wwu_primitive_ceremonies = { 
+		diplomatic_reputation = 1
+	}
+	wwu_trade_diplomacy = {
+		improve_relation_modifier = 0.5
+	}
+	wwu_primitive_migrations = { 
+		colonists = 1
+	}
+	wwu_greenseer_visions = { 
+		dip_tech_cost_modifier = -0.15
+	}
 	
 	ai_will_do = {
 		factor = 1
@@ -64,28 +57,24 @@ warcraft_native_dip_ideas = {
 }
 
 
-warcraft_native_mil_ideas = {
+native_mil_ideas = {
 	category = MIL	
 	
-	warcraft_native_mil_1 = {
-    
-    }
-    
-    warcraft_native_mil_2 = {
-    
-    }
-    
-    warcraft_native_mil_3 = {
-    
-    }
-    
-    warcraft_native_mil_4 = {
-    
-    }
-    
-    warcraft_native_mil_5 = {
-    
-    }
+	wwu_warrior_society = {
+		land_morale = 0.1
+	}
+	wwu_raid_warfare = {
+		leader_land_shock = 1
+	}
+	wwu_tribal_adoptions = {
+		land_forcelimit_modifier = 0.33
+	}
+	wwu_forest_paths = {
+		land_attrition = -0.20
+	}
+	wwu_flexible_warfare = {
+		mil_tech_cost_modifier = -0.15
+	}
 	
 	ai_will_do = {
 		factor = 1

@@ -30,6 +30,10 @@ propagate_religion_policy = {
 		}
 		modifier = {
 			factor = 0
+			province_id = 118 # Rome, seat of Papacy
+		}
+		modifier = {
+			factor = 0
 			has_province_modifier = religious_zeal_at_conv
 		}
 		modifier = {
@@ -57,52 +61,6 @@ propagate_religion_policy = {
 				religion_group = FROM
 			}
 		}
-	}
-}
-
-
-# Centers of Reformation
-# From Scope is center of Reformation Province
-# Will only target provinces on same continent
-fel_center_of_reformation = {
-	religion = fel
-
-	map_icon = GFX_religious_conversion_center_protestant
-
-	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
-	base_conversion_speed = 5.0
-
-	target_province_weights = {
-		factor = 5
-		
-		modifier = {
-			factor = 0
-			is_empty = yes
-		}
-		modifier = {
-			factor = 0
-			has_missionary = yes
-		}
-		modifier = {
-			factor = 0
-			has_province_modifier = religious_center
-		}
-		modifier = {
-			factor = 0
-			has_province_modifier = religious_zeal_at_conv
-		}
-		modifier = {
-			factor = 0
-			NOT = { continent = FROM }
-		}
-		modifier = {
-			factor = 1.5
-			culture_group = FROM
-		}
-		modifier = {
-			factor = 2
-			culture = FROM
-		}	
 	}
 }
 

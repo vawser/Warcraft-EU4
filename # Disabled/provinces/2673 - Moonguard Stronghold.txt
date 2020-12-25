@@ -1,0 +1,15 @@
+
+owner = MOG
+controller = MOG
+add_core = MOG
+
+base_tax = 7
+base_production = 7
+base_manpower = 7
+
+culture = culture_highbourne
+religion = religion_arcane
+
+trade_goods = flying_mounts
+hre = no
+

@@ -2,188 +2,198 @@
 # Monarchy
 #--------------------------------------------
 monarchy = {
-    color = { 179 25 25 }
+    color = { 66 134 244 }
     
     basic_reform = monarchy_mechanic
     
     reform_levels = {
-        government_form_monarchy = {
+        tier_monarchy_government_form = {
 			reforms = {
-                human_government_form
-                dwarf_government_form
-                dark_iron_dwarf_government_form
-                hill_dwarf_government_form
-                tolvir_government_form
-                nerubian_government_form
-                vrykul_government_form
-                frost_vrykul_government_form
-                kvaldir_government_form
-                red_dragonflight_government_form
-                green_dragonflight_government_form
-                black_dragonflight_government_form
-                blue_dragonflight_government_form
-                bronze_dragonflight_government_form
-                pandaren_government_form
-                dryad_government_form
-                frost_nymph_government_form
-                crystal_nymph_government_form
-                jinyu_government_form
-                arrakoa_government_form
-                sethrak_government_form
-                gnome_government_form
-                high_elf_government_form
-                blood_elf_government_form
-                nightborne_government_form
-                undead_government_form
-                scourge_government_form
-                qiraji_government_form
-                mantid_government_form
-                mogu_government_form
-                naga_government_form
-                ogre_government_form
-                orc_government_form
-                pale_orc_government_form
-                fel_orc_government_form
-                zandalari_troll_government_form
-                jungle_troll_government_form
-                forest_troll_government_form
-                sand_troll_government_form
-                frost_troll_government_form
-                blood_troll_government_form
-                dark_troll_government_form
-                yaungol_government_form
-                saurok_government_form
-                goblin_government_form
-                ethereal_government_form
-                pirate_government_form
+                autocracy_reform
+                feudalism_reform
+                ancient_kingdom_reform
+                horde_reform
+                alliance_reform
+                scourge_reform
+                admiralty_reform
+                kingdom_of_magic_reform
+                naga_domain_reform
+                scourge_domain_reform
+                dragonflight_brood_reform
 			}
 		}
-        bureaucracy_monarchy = {
-            reforms = {
-                taxation_reform
-                manpower_reform
-                production_reform
-                trade_reform
-            }
-        }
-        court_monarchy = {
-            reforms = {
-                local_advisors_reform
-                exotic_advisors_reform
-                vetted_advisors_reform
-                famous_advisors_reform
-            }
-        }
-        rule_of_law_monarchy = {
-            reforms = {
-                absolute_authority_reform
-                central_authority_reform
-                regional_authority_reform
-                local_authority_reform
-            }
-        }
-        justice_monarchy = {
-            reforms = {
-                court_justice_reform
-                community_justice_reform
-                torture_justice_reform
-                death_justice_reform
-            }
-        }
-        ambitions_monarchy = {
-            reforms = {
-                disciplined_army_reform
-                peerless_navy_reform
-                beloved_diplomats_reform
-                keen_minds_reform
-                inquistorial_fury_reform
-                burning_scrutiny_reform
-                fed_and_plump_reform
-                mercantile_infamy_reform
-            }
-        }
+        tier_monarchy_hereditary_vs_nobility = {
+			reforms = {
+				wwu_enforce_privileges_reform
+				wwu_quash_noble_power_reform
+				wwu_enforce_trader_privileges_reform
+				wwu_azerothian_traders_reform
+				wwu_druidic_syncretism_reform
+				wwu_elvish_nobles_reform
+				wwu_strength_of_the_vrykul_reform
+				wwu_draenei_society_reform
+                wwu_hereditary_rule_reform
+			}
+		}
+		tier_monarchy_bureaucracy = {
+			reforms = {
+				wwu_centralize_reform
+				wwu_decentralize_reform
+				wwu_kalimdor_recruitment
+				wwu_august_celestials_reform
+                wwu_penal_colonies_reform
+                wwu_justified_conquest_reform
+			}
+		}
+		tier_monarchy_growth_of_administration = {
+			reforms = {
+				wwu_clergy_in_administration_reform
+				wwu_of_noble_bearing_reform
+				wwu_meritocratic_focus_reform
+				wwu_dwarven_culture_reform
+				wwu_formalized_hoof_reform
+			}
+		}
+		tier_monarchy_deliberative_assembly = {
+			reforms = {
+				wwu_parliamentary_reform
+				wwu_royal_decree_reform
+				wwu_aristocratic_court_reform
+				wwu_states_general_reform
+				wwu_general_estates_reform
+			}
+		}
+		tier_monarchy_absolute_rule_vs_constitutional = {
+			reforms = {
+				wwu_law_and_order_reform
+				wwu_regional_representation_reform
+                wwu_militarized_state_reform
+			}
+		}
+		tier_monarchy_separation_of_power = {
+			reforms = {
+				wwu_political_absolutism_reform
+				wwu_legislative_houses_reform
+				wwu_become_a_republic_reform
+				wwu_become_a_theocracy_reform
+			}
+		}
     }
     
     legacy_government = {
-        human_kingdom_legacy
-        dwarf_kingdom_legacy
-        dark_iron_kingdom_legacy
-        tolvir_kingdom_legacy
-        nerubian_kingdom_legacy
-        vrykul_kingdom_legacy
-        dragon_council_legacy
-        pandaren_commune_legacy
-        dryad_commune_legacy
-        jinyu_kingdom_legacy
-        arrakoa_kingdom_legacy
-        sethrak_kingdom_legacy
-        technocracy_legacy
-        magocracy_legacy
-        forsaken_warband_legacy
-        scourge_warband_legacy
-        qiraji_hive_legacy
-        mantid_hive_legacy
-        mogu_clan_legacy
-        naga_clan_legacy
-        ogre_clan_legacy
-        orc_clan_legacy
-        troll_tribe_legacy
-        yaungol_tribe_legacy
-        saurok_tribe_legacy
-        trade_cartel_legacy
-        ethereal_cartel_legacy
-        pirate_clan_legacy
-        
+        autocracy_legacy
+        feudalism_legacy
+        ancient_kingdom_legacy
+        horde_legacy
+        alliance_legacy
+        scourge_legacy
+        admiralty_legacy
+        kingdom_of_magic_legacy
+        naga_domain_legacy
+        scourge_domain_legacy
+        remnants_monarchy_legacy
+        dragonflight_brood_legacy
     }
+}
+
+#--------------------------------------------
+# Republic
+#--------------------------------------------
+republic = {
+    color = { 66 244 113 }
     
-    exclusive_reforms = {
-        human_government_form
-        dwarf_government_form
-		dark_iron_dwarf_government_form
-		hill_dwarf_government_form
-		tolvir_government_form
-		nerubian_government_form
-		vrykul_government_form
-		frost_vrykul_government_form
-		kvaldir_government_form
-		red_dragonflight_government_form
-		green_dragonflight_government_form
-		black_dragonflight_government_form
-		blue_dragonflight_government_form
-		bronze_dragonflight_government_form
-		pandaren_government_form
-		dryad_government_form
-		frost_nymph_government_form
-		crystal_nymph_government_form
-		jinyu_government_form
-		arrakoa_government_form
-		sethrak_government_form
-		gnome_government_form
-		high_elf_government_form
-		blood_elf_government_form
-		nightborne_government_form
-		undead_government_form
-		scourge_government_form
-		qiraji_government_form
-		mantid_government_form
-		mogu_government_form
-		naga_government_form
-		ogre_government_form
-		orc_government_form
-		pale_orc_government_form
-		fel_orc_government_form
-		zandalari_troll_government_form
-		jungle_troll_government_form
-		forest_troll_government_form
-		sand_troll_government_form
-		frost_troll_government_form
-		blood_troll_government_form
-		dark_troll_government_form
-		yaungol_government_form
-		saurok_government_form
-		goblin_government_form
-		ethereal_government_form
-		pirate_government_form
+    basic_reform = republic_mechanic
+    
+    reform_levels = {
+        tier_republic_government_form = {
+			reforms = {
+                noble_republic_reform
+                mercantile_republic_reform
+                despotic_republic_reform
+                ancient_republic_reform
+                magocracy_reform
+                free_city_reform
+                trading_city_reform
+                colonial_government_reform
+			}
+		}
+        tier_republic_republican_virtues = {
+			reforms = {
+				wwu_republican_authoritarianism_reform
+				wwu_nepotism_reform
+				wwu_republicanism_reform
+			}
+		}
+		tier_republic_frequency_of_elections = {
+			reforms = {
+				wwu_frequent_elections_reform
+				wwu_consolidation_of_power_reform
+				wwu_lottery_reform
+			}
+		}
+		tier_republic_regionalism = {
+			reforms = {
+				wwu_provincial_governments_reform
+				wwu_administrative_divisions_reform
+				wwu_union_of_states_reform
+				wwu_penal_colonies_reform
+                wwu_justified_conquest_reform
+			}
+		}
+		tier_republic_separation_of_power = {
+			reforms = {
+				wwu_parliamentary_reform
+				wwu_presidential_reform
+                wwu_republican_diplomacy_reform
+                wwu_municipal_self_defense_reform
+			}
+		}
+		tier_republic_consolidation_of_power = {
+			reforms = {
+				wwu_broaden_executive_powers_reform
+				wwu_devolution_of_powers_reform
+                wwu_militarized_state_reform
+			}
+		}
+		tier_republic_guiding_principle_of_administration = {
+			reforms = {
+				wwu_political_principle_reform
+				wwu_moral_principle_reform
+			}
+		}
+		tier_republic_electorate = {
+			reforms = {
+				wwu_landholders_reform
+				wwu_citizenry_reform
+			}
+		}
+		tier_republic_office_selection = {
+			reforms = {
+				wwu_appointment_by_committee_reform
+				wwu_bureaucratic_aparatus_reform
+				wwu_universal_suffrage_reform
+			}
+		}
+		tier_republic_question_of_dictatorship = {
+			reforms = {
+				wwu_become_a_monarchy_reform
+				wwu_become_a_theocracy_reform
+				wwu_strengthen_executive_powers_reform
+				wwu_reinforce_republican_values_reform
+			}
+		}
+    }
+
+    legacy_government = {
+        noble_republic_legacy
+        mercantile_republic_legacy
+        despotic_republic_legacy
+        ancient_republic_legacy
+        magocracy_legacy
+        free_city_legacy
+        trading_city_legacy
+        colonial_government_legacy
+        remnants_republic_legacy
     }
 }
 
@@ -191,115 +201,95 @@ monarchy = {
 # Theocracy
 #--------------------------------------------
 theocracy = {
-    color = { 179 25 25 }
+    color = { 244 203 66 }
     
     basic_reform = theocracy_mechanic
     
     reform_levels = {
-        government_form_theocracy = {
+        tier_theocracy_government_form = {
 			reforms = {
-				night_elf_government_form
-                draenei_government_form
-                holy_order_government_form
-                night_elf_order_government_form
-                draenei_order_government_form
-                titan_government_form
-                frost_dwarf_government_form
-                earthen_government_form
-                nraqi_government_form
-                void_government_form
-                demon_government_form
-                ulduar_government_form
-                faldorei_government_form
-                nightfallen_government_form
-                felblood_government_form
-                felborne_government_form
-                void_elf_government_form
-                wretched_government_form
-                lost_one_government_form
+                theocracy_reform
+                monastic_order_reform
+                ancient_theocracy_reform
+                scarlet_crusade_reform
+                argent_crusade_reform
+                demonic_order_reform
+                druidic_circle_reform
+                elemental_cult_reform
 			}
 		}
-        bureaucracy_theocracy = {
-            reforms = {
-                taxation_reform
-                manpower_reform
-                production_reform
-                trade_reform
-            }
-        }
-        court_theocracy = {
-            reforms = {
-                local_advisors_reform
-                exotic_advisors_reform
-                vetted_advisors_reform
-                famous_advisors_reform
-            }
-        }
-        rule_of_law_theocracy = {
-            reforms = {
-                absolute_authority_reform
-                central_authority_reform
-                regional_authority_reform
-                local_authority_reform
-            }
-        }
-        justice_theocracy = {
-            reforms = {
-                court_justice_reform
-                community_justice_reform
-                torture_justice_reform
-                death_justice_reform
-            }
-        }
-        ambitions_theocracy = {
-            reforms = {
-                disciplined_army_reform
-                peerless_navy_reform
-                beloved_diplomats_reform
-                keen_minds_reform
-                inquistorial_fury_reform
-                burning_scrutiny_reform
-                fed_and_plump_reform
-                mercantile_infamy_reform
-            }
-        }
+        tier_theocracy_internal_vs_external_mission = {
+			reforms = {
+				wwu_internal_mission_reform
+				wwu_external_mission_reform
+				wwu_mission_to_civilize_reform
+				wwu_mission_to_kill_pirates_reform
+			}
+		}
+		tier_theocracy_divine_cause = {
+			reforms = {
+				wwu_safeguard_holy_sites_reform
+				wwu_combat_heresy_reform
+				wwu_expel_heathens_reform
+                wwu_justified_conquest_reform
+			}
+		}
+		tier_theocracy_clergy_in_administration = {
+			reforms = {
+				wwu_subservient_administrators_reform
+				wwu_religious_administrators_reform
+				wwu_pious_merchants_reform
+				wwu_loyal_nobility_reform
+				wwu_monastic_breweries_reform
+				wwu_troll_warriors_reform
+				wwu_demonic_advisors_reform
+			}
+		}
+		tier_theocracy_secularization = {
+			reforms = {
+				wwu_maintain_religious_head_reform
+				wwu_partial_secularisation_reform
+                wwu_militarized_state_reform
+                wwu_become_a_monarchy_reform
+                wwu_become_a_republic_reform
+			}
+		}
+		tier_theocracy_separation_of_power = {
+			reforms = {
+				wwu_clerical_commission_reform
+				wwu_divine_guidance_reform
+				wwu_theocratic_democracy_reform
+			}
+		}
+		tier_theocracy_nature_of_faith = {
+			reforms = {
+				wwu_church_and_state_reform
+				wwu_religious_harmony_reform
+				wwu_god_and_man_reform
+				wwu_organising_our_religion_reform
+			}
+		}
+		tier_theocracy_faith_and_the_world = {
+			reforms = {
+				wwu_religion_in_one_country_reform
+				wwu_religious_permanent_revolution_reform
+				wwu_many_fingers_of_god_reform
+				wwu_priestly_autonomy_reform
+				wwu_proclaim_religious_head_reform
+			}
+		}
     }
     
     legacy_government = {
-        night_elf_theocracy_legacy
-        draenei_theocracy_legacy
-        holy_order_legacy
-        night_elf_order_legacy
-        draenei_order_legacy
-        titan_order_legacy
-        earthen_order_legacy
-        nraqi_cult_legacy
-        void_cult_legacy
-        demon_cult_legacy
-        arcane_cult_legacy
-        
-    }
-    
-    exclusive_reforms = {
-        night_elf_government_form
-        draenei_government_form
-        holy_order_government_form
-        night_elf_order_government_form
-        draenei_order_government_form
-        titan_government_form
-        frost_dwarf_government_form
-        earthen_government_form
-        nraqi_government_form
-        void_government_form
-        demon_government_form
-        ulduar_government_form
-        faldorei_government_form
-        nightfallen_government_form
-        felblood_government_form
-        felborne_government_form
-        void_elf_government_form
-        wretched_government_form
-        lost_one_government_form
+        theocracy_legacy
+        monastic_order_legacy
+        ancient_theocracy_legacy
+        scarlet_crusade_legacy
+        argent_crusade_legacy
+        demonic_order_legacy
+        druidic_circle_legacy
+        remnants_theocracy_legacy
+        elemental_cult_legacy
     }
 }
 
@@ -307,226 +297,131 @@ theocracy = {
 # Tribal
 #--------------------------------------------
 tribal = {
-    color = { 179 25 25 }
+    color = { 244 69 66 }
     
     basic_reform = tribal_mechanic
     
     reform_levels = {
-        government_form_tribal = {
+        tier_tribal_government_form = {
 			reforms = {
-				tauren_government_form
-                highmountain_tauren_government_form
-                taunka_government_form
-                tuskarr_government_form
-                furbolg_government_form
-                gnoll_government_form
-                gorloc_government_form
-                harpy_government_form
-                hozen_government_form
-                kobold_government_form
-                magnataur_government_form
-                murloc_government_form
-                pygmy_government_form
-                quillboar_government_form
-                spriteling_government_form
-                wolvar_government_form
-                trogg_government_form
-                broken_government_form
-                grummle_government_form
-                frost_giant_government_form
-                sea_giant_government_form
-                drogbar_government_form
-                fungarian_government_form
-                botani_government_form
-                podling_government_form
-                sporeling_government_form
-                saberon_government_form
-                tortollan_government_form
-                virmen_government_form
-                vulpera_government_form
+                warband_reform
+                tribal_federation_reform
+                tribal_despotism_reform
+                ancient_clan_reform
+                primitive_clan_reform
+                expeditionary_force_reform
+                criminal_organization_reform
 			}
 		}
-        bureaucracy_tribal = {
-            reforms = {
-                taxation_reform
-                manpower_reform
-                production_reform
-                trade_reform
-            }
-        }
-        court_tribal = {
-            reforms = {
-                local_advisors_reform
-                exotic_advisors_reform
-                vetted_advisors_reform
-                famous_advisors_reform
-            }
-        }
-        rule_of_law_tribal = {
-            reforms = {
-                absolute_authority_reform
-                central_authority_reform
-                regional_authority_reform
-                local_authority_reform
-            }
-        }
-        justice_tribal = {
-            reforms = {
-                court_justice_reform
-                community_justice_reform
-                torture_justice_reform
-                death_justice_reform
-            }
-        }
-        ambitions_tribal = {
-            reforms = {
-                disciplined_army_reform
-                peerless_navy_reform
-                beloved_diplomats_reform
-                keen_minds_reform
-                inquistorial_fury_reform
-                burning_scrutiny_reform
-                fed_and_plump_reform
-                mercantile_infamy_reform
-            }
-        }
+        tier_tribal_cultural_values = {
+			reforms = {
+				wwu_martial_society_reform
+				wwu_civil_society_reform
+			}
+		}
+		tier_tribal_religious_values = {
+			reforms = {
+				wwu_religious_societies_reform
+				wwu_lip_service_reform
+			}
+		}
+		tier_tribal_modernization = {
+			reforms = {
+				wwu_centralize_tribal_power_reform
+				wwu_retain_tribal_hierarchy_reform
+			}
+		}
+		tier_tribal_reformation = {
+			reforms = {
+				wwu_become_a_monarchy_reform
+				wwu_become_a_republic_reform
+				wwu_become_a_theocracy_reform
+				wwu_become_a_warband_reform
+                wwu_barbaric_despoilers_reform
+				wwu_tribal_unity_reform
+                wwu_militarized_state_reform
+			}
+		}
     }
     
     legacy_government = {
-        tauren_tribe_legacy
-        taunka_tribe_legacy
-        tuskarr_tribe_legacy
-        furbolg_tribe_legacy
-        gnoll_tribe_legacy
-        gorloc_tribe_legacy
-        harpy_tribe_legacy
-        hozen_tribe_legacy
-        kobold_tribe_legacy
-        magnataur_tribe_legacy
-        murloc_tribe_legacy
-        pygmy_tribe_legacy
-        quillboar_tribe_legacy
-        spriteling_tribe_legacy
-        wolvar_tribe_legacy
-        trogg_tribe_legacy
-        broken_tribe_legacy
-        grummle_tribe_legacy
-        frost_giant_tribe_legacy
-        sea_giant_tribe_legacy
-        drogbar_tribe_legacy
-        fungarian_tribe_legacy
-        botani_tribe_legacy
-        podling_tribe_legacy
-        sporeling_tribe_legacy
-        saberon_tribe_legacy
-        tortollan_tribe_legacy
-        virmen_tribe_legacy
-        vulpera_tribe_legacy
-    }
-    
-    exclusive_reforms = {
-        tauren_government_form
-        highmountain_tauren_government_form
-        taunka_government_form
-        tuskarr_government_form
-        furbolg_government_form
-        gnoll_government_form
-        gorloc_government_form
-        harpy_government_form
-        hozen_government_form
-        kobold_government_form
-        magnataur_government_form
-        murloc_government_form
-        pygmy_government_form
-        quillboar_government_form
-        spriteling_government_form
-        wolvar_government_form
-        trogg_government_form
-        broken_government_form
-        grummle_government_form
-        frost_giant_government_form
-        sea_giant_government_form
-        drogbar_government_form
-        fungarian_government_form
-        botani_government_form
-        podling_government_form
-        sporeling_government_form
-        saberon_government_form
-        tortollan_government_form
-        virmen_government_form
-        vulpera_government_form
+        warband_legacy
+        tribal_federation_legacy
+        tribal_despotism_legacy
+        ancient_clan_legacy
+        primitive_clan_legacy
+        expeditionary_force_legacy
+        criminal_organization_legacy
+        remnants_tribe_legacy
     }
 }
 
 #--------------------------------------------
-# Nomadic
+# Native
 #--------------------------------------------
-nomadic = {
-    color = { 179 25 25 }
+native = {
+    color = { 194 127 209 }
     
-    basic_reform = nomadic_mechanic
-    
+	basic_reform = native_mechanic
+
     reform_levels = {
-        government_form_nomadic = {
+        tier_native_government_form = {
 			reforms = {
-				centaur_government_form
-                satyr_government_form
+                native_tribe_reform
+                primitive_tribe_reform
 			}
 		}
-        bureaucracy_nomadic = {
-            reforms = {
-                taxation_reform
-                manpower_reform
-                production_reform
-                trade_reform
-            }
-        }
-        court_nomadic = {
-            reforms = {
-                local_advisors_reform
-                exotic_advisors_reform
-                vetted_advisors_reform
-                famous_advisors_reform
-            }
-        }
-        rule_of_law_nomadic = {
-            reforms = {
-                absolute_authority_reform
-                central_authority_reform
-                regional_authority_reform
-                local_authority_reform
-            }
-        }
-        justice_nomadic = {
-            reforms = {
-                court_justice_reform
-                community_justice_reform
-                torture_justice_reform
-                death_justice_reform
-            }
-        }
-        ambitions_nomadic = {
-            reforms = {
-                disciplined_army_reform
-                peerless_navy_reform
-                beloved_diplomats_reform
-                keen_minds_reform
-                inquistorial_fury_reform
-                burning_scrutiny_reform
-                fed_and_plump_reform
-                mercantile_infamy_reform
-            }
-        }
+    }
+    
+	legacy_government = {
+		native_tribe_legacy
+        primitive_tribe_legacy
+	}
+}
+
+#--------------------------------------------
+# Pirate
+#--------------------------------------------
+pirate = {
+    color = { 10 10 10 }
+    
+    basic_reform = pirate_mechanic
+    
+    reform_levels = {
+        tier_pirate_government_form = {
+			reforms = {
+                pirate_kingdom_reform
+                pirate_republic_reform
+			}
+		}
+        tier_pirate_governance = {
+			reforms = {
+				wwu_council_of_captains_reform
+                wwu_articles_of_agreement_reform
+                wwu_smugglers_haven_reform
+			}
+		}
+		tier_pirate_principles = {
+			reforms = {
+				wwu_war_against_the_world_doctrine_reform
+				wwu_black_market_consortium_reform
+                wwu_justified_conquest_reform
+			}
+		}
+		tier_pirate_reformation = {
+			reforms = {
+                wwu_strengthen_pirate_unity_reform
+                wwu_militarized_state_reform
+				wwu_become_a_monarchy_reform
+				wwu_become_a_republic_reform
+				wwu_become_a_theocracy_reform
+			}
+		}
     }
     
     legacy_government = {
-        centaur_clan_legacy
-        satyr_clan_legacy
-    }
-    
-    exclusive_reforms = {
-        centaur_government_form
-        satyr_government_form
+        pirate_kingdom_legacy
+        pirate_republic_legacy
     }
 }
 

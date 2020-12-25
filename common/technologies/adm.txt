@@ -1,290 +1,367 @@
 monarch_power = ADM
 
+# applied when a country is ahead of time in this technology
 ahead_of_time = {
 	production_efficiency = 0.2
-    yearly_corruption = -0.05
+	yearly_corruption = -0.05
 }
 
-# 0
+# Pre-era techs
 technology = {
-	year = 686
-    
-    tauren_tribe_legacy = yes
-	taunka_tribe_legacy = yes
-	tuskarr_tribe_legacy = yes
-	furbolg_tribe_legacy = yes
-	gnoll_tribe_legacy = yes
-	gorloc_tribe_legacy = yes
-	harpy_tribe_legacy = yes
-	hozen_tribe_legacy = yes
-	kobold_tribe_legacy = yes
-	magnataur_tribe_legacy = yes
-	murloc_tribe_legacy = yes
-	pygmy_tribe_legacy = yes
-	quillboar_tribe_legacy = yes
-	spriteling_tribe_legacy = yes
-	wolvar_tribe_legacy = yes
-	trogg_tribe_legacy = yes
-	broken_tribe_legacy = yes
-	grummle_tribe_legacy = yes
-	frost_giant_tribe_legacy = yes
-	sea_giant_tribe_legacy = yes
-	drogbar_tribe_legacy = yes
-	fungarian_tribe_legacy = yes
-	botani_tribe_legacy = yes
-	podling_tribe_legacy = yes
-	sporeling_tribe_legacy = yes
-	saberon_tribe_legacy = yes
-	tortollan_tribe_legacy = yes
-	virmen_tribe_legacy = yes
-	vulpera_tribe_legacy = yes
+	# Tech 0
+	year = 546
 	
-    centaur_clan_legacy = yes
-	satyr_clan_legacy = yes
-}
-# 1
-technology = {
-	year = 726
-	
-	may_support_rebels = yes
-}
-# 2
-technology = {
-	year = 756
+	autocracy_legacy = yes
+    feudalism_legacy = yes
+    ancient_kingdom_legacy = yes
+    horde_legacy = yes
+    alliance_legacy = yes
+    scourge_legacy = yes
+    admiralty_legacy = yes
+    kingdom_of_magic_legacy = yes
+    naga_domain_legacy = yes
+    scourge_domain_legacy = yes
+    dragonflight_brood_legacy = yes
+        
+    noble_republic_legacy = yes
+    mercantile_republic_legacy = yes
+    despotic_republic_legacy = yes
+    ancient_republic_legacy = yes
+    magocracy_legacy = yes
+    free_city_legacy = yes
+    trading_city_legacy = yes
+    colonial_government_legacy = yes
     
-    human_kingdom_legacy = yes
-	dwarf_kingdom_legacy = yes
-	dark_iron_kingdom_legacy = yes
-	tolvir_kingdom_legacy = yes
-	nerubian_kingdom_legacy = yes
-	vrykul_kingdom_legacy = yes
-	dragon_council_legacy = yes
-	pandaren_commune_legacy = yes
-	dryad_commune_legacy = yes
-	jinyu_kingdom_legacy = yes
-	arrakoa_kingdom_legacy = yes
-	sethrak_kingdom_legacy = yes
-	technocracy_legacy = yes
-	magocracy_legacy = yes
-	forsaken_warband_legacy = yes
-	scourge_warband_legacy = yes
-	qiraji_hive_legacy = yes
-	mantid_hive_legacy = yes
-	mogu_clan_legacy = yes
-	naga_clan_legacy = yes
-	ogre_clan_legacy = yes
-	orc_clan_legacy = yes
-	troll_tribe_legacy = yes
-	yaungol_tribe_legacy = yes
-	saurok_tribe_legacy = yes
-	trade_cartel_legacy = yes
-	ethereal_cartel_legacy = yes
-	pirate_clan_legacy = yes
+    theocracy_legacy = yes
+    monastic_order_legacy = yes
+    ancient_theocracy_legacy = yes
+    scarlet_crusade_legacy = yes
+    argent_crusade_legacy = yes
+    demonic_order_legacy = yes
+    druidic_circle_legacy = yes
+    elemental_cult_legacy = yes
+    
+    warband_legacy = yes
+    tribal_federation_legacy = yes
+    tribal_despotism_legacy = yes
+    ancient_clan_legacy = yes
+    primitive_clan_legacy = yes
+    expeditionary_force_legacy = yes
+    criminal_organization_legacy = yes
+    
+    native_tribe_legacy = yes
+    primitive_tribe_legacy = yes
+    
+    pirate_kingdom_legacy = yes
+    pirate_republic_legacy = yes
+    
+    native_earthwork = yes
+    native_palisade = yes
+    native_fortified_house = yes
+    native_three_sisters_field = yes
+    native_irrigation = yes
+    native_storehouse = yes
+    native_longhouse = yes
+    native_sweat_lodge = yes
+    native_great_trail = yes
+    native_ceremonial_fire_pit = yes
+    
+    wow_temple = yes
+    wow_mine = yes
+    wow_farm = yes
+    wow_tavern = yes
+    
+    may_support_rebels = yes
 }
-# 3
+
 technology = {
-	year = 776
+	# Tech 1
+	year = 550
 
 	production_efficiency = 0.05
 }
-# 4
-technology = {
-	year = 789
 
-    farm = yes
-}
-# 5
 technology = {
-	year = 802
+	# Tech 2
+	year = 559
+
+	governing_capacity = 50
+}
+
+technology = {
+	# Tech 3
+	year = 572
+
+	production_efficiency = 0.05
+}
+
+technology = {
+	# Tech 4
+	year = 585
 
 	allowed_idea_groups = 1
-	production_efficiency = 0.05
 }
-# 6
-technology = {
-	year = 815
-	
-    tavern = yes
-}
-# 7
-technology = {
-	year = 828
-	
-	allowed_idea_groups = 2	
-}
-# 8
-technology = {
-	year = 841
 
-    town_hall = yes
-
-	max_states = 3
-}
-# 9
 technology = {
-	year = 854
+	# Tech 5
+	year = 598
+
+	governing_capacity = 50
+}
+
+technology = {
+	# Tech 6
+	year = 611
 
 	production_efficiency = 0.05
-    mine = yes
 }
-# 10
+
 technology = {
-	year = 867
+	# Tech 7
+	year = 624
 	
+	wow_internment_camp = yes
+    wow_citadel = yes
+}
+
+technology = {
+	# Tech 8
+	year = 637
+
+	allowed_idea_groups = 2
+}
+
+technology = {
+	# Tech 9
+	year = 650
+    
+    governing_capacity = 50
+}
+
+technology = {
+	# Tech 10
+	year = 663
+    
+    production_efficiency = 0.05
+}
+
+technology = {
+	# Tech 11
+	year = 676
+    
+     governing_capacity = 50
+}
+
+technology = {
+	# Tech 12
+	year = 689
+
 	allowed_idea_groups = 3
+}
 
-    night_elf_theocracy_legacy = yes
-	draenei_theocracy_legacy = yes
-	holy_order_legacy = yes
-	night_elf_order_legacy = yes
-	draenei_order_legacy = yes
-	titan_order_legacy = yes
-	earthen_order_legacy = yes
-	nraqi_cult_legacy = yes
-	void_cult_legacy = yes
-	demon_cult_legacy = yes
-	arcane_cult_legacy = yes
-}
-# 11
 technology = {
-	year = 880
-	
-    farmers_guild = yes
+	# Tech 13
+	year = 702
+    
+    production_efficiency = 0.05
 }
-# 12
+
 technology = {
-	year = 893
-	
-	max_states = 3
+	# Tech 14
+	year = 715
+    
+    governing_capacity = 50
 }
-# 13
+
 technology = {
-	year = 906
+	# Tech 15
+	year = 728
 	
-	production_efficiency = 0.05
+    wow_garrison = yes
 }
-# 14
+
 technology = {
-	year = 919
-	
+	# Tech 16
+	year = 741
+
 	allowed_idea_groups = 4
-    foresters_guild = yes
 }
-# 15
-technology = {
-	year = 932
-	
-	may_force_march = yes
-    grand_palace = yes
-}
-# 16
-technology = {
-	year = 945
-	
-	production_efficiency = 0.05
 
-    grand_temple = yes
-}
-# 17
 technology = {
-	year = 958
+	# Tech 17
+	year = 754
 
-	max_states = 5
-	
-	administrative_efficiency = 0.1
-	development_efficiency = 0.1
+    administrative_efficiency = 0.05
+    development_efficiency = 0.05
 }
-# 18
+
 technology = {
-	year = 971
-	
+	# Tech 18
+	year = 767
+
+    production_efficiency = 0.05
+}
+
+technology = {
+	# Tech 19
+	year = 780
+
+    governing_capacity = 50
+}
+
+technology = {
+	# Tech 20
+	year = 793
+
+    wow_grand_forge = yes
+    wow_palace = yes
+    wow_magic_tower = yes
+    wow_arcane_tower = yes
+    
 	allowed_idea_groups = 5
 }
-# 19
+
 technology = {
-	year = 984
-	
-    tourney_grounds = yes   
+	# Tech 21
+	year = 806
+
+    production_efficiency = 0.05
 }
-# 20
+
 technology = {
-	year = 997
+	# Tech 22
+	year = 819
 	
-	max_states = 5
+    governing_capacity = 50
 }
-# 21
+
 technology = {
-	year = 1010
-	
-	production_efficiency = 0.05
+	# Tech 23
+	year = 832
+
+    production_efficiency = 0.05
 }
-# 22
+
 technology = {
-	year = 1023
-	
+	# Tech 24
+	year = 845
+
 	allowed_idea_groups = 6
 }
-# 23
+
 technology = {
-	year = 1036
-	
-	administrative_efficiency = 0.1
-	development_efficiency = 0.1
+	# Tech 25
+	year = 858
+
+    administrative_efficiency = 0.05
+    development_efficiency = 0.05
 }
-# 24
+
 technology = {
-	year = 1049
-	
-	max_states = 5
+	# Tech 26
+	year = 871
+
+    production_efficiency = 0.05
 }
-# 25
+
 technology = {
-	year = 1062
-	
-	production_efficiency = 0.05
+	# Tech 27
+	year = 884
+
+    governing_capacity = 50
 }
-# 26
+
 technology = {
-	year = 1075
-	
+	# Tech 28
+	year = 897
+
 	allowed_idea_groups = 7
 }
-# 27
-technology = {
-	year = 1088
-	
-	administrative_efficiency = 0.1
-	development_efficiency = 0.1	
-	max_states = 5
-}
-# 28
-technology = {
-	year = 1101
 
-	production_efficiency = 0.05
-}
-# 29
 technology = {
-	year = 1114
+	# Tech 29
+	year = 910
+    
+    administrative_efficiency = 0.1
+    development_efficiency = 0.1
+}
+
+technology = {
+	# Tech 30
+	year = 923
+
+    governing_capacity = 50
+}
+
+technology = {
+	# Tech 31
+	year = 936
+
+    production_efficiency = 0.05
+}
+
+technology = {
+	# Tech 32
+	year = 949
 
 	allowed_idea_groups = 8
 }
-# 30
-technology = {
-	year = 1127
-	
-	production_efficiency = 0.05
-}
-# 31
-technology = {
-	year = 1140
 
-	max_states = 5
-}
-# 32
 technology = {
-	year = 1153
-	
-	production_efficiency = 0.05
+	# Tech 33
+	year = 962
+
+    administrative_efficiency = 0.1
+    development_efficiency = 0.1
 }
 
+technology = {
+	# Tech 34
+	year = 977
+
+    governing_capacity = 100
+}
+
+technology = {
+	# Tech 35
+	year = 992
+
+    production_efficiency = 0.1
+}
+
+technology = {
+	# Tech 36
+	year = 1007
+
+    administrative_efficiency = 0.1
+    development_efficiency = 0.1
+}
+
+technology = {
+	# Tech 37
+	year = 1022
+
+    governing_capacity = 150
+}
+
+technology = {
+	# Tech 38
+	year = 1037
+
+    production_efficiency = 0.15
+}
+
+technology = {
+	# Tech 39
+	year = 1052
+    
+    governing_capacity = 200
+}
+
+technology = {
+	# Tech 40
+	year = 1067
+
+    administrative_efficiency = 0.1
+    development_efficiency = 0.1
+}

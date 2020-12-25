@@ -32,6 +32,13 @@ defined_text = {
     name = StartScreenUpLeftDesc
 	random = no
 
+    # text = {
+        # localisation_key = string_start_history_enclave
+		# trigger = {
+            # tag = ENC
+		# }
+	# }
+    
 	text = {#Fallback
         localisation_key = string_start_tag_generic
 		trigger = {
@@ -58,6 +65,17 @@ defined_text = {
 # ------------------------------------------------------------------
 # Disabled
 # ------------------------------------------------------------------
+defined_text = {
+    name = StartScreenUpLeftTitle
+	random = no #Pick first that fits
+
+	text = {
+        localisation_key = string_start_title_fallback
+        trigger = {
+			always = yes
+        }
+    }
+}
 
 defined_text = {
     name = StartScreenUpRightTitle

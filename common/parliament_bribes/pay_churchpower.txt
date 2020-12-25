@@ -1,6 +1,6 @@
 pay_churchpower = {
 	trigger = {
-		uses_church_aspects = yes
+		church_power = 10
 	}
 	
 	effect = {

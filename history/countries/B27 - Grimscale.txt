@@ -1,0 +1,20 @@
+discover_home_continent = yes
+# Grimscale
+government 			= tribal
+add_government_reform = primitive_clan_reform
+mercantilism 		= 10 
+technology_group 	= tech_depths
+religion			= religion_water
+primary_culture 	= culture_nerglish
+capital = 1 # capital 			= 892
+
+618.1.1 = { 
+	monarch = { 
+		name = "Groggle" 
+		dynasty = "Grimscale" 
+		adm = 2
+		dip = 2
+		mil = 2
+	} 
+} 
+

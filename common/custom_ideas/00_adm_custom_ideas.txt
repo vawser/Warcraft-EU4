@@ -83,6 +83,7 @@ adm_idea_modifiers = {
 				factor = 0
 				OR = {
 					NOT = { government = monarchy }
+					has_reform = warband_reform
 				}
 			}
 		}
@@ -95,6 +96,10 @@ adm_idea_modifiers = {
 		# Used for random generation
 		chance = {
 			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { has_reform = warband_reform }
+			}
 		}
 	}
 	custom_idea_devotion = {
@@ -112,14 +117,18 @@ adm_idea_modifiers = {
 		}	
 	}
 	custom_idea_republican_tradition = {
-		republican_tradition = 0.5
+		republican_tradition = 0.15
 		max_level = 2
-		level_cost_1 = 30
-		level_cost_2 = 140	
+		level_cost_1 = 20
+		level_cost_2 = 60	
 		
 		# Used for random generation
 		chance = {
-			factor = 0
+			factor = 0.1
+			modifier = {
+				factor = 0
+				NOT = { government = republic }
+			}
 		}		
 	}		
 	custom_idea_technology_cost = {

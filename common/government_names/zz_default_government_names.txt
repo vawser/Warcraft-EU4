@@ -1,0 +1,146 @@
+# Fallback defaults
+# Will pick the first valid one it finds in list
+
+default_monarchy = {
+	rank = {
+		1 = DUCHY
+        2 = KINGDOM
+        3 = EMPIRE
+	}	
+	
+	ruler_male = {
+		1 = DUKE
+        2 = KING
+        3 = EMPEROR
+	}
+	
+	ruler_female = {
+		1 = DUCHESS
+        2 = QUEEN
+        3 = EMPRESS
+	}
+	
+	consort_male  = {
+		1 = PRINCE_CONSORT
+		2 = PRINCE_CONSORT
+		3 = PRINCE_CONSORT
+	}
+	
+	consort_female = {
+		1 = CONSORT
+        2 = QUEEN_CONSORT
+        3 = EMPRESS_CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+	
+	heir_female = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+	
+	trigger = {
+		government = monarchy
+	}
+}
+
+default_republic = {
+	rank = {
+		1 = REPUBLIC
+        2 = GREAT_REPUBLIC
+        3 = GRAND_REPUBLIC
+	}
+	
+	ruler_male = {
+		1 = CONSUL
+        2 = GREAT_CONSUL
+        3 = GRAND_CONSUL
+	}
+	
+	ruler_female = {
+		1 = CONSULESS
+        2 = GREAT_CONSULESS
+        3 = GRAND_CONSULESS
+	}
+	
+	trigger = {
+		government = republic
+	}
+}
+
+default_theocracy = {
+	rank = {
+		1 = BISHOPRIC
+        2 = ARCHBISHOPRIC
+        3 = PATRIARCHATE
+	}
+	
+	ruler_male = {
+		1 = BISHOP
+        2 = ARCHBISHOP
+        3 = PATRIARCH
+	}
+	
+	ruler_female = {
+		1 = BISHOP_fem
+        2 = ARCHBISHOP_fem
+        3 = MATRIARCH
+	}
+	
+	trigger = {
+		government = theocracy
+	}
+}
+
+gov_tribal = {
+	rank = {
+		1 = CLAN
+		2 = CLAN
+		3 = CLAN
+	}
+	
+	ruler_male = {
+		1 = CHIEF
+        2 = CHIEF
+        3 = CHIEF
+	}
+	
+	ruler_female = {
+		1 = CHIEFTESS
+        2 = CHIEFTESS
+        3 = CHIEFTESS
+	}
+	
+	trigger = {
+        government = tribal
+	}
+}
+
+gov_pirate = {
+	rank = {
+        1 = PIRATE_KINGDOM
+        2 = PIRATE_KINGDOM
+        3 = PIRATE_KINGDOM
+	}
+	
+	ruler_male = {
+		1 = PIRATE_KING
+        2 = PIRATE_KING
+        3 = PIRATE_KING
+	}
+	
+	ruler_female = {
+		1 = PIRATE_QUEEN
+        2 = PIRATE_QUEEN
+        3 = PIRATE_QUEEN
+	}
+	
+	trigger = {
+        government = pirate
+	}
+}

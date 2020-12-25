@@ -1,8 +1,0 @@
-# Use to force advisor gfx
-change_graphical_culture = nerubiangfx
-change_primary_culture = nerubian
-
-every_owned_province = {
-    change_culture = nerubian
-}
-

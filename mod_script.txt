@@ -1,3 +1,0 @@
-every_owned_province = {
-    change_culture = wildhammer
-}

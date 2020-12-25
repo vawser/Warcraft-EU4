@@ -1,0 +1,18 @@
+
+is_city = yes
+
+owner = A72
+controller = A72
+add_core = A72
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+culture = culture_hakkari
+religion = religion_hakkari
+
+trade_goods = flying_mounts
+hre = no
+
+

@@ -1,4 +1,0 @@
-# Fix CTD on Temple icon hover in province building menu
-# Add province names
-# Add area names
-# Add province religion / cultures

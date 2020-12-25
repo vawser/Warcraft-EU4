@@ -1,8 +1,0 @@
-# Religion
-on_buy_religious_reform = { }
-on_religion_change = { }
-on_fetishist_cult_change = { }
-on_consecrate_patriarch = { }   # ROOT = Province
-
-# on_harmonized_<religion>
-

@@ -1,0 +1,34 @@
+discover_home_continent = yes
+# Mudsnout
+government 			= tribal
+add_government_reform = primitive_clan_reform
+mercantilism 		= 10 
+technology_group 	= tech_gnoll
+religion			= religion_earth
+primary_culture 	= culture_mudsnout
+capital = 1 # capital 			= 2968
+
+546.1.1 = { 
+monarch = { 
+     name = "Muzzlemaw" 
+     dynasty = "Mudsnout" 
+		adm = 3
+		dip = 3
+		mil = 3
+ 	} 
+ } 
+
+618.1.1 = { 
+	capital = 1 # capital = 845
+}
+
+622.1.1 = { 
+	monarch = {
+		name = "Ro'Bark" 
+		dynasty = "Mudsnout" 	
+		adm = 2		
+		dip = 2	
+		mil = 2
+	} 
+} 
+

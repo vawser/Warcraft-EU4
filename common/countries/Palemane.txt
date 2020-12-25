@@ -1,181 +1,131 @@
-graphical_culture = gnoll_gfx
+# Woodpaw Gnolls
+graphical_culture = westerngfx
 
-color = { 119 143 115 }
-
+color = { 232 209 135 }
 monarch_names = {
-	"Zahh #0" = 20
-	"Bablo #0" = 20
-	"Brig #0" = 20
-	"Jicdir #0" = 20
-	"Dazk #0" = 20
-	"Eglozz #0" = 20
-	"Jar #0" = 20
-	"Brug #0" = 20
-	"Brozz #0" = 20
-	"Megle #0" = 20
-	"Eblarg #0" = 20
-	"Drandirg #0" = 20
-	"Brek #0" = 20
-	"Ruff #0" = 20
-	"Von #0" = 20
-	"Greff #0" = 20
-	"Soc #0" = 20
-	"Rok #0" = 20
-	"Buzg #0" = 20
-	"Niz #0" = 20
-	"Nik #0" = 20
-	"Grorgle #0" = 20
-	"Gad #0" = 20
-	"Run #0" = 20
-	"Dizg #0" = 20
-	"Drurklin #0" = 20
-	"Brerg #0" = 20
-	"Joklark #0" = 20
-	"Brildozg #0" = 20
-	"Dordiff #0" = 20
-	"Bed #0" = 20
-	"Jegtag #0" = 20
-	"Sarkli #0" = 20
-	"Hingigg #0" = 20
-	"Mugif #0" = 20
-	"Vozz #0" = 20
-	"Gukler #0" = 20
-	"Harglerk #0" = 20
-	"Brildokk #0" = 20
-	"Hiz #0" = 20
-	"Yappelt #0" = 20
-	"Zizz #0" = 20
-	"Guzg #0" = 20
-	"Bof #0" = 20
-	"Vurtek #0" = 20
-	"Brorg #0" = 20
-	"Relji #0" = 20
-	"Brurg #0" = 20
-	"Zud #0" = 20
-	"Grurkligg #0" = 20
-	"Henti #0" = 20
-	"Zahh #0" = -20
-	"Bablo #0" = -20
-	"Brig #0" = -20
-	"Jicdir #0" = -20
-	"Dazk #0" = -20
-	"Eglozz #0" = -20
-	"Jar #0" = -20
-	"Brug #0" = -20
-	"Brozz #0" = -20
-	"Megle #0" = -20
-	"Eblarg #0" = -20
-	"Drandirg #0" = -20
-	"Brek #0" = -20
-	"Ruff #0" = -20
-	"Von #0" = -20
-	"Greff #0" = -20
-	"Soc #0" = -20
-	"Rok #0" = -20
-	"Buzg #0" = -20
-	"Niz #0" = -20
-	"Nik #0" = -20
-	"Grorgle #0" = -20
-	"Gad #0" = -20
-	"Run #0" = -20
-	"Dizg #0" = -20
-	"Drurklin #0" = -20
-	"Brerg #0" = -20
-	"Joklark #0" = -20
-	"Brildozg #0" = -20
-	"Dordiff #0" = -20
-	"Bed #0" = -20
-	"Jegtag #0" = -20
-	"Sarkli #0" = -20
-	"Hingigg #0" = -20
-	"Mugif #0" = -20
-	"Vozz #0" = -20
-	"Gukler #0" = -20
-	"Harglerk #0" = -20
-	"Brildokk #0" = -20
-	"Hiz #0" = -20
-	"Yappelt #0" = -20
-	"Zizz #0" = -20
-	"Guzg #0" = -20
-	"Bof #0" = -20
-	"Vurtek #0" = -20
-	"Brorg #0" = -20
-	"Relji #0" = -20
-	"Brurg #0" = -20
-	"Zud #0" = -20
-	"Grurkligg #0" = -20
-	"Henti #0" = -20
-
+  "Crossflesh" = 20
+  "Crushpaw" = 20
+  "Angergravel" = 20
+  "Thingore" = 20
+  "Redridge" = 20
+  "Riverflesh" = 20
+  "Muckbeak" = 20
+  "Dirthusk" = 20
+  "Sharpcrown" = 20
+  "Bullstone" = 20
+  "Rilefur" = 20
+  "Rendmane" = 20
+  "Blowhusk" = 20
+  "Bullpaw" = 20
+  "Sharpplume" = 20
+  "Muckcrown" = 20
+  "Wildpaw" = 20
+  "Crazerind" = 20
+  "Whitemuzzle" = 20
+  "Hackpierce" = 20
+  "Hackbarb" = 20
+  "Angercrown" = 20
+  "Burnspur" = 20
+  "Blowrind" = 20
+  "Grayplume" = 20
+  "Slashhide" = 20
+  "Squashfang" = 20
+  "Dimcoat" = 20
+  "Riverhide" = 20
+  "Blightcrown" = 20
+  "Woodridge" = 20
+  "Blightrind" = 20
+  "Mossspur" = 20
+  "Lumbertalon" = 20
+  "Cleaveflesh" = 20
+  "Riprock" = 20
+  "Blowspur" = 20
+  "Gashskin" = 20
+  "Shadebark" = 20
+  "Mossbeak" = 20
+  "Boilbeak" = 20
+  "Burnsnout" = 20
+  "Copseflesh" = 20
+  "Clawridge" = 20
+  "Thinbeak" = 20
+  "Spikeridge" = 20
+  "Splithusk" = 20
+  "Scoreskin" = 20
+  "Clawflesh" = 20
+  "Timbersnout" = 20
+  "Whitepelt" = 20
+  "Baitgore" = 20
+  "Soilrind" = 20
+  "Paletalon" = 20
+  "Splitfur" = 20
+  "Meatcrown" = 20
+  "Tearbeak" = 20
+  "Woodstab" = 20
+  "Tearsnout" = 20
+  "Baitsnout" = 20
+  "Braygrain" = 20
+  "Baitbeak" = 20
+  "Blackflesh" = 20
+  "Redcrag" = 20
+  "Mossstab" = 20
+  "Roarsnout" = 20
+  "Crunchgrain" = 20
+  "Boilmuzzle" = 20
+  "Angerpelt" = 20
+  "Sharptalon" = 20
+  "Redtalon" = 20
+  "Sharpmane" = 20
+  "Dimgouge" = 20
+  "Rilestone" = 20
+  "Scorepierce" = 20
+  "Gloomhusk" = 20
+  "Graycrown" = 20
+  "Beatgravel" = 20
+  "Fullbarb" = 20
+  "Splitridge" = 20
+  "Rilerock" = 20
+  "Woodpelt" = 20
+  "Crossgravel" = 20
+  "Rippaw" = 20
+  "Rivermuzzle" = 20
+  "Soilgore" = 20
+  "Dirtgouge" = 20
+  "Palegouge" = 20
 }
-
 leader_names = {
-	"Speckmane"
-	"Squashskull"
-	"Yapmane"
-	"Darttuft"
-	"Dirtskull"
-	"Blotskull"
-	"Muttercrook"
-	"Howlfang"
-	"Bruisefringe"
-	"Trashfur"
-	"Squashtooth"
-	"Blotstick"
-	"Yelpmane"
-	"Crushcoat"
-	"Whipgore"
-	"Lashfur"
-	"Rashmane"
-	"Rushsniffer"
-	"Muckridge"
-	"Blottuft"
-	"Blotchaser"
-	"Barksnout"
-	"Blightclaw"
-	"Blotmeat"
-	"Chompridge"
-	"Blotchchaser"
-	"Gnarlmeat"
-	"Chewchopper"
-	"Tearback"
-	"Gashclaw"
-	"Snatchmane"
-	"Squashhide"
-	"Chewmeat"
-	"Dashaxe"
-	"Blotspear"
-	"Dirtsnout"
-	"Mashcoat"
-	"Growlfringe"
-	"Darthide"
-	"Dirtback"
-	"Spotnose"
-	"Bruisepike"
-	"Moldaxe"
-	"Rashclaw"
-	"Tearpaw"
-	"Muttertooth"
-	"Mutterchopper"
-	"Mashspear"
-
 }
-
 ship_names = {
-	"Sunshatter"
-	"Windshear"
-	"Swiftsea"
-	"Gleenshore"
-	"Greengem"
-	"Rubyshine"
-	"Quicksilver"
-
+  "Crossflesh"
+  "Crushpaw"
+  "Crunchcoat"
+  "Gloomskin"
+  "Mashmane"
+  "Dimrock"
+  "Wildrind"
+  "Grayhide"
+  "Slashplume"
+  "Vexridge"
+  "Baitcrust"
+  "Woodcrag"
+  "Paleskin"
+  "Grayhusk"
+  "Shadowgouge"
+  "Angermane"
+  "Copserind"
+  "Sharpcrown"
+  "Brayridge"
+  "Woodmane"
+  "Buckhide"
+  "Lumberbark"
+  "Muckrind"
+  "Crunchskin"
+  "Frayflesh"
+  "Sharppaw"
+  "Stewcoat"
 }
-
 army_names = {
 	"Army of $PROVINCE$"
 }
-
 fleet_names = {
 	"Fleet of $PROVINCE$"
 }
-

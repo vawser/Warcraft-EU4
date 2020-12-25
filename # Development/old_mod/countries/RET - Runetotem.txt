@@ -1,8 +1,0 @@
-# Runetotem
-government 			= mercantile_tribe
-mercantilism 		= 10
-technology_group 	= tech_tauren
-religion			= shamanism
-primary_culture 	= runetotem
-capital = 1
-

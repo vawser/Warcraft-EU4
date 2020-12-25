@@ -1,5 +1,0 @@
-# Todo:
-Add province names
-Add area names
-Generate religious rebels for new set
-

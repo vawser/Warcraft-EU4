@@ -1,8 +1,0 @@
-# Blackpaw
-government 			= war_tribe
-mercantilism 		= 10
-technology_group 	= tech_gnoll
-religion			= geomancy
-primary_culture 	= gnoll
-capital = 1
-

@@ -1,18 +1,18 @@
 country_decisions = {
     construct_fel_conduits = {
         potential = {
-            religion = fel
+            religion = religion_fel
             NOT = { has_country_modifier = fel_conduits }
         }
         allow = {
-            religion = fel
+            religion = religion_fel
             adm_power = 100
         }
         effect = {
             add_adm_power = -100
             add_country_modifier = {
                 name = fel_conduits
-                duration = -1
+                duration = 3650
             }
         }		
         ai_will_do = {
@@ -27,18 +27,18 @@ country_decisions = {
     
     enact_blood_sacrifice = {
         potential = {
-            religion = hakkari
+            religion = religion_hakkari
             NOT = { has_country_modifier = blood_sacrifice_hakkari }
         }
         allow = {
-            religion = hakkari
+            religion = religion_hakkari
             adm_power = 100
         }
         effect = {
             add_adm_power = -100
             add_country_modifier = {
                 name = blood_sacrifice_hakkari
-                duration = -1
+                duration = 3650
             }
         }		
         ai_will_do = {
@@ -53,19 +53,24 @@ country_decisions = {
     
     encourage_fervor = {
         potential = {
-            religion_group = light_group
-            is_crusader_state = yes
+            OR = {
+                religion = religion_scarlet_light
+                religion = religion_argent_light
+            }
             NOT = { has_country_modifier = the_light_fervor }
         }
         allow = {
-            religion_group = light_group
+            OR = {
+                religion = religion_scarlet_light
+                religion = religion_argent_light
+            }
             adm_power = 100
         }
         effect = {
             add_adm_power = -100
             add_country_modifier = {
                 name = the_light_fervor
-                duration = -1
+                duration = 3650
             }
         }		
         ai_will_do = {
@@ -80,19 +85,24 @@ country_decisions = {
     
     enforce_daily_contemplation = {
         potential = {
-            religion_group = light_group
-            NOT = { is_crusader_state = yes }
+            OR = {
+                religion = religion_church_of_the_light
+                religion = religion_light_of_the_naaru
+            }
             NOT = { has_country_modifier = the_light_contemplation }
         }
         allow = {
-            religion_group = light_group
+            OR = {
+                religion = religion_church_of_the_light
+                religion = religion_light_of_the_naaru
+            }
             adm_power = 100
         }
         effect = {
             add_adm_power = -100
             add_country_modifier = {
                 name = the_light_contemplation
-                duration = -1
+                duration = 3650
             }
         }		
         ai_will_do = {
@@ -107,17 +117,18 @@ country_decisions = {
     
     display_the_power_of_the_sunwell = {
         potential = {
-            culture_group = high_elf_group
+            religion = religion_light_of_the_sunwell
             NOT = { has_country_modifier = the_light_sunwell }
         }
         allow = {
+            religion = religion_light_of_the_sunwell
             adm_power = 100
         }
         effect = {
             add_adm_power = -100
             add_country_modifier = {
                 name = the_light_sunwell
-                duration = -1
+                duration = 3650
             }
         }		
         ai_will_do = {
@@ -132,18 +143,24 @@ country_decisions = {
     
     construct_void_portals = {
         potential = {
-            religion_group = shadow_group
+            OR = {
+                religion = religion_shadow
+                religion = religion_void
+            }
             NOT = { has_country_modifier = void_portals }
         }
         allow = {
-            religion_group = shadow_group
+            OR = {
+                religion = religion_shadow
+                religion = religion_void
+            }
             adm_power = 100
         }
         effect = {
             add_adm_power = -100
             add_country_modifier = {
                 name = void_portals
-                duration = -1
+                duration = 3650
             }
         }		
         ai_will_do = {
@@ -155,160 +172,6 @@ country_decisions = {
             }
         }
     }
-    
-    publish_titan_histories = {
-        potential = {
-            religion_group = titan_group
-            NOT = { has_country_modifier = titan_histories }
-        }
-        allow = {
-            religion_group = titan_group
-            adm_power = 100
-        }
-        effect = {
-            add_adm_power = -100
-            add_country_modifier = {
-                name = titan_histories
-                duration = -1
-            }
-        }		
-        ai_will_do = {
-            factor = 1
-            
-            modifier = {
-                factor = 0
-                religious_unity = 1.0
-            }
-        }
-    }
-    
-    encourage_communion_with_nature = {
-        potential = {
-            religion_group = nature_group
-            NOT = { has_country_modifier = nature_communion }
-        }
-        allow = {
-            religion_group = nature_group
-            adm_power = 100
-        }
-        effect = {
-            add_adm_power = -100
-            add_country_modifier = {
-                name = nature_communion
-                duration = -1
-            }
-        }		
-        ai_will_do = {
-            factor = 1
-            
-            modifier = {
-                factor = 0
-                religious_unity = 1.0
-            }
-        }
-    }
-    
-    corrupt_the_unwilling = {
-        potential = {
-            religion_group = old_gods_group
-            NOT = { has_country_modifier = old_god_corruption }
-        }
-        allow = {
-            religion_group = old_gods_group
-            adm_power = 100
-        }
-        effect = {
-            add_adm_power = -100
-            add_country_modifier = {
-                name = old_god_corruption
-                duration = -1
-            }
-        }		
-        ai_will_do = {
-            factor = 1
-            
-            modifier = {
-                factor = 0
-                religious_unity = 1.0
-            }
-        }
-    }
-    
-    encourage_religious_introspection = {
-        potential = {
-            religion_group = celestial_group
-            NOT = { has_country_modifier = religious_introspection }
-        }
-        allow = {
-            religion_group = celestial_group
-            adm_power = 100
-        }
-        effect = {
-            add_adm_power = -100
-            add_country_modifier = {
-                name = religious_introspection
-                duration = -1
-            }
-        }		
-        ai_will_do = {
-            factor = 1
-            
-            modifier = {
-                factor = 0
-                religious_unity = 1.0
-            }
-        }
-    }
-    
-    purge_the_unfaithful = {
-        potential = {
-            religion_group = elemental_group
-            NOT = { has_country_modifier = religious_purge }
-        }
-        allow = {
-            religion_group = elemental_group
-            adm_power = 100
-        }
-        effect = {
-            add_adm_power = -100
-            add_country_modifier = {
-                name = religious_purge
-                duration = -1
-            }
-        }		
-        ai_will_do = {
-            factor = 1
-            
-            modifier = {
-                factor = 0
-                religious_unity = 1.0
-            }
-        }
-    }
-    
-    infest_the_masses = {
-        potential = {
-            religion_group = scourge_group
-            NOT = { has_country_modifier = mass_infestation }
-        }
-        allow = {
-            religion_group = scourge_group
-            adm_power = 100
-        }
-        effect = {
-            add_adm_power = -100
-            add_country_modifier = {
-                name = mass_infestation
-                duration = -1
-            }
-        }		
-        ai_will_do = {
-            factor = 1
-            
-            modifier = {
-                factor = 0
-                religious_unity = 1.0
-            }
-        }
-    }
+	
+	
 }

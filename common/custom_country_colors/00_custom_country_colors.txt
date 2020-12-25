@@ -1,20 +1,20 @@
-num_symbols = 1
+num_symbols = 120
 
 color = { 235 235 235 }	# White
 color = { 40 40 40 }	# Dark Grey
 color = { 117 38 143 }	# Purple
 color = { 113 11 43 }	# Dark Red
 color = { 97 12 12 }	# Blood Red
-color = { 46 114 55 }	# Light Green
-color = { 18 179 113 }	# Teal
-color = { 50 173 192 }	# Turqious
-color = { 30 30 128 }	# Azure-blue
-color = { 116 198 240 }	# Skye Blue
 color = { 175 15 15 }	# Red
 color = { 188 90 27 }	# Orange
 color = { 64 40 22 }	# Brown
 color = { 244 184 12 }	# Yellow
 color = { 17 53 13}	# Dark Green
+color = { 46 114 55 }	# Light Green
+color = { 18 179 113 }	# Teal
+color = { 50 173 192 }	# Turqious
+color = { 30 30 128 }	# Azure-blue
+color = { 116 198 240 }	# Skye Blue
 color = { 136 79 101 }  # Hungary red
 color = { 194 129 142 }	# Pale Pink
 color = { 217 84 84 }	# Pink
@@ -32,6 +32,8 @@ color = { 18 67 84 }	# Dark Grey-Blue
 color = { 46 110 176 }	# Pale Blue
 color = { 48 64 126 }   # Grey Blue
 color = { 32 30 65 }	# Dark Blue
+
+
 
 # NB: 0-based in code.
 flag_color = { 255 255 255 }#1   	Argent (White )
@@ -51,13 +53,20 @@ flag_color = { 30 30 128 } 	#14   	Azure ( Blue)
 flag_color = { 116 198 240 }#15		Bleu-Celeste (Sky Blue)
 flag_color = { 0 68 131 }   #16		Reflex Blue variant (darker than current french)
 flag_color = { 200 48 40 }  #17		Red 032 variant (darker than current french)
+flag_color = { 140 22 22 }  #18		Horde Red
+flag_color = { 48 83 123 }  #19		Ally Blue
+flag_color = { 51 149 10 }  #20		Fel Green
+flag_color = { 83 0 138 }   #21		Twilight Purple
+
+
+
 
 # WHEN ADDING NEW, ALWAYS ADD AT THE END
 textures = {
 	texture = {
 		file = "gfx\\custom_flags\\pattern.tga"
-		size = { x = 10 y = 11 }
-		noOfFrames = 102
+		size = { x = 16 y = 13 }
+		noOfFrames = 184
 		color = 2
 	}
 	texture = {

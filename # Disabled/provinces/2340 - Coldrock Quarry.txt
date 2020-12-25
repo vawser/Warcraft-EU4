@@ -1,0 +1,28 @@
+is_city = no
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = culture_magmoth
+religion = religion_earth
+
+trade_goods = unknown
+hre = no
+
+626.1.1 = {
+    is_city = yes
+    owner = B01
+    controller = B01
+    add_core = B01
+    remove_core = B81
+  
+    culture = culture_blue
+    religion = religion_sect_of_dragons
+  
+    trade_goods = grain
+}
+

@@ -3,8 +3,8 @@ namespace = civil_war
 # Civil war
 country_event = {
 	id = civil_war.1
-	title = civil_war.1.title
-	desc = civil_war.1.desc
+	title = "EVTNAMEHR91"
+	desc = "EVTDESHOR91"
 	picture = CIVIL_WAR_eventPicture
 	
 	major = yes
@@ -35,7 +35,8 @@ country_event = {
 	
 	
 	option = {
-		name = "civil_war.1.option.a"			# Crush them!
+		name = "EVTOPTA3091"
+		
 		add_prestige = -10
 	}
 }
@@ -43,9 +44,10 @@ country_event = {
 # End of Civil War
 country_event = {
 	id = civil_war.100
-	title = "civil_war.100.title"
-	desc = "civil_war.100.desc"
+	title = "EVTNAMEHR96"
+	desc = "EVTDESHOR96"
 	picture = ANGRY_MOB_eventPicture
+	
 	
 	is_triggered_only = yes
 	
@@ -55,7 +57,8 @@ country_event = {
 	
 	
 	option = {
-		name = "civil_war.100.option.a"
+		name = "EVTOPTA3096"
+		
 		clr_country_flag = civilwar_on_capital
 		add_legitimacy = 10
 		add_horde_unity = 10
@@ -67,8 +70,8 @@ country_event = {
 # A cry for help
 country_event = {
 	id = civil_war.2
-	title = "civil_war.2.title"
-	desc = "civil_war.2.desc"
+	title = "EVTNAMEHR92"
+	desc = "EVTDESHOR92"
 	picture = DIPLOMACY_eventPicture
 	
 	trigger = {
@@ -85,11 +88,13 @@ country_event = {
 
 	
 	option = {
-		name = "civil_war.2.option.a"			# Request aid from your allies
+		name = "EVTOPTA3092"
+		
 		add_dip_power = -100
 	}
 	option = {
-		name = "civil_war.2.option.b"			# Rely on your own strength
+		name = "EVTOPTB3092"
+		
 		ai_chance = { factor = 60 }
 		add_legitimacy = 5
 		add_horde_unity = 5
@@ -109,8 +114,8 @@ country_event = {
 # Unscrupulous in-laws
 country_event = {
 	id = civil_war.3
-	title = "civil_war.3.title"
-	desc = "civil_war.3.desc"
+	title = "EVTNAMEHR93"
+	desc = "EVTDESHOR93"
 	picture = CIVIL_WAR_eventPicture
 	
 	trigger = {
@@ -124,7 +129,8 @@ country_event = {
 	}
 	
 	option = {
-		name = "civil_war.3.option.a"			# Take appropriate measures
+		name = "EVTOPTA3093"
+		
 		ai_chance = { factor = 40 }
 		add_adm_power = -25		
 		random_owned_province = {
@@ -133,7 +139,8 @@ country_event = {
 		}
 	}
 	option = {
-		name = "civil_war.3.option.b"			# Ignore their pathetic attempts
+		name = "EVTOPTB3093"
+		
 		ai_chance = { factor = 60 }
 		add_prestige = -20
 		random_owned_province = {
@@ -149,8 +156,8 @@ country_event = {
 # Rebel forces take over
 province_event = {
 	id = civil_war.4
-	title = "civil_war.4.title"
-	desc = "civil_war.4.desc"
+	title = "EVTNAMEHR94"
+	desc = "EVTDESHOR94"
 	picture = ANGRY_MOB_eventPicture
 	
 	trigger = {
@@ -166,7 +173,8 @@ province_event = {
 	}
 	
 	option = {
-		name = "civil_war.4.option.a"			# We'll have to accept defeat, for now
+		name = "EVTOPTB3094"
+		
 		change_siege = 3
 	}
 }
@@ -174,8 +182,8 @@ province_event = {
 # Army deserters
 country_event = {
 	id = civil_war.5
-	title = "civil_war.5.title"
-	desc = "civil_war.5.desc"
+	title = "EVTNAMEHR95"
+	desc = "EVTDESHOR95"
 	picture = LAND_MILITARY_eventPicture
 	
 	trigger = {
@@ -191,7 +199,8 @@ country_event = {
 	}
 	
 	option = {
-		name = "civil_war.5.option.a"			# Try to strengthen their morale
+		name = "EVTOPTA3095"
+		
 		add_years_of_income = -0.50
 		add_legitimacy = 5		
 		add_horde_unity = 5		
@@ -201,7 +210,8 @@ country_event = {
 		}		
 	}
 	option = {
-		name = "civil_war.5.option.b"			# We have no resources for that
+		name = "EVTOPTB3095"
+		
 		ai_chance = { factor = 0 }
 		add_country_modifier = {
 			name = "deserters"
@@ -214,8 +224,8 @@ country_event = {
 #Support in capital
 country_event = {
 	id = civil_war.6
-	title = civil_war.6.title
-	desc = civil_war.6.desc
+	title = civil_war.6.t
+	desc = civil_war.6.d
 	picture = LAND_MILITARY_eventPicture
 	
 	trigger = {
@@ -240,7 +250,8 @@ country_event = {
 		set_country_flag = civilwar_on_capital
 	}
 	option = {
-		name = civil_war.6.option.a
+		name = civil_war.6.a
+		
 		capital_scope = {
 			pretender_rebels = 2
 		}
@@ -253,9 +264,11 @@ country_event = {
 # Civil war brings our nation to its knees
 country_event = {
 	id = civil_war.7
-	title = "civil_war.7.title"
-	desc = "civil_war.7.desc"
+	title = "EVTNAME6018"
+	desc = "EVTDESC6018"
 	picture = CIVIL_WAR_eventPicture
+	
+
 	
 	is_triggered_only = yes
 	
@@ -265,7 +278,8 @@ country_event = {
 	
 	
 	option = {
-		name = "civil_war.7.option.a"				# There is nothing we can do.
+		name = "EVTOPTA6018"
+		
 		every_owned_province = {
 			limit = {
 				is_capital = no
@@ -275,13 +289,15 @@ country_event = {
 		}
 	}
 	option = {
-		name = "civil_war.7.option.b"				# Support one of the factions
+		name = "EVTOPTB6018"
+		
 		add_adm_power = -100
 		add_legitimacy = 10
 		add_horde_unity = 10
 	}
 	option = {
-		name = "civil_war.7.option.c"				# Start negotiations to minimize the damage
+		name = "EVTOPTC6018"
+		
 		add_years_of_income = -0.25
 		add_prestige = -25
 		add_legitimacy = 5
@@ -292,8 +308,8 @@ country_event = {
 # Civil Disorder about to Devolve into Chaos
 country_event = {
 	id = civil_war.8
-	title = "civil_war.8.title"
-	desc = "civil_war.8.desc"
+	title = "EVTNAME6019"
+	desc = "EVTDESC6019"
 	picture = CIVIL_WAR_eventPicture
 
 	is_triggered_only = yes
@@ -303,7 +319,8 @@ country_event = {
 	}
 	
 	option = {
-		name = "civil_war.8.option.a"			# There is nothing we can do
+		name = "EVTOPTA6019"
+		
 		ai_chance = { factor = 20 }
 		add_stability = -1
 		random_owned_province = {
@@ -312,7 +329,8 @@ country_event = {
 		}
 	}
 	option = {
-		name = "civil_war.8.option.b"			# We will stop this at any cost
+		name = "EVTOPTB6019"
+		
 		ai_chance = { factor = 80 }		
 		add_years_of_income = -0.25
 		add_prestige = -25
@@ -324,8 +342,8 @@ country_event = {
 # Factional powers emerge from the chaos
 country_event = {
 	id = civil_war.9
-	title = "civil_war.9.title"
-	desc = "civil_war.9.desc"
+	title = "EVTNAME6020"
+	desc = "EVTDESC6020"
 	picture = CONQUEST_eventPicture
 	
 	is_triggered_only = yes
@@ -335,7 +353,8 @@ country_event = {
 	}
 	
 	option = {
-		name = "civil_war.9.option.a"			# Support one side
+		name = "EVTOPTA6020"
+		
 		random_owned_province = {
 			limit = { is_core = ROOT }
 			pretender_rebels = 1
@@ -345,7 +364,8 @@ country_event = {
 		add_horde_unity = 5
 	}
 	option = {
-		name = "civil_war.9.option.b"			# Don't support any faction
+		name = "EVTOPTB6020"
+		
 		add_stability = -1
 	}
 }
@@ -353,8 +373,8 @@ country_event = {
 # Faction requests financial aid
 country_event = {
 	id = civil_war.10
-	title = "civil_war.10.title"
-	desc = "civil_war.10.desc"
+	title = "EVTNAME6021"
+	desc = "EVTDESC6021"
 	picture = CONQUEST_eventPicture
 	
 	trigger = {
@@ -368,13 +388,15 @@ country_event = {
 	}
 	
 	option = {
-		name = "civil_war.10.option.a"			# Lend support
+		name = "EVTOPTA6021"
+		
 		add_years_of_income = -0.5
 		add_legitimacy = 5
 		add_horde_unity = 5
 	}
 	option = {
-		name = "civil_war.10.option.b"			# Ignore their pleas
+		name = "EVTOPTB6021"
+		
 		add_prestige = -10
 		add_legitimacy = -5
 		add_horde_unity = -5
@@ -385,8 +407,8 @@ country_event = {
 # Favoured faction threatens to splinter
 country_event = {
 	id = civil_war.11
-	title = "civil_war.11.title"
-	desc = "civil_war.11.desc"
+	title = "EVTNAME6022"
+	desc = "EVTDESC6022"
 	picture = DEBATE_REPUBLICAN_eventPicture
 	
 	trigger = {
@@ -404,7 +426,8 @@ country_event = {
 	}
 	
 	option = {
-		name = "civil_war.11.option.a"		# Let them splinter
+		name = "EVTOPTA6022"
+		
 		random_owned_province = {
 			limit = {
 				has_owner_culture = no
@@ -416,7 +439,8 @@ country_event = {
 		add_horde_unity = 10
 	}
 	option = {
-		name = "civil_war.11.option.b"		# Summon the faction leaders to begin negotiations
+		name = "EVTOPTC6022"
+		
 		add_prestige = -50
 		add_legitimacy = 5
 		add_horde_unity = 5
@@ -426,8 +450,8 @@ country_event = {
 # Total war emerges internally
 country_event = {
 	id = civil_war.12
-	title = "civil_war.12.title"
-	desc = "civil_war.12.desc"
+	title = "EVTNAME6023"
+	desc = "EVTDESC6023"
 	picture = BATTLE_eventPicture
 		
 	trigger = {
@@ -446,7 +470,8 @@ country_event = {
 	}
 	
 	option = {
-		name = "civil_war.12.option.a"			# We can't do anything about it
+		name = "EVTOPTA6023"
+		
 		add_legitimacy = -5
 		add_horde_unity = -5
 		every_core_province = {
@@ -458,7 +483,8 @@ country_event = {
 		}
 	}
 	option = {
-		name = "civil_war.12.option.b"			# Try to suppress the worst spots
+		name = "EVTOPTB6023"
+		
 		add_adm_power = -100
 		add_dip_power = -100
 		add_mil_power = -100
@@ -470,8 +496,8 @@ country_event = {
 # A Dominant factions emerge
 country_event = {
 	id = civil_war.13
-	title = "civil_war.13.title"
-	desc = "civil_war.13.desc"
+	title = "EVTNAME6026"
+	desc = "EVTDESC6026"
 	picture = DEBATE_REPUBLICAN_eventPicture
 	
 	trigger = {
@@ -489,7 +515,8 @@ country_event = {
 	
 	
 	option = {
-		name = "civil_war.13.option.a"			# Fight it out
+		name = "EVTOPTA6026"
+		
 		set_country_flag = dominant_faction
 		random_owned_province = {
 			limit = { is_core = ROOT }
@@ -499,7 +526,8 @@ country_event = {
 		add_horde_unity = 1
 	}
 	option = {
-		name = "civil_war.13.option.b"			# Negotiate a settlement between all major factions
+		name = "EVTOPTB6026"
+		
 		add_years_of_income = -0.50
 		add_legitimacy = 5
 		add_horde_unity = 5

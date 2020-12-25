@@ -12,3 +12,4 @@
 #A local power structure, such as a court or local parliament
 #Ex: "The Court refused our request to hand over the culprits"
 #TODO: ADD MORE
+

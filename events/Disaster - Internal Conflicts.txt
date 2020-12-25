@@ -1,10 +1,11 @@
 namespace = internal_conflicts
 
+
 # Internal Conflicts
 country_event = {
 	id = internal_conflicts.1
-	title = "internal_conflicts.1.title"
-	desc = "internal_conflicts.1.desc"
+	title = "EVTNAMEHR01"
+	desc = "EVTDESHOR01"
 	picture = PLAGUE_eventPicture
 
 	major = yes
@@ -44,7 +45,8 @@ country_event = {
 	}
 
 	option = {
-		name = "internal_conflicts.1.option.a" # Dire times are ahead of us
+		name = "EVTOPTA3001"
+		
 		
 	}
 }
@@ -52,8 +54,8 @@ country_event = {
 # Religious struggles
 country_event = {
 	id = internal_conflicts.2
-	title = "internal_conflicts.2.title"
-	desc = "internal_conflicts.2.desc"
+	title = "EVTNAMEHR02"
+	desc = "EVTDESHOR02"
 	picture = RELIGION_eventPicture
 	
 	trigger = {
@@ -72,7 +74,8 @@ country_event = {
 		days = 1
 	}
 	option = {
-		name = "internal_conflicts.2.option.a"			# One nation, one belief!
+		name = "EVTOPTA3002"
+		
 		add_dip_power = -50
 		add_country_modifier = {
 			name = "religious_intolerance"
@@ -80,7 +83,8 @@ country_event = {
 		}
 	}
 	option = {
-		name = "internal_conflicts.2.option.b"			# Tolerate all beliefs
+		name = "EVTOPTB3002"
+		
 		add_adm_power = -50
 		add_country_modifier = {
 			name = "religious_tolerance"
@@ -92,8 +96,8 @@ country_event = {
 # National instability
 country_event = {
 	id = internal_conflicts.3
-	title = "internal_conflicts.3.title"
-	desc = "internal_conflicts.3.desc"
+	title = "EVTNAMEHR03"
+	desc = "EVTDESHOR03"
 	picture = ANGRY_MOB_eventPicture
 
 	trigger = {
@@ -110,14 +114,16 @@ country_event = {
 	
 	
 	option = {
-		name = "internal_conflicts.3.option.a"			# The war is our main concern
+		name = "EVTOPTA3003"
+		
 		every_owned_province = {
 			limit = { is_capital = no }
 			add_local_autonomy = 15
 		}
 	}
 	option = {
-		name = "internal_conflicts.3.option.b"			# Our domestic problems are our main concern
+		name = "EVTOPTB3003"
+		
 		if = {
 			limit = {
 				has_disaster = internal_conflicts
@@ -134,8 +140,8 @@ country_event = {
 # Unrest among the peasants
 country_event = {
 	id = internal_conflicts.4
-	title = "internal_conflicts.4.title"
-	desc = "internal_conflicts.4.desc"
+	title = "EVTNAMEHR04"
+	desc = "EVTDESHOR04"
 	picture = ANGRY_MOB_eventPicture
 	
 	trigger = {
@@ -152,7 +158,8 @@ country_event = {
 	
 	
 	option = {
-		name = "internal_conflicts.4.option.a"			# Restrict serfdom
+		name = "EVTOPTA3004"
+		
 		random_owned_province = { noble_rebels = 1 }
 		if = {
 			limit = {
@@ -166,7 +173,8 @@ country_event = {
 		}
 	}
 	option = {
-		name = "internal_conflicts.4.option.b"			# Keep the masses in chains
+		name = "EVTOPTB3004"
+		
 		random_owned_province = { anti_tax_rebels = 1 }
 		if = {
 			limit = {
@@ -184,8 +192,8 @@ country_event = {
 # War exhaustion
 country_event = {
 	id = internal_conflicts.5
-	title = "internal_conflicts.5.title"
-	desc = "internal_conflicts.5.desc"
+	title = "EVTNAMEHR05"
+	desc = "EVTDESHOR05"
 	picture = BATTLE_eventPicture
 	
 	
@@ -203,7 +211,8 @@ country_event = {
 	
 	
 	option = {
-		name = "internal_conflicts.5.option.a"			# There is no immediate solution at hand
+		name = "EVTOPTA3005"
+		
 		if = {
 			limit = {
 				has_disaster = internal_conflicts
@@ -217,7 +226,8 @@ country_event = {
 	}
 	
 	option = {
-		name = "internal_conflicts.5.option.b"			# Let their voices be heard
+		name = "EVTOPTB3005"
+		
 		add_mil_power = -50
 		add_yearly_manpower = -0.25
 	}
@@ -226,8 +236,8 @@ country_event = {
 # Inefficient ruler
 country_event = {
 	id = internal_conflicts.6
-	title = "internal_conflicts.6.title"
-	desc = "internal_conflicts.6.desc"
+	title = "EVTNAMEHR06"
+	desc = "EVTDESHOR06"
 	picture = BAD_WITH_MONARCH_eventPicture
 	
 	trigger = {
@@ -249,9 +259,10 @@ country_event = {
 	}
 	
 	option = {
-		name = "internal_conflicts.6.option.a"			# Leave the nation's fate in his hands
+		name = "EVTOPTA3006"
+		
 		random_owned_province = { 
-			limit = {
+			limit= {
 				development = 8
 			}
 			pretender_rebels = 3 
@@ -268,9 +279,10 @@ country_event = {
 		}
 	}
 	option = {
-		name = "internal_conflicts.6.option.b"			# Oppose him
+		name = "EVTOPTB3006"
+		
 		random_owned_province = { 
-			limit = {
+			limit= {
 				development = 8
 			}
 			noble_rebels = 3 
@@ -292,8 +304,8 @@ country_event = {
 # Famine
 country_event = {
 	id = internal_conflicts.7
-	title = "internal_conflicts.7.title"
-	desc = "internal_conflicts.7.desc"
+	title = "EVTNAMEHR07"
+	desc = "EVTDESHOR07"
 	picture = FAMINE_eventPicture
 	
 	trigger = {
@@ -308,7 +320,8 @@ country_event = {
 	}
 	
 	option = {
-		name = "internal_conflicts.7.option.a"			# Try to alleviate the suffering
+		name = "EVTOPTA3007"
+		
 		add_years_of_income = -1.0
 		if = {
 			limit = {
@@ -322,7 +335,8 @@ country_event = {
 		}
 	}
 	option = {
-		name = "internal_conflicts.7.option.b"			# We are helpless in the face of such a disaster...
+		name = "EVTOPTB3007"
+		
 		if = {
 			limit = {
 				has_disaster = internal_conflicts
@@ -339,9 +353,9 @@ country_event = {
 
 # Stability returns
 country_event = {
-	id = internal_conflicts.100
-	title = "internal_conflicts.100.title"
-	desc = "internal_conflicts.100.desc"
+	id = internal_conflicts.8
+	title = "EVTNAMEHR08"
+	desc = "EVTDESHOR08"
 	picture = CIVIL_WAR_eventPicture
 	
 	
@@ -352,8 +366,11 @@ country_event = {
 	}
 	major = yes
 	
+	
+
 	option = {
-		name = "internal_conflicts.100.option.a"			# Restore order
+		name = "EVTOPTA3008"
+		
 		add_stability_or_adm_power = yes
 	}
 }

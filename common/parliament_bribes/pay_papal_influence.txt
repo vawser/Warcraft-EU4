@@ -1,6 +1,5 @@
 pay_papal_influence = {
 	trigger = {
-		uses_papacy = yes
 		papal_influence = 20
 	}
 	

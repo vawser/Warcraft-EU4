@@ -28,35 +28,71 @@ guiTypes = {
 		}
 		
 		WindowType = {
+			name = "rise_of_the_horde"
+			position = { x= 35 y = -29}
+
+		}			
+		
+		WindowType = {
 			name = "the_first_war"
 			position = { x= 35 y = -29}
-			upsound = age_of_discovery
-		}	
 
-		WindowType = {
+		}	
+        
+        WindowType = {
 			name = "the_second_war"
 			position = { x= 35 y = -29}
-			upsound = age_of_discovery
-		}
-        
-        WindowType = {
-			name = "invasion_of_draenor"
-			position = { x= 35 y = -29}
-			upsound = age_of_discovery
-		}
-        
-        WindowType = {
-			name = "war_of_the_spider"
-			position = { x= 35 y = -29}
-			upsound = age_of_discovery
-		}
-        
-        WindowType = {
-			name = "reign_of_chaos"
-			position = { x= 35 y = -29}
-			upsound = age_of_discovery
-		}
 
+		}
+        
+        WindowType = {
+			name = "beyond_the_dark_portal"
+			position = { x= 35 y = -29}
+
+		}
+        
+        WindowType = {
+			name = "the_third_war"
+			position = { x= 35 y = -29}
+
+		}
+        
+        WindowType = {
+			name = "the_frozen_throne"
+			position = { x= 35 y = -29}
+
+		}
+        
+        WindowType = {
+			name = "rise_of_the_qiraji"
+			position = { x= 35 y = -29}
+
+		}
+        
+        WindowType = {
+			name = "the_burning_crusade"
+			position = { x= 35 y = -29}
+
+		}
+        
+        WindowType = {
+			name = "wrath_of_the_lich_king"
+			position = { x= 35 y = -29}
+
+		}
+        
+        WindowType = {
+			name = "the_shattering"
+			position = { x= 35 y = -29}
+
+		}
+        
+        WindowType = {
+			name = "mists_of_pandaria"
+			position = { x= 35 y = -29}
+
+		}
+        
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 86 y =-27 }
@@ -233,7 +269,7 @@ guiTypes = {
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "name"	
-			maxWidth = 446
+			maxWidth = 390
 			maxHeight = 32
 			fixedsize = yes
 			format = left			
@@ -241,12 +277,12 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "desc"
-			position = { x = 8 y = 21 }
+			position = { x = 8 y = 20 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "desc"	
-			maxWidth = 446
-			maxHeight = 26
+			maxWidth = 390
+			maxHeight = 24
 			format = left			
 		}
 		## stuff to the right

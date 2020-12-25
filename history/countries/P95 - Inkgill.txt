@@ -1,0 +1,21 @@
+discover_home_continent = yes
+# Inkgill
+government 			= tribal
+add_government_reform = primitive_clan_reform
+mercantilism 		= 10 
+technology_group 	= tech_depths
+religion			= religion_celestial
+primary_culture 	= culture_jinyu
+capital = 1 # capital 			= 2037
+
+546.1.1 = { 
+	monarch = { 
+		name = "Jin Lao" 
+		dynasty = "Inkgill" 
+		adm = 4
+		dip = 4
+		mil = 3
+	} 
+} 
+
+

@@ -46,6 +46,8 @@ guiTypes = {
 			maxWidth = 135
 			maxHeight = 32
 			format = left
+            truncate = yes
+			fixedsize = yes
 		}
 		
 		instantTextBoxType = {
@@ -58,6 +60,8 @@ guiTypes = {
 			maxWidth = 100
 			maxHeight = 32
 			format = left
+            truncate = yes
+			fixedsize = yes
 		}
 		
 		instantTextBoxType = {
@@ -286,7 +290,7 @@ guiTypes = {
 			# This background will be hidden beneath religionpanel_bg_bottom
 			# in the smallest resolution in most cases (but not harmonization view for example)
 			name ="religionpanel_bg_top"
-			spriteType = "GFX_country_religion_view_bg_bottom_standard"
+			spriteType = "GFX_country_religion_view_bg"
 			position = { x= -7 y = -10 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -296,16 +300,16 @@ guiTypes = {
 			name ="religionpanel_bg_bottom"
 			if_resolution = {
 				max_height = 899
-				spriteType = "GFX_country_religion_view_bg_bottom_standard"
+				spriteType = "GFX_country_religion_view_bg"
 			}
 			if_resolution = {
 				max_height = 1079
 				min_height = 900
-				spriteType = "GFX_country_religion_view_bg_bottom_large"
+				spriteType = "GFX_country_religion_view_bg_large"
 			}
 			if_resolution = {
 				min_height = 1080
-				spriteType = "GFX_country_religion_view_bg_bottom_huge"
+				spriteType = "GFX_country_religion_view_bg_huge"
 			}
 			position = { x= -7 y = -10 }
 			Orientation = "UPPER_LEFT"
@@ -379,7 +383,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "religious_school_name"
-				position = { x = 50 y = 156 }
+				position = { x = 80 y = 156 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 4}	
@@ -816,14 +820,14 @@ guiTypes = {
 			{
 				name ="low_harmony"
 				spriteType = "GFX_low_harmony"
-				position = { x= 38 y = 265 }
+				position = { x= 22 y = 265 }
 			}
 			
 			iconType =
 			{
 				name ="high_harmony"
 				spriteType = "GFX_high_harmony"
-				position = { x= 238 y = 265 }
+				position = { x= 245 y = 265 }
 			}
 			
 			iconType =
@@ -847,7 +851,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "harmonizing_with_button"
-				position = { x = 275 y = 261 }
+				position = { x = 285 y = 261 }
 				quadTextureSprite ="GFX_province_religion_button"
 				buttonFont = "vic_18"
 				Orientation = "LEFT"
@@ -856,27 +860,27 @@ guiTypes = {
 			iconType = {
 				name ="harmonizing_with_icon"
 				spriteType = "GFX_icon_religion_small"
-				position = { x= 280 y = 265 }
+				position = { x= 290 y = 265 }
 				allwaystransparent = yes
 			}
 			
 			iconType = {
 				name ="harmonization_progress"
 				spriteType = "GFX_treasure_fleet_progressbar2"
-				position = { x= 322 y = 291 }
+				position = { x= 332 y = 291 }
 				rotation = 1.5708
 			}
 
 			iconType = {
 				name ="harmonization_progress_frame"
 				spriteType = "GFX_treasure_fleet_progress_frame2"
-				position = { x= 315 y = 263 }
+				position = { x= 325 y = 263 }
 			}
 
 			listboxType = 
 			{
 				name ="harmonized_listbox"
-				position = { x = 35 y = 300 }
+				position = { x = 60 y = 290 }
 				backGround=""
 				size = { x=340 y = 300 }
 				Orientation = "UPPER_LEFT"
@@ -977,6 +981,8 @@ guiTypes = {
 				maxHeight = 24
 				Orientation = "UPPER_LEFT"
 				format = left
+                truncate = yes
+                fixedsize = yes
 			}
 			
 			iconType =
@@ -998,6 +1004,8 @@ guiTypes = {
 				maxHeight = 24
 				Orientation = "UPPER_LEFT"
 				format = left
+                truncate = yes
+                fixedsize = yes
 			}
 			
 			iconType =
@@ -1019,6 +1027,8 @@ guiTypes = {
 				maxHeight = 24
 				Orientation = "UPPER_LEFT"
 				format = left
+                truncate = yes
+                fixedsize = yes
 			}
 			
 			iconType =
@@ -1040,6 +1050,8 @@ guiTypes = {
 				maxHeight = 24
 				Orientation = "UPPER_LEFT"
 				format = left
+                truncate = yes
+                fixedsize = yes
 			}
 			
 			iconType =
@@ -1061,6 +1073,8 @@ guiTypes = {
 				maxHeight = 24
 				Orientation = "UPPER_LEFT"
 				format = left
+                truncate = yes
+                fixedsize = yes
 			}
 		}
 		
@@ -1145,14 +1159,14 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "low_piety_action"
-				position = { x=71 y = -11}
+				position = { x=71 y = -9999}
 				quadTextureSprite ="GFX_low_piety_action"
 				Orientation = "LEFT"
 			}
 			
 			guiButtonType = {
 				name = "high_piety_action"
-				position = { x=200 y = -11}
+				position = { x=200 y = -9999}
 				quadTextureSprite ="GFX_high_piety_action"
 				Orientation = "LEFT"
 			}
@@ -1182,7 +1196,7 @@ guiTypes = {
 			{
 				name ="current_karma_progress_bg"
 				spriteType = "GFX_piety_bar_bg"
-				position = { x= 66 y = -25 }
+				position = { x= 70 y = -25 }
 			}
 			
 			iconType =
@@ -1196,14 +1210,14 @@ guiTypes = {
 			{
 				name ="low_karma"
 				spriteType = "GFX_low_karma"
-				position = { x= 43 y = -36 }
+				position = { x= 32 y = -36 }
 			}
 			
 			iconType =
 			{
 				name ="high_karma"
 				spriteType = "GFX_high_karma"
-				position = { x= 243 y = -36 }
+				position = { x= 252 y = -36 }
 			}
 			
 			iconType =
@@ -1384,9 +1398,6 @@ guiTypes = {
 			}
 		}
 		
-		
-		
-			
 		###Religion specific datafield
 		windowType = {
 			name = "catholic_specific_window"
@@ -1423,7 +1434,7 @@ guiTypes = {
 			{
 				name ="papacy_icon"
 				quadTextureSprite = "GFX_menubar_floating_strip"
-				position = { x= 227 y = -20 }
+				position = { x= -2227 y = -20 }
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -1456,19 +1467,42 @@ guiTypes = {
 			{
 				name = "papal_influence_icon"
 				spriteType = "GFX_papal_influence"
-				position = { x = 11 y = -17 }
+				position = { x = -2 y = -30 }
 				Orientation = "UPPER_LEFT"
 				hint_tag = "hint_papalinfluence"
 			}
 			
 			instantTextBoxType = {
 				name = "papal_influence_value"
-				position = { x = 52 y = -8 }
+				position = { x = 45 y = -5 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "3,1"
 				maxWidth = 40
 				maxHeight = 45
+				Orientation = "UPPER_LEFT"
+				format = centre
+			}
+		
+			
+					
+			iconType =
+			{
+				name = "reform_resistance_icon"
+				spriteType = "GFX_icon_catholic_religious_resistance"
+				position = { x = 198 y = -9999 }
+				scale = 0.75
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "reform_resistance_value"
+				position = { x = 245 y = -9999 }
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "3,1"
+				maxWidth = 55
+				maxHeight = 25
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
@@ -1478,14 +1512,14 @@ guiTypes = {
 			{
 				name = "reform_desire_icon"
 				spriteType = "GFX_icon_catholic_reform_desire"
-				position = { x = 120 y = -15 }
+				position = { x = 110 y = -12 }
 				Orientation = "UPPER_LEFT"
 				hint_tag = "hint_reformdesire"
 			}
 			
 			instantTextBoxType = {
 				name = "reform_desire_value"
-				position = { x = 157 y = -8 }
+				position = { x = 135 y = -5 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "3,1"
@@ -1681,22 +1715,18 @@ guiTypes = {
 		
 		
 		###Religious unity
-		instantTextBoxType = {
-			name = "religiousunity_label"
-			position = { x = 18 y = 337 }
-			font = "vic_22"
-			borderSize = {x = 0 y = 0}
-			text = "religious_unity"
-			maxWidth = 120
-			maxHeight = 50
+
+		iconType =	{
+			name ="religious_unity_icon_with_frame"
+			spriteType = "GFX_religious_unity_icon_with_frame"
+			scale=0.7
+			position = { x= 17 y = 332 }
 			Orientation = "UPPER_LEFT"
-			format = left
-			hint_tag = "hint_unity"
-		}
-			
+		}		
+
 		instantTextBoxType = {
 			name = "religiousunity_value"
-			position = { x = 138 y = 340 }
+			position = { x = 50 y = 337 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "%%%"
@@ -1706,18 +1736,20 @@ guiTypes = {
 			format = centre
 		}
 		
+
+		
 		
 		###Missionary Strength
 		iconType =	{
 			name ="missionary_strength_icon"
 			spriteType = "GFX_icon_missionary"
-			position = { x= 393 y = 332 }
+			position = { x= 102 y = 330 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
 		instantTextBoxType = {
 			name = "missionary_strength_value"
-			position = { x = 434 y = 340 }
+			position = { x = 128 y = 337 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "TEMP"
@@ -1730,7 +1762,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "conversion"
-			position = { x = 215 y = 339 }
+			position = { x = 210 y = 336 }
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "CONVERT"
@@ -1796,7 +1828,7 @@ guiTypes = {
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			buttonText = "MISSION"
+			buttonText = "MONTHLY_COST"
 			buttonFont = "vic_18"
 			quadTextureSprite ="GFX_sort_84"	
 			Orientation = "UPPER_LEFT"
@@ -1903,7 +1935,15 @@ guiTypes = {
 		
 		
 		###Defender of the Faith
-		guiButtonType = 
+
+        iconType = {
+			name ="defender_of_the_faith_tier"
+			spriteType = "GFX_defender_of_the_faith_tier"
+			position = { x=355 y=260 }
+			Orientation = "UPPER_LEFT"
+        }
+
+        guiButtonType = 
 		{
 			name ="become_Defender_of_the_Faith"
 			quadTextureSprite = "GFX_become_Defender_of_the_Faith"
@@ -1916,9 +1956,22 @@ guiTypes = {
 		
 		guiButtonType = 
 		{
+			name ="defender_of_the_faith_emperor_button"
+			quadTextureSprite = "GFX_become_Defender_of_the_Faith"
+			position = { x = 408 y = 265 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			Orientation = "UPPER_LEFT"
+			scale = 0.6
+		}
+
+		guiButtonType = 
+		{
 			name ="defender_of_the_faith_button"
-			quadTextureSprite = "button_defender_of_faith"
-			position = { x = 414 y = 258 }
+			quadTextureSprite = "GFX_become_Defender_of_the_Faith"
+			position = { x = 398 y = 265 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -1929,7 +1982,7 @@ guiTypes = {
 		{
 			name ="defender_of_the_faith_shield"
 			quadTextureSprite = "GFX_shield_thin"
-			position = { x = 401 y = 250 }
+			position = { x = 393 y = 260 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -1937,11 +1990,23 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 	#		scale = 0.75
 		}
-	
+		guiButtonType = 
+		{
+			name ="defender_of_the_faith_emperor_shield"
+			quadTextureSprite = "GFX_shield_medium"
+			position = { x = 407 y = 265 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			Orientation = "UPPER_LEFT"
+	#		scale = 0.75
+		}
+
 # Needs txt linking	
 		instantTextBoxType = {
 				name = "defender_title"
-				position = { x = 360 y = 233 }
+				position = { x = 360 y = 235 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 4}	
@@ -2046,7 +2111,7 @@ guiTypes = {
 				name ="deity_listbox"
 				position = { x=56 y = -55}
 				backGround=""
-				size = { x=319 y =300}
+				size = { x=420 y =300}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 1
@@ -2506,7 +2571,7 @@ guiTypes = {
 	################################################################################################
 	################# Church aspect item (for selection) For Protestants
 	windowType = {
-		name = "countryreligionview_aspectitem_cthun"
+		name = "countryreligionview_aspectitem_protestant"
 		backGround =""
 		position = { x=10 y=-20 }	
 		size = { x=50 y=46 }
@@ -2555,417 +2620,11 @@ guiTypes = {
 			Orientation = "LEFT"
 		}
 	}
-    
-    windowType = {
-		name = "countryreligionview_aspectitem_nzoth"
-		backGround =""
-		position = { x=10 y=-20 }	
-		size = { x=50 y=46 }
-		moveable = 0
-		dontRender = ""
-		horizontalBorder = ""
-		Orientation = "UPPER_LEFT"
-		
-		iconType =
-		{
-			name ="aspect_icon"
-			spriteType = "GFX_hindu_deities_strip"
-			position = { x= 45 y = -14 }
-		}
-		
-		instantTextBoxType = {
-			name = "aspect_name"
-			position = { x= -42 y = 6 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "AspectName"	
-			maxWidth = 102
-			maxHeight = 24
-			Orientation = "UPPER_LEFT"
-			format = left
-		}
-		
-		instantTextBoxType = {
-			name = "aspect_effect"
-			position = { x = 98 y = -2 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "AspectEffect"	
-			maxWidth = 206
-			maxHeight = 24
-			Orientation = "UPPER_LEFT"
-			format = left
-		}
-		
-		guiButtonType = {
-			name = "pick_aspect"
-			position = { x=301 y = 1}
-			quadTextureSprite ="GFX_standard_button_71"
-			buttonText = "SELECT"
-			buttonFont = "vic_18"
-			Orientation = "LEFT"
-		}
-	}
-    
-    windowType = {
-		name = "countryreligionview_aspectitem_yogg_saron"
-		backGround =""
-		position = { x=10 y=-20 }	
-		size = { x=50 y=46 }
-		moveable = 0
-		dontRender = ""
-		horizontalBorder = ""
-		Orientation = "UPPER_LEFT"
-		
-		iconType =
-		{
-			name ="aspect_icon"
-			spriteType = "GFX_hindu_deities_strip"
-			position = { x= 45 y = -14 }
-		}
-		
-		instantTextBoxType = {
-			name = "aspect_name"
-			position = { x= -42 y = 6 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "AspectName"	
-			maxWidth = 102
-			maxHeight = 24
-			Orientation = "UPPER_LEFT"
-			format = left
-		}
-		
-		instantTextBoxType = {
-			name = "aspect_effect"
-			position = { x = 98 y = -2 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "AspectEffect"	
-			maxWidth = 206
-			maxHeight = 24
-			Orientation = "UPPER_LEFT"
-			format = left
-		}
-		
-		guiButtonType = {
-			name = "pick_aspect"
-			position = { x=301 y = 1}
-			quadTextureSprite ="GFX_standard_button_71"
-			buttonText = "SELECT"
-			buttonFont = "vic_18"
-			Orientation = "LEFT"
-		}
-	}
-    
-    windowType = {
-		name = "countryreligionview_aspectitem_yshaarj"
-		backGround =""
-		position = { x=10 y=-20 }	
-		size = { x=50 y=46 }
-		moveable = 0
-		dontRender = ""
-		horizontalBorder = ""
-		Orientation = "UPPER_LEFT"
-		
-		iconType =
-		{
-			name ="aspect_icon"
-			spriteType = "GFX_hindu_deities_strip"
-			position = { x= 45 y = -14 }
-		}
-		
-		instantTextBoxType = {
-			name = "aspect_name"
-			position = { x= -42 y = 6 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "AspectName"	
-			maxWidth = 102
-			maxHeight = 24
-			Orientation = "UPPER_LEFT"
-			format = left
-		}
-		
-		instantTextBoxType = {
-			name = "aspect_effect"
-			position = { x = 98 y = -2 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "AspectEffect"	
-			maxWidth = 206
-			maxHeight = 24
-			Orientation = "UPPER_LEFT"
-			format = left
-		}
-		
-		guiButtonType = {
-			name = "pick_aspect"
-			position = { x=301 y = 1}
-			quadTextureSprite ="GFX_standard_button_71"
-			buttonText = "SELECT"
-			buttonFont = "vic_18"
-			Orientation = "LEFT"
-		}
-	}
-    
-    windowType = {
-		name = "countryreligionview_aspectitem_twilight_cult"
-		backGround =""
-		position = { x=10 y=-20 }	
-		size = { x=50 y=46 }
-		moveable = 0
-		dontRender = ""
-		horizontalBorder = ""
-		Orientation = "UPPER_LEFT"
-		
-		iconType =
-		{
-			name ="aspect_icon"
-			spriteType = "GFX_hindu_deities_strip"
-			position = { x= 45 y = -14 }
-		}
-		
-		instantTextBoxType = {
-			name = "aspect_name"
-			position = { x= -42 y = 6 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "AspectName"	
-			maxWidth = 102
-			maxHeight = 24
-			Orientation = "UPPER_LEFT"
-			format = left
-		}
-		
-		instantTextBoxType = {
-			name = "aspect_effect"
-			position = { x = 98 y = -2 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "AspectEffect"	
-			maxWidth = 206
-			maxHeight = 24
-			Orientation = "UPPER_LEFT"
-			format = left
-		}
-		
-		guiButtonType = {
-			name = "pick_aspect"
-			position = { x=301 y = 1}
-			quadTextureSprite ="GFX_standard_button_71"
-			buttonText = "SELECT"
-			buttonFont = "vic_18"
-			Orientation = "LEFT"
-		}
-	}
-    
-    windowType = {
-		name = "countryreligionview_aspectitem_nightmare"
-		backGround =""
-		position = { x=10 y=-20 }	
-		size = { x=50 y=46 }
-		moveable = 0
-		dontRender = ""
-		horizontalBorder = ""
-		Orientation = "UPPER_LEFT"
-		
-		iconType =
-		{
-			name ="aspect_icon"
-			spriteType = "GFX_hindu_deities_strip"
-			position = { x= 45 y = -14 }
-		}
-		
-		instantTextBoxType = {
-			name = "aspect_name"
-			position = { x= -42 y = 6 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "AspectName"	
-			maxWidth = 102
-			maxHeight = 24
-			Orientation = "UPPER_LEFT"
-			format = left
-		}
-		
-		instantTextBoxType = {
-			name = "aspect_effect"
-			position = { x = 98 y = -2 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "AspectEffect"	
-			maxWidth = 206
-			maxHeight = 24
-			Orientation = "UPPER_LEFT"
-			format = left
-		}
-		
-		guiButtonType = {
-			name = "pick_aspect"
-			position = { x=301 y = 1}
-			quadTextureSprite ="GFX_standard_button_71"
-			buttonText = "SELECT"
-			buttonFont = "vic_18"
-			Orientation = "LEFT"
-		}
-	}
-    
-    windowType = {
-		name = "countryreligionview_aspectitem_cult_of_the_damned"
-		backGround =""
-		position = { x=10 y=-20 }	
-		size = { x=50 y=46 }
-		moveable = 0
-		dontRender = ""
-		horizontalBorder = ""
-		Orientation = "UPPER_LEFT"
-		
-		iconType =
-		{
-			name ="aspect_icon"
-			spriteType = "GFX_hindu_deities_strip"
-			position = { x= 45 y = -14 }
-		}
-		
-		instantTextBoxType = {
-			name = "aspect_name"
-			position = { x= -42 y = 6 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "AspectName"	
-			maxWidth = 102
-			maxHeight = 24
-			Orientation = "UPPER_LEFT"
-			format = left
-		}
-		
-		instantTextBoxType = {
-			name = "aspect_effect"
-			position = { x = 98 y = -2 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "AspectEffect"	
-			maxWidth = 206
-			maxHeight = 24
-			Orientation = "UPPER_LEFT"
-			format = left
-		}
-		
-		guiButtonType = {
-			name = "pick_aspect"
-			position = { x=301 y = 1}
-			quadTextureSprite ="GFX_standard_button_71"
-			buttonText = "SELECT"
-			buttonFont = "vic_18"
-			Orientation = "LEFT"
-		}
-	}
-    
-    windowType = {
-		name = "countryreligionview_aspectitem_necromancy"
-		backGround =""
-		position = { x=10 y=-20 }	
-		size = { x=50 y=46 }
-		moveable = 0
-		dontRender = ""
-		horizontalBorder = ""
-		Orientation = "UPPER_LEFT"
-		
-		iconType =
-		{
-			name ="aspect_icon"
-			spriteType = "GFX_hindu_deities_strip"
-			position = { x= 45 y = -14 }
-		}
-		
-		instantTextBoxType = {
-			name = "aspect_name"
-			position = { x= -42 y = 6 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "AspectName"	
-			maxWidth = 102
-			maxHeight = 24
-			Orientation = "UPPER_LEFT"
-			format = left
-		}
-		
-		instantTextBoxType = {
-			name = "aspect_effect"
-			position = { x = 98 y = -2 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "AspectEffect"	
-			maxWidth = 206
-			maxHeight = 24
-			Orientation = "UPPER_LEFT"
-			format = left
-		}
-		
-		guiButtonType = {
-			name = "pick_aspect"
-			position = { x=301 y = 1}
-			quadTextureSprite ="GFX_standard_button_71"
-			buttonText = "SELECT"
-			buttonFont = "vic_18"
-			Orientation = "LEFT"
-		}
-	}
-    
-    windowType = {
-		name = "countryreligionview_aspectitem_shadow"
-		backGround =""
-		position = { x=10 y=-20 }	
-		size = { x=50 y=46 }
-		moveable = 0
-		dontRender = ""
-		horizontalBorder = ""
-		Orientation = "UPPER_LEFT"
-		
-		iconType =
-		{
-			name ="aspect_icon"
-			spriteType = "GFX_hindu_deities_strip"
-			position = { x= 45 y = -14 }
-		}
-		
-		instantTextBoxType = {
-			name = "aspect_name"
-			position = { x= -42 y = 6 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "AspectName"	
-			maxWidth = 102
-			maxHeight = 24
-			Orientation = "UPPER_LEFT"
-			format = left
-		}
-		
-		instantTextBoxType = {
-			name = "aspect_effect"
-			position = { x = 98 y = -2 }
-			font = "vic_18"
-			borderSize = {x = 0 y = 0}
-			text = "AspectEffect"	
-			maxWidth = 206
-			maxHeight = 24
-			Orientation = "UPPER_LEFT"
-			format = left
-		}
-		
-		guiButtonType = {
-			name = "pick_aspect"
-			position = { x=301 y = 1}
-			quadTextureSprite ="GFX_standard_button_71"
-			buttonText = "SELECT"
-			buttonFont = "vic_18"
-			Orientation = "LEFT"
-		}
-	}
-    
-    windowType = {
-		name = "countryreligionview_aspectitem_forgotten_shadow"
+	
+	################################################################################################
+	################# Church aspect item (for selection) For Protestants
+	windowType = {
+		name = "countryreligionview_aspectitem_hussite"
 		backGround =""
 		position = { x=10 y=-20 }	
 		size = { x=50 y=46 }
