@@ -1,0 +1,17 @@
+
+is_city = yes
+
+owner = KOT
+controller = KOT
+add_core = KOT
+
+base_tax = 8
+base_production = 8
+base_manpower = 8
+
+culture = culture_bronze
+religion = religion_sect_of_dragons
+
+trade_goods = artifacts
+hre = yes
+

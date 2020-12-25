@@ -1,0 +1,15 @@
+
+owner = DWS
+controller = DWS
+add_core = DWS
+
+base_tax = 4
+base_production = 3
+base_manpower = 5
+
+culture = culture_nightborne
+religion = religion_arcane
+
+trade_goods = arcane
+hre = no
+

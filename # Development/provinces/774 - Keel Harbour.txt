@@ -1,0 +1,16 @@
+is_city = yes
+owner = A12
+controller = A12
+add_core = A12
+
+base_tax = 5
+base_production = 3
+base_manpower = 4
+
+culture = culture_gilnean
+religion = religion_church_of_the_light
+
+trade_goods = naval_supplies
+hre = no 
+
+center_of_trade = 1

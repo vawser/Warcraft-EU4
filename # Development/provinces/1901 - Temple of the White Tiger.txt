@@ -1,0 +1,19 @@
+
+is_city = yes
+
+owner = P66
+controller = P66
+add_core = P66
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+culture = culture_white_tiger
+religion = religion_celestial
+
+trade_goods = army_supplies
+#hre = yes
+
+center_of_trade = 2
+

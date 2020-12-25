@@ -1,0 +1,15 @@
+
+owner = SRH
+controller = SRH
+add_core = SRH
+
+base_tax = 5
+base_production = 6
+base_manpower = 5
+
+culture = culture_smolderhide
+religion = religion_ancestral
+
+trade_goods = warbeasts
+hre = no
+

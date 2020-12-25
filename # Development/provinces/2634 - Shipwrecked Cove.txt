@@ -1,0 +1,14 @@
+owner = SKE
+controller = SKE
+add_core = SKE
+
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+culture = culture_nerglish
+religion = religion_water
+
+trade_goods = silk
+hre = no
+

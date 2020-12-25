@@ -1,0 +1,19 @@
+
+is_city = yes
+
+
+owner = GD2
+controller = GD2
+add_core = GD2
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = culture_green
+religion = religion_sect_of_dragons
+
+trade_goods = grain
+hre = no
+
+

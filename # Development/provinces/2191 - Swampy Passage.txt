@@ -1,0 +1,27 @@
+is_city = no
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = culture_shadowhide
+religion = religion_ancestral
+
+trade_goods = unknown
+hre = no
+
+631.1.1 = {
+    is_city = yes
+	owner = F34
+	controller = F34
+	add_core = F34
+    
+	culture = culture_broken
+	religion = religion_light_of_the_naaru
+    
+    trade_goods = copper
+}
+

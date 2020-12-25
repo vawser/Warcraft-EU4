@@ -1,0 +1,15 @@
+
+owner = HAT
+controller = HAT
+add_core = HAT
+
+base_tax = 6
+base_production = 7
+base_manpower = 6
+
+culture = culture_azsharan
+religion = religion_water
+
+trade_goods = arcane
+hre = no
+

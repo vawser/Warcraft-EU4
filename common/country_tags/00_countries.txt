@@ -34,78 +34,78 @@ PIR = "countries/Pirates.txt"
 NAT = "countries/Natives.txt"
 
 # Human
-STW = "countries/Stormwind.txt"			        # STW
-WST = "countries/Westfall.txt"                  # WST
-DKS = "countries/Darkshire.txt"                 # DKS
-A04 = "countries/Redridge.txt"                  # RRG
-A05 = "countries/Northshire.txt"                # NTS
-A06 = "countries/Menethil.txt"                  # MTH
-A07 = "countries/Defias Brotherhood.txt"        # DFB
-A08 = "countries/Lordaeron.txt"                 # LOR
-A09 = "countries/Hearthglen.txt"                # HGN
-A10 = "countries/Stratholme.txt"                # STH
-A11 = "countries/Hillsbrad.txt"                 # HIB
-A12 = "countries/Gilneas.txt"                   # GIL
-A13 = "countries/Shadowfang.txt"                # SFG
-A14 = "countries/Kul Tiras.txt"                 # KTS
-A15 = "countries/Bloodsail.txt"                 # BSL
-A16 = "countries/Stromgarde.txt"                # SGE
-A17 = "countries/Alterac.txt"                   # ATC
+STW = "countries/Stormwind.txt"			        # SRW
+WST = "countries/Westfall.txt"                  # WES
+DKS = "countries/Darkshire.txt"                 # BRI
+A04 = "countries/Redridge.txt"                  # RED
+A05 = "countries/Northshire.txt"                # 
+A06 = "countries/Menethil.txt"                  
+A07 = "countries/Defias Brotherhood.txt"        
+A08 = "countries/Lordaeron.txt"                 # LOR       
+A09 = "countries/Hearthglen.txt"                
+A10 = "countries/Stratholme.txt"                # STR
+A11 = "countries/Hillsbrad.txt"                 
+A12 = "countries/Gilneas.txt"                   # GIL    
+A13 = "countries/Shadowfang.txt"                
+A14 = "countries/Kul Tiras.txt"                 # KUL
+A15 = "countries/Bloodsail.txt"                 # BLO        
+A16 = "countries/Stromgarde.txt"                # SMG
+A17 = "countries/Alterac.txt"                   # ALT   
 A18 = "countries/Dalaran.txt"                   # DAL
 A19 = "countries/Southsea Pirates.txt"          # SSP
-A20 = "countries/Northsea Freebooters.txt"      # NSF
-A21 = "countries/Wastewander.txt"               # WWR
-A22 = "countries/The Scarlet Crusade.txt"       # SCS
-A23 = "countries/Theramore.txt"                 # TME
-A24 = "countries/The Argent Dawn.txt"           # AGD
-A25 = "countries/Lordaeron Remnants.txt"        # LAR
-A26 = "countries/Syndicate.txt"                 # SYD
-A27 = "countries/Ravenholdt.txt"                # RAV
-P59 = "countries/Karazhan.txt"                  # KAZ
-P61 = "countries/Tirisfal.txt"                  # TIR
-P62 = "countries/Tyr's Hand.txt"                # TYR
-P72 = "countries/Wintergarde.txt"               # WGE
-G50 = "countries/Vandermar.txt"                 # VMR
-F04 = "countries/Tol Barad.txt"                 # TOB
-F14 = "countries/Sons of Lothar.txt"            # SOL
-F16 = "countries/Blackthorn.txt"                # BTR
-F17 = "countries/Silver Hand.txt"               # SVH
-F18 = "countries/Scarlet Onslaught.txt"         # SOT
-F19 = "countries/Argent Crusade.txt"            # AGC
-F27 = "countries/Elwynn Bandits.txt"            # ELW
-F28 = "countries/Kurzen.txt"                    # KUZ
-F38 = "countries/Valgarde.txt"                  # VLG
-F39 = "countries/Nedreck.txt"                   # NED
-F40 = "countries/Bloodhill Bandits.txt"         # BHB
-F52 = "countries/Pyrewood.txt"                  # PYR
-F55 = "countries/Lordaeron Survivors.txt"       # LDS
-H06 = "countries/Alliance Vanguard.txt"         # ALV
-F58 = "countries/Theramore Deserters.txt"       # TMD
-F61 = "countries/Morgans Forces.txt"            # MGF
-P19 = "countries/Fray Island.txt"               # FRI
-G06 = "countries/Northwatch.txt"                # NWH
-G07 = "countries/Marshal Expedition.txt"        # MAE
-G11 = "countries/Adventurers.txt"               # ADV
-G12 = "countries/Schnottz.txt"                  # SCH
-H08 = "countries/Strahnbrad.txt"                # STA
-H09 = "countries/Ambermill.txt"                 # AMB
-P32 = "countries/Amberpine.txt"                 # AMP
-N32 = "countries/Azerothian Remnants.txt"       # AZR
+A20 = "countries/Northsea Freebooters.txt"      
+A21 = "countries/Wastewander.txt"               # WWP
+A22 = "countries/The Scarlet Crusade.txt"       
+A23 = "countries/Theramore.txt"                 # TRM
+A24 = "countries/The Argent Dawn.txt"           
+A25 = "countries/Lordaeron Remnants.txt"        
+A26 = "countries/Syndicate.txt"                 
+A27 = "countries/Ravenholdt.txt"                
+P59 = "countries/Karazhan.txt"                  # KAZ     
+P61 = "countries/Tirisfal.txt"                  
+P62 = "countries/Tyr's Hand.txt"                
+P72 = "countries/Wintergarde.txt"               
+G50 = "countries/Vandermar.txt"                 
+F04 = "countries/Tol Barad.txt"                 # TOL        
+F14 = "countries/Sons of Lothar.txt"            
+F16 = "countries/Blackthorn.txt"                
+F17 = "countries/Silver Hand.txt"               # KSH
+F18 = "countries/Scarlet Onslaught.txt"         
+F19 = "countries/Argent Crusade.txt"            
+F27 = "countries/Elwynn Bandits.txt"            
+F28 = "countries/Kurzen.txt"                    
+F38 = "countries/Valgarde.txt"                  
+F39 = "countries/Nedreck.txt"                   
+F40 = "countries/Bloodhill Bandits.txt"         
+F52 = "countries/Pyrewood.txt"                  
+F55 = "countries/Lordaeron Survivors.txt"       
+H06 = "countries/Alliance Vanguard.txt"         
+F58 = "countries/Theramore Deserters.txt"       
+F61 = "countries/Morgans Forces.txt"            
+P19 = "countries/Fray Island.txt"               
+G06 = "countries/Northwatch.txt"                
+G07 = "countries/Marshal Expedition.txt"        
+G11 = "countries/Adventurers.txt"               
+G12 = "countries/Schnottz.txt"                  
+H08 = "countries/Strahnbrad.txt"                
+H09 = "countries/Ambermill.txt"                 
+P32 = "countries/Amberpine.txt"                 
+N32 = "countries/Azerothian Remnants.txt"       
 
 # Dwarven
-A28 = "countries/Wildhammer.txt"
-A29 = "countries/Ironforge.txt"
-A30 = "countries/Dark Iron.txt"
-A31 = "countries/Frostborn.txt"
-P56 = "countries/Thorium Brotherhood.txt"
+A28 = "countries/Wildhammer.txt"            # WIL
+A29 = "countries/Ironforge.txt"             # IRO
+A30 = "countries/Dark Iron.txt"             # DKI
+A31 = "countries/Frostborn.txt"             # FRO
+P56 = "countries/Thorium Brotherhood.txt"   
 F25 = "countries/Iron Summit.txt"
 F29 = "countries/Nesingwary.txt"
 F59 = "countries/Bael Modan.txt"
-P22 = "countries/Aerie Peak.txt"
+P22 = "countries/Aerie Peak.txt"            # AER
 H11 = "countries/Stormpike.txt"
 
 # Gnomish
-A32 = "countries/Gnomeregan.txt"
+A32 = "countries/Gnomeregan.txt"            # GNO
 A33 = "countries/Thermaplugg Exiles.txt"
 G13 = "countries/Gnomish Expedition.txt"
 
@@ -116,17 +116,17 @@ A36 = "countries/Shattered Hand.txt"
 A37 = "countries/Thunderlord.txt"
 A38 = "countries/Laughing Skull.txt"
 A39 = "countries/Bonechewer.txt"
-A40 = "countries/Bleeding Hollow.txt"
-A41 = "countries/Blackrock.txt"
-A42 = "countries/Stormreaver.txt"
-A43 = "countries/Twilights Hammer.txt"
-A44 = "countries/Burning Blade.txt"
-A45 = "countries/Dragonmaw.txt"
+A40 = "countries/Bleeding Hollow.txt"       # BLH
+A41 = "countries/Blackrock.txt"             # BLK
+A42 = "countries/Stormreaver.txt"           # SRC
+A43 = "countries/Twilights Hammer.txt"      # TWH
+A44 = "countries/Burning Blade.txt"         # BBC
+A45 = "countries/Dragonmaw.txt"             # DGM
 A46 = "countries/Frostwolf.txt"
 A47 = "countries/MokNathal.txt"
-A48 = "countries/Orgrimmar.txt"
+A48 = "countries/Orgrimmar.txt"             # ORG
 A50 = "countries/Thrallmar.txt"
-P98 = "countries/Black Tooth Grin.txt"
+P98 = "countries/Black Tooth Grin.txt"      # BTG
 F26 = "countries/Ironmarch.txt"
 F48 = "countries/Fel Dragonmaw.txt"
 H07 = "countries/Horde Expedition.txt"
@@ -138,22 +138,22 @@ Q57 = "countries/Twilight's Hammer Remnants.txt"
 
 # Ogre
 A49 = "countries/Bladespire.txt"
-A51 = "countries/Boulderfist.txt"
-A52 = "countries/Gordunni.txt"
+A51 = "countries/Boulderfist.txt"       # BOU
+A52 = "countries/Gordunni.txt"          # GOR
 A53 = "countries/Bloodmaul.txt"
-P50 = "countries/Crushridge.txt"
-P96 = "countries/Dreadmaul.txt"
+P50 = "countries/Crushridge.txt"        # CRS
+P96 = "countries/Dreadmaul.txt"         # DRD
 P97 = "countries/Splinterfist.txt"
-P99 = "countries/Firegut.txt"
+P99 = "countries/Firegut.txt"           # FRG
 F01 = "countries/Stonespire.txt"
-F05 = "countries/Mo'grosh.txt"
-F06 = "countries/Dustbelcher.txt"
-F07 = "countries/Deadwind.txt"
+F05 = "countries/Mo'grosh.txt"          # MOG
+F06 = "countries/Dustbelcher.txt"       # DBR
+F07 = "countries/Deadwind.txt"          # DWO
 F08 = "countries/Bloodeye.txt"
-F31 = "countries/Mosh'Ogg.txt"
+F31 = "countries/Mosh'Ogg.txt"          # MSO
 F50 = "countries/Outland Boulderfist.txt"
-H05 = "countries/Dunemaul.txt" 
-F57 = "countries/Stonemaul.txt"
+H05 = "countries/Dunemaul.txt"          # DUM
+F57 = "countries/Stonemaul.txt"         # STM
 F60 = "countries/Stagecoach.txt"
 F69 = "countries/Ango'rosh.txt"
 F76 = "countries/Ogrila.txt"
@@ -165,9 +165,9 @@ G30 = "countries/Icemaul.txt"
 # Draenei
 A54 = "countries/Shattrath.txt"
 A55 = "countries/Karabor.txt"
-A56 = "countries/Exodar.txt"
+A56 = "countries/Exodar.txt"                    # EXO
 A57 = "countries/Ashtoungue Deathsworn.txt"
-F34 = "countries/Harborage.txt"
+F34 = "countries/Harborage.txt"                 # LSO
 F35 = "countries/Fallow Sanctuary.txt"
 F49 = "countries/Auchenai.txt"
 F65 = "countries/Umbrafen.txt"
@@ -182,40 +182,40 @@ G19 = "countries/Shattered Sun.txt"
 V73 = "countries/Shattrathi Remnants.txt"
 
 # Forest Troll
-A58 = "countries/Amani.txt"
-A59 = "countries/Shadowpine.txt"
-A60 = "countries/Vilebranch.txt"
-A61 = "countries/Revantusk.txt"
+A58 = "countries/Amani.txt"         # AMA
+A59 = "countries/Shadowpine.txt"    # SWP
+A60 = "countries/Vilebranch.txt"    # VLB
+A61 = "countries/Revantusk.txt"     # RVT
 A62 = "countries/Mossflayer.txt"
-A63 = "countries/Firetree.txt"
-A64 = "countries/Witherbark.txt"
-A65 = "countries/Smolderthorn.txt"
-P55 = "countries/Shadowglen.txt"
+A63 = "countries/Firetree.txt"      # FRR
+A64 = "countries/Witherbark.txt"    # WTR
+A65 = "countries/Smolderthorn.txt"  # SLD
+P55 = "countries/Shadowglen.txt"    # SWN
 
 # Jungle Troll
-A66 = "countries/Gurubashi.txt"
-A67 = "countries/Bloodscalp.txt"
-A68 = "countries/Shatterspear.txt"
-A69 = "countries/Skullsplitter.txt"
+A66 = "countries/Gurubashi.txt"     # GUR
+A67 = "countries/Bloodscalp.txt"    # BLS
+A68 = "countries/Shatterspear.txt"  # STS
+A69 = "countries/Skullsplitter.txt" # SKS
 A70 = "countries/Darkspear.txt"
-A71 = "countries/Atalai.txt"
+A71 = "countries/Atalai.txt"        # ATL
 A72 = "countries/Hakkari.txt"
 P58 = "countries/Zanzil.txt"
-F09 = "countries/Jellyneck.txt"
+F09 = "countries/Jellyneck.txt"     # JEL
 F63 = "countries/Zabra'jin.txt"
-G37 = "countries/Echo Isles.txt"
+G37 = "countries/Echo Isles.txt"    # DRK
 
 # Sand Troll
-A73 = "countries/Sandfury.txt"
+A73 = "countries/Sandfury.txt"      # SAN
 
 # Frost Troll
-A74 = "countries/Drakkari.txt"
-A75 = "countries/Frostmane.txt"
-A76 = "countries/Winterax.txt"
-A77 = "countries/Winterfang.txt"
+A74 = "countries/Drakkari.txt"      # DAK
+A75 = "countries/Frostmane.txt"     # FSM
+A76 = "countries/Winterax.txt"      # WTX
+A77 = "countries/Winterfang.txt"    # WTF
 
 # Zandalari Troll
-A78 = "countries/Zandalar.txt"
+A78 = "countries/Zandalar.txt"  # ZDL
 
 # Dark Troll
 F47 = "countries/Shadowtooth.txt"
@@ -230,19 +230,19 @@ F81 = "countries/BOOM.txt"
 G34 = "countries/Tinkers Union.txt"
 
 # Tauren
-A84 = "countries/Bloodhoof.txt"
-A85 = "countries/Grimtotem.txt"
-A86 = "countries/Runetotem.txt"
-A87 = "countries/Mistrunner.txt"
-A88 = "countries/Dawnstrider.txt"
-A89 = "countries/Winterhoof.txt"
+A84 = "countries/Bloodhoof.txt"     # BDH
+A85 = "countries/Grimtotem.txt"     # GMT
+A86 = "countries/Runetotem.txt"     # RET
+A87 = "countries/Mistrunner.txt"    # MIS
+A88 = "countries/Dawnstrider.txt"   # DST
+A89 = "countries/Winterhoof.txt"    # WTH
 F88 = "countries/Thunder Bluff.txt"
-P23 = "countries/Wildmane.txt"
+P23 = "countries/Wildmane.txt"      # WIM
 F91 = "countries/Thunderhorn.txt"
-F93 = "countries/Cliffwalker.txt"
+F93 = "countries/Cliffwalker.txt"   # CFW
 
 # High Elf
-A90 = "countries/QuelThalas.txt"
+A90 = "countries/QuelThalas.txt"        # QUE
 P49 = "countries/Highvale.txt"
 F20 = "countries/Quellithian.txt"
 F56 = "countries/Southvale.txt"
@@ -259,84 +259,84 @@ G17 = "countries/Sunhawk.txt"
 G18 = "countries/Dawnblade.txt"
 
 # Night Elf
-A94 = "countries/Darnassus.txt"
-A95 = "countries/Keepers of the Grove.txt"
-H01 = "countries/Sentinels.txt"
+A94 = "countries/Darnassus.txt"             # DAS
+A95 = "countries/Keepers of the Grove.txt"  
+H01 = "countries/Sentinels.txt"             # SEN / SEA / SDS / SFR
 H02 = "countries/Cenarion Circle.txt"
 H03 = "countries/Cenarion Hold.txt"
 F64 = "countries/Cenarion Expedition.txt"
 P20 = "countries/Druids of the Fang.txt"
 
 # Aqir
-A97 = "countries/AhnQiraj.txt"
-A98 = "countries/Silithid.txt"
-P74 = "countries/AzjolNerub.txt"
+A97 = "countries/AhnQiraj.txt"          # AQJ
+A98 = "countries/Silithid.txt"      
+P74 = "countries/AzjolNerub.txt"        # AZJ
 
 # Dragonkin
-A99 = "countries/Black Dragonflight.txt"
-B01 = "countries/Blue Dragonflight.txt"
+A99 = "countries/Black Dragonflight.txt"        # ODS
+B01 = "countries/Blue Dragonflight.txt"         # NEX
 B02 = "countries/Bronze Dragonflight.txt"
-B03 = "countries/Red Dragonflight.txt"
-B04 = "countries/Green Dragonflight.txt"
+B03 = "countries/Red Dragonflight.txt"          # WYT
+B04 = "countries/Green Dragonflight.txt"        # TWG
 B05 = "countries/Netherwing Dragonflight.txt"
 B06 = "countries/Twilight Dragonflight.txt"
 B07 = "countries/Infinite Dragonflight.txt"
 F78 = "countries/Wyrmcult.txt"
-GD1 = "countries/Emeriss' Brood.txt"
-GD2 = "countries/Lethan's Brood.txt"
-GD3 = "countries/Taerar's Brood.txt"
-GD4 = "countries/Ysondre's Brood.txt"
-BD1 = "countries/Onyxia's Brood.txt"
+GD1 = "countries/Emeriss' Brood.txt"            # EDS
+GD2 = "countries/Lethan's Brood.txt"            # DRB
+GD3 = "countries/Taerar's Brood.txt"            
+GD4 = "countries/Ysondre's Brood.txt"           # SER
+BD1 = "countries/Onyxia's Brood.txt"            # WYB
 BD2 = "countries/Pyrriccion's Brood.txt"
 BD3 = "countries/Nyxondra's Brood.txt"
 BD4 = "countries/Nefarian's Brood.txt"
-V01 = "countries/Red Dragonflight.txt" # Eastern Kingdoms
+V01 = "countries/Red Dragonflight.txt"          # GMB
 
 # Vrykul
-B08 = "countries/Dragonflayer.txt"
-B09 = "countries/Winterskorn.txt"
-B10 = "countries/Skadir.txt"
+B08 = "countries/Dragonflayer.txt"      # DGF
+B09 = "countries/Winterskorn.txt"       # WTO
+B10 = "countries/Skadir.txt"            # SKA
 B11 = "countries/Kvaldir.txt"
-P15 = "countries/Ymirjar.txt" #Undead Vrykul
-P16 = "countries/Hyldnir.txt"
-P17 = "countries/Jotunheim.txt" 
+P15 = "countries/Ymirjar.txt"           # YMI
+P16 = "countries/Hyldnir.txt"           # HYL
+P17 = "countries/Jotunheim.txt"         # JOT
 
 # Gnoll
-B12 = "countries/Blackpaw.txt"
-B13 = "countries/Mosshide.txt"
-B14 = "countries/Mudsnout.txt"
-B15 = "countries/Riverpaw.txt"
-B16 = "countries/Shadowhide.txt"
-B17 = "countries/Redridge Gnolls.txt"
-B18 = "countries/Palemane.txt"
-B19 = "countries/Rothide.txt"
-F10 = "countries/Woodpaw.txt"
+B12 = "countries/Blackpaw.txt"          # BPC
+B13 = "countries/Mosshide.txt"          # MOS
+B14 = "countries/Mudsnout.txt"          # MUD
+B15 = "countries/Riverpaw.txt"          # RVP
+B16 = "countries/Shadowhide.txt"        # SDW
+B17 = "countries/Redridge Gnolls.txt"   # RRP
+B18 = "countries/Palemane.txt"          # PAL
+B19 = "countries/Rothide.txt"           # ROT
+F10 = "countries/Woodpaw.txt"           # WOO
 G25 = "countries/Wildpaw.txt"
 
 # Centaur
-B20 = "countries/Galak.txt" 
-B21 = "countries/Gelkis.txt" 
-B22 = "countries/Magram.txt" 
-B23 = "countries/Mauraudine.txt" 
-B24 = "countries/Kolkar.txt" 
+B20 = "countries/Galak.txt"             # GAL
+B21 = "countries/Gelkis.txt"            # GEL
+B22 = "countries/Magram.txt"            # MRA
+B23 = "countries/Mauraudine.txt"        # MUR
+B24 = "countries/Kolkar.txt"            # KOL
 H04 = "countries/Kolkar Marauders.txt"
 
 # Murloc
-B25 = "countries/Vile Fin.txt"
-B26 = "countries/Blue Gill.txt"
+B25 = "countries/Vile Fin.txt"  # VIL
+B26 = "countries/Blue Gill.txt" # BLU
 B27 = "countries/Grimscale.txt"
-B28 = "countries/Saltscale.txt"
+B28 = "countries/Saltscale.txt" # SAL
 B29 = "countries/Marshfin.txt"
 B30 = "countries/Greymist.txt"
 B31 = "countries/Blacksilt.txt"
 B32 = "countries/Mirefin.txt"
-B33 = "countries/Winterfin.txt"
-B34 = "countries/Chillmere.txt"
+B33 = "countries/Winterfin.txt" # WRF
+B34 = "countries/Chillmere.txt" # CHI
 B35 = "countries/White Shark.txt"
 B36 = "countries/Tidewalker.txt"
 P51 = "countries/Torn Fin.txt"
-P60 = "countries/Rockpool.txt"
-F11 = "countries/Redgill.txt"
+P60 = "countries/Rockpool.txt"  # ROC
+F11 = "countries/Redgill.txt"   # REG
 F22 = "countries/Greengill.txt"
 F30 = "countries/Murkgill.txt"
 G41 = "countries/Saltspittle.txt"
@@ -346,21 +346,21 @@ B37 = "countries/Makraru.txt"
 B38 = "countries/Bogstrok.txt"
 
 # Furbolg
-B39 = "countries/Gnarlpine.txt"
-B40 = "countries/Deadwood.txt"
-B42 = "countries/Timbermaw.txt" 
-B43 = "countries/Stillpine.txt"
-B44 = "countries/Winterfall.txt"
-B45 = "countries/Frostpaw.txt"
-B46 = "countries/Redfang.txt"
-F94 = "countries/Thistlefur.txt"
-F95 = "countries/Foulweald.txt"
-F96 = "countries/Bloodtooth.txt"
-G21 = "countries/Blackmaw.txt"
-G22 = "countries/Bristlelimb.txt"
+B39 = "countries/Gnarlpine.txt"     
+B40 = "countries/Deadwood.txt"      # DDW
+B42 = "countries/Timbermaw.txt"     # TIM
+B43 = "countries/Stillpine.txt"     # STP
+B44 = "countries/Winterfall.txt"    # WTA
+B45 = "countries/Frostpaw.txt"      # FTP
+B46 = "countries/Redfang.txt"       # RDF
+F94 = "countries/Thistlefur.txt"    # THS
+F95 = "countries/Foulweald.txt"     # FWD
+F96 = "countries/Bloodtooth.txt"    # BOH
+G21 = "countries/Blackmaw.txt"      # BMW
+G22 = "countries/Bristlelimb.txt"   # BMB
 
 # Wolvar
-B47 = "countries/Bloodpaw.txt" # tech_wolfvar
+B47 = "countries/Bloodpaw.txt" # 
 B48 = "countries/Frenzyheart.txt"
 B49 = "countries/Howling.txt"
 B50 = "countries/Rageclaw.txt"
@@ -400,25 +400,25 @@ G05 = "countries/Windfury.txt"
 G24 = "countries/Snowblind.txt"
 
 # Quillboar
-B68 = "countries/Bristleback.txt"
-B69 = "countries/Razormane.txt" 
-B70 = "countries/Razorfen.txt"
-B71 = "countries/Death's Head.txt" # Scourge
+B68 = "countries/Bristleback.txt"       # BIS
+B69 = "countries/Razormane.txt"         # RAZ
+B70 = "countries/Razorfen.txt"          # RAF
+B71 = "countries/Death's Head.txt"      
 
 # Titan
 B73 = "countries/Ulduar.txt" 
-B74 = "countries/Uldaman.txt"
+B74 = "countries/Uldaman.txt"   # ULM
 B75 = "countries/Maraudon.txt"
-B76 = "countries/ThorModan.txt"
+B76 = "countries/ThorModan.txt" # TMN
 G08 = "countries/Shapers.txt"
 G32 = "countries/Earthen.txt"
 G35 = "countries/Mechagnomes.txt"
 G38 = "countries/Lifewarders.txt"
 
 # Tol'vir
-B72 = "countries/Neferset.txt"
-G09 = "countries/Ramkahen.txt"
-G10 = "countries/Orsis.txt"
+B72 = "countries/Neferset.txt"  # NEF
+G09 = "countries/Ramkahen.txt"  # RAM
+G10 = "countries/Orsis.txt"     # ORS
 G14 = "countries/Uldum.txt"
 
 # Arrakoa
@@ -431,8 +431,8 @@ F79 = "countries/Grishna.txt"
 B85 = "countries/Dark Conclave.txt" # (Draenor Old God Cultist Ghosts)
 
 # Tuskarr
-B81 = "countries/Kaluak.txt"
-B82 = "countries/Moaki.txt" # Could be merged with Kaluak, but should at least be vassal.
+B81 = "countries/Kaluak.txt"    # KAL
+B82 = "countries/Moaki.txt"     # MOA
 
 # Old God
 B83 = "countries/Faceless.txt" # Nzoth's Forces
@@ -456,25 +456,25 @@ F82 = "countries/Hounds of Culuthas.txt"
 G02 = "countries/Darkwhisper.txt"
 
 # Satyr
-B96 = "countries/Jadefire.txt"
-B97 = "countries/Axxarian.txt"
+B96 = "countries/Jadefire.txt"      # JAD
+B97 = "countries/Axxarian.txt"      # AXX
 B99 = "countries/Hatefury.txt"
-P01 = "countries/Legashi.txt"
-F43 = "countries/Nazzivus.txt"
-F90 = "countries/Wildspawn.txt"
-F97 = "countries/Xavian.txt"
-G39 = "countries/Haldarr.txt"
+P01 = "countries/Legashi.txt"       # LEG
+F43 = "countries/Nazzivus.txt"      # NAZ
+F90 = "countries/Wildspawn.txt"     # WDP
+F97 = "countries/Xavian.txt"        # XAV
+G39 = "countries/Haldarr.txt"       # HAL
 
 # Naga
-P02 = "countries/Coilskar.txt" # Coilfang / Illidan's Naga
-P03 = "countries/Wrathscale.txt"
-P04 = "countries/Stormscale.txt"
-P05 = "countries/Spitelash.txt"
-P06 = "countries/Hatecrest.txt"
-P07 = "countries/Strashaz.txt"
-P08 = "countries/Riplash.txt"
-P09 = "countries/Daggerspine.txt"
-P10 = "countries/Blackfathom.txt"
+P02 = "countries/Coilskar.txt"      
+P03 = "countries/Wrathscale.txt"    # WRS
+P04 = "countries/Stormscale.txt"    # SMC
+P05 = "countries/Spitelash.txt"     # SPL
+P06 = "countries/Hatecrest.txt"     # HTC
+P07 = "countries/Strashaz.txt"      # SHZ
+P08 = "countries/Riplash.txt"       # RIP
+P09 = "countries/Daggerspine.txt"   # DGS
+P10 = "countries/Blackfathom.txt"   # FAT
 F23 = "countries/Darkspine.txt"
 F32 = "countries/Naga Explorers.txt"
 F36 = "countries/Bloodwash.txt"
@@ -482,7 +482,7 @@ G23 = "countries/Slitherblade.txt"
 VHJ = "countries/Vashj'ir.txt"
 
 # Scourge
-P11 = "countries/The Scourge.txt"
+P11 = "countries/The Scourge.txt"       # SCO
 P12 = "countries/Cult of the Damned.txt"
 P13 = "countries/Knights of the Ebon Blade.txt"
 P52 = "countries/The Scourge of Lordaeron.txt"
@@ -490,7 +490,7 @@ F21 = "countries/Deatholme.txt"
 
 # Undead
 A96 = "countries/Hand of Vengeance.txt"
-P14 = "countries/The Forsaken.txt"
+P14 = "countries/The Forsaken.txt"  # FOR
 F12 = "countries/Raven Hill.txt"
 H10 = "countries/Rotbrain.txt"
 H12 = "countries/New Stromgarde.txt"
@@ -522,16 +522,16 @@ P34 = "countries/Heart of Fear.txt"
 # Pandaren
 P35 = "countries/Huojin.txt"
 P36 = "countries/Tushui.txt"
-P37 = "countries/Shado Pan.txt"
-P63 = "countries/Jade Serpent.txt"
-P64 = "countries/Black Ox.txt"
-P65 = "countries/Red Crane.txt"
-P66 = "countries/White Tiger.txt"
-P84 = "countries/Tillers.txt"
-P91 = "countries/Anglers.txt"
-F02 = "countries/Golden Lotus.txt"
+P37 = "countries/Shado Pan.txt"         # SPN
+P63 = "countries/Jade Serpent.txt"      # JAS
+P64 = "countries/Black Ox.txt"          # BOX
+P65 = "countries/Red Crane.txt"         # RCR
+P66 = "countries/White Tiger.txt"       # TIG
+P84 = "countries/Tillers.txt"           # TIL
+P91 = "countries/Anglers.txt"           # ANG
+F02 = "countries/Golden Lotus.txt"      # GOL
 F45 = "countries/Forest Heart.txt"
-F46 = "countries/Cloud Serpent.txt"
+F46 = "countries/Cloud Serpent.txt"     # OCS
 
 
 # Mogu
@@ -556,11 +556,11 @@ P89 = "countries/Ruqin.txt"
 P90 = "countries/Yongqi.txt"
 
 # Trogg
-P54 = "countries/Stonesplinter.txt"
-P57 = "countries/Stonevault.txt"
-F24 = "countries/Rockjaw.txt"
+P54 = "countries/Stonesplinter.txt"     # SPI
+P57 = "countries/Stonevault.txt"        # SVT
+F24 = "countries/Rockjaw.txt"           # RJW
 G26 = "countries/Irondeep.txt"
-G42 = "countries/Gravelflint.txt"
+G42 = "countries/Gravelflint.txt"       # GVF
 
 # Hozen
 P68 = "countries/Grookin.txt"
@@ -573,23 +573,23 @@ P82 = "countries/Fallsong.txt"
 P95 = "countries/Inkgill.txt"
 
 # Saurok
-P71 = "countries/Slitherscale.txt"
-P76 = "countries/Glintrok.txt"
-P80 = "countries/Darkhatched.txt"
-P83 = "countries/Riverblade.txt"
-P85 = "countries/Muckscale.txt"
-P86 = "countries/Mistblade.txt"
-F03 = "countries/Skumblade.txt"
+P71 = "countries/Slitherscale.txt"      # SLI
+P76 = "countries/Glintrok.txt"          # GLI
+P80 = "countries/Darkhatched.txt"       # DKH
+P83 = "countries/Riverblade.txt"        # RVE
+P85 = "countries/Muckscale.txt"         # MKS
+P86 = "countries/Mistblade.txt"         # MTD
+F03 = "countries/Skumblade.txt"         # SKM
 
 # Taunka
-P73 = "countries/Icemist.txt"
+P73 = "countries/Icemist.txt"           # ICE
 
 # Virmen
 P75 = "countries/Twitcheel.txt" # United Virmen Broods
 
 # Dyrad
-P77 = "countries/The Unbound.txt" 
-P79 = "countries/Sisterhood of Winter.txt" 
+P77 = "countries/The Unbound.txt"           # UNB
+P79 = "countries/Sisterhood of Winter.txt"  # SOW
 
 # Giant
 P78 = "countries/Crystalvice.txt"
@@ -601,7 +601,7 @@ F89 = "countries/Deepstrider.txt"
 G03 = "countries/Frostmaul.txt"
 
 # Sprite
-P87 = "countries/Rikkitun.txt"
+P87 = "countries/Rikkitun.txt"      # RIK
 
 # Grummle
 P93 = "countries/Grummle.txt"
@@ -612,13 +612,13 @@ F62 = "countries/Sporeggar.txt"
 F71 = "countries/Sporelok.txt"
 
 # Pygmy
-G15 = "countries/Oogah.txt"
+G15 = "countries/Oogah.txt"     # OOG
 
 # Broken Isles
-I01 = "countries/Highmountain.txt"
-I02 = "countries/Bloodtotem.txt"
-I03 = "countries/Rivermane.txt"
-I04 = "countries/Skyhorn.txt"
+I01 = "countries/Highmountain.txt"  # HMT
+I02 = "countries/Bloodtotem.txt"    # BOT
+I03 = "countries/Rivermane.txt"     # RVM
+I04 = "countries/Skyhorn.txt"       # SKH
 I05 = "countries/Understone.txt"
 I07 = "countries/Stonedark.txt"
 
@@ -650,7 +650,7 @@ OGR = "countries/Ogron Empire.txt"
 APX = "countries/Apexis Empire.txt"
 AME = "countries/Amani Empire.txt"
 NRE = "countries/Nerubian Empire.txt"
-SUR = "countries/Suramar.txt"
+SUR = "countries/Suramar.txt"           # NTB
 MOG = "countries/Moon Guard.txt"
 JAN = "countries/Jandvik.txt"
 FAL = "countries/Fal'dorei.txt"
