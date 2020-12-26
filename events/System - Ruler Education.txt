@@ -14,7 +14,7 @@ country_event = {
 	trigger = {
 	    NOT = { government = tribal }
 	    NOT = { government = native }
-	    NOT = { primary_culture = culture_kul_tiran }
+	    NOT = { primary_culture = kul_tiras }
 	    NOT = { has_country_flag = missing_diplomat_storyline }
 	}
 

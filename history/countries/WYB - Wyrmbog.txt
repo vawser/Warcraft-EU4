@@ -1,0 +1,19 @@
+technology_group = tech_black_dragonflight
+government = monarchy
+add_government_reform = dragonflight_brood_reform
+primary_culture = wyrmbog
+religion = dragon_aspects
+
+capital = 4863
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Onyxia"
+        dynasty = "the Mighty"
+        adm = 3
+        dip = 3
+        mil = 5
+    }
+}
+

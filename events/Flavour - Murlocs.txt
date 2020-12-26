@@ -9,7 +9,7 @@ country_event = {
 	fire_only_once = no
 	
 	trigger = {
-		culture_group = culture_group_murloc
+		culture_group = murloc_group
 		is_female = no
 	}
 	
@@ -62,7 +62,7 @@ country_event = {
 	fire_only_once = no
 	
 	trigger = {
-		culture_group = culture_group_murloc
+		culture_group = murloc_group
 		any_owned_province = {
 			has_port = yes
 			trade_goods = fish
@@ -115,7 +115,7 @@ country_event = {
 	fire_only_once = no
 	
 	trigger = {
-		culture_group = culture_group_murloc
+		culture_group = murloc_group
 		NOT = { natural_scientist = 3 }
 	}
 	
@@ -130,13 +130,13 @@ country_event = {
 			type = natural_scientist
 			name = "King Mrgl-Mrgl"
 			skill = 3
-			culture = culture_nerglish
+			culture = murloc
 			discount = yes
 		}
 		random = { 
 			chance = 50
 			random_owned_province = {
-				change_religion = religion_elune
+				change_religion = elune
 			}
 		}
 	}

@@ -1,7 +1,7 @@
-# A66 Gurubashi
-# A67 Bloodscalp
-# A69 Skullsplitter
-# STW Stormwind
+# GUR Gurubashi
+# BLS Bloodscalp
+# SKS Skullsplitter
+# SRW Stormwind
 namespace = wwu_gurubashi_conflict
 
 # Border Friction between Azerothian farmers and Stranglethorn Trolls
@@ -13,14 +13,14 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = A66
+		tag = GUR
 		current_age = rise_of_the_horde
 		is_at_war = no
 		manpower_percentage = 0.25
 		any_country = {
 			OR = {
-				tag = STW
-				is_subject_of = STW
+				tag = SRW
+				is_subject_of = SRW
 			}
 			any_country = {
 				OR = {
@@ -37,13 +37,13 @@ country_event = {
 		modifier = {
 			factor = 2
 			
-			alliance_with = STW
+			alliance_with = SRW
 		}
 		modifier = {
 			factor = 2
 			
 			has_opinion = {
-				who = STW
+				who = SRW
 				value = 50
 			}
 		}
@@ -58,14 +58,14 @@ country_event = {
 		name = wwu_gurubashi_conflict.1.opt2
 		
 		add_prestige = 5
-		STW = { country_event = { id = wwu_gurubashi_conflict.2 tooltip = wwu_gurubashi_conflict.1.opt2.tt } }
+		SRW = { country_event = { id = wwu_gurubashi_conflict.2 tooltip = wwu_gurubashi_conflict.1.opt2.tt } }
 	}
 	option = {
 		name = wwu_gurubashi_conflict.1.opt3
 		
 		add_prestige = 10
-		STW = { country_event = { id = wwu_gurubashi_conflict.3 tooltip = wwu_gurubashi_conflict.1.opt3.tt } }
-		STW = {
+		SRW = { country_event = { id = wwu_gurubashi_conflict.3 tooltip = wwu_gurubashi_conflict.1.opt3.tt } }
+		SRW = {
 			random_owned_province = {
 				limit = {
 					any_neighbor_province = {
@@ -76,7 +76,7 @@ country_event = {
 			}
 		}
 		reverse_add_opinion = {
-			who = STW
+			who = SRW
 			modifier = dishonorable_act
 		}
 	}
@@ -84,8 +84,8 @@ country_event = {
 		name = wwu_gurubashi_conflict.1.opt4
 		
 		add_prestige = 15
-		STW = { country_event = { id = wwu_gurubashi_conflict.4 tooltip = wwu_gurubashi_conflict.1.opt4.tt } }
-		STW = {
+		SRW = { country_event = { id = wwu_gurubashi_conflict.4 tooltip = wwu_gurubashi_conflict.1.opt4.tt } }
+		SRW = {
 			random_owned_province = {
 				limit = {
 					any_neighbor_province = {
@@ -99,7 +99,7 @@ country_event = {
 			}
 		}
 		reverse_add_opinion = {
-			who = STW
+			who = SRW
 			modifier = razed
 		}
 	}
@@ -117,13 +117,13 @@ country_event = {
 		name = wwu_gurubashi_conflict.2.opt1
 		
 		add_prestige = 5
-		A66 = { country_event = { id = wwu_gurubashi_conflict.5 tooltip = wwu_gurubashi_conflict.2.opt1.tt } }
+		GUR = { country_event = { id = wwu_gurubashi_conflict.5 tooltip = wwu_gurubashi_conflict.2.opt1.tt } }
 	}
 	option = {
 		name = wwu_gurubashi_conflict.2.opt2
 		
 		add_prestige = -5
-		A66 = { country_event = { id = wwu_gurubashi_conflict.6 tooltip = wwu_gurubashi_conflict.2.opt2.tt } }
+		GUR = { country_event = { id = wwu_gurubashi_conflict.6 tooltip = wwu_gurubashi_conflict.2.opt2.tt } }
 		every_owned_province = {
 			limit = {
 				any_neighbor_province = {
@@ -156,14 +156,14 @@ country_event = {
 		
 		add_prestige = -10
 		add_opinion = {
-			who = A66
+			who = GUR
 			modifier = eased_tension
 		}
 		reverse_add_opinion = {
-			who = A66
+			who = GUR
 			modifier = eased_tension
 		}
-		A66 = { country_event = { id = wwu_gurubashi_conflict.6 tooltip = wwu_gurubashi_conflict.3.opt2.tt } }
+		GUR = { country_event = { id = wwu_gurubashi_conflict.6 tooltip = wwu_gurubashi_conflict.3.opt2.tt } }
 	}
 }
 # Stormwind Response for raze province

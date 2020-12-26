@@ -1,0 +1,62 @@
+technology_group = tech_saurok
+government = tribal
+add_government_reform = warband_reform
+primary_culture = palebalde
+religion = fleshshaping
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Glintyis"
+        dynasty = "the Sage"
+        adm = 5
+        dip = 1
+        mil = 0
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Silkan"
+        dynasty = "the Kicker"
+        adm = 0
+        dip = 4
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Boroklik"
+        dynasty = "the Bulky"
+        adm = 1
+        dip = 3
+        mil = 4
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Silraka"
+        dynasty = "the Quick"
+        adm = 2
+        dip = 0
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Nolik"
+        dynasty = "the Throatslicer"
+        adm = 1
+        dip = 1
+        mil = 0
+    }
+}

@@ -1,0 +1,136 @@
+#-----------------------------------------------
+# Death
+#-----------------------------------------------
+death_group = {
+    defender_of_faith = no
+	can_form_personal_unions = no
+	
+	flags_with_emblem_percentage = 0
+	flag_emblem_index_range = { 1 1 }
+    
+    crusade_name = CRUSADE
+
+    cult_of_the_damned = {
+		color = { 81 109 71 }
+		icon = 12
+		
+		country = {
+			global_manpower_modifier = 0.2
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+
+        on_convert = {
+			change_religion = cult_of_the_damned
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+        
+		uses_church_power = yes
+		aspects = {
+			unrelenting_conversion
+            unity_in_death
+            patchwork_minions
+            blight
+            flesh_supplies
+            raze_and_ruin
+            acolytes_of_the_damned
+            plague_bombs
+            corrupted_minds
+		}
+        aspects_name = UNDEAD_ASPECTS
+	}
+    
+    necromancy = {
+		color = { 121 109 71 }
+		icon = 12
+		
+		country = {
+			global_manpower_modifier = 0.2
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+
+        on_convert = {
+			change_religion = necromancy
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+
+		uses_church_power = yes
+		aspects = {
+			unrelenting_conversion
+            unity_in_death
+            patchwork_minions
+            blight
+            flesh_supplies
+            raze_and_ruin
+            acolytes_of_the_damned
+            plague_bombs
+            corrupted_minds
+		}
+        aspects_name = UNDEAD_ASPECTS
+	}
+    
+    voodoo = {
+        color = { 0.25 0.15 0.25 }
+		icon = 4
+
+		country = {
+			global_unrest = -1
+			land_maintenance_modifier = -0.1
+		}
+        
+		province = {
+			local_missionary_strength = -0.01
+		}
+
+        personal_deity = yes
+        
+		on_convert = {
+			change_religion = voodoo
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+    }
+    
+    hakkari = {
+        color = { 33 230 215 }
+		icon = 3
+		
+		country = {
+			culture_conversion_cost = -0.5
+		}
+		
+		province = {
+			local_missionary_strength = -0.01
+		}
+        
+		on_convert = {
+			change_religion = hakkari
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+    }
+    
+    
+}
+

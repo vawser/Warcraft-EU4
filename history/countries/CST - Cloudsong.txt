@@ -1,0 +1,62 @@
+technology_group = tech_tauren
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = cloudsong
+religion = earth_mother
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Mulmul"
+        dynasty = "Ragetotem"
+        adm = 4
+        dip = 3
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Perutha"
+        dynasty = "Skychaser"
+        adm = 2
+        dip = 5
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Boivon"
+        dynasty = "Grimmane"
+        adm = 0
+        dip = 4
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Vunba"
+        dynasty = "Grimhorn"
+        adm = 4
+        dip = 0
+        mil = 4
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Buuul"
+        dynasty = "Wildmane"
+        adm = 5
+        dip = 3
+        mil = 1
+    }
+}

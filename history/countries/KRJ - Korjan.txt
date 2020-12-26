@@ -1,0 +1,62 @@
+technology_group = tech_mogu
+government = tribal
+add_government_reform = warband_reform
+primary_culture = korjan
+religion = fleshshaping
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Qi Qon"
+        dynasty = "Kiendeng"
+        adm = 2
+        dip = 0
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Qonju"
+        dynasty = "Qideng"
+        adm = 4
+        dip = 2
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Zu Ku"
+        dynasty = "Zuang"
+        adm = 5
+        dip = 5
+        mil = 2
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Fe Ku"
+        dynasty = "Sheng"
+        adm = 2
+        dip = 1
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Bro Feng"
+        dynasty = "Jai"
+        adm = 1
+        dip = 0
+        mil = 3
+    }
+}

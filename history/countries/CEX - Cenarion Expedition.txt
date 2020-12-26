@@ -1,0 +1,20 @@
+technology_group = tech_night_elf
+government = theocracy
+add_government_reform = monastic_order_reform
+government_rank = 2
+primary_culture = cenarion_expedition
+religion = elune
+
+capital = 5048
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Anostyr"
+        dynasty = "Amberflower"
+        adm = 4
+        dip = 2
+        mil = 2
+        female = yes
+    }
+}

@@ -1,0 +1,42 @@
+technology_group = tech_human
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 3
+primary_culture = stormwind
+religion = the_holy_light
+
+capital = 2993
+
+# The First War
+592.1.1 = {
+    monarch = { 
+		name = "Llane" 
+		dynasty = "Wrynn" 
+		adm = 3
+		dip = 3
+		mil = 4 
+ 	}
+    heir = {
+		name = "Varian"
+		monarch_name = "Varian"
+		dynasty = "Wrynn"
+		birth_date = 770.1.1
+		death_date = 906.1.1
+		claim = 100
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+# Second War
+596.1.1 = {
+    monarch = { 
+		name = "Varian" 
+		dynasty = "Wrynn" 
+		adm = 3
+		dip = 3
+		mil = 5
+ 	}
+}
+

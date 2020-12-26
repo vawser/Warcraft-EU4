@@ -1,0 +1,62 @@
+technology_group = tech_furbolg
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = timbermaw
+religion = shamanism
+
+capital = 2265
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Gramdal"
+        dynasty = "Bloodbite"
+        adm = 5
+        dip = 5
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Ungrum"
+        dynasty = "Snarltooth"
+        adm = 1
+        dip = 1
+        mil = 4
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Murgra"
+        dynasty = "Frostpine"
+        adm = 0
+        dip = 5
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Turun"
+        dynasty = "Lumberclaw"
+        adm = 2
+        dip = 1
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Ogota"
+        dynasty = "Flowermaw"
+        adm = 1
+        dip = 1
+        mil = 4
+    }
+}

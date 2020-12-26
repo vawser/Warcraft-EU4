@@ -1,59 +1,8 @@
-# orcgfx
 entity = {
-	name = "orcgfx_INFANTRY_1"
+	name = "orc_gfx_INFANTRY_1"
 	pdxmesh = "mesh_orc_grunt"
 }
 entity = {
-	name = "orcgfx_CAVALRY_1"
+	name = "orc_gfx_CAVALRY_1"
 	pdxmesh = "mesh_orc_wolf"
 }
-# worgengfx
-entity = {
-	name = "worgengfx_INFANTRY_1"
-	pdxmesh = "mesh_worgen"
-}
-
-# humangfx
-# darnassiangfx
-# vrykulgfx
-# ogregfx
-# draeneigfx
-# trollgfx
-# goblingfx
-# taurengfx
-# thalassiangfx
-# aqirgfx
-# demonicgfx
-# satyrgfx
-# nagagfx
-# depthsgfx
-# oldgodsgfx
-# scourgegfx
-# dragonkingfx
-# undeadgfx
-# gnollgfx
-# centaurgfx
-# furbolggfx
-# wolfvargfx
-# gorlocgfx
-# koboldgfx
-# harpygfx
-# quillboargfx
-# titangfx
-# elementalgfx
-# arrakoagfx
-# tuskarrgfx
-# pandarengfx
-# mantidgfx
-# mogugfx
-# yaungolgfx
-# etherealgfx
-# gnomishgfx
-# hozengfx
-# saurokgfx
-# taunkagfx
-# giantgfx
-# dryadgfx
-# virmengfx
-# voidgfx
-# zangargfx

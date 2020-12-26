@@ -194,14 +194,7 @@ wwu_troll_warriors_reform = {
 	allow_normal_conversion = yes
     
 	potential = {
-		OR = {
-            culture_group = culture_group_forest_troll
-            culture_group = culture_group_jungle_troll
-            culture_group = culture_group_sand_troll
-            culture_group = culture_group_ice_troll
-            culture_group = culture_group_dark_troll
-            culture_group = culture_group_zandalar_troll
-        }
+		is_troll_culture_group = yes
 	}
 	
 	modifiers = {
@@ -216,7 +209,7 @@ wwu_demonic_advisors_reform = {
 	allow_normal_conversion = yes
     
 	potential = {
-		culture_group = culture_group_demonic
+		culture_group = demon_group
 	}
 	
 	modifiers = {

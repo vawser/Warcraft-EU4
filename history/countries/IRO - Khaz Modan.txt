@@ -1,0 +1,39 @@
+technology_group = tech_dwarf
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 3
+primary_culture = ironforge
+religion = the_holy_light
+
+capital = 1757
+
+# The First War
+592.1.1 = {
+    monarch = { 
+        name = "Magni" 
+        dynasty = "Bronzebeard" 
+		adm = 4
+		dip = 4
+		mil = 4
+    }
+}
+
+# Second War
+596.1.1 = {
+    
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    
+}
+
+# War of the Spider
+605.1.1 = {
+    
+}
+
+# Third War
+612.1.1 = {
+   
+}

@@ -1,0 +1,62 @@
+technology_group = tech_tauren
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = cliffwalker
+religion = earth_mother
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Ithham"
+        dynasty = "Dawnrunner"
+        adm = 2
+        dip = 0
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Molath"
+        dynasty = "Dawnmane"
+        adm = 0
+        dip = 1
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Uulat"
+        dynasty = "Mistfury"
+        adm = 1
+        dip = 5
+        mil = 1
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Ethautha"
+        dynasty = "Dawnfury"
+        adm = 0
+        dip = 1
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Venin"
+        dynasty = "Stonechaser"
+        adm = 0
+        dip = 1
+        mil = 5
+    }
+}

@@ -1,73 +1,3031 @@
-# Frenzyheart
-graphical_culture = westerngfx
+graphical_culture = wolvar_gfx
 
-color = { 45 112 185 }
+color = { 32 157 93 }
+
 monarch_names = {
-  "Kerak" = 20
-  "Rejek" = 20
-  "Rejrej" = 20
-  "Daijik" = 20
-  "Goretek" = 20
-  "Tarlog" = 20
-  "Uhnke" = 20
-  "Gorejik" = 20
-  "Kegzep" = 20
-  "Ekrej" = 20
-  "Rejlog" = 20
-  "Iklog" = 20
-  "Teklog" = 20
-  "Goregzep" = 20
-  "Gzepgore" = 20
-  "Rakuhn" = 20
-  "Uhngore" = 20
-  "Gorelog" = 20
-  "Raklog" = 20
-  "Tarkek" = 20
-  "Jikik" = 20
-  "Ikuhn" = 20
-  "Tartar" = 20
-  "Jekkek" = 20
-  "Logke" = 20
-  "Targzep" = 20
-  "Goreek" = 20
-  "Gzepke" = 20
-  "Ikik" = 20
-  "Ikke" = 20
-  "Keuhn" = 20
-  "Moktek" = 20
-  "Jikkek" = 20
-  "Rakek" = 20
-  "Ikdai" = 20
-  "Gzepkek" = 20
-  "Jikek" = 20
-  "Mokke" = 20
-  "Goreik" = 20
-  "Ektek" = 20
-  "Rejdai" = 20
-  "Ekuhn" = 20
-  "Loggore" = 20
-  "Jikjik" = 20
-  "Ikmok" = 20
-  "Daikek" = 20
-  "Ektar" = 20
-  "Uhnik" = 20
-  "Tektek" = 20
-  "Tekuhn" = 20
-  "Jikgzep" = 20
-  "Ekek" = 20
-  "Jiklog" = 20
-  "Kekgzep" = 20
-  "Moklog" = 20
-  "Logkek" = 20
-  "Loglog" = 20
+	"Jekrak #0" = 20
+	"Daijek #0" = 20
+	"Gekmok #0" = 20
+	"Logtar #0" = 20
+	"Ekgzep #0" = 20
+	"Jakrej #0" = 20
+	"Gekrak #0" = 20
+	"Gzepjak #0" = 20
+	"Ikgek #0" = 20
+	"Rakkek #0" = 20
+	"Jekjak #0" = 20
+	"Kerak #0" = 20
+	"Gektek #0" = 20
+	"Jakrak #0" = 20
+	"Goregore #0" = 20
+	"Keke #0" = 20
+	"Mokik #0" = 20
+	"Jekdai #0" = 20
+	"Uhnrej #0" = 20
+	"Kekmok #0" = 20
+	"Jekek #0" = 20
+	"Kekek #0" = 20
+	"Rejek #0" = 20
+	"Rejrej #0" = 20
+	"Gekke #0" = 20
+	"Mokjek #0" = 20
+	"Goreke #0" = 20
+	"Jekke #0" = 20
+	"Tekek #0" = 20
+	"Gzepgek #0" = 20
+	"Uhntek #0" = 20
+	"Tekjik #0" = 20
+	"Tarjek #0" = 20
+	"Gzepgek #0" = 20
+	"Ikrak #0" = 20
+	"Tekdai #0" = 20
+	"Kejek #0" = 20
+	"Uhnuhn #0" = 20
+	"Goregek #0" = 20
+	"Kekek #0" = 20
+	"Rejrak #0" = 20
+	"Keke #0" = 20
+	"Jekgore #0" = 20
+	"Gekrak #0" = 20
+	"Jikgore #0" = 20
+	"Gekgore #0" = 20
+	"Jekrak #0" = 20
+	"Ekgek #0" = 20
+	"Tarke #0" = 20
+	"Kekik #0" = 20
+	"Gzepjik #0" = 20
+	"Dairak #0" = 20
+	"Gekjek #0" = 20
+	"Uhnjak #0" = 20
+	"Gekmok #0" = 20
+	"Dailog #0" = 20
+	"Kektek #0" = 20
+	"Kegore #0" = 20
+	"Kektar #0" = 20
+	"Geklog #0" = 20
+	"Rejjek #0" = 20
+	"Gzepik #0" = 20
+	"Jekgore #0" = 20
+	"Jakjak #0" = 20
+	"Gektek #0" = 20
+	"Keke #0" = 20
+	"Jikuhn #0" = 20
+	"Rejgek #0" = 20
+	"Rakjak #0" = 20
+	"Eklog #0" = 20
+	"Gorerej #0" = 20
+	"Gektek #0" = 20
+	"Rakke #0" = 20
+	"Tarjak #0" = 20
+	"Gekdai #0" = 20
+	"Targek #0" = 20
+	"Kegore #0" = 20
+	"Jaklog #0" = 20
+	"Logjek #0" = 20
+	"Tekdai #0" = 20
+	"Gekdai #0" = 20
+	"Gzepgek #0" = 20
+	"Rakjak #0" = 20
+	"Jekgore #0" = 20
+	"Rakjak #0" = 20
+	"Gekdai #0" = 20
+	"Jakgore #0" = 20
+	"Kejak #0" = 20
+	"Jikgore #0" = 20
+	"Ikgore #0" = 20
+	"Mokdai #0" = 20
+	"Logjik #0" = 20
+	"Uhnrej #0" = 20
+	"Jekjik #0" = 20
+	"Rejmok #0" = 20
+	"Rejjek #0" = 20
+	"Jakgore #0" = 20
+	"Logmok #0" = 20
+	"Rakik #0" = 20
+	"Daitar #0" = 20
+	"Ekrak #0" = 20
+	"Goretar #0" = 20
+	"Tekke #0" = 20
+	"Uhnrej #0" = 20
+	"Tekjek #0" = 20
+	"Logik #0" = 20
+	"Jikdai #0" = 20
+	"Mokjek #0" = 20
+	"Daijik #0" = 20
+	"Gzepjik #0" = 20
+	"Goretek #0" = 20
+	"Gorejek #0" = 20
+	"Dairak #0" = 20
+	"Jiktar #0" = 20
+	"Jekjek #0" = 20
+	"Rejuhn #0" = 20
+	"Jakjek #0" = 20
+	"Rakjek #0" = 20
+	"Gzepuhn #0" = 20
+	"Jekik #0" = 20
+	"Jakmok #0" = 20
+	"Jakgek #0" = 20
+	"Ekkek #0" = 20
+	"Logmok #0" = 20
+	"Gzeptar #0" = 20
+	"Jekgek #0" = 20
+	"Logjik #0" = 20
+	"Ekke #0" = 20
+	"Jekgek #0" = 20
+	"Goreke #0" = 20
+	"Tarlog #0" = 20
+	"Gzeptar #0" = 20
+	"Rakjak #0" = 20
+	"Jekgek #0" = 20
+	"Tekek #0" = 20
+	"Jekgzep #0" = 20
+	"Rejjek #0" = 20
+	"Uhnlog #0" = 20
+	"Goregek #0" = 20
+	"Tekjek #0" = 20
+	"Gekrej #0" = 20
+	"Gzepdai #0" = 20
+	"Loggzep #0" = 20
+	"Gzepjak #0" = 20
+	"Rakjak #0" = 20
+	"Jektar #0" = 20
+	"Rejgzep #0" = 20
+	"Gzepgek #0" = 20
+	"Tekjak #0" = 20
+	"Rejjek #0" = 20
+	"Jeklog #0" = 20
+	"Rejmok #0" = 20
+	"Jakjik #0" = 20
+	"Ikgek #0" = 20
+	"Gekek #0" = 20
+	"Rejtek #0" = 20
+	"Daijek #0" = 20
+	"Jekjek #0" = 20
+	"Uhnjik #0" = 20
+	"Rejtek #0" = 20
+	"Jikdai #0" = 20
+	"Uhnjak #0" = 20
+	"Daike #0" = 20
+	"Gekjak #0" = 20
+	"Goreke #0" = 20
+	"Uhnke #0" = 20
+	"Kekgek #0" = 20
+	"Tarik #0" = 20
+	"Tartek #0" = 20
+	"Tekdai #0" = 20
+	"Gekke #0" = 20
+	"Rejuhn #0" = 20
+	"Gekrak #0" = 20
+	"Goremok #0" = 20
+	"Logdai #0" = 20
+	"Jakjak #0" = 20
+	"Kekrak #0" = 20
+	"Jikjak #0" = 20
+	"Gorejik #0" = 20
+	"Mokik #0" = 20
+	"Rejjek #0" = 20
+	"Gekgek #0" = 20
+	"Mokik #0" = 20
+	"Daigek #0" = 20
+	"Rejgore #0" = 20
+	"Jakdai #0" = 20
+	"Gzepjek #0" = 20
+	"Gekjek #0" = 20
+	"Logik #0" = 20
+	"Jikjek #0" = 20
+	"Daigzep #0" = 20
+	"Ikjek #0" = 20
+	"Goreuhn #0" = 20
+	"Gekke #0" = 20
+	"Logdai #0" = 20
+	"Kegek #0" = 20
+	"Rakrej #0" = 20
+	"Jakgzep #0" = 20
+	"Gzepgek #0" = 20
+	"Jekek #0" = 20
+	"Tarrak #0" = 20
+	"Daitek #0" = 20
+	"Jekgzep #0" = 20
+	"Jakgek #0" = 20
+	"Rakjik #0" = 20
+	"Logmok #0" = 20
+	"Kegore #0" = 20
+	"Gekjak #0" = 20
+	"Ekjek #0" = 20
+	"Ekjek #0" = 20
+	"Goredai #0" = 20
+	"Mokkek #0" = 20
+	"Kegzep #0" = 20
+	"Jakjik #0" = 20
+	"Ikjek #0" = 20
+	"Ekrej #0" = 20
+	"Ikgzep #0" = 20
+	"Jakrej #0" = 20
+	"Jakgzep #0" = 20
+	"Goreuhn #0" = 20
+	"Jaklog #0" = 20
+	"Logtek #0" = 20
+	"Rejlog #0" = 20
+	"Raktek #0" = 20
+	"Ekik #0" = 20
+	"Iklog #0" = 20
+	"Rakgore #0" = 20
+	"Jakjek #0" = 20
+	"Kekgek #0" = 20
+	"Goreke #0" = 20
+	"Jekrej #0" = 20
+	"Gekrak #0" = 20
+	"Rakgek #0" = 20
+	"Targek #0" = 20
+	"Ekrak #0" = 20
+	"Rejtar #0" = 20
+	"Kekjik #0" = 20
+	"Keik #0" = 20
+	"Tektar #0" = 20
+	"Rejtek #0" = 20
+	"Logjek #0" = 20
+	"Gorejak #0" = 20
+	"Daimok #0" = 20
+	"Kelog #0" = 20
+	"Gekrej #0" = 20
+	"Logjek #0" = 20
+	"Tekjak #0" = 20
+	"Ikkek #0" = 20
+	"Gzeprej #0" = 20
+	"Jekrak #0" = 20
+	"Teklog #0" = 20
+	"Gekjak #0" = 20
+	"Gekdai #0" = 20
+	"Jekjak #0" = 20
+	"Gorerak #0" = 20
+	"Jakjak #0" = 20
+	"Jaktar #0" = 20
+	"Kekrak #0" = 20
+	"Daitar #0" = 20
+	"Rejke #0" = 20
+	"Jikuhn #0" = 20
+	"Kekmok #0" = 20
+	"Tarik #0" = 20
+	"Jektek #0" = 20
+	"Mokkek #0" = 20
+	"Kekek #0" = 20
+	"Logjak #0" = 20
+	"Gekuhn #0" = 20
+	"Kejek #0" = 20
+	"Iktek #0" = 20
+	"Rejgzep #0" = 20
+	"Rakmok #0" = 20
+	"Rejjek #0" = 20
+	"Uhnjek #0" = 20
+	"Rejkek #0" = 20
+	"Gzeprak #0" = 20
+	"Loguhn #0" = 20
+	"Uhngek #0" = 20
+	"Mokek #0" = 20
+	"Rakgek #0" = 20
+	"Ketek #0" = 20
+	"Gzepgzep #0" = 20
+	"Uhnmok #0" = 20
+	"Kekrak #0" = 20
+	"Rakdai #0" = 20
+	"Ekkek #0" = 20
+	"Jakik #0" = 20
+	"Rejjek #0" = 20
+	"Ekjak #0" = 20
+	"Tarjek #0" = 20
+	"Goregzep #0" = 20
+	"Rakkek #0" = 20
+	"Gzepgek #0" = 20
+	"Rakmok #0" = 20
+	"Jekuhn #0" = 20
+	"Logek #0" = 20
+	"Gzepgore #0" = 20
+	"Logjak #0" = 20
+	"Rejjik #0" = 20
+	"Uhntar #0" = 20
+	"Gekgore #0" = 20
+	"Tardai #0" = 20
+	"Kelog #0" = 20
+	"Jikdai #0" = 20
+	"Uhntar #0" = 20
+	"Jiktek #0" = 20
+	"Jekjek #0" = 20
+	"Mokjik #0" = 20
+	"Jakrak #0" = 20
+	"Ketek #0" = 20
+	"Rejjak #0" = 20
+	"Loggek #0" = 20
+	"Kekdai #0" = 20
+	"Gekrak #0" = 20
+	"Gzeptek #0" = 20
+	"Jekjak #0" = 20
+	"Kektar #0" = 20
+	"Tekgore #0" = 20
+	"Gekik #0" = 20
+	"Dailog #0" = 20
+	"Jakke #0" = 20
+	"Ikgzep #0" = 20
+	"Tarke #0" = 20
+	"Gorerak #0" = 20
+	"Rakjak #0" = 20
+	"Ketek #0" = 20
+	"Gorejak #0" = 20
+	"Jakke #0" = 20
+	"Logtar #0" = 20
+	"Rakuhn #0" = 20
+	"Jekke #0" = 20
+	"Mokgek #0" = 20
+	"Goreke #0" = 20
+	"Tekgore #0" = 20
+	"Ikgore #0" = 20
+	"Jekgzep #0" = 20
+	"Tarek #0" = 20
+	"Tarmok #0" = 20
+	"Tarrej #0" = 20
+	"Jaklog #0" = 20
+	"Kektek #0" = 20
+	"Gekjik #0" = 20
+	"Jakdai #0" = 20
+	"Uhngore #0" = 20
+	"Jekjek #0" = 20
+	"Jekjek #0" = 20
+	"Rejjik #0" = 20
+	"Tarik #0" = 20
+	"Gektek #0" = 20
+	"Gorelog #0" = 20
+	"Gorejek #0" = 20
+	"Jakdai #0" = 20
+	"Tardai #0" = 20
+	"Daidai #0" = 20
+	"Jikgek #0" = 20
+	"Rakgore #0" = 20
+	"Kegore #0" = 20
+	"Rejgore #0" = 20
+	"Jekmok #0" = 20
+	"Logmok #0" = 20
+	"Jekgore #0" = 20
+	"Kekgek #0" = 20
+	"Jakik #0" = 20
+	"Rejgek #0" = 20
+	"Targek #0" = 20
+	"Jektek #0" = 20
+	"Jekjak #0" = 20
+	"Mokgore #0" = 20
+	"Mokek #0" = 20
+	"Gzepgek #0" = 20
+	"Mokmok #0" = 20
+	"Ekgek #0" = 20
+	"Kekek #0" = 20
+	"Jekjek #0" = 20
+	"Uhnjek #0" = 20
+	"Uhnlog #0" = 20
+	"Uhnrak #0" = 20
+	"Eklog #0" = 20
+	"Jaktar #0" = 20
+	"Gzepdai #0" = 20
+	"Jekgzep #0" = 20
+	"Kelog #0" = 20
+	"Jekgore #0" = 20
+	"Kekgek #0" = 20
+	"Loggek #0" = 20
+	"Rakrak #0" = 20
+	"Kekjek #0" = 20
+	"Logjek #0" = 20
+	"Goregek #0" = 20
+	"Ekgek #0" = 20
+	"Uhnjek #0" = 20
+	"Jakek #0" = 20
+	"Daidai #0" = 20
+	"Gzepjik #0" = 20
+	"Ikek #0" = 20
+	"Ikrej #0" = 20
+	"Raklog #0" = 20
+	"Jekjek #0" = 20
+	"Logjek #0" = 20
+	"Jekjik #0" = 20
+	"Loguhn #0" = 20
+	"Tekgzep #0" = 20
+	"Tarkek #0" = 20
+	"Jikik #0" = 20
+	"Ketar #0" = 20
+	"Rakik #0" = 20
+	"Gekuhn #0" = 20
+	"Tekjak #0" = 20
+	"Gekke #0" = 20
+	"Kegek #0" = 20
+	"Kekgek #0" = 20
+	"Jektar #0" = 20
+	"Ekik #0" = 20
+	"Logik #0" = 20
+	"Kekjek #0" = 20
+	"Ikuhn #0" = 20
+	"Rakkek #0" = 20
+	"Kekmok #0" = 20
+	"Jakke #0" = 20
+	"Kekkek #0" = 20
+	"Gekdai #0" = 20
+	"Mokjak #0" = 20
+	"Uhnjik #0" = 20
+	"Gekjak #0" = 20
+	"Ekjak #0" = 20
+	"Daitek #0" = 20
+	"Gzepuhn #0" = 20
+	"Ikjak #0" = 20
+	"Gekgek #0" = 20
+	"Mokrak #0" = 20
+	"Ekgek #0" = 20
+	"Jikgore #0" = 20
+	"Gzepek #0" = 20
+	"Gzeplog #0" = 20
+	"Mokuhn #0" = 20
+	"Tartar #0" = 20
+	"Goremok #0" = 20
+	"Jekke #0" = 20
+	"Kekgek #0" = 20
+	"Gorerak #0" = 20
+	"Tektar #0" = 20
+	"Gekgzep #0" = 20
+	"Tartek #0" = 20
+	"Jikjek #0" = 20
+	"Mokik #0" = 20
+	"Mokuhn #0" = 20
+	"Jekkek #0" = 20
+	"Raktek #0" = 20
+	"Rakjik #0" = 20
+	"Targek #0" = 20
+	"Jaktek #0" = 20
+	"Logke #0" = 20
+	"Kerej #0" = 20
+	"Jekgzep #0" = 20
+	"Gorejak #0" = 20
+	"Jakek #0" = 20
+	"Lograk #0" = 20
+	"Ekjik #0" = 20
+	"Gekjik #0" = 20
+	"Mokgek #0" = 20
+	"Gekgek #0" = 20
+	"Rakke #0" = 20
+	"Tekgzep #0" = 20
+	"Gekrak #0" = 20
+	"Goregore #0" = 20
+	"Kekke #0" = 20
+	"Gekjik #0" = 20
+	"Targzep #0" = 20
+	"Daigore #0" = 20
+	"Gekmok #0" = 20
+	"Loggzep #0" = 20
+	"Tarrak #0" = 20
+	"Gzepgek #0" = 20
+	"Jikjek #0" = 20
+	"Jakgek #0" = 20
+	"Uhngzep #0" = 20
+	"Jektek #0" = 20
+	"Gekkek #0" = 20
+	"Jakmok #0" = 20
+	"Gekgzep #0" = 20
+	"Ekgzep #0" = 20
+	"Jekjak #0" = 20
+	"Jikjak #0" = 20
+	"Tarjik #0" = 20
+	"Gorejek #0" = 20
+	"Rejjek #0" = 20
+	"Goreek #0" = 20
+	"Mokjek #0" = 20
+	"Rejtar #0" = 20
+	"Gzepke #0" = 20
+	"Gekgzep #0" = 20
+	"Ekgzep #0" = 20
+	"Tarke #0" = 20
+	"Logmok #0" = 20
+	"Uhnkek #0" = 20
+	"Mokkek #0" = 20
+	"Jekjek #0" = 20
+	"Rejik #0" = 20
+	"Rejtek #0" = 20
+	"Ikgek #0" = 20
+	"Jiktek #0" = 20
+	"Jakgzep #0" = 20
+	"Jakjak #0" = 20
+	"Ekjak #0" = 20
+	"Ikik #0" = 20
+	"Rakik #0" = 20
+	"Ekik #0" = 20
+	"Jikke #0" = 20
+	"Rakgore #0" = 20
+	"Uhnjak #0" = 20
+	"Gzepgek #0" = 20
+	"Jakdai #0" = 20
+	"Rakrej #0" = 20
+	"Ikke #0" = 20
+	"Keuhn #0" = 20
+	"Moktek #0" = 20
+	"Geklog #0" = 20
+	"Moktar #0" = 20
+	"Jikkek #0" = 20
+	"Gekjek #0" = 20
+	"Rakkek #0" = 20
+	"Uhnkek #0" = 20
+	"Jakjik #0" = 20
+	"Jikgek #0" = 20
+	"Gekmok #0" = 20
+	"Mokmok #0" = 20
+	"Jekrak #0" = 20
+	"Gektar #0" = 20
+	"Ekjak #0" = 20
+	"Jikjek #0" = 20
+	"Logek #0" = 20
+	"Jekgek #0" = 20
+	"Rakek #0" = 20
+	"Gekkek #0" = 20
+	"Ikdai #0" = 20
+	"Ekjak #0" = 20
+	"Ikrak #0" = 20
+	"Rejgek #0" = 20
+	"Tarik #0" = 20
+	"Gekgore #0" = 20
+	"Rakdai #0" = 20
+	"Kejek #0" = 20
+	"Jekrej #0" = 20
+	"Jakjek #0" = 20
+	"Jakgzep #0" = 20
+	"Mokdai #0" = 20
+	"Gzepkek #0" = 20
+	"Daigzep #0" = 20
+	"Gekjek #0" = 20
+	"Jakrej #0" = 20
+	"Daigore #0" = 20
+	"Logtar #0" = 20
+	"Tarjik #0" = 20
+	"Keke #0" = 20
+	"Gekuhn #0" = 20
+	"Ikgek #0" = 20
+	"Jikgore #0" = 20
+	"Kegek #0" = 20
+	"Geklog #0" = 20
+	"Jikrak #0" = 20
+	"Tekrej #0" = 20
+	"Rakjek #0" = 20
+	"Rakjak #0" = 20
+	"Geklog #0" = 20
+	"Gzepjak #0" = 20
+	"Gekjak #0" = 20
+	"Kekjak #0" = 20
+	"Mokgek #0" = 20
+	"Jikgek #0" = 20
+	"Rakjak #0" = 20
+	"Ikjak #0" = 20
+	"Jikek #0" = 20
+	"Mokgzep #0" = 20
+	"Gzepgek #0" = 20
+	"Logik #0" = 20
+	"Rejkek #0" = 20
+	"Tekgek #0" = 20
+	"Kekdai #0" = 20
+	"Tekek #0" = 20
+	"Mokke #0" = 20
+	"Uhntek #0" = 20
+	"Gekek #0" = 20
+	"Logik #0" = 20
+	"Goreik #0" = 20
+	"Kekgek #0" = 20
+	"Ektek #0" = 20
+	"Jakgek #0" = 20
+	"Logrej #0" = 20
+	"Gekjek #0" = 20
+	"Kekjak #0" = 20
+	"Uhnkek #0" = 20
+	"Kegek #0" = 20
+	"Mokgore #0" = 20
+	"Rejjek #0" = 20
+	"Gekek #0" = 20
+	"Rejdai #0" = 20
+	"Jekjek #0" = 20
+	"Jektek #0" = 20
+	"Daidai #0" = 20
+	"Mokgore #0" = 20
+	"Jikgek #0" = 20
+	"Kekik #0" = 20
+	"Ekuhn #0" = 20
+	"Mokjak #0" = 20
+	"Jekke #0" = 20
+	"Kekjek #0" = 20
+	"Tarek #0" = 20
+	"Ekgore #0" = 20
+	"Tekmok #0" = 20
+	"Goregore #0" = 20
+	"Gekjak #0" = 20
+	"Ketar #0" = 20
+	"Gzepjek #0" = 20
+	"Kegore #0" = 20
+	"Keik #0" = 20
+	"Tekek #0" = 20
+	"Goreke #0" = 20
+	"Ekmok #0" = 20
+	"Gzepek #0" = 20
+	"Loggzep #0" = 20
+	"Jaklog #0" = 20
+	"Ekmok #0" = 20
+	"Ikjak #0" = 20
+	"Mokjik #0" = 20
+	"Loggore #0" = 20
+	"Keke #0" = 20
+	"Jekuhn #0" = 20
+	"Jekgek #0" = 20
+	"Keik #0" = 20
+	"Jakjak #0" = 20
+	"Gzepek #0" = 20
+	"Eklog #0" = 20
+	"Keik #0" = 20
+	"Rakik #0" = 20
+	"Logjak #0" = 20
+	"Jektar #0" = 20
+	"Gekke #0" = 20
+	"Ekjek #0" = 20
+	"Kekjak #0" = 20
+	"Jakjek #0" = 20
+	"Uhnjak #0" = 20
+	"Loggek #0" = 20
+	"Jekjak #0" = 20
+	"Logik #0" = 20
+	"Ikrej #0" = 20
+	"Gorejek #0" = 20
+	"Tekjak #0" = 20
+	"Gzepjak #0" = 20
+	"Tekjik #0" = 20
+	"Gekik #0" = 20
+	"Tekik #0" = 20
+	"Ekgore #0" = 20
+	"Loggzep #0" = 20
+	"Jikjik #0" = 20
+	"Gekdai #0" = 20
+	"Tekke #0" = 20
+	"Uhnlog #0" = 20
+	"Uhnjak #0" = 20
+	"Ikek #0" = 20
+	"Tekjek #0" = 20
+	"Rejgek #0" = 20
+	"Rejgek #0" = 20
+	"Rejjak #0" = 20
+	"Daijak #0" = 20
+	"Rejtar #0" = 20
+	"Uhnjak #0" = 20
+	"Kerej #0" = 20
+	"Kegore #0" = 20
+	"Goremok #0" = 20
+	"Uhngek #0" = 20
+	"Jikmok #0" = 20
+	"Rejtek #0" = 20
+	"Kekjak #0" = 20
+	"Gekuhn #0" = 20
+	"Loggek #0" = 20
+	"Jikrej #0" = 20
+	"Ikmok #0" = 20
+	"Ikrej #0" = 20
+	"Rejkek #0" = 20
+	"Ekjak #0" = 20
+	"Iktek #0" = 20
+	"Daikek #0" = 20
+	"Ikjik #0" = 20
+	"Gzeprej #0" = 20
+	"Kekke #0" = 20
+	"Uhndai #0" = 20
+	"Mokdai #0" = 20
+	"Dairej #0" = 20
+	"Gorerak #0" = 20
+	"Kekkek #0" = 20
+	"Gzeplog #0" = 20
+	"Jakmok #0" = 20
+	"Gekdai #0" = 20
+	"Uhnjak #0" = 20
+	"Ekjik #0" = 20
+	"Rejrak #0" = 20
+	"Gekjik #0" = 20
+	"Gzepgek #0" = 20
+	"Mokik #0" = 20
+	"Uhnjak #0" = 20
+	"Jikjek #0" = 20
+	"Gzeptek #0" = 20
+	"Kejak #0" = 20
+	"Rakdai #0" = 20
+	"Rejke #0" = 20
+	"Ektar #0" = 20
+	"Uhngek #0" = 20
+	"Tekjik #0" = 20
+	"Rejgzep #0" = 20
+	"Loguhn #0" = 20
+	"Gzepgek #0" = 20
+	"Gorejak #0" = 20
+	"Gzepjek #0" = 20
+	"Jikrak #0" = 20
+	"Ikgore #0" = 20
+	"Gekgek #0" = 20
+	"Kekgek #0" = 20
+	"Logtek #0" = 20
+	"Rakkek #0" = 20
+	"Kejak #0" = 20
+	"Eklog #0" = 20
+	"Kekrej #0" = 20
+	"Taruhn #0" = 20
+	"Jikke #0" = 20
+	"Jakgore #0" = 20
+	"Jekdai #0" = 20
+	"Uhnuhn #0" = 20
+	"Kekjik #0" = 20
+	"Kekjek #0" = 20
+	"Rakgek #0" = 20
+	"Ikrak #0" = 20
+	"Rakrak #0" = 20
+	"Rakjek #0" = 20
+	"Tekjek #0" = 20
+	"Rejjak #0" = 20
+	"Tektar #0" = 20
+	"Mokrak #0" = 20
+	"Gektar #0" = 20
+	"Daigzep #0" = 20
+	"Rejjek #0" = 20
+	"Jakek #0" = 20
+	"Jaklog #0" = 20
+	"Jekmok #0" = 20
+	"Uhnmok #0" = 20
+	"Daidai #0" = 20
+	"Rejgzep #0" = 20
+	"Jekgore #0" = 20
+	"Dairej #0" = 20
+	"Gzepdai #0" = 20
+	"Taruhn #0" = 20
+	"Jakgek #0" = 20
+	"Kedai #0" = 20
+	"Gzeprak #0" = 20
+	"Tarek #0" = 20
+	"Tekgek #0" = 20
+	"Gzepjek #0" = 20
+	"Ekgek #0" = 20
+	"Gzepjik #0" = 20
+	"Daigore #0" = 20
+	"Goregek #0" = 20
+	"Gzepjek #0" = 20
+	"Logtar #0" = 20
+	"Tarik #0" = 20
+	"Gzepik #0" = 20
+	"Ekik #0" = 20
+	"Uhnuhn #0" = 20
+	"Uhngzep #0" = 20
+	"Mokmok #0" = 20
+	"Logjek #0" = 20
+	"Gekgore #0" = 20
+	"Rejrak #0" = 20
+	"Jekgek #0" = 20
+	"Jekgek #0" = 20
+	"Ekjik #0" = 20
+	"Ekke #0" = 20
+	"Gekjak #0" = 20
+	"Gekjak #0" = 20
+	"Kekrej #0" = 20
+	"Gorerej #0" = 20
+	"Uhnik #0" = 20
+	"Ikjek #0" = 20
+	"Tekgore #0" = 20
+	"Gzepdai #0" = 20
+	"Geklog #0" = 20
+	"Kekjak #0" = 20
+	"Tekrej #0" = 20
+	"Jiktar #0" = 20
+	"Ketek #0" = 20
+	"Kegek #0" = 20
+	"Ikek #0" = 20
+	"Tekjak #0" = 20
+	"Jikgore #0" = 20
+	"Jeklog #0" = 20
+	"Tektek #0" = 20
+	"Jakke #0" = 20
+	"Jekuhn #0" = 20
+	"Gorejek #0" = 20
+	"Ekkek #0" = 20
+	"Gorekek #0" = 20
+	"Rakrak #0" = 20
+	"Tarmok #0" = 20
+	"Logjik #0" = 20
+	"Gekgek #0" = 20
+	"Jikmok #0" = 20
+	"Tekuhn #0" = 20
+	"Mokjak #0" = 20
+	"Jaktek #0" = 20
+	"Kekrej #0" = 20
+	"Gzepdai #0" = 20
+	"Gekjak #0" = 20
+	"Tekdai #0" = 20
+	"Jaktek #0" = 20
+	"Rakkek #0" = 20
+	"Kejek #0" = 20
+	"Ikkek #0" = 20
+	"Gzepjak #0" = 20
+	"Gekgore #0" = 20
+	"Jikuhn #0" = 20
+	"Ikjik #0" = 20
+	"Jikgore #0" = 20
+	"Rejkek #0" = 20
+	"Gzeptar #0" = 20
+	"Jekgek #0" = 20
+	"Jekrak #0" = 20
+	"Gzepjik #0" = 20
+	"Jekjek #0" = 20
+	"Tarek #0" = 20
+	"Jakke #0" = 20
+	"Kekmok #0" = 20
+	"Gekrak #0" = 20
+	"Mokgek #0" = 20
+	"Ikkek #0" = 20
+	"Rejgek #0" = 20
+	"Daijak #0" = 20
+	"Jikgore #0" = 20
+	"Tarmok #0" = 20
+	"Rejgore #0" = 20
+	"Gorerej #0" = 20
+	"Rakdai #0" = 20
+	"Rakjak #0" = 20
+	"Jekgek #0" = 20
+	"Kekgek #0" = 20
+	"Rejjak #0" = 20
+	"Logjek #0" = 20
+	"Goretar #0" = 20
+	"Gekke #0" = 20
+	"Gzepjak #0" = 20
+	"Jekdai #0" = 20
+	"Uhnjak #0" = 20
+	"Daijak #0" = 20
+	"Tekgzep #0" = 20
+	"Gekjak #0" = 20
+	"Logrej #0" = 20
+	"Tarke #0" = 20
+	"Gekek #0" = 20
+	"Rakmok #0" = 20
+	"Tarrej #0" = 20
+	"Tekgek #0" = 20
+	"Rakik #0" = 20
+	"Jakjek #0" = 20
+	"Ekgek #0" = 20
+	"Jakjek #0" = 20
+	"Daitek #0" = 20
+	"Uhndai #0" = 20
+	"Daigek #0" = 20
+	"Jaktek #0" = 20
+	"Ikgzep #0" = 20
+	"Tarjak #0" = 20
+	"Moktar #0" = 20
+	"Ekke #0" = 20
+	"Rejgore #0" = 20
+	"Jakjak #0" = 20
+	"Uhnmok #0" = 20
+	"Jakgzep #0" = 20
+	"Kekrak #0" = 20
+	"Daitar #0" = 20
+	"Ikjak #0" = 20
+	"Jekik #0" = 20
+	"Rejjek #0" = 20
+	"Daijak #0" = 20
+	"Mokjek #0" = 20
+	"Jikuhn #0" = 20
+	"Daidai #0" = 20
+	"Jakjik #0" = 20
+	"Rakrej #0" = 20
+	"Gekgore #0" = 20
+	"Ketar #0" = 20
+	"Gzeprak #0" = 20
+	"Jikgzep #0" = 20
+	"Rakmok #0" = 20
+	"Jakgore #0" = 20
+	"Lograk #0" = 20
+	"Gzepjek #0" = 20
+	"Gzepik #0" = 20
+	"Tekik #0" = 20
+	"Jeklog #0" = 20
+	"Logdai #0" = 20
+	"Gzepjek #0" = 20
+	"Rejjik #0" = 20
+	"Jekgzep #0" = 20
+	"Ekdai #0" = 20
+	"Mokgek #0" = 20
+	"Ekek #0" = 20
+	"Jiklog #0" = 20
+	"Jakjik #0" = 20
+	"Mokgek #0" = 20
+	"Gorekek #0" = 20
+	"Tarke #0" = 20
+	"Rakrej #0" = 20
+	"Jekrej #0" = 20
+	"Kekuhn #0" = 20
+	"Kedai #0" = 20
+	"Kelog #0" = 20
+	"Jekke #0" = 20
+	"Jakrej #0" = 20
+	"Jaklog #0" = 20
+	"Gekmok #0" = 20
+	"Rakke #0" = 20
+	"Kekgzep #0" = 20
+	"Uhngek #0" = 20
+	"Rakkek #0" = 20
+	"Geklog #0" = 20
+	"Jekek #0" = 20
+	"Jekgek #0" = 20
+	"Rakgek #0" = 20
+	"Jakgore #0" = 20
+	"Kekuhn #0" = 20
+	"Taruhn #0" = 20
+	"Uhntar #0" = 20
+	"Daimok #0" = 20
+	"Jakjik #0" = 20
+	"Mokgzep #0" = 20
+	"Kegek #0" = 20
+	"Jekjek #0" = 20
+	"Jakjak #0" = 20
+	"Tarjak #0" = 20
+	"Tarjek #0" = 20
+	"Tarek #0" = 20
+	"Kekdai #0" = 20
+	"Jakjik #0" = 20
+	"Gekjek #0" = 20
+	"Tekmok #0" = 20
+	"Rakgek #0" = 20
+	"Eklog #0" = 20
+	"Daijek #0" = 20
+	"Rejik #0" = 20
+	"Gzeprej #0" = 20
+	"Jakgek #0" = 20
+	"Mokjak #0" = 20
+	"Jikrej #0" = 20
+	"Moklog #0" = 20
+	"Logkek #0" = 20
+	"Ekjik #0" = 20
+	"Jikuhn #0" = 20
+	"Loglog #0" = 20
+	"Rakjik #0" = 20
+	"Goreuhn #0" = 20
+	"Tekrej #0" = 20
+	"Logik #0" = 20
+	"Tekgore #0" = 20
+	"Jakgek #0" = 20
+	"Uhnmok #0" = 20
+	"Rakik #0" = 20
+	"Kekkek #0" = 20
+	"Logjak #0" = 20
+	"Gzeprej #0" = 20
+	"Jikrej #0" = 20
+	"Uhnjek #0" = 20
+	"Mokik #0" = 20
+	"Gzepjak #0" = 20
+	"Gzepjak #0" = 20
+	"Daike #0" = 20
+	"Uhnjak #0" = 20
+	"Geklog #0" = 20
+	"Uhngzep #0" = 20
+	"Jikke #0" = 20
+	"Uhndai #0" = 20
+	"Gzepgzep #0" = 20
+	"Kejak #0" = 20
+	"Jikjak #0" = 20
+	"Logtar #0" = 20
+	"Loggek #0" = 20
+	"Tekjek #0" = 20
+	"Gekik #0" = 20
+	"Ekdai #0" = 20
+	"Uhnrak #0" = 20
+	"Gzeprej #0" = 20
+	"Gzepjek #0" = 20
+	"Gekgore #0" = 20
+	"Taruhn #0" = 20
+	"Gekke #0" = 20
+	"Jekek #0" = 20
+	"Jekdai #0" = 20
+	"Jikjek #0" = 20
+	"Jakik #0" = 20
+	"Goredai #0" = 20
+	"Jekrak #0" = 20
+	"Ekkek #0" = 20
+	"Rakjek #0" = 20
+	"Jakmok #0" = 20
+	"Jekrak #0" = -20
+	"Daijek #0" = -20
+	"Gekmok #0" = -20
+	"Logtar #0" = -20
+	"Ekgzep #0" = -20
+	"Jakrej #0" = -20
+	"Gekrak #0" = -20
+	"Gzepjak #0" = -20
+	"Ikgek #0" = -20
+	"Rakkek #0" = -20
+	"Jekjak #0" = -20
+	"Kerak #0" = -20
+	"Gektek #0" = -20
+	"Jakrak #0" = -20
+	"Goregore #0" = -20
+	"Keke #0" = -20
+	"Mokik #0" = -20
+	"Jekdai #0" = -20
+	"Uhnrej #0" = -20
+	"Kekmok #0" = -20
+	"Jekek #0" = -20
+	"Kekek #0" = -20
+	"Rejek #0" = -20
+	"Rejrej #0" = -20
+	"Gekke #0" = -20
+	"Mokjek #0" = -20
+	"Goreke #0" = -20
+	"Jekke #0" = -20
+	"Tekek #0" = -20
+	"Gzepgek #0" = -20
+	"Uhntek #0" = -20
+	"Tekjik #0" = -20
+	"Tarjek #0" = -20
+	"Gzepgek #0" = -20
+	"Ikrak #0" = -20
+	"Tekdai #0" = -20
+	"Kejek #0" = -20
+	"Uhnuhn #0" = -20
+	"Goregek #0" = -20
+	"Kekek #0" = -20
+	"Rejrak #0" = -20
+	"Keke #0" = -20
+	"Jekgore #0" = -20
+	"Gekrak #0" = -20
+	"Jikgore #0" = -20
+	"Gekgore #0" = -20
+	"Jekrak #0" = -20
+	"Ekgek #0" = -20
+	"Tarke #0" = -20
+	"Kekik #0" = -20
+	"Gzepjik #0" = -20
+	"Dairak #0" = -20
+	"Gekjek #0" = -20
+	"Uhnjak #0" = -20
+	"Gekmok #0" = -20
+	"Dailog #0" = -20
+	"Kektek #0" = -20
+	"Kegore #0" = -20
+	"Kektar #0" = -20
+	"Geklog #0" = -20
+	"Rejjek #0" = -20
+	"Gzepik #0" = -20
+	"Jekgore #0" = -20
+	"Jakjak #0" = -20
+	"Gektek #0" = -20
+	"Keke #0" = -20
+	"Jikuhn #0" = -20
+	"Rejgek #0" = -20
+	"Rakjak #0" = -20
+	"Eklog #0" = -20
+	"Gorerej #0" = -20
+	"Gektek #0" = -20
+	"Rakke #0" = -20
+	"Tarjak #0" = -20
+	"Gekdai #0" = -20
+	"Targek #0" = -20
+	"Kegore #0" = -20
+	"Jaklog #0" = -20
+	"Logjek #0" = -20
+	"Tekdai #0" = -20
+	"Gekdai #0" = -20
+	"Gzepgek #0" = -20
+	"Rakjak #0" = -20
+	"Jekgore #0" = -20
+	"Rakjak #0" = -20
+	"Gekdai #0" = -20
+	"Jakgore #0" = -20
+	"Kejak #0" = -20
+	"Jikgore #0" = -20
+	"Ikgore #0" = -20
+	"Mokdai #0" = -20
+	"Logjik #0" = -20
+	"Uhnrej #0" = -20
+	"Jekjik #0" = -20
+	"Rejmok #0" = -20
+	"Rejjek #0" = -20
+	"Jakgore #0" = -20
+	"Logmok #0" = -20
+	"Rakik #0" = -20
+	"Daitar #0" = -20
+	"Ekrak #0" = -20
+	"Goretar #0" = -20
+	"Tekke #0" = -20
+	"Uhnrej #0" = -20
+	"Tekjek #0" = -20
+	"Logik #0" = -20
+	"Jikdai #0" = -20
+	"Mokjek #0" = -20
+	"Daijik #0" = -20
+	"Gzepjik #0" = -20
+	"Goretek #0" = -20
+	"Gorejek #0" = -20
+	"Dairak #0" = -20
+	"Jiktar #0" = -20
+	"Jekjek #0" = -20
+	"Rejuhn #0" = -20
+	"Jakjek #0" = -20
+	"Rakjek #0" = -20
+	"Gzepuhn #0" = -20
+	"Jekik #0" = -20
+	"Jakmok #0" = -20
+	"Jakgek #0" = -20
+	"Ekkek #0" = -20
+	"Logmok #0" = -20
+	"Gzeptar #0" = -20
+	"Jekgek #0" = -20
+	"Logjik #0" = -20
+	"Ekke #0" = -20
+	"Jekgek #0" = -20
+	"Goreke #0" = -20
+	"Tarlog #0" = -20
+	"Gzeptar #0" = -20
+	"Rakjak #0" = -20
+	"Jekgek #0" = -20
+	"Tekek #0" = -20
+	"Jekgzep #0" = -20
+	"Rejjek #0" = -20
+	"Uhnlog #0" = -20
+	"Goregek #0" = -20
+	"Tekjek #0" = -20
+	"Gekrej #0" = -20
+	"Gzepdai #0" = -20
+	"Loggzep #0" = -20
+	"Gzepjak #0" = -20
+	"Rakjak #0" = -20
+	"Jektar #0" = -20
+	"Rejgzep #0" = -20
+	"Gzepgek #0" = -20
+	"Tekjak #0" = -20
+	"Rejjek #0" = -20
+	"Jeklog #0" = -20
+	"Rejmok #0" = -20
+	"Jakjik #0" = -20
+	"Ikgek #0" = -20
+	"Gekek #0" = -20
+	"Rejtek #0" = -20
+	"Daijek #0" = -20
+	"Jekjek #0" = -20
+	"Uhnjik #0" = -20
+	"Rejtek #0" = -20
+	"Jikdai #0" = -20
+	"Uhnjak #0" = -20
+	"Daike #0" = -20
+	"Gekjak #0" = -20
+	"Goreke #0" = -20
+	"Uhnke #0" = -20
+	"Kekgek #0" = -20
+	"Tarik #0" = -20
+	"Tartek #0" = -20
+	"Tekdai #0" = -20
+	"Gekke #0" = -20
+	"Rejuhn #0" = -20
+	"Gekrak #0" = -20
+	"Goremok #0" = -20
+	"Logdai #0" = -20
+	"Jakjak #0" = -20
+	"Kekrak #0" = -20
+	"Jikjak #0" = -20
+	"Gorejik #0" = -20
+	"Mokik #0" = -20
+	"Rejjek #0" = -20
+	"Gekgek #0" = -20
+	"Mokik #0" = -20
+	"Daigek #0" = -20
+	"Rejgore #0" = -20
+	"Jakdai #0" = -20
+	"Gzepjek #0" = -20
+	"Gekjek #0" = -20
+	"Logik #0" = -20
+	"Jikjek #0" = -20
+	"Daigzep #0" = -20
+	"Ikjek #0" = -20
+	"Goreuhn #0" = -20
+	"Gekke #0" = -20
+	"Logdai #0" = -20
+	"Kegek #0" = -20
+	"Rakrej #0" = -20
+	"Jakgzep #0" = -20
+	"Gzepgek #0" = -20
+	"Jekek #0" = -20
+	"Tarrak #0" = -20
+	"Daitek #0" = -20
+	"Jekgzep #0" = -20
+	"Jakgek #0" = -20
+	"Rakjik #0" = -20
+	"Logmok #0" = -20
+	"Kegore #0" = -20
+	"Gekjak #0" = -20
+	"Ekjek #0" = -20
+	"Ekjek #0" = -20
+	"Goredai #0" = -20
+	"Mokkek #0" = -20
+	"Kegzep #0" = -20
+	"Jakjik #0" = -20
+	"Ikjek #0" = -20
+	"Ekrej #0" = -20
+	"Ikgzep #0" = -20
+	"Jakrej #0" = -20
+	"Jakgzep #0" = -20
+	"Goreuhn #0" = -20
+	"Jaklog #0" = -20
+	"Logtek #0" = -20
+	"Rejlog #0" = -20
+	"Raktek #0" = -20
+	"Ekik #0" = -20
+	"Iklog #0" = -20
+	"Rakgore #0" = -20
+	"Jakjek #0" = -20
+	"Kekgek #0" = -20
+	"Goreke #0" = -20
+	"Jekrej #0" = -20
+	"Gekrak #0" = -20
+	"Rakgek #0" = -20
+	"Targek #0" = -20
+	"Ekrak #0" = -20
+	"Rejtar #0" = -20
+	"Kekjik #0" = -20
+	"Keik #0" = -20
+	"Tektar #0" = -20
+	"Rejtek #0" = -20
+	"Logjek #0" = -20
+	"Gorejak #0" = -20
+	"Daimok #0" = -20
+	"Kelog #0" = -20
+	"Gekrej #0" = -20
+	"Logjek #0" = -20
+	"Tekjak #0" = -20
+	"Ikkek #0" = -20
+	"Gzeprej #0" = -20
+	"Jekrak #0" = -20
+	"Teklog #0" = -20
+	"Gekjak #0" = -20
+	"Gekdai #0" = -20
+	"Jekjak #0" = -20
+	"Gorerak #0" = -20
+	"Jakjak #0" = -20
+	"Jaktar #0" = -20
+	"Kekrak #0" = -20
+	"Daitar #0" = -20
+	"Rejke #0" = -20
+	"Jikuhn #0" = -20
+	"Kekmok #0" = -20
+	"Tarik #0" = -20
+	"Jektek #0" = -20
+	"Mokkek #0" = -20
+	"Kekek #0" = -20
+	"Logjak #0" = -20
+	"Gekuhn #0" = -20
+	"Kejek #0" = -20
+	"Iktek #0" = -20
+	"Rejgzep #0" = -20
+	"Rakmok #0" = -20
+	"Rejjek #0" = -20
+	"Uhnjek #0" = -20
+	"Rejkek #0" = -20
+	"Gzeprak #0" = -20
+	"Loguhn #0" = -20
+	"Uhngek #0" = -20
+	"Mokek #0" = -20
+	"Rakgek #0" = -20
+	"Ketek #0" = -20
+	"Gzepgzep #0" = -20
+	"Uhnmok #0" = -20
+	"Kekrak #0" = -20
+	"Rakdai #0" = -20
+	"Ekkek #0" = -20
+	"Jakik #0" = -20
+	"Rejjek #0" = -20
+	"Ekjak #0" = -20
+	"Tarjek #0" = -20
+	"Goregzep #0" = -20
+	"Rakkek #0" = -20
+	"Gzepgek #0" = -20
+	"Rakmok #0" = -20
+	"Jekuhn #0" = -20
+	"Logek #0" = -20
+	"Gzepgore #0" = -20
+	"Logjak #0" = -20
+	"Rejjik #0" = -20
+	"Uhntar #0" = -20
+	"Gekgore #0" = -20
+	"Tardai #0" = -20
+	"Kelog #0" = -20
+	"Jikdai #0" = -20
+	"Uhntar #0" = -20
+	"Jiktek #0" = -20
+	"Jekjek #0" = -20
+	"Mokjik #0" = -20
+	"Jakrak #0" = -20
+	"Ketek #0" = -20
+	"Rejjak #0" = -20
+	"Loggek #0" = -20
+	"Kekdai #0" = -20
+	"Gekrak #0" = -20
+	"Gzeptek #0" = -20
+	"Jekjak #0" = -20
+	"Kektar #0" = -20
+	"Tekgore #0" = -20
+	"Gekik #0" = -20
+	"Dailog #0" = -20
+	"Jakke #0" = -20
+	"Ikgzep #0" = -20
+	"Tarke #0" = -20
+	"Gorerak #0" = -20
+	"Rakjak #0" = -20
+	"Ketek #0" = -20
+	"Gorejak #0" = -20
+	"Jakke #0" = -20
+	"Logtar #0" = -20
+	"Rakuhn #0" = -20
+	"Jekke #0" = -20
+	"Mokgek #0" = -20
+	"Goreke #0" = -20
+	"Tekgore #0" = -20
+	"Ikgore #0" = -20
+	"Jekgzep #0" = -20
+	"Tarek #0" = -20
+	"Tarmok #0" = -20
+	"Tarrej #0" = -20
+	"Jaklog #0" = -20
+	"Kektek #0" = -20
+	"Gekjik #0" = -20
+	"Jakdai #0" = -20
+	"Uhngore #0" = -20
+	"Jekjek #0" = -20
+	"Jekjek #0" = -20
+	"Rejjik #0" = -20
+	"Tarik #0" = -20
+	"Gektek #0" = -20
+	"Gorelog #0" = -20
+	"Gorejek #0" = -20
+	"Jakdai #0" = -20
+	"Tardai #0" = -20
+	"Daidai #0" = -20
+	"Jikgek #0" = -20
+	"Rakgore #0" = -20
+	"Kegore #0" = -20
+	"Rejgore #0" = -20
+	"Jekmok #0" = -20
+	"Logmok #0" = -20
+	"Jekgore #0" = -20
+	"Kekgek #0" = -20
+	"Jakik #0" = -20
+	"Rejgek #0" = -20
+	"Targek #0" = -20
+	"Jektek #0" = -20
+	"Jekjak #0" = -20
+	"Mokgore #0" = -20
+	"Mokek #0" = -20
+	"Gzepgek #0" = -20
+	"Mokmok #0" = -20
+	"Ekgek #0" = -20
+	"Kekek #0" = -20
+	"Jekjek #0" = -20
+	"Uhnjek #0" = -20
+	"Uhnlog #0" = -20
+	"Uhnrak #0" = -20
+	"Eklog #0" = -20
+	"Jaktar #0" = -20
+	"Gzepdai #0" = -20
+	"Jekgzep #0" = -20
+	"Kelog #0" = -20
+	"Jekgore #0" = -20
+	"Kekgek #0" = -20
+	"Loggek #0" = -20
+	"Rakrak #0" = -20
+	"Kekjek #0" = -20
+	"Logjek #0" = -20
+	"Goregek #0" = -20
+	"Ekgek #0" = -20
+	"Uhnjek #0" = -20
+	"Jakek #0" = -20
+	"Daidai #0" = -20
+	"Gzepjik #0" = -20
+	"Ikek #0" = -20
+	"Ikrej #0" = -20
+	"Raklog #0" = -20
+	"Jekjek #0" = -20
+	"Logjek #0" = -20
+	"Jekjik #0" = -20
+	"Loguhn #0" = -20
+	"Tekgzep #0" = -20
+	"Tarkek #0" = -20
+	"Jikik #0" = -20
+	"Ketar #0" = -20
+	"Rakik #0" = -20
+	"Gekuhn #0" = -20
+	"Tekjak #0" = -20
+	"Gekke #0" = -20
+	"Kegek #0" = -20
+	"Kekgek #0" = -20
+	"Jektar #0" = -20
+	"Ekik #0" = -20
+	"Logik #0" = -20
+	"Kekjek #0" = -20
+	"Ikuhn #0" = -20
+	"Rakkek #0" = -20
+	"Kekmok #0" = -20
+	"Jakke #0" = -20
+	"Kekkek #0" = -20
+	"Gekdai #0" = -20
+	"Mokjak #0" = -20
+	"Uhnjik #0" = -20
+	"Gekjak #0" = -20
+	"Ekjak #0" = -20
+	"Daitek #0" = -20
+	"Gzepuhn #0" = -20
+	"Ikjak #0" = -20
+	"Gekgek #0" = -20
+	"Mokrak #0" = -20
+	"Ekgek #0" = -20
+	"Jikgore #0" = -20
+	"Gzepek #0" = -20
+	"Gzeplog #0" = -20
+	"Mokuhn #0" = -20
+	"Tartar #0" = -20
+	"Goremok #0" = -20
+	"Jekke #0" = -20
+	"Kekgek #0" = -20
+	"Gorerak #0" = -20
+	"Tektar #0" = -20
+	"Gekgzep #0" = -20
+	"Tartek #0" = -20
+	"Jikjek #0" = -20
+	"Mokik #0" = -20
+	"Mokuhn #0" = -20
+	"Jekkek #0" = -20
+	"Raktek #0" = -20
+	"Rakjik #0" = -20
+	"Targek #0" = -20
+	"Jaktek #0" = -20
+	"Logke #0" = -20
+	"Kerej #0" = -20
+	"Jekgzep #0" = -20
+	"Gorejak #0" = -20
+	"Jakek #0" = -20
+	"Lograk #0" = -20
+	"Ekjik #0" = -20
+	"Gekjik #0" = -20
+	"Mokgek #0" = -20
+	"Gekgek #0" = -20
+	"Rakke #0" = -20
+	"Tekgzep #0" = -20
+	"Gekrak #0" = -20
+	"Goregore #0" = -20
+	"Kekke #0" = -20
+	"Gekjik #0" = -20
+	"Targzep #0" = -20
+	"Daigore #0" = -20
+	"Gekmok #0" = -20
+	"Loggzep #0" = -20
+	"Tarrak #0" = -20
+	"Gzepgek #0" = -20
+	"Jikjek #0" = -20
+	"Jakgek #0" = -20
+	"Uhngzep #0" = -20
+	"Jektek #0" = -20
+	"Gekkek #0" = -20
+	"Jakmok #0" = -20
+	"Gekgzep #0" = -20
+	"Ekgzep #0" = -20
+	"Jekjak #0" = -20
+	"Jikjak #0" = -20
+	"Tarjik #0" = -20
+	"Gorejek #0" = -20
+	"Rejjek #0" = -20
+	"Goreek #0" = -20
+	"Mokjek #0" = -20
+	"Rejtar #0" = -20
+	"Gzepke #0" = -20
+	"Gekgzep #0" = -20
+	"Ekgzep #0" = -20
+	"Tarke #0" = -20
+	"Logmok #0" = -20
+	"Uhnkek #0" = -20
+	"Mokkek #0" = -20
+	"Jekjek #0" = -20
+	"Rejik #0" = -20
+	"Rejtek #0" = -20
+	"Ikgek #0" = -20
+	"Jiktek #0" = -20
+	"Jakgzep #0" = -20
+	"Jakjak #0" = -20
+	"Ekjak #0" = -20
+	"Ikik #0" = -20
+	"Rakik #0" = -20
+	"Ekik #0" = -20
+	"Jikke #0" = -20
+	"Rakgore #0" = -20
+	"Uhnjak #0" = -20
+	"Gzepgek #0" = -20
+	"Jakdai #0" = -20
+	"Rakrej #0" = -20
+	"Ikke #0" = -20
+	"Keuhn #0" = -20
+	"Moktek #0" = -20
+	"Geklog #0" = -20
+	"Moktar #0" = -20
+	"Jikkek #0" = -20
+	"Gekjek #0" = -20
+	"Rakkek #0" = -20
+	"Uhnkek #0" = -20
+	"Jakjik #0" = -20
+	"Jikgek #0" = -20
+	"Gekmok #0" = -20
+	"Mokmok #0" = -20
+	"Jekrak #0" = -20
+	"Gektar #0" = -20
+	"Ekjak #0" = -20
+	"Jikjek #0" = -20
+	"Logek #0" = -20
+	"Jekgek #0" = -20
+	"Rakek #0" = -20
+	"Gekkek #0" = -20
+	"Ikdai #0" = -20
+	"Ekjak #0" = -20
+	"Ikrak #0" = -20
+	"Rejgek #0" = -20
+	"Tarik #0" = -20
+	"Gekgore #0" = -20
+	"Rakdai #0" = -20
+	"Kejek #0" = -20
+	"Jekrej #0" = -20
+	"Jakjek #0" = -20
+	"Jakgzep #0" = -20
+	"Mokdai #0" = -20
+	"Gzepkek #0" = -20
+	"Daigzep #0" = -20
+	"Gekjek #0" = -20
+	"Jakrej #0" = -20
+	"Daigore #0" = -20
+	"Logtar #0" = -20
+	"Tarjik #0" = -20
+	"Keke #0" = -20
+	"Gekuhn #0" = -20
+	"Ikgek #0" = -20
+	"Jikgore #0" = -20
+	"Kegek #0" = -20
+	"Geklog #0" = -20
+	"Jikrak #0" = -20
+	"Tekrej #0" = -20
+	"Rakjek #0" = -20
+	"Rakjak #0" = -20
+	"Geklog #0" = -20
+	"Gzepjak #0" = -20
+	"Gekjak #0" = -20
+	"Kekjak #0" = -20
+	"Mokgek #0" = -20
+	"Jikgek #0" = -20
+	"Rakjak #0" = -20
+	"Ikjak #0" = -20
+	"Jikek #0" = -20
+	"Mokgzep #0" = -20
+	"Gzepgek #0" = -20
+	"Logik #0" = -20
+	"Rejkek #0" = -20
+	"Tekgek #0" = -20
+	"Kekdai #0" = -20
+	"Tekek #0" = -20
+	"Mokke #0" = -20
+	"Uhntek #0" = -20
+	"Gekek #0" = -20
+	"Logik #0" = -20
+	"Goreik #0" = -20
+	"Kekgek #0" = -20
+	"Ektek #0" = -20
+	"Jakgek #0" = -20
+	"Logrej #0" = -20
+	"Gekjek #0" = -20
+	"Kekjak #0" = -20
+	"Uhnkek #0" = -20
+	"Kegek #0" = -20
+	"Mokgore #0" = -20
+	"Rejjek #0" = -20
+	"Gekek #0" = -20
+	"Rejdai #0" = -20
+	"Jekjek #0" = -20
+	"Jektek #0" = -20
+	"Daidai #0" = -20
+	"Mokgore #0" = -20
+	"Jikgek #0" = -20
+	"Kekik #0" = -20
+	"Ekuhn #0" = -20
+	"Mokjak #0" = -20
+	"Jekke #0" = -20
+	"Kekjek #0" = -20
+	"Tarek #0" = -20
+	"Ekgore #0" = -20
+	"Tekmok #0" = -20
+	"Goregore #0" = -20
+	"Gekjak #0" = -20
+	"Ketar #0" = -20
+	"Gzepjek #0" = -20
+	"Kegore #0" = -20
+	"Keik #0" = -20
+	"Tekek #0" = -20
+	"Goreke #0" = -20
+	"Ekmok #0" = -20
+	"Gzepek #0" = -20
+	"Loggzep #0" = -20
+	"Jaklog #0" = -20
+	"Ekmok #0" = -20
+	"Ikjak #0" = -20
+	"Mokjik #0" = -20
+	"Loggore #0" = -20
+	"Keke #0" = -20
+	"Jekuhn #0" = -20
+	"Jekgek #0" = -20
+	"Keik #0" = -20
+	"Jakjak #0" = -20
+	"Gzepek #0" = -20
+	"Eklog #0" = -20
+	"Keik #0" = -20
+	"Rakik #0" = -20
+	"Logjak #0" = -20
+	"Jektar #0" = -20
+	"Gekke #0" = -20
+	"Ekjek #0" = -20
+	"Kekjak #0" = -20
+	"Jakjek #0" = -20
+	"Uhnjak #0" = -20
+	"Loggek #0" = -20
+	"Jekjak #0" = -20
+	"Logik #0" = -20
+	"Ikrej #0" = -20
+	"Gorejek #0" = -20
+	"Tekjak #0" = -20
+	"Gzepjak #0" = -20
+	"Tekjik #0" = -20
+	"Gekik #0" = -20
+	"Tekik #0" = -20
+	"Ekgore #0" = -20
+	"Loggzep #0" = -20
+	"Jikjik #0" = -20
+	"Gekdai #0" = -20
+	"Tekke #0" = -20
+	"Uhnlog #0" = -20
+	"Uhnjak #0" = -20
+	"Ikek #0" = -20
+	"Tekjek #0" = -20
+	"Rejgek #0" = -20
+	"Rejgek #0" = -20
+	"Rejjak #0" = -20
+	"Daijak #0" = -20
+	"Rejtar #0" = -20
+	"Uhnjak #0" = -20
+	"Kerej #0" = -20
+	"Kegore #0" = -20
+	"Goremok #0" = -20
+	"Uhngek #0" = -20
+	"Jikmok #0" = -20
+	"Rejtek #0" = -20
+	"Kekjak #0" = -20
+	"Gekuhn #0" = -20
+	"Loggek #0" = -20
+	"Jikrej #0" = -20
+	"Ikmok #0" = -20
+	"Ikrej #0" = -20
+	"Rejkek #0" = -20
+	"Ekjak #0" = -20
+	"Iktek #0" = -20
+	"Daikek #0" = -20
+	"Ikjik #0" = -20
+	"Gzeprej #0" = -20
+	"Kekke #0" = -20
+	"Uhndai #0" = -20
+	"Mokdai #0" = -20
+	"Dairej #0" = -20
+	"Gorerak #0" = -20
+	"Kekkek #0" = -20
+	"Gzeplog #0" = -20
+	"Jakmok #0" = -20
+	"Gekdai #0" = -20
+	"Uhnjak #0" = -20
+	"Ekjik #0" = -20
+	"Rejrak #0" = -20
+	"Gekjik #0" = -20
+	"Gzepgek #0" = -20
+	"Mokik #0" = -20
+	"Uhnjak #0" = -20
+	"Jikjek #0" = -20
+	"Gzeptek #0" = -20
+	"Kejak #0" = -20
+	"Rakdai #0" = -20
+	"Rejke #0" = -20
+	"Ektar #0" = -20
+	"Uhngek #0" = -20
+	"Tekjik #0" = -20
+	"Rejgzep #0" = -20
+	"Loguhn #0" = -20
+	"Gzepgek #0" = -20
+	"Gorejak #0" = -20
+	"Gzepjek #0" = -20
+	"Jikrak #0" = -20
+	"Ikgore #0" = -20
+	"Gekgek #0" = -20
+	"Kekgek #0" = -20
+	"Logtek #0" = -20
+	"Rakkek #0" = -20
+	"Kejak #0" = -20
+	"Eklog #0" = -20
+	"Kekrej #0" = -20
+	"Taruhn #0" = -20
+	"Jikke #0" = -20
+	"Jakgore #0" = -20
+	"Jekdai #0" = -20
+	"Uhnuhn #0" = -20
+	"Kekjik #0" = -20
+	"Kekjek #0" = -20
+	"Rakgek #0" = -20
+	"Ikrak #0" = -20
+	"Rakrak #0" = -20
+	"Rakjek #0" = -20
+	"Tekjek #0" = -20
+	"Rejjak #0" = -20
+	"Tektar #0" = -20
+	"Mokrak #0" = -20
+	"Gektar #0" = -20
+	"Daigzep #0" = -20
+	"Rejjek #0" = -20
+	"Jakek #0" = -20
+	"Jaklog #0" = -20
+	"Jekmok #0" = -20
+	"Uhnmok #0" = -20
+	"Daidai #0" = -20
+	"Rejgzep #0" = -20
+	"Jekgore #0" = -20
+	"Dairej #0" = -20
+	"Gzepdai #0" = -20
+	"Taruhn #0" = -20
+	"Jakgek #0" = -20
+	"Kedai #0" = -20
+	"Gzeprak #0" = -20
+	"Tarek #0" = -20
+	"Tekgek #0" = -20
+	"Gzepjek #0" = -20
+	"Ekgek #0" = -20
+	"Gzepjik #0" = -20
+	"Daigore #0" = -20
+	"Goregek #0" = -20
+	"Gzepjek #0" = -20
+	"Logtar #0" = -20
+	"Tarik #0" = -20
+	"Gzepik #0" = -20
+	"Ekik #0" = -20
+	"Uhnuhn #0" = -20
+	"Uhngzep #0" = -20
+	"Mokmok #0" = -20
+	"Logjek #0" = -20
+	"Gekgore #0" = -20
+	"Rejrak #0" = -20
+	"Jekgek #0" = -20
+	"Jekgek #0" = -20
+	"Ekjik #0" = -20
+	"Ekke #0" = -20
+	"Gekjak #0" = -20
+	"Gekjak #0" = -20
+	"Kekrej #0" = -20
+	"Gorerej #0" = -20
+	"Uhnik #0" = -20
+	"Ikjek #0" = -20
+	"Tekgore #0" = -20
+	"Gzepdai #0" = -20
+	"Geklog #0" = -20
+	"Kekjak #0" = -20
+	"Tekrej #0" = -20
+	"Jiktar #0" = -20
+	"Ketek #0" = -20
+	"Kegek #0" = -20
+	"Ikek #0" = -20
+	"Tekjak #0" = -20
+	"Jikgore #0" = -20
+	"Jeklog #0" = -20
+	"Tektek #0" = -20
+	"Jakke #0" = -20
+	"Jekuhn #0" = -20
+	"Gorejek #0" = -20
+	"Ekkek #0" = -20
+	"Gorekek #0" = -20
+	"Rakrak #0" = -20
+	"Tarmok #0" = -20
+	"Logjik #0" = -20
+	"Gekgek #0" = -20
+	"Jikmok #0" = -20
+	"Tekuhn #0" = -20
+	"Mokjak #0" = -20
+	"Jaktek #0" = -20
+	"Kekrej #0" = -20
+	"Gzepdai #0" = -20
+	"Gekjak #0" = -20
+	"Tekdai #0" = -20
+	"Jaktek #0" = -20
+	"Rakkek #0" = -20
+	"Kejek #0" = -20
+	"Ikkek #0" = -20
+	"Gzepjak #0" = -20
+	"Gekgore #0" = -20
+	"Jikuhn #0" = -20
+	"Ikjik #0" = -20
+	"Jikgore #0" = -20
+	"Rejkek #0" = -20
+	"Gzeptar #0" = -20
+	"Jekgek #0" = -20
+	"Jekrak #0" = -20
+	"Gzepjik #0" = -20
+	"Jekjek #0" = -20
+	"Tarek #0" = -20
+	"Jakke #0" = -20
+	"Kekmok #0" = -20
+	"Gekrak #0" = -20
+	"Mokgek #0" = -20
+	"Ikkek #0" = -20
+	"Rejgek #0" = -20
+	"Daijak #0" = -20
+	"Jikgore #0" = -20
+	"Tarmok #0" = -20
+	"Rejgore #0" = -20
+	"Gorerej #0" = -20
+	"Rakdai #0" = -20
+	"Rakjak #0" = -20
+	"Jekgek #0" = -20
+	"Kekgek #0" = -20
+	"Rejjak #0" = -20
+	"Logjek #0" = -20
+	"Goretar #0" = -20
+	"Gekke #0" = -20
+	"Gzepjak #0" = -20
+	"Jekdai #0" = -20
+	"Uhnjak #0" = -20
+	"Daijak #0" = -20
+	"Tekgzep #0" = -20
+	"Gekjak #0" = -20
+	"Logrej #0" = -20
+	"Tarke #0" = -20
+	"Gekek #0" = -20
+	"Rakmok #0" = -20
+	"Tarrej #0" = -20
+	"Tekgek #0" = -20
+	"Rakik #0" = -20
+	"Jakjek #0" = -20
+	"Ekgek #0" = -20
+	"Jakjek #0" = -20
+	"Daitek #0" = -20
+	"Uhndai #0" = -20
+	"Daigek #0" = -20
+	"Jaktek #0" = -20
+	"Ikgzep #0" = -20
+	"Tarjak #0" = -20
+	"Moktar #0" = -20
+	"Ekke #0" = -20
+	"Rejgore #0" = -20
+	"Jakjak #0" = -20
+	"Uhnmok #0" = -20
+	"Jakgzep #0" = -20
+	"Kekrak #0" = -20
+	"Daitar #0" = -20
+	"Ikjak #0" = -20
+	"Jekik #0" = -20
+	"Rejjek #0" = -20
+	"Daijak #0" = -20
+	"Mokjek #0" = -20
+	"Jikuhn #0" = -20
+	"Daidai #0" = -20
+	"Jakjik #0" = -20
+	"Rakrej #0" = -20
+	"Gekgore #0" = -20
+	"Ketar #0" = -20
+	"Gzeprak #0" = -20
+	"Jikgzep #0" = -20
+	"Rakmok #0" = -20
+	"Jakgore #0" = -20
+	"Lograk #0" = -20
+	"Gzepjek #0" = -20
+	"Gzepik #0" = -20
+	"Tekik #0" = -20
+	"Jeklog #0" = -20
+	"Logdai #0" = -20
+	"Gzepjek #0" = -20
+	"Rejjik #0" = -20
+	"Jekgzep #0" = -20
+	"Ekdai #0" = -20
+	"Mokgek #0" = -20
+	"Ekek #0" = -20
+	"Jiklog #0" = -20
+	"Jakjik #0" = -20
+	"Mokgek #0" = -20
+	"Gorekek #0" = -20
+	"Tarke #0" = -20
+	"Rakrej #0" = -20
+	"Jekrej #0" = -20
+	"Kekuhn #0" = -20
+	"Kedai #0" = -20
+	"Kelog #0" = -20
+	"Jekke #0" = -20
+	"Jakrej #0" = -20
+	"Jaklog #0" = -20
+	"Gekmok #0" = -20
+	"Rakke #0" = -20
+	"Kekgzep #0" = -20
+	"Uhngek #0" = -20
+	"Rakkek #0" = -20
+	"Geklog #0" = -20
+	"Jekek #0" = -20
+	"Jekgek #0" = -20
+	"Rakgek #0" = -20
+	"Jakgore #0" = -20
+	"Kekuhn #0" = -20
+	"Taruhn #0" = -20
+	"Uhntar #0" = -20
+	"Daimok #0" = -20
+	"Jakjik #0" = -20
+	"Mokgzep #0" = -20
+	"Kegek #0" = -20
+	"Jekjek #0" = -20
+	"Jakjak #0" = -20
+	"Tarjak #0" = -20
+	"Tarjek #0" = -20
+	"Tarek #0" = -20
+	"Kekdai #0" = -20
+	"Jakjik #0" = -20
+	"Gekjek #0" = -20
+	"Tekmok #0" = -20
+	"Rakgek #0" = -20
+	"Eklog #0" = -20
+	"Daijek #0" = -20
+	"Rejik #0" = -20
+	"Gzeprej #0" = -20
+	"Jakgek #0" = -20
+	"Mokjak #0" = -20
+	"Jikrej #0" = -20
+	"Moklog #0" = -20
+	"Logkek #0" = -20
+	"Ekjik #0" = -20
+	"Jikuhn #0" = -20
+	"Loglog #0" = -20
+	"Rakjik #0" = -20
+	"Goreuhn #0" = -20
+	"Tekrej #0" = -20
+	"Logik #0" = -20
+	"Tekgore #0" = -20
+	"Jakgek #0" = -20
+	"Uhnmok #0" = -20
+	"Rakik #0" = -20
+	"Kekkek #0" = -20
+	"Logjak #0" = -20
+	"Gzeprej #0" = -20
+	"Jikrej #0" = -20
+	"Uhnjek #0" = -20
+	"Mokik #0" = -20
+	"Gzepjak #0" = -20
+	"Gzepjak #0" = -20
+	"Daike #0" = -20
+	"Uhnjak #0" = -20
+	"Geklog #0" = -20
+	"Uhngzep #0" = -20
+	"Jikke #0" = -20
+	"Uhndai #0" = -20
+	"Gzepgzep #0" = -20
+	"Kejak #0" = -20
+	"Jikjak #0" = -20
+	"Logtar #0" = -20
+	"Loggek #0" = -20
+	"Tekjek #0" = -20
+	"Gekik #0" = -20
+	"Ekdai #0" = -20
+	"Uhnrak #0" = -20
+	"Gzeprej #0" = -20
+	"Gzepjek #0" = -20
+	"Gekgore #0" = -20
+	"Taruhn #0" = -20
+	"Gekke #0" = -20
+	"Jekek #0" = -20
+	"Jekdai #0" = -20
+	"Jikjek #0" = -20
+	"Jakik #0" = -20
+	"Goredai #0" = -20
+	"Jekrak #0" = -20
+	"Ekkek #0" = -20
+	"Rakjek #0" = -20
+	"Jakmok #0" = -20
+
 }
+
 leader_names = {
+	"Foulclaw"
+	"Snarlpile"
+	"Rotskin"
+	"Winterskin"
+	"Thistlefall"
+	"Gnarlpaw"
+	"Crustlimb"
+	"Timberwood"
+	"Crusttooth"
+	"Blightbite"
+	"Bramblelimb"
+	"Lumberclaw"
+	"Prickleweald"
+	"Rotskin"
+	"Stillpelt"
+	"Bristlemaw"
+	"Gutbite"
+	"Redskin"
+	"Whiskerweald"
+	"Deadmaw"
+	"Gutweald"
+	"Snarlpelt"
+	"Bristlebarb"
+	"Winterpelt"
+	"Whiskerpile"
+	"Bloodweald"
+	"Huskmaw"
+	"Deadbarb"
+	"Whiskerpine"
+	"Bloodpelt"
+	"Flowerskin"
+	"Redlimb"
+	"Rotweald"
+	"Stubblebarb"
+	"Flowermaw"
+	"Nettleskin"
+	"Lumberfang"
+	"Huskfall"
+	"Gnarlbarb"
+	"Lumbertooth"
+	"Whiskerpaw"
+	"Nettleskin"
+	"Blackbarb"
+	"Flowerpelt"
+	"Blightpaw"
+	"Thistlefall"
+	"Prickleskin"
+	"Thornpine"
+	"Huskbite"
+	"Lumberclaw"
+	"Bristleweald"
+	"Bloodpine"
+	"Stubblelimb"
+	"Redmaw"
+	"Moldfur"
+	"Foulpile"
+	"Stubblepile"
+	"Whiskerlimb"
+	"Blackskin"
+	"Blightweald"
+	"Blightbarb"
+	"Moldfur"
+	"Whitepelt"
+	"Whitepine"
+	"Timberpaw"
+	"Barkmaw"
+	"Stillfur"
+	"Timberweald"
+	"Thornfall"
+	"Foulfur"
+	"Winterpile"
+	"Lumberlimb"
+	"Flowerlimb"
+	"Crustweald"
+	"Pricklepaw"
+	"Rotskin"
+	"Thornpile"
+	"Snarlmaw"
+	"Bloodlimb"
+	"Bloodpile"
+	"Whiskerfall"
+	"Redfang"
+	"Whitebarb"
+	"Huskfang"
+	"Thornclaw"
+	"Bramblepelt"
+	"Crustskin"
+	"Frostweald"
+	"Thornfang"
+	"Foulfang"
+	"Crustbarb"
+	"Blightpile"
+	"Snarlmaw"
+	"Gnarlpelt"
+	"Foulpelt"
+	"Rotfang"
+	"Stilltooth"
+	"Whitefall"
+	"Bristlepaw"
+	"Huskfur"
+	"Redfall"
+	"Flowerpile"
+	"Snowfall"
+	"Foulweald"
+	"Bramblepile"
+	"Whiskerpile"
+	"Frostweald"
+	"Stubbleclaw"
+	"Snarlclaw"
+	"Blackpaw"
+	"Huskpaw"
+	"Gutfang"
+	"Prickleskin"
+	"Timberwood"
+	"Wintertooth"
+	"Flowerbite"
+	"Crustfall"
+	"Gnarlfall"
+	"Nettleclaw"
+	"Blightfur"
+	"Gnarlclaw"
+	"Timberweald"
+	"Brambleclaw"
+	"Crustpaw"
+	"Bloodpelt"
+	"Bramblefall"
+	"Whiskerweald"
+	"Frostpine"
+	"Thistleskin"
+	"Barkfall"
+	"Winterfall"
+	"Bristlepine"
+	"Deadfall"
+	"Crustbite"
+	"Flowerpaw"
+	"Thornbarb"
+	"Blighttooth"
+	"Moldweald"
+	"Lumberbarb"
+	"Foulfall"
+	"Deadlimb"
+	"Stubblepelt"
+	"Bloodfang"
+	"Lumberpine"
+	"Moldfall"
+	"Prickletooth"
+	"Moldbarb"
+	"Thornfur"
+	"Snarlwood"
+	"Flowerbarb"
+	"Barkweald"
+	"Bloodfall"
+	"Flowerpaw"
+	"Gnarlbite"
+	"Gnarlfall"
+	"Foulskin"
+	"Huskpelt"
+	"Gnarlbite"
+	"Thistlepelt"
+	"Gnarlwood"
+	"Flowermaw"
+	"Huskfang"
+	"Flowerbite"
+	"Snowpile"
+	"Husklimb"
+	"Bristlewood"
+	"Timberskin"
+	"Barkpine"
+	"Bloodmaw"
+	"Deadbite"
+	"Nettleclaw"
+	"Foulwood"
+	"Bloodfang"
+	"Nettlepine"
+	"Huskfall"
+	"Rotpile"
+	"Rotpine"
+	"Crustfang"
+	"Thistletooth"
+	"Lumberweald"
+	"Thistlewood"
+	"Redpile"
+	"Whitebarb"
+	"Snarlbite"
+	"Snarlfang"
+	"Thornfur"
+	"Winterpaw"
+	"Barkclaw"
+	"Bristlepile"
+	"Barkpile"
+	"Foulbarb"
+	"Thistlefang"
+	"Whitemaw"
+	"Nettlepaw"
+	"Pricklefang"
+	"Rotfang"
+	"Redpelt"
+	"Flowerbarb"
+	"Lumberclaw"
+	"Flowerweald"
+	"Thornfang"
+	"Blightmaw"
+	"Whiskerbarb"
+	"Stilllimb"
+	"Frostwood"
+	"Nettlewood"
+	"Deadfall"
+	"Moldpile"
+	"Stillweald"
+	"Foulmaw"
+	"Whitetooth"
+	"Whiskerpine"
+	"Deadskin"
+	"Foulpine"
+	"Thornfur"
+	"Blightbite"
+	"Wintermaw"
+	"Thistlepile"
+	"Flowerwood"
+	"Thistlelimb"
+	"Bristlepaw"
+	"Barkclaw"
+	"Brambletooth"
+	"Nettlefall"
+	"Huskfall"
+	"Bristlepaw"
+	"Brambletooth"
+	"Whiskerfang"
+	"Blightclaw"
+	"Thornfall"
+	"Snarlpelt"
+	"Bloodwood"
+	"Thornbarb"
+	"Timberwood"
+	"Flowerbarb"
+	"Thistlebarb"
+	"Whiskerpile"
+	"Snarlfur"
+	"Lumberbite"
+	"Redlimb"
+	"Moldmaw"
+	"Flowerbite"
+	"Timberfang"
+	"Gutbite"
+	"Frostbarb"
+	"Lumberfall"
+	"Thorntooth"
+	"Frostlimb"
+	"Huskbarb"
+	"Wintermaw"
+	"Huskpile"
+	"Moldwood"
+	"Nettlepelt"
+	"Timberfur"
+	"Rotpelt"
+	"Snowpelt"
+	"Moldlimb"
+	"Nettlefur"
+	"Bristleclaw"
+	"Timberpaw"
+	"Redskin"
+	"Blackbite"
+	"Bloodpaw"
+	"Frostpine"
+	"Gnarlpaw"
+	"Deadbarb"
+	"Blacklimb"
+	"Thistlepelt"
+	"Stubblebite"
+	"Rotmaw"
+	"Gnarlmaw"
+	"Thistlelimb"
+	"Lumbertooth"
+	"Rotclaw"
+	"Timbertooth"
+	"Crustwood"
+	"Bloodtooth"
+	"Stillwood"
+	"Whiskerweald"
+	"Guttooth"
+	"Snowfang"
+	"Snarlpile"
+	"Timberbarb"
+	"Gnarlbarb"
+	"Stillfall"
+	"Rotskin"
+	"Thistlewood"
+	"Huskweald"
+	"Redfur"
+	"Gutskin"
+	"Huskweald"
+	"Husktooth"
+	"Rotmaw"
+	"Foulfall"
+	"Thornbite"
+	"Timberlimb"
+	"Stubblebite"
+	"Frostfang"
+	"Moldpelt"
+	"Nettlebite"
+	"Crustpile"
+	"Thistlelimb"
+	"Snarlweald"
+	"Wintertooth"
+	"Lumberpine"
+	"Huskfur"
+	"Rotfang"
+	"Barkweald"
+	"Stillpelt"
+	"Gutpile"
+	"Bristleskin"
+	"Barkpile"
+	"Snarlweald"
+	"Moldpile"
+	"Timberskin"
+	"Rotfang"
+	"Foulmaw"
+	"Snowpile"
+	"Bramblefall"
+	"Winterfur"
+	"Flowerpile"
+	"Whiskerbite"
+	"Gutmaw"
+	"Pricklepine"
+	"Whiskerpelt"
+	"Lumberwood"
+	"Redlimb"
+	"Stubbleskin"
+	"Whiskerpile"
+	"Bramblebite"
+	"Huskclaw"
+	"Bloodclaw"
+	"Barkfang"
+	"Deadwood"
+	"Bloodweald"
+	"Redwood"
+	"Thornclaw"
+	"Whiskerclaw"
+	"Whiskermaw"
+	"Stubblefur"
+	"Timbertooth"
+	"Whitefang"
+	"Gnarltooth"
+	"Snarlfang"
+	"Snarlpaw"
+	"Bramblefall"
+	"Frostweald"
+	"Bloodlimb"
+	"Bramblepile"
+	"Bloodbite"
+	"Foulpaw"
+	"Snowfur"
+	"Thistlewood"
+	"Pricklepaw"
+	"Timberskin"
+	"Winterclaw"
+	"Huskbite"
+	"Nettlewood"
+	"Thistlefur"
+	"Thornbite"
+	"Bloodmaw"
+	"Thistleskin"
+	"Snowbarb"
+	"Flowerfang"
+	"Gutpile"
+	"Bramblepelt"
+	"Snowtooth"
+	"Thistleskin"
+	"Bramblebarb"
+	"Bristlemaw"
+	"Timberpile"
+	"Snowtooth"
+	"Gnarlskin"
+	"Snowfang"
+	"Nettlemaw"
+	"Winterfur"
+	"Whiteweald"
+	"Frostpine"
+	"Bloodtooth"
+	"Huskpine"
+	"Lumbermaw"
+	"Stillbarb"
+	"Bristlelimb"
+	"Nettlefall"
+	"Gnarlclaw"
+	"Moldwood"
+	"Barkpile"
+	"Snowtooth"
+	"Foulweald"
+	"Crustlimb"
+	"Bristlefang"
+	"Snarlbite"
+	"Deadfall"
+	"Whiskerfur"
+	"Blightskin"
+	"Stillwood"
+	"Pricklepile"
+	"Crustlimb"
+	"Moldfall"
+	"Blighttooth"
+	"Snarlpile"
+	"Rotlimb"
+	"Winterpile"
+	"Blackpile"
+	"Stillfall"
+	"Nettlebarb"
+	"Lumberlimb"
+	"Blightskin"
+	"Bristlefur"
+	"Bristlepile"
+	"Winterweald"
+	"Moldmaw"
+	"Lumberbarb"
+	"Blightpine"
+	"Bristlepelt"
+	"Frostbite"
+	"Stillbarb"
+	"Bloodpelt"
+	"Moldbite"
+	"Timberlimb"
+	"Moldfang"
+	"Deadpaw"
+	"Moldbarb"
+	"Gnarlpile"
+	"Bramblelimb"
+	"Lumberpaw"
+	"Deadweald"
+	"Huskbite"
+	"Stubblemaw"
+	"Pricklemaw"
+	"Thistlefang"
+	"Stubbletooth"
+	"Bristlefang"
+	"Flowerwood"
+	"Stillwood"
+	"Winterpaw"
+	"Timberpaw"
+	"Blightpaw"
+	"Redfall"
+	"Redwood"
+	"Thornpile"
+	"Bristlepaw"
+	"Huskwood"
+	"Bristlepelt"
+	"Nettleclaw"
+	"Pricklewood"
+	"Stubbleweald"
+	"Moldwood"
+	"Foulfang"
+	"Crustpile"
+	"Timberlimb"
+	"Bramblepaw"
+	"Timberbarb"
+	"Snowfang"
+	"Blackfall"
+	"Winterlimb"
+	"Bristleweald"
+	"Deadskin"
+	"Flowerfang"
+	"Thornfall"
+	"Huskpine"
+	"Blightlimb"
+	"Crustmaw"
+	"Crustpile"
+	"Bloodtooth"
+	"Barkpine"
+	"Winterpile"
+	"Moldweald"
+	"Bloodbite"
+	"Bristlepile"
+	"Gutpelt"
+	"Gutpine"
+	"Thornbite"
+	"Crustpelt"
+	"Barkfur"
+	"Stubblepile"
+	"Thistlefur"
+	"Crustlimb"
+	"Lumberpelt"
+	"Snarlpaw"
+	"Barkpelt"
+	"Gnarlwood"
+	"Rotfur"
+	"Crustweald"
+	"Stillclaw"
+	"Huskpine"
+	"Nettlefall"
+	"Snarlmaw"
+	"Timbertooth"
+	"Gnarlwood"
+	"Huskmaw"
+	"Bloodbarb"
+	"Lumberfall"
+	"Deadclaw"
+	"Bristlepile"
+	"Nettlemaw"
+	"Nettlefall"
+	"Flowerskin"
+	"Rotfur"
+	"Lumbermaw"
+	"Blightpaw"
+	"Huskclaw"
+	"Crustmaw"
+	"Huskfang"
+	"Redbite"
+	"Barkpile"
+	"Gutfur"
+	"Whitewood"
+	"Crustpaw"
+	"Nettleskin"
+	"Rotskin"
+	"Blackskin"
+	"Bramblebite"
+	"Thistleweald"
+	"Gutweald"
+	"Winterweald"
+	"Crustpaw"
+	"Flowermaw"
+	"Lumberweald"
+	"Whitefall"
+	"Flowerclaw"
+	"Bloodpelt"
+	"Lumbertooth"
+	"Rotskin"
+	"Bloodfur"
+	"Thistleskin"
+	"Thornmaw"
+	"Blackfang"
+	"Bristleclaw"
+	"Redskin"
+	"Bramblefang"
+	"Brambletooth"
+	"Flowerbite"
+	"Thistlepile"
+	"Crustpaw"
+	"Blackfur"
+	"Moldwood"
+	"Timberweald"
+	"Whiskerpine"
+	"Gutclaw"
+	"Deadpelt"
+	"Stubblepine"
+	"Barkpelt"
+	"Gutfang"
+	"Stubbletooth"
+	"Stubblepaw"
+	"Bloodfang"
+	"Redtooth"
+	"Lumberpile"
+	"Thornweald"
+	"Gutclaw"
+	"Moldpine"
+	"Bloodfur"
+	"Timberpaw"
+	"Barkskin"
+	"Lumberskin"
+	"Gutpelt"
+	"Brambletooth"
+	"Huskfall"
+	"Pricklewood"
+	"Stillclaw"
+	"Blackpile"
+	"Whiskertooth"
+	"Blackwood"
+	"Rotfall"
+	"Bloodpine"
+	"Gnarlmaw"
+	"Gutfall"
+	"Deadfang"
+	"Deadclaw"
+	"Bristlewood"
+	"Flowermaw"
+	"Redfall"
+	"Whiskerweald"
+	"Bloodpine"
+	"Thorntooth"
+	"Stillpile"
+	"Stillpaw"
+	"Rotweald"
+	"Blightpaw"
+	"Rotbite"
+	"Gutfang"
+	"Barkpile"
+	"Bramblefall"
+	"Whitefang"
+	"Thornclaw"
+	"Thornfur"
+	"Thistlewood"
+	"Snowweald"
+	"Prickletooth"
+	"Gnarlwood"
+	"Blackbarb"
+	"Huskbite"
+	"Blacklimb"
+	"Bloodpine"
+	"Moldclaw"
+	"Whitepile"
+	"Nettlepelt"
+	"Thistlepine"
+	"Thornfur"
+	"Thornweald"
+	"Rotskin"
+	"Redskin"
+	"Thistlepile"
+	"Winterclaw"
+	"Gnarlskin"
+	"Lumberfang"
+	"Flowerfall"
+	"Frostweald"
+	"Snowbite"
+	"Lumberbite"
+	"Winterpelt"
+	"Thistleskin"
+	"Deadskin"
+	"Pricklepine"
+	"Whiskerweald"
+	"Wintertooth"
+	"Timberpelt"
+	"Blightweald"
+	"Pricklepine"
+	"Nettleweald"
+	"Stillmaw"
+	"Moldmaw"
+	"Timberwood"
+	"Blightfur"
+	"Thistlepine"
+	"Stillmaw"
+	"Snowmaw"
+	"Deadpelt"
+	"Frostpelt"
+	"Crustlimb"
+	"Thornweald"
+	"Redfang"
+	"Frostlimb"
+	"Rotbarb"
+	"Deadfur"
+	"Gutbite"
+	"Whiskerpine"
+	"Thornclaw"
+	"Blackfall"
+	"Stubblefang"
+	"Winterwood"
+	"Timberfall"
+	"Lumberpaw"
+	"Deadpile"
+	"Gnarlmaw"
+	"Crustpaw"
+	"Thistlebite"
+	"Snarlfur"
+	"Stillweald"
+	"Snowmaw"
+	"Crustmaw"
+	"Nettlefang"
+	"Rottooth"
+	"Nettlefang"
+	"Thornskin"
+	"Moldpine"
+	"Foulmaw"
+	"Foulfall"
+	"Huskpaw"
+	"Bristlebarb"
+	"Flowerpelt"
+	"Blackfur"
+	"Gnarlclaw"
+	"Lumberfur"
+	"Whiskerlimb"
+	"Bristlepaw"
+	"Lumberlimb"
+	"Redpaw"
+	"Moldlimb"
+	"Deadfang"
+	"Snarlfall"
+	"Blightskin"
+	"Lumberfang"
+	"Foulweald"
+	"Bristlelimb"
+	"Bramblewood"
+	"Bristlemaw"
+	"Frostpile"
+	"Bristlefall"
+	"Bramblebarb"
+	"Deadfall"
+	"Nettlepile"
+	"Whiskerfang"
+	"Bristlepine"
+	"Blackbarb"
+	"Redskin"
+	"Stillmaw"
+	"Blightwood"
+	"Thornpaw"
+	"Stubbleclaw"
+	"Bloodtooth"
+	"Snowpile"
+	"Deadlimb"
+	"Deadfall"
+	"Lumberpine"
+	"Thornclaw"
+	"Winterfall"
+	"Gnarlweald"
+	"Timberbite"
+	"Thistletooth"
+	"Redclaw"
+	"Crustpaw"
+	"Barkweald"
+	"Barkskin"
+	"Thistletooth"
+	"Flowermaw"
+	"Thornbarb"
+	"Snarltooth"
+	"Whitepine"
+	"Crustweald"
+	"Rotpine"
+	"Brambleweald"
+	"Thistleweald"
+	"Snarltooth"
+	"Rotpine"
+	"Snowmaw"
+	"Bristleweald"
+	"Gnarltooth"
+	"Foulskin"
+	"Gnarlwood"
+	"Gutfang"
+	"Moldbarb"
+	"Whiskerpile"
+	"Thistletooth"
+	"Thorntooth"
+	"Snowfang"
+	"Stilltooth"
+	"Barkbite"
+	"Barkwood"
+	"Thornskin"
+	"Bramblemaw"
+	"Moldlimb"
+	"Barkpine"
+	"Whiteweald"
+	"Stillwood"
+	"Foulfall"
+	"Whitebarb"
+	"Lumberfang"
+	"Bristlefall"
+	"Blackmaw"
+	"Barkpelt"
+	"Bristlepine"
+	"Stillpaw"
+	"Huskpaw"
+	"Frostbite"
+	"Thornpine"
+	"Gnarllimb"
+	"Crustpine"
+	"Moldweald"
+	"Bramblefang"
+	"Nettlefall"
+	"Blackpaw"
+	"Pricklepelt"
+	"Huskweald"
+	"Bloodmaw"
+	"Thistlebarb"
+	"Pricklepine"
+	"Snowpaw"
+	"Pricklewood"
+	"Timberfall"
+	"Barkpelt"
+	"Whiteweald"
+	"Snarltooth"
+	"Thistlewood"
+	"Winterfall"
+	"Stubbletooth"
+	"Foulfall"
+	"Bramblefang"
+	"Bramblepile"
+	"Stubblelimb"
+	"Bloodbarb"
+	"Whiteclaw"
+	"Moldbarb"
+	"Redfur"
+	"Deadwood"
+	"Snarlpine"
+	"Frostpile"
+	"Bristlefall"
+	"Winterweald"
+	"Lumberwood"
+	"Barkweald"
+	"Blackpile"
+	"Blackweald"
+	"Snowfall"
+	"Winterpine"
+	"Whitemaw"
+	"Bristlelimb"
+	"Rotwood"
+	"Snarlfall"
+	"Blightpile"
+	"Thornweald"
+	"Moldskin"
+	"Whitepine"
+	"Gnarlclaw"
+	"Moldbarb"
+	"Brambleclaw"
+	"Timberlimb"
+	"Snarlmaw"
+	"Blightfang"
+	"Bramblelimb"
+	"Stillbarb"
+	"Timberfur"
+	"Barkclaw"
+	"Guttooth"
+	"Barkpile"
+	"Blightpaw"
+	"Snarlfur"
+	"Moldweald"
+	"Gutclaw"
+	"Stillfang"
+	"Rotpaw"
+	"Moldfang"
+	"Moldpine"
+	"Deadbarb"
+	"Whitemaw"
+	"Bramblepile"
+	"Stillpelt"
+	"Timberwood"
+	"Thornweald"
+	"Moldfang"
+	"Nettlepine"
+	"Blacktooth"
+	"Gutpine"
+	"Whiteweald"
+	"Nettlebite"
+	"Whitelimb"
+	"Bramblewood"
+	"Wintertooth"
+	"Redmaw"
+	"Whiskerfall"
+	"Gutpaw"
+	"Deadbite"
+	"Bloodpaw"
+	"Bramblepine"
+	"Flowerpaw"
+	"Lumberlimb"
+	"Bloodpaw"
+	"Thistlepaw"
+	"Bloodfur"
+	"Flowerweald"
+	"Snowpelt"
+	"Crustlimb"
+	"Snarlpelt"
+	"Huskfall"
+	"Whiteclaw"
+	"Bristlepine"
+	"Lumberweald"
+	"Snowfang"
+	"Rotpine"
+	"Blackmaw"
+	"Frostclaw"
+	"Bloodbarb"
+	"Deadbite"
+	"Bramblewood"
+	"Nettlefang"
+	"Bramblepile"
+	"Blightskin"
+	"Bristlelimb"
+	"Redbarb"
+	"Whitepaw"
+	"Stillweald"
+	"Timberpaw"
+	"Gnarlweald"
+	"Frostfall"
+	"Snowbite"
+	"Husktooth"
+	"Deadskin"
+	"Whiskerclaw"
+	"Thornfall"
+	"Huskskin"
+	"Moldpelt"
+	"Wintermaw"
+	"Flowerfang"
+	"Thistlebite"
+	"Bristlefall"
+	"Stubblebite"
+	"Prickleclaw"
+	"Barkweald"
+	"Thistlemaw"
+	"Moldfall"
+	"Frostmaw"
+	"Timberclaw"
+	"Barkbarb"
+	"Blacklimb"
+	"Crustskin"
+	"Timberbarb"
+	"Foulclaw"
+	"Lumberskin"
+	"Lumberfall"
+	"Blightfang"
+	"Winterpelt"
+	"Bloodpelt"
+	"Gnarlfall"
+	"Bristleweald"
+	"Pricklebite"
+	"Timberpelt"
+	"Whitefur"
+	"Gnarlweald"
+	"Whiskerbite"
+	"Pricklebarb"
+	"Thistletooth"
+	"Bloodfur"
+	"Bramblelimb"
+	"Rotpelt"
+	"Lumberpile"
+	"Flowerclaw"
+	"Blighttooth"
+	"Bloodfall"
+	"Whitemaw"
+	"Winterfang"
+	"Gutpelt"
+	"Whiskerpile"
+	"Flowerweald"
+	"Frostweald"
+	"Snarlwood"
+	"Bramblelimb"
+	"Frostpelt"
+	"Foulfur"
+	"Moldfang"
+	"Crustbarb"
+	"Whitepine"
+	"Thistleclaw"
+	"Whiskerpelt"
+	"Barklimb"
+	"Moldfang"
+	"Whitefang"
+	"Huskbarb"
+	"Frostweald"
+	"Flowerbite"
+	"Huskmaw"
+	"Stubblebite"
+	"Winterpelt"
+	"Nettlewood"
+	"Winterweald"
+	"Thornfall"
+	"Whiskerpaw"
+	"Foulbarb"
+	"Moldtooth"
+	"Gutfur"
+	"Thornpine"
+	"Huskbite"
+	"Bloodpaw"
+	"Deadpelt"
+	"Timberlimb"
+	"Bloodpelt"
+	"Bristlefur"
+	"Barkclaw"
+	"Stilltooth"
+	"Flowerpine"
+	"Nettletooth"
+	"Nettleweald"
+	"Wintertooth"
+	"Blightbite"
+	"Gutskin"
+	"Stillskin"
+	"Crustskin"
+	"Snarlbite"
+	"Rotclaw"
+	"Bramblepaw"
+	"Timberfur"
+	"Blackpaw"
+	"Whiskerpelt"
+	"Blacktooth"
+	"Wintertooth"
+	"Nettlepelt"
+	"Huskpaw"
+	"Stubblebarb"
+	"Redpelt"
+	"Thornskin"
+	"Barkfur"
+	"Bristleweald"
+	"Deadpile"
+	"Whitetooth"
+	"Whiskerbarb"
+	"Moldfang"
+	"Barkfur"
+	"Thistleskin"
+	"Rotskin"
+	"Moldpelt"
+	"Snowfur"
+	"Stubblemaw"
+	"Blackpile"
+	"Redtooth"
+	"Winterfang"
+	"Gutpile"
+	"Bloodfur"
+	"Rotmaw"
+	"Frostmaw"
+	"Snowfang"
+	"Brambleclaw"
+	"Barkpelt"
+	"Barktooth"
+	"Stillweald"
+	"Flowerweald"
+	"Thistleclaw"
+	"Deadfur"
+	"Stillmaw"
+	"Gutwood"
+	"Thistlepine"
+
 }
+
 ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
 }
+
 army_names = {
 	"Army of $PROVINCE$"
 }
+
 fleet_names = {
 	"Fleet of $PROVINCE$"
 }
+

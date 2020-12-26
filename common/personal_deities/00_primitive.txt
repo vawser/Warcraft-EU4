@@ -8,10 +8,10 @@ deity_nath = {
 	infantry_fire = 1
 	
 	allow = { 
-        religion = religion_primitive
+        religion = geomancy
         OR = { 
-			culture_group = culture_group_ogre
-			culture_group = culture_group_orc
+			culture_group = ogre_group
+			culture_group = orc_group
 		}
 	}
 	
@@ -27,8 +27,8 @@ deity_gruul = {
 	artillery_power = 0.10
 	
 	allow = { 
-        religion = religion_primitive
-        culture_group = culture_group_ogre
+        religion = geomancy
+        culture_group = ogre_group
 	}
 	sprite = 21
 	
@@ -42,8 +42,8 @@ deity_borrok = {
 	army_tradition_from_battle = 1
 	
 	allow = { 
-        religion = religion_primitive
-        culture_group = culture_group_ogre
+        religion = geomancy
+        culture_group = ogre_group
 	}
 	sprite = 25
 	
@@ -59,8 +59,8 @@ deity_kartak = {
 	production_efficiency = 0.15
 	
 	allow = { 
-        religion = religion_primitive
-        culture_group = culture_group_wolfvar
+        religion = shamanism
+        culture_group = wolvar_group
 	}
 	sprite = 24
 	
@@ -68,7 +68,7 @@ deity_kartak = {
 		factor = 1
 		modifier = {
 			factor = 2
-			primary_culture = culture_frenzyheart
+			primary_culture = frenzyheart
 		}			
 	}	
 }
@@ -78,8 +78,8 @@ deity_robot = {
 	build_time = -0.3
 	
 	allow = { 
-        religion = religion_primitive
-        culture_group = culture_group_wolfvar
+        religion = shamanism
+        culture_group = wolvar_group
 	}
 	sprite = 17
 	
@@ -104,8 +104,8 @@ deity_shoveltusk = {
 	prestige_decay = -0.01
 	
 	allow = { 
-        religion = religion_primitive
-        culture_group = culture_group_wolfvar
+        religion = shamanism
+        culture_group = wolvar_group
 	}
 	sprite = 18
 	
@@ -130,8 +130,8 @@ deity_proto_drake = {
 	enemy_core_creation = 0.50
 	
 	allow = { 
-        religion = religion_primitive
-        culture_group = culture_group_wolfvar
+        religion = shamanism
+        culture_group = wolvar_group
 	}
 	sprite = 19
 	
@@ -154,8 +154,8 @@ deity_tayutka = {
 	diplomats = 1
 	
     allow = { 
-        religion = religion_primitive
-        culture_group = culture_group_tuskarr
+        religion = shamanism
+        culture_group = tuskarr_group
 	}
 	sprite = 16
 	
@@ -163,7 +163,7 @@ deity_tayutka = {
 		factor = 1
 		modifier = {
 			factor = 2
-			primary_culture = culture_kalu_ak
+			primary_culture = kaluak
 		}			
 	}	
 }
@@ -173,8 +173,8 @@ deity_issliruk = {
 	sunk_ship_morale_hit_recieved = -0.3
 	
     allow = { 
-        religion = religion_primitive
-        culture_group = culture_group_tuskarr
+        religion = shamanism
+        culture_group = tuskarr_group
 	}
 	sprite = 22
 	
@@ -182,7 +182,7 @@ deity_issliruk = {
 		factor = 1
 		modifier = {
 			factor = 2
-			primary_culture = culture_kalu_ak
+			primary_culture = kaluak
 		}			
 	}	
 }
@@ -192,8 +192,8 @@ deity_karkut = {
 	diplomatic_upkeep = 1
 	
     allow = { 
-        religion = religion_primitive
-        culture_group = culture_group_tuskarr
+        religion = shamanism
+        culture_group = tuskarr_group
 	}
 	sprite = 16
 	
@@ -201,7 +201,7 @@ deity_karkut = {
 		factor = 1
 		modifier = {
 			factor = 2
-			primary_culture = culture_kalu_ak
+			primary_culture = kaluak
 		}			
 	}	
 }
@@ -210,8 +210,8 @@ deity_oacha_noa = {
 	colonists = 1
 	
     allow = { 
-        religion = religion_primitive
-        culture_group = culture_group_tuskarr
+        religion = shamanism
+        culture_group = tuskarr_group
 	}
 	sprite = 23
 	
@@ -219,7 +219,7 @@ deity_oacha_noa = {
 		factor = 1
 		modifier = {
 			factor = 2
-			primary_culture = culture_moa_ki
+			primary_culture = moaki
 		}			
 	}	
 }

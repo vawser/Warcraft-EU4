@@ -1,0 +1,68 @@
+technology_group = tech_nerubian
+government = monarchy
+add_government_reform = ancient_kingdom_reform
+government_rank = 8
+primary_culture = azjol_nerub
+religion = yogg_saron
+
+capital = 6313
+
+add_country_modifier = {
+    name = taint_of_evil
+    duration = -1
+}
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Kil'zek"
+        dynasty = "the Shrewd"
+        adm = 2
+        dip = 1
+        mil = 0
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Tiktilak"
+        dynasty = "the Crazed"
+        adm = 4
+        dip = 4
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Korxa"
+        dynasty = "the Virulent"
+        adm = 2
+        dip = 1
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Skeri"
+        dynasty = "the Gutsy"
+        adm = 5
+        dip = 2
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Rik'lok"
+        dynasty = "the Brawny"
+        adm = 5
+        dip = 5
+        mil = 4
+    }
+}

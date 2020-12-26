@@ -1,0 +1,18 @@
+virmen_group = {
+    graphical_culture = virmen_gfx
+    
+    virmen = {  
+        male_names = { 
+            "Argh" "Gushlush" "Brugosh" "Gashgar" "Gnashlak" "Gramlash" "Mogmug" "Oggleosh" "Grawlok" "Revegesh" "Ravelosh" "Murdluk" "Oggleerikk" "Gnesheloc"   "Raveosh" "Gramgash" "Grawgar" "Grambis" "Gruwgesh" "Grumgar" "Mardlak" "Gruwlush" "Gnushmug" "Reveash" "Gnashbis" "Morlok" "Brageloc" "Magloch"   "Grubmig" "Gulgash" "Gruberikk" "Bruglok" "Gnesher" "Galmig" "Grubluk" "Bruger" "Ravegar" "Ogglealoc" "Murdgesh" "Grubbas" "Gnusheloc" "Brugar"   "Murdger" "Bruggash" "Gruwaloc" "Grumeloc" "Grobgash" "Brugeloc" "Moraloc" "Raveer" "Revelak" "Ravegesh" "Ravemog" "Gashosh" "Grummug" "Galgor"   "Gramgosh" "Grubgosh" "Mormog" "Gulosh" "Gramerikk" "Grammog" "Grumbas" "Gashash" "Moger" "Gushlok" "Murdmig" "Morosh" "Moggesh" "Maggash"   "Murdgor" "Gneshlok" "Morderikk" "Bragbas" "Morgash" "Grawlash" "Ogglegosh" "Ogglelok" "Grumash" "Gramloch" "Morlush" "Mardbis" "Grobbas"   "Grumer" "Bruglak" "Gashgash" "Gallash" "Grawar" "Galbas" "Gneshbas" "Gashger" "Guleloc" "Marder" "Gnushgor" "Groblush" "Gnashgar" "Gruwash"   "Grawloch" "Murdmug" "Gashmig" "Mordash" "Gushgesh" "Reveluk" "Oggleeloc" "Gushaloc" "Grublok" 
+        }
+        female_names = { 
+            "Argh" "Gushlush" "Brugosh" "Gashgar" "Gnashlak" "Gramlash" "Mogmug" "Oggleosh" "Grawlok" "Revegesh" "Ravelosh" "Murdluk" "Oggleerikk" "Gnesheloc"   "Raveosh" "Gramgash" "Grawgar" "Grambis" "Gruwgesh" "Grumgar" "Mardlak" "Gruwlush" "Gnushmug" "Reveash" "Gnashbis" "Morlok" "Brageloc" "Magloch"   "Grubmig" "Gulgash" "Gruberikk" "Bruglok" "Gnesher" "Galmig" "Grubluk" "Bruger" "Ravegar" "Ogglealoc" "Murdgesh" "Grubbas" "Gnusheloc" "Brugar"   "Murdger" "Bruggash" "Gruwaloc" "Grumeloc" "Grobgash" "Brugeloc" "Moraloc" "Raveer" "Revelak" "Ravegesh" "Ravemog" "Gashosh" "Grummug" "Galgor"   "Gramgosh" "Grubgosh" "Mormog" "Gulosh" "Gramerikk" "Grammog" "Grumbas" "Gashash" "Moger" "Gushlok" "Murdmig" "Morosh" "Moggesh" "Maggash"   "Murdgor" "Gneshlok" "Morderikk" "Bragbas" "Morgash" "Grawlash" "Ogglegosh" "Ogglelok" "Grumash" "Gramloch" "Morlush" "Mardbis" "Grobbas"   "Grumer" "Bruglak" "Gashgash" "Gallash" "Grawar" "Galbas" "Gneshbas" "Gashger" "Guleloc" "Marder" "Gnushgor" "Groblush" "Gnashgar" "Gruwash"   "Grawloch" "Murdmug" "Gashmig" "Mordash" "Gushgesh" "Reveluk" "Oggleeloc" "Gushaloc" "Grublok" 
+        }
+        dynasty_names = { 
+            "the Bonebreaker" "the Throatslicer" "the Wise" "the Quick" "the Sly" "the Coy" "the Smasher" "the Stabber" "the Gutter" "the Ripper" "the Puncher" "the Kicker" "the Massive" "the Mammoth" "the Monstrous" "the Colossal" "the Gigantic" "the Giant" "the Immense" "the Vast" "the Towering" "the Bulky" "the Lusty" "the Mighty" "the Titanic" "the Potent" "the Powerful" "the Stout" "the Tough" "the Strong" "the Sturdy" "the Stalwart" "the Brawny" "the Hearty" "the Great" "the Almighty" "the Gutsy" "the Punchy" "the Astute" "the Careful" "the Enlightened" "the Perceptive" "the Prudent" "the Sane" "the Shrewd" "the Smart" "the Wary" "the Cunning" "the Keen" "the Sage" "the Sharp" "the Crafty" "the Erudite" "the Witty" "the Sapient" "the Tactful" "the Furious" "the Desperate" "the Fierce" "the Frantic" "the Livid" "the Raging" "the Violent" "the Frenzied" "the Inciter" "the Insane" "the Crazed" "the Maniac" "the Vicious" "the Rabid"
+            "the Delirious" "the Fanatical" "the Fervent" "the Virulent" "the Zealous"
+            "the Astute" "the Educated" "the Ample" "the Judicious"
+        }
+    }
+}
+

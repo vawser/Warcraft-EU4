@@ -30,7 +30,7 @@ country_event = {
 		random_country = {
 			limit = {
 				has_country_flag = unified_dwarf
-				NOT = { tag = A29 }
+				NOT = { tag = IRO }
 			}
 			save_global_event_target_as = dm_claim_helper # The country we will ask for help.
 		}
@@ -200,7 +200,7 @@ country_event = {
 		random_country = {
 			limit = {
 				has_country_flag = unified_dwarf
-				NOT = { tag = A29 }
+				NOT = { tag = IRO }
 			}
 			save_global_event_target_as = th_claim_helper # The country we will ask for help.
 		}
@@ -372,7 +372,7 @@ country_event = {
 		random_country = {
 			limit = {
 				has_country_flag = unified_dwarf
-				NOT = { tag = A29 }
+				NOT = { tag = IRO }
 			}
 			save_global_event_target_as = bs_claim_helper # The country we will ask for help.
 		}

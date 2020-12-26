@@ -1,0 +1,62 @@
+technology_group = tech_magnataur
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = gammoth
+religion = geomancy
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Darnur"
+        dynasty = "Stonetusk"
+        adm = 3
+        dip = 4
+        mil = 4
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Damner"
+        dynasty = "Frostcaller"
+        adm = 1
+        dip = 1
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Gemmpuk"
+        dynasty = "Lightningcaller"
+        adm = 3
+        dip = 1
+        mil = 1
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Grimnar"
+        dynasty = "Palefist"
+        adm = 0
+        dip = 3
+        mil = 4
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Gummnor"
+        dynasty = "Runecut"
+        adm = 5
+        dip = 5
+        mil = 2
+    }
+}

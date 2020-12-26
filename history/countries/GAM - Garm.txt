@@ -1,0 +1,62 @@
+technology_group = tech_magnataur
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = garm
+religion = geomancy
+
+capital = 6540
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Gummlar"
+        dynasty = "Bleakbrand"
+        adm = 1
+        dip = 5
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Gertek"
+        dynasty = "Palegut"
+        adm = 3
+        dip = 5
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Dimner"
+        dynasty = "Frozencut"
+        adm = 4
+        dip = 3
+        mil = 1
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Grammir"
+        dynasty = "Sharpbeard"
+        adm = 3
+        dip = 5
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Tornir"
+        dynasty = "Bronzegut"
+        adm = 4
+        dip = 2
+        mil = 1
+    }
+}

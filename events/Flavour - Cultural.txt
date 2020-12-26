@@ -39,7 +39,6 @@ country_event = {
 	}
 }
 
-# Libert�, Egalit�, Fraternit�
 country_event = {
 	id = wwu_cultural.2
 	title = wwu_cultural.2.title
@@ -55,10 +54,10 @@ country_event = {
 			has_country_modifier = followers_of_jade_serpent
 			has_country_modifier = followers_of_red_crane
 			has_country_modifier = followers_of_white_tiger
-			accepted_culture = culture_black_ox
-			accepted_culture = culture_jade_serpent
-			accepted_culture = culture_red_crane
-			accepted_culture = culture_white_tiger
+			accepted_culture = order_of_niuzao
+			accepted_culture = order_of_yulon
+			accepted_culture = order_of_chiji
+			accepted_culture = order_of_xuen
 		}
 	}
 	
@@ -70,7 +69,7 @@ country_event = {
 		name = wwu_cultural.2.opt1
 		
 		random_owned_province = {
-			change_culture = culture_black_ox
+			change_culture = order_of_niuzao
 		}
 		add_country_modifier = {
 			name = followers_of_black_ox
@@ -81,7 +80,7 @@ country_event = {
 		name = wwu_cultural.2.opt2
 		
 		random_owned_province = {
-			change_culture = culture_jade_serpent
+			change_culture = order_of_yulon
 		}
 		add_country_modifier = {
 			name = followers_of_jade_serpent
@@ -92,7 +91,7 @@ country_event = {
 		name = wwu_cultural.2.opt3
 		
 		random_owned_province = {
-			change_culture = culture_red_crane
+			change_culture = order_of_chiji
 		}
 		add_country_modifier = {
 			name = followers_of_red_crane
@@ -103,7 +102,7 @@ country_event = {
 		name = wwu_cultural.2.opt4
 		
 		random_owned_province = {
-			change_culture = culture_white_tiger
+			change_culture = order_of_xuen
 		}
 		add_country_modifier = {
 			name = followers_of_white_tiger

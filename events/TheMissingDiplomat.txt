@@ -12,7 +12,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = STW
+		tag = SRW
 		current_age = rise_of_the_qiraji
 		NOT = { heir_age = 13 }
 	}
@@ -617,33 +617,14 @@ country_event = {
 		remove_advisor = diplomat_katrana_prestor
 		remove_advisor = statesman_bolvar_fordragon
 		if = {
-			limit = { exists = A99 }
-			A99 = {
-				define_ruler = {
-					name = "Katrana"
-					dynasty = "Prestor"
-					adm = 3
-					dip = 5
-					mil = 4
-					age = 50
-					claim = 35
-					culture = culture_black
-					religion = religion_old_gods
-				}
-				create_union = STW
-			}
-		}
-		else_if = {
 			limit = {
 				any_country = {
-					total_development = STW
-					primary_culture = culture_black
+					total_development = SRW
 				}
 			}
 			random_country = {
 				limit = {
-					total_development = STW
-					primary_culture = culture_black
+					total_development = SRW
 				}
 				define_ruler = {
 					name = "Katrana"
@@ -653,10 +634,9 @@ country_event = {
 					mil = 4
 					age = 50
 					claim = 35
-					culture = culture_black
-					religion = religion_old_gods
+					religion = cthun
 				}
-				create_union = STW
+				create_union = SRW
 			}
 		}
 		else = {
@@ -668,14 +648,12 @@ country_event = {
 				mil = 4
 				age = 50
 				claim = 35
-				culture = culture_black
-				religion = religion_old_gods
+				religion = cthun
 			}
-			create_union = STW
+			create_union = SRW
 		}
 		capital_scope = {
-			change_culture = culture_black
-			change_religion = religion_old_gods
+			change_religion = cthun
 		}
 		clr_country_flag = the_missing_diplomat
 	}

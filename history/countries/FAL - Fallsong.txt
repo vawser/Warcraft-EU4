@@ -1,0 +1,62 @@
+technology_group = tech_jinyu
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = fallsong
+religion = celestials
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Gushus"
+        dynasty = "the Hearty"
+        adm = 4
+        dip = 3
+        mil = 0
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Ashri"
+        dynasty = "the Desperate"
+        adm = 4
+        dip = 4
+        mil = 4
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Shus'huss"
+        dynasty = "the Stabber"
+        adm = 5
+        dip = 4
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Ashhu"
+        dynasty = "the Desperate"
+        adm = 4
+        dip = 2
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Yoress"
+        dynasty = "the Insane"
+        adm = 3
+        dip = 2
+        mil = 0
+    }
+}

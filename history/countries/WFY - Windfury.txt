@@ -1,0 +1,62 @@
+technology_group = tech_harpy
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = windfury
+religion = wind
+
+capital = 5465
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Rugidri"
+        dynasty = "Moonshriek"
+        adm = 1
+        dip = 2
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Ygno"
+        dynasty = "Sparkplume"
+        adm = 2
+        dip = 1
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Alreoh"
+        dynasty = "Twistwail"
+        adm = 4
+        dip = 5
+        mil = 2
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Ynka"
+        dynasty = "Spitescream"
+        adm = 0
+        dip = 5
+        mil = 1
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Handi"
+        dynasty = "Owlwing"
+        adm = 4
+        dip = 5
+        mil = 1
+    }
+}

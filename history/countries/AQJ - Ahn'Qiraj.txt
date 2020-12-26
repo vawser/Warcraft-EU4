@@ -1,0 +1,68 @@
+technology_group = tech_qiraji
+government = monarchy
+add_government_reform = ancient_kingdom_reform
+government_rank = 10
+primary_culture = ahn_qiraj
+religion = cthun
+
+capital = 5005
+
+add_country_modifier = {
+    name = taint_of_evil
+    duration = -1
+}
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Rixa"
+        dynasty = "the Immense"
+        adm = 5
+        dip = 2
+        mil = 4
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Ikkuk"
+        dynasty = "the Smart"
+        adm = 4
+        dip = 3
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Kazkor"
+        dynasty = "the Coy"
+        adm = 2
+        dip = 0
+        mil = 2
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Xa'kuk"
+        dynasty = "the Bonebreaker"
+        adm = 0
+        dip = 2
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Valakkaz"
+        dynasty = "the Witty"
+        adm = 1
+        dip = 1
+        mil = 3
+    }
+}

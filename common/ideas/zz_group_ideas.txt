@@ -12,7 +12,7 @@ worgen_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_worgen
+		always = no
 	}
 	free = yes		
 	
@@ -44,7 +44,7 @@ pandaren_ideas = {
 	free = yes		
 	
 	trigger = {
-		culture_group = culture_group_pandaren
+		culture_group = pandaren_group
 	}
 	
 	start = {
@@ -82,7 +82,7 @@ wildhammer_ideas = {
 	free = yes		
 	
 	trigger = {
-		primary_culture = culture_wildhammer
+		primary_culture = wildhammer
 	}
 	
 	start = {
@@ -124,7 +124,7 @@ dark_iron_ideas = {
 	free = yes		
 	
 	trigger = {
-		primary_culture = culture_dark_iron
+		primary_culture = dark_iron
 	}
 	
 	start = {
@@ -163,7 +163,7 @@ forest_nymph_ideas = {
 	free = yes		
 	
 	trigger = {
-		culture_group = culture_group_dryad
+		culture_group = dryad_group
 	}
 	
 	start = {
@@ -203,7 +203,7 @@ scourge_ideas = {
 	free = yes		
 	
 	trigger = {
-		primary_culture = culture_scourge
+		primary_culture = scourge
 	}
 	
 	start = {
@@ -250,10 +250,7 @@ azerothian_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			primary_culture = culture_azerothian
-			primary_culture = culture_azerothian_worgen
-		}
+		culture_group = azerothian_group
 	}
 	free = yes		
 	
@@ -295,7 +292,7 @@ depths_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_murloc
+		culture_group = murloc_group
 	}
 	free = yes		
 	
@@ -338,10 +335,7 @@ gilnean_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			primary_culture = culture_gilnean
-			primary_culture = culture_gilnean_worgen
-		}
+		culture_group = gilnean_group
 	}
 	free = yes		
 	
@@ -381,10 +375,7 @@ arathi_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			primary_culture = culture_arathi
-			primary_culture = culture_arathi_worgen
-		}
+		culture_group = arathi_group
 	}
 	free = yes		
 	
@@ -422,10 +413,7 @@ lordaeron_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			primary_culture = culture_lordaeron
-			primary_culture = culture_lordaeron_worgen
-		}
+		culture_group = lordaeron_group
 	}
 	free = yes		
 	
@@ -471,10 +459,7 @@ alterac_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			primary_culture = culture_alterac
-			primary_culture = culture_alterac_worgen
-		}
+		culture_group = alteraci_group
 	}
 	free = yes		
 	
@@ -512,10 +497,7 @@ dalaran_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			primary_culture = culture_dalaran
-			primary_culture = culture_dalaran_worgen
-		}
+		primary_culture = dalaran
 	}
 	free = yes		
 	
@@ -553,10 +535,7 @@ kul_tiran_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			primary_culture = culture_kul_tiran
-			primary_culture = culture_kul_tiran_worgen
-		}
+		culture_group = kul_tiran_group
 	}
 	free = yes		
 	
@@ -591,14 +570,11 @@ darnassian_ideas = {
 	}
 
 	bonus = {
-		manpower_in_true_faith_provinces= 0.1
+		manpower_in_true_faith_provinces = 0.1
     }
     
 	trigger = {
-		OR = {
-			primary_culture = culture_sentinel
-			primary_culture = culture_cenarion
-		}
+		culture_group = night_elf_group
 	}
 	free = yes		
 	 
@@ -636,54 +612,6 @@ darnassian_ideas = {
     }
 }
 
-#realized halfway through that there are no highbourne in Eldre'Thalas/Dire Maul so I don’t really know where to go with on these and left their names blank
-highbourne_ideas = {
-	start = {
-		legitimacy = 1
-		republican_tradition = 1
-		devotion = 1
-	}
-
-	bonus = {
-		all_power_cost = -0.1
-	}
-	
-	trigger = {
-		primary_culture = culture_highbourne
-	}
-	free = yes		
-	
-	
-	highbourne_ideas_1 = {
-		development_cost = -0.25
-	}
-	
-	highbourne_ideas_2 = {
-		idea_cost = -0.05
-	}
-	
-	highbourne_ideas_3 = {
-		technology_cost = -0.05
-	}
-	
-	highbourne_ideas_4 = {
-		stability_cost_modifier = -0.2
-	}
-	
-	highbourne_ideas_5 = {
-		defensiveness = 0.1
-	}
-	
-	highbourne_ideas_6 = {
-		diplomats = 1
-		improve_relation_modifier = 0.1
-	}
-	
-	highbourne_ideas_7 = {
-		prestige_decay = -0.02
-	}
-}
-
 vrykul_ideas = {
 	start = {
 		production_efficiency = 0.1
@@ -695,7 +623,7 @@ vrykul_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_vrykul
+		culture_group = vrykul_group
 	}
 	free = yes		
 	
@@ -746,7 +674,7 @@ orc_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_orc
+		culture_group = orc_group
 	}
 	free = yes		
 	
@@ -784,7 +712,7 @@ ogre_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_ogre
+		culture_group = ogre_group
 	}
 	free = yes		
 	
@@ -829,7 +757,7 @@ draenei_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_draenei
+		culture_group = draenei_group
 	}
 	free = yes		
 	
@@ -877,7 +805,7 @@ forest_troll_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_forest_troll
+		culture_group = forest_troll_group
 	}
 	free = yes		
 	
@@ -920,7 +848,7 @@ jungle_troll_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_jungle_troll
+		culture_group = jungle_troll_group
 	}
 	free = yes		
 	
@@ -965,7 +893,7 @@ ice_troll_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_ice_troll
+		culture_group = frost_troll_group
 	}
 	free = yes		
 	
@@ -1004,7 +932,7 @@ goblin_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_goblin
+		culture_group = goblin_group
 	}
 	free = yes		
 	
@@ -1063,7 +991,10 @@ tauren_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_tauren
+        OR = {
+            culture_group = kalimdor_tauren_group
+            culture_group = highmountain_tauren_group
+        }
 	}
 	free = yes		
 	
@@ -1103,10 +1034,10 @@ thalassian_ideas = {
 	
 	trigger = {
 		OR = {
-			primary_culture = culture_high_elf
-			primary_culture = culture_wretched
-			primary_culture = felblood_elf
-		}
+            culture_group = high_elf_group
+            culture_group = blood_elf_group
+            culture_group = void_elf_group
+        }
 	}
 	free = yes		
 	
@@ -1146,7 +1077,7 @@ aqir_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_aqir
+		culture_group = qiraji_group
 	}
 	free = yes		
 	
@@ -1200,7 +1131,7 @@ satyr_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_satyr
+		culture_group = satyr_group
 	}
 	free = yes		
 	
@@ -1229,7 +1160,6 @@ satyr_ideas = {
 	}
 }
 
-# Suggested by Ace
 dragonkin_ideas = {
 	start = {
 		discipline = 0.05
@@ -1241,7 +1171,7 @@ dragonkin_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_dragonkin
+		is_dragon_culture_group = yes
 	}
 	free = yes		
 	
@@ -1281,53 +1211,6 @@ dragonkin_ideas = {
 	}
 }
 
-# Walesness’ dragon ideas not sure which one you guys prefer and I don’t feel #confident enough to change on my own so I will comment this out for now
-#dragonkin_ideas = {
-#	start = {
-#		global_manpower_modifier = -0.25
-#		manpower_recovery_speed = -0.5
-#		land_forcelimit_modifier = -0.5
-#		discipline = 0.25
-#	}
-#
-#	bonus = {
-#		leader_land_shock = 1
-#	}
-#	
-#	trigger = {
-#		OR = {
-#			culture_group = culture_group_dragonkin
-#		}
-#	}
-#	free = yes		#wibe added at load.
-#	
-#	fearless_warriors = {
-#		land_morale = 0.10
-#	}
-#	chosen_by_the_titans = {
-#		legitimacy = 1
-#		republican_tradition = 1
-#		horde_unity = 1
-#		meritocracy = 1
-#		legitimacy = 1
-#	}
-#	masters_of_the_sky = {
-#		cavalry_power = 0.15
-#	}
-#	defenders_of_azeroth = {
-#		defensiveness = 0.1
-#	}
-#	rulers_of_the_dragonkin = {
-#		infantry_power = 0.15
-#	}
-#	with_time_comes_experience = {
-#		advisor_pool = 1
-#	}
-#	use_the_skies_to_our_advantage = {
-#		leader_land_fire = 1
-#	}
-#}
-
 gnoll_ideas = {
 	start = {
 		fabricate_claims_cost = -0.25
@@ -1339,7 +1222,7 @@ gnoll_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_gnoll
+		culture_group = gnoll_group
 	}
 	free = yes		
 	
@@ -1387,7 +1270,7 @@ centaur_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_centaur
+		culture_group = centaur_group
 	}
 	free = yes		
 	
@@ -1425,7 +1308,7 @@ furbolg_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_furbolg
+		culture_group = furbolg_group
 	}
 	free = yes		
 	
@@ -1475,7 +1358,7 @@ harpy_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_harpy
+		culture_group = harpy_group
 	}
 	free = yes		
 	
@@ -1521,11 +1404,7 @@ dwarven_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-			primary_culture = culture_ironforge
-			primary_culture = culture_iron
-			primary_culture = culture_frostborn
-		}
+		culture_group = dwarf_group
 	}
 	free = yes		
 	
@@ -1564,7 +1443,7 @@ tuskarr_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_tuskarr
+		culture_group = tuskarr_group
 	}
 	free = yes		
 	
@@ -1609,7 +1488,7 @@ gnomish_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_gnomish
+		culture_group = gnome_group
 	}
 	free = yes		
 	
@@ -1649,7 +1528,7 @@ human_ideas = {
 	free = yes		
 	
 	trigger = {
-		culture_group = culture_group_human
+		is_human_culture_group = yes
 	}
 	
 	start = {
@@ -1689,7 +1568,7 @@ zandalari_ideas = {
 	free = yes		
 	
 	trigger = {
-		culture_group = culture_group_zandalar_troll
+		culture_group = zandalari_troll_group
 	}
 	
 	start = {
@@ -1728,7 +1607,7 @@ mantid_ideas = {
 	free = yes		
 	
 	trigger = {
-		culture_group = culture_group_mantid
+		culture_group = mantid_group
 	}
 	
 	start = {
@@ -1767,7 +1646,7 @@ yaungol_ideas = {
 	free = yes		
 	
 	trigger = {
-		culture_group = culture_group_yaungol
+		culture_group = yaungol_group
 	}
 	
 	start = {
@@ -1805,49 +1684,49 @@ yaungol_ideas = {
 	}
 }
 
-air_ideas = {
-	free = yes		
+# air_ideas = {
+	# free = yes		
 	
-	trigger = {
-		culture_group = culture_group_air
-	}
+	# trigger = {
+		# culture_group = culture_group_air
+	# }
 	
-	start = {
-		shock_damage = 0.2
-		movement_speed = 0.1
-	}
-	bonus = {
-		siege_ability = 0.1
-	}
+	# start = {
+		# shock_damage = 0.2
+		# movement_speed = 0.1
+	# }
+	# bonus = {
+		# siege_ability = 0.1
+	# }
 	
-	air_ideas_1 = { # Forts In High Clouds
-		defensiveness = 0.3
-	}
-	air_ideas_2 = { # Storming The Seas
-		global_naval_engagement_modifier = 0.2
-	}
-	air_ideas_3 = { # Planeswalking
-		range = 0.5
-	}
-	air_ideas_4 = { # Trade "Winds"
-		trade_steering = 0.2
-	}
-	air_ideas_5 = { # Living in Mortal World
-		promote_culture_cost = -0.25
-	}
-	air_ideas_6 = { # Storming The Castles
-		artillery_shock = 1
-	}
-	air_ideas_7 = { # Ancient Allies
-		diplomatic_reputation = 1
-	}
-}
+	# air_ideas_1 = { # Forts In High Clouds
+		# defensiveness = 0.3
+	# }
+	# air_ideas_2 = { # Storming The Seas
+		# global_naval_engagement_modifier = 0.2
+	# }
+	# air_ideas_3 = { # Planeswalking
+		# range = 0.5
+	# }
+	# air_ideas_4 = { # Trade "Winds"
+		# trade_steering = 0.2
+	# }
+	# air_ideas_5 = { # Living in Mortal World
+		# promote_culture_cost = -0.25
+	# }
+	# air_ideas_6 = { # Storming The Castles
+		# artillery_shock = 1
+	# }
+	# air_ideas_7 = { # Ancient Allies
+		# diplomatic_reputation = 1
+	# }
+# }
 
 naga_ideas = {
 	free = yes		
 	
 	trigger = {
-		culture_group = culture_group_naga
+		culture_group = naga_group
 	}
 	
 	start = {
@@ -1899,7 +1778,7 @@ demonic_ideas = {
 	}
 	
 	trigger = {
-		culture_group = culture_group_demonic
+		culture_group = demon_group
 	}
 	free = yes		
 	

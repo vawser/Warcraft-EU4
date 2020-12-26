@@ -33,8 +33,8 @@ gov_despotic_kingdom_undead = {
 	trigger = {
         has_reform = autocracy_reform
         OR = {
-            culture_group = culture_group_undead
-            culture_group = culture_group_scourge
+            culture_group = undead_group
+            culture_group = scourge_group
 		}
 	}
 }
@@ -108,8 +108,8 @@ gov_feudal_kingdom_undead = {
 	trigger = {
         has_reform = feudalism_reform
         OR = {
-            culture_group = culture_group_undead
-            culture_group = culture_group_scourge
+            culture_group = undead_group
+            culture_group = scourge_group
 		}
 	}
 }
@@ -170,7 +170,7 @@ gov_ancient_kingdom_titan = {
 	
 	trigger = {
         has_reform = ancient_kingdom_reform
-        culture_group = culture_group_titan
+        culture_group = titan_group
 	}
 }
 gov_ancient_kingdom_bug = {
@@ -230,7 +230,7 @@ gov_hereditary_monarchy_regency = {
 	
 	trigger = {
         has_reform = wwu_hereditary_rule_reform
-        has_wrong_dynasty = yes
+        has_regency = yes
 	}
 }
 

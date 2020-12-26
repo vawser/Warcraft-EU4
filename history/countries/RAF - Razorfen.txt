@@ -1,0 +1,62 @@
+technology_group = tech_quillboar
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = razorfen
+religion = shamanism
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Helrak"
+        dynasty = "Saberhide"
+        adm = 5
+        dip = 4
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Nakgog"
+        dynasty = "Razorspine"
+        adm = 2
+        dip = 0
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Gekkruk"
+        dynasty = "Mangleflank"
+        adm = 0
+        dip = 5
+        mil = 4
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Hogge"
+        dynasty = "Orcjaw"
+        adm = 0
+        dip = 1
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Hoknug"
+        dynasty = "Swordspine"
+        adm = 5
+        dip = 0
+        mil = 0
+    }
+}

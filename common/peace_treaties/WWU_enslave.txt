@@ -34,6 +34,10 @@ po_enslave = {
 			subject_type = enslavement
 		}
 		custom_tooltip = EVIL_ACTION_TOOLTIP
+        add_country_modifier = {
+            name = taint_of_evil
+            duration = -1
+        }
 	}
 	ai_weight = {
 		export_to_variable = {

@@ -1,0 +1,255 @@
+graphical_culture = dryad_gfx
+
+color = { 37 166 171 }
+
+monarch_names = {
+	"Tira #0" = 20
+	"Naenthiphi #0" = 20
+	"Thasannal #0" = 20
+	"Femalillu #0" = 20
+	"Divrinne #0" = 20
+	"Ima #0" = 20
+	"Hevralan #0" = 20
+	"Seyildre #0" = 20
+	"Idriye #0" = 20
+	"Shilnad #0" = 20
+	"Mennivi #0" = 20
+	"Salgrisa #0" = 20
+	"Sidriphus #0" = 20
+	"Tayed #0" = 20
+	"Hired #0" = 20
+	"Sandinar #0" = 20
+	"Rinnilele #0" = 20
+	"Issenar #0" = 20
+	"Manthevu #0" = 20
+	"Aza #0" = 20
+	"Ranalne #0" = 20
+	"Annith #0" = 20
+	"Faezani #0" = 20
+	"Cisildrenne #0" = 20
+	"Dezendrinath #0" = 20
+	"Myphildralas #0" = 20
+	"Thandrad #0" = 20
+	"Ceamiyud #0" = 20
+	"Candrin #0" = 20
+	"Femudreth #0" = 20
+	"Sandimu #0" = 20
+	"Thelgrireph #0" = 20
+	"Missu #0" = 20
+	"Shaedrale #0" = 20
+	"Maedri #0" = 20
+	"Tilnazi #0" = 20
+	"Tivriya #0" = 20
+	"Malnive #0" = 20
+	"Fephaza #0" = 20
+	"Ysannessur #0" = 20
+	"Cyssalli #0" = 20
+	"Meaphanthazer #0" = 20
+	"Aressa #0" = 20
+	"Innezinel #0" = 20
+	"Ima #0" = 20
+	"Meleye #0" = 20
+	"Ravrunned #0" = 20
+	"Kileph #0" = 20
+	"Lendripha #0" = 20
+	"Cessir #0" = 20
+	"Saeruvrith #0" = 20
+	"Nelandi #0" = 20
+	"Thaemirenna #0" = 20
+	"Imize #0" = 20
+	"Aveze #0" = 20
+	"Haevevrera #0" = 20
+	"Eldrille #0" = 20
+	"Rave #0" = 20
+	"Laphivi #0" = 20
+	"Raendavi #0" = 20
+	"Tira #0" = -20
+	"Naenthiphi #0" = -20
+	"Thasannal #0" = -20
+	"Femalillu #0" = -20
+	"Divrinne #0" = -20
+	"Ima #0" = -20
+	"Hevralan #0" = -20
+	"Seyildre #0" = -20
+	"Idriye #0" = -20
+	"Shilnad #0" = -20
+	"Mennivi #0" = -20
+	"Salgrisa #0" = -20
+	"Sidriphus #0" = -20
+	"Tayed #0" = -20
+	"Hired #0" = -20
+	"Sandinar #0" = -20
+	"Rinnilele #0" = -20
+	"Issenar #0" = -20
+	"Manthevu #0" = -20
+	"Aza #0" = -20
+	"Ranalne #0" = -20
+	"Annith #0" = -20
+	"Faezani #0" = -20
+	"Cisildrenne #0" = -20
+	"Dezendrinath #0" = -20
+	"Myphildralas #0" = -20
+	"Thandrad #0" = -20
+	"Ceamiyud #0" = -20
+	"Candrin #0" = -20
+	"Femudreth #0" = -20
+	"Sandimu #0" = -20
+	"Thelgrireph #0" = -20
+	"Missu #0" = -20
+	"Shaedrale #0" = -20
+	"Maedri #0" = -20
+	"Tilnazi #0" = -20
+	"Tivriya #0" = -20
+	"Malnive #0" = -20
+	"Fephaza #0" = -20
+	"Ysannessur #0" = -20
+	"Cyssalli #0" = -20
+	"Meaphanthazer #0" = -20
+	"Aressa #0" = -20
+	"Innezinel #0" = -20
+	"Ima #0" = -20
+	"Meleye #0" = -20
+	"Ravrunned #0" = -20
+	"Kileph #0" = -20
+	"Lendripha #0" = -20
+	"Cessir #0" = -20
+	"Saeruvrith #0" = -20
+	"Nelandi #0" = -20
+	"Thaemirenna #0" = -20
+	"Imize #0" = -20
+	"Aveze #0" = -20
+	"Haevevrera #0" = -20
+	"Eldrille #0" = -20
+	"Rave #0" = -20
+	"Laphivi #0" = -20
+	"Raendavi #0" = -20
+
+}
+
+leader_names = {
+	"Whisperwind"
+	"Stormrage"
+	"Staghelm"
+	"Feathermoon"
+	"Shadowsong"
+	"Ravencrest"
+	"Stareye"
+	"Sunstrider"
+	"Bearmantle"
+	"Rainshadow"
+	"Seashade"
+	"Feathershadow"
+	"Woodfeather"
+	"Evenstrike"
+	"Evencloud"
+	"Leafstrike"
+	"Shademight"
+	"Misteye"
+	"Skygazer"
+	"Seawing"
+	"Stonetree"
+	"Spiritbow"
+	"Summerspear"
+	"Duskspirit"
+	"Fogbough"
+	"Voidforest"
+	"Wintercaller"
+	"Mistsky"
+	"Stormwalker"
+	"Farshade"
+	"Wildwind"
+	"Farsinger"
+	"Thunderbough"
+	"Voidbow"
+	"Windcloud"
+	"Forestmoon"
+	"Amberflower"
+	"Evenstriker"
+	"Truestar"
+	"Evenwater"
+	"Nightwatcher"
+	"Windhelm"
+	"Autumnstar"
+	"Forestspirit"
+	"Silverblade"
+	"Skywater"
+	"Oceanwhisper"
+	"Darkcloud"
+	"Silentswift"
+	"Swiftwhisper"
+	"Lunaspyre"
+	"Nightsnow"
+	"Mossoak"
+	"Woodweaver"
+	"Evenoak"
+	"Lightgazer"
+	"Rapidarrow"
+	"Truefeather"
+	"Strongfeather"
+	"Evenclouds"
+	"Swiftswift"
+	"Treestalker"
+	"Ravengazer"
+	"Rapidstriker"
+	"Wintershot"
+	"Stormwater"
+	"Shadowmight"
+	"Oceanstar"
+	"Skystrike"
+	"Shieldgazer"
+	"Rainfire"
+	"Thundershadow"
+	"Dawnleaf"
+	"Voiddancer"
+	"Evenmight"
+	"Searunner"
+	"Sunarrow"
+	"Windwatcher"
+	"Shadearrow"
+	"Winterleaf"
+	"Silverforest"
+	"Mistbranch"
+	"Trueblower"
+	"Swiftbough"
+	"Bladeswift"
+	"Mistgrove"
+	"Ambershot"
+	"Truelance"
+	"Ravenrunner"
+	"Greensinger"
+	"Stormoak"
+	"Farstriker"
+	"Forestwalker"
+	"Moondew"
+	"Darklance"
+	"Stonescribe"
+	"Thunderflower"
+	"Blueshade"
+	"Bladespirit"
+	"Mistclouds"
+	"Seasword"
+	"Moonsnow"
+	"Bladebranch"
+	"Dewcloud"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+

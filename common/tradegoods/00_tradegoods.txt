@@ -958,7 +958,7 @@ crypts = {
 		factor = 10
 		modifier = {
 			factor = 2
-			culture_group = culture_group_undead
+			culture_group = undead_group
 		}
 	}
 }
@@ -1150,7 +1150,7 @@ moonwell = {
 		modifier = {
 			factor = 0
 			owner = {
-				NOT = { culture_group = culture_group_darnassian }
+				NOT = { culture_group = night_elf_group }
 			}
 		}
 		

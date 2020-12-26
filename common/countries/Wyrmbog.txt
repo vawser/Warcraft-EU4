@@ -1,0 +1,176 @@
+graphical_culture = black_dragonflight_gfx
+
+color = { 232 132 65 }
+
+monarch_names = {
+	"Unsylion #0" = 20
+	"Sitririan #0" = 20
+	"Ydririan #0" = 20
+	"Sozyrrion #0" = 20
+	"Hibidian #0" = 20
+	"Hizesion #0" = 20
+	"Halvadian #0" = 20
+	"Neltision #0" = 20
+	"Miganion #0" = 20
+	"Hylvydion #0" = 20
+	"Myzellian #0" = 20
+	"Lyrtazion #0" = 20
+	"Hiridion #0" = 20
+	"Mebyrres #0" = 20
+	"Etrades #0" = 20
+	"Lidrasian #0" = 20
+	"Zegission #0" = 20
+	"Zegterar #0" = 20
+	"Migtirion #0" = 20
+	"Nutridion #0" = 20
+	"Velvines #0" = 20
+	"Hanserian #0" = 20
+	"Ahision #0" = 20
+	"Nyrtession #0" = 20
+	"Uranian #0" = 20
+	"Sinserrian #0" = 20
+	"Efemian #0" = 20
+	"Adision #0" = 20
+	"Vilvarian #0" = 20
+	"Emadian #0" = 20
+	"Nygemian #0" = 20
+	"Ydrizian #0" = 20
+	"Zeltenian #0" = 20
+	"Mirellion #0" = 20
+	"Ynsyrrion #0" = 20
+	"Vigtedian #0" = 20
+	"Yrtyvion #0" = 20
+	"Seravion #0" = 20
+	"Ehasian #0" = 20
+	"Lafamion #0" = 20
+	"Mathraxa #0" = -20
+	"Rysrontra #0" = -20
+	"Mothirra #0" = -20
+	"Revsyntria #0" = -20
+	"Syrtody #0" = -20
+	"Hertora #0" = -20
+	"Sivreda #0" = -20
+	"Serticsy #0" = -20
+	"Loxedria #0" = -20
+	"Felyndrya #0" = -20
+	"Mestidya #0" = -20
+	"Yrtilra #0" = -20
+	"Enthontria #0" = -20
+	"Seldixa #0" = -20
+	"Hisronria #0" = -20
+	"Zovsyrry #0" = -20
+	"Lavsistry #0" = -20
+	"Hividria #0" = -20
+	"Fovrirria #0" = -20
+	"Fonendria #0" = -20
+	"Ynthagrya #0" = -20
+	"Molixa #0" = -20
+	"Zyxrelry #0" = -20
+	"Ixradia #0" = -20
+	"Falostra #0" = -20
+	"Athrilra #0" = -20
+	"Hosricia #0" = -20
+	"Fovsastria #0" = -20
+	"Hysrantra #0" = -20
+	"Ethakra #0" = -20
+	"Revsalra #0" = -20
+	"Ralderre #0" = -20
+	"Laxosry #0" = -20
+	"Fovsykria #0" = -20
+	"Onere #0" = -20
+	"Zanendria #0" = -20
+	"Ryvestra #0" = -20
+	"Ivostia #0" = -20
+	"Sastradia #0" = -20
+
+}
+
+leader_names = {
+	"the Wise"
+	"the Quick"
+	"the Sly"
+	"the Coy"
+	"the Giant"
+	"the Immense"
+	"the Vast"
+	"the Towering"
+	"the Bulky"
+	"the Lusty"
+	"the Mighty"
+	"the Titanic"
+	"the Potent"
+	"the Powerful"
+	"the Stout"
+	"the Tough"
+	"the Strong"
+	"the Sturdy"
+	"the Stalwart"
+	"the Brawny"
+	"the Hearty"
+	"the Great"
+	"the Almighty"
+	"the Gutsy"
+	"the Punchy"
+	"the Astute"
+	"the Careful"
+	"the Enlightened"
+	"the Perceptive"
+	"the Prudent"
+	"the Sane"
+	"the Shrewd"
+	"the Smart"
+	"the Wary"
+	"the Cunning"
+	"the Keen"
+	"the Sage"
+	"the Sharp"
+	"the Crafty"
+	"the Erudite"
+	"the Witty"
+	"the Sapient"
+	"the Tactful"
+	"the Furious"
+	"the Desperate"
+	"the Fierce"
+	"the Frantic"
+	"the Livid"
+	"the Raging"
+	"the Violent"
+	"the Frenzied"
+	"the Inciter"
+	"the Insane"
+	"the Crazed"
+	"the Maniac"
+	"the Vicious"
+	"the Rabid"
+	"the Delirious"
+	"the Fanatical"
+	"the Fervent"
+	"the Virulent"
+	"the Zealous"
+	"the Astute"
+	"the Educated"
+	"the Ample"
+	"the Judicious"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+

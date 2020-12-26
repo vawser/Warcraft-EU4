@@ -1,0 +1,32 @@
+technology_group = tech_human
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+primary_culture = tol_barad
+religion = the_holy_light
+
+capital = 3626
+
+# The First War
+592.1.1 = {
+    monarch = { 
+		name = "Reginald I" 
+		dynasty = "Baradin" 
+		adm = 3
+		dip = 2
+		mil = 5 
+ 	}  
+}
+
+# Second War
+596.1.1 = {
+    monarch = { 
+		name = "Reginald II" 
+		dynasty = "Baradin" 
+		adm = 4
+		dip = 3
+		mil = 3 
+ 	} 
+	add_accepted_culture = kul_tiras
+}
+

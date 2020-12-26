@@ -1,0 +1,20 @@
+technology_group = tech_night_elf
+government = theocracy
+add_government_reform = druidic_circle_reform
+government_rank = 4
+primary_culture = valsharah
+religion = elune
+
+capital = 3668
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Elucendri"
+        dynasty = "Skywater"
+        adm = 3
+        dip = 3
+        mil = 1
+        female = yes
+    }
+}

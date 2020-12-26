@@ -1,0 +1,62 @@
+technology_group = tech_spriteling
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = darkwood
+religion = druidism
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Rosflaiarc"
+        dynasty = "the Kicker"
+        adm = 2
+        dip = 1
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Rostoscas"
+        dynasty = "the Massive"
+        adm = 2
+        dip = 0
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Cliaxis"
+        dynasty = "the Smart"
+        adm = 4
+        dip = 5
+        mil = 1
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Checycsum"
+        dynasty = "the Potent"
+        adm = 4
+        dip = 4
+        mil = 0
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Ragtralluc"
+        dynasty = "the Crafty"
+        adm = 3
+        dip = 0
+        mil = 5
+    }
+}

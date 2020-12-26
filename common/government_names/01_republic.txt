@@ -20,7 +20,7 @@ gov_merchant_republic_vulpera = {
 	
 	trigger = {
         has_reform = mercantile_republic_reform
-        culture_group = culture_group_vulpera
+        culture_group = vulpera_group
 	}
 }
 gov_merchant_republic_goblin = {
@@ -44,7 +44,7 @@ gov_merchant_republic_goblin = {
 	
 	trigger = {
         has_reform = mercantile_republic_reform
-        culture_group = culture_group_goblin
+        culture_group = goblin_group
 	}
 }
 gov_ancient_republic_titan = {
@@ -68,7 +68,7 @@ gov_ancient_republic_titan = {
 	
 	trigger = {
         has_reform = ancient_republic_reform
-        culture_group = culture_group_titan
+        culture_group = titan_group
 	}
 }
 gov_tinker_republic_gnome = {
@@ -92,7 +92,7 @@ gov_tinker_republic_gnome = {
 	
 	trigger = {
         has_reform = tinker_republic_reform
-        culture_group = culture_group_gnomish
+        culture_group = gnome_group
 	}
 }
 

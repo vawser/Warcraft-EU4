@@ -1,11 +1,11 @@
 NDefines = {
 
 NGame = {
-	START_DATE = "546.11.11",
-	END_DATE = "1399.1.2",
-	MAX_RANDOM_NEW_WORLD = "546.1.1",
+	START_DATE = "592.1.1",
+	END_DATE = "2000.1.2",
+	MAX_RANDOM_NEW_WORLD = "592.1.1",
 
-	GREAT_POWER_FRENZY_START = "1300.1.1",	-- Latest date for the start of the Great Power Frenzy (struggle).
+	GREAT_POWER_FRENZY_START = "800.1.1",	-- Latest date for the start of the Great Power Frenzy (struggle).
 	GREAT_POWER_FRENZY_WARMUP_MONTHS = 1200,	-- How many months does it take for the Great Power Frenzy to reach full potency after starting.
 	GREAT_POWER_FRENZY_QUICKSTART = 1,		-- Can the Great Power Frenzy start early due to one alliance block becoming too powerful?
 

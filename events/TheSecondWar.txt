@@ -20,7 +20,6 @@ country_event = {
 		NOT = { has_country_flag = tsw_ending_notified }
 		current_age = the_second_war
 		NOT = { has_global_flag = tfw_human_victory_path }
-		# MAP #1586 = { owned_by = Z99 }
 	}
 	
     mean_time_to_happen = {
@@ -59,7 +58,7 @@ country_event = {
 		NOT = { has_country_flag = tsw_ending_notified }
 		current_age = the_second_war
 		NOT = { has_global_flag = tfw_human_victory_path }
-		# MAP #543 = { owner = { culture_group = culture_group_orc } }
+		# MAP #543 = { owner = { culture_group = orc_group } }
 	}
 	
     mean_time_to_happen = {
@@ -99,7 +98,7 @@ country_event = {
 		current_age = the_second_war
 		has_global_flag = tfw_human_victory_path
 		NOT = { any_country = {
-			culture_group = culture_group_orc
+			culture_group = orc_group
 			capital_scope = { continent = continent_eastern_kingdoms }
 		} }
 	}
@@ -140,7 +139,7 @@ country_event = {
 		NOT = { has_country_flag = tsw_ending_notified }
 		current_age = the_second_war
 		has_global_flag = tfw_human_victory_path
-		# MAP #1022 = { owner = { culture_group = culture_group_orc } }
+		# MAP #1022 = { owner = { culture_group = orc_group } }
 	}
 	
     mean_time_to_happen = {
@@ -174,15 +173,15 @@ country_event = {
 		OR = {
 			AND = {
 				current_age = the_second_war
-				culture_group = culture_group_orc
+				culture_group = orc_group
 				NOT = { has_country_modifier = demon_soul }
-				tag = A45
+				tag = DGM
 			}
 			AND = {
 				current_age = the_second_war
-				culture_group = culture_group_orc
+				culture_group = orc_group
 				NOT = { has_country_modifier = demon_soul }
-				NOT = { exists = A45 }
+				NOT = { exists = DGM }
 			}
 		}
 	}
@@ -201,17 +200,6 @@ country_event = {
 			name = demon_soul
 			duration = -1
 		}
-		every_country = {
-			limit = {
-				primary_culture = culture_red
-			}
-			reverse_add_casus_belli = {
-				target = A45
-				type = cb_magical_enslavement
-				months = 120
-			}
-		}
-		
     }
 }
 #Shadow council's reveal
@@ -230,8 +218,7 @@ country_event = {
     
 	trigger = {
 		current_age = the_second_war
-		culture_group = culture_group_orc
-		NOT = {	tag = B88 }
+		culture_group = orc_group
 		NOT = { has_country_flag = shadowmoon_revealed }
 	}
 	
@@ -278,7 +265,7 @@ country_event = {
 	trigger = {
 		has_country_flag = shadowmoon_revealed
 		NOT = {	has_global_flag = guldan_swear_fealty_happened }
-		NOT = {	exists = A42 }
+		NOT = {	exists = SRC }
 		faction_horde = 1
 	}
 	
@@ -422,8 +409,8 @@ country_event = {
     
 	trigger = {
 		current_age = the_second_war
-		culture_group = culture_group_orc
-		religion = religion_fel
+		culture_group = orc_group
+		religion = fel
 		NOT = {	tag = B88 }
 	}
 	
@@ -445,7 +432,7 @@ country_event = {
 		add_adm_power = -75
 		add_dip_power = -75
 		add_mil_power = -75
-		change_religion = religion_ancestral
+		change_religion = shamanism
 		add_country_modifier = {
 			name = shamanistic_reform
 			duration = 3650
@@ -457,7 +444,7 @@ country_event = {
 					random_owned_province = {
 						random = { 
 							chance = 20 
-							change_religion = religion_ancestral
+							change_religion = shamanism
 						}
 					}
 				}
@@ -477,7 +464,7 @@ country_event = {
 					random_owned_province = {
 						random = { 
 							chance = 20 
-							change_religion = religion_ancestral
+							change_religion = shamanism
 						}
 					}
 				}

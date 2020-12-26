@@ -1,0 +1,62 @@
+technology_group = tech_furbolg
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = stillpine
+religion = shamanism
+
+capital = 4695
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Baldun"
+        dynasty = "Bloodfur"
+        adm = 1
+        dip = 1
+        mil = 4
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Unkra"
+        dynasty = "Timberbarb"
+        adm = 2
+        dip = 3
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Ranng"
+        dynasty = "Gutclaw"
+        adm = 5
+        dip = 3
+        mil = 2
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Grazun"
+        dynasty = "Moldwood"
+        adm = 0
+        dip = 0
+        mil = 4
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Gragram"
+        dynasty = "Lumbertooth"
+        adm = 5
+        dip = 0
+        mil = 3
+    }
+}

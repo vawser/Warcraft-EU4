@@ -1,0 +1,62 @@
+technology_group = tech_yaungol
+government = tribal
+add_government_reform = warband_reform
+primary_culture = palewind
+religion = ordos
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Ganglan"
+        dynasty = "the Vast"
+        adm = 2
+        dip = 0
+        mil = 2
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Asaong"
+        dynasty = "the Bulky"
+        adm = 4
+        dip = 1
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Armung"
+        dynasty = "the Giant"
+        adm = 2
+        dip = 3
+        mil = 5
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Gutuk"
+        dynasty = "the Sharp"
+        adm = 1
+        dip = 4
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Chulun"
+        dynasty = "the Frenzied"
+        adm = 0
+        dip = 1
+        mil = 5
+    }
+}

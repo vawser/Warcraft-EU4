@@ -1,0 +1,62 @@
+technology_group = tech_ogre
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = gordunni
+religion = geomancy
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Sabhub"
+        dynasty = "the Enlightened"
+        adm = 0
+        dip = 2
+        mil = 0
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Thol'sub"
+        dynasty = "the Sapient"
+        adm = 1
+        dip = 3
+        mil = 4
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Virkli"
+        dynasty = "the Smasher"
+        adm = 3
+        dip = 0
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Zagsub"
+        dynasty = "the Prudent"
+        adm = 5
+        dip = 1
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Maulgar"
+        dynasty = "the Sturdy"
+        adm = 0
+        dip = 2
+        mil = 4
+    }
+}

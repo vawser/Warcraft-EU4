@@ -1,0 +1,62 @@
+technology_group = tech_ogre
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = crushridge
+religion = geomancy
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Kurtra"
+        dynasty = "the Smart"
+        adm = 5
+        dip = 0
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Lig'sab"
+        dynasty = "the Gigantic"
+        adm = 2
+        dip = 0
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Varzig"
+        dynasty = "the Violent"
+        adm = 1
+        dip = 1
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Meg'vir"
+        dynasty = "the Insane"
+        adm = 0
+        dip = 2
+        mil = 1
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Hobrok"
+        dynasty = "the Monstrous"
+        adm = 4
+        dip = 0
+        mil = 1
+    }
+}

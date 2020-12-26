@@ -1,0 +1,62 @@
+technology_group = tech_furbolg
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = deadwood
+religion = shamanism
+
+capital = 5818
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Tikra"
+        dynasty = "Moldbarb"
+        adm = 3
+        dip = 2
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Turran"
+        dynasty = "Bristleweald"
+        adm = 0
+        dip = 3
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Garlwen"
+        dynasty = "Crustpelt"
+        adm = 5
+        dip = 4
+        mil = 5
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Graak"
+        dynasty = "Thistleweald"
+        adm = 1
+        dip = 2
+        mil = 1
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Akkra"
+        dynasty = "Gnarlclaw"
+        adm = 0
+        dip = 4
+        mil = 0
+    }
+}

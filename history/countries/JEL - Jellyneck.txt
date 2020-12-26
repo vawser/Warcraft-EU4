@@ -1,0 +1,62 @@
+technology_group = tech_jungle_troll
+government = tribal
+add_government_reform = warband_reform
+primary_culture = jellyneck
+religion = voodoo
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Toomarrak"
+        dynasty = "the Giant"
+        adm = 5
+        dip = 4
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Manmoji"
+        dynasty = "the Mammoth"
+        adm = 2
+        dip = 5
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Ju'moji"
+        dynasty = "the Livid"
+        adm = 4
+        dip = 4
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Zalzun"
+        dynasty = "the Tactful"
+        adm = 2
+        dip = 1
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Galkara"
+        dynasty = "the Gigantic"
+        adm = 1
+        dip = 1
+        mil = 2
+    }
+}

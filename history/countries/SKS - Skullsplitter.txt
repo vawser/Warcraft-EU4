@@ -1,0 +1,62 @@
+technology_group = tech_jungle_troll
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = skullsplitter
+religion = voodoo
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Runlo"
+        dynasty = "the Sage"
+        adm = 4
+        dip = 1
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Rabiju"
+        dynasty = "the Giant"
+        adm = 5
+        dip = 3
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Fon'man"
+        dynasty = "the Erudite"
+        adm = 2
+        dip = 3
+        mil = 4
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Kragvorsh"
+        dynasty = "the Ripper"
+        adm = 3
+        dip = 5
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Tonfu"
+        dynasty = "the Vicious"
+        adm = 5
+        dip = 1
+        mil = 1
+    }
+}

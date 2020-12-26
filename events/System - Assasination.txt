@@ -23,45 +23,7 @@ country_event = {
 		trigger = { has_country_flag = fall_plot }
 		desc = assassination.1.desc.fall
 	}
-	picture = {
-		trigger = {
-				culture_group = culture_group_darnassian
-		}
-		picture = NIGHTELFPLOT_eventPicture
-	}
-	picture = {
-		trigger = {
-				culture_group = culture_group_thalassian
-		}
-		picture = ELFPLOT_eventPicture
-	}
-	picture = {
-		trigger = {
-				culture_group = culture_group_goblin
-		}
-		picture = GOBLINPLOT_eventPicture
-	}
-	picture = {
-		trigger = {
-				OR = {
-					culture_group = culture_group_undead
-					culture_group = culture_group_scourge
-				}
-		}
-		picture = UNDEADPLOT_eventPicture
-	}
-	picture = {
-		trigger = {
-				NOT = {
-					OR = {
-						culture_group = culture_group_goblin
-						culture_group = culture_group_darnassian
-						culture_group = culture_group_thalassian
-					}
-				}
-		}
-		picture = PLOT_eventPicture
-	}
+	picture = PLOT_eventPicture
 	
 	trigger = {
 		any_country = {

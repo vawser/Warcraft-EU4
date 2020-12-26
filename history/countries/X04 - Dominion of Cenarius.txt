@@ -1,0 +1,62 @@
+technology_group = tech_dryad
+government = monarchy
+add_government_reform = theocracy_reform
+primary_culture = dryad
+religion = druidism
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Cessir"
+        dynasty = "Skywater"
+        adm = 1
+        dip = 2
+        mil = 4
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Saeruvrith"
+        dynasty = "Rapidstriker"
+        adm = 5
+        dip = 1
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Ima"
+        dynasty = "Moonsnow"
+        adm = 2
+        dip = 1
+        mil = 4
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Aza"
+        dynasty = "Ambershot"
+        adm = 1
+        dip = 1
+        mil = 0
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Thelgrireph"
+        dynasty = "Stonescribe"
+        adm = 2
+        dip = 2
+        mil = 1
+    }
+}

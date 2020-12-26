@@ -11,15 +11,13 @@ country_event = {
 	option = {
 		name = world_tree.1.approved
 		trigger = {
-			is_pure_evil = yes
+			has_country_modifier = taint_of_evil
 		}
 	}
 	option = {
 		name = world_tree.1.angry
 		trigger = {
-			NOT = {
-				is_pure_evil = yes
-			}
+			NOT = { has_country_modifier = taint_of_evil }
 		}
 	}
 }
@@ -35,15 +33,13 @@ country_event = {
 	option = {
 		name = world_tree.2.approved
 		trigger = {
-			is_pure_evil = yes
+			has_country_modifier = taint_of_evil
 		}
 	}
 	option = {
 		name = world_tree.2.angry
 		trigger = {
-			NOT = {
-				is_pure_evil = yes
-			}
+			NOT = { has_country_modifier = taint_of_evil }
 		}
 	}
 }

@@ -1,0 +1,20 @@
+technology_group = tech_night_elf
+government = theocracy
+add_government_reform = monastic_order_reform
+government_rank = 4
+primary_culture = sentinels_of_hyjal
+religion = elune
+
+capital = 5996
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Telartyr"
+        dynasty = "Ravengazer"
+        adm = 0
+        dip = 5
+        mil = 4
+        female = yes
+    }
+}

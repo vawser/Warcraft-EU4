@@ -1,0 +1,62 @@
+technology_group = tech_spriteling
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = prankster
+religion = druidism
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Malimisros"
+        dynasty = "the Colossal"
+        adm = 5
+        dip = 4
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Aug"
+        dynasty = "the Towering"
+        adm = 3
+        dip = 5
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Erislon"
+        dynasty = "the Mighty"
+        adm = 3
+        dip = 3
+        mil = 5
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Erisincan"
+        dynasty = "the Sage"
+        adm = 2
+        dip = 3
+        mil = 1
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Augros"
+        dynasty = "the Sage"
+        adm = 2
+        dip = 3
+        mil = 2
+    }
+}

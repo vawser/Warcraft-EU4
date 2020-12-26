@@ -160,7 +160,7 @@ country_event = {
 	picture = ELECTION_REPUBLICAN_eventPicture
 	
 	trigger = {
-		NOT = { tag = A14 }
+		NOT = { tag = KUL }
 		has_reform = admiralty_reform
 		has_heir = no
 	}

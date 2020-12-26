@@ -1,0 +1,62 @@
+technology_group = tech_furbolg
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = blackwood
+religion = shamanism
+
+capital = 5900
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Garlran"
+        dynasty = "Flowermaw"
+        adm = 0
+        dip = 0
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Grampur"
+        dynasty = "Blackmaw"
+        adm = 5
+        dip = 5
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Wengarl"
+        dynasty = "Bloodtooth"
+        adm = 4
+        dip = 3
+        mil = 2
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Purpur"
+        dynasty = "Thistlewood"
+        adm = 4
+        dip = 4
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Unran"
+        dynasty = "Deadskin"
+        adm = 2
+        dip = 1
+        mil = 5
+    }
+}

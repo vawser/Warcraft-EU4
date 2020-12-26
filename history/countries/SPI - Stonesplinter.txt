@@ -1,0 +1,62 @@
+technology_group = tech_trogg
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = stonesplinter
+religion = geomancy
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Ogglealoc"
+        dynasty = "Mithrilflint"
+        adm = 0
+        dip = 1
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Gallash"
+        dynasty = "Bronzecleave"
+        adm = 2
+        dip = 1
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Gushlush"
+        dynasty = "Bouldertooth"
+        adm = 1
+        dip = 5
+        mil = 5
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Bruggash"
+        dynasty = "Hillflint"
+        adm = 1
+        dip = 5
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Mardlak"
+        dynasty = "Pebblejaw"
+        adm = 4
+        dip = 0
+        mil = 1
+    }
+}

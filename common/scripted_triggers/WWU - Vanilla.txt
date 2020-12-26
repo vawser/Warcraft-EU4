@@ -519,52 +519,15 @@ root_can_build_manufactory_here_trigger = {
 }
 
 has_nobles_trade_good_trigger = {
-	OR = {
-		trade_goods = copper
-		trade_goods = iron
-		trade_goods = livestock
-		trade_goods = grain
-		trade_goods = gems
-	}
+	
 }
 
 has_burghers_trade_good_trigger = {
-	OR = {
-		trade_goods = naval_supplies
-		trade_goods = salt
-		trade_goods = coffee
-		trade_goods = cotton
-		trade_goods = sugar
-		trade_goods = tobacco
-		trade_goods = tea
-		trade_goods = cocoa
-		trade_goods = cloth
-		trade_goods = silk
-		trade_goods = dyes
-		trade_goods = coal
-		trade_goods = spices
-		trade_goods = tropical_wood
-		trade_goods = glass
-		trade_goods = chinaware
-		trade_goods = paper
-		trade_goods = ivory
-	}
+	
 }
 
 has_church_trade_good_trigger = {
-	OR = {
-		trade_goods = wool
-		trade_goods = fur
-		AND = {
-			trade_goods = slaves
-			ROOT = { religion = religion_the_legion }
-		}
-		trade_goods = incense
-		AND = {
-			trade_goods = fish
-			ROOT = { religion_group = religion_water }
-		}
-	}
+	
 }
 
 has_dharma_elephants_trigger = {

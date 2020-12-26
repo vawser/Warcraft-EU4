@@ -1,0 +1,62 @@
+technology_group = tech_tauren
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = dawnstrider
+religion = earth_mother
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Naguth"
+        dynasty = "Dawnchaser"
+        adm = 2
+        dip = 5
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Vinvin"
+        dynasty = "Thunderchaser"
+        adm = 4
+        dip = 1
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Ithmull"
+        dynasty = "Mistchaser"
+        adm = 0
+        dip = 2
+        mil = 4
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Ethvun"
+        dynasty = "Stonefury"
+        adm = 5
+        dip = 2
+        mil = 1
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Rneven"
+        dynasty = "Wildmane"
+        adm = 2
+        dip = 3
+        mil = 3
+    }
+}

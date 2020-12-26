@@ -4,7 +4,7 @@ country_decisions = {
 		
 		potential = {
 			
-			tag = A29 # ironforge
+			tag = IRO # ironforge
 			NOT = {
 				any_country = {
 					has_country_flag = unified_dwarf
@@ -12,41 +12,41 @@ country_decisions = {
 			}
 		}
 		allow = {
-			A30 = { # dark_iron
+			DKI = { # dark_iron
 				has_opinion = { who = ROOT value = 150 }
 				alliance_with = ROOT
 			}
-			A28 = { # wildhammer
+			WIL = { # wildhammer
 				has_opinion = { who = ROOT value = 150 }
 				alliance_with = ROOT
 			}
 		}
 		effect = {
-			A28 = {
+			WIL = {
 				add_stability = 1
 				add_prestige = 10
 				set_country_flag = unified_dwarf
 				hidden_effect = {
-					add_historical_friend = A29
-					add_historical_friend = A30
+					add_historical_friend = IRO
+					add_historical_friend = DKI
 				}
 			}
-			A29 = {
+			IRO = {
 				add_stability = 2
 				add_prestige = 20
 				set_country_flag = unified_dwarf
 				hidden_effect = {
-					add_historical_friend = A28
-					add_historical_friend = A30
+					add_historical_friend = WIL
+					add_historical_friend = DKI
 				}
 			}
-			A30 = {
+			DKI = {
 				add_stability = 1
 				add_prestige = 10
 				set_country_flag = unified_dwarf
 				hidden_effect = {
-					add_historical_friend = A28
-					add_historical_friend = A29
+					add_historical_friend = WIL
+					add_historical_friend = IRO
 				}
 			}
 		}
@@ -59,7 +59,7 @@ country_decisions = {
 		
 		potential = {
 			
-			tag = A28
+			tag = WIL
 			NOT = {
 				any_country = {
 					has_country_flag = unified_dwarf
@@ -67,41 +67,41 @@ country_decisions = {
 			}
 		}
 		allow = {
-			A30 = {
+			DKI = {
 				has_opinion = { who = ROOT value = 150 }
 				alliance_with = ROOT
 			}
-			A29 = {
+			IRO = {
 				has_opinion = { who = ROOT value = 150 }
 				alliance_with = ROOT
 			}
 		}
 		effect = {
-			A28 = {
+			WIL = {
 				add_stability = 2
 				add_prestige = 20
 				set_country_flag = unified_dwarf
 				hidden_effect = {
-					add_historical_friend = A29
-					add_historical_friend = A30
+					add_historical_friend = IRO
+					add_historical_friend = DKI
 				}
 			}
-			A29 = {
+			IRO = {
 				add_stability = 1
 				add_prestige = 1
 				set_country_flag = unified_dwarf
 				hidden_effect = {
-					add_historical_friend = A28
-					add_historical_friend = A30
+					add_historical_friend = WIL
+					add_historical_friend = DKI
 				}
 			}
-			A30 = {
+			DKI = {
 				add_stability = 1
 				add_prestige = 10
 				set_country_flag = unified_dwarf
 				hidden_effect = {
-					add_historical_friend = A28
-					add_historical_friend = A29
+					add_historical_friend = WIL
+					add_historical_friend = IRO
 				}
 			}
 		}
@@ -114,7 +114,7 @@ country_decisions = {
 		
 		potential = {
 			
-			tag = A30
+			tag = DKI
 			NOT = {
 				any_country = {
 					has_country_flag = unified_dwarf
@@ -122,41 +122,41 @@ country_decisions = {
 			}
 		}
 		allow = {
-			A29 = {
+			IRO = {
 				has_opinion = { who = ROOT value = 150 }
 				alliance_with = ROOT
 			}
-			A28 = {
+			WIL = {
 				has_opinion = { who = ROOT value = 150 }
 				alliance_with = ROOT
 			}
 		}
 		effect = {
-			A28 = {
+			WIL = {
 				add_stability = 1
 				add_prestige = 10
 				set_country_flag = unified_dwarf
 				hidden_effect = {
-					add_historical_friend = A29
-					add_historical_friend = A30
+					add_historical_friend = IRO
+					add_historical_friend = DKI
 				}
 			}
-			A29 = {
+			IRO = {
 				add_stability = 1
 				add_prestige = 10
 				set_country_flag = unified_dwarf
 				hidden_effect = {
-					add_historical_friend = A28
-					add_historical_friend = A30
+					add_historical_friend = WIL
+					add_historical_friend = DKI
 				}
 			}
-			A30 = {
+			DKI = {
 				add_stability = 2
 				add_prestige = 20
 				set_country_flag = unified_dwarf
 				hidden_effect = {
-					add_historical_friend = A28
-					add_historical_friend = A29
+					add_historical_friend = WIL
+					add_historical_friend = IRO
 				}
 			}
 		}

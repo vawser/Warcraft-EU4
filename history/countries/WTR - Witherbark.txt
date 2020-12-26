@@ -1,0 +1,62 @@
+technology_group = tech_forest_troll
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = witherbark
+religion = voodoo
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Arrakzul"
+        dynasty = "the Sly"
+        adm = 0
+        dip = 4
+        mil = 2
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Qeemoz"
+        dynasty = "the Sage"
+        adm = 1
+        dip = 3
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Ralman"
+        dynasty = "the Brawny"
+        adm = 5
+        dip = 1
+        mil = 4
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Ongohor"
+        dynasty = "the Ripper"
+        adm = 2
+        dip = 1
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Nijin"
+        dynasty = "the Colossal"
+        adm = 0
+        dip = 0
+        mil = 4
+    }
+}

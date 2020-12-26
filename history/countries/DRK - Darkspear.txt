@@ -1,0 +1,32 @@
+technology_group = tech_jungle_troll
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = darkspear
+religion = voodoo
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Senj'in"
+        dynasty = "Darkspear"
+        birth_date = 536.1.1
+        adm = 3
+        dip = 5
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Vol'Jin"
+        dynasty = "Darkspear"
+        birth_date = 816.1.1
+        adm = 4
+        dip = 4
+        mil = 4
+    }
+    historical_friend = ORG
+}

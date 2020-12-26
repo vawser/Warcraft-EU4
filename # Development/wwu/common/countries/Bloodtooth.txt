@@ -1,0 +1,269 @@
+# Bloodtooth Furbolg
+graphical_culture = westerngfx
+
+color = { 221 161 121 }
+monarch_names = {
+  "Gramota" = 20
+  "Turti" = 20
+  "Grazkra" = 20
+  "Ankra" = 20
+  "Grumak" = 20
+  "Purog" = 20
+  "Grale" = 20
+  "Krograz" = 20
+  "Ngwen" = 20
+  "Garlgrum" = 20
+  "Akbald" = 20
+  "Kraan" = 20
+  "Grazbald" = 20
+  "Murkra" = 20
+  "Grakra" = 20
+  "Gramur" = 20
+  "Legram" = 20
+  "Akdal" = 20
+  "Wengraz" = 20
+  "Akng" = 20
+  "Otakra" = 20
+  "Ranng" = 20
+  "Ting" = 20
+  "Gragraz" = 20
+  "Akgra" = 20
+  "Gramgarl" = 20
+  "Tiun" = 20
+  "Dalpur" = 20
+  "Tile" = 20
+  "Wenan" = 20
+  "Murun" = 20
+  "Otagraz" = 20
+  "Purti" = 20
+  "Wenwen" = 20
+  "Murota" = 20
+  "Garlak" = 20
+  "Ungram" = 20
+  "Anle" = 20
+  "Dalak" = 20
+  "Kragraz" = 20
+  "Otaota" = 20
+  "Puran" = 20
+  "Baldog" = 20
+  "Murgraz" = 20
+  "Aktur" = 20
+  "Unbald" = 20
+  "Oggra" = 20
+  "Randal" = 20
+  "Garlgraz" = 20
+  "Angrum" = 20
+  "Lekra" = 20
+  "Grazkro" = 20
+  "Dalgraz" = 20
+  "Ranog" = 20
+  "Murwen" = 20
+  "Murng" = 20
+  "Wenkra" = 20
+  "Krakra" = 20
+  "Grumwen" = 20
+  "Murog" = 20
+  "Purbald" = 20
+  "Ranran" = 20
+  "Angraz" = 20
+  "Ogng" = 20
+  "Nggra" = 20
+  "Anpur" = 20
+  "Grumkro" = 20
+  "Angra" = 20
+  "Otaran" = 20
+  "Wendal" = 20
+  "Ngmur" = 20
+  "Gramog" = 20
+  "Turgram" = 20
+  "Baldgra" = 20
+  "Kroan" = 20
+  "Lemur" = 20
+  "Wenota" = 20
+  "Daldal" = 20
+  "Muran" = 20
+  "Tidal" = 20
+  "Anran" = 20
+  "Wengram" = 20
+  "Grumbald" = 20
+  "Kramur" = 20
+  "Otang" = 20
+  "Garlle" = 20
+  "Akog" = 20
+  "Grazgarl" = 20
+  "Garlota" = 20
+  "Grabald" = 20
+  "Grumtur" = 20
+  "Legrum" = 20
+  "Wenun" = 20
+  "Anng" = 20
+  "Wenkro" = 20
+  "Turog" = 20
+  "Unkro" = 20
+  "Baldgrum" = 20
+  "Ranota" = 20
+  "Ranle" = 20
+  "Grampur" = 20
+  "Ngak" = 20
+  "Rangram" = 20
+  "Rankro" = 20
+  "Akkra" = 20
+  "Kroti" = 20
+  "Krogarl" = 20
+  "Krabald" = 20
+  "Purgraz" = 20
+  "Grazgra" = 20
+  "Ogkra" = 20
+  "Akan" = 20
+  "Graman" = 20
+  "Grumgraz" = 20
+  "Grati" = 20
+  "Andal" = 20
+  "Oggarl" = 20
+  "Murle" = 20
+  "Ngbald" = 20
+  "Gramgram" = 20
+  "Grazak" = 20
+  "Turwen" = 20
+  "Tiak" = 20
+}
+leader_names = {
+}
+ship_names = {
+  "Winterskin"
+  "Crusttooth"
+  "Prickleweald"
+  "Deadmaw"
+  "Foulpile"
+  "Blightbarb"
+  "Whitepelt"
+  "Barkmaw"
+  "Stillfur"
+  "Flowerlimb"
+  "Bloodpile"
+  "Gnarlpelt"
+  "Foulpelt"
+  "Snarlclaw"
+  "Crustfall"
+  "Barkfall"
+  "Crustbite"
+  "Stubblepelt"
+  "Huskpelt"
+  "Husklimb"
+  "Foulwood"
+  "Rotpile"
+  "Crustfang"
+  "Redpile"
+  "Nettlepaw"
+  "Pricklefang"
+  "Blightmaw"
+  "Stilllimb"
+  "Frostwood"
+  "Foulpine"
+  "Blightclaw"
+  "Bloodwood"
+  "Timberfang"
+  "Frostbarb"
+  "Huskpile"
+  "Nettlefur"
+  "Blackbite"
+  "Crustwood"
+  "Frostfang"
+  "Bristleskin"
+  "Gutmaw"
+  "Stubbleskin"
+  "Bloodclaw"
+  "Barkfang"
+  "Whiskermaw"
+  "Stubblefur"
+  "Foulpaw"
+  "Snowbarb"
+  "Timberpile"
+  "Whiskerfur"
+  "Pricklepile"
+  "Rotlimb"
+  "Nettlebarb"
+  "Blightpine"
+  "Moldbite"
+  "Deadpaw"
+  "Gnarlpile"
+  "Deadweald"
+  "Pricklemaw"
+  "Huskwood"
+  "Stubbleweald"
+  "Winterlimb"
+  "Blightlimb"
+  "Crustpelt"
+  "Lumberpelt"
+  "Redbite"
+  "Whitewood"
+  "Thornmaw"
+  "Blackfang"
+  "Stubblepine"
+  "Stubblepaw"
+  "Whiskertooth"
+  "Blackwood"
+  "Rotfall"
+  "Gutfall"
+  "Stillpile"
+  "Rotbite"
+  "Snowweald"
+  "Moldclaw"
+  "Whitepile"
+  "Flowerfall"
+  "Rotbarb"
+  "Stubblefang"
+  "Winterwood"
+  "Rottooth"
+  "Lumberfur"
+  "Redpaw"
+  "Nettlepile"
+  "Blightwood"
+  "Thornpaw"
+  "Timberbite"
+  "Redclaw"
+  "Brambleweald"
+  "Barkbite"
+  "Barkwood"
+  "Bramblemaw"
+  "Gnarllimb"
+  "Crustpine"
+  "Pricklepelt"
+  "Snowpaw"
+  "Snarlpine"
+  "Blackweald"
+  "Winterpine"
+  "Rotwood"
+  "Moldskin"
+  "Stillfang"
+  "Rotpaw"
+  "Whitelimb"
+  "Gutpaw"
+  "Bramblepine"
+  "Thistlepaw"
+  "Frostclaw"
+  "Redbarb"
+  "Whitepaw"
+  "Frostfall"
+  "Huskskin"
+  "Prickleclaw"
+  "Thistlemaw"
+  "Timberclaw"
+  "Barkbarb"
+  "Pricklebite"
+  "Whitefur"
+  "Pricklebarb"
+  "Barklimb"
+  "Moldtooth"
+  "Flowerpine"
+  "Nettletooth"
+  "Stillskin"
+  "Barktooth"
+  "Gutwood"
+}
+army_names = {
+	"Army of $PROVINCE$"
+}
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

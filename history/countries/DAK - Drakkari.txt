@@ -1,0 +1,63 @@
+technology_group = tech_frost_troll
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 4
+primary_culture = drakkari
+religion = voodoo
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Gan'dranda"
+        dynasty = "the Quick"
+        adm = 3
+        dip = 5
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Mojizal"
+        dynasty = "the Maniac"
+        adm = 5
+        dip = 4
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Zulkat"
+        dynasty = "the Livid"
+        adm = 4
+        dip = 4
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Jiral"
+        dynasty = "the Insane"
+        adm = 1
+        dip = 3
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Duju"
+        dynasty = "the Mammoth"
+        adm = 5
+        dip = 4
+        mil = 4
+    }
+}

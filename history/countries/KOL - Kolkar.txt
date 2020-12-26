@@ -1,0 +1,62 @@
+technology_group = tech_centaur
+government = tribal
+add_government_reform = warband_reform
+primary_culture = kolkar
+religion = shamanism
+
+capital = 5385
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Olkith"
+        dynasty = "the Fanatical"
+        adm = 0
+        dip = 2
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Bichos"
+        dynasty = "the Immense"
+        adm = 4
+        dip = 4
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Ferthe"
+        dynasty = "the Gutsy"
+        adm = 3
+        dip = 0
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Wihn"
+        dynasty = "the Vast"
+        adm = 4
+        dip = 3
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Olkith"
+        dynasty = "the Fanatical"
+        adm = 2
+        dip = 2
+        mil = 2
+    }
+}

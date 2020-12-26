@@ -1,0 +1,41 @@
+technology_group = tech_human
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 8
+primary_culture = lordaeron
+religion = the_holy_light
+
+capital = 3905
+
+historical_friend = QUE
+
+# The First War
+592.1.1 = {
+    monarch = { 
+        name = "Terenas II" 
+        dynasty = "Menethil" 
+		adm = 4
+		dip = 5
+		mil = 3 
+ 	} 
+}
+
+# Second War
+596.1.1 = {
+    
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    
+}
+
+# War of the Spider
+605.1.1 = {
+    
+}
+
+# Third War
+612.1.1 = {
+    
+}

@@ -1,0 +1,16 @@
+saberon_group = {
+    graphical_culture = saberon_gfx
+    
+    saberon = {  
+        male_names = { 
+            "Val" "Pedesh" "Akrell" "Nus" "Allorrash" "Puges" "Gehedul" "Zar" "Hall" "Rirosos" "Nus" "Ras" "Gar" "Polgall" "Krojh" "Crukrosho" "Vellalish" "Jash" "Cuhesh" "Seoll" "Pal" "Cralleda" "Nagir" "Sajh" "Sehijh" "Zosh" "Cos" "Gozer" "Kalesrash" "Nohal"
+        }
+        female_names = { 
+            "Val" "Pedesh" "Akrell" "Nus" "Allorrash" "Puges" "Gehedul" "Zar" "Hall" "Rirosos" "Nus" "Ras" "Gar" "Polgall" "Krojh" "Crukrosho" "Vellalish" "Jash" "Cuhesh" "Seoll" "Pal" "Cralleda" "Nagir" "Sajh" "Sehijh" "Zosh" "Cos" "Gozer" "Kalesrash" "Nohal"
+        }
+        dynasty_names = { 
+            "Bonemane" "Deadgasher" "Bonefur" "Silenthook" "Sunclaw" "Boneshredder" "Deathcracker" "Deathridge" "Deadpiercer" "Bloodpiercer" "Sharphook" "Rapidcracker" "Boneclaw" "Goldbiter" "Bonegnaw" "Razorteeth" "Razorgash" "Razorfur" "Razormane" "Soulcleaver" "Viceclaw" "Soulclaw" "Graveclaw" "Vicefur"
+        }
+    }
+}
+

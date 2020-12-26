@@ -1,0 +1,62 @@
+technology_group = tech_frost_dwarf
+government = theocracy
+add_government_reform = ancient_theocracy_reform
+primary_culture = frostborn
+religion = titan_worship
+
+capital = 2105
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Dimram"
+        dynasty = "Rockbeard"
+        adm = 2
+        dip = 3
+        mil = 0
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Nirrath"
+        dynasty = "Bronzecrag"
+        adm = 4
+        dip = 2
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Valdrath"
+        dynasty = "Rockheart"
+        adm = 0
+        dip = 0
+        mil = 5
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Thalin"
+        dynasty = "Stoneheart"
+        adm = 0
+        dip = 2
+        mil = 1
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Thuram"
+        dynasty = "Bronzeheart"
+        adm = 0
+        dip = 0
+        mil = 2
+    }
+}

@@ -1,0 +1,62 @@
+technology_group = tech_highmountain_tauren
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = highmountain
+religion = earth_mother
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Mullrne"
+        dynasty = "Thunderrunner"
+        adm = 0
+        dip = 5
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Cobai"
+        dynasty = "Wintermane"
+        adm = 4
+        dip = 1
+        mil = 4
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Bietha"
+        dynasty = "Stonehoof"
+        adm = 0
+        dip = 4
+        mil = 1
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Ceiham"
+        dynasty = "Misttotem"
+        adm = 0
+        dip = 0
+        mil = 4
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Vanith"
+        dynasty = "Wildtotem"
+        adm = 2
+        dip = 1
+        mil = 5
+    }
+}

@@ -1,0 +1,62 @@
+technology_group = tech_pandaren
+government = theocracy
+add_government_reform = theocracy_reform
+primary_culture = golden_lotus
+religion = celestials
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Dong"
+        dynasty = "Whitefoot"
+        adm = 3
+        dip = 5
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Chi"
+        dynasty = "Starstout"
+        adm = 2
+        dip = 3
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Shun"
+        dynasty = "Windfoot"
+        adm = 2
+        dip = 3
+        mil = 1
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Bo"
+        dynasty = "Airwalker"
+        adm = 5
+        dip = 0
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Shaohao"
+        dynasty = "Glowfoot"
+        adm = 0
+        dip = 0
+        mil = 4
+    }
+}

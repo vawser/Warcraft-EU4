@@ -1,0 +1,62 @@
+technology_group = tech_naga
+government = monarchy
+add_government_reform = naga_domain_reform
+primary_culture = blackfathom
+religion = azshara
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Shjus"
+        dynasty = "the Livid"
+        adm = 0
+        dip = 3
+        mil = 2
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Vah'jan"
+        dynasty = "the Sturdy"
+        adm = 2
+        dip = 3
+        mil = 4
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Tiz'rai"
+        dynasty = "the Vicious"
+        adm = 2
+        dip = 1
+        mil = 1
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Shi'sira"
+        dynasty = "the Mighty"
+        adm = 3
+        dip = 5
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Jira'tiz"
+        dynasty = "the Immense"
+        adm = 4
+        dip = 2
+        mil = 5
+    }
+}

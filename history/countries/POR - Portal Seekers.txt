@@ -1,0 +1,62 @@
+technology_group = tech_lost_one
+government = theocracy
+add_government_reform = monastic_order_reform
+primary_culture = broken
+religion = shadow
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Barneg"
+        dynasty = "the Quick"
+        adm = 2
+        dip = 4
+        mil = 2
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Dendosen"
+        dynasty = "the Hearty"
+        adm = 2
+        dip = 1
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Holga"
+        dynasty = "the Vicious"
+        adm = 5
+        dip = 4
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Stadus"
+        dynasty = "the Strong"
+        adm = 1
+        dip = 2
+        mil = 4
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Yikna"
+        dynasty = "the Maniac"
+        adm = 4
+        dip = 1
+        mil = 0
+    }
+}

@@ -1,0 +1,62 @@
+technology_group = tech_vrykul
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = jotunheim
+religion = runic
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Haldor"
+        dynasty = "Kalskirn"
+        adm = 4
+        dip = 3
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Roscoe"
+        dynasty = "Ymirflayer"
+        adm = 5
+        dip = 2
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Bjarni"
+        dynasty = "Kviskorn"
+        adm = 1
+        dip = 5
+        mil = 4
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Sigurd"
+        dynasty = "Kvildar"
+        adm = 2
+        dip = 4
+        mil = 0
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Asmund"
+        dynasty = "Winterskirn"
+        adm = 1
+        dip = 0
+        mil = 2
+    }
+}

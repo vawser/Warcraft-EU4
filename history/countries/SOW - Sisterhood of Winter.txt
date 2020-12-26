@@ -1,0 +1,19 @@
+technology_group = tech_frost_nymph
+government = theocracy
+add_government_reform = theocracy_reform
+primary_culture = sisterhood_of_winter
+religion = druidism
+
+capital = 6885
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Maedri"
+        dynasty = "Farshade"
+        female = yes
+        adm = 1
+        dip = 3
+        mil = 3
+    }
+}

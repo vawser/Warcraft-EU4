@@ -23,6 +23,10 @@ country_decisions = {
 		
 		# effect = {
 			# custom_tooltip = EVIL_ACTION_TOOLTIP
+            # add_country_modifier = {
+                # name = taint_of_evil
+                # duration = -1
+            # }
 			# add_mil_power = -100
 			# add_country_modifier = {
 				# name = burned_world_tree
@@ -124,6 +128,10 @@ country_decisions = {
 		
 		# effect = {
 			# custom_tooltip = EVIL_ACTION_TOOLTIP
+            # add_country_modifier = {
+                # name = taint_of_evil
+                # duration = -1
+            # }
 			# add_mil_power = -100
 			# add_country_modifier = {
 				# name = burned_world_tree

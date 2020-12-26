@@ -1,0 +1,62 @@
+technology_group = tech_murloc
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = winterfin
+religion = deep_mother
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Mrrm"
+        dynasty = "the Throatslicer"
+        adm = 0
+        dip = 3
+        mil = 2
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Mrer"
+        dynasty = "the Enlightened"
+        adm = 2
+        dip = 0
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Glrmut"
+        dynasty = "the Kicker"
+        adm = 4
+        dip = 4
+        mil = 2
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Bmurg"
+        dynasty = "the Throatslicer"
+        adm = 2
+        dip = 1
+        mil = 4
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Pr'kr"
+        dynasty = "the Crazed"
+        adm = 0
+        dip = 0
+        mil = 3
+    }
+}

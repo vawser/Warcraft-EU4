@@ -222,7 +222,7 @@ ai_militarist = {
 		}
 		modifier = {
 			factor = 5
-			culture_group = culture_group_orc
+			culture_group = orc_group
 		}
 	}
 	icon = 4

@@ -33,7 +33,7 @@ adventurer_rebels = {
 		factor = 14
 		modifier = {
 			factor = 0
-			NOT = { owner = { has_country_modifier = is_evil } }		
+			NOT = { owner = { has_country_modifier = taint_of_evil } }		
 		}
 		modifier = {
 			factor = 1.25
@@ -308,7 +308,7 @@ scourge_rebels = {
 		}
 		if = {
 			limit = { NOT = { culture = REB } }
-			change_culture = culture_scourge
+			change_culture = scourge
 		}
 		 # Add ten extra years of nationalism
 	}

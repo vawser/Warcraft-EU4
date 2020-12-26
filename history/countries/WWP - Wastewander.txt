@@ -1,0 +1,18 @@
+technology_group = tech_human
+government = pirate
+add_government_reform = pirate_republic_reform
+primary_culture = wastewander
+religion = avarice
+
+capital = 1
+
+# Third War
+612.1.1 = {
+    monarch = { 
+		name = "Hamed" 
+		dynasty = "Scorpidsting" 
+		adm = 4
+		dip = 3
+		mil = 2
+    }
+}

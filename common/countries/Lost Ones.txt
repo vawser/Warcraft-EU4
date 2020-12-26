@@ -1,0 +1,210 @@
+graphical_culture = lost_one_gfx
+
+color = { 69 63 196 }
+
+monarch_names = {
+	"Hammor #0" = 20
+	"Baal'or #0" = 20
+	"Jaebad #0" = 20
+	"Thahechet #0" = 20
+	"Ridged #0" = 20
+	"Stannird #0" = 20
+	"Ekot #0" = 20
+	"Yugid #0" = 20
+	"Cuachad #0" = 20
+	"Hegem #0" = 20
+	"Uagal'ar #0" = 20
+	"Enirat #0" = 20
+	"Igid #0" = 20
+	"Begnan #0" = 20
+	"Bugmis #0" = 20
+	"Eliuth #0" = 20
+	"Gefiun #0" = 20
+	"Laphaarurd #0" = 20
+	"Fondehdu #0" = 20
+	"Thobhol #0" = 20
+	"Rubdet #0" = 20
+	"Khacu #0" = 20
+	"Dendosen #0" = 20
+	"Lihres #0" = 20
+	"Barneg #0" = 20
+	"Yumi #0" = 20
+	"Drol'mig #0" = 20
+	"Nodoro #0" = 20
+	"Nackiin #0" = 20
+	"Khertes #0" = 20
+	"Judot #0" = 20
+	"Garhiid #0" = 20
+	"Stadus #0" = 20
+	"Dresom #0" = 20
+	"Stuggi #0" = 20
+	"Tikdoc #0" = 20
+	"Aasmal #0" = 20
+	"Jizruk #0" = 20
+	"Lozord #0" = 20
+	"Osmen #0" = 20
+	"Ducibgor #0" = 20
+	"Thickor #0" = 20
+	"Tarre #0" = 20
+	"Tabraa #0" = 20
+	"Khulna #0" = 20
+	"Hardog #0" = 20
+	"Tullon'el #0" = 20
+	"Kecmir #0" = 20
+	"Yikna #0" = 20
+	"Mucot #0" = 20
+	"Haeggos #0" = 20
+	"Jal'golliil #0" = 20
+	"Rurtadac #0" = 20
+	"Valurd #0" = 20
+	"Vondibis #0" = 20
+	"Yuakem #0" = 20
+	"Vebiuk #0" = 20
+	"Kolnen #0" = 20
+	"Jartuadel #0" = 20
+	"Holga #0" = 20
+	"Jomec #0" = 20
+	"Stimaga #0" = 20
+	"Riknis #0" = 20
+	"Tezaat #0" = 20
+	"Jebi #0" = -20
+	"Gida #0" = -20
+	"Avre #0" = -20
+	"Enlett #0" = -20
+	"Ruresu #0" = -20
+	"Erhi #0" = -20
+	"Isinih #0" = -20
+	"Irgagett #0" = -20
+	"Ramohaa #0" = -20
+	"Thirrel #0" = -20
+	"Ifae #0" = -20
+	"Gelett #0" = -20
+	"Themosu #0" = -20
+	"Ufbe #0" = -20
+	"Vezritt #0" = -20
+	"Imullatt #0" = -20
+	"Gaedore #0" = -20
+	"Huhsit #0" = -20
+	"Bikide #0" = -20
+	"Cenradus #0" = -20
+	"Finrodis #0" = -20
+	"Phibah #0" = -20
+	"Ruruna #0" = -20
+	"Filott #0" = -20
+	"Vordu #0" = -20
+	"Honos #0" = -20
+	"Niahlall #0" = -20
+	"Vaba #0" = -20
+	"Thorhi #0" = -20
+	"Meron #0" = -20
+	"Siabot #0" = -20
+	"Folral #0" = -20
+	"Seva #0" = -20
+	"Sarhel #0" = -20
+	"Fuzseten #0" = -20
+	"Bahett #0" = -20
+	"Burleh #0" = -20
+	"Lubetreh #0" = -20
+	"Sarrii #0" = -20
+	"Sevhonel #0" = -20
+	"Lefal #0" = -20
+	"Fotretun #0" = -20
+	"Ansanatt #0" = -20
+	"Khonra #0" = -20
+	"Khuhil #0" = -20
+	"Gihlett #0" = -20
+	"Ura #0" = -20
+	"Nizaan #0" = -20
+	"Bedes #0" = -20
+
+}
+
+leader_names = {
+	"the Wise"
+	"the Quick"
+	"the Sly"
+	"the Coy"
+	"the Giant"
+	"the Immense"
+	"the Vast"
+	"the Towering"
+	"the Bulky"
+	"the Lusty"
+	"the Mighty"
+	"the Titanic"
+	"the Potent"
+	"the Powerful"
+	"the Stout"
+	"the Tough"
+	"the Strong"
+	"the Sturdy"
+	"the Stalwart"
+	"the Brawny"
+	"the Hearty"
+	"the Great"
+	"the Almighty"
+	"the Gutsy"
+	"the Punchy"
+	"the Astute"
+	"the Careful"
+	"the Enlightened"
+	"the Perceptive"
+	"the Prudent"
+	"the Sane"
+	"the Shrewd"
+	"the Smart"
+	"the Wary"
+	"the Cunning"
+	"the Keen"
+	"the Sage"
+	"the Sharp"
+	"the Crafty"
+	"the Erudite"
+	"the Witty"
+	"the Sapient"
+	"the Tactful"
+	"the Furious"
+	"the Desperate"
+	"the Fierce"
+	"the Frantic"
+	"the Livid"
+	"the Raging"
+	"the Violent"
+	"the Frenzied"
+	"the Inciter"
+	"the Insane"
+	"the Crazed"
+	"the Maniac"
+	"the Vicious"
+	"the Rabid"
+	"the Delirious"
+	"the Fanatical"
+	"the Fervent"
+	"the Virulent"
+	"the Zealous"
+	"the Astute"
+	"the Educated"
+	"the Ample"
+	"the Judicious"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+

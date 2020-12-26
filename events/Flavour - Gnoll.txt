@@ -9,7 +9,7 @@ country_event = {
 	fire_only_once = no
 	
 	trigger = {
-		culture_group = culture_group_gnoll
+		culture_group = gnoll_group
 		any_country = {
 			war_with = ROOT
 			any_owned_province = {
@@ -53,7 +53,7 @@ country_event = {
 	picture = GNOLL_eventPicture
 	
 	trigger = {
-		culture_group = culture_group_gnoll
+		culture_group = gnoll_group
         any_neighbor_country = {
             is_neighbor_of = ROOT
         }
@@ -120,7 +120,7 @@ country_event = {
 	fire_only_once = no
 	
 	trigger = {
-		culture_group = culture_group_gnoll
+		culture_group = gnoll_group
 	}
 	
 	mean_time_to_happen = {

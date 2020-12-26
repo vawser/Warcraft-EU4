@@ -1,0 +1,19 @@
+technology_group = tech_dark_iron_dwarf
+government = theocracy
+add_government_reform = theocracy_reform
+government_rank = 3
+primary_culture = dark_iron
+religion = fire
+
+capital = 1717
+
+# The First War
+592.1.1 = {
+    monarch = { 
+        name = "Dagran" 
+        dynasty = "Thaurissan" 
+		adm = 4
+		dip = 3
+		mil = 4
+ 	}
+}

@@ -1,0 +1,62 @@
+technology_group = tech_vrykul
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = ymirjar
+religion = runic
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Ingolf"
+        dynasty = "Wyrmflog"
+        adm = 3
+        dip = 5
+        mil = 2
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Vidar"
+        dynasty = "Yimider"
+        adm = 2
+        dip = 5
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Troels"
+        dynasty = "Wyidir"
+        adm = 4
+        dip = 5
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Herleifr"
+        dynasty = "Brunnflog"
+        adm = 0
+        dip = 2
+        mil = 1
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Audun"
+        dynasty = "Chillhulde"
+        adm = 1
+        dip = 5
+        mil = 2
+    }
+}

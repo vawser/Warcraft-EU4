@@ -1,0 +1,62 @@
+technology_group = tech_gorloc
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = mistwhisper
+religion = shamanism
+
+capital = 6419
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Lrpr"
+        dynasty = "the Smasher"
+        adm = 4
+        dip = 3
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Gllgll"
+        dynasty = "the Sharp"
+        adm = 3
+        dip = 0
+        mil = 4
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Mrbmu"
+        dynasty = "the Prudent"
+        adm = 3
+        dip = 4
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Bmu'rm"
+        dynasty = "the Violent"
+        adm = 0
+        dip = 2
+        mil = 0
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Gll'nus"
+        dynasty = "the Stabber"
+        adm = 3
+        dip = 1
+        mil = 3
+    }
+}

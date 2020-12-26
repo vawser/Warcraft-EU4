@@ -1,0 +1,62 @@
+technology_group = tech_ogre
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = stonemaul
+religion = geomancy
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Glagor"
+        dynasty = "the Crazed"
+        adm = 5
+        dip = 3
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Korthol"
+        dynasty = "the Giant"
+        adm = 4
+        dip = 3
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Gligog"
+        dynasty = "the Great"
+        adm = 4
+        dip = 0
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Tuokk"
+        dynasty = "the Vast"
+        adm = 2
+        dip = 3
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Gor'rub"
+        dynasty = "the Lusty"
+        adm = 1
+        dip = 4
+        mil = 5
+    }
+}

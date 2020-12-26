@@ -1,0 +1,62 @@
+technology_group = tech_wolvar
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = howling
+religion = shamanism
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Ektek"
+        dynasty = "Prickleweald"
+        adm = 4
+        dip = 3
+        mil = 2
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Keke"
+        dynasty = "Foulfall"
+        adm = 5
+        dip = 2
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Logmok"
+        dynasty = "Gnarlpaw"
+        adm = 5
+        dip = 1
+        mil = 4
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Tarke"
+        dynasty = "Deadfall"
+        adm = 3
+        dip = 3
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Tarek"
+        dynasty = "Nettlemaw"
+        adm = 3
+        dip = 1
+        mil = 3
+    }
+}

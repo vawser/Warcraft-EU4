@@ -1,0 +1,62 @@
+technology_group = tech_dryad
+government = theocracy
+add_government_reform = monastic_order_reform
+primary_culture = daughters_of_cenarius
+religion = druidism
+
+capital = 6070
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Sandimu"
+        dynasty = "Evencloud"
+        adm = 0
+        dip = 3
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Hevralan"
+        dynasty = "Feathershadow"
+        adm = 5
+        dip = 2
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Tira"
+        dynasty = "Wildwind"
+        adm = 0
+        dip = 3
+        mil = 2
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Femalillu"
+        dynasty = "Forestspirit"
+        adm = 0
+        dip = 5
+        mil = 4
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Femalillu"
+        dynasty = "Swiftbough"
+        adm = 1
+        dip = 5
+        mil = 0
+    }
+}

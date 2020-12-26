@@ -616,7 +616,7 @@ country_event = {
 	picture = NEW_HEIR_eventPicture
 	
 	trigger = {
-        culture_group = culture_group_human
+        is_human_culture_group = yes
 		is_lesser_in_union = no
 		has_heir = no
 		has_regency = no

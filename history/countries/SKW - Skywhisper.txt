@@ -1,0 +1,62 @@
+technology_group = tech_kobold
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = skywhisker
+religion = geomancy
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Gririm"
+        dynasty = "Gutrat"
+        adm = 3
+        dip = 3
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Znoslee"
+        dynasty = "Silverslide"
+        adm = 2
+        dip = 5
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Gibfee"
+        dynasty = "Timbershear"
+        adm = 1
+        dip = 2
+        mil = 5
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Snivrim"
+        dynasty = "Redblade"
+        adm = 4
+        dip = 1
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Blezlak"
+        dynasty = "Bronzeshear"
+        adm = 2
+        dip = 4
+        mil = 0
+    }
+}

@@ -1,0 +1,62 @@
+technology_group = tech_goblin
+government = republic
+add_government_reform = mercantile_republic_reform
+primary_culture = blackwater_cartel
+religion = avarice
+
+capital = 2880
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Baxabiz"
+        dynasty = "Barrendust"
+        adm = 0
+        dip = 5
+        mil = 4
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Deshet"
+        dynasty = "Blindhook"
+        adm = 4
+        dip = 2
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Jenben"
+        dynasty = "Pickflow"
+        adm = 1
+        dip = 4
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Bevyxvert"
+        dynasty = "Botwrench"
+        adm = 5
+        dip = 3
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Bema"
+        dynasty = "Wildspark"
+        adm = 4
+        dip = 1
+        mil = 1
+    }
+}

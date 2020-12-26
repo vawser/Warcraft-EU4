@@ -9,7 +9,7 @@ can_join_hre_league = {
 		potential = {
 		}
 		allow = {
-			culture_group = culture_group_dragonkin
+			is_dragon_culture_group = yes
 		}
 	}
 	condition = {
@@ -69,7 +69,7 @@ can_add_province_to_hre = {
 		potential = {
 		}
 		allow = {
-			owner = { culture_group = culture_group_dragonkin }
+			owner = { is_dragon_culture_group = yes }
 		}
 	}
 	
@@ -174,47 +174,7 @@ can_burn_colony = {
 }
 
 can_colonize_province = {
-	# condition = {
-		# tooltip = "WOW_UNCOLONIZABLE"
-		# potential = {
-			# area = area_uncolonizable
-		# }
-		# allow = {
-			# always = no
-		# }
-	# }
-	condition = {
-		tooltip = "WOW_UNCOLONIZABLE_TELDRASSIL"
-		potential = {
-			# MAP # region = region_teldrassil
-			FROM = { NOT = { the_third_war_or_later = yes } }
-		}
-		allow = {
-			always = no
-		}
-	}
-	condition = {
-		tooltip = "WOW_UNCOLONIZABLE_BROKENSHORE"
-		potential = {
-			has_province_flag = broken_shore_uncolonizable
-		}
-		allow = {
-			always = no
-		}
-	}
-	condition = {
-		tooltip = "WOW_UNCIVILIZED"
-		potential = {
-			FROM = {
-                OR = {
-                    technology_group = tech_scourge
-                }
-            }
-		}
-		allow = {
-			always = no
-		}
-	}
+    
 }
 
 can_colonize_province_siberian_frontier = {
@@ -242,7 +202,7 @@ is_possible_hre_province = {
 		potential = {
 		}
 		allow = {
-			culture_group = culture_group_dragonkin
+			is_dragon_culture_group = yes
 		}
 	}
 	

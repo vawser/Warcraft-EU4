@@ -12,37 +12,43 @@ defined_text = {
 	text = {
 		localisation_key = estate_clergy_light
 		trigger = {
-            religion_group = religion_group_the_light
+            religion_group = light_group
 		}
 	}
     text = {
 		localisation_key = estate_clergy_void
 		trigger = {
-            religion_group = religion_group_the_void
+            religion_group = shadow_group
 		}
 	}
     text = {
 		localisation_key = estate_clergy_disorder
 		trigger = {
-            religion_group = religion_group_disorder
+            religion_group = disorder_group
 		}
 	}
     text = {
 		localisation_key = estate_clergy_order
 		trigger = {
-            religion_group = religion_group_order
+            religion_group = order_group
 		}
 	}
     text = {
 		localisation_key = estate_clergy_druidic
 		trigger = {
-            religion_group = religion_druidic
+            religion_group = life_group
 		}
 	}
     text = {
 		localisation_key = estate_clergy_elemental
 		trigger = {
-            religion_group = religion_group_elemental
+            religion_group = elemental_group
+		}
+	}
+    text = {
+		localisation_key = estate_clergy_death
+		trigger = {
+            religion_group = death_group
 		}
 	}
     
@@ -67,37 +73,43 @@ defined_text = {
 	text = {
 		localisation_key = estate_clergy_light
 		trigger = {
-            religion_group = religion_group_the_light
+            religion_group = light_group
 		}
 	}
     text = {
 		localisation_key = estate_clergy_void
 		trigger = {
-            religion_group = religion_group_the_void
+            religion_group = shadow_group
 		}
 	}
     text = {
 		localisation_key = estate_clergy_disorder
 		trigger = {
-            religion_group = religion_group_disorder
+            religion_group = disorder_group
 		}
 	}
     text = {
 		localisation_key = estate_clergy_order
 		trigger = {
-            religion_group = religion_group_order
+            religion_group = order_group
 		}
 	}
     text = {
 		localisation_key = estate_clergy_druidic
 		trigger = {
-            religion_group = religion_druidic
+            religion_group = life_group
 		}
 	}
     text = {
 		localisation_key = estate_clergy_elemental
 		trigger = {
-            religion_group = religion_group_elemental
+            religion_group = elemental_group
+		}
+	}
+    text = {
+		localisation_key = estate_clergy_death
+		trigger = {
+            religion_group = death_group
 		}
 	}
     
@@ -118,18 +130,6 @@ defined_text = {
 		localisation_key = estate_traders_workers
 		trigger = {
             tag = STW
-		}
-	}
-	text = {
-		localisation_key = estate_traders_merchants
-		trigger = {
-            is_merchant = yes
-		}
-	}
-    text = {
-		localisation_key = estate_traders_plebs
-		trigger = {
-            is_lesser = yes
 		}
 	}
     text = {
@@ -158,18 +158,6 @@ defined_text = {
             tag = STW
 		}
 	}
-	text = {
-		localisation_key = estate_traders_merchants
-		trigger = {
-            is_merchant = yes
-		}
-	}
-    text = {
-		localisation_key = estate_traders_plebs
-		trigger = {
-            is_lesser = yes
-		}
-	}
     text = {
 		localisation_key = estate_traders_ancients
 		trigger = {
@@ -193,19 +181,19 @@ defined_text = {
 	text = {
 		localisation_key = estate_nobility_old_gods
 		trigger = {
-            religion = religion_old_gods
+            is_old_god_religion = yes 
 		}
 	}
     text = {
 		localisation_key = estate_nobility_fel
 		trigger = {
-            religion = religion_fel
+            religion = fel
 		}
 	}
 	text = {
 		localisation_key = estate_nobility_dragonkin
 		trigger = {
-            culture_group = culture_group_dragonkin
+            is_dragon_culture_group = yes
 		}
 	}
     text = {
@@ -243,19 +231,19 @@ defined_text = {
 	text = {
 		localisation_key = estate_nobility_old_gods
 		trigger = {
-            religion = religion_old_gods
+            is_old_god_religion = yes 
 		}
 	}
     text = {
 		localisation_key = estate_nobility_fel
 		trigger = {
-            religion = religion_fel
+            religion = fel
 		}
 	}
 	text = {
 		localisation_key = estate_nobility_dragonkin
 		trigger = {
-            culture_group = culture_group_dragonkin
+            is_dragon_culture_group = yes
 		}
 	}
     text = {

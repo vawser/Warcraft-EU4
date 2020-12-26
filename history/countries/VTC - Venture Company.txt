@@ -1,0 +1,62 @@
+technology_group = tech_goblin
+government = republic
+add_government_reform = mercantile_republic_reform
+primary_culture = venture_company
+religion = avarice
+
+capital = 5521
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Detzert"
+        dynasty = "Sandcoil"
+        adm = 2
+        dip = 2
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Nizbeenzart"
+        dynasty = "Cogclamp"
+        adm = 5
+        dip = 3
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Kashqild"
+        dynasty = "Blandmine"
+        adm = 5
+        dip = 0
+        mil = 4
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Vomiert"
+        dynasty = "Barrendust"
+        adm = 2
+        dip = 5
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Exinkle"
+        dynasty = "Cheapbead"
+        adm = 0
+        dip = 4
+        mil = 1
+    }
+}

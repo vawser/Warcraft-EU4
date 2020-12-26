@@ -1,0 +1,270 @@
+#------------------------------------
+# Order
+#------------------------------------
+order_group = {
+	defender_of_faith = no
+	can_form_personal_unions = yes
+	
+	flags_with_emblem_percentage = 0
+	flag_emblem_index_range = { 1 1 }
+    
+    crusade_name = CRUSADE
+    
+    arcane = {
+		color = { 102 146 227 }
+		icon = 8
+		
+		country = {
+            advisor_cost = -0.1
+			advisor_pool = 1
+		}
+		
+		has_patriarchs = yes
+		
+		orthodox_icons = {
+            # Order
+            spec_arcane = {
+				improve_relation_modifier = 0.1
+                
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+
+			spec_frost = {
+				hostile_attrition = 2
+				
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+
+			spec_fire = {
+				fire_damage = 0.05
+                
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+            
+            # Disorder
+			spec_affliction = {
+				siege_ability = 0.2
+				yearly_patriarch_authority = -0.02
+                
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+
+			spec_destruction = {
+				shock_damage = 0.2
+				yearly_patriarch_authority = -0.02
+				
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+
+			spec_demonology = {
+				yearly_corruption = -0.05
+				yearly_patriarch_authority = -0.01
+				
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+
+			spec_havoc = {
+				core_creation = -0.1
+				yearly_patriarch_authority = -0.03
+				
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+
+			spec_vengeance = {
+				years_of_nationalism = -10
+				yearly_patriarch_authority = -0.02
+				
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+				}
+			}
+		}
+		
+		on_convert = {
+			change_religion = arcane
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+	}
+    
+    azshara = {
+		color = { 50 20 100 }
+		icon = 28
+		
+		country = {
+			shock_damage = 0.1
+            naval_forcelimit_modifier = 0.1
+		}
+        
+        on_convert = {
+			change_religion = azshara
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+	}
+    
+    titan_worship = {
+		color = { 253 204 09 }
+		icon = 15
+		
+		country = {
+            governing_capacity_modifier = 0.1
+			defensiveness = 0.33
+		}
+		
+		holy_sites = { 728 1514 1573 1968 2509 } # Ulduar - Chamber of Heart - Uldum - Uldaman - Uldir
+		
+		blessings = {
+			titan_gift_of_the_stone
+			titan_cosmic_knowledge
+			titan_protectors_of_history
+			titan_life_binding
+			titan_master_of_magic
+		}
+		
+		on_convert = {
+			change_religion = titan_worship
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}				
+		}
+	}
+	
+	corrupt_titan_worship = {
+		color = { 225 215 09 }
+		icon = 27
+		
+		country = {
+			country_military_power = 1
+            yearly_absolutism = 0.5
+		}
+        
+		holy_sites = { 728 1514 1573 1968 2509 } # Ulduar - Chamber of Heart - Uldum - Uldaman - Uldir
+		
+		blessings = {
+			corrupt_titan_the_dark_heart
+			corrupt_titan_cosmic_knowledge
+			corrupt_titan_protectors_of_history
+			corrupt_titan_breath_of_death
+			corrupt_titan_master_of_magic
+		}
+		
+		on_convert = {
+			change_religion = corrupt_titan_worship
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}				
+		}
+	}
+	
+	mystery_of_the_makers = {
+		color = { 0.33 0.33 0.33 }
+		icon = 15
+		
+		country = {
+			prestige = 1
+		}
+		country_as_secondary = {
+			prestige = 1
+		}
+	}
+    
+    dragon_aspects = {
+        color = { 213 114 96 }
+		icon = 22
+		
+		hre_religion = yes
+        
+		country = {
+            prestige = 1
+            ae_impact = -0.1
+		}
+        
+        on_convert = {
+			change_religion = dragon_aspects
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+    }
+    
+    runic = {
+		color = { 80 52 33 }
+		icon = 26
+		
+		country = {
+            discipline = 0.05
+			reserves_organisation = 0.2
+		}
+        province = {
+            local_missionary_strength = 0.01
+        }
+        
+        fervor = yes
+        
+		on_convert = {
+			change_religion = runic
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+	}
+}

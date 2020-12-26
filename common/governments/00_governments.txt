@@ -12,8 +12,6 @@ monarchy = {
                 autocracy_reform
                 feudalism_reform
                 ancient_kingdom_reform
-                horde_reform
-                alliance_reform
                 scourge_reform
                 admiralty_reform
                 kingdom_of_magic_reform
@@ -84,14 +82,11 @@ monarchy = {
         autocracy_legacy
         feudalism_legacy
         ancient_kingdom_legacy
-        horde_legacy
-        alliance_legacy
         scourge_legacy
         admiralty_legacy
         kingdom_of_magic_legacy
         naga_domain_legacy
         scourge_domain_legacy
-        remnants_monarchy_legacy
         dragonflight_brood_legacy
     }
 }
@@ -110,11 +105,11 @@ republic = {
                 noble_republic_reform
                 mercantile_republic_reform
                 despotic_republic_reform
-                ancient_republic_reform
                 magocracy_reform
                 free_city_reform
                 trading_city_reform
                 colonial_government_reform
+                tinker_republic_reform
 			}
 		}
         tier_republic_republican_virtues = {
@@ -188,12 +183,11 @@ republic = {
         noble_republic_legacy
         mercantile_republic_legacy
         despotic_republic_legacy
-        ancient_republic_legacy
         magocracy_legacy
         free_city_legacy
         trading_city_legacy
         colonial_government_legacy
-        remnants_republic_legacy
+        tinker_republic_legacy
     }
 }
 
@@ -211,11 +205,10 @@ theocracy = {
                 theocracy_reform
                 monastic_order_reform
                 ancient_theocracy_reform
-                scarlet_crusade_reform
-                argent_crusade_reform
                 demonic_order_reform
                 druidic_circle_reform
                 elemental_cult_reform
+                shadow_cult_reform
 			}
 		}
         tier_theocracy_internal_vs_external_mission = {
@@ -284,12 +277,10 @@ theocracy = {
         theocracy_legacy
         monastic_order_legacy
         ancient_theocracy_legacy
-        scarlet_crusade_legacy
-        argent_crusade_legacy
         demonic_order_legacy
         druidic_circle_legacy
-        remnants_theocracy_legacy
         elemental_cult_legacy
+        shadow_cult_legacy
     }
 }
 
@@ -307,10 +298,6 @@ tribal = {
                 warband_reform
                 tribal_federation_reform
                 tribal_despotism_reform
-                ancient_clan_reform
-                primitive_clan_reform
-                expeditionary_force_reform
-                criminal_organization_reform
 			}
 		}
         tier_tribal_cultural_values = {
@@ -348,11 +335,6 @@ tribal = {
         warband_legacy
         tribal_federation_legacy
         tribal_despotism_legacy
-        ancient_clan_legacy
-        primitive_clan_legacy
-        expeditionary_force_legacy
-        criminal_organization_legacy
-        remnants_tribe_legacy
     }
 }
 
@@ -368,14 +350,12 @@ native = {
         tier_native_government_form = {
 			reforms = {
                 native_tribe_reform
-                primitive_tribe_reform
 			}
 		}
     }
     
 	legacy_government = {
 		native_tribe_legacy
-        primitive_tribe_legacy
 	}
 }
 

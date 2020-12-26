@@ -1,0 +1,76 @@
+technology_group = tech_high_elf
+government = monarchy
+add_government_reform = kingdom_of_magic_reform
+government_rank = 8
+primary_culture = quelthalas
+religion = arcane
+
+capital = 4210
+
+# The First War
+592.1.1 = {
+    monarch = {
+		name = "Anasterian"
+		dynasty = "Sunstrider"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	
+	heir = {
+		name = "Kael'Thas"
+		monarch_name = "Kael'Thas"
+		dynasty = "Sunstrider"
+		birth_date = 536.1.1
+		death_date = 906.1.1
+		claim = 100
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+	
+	leader = {
+		name = "Aristan Windrunner"
+		type = general
+		
+		fire = 4
+		shock = 3
+		manuever = 2
+		siege = 4
+		death_date = 816.1.1
+	}
+    
+    leader = {
+		name = "Sylvanas Windrunner"
+		type = general
+		
+		fire = 4
+		shock = 5
+		manuever = 5
+		siege = 3
+		death_date = 906.1.1
+	}
+	
+	leader = {
+		name = "Lor'Themar Theron"
+		type = general
+		
+		fire = 2
+		shock = 3
+		manuever = 3
+		siege = 5
+		death_date = 906.1.1
+	}
+	
+	leader = {
+		name = "Halduron Brightwing"
+		type = general
+		
+		fire = 4
+		shock = 3
+		manuever = 3
+		siege = 1
+		death_date = 906.1.1
+	}
+}
+

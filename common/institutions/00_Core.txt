@@ -2,7 +2,7 @@
 # Civic Code
 #-----------------------------------------------------------------------------
 civic_code = {
-    historical_start_date = 546.1.1
+    historical_start_date = 592.1.1
 	historical_start_province = 1022
 	
 	penalty = 0.05
@@ -11,24 +11,10 @@ civic_code = {
 		global_tax_modifier = 0.1
 	}
 	history = {
-		OR = {
-			AND = {
-				is_year = 546
-				owner = {
-					NOT = { government = tribal }
-					NOT = { government = native }
-				}
-			}
-			AND = {
-				is_year = 600
-				owner = {
-					OR = { 
-						government = tribal
-						government = native 
-					}
-				}
-			}
-		}
+		owner = {
+            NOT = { government = tribal }
+            NOT = { government = native }
+        }
 	}
 	
 	can_embrace = {
@@ -86,11 +72,11 @@ civic_code = {
 }
 
 #-----------------------------------------------------------------------------
-# inst_demonology
+# Demonology
 #-----------------------------------------------------------------------------
 inst_demonology = {
-    historical_start_date = 550.1.1
-	historical_start_province = 1593 # Throne of Kil'jaedan
+    historical_start_date = 600.1.1
+	historical_start_province = 1 # Throne of Kil'jaedan
 	
 	penalty = 0.05
     
@@ -98,37 +84,11 @@ inst_demonology = {
 		leader_land_fire = 1
 	}
 	history = {
-		OR = {
-			AND = {
-				is_year = 550
-				owner = {
-					OR = {
-						culture_group = culture_group_orc
-						culture_group = culture_group_demonic
-						religion = religion_fel
-					}
-				}
-			}
-			AND = {
-				is_year = 575
-				owner = {
-					OR = {
-						culture_group = culture_group_orc
-						culture_group = culture_group_demonic
-						culture_group = culture_group_ogre
-						culture_group = culture_group_jungle_troll
-						religion = religion_fel
-						religion = religion_arcane
-					}
-				}
-			}
-			is_year = 600
-		}
+		always = no
 	}
 	
     can_start = {
-		is_year = 550
-		#continent = continent_outland
+		is_year = 600
 		is_state = yes
 		is_island = no
 		OR = {
@@ -217,11 +177,10 @@ inst_demonology = {
 			potential = {   
                 owner = {
                     OR = {
-                        primary_culture = culture_iron
-                        primary_culture = culture_frostborn
-                        primary_culture = culture_ironforge
-                        primary_culture = culture_wildhammer
-                        primary_culture = culture_dark_iron
+                        culture_group = earthen_group
+                        culture_group = dwarf_group
+                        culture_group = hill_dwarf_group
+                        culture_group = dark_iron_dwarf_group
                     }
                 }
 			}
@@ -235,14 +194,9 @@ inst_demonology = {
 			scale = yes
 			potential = {
                 owner = {
-                OR = {
-                        primary_culture = culture_gnome
-                        primary_culture = culture_mecha_gnome
-                        primary_culture = culture_kezani
-                        primary_culture = culture_bilgewater
-                        primary_culture = culture_steamwheedle
-                        primary_culture = culture_venture
-                        primary_culture = culture_blackwater
+                    OR = {
+                        culture_group = goblin_group
+                        culture_group = gnome_group
                     }
                 }
 			}
@@ -256,10 +210,12 @@ inst_demonology = {
 			scale = yes
 			potential = {
                 owner = {
-                OR = {
-                       culture_group = culture_group_tauren
-                       culture_group = culture_group_darnassian
-                       culture_group = culture_group_thalassian
+                    OR = {
+                       culture_group = kalimdor_tauren_group
+                       culture_group = highmountain_tauren_group
+                       culture_group = night_elf_group
+                       culture_group = nightborne_group
+                       culture_group = high_elf_group
                     }
                 }
 			}
@@ -301,7 +257,7 @@ inst_demonology = {
 #-----------------------------------------------------------------------------
 clockwerk_engineering = {
     historical_start_date = 650.1.1
-	historical_start_province = 3038
+	historical_start_province = 1
 	
 	penalty = 0.05
     
@@ -310,18 +266,7 @@ clockwerk_engineering = {
         shock_damage_received = -0.15
 	}
 	history = {
-		OR = {
-			AND = {
-				is_year = 650
-						culture_group = culture_group_gnomish
-			}
-			AND = {
-				is_year = 700
-					NOT = {
-						culture_group = culture_group_gnomish
-					}
-			}
-		}
+		always = no
 	}
     
     can_start = {
@@ -414,11 +359,10 @@ clockwerk_engineering = {
 			potential = {   
                 owner = {
                     OR = {
-                        primary_culture = culture_iron
-                        primary_culture = culture_frostborn
-                        primary_culture = culture_ironforge
-                        primary_culture = culture_wildhammer
-                        primary_culture = culture_dark_iron
+                        culture_group = earthen_group
+                        culture_group = dwarf_group
+                        culture_group = hill_dwarf_group
+                        culture_group = dark_iron_dwarf_group
                     }
                 }
 			}
@@ -432,14 +376,9 @@ clockwerk_engineering = {
 			scale = yes
 			potential = {
                 owner = {
-                OR = {
-                        primary_culture = culture_gnome
-                        primary_culture = culture_mecha_gnome
-                        primary_culture = culture_kezani
-                        primary_culture = culture_bilgewater
-                        primary_culture = culture_steamwheedle
-                        primary_culture = culture_venture
-                        primary_culture = culture_blackwater
+                    OR = {
+                        culture_group = goblin_group
+                        culture_group = gnome_group
                     }
                 }
 			}
@@ -453,10 +392,12 @@ clockwerk_engineering = {
 			scale = yes
 			potential = {
                 owner = {
-                OR = {
-                       culture_group = culture_group_tauren
-                       culture_group = culture_group_darnassian
-                       culture_group = culture_group_thalassian
+                    OR = {
+                       culture_group = kalimdor_tauren_group
+                       culture_group = highmountain_tauren_group
+                       culture_group = night_elf_group
+                       culture_group = nightborne_group
+                       culture_group = high_elf_group
                     }
                 }
 			}
@@ -498,7 +439,7 @@ clockwerk_engineering = {
 #-----------------------------------------------------------------------------
 boomsticks = {
     historical_start_date = 700.1.1
-	historical_start_province = 3048
+	historical_start_province = 1
 	
 	penalty = 0.05
     
@@ -507,44 +448,7 @@ boomsticks = {
         fire_damage_received = -0.15
 	}
 	history = {
-        owner = {
-			OR = {
-				AND = {
-					is_year = 700
-					OR = {
-						primary_culture = culture_iron
-						primary_culture = culture_frostborn
-						primary_culture = culture_ironforge
-						primary_culture = culture_wildhammer
-						primary_culture = culture_dark_iron
-						primary_culture = culture_gnome
-						primary_culture = culture_mecha_gnome
-						primary_culture = culture_kezani
-						primary_culture = culture_bilgewater
-						primary_culture = culture_steamwheedle
-						primary_culture = culture_venture
-						primary_culture = culture_blackwater
-					}
-				}
-				AND = {
-					is_year = 750
-					NOT = {
-						primary_culture = culture_iron
-						primary_culture = culture_frostborn
-						primary_culture = culture_ironforge
-						primary_culture = culture_wildhammer
-						primary_culture = culture_dark_iron
-						primary_culture = culture_gnome
-						primary_culture = culture_mecha_gnome
-						primary_culture = culture_kezani
-						primary_culture = culture_bilgewater
-						primary_culture = culture_steamwheedle
-						primary_culture = culture_venture
-						primary_culture = culture_blackwater
-					}
-			}
-			}
-        }
+		always = no
 	}
     
     can_start = {
@@ -637,11 +541,10 @@ boomsticks = {
 			potential = {   
                 owner = {
                     OR = {
-                        primary_culture = culture_iron
-                        primary_culture = culture_frostborn
-                        primary_culture = culture_ironforge
-                        primary_culture = culture_wildhammer
-                        primary_culture = culture_dark_iron
+                        culture_group = earthen_group
+                        culture_group = dwarf_group
+                        culture_group = hill_dwarf_group
+                        culture_group = dark_iron_dwarf_group
                     }
                 }
 			}
@@ -655,14 +558,9 @@ boomsticks = {
 			scale = yes
 			potential = {
                 owner = {
-                OR = {
-                        primary_culture = culture_gnome
-                        primary_culture = culture_mecha_gnome
-                        primary_culture = culture_kezani
-                        primary_culture = culture_bilgewater
-                        primary_culture = culture_steamwheedle
-                        primary_culture = culture_venture
-                        primary_culture = culture_blackwater
+                    OR = {
+                        culture_group = goblin_group
+                        culture_group = gnome_group
                     }
                 }
 			}
@@ -676,10 +574,12 @@ boomsticks = {
 			scale = yes
 			potential = {
                 owner = {
-                OR = {
-                       culture_group = culture_group_tauren
-                       culture_group = culture_group_darnassian
-                       culture_group = culture_group_thalassian
+                    OR = {
+                       culture_group = kalimdor_tauren_group
+                       culture_group = highmountain_tauren_group
+                       culture_group = night_elf_group
+                       culture_group = nightborne_group
+                       culture_group = high_elf_group
                     }
                 }
 			}
@@ -721,7 +621,7 @@ boomsticks = {
 #-----------------------------------------------------------------------------
 oil_extraction = {
     historical_start_date = 750.1.1
-	historical_start_province = 1098
+	historical_start_province = 1
 	
 	penalty = 0.05
     
@@ -729,24 +629,7 @@ oil_extraction = {
         naval_attrition = -0.25
 	}
 	history = {
-        owner = {
-			OR = {
-				AND = {
-					is_year = 750
-						OR = {
-							culture_group = culture_group_goblin
-							culture_group = culture_group_gnomish
-						}
-				}
-				AND = {
-					is_year = 800
-						NOT = {
-							culture_group = culture_group_goblin
-							culture_group = culture_group_gnomish
-						}
-				}
-			}
-        }
+		always = no
 	}
     
     can_start = {
@@ -839,11 +722,10 @@ oil_extraction = {
 			potential = {   
                 owner = {
                     OR = {
-                        primary_culture = culture_iron
-                        primary_culture = culture_frostborn
-                        primary_culture = culture_ironforge
-                        primary_culture = culture_wildhammer
-                        primary_culture = culture_dark_iron
+                        culture_group = earthen_group
+                        culture_group = dwarf_group
+                        culture_group = hill_dwarf_group
+                        culture_group = dark_iron_dwarf_group
                     }
                 }
 			}
@@ -857,14 +739,9 @@ oil_extraction = {
 			scale = yes
 			potential = {
                 owner = {
-                OR = {
-                        primary_culture = culture_gnome
-                        primary_culture = culture_mecha_gnome
-                        primary_culture = culture_kezani
-                        primary_culture = culture_bilgewater
-                        primary_culture = culture_steamwheedle
-                        primary_culture = culture_venture
-                        primary_culture = culture_blackwater
+                    OR = {
+                        culture_group = goblin_group
+                        culture_group = gnome_group
                     }
                 }
 			}
@@ -878,10 +755,12 @@ oil_extraction = {
 			scale = yes
 			potential = {
                 owner = {
-                OR = {
-                       culture_group = culture_group_tauren
-                       culture_group = culture_group_darnassian
-                       culture_group = culture_group_thalassian
+                    OR = {
+                       culture_group = kalimdor_tauren_group
+                       culture_group = highmountain_tauren_group
+                       culture_group = night_elf_group
+                       culture_group = nightborne_group
+                       culture_group = high_elf_group
                     }
                 }
 			}
@@ -923,7 +802,7 @@ oil_extraction = {
 #-----------------------------------------------------------------------------
 mechanical_constructs = {
     historical_start_date = 800.1.1
-	historical_start_province = 941
+	historical_start_province = 1
 	
 	penalty = 0.05
     
@@ -932,24 +811,7 @@ mechanical_constructs = {
         build_time = -0.25
 	}
 	history = {
-        owner = {
-			OR = {
-				AND = {
-					is_year = 800
-						OR = {
-							culture_group = culture_group_goblin
-							culture_group = culture_group_gnomish
-						}
-				}
-				AND = {
-					is_year = 850
-						NOT = {
-							culture_group = culture_group_goblin
-							culture_group = culture_group_gnomish
-						}
-				}
-			}
-        }
+		always = no
 	}
     
     can_start = {
@@ -1042,11 +904,10 @@ mechanical_constructs = {
 			potential = {   
                 owner = {
                     OR = {
-                        primary_culture = culture_iron
-                        primary_culture = culture_frostborn
-                        primary_culture = culture_ironforge
-                        primary_culture = culture_wildhammer
-                        primary_culture = culture_dark_iron
+                        culture_group = earthen_group
+                        culture_group = dwarf_group
+                        culture_group = hill_dwarf_group
+                        culture_group = dark_iron_dwarf_group
                     }
                 }
 			}
@@ -1060,14 +921,9 @@ mechanical_constructs = {
 			scale = yes
 			potential = {
                 owner = {
-                OR = {
-                        primary_culture = culture_gnome
-                        primary_culture = culture_mecha_gnome
-                        primary_culture = culture_kezani
-                        primary_culture = culture_bilgewater
-                        primary_culture = culture_steamwheedle
-                        primary_culture = culture_venture
-                        primary_culture = culture_blackwater
+                    OR = {
+                        culture_group = goblin_group
+                        culture_group = gnome_group
                     }
                 }
 			}
@@ -1081,10 +937,12 @@ mechanical_constructs = {
 			scale = yes
 			potential = {
                 owner = {
-                OR = {
-                       culture_group = culture_group_tauren
-                       culture_group = culture_group_darnassian
-                       culture_group = culture_group_thalassian
+                    OR = {
+                       culture_group = kalimdor_tauren_group
+                       culture_group = highmountain_tauren_group
+                       culture_group = night_elf_group
+                       culture_group = nightborne_group
+                       culture_group = high_elf_group
                     }
                 }
 			}
@@ -1126,7 +984,7 @@ mechanical_constructs = {
 #-----------------------------------------------------------------------------
 pneumatics = {
     historical_start_date = 850.1.1
-	historical_start_province = 1097
+	historical_start_province = 1
 	
 	penalty = 0.05
     
@@ -1136,24 +994,7 @@ pneumatics = {
 	}
 	
 	history = {
-        owner = {
-			OR = {
-				AND = {
-					is_year = 750
-						OR = {
-							culture_group = culture_group_goblin
-							culture_group = culture_group_gnomish
-						}
-				}
-				AND = {
-					is_year = 800
-						NOT = {
-							culture_group = culture_group_goblin
-							culture_group = culture_group_gnomish
-						}
-				}
-			}
-        }
+		always = no
 	}
     
     can_start = {
@@ -1246,11 +1087,10 @@ pneumatics = {
 			potential = {   
                 owner = {
                     OR = {
-                        primary_culture = culture_iron
-                        primary_culture = culture_frostborn
-                        primary_culture = culture_ironforge
-                        primary_culture = culture_wildhammer
-                        primary_culture = culture_dark_iron
+                        culture_group = earthen_group
+                        culture_group = dwarf_group
+                        culture_group = hill_dwarf_group
+                        culture_group = dark_iron_dwarf_group
                     }
                 }
 			}
@@ -1264,14 +1104,9 @@ pneumatics = {
 			scale = yes
 			potential = {
                 owner = {
-                OR = {
-                        primary_culture = culture_gnome
-                        primary_culture = culture_mecha_gnome
-                        primary_culture = culture_kezani
-                        primary_culture = culture_bilgewater
-                        primary_culture = culture_steamwheedle
-                        primary_culture = culture_venture
-                        primary_culture = culture_blackwater
+                    OR = {
+                        culture_group = goblin_group
+                        culture_group = gnome_group
                     }
                 }
 			}
@@ -1285,10 +1120,12 @@ pneumatics = {
 			scale = yes
 			potential = {
                 owner = {
-                OR = {
-                       culture_group = culture_group_tauren
-                       culture_group = culture_group_darnassian
-                       culture_group = culture_group_thalassian
+                    OR = {
+                       culture_group = kalimdor_tauren_group
+                       culture_group = highmountain_tauren_group
+                       culture_group = night_elf_group
+                       culture_group = nightborne_group
+                       culture_group = high_elf_group
                     }
                 }
 			}

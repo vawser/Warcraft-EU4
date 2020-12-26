@@ -1,0 +1,35 @@
+technology_group = tech_scourge
+government = monarchy
+add_government_reform = scourge_reform
+government_rank = 10
+primary_culture = scourge
+religion = cult_of_the_damned
+
+capital = 1
+
+add_country_modifier = {
+    name = taint_of_evil
+    duration = -1
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+		name = "Ner'zhul"
+		dynasty = "Shadowmoon" 	
+		adm = 6
+		dip = 5	
+		mil = 1	
+	}
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+		name = "Arthas" 
+		dynasty = "Menethil" 	
+		adm = 5
+		dip = 3
+		mil = 6
+	}  
+}

@@ -1,0 +1,18 @@
+technology_group = tech_demonic
+government = theocracy
+add_government_reform = demonic_order_reform
+primary_culture = demon
+religion = fel
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = { 
+		name = "Archimonde" 
+		dynasty = "the Defiler" 
+		adm = 4
+		dip = 3
+		mil = 6
+	} 
+}

@@ -82,7 +82,7 @@ country_event = {
 						}
 					}
 				}
-				culture_group = culture_group_ogre
+				culture_group = ogre_group
 				capital_scope = {
 					continent = continent_outland
 				}
@@ -174,8 +174,8 @@ country_event = {
 
             cede_province = A43
             add_core = A43
-            change_culture = culture_twilights_hammer
-            change_religion = religion_fel
+            change_culture = twilights_hammer
+            change_religion = fel
         }
         
         hidden_effect = {
@@ -327,7 +327,7 @@ country_event = {
         # MAP #
         # area_stormwind = {
 			# owner = {
-				# culture_group = culture_group_orc
+				# culture_group = orc_group
 			# }
         # }
 	}

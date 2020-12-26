@@ -1,0 +1,38 @@
+technology_group = tech_orc
+government = tribal
+add_government_reform = warband_reform
+government_rank = 3
+primary_culture = blackrock
+religion = fel
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = { 
+		name = "Blackhand" 
+		dynasty = "the Warchief" 
+		adm = 3
+		dip = 3
+		mil = 5
+ 	}
+    heir = { 
+		name = "Rend" 
+		dynasty = "Blackhand" 
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+# Second War
+596.1.1 = {
+    monarch = { 
+		name = "Orgrim" 
+		dynasty = "Doomhammer" 
+		adm = 4
+		dip = 5
+		mil = 5   
+	}
+}
+

@@ -179,11 +179,3 @@ same_region = {
 		}
 	}
 }
-
-is_invader = {
-	OR = {
-		is_underwater = yes
-		tag = B92
-		technology_group = tech_elemental
-	}
-}

@@ -1,0 +1,62 @@
+technology_group = tech_pandaren
+government = theocracy
+add_government_reform = monastic_order_reform
+primary_culture = pandaren
+religion = celestials
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Bohai"
+        dynasty = "Airbrew"
+        adm = 2
+        dip = 1
+        mil = 4
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Bingwen"
+        dynasty = "Thunderpaw"
+        adm = 5
+        dip = 5
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Jianhong"
+        dynasty = "Rainbrew"
+        adm = 1
+        dip = 2
+        mil = 1
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Jin"
+        dynasty = "Airsoil"
+        adm = 2
+        dip = 3
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Lei"
+        dynasty = "Cloudclaw"
+        adm = 0
+        dip = 5
+        mil = 0
+    }
+}

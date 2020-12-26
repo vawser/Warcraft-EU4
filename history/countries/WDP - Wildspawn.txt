@@ -1,0 +1,62 @@
+technology_group = tech_satyr
+government = tribal
+add_government_reform = warband_reform
+primary_culture = wildspawn
+religion = fel
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Dakkelxis"
+        dynasty = "the Quick"
+        adm = 5
+        dip = 2
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Thaoretis"
+        dynasty = "the Punchy"
+        adm = 3
+        dip = 4
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Izarcae"
+        dynasty = "the Giant"
+        adm = 2
+        dip = 5
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Bazalsri"
+        dynasty = "the Furious"
+        adm = 3
+        dip = 1
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Delri"
+        dynasty = "the Sly"
+        adm = 5
+        dip = 4
+        mil = 0
+    }
+}

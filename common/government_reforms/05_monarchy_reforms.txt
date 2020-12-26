@@ -72,7 +72,7 @@ wwu_azerothian_traders_reform = {
 	allow_normal_conversion = yes
     
 	potential = {
-		culture_group = culture_group_human
+		is_human_culture_group = yes
 	}
     
 	modifiers = {
@@ -91,7 +91,7 @@ wwu_druidic_syncretism_reform = {
     
 	potential = {
 		any_owned_province = {
-            religion = religion_druidic
+            religion = druidism
         }
 	}
     
@@ -111,9 +111,9 @@ wwu_elvish_nobles_reform = {
     
 	potential = {
 		OR = {
-            primary_culture = culture_high_elf
-            primary_culture = culture_blood_elf
-            primary_culture = culture_void_elf
+            culture_group = high_elf_group
+            culture_group = blood_elf_group
+            culture_group = void_elf_group
         }
 	}
     
@@ -131,7 +131,7 @@ wwu_strength_of_the_vrykul_reform = {
 	allow_normal_conversion = yes
     
 	potential = {
-		culture_group = culture_group_vrykul
+		culture_group = vrykul_group
 	}
     
 	modifiers = {
@@ -148,7 +148,7 @@ wwu_draenei_society_reform = {
 	allow_normal_conversion = yes
     
 	potential = {
-		culture_group = culture_group_draenei
+		culture_group = draenei_group
 	}
     
 	modifiers = {
@@ -236,7 +236,7 @@ wwu_august_celestials_reform = {
 	allow_normal_conversion = yes
     
 	potential = {
-		culture_group = culture_group_pandaren
+		culture_group = pandaren_group
 	}
     
 	modifiers = {
@@ -313,7 +313,7 @@ wwu_meritocratic_focus_reform = {
 		modifier = {
 			factor = 0.1
 			estate_influence = {
-                estate = estate_merchants
+                estate = estate_traders
                 influence = 90
             }
 		}
@@ -325,7 +325,11 @@ wwu_dwarven_culture_reform = {
 	allow_normal_conversion = yes
     
 	potential = {
-		culture_group = culture_group_dwarven
+		OR = {
+            culture_group = dwarf_group
+            culture_group = hill_dwarf_group
+            culture_group = dark_iron_dwarf_group
+        }
 	}
     
 	modifiers = {
@@ -342,7 +346,10 @@ wwu_formalized_hoof_reform = {
 	allow_normal_conversion = yes
     
 	potential = {
-		culture_group = culture_group_tauren
+		OR = {
+            culture_group = kalimdor_tauren_group
+            culture_group = highmountain_tauren_group
+        }
 	}
     
 	modifiers = {

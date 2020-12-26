@@ -1,0 +1,317 @@
+# Icemist
+graphical_culture = westerngfx
+
+color = { 104 175 253 }
+monarch_names = {
+  "Totun" = 20
+  "Grunauk" = 20
+  "Toil" = 20
+  "Ahoak" = 20
+  "Taak" = 20
+  "Roaun" = 20
+  "Tashe" = 20
+  "Tohan" = 20
+  "Dorlu" = 20
+  "Junmak" = 20
+  "Tota" = 20
+  "Toan" = 20
+  "Roatun" = 20
+  "Orun" = 20
+  "Talu" = 20
+  "Akimul" = 20
+  "Roata" = 20
+  "Durshe" = 20
+  "Roaan" = 20
+  "Akiain" = 20
+  "Dorain" = 20
+  "Tomak" = 20
+  "Ahotun" = 20
+  "Durun" = 20
+  "Durta" = 20
+  "Grumul" = 20
+  "Juntun" = 20
+  "Akinauk" = 20
+  "Ahoil" = 20
+  "Akimak" = 20
+  "Torun" = 20
+  "Halak" = 20
+  "Tata" = 20
+  "Akishe" = 20
+  "Roalu" = 20
+  "Akiil" = 20
+  "Duran" = 20
+  "Ednauk" = 20
+  "Dormul" = 20
+  "Ahoshe" = 20
+  "Gruta" = 20
+  "Halhan" = 20
+  "Junta" = 20
+  "Orak" = 20
+  "Edmul" = 20
+  "Edta" = 20
+  "Toril" = 20
+  "Oran" = 20
+  "Torak" = 20
+  "Tonauk" = 20
+  "Dorun" = 20
+  "Roashe" = 20
+  "Grumak" = 20
+  "Torhan" = 20
+  "Taain" = 20
+  "Junmul" = 20
+  "Gruun" = 20
+  "Tormul" = 20
+  "Durak" = 20
+  "Orhan" = 20
+  "Grushe" = 20
+  "Dortun" = 20
+  "Ahota" = 20
+  "Junil" = 20
+  "Tatun" = 20
+  "Akihan" = 20
+  "Dorak" = 20
+  "Toain" = 20
+  "Durmul" = 20
+  "Junnauk" = 20
+  "Tail" = 20
+  "Gruil" = 20
+  "Ahoan" = 20
+  "Junhan" = 20
+  "Dornauk" = 20
+  "Torta" = 20
+  "Edain" = 20
+  "Ahonauk" = 20
+  "Durain" = 20
+  "Durlu" = 20
+  "Gruak" = 20
+  "Edun" = 20
+  "Akiak" = 20
+  "Junshe" = 20
+  "Tamak" = 20
+  "Edil" = 20
+  "Ormak" = 20
+  "Junlu" = 20
+  "Dorta" = 20
+  "Toshe" = 20
+  "Grulu" = 20
+  "Halan" = 20
+  "Torain" = 20
+  "Gruan" = 20
+  "Grutun" = 20
+  "Taun" = 20
+  "Orta" = 20
+  "Tornauk" = 20
+  "Hallu" = 20
+  "Edtun" = 20
+  "Haltun" = 20
+  "Gruhan" = 20
+  "Dorshe" = 20
+  "Ahomak" = 20
+  "Taan" = 20
+  "Doril" = 20
+  "Akiun" = 20
+  "Toran" = 20
+  "Roamul" = 20
+  "Tolu" = 20
+  "Halun" = 20
+  "Halil" = 20
+  "Halmul" = 20
+  "Ahomul" = 20
+  "Akian" = 20
+  "Ornauk" = 20
+  "Halta" = 20
+  "Torshe" = 20
+  "Durmak" = 20
+  "Torlu" = 20
+  "Edlu" = 20
+  "Edmak" = 20
+  "Tahan" = 20
+  "Toak" = 20
+  "Roanauk" = 20
+  "Roaain" = 20
+  "Doran" = 20
+  "Ortun" = 20
+  "Edan" = 20
+  "Tamul" = 20
+  "Ahoun" = 20
+  "Junan" = 20
+  "Ormul" = 20
+  "Toun" = 20
+  "Durhan" = 20
+  "Ahohan" = 20
+  "Tomul" = 20
+  "Gruain" = 20
+  "Durnauk" = 20
+  "Halmak" = 20
+  "Halnauk" = 20
+  "Junain" = 20
+  "Akita" = 20
+  "Tormak" = 20
+  "Oril" = 20
+  "Aholu" = 20
+  "Orshe" = 20
+  "Junak" = 20
+  "Edak" = 20
+  "Halain" = 20
+  "Durtun" = 20
+  "Duril" = 20
+  "Ahoain" = 20
+  "Edhan" = 20
+  "Dorhan" = 20
+  "Roamak" = 20
+  "Roaak" = 20
+  "Roail" = 20
+  "Orain" = 20
+  "Roahan" = 20
+}
+leader_names = {
+}
+ship_names = {
+  "Spiritcloud"
+  "Farseer"
+  "Whiteseer"
+  "Coldwhisper"
+  "Iceborn"
+  "Stormseer"
+  "Icebreeze"
+  "Ashgale"
+  "Snowfrost"
+  "Whiteborn"
+  "Chillflower"
+  "Frostfrost"
+  "Ashwhisper"
+  "Frozenborn"
+  "Stormborn"
+  "Icewhisper"
+  "Chillseer"
+  "Whiteflower"
+  "Frozenwind"
+  "Snowwhisper"
+  "Stormflower"
+  "Frostborn"
+  "Wintercloud"
+  "Fargale"
+  "Whitebreeze"
+  "Coldgale"
+  "Ashrunner"
+  "Snowhide"
+  "Winterseer"
+  "Stormgale"
+  "Whitehide"
+  "Iceseer"
+  "Spiritfury"
+  "Frozenflower"
+  "Winterfrost"
+  "Winterhide"
+  "Ashflower"
+  "Frozenseer"
+  "Icecloud"
+  "Frostwhisper"
+  "Snowwind"
+  "Winterrunner"
+  "Farrunner"
+  "Icerunner"
+  "Stormbreeze"
+  "Stormrunner"
+  "Chillwhisper"
+  "Spiritborn"
+  "Coldcloud"
+  "Farfury"
+  "Whitewind"
+  "Coldborn"
+  "Icehide"
+  "Stormfrost"
+  "Farbreeze"
+  "Iceflower"
+  "Coldhide"
+  "Whitegale"
+  "Chillcloud"
+  "Winterwhisper"
+  "Icewind"
+  "Chillborn"
+  "Coldseer"
+  "Frozenbreeze"
+  "Farflower"
+  "Chillgale"
+  "Icefury"
+  "Winterbreeze"
+  "Winterborn"
+  "Chillwind"
+  "Spiritwhisper"
+  "Stormcloud"
+  "Stormfury"
+  "Snowbreeze"
+  "Whiterunner"
+  "Frostrunner"
+  "Wintergale"
+  "Ashcloud"
+  "Frozenfury"
+  "Farwind"
+  "Winterwind"
+  "Snowgale"
+  "Snowcloud"
+  "Frostwind"
+  "Frozencloud"
+  "Snowfury"
+  "Whitefrost"
+  "Chillfrost"
+  "Whitefury"
+  "Farhide"
+  "Ashborn"
+  "Whitecloud"
+  "Farcloud"
+  "Chillrunner"
+  "Coldrunner"
+  "Frozenwhisper"
+  "Ashfury"
+  "Snowborn"
+  "Stormwhisper"
+  "Farwhisper"
+  "Ashfrost"
+  "Farborn"
+  "Ashseer"
+  "Frostseer"
+  "Spiritrunner"
+  "Spirithide"
+  "Coldfury"
+  "Coldflower"
+  "Snowrunner"
+  "Frosthide"
+  "Stormhide"
+  "Frozengale"
+  "Winterfury"
+  "Spiritflower"
+  "Frostfury"
+  "Ashwind"
+  "Icegale"
+  "Coldbreeze"
+  "Snowseer"
+  "Farfrost"
+  "Chillhide"
+  "Coldwind"
+  "Whitewhisper"
+  "Chillbreeze"
+  "Spiritseer"
+  "Spiritfrost"
+  "Chillfury"
+  "Frostflower"
+  "Frozenrunner"
+  "Frozenfrost"
+  "Spiritbreeze"
+  "Winterflower"
+  "Snowflower"
+  "Ashhide"
+  "Frostcloud"
+  "Frostgale"
+  "Stormwind"
+  "Ashbreeze"
+  "Spiritwind"
+  "Coldfrost"
+  "Spiritgale"
+}
+army_names = {
+	"Army of $PROVINCE$"
+}
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

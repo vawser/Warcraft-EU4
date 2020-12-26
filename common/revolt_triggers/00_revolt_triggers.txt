@@ -1,30 +1,17 @@
-# Frostmane Empire
-U01 = {
-    always = no
-}
-
-U02 = {
-    always = no
-}
-
-# The Scourge
-P11 = {
-    always = no
-}
-
-P52 = {
-    always = no
-}
-
-P12 = {
-    always = no
-}
-
-P13 = {
-    always = no
-}
-
-F21 = { 
-    always = no
-}
-
+# Formables
+X01 = { always = no }
+X02 = { always = no }
+X03 = { always = no }
+X04 = { always = no }
+X05 = { always = no }
+X06 = { always = no }
+X07 = { always = no }
+X08 = { always = no }
+X09 = { always = no }
+X10 = { always = no }
+X11 = { always = no }
+X12 = { always = no }
+X13 = { always = no }
+X14 = { always = no }
+X15 = { always = no }
+X16 = { always = no }

@@ -1,0 +1,20 @@
+technology_group = tech_red_dragonflight
+government = monarchy
+add_government_reform = dragonflight_brood_reform
+primary_culture = wyrmrest_temple
+religion = dragon_aspects
+
+capital = 7090
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Alexstrasza"
+        dynasty = "the Life-Binder"
+        adm = 4
+        dip = 5
+        mil = 3
+        female = yes
+    }
+}
+

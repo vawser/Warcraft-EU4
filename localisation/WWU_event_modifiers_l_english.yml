@@ -161,6 +161,12 @@
  chaos_reigns: "Chaos Reigns"
  desc_chaos_reigns: "Our once proud Arcane nation has succumbed to Fel influence."
  
+ taint_of_evil: "Taint of Evil"
+ desc_taint_of_evil: "Our nation is considered evil by others."
+ 
+ legendary_vitality: "Legendary Vitality"
+ desc_unusual_vitality: "This ruler is very long lived."
+ 
  #------------------------------------------------
  # Other
  #------------------------------------------------

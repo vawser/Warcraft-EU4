@@ -1,0 +1,55 @@
+#-----------------------------------------------
+# Light
+#-----------------------------------------------
+light_group = {
+	defender_of_faith = yes
+	can_form_personal_unions = yes
+	
+	flags_with_emblem_percentage = 0
+	flag_emblem_index_range = { 1 1 }
+	
+	crusade_name = CRUSADE
+    
+    the_holy_light = {
+		color = { 196 156 110 }
+		icon = 1
+		
+		country = {
+			tolerance_own = 1
+			global_tax_modifier = 0.2
+		}
+		
+		on_convert = {
+			change_religion = the_holy_light
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+	}
+    
+    light_of_the_naaru = {
+		color = { 114 207 15 }
+		icon = 21
+		
+		country = {
+			prestige = 1
+			global_unrest = -1
+		}
+
+		misguided_heretic = yes
+		
+		on_convert = {
+			change_religion = light_of_the_naaru
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+	}
+}
+

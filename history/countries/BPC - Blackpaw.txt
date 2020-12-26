@@ -1,0 +1,62 @@
+technology_group = tech_gnoll
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = blackpaw
+religion = shamanism
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Hiz"
+        dynasty = "Moldaxe"
+        adm = 2
+        dip = 2
+        mil = 0
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Sarkli"
+        dynasty = "Blotmeat"
+        adm = 3
+        dip = 0
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Eglozz"
+        dynasty = "Muttercrook"
+        adm = 1
+        dip = 3
+        mil = 5
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Brurg"
+        dynasty = "Crushcoat"
+        adm = 2
+        dip = 0
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Brig"
+        dynasty = "Trashfur"
+        adm = 2
+        dip = 2
+        mil = 0
+    }
+}

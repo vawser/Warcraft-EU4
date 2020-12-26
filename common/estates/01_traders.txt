@@ -8,13 +8,17 @@ estate_traders = {
     custom_name = {
         desc = estate_traders_workers
         trigger = {
-            tag = STW
+            tag = SRW
         }
     }
     custom_name = {
         desc = estate_traders_merchants
         trigger = {
-            is_merchant = yes
+            OR = {
+                culture_group = goblin_group
+                culture_group = ethereal_group
+                culture_group = grummle_group
+            }
         }
     }
     custom_name = {

@@ -1,0 +1,62 @@
+technology_group = tech_satyr
+government = tribal
+add_government_reform = warband_reform
+primary_culture = jadefire
+religion = fel
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Rinek"
+        dynasty = "the Sane"
+        adm = 1
+        dip = 1
+        mil = 4
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Xaali"
+        dynasty = "the Puncher"
+        adm = 4
+        dip = 2
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Vorri"
+        dynasty = "the Sage"
+        adm = 2
+        dip = 5
+        mil = 4
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Xislusor"
+        dynasty = "the Wise"
+        adm = 4
+        dip = 4
+        mil = 0
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Razeakon"
+        dynasty = "the Vast"
+        adm = 5
+        dip = 3
+        mil = 1
+    }
+}

@@ -158,16 +158,6 @@
  ancient_kingdom_legacy: "Ancient Kingdom"
  ancient_kingdom_legacy_desc: ""
  
- horde_reform: "The Horde"
- horde_reform_desc: ""
- horde_legacy: "The Horde"
- horde_legacy_desc: ""
- 
- alliance_reform: "The Alliance"
- alliance_reform_desc: ""
- alliance_legacy: "The Alliance"
- alliance_legacy_desc: ""
- 
  scourge_reform: "The Scourge"
  scourge_reform_desc: ""
  scourge_legacy: "The Scourge"
@@ -213,12 +203,7 @@
  despotic_republic_reform_desc: ""
  despotic_republic_legacy: "Despotic Republic"
  despotic_republic_legacy_desc: ""
- 
- ancient_republic_reform: "Ancient Republic"
- ancient_republic_reform_desc: ""
- ancient_republic_legacy: "Ancient Republic"
- ancient_republic_legacy_desc: ""
- 
+
  magocracy_reform: "Magocracy"
  magocracy_reform_desc: ""
  magocracy_legacy: "Magocracy"
@@ -306,16 +291,6 @@
  tribal_despotism_legacy: "Tribal Despotism"
  tribal_despotism_legacy_desc: ""
  
- ancient_clan_reform: "Ancient Clan"
- ancient_clan_reform_desc: ""
- ancient_clan_legacy: "Ancient Clan"
- ancient_clan_legacy_desc: ""
- 
- primitive_clan_reform: "Primitive Clan"
- primitive_clan_reform_desc: ""
- primitive_clan_legacy: "Primitive Clan"
- primitive_clan_legacy_desc: ""
- 
  expeditionary_force_reform: "Expeditionary Force"
  expeditionary_force_reform_desc: ""
  expeditionary_force_legacy: "Expeditionary Force"
@@ -331,11 +306,6 @@
  native_tribe_reform_desc: ""
  native_tribe_legacy: "Native Tribe"
  native_tribe_legacy_desc: ""
- 
- primitive_tribe_reform: "Primitive Tribe"
- primitive_tribe_reform_desc: ""
- primitive_tribe_legacy: "Primitive Tribe"
- primitive_tribe_legacy_desc: ""
  
  # Pirate
  pirate_kingdom_reform: "Pirate Kingdom"

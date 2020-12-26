@@ -1,0 +1,62 @@
+technology_group = tech_gnoll
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = palemane
+religion = shamanism
+
+capital = 5484
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Zahh"
+        dynasty = "Howlfang"
+        adm = 1
+        dip = 4
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Drandirg"
+        dynasty = "Blotchaser"
+        adm = 0
+        dip = 4
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Buzg"
+        dynasty = "Blotspear"
+        adm = 3
+        dip = 5
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Jegtag"
+        dynasty = "Mashcoat"
+        adm = 1
+        dip = 1
+        mil = 4
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Brildokk"
+        dynasty = "Barksnout"
+        adm = 4
+        dip = 0
+        mil = 2
+    }
+}

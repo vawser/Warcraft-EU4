@@ -1,0 +1,31 @@
+is_dragon_culture_group = {
+    OR = {
+        culture_group = red_dragonflight_group
+        culture_group = green_dragonflight_group
+        culture_group = black_dragonflight_group
+        culture_group = blue_dragonflight_group
+        culture_group = bronze_dragonflight_group
+    }
+}
+is_human_culture_group = {
+    OR = {
+        culture_group = azerothian_group
+        culture_group = gilnean_group
+        culture_group = kul_tiran_group
+        culture_group = arathi_group
+        culture_group = alteraci_group
+        culture_group = lordaeron_group
+        culture_group = arcane_group
+    }
+}
+is_troll_culture_group = {
+    OR = {
+        culture_group = forest_troll_group
+        culture_group = jungle_troll_group
+        culture_group = frost_troll_group
+        culture_group = sand_troll_group
+        culture_group = zandalari_troll_group
+        culture_group = blood_troll_group
+        culture_group = dark_troll_group
+    }
+}

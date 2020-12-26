@@ -146,17 +146,6 @@ on_battle_won_country = {
 # root = loser country, from = winner country
 on_battle_lost_country = {
 	#log = "[Root.GetName]: Triggered battle_lost_country"
-	# if = {
-		# limit = {
-			# was_faction_leaders_war = yes
-		# }
-		# overlord = {
-			# reverse_add_opinion = {
-				# who = PREV
-				# modifier = battle_is_lost
-			# }
-		# }
-	# }
 	events = {
         rise_of_the_horde.6
     }
@@ -230,17 +219,6 @@ on_siege_won_country = {
 # root = losing country, from = location
 on_siege_lost_country = {
 	#log = "[Root.GetName]: Triggered siege_lost_country"
-	if = {
-		limit = {
-			was_faction_leaders_war = yes
-		}
-		overlord = {
-			reverse_add_opinion = {
-				who = PREV
-				modifier = city_is_fallen
-			}
-		}
-	}
 }
 
 # province
@@ -351,7 +329,6 @@ on_death_election = {
 on_death_foreign_slave_ruler = {
 	#log = "[Root.GetName]: Triggered death_foreign_slave_ruler"
 	events = {
-		factions.3
 		council_government.1
 	}
 }
@@ -375,8 +352,6 @@ on_diplomatic_annex = {
 	#log = "[Root.GetName]: Triggered diplomatic_annex"
 	events = {
 		wwu_integration.1
-		factions.7
-		factions.8
 	}
 	change_variable = {
 		which = diplo_annexed_nation
@@ -652,10 +627,6 @@ on_integrate = {
 # FROM is the nation being annexed
 on_annexed = {
 	#log = "[Root.GetName]: Triggered annexed"
-	events = {
-		factions.7
-		factions.8
-	}
 	change_variable = {
 		which = annexed_nation
 		value = 1
@@ -1390,20 +1361,6 @@ on_province_owner_change = {
 		change_variable = {
 			which = provinces_gained
 			value = 1
-		}
-		
-	}
-	if = {
-		limit = {
-			FROM = { was_faction_leaders_war = yes }
-		}
-		FROM = { 
-			overlord = {
-				reverse_add_opinion = {
-					who = PREV
-					modifier = province_is_lost
-				}
-			}
 		}
 	}
 }

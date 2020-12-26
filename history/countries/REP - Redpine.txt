@@ -1,0 +1,62 @@
+technology_group = tech_gnoll
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = redpine
+religion = shamanism
+
+capital = 3505
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Gukler"
+        dynasty = "Blotskull"
+        adm = 1
+        dip = 5
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Eblarg"
+        dynasty = "Chompridge"
+        adm = 5
+        dip = 5
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Megle"
+        dynasty = "Tearback"
+        adm = 5
+        dip = 2
+        mil = 5
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Yappelt"
+        dynasty = "Tearback"
+        adm = 0
+        dip = 0
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Soc"
+        dynasty = "Tearpaw"
+        adm = 1
+        dip = 4
+        mil = 0
+    }
+}

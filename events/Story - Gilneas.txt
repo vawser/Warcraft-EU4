@@ -12,9 +12,9 @@ namespace = gilneas
 	# trigger = {
 		# current_age = the_second_war
 		# has_global_flag = the_third_war
-		# tag = A12 #Country is Gilneas
+		# tag = GIL #Country is Gilneas
 		# owns = 914
-		# exists = A08 #Lordaeron exists
+		# exists = LOR #Lordaeron exists
 		
 		# NOT = {
 			# 914 = {
@@ -43,9 +43,9 @@ namespace = gilneas
 			# limit = {
 				# NOT = { region = region_gilneas }
 			# }
-			# cede_province = A08
-			# add_core = A08
-			# remove_core = A12
+			# cede_province = LOR
+			# add_core = LOR
+			# remove_core = GIL
 		# }
 		
 		# 914 = {
@@ -72,9 +72,9 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = A12
+		tag = GIL
 		any_country = {
-			culture_group = culture_group_scourge
+			culture_group = scourge_group
 			war_score_against = {
 				who = ROOT
 				value = 10
@@ -103,7 +103,7 @@ country_event = {
 				ROOT = {
 					capital_scope = {
 						ROOT = {
-							worgen_inf_3a = PREV
+							infantry = PREV
 						}
 					}
 				}
@@ -129,7 +129,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = A12
+		tag = GIL
 	}
 	
 	mean_time_to_happen = {
@@ -154,7 +154,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		tag = A12
+		tag = GIL
 	}
 	
 	mean_time_to_happen = {
@@ -165,7 +165,6 @@ country_event = {
 		name = worgen_convert.opt1
 		
 		remove_country_modifier = curse_of_the_worgen
-		change_primary_culture = culture_gilnean_worgen
 		change_technology_group = tech_worgen
 	}
 }

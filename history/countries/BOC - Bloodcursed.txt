@@ -1,0 +1,62 @@
+technology_group = tech_naga
+government = monarchy
+add_government_reform = naga_domain_reform
+primary_culture = bloodcursed
+religion = azshara
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Sira'idra"
+        dynasty = "the Furious"
+        adm = 5
+        dip = 5
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Sheus"
+        dynasty = "the Enlightened"
+        adm = 0
+        dip = 5
+        mil = 4
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Faysar"
+        dynasty = "the Strong"
+        adm = 4
+        dip = 3
+        mil = 4
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Naztiz"
+        dynasty = "the Strong"
+        adm = 0
+        dip = 3
+        mil = 4
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Athaz"
+        dynasty = "the Tactful"
+        adm = 1
+        dip = 0
+        mil = 3
+    }
+}

@@ -1,0 +1,20 @@
+technology_group = tech_night_elf
+government = theocracy
+add_government_reform = monastic_order_reform
+government_rank = 4
+primary_culture = sentinels_of_auberdine
+religion = elune
+
+capital = 4804
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Dathnai"
+        dynasty = "Stormwater"
+        adm = 3
+        dip = 1
+        mil = 0
+        female = yes
+    }
+}

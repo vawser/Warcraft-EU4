@@ -20,7 +20,7 @@ gov_theocracy_blood_troll = {
 	
 	trigger = {
         has_reform = theocracy_reform
-        culture_group = culture_group_blood_troll
+        culture_group = blood_troll_group
 	}
 }
 gov_theocracy_naaru = {
@@ -44,7 +44,7 @@ gov_theocracy_naaru = {
 	
 	trigger = {
         has_reform = theocracy_reform
-        religion = religion_light_of_the_naaru
+        religion = light_of_the_naaru
 	}
 }
 gov_monastic_order_naaru = {
@@ -68,7 +68,7 @@ gov_monastic_order_naaru = {
 	
 	trigger = {
         has_reform = monastic_order_reform
-        religion = religion_light_of_the_naaru
+        religion = light_of_the_naaru
 	}
 }
 gov_ancient_theocracy_naaru = {
@@ -92,31 +92,7 @@ gov_ancient_theocracy_naaru = {
 	
 	trigger = {
         has_reform = ancient_theocracy_reform
-        religion = religion_light_of_the_naaru
-	}
-}
-gov_demonic_order_illidari = {
-	rank = {
-		1 = ILLIDARI_ORDER
-		2 = ILLIDARI_ORDER
-		3 = ILLIDARI_ORDER
-	}
-	
-	ruler_male = {
-		1 = LORD
-		2 = LORD
-		3 = LORD
-	}
-	
-	ruler_female = {
-		1 = LADY
-		2 = LADY
-		3 = LADY
-    }
-	
-	trigger = {
-        has_reform = demonic_order_reform
-        primary_culture = culture_illidari
+        religion = light_of_the_naaru
 	}
 }
 gov_elemental_cult_fire = {
@@ -140,7 +116,7 @@ gov_elemental_cult_fire = {
 	
 	trigger = {
         has_reform = elemental_cult_reform
-        religion = religion_fire
+        religion = fire
 	}
 }
 gov_elemental_cult_earth = {
@@ -164,7 +140,7 @@ gov_elemental_cult_earth = {
 	
 	trigger = {
         has_reform = elemental_cult_reform
-        religion = religion_earth
+        religion = earth
 	}
 }
 gov_elemental_cult_air = {
@@ -188,7 +164,7 @@ gov_elemental_cult_air = {
 	
 	trigger = {
         has_reform = elemental_cult_reform
-        religion = religion_air
+        religion = wind
 	}
 }
 gov_elemental_cult_air = {
@@ -212,7 +188,7 @@ gov_elemental_cult_air = {
 	
 	trigger = {
         has_reform = elemental_cult_reform
-        religion = religion_water
+        religion = water
 	}
 }
 gov_druidic_circle_cenarius = {
@@ -236,7 +212,7 @@ gov_druidic_circle_cenarius = {
 	
 	trigger = {
         has_reform = druidic_circle_reform
-        tag = A95
+        tag = CEN
 	}
 }
 
@@ -332,53 +308,7 @@ gov_ancient_theocracy_titan = {
 	
 	trigger = {
         has_reform = ancient_theocracy_reform
-        culture_group = culture_group_titan
-	}
-}
-gov_scarlet_crusade = {
-	rank = {
-		1 = SCARLET_CRUSADE
-		2 = SCARLET_CRUSADE
-		3 = SCARLET_CRUSADE
-	}
-	
-	ruler_male = {
-		1 = HIGH_COMMANDER
-		2 = HIGH_COMMANDER
-		3 = HIGH_COMMANDER
-	}
-	
-	ruler_female = {
-		1 = HIGH_COMMANDER
-		2 = HIGH_COMMANDER
-		3 = HIGH_COMMANDER
-    }
-	
-	trigger = {
-        has_reform = scarlet_crusade_reform
-	}
-}
-gov_argent_crusade = {
-	rank = {
-		1 = ARGENT_CRUSADE
-		2 = ARGENT_CRUSADE
-		3 = ARGENT_CRUSADE
-	}
-	
-	ruler_male = {
-		1 = HIGHLORD
-		2 = HIGHLORD
-		3 = HIGHLORD
-	}
-	
-	ruler_female = {
-		1 = HIGHLADY
-		2 = HIGHLADY
-		3 = HIGHLADY
-    }
-	
-	trigger = {
-        has_reform = argent_crusade_reform
+        culture_group = titan_group
 	}
 }
 gov_demonic_order = {

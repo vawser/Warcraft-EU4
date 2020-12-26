@@ -59,7 +59,7 @@ form_raid = {
 			value = 50
 		}
 		FROM = {
-			has_country_modifier = is_evil
+			has_country_modifier = taint_of_evil
 		}
 	}
 	on_accept = {
@@ -138,10 +138,7 @@ assasinate_ruler = {
                     trigger = {
                         FROM = {
                             NOT = {
-                                OR = {
-                                    culture_group = culture_group_darnassian
-                                    ruler_has_personality = druid_personality
-                                }
+                                culture_group = night_elf_group
                             }
                         }
                     }
@@ -154,11 +151,11 @@ assasinate_ruler = {
                             NOT = {
                                 heir_age = 20
                                 OR = {
-                                    culture_group = culture_group_dragonkin
-                                    culture_group = culture_group_arrakoa
-                                    culture_group = culture_group_titan
-                                    culture_group = culture_group_harpy
-                                    culture_group = culture_group_ethereal
+                                    is_dragon_culture_group = yes
+                                    culture_group = arrakoa_group
+                                    culture_group = titan_group
+                                    culture_group = harpy_group
+                                    culture_group = ethereal_group
                                 }
                             }
                         }
@@ -283,7 +280,7 @@ spread_fel = {
 	require_acceptance = no # Whether the recipient gets an option to decline
 	
 	is_visible = {
-        religion = religion_fel
+        religion = fel
 	}
 	is_allowed = {
         reform_desire = 0.25

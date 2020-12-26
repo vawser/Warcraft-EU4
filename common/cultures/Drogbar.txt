@@ -1,0 +1,18 @@
+drogbar_group = {
+    graphical_culture = drogbar_gfx
+    
+    drogbar = {  
+        male_names = { 
+             Agrogg Babrul Barorgrogg Blazgorvrogg Blodurgrul Blukrol Blunkrol Dlalbrub Dlingbrugg Dlolbrulg Dunbron Durmgugg Engrogg Ezkun Gazirmugg Gubrol Hordon Hozilgul Hulongrol Ibrugg Ilbrugg Jazguzgol Jirgul Julgufrogg Juzgrogg Kengrob Kezgalbrol Kifrugg Kimgrul Ladrugg Lafrul Lavomprub Lurordrul Makrugg Malogrugg Marguggrul Mirmgol Mozgrul Nalbrugg Namprol Nonbrogg Ogdrugg Olgalprogg Onbrugg Orargugg Orulrol Siralrulg Suzguggrugg Tazkrugg Tulgugrogg
+        }
+        female_names = { 
+            Agrogg Babrul Barorgrogg Blazgorvrogg Blodurgrul Blukrol Blunkrol Dlalbrub Dlingbrugg Dlolbrulg Dunbron Durmgugg Engrogg Ezkun Gazirmugg Gubrol Hordon Hozilgul Hulongrol Ibrugg Ilbrugg Jazguzgol Jirgul Julgufrogg Juzgrogg Kengrob Kezgalbrol Kifrugg Kimgrul Ladrugg Lafrul Lavomprub Lurordrul Makrugg Malogrugg Marguggrul Mirmgol Mozgrul Nalbrugg Namprol Nonbrogg Ogdrugg Olgalprogg Onbrugg Orargugg Orulrol Siralrulg Suzguggrugg Tazkrugg Tulgugrogg
+        }
+        dynasty_names = { 
+            "the Bonebreaker" "the Throatslicer" "the Wise" "the Quick" "the Sly" "the Coy" "the Smasher" "the Stabber" "the Gutter" "the Ripper" "the Puncher" "the Kicker" "the Massive" "the Mammoth" "the Monstrous" "the Colossal" "the Gigantic" "the Giant" "the Immense" "the Vast" "the Towering" "the Bulky" "the Lusty" "the Mighty" "the Titanic" "the Potent" "the Powerful" "the Stout" "the Tough" "the Strong" "the Sturdy" "the Stalwart" "the Brawny" "the Hearty" "the Great" "the Almighty" "the Gutsy" "the Punchy" "the Astute" "the Careful" "the Enlightened" "the Perceptive" "the Prudent" "the Sane" "the Shrewd" "the Smart" "the Wary" "the Cunning" "the Keen" "the Sage" "the Sharp" "the Crafty" "the Erudite" "the Witty" "the Sapient" "the Tactful" "the Furious" "the Desperate" "the Fierce" "the Frantic" "the Livid" "the Raging" "the Violent" "the Frenzied" "the Inciter" "the Insane" "the Crazed" "the Maniac" "the Vicious" "the Rabid"
+            "the Delirious" "the Fanatical" "the Fervent" "the Virulent" "the Zealous"
+            "the Astute" "the Educated" "the Ample" "the Judicious"
+        }
+    }
+}
+

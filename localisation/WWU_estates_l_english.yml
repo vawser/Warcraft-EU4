@@ -62,6 +62,7 @@
  estate_clergy_order: "Clergy"
  estate_clergy_druidic: "The Circle"
  estate_clergy_elemental: "Shamans"
+ estate_clergy_death: "Necromancers"
  
  estate_clergy_tidesages: "Tidesages"
  estate_clergy_tidesages_desc: "A religious group which has a deep connection with water. Kul Tiras's largest ships always carry a tidesage to navigate through storms, withstand heavy seas, and put wind in their sails."

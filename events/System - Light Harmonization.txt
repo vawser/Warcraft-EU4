@@ -135,7 +135,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Mandate of Heaven"
-		religion_group = religion_group_the_light
+		religion_group = light_group
 		harmonization_progress = 10
 		NOT = { harmonization_progress = 60 }
 		any_owned_province = {
@@ -203,7 +203,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Mandate of Heaven"
-		religion_group = religion_group_the_light
+		religion_group = light_group
 		harmonization_progress = 6
 		NOT = { harmonization_progress = 40 }
 		any_owned_province = {
@@ -264,7 +264,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Mandate of Heaven"
-		religion_group = religion_group_the_light
+		religion_group = light_group
 		has_adm_advisor = yes
 		harmonization_progress = 50
 		any_owned_province = {
@@ -330,7 +330,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Mandate of Heaven"
-		religion_group = religion_group_the_light
+		religion_group = light_group
 		any_owned_province = {
 			is_state = yes
 			owner = {

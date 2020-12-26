@@ -1,0 +1,62 @@
+technology_group = tech_furbolg
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = foulweald
+religion = shamanism
+
+capital = 5635
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Purota"
+        dynasty = "Thistlewood"
+        adm = 5
+        dip = 3
+        mil = 0
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Ngan"
+        dynasty = "Nettleclaw"
+        adm = 3
+        dip = 5
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Ngdal"
+        dynasty = "Whitetooth"
+        adm = 2
+        dip = 0
+        mil = 1
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Gragarl"
+        dynasty = "Lumberclaw"
+        adm = 2
+        dip = 1
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Purtur"
+        dynasty = "Bloodweald"
+        adm = 3
+        dip = 5
+        mil = 2
+    }
+}

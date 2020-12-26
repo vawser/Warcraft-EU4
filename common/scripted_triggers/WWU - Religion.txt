@@ -34,3 +34,12 @@ has_any_loa = {
 		}
 	}
 }
+
+is_old_god_religion = {
+    OR = {
+        religion = cthun
+        religion = nzoth
+        religion = yogg_saron
+        religion = yshaarj
+    }
+}

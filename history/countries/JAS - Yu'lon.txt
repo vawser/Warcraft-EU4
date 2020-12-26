@@ -1,0 +1,62 @@
+technology_group = tech_pandaren
+government = monarchy
+add_government_reform = monastic_order_reform
+primary_culture = pandaren
+religion = celestials
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Fu"
+        dynasty = "Gloomstroke"
+        adm = 4
+        dip = 2
+        mil = 4
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Chuanli"
+        dynasty = "Dustsoil"
+        adm = 0
+        dip = 4
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Qiang"
+        dynasty = "Airfoot"
+        adm = 3
+        dip = 1
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Guo"
+        dynasty = "Fogstroke"
+        adm = 1
+        dip = 0
+        mil = 1
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Hulin"
+        dynasty = "Dustsoil"
+        adm = 3
+        dip = 3
+        mil = 1
+    }
+}

@@ -1,0 +1,63 @@
+technology_group = tech_pandaren
+government = theocracy
+add_government_reform = monastic_order_reform
+government_rank = 3
+primary_culture = shado_pan
+religion = celestials
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Weisheng"
+        dynasty = "Steelstout"
+        adm = 1
+        dip = 0
+        mil = 0
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Fang"
+        dynasty = "Glowstout"
+        adm = 0
+        dip = 1
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Chongan"
+        dynasty = "Steelsoil"
+        adm = 5
+        dip = 5
+        mil = 5
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Shun"
+        dynasty = "Stormbrew"
+        adm = 3
+        dip = 4
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Lin"
+        dynasty = "Starpaw"
+        adm = 3
+        dip = 3
+        mil = 0
+    }
+}

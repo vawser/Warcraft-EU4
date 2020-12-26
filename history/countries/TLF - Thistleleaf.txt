@@ -1,0 +1,62 @@
+technology_group = tech_spriteling
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = thistleleaf
+religion = druidism
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Augragas"
+        dynasty = "the Monstrous"
+        adm = 4
+        dip = 2
+        mil = 0
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Musnes"
+        dynasty = "the Furious"
+        adm = 5
+        dip = 4
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Ruslon"
+        dynasty = "the Throatslicer"
+        adm = 0
+        dip = 3
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Cliragcli"
+        dynasty = "the Tough"
+        adm = 1
+        dip = 1
+        mil = 1
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Incanisma"
+        dynasty = "the Keen"
+        adm = 0
+        dip = 4
+        mil = 2
+    }
+}

@@ -1,0 +1,32 @@
+technology_group = tech_orc
+government = theocracy
+add_government_reform = theocracy_reform
+government_rank = 4
+primary_culture = twilights_hammer
+religion = fel
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = { 
+		name = "Cho'gall" 
+		dynasty = " of Highmaul" 
+		adm = 4
+		dip = 4
+		mil = 4
+	} 
+	historical_friend = BLH
+	historical_friend = BLK
+}
+
+# Second War
+596.1.1 = {
+    religion = twilight_cult
+    
+    add_country_modifier = {
+        name = taint_of_evil
+        duration = -1
+    }
+}
+

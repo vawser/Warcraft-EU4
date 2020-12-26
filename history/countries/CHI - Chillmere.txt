@@ -1,0 +1,62 @@
+technology_group = tech_murloc
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = chillmere
+religion = deep_mother
+
+capital = 1
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Prglr"
+        dynasty = "the Tough"
+        adm = 2
+        dip = 1
+        mil = 2
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Nusbmu"
+        dynasty = "the Wise"
+        adm = 0
+        dip = 3
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Nrglr"
+        dynasty = "the Witty"
+        adm = 4
+        dip = 3
+        mil = 2
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Nrrg"
+        dynasty = "the Smart"
+        adm = 0
+        dip = 3
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Glrpur"
+        dynasty = "the Towering"
+        adm = 4
+        dip = 4
+        mil = 2
+    }
+}
