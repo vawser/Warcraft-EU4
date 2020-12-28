@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 54
-native_ferocity = 7
-native_hostileness = 0
+is_city = yes
+owner = NRN
+controller = NRN
+add_core = NRN
 
 base_tax = 3
 base_production = 3
 base_manpower = 1
 
-culture = pandaren
+culture = nooka_nooka
 religion = celestials
 
 trade_goods = unknown

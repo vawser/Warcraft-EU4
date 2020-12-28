@@ -1,6 +1,6 @@
 graphical_culture = kobold_gfx
 
-color = { 191 70 174 }
+color = { 157 175 196 }
 
 monarch_names = {
 	"Grinzlak #0" = 20

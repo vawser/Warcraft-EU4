@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 75
-native_ferocity = 7
-native_hostileness = 3
+is_city = yes
+owner = BOX
+controller = BOX
+add_core = BOX
 
 base_tax = 4
 base_production = 3
 base_manpower = 1
 
-culture = shado_pan
+culture = pandaren
 religion = celestials
 
 trade_goods = unknown

@@ -1,9 +1,16 @@
 # Order here is the priority for taking them, if trigger is true.
 SRW = {
-	current_age = rise_of_the_horde
-	current_age = the_first_war
+	always = yes
 }
 TOH = {
-	current_age = rise_of_the_horde
-	current_age = the_first_war
+	always = yes
+}
+IRO = {
+    always = yes
+}
+LOR = {
+    always = yes
+}
+QUE = {
+    always = yes
 }

@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 61
-native_ferocity = 5
-native_hostileness = 7
+is_city = yes
+owner = KRN
+controller = KRN
+add_core = KRN
 
 base_tax = 2
 base_production = 2
 base_manpower = 3
 
-culture = noculture
-religion = noreligion
+culture = korune
+religion = fleshshaping
 
 trade_goods = unknown
 hre = no

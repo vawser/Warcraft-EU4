@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 97
-native_ferocity = 0
-native_hostileness = 6
+is_city = yes
+owner = WIS
+controller = WIS
+add_core = WIS
 
 base_tax = 1
 base_production = 4
 base_manpower = 4
 
-culture = noculture
-religion = noreligion
+culture = windshear
+religion = geomancy
 
 trade_goods = unknown
 hre = no

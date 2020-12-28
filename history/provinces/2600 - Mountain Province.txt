@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 40
-native_ferocity = 1
-native_hostileness = 8
+is_city = yes
+owner = GEL
+controller = GEL
+add_core = GEL
 
 base_tax = 2
 base_production = 1
 base_manpower = 1
 
-culture = noculture
-religion = noreligion
+culture = gelkis
+religion = shamanism
 
 trade_goods = unknown
 hre = no

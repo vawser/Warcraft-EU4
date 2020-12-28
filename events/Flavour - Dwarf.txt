@@ -12,7 +12,7 @@ country_event = {
     
 	trigger = {
 		has_country_flag = unified_dwarf
-		tag = A29
+		tag = IRO
 		any_province = {
 			region = region_dun_morogh
 			NOT = { owned_by = ROOT }
@@ -100,14 +100,14 @@ country_event = {
 		
 		add_dip_power = -50
 		event_target:dm_historical_claim = {
-			add_permanent_claim = A29
+			add_permanent_claim = IRO
 		}
         #if = { limit = { has_global_flag = enable_event_logging } 
 	}
 	option = {
 		name = dun_morogh_territorial_claim.opt2
 		
-		A29 = {
+		IRO = {
 			add_opinion = {
 				who = ROOT
 				modifier = dishonorable_act
@@ -134,7 +134,7 @@ country_event = {
 		
 		add_mil_power = -50
 		event_target:dm_historical_claim = {
-			add_permanent_claim = A29
+			add_permanent_claim = IRO
 		}
 		event_target:dm_historical_claim = {
 			owner = {
@@ -145,7 +145,7 @@ country_event = {
 		}
 		event_target:dm_historical_claim = {
 			owner = {
-				A29 = {
+				IRO = {
 					form_coalition_against = PREV
 					add_casus_belli = {
 						target = PREV
@@ -160,7 +160,7 @@ country_event = {
 	option = {
 		name = dun_morogh_territorial_war.opt2
 		
-		A29 = {
+		IRO = {
 			add_opinion = {
 				who = ROOT
 				modifier = dishonorable_act
@@ -182,7 +182,7 @@ country_event = {
     
 	trigger = {
 		has_country_flag = unified_dwarf
-		tag = A28
+		tag = WIL
 		any_province = {
 			region = region_northeron
 			NOT = { owned_by = ROOT }
@@ -274,14 +274,14 @@ country_event = {
 		
 		add_dip_power = -50
 		event_target:th_historical_claim = {
-			add_permanent_claim = A28
+			add_permanent_claim = WIL
 		}
         #if = { limit = { has_global_flag = enable_event_logging } 
 	}
 	option = {
 		name = twilight_highlands_territorial_claim.opt2
 		
-		A28 = {
+		WIL = {
 			add_opinion = {
 				who = ROOT
 				modifier = dishonorable_act
@@ -308,7 +308,7 @@ country_event = {
 		
 		add_mil_power = -50
 		event_target:th_historical_claim = {
-			add_permanent_claim = A28
+			add_permanent_claim = WIL
 		}
 		event_target:th_historical_claim = {
 			owner = {
@@ -319,7 +319,7 @@ country_event = {
 		}
 		event_target:th_historical_claim = {
 			owner = {
-				A28 = {
+				WIL = {
 					form_coalition_against = PREV
 					add_casus_belli = {
 						target = PREV
@@ -333,7 +333,7 @@ country_event = {
 	option = {
 		name = twilight_highlands_territorial_war.opt2
 		
-		A28 = {
+		WIL = {
 			add_opinion = {
 				who = ROOT
 				modifier = dishonorable_act
@@ -354,7 +354,7 @@ country_event = {
     
 	trigger = {
 		has_country_flag = unified_dwarf
-		tag = A30
+		tag = DKI
 		any_province = {
 			region = region_burning_steppes
 			NOT = { owned_by = ROOT }
@@ -446,14 +446,14 @@ country_event = {
 		
 		add_dip_power = -50
 		event_target:bs_historical_claim = {
-			add_permanent_claim = A30
+			add_permanent_claim = DKI
 		}
         #if = { limit = { has_global_flag = enable_event_logging } 
 	}
 	option = {
 		name = burning_steppes_territorial_claim.opt2
 		
-		A30 = {
+		DKI = {
 			add_opinion = {
 				who = ROOT
 				modifier = dishonorable_act
@@ -479,7 +479,7 @@ country_event = {
 		
 		add_mil_power = -50
 		event_target:bs_historical_claim = {
-			add_permanent_claim = A30
+			add_permanent_claim = DKI
 		}
 		event_target:bs_historical_claim = {
 			owner = {
@@ -490,7 +490,7 @@ country_event = {
 		}
 		event_target:bs_historical_claim = {
 			owner = {
-				A30 = {
+				DKI = {
 					form_coalition_against = PREV
 					add_casus_belli = {
 						target = PREV
@@ -505,7 +505,7 @@ country_event = {
 	option = {
 		name = burning_steppes_territorial_war.opt2
 		
-		A30 = {
+		DKI = {
 			add_opinion = {
 				who = ROOT
 				modifier = dishonorable_act

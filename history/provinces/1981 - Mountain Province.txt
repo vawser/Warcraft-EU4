@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 37
-native_ferocity = 5
-native_hostileness = 0
+is_city = yes
+owner = SPN
+controller = SPN
+add_core = SPN
 
 base_tax = 2
 base_production = 1
 base_manpower = 3
 
-culture = noculture
-religion = noreligion
+culture = shado_pan
+religion = celestials
 
 trade_goods = unknown
 hre = no

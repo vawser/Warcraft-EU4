@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 60
-native_ferocity = 8
-native_hostileness = 0
+is_city = yes
+owner = KRJ
+controller = KRJ
+add_core = KRJ
 
 base_tax = 2
 base_production = 3
 base_manpower = 3
 
-culture = pandaren
-religion = celestials
+culture = korjan
+religion = fleshshaping
 
 trade_goods = unknown
 hre = no

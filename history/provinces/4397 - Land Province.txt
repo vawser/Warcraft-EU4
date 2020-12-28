@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 54
-native_ferocity = 0
-native_hostileness = 2
+is_city = yes
+owner = SRL
+controller = SRL
+add_core = SRL
 
 base_tax = 4
 base_production = 4
 base_manpower = 3
 
-culture = pandaren
+culture = sri_la
 religion = celestials
 
 trade_goods = unknown

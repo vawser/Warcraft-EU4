@@ -21,7 +21,11 @@ is_savage = {
 		is_lesser = yes
         technology_group = tech_orc
         technology_group = tech_ogre
-        technology_group = tech_troll
+        technology_group = tech_zandalari_troll
+        technology_group = tech_jungle_troll
+        technology_group = tech_forest_troll
+        technology_group = tech_sand_troll
+        technology_group = tech_frost_troll
         technology_group = tech_scourge
         technology_group = tech_undead
         technology_group = tech_mogu
@@ -31,16 +35,15 @@ is_savage = {
 
 is_lesser = {
     OR = {
-        technology_group = tech_depths
+        technology_group = tech_murloc
         technology_group = tech_gnoll
         technology_group = tech_centaur
         technology_group = tech_furbolg
-        technology_group = tech_wolfvar
+        technology_group = tech_wolvar
         technology_group = tech_gorloc
         technology_group = tech_kobold
         technology_group = tech_harpy
         technology_group = tech_quillboar
-        technology_group = tech_primitive
         technology_group = tech_magnataur
     }
 	NOT = { has_country_flag = was_lesser } # set this on a lesser race to make them lesser no more.
@@ -48,7 +51,8 @@ is_lesser = {
 
 is_bug = {
     OR = {
-        technology_group = tech_aqir
+        technology_group = tech_qiraji
+        technology_group = tech_nerubian
         technology_group = tech_mantid
     }
 }
@@ -57,14 +61,18 @@ is_ancient = {
     OR = {
 		technology_group = tech_vrykul
 		technology_group = tech_titan
-		technology_group = tech_aqir
-		technology_group = tech_old_god
-		technology_group = tech_dragonkin
-		technology_group = tech_elemental
-		technology_group = tech_darnassian
-		technology_group = tech_draenei
-		has_country_flag = is_custom_ancient
+		technology_group = tech_qiraji
+		technology_group = tech_nerubian
         technology_group = tech_mantid
+		technology_group = tech_red_dragonflight
+        technology_group = tech_green_dragonflight
+        technology_group = tech_black_dragonflight
+        technology_group = tech_blue_dragonflight
+        technology_group = tech_bronze_dragonflight
+		technology_group = tech_night_elf
+		technology_group = tech_draenei
+        technology_group = tech_broken
+		has_country_flag = is_custom_ancient
 	}
 }
 
@@ -72,6 +80,7 @@ is_honorable = {
     OR = {
         technology_group = tech_orc
         technology_group = tech_tauren
+        technology_group = tech_highmountain_tauren
         technology_group = tech_human
         technology_group = tech_vrykul
 	}
@@ -79,8 +88,7 @@ is_honorable = {
 
 is_otherworld = {
     OR = {
-        technology_group = tech_demonic
-        technology_group = tech_old_god
+        technology_group = tech_demon
 		culture_group = ethereal_group
     }
 }

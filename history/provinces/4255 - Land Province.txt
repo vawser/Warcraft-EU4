@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 51
-native_ferocity = 4
-native_hostileness = 6
+is_city = yes
+owner = WDS
+controller = WDS
+add_core = WDS
 
 base_tax = 3
 base_production = 3
 base_manpower = 4
 
-culture = pandaren
-religion = celestials
+culture = wildscale
+religion = fleshshaping
 
 trade_goods = unknown
 hre = no

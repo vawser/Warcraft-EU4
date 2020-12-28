@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = ALT
-controller = ALT
-add_core = ALT
+owner = WWK
+controller = WWK
+add_core = WWK
 
 base_tax = 2
 base_production = 1
 base_manpower = 2
 
-culture = alterac
-religion = the_holy_light
+culture = whitewhisker
+religion = geomancy
 
 trade_goods = unknown
 hre = no

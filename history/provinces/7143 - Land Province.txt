@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 14
-native_ferocity = 3
-native_hostileness = 6
+is_city = yes
+owner = ODS
+controller = ODS
+add_core = ODS
 
 base_tax = 3
 base_production = 4
 base_manpower = 4
 
-culture = noculture
-religion = noreligion
+culture = obsidian_dragonshrine
+religion = dragon_aspects
 
 trade_goods = unknown
 hre = no

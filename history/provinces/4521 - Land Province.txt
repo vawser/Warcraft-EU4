@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 56
-native_ferocity = 7
-native_hostileness = 5
+is_city = yes
+owner = TIG
+controller = TIG
+add_core = TIG
 
 base_tax = 4
 base_production = 4
 base_manpower = 3
 
-culture = noculture
-religion = noreligion
+culture = pandaren
+religion = celestials
 
 trade_goods = unknown
 hre = no

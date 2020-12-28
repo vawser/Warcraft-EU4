@@ -4,6 +4,7 @@ country_decisions = {
         
 		potential = {
 			ruler_religion = fel
+            NOT = { religion = fel }
 		}
 		allow = {
 			stability = 1

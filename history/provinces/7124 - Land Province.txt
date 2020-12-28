@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 52
-native_ferocity = 7
-native_hostileness = 9
+is_city = yes
+owner = COL
+controller = COL
+add_core = COL
 
 base_tax = 3
 base_production = 1
 base_manpower = 4
 
-culture = noculture
-religion = noreligion
+culture = coldwind
+religion = wind
 
 trade_goods = unknown
 hre = no

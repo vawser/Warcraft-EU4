@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = SDS
-controller = SDS
-add_core = SDS
+owner = SMC
+controller = SMC
+add_core = SMC
 
 base_tax = 2
 base_production = 4
 base_manpower = 3
 
-culture = sentinels_of_auberdine
-religion = elune
+culture = stormscale
+religion = azshara
 
 trade_goods = unknown
 hre = no

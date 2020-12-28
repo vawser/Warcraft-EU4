@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 17
-native_ferocity = 1
-native_hostileness = 5
+is_city = yes
+owner = MSF
+controller = MSF
+add_core = MSF
 
 base_tax = 2
 base_production = 3
 base_manpower = 1
 
-culture = noculture
-religion = noreligion
+culture = mistfall
+religion = celestials
 
 trade_goods = unknown
 hre = no

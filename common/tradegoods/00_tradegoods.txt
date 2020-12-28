@@ -1023,10 +1023,6 @@ arcane = {
 	}
 	chance = {
 		factor = 10
-		modifier = {
-			factor = 2
-			has_terrain = arcanetouched
-		}
 	}
 }
 
@@ -1040,14 +1036,6 @@ fel = {
 	}
 	chance = {
 		factor = 10
-		modifier = {
-			factor = 0.3
-			NOT = { has_terrain = feltouched }
-		}
-		modifier = {
-			factor = 1.2
-			has_terrain = nethertouched
-		}
 	}
 }
 

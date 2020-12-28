@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 24
-native_ferocity = 2
-native_hostileness = 5
+is_city = yes
+owner = SLI
+controller = SLI
+add_core = SLI
 
 base_tax = 1
 base_production = 3
 base_manpower = 4
 
-culture = pandaren
-religion = celestials
+culture = slitherscale
+religion = fleshshaping
 
 trade_goods = unknown
 hre = no

@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 5
-native_ferocity = 8
-native_hostileness = 10
+is_city = yes
+owner = TIA
+controller = TIA
+add_core = TIA
 
 base_tax = 1
 base_production = 4
 base_manpower = 2
 
-culture = pandaren
+culture = tian
 religion = celestials
 
 trade_goods = unknown

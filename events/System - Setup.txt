@@ -21,7 +21,6 @@ country_event = {
         set_global_flag = completed_wwu_setup
         
         # World State
-        set_faction_conflict = yes
         hre_inheritable = yes
 		set_hre_religion = dragon_aspects
 		set_hre_heretic_religion = fel
@@ -177,17 +176,7 @@ country_event = {
              set_country_flag = trade_control_flag
         }
         
-        # Government
-        if = {
-            limit = {
-                has_reform = wwu_hereditary_rule_reform
-                has_heir = no
-            }
-            set_country_flag = country_has_no_heir
-            #
-        }
-        
-        
+        discover_home_continent = yes
     }
     
     option = {

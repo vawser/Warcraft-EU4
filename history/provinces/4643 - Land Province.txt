@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 92
-native_ferocity = 1
-native_hostileness = 9
+is_city = yes
+owner = BDS
+controller = BDS
+add_core = BDS
 
 base_tax = 2
 base_production = 1
 base_manpower = 1
 
-culture = shado_pan
-religion = celestials
+culture = bladescale
+religion = fleshshaping
 
 trade_goods = unknown
 hre = no

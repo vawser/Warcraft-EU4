@@ -129,7 +129,7 @@ defined_text = {
 	text = {
 		localisation_key = estate_traders_workers
 		trigger = {
-            tag = STW
+            tag = SRW
 		}
 	}
     text = {
@@ -155,7 +155,7 @@ defined_text = {
 	text = {
 		localisation_key = estate_traders_workers
 		trigger = {
-            tag = STW
+            tag = SRW
 		}
 	}
     text = {

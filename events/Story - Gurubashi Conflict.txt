@@ -14,7 +14,6 @@ country_event = {
 	
 	trigger = {
 		tag = GUR
-		current_age = rise_of_the_horde
 		is_at_war = no
 		manpower_percentage = 0.25
 		any_country = {

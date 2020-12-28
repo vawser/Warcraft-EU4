@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 87
-native_ferocity = 6
-native_hostileness = 0
+is_city = yes
+owner = GOL
+controller = GOL
+add_core = GOL
 
 base_tax = 2
 base_production = 4
 base_manpower = 4
 
-culture = noculture
-religion = noreligion
+culture = golden_lotus
+religion = celestials
 
 trade_goods = unknown
 hre = no

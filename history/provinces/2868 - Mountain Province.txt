@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 74
-native_ferocity = 1
-native_hostileness = 4
+is_city = yes
+owner = SKW
+controller = SKW
+add_core = SKW
 
 base_tax = 3
 base_production = 3
 base_manpower = 1
 
-culture = tauren
-religion = shamanism
+culture = skywhisker
+religion = geomancy
 
 trade_goods = unknown
 hre = no

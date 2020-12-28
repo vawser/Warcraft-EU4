@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 82
-native_ferocity = 4
-native_hostileness = 2
+is_city = yes
+owner = OOK
+controller = OOK
+add_core = OOK
 
 base_tax = 3
 base_production = 1
 base_manpower = 3
 
-culture = noculture
-religion = noreligion
+culture = ookin
+religion = celestials
 
 trade_goods = unknown
 hre = no

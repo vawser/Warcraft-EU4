@@ -1,6 +1,6 @@
 graphical_culture = hill_dwarf_gfx
 
-color = { 72 123 222 }
+color = { 57 140 42 }
 
 monarch_names = {
 	"Brann #0" = 20

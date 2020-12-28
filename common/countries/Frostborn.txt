@@ -1,6 +1,6 @@
 graphical_culture = frost_dwarf_gfx
 
-color = { 154 23 203 }
+color = { 131 164 204 }
 
 monarch_names = {
 	"Nargird #0" = 20

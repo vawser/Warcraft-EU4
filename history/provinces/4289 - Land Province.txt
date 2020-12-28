@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 12
-native_ferocity = 0
-native_hostileness = 6
+is_city = yes
+owner = RVE
+controller = RVE
+add_core = RVE
 
 base_tax = 2
 base_production = 1
 base_manpower = 3
 
-culture = jinyu
-religion = celestials
+culture = riverblade
+religion = fleshshaping
 
 trade_goods = unknown
 hre = no

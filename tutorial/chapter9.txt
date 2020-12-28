@@ -674,7 +674,7 @@ tutorial = {
 		connected_icons = { dummy-ul countrytechnologyview tech_group }	
 		
 		trigger = {
-			STW = {
+			SRW = {
 				adm_tech = 7
 			}
 		}		
@@ -802,7 +802,7 @@ tutorial = {
 		}
 		
 		trigger = {
-			STW = {
+			SRW = {
 				has_idea_group = exploration_ideas
 			}
 		}
@@ -849,7 +849,7 @@ tutorial = {
 		connected_icons = { dummy-ul unique_ideas_category }
 		
 		trigger = {
-			STW = {
+			SRW = {
 				has_idea = quest_for_the_new_world
 			}
 		}

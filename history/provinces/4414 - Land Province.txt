@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 3
-native_ferocity = 9
-native_hostileness = 1
+is_city = yes
+owner = HDV
+controller = HDV
+add_core = HDV
 
 base_tax = 4
 base_production = 4
 base_manpower = 3
 
-culture = pandaren
+culture = honeydew
 religion = celestials
 
 trade_goods = unknown

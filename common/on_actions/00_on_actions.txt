@@ -147,7 +147,7 @@ on_battle_won_country = {
 on_battle_lost_country = {
 	#log = "[Root.GetName]: Triggered battle_lost_country"
 	events = {
-        rise_of_the_horde.6
+        
     }
 	random_events = {
 		12 = 0
@@ -749,11 +749,6 @@ on_bi_yearly_pulse = {
     
     # Events
 	random_events = {
-		#Streltsy Events
-		125 = streltsy_events.1
-		125 = streltsy_events.3
-		125 = streltsy_events.4
-		125 = streltsy_events.5
 		# Trade Specific
 		100 = trade.1
 		100 = trade.2
@@ -779,12 +774,6 @@ on_bi_yearly_pulse = {
 		100 = trade_league.11
 		100 = trade_league.12
 		100 = trade_league.13
-
-		# Refoms, when having parliaments.
-		100 = reforms.1
-		100 = reforms.2
-		100 = reforms.3
-		100 = reforms.4
 
         # Tribes
 		100 = wwu_tribes.1
@@ -1185,8 +1174,8 @@ on_four_year_pulse_4 = {
 on_five_year_pulse = {
 	#log = "[Root.GetName]: Triggered five_year_pulse"
     random_events = {
-        10 = wow_ruler.1
-        10 = wow_ruler.2
+        10 = wwu_ruler_education.1
+        10 = wwu_ruler_education.2
         100 = 0
     }
 }

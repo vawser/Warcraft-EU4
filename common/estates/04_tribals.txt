@@ -8,13 +8,7 @@ estate_tribals = {
     custom_name = {
         desc = estate_tribals_dragonkin
         trigger = {
-            culture_group = culture_group_dragonkin
-        }
-    }
-    custom_name = {
-        desc = estate_tribals_worgen
-        trigger = {
-            culture_group = culture_group_worgen
+            is_dragon_culture_group = yes
         }
     }
     

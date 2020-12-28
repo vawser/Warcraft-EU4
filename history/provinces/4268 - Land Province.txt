@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = MAN
-controller = MAN
-add_core = MAN
+owner = SOG
+controller = SOG
+add_core = SOG
 
 base_tax = 1
 base_production = 4
 base_manpower = 3
 
-culture = mantid
-religion = yshaarj
+culture = soggy_gamble
+religion = celestials
 
 trade_goods = unknown
 hre = no

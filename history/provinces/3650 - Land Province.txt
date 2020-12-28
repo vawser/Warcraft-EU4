@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 2
-native_ferocity = 1
-native_hostileness = 1
+is_city = yes
+owner = TLF
+controller = TLF
+add_core = TLF
 
 base_tax = 1
 base_production = 4
 base_manpower = 2
 
-culture = murloc
-religion = deep_mother
+culture = thistleleaf
+religion = druidism
 
 trade_goods = unknown
 hre = no

@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 70
-native_ferocity = 5
-native_hostileness = 3
+is_city = yes
+owner = BIS
+controller = BIS
+add_core = BIS
 
 base_tax = 2
 base_production = 1
 base_manpower = 3
 
-culture = noculture
-religion = noreligion
+culture = bristleback
+religion = shamanism
 
 trade_goods = unknown
 hre = no

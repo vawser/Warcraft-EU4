@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = LOR
-controller = LOR
-add_core = LOR
+owner = VIL
+controller = VIL
+add_core = VIL
 
 base_tax = 3
 base_production = 3
 base_manpower = 1
 
-culture = lordaeron
-religion = the_holy_light
+culture = vilefin
+religion = deep_mother
 
 trade_goods = unknown
 hre = no

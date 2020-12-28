@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 8
-native_ferocity = 9
-native_hostileness = 2
+is_city = yes
+owner = OON
+controller = OON
+add_core = OON
 
 base_tax = 1
 base_production = 3
 base_manpower = 2
 
-culture = pandaren
+culture = oona
 religion = celestials
 
 trade_goods = unknown

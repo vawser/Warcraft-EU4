@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 62
-native_ferocity = 3
-native_hostileness = 2
+is_city = yes
+owner = SOF
+controller = SOF
+add_core = SOF
 
 base_tax = 4
 base_production = 3
 base_manpower = 1
 
-culture = pandaren
-religion = celestials
+culture = shadowfae
+religion = druidism
 
 trade_goods = unknown
 hre = no

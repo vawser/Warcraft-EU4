@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 1
-native_ferocity = 0
-native_hostileness = 9
+is_city = yes
+owner = GRI
+controller = GRI
+add_core = GRI
 
 base_tax = 1
 base_production = 4
 base_manpower = 1
 
-culture = noculture
-religion = noreligion
+culture = grimtail
+religion = shamanism
 
 trade_goods = unknown
 hre = no

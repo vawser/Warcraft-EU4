@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = MAN
-controller = MAN
-add_core = MAN
+owner = RIK
+controller = RIK
+add_core = RIK
 
 base_tax = 1
 base_production = 1
 base_manpower = 3
 
-culture = mantid
-religion = yshaarj
+culture = rikkitun
+religion = druidism
 
 trade_goods = unknown
 hre = no

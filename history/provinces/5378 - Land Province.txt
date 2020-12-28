@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 10
-native_ferocity = 2
-native_hostileness = 3
+is_city = yes
+owner = BFY
+controller = BFY
+add_core = BFY
 
 base_tax = 4
 base_production = 1
 base_manpower = 4
 
-culture = noculture
-religion = noreligion
+culture = bloodfury
+religion = wind
 
 trade_goods = unknown
 hre = no

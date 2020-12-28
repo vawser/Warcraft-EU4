@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = BIL
-controller = BIL
-add_core = BIL
+owner = OOM
+controller = OOM
+add_core = OOM
 
 base_tax = 1
 base_production = 3
 base_manpower = 2
 
-culture = bilgewater_cartel
-religion = avarice
+culture = oomlot
+religion = shamanism
 
 trade_goods = unknown
 hre = no

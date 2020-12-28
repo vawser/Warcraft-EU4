@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 44
-native_ferocity = 7
-native_hostileness = 10
+is_city = yes
+owner = JIT
+controller = JIT
+add_core = JIT
 
 base_tax = 2
 base_production = 1
 base_manpower = 3
 
-culture = pandaren
-religion = celestials
+culture = jitong
+religion = fleshshaping
 
 trade_goods = unknown
 hre = no

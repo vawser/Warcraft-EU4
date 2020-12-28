@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 0
-native_ferocity = 2
-native_hostileness = 4
+is_city = yes
+owner = GMM
+controller = GMM
+add_core = GMM
 
 base_tax = 1
 base_production = 4
 base_manpower = 4
 
-culture = noculture
-religion = noreligion
+culture = gammoth
+religion = geomancy
 
 trade_goods = unknown
 hre = no

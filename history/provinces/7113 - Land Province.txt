@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 38
-native_ferocity = 3
-native_hostileness = 2
+is_city = yes
+owner = WYT
+controller = WYT
+add_core = WYT
 
 base_tax = 3
 base_production = 3
 base_manpower = 2
 
-culture = noculture
-religion = noreligion
+culture = wyrmrest_temple
+religion = dragon_aspects
 
 trade_goods = unknown
 hre = no

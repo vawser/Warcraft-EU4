@@ -205,14 +205,14 @@ KRS = "countries/Krasari.txt"       # Krasarang Wilds
 JIT = "countries/Jitong.txt"        # Jade Forest
 
 # ---- Murloc ----
-SIF = "countries/Siltfin.txt"           
-BLU = "countries/Bluegill.txt" 
-VIL = "countries/Vilefin.txt"           
-SAL = "countries/Saltscale.txt"         
-ROC = "countries/Rockpool.txt"          
-REG = "countries/Redgill.txt"           
-WRF = "countries/Winterfin.txt"         
-CHI = "countries/Chillmere.txt"         
+SIF = "countries/Siltfin.txt"       # Azuremyst Isle      
+BLU = "countries/Bluegill.txt"      # Wetlands
+VIL = "countries/Vilefin.txt"       # Tirisfal
+SAL = "countries/Saltscale.txt"     # Stranglethorn
+ROC = "countries/Rockpool.txt"      # Blasted Lands
+REG = "countries/Redgill.txt"       # Pandaria
+WRF = "countries/Winterfin.txt"     # Borean Tundra   
+CHI = "countries/Chillmere.txt"     # Howling Fjord  
         
 # ---- Naga  ----
 RIP = "countries/Riplash.txt"          # Borean Tundra
@@ -253,7 +253,7 @@ TWH = "countries/Twilight's Hammer.txt"
 SRC = "countries/Stormreaver.txt"
 DGM = "countries/Dragonmaw.txt"
 BBC = "countries/Burning Blade.txt"
-TOH - "countries/The Orcish Horde.txt"
+TOH = "countries/The Orcish Horde.txt"
 
 # ---- Pandaren ----
 SPN = "countries/Shado-pan.txt"         # Shado-pan Monastery
@@ -287,8 +287,8 @@ OOM = "countries/Oomlot.txt"            # Kezan
 
 # ---- Quillboar ----
 BIS = "countries/Bristleback.txt"     # Mulgore, Barrens    
-RAZ = "countries/Razormane.txt"       # Razorfen Kraul
-RAF = "countries/Razorfen.txt"        # Durotar, Barrens      
+RAZ = "countries/Razormane.txt"       # Durotar, Barrens
+RAF = "countries/Razorfen.txt"        # Razorfen Kraul      
 
 # ---- Satyr ----
 LEG = "countries/Legashi.txt"         # Northern Azshara  

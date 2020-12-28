@@ -1,6 +1,6 @@
 graphical_culture = blue_dragonflight_gfx
 
-color = { 207 51 147 }
+color = { 51 105 171 }
 
 monarch_names = {
 	"Nelmydgos #0" = 20

@@ -107,5 +107,31 @@ broken_isles_superregion = {
     region_eye_of_azshara
 }
 
+ocean_superregion = {
+    region_ocean_1
+    region_ocean_2
+    region_ocean_3
+    region_ocean_4
+    region_ocean_5
+    region_ocean_6
+    region_ocean_7
+    region_ocean_8
+    region_ocean_9
+    region_ocean_10
+    region_ocean_11
+    region_ocean_12
+    region_ocean_13
+    region_ocean_14
+    region_ocean_15
+    region_ocean_16
+    region_ocean_17
+    region_ocean_18
+    region_ocean_19
+    region_ocean_20
+    region_ocean_21
+    region_ocean_22
+    region_ocean_23
+    region_ocean_24
+}
 
 new_world_superregion = { }

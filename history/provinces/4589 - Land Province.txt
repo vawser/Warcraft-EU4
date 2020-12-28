@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = MAN
-controller = MAN
-add_core = MAN
+owner = HRT
+controller = HRT
+add_core = HRT
 
 base_tax = 1
 base_production = 1
 base_manpower = 4
 
-culture = mantid
-religion = yshaarj
+culture = harthak
+religion = fleshshaping
 
 trade_goods = unknown
 hre = no

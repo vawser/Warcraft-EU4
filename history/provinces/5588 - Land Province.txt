@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 38
-native_ferocity = 1
-native_hostileness = 6
+is_city = yes
+owner = CFW
+controller = CFW
+add_core = CFW
 
 base_tax = 2
 base_production = 1
 base_manpower = 1
 
-culture = noculture
-religion = noreligion
+culture = cliffwalker
+religion = earth_mother
 
 trade_goods = unknown
 hre = no

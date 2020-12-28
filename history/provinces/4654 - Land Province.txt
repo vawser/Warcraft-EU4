@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 60
-native_ferocity = 10
-native_hostileness = 5
+is_city = yes
+owner = SIF
+controller = SIF
+add_core = SIF
 
 base_tax = 2
 base_production = 3
 base_manpower = 2
 
-culture = noculture
-religion = noreligion
+culture = siltfin
+religion = deep_mother
 
 trade_goods = unknown
 hre = no

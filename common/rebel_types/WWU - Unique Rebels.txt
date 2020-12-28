@@ -117,29 +117,6 @@ adventurer_rebels = {
 			}
 			collapse_nation = yes
 		}
-		if = {
-			limit = {
-				has_reform = criminal_organization_reform
-			}
-			exile_ruler_as = ruler_exiled_by_adventurers
-			remove_government_reform = criminal_organization_reform
-			set_country_flag = ruler_exiled_by_adventurers_flag
-			
-		}
-		if = {
-			limit = {
-				has_country_modifier = summoned_oldgod
-			}
-			remove_country_modifier = summoned_oldgod
-			add_stability = -1
-		}
-		if = {
-			limit = {
-				has_country_modifier = lich_kings_crown
-			}
-			remove_country_modifier = lich_kings_crown
-			add_stability = -1
-		}
 	}
 }
 

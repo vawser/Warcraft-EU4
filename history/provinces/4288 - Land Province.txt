@@ -1,8 +1,8 @@
 
-is_city = no
-native_size = 40
-native_ferocity = 8
-native_hostileness = 5
+is_city = yes
+owner = FAL
+controller = FAL
+add_core = FAL
 
 base_tax = 1
 base_production = 4

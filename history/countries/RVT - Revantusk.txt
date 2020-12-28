@@ -1,6 +1,6 @@
 technology_group = tech_forest_troll
-government = monarchy
-add_government_reform = forest_troll_government_form
+government = tribal
+add_government_reform = tribal_despotism_reform
 primary_culture = revantusk
 religion = voodoo
 

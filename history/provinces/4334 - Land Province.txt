@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 72
-native_ferocity = 7
-native_hostileness = 5
+is_city = yes
+owner = MKS
+controller = MKS
+add_core = MKS
 
 base_tax = 4
 base_production = 1
 base_manpower = 2
 
-culture = saurok
-religion = voodoo
+culture = muckscale
+religion = fleshshaping
 
 trade_goods = unknown
 hre = no

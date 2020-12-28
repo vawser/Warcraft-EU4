@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 84
-native_ferocity = 9
-native_hostileness = 2
+is_city = yes
+owner = SVH
+controller = SVH
+add_core = SVH
 
 base_tax = 2
 base_production = 4
 base_manpower = 3
 
-culture = noculture
-religion = noreligion
+culture = savage_hill
+religion = shamanism
 
 trade_goods = unknown
 hre = no

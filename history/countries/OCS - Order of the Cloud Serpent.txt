@@ -1,5 +1,5 @@
 technology_group = tech_pandaren
-government = monarchy
+government = theocracy
 add_government_reform = monastic_order_reform
 primary_culture = order_of_the_cloud_serpent
 religion = celestials

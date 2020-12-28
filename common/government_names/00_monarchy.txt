@@ -304,52 +304,6 @@ gov_ancient_kingdom = {
         has_reform = ancient_kingdom_reform
 	}
 }
-gov_horde = {
-	rank = {
-		1 = THE_HORDE
-        2 = THE_HORDE
-        3 = THE_HORDE
-	}
-	
-	ruler_male = {
-		1 = WARCHIEF
-        2 = WARCHIEF
-        3 = WARCHIEF
-	}
-	
-	ruler_female = {
-		1 = WARCHIEF
-        2 = WARCHIEF
-        3 = WARCHIEF
-	}
-	
-	trigger = {
-        has_reform = horde_reform
-	}
-}
-gov_alliance = {
-	rank = {
-		1 = THE_ALLIANCE
-        2 = THE_ALLIANCE
-        3 = THE_ALLIANCE
-	}
-	
-	ruler_male = {
-		1 = KING
-        2 = KING
-        3 = KING
-	}
-	
-	ruler_female = {
-		1 = QUEEN
-        2 = QUEEN
-        3 = QUEEN
-	}
-	
-	trigger = {
-        has_reform = alliance_reform
-	}
-}
 gov_scourge = {
 	rank = {
 		1 = THE_SCOURGE

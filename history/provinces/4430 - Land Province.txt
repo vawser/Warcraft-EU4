@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 9
-native_ferocity = 10
-native_hostileness = 2
+is_city = yes
+owner = DWB
+controller = DWB
+add_core = DWB
 
 base_tax = 2
 base_production = 4
 base_manpower = 4
 
-culture = pandaren
+culture = dawns_blossom
 religion = celestials
 
 trade_goods = unknown

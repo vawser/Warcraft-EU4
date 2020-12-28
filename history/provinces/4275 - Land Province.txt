@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 55
-native_ferocity = 4
-native_hostileness = 3
+is_city = yes
+owner = ZHU
+controller = ZHU
+add_core = ZHU
 
 base_tax = 3
 base_production = 4
 base_manpower = 4
 
-culture = pandaren
+culture = zhu
 religion = celestials
 
 trade_goods = unknown

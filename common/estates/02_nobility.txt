@@ -49,15 +49,13 @@ estate_nobility = {
 			AND = { 
 				is_nomad = yes 
 				OR = {
-					religion = religion_fel 
-					religion = religion_old_gods 
+					religion = fel 
+					is_old_god_religion = yes
 				}
 			}
             OR = {
                 has_reform = ancient_kingdom_reform
-                has_reform = ancient_republic_reform
                 has_reform = ancient_theocracy_reform
-                has_reform = ancient_clan_reform
             }
 		}
 	}

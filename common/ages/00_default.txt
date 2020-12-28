@@ -1,5 +1,5 @@
 the_first_war = {
-	start = 776
+	start = 592
 	
 	can_start = {
 		always = yes
@@ -164,7 +164,7 @@ the_first_war = {
 	}
 }
 the_second_war = {
-	start = 778
+	start = 600
 	
 	can_start = {
 		custom_trigger_tooltip = {
