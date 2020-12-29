@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 65
-native_ferocity = 9
-native_hostileness = 6
+is_city = yes
+owner = SPR
+controller = SPR
+add_core = SPR
 
 base_tax = 2
 base_production = 4
 base_manpower = 4
 
-culture = noculture
-religion = noreligion
+culture = stonespire
+religion = earth_mother
 
 trade_goods = unknown
 hre = no

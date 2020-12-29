@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 44
-native_ferocity = 7
-native_hostileness = 3
+is_city = yes
+owner = WIM
+controller = WIM
+add_core = WIM
 
 base_tax = 1
 base_production = 4
 base_manpower = 3
 
-culture = noculture
-religion = noreligion
+culture = wildmane
+religion = earth_mother
 
 trade_goods = unknown
 hre = no

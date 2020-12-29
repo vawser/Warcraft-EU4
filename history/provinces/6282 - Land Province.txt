@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 61
-native_ferocity = 6
-native_hostileness = 10
+is_city = yes
+owner = KAL
+controller = KAL
+add_core = KAL
 
 base_tax = 3
 base_production = 4
 base_manpower = 2
 
-culture = noculture
-religion = noreligion
+culture = kaluak
+religion = shamanism
 
 trade_goods = unknown
 hre = no

@@ -1,8 +1,8 @@
 
-is_city = no
-native_size = 6
-native_ferocity = 8
-native_hostileness = 5
+is_city = yes
+owner = GUR
+controller = GUR
+add_core = GUR
 
 base_tax = 4
 base_production = 3

@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 61
-native_ferocity = 2
-native_hostileness = 2
+is_city = yes
+owner = RGC
+controller = RGC
+add_core = RGC
 
 base_tax = 3
 base_production = 4
 base_manpower = 4
 
-culture = noculture
-religion = noreligion
+culture = rageclaw
+religion = shamanism
 
 trade_goods = unknown
 hre = no

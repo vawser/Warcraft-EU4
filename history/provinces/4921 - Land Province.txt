@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 6
-native_ferocity = 2
-native_hostileness = 9
+is_city = yes
+owner = RAM
+controller = RAM
+add_core = RAM
 
 base_tax = 2
 base_production = 4
 base_manpower = 3
 
-culture = noculture
-religion = noreligion
+culture = ramkahen
+religion = titan_worship
 
 trade_goods = unknown
 hre = no

@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 23
-native_ferocity = 8
-native_hostileness = 1
+is_city = yes
+owner = HMT
+controller = HMT
+add_core = HMT
 
 base_tax = 1
 base_production = 3
 base_manpower = 2
 
-culture = harpy
-religion = wind
+culture = highmountain
+religion = earth_mother
 
 trade_goods = unknown
 hre = no

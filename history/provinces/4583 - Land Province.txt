@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 67
-native_ferocity = 1
-native_hostileness = 6
+is_city = yes
+owner = DTK
+controller = DTK
+add_core = DTK
 
 base_tax = 2
 base_production = 4
 base_manpower = 4
 
-culture = shado_pan
-religion = celestials
+culture = deadtalker
+religion = ordos
 
 trade_goods = unknown
 hre = no

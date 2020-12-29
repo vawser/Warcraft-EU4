@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 35
-native_ferocity = 4
-native_hostileness = 2
+is_city = yes
+owner = SKC
+controller = SKC
+add_core = SKC
 
 base_tax = 2
 base_production = 3
 base_manpower = 1
 
-culture = noculture
-religion = noreligion
+culture = skychaser
+religion = earth_mother
 
 trade_goods = unknown
 hre = no

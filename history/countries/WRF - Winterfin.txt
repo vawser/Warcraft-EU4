@@ -4,7 +4,7 @@ add_government_reform = tribal_despotism_reform
 primary_culture = winterfin
 religion = deep_mother
 
-capital = 1
+capital = 6217
 
 # The First War
 592.1.1 = {

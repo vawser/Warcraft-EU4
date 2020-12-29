@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = WFY
-controller = WFY
-add_core = WFY
+owner = SKY
+controller = SKY
+add_core = SKY
 
 base_tax = 1
 base_production = 4
 base_manpower = 4
 
-culture = windfury
-religion = wind
+culture = skyseer
+religion = earth_mother
 
 trade_goods = unknown
 hre = no

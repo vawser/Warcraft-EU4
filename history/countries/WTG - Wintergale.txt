@@ -4,7 +4,7 @@ add_government_reform = tribal_federation_reform
 primary_culture = wintergale
 religion = shamanism
 
-capital = 1
+capital = 6288
 
 # The First War
 592.1.1 = {

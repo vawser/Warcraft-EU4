@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 20
-native_ferocity = 10
-native_hostileness = 6
+is_city = yes
+owner = SKH
+controller = SKH
+add_core = SKH
 
 base_tax = 2
 base_production = 1
 base_manpower = 1
 
-culture = tauren
-religion = shamanism
+culture = skyhorn
+religion = earth_mother
 
 trade_goods = unknown
 hre = no

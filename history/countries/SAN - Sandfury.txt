@@ -1,7 +1,7 @@
 technology_group = tech_sand_troll
 government = tribal
 add_government_reform = tribal_despotism_reform
-government_rank = 4
+government_rank = 2
 primary_culture = sandfury
 religion = voodoo
 

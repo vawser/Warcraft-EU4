@@ -2,7 +2,7 @@ technology_group = tech_forest_troll
 government = tribal
 add_government_reform = tribal_despotism_reform
 primary_culture = vilebranch
-religion = voodoo
+religion = hakkari
 
 capital = 1
 

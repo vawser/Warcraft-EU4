@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 45
-native_ferocity = 4
-native_hostileness = 4
+is_city = yes
+owner = JOT
+controller = JOT
+add_core = JOT
 
 base_tax = 3
 base_production = 3
 base_manpower = 1
 
-culture = noculture
-religion = noreligion
+culture = jotunheim
+religion = runic
 
 trade_goods = unknown
 hre = no

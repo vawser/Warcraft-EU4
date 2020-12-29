@@ -1,9 +1,9 @@
 technology_group = tech_tolvir
 government = monarchy
 add_government_reform = ancient_kingdom_reform
-government_rank = 4
+government_rank = 2
 primary_culture = orsis
-religion = wind
+religion = titan_worship
 
 capital = 1
 

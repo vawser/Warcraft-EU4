@@ -1,8 +1,8 @@
 
-is_city = no
-native_size = 47
-native_ferocity = 6
-native_hostileness = 9
+is_city = yes
+owner = ZDL
+controller = ZDL
+add_core = ZDL
 
 base_tax = 3
 base_production = 4

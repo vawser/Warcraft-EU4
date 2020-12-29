@@ -3,7 +3,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = andorhal
 religion = the_holy_light
-government_rank = 4
+government_rank = 2
 capital = 3517
 
 # The First War

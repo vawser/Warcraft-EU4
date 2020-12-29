@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 56
-native_ferocity = 2
-native_hostileness = 6
+is_city = yes
+owner = SKS
+controller = SKS
+add_core = SKS
 
 base_tax = 3
 base_production = 4
 base_manpower = 1
 
-culture = blackwater
-religion = technomancy
+culture = skullsplitter
+religion = voodoo
 
 trade_goods = unknown
 hre = no

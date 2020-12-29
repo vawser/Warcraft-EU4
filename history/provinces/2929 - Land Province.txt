@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 56
-native_ferocity = 5
-native_hostileness = 5
+is_city = yes
+owner = BLS
+controller = BLS
+add_core = BLS
 
 base_tax = 3
 base_production = 1
 base_manpower = 4
 
-culture = jungle_troll
+culture = bloodscalp
 religion = voodoo
 
 trade_goods = unknown

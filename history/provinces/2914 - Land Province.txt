@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 8
-native_ferocity = 8
-native_hostileness = 3
+is_city = yes
+owner = GUR
+controller = GUR
+add_core = GUR
 
 base_tax = 4
 base_production = 3
 base_manpower = 4
 
-culture = jungle_troll
+culture = gurubashi
 religion = voodoo
 
 trade_goods = unknown

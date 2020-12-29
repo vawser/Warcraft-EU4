@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 18
-native_ferocity = 7
-native_hostileness = 4
+is_city = yes
+owner = DAK
+controller = DAK
+add_core = DAK
 
 base_tax = 4
 base_production = 3
 base_manpower = 3
 
-culture = noculture
-religion = noreligion
+culture = drakkari
+religion = voodoo
 
 trade_goods = unknown
 hre = no

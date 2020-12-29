@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 74
-native_ferocity = 1
-native_hostileness = 0
+is_city = yes
+owner = SER
+controller = SER
+add_core = SER
 
 base_tax = 2
 base_production = 4
 base_manpower = 2
 
-culture = noculture
-religion = noreligion
+culture = seradane
+religion = dragon_aspects
 
 trade_goods = unknown
 hre = no
