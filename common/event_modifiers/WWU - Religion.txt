@@ -162,16 +162,19 @@ harmonized_disorder = {
     discipline = 0.05
 }
 harmonized_elemental = {
-    global_manpower_modifier = 0.2
+    production_efficiency = 0.15
 }
-harmonized_nature = {
-    development_cost = -0.2
+harmonized_life = {
+    development_cost = -0.15
 }
-harmonized_void = {
+harmonized_shadow = {
     all_power_cost = -0.05
 }
-harmonized_rational_philosophies = {
+harmonized_philosophy = {
     technology_cost = -0.1
+}
+harmonized_death = {
+    global_manpower_modifier = 0.2
 }
 
 #----------------------------------------------

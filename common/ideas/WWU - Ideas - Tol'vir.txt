@@ -1,0 +1,114 @@
+# Neferset
+NEF_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = NEF
+	}
+	free = yes		
+	
+	NEF_ideas_1 = {
+		
+	}
+	NEF_ideas_2 = {
+		
+	}
+	NEF_ideas_3 = {
+		
+	}
+	NEF_ideas_4 = {
+		
+	}
+	NEF_ideas_5 = {
+		
+	}
+	NEF_ideas_6 = {
+		
+	}
+	NEF_ideas_7 = {
+		
+	}
+}
+
+# Orsis
+ORS_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = ORS
+	}
+	free = yes		
+	
+	ORS_ideas_1 = {
+		
+	}
+	ORS_ideas_2 = {
+		
+	}
+	ORS_ideas_3 = {
+		
+	}
+	ORS_ideas_4 = {
+		
+	}
+	ORS_ideas_5 = {
+		
+	}
+	ORS_ideas_6 = {
+		
+	}
+	ORS_ideas_7 = {
+		
+	}
+}
+
+# Ramkahen
+RAM_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = RAM
+	}
+	free = yes		
+	
+	RAM_ideas_1 = {
+		
+	}
+	RAM_ideas_2 = {
+		
+	}
+	RAM_ideas_3 = {
+		
+	}
+	RAM_ideas_4 = {
+		
+	}
+	RAM_ideas_5 = {
+		
+	}
+	RAM_ideas_6 = {
+		
+	}
+	RAM_ideas_7 = {
+		
+	}
+}
+

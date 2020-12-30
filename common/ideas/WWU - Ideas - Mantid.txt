@@ -1,0 +1,38 @@
+# Mantid Empire
+MAN_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = MAN
+	}
+	free = yes		
+	
+	MAN_ideas_1 = {
+		
+	}
+	MAN_ideas_2 = {
+		
+	}
+	MAN_ideas_3 = {
+		
+	}
+	MAN_ideas_4 = {
+		
+	}
+	MAN_ideas_5 = {
+		
+	}
+	MAN_ideas_6 = {
+		
+	}
+	MAN_ideas_7 = {
+		
+	}
+}
+

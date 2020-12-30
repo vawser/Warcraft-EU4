@@ -1,0 +1,190 @@
+# Bloodpaw
+BLP_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = BLP
+	}
+	free = yes		
+	
+	BLP_ideas_1 = {
+		
+	}
+	BLP_ideas_2 = {
+		
+	}
+	BLP_ideas_3 = {
+		
+	}
+	BLP_ideas_4 = {
+		
+	}
+	BLP_ideas_5 = {
+		
+	}
+	BLP_ideas_6 = {
+		
+	}
+	BLP_ideas_7 = {
+		
+	}
+}
+
+# Frenzyheart
+FZY_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = FZY
+	}
+	free = yes		
+	
+	FZY_ideas_1 = {
+		
+	}
+	FZY_ideas_2 = {
+		
+	}
+	FZY_ideas_3 = {
+		
+	}
+	FZY_ideas_4 = {
+		
+	}
+	FZY_ideas_5 = {
+		
+	}
+	FZY_ideas_6 = {
+		
+	}
+	FZY_ideas_7 = {
+		
+	}
+}
+
+# Howling
+HWG_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = HWG
+	}
+	free = yes		
+	
+	HWG_ideas_1 = {
+		
+	}
+	HWG_ideas_2 = {
+		
+	}
+	HWG_ideas_3 = {
+		
+	}
+	HWG_ideas_4 = {
+		
+	}
+	HWG_ideas_5 = {
+		
+	}
+	HWG_ideas_6 = {
+		
+	}
+	HWG_ideas_7 = {
+		
+	}
+}
+
+# Rageclaw
+RGC_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = RGC
+	}
+	free = yes		
+	
+	RGC_ideas_1 = {
+		
+	}
+	RGC_ideas_2 = {
+		
+	}
+	RGC_ideas_3 = {
+		
+	}
+	RGC_ideas_4 = {
+		
+	}
+	RGC_ideas_5 = {
+		
+	}
+	RGC_ideas_6 = {
+		
+	}
+	RGC_ideas_7 = {
+		
+	}
+}
+
+# Snowfall
+SNF_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SNF
+	}
+	free = yes		
+	
+	SNF_ideas_1 = {
+		
+	}
+	SNF_ideas_2 = {
+		
+	}
+	SNF_ideas_3 = {
+		
+	}
+	SNF_ideas_4 = {
+		
+	}
+	SNF_ideas_5 = {
+		
+	}
+	SNF_ideas_6 = {
+		
+	}
+	SNF_ideas_7 = {
+		
+	}
+}
+

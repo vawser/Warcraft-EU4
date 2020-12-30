@@ -19,6 +19,8 @@ light_group = {
 			global_tax_modifier = 0.2
 		}
 		
+        uses_harmony = yes
+        
 		on_convert = {
 			change_religion = the_holy_light
 			add_prestige = -100
@@ -40,6 +42,8 @@ light_group = {
 		}
 
 		misguided_heretic = yes
+        
+        uses_harmony = yes
 		
 		on_convert = {
 			change_religion = light_of_the_naaru

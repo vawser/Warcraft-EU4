@@ -2,7 +2,7 @@ kalimdor_tauren_group = {
     graphical_culture = tauren_gfx
     
     country = { 
-        female_advisor_chance = 0.5 
+        # female_advisor_chance = 0.5 
     }
     
     cliffwalker = {
@@ -282,7 +282,7 @@ highmountain_tauren_group = {
     graphical_culture = highmountain_tauren_gfx
     
     country = { 
-        female_advisor_chance = 0.5 
+        # female_advisor_chance = 0.5 
     }
     
     highmountain = {

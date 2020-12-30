@@ -170,7 +170,7 @@ guiTypes = {
 		{
 			name ="institution_icon"
 			spriteType = "GFX_province_institutions_button"
-			position = { x= 440 y = 327 }
+			position = { x= 440 y = 9999 }
 			shortcut = "n"
 		}
 

@@ -1,0 +1,797 @@
+# Zandalar
+ZDL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = ZDL
+	}
+	free = yes		
+	
+	ZDL_ideas_1 = {
+		
+	}
+	ZDL_ideas_2 = {
+		
+	}
+	ZDL_ideas_3 = {
+		
+	}
+	ZDL_ideas_4 = {
+		
+	}
+	ZDL_ideas_5 = {
+		
+	}
+	ZDL_ideas_6 = {
+		
+	}
+	ZDL_ideas_7 = {
+		
+	}
+}
+
+# Amani
+AMA_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = AMA
+	}
+	free = yes		
+	
+	AMA_ideas_1 = {
+		
+	}
+	AMA_ideas_2 = {
+		
+	}
+	AMA_ideas_3 = {
+		
+	}
+	AMA_ideas_4 = {
+		
+	}
+	AMA_ideas_5 = {
+		
+	}
+	AMA_ideas_6 = {
+		
+	}
+	AMA_ideas_7 = {
+		
+	}
+}
+
+# Shadowpine
+SWP_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SWP
+	}
+	free = yes		
+	
+	SWP_ideas_1 = {
+		
+	}
+	SWP_ideas_2 = {
+		
+	}
+	SWP_ideas_3 = {
+		
+	}
+	SWP_ideas_4 = {
+		
+	}
+	SWP_ideas_5 = {
+		
+	}
+	SWP_ideas_6 = {
+		
+	}
+	SWP_ideas_7 = {
+		
+	}
+}
+
+# Vilebranch
+VLB_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = VLB
+	}
+	free = yes		
+	
+	VLB_ideas_1 = {
+		
+	}
+	VLB_ideas_2 = {
+		
+	}
+	VLB_ideas_3 = {
+		
+	}
+	VLB_ideas_4 = {
+		
+	}
+	VLB_ideas_5 = {
+		
+	}
+	VLB_ideas_6 = {
+		
+	}
+	VLB_ideas_7 = {
+		
+	}
+}
+
+# Revantusk
+RVT_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = RVT
+	}
+	free = yes		
+	
+	RVT_ideas_1 = {
+		
+	}
+	RVT_ideas_2 = {
+		
+	}
+	RVT_ideas_3 = {
+		
+	}
+	RVT_ideas_4 = {
+		
+	}
+	RVT_ideas_5 = {
+		
+	}
+	RVT_ideas_6 = {
+		
+	}
+	RVT_ideas_7 = {
+		
+	}
+}
+
+# Firetree
+FRR_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = FRR
+	}
+	free = yes		
+	
+	FRR_ideas_1 = {
+		
+	}
+	FRR_ideas_2 = {
+		
+	}
+	FRR_ideas_3 = {
+		
+	}
+	FRR_ideas_4 = {
+		
+	}
+	FRR_ideas_5 = {
+		
+	}
+	FRR_ideas_6 = {
+		
+	}
+	FRR_ideas_7 = {
+		
+	}
+}
+
+# Witherbark
+WTR_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = WTR
+	}
+	free = yes		
+	
+	WTR_ideas_1 = {
+		
+	}
+	WTR_ideas_2 = {
+		
+	}
+	WTR_ideas_3 = {
+		
+	}
+	WTR_ideas_4 = {
+		
+	}
+	WTR_ideas_5 = {
+		
+	}
+	WTR_ideas_6 = {
+		
+	}
+	WTR_ideas_7 = {
+		
+	}
+}
+
+# Smolderthorn
+SLD_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SLD
+	}
+	free = yes		
+	
+	SLD_ideas_1 = {
+		
+	}
+	SLD_ideas_2 = {
+		
+	}
+	SLD_ideas_3 = {
+		
+	}
+	SLD_ideas_4 = {
+		
+	}
+	SLD_ideas_5 = {
+		
+	}
+	SLD_ideas_6 = {
+		
+	}
+	SLD_ideas_7 = {
+		
+	}
+}
+
+# Shadowglen
+SWN_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SWN
+	}
+	free = yes		
+	
+	SWN_ideas_1 = {
+		
+	}
+	SWN_ideas_2 = {
+		
+	}
+	SWN_ideas_3 = {
+		
+	}
+	SWN_ideas_4 = {
+		
+	}
+	SWN_ideas_5 = {
+		
+	}
+	SWN_ideas_6 = {
+		
+	}
+	SWN_ideas_7 = {
+		
+	}
+}
+
+# Gurubashi
+GUR_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = GUR
+	}
+	free = yes		
+	
+	GUR_ideas_1 = {
+		
+	}
+	GUR_ideas_2 = {
+		
+	}
+	GUR_ideas_3 = {
+		
+	}
+	GUR_ideas_4 = {
+		
+	}
+	GUR_ideas_5 = {
+		
+	}
+	GUR_ideas_6 = {
+		
+	}
+	GUR_ideas_7 = {
+		
+	}
+}
+
+# Bloodscalp
+BLS_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = BLS
+	}
+	free = yes		
+	
+	BLS_ideas_1 = {
+		
+	}
+	BLS_ideas_2 = {
+		
+	}
+	BLS_ideas_3 = {
+		
+	}
+	BLS_ideas_4 = {
+		
+	}
+	BLS_ideas_5 = {
+		
+	}
+	BLS_ideas_6 = {
+		
+	}
+	BLS_ideas_7 = {
+		
+	}
+}
+
+# Shatterspear
+STS_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = STS
+	}
+	free = yes		
+	
+	STS_ideas_1 = {
+		
+	}
+	STS_ideas_2 = {
+		
+	}
+	STS_ideas_3 = {
+		
+	}
+	STS_ideas_4 = {
+		
+	}
+	STS_ideas_5 = {
+		
+	}
+	STS_ideas_6 = {
+		
+	}
+	STS_ideas_7 = {
+		
+	}
+}
+
+# Skullsplitter
+SKS_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SKS
+	}
+	free = yes		
+	
+	SKS_ideas_1 = {
+		
+	}
+	SKS_ideas_2 = {
+		
+	}
+	SKS_ideas_3 = {
+		
+	}
+	SKS_ideas_4 = {
+		
+	}
+	SKS_ideas_5 = {
+		
+	}
+	SKS_ideas_6 = {
+		
+	}
+	SKS_ideas_7 = {
+		
+	}
+}
+
+# Atalai
+ATL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = ATL
+	}
+	free = yes		
+	
+	ATL_ideas_1 = {
+		
+	}
+	ATL_ideas_2 = {
+		
+	}
+	ATL_ideas_3 = {
+		
+	}
+	ATL_ideas_4 = {
+		
+	}
+	ATL_ideas_5 = {
+		
+	}
+	ATL_ideas_6 = {
+		
+	}
+	ATL_ideas_7 = {
+		
+	}
+}
+
+# Jellyneck
+JEL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = JEL
+	}
+	free = yes		
+	
+	JEL_ideas_1 = {
+		
+	}
+	JEL_ideas_2 = {
+		
+	}
+	JEL_ideas_3 = {
+		
+	}
+	JEL_ideas_4 = {
+		
+	}
+	JEL_ideas_5 = {
+		
+	}
+	JEL_ideas_6 = {
+		
+	}
+	JEL_ideas_7 = {
+		
+	}
+}
+
+# Darkspear
+DRK_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = DRK
+	}
+	free = yes		
+	
+	DRK_ideas_1 = {
+		
+	}
+	DRK_ideas_2 = {
+		
+	}
+	DRK_ideas_3 = {
+		
+	}
+	DRK_ideas_4 = {
+		
+	}
+	DRK_ideas_5 = {
+		
+	}
+	DRK_ideas_6 = {
+		
+	}
+	DRK_ideas_7 = {
+		
+	}
+}
+
+# Sandfury
+SAN_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SAN
+	}
+	free = yes		
+	
+	SAN_ideas_1 = {
+		
+	}
+	SAN_ideas_2 = {
+		
+	}
+	SAN_ideas_3 = {
+		
+	}
+	SAN_ideas_4 = {
+		
+	}
+	SAN_ideas_5 = {
+		
+	}
+	SAN_ideas_6 = {
+		
+	}
+	SAN_ideas_7 = {
+		
+	}
+}
+
+# Drakkari
+DAK_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = DAK
+	}
+	free = yes		
+	
+	DAK_ideas_1 = {
+		
+	}
+	DAK_ideas_2 = {
+		
+	}
+	DAK_ideas_3 = {
+		
+	}
+	DAK_ideas_4 = {
+		
+	}
+	DAK_ideas_5 = {
+		
+	}
+	DAK_ideas_6 = {
+		
+	}
+	DAK_ideas_7 = {
+		
+	}
+}
+
+# Frostmane
+FSM_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = FSM
+	}
+	free = yes		
+	
+	FSM_ideas_1 = {
+		
+	}
+	FSM_ideas_2 = {
+		
+	}
+	FSM_ideas_3 = {
+		
+	}
+	FSM_ideas_4 = {
+		
+	}
+	FSM_ideas_5 = {
+		
+	}
+	FSM_ideas_6 = {
+		
+	}
+	FSM_ideas_7 = {
+		
+	}
+}
+
+# Winterax
+WTX_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = WTX
+	}
+	free = yes		
+	
+	WTX_ideas_1 = {
+		
+	}
+	WTX_ideas_2 = {
+		
+	}
+	WTX_ideas_3 = {
+		
+	}
+	WTX_ideas_4 = {
+		
+	}
+	WTX_ideas_5 = {
+		
+	}
+	WTX_ideas_6 = {
+		
+	}
+	WTX_ideas_7 = {
+		
+	}
+}
+
+# Winterfang
+WTF_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = WTF
+	}
+	free = yes		
+	
+	WTF_ideas_1 = {
+		
+	}
+	WTF_ideas_2 = {
+		
+	}
+	WTF_ideas_3 = {
+		
+	}
+	WTF_ideas_4 = {
+		
+	}
+	WTF_ideas_5 = {
+		
+	}
+	WTF_ideas_6 = {
+		
+	}
+	WTF_ideas_7 = {
+		
+	}
+}

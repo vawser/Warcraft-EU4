@@ -1,0 +1,38 @@
+# Suramar
+NTB_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = NTB
+	}
+	free = yes		
+	
+	NTB_ideas_1 = {
+		
+	}
+	NTB_ideas_2 = {
+		
+	}
+	NTB_ideas_3 = {
+		
+	}
+	NTB_ideas_4 = {
+		
+	}
+	NTB_ideas_5 = {
+		
+	}
+	NTB_ideas_6 = {
+		
+	}
+	NTB_ideas_7 = {
+		
+	}
+}
+

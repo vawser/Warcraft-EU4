@@ -1,0 +1,76 @@
+# Oogah
+OOG_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = OOG
+	}
+	free = yes		
+	
+	OOG_ideas_1 = {
+		
+	}
+	OOG_ideas_2 = {
+		
+	}
+	OOG_ideas_3 = {
+		
+	}
+	OOG_ideas_4 = {
+		
+	}
+	OOG_ideas_5 = {
+		
+	}
+	OOG_ideas_6 = {
+		
+	}
+	OOG_ideas_7 = {
+		
+	}
+}
+
+# Oomlot
+OOM_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = OOM
+	}
+	free = yes		
+	
+	OOM_ideas_1 = {
+		
+	}
+	OOM_ideas_2 = {
+		
+	}
+	OOM_ideas_3 = {
+		
+	}
+	OOM_ideas_4 = {
+		
+	}
+	OOM_ideas_5 = {
+		
+	}
+	OOM_ideas_6 = {
+		
+	}
+	OOM_ideas_7 = {
+		
+	}
+}
+

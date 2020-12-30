@@ -1,0 +1,114 @@
+# Icemist
+ICE_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = ICE
+	}
+	free = yes		
+	
+	ICE_ideas_1 = {
+		
+	}
+	ICE_ideas_2 = {
+		
+	}
+	ICE_ideas_3 = {
+		
+	}
+	ICE_ideas_4 = {
+		
+	}
+	ICE_ideas_5 = {
+		
+	}
+	ICE_ideas_6 = {
+		
+	}
+	ICE_ideas_7 = {
+		
+	}
+}
+
+# Ashtotem
+ASH_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = ASH
+	}
+	free = yes		
+	
+	ASH_ideas_1 = {
+		
+	}
+	ASH_ideas_2 = {
+		
+	}
+	ASH_ideas_3 = {
+		
+	}
+	ASH_ideas_4 = {
+		
+	}
+	ASH_ideas_5 = {
+		
+	}
+	ASH_ideas_6 = {
+		
+	}
+	ASH_ideas_7 = {
+		
+	}
+}
+
+# Wintergale
+WTG_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = WTG
+	}
+	free = yes		
+	
+	WTG_ideas_1 = {
+		
+	}
+	WTG_ideas_2 = {
+		
+	}
+	WTG_ideas_3 = {
+		
+	}
+	WTG_ideas_4 = {
+		
+	}
+	WTG_ideas_5 = {
+		
+	}
+	WTG_ideas_6 = {
+		
+	}
+	WTG_ideas_7 = {
+		
+	}
+}
+

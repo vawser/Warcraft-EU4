@@ -2,7 +2,7 @@ dwarf_group = {
     graphical_culture = dwarf_gfx
     
     country = { 
-        female_advisor_chance = 0.5 
+        # female_advisor_chance = 0.5 
     }
         
     ironforge = {
@@ -87,7 +87,7 @@ dark_iron_dwarf_group = {
     graphical_culture = dark_iron_dwarf_gfx
     
     country = { 
-        female_advisor_chance = 0.5 
+        # female_advisor_chance = 0.5 
     }
     
     dark_iron = {

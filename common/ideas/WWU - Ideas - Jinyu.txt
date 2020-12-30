@@ -1,0 +1,114 @@
+# Pearlfin
+PEA_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = PEA
+	}
+	free = yes		
+	
+	PEA_ideas_1 = {
+		
+	}
+	PEA_ideas_2 = {
+		
+	}
+	PEA_ideas_3 = {
+		
+	}
+	PEA_ideas_4 = {
+		
+	}
+	PEA_ideas_5 = {
+		
+	}
+	PEA_ideas_6 = {
+		
+	}
+	PEA_ideas_7 = {
+		
+	}
+}
+
+# Inkgill
+INK_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = INK
+	}
+	free = yes		
+	
+	INK_ideas_1 = {
+		
+	}
+	INK_ideas_2 = {
+		
+	}
+	INK_ideas_3 = {
+		
+	}
+	INK_ideas_4 = {
+		
+	}
+	INK_ideas_5 = {
+		
+	}
+	INK_ideas_6 = {
+		
+	}
+	INK_ideas_7 = {
+		
+	}
+}
+
+# Fallsong
+FAL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = FAL
+	}
+	free = yes		
+	
+	FAL_ideas_1 = {
+		
+	}
+	FAL_ideas_2 = {
+		
+	}
+	FAL_ideas_3 = {
+		
+	}
+	FAL_ideas_4 = {
+		
+	}
+	FAL_ideas_5 = {
+		
+	}
+	FAL_ideas_6 = {
+		
+	}
+	FAL_ideas_7 = {
+		
+	}
+}
+

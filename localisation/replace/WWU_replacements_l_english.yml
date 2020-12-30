@@ -767,8 +767,8 @@
  ALREADY_CRUSADING: "The Grand Warlock has already launched a Crusade. We must wait for it to end before calling another."
  CRUSADE_SAME_RELIGION: "While tempting, we cannot launch a Crusade against Disorder nations, heretics or not."
  
- cb_crusade: "Burning Crusade"
- cb_crusade_desc: "They are lesser beings!"
+ cb_crusade: "Holy War"
+ cb_crusade_desc: "They worship a different god. This will not stand!"
  
  CRUSADE_TOO_DISTANT: "These lesser beings are too distant a target for a Crusade."
  

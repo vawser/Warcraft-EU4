@@ -2,7 +2,7 @@ orc_group = {
     graphical_culture = orc_gfx
     
     country = { 
-        female_advisor_chance = 0.5 
+        # female_advisor_chance = 0.5 
     }
         
     orgrimmar = {

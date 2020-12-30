@@ -10,6 +10,8 @@ death_group = {
     
     crusade_name = CRUSADE
 
+    harmonized_modifier = harmonized_death
+    
     cult_of_the_damned = {
 		color = { 81 109 71 }
 		icon = 12

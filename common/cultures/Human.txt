@@ -2,7 +2,7 @@ azerothian_group = {
     graphical_culture = human_gfx 
     
     country = { 
-        female_advisor_chance = 0.5 
+        # female_advisor_chance = 0.5 
     }
     
     stormwind = {
@@ -87,7 +87,7 @@ criminal_group = {
     graphical_culture = human_gfx 
     
     country = { 
-        female_advisor_chance = 0.5 
+        # female_advisor_chance = 0.5 
     }
     
     bloodsail = {
@@ -135,7 +135,7 @@ gilnean_group = {
     graphical_culture = human_gfx 
     
     country = { 
-        female_advisor_chance = 0.5 
+        # female_advisor_chance = 0.5 
     }
     
     gilnean = {
@@ -157,7 +157,7 @@ kul_tiran_group = {
     graphical_culture = human_gfx 
     
     country = { 
-        female_advisor_chance = 0.5 
+        # female_advisor_chance = 0.5 
     }
     
     kul_tiras = {
@@ -192,7 +192,7 @@ arathi_group = {
     graphical_culture = human_gfx 
 
     country = { 
-        female_advisor_chance = 0.5 
+        # female_advisor_chance = 0.5 
     }
     
     stromgarde = {
@@ -240,7 +240,7 @@ alteraci_group = {
     graphical_culture = human_gfx 
     
     country = { 
-        female_advisor_chance = 0.5 
+        # female_advisor_chance = 0.5 
     }
     
     alterac = {
@@ -274,7 +274,7 @@ lordaeron_group = {
     graphical_culture = human_gfx 
     
     country = { 
-        female_advisor_chance = 0.5 
+        # female_advisor_chance = 0.5 
     }
     
     lordaeron = {
@@ -338,7 +338,7 @@ arcane_group = {
     graphical_culture = human_gfx 
     
     country = { 
-        female_advisor_chance = 0.5 
+        # female_advisor_chance = 0.5 
     }
     
     dalaran = { 

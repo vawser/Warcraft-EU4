@@ -10,6 +10,8 @@ life_group = {
     
     crusade_name = CRUSADE
     
+    harmonized_modifier = harmonized_life
+    
     celestials = {
         color = { 49 177 85 }
 		icon = 14

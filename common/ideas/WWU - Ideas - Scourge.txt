@@ -1,0 +1,37 @@
+# The Scourge
+SCO_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SCO
+	}
+	free = yes		
+	
+	SCO_ideas_1 = {
+		
+	}
+	SCO_ideas_2 = {
+		
+	}
+	SCO_ideas_3 = {
+		
+	}
+	SCO_ideas_4 = {
+		
+	}
+	SCO_ideas_5 = {
+		
+	}
+	SCO_ideas_6 = {
+		
+	}
+	SCO_ideas_7 = {
+		
+	}
+}

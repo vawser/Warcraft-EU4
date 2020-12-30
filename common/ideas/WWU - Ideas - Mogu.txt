@@ -1,0 +1,494 @@
+# Mogu Shan
+MOH_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = MOH
+	}
+	free = yes		
+	
+	MOH_ideas_1 = {
+		
+	}
+	MOH_ideas_2 = {
+		
+	}
+	MOH_ideas_3 = {
+		
+	}
+	MOH_ideas_4 = {
+		
+	}
+	MOH_ideas_5 = {
+		
+	}
+	MOH_ideas_6 = {
+		
+	}
+	MOH_ideas_7 = {
+		
+	}
+}
+
+# Gormali
+GOM_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = GOM
+	}
+	free = yes		
+	
+	GOM_ideas_1 = {
+		
+	}
+	GOM_ideas_2 = {
+		
+	}
+	GOM_ideas_3 = {
+		
+	}
+	GOM_ideas_4 = {
+		
+	}
+	GOM_ideas_5 = {
+		
+	}
+	GOM_ideas_6 = {
+		
+	}
+	GOM_ideas_7 = {
+		
+	}
+}
+
+# Dojani
+DOJ_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = DOJ
+	}
+	free = yes		
+	
+	DOJ_ideas_1 = {
+		
+	}
+	DOJ_ideas_2 = {
+		
+	}
+	DOJ_ideas_3 = {
+		
+	}
+	DOJ_ideas_4 = {
+		
+	}
+	DOJ_ideas_5 = {
+		
+	}
+	DOJ_ideas_6 = {
+		
+	}
+	DOJ_ideas_7 = {
+		
+	}
+}
+
+# Shan'ze
+SAZ_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SAZ
+	}
+	free = yes		
+	
+	SAZ_ideas_1 = {
+		
+	}
+	SAZ_ideas_2 = {
+		
+	}
+	SAZ_ideas_3 = {
+		
+	}
+	SAZ_ideas_4 = {
+		
+	}
+	SAZ_ideas_5 = {
+		
+	}
+	SAZ_ideas_6 = {
+		
+	}
+	SAZ_ideas_7 = {
+		
+	}
+}
+
+# Shao Tien
+SHO_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SHO
+	}
+	free = yes		
+	
+	SHO_ideas_1 = {
+		
+	}
+	SHO_ideas_2 = {
+		
+	}
+	SHO_ideas_3 = {
+		
+	}
+	SHO_ideas_4 = {
+		
+	}
+	SHO_ideas_5 = {
+		
+	}
+	SHO_ideas_6 = {
+		
+	}
+	SHO_ideas_7 = {
+		
+	}
+}
+
+# Gurthan
+GTH_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = GTH
+	}
+	free = yes		
+	
+	GTH_ideas_1 = {
+		
+	}
+	GTH_ideas_2 = {
+		
+	}
+	GTH_ideas_3 = {
+		
+	}
+	GTH_ideas_4 = {
+		
+	}
+	GTH_ideas_5 = {
+		
+	}
+	GTH_ideas_6 = {
+		
+	}
+	GTH_ideas_7 = {
+		
+	}
+}
+
+# Harthak
+HRT_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = HRT
+	}
+	free = yes		
+	
+	HRT_ideas_1 = {
+		
+	}
+	HRT_ideas_2 = {
+		
+	}
+	HRT_ideas_3 = {
+		
+	}
+	HRT_ideas_4 = {
+		
+	}
+	HRT_ideas_5 = {
+		
+	}
+	HRT_ideas_6 = {
+		
+	}
+	HRT_ideas_7 = {
+		
+	}
+}
+
+# Kargesh
+KGH_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = KGH
+	}
+	free = yes		
+	
+	KGH_ideas_1 = {
+		
+	}
+	KGH_ideas_2 = {
+		
+	}
+	KGH_ideas_3 = {
+		
+	}
+	KGH_ideas_4 = {
+		
+	}
+	KGH_ideas_5 = {
+		
+	}
+	KGH_ideas_6 = {
+		
+	}
+	KGH_ideas_7 = {
+		
+	}
+}
+
+# Kao-Tien
+KAO_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = KAO
+	}
+	free = yes		
+	
+	KAO_ideas_1 = {
+		
+	}
+	KAO_ideas_2 = {
+		
+	}
+	KAO_ideas_3 = {
+		
+	}
+	KAO_ideas_4 = {
+		
+	}
+	KAO_ideas_5 = {
+		
+	}
+	KAO_ideas_6 = {
+		
+	}
+	KAO_ideas_7 = {
+		
+	}
+}
+
+# Korjan
+KRJ_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = KRJ
+	}
+	free = yes		
+	
+	KRJ_ideas_1 = {
+		
+	}
+	KRJ_ideas_2 = {
+		
+	}
+	KRJ_ideas_3 = {
+		
+	}
+	KRJ_ideas_4 = {
+		
+	}
+	KRJ_ideas_5 = {
+		
+	}
+	KRJ_ideas_6 = {
+		
+	}
+	KRJ_ideas_7 = {
+		
+	}
+}
+
+# Korune
+KRN_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = KRN
+	}
+	free = yes		
+	
+	KRN_ideas_1 = {
+		
+	}
+	KRN_ideas_2 = {
+		
+	}
+	KRN_ideas_3 = {
+		
+	}
+	KRN_ideas_4 = {
+		
+	}
+	KRN_ideas_5 = {
+		
+	}
+	KRN_ideas_6 = {
+		
+	}
+	KRN_ideas_7 = {
+		
+	}
+}
+
+# Krasari
+KRS_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = KRS
+	}
+	free = yes		
+	
+	KRS_ideas_1 = {
+		
+	}
+	KRS_ideas_2 = {
+		
+	}
+	KRS_ideas_3 = {
+		
+	}
+	KRS_ideas_4 = {
+		
+	}
+	KRS_ideas_5 = {
+		
+	}
+	KRS_ideas_6 = {
+		
+	}
+	KRS_ideas_7 = {
+		
+	}
+}
+
+# Jitong
+JIT_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = JIT
+	}
+	free = yes		
+	
+	JIT_ideas_1 = {
+		
+	}
+	JIT_ideas_2 = {
+		
+	}
+	JIT_ideas_3 = {
+		
+	}
+	JIT_ideas_4 = {
+		
+	}
+	JIT_ideas_5 = {
+		
+	}
+	JIT_ideas_6 = {
+		
+	}
+	JIT_ideas_7 = {
+		
+	}
+}
+

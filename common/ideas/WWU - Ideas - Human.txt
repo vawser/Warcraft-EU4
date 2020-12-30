@@ -1,0 +1,797 @@
+# Alterac
+ALT_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = ALT
+	}
+	free = yes		
+	
+	ALT_ideas_1 = {
+		
+	}
+	ALT_ideas_2 = {
+		
+	}
+	ALT_ideas_3 = {
+		
+	}
+	ALT_ideas_4 = {
+		
+	}
+	ALT_ideas_5 = {
+		
+	}
+	ALT_ideas_6 = {
+		
+	}
+	ALT_ideas_7 = {
+		
+	}
+}
+
+# Andorhal
+ANO_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = ANO
+	}
+	free = yes		
+	
+	ANO_ideas_1 = {
+		
+	}
+	ANO_ideas_2 = {
+		
+	}
+	ANO_ideas_3 = {
+		
+	}
+	ANO_ideas_4 = {
+		
+	}
+	ANO_ideas_5 = {
+		
+	}
+	ANO_ideas_6 = {
+		
+	}
+	ANO_ideas_7 = {
+		
+	}
+}
+
+# Dalaran
+DAL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = DAL
+	}
+	free = yes		
+	
+	DAL_ideas_1 = {
+		
+	}
+	DAL_ideas_2 = {
+		
+	}
+	DAL_ideas_3 = {
+		
+	}
+	DAL_ideas_4 = {
+		
+	}
+	DAL_ideas_5 = {
+		
+	}
+	DAL_ideas_6 = {
+		
+	}
+	DAL_ideas_7 = {
+		
+	}
+}
+
+# Brightwood
+BRI_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = BRI
+	}
+	free = yes		
+	
+	BRI_ideas_1 = {
+		
+	}
+	BRI_ideas_2 = {
+		
+	}
+	BRI_ideas_3 = {
+		
+	}
+	BRI_ideas_4 = {
+		
+	}
+	BRI_ideas_5 = {
+		
+	}
+	BRI_ideas_6 = {
+		
+	}
+	BRI_ideas_7 = {
+		
+	}
+}
+
+# Darkshire
+DAR_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = DAR
+	}
+	free = yes		
+	
+	DAR_ideas_1 = {
+		
+	}
+	DAR_ideas_2 = {
+		
+	}
+	DAR_ideas_3 = {
+		
+	}
+	DAR_ideas_4 = {
+		
+	}
+	DAR_ideas_5 = {
+		
+	}
+	DAR_ideas_6 = {
+		
+	}
+	DAR_ideas_7 = {
+		
+	}
+}
+
+# Gilneas
+GIL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = GIL
+	}
+	free = yes		
+	
+	GIL_ideas_1 = {
+		
+	}
+	GIL_ideas_2 = {
+		
+	}
+	GIL_ideas_3 = {
+		
+	}
+	GIL_ideas_4 = {
+		
+	}
+	GIL_ideas_5 = {
+		
+	}
+	GIL_ideas_6 = {
+		
+	}
+	GIL_ideas_7 = {
+		
+	}
+}
+
+# Kul Tiras
+KUL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = KUL
+	}
+	free = yes		
+	
+	KUL_ideas_1 = {
+		
+	}
+	KUL_ideas_2 = {
+		
+	}
+	KUL_ideas_3 = {
+		
+	}
+	KUL_ideas_4 = {
+		
+	}
+	KUL_ideas_5 = {
+		
+	}
+	KUL_ideas_6 = {
+		
+	}
+	KUL_ideas_7 = {
+		
+	}
+}
+
+# Lordaeron
+LOR_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = LOR
+	}
+	free = yes		
+	
+	LOR_ideas_1 = {
+		
+	}
+	LOR_ideas_2 = {
+		
+	}
+	LOR_ideas_3 = {
+		
+	}
+	LOR_ideas_4 = {
+		
+	}
+	LOR_ideas_5 = {
+		
+	}
+	LOR_ideas_6 = {
+		
+	}
+	LOR_ideas_7 = {
+		
+	}
+}
+
+# Redridge
+RED_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = RED
+	}
+	free = yes		
+	
+	RED_ideas_1 = {
+		
+	}
+	RED_ideas_2 = {
+		
+	}
+	RED_ideas_3 = {
+		
+	}
+	RED_ideas_4 = {
+		
+	}
+	RED_ideas_5 = {
+		
+	}
+	RED_ideas_6 = {
+		
+	}
+	RED_ideas_7 = {
+		
+	}
+}
+
+# Stromgarde
+SMG_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SMG
+	}
+	free = yes		
+	
+	SMG_ideas_1 = {
+		
+	}
+	SMG_ideas_2 = {
+		
+	}
+	SMG_ideas_3 = {
+		
+	}
+	SMG_ideas_4 = {
+		
+	}
+	SMG_ideas_5 = {
+		
+	}
+	SMG_ideas_6 = {
+		
+	}
+	SMG_ideas_7 = {
+		
+	}
+}
+
+# Southshore
+SOU_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SOU
+	}
+	free = yes		
+	
+	SOU_ideas_1 = {
+		
+	}
+	SOU_ideas_2 = {
+		
+	}
+	SOU_ideas_3 = {
+		
+	}
+	SOU_ideas_4 = {
+		
+	}
+	SOU_ideas_5 = {
+		
+	}
+	SOU_ideas_6 = {
+		
+	}
+	SOU_ideas_7 = {
+		
+	}
+}
+
+# Stormwind
+SRW_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SRW
+	}
+	free = yes		
+	
+	SRW_ideas_1 = {
+		
+	}
+	SRW_ideas_2 = {
+		
+	}
+	SRW_ideas_3 = {
+		
+	}
+	SRW_ideas_4 = {
+		
+	}
+	SRW_ideas_5 = {
+		
+	}
+	SRW_ideas_6 = {
+		
+	}
+	SRW_ideas_7 = {
+		
+	}
+}
+
+# Stratholme
+STR_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = STR
+	}
+	free = yes		
+	
+	STR_ideas_1 = {
+		
+	}
+	STR_ideas_2 = {
+		
+	}
+	STR_ideas_3 = {
+		
+	}
+	STR_ideas_4 = {
+		
+	}
+	STR_ideas_5 = {
+		
+	}
+	STR_ideas_6 = {
+		
+	}
+	STR_ideas_7 = {
+		
+	}
+}
+
+# Tol Barad
+TOL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = TOL
+	}
+	free = yes		
+	
+	TOL_ideas_1 = {
+		
+	}
+	TOL_ideas_2 = {
+		
+	}
+	TOL_ideas_3 = {
+		
+	}
+	TOL_ideas_4 = {
+		
+	}
+	TOL_ideas_5 = {
+		
+	}
+	TOL_ideas_6 = {
+		
+	}
+	TOL_ideas_7 = {
+		
+	}
+}
+
+# Westfall
+WES_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = WES
+	}
+	free = yes		
+	
+	WES_ideas_1 = {
+		
+	}
+	WES_ideas_2 = {
+		
+	}
+	WES_ideas_3 = {
+		
+	}
+	WES_ideas_4 = {
+		
+	}
+	WES_ideas_5 = {
+		
+	}
+	WES_ideas_6 = {
+		
+	}
+	WES_ideas_7 = {
+		
+	}
+}
+
+# Karazhan
+KAZ_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = KAZ
+	}
+	free = yes		
+	
+	KAZ_ideas_1 = {
+		
+	}
+	KAZ_ideas_2 = {
+		
+	}
+	KAZ_ideas_3 = {
+		
+	}
+	KAZ_ideas_4 = {
+		
+	}
+	KAZ_ideas_5 = {
+		
+	}
+	KAZ_ideas_6 = {
+		
+	}
+	KAZ_ideas_7 = {
+		
+	}
+}
+
+# Theramore
+TRM_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = TRM
+	}
+	free = yes		
+	
+	TRM_ideas_1 = {
+		
+	}
+	TRM_ideas_2 = {
+		
+	}
+	TRM_ideas_3 = {
+		
+	}
+	TRM_ideas_4 = {
+		
+	}
+	TRM_ideas_5 = {
+		
+	}
+	TRM_ideas_6 = {
+		
+	}
+	TRM_ideas_7 = {
+		
+	}
+}
+
+# Bloodsail
+BLO_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = BLO
+	}
+	free = yes		
+	
+	BLO_ideas_1 = {
+		
+	}
+	BLO_ideas_2 = {
+		
+	}
+	BLO_ideas_3 = {
+		
+	}
+	BLO_ideas_4 = {
+		
+	}
+	BLO_ideas_5 = {
+		
+	}
+	BLO_ideas_6 = {
+		
+	}
+	BLO_ideas_7 = {
+		
+	}
+}
+
+# Southsea Freebooters
+SSP_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SSP
+	}
+	free = yes		
+	
+	SSP_ideas_1 = {
+		
+	}
+	SSP_ideas_2 = {
+		
+	}
+	SSP_ideas_3 = {
+		
+	}
+	SSP_ideas_4 = {
+		
+	}
+	SSP_ideas_5 = {
+		
+	}
+	SSP_ideas_6 = {
+		
+	}
+	SSP_ideas_7 = {
+		
+	}
+}
+
+# Wastewander
+WWP_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = WWP
+	}
+	free = yes		
+	
+	WWP_ideas_1 = {
+		
+	}
+	WWP_ideas_2 = {
+		
+	}
+	WWP_ideas_3 = {
+		
+	}
+	WWP_ideas_4 = {
+		
+	}
+	WWP_ideas_5 = {
+		
+	}
+	WWP_ideas_6 = {
+		
+	}
+	WWP_ideas_7 = {
+		
+	}
+}
+
+# Knights of the Silver Hand
+KSH_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = KSH
+	}
+	free = yes		
+	
+	KSH_ideas_1 = {
+		
+	}
+	KSH_ideas_2 = {
+		
+	}
+	KSH_ideas_3 = {
+		
+	}
+	KSH_ideas_4 = {
+		
+	}
+	KSH_ideas_5 = {
+		
+	}
+	KSH_ideas_6 = {
+		
+	}
+	KSH_ideas_7 = {
+		
+	}
+}

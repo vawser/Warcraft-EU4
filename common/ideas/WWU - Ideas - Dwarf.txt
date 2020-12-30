@@ -1,0 +1,152 @@
+# Wildhammer
+WIL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = WIL
+	}
+	free = yes		
+	
+	WIL_ideas_1 = {
+		
+	}
+	WIL_ideas_2 = {
+		
+	}
+	WIL_ideas_3 = {
+		
+	}
+	WIL_ideas_4 = {
+		
+	}
+	WIL_ideas_5 = {
+		
+	}
+	WIL_ideas_6 = {
+		
+	}
+	WIL_ideas_7 = {
+		
+	}
+}
+
+# Khaz Modan
+IRO_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = IRO
+	}
+	free = yes		
+	
+	IRO_ideas_1 = {
+		
+	}
+	IRO_ideas_2 = {
+		
+	}
+	IRO_ideas_3 = {
+		
+	}
+	IRO_ideas_4 = {
+		
+	}
+	IRO_ideas_5 = {
+		
+	}
+	IRO_ideas_6 = {
+		
+	}
+	IRO_ideas_7 = {
+		
+	}
+}
+
+# Dark Iron
+DKI_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = DKI
+	}
+	free = yes		
+	
+	DKI_ideas_1 = {
+		
+	}
+	DKI_ideas_2 = {
+		
+	}
+	DKI_ideas_3 = {
+		
+	}
+	DKI_ideas_4 = {
+		
+	}
+	DKI_ideas_5 = {
+		
+	}
+	DKI_ideas_6 = {
+		
+	}
+	DKI_ideas_7 = {
+		
+	}
+}
+
+# Aerie Peak
+AER_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = AER
+	}
+	free = yes		
+	
+	AER_ideas_1 = {
+		
+	}
+	AER_ideas_2 = {
+		
+	}
+	AER_ideas_3 = {
+		
+	}
+	AER_ideas_4 = {
+		
+	}
+	AER_ideas_5 = {
+		
+	}
+	AER_ideas_6 = {
+		
+	}
+	AER_ideas_7 = {
+		
+	}
+}
+

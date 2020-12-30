@@ -205,27 +205,19 @@ vassal = {
 	can_fight = {
 		same_overlord = vassal
 		same_overlord = client_vassal
-		same_overlord = faction_alliance
-		same_overlord = faction_horde
 	}
 	can_rival = {
 		same_overlord = vassal
 		same_overlord = client_vassal
-		same_overlord = faction_alliance
-		same_overlord = faction_horde
 	}
 	can_ally = {
 		same_overlord = vassal
 		same_overlord = client_vassal
-		same_overlord = faction_alliance
-		same_overlord = faction_horde
 	}
 	can_marry = {
 		same_overlord = vassal
 		same_overlord = client_vassal
 		same_overlord = march
-		same_overlord = faction_alliance
-		same_overlord = faction_horde
 	}
 	
 	restoration_cb = cb_disloyal_vassal
@@ -638,14 +630,10 @@ enslavement = {
 	can_fight = {
 		same_overlord = vassal
 		same_overlord = client_vassal
-		same_overlord = faction_alliance
-		same_overlord = faction_horde
 	}
 	can_rival = {
 		same_overlord = vassal
 		same_overlord = client_vassal
-		same_overlord = faction_alliance
-		same_overlord = faction_horde
 	}
 	can_ally = {
 	}
@@ -722,14 +710,10 @@ magical_enslavement = {
 	can_fight = {
 		same_overlord = vassal
 		same_overlord = client_vassal
-		same_overlord = faction_alliance
-		same_overlord = faction_horde
 	}
 	can_rival = {
 		same_overlord = vassal
 		same_overlord = client_vassal
-		same_overlord = faction_alliance
-		same_overlord = faction_horde
 	}
 	can_ally = {
 	}

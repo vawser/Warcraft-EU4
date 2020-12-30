@@ -1,0 +1,911 @@
+# Shado-pan
+SPN_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SPN
+	}
+	free = yes		
+	
+	SPN_ideas_1 = {
+		
+	}
+	SPN_ideas_2 = {
+		
+	}
+	SPN_ideas_3 = {
+		
+	}
+	SPN_ideas_4 = {
+		
+	}
+	SPN_ideas_5 = {
+		
+	}
+	SPN_ideas_6 = {
+		
+	}
+	SPN_ideas_7 = {
+		
+	}
+}
+
+# Yu'lon
+JAS_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = JAS
+	}
+	free = yes		
+	
+	JAS_ideas_1 = {
+		
+	}
+	JAS_ideas_2 = {
+		
+	}
+	JAS_ideas_3 = {
+		
+	}
+	JAS_ideas_4 = {
+		
+	}
+	JAS_ideas_5 = {
+		
+	}
+	JAS_ideas_6 = {
+		
+	}
+	JAS_ideas_7 = {
+		
+	}
+}
+
+# Niuzao
+BOX_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = BOX
+	}
+	free = yes		
+	
+	BOX_ideas_1 = {
+		
+	}
+	BOX_ideas_2 = {
+		
+	}
+	BOX_ideas_3 = {
+		
+	}
+	BOX_ideas_4 = {
+		
+	}
+	BOX_ideas_5 = {
+		
+	}
+	BOX_ideas_6 = {
+		
+	}
+	BOX_ideas_7 = {
+		
+	}
+}
+
+# Chi'ji
+RCR_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = RCR
+	}
+	free = yes		
+	
+	RCR_ideas_1 = {
+		
+	}
+	RCR_ideas_2 = {
+		
+	}
+	RCR_ideas_3 = {
+		
+	}
+	RCR_ideas_4 = {
+		
+	}
+	RCR_ideas_5 = {
+		
+	}
+	RCR_ideas_6 = {
+		
+	}
+	RCR_ideas_7 = {
+		
+	}
+}
+
+# Xu'en
+TIG_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = TIG
+	}
+	free = yes		
+	
+	TIG_ideas_1 = {
+		
+	}
+	TIG_ideas_2 = {
+		
+	}
+	TIG_ideas_3 = {
+		
+	}
+	TIG_ideas_4 = {
+		
+	}
+	TIG_ideas_5 = {
+		
+	}
+	TIG_ideas_6 = {
+		
+	}
+	TIG_ideas_7 = {
+		
+	}
+}
+
+# Tillers
+TIL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = TIL
+	}
+	free = yes		
+	
+	TIL_ideas_1 = {
+		
+	}
+	TIL_ideas_2 = {
+		
+	}
+	TIL_ideas_3 = {
+		
+	}
+	TIL_ideas_4 = {
+		
+	}
+	TIL_ideas_5 = {
+		
+	}
+	TIL_ideas_6 = {
+		
+	}
+	TIL_ideas_7 = {
+		
+	}
+}
+
+# Anglers
+ANG_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = ANG
+	}
+	free = yes		
+	
+	ANG_ideas_1 = {
+		
+	}
+	ANG_ideas_2 = {
+		
+	}
+	ANG_ideas_3 = {
+		
+	}
+	ANG_ideas_4 = {
+		
+	}
+	ANG_ideas_5 = {
+		
+	}
+	ANG_ideas_6 = {
+		
+	}
+	ANG_ideas_7 = {
+		
+	}
+}
+
+# Golden Lotus
+GOL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = GOL
+	}
+	free = yes		
+	
+	GOL_ideas_1 = {
+		
+	}
+	GOL_ideas_2 = {
+		
+	}
+	GOL_ideas_3 = {
+		
+	}
+	GOL_ideas_4 = {
+		
+	}
+	GOL_ideas_5 = {
+		
+	}
+	GOL_ideas_6 = {
+		
+	}
+	GOL_ideas_7 = {
+		
+	}
+}
+
+# Lorewalkers
+LRW_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = LRW
+	}
+	free = yes		
+	
+	LRW_ideas_1 = {
+		
+	}
+	LRW_ideas_2 = {
+		
+	}
+	LRW_ideas_3 = {
+		
+	}
+	LRW_ideas_4 = {
+		
+	}
+	LRW_ideas_5 = {
+		
+	}
+	LRW_ideas_6 = {
+		
+	}
+	LRW_ideas_7 = {
+		
+	}
+}
+
+# Order of the Cloud Serpent
+OCS_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = OCS
+	}
+	free = yes		
+	
+	OCS_ideas_1 = {
+		
+	}
+	OCS_ideas_2 = {
+		
+	}
+	OCS_ideas_3 = {
+		
+	}
+	OCS_ideas_4 = {
+		
+	}
+	OCS_ideas_5 = {
+		
+	}
+	OCS_ideas_6 = {
+		
+	}
+	OCS_ideas_7 = {
+		
+	}
+}
+
+# Greenstone
+GSV_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = GSV
+	}
+	free = yes		
+	
+	GSV_ideas_1 = {
+		
+	}
+	GSV_ideas_2 = {
+		
+	}
+	GSV_ideas_3 = {
+		
+	}
+	GSV_ideas_4 = {
+		
+	}
+	GSV_ideas_5 = {
+		
+	}
+	GSV_ideas_6 = {
+		
+	}
+	GSV_ideas_7 = {
+		
+	}
+}
+
+# Dawn's Blossom
+DWB_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = DWB
+	}
+	free = yes		
+	
+	DWB_ideas_1 = {
+		
+	}
+	DWB_ideas_2 = {
+		
+	}
+	DWB_ideas_3 = {
+		
+	}
+	DWB_ideas_4 = {
+		
+	}
+	DWB_ideas_5 = {
+		
+	}
+	DWB_ideas_6 = {
+		
+	}
+	DWB_ideas_7 = {
+		
+	}
+}
+
+# Honeydew
+HDV_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = HDV
+	}
+	free = yes		
+	
+	HDV_ideas_1 = {
+		
+	}
+	HDV_ideas_2 = {
+		
+	}
+	HDV_ideas_3 = {
+		
+	}
+	HDV_ideas_4 = {
+		
+	}
+	HDV_ideas_5 = {
+		
+	}
+	HDV_ideas_6 = {
+		
+	}
+	HDV_ideas_7 = {
+		
+	}
+}
+
+# Paw'don
+PWD_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = PWD
+	}
+	free = yes		
+	
+	PWD_ideas_1 = {
+		
+	}
+	PWD_ideas_2 = {
+		
+	}
+	PWD_ideas_3 = {
+		
+	}
+	PWD_ideas_4 = {
+		
+	}
+	PWD_ideas_5 = {
+		
+	}
+	PWD_ideas_6 = {
+		
+	}
+	PWD_ideas_7 = {
+		
+	}
+}
+
+# Sri-la
+SRL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SRL
+	}
+	free = yes		
+	
+	SRL_ideas_1 = {
+		
+	}
+	SRL_ideas_2 = {
+		
+	}
+	SRL_ideas_3 = {
+		
+	}
+	SRL_ideas_4 = {
+		
+	}
+	SRL_ideas_5 = {
+		
+	}
+	SRL_ideas_6 = {
+		
+	}
+	SRL_ideas_7 = {
+		
+	}
+}
+
+# Tian
+TIA_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = TIA
+	}
+	free = yes		
+	
+	TIA_ideas_1 = {
+		
+	}
+	TIA_ideas_2 = {
+		
+	}
+	TIA_ideas_3 = {
+		
+	}
+	TIA_ideas_4 = {
+		
+	}
+	TIA_ideas_5 = {
+		
+	}
+	TIA_ideas_6 = {
+		
+	}
+	TIA_ideas_7 = {
+		
+	}
+}
+
+# Binan
+BIV_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = BIV
+	}
+	free = yes		
+	
+	BIV_ideas_1 = {
+		
+	}
+	BIV_ideas_2 = {
+		
+	}
+	BIV_ideas_3 = {
+		
+	}
+	BIV_ideas_4 = {
+		
+	}
+	BIV_ideas_5 = {
+		
+	}
+	BIV_ideas_6 = {
+		
+	}
+	BIV_ideas_7 = {
+		
+	}
+}
+
+# Muskpaw
+MSP_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = MSP
+	}
+	free = yes		
+	
+	MSP_ideas_1 = {
+		
+	}
+	MSP_ideas_2 = {
+		
+	}
+	MSP_ideas_3 = {
+		
+	}
+	MSP_ideas_4 = {
+		
+	}
+	MSP_ideas_5 = {
+		
+	}
+	MSP_ideas_6 = {
+		
+	}
+	MSP_ideas_7 = {
+		
+	}
+}
+
+# One Keg
+ONK_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = ONK
+	}
+	free = yes		
+	
+	ONK_ideas_1 = {
+		
+	}
+	ONK_ideas_2 = {
+		
+	}
+	ONK_ideas_3 = {
+		
+	}
+	ONK_ideas_4 = {
+		
+	}
+	ONK_ideas_5 = {
+		
+	}
+	ONK_ideas_6 = {
+		
+	}
+	ONK_ideas_7 = {
+		
+	}
+}
+
+# Yinying
+YYV_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = YYV
+	}
+	free = yes		
+	
+	YYV_ideas_1 = {
+		
+	}
+	YYV_ideas_2 = {
+		
+	}
+	YYV_ideas_3 = {
+		
+	}
+	YYV_ideas_4 = {
+		
+	}
+	YYV_ideas_5 = {
+		
+	}
+	YYV_ideas_6 = {
+		
+	}
+	YYV_ideas_7 = {
+		
+	}
+}
+
+# Zouchin
+ZUC_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = ZUC
+	}
+	free = yes		
+	
+	ZUC_ideas_1 = {
+		
+	}
+	ZUC_ideas_2 = {
+		
+	}
+	ZUC_ideas_3 = {
+		
+	}
+	ZUC_ideas_4 = {
+		
+	}
+	ZUC_ideas_5 = {
+		
+	}
+	ZUC_ideas_6 = {
+		
+	}
+	ZUC_ideas_7 = {
+		
+	}
+}
+
+# Zhu
+ZHU_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = ZHU
+	}
+	free = yes		
+	
+	ZHU_ideas_1 = {
+		
+	}
+	ZHU_ideas_2 = {
+		
+	}
+	ZHU_ideas_3 = {
+		
+	}
+	ZHU_ideas_4 = {
+		
+	}
+	ZHU_ideas_5 = {
+		
+	}
+	ZHU_ideas_6 = {
+		
+	}
+	ZHU_ideas_7 = {
+		
+	}
+}
+
+# Mistfall
+MSF_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = MSF
+	}
+	free = yes		
+	
+	MSF_ideas_1 = {
+		
+	}
+	MSF_ideas_2 = {
+		
+	}
+	MSF_ideas_3 = {
+		
+	}
+	MSF_ideas_4 = {
+		
+	}
+	MSF_ideas_5 = {
+		
+	}
+	MSF_ideas_6 = {
+		
+	}
+	MSF_ideas_7 = {
+		
+	}
+}
+
+# Soggy's Gamble
+SOG_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SOG
+	}
+	free = yes		
+	
+	SOG_ideas_1 = {
+		
+	}
+	SOG_ideas_2 = {
+		
+	}
+	SOG_ideas_3 = {
+		
+	}
+	SOG_ideas_4 = {
+		
+	}
+	SOG_ideas_5 = {
+		
+	}
+	SOG_ideas_6 = {
+		
+	}
+	SOG_ideas_7 = {
+		
+	}
+}

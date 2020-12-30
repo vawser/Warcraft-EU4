@@ -2,7 +2,7 @@ night_elf_group = {
     graphical_culture = night_elf_gfx
     
     country = { 
-        female_advisor_chance = 0.5 
+        # female_advisor_chance = 0.5 
     }
     
     darnassus = {

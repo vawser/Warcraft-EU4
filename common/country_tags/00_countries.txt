@@ -84,7 +84,7 @@ UNB = "countries/The Unbound.txt"
 SOW = "countries/Sisterhood of Winter.txt" 
 COC = "countries/Daughters of Cenarius.txt" 
 
-# ---- Earthern ----
+# ---- Earthen ----
 TMN = "countries/Thor Modan.txt"    
 FRO = "countries/Frostborn.txt"       # Storm Peaks
 ULM = "countries/Uldaman.txt"  

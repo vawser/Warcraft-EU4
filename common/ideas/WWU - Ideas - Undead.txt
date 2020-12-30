@@ -1,0 +1,37 @@
+# The Forsaken
+FOR_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = FOR
+	}
+	free = yes		
+	
+	FOR_ideas_1 = {
+		
+	}
+	FOR_ideas_2 = {
+		
+	}
+	FOR_ideas_3 = {
+		
+	}
+	FOR_ideas_4 = {
+		
+	}
+	FOR_ideas_5 = {
+		
+	}
+	FOR_ideas_6 = {
+		
+	}
+	FOR_ideas_7 = {
+		
+	}
+}

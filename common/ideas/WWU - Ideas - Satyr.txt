@@ -1,0 +1,267 @@
+# Legashi
+LEG_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = LEG
+	}
+	free = yes		
+	
+	LEG_ideas_1 = {
+		
+	}
+	LEG_ideas_2 = {
+		
+	}
+	LEG_ideas_3 = {
+		
+	}
+	LEG_ideas_4 = {
+		
+	}
+	LEG_ideas_5 = {
+		
+	}
+	LEG_ideas_6 = {
+		
+	}
+	LEG_ideas_7 = {
+		
+	}
+}
+
+# Nazzivus
+NAZ_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = NAZ
+	}
+	free = yes		
+	
+	NAZ_ideas_1 = {
+		
+	}
+	NAZ_ideas_2 = {
+		
+	}
+	NAZ_ideas_3 = {
+		
+	}
+	NAZ_ideas_4 = {
+		
+	}
+	NAZ_ideas_5 = {
+		
+	}
+	NAZ_ideas_6 = {
+		
+	}
+	NAZ_ideas_7 = {
+		
+	}
+}
+
+# Xavian
+XAV_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = XAV
+	}
+	free = yes		
+	
+	XAV_ideas_1 = {
+		
+	}
+	XAV_ideas_2 = {
+		
+	}
+	XAV_ideas_3 = {
+		
+	}
+	XAV_ideas_4 = {
+		
+	}
+	XAV_ideas_5 = {
+		
+	}
+	XAV_ideas_6 = {
+		
+	}
+	XAV_ideas_7 = {
+		
+	}
+}
+
+# Haldarr
+HAL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = HAL
+	}
+	free = yes		
+	
+	HAL_ideas_1 = {
+		
+	}
+	HAL_ideas_2 = {
+		
+	}
+	HAL_ideas_3 = {
+		
+	}
+	HAL_ideas_4 = {
+		
+	}
+	HAL_ideas_5 = {
+		
+	}
+	HAL_ideas_6 = {
+		
+	}
+	HAL_ideas_7 = {
+		
+	}
+}
+
+# Jadefire
+JAD_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = JAD
+	}
+	free = yes		
+	
+	JAD_ideas_1 = {
+		
+	}
+	JAD_ideas_2 = {
+		
+	}
+	JAD_ideas_3 = {
+		
+	}
+	JAD_ideas_4 = {
+		
+	}
+	JAD_ideas_5 = {
+		
+	}
+	JAD_ideas_6 = {
+		
+	}
+	JAD_ideas_7 = {
+		
+	}
+}
+
+# Axxarian
+AXX_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = AXX
+	}
+	free = yes		
+	
+	AXX_ideas_1 = {
+		
+	}
+	AXX_ideas_2 = {
+		
+	}
+	AXX_ideas_3 = {
+		
+	}
+	AXX_ideas_4 = {
+		
+	}
+	AXX_ideas_5 = {
+		
+	}
+	AXX_ideas_6 = {
+		
+	}
+	AXX_ideas_7 = {
+		
+	}
+}
+
+# Wildspawn
+WDP_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = WDP
+	}
+	free = yes		
+	
+	WDP_ideas_1 = {
+		
+	}
+	WDP_ideas_2 = {
+		
+	}
+	WDP_ideas_3 = {
+		
+	}
+	WDP_ideas_4 = {
+		
+	}
+	WDP_ideas_5 = {
+		
+	}
+	WDP_ideas_6 = {
+		
+	}
+	WDP_ideas_7 = {
+		
+	}
+}
+
+

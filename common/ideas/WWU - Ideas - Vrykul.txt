@@ -1,0 +1,265 @@
+# Dragonflayer
+DGF_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = DGF
+	}
+	free = yes		
+	
+	DGF_ideas_1 = {
+		
+	}
+	DGF_ideas_2 = {
+		
+	}
+	DGF_ideas_3 = {
+		
+	}
+	DGF_ideas_4 = {
+		
+	}
+	DGF_ideas_5 = {
+		
+	}
+	DGF_ideas_6 = {
+		
+	}
+	DGF_ideas_7 = {
+		
+	}
+}
+
+# Winterskorn
+WTO_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = WTO
+	}
+	free = yes		
+	
+	WTO_ideas_1 = {
+		
+	}
+	WTO_ideas_2 = {
+		
+	}
+	WTO_ideas_3 = {
+		
+	}
+	WTO_ideas_4 = {
+		
+	}
+	WTO_ideas_5 = {
+		
+	}
+	WTO_ideas_6 = {
+		
+	}
+	WTO_ideas_7 = {
+		
+	}
+}
+
+# Skadir
+SKA_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SKA
+	}
+	free = yes		
+	
+	SKA_ideas_1 = {
+		
+	}
+	SKA_ideas_2 = {
+		
+	}
+	SKA_ideas_3 = {
+		
+	}
+	SKA_ideas_4 = {
+		
+	}
+	SKA_ideas_5 = {
+		
+	}
+	SKA_ideas_6 = {
+		
+	}
+	SKA_ideas_7 = {
+		
+	}
+}
+
+# Ymirjar
+YMI_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = YMI
+	}
+	free = yes		
+	
+	YMI_ideas_1 = {
+		
+	}
+	YMI_ideas_2 = {
+		
+	}
+	YMI_ideas_3 = {
+		
+	}
+	YMI_ideas_4 = {
+		
+	}
+	YMI_ideas_5 = {
+		
+	}
+	YMI_ideas_6 = {
+		
+	}
+	YMI_ideas_7 = {
+		
+	}
+}
+
+# Hyldnir
+HYL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = HYL
+	}
+	free = yes		
+	
+	HYL_ideas_1 = {
+		
+	}
+	HYL_ideas_2 = {
+		
+	}
+	HYL_ideas_3 = {
+		
+	}
+	HYL_ideas_4 = {
+		
+	}
+	HYL_ideas_5 = {
+		
+	}
+	HYL_ideas_6 = {
+		
+	}
+	HYL_ideas_7 = {
+		
+	}
+}
+
+# Jotunheim
+JOT_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = JOT
+	}
+	free = yes		
+	
+	JOT_ideas_1 = {
+		
+	}
+	JOT_ideas_2 = {
+		
+	}
+	JOT_ideas_3 = {
+		
+	}
+	JOT_ideas_4 = {
+		
+	}
+	JOT_ideas_5 = {
+		
+	}
+	JOT_ideas_6 = {
+		
+	}
+	JOT_ideas_7 = {
+		
+	}
+}
+
+# Stormheim
+STH_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = STH
+	}
+	free = yes		
+	
+	STH_ideas_1 = {
+		
+	}
+	STH_ideas_2 = {
+		
+	}
+	STH_ideas_3 = {
+		
+	}
+	STH_ideas_4 = {
+		
+	}
+	STH_ideas_5 = {
+		
+	}
+	STH_ideas_6 = {
+		
+	}
+	STH_ideas_7 = {
+		
+	}
+}

@@ -1,0 +1,455 @@
+# Glintrok
+GLI_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = GLI
+	}
+	free = yes		
+	
+	GLI_ideas_1 = {
+		
+	}
+	GLI_ideas_2 = {
+		
+	}
+	GLI_ideas_3 = {
+		
+	}
+	GLI_ideas_4 = {
+		
+	}
+	GLI_ideas_5 = {
+		
+	}
+	GLI_ideas_6 = {
+		
+	}
+	GLI_ideas_7 = {
+		
+	}
+}
+
+# Mistblade
+MTD_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = MTD
+	}
+	free = yes		
+	
+	MTD_ideas_1 = {
+		
+	}
+	MTD_ideas_2 = {
+		
+	}
+	MTD_ideas_3 = {
+		
+	}
+	MTD_ideas_4 = {
+		
+	}
+	MTD_ideas_5 = {
+		
+	}
+	MTD_ideas_6 = {
+		
+	}
+	MTD_ideas_7 = {
+		
+	}
+}
+
+# Riverblade
+RVE_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = RVE
+	}
+	free = yes		
+	
+	RVE_ideas_1 = {
+		
+	}
+	RVE_ideas_2 = {
+		
+	}
+	RVE_ideas_3 = {
+		
+	}
+	RVE_ideas_4 = {
+		
+	}
+	RVE_ideas_5 = {
+		
+	}
+	RVE_ideas_6 = {
+		
+	}
+	RVE_ideas_7 = {
+		
+	}
+}
+
+# Bladescale
+BDS_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = BDS
+	}
+	free = yes		
+	
+	BDS_ideas_1 = {
+		
+	}
+	BDS_ideas_2 = {
+		
+	}
+	BDS_ideas_3 = {
+		
+	}
+	BDS_ideas_4 = {
+		
+	}
+	BDS_ideas_5 = {
+		
+	}
+	BDS_ideas_6 = {
+		
+	}
+	BDS_ideas_7 = {
+		
+	}
+}
+
+# Darkhatched
+DKH_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = DKH
+	}
+	free = yes		
+	
+	DKH_ideas_1 = {
+		
+	}
+	DKH_ideas_2 = {
+		
+	}
+	DKH_ideas_3 = {
+		
+	}
+	DKH_ideas_4 = {
+		
+	}
+	DKH_ideas_5 = {
+		
+	}
+	DKH_ideas_6 = {
+		
+	}
+	DKH_ideas_7 = {
+		
+	}
+}
+
+# Hatescale
+HES_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = HES
+	}
+	free = yes		
+	
+	HES_ideas_1 = {
+		
+	}
+	HES_ideas_2 = {
+		
+	}
+	HES_ideas_3 = {
+		
+	}
+	HES_ideas_4 = {
+		
+	}
+	HES_ideas_5 = {
+		
+	}
+	HES_ideas_6 = {
+		
+	}
+	HES_ideas_7 = {
+		
+	}
+}
+
+# Muckscale
+MKS_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = MKS
+	}
+	free = yes		
+	
+	MKS_ideas_1 = {
+		
+	}
+	MKS_ideas_2 = {
+		
+	}
+	MKS_ideas_3 = {
+		
+	}
+	MKS_ideas_4 = {
+		
+	}
+	MKS_ideas_5 = {
+		
+	}
+	MKS_ideas_6 = {
+		
+	}
+	MKS_ideas_7 = {
+		
+	}
+}
+
+# Paleblade
+PLB_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = PLB
+	}
+	free = yes		
+	
+	PLB_ideas_1 = {
+		
+	}
+	PLB_ideas_2 = {
+		
+	}
+	PLB_ideas_3 = {
+		
+	}
+	PLB_ideas_4 = {
+		
+	}
+	PLB_ideas_5 = {
+		
+	}
+	PLB_ideas_6 = {
+		
+	}
+	PLB_ideas_7 = {
+		
+	}
+}
+
+# Skumblade
+SKM_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SKM
+	}
+	free = yes		
+	
+	SKM_ideas_1 = {
+		
+	}
+	SKM_ideas_2 = {
+		
+	}
+	SKM_ideas_3 = {
+		
+	}
+	SKM_ideas_4 = {
+		
+	}
+	SKM_ideas_5 = {
+		
+	}
+	SKM_ideas_6 = {
+		
+	}
+	SKM_ideas_7 = {
+		
+	}
+}
+
+# Slitherscale
+SLI_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SLI
+	}
+	free = yes		
+	
+	SLI_ideas_1 = {
+		
+	}
+	SLI_ideas_2 = {
+		
+	}
+	SLI_ideas_3 = {
+		
+	}
+	SLI_ideas_4 = {
+		
+	}
+	SLI_ideas_5 = {
+		
+	}
+	SLI_ideas_6 = {
+		
+	}
+	SLI_ideas_7 = {
+		
+	}
+}
+
+# Viletongue
+VLT_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = VLT
+	}
+	free = yes		
+	
+	VLT_ideas_1 = {
+		
+	}
+	VLT_ideas_2 = {
+		
+	}
+	VLT_ideas_3 = {
+		
+	}
+	VLT_ideas_4 = {
+		
+	}
+	VLT_ideas_5 = {
+		
+	}
+	VLT_ideas_6 = {
+		
+	}
+	VLT_ideas_7 = {
+		
+	}
+}
+
+# Wildscale
+WDS_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = WDS
+	}
+	free = yes		
+	
+	WDS_ideas_1 = {
+		
+	}
+	WDS_ideas_2 = {
+		
+	}
+	WDS_ideas_3 = {
+		
+	}
+	WDS_ideas_4 = {
+		
+	}
+	WDS_ideas_5 = {
+		
+	}
+	WDS_ideas_6 = {
+		
+	}
+	WDS_ideas_7 = {
+		
+	}
+}

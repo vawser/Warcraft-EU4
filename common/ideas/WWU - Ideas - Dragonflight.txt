@@ -1,0 +1,208 @@
+# Red Dragonflight
+red_dragonflight_ideas = {
+	start = {
+		development_cost = -0.1
+        state_maintenance_modifier = -0.1
+	}
+
+	bonus = {
+        yearly_corruption = -0.05
+	}
+	
+	trigger = {
+		OR = {
+            tag = WYT
+            tag = GMB
+            tag = TWG
+        }
+	}
+	free = yes		
+	
+	red_dragonflight_ideas_1 = {
+		prestige = 1
+	}
+	red_dragonflight_ideas_2 = {
+		free_leader_pool = 1
+	}
+	red_dragonflight_ideas_3 = {
+		artillery_power = 0.2
+	}
+	red_dragonflight_ideas_4 = {
+		land_morale = 0.1
+	}
+	red_dragonflight_ideas_5 = {
+		diplomatic_reputation = 2
+	}
+	red_dragonflight_ideas_6 = {
+		ae_impact = -0.1
+	}
+	red_dragonflight_ideas_7 = {
+		all_power_cost = -0.05
+	}
+}
+
+# Green Dragonflight
+green_dragonflight_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		OR = {
+            tag = TWG
+            tag = SER
+            tag = EDS
+            tag = DRB
+        }
+	}
+	free = yes		
+	
+	green_dragonflight_ideas_1 = {
+		prestige = 1
+	}
+	green_dragonflight_ideas_2 = {
+		
+	}
+	green_dragonflight_ideas_3 = {
+		
+	}
+	green_dragonflight_ideas_4 = {
+		
+	}
+	green_dragonflight_ideas_5 = {
+		
+	}
+	green_dragonflight_ideas_6 = {
+		
+	}
+	green_dragonflight_ideas_7 = {
+		
+	}
+}
+
+# Black Dragonflight
+black_dragonflight_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		OR = {
+            tag = WYB
+            tag = ODS
+        }
+	}
+	free = yes		
+	
+	black_dragonflight_ideas_1 = {
+		prestige = 1
+	}
+	black_dragonflight_ideas_2 = {
+		
+	}
+	black_dragonflight_ideas_3 = {
+		
+	}
+	black_dragonflight_ideas_4 = {
+		
+	}
+	black_dragonflight_ideas_5 = {
+		
+	}
+	black_dragonflight_ideas_6 = {
+		
+	}
+	black_dragonflight_ideas_7 = {
+		
+	}
+}
+
+# Blue Dragonflight
+blue_dragonflight_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		OR = {
+            tag = NEX
+            tag = ADS
+            tag = AZW
+        }
+	}
+	free = yes		
+	
+	blue_dragonflight_ideas_1 = {
+		prestige = 1
+	}
+	blue_dragonflight_ideas_2 = {
+		
+	}
+	blue_dragonflight_ideas_3 = {
+		
+	}
+	blue_dragonflight_ideas_4 = {
+		
+	}
+	blue_dragonflight_ideas_5 = {
+		
+	}
+	blue_dragonflight_ideas_6 = {
+		
+	}
+	blue_dragonflight_ideas_7 = {
+		
+	}
+}
+
+# Bronze Dragonflight
+bronze_dragonflight_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		OR = {
+            tag = BDF
+        }
+	}
+	free = yes		
+	
+	bronze_dragonflight_ideas_1 = {
+		prestige = 1
+	}
+	bronze_dragonflight_ideas_2 = {
+		
+	}
+	bronze_dragonflight_ideas_3 = {
+		
+	}
+	bronze_dragonflight_ideas_4 = {
+		
+	}
+	bronze_dragonflight_ideas_5 = {
+		
+	}
+	bronze_dragonflight_ideas_6 = {
+		
+	}
+	bronze_dragonflight_ideas_7 = {
+		
+	}
+}

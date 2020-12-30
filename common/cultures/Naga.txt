@@ -2,7 +2,7 @@ naga_group = {
 	graphical_culture = naga_gfx 
 
     country = { 
-        female_advisor_chance = 0.5 
+        # female_advisor_chance = 0.5 
     }
     
     riplash = {

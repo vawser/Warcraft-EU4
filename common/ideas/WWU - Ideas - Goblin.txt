@@ -1,0 +1,152 @@
+# Bilgewater Cartel
+BIL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = BIL
+	}
+	free = yes		
+	
+	BIL_ideas_1 = {
+		
+	}
+	BIL_ideas_2 = {
+		
+	}
+	BIL_ideas_3 = {
+		
+	}
+	BIL_ideas_4 = {
+		
+	}
+	BIL_ideas_5 = {
+		
+	}
+	BIL_ideas_6 = {
+		
+	}
+	BIL_ideas_7 = {
+		
+	}
+}
+
+# Steamwheedle Cartel
+SMW_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SMW
+	}
+	free = yes		
+	
+	SMW_ideas_1 = {
+		
+	}
+	SMW_ideas_2 = {
+		
+	}
+	SMW_ideas_3 = {
+		
+	}
+	SMW_ideas_4 = {
+		
+	}
+	SMW_ideas_5 = {
+		
+	}
+	SMW_ideas_6 = {
+		
+	}
+	SMW_ideas_7 = {
+		
+	}
+}
+
+# Venture Company
+VTC_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = VTC
+	}
+	free = yes		
+	
+	VTC_ideas_1 = {
+		
+	}
+	VTC_ideas_2 = {
+		
+	}
+	VTC_ideas_3 = {
+		
+	}
+	VTC_ideas_4 = {
+		
+	}
+	VTC_ideas_5 = {
+		
+	}
+	VTC_ideas_6 = {
+		
+	}
+	VTC_ideas_7 = {
+		
+	}
+}
+
+# Blackwater Cartel
+BWA_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = BWA
+	}
+	free = yes		
+	
+	BWA_ideas_1 = {
+		
+	}
+	BWA_ideas_2 = {
+		
+	}
+	BWA_ideas_3 = {
+		
+	}
+	BWA_ideas_4 = {
+		
+	}
+	BWA_ideas_5 = {
+		
+	}
+	BWA_ideas_6 = {
+		
+	}
+	BWA_ideas_7 = {
+		
+	}
+}
+

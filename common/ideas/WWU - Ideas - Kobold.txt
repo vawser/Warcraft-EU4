@@ -1,0 +1,304 @@
+# Gravelsnout
+GRV_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = GRV
+	}
+	free = yes		
+	
+	GRV_ideas_1 = {
+		
+	}
+	GRV_ideas_2 = {
+		
+	}
+	GRV_ideas_3 = {
+		
+	}
+	GRV_ideas_4 = {
+		
+	}
+	GRV_ideas_5 = {
+		
+	}
+	GRV_ideas_6 = {
+		
+	}
+	GRV_ideas_7 = {
+		
+	}
+}
+
+# Windshear
+WIS_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = WIS
+	}
+	free = yes		
+	
+	WIS_ideas_1 = {
+		
+	}
+	WIS_ideas_2 = {
+		
+	}
+	WIS_ideas_3 = {
+		
+	}
+	WIS_ideas_4 = {
+		
+	}
+	WIS_ideas_5 = {
+		
+	}
+	WIS_ideas_6 = {
+		
+	}
+	WIS_ideas_7 = {
+		
+	}
+}
+
+# Bluewax
+BWX_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = BWX
+	}
+	free = yes		
+	
+	BWX_ideas_1 = {
+		
+	}
+	BWX_ideas_2 = {
+		
+	}
+	BWX_ideas_3 = {
+		
+	}
+	BWX_ideas_4 = {
+		
+	}
+	BWX_ideas_5 = {
+		
+	}
+	BWX_ideas_6 = {
+		
+	}
+	BWX_ideas_7 = {
+		
+	}
+}
+
+# Goggers
+GOG_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = GOG
+	}
+	free = yes		
+	
+	GOG_ideas_1 = {
+		
+	}
+	GOG_ideas_2 = {
+		
+	}
+	GOG_ideas_3 = {
+		
+	}
+	GOG_ideas_4 = {
+		
+	}
+	GOG_ideas_5 = {
+		
+	}
+	GOG_ideas_6 = {
+		
+	}
+	GOG_ideas_7 = {
+		
+	}
+}
+
+# Drywhisker
+DRY_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = DRY
+	}
+	free = yes		
+	
+	DRY_ideas_1 = {
+		
+	}
+	DRY_ideas_2 = {
+		
+	}
+	DRY_ideas_3 = {
+		
+	}
+	DRY_ideas_4 = {
+		
+	}
+	DRY_ideas_5 = {
+		
+	}
+	DRY_ideas_6 = {
+		
+	}
+	DRY_ideas_7 = {
+		
+	}
+}
+
+# Skywhisker
+SKW_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SKW
+	}
+	free = yes		
+	
+	SKW_ideas_1 = {
+		
+	}
+	SKW_ideas_2 = {
+		
+	}
+	SKW_ideas_3 = {
+		
+	}
+	SKW_ideas_4 = {
+		
+	}
+	SKW_ideas_5 = {
+		
+	}
+	SKW_ideas_6 = {
+		
+	}
+	SKW_ideas_7 = {
+		
+	}
+}
+
+# Tunnel Rat
+TNR_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = TNR
+	}
+	free = yes		
+	
+	TNR_ideas_1 = {
+		
+	}
+	TNR_ideas_2 = {
+		
+	}
+	TNR_ideas_3 = {
+		
+	}
+	TNR_ideas_4 = {
+		
+	}
+	TNR_ideas_5 = {
+		
+	}
+	TNR_ideas_6 = {
+		
+	}
+	TNR_ideas_7 = {
+		
+	}
+}
+
+# Whitewhisker
+WWK_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = WWK
+	}
+	free = yes		
+	
+	WWK_ideas_1 = {
+		
+	}
+	WWK_ideas_2 = {
+		
+	}
+	WWK_ideas_3 = {
+		
+	}
+	WWK_ideas_4 = {
+		
+	}
+	WWK_ideas_5 = {
+		
+	}
+	WWK_ideas_6 = {
+		
+	}
+	WWK_ideas_7 = {
+		
+	}
+}
+

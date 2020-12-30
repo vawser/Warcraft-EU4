@@ -1,0 +1,114 @@
+# The Unbound
+UNB_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = UNB
+	}
+	free = yes		
+	
+	UNB_ideas_1 = {
+		
+	}
+	UNB_ideas_2 = {
+		
+	}
+	UNB_ideas_3 = {
+		
+	}
+	UNB_ideas_4 = {
+		
+	}
+	UNB_ideas_5 = {
+		
+	}
+	UNB_ideas_6 = {
+		
+	}
+	UNB_ideas_7 = {
+		
+	}
+}
+
+# Sisterhood of Winter
+SOW_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SOW
+	}
+	free = yes		
+	
+	SOW_ideas_1 = {
+		
+	}
+	SOW_ideas_2 = {
+		
+	}
+	SOW_ideas_3 = {
+		
+	}
+	SOW_ideas_4 = {
+		
+	}
+	SOW_ideas_5 = {
+		
+	}
+	SOW_ideas_6 = {
+		
+	}
+	SOW_ideas_7 = {
+		
+	}
+}
+
+# Daughters of Cenarius
+COC_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = COC
+	}
+	free = yes		
+	
+	COC_ideas_1 = {
+		
+	}
+	COC_ideas_2 = {
+		
+	}
+	COC_ideas_3 = {
+		
+	}
+	COC_ideas_4 = {
+		
+	}
+	COC_ideas_5 = {
+		
+	}
+	COC_ideas_6 = {
+		
+	}
+	COC_ideas_7 = {
+		
+	}
+}
+

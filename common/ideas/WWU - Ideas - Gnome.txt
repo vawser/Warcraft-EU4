@@ -1,0 +1,38 @@
+# Gnomeregan
+GNO_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = GNO
+	}
+	free = yes		
+	
+	GNO_ideas_1 = {
+		
+	}
+	GNO_ideas_2 = {
+		
+	}
+	GNO_ideas_3 = {
+		
+	}
+	GNO_ideas_4 = {
+		
+	}
+	GNO_ideas_5 = {
+		
+	}
+	GNO_ideas_6 = {
+		
+	}
+	GNO_ideas_7 = {
+		
+	}
+}
+

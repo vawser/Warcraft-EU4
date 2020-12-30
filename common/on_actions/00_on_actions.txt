@@ -1800,18 +1800,23 @@ harmonized_elemental = {
         wwu_harmonization.3
     }
 }
-harmonized_nature = {
+harmonized_life = {
     events = {
         wwu_harmonization.4
     }
 }
-harmonized_void = {
+harmonized_shadow = {
     events = {
         wwu_harmonization.5
     }
 }
-harmonized_rational_philosophies = {
+harmonized_philosophy = {
     events = {
         wwu_harmonization.6
+    }
+}
+harmonized_death = {
+    events = {
+        wwu_harmonization.7
     }
 }

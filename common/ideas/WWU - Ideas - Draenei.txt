@@ -1,0 +1,113 @@
+# # Exodar
+# EXO_ideas = {
+	# start = {
+		
+	# }
+
+	# bonus = {
+        
+	# }
+	
+	# trigger = {
+		# tag = EXO
+	# }
+	# free = yes		
+	
+	# EXO_ideas_1 = {
+		
+	# }
+	# EXO_ideas_2 = {
+		
+	# }
+	# EXO_ideas_3 = {
+		
+	# }
+	# EXO_ideas_4 = {
+		
+	# }
+	# EXO_ideas_5 = {
+		
+	# }
+	# EXO_ideas_6 = {
+		
+	# }
+	# EXO_ideas_7 = {
+		
+	# }
+# }
+
+# # Lost Ones
+# LSO_ideas = {
+	# start = {
+		
+	# }
+
+	# bonus = {
+        
+	# }
+	
+	# trigger = {
+		# tag = LSO
+	# }
+	# free = yes		
+	
+	# LSO_ideas_1 = {
+		
+	# }
+	# LSO_ideas_2 = {
+		
+	# }
+	# LSO_ideas_3 = {
+		
+	# }
+	# LSO_ideas_4 = {
+		
+	# }
+	# LSO_ideas_5 = {
+		
+	# }
+	# LSO_ideas_6 = {
+		
+	# }
+	# LSO_ideas_7 = {
+		
+	# }
+# }
+
+# # Portal Seekers
+# POR_ideas = {
+	# start = {
+		
+	# }
+
+	# bonus = {
+        
+	# }
+	
+	# trigger = {
+		# tag = POR
+	# }
+	# free = yes		
+	
+	# POR_ideas_1 = {
+		
+	# }
+	# POR_ideas_2 = {
+		
+	# }
+	# POR_ideas_3 = {
+		
+	# }
+	# POR_ideas_4 = {
+		
+	# }
+	# POR_ideas_5 = {
+		
+	# }
+	# POR_ideas_6 = {
+		
+	# }
+	# POR_ideas_7 = {
+		
+	# }
+# }

@@ -1,6 +1,8 @@
 #------------------------------
 # Changelog
 #------------------------------
+Fix graphical cultures
+Name provinces
 
 # Add events that spawn these nations some time after game start
  Dreadmaul:

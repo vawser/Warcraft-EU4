@@ -10,6 +10,8 @@ shadow_group = {
     
     crusade_name = CRUSADE
     
+    harmonized_modifier = harmonized_shadow
+    
     shadow = {
 		color = { 189 49 44 }
 		icon = 5

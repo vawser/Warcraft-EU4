@@ -1,0 +1,456 @@
+# Riplash
+RIP_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = RIP
+	}
+	free = yes		
+	
+	RIP_ideas_1 = {
+		
+	}
+	RIP_ideas_2 = {
+		
+	}
+	RIP_ideas_3 = {
+		
+	}
+	RIP_ideas_4 = {
+		
+	}
+	RIP_ideas_5 = {
+		
+	}
+	RIP_ideas_6 = {
+		
+	}
+	RIP_ideas_7 = {
+		
+	}
+}
+
+# Blackfathom
+FAT_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = FAT
+	}
+	free = yes		
+	
+	FAT_ideas_1 = {
+		
+	}
+	FAT_ideas_2 = {
+		
+	}
+	FAT_ideas_3 = {
+		
+	}
+	FAT_ideas_4 = {
+		
+	}
+	FAT_ideas_5 = {
+		
+	}
+	FAT_ideas_6 = {
+		
+	}
+	FAT_ideas_7 = {
+		
+	}
+}
+
+# Eye of Azshara
+EYE_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = EYE
+	}
+	free = yes		
+	
+	EYE_ideas_1 = {
+		
+	}
+	EYE_ideas_2 = {
+		
+	}
+	EYE_ideas_3 = {
+		
+	}
+	EYE_ideas_4 = {
+		
+	}
+	EYE_ideas_5 = {
+		
+	}
+	EYE_ideas_6 = {
+		
+	}
+	EYE_ideas_7 = {
+		
+	}
+}
+
+# Bloodcursed
+BOC_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = BOC
+	}
+	free = yes		
+	
+	BOC_ideas_1 = {
+		
+	}
+	BOC_ideas_2 = {
+		
+	}
+	BOC_ideas_3 = {
+		
+	}
+	BOC_ideas_4 = {
+		
+	}
+	BOC_ideas_5 = {
+		
+	}
+	BOC_ideas_6 = {
+		
+	}
+	BOC_ideas_7 = {
+		
+	}
+}
+
+# Daggerspine
+DGS_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = DGS
+	}
+	free = yes		
+	
+	DGS_ideas_1 = {
+		
+	}
+	DGS_ideas_2 = {
+		
+	}
+	DGS_ideas_3 = {
+		
+	}
+	DGS_ideas_4 = {
+		
+	}
+	DGS_ideas_5 = {
+		
+	}
+	DGS_ideas_6 = {
+		
+	}
+	DGS_ideas_7 = {
+		
+	}
+}
+
+# Hatecrest
+HTC_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = HTC
+	}
+	free = yes		
+	
+	HTC_ideas_1 = {
+		
+	}
+	HTC_ideas_2 = {
+		
+	}
+	HTC_ideas_3 = {
+		
+	}
+	HTC_ideas_4 = {
+		
+	}
+	HTC_ideas_5 = {
+		
+	}
+	HTC_ideas_6 = {
+		
+	}
+	HTC_ideas_7 = {
+		
+	}
+}
+
+# Slitherblade
+SLB_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SLB
+	}
+	free = yes		
+	
+	SLB_ideas_1 = {
+		
+	}
+	SLB_ideas_2 = {
+		
+	}
+	SLB_ideas_3 = {
+		
+	}
+	SLB_ideas_4 = {
+		
+	}
+	SLB_ideas_5 = {
+		
+	}
+	SLB_ideas_6 = {
+		
+	}
+	SLB_ideas_7 = {
+		
+	}
+}
+
+# Spitelash
+SPL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SPL
+	}
+	free = yes		
+	
+	SPL_ideas_1 = {
+		
+	}
+	SPL_ideas_2 = {
+		
+	}
+	SPL_ideas_3 = {
+		
+	}
+	SPL_ideas_4 = {
+		
+	}
+	SPL_ideas_5 = {
+		
+	}
+	SPL_ideas_6 = {
+		
+	}
+	SPL_ideas_7 = {
+		
+	}
+}
+
+# Stormscale
+SMC_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SMC
+	}
+	free = yes		
+	
+	SMC_ideas_1 = {
+		
+	}
+	SMC_ideas_2 = {
+		
+	}
+	SMC_ideas_3 = {
+		
+	}
+	SMC_ideas_4 = {
+		
+	}
+	SMC_ideas_5 = {
+		
+	}
+	SMC_ideas_6 = {
+		
+	}
+	SMC_ideas_7 = {
+		
+	}
+}
+
+# Strashaz
+SHZ_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SHZ
+	}
+	free = yes		
+	
+	SHZ_ideas_1 = {
+		
+	}
+	SHZ_ideas_2 = {
+		
+	}
+	SHZ_ideas_3 = {
+		
+	}
+	SHZ_ideas_4 = {
+		
+	}
+	SHZ_ideas_5 = {
+		
+	}
+	SHZ_ideas_6 = {
+		
+	}
+	SHZ_ideas_7 = {
+		
+	}
+}
+
+# Wrathscale
+WRS_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = WRS
+	}
+	free = yes		
+	
+	WRS_ideas_1 = {
+		
+	}
+	WRS_ideas_2 = {
+		
+	}
+	WRS_ideas_3 = {
+		
+	}
+	WRS_ideas_4 = {
+		
+	}
+	WRS_ideas_5 = {
+		
+	}
+	WRS_ideas_6 = {
+		
+	}
+	WRS_ideas_7 = {
+		
+	}
+}
+
+# Wrathtail
+WRT_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = WRT
+	}
+	free = yes		
+	
+	WRT_ideas_1 = {
+		
+	}
+	WRT_ideas_2 = {
+		
+	}
+	WRT_ideas_3 = {
+		
+	}
+	WRT_ideas_4 = {
+		
+	}
+	WRT_ideas_5 = {
+		
+	}
+	WRT_ideas_6 = {
+		
+	}
+	WRT_ideas_7 = {
+		
+	}
+}
+

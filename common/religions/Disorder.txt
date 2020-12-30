@@ -10,6 +10,8 @@ disorder_group = {
     
     crusade_name = CRUSADE
     
+    harmonized_modifier = harmonized_disorder
+    
     fel = {
 		color = { 181 230 29 }
 		icon = 11

@@ -285,8 +285,6 @@ cb_independence_war = {
 
 	prerequisites = {
 		is_subject_other_than_tributary_trigger = yes
-		NOT = { is_subject_of_type = faction_alliance }
-		NOT = { is_subject_of_type = faction_horde }
 		is_subject_of = FROM
 		liberty_desire = 50
 		is_revolution_target = no
@@ -378,45 +376,11 @@ cb_crusade = {
 	valid_for_subject = no
 
 	prerequisites = {
-		OR = {
-			AND = {
-				OR = {
-                    religion_group = light_group
-                    religion_group = life_group
-                    religion_group = order_group
-                }
-				is_neighbor_of = FROM
-				FROM = {
-					OR = { 
-						religion_group = shadow_group
-						religion_group = disorder_group
-                        religion_group = death_group
-					}
-				}
-			}
-			AND = {
-                OR = { 
-                    religion_group = shadow_group
-                    religion_group = disorder_group
-                    religion_group = death_group
-                }
-				is_neighbor_of = FROM
-				FROM = {
-                    OR = {
-                        religion_group = light_group
-                        religion_group = life_group
-                        religion_group = order_group
-                    }
-				}
-			}
-			AND = {
-				cb_on_religious_enemies = yes
-				FROM = {
-					NOT = {	religion_group = ROOT }
-					is_neighbor_of = ROOT
-				}
-			}
-		}
+		cb_on_religious_enemies = yes
+        FROM = {
+            NOT = {	religion_group = ROOT }
+            is_neighbor_of = ROOT
+        }
 	}
 
 	war_goal = superiority_crusade

@@ -1,0 +1,38 @@
+# Quel'Thalas
+QUE_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = QUE
+	}
+	free = yes		
+	
+	QUE_ideas_1 = {
+		
+	}
+	QUE_ideas_2 = {
+		
+	}
+	QUE_ideas_3 = {
+		
+	}
+	QUE_ideas_4 = {
+		
+	}
+	QUE_ideas_5 = {
+		
+	}
+	QUE_ideas_6 = {
+		
+	}
+	QUE_ideas_7 = {
+		
+	}
+}
+

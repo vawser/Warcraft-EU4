@@ -1,0 +1,532 @@
+# Palemane
+PAL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = PAL
+	}
+	free = yes		
+	
+	PAL_ideas_1 = {
+		
+	}
+	PAL_ideas_2 = {
+		
+	}
+	PAL_ideas_3 = {
+		
+	}
+	PAL_ideas_4 = {
+		
+	}
+	PAL_ideas_5 = {
+		
+	}
+	PAL_ideas_6 = {
+		
+	}
+	PAL_ideas_7 = {
+		
+	}
+}
+
+# Mosshide
+MOS_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = MOS
+	}
+	free = yes		
+	
+	MOS_ideas_1 = {
+		
+	}
+	MOS_ideas_2 = {
+		
+	}
+	MOS_ideas_3 = {
+		
+	}
+	MOS_ideas_4 = {
+		
+	}
+	MOS_ideas_5 = {
+		
+	}
+	MOS_ideas_6 = {
+		
+	}
+	MOS_ideas_7 = {
+		
+	}
+}
+
+# Riverpaw
+RVP_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = RVP
+	}
+	free = yes		
+	
+	RVP_ideas_1 = {
+		
+	}
+	RVP_ideas_2 = {
+		
+	}
+	RVP_ideas_3 = {
+		
+	}
+	RVP_ideas_4 = {
+		
+	}
+	RVP_ideas_5 = {
+		
+	}
+	RVP_ideas_6 = {
+		
+	}
+	RVP_ideas_7 = {
+		
+	}
+}
+
+# Blackmane
+BKM_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = BKM
+	}
+	free = yes		
+	
+	BKM_ideas_1 = {
+		
+	}
+	BKM_ideas_2 = {
+		
+	}
+	BKM_ideas_3 = {
+		
+	}
+	BKM_ideas_4 = {
+		
+	}
+	BKM_ideas_5 = {
+		
+	}
+	BKM_ideas_6 = {
+		
+	}
+	BKM_ideas_7 = {
+		
+	}
+}
+
+# Blackpaw
+BPC_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = BPC
+	}
+	free = yes		
+	
+	BPC_ideas_1 = {
+		
+	}
+	BPC_ideas_2 = {
+		
+	}
+	BPC_ideas_3 = {
+		
+	}
+	BPC_ideas_4 = {
+		
+	}
+	BPC_ideas_5 = {
+		
+	}
+	BPC_ideas_6 = {
+		
+	}
+	BPC_ideas_7 = {
+		
+	}
+}
+
+# Drysnout
+DSN_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = DSN
+	}
+	free = yes		
+	
+	DSN_ideas_1 = {
+		
+	}
+	DSN_ideas_2 = {
+		
+	}
+	DSN_ideas_3 = {
+		
+	}
+	DSN_ideas_4 = {
+		
+	}
+	DSN_ideas_5 = {
+		
+	}
+	DSN_ideas_6 = {
+		
+	}
+	DSN_ideas_7 = {
+		
+	}
+}
+
+# Grimtail
+GRI_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = GRI
+	}
+	free = yes		
+	
+	GRI_ideas_1 = {
+		
+	}
+	GRI_ideas_2 = {
+		
+	}
+	GRI_ideas_3 = {
+		
+	}
+	GRI_ideas_4 = {
+		
+	}
+	GRI_ideas_5 = {
+		
+	}
+	GRI_ideas_6 = {
+		
+	}
+	GRI_ideas_7 = {
+		
+	}
+}
+
+# Mudsnout
+MUD_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = MUD
+	}
+	free = yes		
+	
+	MUD_ideas_1 = {
+		
+	}
+	MUD_ideas_2 = {
+		
+	}
+	MUD_ideas_3 = {
+		
+	}
+	MUD_ideas_4 = {
+		
+	}
+	MUD_ideas_5 = {
+		
+	}
+	MUD_ideas_6 = {
+		
+	}
+	MUD_ideas_7 = {
+		
+	}
+}
+
+# Redpine
+REP_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = REP
+	}
+	free = yes		
+	
+	REP_ideas_1 = {
+		
+	}
+	REP_ideas_2 = {
+		
+	}
+	REP_ideas_3 = {
+		
+	}
+	REP_ideas_4 = {
+		
+	}
+	REP_ideas_5 = {
+		
+	}
+	REP_ideas_6 = {
+		
+	}
+	REP_ideas_7 = {
+		
+	}
+}
+
+# Redridge Pack
+RRP_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = RRP
+	}
+	free = yes		
+	
+	RRP_ideas_1 = {
+		
+	}
+	RRP_ideas_2 = {
+		
+	}
+	RRP_ideas_3 = {
+		
+	}
+	RRP_ideas_4 = {
+		
+	}
+	RRP_ideas_5 = {
+		
+	}
+	RRP_ideas_6 = {
+		
+	}
+	RRP_ideas_7 = {
+		
+	}
+}
+
+# Rot Hide
+ROT_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = ROT
+	}
+	free = yes		
+	
+	ROT_ideas_1 = {
+		
+	}
+	ROT_ideas_2 = {
+		
+	}
+	ROT_ideas_3 = {
+		
+	}
+	ROT_ideas_4 = {
+		
+	}
+	ROT_ideas_5 = {
+		
+	}
+	ROT_ideas_6 = {
+		
+	}
+	ROT_ideas_7 = {
+		
+	}
+}
+
+# Savage Hill
+SVH_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SVH
+	}
+	free = yes		
+	
+	SVH_ideas_1 = {
+		
+	}
+	SVH_ideas_2 = {
+		
+	}
+	SVH_ideas_3 = {
+		
+	}
+	SVH_ideas_4 = {
+		
+	}
+	SVH_ideas_5 = {
+		
+	}
+	SVH_ideas_6 = {
+		
+	}
+	SVH_ideas_7 = {
+		
+	}
+}
+
+# Shadowhide
+SDW_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SDW
+	}
+	free = yes		
+	
+	SDW_ideas_1 = {
+		
+	}
+	SDW_ideas_2 = {
+		
+	}
+	SDW_ideas_3 = {
+		
+	}
+	SDW_ideas_4 = {
+		
+	}
+	SDW_ideas_5 = {
+		
+	}
+	SDW_ideas_6 = {
+		
+	}
+	SDW_ideas_7 = {
+		
+	}
+}
+
+# Woodpaw
+WOO_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = WOO
+	}
+	free = yes		
+	
+	WOO_ideas_1 = {
+		
+	}
+	WOO_ideas_2 = {
+		
+	}
+	WOO_ideas_3 = {
+		
+	}
+	WOO_ideas_4 = {
+		
+	}
+	WOO_ideas_5 = {
+		
+	}
+	WOO_ideas_6 = {
+		
+	}
+	WOO_ideas_7 = {
+		
+	}
+}
+

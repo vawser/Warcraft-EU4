@@ -2,7 +2,7 @@ high_elf_group = {
     graphical_culture = high_elf_gfx
     
     country = { 
-        female_advisor_chance = 0.5 
+        # female_advisor_chance = 0.5 
     }
     
     quelthalas = {
@@ -36,7 +36,7 @@ blood_elf_group = {
     graphical_culture = blood_elf_gfx
     
     country = { 
-        female_advisor_chance = 0.5 
+        # female_advisor_chance = 0.5 
     }
         
     blood_elf = {

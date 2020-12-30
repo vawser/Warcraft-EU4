@@ -1,0 +1,304 @@
+# Darnassus
+DAS_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = DAS
+	}
+	free = yes		
+	
+	DAS_ideas_1 = {
+		
+	}
+	DAS_ideas_2 = {
+		
+	}
+	DAS_ideas_3 = {
+		
+	}
+	DAS_ideas_4 = {
+		
+	}
+	DAS_ideas_5 = {
+		
+	}
+	DAS_ideas_6 = {
+		
+	}
+	DAS_ideas_7 = {
+		
+	}
+}
+
+# Sentinels of Hyjal
+SEN_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SEN
+	}
+	free = yes		
+	
+	SEN_ideas_1 = {
+		
+	}
+	SEN_ideas_2 = {
+		
+	}
+	SEN_ideas_3 = {
+		
+	}
+	SEN_ideas_4 = {
+		
+	}
+	SEN_ideas_5 = {
+		
+	}
+	SEN_ideas_6 = {
+		
+	}
+	SEN_ideas_7 = {
+		
+	}
+}
+
+# Moonglade
+CEN_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = CEN
+	}
+	free = yes		
+	
+	CEN_ideas_1 = {
+		
+	}
+	CEN_ideas_2 = {
+		
+	}
+	CEN_ideas_3 = {
+		
+	}
+	CEN_ideas_4 = {
+		
+	}
+	CEN_ideas_5 = {
+		
+	}
+	CEN_ideas_6 = {
+		
+	}
+	CEN_ideas_7 = {
+		
+	}
+}
+
+# Cenarion Expedition
+CEX_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = CEX
+	}
+	free = yes		
+	
+	CEX_ideas_1 = {
+		
+	}
+	CEX_ideas_2 = {
+		
+	}
+	CEX_ideas_3 = {
+		
+	}
+	CEX_ideas_4 = {
+		
+	}
+	CEX_ideas_5 = {
+		
+	}
+	CEX_ideas_6 = {
+		
+	}
+	CEX_ideas_7 = {
+		
+	}
+}
+
+# Val'sharah
+VAL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = VAL
+	}
+	free = yes		
+	
+	VAL_ideas_1 = {
+		
+	}
+	VAL_ideas_2 = {
+		
+	}
+	VAL_ideas_3 = {
+		
+	}
+	VAL_ideas_4 = {
+		
+	}
+	VAL_ideas_5 = {
+		
+	}
+	VAL_ideas_6 = {
+		
+	}
+	VAL_ideas_7 = {
+		
+	}
+}
+
+# Sentinels of Ashenvale
+SEA_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SEA
+	}
+	free = yes		
+	
+	SEA_ideas_1 = {
+		
+	}
+	SEA_ideas_2 = {
+		
+	}
+	SEA_ideas_3 = {
+		
+	}
+	SEA_ideas_4 = {
+		
+	}
+	SEA_ideas_5 = {
+		
+	}
+	SEA_ideas_6 = {
+		
+	}
+	SEA_ideas_7 = {
+		
+	}
+}
+
+# Sentinels of Auberdine
+SDS_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SDS
+	}
+	free = yes		
+	
+	SDS_ideas_1 = {
+		
+	}
+	SDS_ideas_2 = {
+		
+	}
+	SDS_ideas_3 = {
+		
+	}
+	SDS_ideas_4 = {
+		
+	}
+	SDS_ideas_5 = {
+		
+	}
+	SDS_ideas_6 = {
+		
+	}
+	SDS_ideas_7 = {
+		
+	}
+}
+
+# Sentinels of Feathermoon
+SFR_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = SFR
+	}
+	free = yes		
+	
+	SFR_ideas_1 = {
+		
+	}
+	SFR_ideas_2 = {
+		
+	}
+	SFR_ideas_3 = {
+		
+	}
+	SFR_ideas_4 = {
+		
+	}
+	SFR_ideas_5 = {
+		
+	}
+	SFR_ideas_6 = {
+		
+	}
+	SFR_ideas_7 = {
+		
+	}
+}
+

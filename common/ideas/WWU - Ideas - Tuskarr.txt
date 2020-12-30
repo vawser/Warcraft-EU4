@@ -1,0 +1,75 @@
+# Kaluak
+KAL_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = KAL
+	}
+	free = yes		
+	
+	KAL_ideas_1 = {
+		
+	}
+	KAL_ideas_2 = {
+		
+	}
+	KAL_ideas_3 = {
+		
+	}
+	KAL_ideas_4 = {
+		
+	}
+	KAL_ideas_5 = {
+		
+	}
+	KAL_ideas_6 = {
+		
+	}
+	KAL_ideas_7 = {
+		
+	}
+}
+
+# Moaki
+MOA_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = MOA
+	}
+	free = yes		
+	
+	MOA_ideas_1 = {
+		
+	}
+	MOA_ideas_2 = {
+		
+	}
+	MOA_ideas_3 = {
+		
+	}
+	MOA_ideas_4 = {
+		
+	}
+	MOA_ideas_5 = {
+		
+	}
+	MOA_ideas_6 = {
+		
+	}
+	MOA_ideas_7 = {
+		
+	}
+}

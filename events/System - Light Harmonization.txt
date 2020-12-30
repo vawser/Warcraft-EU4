@@ -5,7 +5,7 @@ country_event = {
 	id = wwu_harmonization.1
 	title = wwu_harmonization.1.title
 	desc = wwu_harmonization.1.desc
-	picture = ASHBRINGER_eventPicture
+	picture = BLIND_PALADIN_eventPicture
 	
 	is_triggered_only = yes
 	
@@ -26,7 +26,7 @@ country_event = {
 	id = wwu_harmonization.2
 	title = wwu_harmonization.2.title
 	desc = wwu_harmonization.2.desc
-	picture = ASHBRINGER_eventPicture
+	picture = BLIND_PALADIN_eventPicture
 	
 	is_triggered_only = yes
 	
@@ -47,7 +47,7 @@ country_event = {
 	id = wwu_harmonization.3
 	title = wwu_harmonization.3.title
 	desc = wwu_harmonization.3.desc
-	picture = ASHBRINGER_eventPicture
+	picture = BLIND_PALADIN_eventPicture
 	
 	is_triggered_only = yes
 	
@@ -63,12 +63,12 @@ country_event = {
 	}
 }
 
-# Integration of Nature
+# Integration of Life
 country_event = {
 	id = wwu_harmonization.4
 	title = wwu_harmonization.4.title
 	desc = wwu_harmonization.4.desc
-	picture = ASHBRINGER_eventPicture
+	picture = BLIND_PALADIN_eventPicture
 	
 	is_triggered_only = yes
 	
@@ -77,19 +77,19 @@ country_event = {
         
 		tooltip = {
 			add_country_modifier = {
-				name = "harmonized_nature"
+				name = "harmonized_life"
 				duration = -1
 			}
 		}
 	}
 }
 
-# Integration of the Void
+# Integration of the Shadow
 country_event = {
 	id = wwu_harmonization.5
 	title = wwu_harmonization.5.title
 	desc = wwu_harmonization.5.desc
-	picture = ASHBRINGER_eventPicture
+	picture = BLIND_PALADIN_eventPicture
 	
 	is_triggered_only = yes
 	
@@ -98,19 +98,19 @@ country_event = {
         
 		tooltip = {
 			add_country_modifier = {
-				name = "harmonized_void"
+				name = "harmonized_shadow"
 				duration = -1
 			}
 		}
 	}
 }
 
-# Integration of the Rational
+# Integration of Philosophy
 country_event = {
 	id = wwu_harmonization.6
 	title = wwu_harmonization.6.title
 	desc = wwu_harmonization.6.desc
-	picture = ASHBRINGER_eventPicture
+	picture = BLIND_PALADIN_eventPicture
 	
 	is_triggered_only = yes
 	
@@ -119,7 +119,28 @@ country_event = {
         
 		tooltip = {
 			add_country_modifier = {
-				name = "harmonized_rational_philosophies"
+				name = "harmonized_philosophy"
+				duration = -1
+			}
+		}
+	}
+}
+
+# Integration of Death
+country_event = {
+	id = wwu_harmonization.7
+	title = wwu_harmonization.7.title
+	desc = wwu_harmonization.7.desc
+	picture = BLIND_PALADIN_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = wwu_harmonization.7.option.a
+        
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_death"
 				duration = -1
 			}
 		}

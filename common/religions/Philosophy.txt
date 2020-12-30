@@ -10,6 +10,8 @@ philosophy_group = {
     
     crusade_name = CRUSADE
     
+    harmonized_modifier = harmonized_philosophy
+    
     technomancy = {
 		color = { 48 232 229 }
 		icon = 23

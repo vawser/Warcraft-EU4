@@ -1,0 +1,114 @@
+# Thor Modan
+TMN_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = TMN
+	}
+	free = yes		
+	
+	TMN_ideas_1 = {
+		
+	}
+	TMN_ideas_2 = {
+		
+	}
+	TMN_ideas_3 = {
+		
+	}
+	TMN_ideas_4 = {
+		
+	}
+	TMN_ideas_5 = {
+		
+	}
+	TMN_ideas_6 = {
+		
+	}
+	TMN_ideas_7 = {
+		
+	}
+}
+
+# Frostborn
+FRO_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = FRO
+	}
+	free = yes		
+	
+	FRO_ideas_1 = {
+		
+	}
+	FRO_ideas_2 = {
+		
+	}
+	FRO_ideas_3 = {
+		
+	}
+	FRO_ideas_4 = {
+		
+	}
+	FRO_ideas_5 = {
+		
+	}
+	FRO_ideas_6 = {
+		
+	}
+	FRO_ideas_7 = {
+		
+	}
+}
+
+# Uldaman
+ULM_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = ULM
+	}
+	free = yes		
+	
+	ULM_ideas_1 = {
+		
+	}
+	ULM_ideas_2 = {
+		
+	}
+	ULM_ideas_3 = {
+		
+	}
+	ULM_ideas_4 = {
+		
+	}
+	ULM_ideas_5 = {
+		
+	}
+	ULM_ideas_6 = {
+		
+	}
+	ULM_ideas_7 = {
+		
+	}
+}
+

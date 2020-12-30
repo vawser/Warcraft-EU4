@@ -1,0 +1,494 @@
+# Timbermaw
+TIM_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = TIM
+	}
+	free = yes		
+	
+	TIM_ideas_1 = {
+		
+	}
+	TIM_ideas_2 = {
+		
+	}
+	TIM_ideas_3 = {
+		
+	}
+	TIM_ideas_4 = {
+		
+	}
+	TIM_ideas_5 = {
+		
+	}
+	TIM_ideas_6 = {
+		
+	}
+	TIM_ideas_7 = {
+		
+	}
+}
+
+# Stillpine
+STP_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = STP
+	}
+	free = yes		
+	
+	STP_ideas_1 = {
+		
+	}
+	STP_ideas_2 = {
+		
+	}
+	STP_ideas_3 = {
+		
+	}
+	STP_ideas_4 = {
+		
+	}
+	STP_ideas_5 = {
+		
+	}
+	STP_ideas_6 = {
+		
+	}
+	STP_ideas_7 = {
+		
+	}
+}
+
+# Winterfall
+WTA_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = WTA
+	}
+	free = yes		
+	
+	WTA_ideas_1 = {
+		
+	}
+	WTA_ideas_2 = {
+		
+	}
+	WTA_ideas_3 = {
+		
+	}
+	WTA_ideas_4 = {
+		
+	}
+	WTA_ideas_5 = {
+		
+	}
+	WTA_ideas_6 = {
+		
+	}
+	WTA_ideas_7 = {
+		
+	}
+}
+
+# Frostpaw
+FTP_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = FTP
+	}
+	free = yes		
+	
+	FTP_ideas_1 = {
+		
+	}
+	FTP_ideas_2 = {
+		
+	}
+	FTP_ideas_3 = {
+		
+	}
+	FTP_ideas_4 = {
+		
+	}
+	FTP_ideas_5 = {
+		
+	}
+	FTP_ideas_6 = {
+		
+	}
+	FTP_ideas_7 = {
+		
+	}
+}
+
+# Redfang
+RDF_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = RDF
+	}
+	free = yes		
+	
+	RDF_ideas_1 = {
+		
+	}
+	RDF_ideas_2 = {
+		
+	}
+	RDF_ideas_3 = {
+		
+	}
+	RDF_ideas_4 = {
+		
+	}
+	RDF_ideas_5 = {
+		
+	}
+	RDF_ideas_6 = {
+		
+	}
+	RDF_ideas_7 = {
+		
+	}
+}
+
+# Thistlefur
+THS_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = THS
+	}
+	free = yes		
+	
+	THS_ideas_1 = {
+		
+	}
+	THS_ideas_2 = {
+		
+	}
+	THS_ideas_3 = {
+		
+	}
+	THS_ideas_4 = {
+		
+	}
+	THS_ideas_5 = {
+		
+	}
+	THS_ideas_6 = {
+		
+	}
+	THS_ideas_7 = {
+		
+	}
+}
+
+# Blackmaw
+BMW_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = BMW
+	}
+	free = yes		
+	
+	BMW_ideas_1 = {
+		
+	}
+	BMW_ideas_2 = {
+		
+	}
+	BMW_ideas_3 = {
+		
+	}
+	BMW_ideas_4 = {
+		
+	}
+	BMW_ideas_5 = {
+		
+	}
+	BMW_ideas_6 = {
+		
+	}
+	BMW_ideas_7 = {
+		
+	}
+}
+
+# Bloodtooth
+BOH_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = BOH
+	}
+	free = yes		
+	
+	BOH_ideas_1 = {
+		
+	}
+	BOH_ideas_2 = {
+		
+	}
+	BOH_ideas_3 = {
+		
+	}
+	BOH_ideas_4 = {
+		
+	}
+	BOH_ideas_5 = {
+		
+	}
+	BOH_ideas_6 = {
+		
+	}
+	BOH_ideas_7 = {
+		
+	}
+}
+
+# Bristlelimb
+BMB_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = BMB
+	}
+	free = yes		
+	
+	BMB_ideas_1 = {
+		
+	}
+	BMB_ideas_2 = {
+		
+	}
+	BMB_ideas_3 = {
+		
+	}
+	BMB_ideas_4 = {
+		
+	}
+	BMB_ideas_5 = {
+		
+	}
+	BMB_ideas_6 = {
+		
+	}
+	BMB_ideas_7 = {
+		
+	}
+}
+
+# Deadwood
+DDW_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = DDW
+	}
+	free = yes		
+	
+	DDW_ideas_1 = {
+		
+	}
+	DDW_ideas_2 = {
+		
+	}
+	DDW_ideas_3 = {
+		
+	}
+	DDW_ideas_4 = {
+		
+	}
+	DDW_ideas_5 = {
+		
+	}
+	DDW_ideas_6 = {
+		
+	}
+	DDW_ideas_7 = {
+		
+	}
+}
+
+# Foulweald
+FWD_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = FWD
+	}
+	free = yes		
+	
+	FWD_ideas_1 = {
+		
+	}
+	FWD_ideas_2 = {
+		
+	}
+	FWD_ideas_3 = {
+		
+	}
+	FWD_ideas_4 = {
+		
+	}
+	FWD_ideas_5 = {
+		
+	}
+	FWD_ideas_6 = {
+		
+	}
+	FWD_ideas_7 = {
+		
+	}
+}
+
+# Blackwood
+BKF_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = BKF
+	}
+	free = yes		
+	
+	BKF_ideas_1 = {
+		
+	}
+	BKF_ideas_2 = {
+		
+	}
+	BKF_ideas_3 = {
+		
+	}
+	BKF_ideas_4 = {
+		
+	}
+	BKF_ideas_5 = {
+		
+	}
+	BKF_ideas_6 = {
+		
+	}
+	BKF_ideas_7 = {
+		
+	}
+}
+
+# Grizzleweald
+GRZ_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = GRZ
+	}
+	free = yes		
+	
+	GRZ_ideas_1 = {
+		
+	}
+	GRZ_ideas_2 = {
+		
+	}
+	GRZ_ideas_3 = {
+		
+	}
+	GRZ_ideas_4 = {
+		
+	}
+	GRZ_ideas_5 = {
+		
+	}
+	GRZ_ideas_6 = {
+		
+	}
+	GRZ_ideas_7 = {
+		
+	}
+}
+

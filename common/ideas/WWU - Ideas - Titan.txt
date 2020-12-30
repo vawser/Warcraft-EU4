@@ -1,0 +1,76 @@
+# Ulduar
+ULD_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = ULD
+	}
+	free = yes		
+	
+	ULD_ideas_1 = {
+		
+	}
+	ULD_ideas_2 = {
+		
+	}
+	ULD_ideas_3 = {
+		
+	}
+	ULD_ideas_4 = {
+		
+	}
+	ULD_ideas_5 = {
+		
+	}
+	ULD_ideas_6 = {
+		
+	}
+	ULD_ideas_7 = {
+		
+	}
+}
+
+# Lifewarders
+LIF_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = LIF
+	}
+	free = yes		
+	
+	LIF_ideas_1 = {
+		
+	}
+	LIF_ideas_2 = {
+		
+	}
+	LIF_ideas_3 = {
+		
+	}
+	LIF_ideas_4 = {
+		
+	}
+	LIF_ideas_5 = {
+		
+	}
+	LIF_ideas_6 = {
+		
+	}
+	LIF_ideas_7 = {
+		
+	}
+}
+
