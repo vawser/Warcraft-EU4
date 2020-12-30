@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 10
-native_ferocity = 8
-native_hostileness = 8
+is_city = yes
+owner = STP
+controller = STP
+add_core = STP
 
 base_tax = 3
 base_production = 1
 base_manpower = 3
 
-culture = noculture
-religion = noreligion
+culture = stillpine
+religion = shamanism
 
 trade_goods = unknown
 hre = no

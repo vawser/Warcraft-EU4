@@ -4,7 +4,7 @@ add_government_reform = naga_domain_reform
 primary_culture = spitelash
 religion = azshara
 
-capital = 1
+capital = 5746
 
 # The First War
 592.1.1 = {

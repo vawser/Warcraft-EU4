@@ -1,6 +1,6 @@
 graphical_culture = green_dragonflight_gfx
 
-color = { 190 225 124 }
+color = { 21 145 19 }
 
 monarch_names = {
 	"Mezakus #0" = 20

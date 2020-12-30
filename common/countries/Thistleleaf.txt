@@ -1,6 +1,6 @@
 graphical_culture = spriteling_gfx
 
-color = { 46 32 125 }
+color = { 91 138 69 }
 
 monarch_names = {
 	"Tos #0" = 20

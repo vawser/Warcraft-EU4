@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 24
-native_ferocity = 1
-native_hostileness = 7
+is_city = yes
+owner = WRT
+controller = WRT
+add_core = WRT
 
 base_tax = 3
 base_production = 1
 base_manpower = 1
 
-culture = noculture
-religion = noreligion
+culture = wrathscale
+religion = azshara
 
 trade_goods = unknown
 hre = no

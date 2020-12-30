@@ -1,6 +1,6 @@
 graphical_culture = harpy_gfx
 
-color = { 90 50 65 }
+color = { 134 188 217 }
 
 monarch_names = {
 	"Frurlie #0" = 20

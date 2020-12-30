@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 81
-native_ferocity = 2
-native_hostileness = 10
+is_city = yes
+owner = COC
+controller = COC
+add_core = COC
 
 base_tax = 2
 base_production = 2
 base_manpower = 1
 
-culture = noculture
-religion = noreligion
+culture = daughters_of_cenarius
+religion = druidism
 
 trade_goods = unknown
 hre = no

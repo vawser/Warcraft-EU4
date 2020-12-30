@@ -4,7 +4,7 @@ add_government_reform = warband_reform
 primary_culture = deadtalker
 religion = ordos
 
-capital = 1
+capital = 4565
 
 # The First War
 592.1.1 = {

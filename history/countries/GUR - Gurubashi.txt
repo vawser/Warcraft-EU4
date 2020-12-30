@@ -5,7 +5,7 @@ government_rank = 3
 primary_culture = gurubashi
 religion = voodoo
 
-capital = 1
+capital = 2913
 
 # The First War
 592.1.1 = {

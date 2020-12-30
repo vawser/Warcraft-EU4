@@ -4,7 +4,7 @@ add_government_reform = tribal_federation_reform
 primary_culture = honeydew
 religion = celestials
 
-capital = 1
+capital = 4414
 
 # The First War
 592.1.1 = {

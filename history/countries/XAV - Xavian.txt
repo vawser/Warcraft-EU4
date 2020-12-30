@@ -4,7 +4,7 @@ add_government_reform = warband_reform
 primary_culture = xavian
 religion = fel
 
-capital = 1
+capital = 5622
 
 # The First War
 592.1.1 = {

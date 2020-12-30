@@ -1,6 +1,6 @@
 graphical_culture = black_dragonflight_gfx
 
-color = { 78 164 107 }
+color = { 94 88 75 }
 
 monarch_names = {
 	"Unsylion #0" = 20

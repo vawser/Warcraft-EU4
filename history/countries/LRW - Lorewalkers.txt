@@ -4,7 +4,7 @@ add_government_reform = monastic_order_reform
 primary_culture = lorewalker
 religion = celestials
 
-capital = 1
+capital = 4499
 
 # The First War
 592.1.1 = {

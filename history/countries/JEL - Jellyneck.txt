@@ -4,7 +4,7 @@ add_government_reform = warband_reform
 primary_culture = jellyneck
 religion = voodoo
 
-capital = 1
+capital = 3402
 
 # The First War
 592.1.1 = {

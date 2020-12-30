@@ -1,6 +1,6 @@
 graphical_culture = crystal_nymph_gfx
 
-color = { 146 195 68 }
+color = { 98 59 150 }
 
 monarch_names = {
 	"Tira #0" = 20

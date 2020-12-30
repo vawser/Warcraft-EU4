@@ -1,6 +1,6 @@
 graphical_culture = furbolg_gfx
 
-color = { 166 0 196 }
+color = { 156 73 44 }
 
 monarch_names = {
 	"Wenog #0" = 20

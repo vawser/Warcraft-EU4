@@ -4,7 +4,7 @@ add_government_reform = monastic_order_reform
 primary_culture = order_of_the_cloud_serpent
 religion = celestials
 
-capital = 1
+capital = 4238
 
 # The First War
 592.1.1 = {

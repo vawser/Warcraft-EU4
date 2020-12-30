@@ -4,7 +4,7 @@ add_government_reform = tribal_despotism_reform
 primary_culture = bristleback
 religion = shamanism
 
-capital = 1
+capital = 5418
 
 # The First War
 592.1.1 = {

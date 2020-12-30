@@ -1,6 +1,6 @@
 graphical_culture = zandalari_troll_gfx
 
-color = { 187 248 191 }
+color = { 63 148 46 }
 
 monarch_names = {
 	"Daakara #0" = 20

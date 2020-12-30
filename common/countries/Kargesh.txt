@@ -1,6 +1,6 @@
 graphical_culture = mogu_gfx
 
-color = { 19 144 62 }
+color = { 206 188 16 }
 
 monarch_names = {
 	"Fe Bo #0" = 20

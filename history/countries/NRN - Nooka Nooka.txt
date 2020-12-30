@@ -4,7 +4,7 @@ add_government_reform = tribal_despotism_reform
 primary_culture = nooka_nooka
 religion = celestials
 
-capital = 1
+capital = 4421
 
 # The First War
 592.1.1 = {

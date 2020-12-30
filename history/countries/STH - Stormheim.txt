@@ -4,7 +4,7 @@ add_government_reform = tribal_despotism_reform
 primary_culture = stormheim
 religion = runic
 
-capital = 1
+capital = 3693
 
 # The First War
 592.1.1 = {

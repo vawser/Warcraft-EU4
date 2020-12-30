@@ -4,7 +4,7 @@ add_government_reform = tribal_federation_reform
 primary_culture = muskpaw
 religion = celestials
 
-capital = 1
+capital = 4516
 
 # The First War
 592.1.1 = {

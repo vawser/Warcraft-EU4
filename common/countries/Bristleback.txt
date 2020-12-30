@@ -1,6 +1,6 @@
 graphical_culture = quillboar_gfx
 
-color = { 48 17 177 }
+color = { 68 145 39 }
 
 monarch_names = {
 	"Haktla #0" = 20

@@ -1,6 +1,6 @@
 graphical_culture = goblin_gfx
 
-color = { 57 158 94 }
+color = { 179 158 57 }
 
 monarch_names = {
 	"Jees #0" = 20

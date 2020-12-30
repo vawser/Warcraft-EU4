@@ -1,7 +1,8 @@
 # The Burning Legion
 graphical_culture = westerngfx
 
-color = { 24 219 42 }
+color = { 56 181 40 }
+
 monarch_names = {
 	"Kilthe" = 20
 	"Ruinman" = 20

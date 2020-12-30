@@ -4,7 +4,7 @@ add_government_reform = tribal_despotism_reform
 primary_culture = razorfen
 religion = shamanism
 
-capital = 1
+capital = 5410
 
 # The First War
 592.1.1 = {

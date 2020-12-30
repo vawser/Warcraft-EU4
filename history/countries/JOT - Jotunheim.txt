@@ -4,7 +4,7 @@ add_government_reform = tribal_despotism_reform
 primary_culture = jotunheim
 religion = runic
 
-capital = 1
+capital = 6179
 
 # The First War
 592.1.1 = {

@@ -4,7 +4,7 @@ add_government_reform = warband_reform
 primary_culture = nazzivus
 religion = fel
 
-capital = 1
+capital = 4743
 
 # The First War
 592.1.1 = {

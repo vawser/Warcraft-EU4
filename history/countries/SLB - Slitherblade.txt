@@ -4,7 +4,7 @@ add_government_reform = naga_domain_reform
 primary_culture = slitherblade
 religion = azshara
 
-capital = 1
+capital = 2497
 
 # The First War
 592.1.1 = {

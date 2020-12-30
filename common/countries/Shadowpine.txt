@@ -1,6 +1,6 @@
 graphical_culture = forest_troll_gfx
 
-color = { 204 80 188 }
+color = { 95 60 145 }
 
 monarch_names = {
 	"Daakara #0" = 20

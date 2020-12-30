@@ -1,6 +1,6 @@
 graphical_culture = satyr_gfx
 
-color = { 9 223 180 }
+color = { 163 97 59 }
 
 monarch_names = {
 	"Nekus #0" = 20

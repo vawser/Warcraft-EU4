@@ -1,6 +1,6 @@
 graphical_culture = bronze_dragonflight_gfx
 
-color = { 52 226 51 }
+color = { 140 121 79 }
 
 monarch_names = {
 	"Nokodnos #0" = 20

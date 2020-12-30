@@ -1,6 +1,6 @@
 graphical_culture = scourge_gfx
 
-color = { 171 195 19 }
+color = { 11 78 133 }
 
 monarch_names = {
 	"Faerkel #0" = 20

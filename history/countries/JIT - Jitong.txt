@@ -4,7 +4,7 @@ add_government_reform = warband_reform
 primary_culture = jitong
 religion = fleshshaping
 
-capital = 1
+capital = 4389
 
 # The First War
 592.1.1 = {

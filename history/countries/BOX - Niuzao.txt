@@ -4,7 +4,7 @@ add_government_reform = monastic_order_reform
 primary_culture = pandaren
 religion = celestials
 
-capital = 1
+capital = 3797
 
 # The First War
 592.1.1 = {

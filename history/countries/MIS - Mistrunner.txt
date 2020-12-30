@@ -4,7 +4,7 @@ add_government_reform = tribal_federation_reform
 primary_culture = mistrunner
 religion = earth_mother
 
-capital = 1
+capital = 5555
 
 # The First War
 592.1.1 = {

@@ -5,7 +5,7 @@ government_rank = 3
 primary_culture = shado_pan
 religion = celestials
 
-capital = 1
+capital = 1982
 
 # The First War
 592.1.1 = {

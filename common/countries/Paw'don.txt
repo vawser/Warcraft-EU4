@@ -1,6 +1,6 @@
 graphical_culture = pandaren_gfx
 
-color = { 20 218 20 }
+color = { 89 163 86 }
 
 monarch_names = {
 	"Ah #0" = 20

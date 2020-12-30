@@ -4,7 +4,7 @@ add_government_reform = warband_reform
 primary_culture = skadir
 religion = runic
 
-capital = 1
+capital = 6119
 
 # The First War
 592.1.1 = {

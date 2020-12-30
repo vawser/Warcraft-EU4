@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 6
-native_ferocity = 0
-native_hostileness = 2
+is_city = yes
+owner = WDP
+controller = WDP
+add_core = WDP
 
 base_tax = 2
 base_production = 3
 base_manpower = 2
 
-culture = noculture
-religion = noreligion
+culture = wildspawn
+religion = fel
 
 trade_goods = unknown
 hre = no

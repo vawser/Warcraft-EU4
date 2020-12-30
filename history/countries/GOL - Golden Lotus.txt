@@ -4,7 +4,7 @@ add_government_reform = theocracy_reform
 primary_culture = golden_lotus
 religion = celestials
 
-capital = 1
+capital = 4498
 
 # The First War
 592.1.1 = {

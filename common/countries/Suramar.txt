@@ -1,6 +1,6 @@
 graphical_culture = nightborne_gfx
 
-color = { 76 103 27 }
+color = { 82 90 239 }
 
 monarch_names = {
 	"Qilgrorn #0" = 20

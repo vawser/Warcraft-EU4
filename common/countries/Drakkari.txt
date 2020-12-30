@@ -1,6 +1,6 @@
 graphical_culture = frost_troll_gfx
 
-color = { 161 244 20 }
+color = { 39 124 150 }
 
 monarch_names = {
 	"Daakara #0" = 20

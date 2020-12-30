@@ -4,7 +4,7 @@ add_government_reform = ancient_theocracy_reform
 primary_culture = ulduar
 religion = titan_worship
 
-capital = 1
+capital = 2149
 
 # The First War
 592.1.1 = {

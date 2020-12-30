@@ -4,7 +4,7 @@ add_government_reform = naga_domain_reform
 primary_culture = daggerspine
 religion = azshara
 
-capital = 1
+capital = 3463
 
 # The First War
 592.1.1 = {

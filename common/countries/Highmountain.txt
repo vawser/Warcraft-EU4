@@ -1,6 +1,6 @@
 graphical_culture = highmountain_tauren_gfx
 
-color = { 78 230 135 }
+color = { 136 153 43 }
 
 monarch_names = {
 	"Uthamug #0" = 20

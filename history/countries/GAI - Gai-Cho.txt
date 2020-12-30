@@ -4,7 +4,7 @@ add_government_reform = warband_reform
 primary_culture = gaicho
 religion = ordos
 
-capital = 1
+capital = 4355
 
 # The First War
 592.1.1 = {

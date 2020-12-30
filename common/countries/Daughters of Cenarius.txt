@@ -1,6 +1,6 @@
 graphical_culture = dryad_gfx
 
-color = { 37 166 171 }
+color = { 68 166 74 }
 
 monarch_names = {
 	"Tira #0" = 20

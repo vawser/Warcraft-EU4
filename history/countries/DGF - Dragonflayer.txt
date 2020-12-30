@@ -4,7 +4,7 @@ add_government_reform = autocracy_reform
 primary_culture = dragonflayer
 religion = runic
 
-capital = 1
+capital = 6868
 
 # The First War
 592.1.1 = {

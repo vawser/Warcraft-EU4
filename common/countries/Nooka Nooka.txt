@@ -1,6 +1,6 @@
 graphical_culture = hozen_gfx
 
-color = { 196 105 154 }
+color = { 136 181 118 }
 
 monarch_names = {
 	"Runk-Runk #0" = 20

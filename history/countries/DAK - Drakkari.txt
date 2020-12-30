@@ -5,7 +5,7 @@ government_rank = 2
 primary_culture = drakkari
 religion = voodoo
 
-capital = 1
+capital = 6951
 
 # The First War
 592.1.1 = {

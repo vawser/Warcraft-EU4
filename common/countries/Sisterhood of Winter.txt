@@ -1,6 +1,6 @@
 graphical_culture = frost_nymph_gfx
 
-color = { 158 209 98 }
+color = { 95 172 176 }
 
 monarch_names = {
 	"Tira #0" = 20

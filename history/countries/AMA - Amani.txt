@@ -5,7 +5,7 @@ government_rank = 3
 primary_culture = amani
 religion = voodoo
 
-capital = 1
+capital = 4110
 
 # The First War
 592.1.1 = {

@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 99
-native_ferocity = 0
-native_hostileness = 8
+is_city = yes
+owner = GMT
+controller = GMT
+add_core = GMT
 
 base_tax = 4
 base_production = 4
 base_manpower = 2
 
-culture = noculture
-religion = noreligion
+culture = grimtotem
+religion = shamanism
 
 trade_goods = unknown
 hre = no
