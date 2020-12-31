@@ -56,12 +56,12 @@ country_event = {
 	option = {
 		name = wwu_orcish_horde.2.option.a
         
-        create_general = {
+        define_general = {
             name = "Sir Anduin Lothar"
-            add_fire = 4
-            add_shock = 4
-            add_manuever = 6
-            add_siege = 3
+            fire = 4
+            shock = 4
+            manuever = 6
+            siege = 3
         }
 	}
 }

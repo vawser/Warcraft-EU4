@@ -739,8 +739,8 @@ demonic_order_reform = {
 	heirs_can_be_generals = yes
 	royal_marriage = no
     
-	different_religion_acceptance = -100
-    different_religion_group_acceptance = -100
+	different_religion_acceptance = -20
+    different_religion_group_acceptance = -20
     
     lock_level_when_selected = yes
     custom_attributes = {
@@ -818,8 +818,8 @@ elemental_cult_reform = {
         religion_group = elemental_group
     }
     
-    different_religion_acceptance = -100
-    different_religion_group_acceptance = -100
+    different_religion_acceptance = -20
+    different_religion_group_acceptance = -20
     
 	modifiers = {
 		global_unrest = -2
@@ -854,8 +854,8 @@ shadow_cult_reform = {
         religion_group = shadow_group
     }
     
-    different_religion_acceptance = -100
-    different_religion_group_acceptance = -100
+    different_religion_acceptance = -20
+    different_religion_group_acceptance = -20
     
     conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
@@ -898,9 +898,6 @@ orcish_horde_reform = {
         yearly_absolutism = 1.0
         max_absolutism = 100
 	}
-    
-    different_religion_acceptance = -100
-    different_religion_group_acceptance = -100
     
     custom_attributes = {
 		locked_government_type = yes
