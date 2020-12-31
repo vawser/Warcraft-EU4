@@ -10,7 +10,10 @@ WIL_ideas = {
 	}
 	
 	trigger = {
-		tag = WIL
+		OR = {
+            tag = WIL
+            tag = AER
+        }
 	}
 	free = yes		
 	
@@ -118,42 +121,3 @@ DKI_ideas = {
 		discipline = 0.05
 	}
 }
-
-# Aerie Peak
-AER_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = AER
-	}
-	free = yes		
-	
-	AER_ideas_1 = {
-		
-	}
-	AER_ideas_2 = {
-		
-	}
-	AER_ideas_3 = {
-		
-	}
-	AER_ideas_4 = {
-		
-	}
-	AER_ideas_5 = {
-		
-	}
-	AER_ideas_6 = {
-		
-	}
-	AER_ideas_7 = {
-		
-	}
-}
-

@@ -711,6 +711,12 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
     
+    spriteType = {
+		name = "government_reform_orcish_horde"
+		texturefile = "gfx//interface//government_reform_icons//horde.dds"
+		loadType = "INGAME"
+	}
+    
     #
     # spriteType = {
 		# name = "government_reform_"

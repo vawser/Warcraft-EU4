@@ -1,0 +1,41 @@
+#---------------------------------------
+# Orcish Horde
+#---------------------------------------
+fel_rush = {
+	potential = {
+		tag = TOH
+        NOT = { is_year = 620 }
+	}
+	trigger = {
+		tag = TOH
+        custom_trigger_tooltip = {
+            tooltip = ORCISH_HORDE_NO_LOSS
+            
+            NOT = { has_global_flag = orcish_horde_lost_war }
+        }
+        NOT = { is_year = 620 }
+	}
+
+	land_morale = 0.2
+    province_warscore_cost = -0.75
+    administrative_efficiency = 0.25
+}
+
+shattered_morale = {
+	potential = {
+		tag = TOH
+        NOT = { is_year = 620 }
+	}
+	trigger = {
+		tag = TOH
+        NOT = { is_year = 620 }
+        custom_trigger_tooltip = {
+            tooltip = ORCISH_HORDE_LOST_WAR
+            
+            has_global_flag = orcish_horde_lost_war
+        }
+	}
+
+	land_morale = -0.2
+    enemy_core_creation = -0.75
+}

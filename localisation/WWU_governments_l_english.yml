@@ -276,6 +276,11 @@
  druidic_circle_legacy_desc: ""
  
  # Tribal
+ orcish_horde_reform: "Orcish Horde"
+ orcish_horde_reform_desc: ""
+ orcish_horde_legacy: "Orcish Horde"
+ orcish_horde_legacy_desc: ""
+ 
  warband_reform: "Warband"
  warband_reform_desc: ""
  warband_legacy: "Warband"
@@ -955,3 +960,6 @@
  FALLEN_PRIESTESS: "Fallen Priestess"
  
  GRAND_MADA: "Grand Ma'da"
+ 
+ ORCISH_HORDE: "Orcish Horde"
+ WARCHIEF: "Warchief"

@@ -68,3 +68,26 @@ gov_tribal_despotism = {
         has_reform = tribal_despotism_reform
 	}
 }
+gov_orcish_horde = {
+	rank = {
+		1 = ORCISH_HORDE
+		2 = ORCISH_HORDE
+		3 = ORCISH_HORDE
+	}
+	
+	ruler_male = {
+		1 = WARCHIEF
+        2 = WARCHIEF
+        3 = WARCHIEF
+	}
+	
+	ruler_female = {
+		1 = WARCHIEF
+        2 = WARCHIEF
+        3 = WARCHIEF
+	}
+	
+	trigger = {
+        has_reform = orcish_horde_reform
+	}
+}

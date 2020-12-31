@@ -893,7 +893,7 @@ tribal_rebels = {
 		modifier = {
 			factor = 0
 			owner = { 
-				NOT = { has_reform = warband_reform }
+				NOT = { is_warband_government_type = yes }
 			}
 		}
 		modifier = {

@@ -551,6 +551,7 @@ base_values = {
 	global_tax_income = 12
     
     monthly_piety = -0.01 # Piety
+    allowed_marine_fraction = 0.2
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
@@ -591,8 +592,7 @@ positive_stability = {
     yearly_patriarch_authority = 0.001
     
     # Factions
-    mr_aristocrats_influence = 0.025
-	wwu_knights_influence = 0.025
+    # mr_aristocrats_influence = 0.025
 }
 
 privateering = {
@@ -618,8 +618,7 @@ negative_stability = {
     yearly_patriarch_authority = 0.002
     
     # Factions
-	mr_aristocrats_influence = 0.025
-	wwu_knights_influence = 0.025
+	# mr_aristocrats_influence = 0.025
 }
 
 positive_mandate = {	# 100% strength at 100 mandate, 0% at 50 mandate
@@ -691,7 +690,7 @@ bankruptcy = {
 	imperial_mandate = -0.1
     
     # Factions
-	mr_guilds_influence = 0.25
+	# mr_guilds_influence = 0.25
 }
 
 
@@ -699,9 +698,6 @@ war = {
     papal_influence = 1
     yearly_patriarch_authority = -0.001
     monthly_militarized_society = 0.05
-    
-    # Factions
-    wwu_knights_influence = 0.1
 }
 
 peace = {
@@ -714,7 +710,6 @@ peace = {
     
     # Factions
     pr_smugglers_influence = 0.1
-	wwu_knights_influence = -0.1
 }
 
 unconditional_surrender = {
@@ -738,9 +733,7 @@ war_exhaustion = {
 	global_trade_goods_size_modifier = -0.02
 	
     # Factions
-	mr_aristocrats_influence = -0.05
-	wwu_knights_influence = -0.05
-	wwu_priests_influence = 0.05
+	# mr_aristocrats_influence = -0.05
 }
 
 doom = {
@@ -785,8 +778,7 @@ army_tradition = {
     free_leader_pool = 4
 	
     # Factions
-	wwu_knights_influence = 0.1
-	mr_aristocrats_influence = 0.1
+	# mr_aristocrats_influence = 0.1
     
     # Estates
 	nobility_loyalty_modifier = 0.1
@@ -802,8 +794,7 @@ navy_tradition = {
 	free_leader_pool = 4
     
     # Factions
-	mr_traders_influence = 0.1
-    wwu_priests_influence = 0.1
+	# mr_traders_influence = 0.1
     
     # Estates
 	traders_loyalty_modifier = 0.1
@@ -1024,7 +1015,7 @@ over_extension = {
 	harsh_treatment_cost = 0.5
     
     # Factions
-	mr_guilds_influence = 0.5
+	# mr_guilds_influence = 0.5
 }
 
 prestige = {

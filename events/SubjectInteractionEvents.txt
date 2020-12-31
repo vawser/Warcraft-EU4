@@ -310,7 +310,7 @@ country_event = {
 		has_dlc = "Common Sense"
 		has_regency = no
 		government = monarchy
-		NOT = { has_reform = warband_reform }
+		NOT = { is_warband_government_type = yes }
 		num_of_cities = 2
 		NOT = {
 			legitimacy = 50

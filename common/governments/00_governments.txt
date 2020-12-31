@@ -295,6 +295,7 @@ tribal = {
     reform_levels = {
         tier_tribal_government_form = {
 			reforms = {
+                orcish_horde_reform
                 warband_reform
                 tribal_federation_reform
                 tribal_despotism_reform
@@ -332,6 +333,7 @@ tribal = {
     }
     
     legacy_government = {
+        orcish_horde_legacy
         warband_legacy
         tribal_federation_legacy
         tribal_despotism_legacy

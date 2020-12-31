@@ -249,11 +249,11 @@ country_event = {
 		name = "EVTOPTA754"
 		
 		if = {
-			limit = { NOT = { has_reform = warband_reform } }
+			limit = { NOT = { is_warband_government_type = yes } }
 			add_legitimacy = -15
 		}
 		if = {
-			limit = { has_reform = warband_reform }
+			limit = { is_warband_government_type = yes }
 			add_horde_unity = -15
 		}
 	}

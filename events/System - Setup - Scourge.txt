@@ -1,0 +1,62 @@
+namespace = wwu_setup_scourge
+
+# This event signals the Third War turning point
+
+# Scourge
+country_event = {
+	id = wwu_setup_scourge.1
+	title = wwu_setup_scourge.1.title
+	desc = wwu_setup_scourge.1.desc
+	picture = NAXXRAMAS_eventPicture
+
+    major = yes
+    
+	trigger = {
+        ai = no
+        NOT = { exists = SCO }
+        NOT = { has_global_flag = setup_scourge }
+        has_global_flag = orcish_horde_lost_war
+        is_year = 700
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_scourge
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = wwu_setup_scourge.1.option.a
+        
+        region_icecrown = {
+            limit = {
+                NOT = { owned_by = YMI }
+                NOT = { owned_by = JOT }
+                NOT = { owned_by = ROOT }
+            }
+            cede_province = SCO
+            add_core = SCO
+            change_religion = scourge
+            change_culture = cult_of_the_damned
+        }
+        # Ignore player ownership for the Citadel
+        2068 = {
+            cede_province = SCO
+            add_core = SCO
+            change_religion = scourge
+            change_culture = cult_of_the_damned
+            
+            set_base_tax = 12
+            set_base_production = 16
+            set_base_manpower = 18
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+}

@@ -1,6 +1,6 @@
 technology_group = tech_orc
 government = tribal
-add_government_reform = warband_reform
+add_government_reform = orcish_horde_reform
 government_rank = 3
 primary_culture = orc
 religion = fel
@@ -11,7 +11,7 @@ capital = 3135
 592.1.1 = {
     monarch = { 
 		name = "Blackhand" 
-		dynasty = "the Warchief" 
+		dynasty = "the Destroyer" 
 		adm = 4
 		dip = 2
 		mil = 6

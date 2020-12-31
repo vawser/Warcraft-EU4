@@ -1,0 +1,6 @@
+is_warband_government_type = {
+    OR = {
+        has_reform = warband_reform
+        has_reform = orcish_horde_reform
+    }
+}

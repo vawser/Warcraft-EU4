@@ -2635,7 +2635,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				has_reform = warband_reform
+				is_warband_government_type = yes
 				NOT = { legitimacy_or_horde_unity = 50 }
 			}
 			modifier = {

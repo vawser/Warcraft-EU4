@@ -6,7 +6,7 @@ country_event = {
 	picture = CIVIL_WAR_eventPicture
 
 	trigger = {
-		has_reform = warband_reform
+		is_warband_government_type = yes
 		is_year = 1450
 		NOT = { has_dlc = "The Cossacks" }
 		is_at_war = no
@@ -48,7 +48,7 @@ country_event = {
 	picture = CIVIL_WAR_eventPicture
 	
 	trigger = {
-		has_reform = warband_reform
+		is_warband_government_type = yes
 		is_year = 1450
 		NOT = { has_dlc = "The Cossacks" }
 		num_of_cities = 10
@@ -96,7 +96,7 @@ country_event = {
 	picture = DEBATE_REPUBLICAN_eventPicture
 	
 	trigger = {
-		has_reform = warband_reform
+		is_warband_government_type = yes
 		is_year = 1450
 		NOT = { has_dlc = "The Cossacks" }
 		num_of_cities = 10

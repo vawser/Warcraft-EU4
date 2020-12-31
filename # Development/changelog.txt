@@ -4,42 +4,7 @@
 Add national ideas
 Name provinces
 
-# Add events that spawn these nations some time after game start
- Dreadmaul:
-  area_blasted_lands_3
-  
- Dunemaul:
-  area_tanaris_24
-  
- Gordunni
-  area_feralas_13
-  
- Mo'grosh
-  area_loch_modan_1
-  
- Boulderfist
-  area_arath_highlands_8
-  
- Deadwind
-  3076 3077 3078
-  
- Dustbelcher
-  3208 3209 3210
+Add Burning Legion invasion crisis
+
+Enable plague event for Lordaeron region
  
- Firegut
-  area_burning_steppes_3
-  
- Mosh'Ogg
-  area_stranglethorn_vale_12
-  
- Stone Fist
-  area_duskwood_4
-  
- Stonegullet
-  area_searing_gorge_1
-  
- Torchbelcher
-  area_wetlands_16
-  
- Scourge
-  region_icecrown

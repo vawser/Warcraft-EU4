@@ -789,7 +789,7 @@
  wwu_militarization_ideas: "Militarization"
  wwu_militarization_ideas_desc: ""
  wwu_militarization_ideas_bonus: "Militarization Ideas Bonus"
- wwu_militarization_ideas_1: "Regular Enlistment"
+ wwu_militarization_ideas_1: "Champions of the Realm"
  wwu_militarization_ideas_1_desc: "Provides the following modifiers:"
  wwu_militarization_ideas_2: "Wartime Efficiencies"
  wwu_militarization_ideas_2_desc: "Provides the following modifiers:"
@@ -801,7 +801,7 @@
  wwu_militarization_ideas_5_desc: "Provides the following modifiers:"
  wwu_militarization_ideas_6: "Marshal Law"
  wwu_militarization_ideas_6_desc: "Provides the following modifiers:"
- wwu_militarization_ideas_7: "Common Fortitude"
+ wwu_militarization_ideas_7: "Regular Enlistment"
  wwu_militarization_ideas_7_desc: "Provides the following modifiers:"
  
  wwu_subjugation_ideas: "Subjugation"

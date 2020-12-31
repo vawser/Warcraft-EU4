@@ -441,7 +441,7 @@ NCountry = {
 	SPLENDOR_ABILITY_COST = 800,
 	PROSPERITY_MONTHLY_DECLINE = -2,				-- monthly tick
 	PROSPERITY_INCREASE_SIZE= 1,				-- if diceroll of d20< monarch stat, while possible ot increase
-	CORRUPTION_FROM_BANNERS = 5,
+	CORRUPTION_FROM_BANNERS = 0,
 
 
 	MONARCH_MIN_SKILL = 0,						-- Probably bad idea to reduce this
@@ -563,12 +563,12 @@ NCountry = {
 
 	EXPLORE_COAST_EVENT_CHANCE = 2,			-- Chance (in %) of getting an event when exploring coasts
 	MIN_TECH_FOR_CIRCUMNAVIGATE = 9,			-- Must have this level of dip tech to circumnavigate the globe
-	CIRCUMNAVIGATION_PROVINCE_1 = 291,			-- Provinces for circumnavigation (coast of gambia)
-	CIRCUMNAVIGATION_PROVINCE_2 = 426,			-- Provinces for circumnavigation (magellan strait)
-	CIRCUMNAVIGATION_PROVINCE_3 = 159,			-- Provinces for circumnavigation (hawaii sea)
-	CIRCUMNAVIGATION_PROVINCE_4 = 50,			-- Provinces for circumnavigation (hawaii sea)
-	CIRCUMNAVIGATION_PROVINCE_5 = 99,			-- Provinces for circumnavigation (hawaii sea)
-	CIRCUMNAVIGATION_PROVINCE_6 = 2083,			-- Provinces for circumnavigation (cape of good hope)
+	CIRCUMNAVIGATION_PROVINCE_1 = 563,			-- Provinces for circumnavigation (coast of gambia)
+	CIRCUMNAVIGATION_PROVINCE_2 = 658,			-- Provinces for circumnavigation (magellan strait)
+	CIRCUMNAVIGATION_PROVINCE_3 = 5,			-- Provinces for circumnavigation (hawaii sea)
+	CIRCUMNAVIGATION_PROVINCE_4 = 45,			-- Provinces for circumnavigation (hawaii sea)
+	CIRCUMNAVIGATION_PROVINCE_5 = 353,			-- Provinces for circumnavigation (hawaii sea)
+	CIRCUMNAVIGATION_PROVINCE_6 = 337,			-- Provinces for circumnavigation (cape of good hope)
 
 	MIN_DEV_FOR_OLD_GREAT_POWER = 100,					-- Countries with less development than this cannot be considered Great Powers
 
@@ -1061,13 +1061,13 @@ NMilitary = {
 
 	COSSACKS_SHOCK_DAMAGE_BONUS = 0.25,
 	STRELTSY_FIRE_DAMAGE_BONUS = 0.0,
-	MARINE_SHOCK_DAMAGE_TAKEN = 0.0,
+	MARINE_SHOCK_DAMAGE_TAKEN = -0.25,
 	MAX_SAILOR_LACK_ATTRITION = 1,
 	SAILOR_MAINTAINANCE = 0.02,		-- of build cost.
-	BANNER_DISCIPLINE_BONUS = 0.05,
-	BANNER_MANPOWER_USAGE = 0.25,
-	BANNER_REINFORCE_SPEED = -0.5,
-	BANNER_MAINTENANCE_COST = 0.5,
+	BANNER_DISCIPLINE_BONUS = 0.1,
+	BANNER_MANPOWER_USAGE = 1.0,
+	BANNER_REINFORCE_SPEED = 1.0,
+	BANNER_MAINTENANCE_COST = 2.0,
 	BANNER_AGE_MULTIPLIER = 0.50,
 	BANNER_STARTING_STRENGTH = 1.0,					-- Starting strength of a banner regiment, 1.0 being full strength
 	FORT_DEVASTATION_IMPACT = -10,					-- multiplied by fortlevel/max fortlevel in area per year.
@@ -1261,7 +1261,7 @@ NMilitary = {
 	MAX_DRILL_DECAY = 0.9,							-- Drill can never Decay with more than this value.
 	AREA_REBEL_SUPPRESSION_MULTIPLIER = 5.0,		-- Armies suppressing rebels in areas adds this/<number of suppressed provinces> to rebel suppression in affected provinces.
 
-	BANNER_USES_CONSTRUCTION = 0,
+	BANNER_USES_CONSTRUCTION = 1,
 	STRELTSY_USES_CONSTRUCTION = 1,
 	COSSACKS_USES_CONSTRUCTION = 1,
 	JANISSARIES_USES_CONSTRUCTION = 0,

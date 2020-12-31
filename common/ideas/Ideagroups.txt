@@ -1096,7 +1096,7 @@ wwu_maritime_ideas = {
     # Merchant Marines
     wwu_maritime_ideas_2 = {
         global_sailors_modifier = 0.33
-        allowed_marine_fraction = 0.1
+        allowed_marine_fraction = 0.2
     }
     # Sheltered Ports
     wwu_maritime_ideas_3 = {
@@ -1366,7 +1366,7 @@ wwu_naval_skirmish_ideas = {
     # Sea Skirmishers
     wwu_naval_skirmish_ideas_1 = {
         galley_power = 0.2
-        allowed_marine_fraction = 0.05
+        allowed_marine_fraction = 0.2
     }
     # Hardy Sailors
     wwu_naval_skirmish_ideas_2 = {
@@ -2095,7 +2095,7 @@ wwu_militarization_ideas = {
     }
     # Regular Enlistment
     wwu_militarization_ideas_1 = {
-        reinforce_cost_modifier = -0.33
+        has_banners = 1 
     }
     # Wartime Efficiencies
     wwu_militarization_ideas_2 = {
@@ -2119,7 +2119,7 @@ wwu_militarization_ideas = {
     }
     # Common Fortitude
     wwu_militarization_ideas_7 = {
-        war_exhaustion_cost = -0.25
+        reinforce_cost_modifier = -0.33
     }
     
     ai_will_do = {

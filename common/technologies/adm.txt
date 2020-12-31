@@ -38,6 +38,7 @@ technology = {
     elemental_cult_legacy = yes
     shadow_cult_legacy = yes
     
+    orcish_horde_legacy = yes
     warband_legacy = yes
     tribal_federation_legacy = yes
     tribal_despotism_legacy = yes

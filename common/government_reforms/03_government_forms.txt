@@ -317,12 +317,6 @@ noble_republic_reform = {
     duration = 12
 	royal_marriage = yes
     
-	factions = {
-		mr_aristocrats
-		mr_traders
-		mr_guilds
-	}
-    
 	modifiers = {
 		global_manpower_modifier = 0.15
 		max_absolutism = -20
@@ -347,12 +341,6 @@ mercantile_republic_reform = {
     
     boost_income = yes
 	duration = 4
-    
-    factions = {
-		mr_aristocrats
-		mr_traders
-		mr_guilds
-	}
     
     custom_attributes = {
 		is_merchant_republic = yes
@@ -531,12 +519,6 @@ trading_city_reform = {
     duration = 4
     boost_income = yes
 	
-	factions = {
-		mr_aristocrats
-		mr_traders
-		mr_guilds
-	}
-    
     custom_attributes = {
 		locked_government_type = yes
 	}
@@ -694,12 +676,6 @@ monastic_order_reform = {
 	rulers_can_be_generals = yes
 	heirs_can_be_generals = yes
 	
-    factions = {
-		wwu_monks
-		wwu_priests
-		wwu_knights
-	}
-	
 	modifiers = {
 		defensiveness = 0.1
 	    land_morale = 0.1
@@ -762,7 +738,9 @@ demonic_order_reform = {
 	rulers_can_be_generals = yes
 	heirs_can_be_generals = yes
 	royal_marriage = no
-	different_religion_group_acceptance = -100
+    
+	different_religion_acceptance = -100
+    different_religion_group_acceptance = -100
     
     lock_level_when_selected = yes
     custom_attributes = {
@@ -840,6 +818,9 @@ elemental_cult_reform = {
         religion_group = elemental_group
     }
     
+    different_religion_acceptance = -100
+    different_religion_group_acceptance = -100
+    
 	modifiers = {
 		global_unrest = -2
 		warscore_cost_vs_other_religion = -0.2
@@ -873,6 +854,9 @@ shadow_cult_reform = {
         religion_group = shadow_group
     }
     
+    different_religion_acceptance = -100
+    different_religion_group_acceptance = -100
+    
     conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		government_abilities = {
@@ -902,6 +886,43 @@ shadow_cult_reform = {
 #--------------------------------------------
 # Tribal
 #--------------------------------------------
+orcish_horde_reform = {
+	icon = "orcish_horde"
+    legacy_equivalent = orcish_horde_legacy
+    
+    nomad = yes
+	generals_become_rulers = yes
+    
+	modifiers = {
+		army_tradition = 1
+        yearly_absolutism = 1.0
+        max_absolutism = 100
+	}
+    
+    different_religion_acceptance = -100
+    different_religion_group_acceptance = -100
+    
+    custom_attributes = {
+		locked_government_type = yes
+	}
+    
+     conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			tribal_federation_mechanic
+		}
+	}
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no     # Can be converted to via nation release
+    allow_normal_conversion = no   # Can be picked as a new reform
+    allow_convert = no             # Can be converted to via peace term
+    lock_level_when_selected = yes
+    
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
 warband_reform = {
 	icon = "warband"
     legacy_equivalent = warband_legacy
@@ -911,6 +932,8 @@ warband_reform = {
     
 	modifiers = {
 		army_tradition_from_battle = 1.0
+        global_regiment_cost = -0.15
+        global_regiment_recruit_speed = -0.15
 	}
 	
     conditional = {
@@ -1027,6 +1050,13 @@ pirate_republic_reform = {
 		may_perform_slave_raid_on_same_religion = yes
 	}
 	
+    factions_frame = 9
+	factions = {
+		pr_buccaneers
+		pr_smugglers
+		pr_captains
+	}
+    
 	ai = { factor = 0 }
     
     valid_for_new_country = no      # Can be converted to via nation release
@@ -1057,6 +1087,13 @@ pirate_kingdom_reform = {
 		may_perform_slave_raid_on_same_religion = yes
 	}
 
+    factions_frame = 9
+	factions = {
+		pr_buccaneers
+		pr_smugglers
+		pr_captains
+	}
+    
 	ai = { factor = 0 }
     
     valid_for_new_country = no      # Can be converted to via nation release

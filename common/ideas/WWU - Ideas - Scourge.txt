@@ -1,7 +1,8 @@
 # The Scourge
 SCO_ideas = {
 	start = {
-		
+		may_establish_frontier = yes
+        global_manpower_modifier = 1.0
 	}
 
 	bonus = {

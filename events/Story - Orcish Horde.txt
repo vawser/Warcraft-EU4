@@ -1,0 +1,168 @@
+namespace = wwu_orcish_horde
+
+# The Orcish Horde
+country_event = {
+	id = wwu_orcish_horde.1			# Landing of Naxxramas
+	title = wwu_orcish_horde.1.title
+	desc = wwu_orcish_horde.1.desc
+	picture = ORCISH_INVASION_eventPicture
+	
+    is_triggered_only = yes
+
+	trigger = {
+        ai = no
+		OR = {
+            tag = SRW
+            tag = TOH
+        }
+        NOT = { has_global_flag = orcish_horde_info_flag }
+	}
+	
+    immediate = {
+        hidden_effect = {
+            set_global_flag = orcish_horde_info_flag
+        }
+    }
+    
+	option = {
+		name = wwu_orcish_horde.1.option.a
+		
+	}
+}
+
+# The King's Champion
+country_event = {
+	id = wwu_orcish_horde.2
+	title = wwu_orcish_horde.2.title
+	desc = wwu_orcish_horde.2.desc
+	picture = SWORD_SHIELD_eventPicture
+
+	trigger = {
+        tag = SRW
+        NOT = { has_country_flag = the_kings_champion }
+        war_with = TOH
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_country_flag = the_kings_champion
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 36
+	}
+
+	option = {
+		name = wwu_orcish_horde.2.option.a
+        
+        create_general = {
+            name = "Sir Anduin Lothar"
+            add_fire = 4
+            add_shock = 4
+            add_manuever = 6
+            add_siege = 3
+        }
+	}
+}
+
+# Stormwind Calls for Assistance
+country_event = {
+	id = wwu_orcish_horde.3
+	title = wwu_orcish_horde.3.title
+	desc = wwu_orcish_horde.3.desc
+	picture = SWORD_SHIELD_eventPicture
+
+	trigger = {
+        tag = LOR
+        NOT = { has_country_flag = stormwind_attacked }
+        SRW = { defensive_war_with = TOH }
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_country_flag = stormwind_attacked
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = wwu_orcish_horde.3.option.a
+        
+        join_all_defensive_wars_of = SRW
+        add_prestige = 25
+	}
+    option = {
+		name = wwu_orcish_horde.3.option.b
+        
+        add_stability = 2
+        hidden_effect = { set_country_flag = failed_stormwind }
+	}
+}
+
+# Stormwind Falls!
+country_event = {
+	id = wwu_orcish_horde.4
+	title = wwu_orcish_horde.4.title
+	desc = wwu_orcish_horde.4.desc
+	picture = ORC_THRONE_eventPicture
+
+    major = yes
+    
+	trigger = {
+        tag = TOH
+        NOT = { has_country_flag = stormwind_falls }
+        war_with = SRW
+        2993 = {
+            controlled_by = TOH
+        }
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_country_flag = stormwind_falls
+        }
+    }
+    
+    mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = wwu_orcish_horde.3.option.a
+        
+        SRW = {
+            every_owned_province = {
+                change_controller = TOH
+            }
+        }
+        
+        hidden_effect = {
+            if = {
+                limit = {
+                    LOR = { has_country_flag = failed_stormwind}
+                }
+                LOR = { country_event = { id = wwu_orcish_horde.5 } }
+            }
+        }
+	}
+}
+
+# Stormwind Falls!
+country_event = {
+	id = wwu_orcish_horde.5
+	title = wwu_orcish_horde.5.title
+	desc = wwu_orcish_horde.5.desc
+	picture = KING_LLANE_eventPicture
+
+    is_triggered_only = yes
+    
+	option = {
+		name = wwu_orcish_horde.3.option.a
+        
+        add_stability = -5
+	}
+}

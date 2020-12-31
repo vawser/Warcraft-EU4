@@ -3695,10 +3695,117 @@
  wwu_pretender.1.option.a:0 "God is with $HEIR$!"
  
  #-------------------------------------
- #
+ # Ogre Setup
  #-------------------------------------
+ wwu_setup_ogre.1.title: "Dreadmaul Ogres"
+ wwu_setup_ogre.1.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.1.option.a: "Arise!"
+ wwu_setup_ogre.1.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.2.title: "Dunemaul Ogres"
+ wwu_setup_ogre.2.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.2.option.a: "Arise!"
+ wwu_setup_ogre.2.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.3.title: "Gordunni Ogres"
+ wwu_setup_ogre.3.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.3.option.a: "Arise!"
+ wwu_setup_ogre.3.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.4.title: "Mo'grosh Ogres"
+ wwu_setup_ogre.4.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.4.option.a: "Arise!"
+ wwu_setup_ogre.4.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.5.title: "Boulderfist Ogres"
+ wwu_setup_ogre.5.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.5.option.a: "Arise!"
+ wwu_setup_ogre.5.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.6.title: "Deadwind Ogres"
+ wwu_setup_ogre.6.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.6.option.a: "Arise!"
+ wwu_setup_ogre.6.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.7.title: "Dustblecher Ogres"
+ wwu_setup_ogre.7.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.7.option.a: "Arise!"
+ wwu_setup_ogre.7.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.8.title: "Firegut Ogres"
+ wwu_setup_ogre.8.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.8.option.a: "Arise!"
+ wwu_setup_ogre.8.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.9.title: "Mosh'Ogg Ogres"
+ wwu_setup_ogre.9.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.9.option.a: "Arise!"
+ wwu_setup_ogre.9.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.10.title: "Stone Fist Ogres"
+ wwu_setup_ogre.10.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.10.option.a: "Arise!"
+ wwu_setup_ogre.10.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.11.title: "Stonegullet Ogres"
+ wwu_setup_ogre.11.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.11.option.a: "Arise!"
+ wwu_setup_ogre.11.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.12.title: "Torchbelcher Ogres"
+ wwu_setup_ogre.12.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.12.option.a: "Arise!"
+ wwu_setup_ogre.12.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.13.title: "Crushridge Ogres"
+ wwu_setup_ogre.13.desc: "As the Scourge arises in Northrend, ogres that were once part of the Orcish horde have begun to drift off, forming their new factions within Azeroth."
+ wwu_setup_ogre.13.option.a: "Arise!"
+ wwu_setup_ogre.13.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.14.title: "Stonemaul Ogres"
+ wwu_setup_ogre.14.desc: "As the Scourge arises in Northrend, ogres that were once part of the Orcish horde have begun to drift off, forming their new factions within Azeroth."
+ wwu_setup_ogre.14.option.a: "Arise!"
+ wwu_setup_ogre.14.option.b: "Tolerate them in our lands for now..."
  
  #-------------------------------------
- #
+ # Scourge Setup
  #-------------------------------------
+ wwu_setup_scourge.1.title: "The Scourge"
+ wwu_setup_scourge.1.desc: "Under the domination of the Lich King Ner'zhul, the Scourge serves as a means for the Burning Legion to spread terror and destruction across the whole of Azeroth, in anticipation of the Legion's inevitable invasion."
+ wwu_setup_scourge.1.option.a: "Arise!" 
+
+ #-------------------------------------
+ # Draenei Setup
+ #-------------------------------------
+ wwu_setup_draenei.1.title: "The Exodar"
+ wwu_setup_draenei.1.desc: "As the Scourge arises in Northrend, the consequences of Kael'thas Sunstrider's ambitions are made manifest. Having escaped the Tempest Keep, Prophet Velen has lead the Exodar and the associated draenei to Azeroth, landing in Azuremyst Isle."
+ wwu_setup_draenei.1.option.a: "Arise!"
  
+ wwu_setup_draenei.2.title: "Lost Ones"
+ wwu_setup_draenei.2.desc: "As the Scourge arises in Northrend, a group of surviving draenei that escaped the destruction of Draenor have emerged, making the Swamp of Sorrows their new home."
+ wwu_setup_draenei.2.option.a: "Arise!"
+ wwu_setup_draenei.2.option.b: "Tolerate them in our lands for now..."
+ 
+ #-------------------------------------
+ # Orcish Horde
+ #-------------------------------------
+ wwu_orcish_horde.1.title: "The Orcish Horde"
+ wwu_orcish_horde.1.desc: "The kingdom of Stormwind was a prosperous one. The humans who dwelled there turned the land into a paradise. The Knights of Stormwind, and the Clerics of Northshire Abbey, roamed far and wide, serving the king's people with honor and justice. \n\nThe well-trained armies of the king were maintaining a lasting peace since the days of the Gnoll War. The people of Azeroth were unbeknownst to the fact that the powerful human mage Medivh was seeking a way to destroy this kingdom and wrought terror on the lands. With the help of an other-worldy being named Gul'dan, the two managed to open a portal between their two worlds, a portal which would later became known as the Dark Portal.\n\nThrough the portal came the Orcish Horde. The humans did not know from whence these foul creatures came, and none were prepared for the terror that they spawned. When reports of mysterious creatures lurking around the Black Morass reached Stormwind, rumors spread through the streets that they were either vengeful spirits, trolls armed with some new breed of power, or a strange race from across the Great Sea. Their warriors wielded axe and spear with deadly proficiency, while others rode dark wolves as black as the moonless night. \n\nUnimagined were the destructive powers of their evil magic, derived from the fires of the Twisting Nether. Filled with the demonic blood of Mannoroth, these creatures lusted for war and would destroy anything that prevented them from reaching their goal; to conquer Azeroth."
+ wwu_orcish_horde.1.option.a: "..."
+ 
+ wwu_orcish_horde.2.title: "The King's Champion"
+ wwu_orcish_horde.2.desc: "King Llane has requested Lothar deal with the orcish menance. Lothar, the King's Champion, took it upon himself to study the weakness of the orcs. It appears that the orcs become vulnerable along their lines of retreat, which is where Lothar's knights shall strike."
+ wwu_orcish_horde.2.option.a: "Ingenious!"
+ 
+ wwu_orcish_horde.3.title: "Stormwind Calls for Assistance"
+ wwu_orcish_horde.3.desc: "Messengers from Stormwind report that the Orcish Horde has begun to strike deep within their lands, threatening the very city itself. Without Lordaeron's assistance, the war may be lost."
+ wwu_orcish_horde.3.option.a: "We must assist our fellow man!"
+ wwu_orcish_horde.3.option.b: "This noble has a good point, King Llane is a weak man..." 
+
+ wwu_orcish_horde.4.title: "Stormwind Falls!"
+ wwu_orcish_horde.4.desc: "The Orcish Horde has entered the city of Stormwind and taken control of the keep. All hope is now lost for the humans, who have attempted to surrender."
+ wwu_orcish_horde.4.option.a: "Crush them!"
+ 
+ wwu_orcish_horde.5.title: "Stormwind Falls!"
+ wwu_orcish_horde.5.desc: "The Orcish Horde has entered the city of Stormwind and taken control of the keep. This is dire news for all of the human kingdoms, and especially Lordaeron, for it publically left Stormwind to fend for itself."
+ wwu_orcish_horde.5.option.a: "The crowds are massing..."

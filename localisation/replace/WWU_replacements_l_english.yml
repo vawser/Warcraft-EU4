@@ -310,25 +310,28 @@
  ADD_COSSACKS_SUB_UNIT_EFFECT: "Get '§GDemonic Host§!' $UNIT$ in $WHERE|Y$."
  cossacks_modifier: "Reliance on Demonic Host"
  
- # # Banner - Champion
- # REGCAT_banner: "Bannermen"
- # BANNERS_NOT_OURS: "You can raise Bannermen here. Bannermen cost Corruption to raise and have higher Discipline than normal troops.\n\nYou can only raise Bannermen from states that you own. Please select a province that you are the owner of."
- # BANNER_NOWHERE_TO_GO: "There are no provinces fully under our control in $NAME$ for us to be able to raise Bannermen."
- # BANNER_ALL_RAISED: "$NAME$ can not raise more Bannermen, as there are already $CURR$ raised."
- # RAISE_MANCHU_BANNERS: "Raise Bannermen"
- # BANNERS_FROM_TT: "You can raise Bannermen here. Bannermen cost Corruption to raise and have higher Discipline than normal troops.\n\n$NAME$ can raise a total of $AMOUNT|Y$ Bannermen due to:\n"
- # STATE_CORRUPTION_INC: "Raising $RAISED|Y$ regiments as Bannermen will increase corruption by $INC$."
+ # Banner - Champions
+ REGCAT_banner: "Champion"
  
- # MODIFIER_AMOUNT_OF_BANNERS: "Possible Bannermen"
- # MODIFIER_LOCAL_AMOUNT_OF_BANNERS: "Possible Bannermen"
- # MODIFIER_HAS_BANNERS: "Has Bannermen"
+ BANNERS_DESC:0 "Champions have higher Discipline than normal troops."
  
- # HAVE_LESS_BANNERS_THAN: "Have less Bannermen than §Y$VALUE$§!.\n"
- # HAVE_AT_LEAST_BANNERS_THAN: "Have at least §Y$VALUE$§! Champions.\n"
+ BANNERS_NOT_OURS: "You can raise Champions here. Champions have higher Discipline than normal troops.\n\nYou can only raise Champions from states that you own. Please select a province that you are the owner of."
+ BANNER_NOWHERE_TO_GO: "There are no provinces fully under our control in $NAME$ for us to be able to raise Champions."
+ BANNER_ALL_RAISED: "$NAME$ can not raise more Champions, as there are already $CURR$ raised."
+ RAISE_MANCHU_BANNERS: "Raise Champions"
+ BANNERS_FROM_TT: "You can raise Champions here. Champions cost Corruption to raise and have higher Discipline than normal troops.\n\n$NAME$ can raise a total of $AMOUNT|Y$ Champions due to:\n"
+ STATE_CORRUPTION_INC: ""
  
- # CONFIRRAISEBANNER: "Confirm Raise Bannermen"
- # BANNER_REGIMENT: "Champion\nDiscipline Bonus: $DISC$"
- # BANNER_NONE_AVAIL: "There are not enough People in $NAME$ for us to be able to raise a single Bannerman."
+ MODIFIER_AMOUNT_OF_BANNERS: "Possible Champions"
+ MODIFIER_LOCAL_AMOUNT_OF_BANNERS: "Possible Champions"
+ MODIFIER_HAS_BANNERS: "Enables the recruitment of §YChampion Infantry§! and §YChampion Cavalry§!."
+ 
+ HAVE_LESS_BANNERS_THAN: "Have less Champions than §Y$VALUE$§!.\n"
+ HAVE_AT_LEAST_BANNERS_THAN: "Have at least §Y$VALUE$§! Champions.\n"
+ 
+ CONFIRRAISEBANNER: "Confirm Raise Champions"
+ BANNER_REGIMENT:2 "Champion Regiment\nDiscipline Bonus: $DISC|+%$\nManpower Usage: $MANPOWER|Y%$\nReinforce Speed: $REINFORCE|+%$\nMaintenance Cost: $MAINTENANCE|+%$"
+ BANNER_NONE_AVAIL: "There are not enough people in $NAME$ for us to be able to raise a single Champion."
  
  #----------------------------------------------------
  # Rajput (Unsullied)
@@ -843,6 +846,8 @@
  
  EXCOMMUNICATE_EFFECT: "Have $TARGET|Y$ banished\n"
  LIFT_EXCOMMUNICATE_EFFECT: "Lift banishment of $TARGET|Y$\n"
+ 
+ NO_ACTVIVE_CARDINALS:0 "No active warlocks."
  
  #----------------------------------------------------
  # Parliament : Council

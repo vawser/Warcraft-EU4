@@ -6,7 +6,7 @@ peasant_war = {
 				continent = pandaria
 			}
 		}
-		NOT = { has_reform = warband_reform }
+		NOT = { is_warband_government_type = yes }
 		NOT = { has_reform = demonic_order_reform }
         NOT = { has_reform = elemental_cult_reform }
         

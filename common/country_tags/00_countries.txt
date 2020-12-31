@@ -57,7 +57,7 @@ KOL = "countries/Kolkar.txt"        # Desolace
 # ---- Draenei ----
 EXO = "countries/Exodar.txt"            # Azuremyst Isle
 LSO = "countries/Lost Ones.txt"         # Swamp of Sorrows
-POR = "countries/Portal Seekers.txt"    # Blasted Lands (near Dark Portal)
+POR = "countries/Portal Seekers.txt"    # Remove
 
 # ---- Dragonflight ----
 WYT = "countries/Wyrmrest Temple.txt" 
