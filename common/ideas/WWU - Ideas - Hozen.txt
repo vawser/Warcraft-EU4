@@ -1,5 +1,5 @@
-# Grookin
-GRO_ideas = {
+# Hozen
+hozen_ideas = {
 	start = {
 		
 	}
@@ -9,220 +9,36 @@ GRO_ideas = {
 	}
 	
 	trigger = {
-		tag = GRO
+		OR = {
+            tag = GRO
+            tag = OON
+            tag = NRN
+            tag = BRT
+            tag = OOK
+            tag = KKT
+         }
 	}
 	free = yes		
 	
-	GRO_ideas_1 = {
+	hozen_ideas_1 = {
 		
 	}
-	GRO_ideas_2 = {
+	hozen_ideas_2 = {
 		
 	}
-	GRO_ideas_3 = {
+	hozen_ideas_3 = {
 		
 	}
-	GRO_ideas_4 = {
+	hozen_ideas_4 = {
 		
 	}
-	GRO_ideas_5 = {
+	hozen_ideas_5 = {
 		
 	}
-	GRO_ideas_6 = {
+	hozen_ideas_6 = {
 		
 	}
-	GRO_ideas_7 = {
-		
-	}
-}
-
-# Oona
-OON_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = OON
-	}
-	free = yes		
-	
-	OON_ideas_1 = {
-		
-	}
-	OON_ideas_2 = {
-		
-	}
-	OON_ideas_3 = {
-		
-	}
-	OON_ideas_4 = {
-		
-	}
-	OON_ideas_5 = {
-		
-	}
-	OON_ideas_6 = {
-		
-	}
-	OON_ideas_7 = {
+	hozen_ideas_7 = {
 		
 	}
 }
-
-# Nooka Nooka
-NRN_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = NRN
-	}
-	free = yes		
-	
-	NRN_ideas_1 = {
-		
-	}
-	NRN_ideas_2 = {
-		
-	}
-	NRN_ideas_3 = {
-		
-	}
-	NRN_ideas_4 = {
-		
-	}
-	NRN_ideas_5 = {
-		
-	}
-	NRN_ideas_6 = {
-		
-	}
-	NRN_ideas_7 = {
-		
-	}
-}
-
-# Broketooth
-BRT_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = BRT
-	}
-	free = yes		
-	
-	BRT_ideas_1 = {
-		
-	}
-	BRT_ideas_2 = {
-		
-	}
-	BRT_ideas_3 = {
-		
-	}
-	BRT_ideas_4 = {
-		
-	}
-	BRT_ideas_5 = {
-		
-	}
-	BRT_ideas_6 = {
-		
-	}
-	BRT_ideas_7 = {
-		
-	}
-}
-
-# Ookin
-OOK_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = OOK
-	}
-	free = yes		
-	
-	OOK_ideas_1 = {
-		
-	}
-	OOK_ideas_2 = {
-		
-	}
-	OOK_ideas_3 = {
-		
-	}
-	OOK_ideas_4 = {
-		
-	}
-	OOK_ideas_5 = {
-		
-	}
-	OOK_ideas_6 = {
-		
-	}
-	OOK_ideas_7 = {
-		
-	}
-}
-
-# Knucklethump
-KKT_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = KKT
-	}
-	free = yes		
-	
-	KKT_ideas_1 = {
-		
-	}
-	KKT_ideas_2 = {
-		
-	}
-	KKT_ideas_3 = {
-		
-	}
-	KKT_ideas_4 = {
-		
-	}
-	KKT_ideas_5 = {
-		
-	}
-	KKT_ideas_6 = {
-		
-	}
-	KKT_ideas_7 = {
-		
-	}
-}
-

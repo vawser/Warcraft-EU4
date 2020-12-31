@@ -379,30 +379,30 @@ enact_revolution_effect = {
 
 #province scope
 add_half_industrialization_effect = {
-	if = {
-		limit = {
-			is_institution_enabled = clockwerk_engineering
-			NOT = { clockwerk_engineering = 100 }
-		}
-		add_institution_embracement = {
-			which = clockwerk_engineering
-			value = 50
-		}
-	}
+	# if = {
+		# limit = {
+			# is_institution_enabled = clockwerk_engineering
+			# NOT = { clockwerk_engineering = 100 }
+		# }
+		# add_institution_embracement = {
+			# which = clockwerk_engineering
+			# value = 50
+		# }
+	# }
 }
 
 #province scope
 add_quarter_industrialization_effect = {
-	if = {
-		limit = {
-			is_institution_enabled = clockwerk_engineering
-			NOT = { clockwerk_engineering = 100 }
-		}
-		add_institution_embracement = {
-			which = clockwerk_engineering
-			value = 25
-		}
-	}
+	# if = {
+		# limit = {
+			# is_institution_enabled = clockwerk_engineering
+			# NOT = { clockwerk_engineering = 100 }
+		# }
+		# add_institution_embracement = {
+			# which = clockwerk_engineering
+			# value = 25
+		# }
+	# }
 }
 
 #province scope, chooses which random monarch point bonus to give for agendas

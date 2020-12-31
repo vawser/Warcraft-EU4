@@ -1,5 +1,5 @@
-# Magmoth
-MAG_ideas = {
+# Magnataur
+magnataur_ideas = {
 	start = {
 		
 	}
@@ -9,106 +9,33 @@ MAG_ideas = {
 	}
 	
 	trigger = {
-		tag = MAG
+		OR = {
+            tag = MAG
+            tag = GAM
+            tag = GMM
+        }
 	}
 	free = yes		
 	
-	MAG_ideas_1 = {
+	magnataur_ideas_1 = {
 		
 	}
-	MAG_ideas_2 = {
+	magnataur_ideas_2 = {
 		
 	}
-	MAG_ideas_3 = {
+	magnataur_ideas_3 = {
 		
 	}
-	MAG_ideas_4 = {
+	magnataur_ideas_4 = {
 		
 	}
-	MAG_ideas_5 = {
+	magnataur_ideas_5 = {
 		
 	}
-	MAG_ideas_6 = {
+	magnataur_ideas_6 = {
 		
 	}
-	MAG_ideas_7 = {
-		
-	}
-}
-
-# Garm
-GAM_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = GAM
-	}
-	free = yes		
-	
-	GAM_ideas_1 = {
-		
-	}
-	GAM_ideas_2 = {
-		
-	}
-	GAM_ideas_3 = {
-		
-	}
-	GAM_ideas_4 = {
-		
-	}
-	GAM_ideas_5 = {
-		
-	}
-	GAM_ideas_6 = {
-		
-	}
-	GAM_ideas_7 = {
+	magnataur_ideas_7 = {
 		
 	}
 }
-
-# Gammoth
-GMM_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = GMM
-	}
-	free = yes		
-	
-	GMM_ideas_1 = {
-		
-	}
-	GMM_ideas_2 = {
-		
-	}
-	GMM_ideas_3 = {
-		
-	}
-	GMM_ideas_4 = {
-		
-	}
-	GMM_ideas_5 = {
-		
-	}
-	GMM_ideas_6 = {
-		
-	}
-	GMM_ideas_7 = {
-		
-	}
-}
-

@@ -214,7 +214,6 @@ wwu_demonic_advisors_reform = {
 	
 	modifiers = {
 		global_missionary_strength = 0.03
-		global_institution_spread = 0.1
 	}
 }
 
@@ -236,7 +235,6 @@ wwu_partial_secularisation_reform = {
     
 	modifiers = {
 		idea_cost = -0.1
-		global_institution_spread = 0.05
 	}
 }
 

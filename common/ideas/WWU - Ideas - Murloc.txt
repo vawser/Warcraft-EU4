@@ -1,5 +1,5 @@
-# Siltfin
-SIF_ideas = {
+# Murloc
+murloc_ideas = {
 	start = {
 		
 	}
@@ -9,296 +9,38 @@ SIF_ideas = {
 	}
 	
 	trigger = {
-		tag = SIF
+		OR = { 
+            tag = SIF
+            tag = BLU
+            tag = VIL
+            tag = SAL
+            tag = ROC
+            tag = REG
+            tag = WRF
+            tag = CHI
+        }
 	}
 	free = yes		
 	
-	SIF_ideas_1 = {
+	murloc_ideas_1 = {
 		
 	}
-	SIF_ideas_2 = {
+	murloc_ideas_2 = {
 		
 	}
-	SIF_ideas_3 = {
+	murloc_ideas_3 = {
 		
 	}
-	SIF_ideas_4 = {
+	murloc_ideas_4 = {
 		
 	}
-	SIF_ideas_5 = {
+	murloc_ideas_5 = {
 		
 	}
-	SIF_ideas_6 = {
+	murloc_ideas_6 = {
 		
 	}
-	SIF_ideas_7 = {
-		
-	}
-}
-
-# Bluegill
-BLU_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = BLU
-	}
-	free = yes		
-	
-	BLU_ideas_1 = {
-		
-	}
-	BLU_ideas_2 = {
-		
-	}
-	BLU_ideas_3 = {
-		
-	}
-	BLU_ideas_4 = {
-		
-	}
-	BLU_ideas_5 = {
-		
-	}
-	BLU_ideas_6 = {
-		
-	}
-	BLU_ideas_7 = {
+	murloc_ideas_7 = {
 		
 	}
 }
-
-# Vilefin
-VIL_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = VIL
-	}
-	free = yes		
-	
-	VIL_ideas_1 = {
-		
-	}
-	VIL_ideas_2 = {
-		
-	}
-	VIL_ideas_3 = {
-		
-	}
-	VIL_ideas_4 = {
-		
-	}
-	VIL_ideas_5 = {
-		
-	}
-	VIL_ideas_6 = {
-		
-	}
-	VIL_ideas_7 = {
-		
-	}
-}
-
-# Saltscale
-SAL_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = SAL
-	}
-	free = yes		
-	
-	SAL_ideas_1 = {
-		
-	}
-	SAL_ideas_2 = {
-		
-	}
-	SAL_ideas_3 = {
-		
-	}
-	SAL_ideas_4 = {
-		
-	}
-	SAL_ideas_5 = {
-		
-	}
-	SAL_ideas_6 = {
-		
-	}
-	SAL_ideas_7 = {
-		
-	}
-}
-
-# Rockpool
-ROC_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = ROC
-	}
-	free = yes		
-	
-	ROC_ideas_1 = {
-		
-	}
-	ROC_ideas_2 = {
-		
-	}
-	ROC_ideas_3 = {
-		
-	}
-	ROC_ideas_4 = {
-		
-	}
-	ROC_ideas_5 = {
-		
-	}
-	ROC_ideas_6 = {
-		
-	}
-	ROC_ideas_7 = {
-		
-	}
-}
-
-# Redgill
-REG_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = REG
-	}
-	free = yes		
-	
-	REG_ideas_1 = {
-		
-	}
-	REG_ideas_2 = {
-		
-	}
-	REG_ideas_3 = {
-		
-	}
-	REG_ideas_4 = {
-		
-	}
-	REG_ideas_5 = {
-		
-	}
-	REG_ideas_6 = {
-		
-	}
-	REG_ideas_7 = {
-		
-	}
-}
-
-# Winterfin
-WRF_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = WRF
-	}
-	free = yes		
-	
-	WRF_ideas_1 = {
-		
-	}
-	WRF_ideas_2 = {
-		
-	}
-	WRF_ideas_3 = {
-		
-	}
-	WRF_ideas_4 = {
-		
-	}
-	WRF_ideas_5 = {
-		
-	}
-	WRF_ideas_6 = {
-		
-	}
-	WRF_ideas_7 = {
-		
-	}
-}
-
-# Chillmere
-CHI_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = CHI
-	}
-	free = yes		
-	
-	CHI_ideas_1 = {
-		
-	}
-	CHI_ideas_2 = {
-		
-	}
-	CHI_ideas_3 = {
-		
-	}
-	CHI_ideas_4 = {
-		
-	}
-	CHI_ideas_5 = {
-		
-	}
-	CHI_ideas_6 = {
-		
-	}
-	CHI_ideas_7 = {
-		
-	}
-}
-

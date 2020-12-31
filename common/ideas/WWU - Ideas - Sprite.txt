@@ -1,5 +1,5 @@
-# Rikkitun
-RIK_ideas = {
+# Sprite
+sprite_ideas = {
 	start = {
 		
 	}
@@ -9,181 +9,35 @@ RIK_ideas = {
 	}
 	
 	trigger = {
-		tag = RIK
+		OR = {
+            tag = RIK
+            tag = PKH
+            tag = DKW
+            tag = SOF
+            tag = TLF
+        }
 	}
 	free = yes		
 	
-	RIK_ideas_1 = {
+	sprite_ideas_1 = {
 		
 	}
-	RIK_ideas_2 = {
+	sprite_ideas_2 = {
 		
 	}
-	RIK_ideas_3 = {
+	sprite_ideas_3 = {
 		
 	}
-	RIK_ideas_4 = {
+	sprite_ideas_4 = {
 		
 	}
-	RIK_ideas_5 = {
+	sprite_ideas_5 = {
 		
 	}
-	RIK_ideas_6 = {
+	sprite_ideas_6 = {
 		
 	}
-	RIK_ideas_7 = {
-		
-	}
-}
-
-# Prankster's Hollow
-PKH_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = PKH
-	}
-	free = yes		
-	
-	PKH_ideas_1 = {
-		
-	}
-	PKH_ideas_2 = {
-		
-	}
-	PKH_ideas_3 = {
-		
-	}
-	PKH_ideas_4 = {
-		
-	}
-	PKH_ideas_5 = {
-		
-	}
-	PKH_ideas_6 = {
-		
-	}
-	PKH_ideas_7 = {
-		
-	}
-}
-
-# Darkwood
-DKW_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = DKW
-	}
-	free = yes		
-	
-	DKW_ideas_1 = {
-		
-	}
-	DKW_ideas_2 = {
-		
-	}
-	DKW_ideas_3 = {
-		
-	}
-	DKW_ideas_4 = {
-		
-	}
-	DKW_ideas_5 = {
-		
-	}
-	DKW_ideas_6 = {
-		
-	}
-	DKW_ideas_7 = {
-		
-	}
-}
-
-# Shadowfae
-SOF_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = SOF
-	}
-	free = yes		
-	
-	SOF_ideas_1 = {
-		
-	}
-	SOF_ideas_2 = {
-		
-	}
-	SOF_ideas_3 = {
-		
-	}
-	SOF_ideas_4 = {
-		
-	}
-	SOF_ideas_5 = {
-		
-	}
-	SOF_ideas_6 = {
-		
-	}
-	SOF_ideas_7 = {
-		
-	}
-}
-
-# Thistleleaf
-TLF_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = TLF
-	}
-	free = yes		
-	
-	TLF_ideas_1 = {
-		
-	}
-	TLF_ideas_2 = {
-		
-	}
-	TLF_ideas_3 = {
-		
-	}
-	TLF_ideas_4 = {
-		
-	}
-	TLF_ideas_5 = {
-		
-	}
-	TLF_ideas_6 = {
-		
-	}
-	TLF_ideas_7 = {
+	sprite_ideas_7 = {
 		
 	}
 }

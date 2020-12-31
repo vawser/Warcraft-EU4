@@ -180,7 +180,6 @@ kingdom_of_magic_reform = {
 	}
 	
 	modifiers = {
-        global_institution_spread = 0.25
 		advisor_cost = -0.25
 		max_absolutism = -10
 	}
@@ -465,7 +464,6 @@ magocracy_reform = {
 	}
 
 	modifiers = {
-		global_institution_spread = 0.25
 		technology_cost = -0.1
 		max_absolutism = -20
 	}

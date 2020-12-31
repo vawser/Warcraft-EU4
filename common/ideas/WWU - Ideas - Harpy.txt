@@ -1,5 +1,5 @@
-# Bloodfury
-BFY_ideas = {
+# Harpy
+harpy_ideas = {
 	start = {
 		
 	}
@@ -9,182 +9,35 @@ BFY_ideas = {
 	}
 	
 	trigger = {
-		tag = BFY
+		OR = {
+            tag = BFY
+            tag = COL
+            tag = DUS
+            tag = WFY
+            tag = WIW
+        }
 	}
 	free = yes		
 	
-	BFY_ideas_1 = {
+	harpy_ideas_1 = {
 		
 	}
-	BFY_ideas_2 = {
+	harpy_ideas_2 = {
 		
 	}
-	BFY_ideas_3 = {
+	harpy_ideas_3 = {
 		
 	}
-	BFY_ideas_4 = {
+	harpy_ideas_4 = {
 		
 	}
-	BFY_ideas_5 = {
+	harpy_ideas_5 = {
 		
 	}
-	BFY_ideas_6 = {
+	harpy_ideas_6 = {
 		
 	}
-	BFY_ideas_7 = {
-		
-	}
-}
-
-# Coldwind
-COL_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = COL
-	}
-	free = yes		
-	
-	COL_ideas_1 = {
-		
-	}
-	COL_ideas_2 = {
-		
-	}
-	COL_ideas_3 = {
-		
-	}
-	COL_ideas_4 = {
-		
-	}
-	COL_ideas_5 = {
-		
-	}
-	COL_ideas_6 = {
-		
-	}
-	COL_ideas_7 = {
+	harpy_ideas_7 = {
 		
 	}
 }
-
-# Dustwind
-DUS_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = DUS
-	}
-	free = yes		
-	
-	DUS_ideas_1 = {
-		
-	}
-	DUS_ideas_2 = {
-		
-	}
-	DUS_ideas_3 = {
-		
-	}
-	DUS_ideas_4 = {
-		
-	}
-	DUS_ideas_5 = {
-		
-	}
-	DUS_ideas_6 = {
-		
-	}
-	DUS_ideas_7 = {
-		
-	}
-}
-
-# Windfury
-WFY_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = WFY
-	}
-	free = yes		
-	
-	WFY_ideas_1 = {
-		
-	}
-	WFY_ideas_2 = {
-		
-	}
-	WFY_ideas_3 = {
-		
-	}
-	WFY_ideas_4 = {
-		
-	}
-	WFY_ideas_5 = {
-		
-	}
-	WFY_ideas_6 = {
-		
-	}
-	WFY_ideas_7 = {
-		
-	}
-}
-
-# Witchwing
-WIW_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = WIW
-	}
-	free = yes		
-	
-	WIW_ideas_1 = {
-		
-	}
-	WIW_ideas_2 = {
-		
-	}
-	WIW_ideas_3 = {
-		
-	}
-	WIW_ideas_4 = {
-		
-	}
-	WIW_ideas_5 = {
-		
-	}
-	WIW_ideas_6 = {
-		
-	}
-	WIW_ideas_7 = {
-		
-	}
-}
-

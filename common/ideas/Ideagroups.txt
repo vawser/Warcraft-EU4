@@ -248,7 +248,7 @@ wwu_administrative_ideas = {
     }
     # Consistent Recordkeeping
     wwu_administrative_ideas_3 = {
-        global_institution_spread = 0.15
+        governing_capacity = 100
     }
     # Bookkeeping
     wwu_administrative_ideas_4 = {
@@ -1215,7 +1215,7 @@ wwu_society_ideas = {
     }
     # Education for Commoners
     wwu_society_ideas_3 = {
-        global_institution_spread = 0.25
+        governing_capacity_modifier = 0.1
     }
     # Meritocracy
     wwu_society_ideas_4 = {

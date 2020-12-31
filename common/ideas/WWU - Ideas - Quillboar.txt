@@ -1,5 +1,5 @@
 # Bristleback
-BIS_ideas = {
+quillboar_ideas = {
 	start = {
 		
 	}
@@ -9,106 +9,33 @@ BIS_ideas = {
 	}
 	
 	trigger = {
-		tag = BIS
+		OR = {
+            tag = BIS
+            tag = RAZ
+            tag = RAF
+        }
 	}
 	free = yes		
 	
-	BIS_ideas_1 = {
+	quillboar_ideas_1 = {
 		
 	}
-	BIS_ideas_2 = {
+	quillboar_ideas_2 = {
 		
 	}
-	BIS_ideas_3 = {
+	quillboar_ideas_3 = {
 		
 	}
-	BIS_ideas_4 = {
+	quillboar_ideas_4 = {
 		
 	}
-	BIS_ideas_5 = {
+	quillboar_ideas_5 = {
 		
 	}
-	BIS_ideas_6 = {
+	quillboar_ideas_6 = {
 		
 	}
-	BIS_ideas_7 = {
-		
-	}
-}
-
-# Razormane
-RAZ_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = RAZ
-	}
-	free = yes		
-	
-	RAZ_ideas_1 = {
-		
-	}
-	RAZ_ideas_2 = {
-		
-	}
-	RAZ_ideas_3 = {
-		
-	}
-	RAZ_ideas_4 = {
-		
-	}
-	RAZ_ideas_5 = {
-		
-	}
-	RAZ_ideas_6 = {
-		
-	}
-	RAZ_ideas_7 = {
+	quillboar_ideas_7 = {
 		
 	}
 }
-
-# Razorfen
-RAF_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = RAF
-	}
-	free = yes		
-	
-	RAF_ideas_1 = {
-		
-	}
-	RAF_ideas_2 = {
-		
-	}
-	RAF_ideas_3 = {
-		
-	}
-	RAF_ideas_4 = {
-		
-	}
-	RAF_ideas_5 = {
-		
-	}
-	RAF_ideas_6 = {
-		
-	}
-	RAF_ideas_7 = {
-		
-	}
-}
-

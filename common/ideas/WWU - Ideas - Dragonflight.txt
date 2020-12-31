@@ -44,11 +44,12 @@ red_dragonflight_ideas = {
 # Green Dragonflight
 green_dragonflight_ideas = {
 	start = {
-		
+		army_tradition_decay = -0.01
+        siege_ability = 0.05
 	}
 
 	bonus = {
-        
+        shock_damage = 0.1
 	}
 	
 	trigger = {
@@ -65,33 +66,37 @@ green_dragonflight_ideas = {
 		prestige = 1
 	}
 	green_dragonflight_ideas_2 = {
-		
+		global_manpower_modifier = 0.1
+        land_forcelimit_modifier = 0.1
 	}
 	green_dragonflight_ideas_3 = {
-		
+		manpower_in_true_faith_provinces = 0.25
 	}
 	green_dragonflight_ideas_4 = {
-		
+		diplomatic_upkeep = 1
+        diplomatic_annexation_cost = -0.1
 	}
 	green_dragonflight_ideas_5 = {
-		
+		free_dip_policy = 1
 	}
 	green_dragonflight_ideas_6 = {
-		
+		advisor_cost = -0.1
+        advisor_pool = 1
 	}
 	green_dragonflight_ideas_7 = {
-		
+		country_diplomatic_power = 1
 	}
 }
 
 # Black Dragonflight
 black_dragonflight_ideas = {
 	start = {
-		
+		max_absolutism = 20
+        discipline = 0.05
 	}
 
 	bonus = {
-        
+        administrative_efficiency = 0.05
 	}
 	
 	trigger = {
@@ -106,33 +111,34 @@ black_dragonflight_ideas = {
 		prestige = 1
 	}
 	black_dragonflight_ideas_2 = {
-		
+		mil_tech_cost_modifier = -0.15
 	}
 	black_dragonflight_ideas_3 = {
-		
+		siege_ability = 0.1
 	}
 	black_dragonflight_ideas_4 = {
-		
+		movement_speed = 0.1
 	}
 	black_dragonflight_ideas_5 = {
-		
+		free_mil_policy = 1
 	}
 	black_dragonflight_ideas_6 = {
-		
+		army_tradition = 1
 	}
 	black_dragonflight_ideas_7 = {
-		
+		core_creation = -0.2
 	}
 }
 
 # Blue Dragonflight
 blue_dragonflight_ideas = {
 	start = {
-		
+		idea_cost = -0.15
+        stability_cost_modifier = -0.2
 	}
 
 	bonus = {
-        
+        governing_capacity_modifier = 0.2
 	}
 	
 	trigger = {
@@ -148,33 +154,34 @@ blue_dragonflight_ideas = {
 		prestige = 1
 	}
 	blue_dragonflight_ideas_2 = {
-		
+		innovativeness_gain = 0.5
 	}
 	blue_dragonflight_ideas_3 = {
-		
+		fire_damage = 0.1
 	}
 	blue_dragonflight_ideas_4 = {
-		
+		technology_cost = -0.15
 	}
 	blue_dragonflight_ideas_5 = {
-		
+		advisor_cost = -0.2
 	}
 	blue_dragonflight_ideas_6 = {
-		
+		reform_progress_growth = 0.25
 	}
 	blue_dragonflight_ideas_7 = {
-		
+		free_policy = 1
 	}
 }
 
 # Bronze Dragonflight
 bronze_dragonflight_ideas = {
 	start = {
-		
+		state_maintenance_modifier = -0.2
+        inflation_action_cost = -0.25
 	}
 
 	bonus = {
-        
+        interest = -2
 	}
 	
 	trigger = {
@@ -188,21 +195,24 @@ bronze_dragonflight_ideas = {
 		prestige = 1
 	}
 	bronze_dragonflight_ideas_2 = {
-		
+		envoy_travel_time = -1.0
+        ae_impact = -0.2
 	}
 	bronze_dragonflight_ideas_3 = {
-		
+		defensiveness = 0.33
+        hostile_attrition = 1
 	}
 	bronze_dragonflight_ideas_4 = {
-		
+		war_exhaustion = -0.1
 	}
 	bronze_dragonflight_ideas_5 = {
-		
+		diplomatic_reputation = 1
 	}
 	bronze_dragonflight_ideas_6 = {
-		
+		build_time = -0.5
+        build_cost = -0.25
 	}
 	bronze_dragonflight_ideas_7 = {
-		
+		global_unrest = -2
 	}
 }

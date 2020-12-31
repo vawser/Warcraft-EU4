@@ -1,41 +1,3 @@
-# Thor Modan
-TMN_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = TMN
-	}
-	free = yes		
-	
-	TMN_ideas_1 = {
-		
-	}
-	TMN_ideas_2 = {
-		
-	}
-	TMN_ideas_3 = {
-		
-	}
-	TMN_ideas_4 = {
-		
-	}
-	TMN_ideas_5 = {
-		
-	}
-	TMN_ideas_6 = {
-		
-	}
-	TMN_ideas_7 = {
-		
-	}
-}
-
 # Frostborn
 FRO_ideas = {
 	start = {
@@ -74,8 +36,8 @@ FRO_ideas = {
 	}
 }
 
-# Uldaman
-ULM_ideas = {
+# Earthen
+earthen_ideas = {
 	start = {
 		
 	}
@@ -85,29 +47,32 @@ ULM_ideas = {
 	}
 	
 	trigger = {
-		tag = ULM
+		OR = {
+            tag = TMN
+            tag = ULM
+        }
 	}
 	free = yes		
 	
-	ULM_ideas_1 = {
+	earthen_ideas_1 = {
 		
 	}
-	ULM_ideas_2 = {
+	earthen_ideas_2 = {
 		
 	}
-	ULM_ideas_3 = {
+	earthen_ideas_3 = {
 		
 	}
-	ULM_ideas_4 = {
+	earthen_ideas_4 = {
 		
 	}
-	ULM_ideas_5 = {
+	earthen_ideas_5 = {
 		
 	}
-	ULM_ideas_6 = {
+	earthen_ideas_6 = {
 		
 	}
-	ULM_ideas_7 = {
+	earthen_ideas_7 = {
 		
 	}
 }

@@ -455,7 +455,7 @@ coffee = {
 		defensiveness = 0.1
 	}
     province = {
-		local_institution_spread = 0.1
+		local_development_cost = -0.1
 	}
 	chance = {
 		factor = 0
@@ -1019,7 +1019,7 @@ arcane = {
 		all_power_cost = -0.05
 	}
     province = {
-		local_institution_spread = 0.2
+		local_development_cost = -0.1
 	}
 	chance = {
 		factor = 10
@@ -1032,7 +1032,7 @@ fel = {
 		all_power_cost = -0.05
 	}
     province = {
-		local_institution_spread = 0.2
+		local_development_cost = -0.1
 	}
 	chance = {
 		factor = 10

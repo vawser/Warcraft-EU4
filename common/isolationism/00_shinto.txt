@@ -11,7 +11,7 @@ adaptive_isolation = {
 	isolation_value = 1
 
 	modifier = {
-		global_institution_spread = 0.10
+		#global_institution_spread = 0.10
 		development_cost = -0.10
 	}
 }

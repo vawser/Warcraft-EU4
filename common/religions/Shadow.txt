@@ -42,7 +42,7 @@ shadow_group = {
             master_of_duality
             psychic_scream
 		}
-        aspects_name = SHADOW_ASPECTS
+        aspects_name = SHADOW_ASPECTS_LONG
     }
     
     forgotten_shadow = {
@@ -75,7 +75,7 @@ shadow_group = {
             master_of_duality
             psychic_scream
 		}
-        aspects_name = SHADOW_ASPECTS
+        aspects_name = FORGOTTEN_ASPECTS_LONG
     }
     
     cthun = {
@@ -104,7 +104,7 @@ shadow_group = {
             lunatic_gaze
             widsom_of_the_mad
 		}
-        aspects_name = OLD_GOD_ASPECTS
+        aspects_name = CORRUPTING_ASPECTS_LONG
     }
     
     nzoth = {
@@ -133,7 +133,7 @@ shadow_group = {
             lunatic_gaze
             widsom_of_the_mad
 		}
-        aspects_name = OLD_GOD_ASPECTS
+        aspects_name = CORRUPTING_ASPECTS_LONG
     }
     
     yogg_saron = {
@@ -162,7 +162,7 @@ shadow_group = {
             lunatic_gaze
             widsom_of_the_mad
 		}
-        aspects_name = OLD_GOD_ASPECTS
+        aspects_name = CORRUPTING_ASPECTS_LONG
     }
     
     yshaarj = {
@@ -191,7 +191,7 @@ shadow_group = {
             lunatic_gaze
             widsom_of_the_mad
 		}
-        aspects_name = OLD_GOD_ASPECTS
+        aspects_name = CORRUPTING_ASPECTS_LONG
     }
     
     twilight_cult = {
@@ -220,7 +220,7 @@ shadow_group = {
             lunatic_gaze
             widsom_of_the_mad
 		}
-        aspects_name = OLD_GOD_ASPECTS
+        aspects_name = CORRUPTING_ASPECTS_LONG
     }
     
     nightmare = {
@@ -249,7 +249,7 @@ shadow_group = {
             lunatic_gaze
             widsom_of_the_mad
 		}
-        aspects_name = OLD_GOD_ASPECTS
+        aspects_name = CORRUPTING_ASPECTS_LONG
     }
     
     fleshshaping = {

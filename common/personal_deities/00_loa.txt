@@ -268,8 +268,7 @@ deity_hakkar = { # hakkar, selecting this has a chance to convert you to hakkari
 	}	
 }
 deity_hethiss = { 
-	state_maintenance_modifier = -0.4
-	global_institution_spread = 0.3
+	state_maintenance_modifier = -0.5
 
 	allow = {
 		NOT = { has_country_flag = sacrificed_hethiss }
@@ -434,8 +433,7 @@ deity_jani = {
 	}	
 }
 deity_torga = {
-	technology_cost = -0.1
-	global_institution_spread = 0.2
+	technology_cost = -0.15
 
 	allow = {
 		NOT = { has_country_flag = sacrificed_torga }

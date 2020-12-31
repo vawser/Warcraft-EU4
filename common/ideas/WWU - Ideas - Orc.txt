@@ -36,8 +36,8 @@ ORG_ideas = {
 	}
 }
 
-# Blackrock
-BLK_ideas = {
+# Orc
+orc_ideas = {
 	start = {
 		
 	}
@@ -47,295 +47,38 @@ BLK_ideas = {
 	}
 	
 	trigger = {
-		tag = BLK
+		OR = {
+            tag = BLK
+            tag = BTG
+            tag = BLH
+            tag = TWH
+            tag = SRC
+            tag = DGM
+            tag = BBC
+            tag = TOH
+        }
 	}
 	free = yes		
 	
-	BLK_ideas_1 = {
+	orc_ideas_1 = {
 		
 	}
-	BLK_ideas_2 = {
+	orc_ideas_2 = {
 		
 	}
-	BLK_ideas_3 = {
+	orc_ideas_3 = {
 		
 	}
-	BLK_ideas_4 = {
+	orc_ideas_4 = {
 		
 	}
-	BLK_ideas_5 = {
+	orc_ideas_5 = {
 		
 	}
-	BLK_ideas_6 = {
+	orc_ideas_6 = {
 		
 	}
-	BLK_ideas_7 = {
-		
-	}
-}
-
-# Black Tooth Grin
-BTG_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = BTG
-	}
-	free = yes		
-	
-	BTG_ideas_1 = {
-		
-	}
-	BTG_ideas_2 = {
-		
-	}
-	BTG_ideas_3 = {
-		
-	}
-	BTG_ideas_4 = {
-		
-	}
-	BTG_ideas_5 = {
-		
-	}
-	BTG_ideas_6 = {
-		
-	}
-	BTG_ideas_7 = {
-		
-	}
-}
-
-# Bleeding Hollow
-BLH_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = BLH
-	}
-	free = yes		
-	
-	BLH_ideas_1 = {
-		
-	}
-	BLH_ideas_2 = {
-		
-	}
-	BLH_ideas_3 = {
-		
-	}
-	BLH_ideas_4 = {
-		
-	}
-	BLH_ideas_5 = {
-		
-	}
-	BLH_ideas_6 = {
-		
-	}
-	BLH_ideas_7 = {
-		
-	}
-}
-
-# Twilight's Hammer
-TWH_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = TWH
-	}
-	free = yes		
-	
-	TWH_ideas_1 = {
-		
-	}
-	TWH_ideas_2 = {
-		
-	}
-	TWH_ideas_3 = {
-		
-	}
-	TWH_ideas_4 = {
-		
-	}
-	TWH_ideas_5 = {
-		
-	}
-	TWH_ideas_6 = {
-		
-	}
-	TWH_ideas_7 = {
-		
-	}
-}
-
-# Stormreaver
-SRC_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = SRC
-	}
-	free = yes		
-	
-	SRC_ideas_1 = {
-		
-	}
-	SRC_ideas_2 = {
-		
-	}
-	SRC_ideas_3 = {
-		
-	}
-	SRC_ideas_4 = {
-		
-	}
-	SRC_ideas_5 = {
-		
-	}
-	SRC_ideas_6 = {
-		
-	}
-	SRC_ideas_7 = {
-		
-	}
-}
-
-# Dragonmaw
-DGM_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = DGM
-	}
-	free = yes		
-	
-	DGM_ideas_1 = {
-		
-	}
-	DGM_ideas_2 = {
-		
-	}
-	DGM_ideas_3 = {
-		
-	}
-	DGM_ideas_4 = {
-		
-	}
-	DGM_ideas_5 = {
-		
-	}
-	DGM_ideas_6 = {
-		
-	}
-	DGM_ideas_7 = {
-		
-	}
-}
-
-# Burning Blade
-BBC_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = BBC
-	}
-	free = yes		
-	
-	BBC_ideas_1 = {
-		
-	}
-	BBC_ideas_2 = {
-		
-	}
-	BBC_ideas_3 = {
-		
-	}
-	BBC_ideas_4 = {
-		
-	}
-	BBC_ideas_5 = {
-		
-	}
-	BBC_ideas_6 = {
-		
-	}
-	BBC_ideas_7 = {
-		
-	}
-}
-
-# The Orcish Horde
-TOH_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = TOH
-	}
-	free = yes		
-	
-	TOH_ideas_1 = {
-		
-	}
-	TOH_ideas_2 = {
-		
-	}
-	TOH_ideas_3 = {
-		
-	}
-	TOH_ideas_4 = {
-		
-	}
-	TOH_ideas_5 = {
-		
-	}
-	TOH_ideas_6 = {
-		
-	}
-	TOH_ideas_7 = {
+	orc_ideas_7 = {
 		
 	}
 }

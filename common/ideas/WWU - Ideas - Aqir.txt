@@ -18,7 +18,7 @@ AQJ_ideas = {
 		shock_damage = 0.15
 	}
 	AQJ_ideas_2 = {
-		unjustified_demands = 0.2
+		unjustified_demands = -0.2
 	}
 	AQJ_ideas_3 = {
         production_efficiency = 0.1

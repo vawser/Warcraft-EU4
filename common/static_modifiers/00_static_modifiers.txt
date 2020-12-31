@@ -107,15 +107,15 @@ city = {
 }
 
 port = {
-	local_institution_spread = 0.10
+	#local_institution_spread = 0.10
 }
 
 in_state = {
-	local_institution_spread = 0.10
+	#local_institution_spread = 0.10
 }
 
 in_capital_state = {
-	local_institution_spread = 0.05
+	#local_institution_spread = 0.05
 	local_state_maintenance_modifier = -0.5
 	local_governing_cost = -1.0
 }
@@ -244,11 +244,11 @@ provincial_production_size = {
 }
 
 knowledge_sharing = {
-	institution_growth = 12
+	#institution_growth = 12
 }
 
 cardinals_spread_institution = {
-	institution_growth = 20
+	#institution_growth = 20
 }
 
 manpower = {
@@ -389,7 +389,7 @@ occupied = {
 	province_trade_power_modifier = -0.5
 	local_manpower_modifier = -0.5
 	local_sailors_modifier = -0.5
-	local_institution_spread = -0.1
+	#local_institution_spread = -0.1
 
 	local_monthly_devastation = 0.2
 }
@@ -397,7 +397,7 @@ occupied = {
 under_siege = {
 	trade_goods_size_modifier = -0.25
 	province_trade_power_modifier = -0.25
-	local_institution_spread = -0.1
+	#local_institution_spread = -0.1
 
 	local_monthly_devastation = 0.1
 }
@@ -406,7 +406,7 @@ under_siege = {
 devastation = {
 	trade_goods_size_modifier = -1
 	supply_limit_modifier = -0.5
-	local_institution_spread = -1.0
+	#local_institution_spread = -1.0
 	local_development_cost = 0.1
 	local_manpower_modifier = -1.0
 	local_sailors_modifier = -1.0
@@ -485,7 +485,7 @@ friendly_regiments = {
 
 active_missionary = {
 	local_unrest = 6					# 6% revolt risk!
-	local_institution_spread = -0.10
+	#local_institution_spread = -0.10
 }
 
 # Core province of the owner's culture group, while fighting a defensive war
@@ -501,7 +501,7 @@ resource_depleted = {
 in_trade_company = {
 	province_trade_power_modifier = 1
 	naval_forcelimit = 0.5
-	local_institution_spread = 0.10
+	#local_institution_spread = 0.10
 	local_governing_cost = 0.25
 }
 
@@ -579,7 +579,7 @@ positive_stability = {
 	monthly_fervor_increase = 1
 	devotion = 0.5
 	yearly_corruption = -0.02
-	global_institution_spread = 0.05
+	#global_institution_spread = 0.05
 	yearly_harmony = 0.25
 	caravan_power = 0.25
 	legitimacy = 0.33
@@ -606,7 +606,7 @@ negative_stability = {
 	yearly_corruption = 0.035
 	interest = -2.5
 	migration_cooldown = 0.25
-	global_institution_spread = 0.15
+	#global_institution_spread = 0.15
 	yearly_harmony = 0.25
 	
 	caravan_power = 0.25
@@ -684,7 +684,7 @@ bankruptcy = {
 	monthly_fervor_increase = -1
 	global_colonial_growth = -200
 	global_autonomy = 0.05
-	global_institution_spread = -0.50
+	#global_institution_spread = -0.50
 	yearly_absolutism = -2.0
 	technology_cost = 0.5
 	idea_cost = 0.5
@@ -708,7 +708,7 @@ peace = {
 	war_exhaustion = -0.1
 	monthly_fervor_increase = 1
 	global_autonomy = -0.1
-	global_institution_spread = 0.1
+	#global_institution_spread = 0.1
     yearly_patriarch_authority = 0.001
     monthly_militarized_society = -0.2
     
@@ -720,7 +720,7 @@ peace = {
 unconditional_surrender = {
 	war_exhaustion = -0.1
 	global_autonomy = -0.1
-	global_institution_spread = 0.1
+	#global_institution_spread = 0.1
 }
 
 call_for_peace = {
@@ -985,7 +985,7 @@ luck = {
 	#core
 	global_missionary_strength = 0.01
 	stability_cost_modifier = -0.10
-	global_institution_spread = 0.1
+	#global_institution_spread = 0.1
 	monthly_splendor = 1
 
 	#economy

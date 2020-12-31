@@ -169,7 +169,7 @@ wow_tavern = {
 	modifier = {
 		local_friendly_movement_speed = 0.25
         local_monthly_devastation = -0.1
-        local_institution_spread = 0.25
+        #local_institution_spread = 0.25
 	}
 	
 	ai_will_do = {

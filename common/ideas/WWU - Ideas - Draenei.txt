@@ -1,113 +1,42 @@
-# # Exodar
-# EXO_ideas = {
-	# start = {
-		
-	# }
+# Draenei
+draenei_ideas = {
+	start = {
+		ae_impact = -0.1
+        envoy_travel_time = -0.25
+	}
 
-	# bonus = {
-        
-	# }
+	bonus = {
+        advisor_cost = -0.25
+	}
 	
-	# trigger = {
-		# tag = EXO
-	# }
-	# free = yes		
+	trigger = {
+		OR = {
+            tag = EXO
+            tag = LSO
+            tag = POR
+        }
+	}
+	free = yes		
 	
-	# EXO_ideas_1 = {
-		
-	# }
-	# EXO_ideas_2 = {
-		
-	# }
-	# EXO_ideas_3 = {
-		
-	# }
-	# EXO_ideas_4 = {
-		
-	# }
-	# EXO_ideas_5 = {
-		
-	# }
-	# EXO_ideas_6 = {
-		
-	# }
-	# EXO_ideas_7 = {
-		
-	# }
-# }
-
-# # Lost Ones
-# LSO_ideas = {
-	# start = {
-		
-	# }
-
-	# bonus = {
-        
-	# }
-	
-	# trigger = {
-		# tag = LSO
-	# }
-	# free = yes		
-	
-	# LSO_ideas_1 = {
-		
-	# }
-	# LSO_ideas_2 = {
-		
-	# }
-	# LSO_ideas_3 = {
-		
-	# }
-	# LSO_ideas_4 = {
-		
-	# }
-	# LSO_ideas_5 = {
-		
-	# }
-	# LSO_ideas_6 = {
-		
-	# }
-	# LSO_ideas_7 = {
-		
-	# }
-# }
-
-# # Portal Seekers
-# POR_ideas = {
-	# start = {
-		
-	# }
-
-	# bonus = {
-        
-	# }
-	
-	# trigger = {
-		# tag = POR
-	# }
-	# free = yes		
-	
-	# POR_ideas_1 = {
-		
-	# }
-	# POR_ideas_2 = {
-		
-	# }
-	# POR_ideas_3 = {
-		
-	# }
-	# POR_ideas_4 = {
-		
-	# }
-	# POR_ideas_5 = {
-		
-	# }
-	# POR_ideas_6 = {
-		
-	# }
-	# POR_ideas_7 = {
-		
-	# }
-# }
+	draenei_ideas_1 = {
+		improve_relation_modifier = 0.15
+	}
+	draenei_ideas_2 = {
+		global_tax_modifier = 0.15
+	}
+	draenei_ideas_3 = {
+		diplomats = 1
+	}
+	draenei_ideas_4 = {
+		advisor_pool = 1
+	}
+	draenei_ideas_5 = {
+		diplomatic_reputation = 2
+	}
+	draenei_ideas_6 = {
+		yearly_corruption = -0.05
+	}
+	draenei_ideas_7 = {
+		development_cost = -0.1
+	}
+}

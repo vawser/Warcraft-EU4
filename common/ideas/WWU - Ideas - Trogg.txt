@@ -1,5 +1,5 @@
-# Stonevault
-SVT_ideas = {
+# Trogg
+trogg_ideas = {
 	start = {
 		
 	}
@@ -9,144 +9,34 @@ SVT_ideas = {
 	}
 	
 	trigger = {
-		tag = SVT
+		OR = {
+            tag = SVT
+            tag = GVF
+            tag = RJW
+            tag = SPI
+        }
 	}
 	free = yes		
 	
-	SVT_ideas_1 = {
+	trogg_ideas_1 = {
 		
 	}
-	SVT_ideas_2 = {
+	trogg_ideas_2 = {
 		
 	}
-	SVT_ideas_3 = {
+	trogg_ideas_3 = {
 		
 	}
-	SVT_ideas_4 = {
+	trogg_ideas_4 = {
 		
 	}
-	SVT_ideas_5 = {
+	trogg_ideas_5 = {
 		
 	}
-	SVT_ideas_6 = {
+	trogg_ideas_6 = {
 		
 	}
-	SVT_ideas_7 = {
-		
-	}
-}
-
-# Gravelflint
-GVF_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = GVF
-	}
-	free = yes		
-	
-	GVF_ideas_1 = {
-		
-	}
-	GVF_ideas_2 = {
-		
-	}
-	GVF_ideas_3 = {
-		
-	}
-	GVF_ideas_4 = {
-		
-	}
-	GVF_ideas_5 = {
-		
-	}
-	GVF_ideas_6 = {
-		
-	}
-	GVF_ideas_7 = {
+	trogg_ideas_7 = {
 		
 	}
 }
-
-# Rockjaw
-RJW_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = RJW
-	}
-	free = yes		
-	
-	RJW_ideas_1 = {
-		
-	}
-	RJW_ideas_2 = {
-		
-	}
-	RJW_ideas_3 = {
-		
-	}
-	RJW_ideas_4 = {
-		
-	}
-	RJW_ideas_5 = {
-		
-	}
-	RJW_ideas_6 = {
-		
-	}
-	RJW_ideas_7 = {
-		
-	}
-}
-
-# Stonesplinter
-SPI_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = SPI
-	}
-	free = yes		
-	
-	SPI_ideas_1 = {
-		
-	}
-	SPI_ideas_2 = {
-		
-	}
-	SPI_ideas_3 = {
-		
-	}
-	SPI_ideas_4 = {
-		
-	}
-	SPI_ideas_5 = {
-		
-	}
-	SPI_ideas_6 = {
-		
-	}
-	SPI_ideas_7 = {
-		
-	}
-}
-

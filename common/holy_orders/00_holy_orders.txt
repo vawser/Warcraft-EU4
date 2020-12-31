@@ -220,7 +220,7 @@ rogue_order = {
 		owner = { clr_country_flag = has_rogue_order }
     }
     modifier = {
-        local_institution_spread = 0.2
+        spy_offence = 0.33
     }
     ai_priority = {
         factor = 1

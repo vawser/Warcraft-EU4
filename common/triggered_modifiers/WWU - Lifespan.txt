@@ -1,7 +1,7 @@
 #---------------------------------------
 # Lifespan
 #---------------------------------------
-titan_lifespan = {
+titan_vitality = {
 	potential = {
 		culture_group = titan_group
 	}
@@ -11,7 +11,7 @@ titan_lifespan = {
 
 	monarch_lifespan = 100.0
 }
-dwarven_lifespan = {
+dwarven_vitality = {
 	potential = {
 		OR = {
             culture_group = dwarf_group
@@ -29,7 +29,7 @@ dwarven_lifespan = {
 
 	monarch_lifespan = 2.0
 }
-draenei_lifespan = {
+draenei_vitality = {
 	potential = {
 		culture_group = draenei_group
 	}
@@ -39,7 +39,7 @@ draenei_lifespan = {
 
 	monarch_lifespan = 5.0
 }
-night_elf_lifespan = {
+night_elf_vitality = {
 	potential = {
 		culture_group = night_elf_group
 	}
@@ -49,7 +49,7 @@ night_elf_lifespan = {
 
 	monarch_lifespan = 4.0
 }
-high_elf_lifespan = {
+high_elf_vitality = {
 	potential = {
 		OR = {
             culture_group = high_elf_group
@@ -67,7 +67,7 @@ high_elf_lifespan = {
 
 	monarch_lifespan = 4.0
 }
-qiraji_lifespan = {
+qiraji_vitality = {
 	potential = {
 		culture_group = qiraji_group
 	}
@@ -77,7 +77,7 @@ qiraji_lifespan = {
 
 	monarch_lifespan = 100.0
 }
-nerubian_lifespan = {
+nerubian_vitality = {
 	potential = {
 		culture_group = nerubian_group
 	}
@@ -87,7 +87,7 @@ nerubian_lifespan = {
 
 	monarch_lifespan = 100.0
 }
-mantid_lifespan = {
+mantid_vitality = {
 	potential = {
 		culture_group = mantid_group
 	}
@@ -97,7 +97,7 @@ mantid_lifespan = {
 
 	monarch_lifespan = 100.0
 }
-demon_lifespan = {
+demon_vitality = {
 	potential = {
 		culture_group = demon_group
 	}
@@ -107,7 +107,7 @@ demon_lifespan = {
 
 	monarch_lifespan = 100.0
 }
-mogu_lifespan = {
+mogu_vitality = {
 	potential = {
 		culture_group = mogu_group
 	}
@@ -117,7 +117,7 @@ mogu_lifespan = {
 
 	monarch_lifespan = 3.0
 }
-pandaren_lifespan = {
+pandaren_vitality = {
 	potential = {
 		culture_group = pandaren_group
 	}
@@ -127,7 +127,7 @@ pandaren_lifespan = {
 
 	monarch_lifespan = 3.0
 }
-arrakoa_lifespan = {
+arrakoa_vitality = {
 	potential = {
 		culture_group = arrakoa_group
 	}
@@ -137,7 +137,7 @@ arrakoa_lifespan = {
 
 	monarch_lifespan = 3.0
 }
-tolvir_lifespan = {
+tolvir_vitality = {
 	potential = {
 		culture_group = tolvir_group
 	}

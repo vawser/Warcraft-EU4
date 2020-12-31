@@ -213,7 +213,7 @@ caravan_brutosaur = {
 }
 #
 researching_runic_tables = {
-	global_institution_spread = 0.2
+	#global_institution_spread = 0.2
 	technology_cost = -0.2
 	global_tax_income = -12
 }

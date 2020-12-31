@@ -1,5 +1,5 @@
 # Bataari
-BAT_ideas = {
+yaungol_ideas = {
 	start = {
 		
 	}
@@ -9,333 +9,39 @@ BAT_ideas = {
 	}
 	
 	trigger = {
-		tag = BAT
+		OR = {
+            tag = BAT
+            tag = BUR
+            tag = ORD
+            tag = RUQ
+            tag = YON
+            tag = OSU
+            tag = DTK
+            tag = PAW
+            tag = GAI
+        }
 	}
 	free = yes		
 	
-	BAT_ideas_1 = {
+	yaungol_ideas_1 = {
 		
 	}
-	BAT_ideas_2 = {
+	yaungol_ideas_2 = {
 		
 	}
-	BAT_ideas_3 = {
+	yaungol_ideas_3 = {
 		
 	}
-	BAT_ideas_4 = {
+	yaungol_ideas_4 = {
 		
 	}
-	BAT_ideas_5 = {
+	yaungol_ideas_5 = {
 		
 	}
-	BAT_ideas_6 = {
+	yaungol_ideas_6 = {
 		
 	}
-	BAT_ideas_7 = {
-		
-	}
-}
-
-# Burilgi
-BUR_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = BUR
-	}
-	free = yes		
-	
-	BUR_ideas_1 = {
-		
-	}
-	BUR_ideas_2 = {
-		
-	}
-	BUR_ideas_3 = {
-		
-	}
-	BUR_ideas_4 = {
-		
-	}
-	BUR_ideas_5 = {
-		
-	}
-	BUR_ideas_6 = {
-		
-	}
-	BUR_ideas_7 = {
-		
-	}
-}
-
-# Ordo
-ORD_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = ORD
-	}
-	free = yes		
-	
-	ORD_ideas_1 = {
-		
-	}
-	ORD_ideas_2 = {
-		
-	}
-	ORD_ideas_3 = {
-		
-	}
-	ORD_ideas_4 = {
-		
-	}
-	ORD_ideas_5 = {
-		
-	}
-	ORD_ideas_6 = {
-		
-	}
-	ORD_ideas_7 = {
-		
-	}
-}
-
-# Ruqin
-RUQ_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = RUQ
-	}
-	free = yes		
-	
-	RUQ_ideas_1 = {
-		
-	}
-	RUQ_ideas_2 = {
-		
-	}
-	RUQ_ideas_3 = {
-		
-	}
-	RUQ_ideas_4 = {
-		
-	}
-	RUQ_ideas_5 = {
-		
-	}
-	RUQ_ideas_6 = {
-		
-	}
-	RUQ_ideas_7 = {
-		
-	}
-}
-
-# Yongqi
-YON_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = YON
-	}
-	free = yes		
-	
-	YON_ideas_1 = {
-		
-	}
-	YON_ideas_2 = {
-		
-	}
-	YON_ideas_3 = {
-		
-	}
-	YON_ideas_4 = {
-		
-	}
-	YON_ideas_5 = {
-		
-	}
-	YON_ideas_6 = {
-		
-	}
-	YON_ideas_7 = {
-		
-	}
-}
-
-# Osul
-OSU_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = OSU
-	}
-	free = yes		
-	
-	OSU_ideas_1 = {
-		
-	}
-	OSU_ideas_2 = {
-		
-	}
-	OSU_ideas_3 = {
-		
-	}
-	OSU_ideas_4 = {
-		
-	}
-	OSU_ideas_5 = {
-		
-	}
-	OSU_ideas_6 = {
-		
-	}
-	OSU_ideas_7 = {
-		
-	}
-}
-
-# Deadtalker
-DTK_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = DTK
-	}
-	free = yes		
-	
-	DTK_ideas_1 = {
-		
-	}
-	DTK_ideas_2 = {
-		
-	}
-	DTK_ideas_3 = {
-		
-	}
-	DTK_ideas_4 = {
-		
-	}
-	DTK_ideas_5 = {
-		
-	}
-	DTK_ideas_6 = {
-		
-	}
-	DTK_ideas_7 = {
-		
-	}
-}
-
-# Palewind
-PAW_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = PAW
-	}
-	free = yes		
-	
-	PAW_ideas_1 = {
-		
-	}
-	PAW_ideas_2 = {
-		
-	}
-	PAW_ideas_3 = {
-		
-	}
-	PAW_ideas_4 = {
-		
-	}
-	PAW_ideas_5 = {
-		
-	}
-	PAW_ideas_6 = {
-		
-	}
-	PAW_ideas_7 = {
-		
-	}
-}
-
-# Gai-Cho
-GAI_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = GAI
-	}
-	free = yes		
-	
-	GAI_ideas_1 = {
-		
-	}
-	GAI_ideas_2 = {
-		
-	}
-	GAI_ideas_3 = {
-		
-	}
-	GAI_ideas_4 = {
-		
-	}
-	GAI_ideas_5 = {
-		
-	}
-	GAI_ideas_6 = {
-		
-	}
-	GAI_ideas_7 = {
+	yaungol_ideas_7 = {
 		
 	}
 }

@@ -74,8 +74,8 @@ AMA_ideas = {
 	}
 }
 
-# Shadowpine
-SWP_ideas = {
+# Forest Troll
+forest_troll_ideas = {
 	start = {
 		
 	}
@@ -85,257 +85,37 @@ SWP_ideas = {
 	}
 	
 	trigger = {
-		tag = SWP
+		OR = {
+            tag = SWP
+            tag = VLB
+            tag = RVT
+            tag = FRR
+            tag = WTR
+            tag = SLD
+            tag = SWN
+        }
 	}
 	free = yes		
 	
-	SWP_ideas_1 = {
+	forest_troll_ideas_1 = {
 		
 	}
-	SWP_ideas_2 = {
+	forest_troll_ideas_2 = {
 		
 	}
-	SWP_ideas_3 = {
+	forest_troll_ideas_3 = {
 		
 	}
-	SWP_ideas_4 = {
+	forest_troll_ideas_4 = {
 		
 	}
-	SWP_ideas_5 = {
+	forest_troll_ideas_5 = {
 		
 	}
-	SWP_ideas_6 = {
+	forest_troll_ideas_6 = {
 		
 	}
-	SWP_ideas_7 = {
-		
-	}
-}
-
-# Vilebranch
-VLB_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = VLB
-	}
-	free = yes		
-	
-	VLB_ideas_1 = {
-		
-	}
-	VLB_ideas_2 = {
-		
-	}
-	VLB_ideas_3 = {
-		
-	}
-	VLB_ideas_4 = {
-		
-	}
-	VLB_ideas_5 = {
-		
-	}
-	VLB_ideas_6 = {
-		
-	}
-	VLB_ideas_7 = {
-		
-	}
-}
-
-# Revantusk
-RVT_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = RVT
-	}
-	free = yes		
-	
-	RVT_ideas_1 = {
-		
-	}
-	RVT_ideas_2 = {
-		
-	}
-	RVT_ideas_3 = {
-		
-	}
-	RVT_ideas_4 = {
-		
-	}
-	RVT_ideas_5 = {
-		
-	}
-	RVT_ideas_6 = {
-		
-	}
-	RVT_ideas_7 = {
-		
-	}
-}
-
-# Firetree
-FRR_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = FRR
-	}
-	free = yes		
-	
-	FRR_ideas_1 = {
-		
-	}
-	FRR_ideas_2 = {
-		
-	}
-	FRR_ideas_3 = {
-		
-	}
-	FRR_ideas_4 = {
-		
-	}
-	FRR_ideas_5 = {
-		
-	}
-	FRR_ideas_6 = {
-		
-	}
-	FRR_ideas_7 = {
-		
-	}
-}
-
-# Witherbark
-WTR_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = WTR
-	}
-	free = yes		
-	
-	WTR_ideas_1 = {
-		
-	}
-	WTR_ideas_2 = {
-		
-	}
-	WTR_ideas_3 = {
-		
-	}
-	WTR_ideas_4 = {
-		
-	}
-	WTR_ideas_5 = {
-		
-	}
-	WTR_ideas_6 = {
-		
-	}
-	WTR_ideas_7 = {
-		
-	}
-}
-
-# Smolderthorn
-SLD_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = SLD
-	}
-	free = yes		
-	
-	SLD_ideas_1 = {
-		
-	}
-	SLD_ideas_2 = {
-		
-	}
-	SLD_ideas_3 = {
-		
-	}
-	SLD_ideas_4 = {
-		
-	}
-	SLD_ideas_5 = {
-		
-	}
-	SLD_ideas_6 = {
-		
-	}
-	SLD_ideas_7 = {
-		
-	}
-}
-
-# Shadowglen
-SWN_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = SWN
-	}
-	free = yes		
-	
-	SWN_ideas_1 = {
-		
-	}
-	SWN_ideas_2 = {
-		
-	}
-	SWN_ideas_3 = {
-		
-	}
-	SWN_ideas_4 = {
-		
-	}
-	SWN_ideas_5 = {
-		
-	}
-	SWN_ideas_6 = {
-		
-	}
-	SWN_ideas_7 = {
+	forest_troll_ideas_7 = {
 		
 	}
 }
@@ -378,120 +158,6 @@ GUR_ideas = {
 	}
 }
 
-# Bloodscalp
-BLS_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = BLS
-	}
-	free = yes		
-	
-	BLS_ideas_1 = {
-		
-	}
-	BLS_ideas_2 = {
-		
-	}
-	BLS_ideas_3 = {
-		
-	}
-	BLS_ideas_4 = {
-		
-	}
-	BLS_ideas_5 = {
-		
-	}
-	BLS_ideas_6 = {
-		
-	}
-	BLS_ideas_7 = {
-		
-	}
-}
-
-# Shatterspear
-STS_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = STS
-	}
-	free = yes		
-	
-	STS_ideas_1 = {
-		
-	}
-	STS_ideas_2 = {
-		
-	}
-	STS_ideas_3 = {
-		
-	}
-	STS_ideas_4 = {
-		
-	}
-	STS_ideas_5 = {
-		
-	}
-	STS_ideas_6 = {
-		
-	}
-	STS_ideas_7 = {
-		
-	}
-}
-
-# Skullsplitter
-SKS_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = SKS
-	}
-	free = yes		
-	
-	SKS_ideas_1 = {
-		
-	}
-	SKS_ideas_2 = {
-		
-	}
-	SKS_ideas_3 = {
-		
-	}
-	SKS_ideas_4 = {
-		
-	}
-	SKS_ideas_5 = {
-		
-	}
-	SKS_ideas_6 = {
-		
-	}
-	SKS_ideas_7 = {
-		
-	}
-}
-
 # Atalai
 ATL_ideas = {
 	start = {
@@ -530,8 +196,8 @@ ATL_ideas = {
 	}
 }
 
-# Jellyneck
-JEL_ideas = {
+# Jungle Troll
+jungle_troll_ideas = {
 	start = {
 		
 	}
@@ -541,29 +207,34 @@ JEL_ideas = {
 	}
 	
 	trigger = {
-		tag = JEL
+		OR = {
+            tag = BLS
+            tag = STS
+            tag = SKS
+            tag = JEL
+        }
 	}
 	free = yes		
 	
-	JEL_ideas_1 = {
+	jungle_troll_ideas_1 = {
 		
 	}
-	JEL_ideas_2 = {
+	jungle_troll_ideas_2 = {
 		
 	}
-	JEL_ideas_3 = {
+	jungle_troll_ideas_3 = {
 		
 	}
-	JEL_ideas_4 = {
+	jungle_troll_ideas_4 = {
 		
 	}
-	JEL_ideas_5 = {
+	jungle_troll_ideas_5 = {
 		
 	}
-	JEL_ideas_6 = {
+	jungle_troll_ideas_6 = {
 		
 	}
-	JEL_ideas_7 = {
+	jungle_troll_ideas_7 = {
 		
 	}
 }
@@ -682,8 +353,8 @@ DAK_ideas = {
 	}
 }
 
-# Frostmane
-FSM_ideas = {
+# Frost Troll
+frost_troll_ideas = {
 	start = {
 		
 	}
@@ -693,105 +364,33 @@ FSM_ideas = {
 	}
 	
 	trigger = {
-		tag = FSM
+		OR = {
+            tag = FSM
+            tag = WTX
+            tag = WTF
+        }
 	}
 	free = yes		
 	
-	FSM_ideas_1 = {
+	frost_troll_ideas_1 = {
 		
 	}
-	FSM_ideas_2 = {
+	frost_troll_ideas_2 = {
 		
 	}
-	FSM_ideas_3 = {
+	frost_troll_ideas_3 = {
 		
 	}
-	FSM_ideas_4 = {
+	frost_troll_ideas_4 = {
 		
 	}
-	FSM_ideas_5 = {
+	frost_troll_ideas_5 = {
 		
 	}
-	FSM_ideas_6 = {
+	frost_troll_ideas_6 = {
 		
 	}
-	FSM_ideas_7 = {
-		
-	}
-}
-
-# Winterax
-WTX_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = WTX
-	}
-	free = yes		
-	
-	WTX_ideas_1 = {
-		
-	}
-	WTX_ideas_2 = {
-		
-	}
-	WTX_ideas_3 = {
-		
-	}
-	WTX_ideas_4 = {
-		
-	}
-	WTX_ideas_5 = {
-		
-	}
-	WTX_ideas_6 = {
-		
-	}
-	WTX_ideas_7 = {
-		
-	}
-}
-
-# Winterfang
-WTF_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = WTF
-	}
-	free = yes		
-	
-	WTF_ideas_1 = {
-		
-	}
-	WTF_ideas_2 = {
-		
-	}
-	WTF_ideas_3 = {
-		
-	}
-	WTF_ideas_4 = {
-		
-	}
-	WTF_ideas_5 = {
-		
-	}
-	WTF_ideas_6 = {
-		
-	}
-	WTF_ideas_7 = {
+	frost_troll_ideas_7 = {
 		
 	}
 }

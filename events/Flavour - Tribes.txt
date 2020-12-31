@@ -451,9 +451,12 @@ country_event = {
 	
 	is_triggered_only = yes	
 
+    trigger = {
+		has_reform = warband_reform
+	}
+    
 	mean_time_to_happen = {
 		days = 1
-
 	}
 
 	option = {
@@ -495,9 +498,12 @@ country_event = {
 	
 	is_triggered_only = yes	
 
+    trigger = {
+		has_reform = warband_reform
+	}
+    
 	mean_time_to_happen = {
 		days = 1
-
 	}
 
 	option = {

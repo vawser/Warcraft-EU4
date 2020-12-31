@@ -1,7 +1,7 @@
 #------------------------------
 # Changelog
 #------------------------------
-Fix graphical cultures
+Add national ideas
 Name provinces
 
 # Add events that spawn these nations some time after game start

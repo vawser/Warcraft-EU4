@@ -1,5 +1,5 @@
-# Mistwhisper
-MSW_ideas = {
+# Gorloc
+gorloc_ideas = {
 	start = {
 		
 	}
@@ -9,144 +9,34 @@ MSW_ideas = {
 	}
 	
 	trigger = {
-		tag = MSW
+		OR = { 
+            tag = MSW
+            tag = RAI
+            tag = MWK
+            tag = SPK
+        }
 	}
 	free = yes		
 	
-	MSW_ideas_1 = {
+	gorloc_ideas_1 = {
 		
 	}
-	MSW_ideas_2 = {
+	gorloc_ideas_2 = {
 		
 	}
-	MSW_ideas_3 = {
+	gorloc_ideas_3 = {
 		
 	}
-	MSW_ideas_4 = {
+	gorloc_ideas_4 = {
 		
 	}
-	MSW_ideas_5 = {
+	gorloc_ideas_5 = {
 		
 	}
-	MSW_ideas_6 = {
+	gorloc_ideas_6 = {
 		
 	}
-	MSW_ideas_7 = {
-		
-	}
-}
-
-# Rainspeaker
-RAI_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = RAI
-	}
-	free = yes		
-	
-	RAI_ideas_1 = {
-		
-	}
-	RAI_ideas_2 = {
-		
-	}
-	RAI_ideas_3 = {
-		
-	}
-	RAI_ideas_4 = {
-		
-	}
-	RAI_ideas_5 = {
-		
-	}
-	RAI_ideas_6 = {
-		
-	}
-	RAI_ideas_7 = {
+	gorloc_ideas_7 = {
 		
 	}
 }
-
-# Mosswalker
-MWK_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = MWK
-	}
-	free = yes		
-	
-	MWK_ideas_1 = {
-		
-	}
-	MWK_ideas_2 = {
-		
-	}
-	MWK_ideas_3 = {
-		
-	}
-	MWK_ideas_4 = {
-		
-	}
-	MWK_ideas_5 = {
-		
-	}
-	MWK_ideas_6 = {
-		
-	}
-	MWK_ideas_7 = {
-		
-	}
-}
-
-# Sparktouched
-SPK_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = SPK
-	}
-	free = yes		
-	
-	SPK_ideas_1 = {
-		
-	}
-	SPK_ideas_2 = {
-		
-	}
-	SPK_ideas_3 = {
-		
-	}
-	SPK_ideas_4 = {
-		
-	}
-	SPK_ideas_5 = {
-		
-	}
-	SPK_ideas_6 = {
-		
-	}
-	SPK_ideas_7 = {
-		
-	}
-}
-

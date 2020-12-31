@@ -1,0 +1,90 @@
+# Used to populate the RNW on a region basis 
+
+scenario_empty_shamanism = {
+	temperate = no
+	arid = yes
+	arctic = no
+	tropical = yes	
+
+	min_native_size = 5
+	max_native_size = 20
+	
+	min_native_hostility = 1
+	max_native_hostility = 6
+	
+	min_native_ferocity = 1
+	max_native_ferocity = 3
+	
+	religion = shamanism
+	unique = no
+	
+	chance = 500
+}
+
+scenario_tauren_tribes = {
+	min_provinces = 30 #Must be contiguous landmass
+	
+	force_apart = yes
+	minor_tags = yes
+	
+	temperate = no
+	arid = yes
+	arctic = no
+	tropical = yes	
+
+	min_countries = 5
+	max_countries = 20
+	
+	min_country_size = 1
+	max_country_size = 3
+	
+	min_native_size = 5
+	max_native_size = 20
+	
+	min_native_hostility = 1
+	max_native_hostility = 6
+	
+	min_native_ferocity = 1
+	max_native_ferocity = 3
+	
+    culture = tauren
+	religion = earth_mother
+    country_religion = earth_mother
+	technology_group = tech_tauren
+	government = tribal
+	graphical_culture = tauren_gfx
+	
+	# Requires unique = yes
+	names = {
+		rnw_cliffwalker
+        rnw_grimtotem
+        rnw_runetotem
+        rnw_dawnstrider
+        rnw_bloodhoof
+        rnw_winterhoof
+        rnw_cloudsong
+        rnw_darkmane
+        rnw_eagletalon
+        rnw_mistrunner
+        rnw_skychaser
+        rnw_stonehoof
+        rnw_stonespire
+        rnw_skyseer
+        rnw_wheathoof
+        rnw_whitehoof
+        rnw_wildmane
+        rnw_wildrunner
+        rnw_windtotem
+        rnw_younghoof
+        rnw_highmountain
+        rnw_bloodtotem
+        rnw_ironhorn
+        rnw_prepfoot
+        rnw_rivermane
+        rnw_skyhorn
+	}	
+	
+	unique = yes
+
+	chance = 1000
+}
