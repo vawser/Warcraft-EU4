@@ -1,0 +1,15 @@
+primitive_group = {
+	graphical_culture = gnoll_gfx 
+
+    primitive = {    
+        male_names = { 
+            Zahh Bablo Brig Jicdir Dazk Eglozz Jar Brug Brozz Megle Eblarg Drandirg Brek Ruff Von Greff Soc Rok Buzg Niz Nik Grorgle Gad Run Dizg Drurklin Brerg Joklark Brildozg Dordiff Bed Jegtag Sarkli Hingigg Mugif Vozz Gukler Harglerk Brildokk Hiz Yappelt Zizz Guzg Bof Vurtek Brorg Relji Brurg Zud Grurkligg Henti
+        }
+        female_names = {
+            Zahh Bablo Brig Jicdir Dazk Eglozz Jar Brug Brozz Megle Eblarg Drandirg Brek Ruff Von Greff Soc Rok Buzg Niz Nik Grorgle Gad Run Dizg Drurklin Brerg Joklark Brildozg Dordiff Bed Jegtag Sarkli Hingigg Mugif Vozz Gukler Harglerk Brildokk Hiz Yappelt Zizz Guzg Bof Vurtek Brorg Relji Brurg Zud Grurkligg Henti
+        }
+        dynasty_names = { 
+             "Speckmane" "Squashskull" "Yapmane" "Darttuft" "Dirtskull" "Blotskull" "Muttercrook" "Howlfang" "Bruisefringe" "Trashfur" "Squashtooth" "Blotstick" "Yelpmane" "Crushcoat" "Whipgore" "Lashfur" "Rashmane" "Rushsniffer" "Muckridge" "Blottuft" "Blotchaser" "Barksnout" "Blightclaw" "Blotmeat" "Chompridge" "Blotchchaser" "Gnarlmeat" "Chewchopper" "Tearback" "Gashclaw" "Snatchmane" "Squashhide" "Chewmeat" "Dashaxe" "Blotspear" "Dirtsnout" "Mashcoat" "Growlfringe" "Darthide" "Dirtback" "Spotnose" "Bruisepike" "Moldaxe" "Rashclaw" "Tearpaw" "Muttertooth" "Mutterchopper" "Mashspear"
+        }
+    }
+}

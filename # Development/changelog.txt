@@ -5,6 +5,6 @@ Add national ideas
 Name provinces
 
 Add Burning Legion invasion crisis
-
 Enable plague event for Lordaeron region
  
+Add Orgrimmar spawn 

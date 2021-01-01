@@ -3809,3 +3809,7 @@
  wwu_orcish_horde.5.title: "Stormwind Falls!"
  wwu_orcish_horde.5.desc: "The Orcish Horde has entered the city of Stormwind and taken control of the keep. This is dire news for all of the human kingdoms, and especially Lordaeron, for it publically left Stormwind to fend for itself."
  wwu_orcish_horde.5.option.a: "The crowds are massing..."
+ 
+ wwu_orcish_horde.6.title: "Reinforcements from the Dark Portal"
+ wwu_orcish_horde.6.desc: "More denizens of Outland flow through the Dark Portal into Azeroth, ready to join the Orcish Horde in its conquest of Azeroth."
+ wwu_orcish_horde.6.option.a: "Huzzah!"

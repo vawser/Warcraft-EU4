@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 77
-native_ferocity = 3
-native_hostileness = 6
+is_city = yes
+owner = MOS
+controller = MOS
+add_core = MOS
 
 base_tax = 3
 base_production = 3
 base_manpower = 4
 
-culture = wildhammer
+culture = mosshide
 religion = shamanism
 
 trade_goods = unknown

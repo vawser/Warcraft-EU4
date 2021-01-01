@@ -4,13 +4,13 @@
 # These are faction-specific modifiers
 upm_temple_of_the_white_tiger = {
     potential = {
-		owner = {
+		controller = {
 			culture_group = pandaren_group
 		}
 	}
 
 	trigger = {
-		owner = {
+		controller = {
 			culture_group = pandaren_group
 		}
         culture = pandaren
@@ -18,18 +18,17 @@ upm_temple_of_the_white_tiger = {
     
     local_regiment_cost = -0.25
     regiment_recruit_speed = -0.25
-    local_amount_of_banners = 0.25
 }
 
 upm_temple_of_the_jade_serpent = {
     potential = {
-		owner = {
+		controller = {
 			culture_group = pandaren_group
 		}
 	}
 
 	trigger = {
-		owner = {
+		controller = {
 			culture_group = pandaren_group
 		}
         culture = pandaren
@@ -37,18 +36,17 @@ upm_temple_of_the_jade_serpent = {
     
     local_regiment_cost = -0.25
     regiment_recruit_speed = -0.25
-    local_amount_of_banners = 0.25
 }
 
 upm_temple_of_the_red_crane = {
     potential = {
-		owner = {
+		controller = {
 			culture_group = pandaren_group
 		}
 	}
 
 	trigger = {
-		owner = {
+		controller = {
 			culture_group = pandaren_group
 		}
         culture = pandaren
@@ -56,18 +54,17 @@ upm_temple_of_the_red_crane = {
 
     local_regiment_cost = -0.25
     regiment_recruit_speed = -0.25
-    local_amount_of_banners = 0.25
 }
 
 upm_temple_of_the_black_ox = {
     potential = {
-		owner = {
+		controller = {
 			culture_group = pandaren_group
 		}
 	}
 
 	trigger = {
-		owner = {
+		controller = {
 			culture_group = pandaren_group
 		}
         culture = pandaren
@@ -75,18 +72,17 @@ upm_temple_of_the_black_ox = {
     
     local_regiment_cost = -0.25
     regiment_recruit_speed = -0.25
-    local_amount_of_banners = 0.25
 }
 
 upm_seat_of_the_thunder_king = {
     potential = {
-		owner = {
+		controller = {
 			culture_group = mogu_group
 		}
 	}
 
 	trigger = {
-		owner = {
+		controller = {
 			culture_group = mogu_group
 		}
 	}
@@ -96,13 +92,13 @@ upm_seat_of_the_thunder_king = {
 
 upm_temple_of_atal_hakkar = {
     potential = {
-		owner = {
+		controller = {
 			culture = hakkari
 		}
 	}
 
 	trigger = {
-		owner = {
+		controller = {
 			culture = hakkari
 		}
         religion = hakkari
@@ -113,13 +109,13 @@ upm_temple_of_atal_hakkar = {
 
 upm_icecrown_citadel = {
     potential = {
-		owner = {
+		controller = {
 			tag = SCO
 		}
 	}
 
 	trigger = {
-		owner = {
+		controller = {
 			tag = SCO
 		}
 	}
@@ -129,13 +125,13 @@ upm_icecrown_citadel = {
 
 upm_ulduar = {
     potential = {
-		owner = {
+		controller = {
 			tag = ULD
 		}
 	}
 
 	trigger = {
-		owner = {
+		controller = {
 			tag = ULD
 		}
 	}   
@@ -145,13 +141,13 @@ upm_ulduar = {
 
 upm_the_nexus = {
     potential = {
-		owner = {
+		controller = {
 			is_dragon_culture_group = yes
 		}
 	}
 
 	trigger = {
-		owner = {
+		controller = {
 			is_dragon_culture_group = yes
 		}
         culture = blue_dragonflight
@@ -162,13 +158,13 @@ upm_the_nexus = {
 
 upm_teldrassil = {
     potential = {
-		owner = {
+		controller = {
 			culture_group = night_elf_group
 		}
 	}
 
 	trigger = {
-		owner = {
+		controller = {
 			culture_group = night_elf_group
 		}
 	} 
@@ -178,13 +174,13 @@ upm_teldrassil = {
 
 upm_nordrassil = {
     potential = {
-		owner = {
+		controller = {
 			culture_group = night_elf_group
 		}
 	}
 
 	trigger = {
-		owner = {
+		controller = {
 			culture_group = night_elf_group
 		}
         NOT = { has_country_flag = nordrassil_destroyed }
@@ -195,31 +191,31 @@ upm_nordrassil = {
 
 upm_dark_portal = {
     potential = {
-		owner = {
+		controller = {
 			culture_group = orc_group
 		}
 	}
 
 	trigger = {
-		owner = {
+		controller = {
 			culture_group = orc_group
 		}
         NOT = { has_country_flag = dark_portal_destroyed }
 	}
     
-    global_manpower = 100.0
-    land_forcelimit = 100
+    global_manpower_modifier = 0.5
+    land_forcelimit_modifier = 0.5
 }
 
 upm_ironforge = {
     potential = {
-		owner = {
+		controller = {
 			tag = IRO
 		}
 	}
 
 	trigger = {
-		owner = {
+		controller = {
 			tag = IRO
 		}
 	} 
@@ -233,13 +229,13 @@ upm_sunwell = {
 	}
 
 	trigger = {
-		owner = {
+		controller = {
 			tag = QUE
 		}
         NOT = { has_country_flag = sunwell_corruption }
 	} 
     
-    all_power_cost = -0.1
+    all_power_cost = -0.0
 }
 
 upm_corrupted_sunwell = {

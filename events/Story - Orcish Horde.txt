@@ -166,3 +166,28 @@ country_event = {
         add_stability = -5
 	}
 }
+
+# Reinforcements from the Dark Portal
+country_event = {
+	id = wwu_orcish_horde.6
+	title = wwu_orcish_horde.6.title
+	desc = wwu_orcish_horde.6.desc
+	picture = DARK_PORTAL_CLOSEUP_eventPicture
+
+    trigger = {
+        tag = TOH
+        3135 = {
+            controlled_by = TOH
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 120
+	}
+    
+	option = {
+		name = wwu_orcish_horde.6.option.a
+        
+        add_yearly_manpower = 1.0
+	}
+}

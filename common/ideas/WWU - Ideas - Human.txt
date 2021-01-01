@@ -1,11 +1,12 @@
 # Alterac
 ALT_ideas = {
 	start = {
-		
+		stability_cost_modifier = -0.25
+        global_autonomy = -0.05
 	}
 
 	bonus = {
-        
+        years_of_nationalism = -10
 	}
 	
 	trigger = {
@@ -14,36 +15,39 @@ ALT_ideas = {
 	free = yes		
 	
 	ALT_ideas_1 = {
-		
+		improve_relation_modifier = 0.1
 	}
 	ALT_ideas_2 = {
-		
+		defensiveness = 0.25
+        garrison_size = 0.25
 	}
 	ALT_ideas_3 = {
-		
+		mercenary_cost = -0.25
+        mercenary_manpower = 0.1
 	}
 	ALT_ideas_4 = {
-		
+		production_efficiency = 0.2
 	}
 	ALT_ideas_5 = {
-		
+		advisor_pool = 1
 	}
 	ALT_ideas_6 = {
-		
+		legitimacy = 1
 	}
 	ALT_ideas_7 = {
-		
+		global_unrest = -2
 	}
 }
 
 # Dalaran
 DAL_ideas = {
 	start = {
-		
+		idea_cost = -0.1
+        free_policy = 1
 	}
 
 	bonus = {
-        
+        reform_progress_growth = 0.25
 	}
 	
 	trigger = {
@@ -52,25 +56,26 @@ DAL_ideas = {
 	free = yes		
 	
 	DAL_ideas_1 = {
-		
+		innovativeness_gain = 0.5
 	}
 	DAL_ideas_2 = {
-		
+		development_cost = -0.1
 	}
 	DAL_ideas_3 = {
-		
+        advisor_cost = -0.1
+		advisor_pool = 2
 	}
 	DAL_ideas_4 = {
-		
+		infantry_fire = 1
 	}
 	DAL_ideas_5 = {
-		
+		movement_speed = 0.2
 	}
 	DAL_ideas_6 = {
-		
+		prestige = 1
 	}
 	DAL_ideas_7 = {
-		
+		technology_cost = -0.15
 	}
 }
 

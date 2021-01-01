@@ -1,4 +1,4 @@
-the_first_war = {
+age_orcish_horde = {
 	start = 592
 	
 	can_start = {
@@ -21,155 +21,218 @@ the_first_war = {
     }
     
 	objectives = {
-		tfw_obj_prestigious_capital = {
+		toh_obj_prestigious_capital = {
             capital_scope = {
-                development = 50
+                development = 30
                 religion = ROOT
                 culture = ROOT
                 NOT = { devastation = 1 }
             }
         }
-		tfw_obj_cultural_purge = {
-            OR = {
-				has_country_modifier = purged_race_nation
-				has_country_modifier = emigrated_race_nation
-			}
+		toh_obj_absolute_rule = {
+            absolutism = 80
         }
-        # tfw_obj_outland_outposts = {
-		    # OR = {
-				# AND = {
-					# capital_scope = {
-						# continent = continent_outland
-					# }
-					# any_owned_province = {
-						# NOT = { continent = continent_outland }
-					# }
-				# }
-				# AND = {
-					# capital_scope = {
-						# NOT = { continent = continent_outland }
-					# }
-					# any_owned_province = {
-						# continent = continent_outland
-					# }
-				# }
-		    # }
-        # }
-        tfw_obj_winds_of_change = {
-			has_country_modifier = changed_primary_culture
+        toh_obj_kalimdor_settlements = {
+		    OR = {
+                # Kalimdor Capital -> Non-Kalimdor province
+				AND = {
+					capital_scope = {
+						OR = {
+                            continent = islands_kalimdor
+                            continent = northern_kalimdor
+                            continent = central_kalimdor
+                            continent = southern_kalimdor
+                        }  
+					}
+					any_owned_province = {
+                        NOT = {
+                            OR = {
+                                continent = islands_kalimdor
+                                continent = northern_kalimdor
+                                continent = central_kalimdor
+                                continent = southern_kalimdor
+                            }
+                        }
+					}
+				}
+                # Non-Kalimdor Capital -> Kalimdor province
+				AND = {
+					capital_scope = {
+						NOT = {
+                            OR = {
+                                continent = islands_kalimdor
+                                continent = northern_kalimdor
+                                continent = central_kalimdor
+                                continent = southern_kalimdor
+                            }
+                        }
+					}
+					any_owned_province = {
+						OR = {
+                            continent = islands_kalimdor
+                            continent = northern_kalimdor
+                            continent = central_kalimdor
+                            continent = southern_kalimdor
+                        }
+					}
+				}
+		    }
         }
-        tfw_obj_colossal_army = {
-            land_forcelimit = 30
-            army_size_percentage = 0.9
+        toh_obj_masterful_counsel = {
+			AND = {
+                OR = {
+                    philosopher = 3
+                    natural_scientist = 3
+                    artist = 3
+                    treasurer = 3
+                    theologian = 3
+                    master_of_mint = 3
+                    inquisitor = 3
+                }
+                OR = {
+                    statesman = 3
+                    naval_reformer = 3
+                    trader = 3
+                    spymaster = 3
+                    colonial_governor = 3
+                    diplomat = 3
+                    navigator = 3
+                }
+                OR = {
+                    army_reformer = 3
+                    army_organiser = 3
+                    commandant = 3
+                    quartermaster = 3
+                    recruitmaster = 3
+                    fortification_expert = 3
+                    grand_captain = 3
+                }
+            }
         }
-        tfw_obj_realm_of_virtues = {
-            prestige = 0
-            NOT = { corruption = 1 }
-            legitimacy_equivalent = 75
+        toh_obj_colossal_army = {
+            land_forcelimit = 100
+            army_size_percentage = 0.8
         }
-        tfw_obj_noble_connections = {
-            num_of_royal_marriages = 3
+        toh_obj_colossal_navy = {
+            naval_forcelimit = 100
+            navy_size_percentage = 0.8
+        }
+        toh_obj_inspirational_leader = {
+            has_commanding_three_star = yes
         }
 	}		
 
 	abilities = {
-        tfw_ab_regimented_infantry = {
+        toh_military_necessity = {
 			modifier = {
-				infantry_power = 0.1
+				army_tradition = 1
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
-        tfw_ab_regimented_cavalry = {
+        toh_justified_conquest = {
 			modifier = {
-				cavalry_power = 0.1
+				province_warscore_cost = -0.2
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
-        tfw_ab_regimented_siege_engines = {
-			modifier = {
-				artillery_power = 0.1
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-        tfw_ab_ancient_tomes = {
-			modifier = {
-				technology_cost = -0.1
-			}
-			ai_will_do = {
-				factor = 50
-			}
-		}
-        tfw_ab_familiar_terrain = {
+        toh_mobilized_troops = {
 			rule = {
-				attack_bonus_in_capital_terrain = yes
+				can_bypass_forts = yes
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
-        tfw_ab_soldiers_of_fortune = {
+        toh_inspired_fervor = {
 			modifier = {
-				mercenary_manpower = 1.0
-			}
-			ai_will_do = {
-				factor = 5
-			}
-		}
-        tfw_ab_purifying_flames = {
-			modifier = {
-				global_missionary_strength = 0.01
+				global_missionary_strength = 0.03
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
-        tfw_ab_wheel_and_deal = {
+        toh_cultural_purges = {
 			modifier = {
-				global_own_trade_power = 0.1
+				culture_conversion_cost = -0.5
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
-        tfw_ab_hostile_occupation = {
+        toh_administrative_expansion = {
+			modifier = {
+				expand_administration_cost = -0.5
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        toh_mercantilism = {
+			modifier = {
+				mercantilism_cost = -0.5
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        toh_stormwinds_plight = {
+            allow = {
+                tag = SRW
+            }
 			modifier = {
 				ae_impact = -0.2
 			}
 			ai_will_do = {
-				factor = 20
+				factor = 100
 			}
 		}
-        tfw_ab_seaborne = {
+        toh_the_dark_portal = {
+            allow = {
+                tag = TOH
+            }
 			modifier = {
-				naval_morale = 0.1
+				global_manpower_modifier = 0.33
 			}
 			ai_will_do = {
-				factor = 10
+				factor = 100
 			}
 		}
-        tfw_ab_regional_expeditions = {
-			rule = {
-				ignore_coring_distance = yes
+        toh_menethil_duplicity = {
+            allow = {
+                tag = LOR
+            }
+			modifier = {
+				stability_cost_modifier = -0.5
 			}
 			ai_will_do = {
-				factor = 50
+				factor = 100
+			}
+		}
+        toh_gurubashi_berserkers = {
+            allow = {
+                tag = GUR
+            }
+			modifier = {
+				shock_damage = 0.2
+			}
+			ai_will_do = {
+				factor = 100
 			}
 		}
 	}
 }
-the_second_war = {
-	start = 600
+age_scourge = {
+	start = 700
 	
 	can_start = {
 		custom_trigger_tooltip = {
-			tooltip = the_second_war_condition
-			has_global_flag = the_second_war
+			tooltip = age_scourge_condition
+            is_year = 700
+			has_global_flag = orcish_horde_lost_war
 		}
 	}
 	
@@ -189,76 +252,95 @@ the_second_war = {
     }
     
 	objectives = {
-		tsw_obj_loyal_subjects = {
-            vassal = 3
-            all_subject_country = {
-                vassal_of = ROOT
-				NOT = { liberty_desire = 10 }
-			}
+		tsr_obj_prestigious_capital = {
+            capital_scope = {
+                development = 30
+                religion = ROOT
+                culture = ROOT
+                NOT = { devastation = 1 }
+            }
         }
-		tsw_obj_times_of_unity = {
-            num_of_allies = 3
+		tsr_obj_skillful_ruler = {
+            OR = {
+                adm = 6
+                dip = 6
+                mil = 6
+            }
         }
-        # tsw_obj_closed_the_portal = {
-            # has_country_modifier = closed_the_dark_portal
-        # }
-        # tsw_obj_opened_the_portal = {
-            # has_country_modifier = opened_the_dark_portal
-        # }
-        tsw_obj_barracks = {
-            wow_barracks = 8
+        tsr_obj_northrend_settlements = {
+		    OR = {
+				AND = {
+					capital_scope = {
+						continent = northrend
+					}
+					any_owned_province = {
+                        NOT = { continent = northrend }
+					}
+				}
+				AND = {
+					capital_scope = {
+						NOT = { continent = northrend }
+					}
+					any_owned_province = {
+						continent = northrend
+					}
+				}
+		    }
         }
-        tsw_obj_swift_fleet = {
-			has_leader_with = {
-				admiral = yes
-				manuever = 4
-			}
-            naval_forcelimit = 30
+        tsr_obj_masterful_counsel = {
+			AND = {
+                OR = {
+                    philosopher = 3
+                    natural_scientist = 3
+                    artist = 3
+                    treasurer = 3
+                    theologian = 3
+                    master_of_mint = 3
+                    inquisitor = 3
+                }
+                OR = {
+                    statesman = 3
+                    naval_reformer = 3
+                    trader = 3
+                    spymaster = 3
+                    colonial_governor = 3
+                    diplomat = 3
+                    navigator = 3
+                }
+                OR = {
+                    army_reformer = 3
+                    army_organiser = 3
+                    commandant = 3
+                    quartermaster = 3
+                    recruitmaster = 3
+                    fortification_expert = 3
+                    grand_captain = 3
+                }
+            }
         }
-        # tsw_obj_factions = {
-			# OR = {
-				# faction_alliance = 1
-				# faction_horde = 1
-				# is_subject_of_type = faction_alliance
-				# is_subject_of_type = faction_horde
-			# }
-        # }
+        tsr_obj_colossal_army = {
+            land_forcelimit = 100
+            army_size_percentage = 0.8
+        }
+        tsr_obj_colossal_navy = {
+            naval_forcelimit = 100
+            navy_size_percentage = 0.8
+        }
+        tsr_obj_inspirational_leader = {
+            has_commanding_three_star = yes
+        }
 	}		
 
 	abilities = {
-        tsw_ab_regimented_infantry = {
+        tsr_harvest_boom = {
 			modifier = {
-				infantry_power = 0.1
+				global_trade_goods_size_modifier = 0.2
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
-        tsw_ab_regimented_cavalry = {
-			modifier = {
-				cavalry_power = 0.1
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-        tsw_ab_regimented_siege_engines = {
-			modifier = {
-				artillery_power = 0.1
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-        tsw_ab_ancient_tomes = {
-			modifier = {
-				technology_cost = -0.1
-			}
-			ai_will_do = {
-				factor = 50
-			}
-		}
-        tsw_ab_familiar_terrain = {
+        tsr_lay_of_the_land = {
 			rule = {
 				attack_bonus_in_capital_terrain = yes
 			}
@@ -266,49 +348,272 @@ the_second_war = {
 				factor = 10
 			}
 		}
-        tsw_ab_soldiers_of_fortune = {
+        tsr_eager_settlers = {
+			rule = {
+                can_colony_boost_development = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        tsr_northrend_expeditions = {
 			modifier = {
-				mercenary_manpower = 1.0
+				colonists = 1
+			}
+			ai_will_do = {
+				factor = 50
+			}
+		}
+        tsr_efficient_administration = {
+			modifier = {
+                administrative_efficiency = 0.05
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        tsr_moments_of_genius = {
+			modifier = {
+				reform_progress_growth = 1.0
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        tsr_loyal_territories = {
+			modifier = {
+				min_autonomy_in_territories = -0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        tsr_arise_minions = {
+            allow = {
+                tag = SCO
+            }
+			modifier = {
+				land_maintenance_modifier = -0.5
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+        tsr_extermination = {
+            allow = {
+                tag = LOR
+            }
+			modifier = {
+				harsh_treatment_cost = -0.75
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+        tsr_drakkari_blades = {
+            allow = {
+                tag = DAK
+            }
+			modifier = {
+				discipline = 0.1
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+        tsr_nerubian_knowledge = {
+            allow = {
+                tag = AZJ
+            }
+			modifier = {
+				technology_cost = -0.15
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+	}
+}
+
+age_burning_legion = {
+	start = 800
+	
+	can_start = {
+		custom_trigger_tooltip = {
+			tooltip = age_burning_legion_condition
+            is_year = 800
+			has_global_flag = scourge_lost_war
+		}
+	}
+	
+    papacy = 1.0
+	religious_conflicts = yes
+    absolutism = { 
+        harsh_treatment = 1
+		stability = 1
+		decrease_autonomy_command = 1
+		strengthen_government = 2
+		
+		increase_autonomy_command = -2
+		debase_currency = -1
+		execute_rebel_acceptance_command = -10
+		seat_in_parliament = -3
+		war_exhaustion = -1
+    }
+    
+	objectives = {
+		tbl_obj_united_front = {
+            num_of_allies = 5
+        }
+		tbl_obj_defender_of_azeroth = {
+            is_rival = TBL
+        }
+        tbl_obj_overwhelming_might = {
+		    army_strength = {
+                who = TBL
+                value = 1.5
+            }
+        }
+        tbl_obj_masterful_counsel = {
+			AND = {
+                OR = {
+                    philosopher = 3
+                    natural_scientist = 3
+                    artist = 3
+                    treasurer = 3
+                    theologian = 3
+                    master_of_mint = 3
+                    inquisitor = 3
+                }
+                OR = {
+                    statesman = 3
+                    naval_reformer = 3
+                    trader = 3
+                    spymaster = 3
+                    colonial_governor = 3
+                    diplomat = 3
+                    navigator = 3
+                }
+                OR = {
+                    army_reformer = 3
+                    army_organiser = 3
+                    commandant = 3
+                    quartermaster = 3
+                    recruitmaster = 3
+                    fortification_expert = 3
+                    grand_captain = 3
+                }
+            }
+        }
+        tbl_obj_colossal_army = {
+            land_forcelimit = 100
+            army_size_percentage = 0.8
+        }
+        tbl_obj_colossal_navy = {
+            naval_forcelimit = 100
+            navy_size_percentage = 0.8
+        }
+        tbl_obj_inspirational_leader = {
+            has_commanding_three_star = yes
+        }
+	}		
+
+	abilities = {
+        tbl_will_of_azeroth = {
+			modifier = {
+				land_morale = 0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        tbl_diplomatic_networks = {
+			modifier = {
+				diplomatic_upkeep = 2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        tbl_regional_governance = {
+			rule = {
+				ignore_coring_distance = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        tbl_shared_justification = {
+			rule = {
+				can_chain_claim = yes
+			}
+			ai_will_do = {
+				factor = 50
+			}
+		}
+        tbl_purification = {
+			modifier = {
+				missionary_maintenance_cost = -0.25
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        tbl_integrated_conquest = {
+			modifier = {
+				core_creation = -0.1
 			}
 			ai_will_do = {
 				factor = 5
 			}
 		}
-        tsw_ab_purifying_flames = {
+        tbl_ordered_society = {
 			modifier = {
-				global_missionary_strength = 0.01
+				governing_capacity_modifier = 0.2
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
-        tsw_ab_wheel_and_deal = {
+        tbl_flames_of_the_legion = {
+            allow = {
+                tag = TBL
+            }
 			modifier = {
-				global_own_trade_power = 0.1
+				siege_ability = 0.33
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
-        tsw_ab_hostile_occupation = {
+        tbl_thalassian_magic = {
+            allow = {
+                tag = QUE
+            }
 			modifier = {
-				ae_impact = -0.2
+				fire_damage = 0.2
 			}
 			ai_will_do = {
 				factor = 20
 			}
 		}
-        tsw_ab_seaborne = {
+        tbl_defenders_of_hyjal = {
+            allow = {
+                tag = DAS
+            }
 			modifier = {
-				naval_morale = 0.1
+				reinforce_cost_modifier = -0.5
 			}
 			ai_will_do = {
 				factor = 10
 			}
 		}
-        tsw_ab_regional_expeditions = {
-			rule = {
-				ignore_coring_distance = yes
+        tbl_the_new_horde = {
+            allow = {
+                tag = ORG
+            }
+			modifier = {
+				diplomatic_reputation = 3
 			}
 			ai_will_do = {
 				factor = 50

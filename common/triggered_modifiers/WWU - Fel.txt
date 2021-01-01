@@ -11,3 +11,4 @@ fel_empowerment = {
     loot_amount = 1.0
     land_morale = 0.1
 }
+

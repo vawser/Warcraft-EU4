@@ -3,695 +3,192 @@ spriteTypes = {
     # Age Images
     #------------------------------------
     spriteType = {
-		name = "GFX_rise_of_the_horde"
-		texturefile = "gfx/interface/ages/rise_of_the_horde.dds"
-	}
-
-    spriteType = {
-		name = "GFX_the_first_war"
-		texturefile = "gfx/interface/ages/the_first_war.dds"
+		name = "GFX_age_orcish_horde"
+		texturefile = "gfx/interface/ages/orcish_horde.dds"
 	}
     
     spriteType = {
-		name = "GFX_the_second_war"
-		texturefile = "gfx/interface/ages/the_second_war.dds"
+		name = "GFX_age_scourge"
+		texturefile = "gfx/interface/ages/scourge.dds"
 	}
     
     spriteType = {
-		name = "GFX_beyond_the_dark_portal"
-		texturefile = "gfx/interface/ages/beyond_the_dark_portal.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_the_third_war"
-		texturefile = "gfx/interface/ages/the_third_war.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_the_frozen_throne"
-		texturefile = "gfx/interface/ages/the_frozen_throne.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_rise_of_the_qiraji"
-		texturefile = "gfx/interface/ages/rise_of_the_qiraji.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_the_burning_crusade"
-		texturefile = "gfx/interface/ages/the_burning_crusade.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_wrath_of_the_lich_king"
-		texturefile = "gfx/interface/ages/wrath_of_the_lich_king.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_the_shattering"
-		texturefile = "gfx/interface/ages/the_shattering.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_mists_of_pandaria"
-		texturefile = "gfx/interface/ages/mists_of_pandaria.dds"
+		name = "GFX_age_burning_legion"
+		texturefile = "gfx/interface/ages/burning_legion.dds"
 	}
     
     #------------------------------------
-    # Rise of the Horde
+    # Orcish Horde
     #------------------------------------
     spriteType = {
-		name = "GFX_roth_ab_regimented_infantry"
-		texturefile = "gfx/interface/ages/ab_regimented_infantry.dds"
+		name = "GFX_toh_administrative_expansion"
+		texturefile = "gfx/interface/ages/abilities/toh_administrative_expansion.dds"
 	}
     
     spriteType = {
-		name = "GFX_roth_ab_regimented_cavalry"
-		texturefile = "gfx/interface/ages/ab_regimented_cavalry.dds"
+		name = "GFX_toh_cultural_purges"
+		texturefile = "gfx/interface/ages/abilities/toh_cultural_purges.dds"
 	}
     
     spriteType = {
-		name = "GFX_roth_ab_regimented_siege_engines"
-		texturefile = "gfx/interface/ages/ab_regimented_siege_engines.dds"
+		name = "GFX_toh_gurubashi_berserkers"
+		texturefile = "gfx/interface/ages/abilities/toh_gurubashi_berserkers.dds"
 	}
     
     spriteType = {
-		name = "GFX_roth_ab_ancient_tomes"
-		texturefile = "gfx/interface/ages/ab_ancient_tomes.dds"
+		name = "GFX_toh_inspired_fervor"
+		texturefile = "gfx/interface/ages/abilities/toh_inspired_fervor.dds"
 	}
     
     spriteType = {
-		name = "GFX_roth_ab_familiar_terrain"
-		texturefile = "gfx/interface/ages/ab_familiar_terrain.dds"
+		name = "GFX_toh_justified_conquest"
+		texturefile = "gfx/interface/ages/abilities/toh_justified_conquest.dds"
 	}
     
     spriteType = {
-		name = "GFX_roth_ab_soldiers_of_fortune"
-		texturefile = "gfx/interface/ages/ab_soldiers_of_fortune.dds"
+		name = "GFX_toh_menethil_duplicity"
+		texturefile = "gfx/interface/ages/abilities/toh_menethil_duplicity.dds"
 	}
     
     spriteType = {
-		name = "GFX_roth_ab_purifying_flames"
-		texturefile = "gfx/interface/ages/ab_purifying_flames.dds"
+		name = "GFX_toh_mercantilism"
+		texturefile = "gfx/interface/ages/abilities/toh_mercantilism.dds"
 	}
     
     spriteType = {
-		name = "GFX_roth_ab_wheel_and_deal"
-		texturefile = "gfx/interface/ages/ab_wheel_and_deal.dds"
+		name = "GFX_toh_military_necessity"
+		texturefile = "gfx/interface/ages/abilities/toh_military_necessity.dds"
 	}
     
     spriteType = {
-		name = "GFX_roth_ab_hostile_occupation"
-		texturefile = "gfx/interface/ages/ab_hostile_occupation.dds"
+		name = "GFX_toh_mobilized_troops"
+		texturefile = "gfx/interface/ages/abilities/toh_mobilized_troops.dds"
 	}
     
     spriteType = {
-		name = "GFX_roth_ab_seaborne"
-		texturefile = "gfx/interface/ages/ab_seaborne.dds"
+		name = "GFX_toh_stormwinds_plight"
+		texturefile = "gfx/interface/ages/abilities/toh_stormwinds_plight.dds"
 	}
     
     spriteType = {
-		name = "GFX_roth_ab_regional_expeditions"
-		texturefile = "gfx/interface/ages/ab_regional_expeditions.dds"
-	}
-    
-    #------------------------------------
-    # The First War
-    #------------------------------------
-    spriteType = {
-		name = "GFX_tfw_ab_regimented_infantry"
-		texturefile = "gfx/interface/ages/ab_regimented_infantry.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tfw_ab_regimented_cavalry"
-		texturefile = "gfx/interface/ages/ab_regimented_cavalry.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tfw_ab_regimented_siege_engines"
-		texturefile = "gfx/interface/ages/ab_regimented_siege_engines.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tfw_ab_ancient_tomes"
-		texturefile = "gfx/interface/ages/ab_ancient_tomes.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tfw_ab_familiar_terrain"
-		texturefile = "gfx/interface/ages/ab_familiar_terrain.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tfw_ab_soldiers_of_fortune"
-		texturefile = "gfx/interface/ages/ab_soldiers_of_fortune.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tfw_ab_purifying_flames"
-		texturefile = "gfx/interface/ages/ab_purifying_flames.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tfw_ab_wheel_and_deal"
-		texturefile = "gfx/interface/ages/ab_wheel_and_deal.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tfw_ab_hostile_occupation"
-		texturefile = "gfx/interface/ages/ab_hostile_occupation.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tfw_ab_seaborne"
-		texturefile = "gfx/interface/ages/ab_seaborne.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tfw_ab_regional_expeditions"
-		texturefile = "gfx/interface/ages/ab_regional_expeditions.dds"
+		name = "GFX_toh_the_dark_portal"
+		texturefile = "gfx/interface/ages/abilities/toh_the_dark_portal.dds"
 	}
     
     #------------------------------------
-    # The Second War
+    # The Scourge
     #------------------------------------
     spriteType = {
-		name = "GFX_tsw_ab_regimented_infantry"
-		texturefile = "gfx/interface/ages/ab_regimented_infantry.dds"
+		name = "GFX_tsr_arise_minions"
+		texturefile = "gfx/interface/ages/abilities/tsr_arise_minions.dds"
 	}
     
     spriteType = {
-		name = "GFX_tsw_ab_regimented_cavalry"
-		texturefile = "gfx/interface/ages/ab_regimented_cavalry.dds"
+		name = "GFX_tsr_drakkari_blades"
+		texturefile = "gfx/interface/ages/abilities/tsr_drakkari_blades.dds"
 	}
     
     spriteType = {
-		name = "GFX_tsw_ab_regimented_siege_engines"
-		texturefile = "gfx/interface/ages/ab_regimented_siege_engines.dds"
+		name = "GFX_tsr_eager_settlers"
+		texturefile = "gfx/interface/ages/abilities/tsr_eager_settlers.dds"
 	}
     
     spriteType = {
-		name = "GFX_tsw_ab_ancient_tomes"
-		texturefile = "gfx/interface/ages/ab_ancient_tomes.dds"
+		name = "GFX_tsr_efficient_administration"
+		texturefile = "gfx/interface/ages/abilities/tsr_efficient_administration.dds"
 	}
     
     spriteType = {
-		name = "GFX_tsw_ab_familiar_terrain"
-		texturefile = "gfx/interface/ages/ab_familiar_terrain.dds"
+		name = "GFX_tsr_extermination"
+		texturefile = "gfx/interface/ages/abilities/tsr_extermination.dds"
 	}
     
     spriteType = {
-		name = "GFX_tsw_ab_soldiers_of_fortune"
-		texturefile = "gfx/interface/ages/ab_soldiers_of_fortune.dds"
+		name = "GFX_tsr_harvest_boom"
+		texturefile = "gfx/interface/ages/abilities/tsr_harvest_boom.dds"
 	}
     
     spriteType = {
-		name = "GFX_tsw_ab_purifying_flames"
-		texturefile = "gfx/interface/ages/ab_purifying_flames.dds"
+		name = "GFX_tsr_lay_of_the_land"
+		texturefile = "gfx/interface/ages/abilities/tsr_lay_of_the_land.dds"
 	}
     
     spriteType = {
-		name = "GFX_tsw_ab_wheel_and_deal"
-		texturefile = "gfx/interface/ages/ab_wheel_and_deal.dds"
+		name = "GFX_tsr_loyal_territories"
+		texturefile = "gfx/interface/ages/abilities/tsr_loyal_territories.dds"
 	}
     
     spriteType = {
-		name = "GFX_tsw_ab_hostile_occupation"
-		texturefile = "gfx/interface/ages/ab_hostile_occupation.dds"
+		name = "GFX_tsr_moments_of_genius"
+		texturefile = "gfx/interface/ages/abilities/tsr_moments_of_genius.dds"
 	}
     
     spriteType = {
-		name = "GFX_tsw_ab_seaborne"
-		texturefile = "gfx/interface/ages/ab_seaborne.dds"
+		name = "GFX_tsr_nerubian_knowledge"
+		texturefile = "gfx/interface/ages/abilities/tsr_nerubian_knowledge.dds"
 	}
     
     spriteType = {
-		name = "GFX_tsw_ab_regional_expeditions"
-		texturefile = "gfx/interface/ages/ab_regional_expeditions.dds"
-	}
-    
-    #------------------------------------
-    # Beyond the Dark Portal
-    #------------------------------------
-    spriteType = {
-		name = "GFX_btdp_ab_regimented_infantry"
-		texturefile = "gfx/interface/ages/ab_regimented_infantry.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_btdp_ab_regimented_cavalry"
-		texturefile = "gfx/interface/ages/ab_regimented_cavalry.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_btdp_ab_regimented_siege_engines"
-		texturefile = "gfx/interface/ages/ab_regimented_siege_engines.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_btdp_ab_ancient_tomes"
-		texturefile = "gfx/interface/ages/ab_ancient_tomes.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_btdp_ab_familiar_terrain"
-		texturefile = "gfx/interface/ages/ab_familiar_terrain.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_btdp_ab_soldiers_of_fortune"
-		texturefile = "gfx/interface/ages/ab_soldiers_of_fortune.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_btdp_ab_purifying_flames"
-		texturefile = "gfx/interface/ages/ab_purifying_flames.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_btdp_ab_wheel_and_deal"
-		texturefile = "gfx/interface/ages/ab_wheel_and_deal.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_btdp_ab_hostile_occupation"
-		texturefile = "gfx/interface/ages/ab_hostile_occupation.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_btdp_ab_seaborne"
-		texturefile = "gfx/interface/ages/ab_seaborne.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_btdp_ab_regional_expeditions"
-		texturefile = "gfx/interface/ages/ab_regional_expeditions.dds"
+		name = "GFX_tsr_northrend_expeditions"
+		texturefile = "gfx/interface/ages/abilities/tsr_northrend_expeditions.dds"
 	}
     
     #------------------------------------
-    # The Third War
+    # The Burning Legion
     #------------------------------------
     spriteType = {
-		name = "GFX_ttw_ab_regimented_infantry"
-		texturefile = "gfx/interface/ages/ab_regimented_infantry.dds"
+		name = "GFX_tbl_defenders_of_hyjal"
+		texturefile = "gfx/interface/ages/abilities/tbl_defenders_of_hyjal.dds"
 	}
     
     spriteType = {
-		name = "GFX_ttw_ab_regimented_cavalry"
-		texturefile = "gfx/interface/ages/ab_regimented_cavalry.dds"
+		name = "GFX_tbl_diplomatic_networks"
+		texturefile = "gfx/interface/ages/abilities/tbl_diplomatic_networks.dds"
 	}
     
     spriteType = {
-		name = "GFX_ttw_ab_regimented_siege_engines"
-		texturefile = "gfx/interface/ages/ab_regimented_siege_engines.dds"
+		name = "GFX_tbl_flames_of_the_legion"
+		texturefile = "gfx/interface/ages/abilities/tbl_flames_of_the_legion.dds"
 	}
     
     spriteType = {
-		name = "GFX_ttw_ab_ancient_tomes"
-		texturefile = "gfx/interface/ages/ab_ancient_tomes.dds"
+		name = "GFX_tbl_integrated_conquest"
+		texturefile = "gfx/interface/ages/abilities/tbl_integrated_conquest.dds"
 	}
     
     spriteType = {
-		name = "GFX_ttw_ab_familiar_terrain"
-		texturefile = "gfx/interface/ages/ab_familiar_terrain.dds"
+		name = "GFX_tbl_ordered_society"
+		texturefile = "gfx/interface/ages/abilities/tbl_ordered_society.dds"
 	}
     
     spriteType = {
-		name = "GFX_ttw_ab_soldiers_of_fortune"
-		texturefile = "gfx/interface/ages/ab_soldiers_of_fortune.dds"
+		name = "GFX_tbl_purification"
+		texturefile = "gfx/interface/ages/abilities/tbl_purification.dds"
 	}
     
     spriteType = {
-		name = "GFX_ttw_ab_purifying_flames"
-		texturefile = "gfx/interface/ages/ab_purifying_flames.dds"
+		name = "GFX_tbl_regional_governance"
+		texturefile = "gfx/interface/ages/abilities/tbl_regional_governance.dds"
 	}
     
     spriteType = {
-		name = "GFX_ttw_ab_wheel_and_deal"
-		texturefile = "gfx/interface/ages/ab_wheel_and_deal.dds"
+		name = "GFX_tbl_shared_justification"
+		texturefile = "gfx/interface/ages/abilities/tbl_shared_justification.dds"
 	}
     
     spriteType = {
-		name = "GFX_ttw_ab_hostile_occupation"
-		texturefile = "gfx/interface/ages/ab_hostile_occupation.dds"
+		name = "GFX_tbl_thalassian_magic"
+		texturefile = "gfx/interface/ages/abilities/tbl_thalassian_magic.dds"
 	}
     
     spriteType = {
-		name = "GFX_ttw_ab_seaborne"
-		texturefile = "gfx/interface/ages/ab_seaborne.dds"
+		name = "GFX_tbl_the_new_horde"
+		texturefile = "gfx/interface/ages/abilities/tbl_the_new_horde.dds"
 	}
     
     spriteType = {
-		name = "GFX_ttw_ab_regional_expeditions"
-		texturefile = "gfx/interface/ages/ab_regional_expeditions.dds"
+		name = "GFX_tbl_will_of_azeroth"
+		texturefile = "gfx/interface/ages/abilities/tbl_will_of_azeroth.dds"
 	}
     
-    #------------------------------------
-    # The Frozen Throne
-    #------------------------------------
-    spriteType = {
-		name = "GFX_tft_ab_regimented_infantry"
-		texturefile = "gfx/interface/ages/ab_regimented_infantry.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tft_ab_regimented_cavalry"
-		texturefile = "gfx/interface/ages/ab_regimented_cavalry.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tft_ab_regimented_siege_engines"
-		texturefile = "gfx/interface/ages/ab_regimented_siege_engines.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tft_ab_ancient_tomes"
-		texturefile = "gfx/interface/ages/ab_ancient_tomes.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tft_ab_familiar_terrain"
-		texturefile = "gfx/interface/ages/ab_familiar_terrain.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tft_ab_soldiers_of_fortune"
-		texturefile = "gfx/interface/ages/ab_soldiers_of_fortune.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tft_ab_purifying_flames"
-		texturefile = "gfx/interface/ages/ab_purifying_flames.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tft_ab_wheel_and_deal"
-		texturefile = "gfx/interface/ages/ab_wheel_and_deal.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tft_ab_hostile_occupation"
-		texturefile = "gfx/interface/ages/ab_hostile_occupation.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tft_ab_seaborne"
-		texturefile = "gfx/interface/ages/ab_seaborne.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tft_ab_regional_expeditions"
-		texturefile = "gfx/interface/ages/ab_regional_expeditions.dds"
-	}
-    
-    #------------------------------------
-    # Rise of the Qiraji
-    #------------------------------------
-    spriteType = {
-		name = "GFX_rotq_ab_regimented_infantry"
-		texturefile = "gfx/interface/ages/ab_regimented_infantry.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_rotq_ab_regimented_cavalry"
-		texturefile = "gfx/interface/ages/ab_regimented_cavalry.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_rotq_ab_regimented_siege_engines"
-		texturefile = "gfx/interface/ages/ab_regimented_siege_engines.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_rotq_ab_ancient_tomes"
-		texturefile = "gfx/interface/ages/ab_ancient_tomes.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_rotq_ab_familiar_terrain"
-		texturefile = "gfx/interface/ages/ab_familiar_terrain.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_rotq_ab_soldiers_of_fortune"
-		texturefile = "gfx/interface/ages/ab_soldiers_of_fortune.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_rotq_ab_purifying_flames"
-		texturefile = "gfx/interface/ages/ab_purifying_flames.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_rotq_ab_wheel_and_deal"
-		texturefile = "gfx/interface/ages/ab_wheel_and_deal.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_rotq_ab_hostile_occupation"
-		texturefile = "gfx/interface/ages/ab_hostile_occupation.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_rotq_ab_seaborne"
-		texturefile = "gfx/interface/ages/ab_seaborne.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_rotq_ab_regional_expeditions"
-		texturefile = "gfx/interface/ages/ab_regional_expeditions.dds"
-	}
-    
-    #------------------------------------
-    # The Burning Crusade
-    #------------------------------------
-    spriteType = {
-		name = "GFX_tbc_ab_regimented_infantry"
-		texturefile = "gfx/interface/ages/ab_regimented_infantry.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tbc_ab_regimented_cavalry"
-		texturefile = "gfx/interface/ages/ab_regimented_cavalry.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tbc_ab_regimented_siege_engines"
-		texturefile = "gfx/interface/ages/ab_regimented_siege_engines.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tbc_ab_ancient_tomes"
-		texturefile = "gfx/interface/ages/ab_ancient_tomes.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tbc_ab_familiar_terrain"
-		texturefile = "gfx/interface/ages/ab_familiar_terrain.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tbc_ab_soldiers_of_fortune"
-		texturefile = "gfx/interface/ages/ab_soldiers_of_fortune.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tbc_ab_purifying_flames"
-		texturefile = "gfx/interface/ages/ab_purifying_flames.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tbc_ab_wheel_and_deal"
-		texturefile = "gfx/interface/ages/ab_wheel_and_deal.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tbc_ab_hostile_occupation"
-		texturefile = "gfx/interface/ages/ab_hostile_occupation.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tbc_ab_seaborne"
-		texturefile = "gfx/interface/ages/ab_seaborne.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_tbc_ab_regional_expeditions"
-		texturefile = "gfx/interface/ages/ab_regional_expeditions.dds"
-	}
-    
-    #------------------------------------
-    # Wrath of the Lich King
-    #------------------------------------
-    spriteType = {
-		name = "GFX_wotlk_ab_regimented_infantry"
-		texturefile = "gfx/interface/ages/ab_regimented_infantry.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_wotlk_ab_regimented_cavalry"
-		texturefile = "gfx/interface/ages/ab_regimented_cavalry.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_wotlk_ab_regimented_siege_engines"
-		texturefile = "gfx/interface/ages/ab_regimented_siege_engines.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_wotlk_ab_ancient_tomes"
-		texturefile = "gfx/interface/ages/ab_ancient_tomes.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_wotlk_ab_familiar_terrain"
-		texturefile = "gfx/interface/ages/ab_familiar_terrain.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_wotlk_ab_soldiers_of_fortune"
-		texturefile = "gfx/interface/ages/ab_soldiers_of_fortune.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_wotlk_ab_purifying_flames"
-		texturefile = "gfx/interface/ages/ab_purifying_flames.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_wotlk_ab_wheel_and_deal"
-		texturefile = "gfx/interface/ages/ab_wheel_and_deal.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_wotlk_ab_hostile_occupation"
-		texturefile = "gfx/interface/ages/ab_hostile_occupation.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_wotlk_ab_seaborne"
-		texturefile = "gfx/interface/ages/ab_seaborne.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_wotlk_ab_regional_expeditions"
-		texturefile = "gfx/interface/ages/ab_regional_expeditions.dds"
-	}
-    
-    #------------------------------------
-    # The Shattering
-    #------------------------------------
-    spriteType = {
-		name = "GFX_cata_ab_regimented_infantry"
-		texturefile = "gfx/interface/ages/ab_regimented_infantry.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_cata_ab_regimented_cavalry"
-		texturefile = "gfx/interface/ages/ab_regimented_cavalry.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_cata_ab_regimented_siege_engines"
-		texturefile = "gfx/interface/ages/ab_regimented_siege_engines.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_cata_ab_ancient_tomes"
-		texturefile = "gfx/interface/ages/ab_ancient_tomes.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_cata_ab_familiar_terrain"
-		texturefile = "gfx/interface/ages/ab_familiar_terrain.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_cata_ab_soldiers_of_fortune"
-		texturefile = "gfx/interface/ages/ab_soldiers_of_fortune.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_cata_ab_purifying_flames"
-		texturefile = "gfx/interface/ages/ab_purifying_flames.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_cata_ab_wheel_and_deal"
-		texturefile = "gfx/interface/ages/ab_wheel_and_deal.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_cata_ab_hostile_occupation"
-		texturefile = "gfx/interface/ages/ab_hostile_occupation.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_cata_ab_seaborne"
-		texturefile = "gfx/interface/ages/ab_seaborne.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_cata_ab_regional_expeditions"
-		texturefile = "gfx/interface/ages/ab_regional_expeditions.dds"
-	}
-    
-    #------------------------------------
-    # Mists of Pandaria
-    #------------------------------------
-    spriteType = {
-		name = "GFX_mop_ab_regimented_infantry"
-		texturefile = "gfx/interface/ages/ab_regimented_infantry.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_mop_ab_regimented_cavalry"
-		texturefile = "gfx/interface/ages/ab_regimented_cavalry.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_mop_ab_regimented_siege_engines"
-		texturefile = "gfx/interface/ages/ab_regimented_siege_engines.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_mop_ab_ancient_tomes"
-		texturefile = "gfx/interface/ages/ab_ancient_tomes.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_mop_ab_familiar_terrain"
-		texturefile = "gfx/interface/ages/ab_familiar_terrain.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_mop_ab_soldiers_of_fortune"
-		texturefile = "gfx/interface/ages/ab_soldiers_of_fortune.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_mop_ab_purifying_flames"
-		texturefile = "gfx/interface/ages/ab_purifying_flames.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_mop_ab_wheel_and_deal"
-		texturefile = "gfx/interface/ages/ab_wheel_and_deal.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_mop_ab_hostile_occupation"
-		texturefile = "gfx/interface/ages/ab_hostile_occupation.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_mop_ab_seaborne"
-		texturefile = "gfx/interface/ages/ab_seaborne.dds"
-	}
-    
-    spriteType = {
-		name = "GFX_mop_ab_regional_expeditions"
-		texturefile = "gfx/interface/ages/ab_regional_expeditions.dds"
-	}
 }

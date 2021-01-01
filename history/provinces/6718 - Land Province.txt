@@ -8,8 +8,8 @@ base_tax = 1
 base_production = 4
 base_manpower = 2
 
-culture = noculture
-religion = noreligion
+culture = primitive
+religion = shamanism
 
 trade_goods = unknown
 hre = no

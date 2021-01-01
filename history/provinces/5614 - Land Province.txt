@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 70
-native_ferocity = 1
-native_hostileness = 9
+is_city = yes
+owner = XAV
+controller = XAV
+add_core = XAV
 
 base_tax = 4
 base_production = 3
 base_manpower = 2
 
-culture = noculture
-religion = noreligion
+culture = xavian
+religion = fel
 
 trade_goods = unknown
 hre = no

@@ -767,3 +767,9 @@
  #--------------------------------
  vulpera_group: "Vulpera"
  vulpera: "Vulpera"
+ 
+ #--------------------------------
+ # Primitive
+ #--------------------------------
+ primitive_group: "Primitive"
+ primitive: "Primitive"
