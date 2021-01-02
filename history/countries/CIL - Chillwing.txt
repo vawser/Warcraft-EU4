@@ -1,0 +1,19 @@
+technology_group = tech_harpy
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = chillwing
+religion = wind
+
+capital = 5918
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Ashani"
+        dynasty = "Chillwing"
+        adm = 4
+        dip = 2
+        mil = 3
+        female = yes
+    }
+}

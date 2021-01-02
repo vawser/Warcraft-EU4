@@ -875,87 +875,87 @@ province_event = {
 	}
 } 
 
-# Border Tension
-province_event = {
-	id = 9471
-	title = "EVTNAME9471"
-	desc = "EVTDESC9471"
-	picture = LAND_MILITARY_eventPicture
-	goto = root
+# # Border Tension
+# province_event = {
+	# id = 9471
+	# title = "EVTNAME9471"
+	# desc = "EVTDESC9471"
+	# picture = LAND_MILITARY_eventPicture
+	# goto = root
 	
-	trigger = {
-		is_capital = no
-		any_neighbor_province = {
-			NOT = { owned_by = ROOT }
-			owner = {
-				NOT = { war_with = root }
-				NOT = { truce_with = root }
-				is_rival = ROOT
-				is_free_or_tributary_trigger = yes
-				NOT = { is_core = ROOT }
-				NOT = { is_claim = ROOT }
-			}
-			OR = {
-				owner = { is_part_of_hre = no }
-				ROOT = { owner = { is_part_of_hre = no } }
-			}
-		}
-	}
+	# trigger = {
+		# is_capital = no
+		# any_neighbor_province = {
+			# NOT = { owned_by = ROOT }
+			# owner = {
+				# NOT = { war_with = root }
+				# NOT = { truce_with = root }
+				# is_rival = ROOT
+				# is_free_or_tributary_trigger = yes
+				# NOT = { is_core = ROOT }
+				# NOT = { is_claim = ROOT }
+			# }
+			# OR = {
+				# owner = { is_part_of_hre = no }
+				# ROOT = { owner = { is_part_of_hre = no } }
+			# }
+		# }
+	# }
 	
-	is_mtth_scaled_to_size = 1
+	# is_mtth_scaled_to_size = 1
 	
-	mean_time_to_happen = {
-		months = 800
-	}
+	# mean_time_to_happen = {
+		# months = 800
+	# }
 	
-	immediate = {
-		hidden_effect = {
-			random_neighbor_province = {
-				limit = {
-					NOT = { owned_by = ROOT }
-					owner = {
-						NOT = { war_with = root }
-						NOT = { truce_with = root }
-						is_rival = ROOT
-						is_free_or_tributary_trigger = yes
-						NOT = { is_core = ROOT }
-						NOT = { is_claim = ROOT }
-					}
-					OR = {
-						owner = { is_part_of_hre = no }
-						ROOT = { owner = { is_part_of_hre = no } }
-					}
-				}
-				owner = { save_event_target_as = neighbour_country }
-			}
-		}
-	}
+	# immediate = {
+		# hidden_effect = {
+			# random_neighbor_province = {
+				# limit = {
+					# NOT = { owned_by = ROOT }
+					# owner = {
+						# NOT = { war_with = root }
+						# NOT = { truce_with = root }
+						# is_rival = ROOT
+						# is_free_or_tributary_trigger = yes
+						# NOT = { is_core = ROOT }
+						# NOT = { is_claim = ROOT }
+					# }
+					# OR = {
+						# owner = { is_part_of_hre = no }
+						# ROOT = { owner = { is_part_of_hre = no } }
+					# }
+				# }
+				# owner = { save_event_target_as = neighbour_country }
+			# }
+		# }
+	# }
 	
-	option = {
-		name = "EVTOPTA9471"
-		event_target:neighbour_country = {
-			tooltip = {
-				add_claim = ROOT
-			}
-			hidden_effect = {
-				country_event = { id = 6436  }
-			}
-		}
-	}
-}
+	# option = {
+		# name = "EVTOPTA9471"
+		# event_target:neighbour_country = {
+			# tooltip = {
+				# add_claim = ROOT
+			# }
+			# hidden_effect = {
+				# country_event = { id = 6436  }
+			# }
+		# }
+	# }
+# }
 
-# Border Tension
-country_event = {
-	id = 6436
-	title = "EVTNAME6436"
-	desc = "EVTDESC6436"
-	picture = LAND_MILITARY_eventPicture
-	goto = from
+# # Border Tension
+# country_event = {
+	# id = 6436
+	# title = "EVTNAME6436"
+	# desc = "EVTDESC6436"
+	# picture = LAND_MILITARY_eventPicture
+	# goto = from
 	
-	is_triggered_only = yes	
+	# is_triggered_only = yes	
 	
-	option = {
-		name = "EVTOPTA6436"
-		add_claim = FROM
-	}
-}
+	# option = {
+		# name = "EVTOPTA6436"
+		# add_claim = FROM
+	# }
+# }

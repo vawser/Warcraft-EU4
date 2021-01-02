@@ -37,18 +37,35 @@ country_event = {
                 NOT = { owned_by = YMI }
                 NOT = { owned_by = JOT }
                 NOT = { owned_by = ROOT }
+                NOT = { area = area_icecrown_9 }
+                NOT = { area = area_icecrown_7 }
+                NOT = { area = area_icecrown_8 }
+                NOT = { area = area_icecrown_4 }
+                NOT = { area = area_icecrown_6 }
+                NOT = { area = area_icecrown_3 }
+                NOT = { area = area_icecrown_2 }
             }
             cede_province = SCO
             add_core = SCO
-            change_religion = scourge
-            change_culture = cult_of_the_damned
+            change_culture = scourge
+            change_religion = cult_of_the_damned
+        }
+        region_crystalsong = {
+            limit = {
+                NOT = { owned_by = UNB }
+                NOT = { owned_by = ROOT }
+            }
+            cede_province = SCO
+            add_core = SCO
+           change_culture = scourge
+            change_religion = cult_of_the_damned
         }
         # Ignore player ownership for the Citadel
         2068 = {
             cede_province = SCO
             add_core = SCO
-            change_religion = scourge
-            change_culture = cult_of_the_damned
+            change_culture = scourge
+            change_religion = cult_of_the_damned
             
             set_base_tax = 12
             set_base_production = 16

@@ -4,59 +4,17 @@ add_government_reform = tribal_despotism_reform
 primary_culture = deadwind
 religion = geomancy
 
-capital = 1
+capital = 3077
 
-# The First War
-592.1.1 = {
+# The Scourge
+593.1.1 = {
+    set_global_flag = setup_deadwind
+    
     monarch = {
         name = "Dugnog"
         dynasty = "the Sly"
         adm = 5
         dip = 5
         mil = 4
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Korgli"
-        dynasty = "the Crafty"
-        adm = 0
-        dip = 3
-        mil = 1
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Kligag"
-        dynasty = "the Sapient"
-        adm = 2
-        dip = 4
-        mil = 4
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Tumok"
-        dynasty = "the Sapient"
-        adm = 2
-        dip = 5
-        mil = 0
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Hobruk"
-        dynasty = "the Sharp"
-        adm = 5
-        dip = 3
-        mil = 0
     }
 }

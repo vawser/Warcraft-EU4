@@ -14,4 +14,14 @@ religion = voodoo
 trade_goods = unknown
 hre = no
 
+# The Scourge
+593.1.1 = {
+	is_city = yes
+    owner = FRG
+    controller = FRG
+    add_core = FRG
+    
+    culture = firegut
+    religion = geomancy
+}
 

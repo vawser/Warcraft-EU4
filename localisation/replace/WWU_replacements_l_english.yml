@@ -278,6 +278,8 @@
  cossacks_ability_cossacks:0 "Raise Demonic Host"
  COSSACKS_ABILITY_RECEIVE_SERFS_DESC:0 "By using $VAL|Y$ gathered power for $NAME|Y$, we will raise Development in a random category by $CHANGE|G$ in one province and the country incited will get the following negative effects:\n$MOD$"
  RECEIVE_SERFS_NO_VALID_PROVINCES:1 "Fel worshippers from rival and neighboring countries will not flee to our country since all our provinces have a culture and religion that is accepted in their own country."
+ COSSACKS_ABILITY_DO_IT_COSSACKS:0 "By using $VAL|Y$ gathered power for '$NAME|Y$', we will impact war exhaustion by $CHANGE$ and raise $UNITS|Y$ Demonic Hosts in our capital. "
+ COSSACKS_ABILITY_COSSACKS_MODIFIER:0 "This will increase our stability cost to $MODIFIER$ by relying on these regiments."
  
  recieve_serf_flavor_desc: "We must incite Fel worshippers in neighbouring countries to travel to our nation."
  organize_rading_parties_flavor_desc: "Let us burn and pillage all those that would oppose our rule."

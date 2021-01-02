@@ -5,7 +5,7 @@ government_rank = 2
 primary_culture = dragonmaw
 religion = fel
 
-capital = 1
+capital = 3121
 
 # The First War
 592.1.1 = {
@@ -16,48 +16,4 @@ capital = 1
 		dip = 3
 		mil = 3
 	}
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Thulbag"
-        dynasty = "Bloodskull"
-        adm = 5
-        dip = 2
-        mil = 3
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Muzrub"
-        dynasty = "Stormfang"
-        adm = 5
-        dip = 5
-        mil = 1
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Ghudhagh"
-        dynasty = "Bonehand"
-        adm = 3
-        dip = 0
-        mil = 2
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Muzg"
-        dynasty = "Ragetusk"
-        adm = 4
-        dip = 1
-        mil = 1
-    }
 }

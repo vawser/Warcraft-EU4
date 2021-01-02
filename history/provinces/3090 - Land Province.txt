@@ -14,4 +14,14 @@ religion = fel
 trade_goods = unknown
 hre = no
 
+# The Scourge
+593.1.1 = {
+	is_city = yes
+    owner = LSO
+    controller = LSO
+    add_core = LSO
+    
+    culture = lost_ones
+    religion = shadow
+}
 

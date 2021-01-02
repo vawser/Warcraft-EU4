@@ -14,9 +14,9 @@ religion = shamanism
 trade_goods = unknown
 hre = no
 
-901.1.1 = {
+# The Burning Legion
+594.1.1 = {
     is_city = yes
-    
     owner = TRM
     controller = TRM
     add_core = TRM

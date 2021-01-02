@@ -4,10 +4,11 @@ add_government_reform = feudalism_reform
 primary_culture = kul_tiras
 religion = the_holy_light
 
-capital = 1
+capital = 3671
 
-# Third War
-612.1.1 = {
+# The Burning Legion
+594.1.1 = {
+    set_global_flag = setup_theramore
     monarch = {
         name = "Jaina" 
         dynasty = "Proudmoore" 

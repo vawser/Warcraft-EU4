@@ -5,7 +5,7 @@ government_rank = 2
 primary_culture = twilights_hammer
 religion = fel
 
-capital = 1
+capital = 3142
 
 # The First War
 592.1.1 = {

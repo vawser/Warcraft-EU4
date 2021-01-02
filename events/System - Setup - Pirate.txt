@@ -32,8 +32,8 @@ country_event = {
         area_tanaris_5 = {
             cede_province = SSP
             add_core = SSP
-            change_religion = southsea_freebooter
-            change_culture = avarice
+            change_culture = southsea_freebooter
+            change_religion = avarice
         }
         
         ai_chance = {
@@ -51,8 +51,8 @@ country_event = {
         }
         
         area_tanaris_5 = {
-            change_religion = southsea_freebooter
-            change_culture = avarice
+            change_culture = southsea_freebooter
+            change_religion = avarice
         }
         
         ai_chance = {
@@ -93,8 +93,8 @@ country_event = {
         area_tanaris_7 = {
             cede_province = WWP
             add_core = WWP
-            change_religion = wastewander
-            change_culture = avarice
+            change_culture = wastewander
+            change_religion = avarice
         }
         
         ai_chance = {
@@ -112,8 +112,8 @@ country_event = {
         }
         
         area_tanaris_7 = {
-            change_religion = wastewander
-            change_culture = avarice
+            change_culture = wastewander
+            change_religion = avarice
         }
         
         ai_chance = {

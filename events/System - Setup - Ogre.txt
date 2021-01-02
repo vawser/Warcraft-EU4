@@ -32,8 +32,8 @@ country_event = {
         area_blasted_lands_3 = {
             cede_province = DRD
             add_core = DRD
-            change_religion = dreadmaul
-            change_culture = geomancy
+            change_culture = dreadmaul
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -51,8 +51,8 @@ country_event = {
         }
         
         area_blasted_lands_3 = {
-            change_religion = dreadmaul
-            change_culture = geomancy
+            change_culture = dreadmaul
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -93,8 +93,8 @@ country_event = {
         area_tanaris_24 = {
             cede_province = DUM
             add_core = DUM
-            change_religion = dunemaul
-            change_culture = geomancy
+            change_culture = dunemaul
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -112,8 +112,8 @@ country_event = {
         }
         
         area_blasted_lands_3 = {
-            change_religion = dunemaul
-            change_culture = geomancy
+            change_culture = dunemaul
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -154,8 +154,8 @@ country_event = {
         area_feralas_13 = {
             cede_province = GOR
             add_core = GOR
-            change_religion = gordunni
-            change_culture = geomancy
+            change_culture = gordunni
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -173,8 +173,8 @@ country_event = {
         }
         
         area_feralas_13 = {
-            change_religion = gordunni
-            change_culture = geomancy
+            change_culture = gordunni
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -215,8 +215,8 @@ country_event = {
         area_loch_modan_1 = {
             cede_province = MOG
             add_core = MOG
-            change_religion = mogrosh
-            change_culture = geomancy
+            change_culture = mogrosh
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -234,8 +234,8 @@ country_event = {
         }
         
         area_loch_modan_1 = {
-            change_religion = mogrosh
-            change_culture = geomancy
+            change_culture = mogrosh
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -276,8 +276,8 @@ country_event = {
         area_arathi_highlands_8 = {
             cede_province = BOU
             add_core = BOU
-            change_religion = boulderfist
-            change_culture = geomancy
+            change_culture = boulderfist
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -295,8 +295,8 @@ country_event = {
         }
         
         area_arathi_highlands_8 = {
-            change_religion = boulderfist
-            change_culture = geomancy
+            change_culture = boulderfist
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -337,20 +337,20 @@ country_event = {
         3076 = {
             cede_province = DWO
             add_core = DWO
-            change_religion = deadwind
-            change_culture = geomancy
+            change_culture = deadwind
+            change_religion = geomancy
         }
         3077 = {
             cede_province = DWO
             add_core = DWO
-            change_religion = deadwind
-            change_culture = geomancy
+            change_culture = deadwind
+            change_religion = geomancy
         }
         3078 = {
             cede_province = DWO
             add_core = DWO
-            change_religion = deadwind
-            change_culture = geomancy
+            change_culture = deadwind
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -375,16 +375,16 @@ country_event = {
         }
         
         3076 = {
-            change_religion = deadwind
-            change_culture = geomancy
+            change_culture = deadwind
+            change_religion = geomancy
         }
         3077 = {
-            change_religion = deadwind
-            change_culture = geomancy
+            change_culture = deadwind
+            change_religion = geomancy
         }
         3078 = {
-            change_religion = deadwind
-            change_culture = geomancy
+            change_culture = deadwind
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -425,20 +425,20 @@ country_event = {
         3208 = {
             cede_province = DBR
             add_core = DBR
-            change_religion = dustbelcher
-            change_culture = geomancy
+            change_culture = dustbelcher
+            change_religion = geomancy
         }
         3209 = {
             cede_province = DBR
             add_core = DBR
-            change_religion = dustbelcher
-            change_culture = geomancy
+            change_culture = dustbelcher
+            change_religion = geomancy
         }
         3210 = {
             cede_province = DBR
             add_core = DBR
-            change_religion = dustbelcher
-            change_culture = geomancy
+            change_culture = dustbelcher
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -463,16 +463,16 @@ country_event = {
         }
         
         3208 = {
-            change_religion = dustbelcher
-            change_culture = geomancy
+            change_culture = dustbelcher
+            change_religion = geomancy
         }
         3209 = {
-            change_religion = dustbelcher
-            change_culture = geomancy
+            change_culture = dustbelcher
+            change_religion = geomancy
         }
         3210 = {
-            change_religion = dustbelcher
-            change_culture = geomancy
+            change_culture = dustbelcher
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -513,8 +513,8 @@ country_event = {
         area_burning_steppes_3 = {
             cede_province = FRG
             add_core = FRG
-            change_religion = firegut
-            change_culture = geomancy
+            change_culture = firegut
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -532,8 +532,8 @@ country_event = {
         }
         
         area_burning_steppes_3 = {
-            change_religion = firegut
-            change_culture = geomancy
+            change_culture = firegut
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -571,11 +571,29 @@ country_event = {
 	option = {
 		name = wwu_setup_ogre.9.option.a
         
-        area_stranglethorn_vale_12 = {
+        2896 = {
             cede_province = MSO
             add_core = MSO
-            change_religion = moshogg
-            change_culture = geomancy
+            change_culture = moshogg
+            change_religion = geomancy
+        }
+        2893 = {
+            cede_province = MSO
+            add_core = MSO
+            change_culture = moshogg
+            change_religion = geomancy
+        }
+        2894 = {
+            cede_province = MSO
+            add_core = MSO
+            change_culture = moshogg
+            change_religion = geomancy
+        }
+        2895 = {
+            cede_province = MSO
+            add_core = MSO
+            change_culture = moshogg
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -586,15 +604,33 @@ country_event = {
 		name = wwu_setup_ogre.9.option.b
         
         trigger = {
-            area_stranglethorn_vale_12 = {
-                type = any
-                owned_by = ROOT
+            OR = {
+                2896 = { owned_by = ROOT }
+                2893 = { owned_by = ROOT }
+                2894 = { owned_by = ROOT }
+                2895 = { owned_by = ROOT }
             }
         }
         
-        area_stranglethorn_vale_12 = {
-            change_religion = moshogg
-            change_culture = geomancy
+        2896 = {
+            add_core = MSO
+            change_culture = moshogg
+            change_religion = geomancy
+        }
+        2893 = {
+            add_core = MSO
+            change_culture = moshogg
+            change_religion = geomancy
+        }
+        2894 = {
+            add_core = MSO
+            change_culture = moshogg
+            change_religion = geomancy
+        }
+        2895 = {
+            add_core = MSO
+            change_culture = moshogg
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -635,8 +671,8 @@ country_event = {
         area_duskwood_4 = {
             cede_province = SPF
             add_core = SPF
-            change_religion = stone_fist
-            change_culture = geomancy
+            change_culture = stone_fist
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -654,8 +690,8 @@ country_event = {
         }
         
         area_duskwood_4 = {
-            change_religion = stone_fist
-            change_culture = geomancy
+            change_culture = stone_fist
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -696,8 +732,8 @@ country_event = {
         area_searing_gorge_1 = {
             cede_province = SGL
             add_core = SGL
-            change_religion = stonegullet
-            change_culture = geomancy
+            change_culture = stonegullet
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -715,8 +751,8 @@ country_event = {
         }
         
         area_searing_gorge_1 = {
-            change_religion = stonegullet
-            change_culture = geomancy
+            change_culture = stonegullet
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -757,8 +793,8 @@ country_event = {
         area_wetlands_16 = {
             cede_province = TBC
             add_core = TBC
-            change_religion = torchbelcher
-            change_culture = geomancy
+            change_culture = torchbelcher
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -776,8 +812,8 @@ country_event = {
         }
         
         area_wetlands_16 = {
-            change_religion = torchbelcher
-            change_culture = geomancy
+            change_culture = torchbelcher
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -818,8 +854,8 @@ country_event = {
         area_alterac_1 = {
             cede_province = CRS
             add_core = CRS
-            change_religion = crushridge
-            change_culture = geomancy
+            change_culture = crushridge
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -837,8 +873,8 @@ country_event = {
         }
         
         area_alterac_1 = {
-            change_religion = crushridge
-            change_culture = geomancy
+            change_culture = crushridge
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -879,8 +915,8 @@ country_event = {
         area_dustwallow_7 = {
             cede_province = STM
             add_core = STM
-            change_religion = stonemaul
-            change_culture = geomancy
+            change_culture = stonemaul
+            change_religion = geomancy
         }
         
         ai_chance = {
@@ -898,8 +934,8 @@ country_event = {
         }
         
         area_dustwallow_7 = {
-            change_religion = stonemaul
-            change_culture = geomancy
+            change_culture = stonemaul
+            change_religion = geomancy
         }
         
         ai_chance = {

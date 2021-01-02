@@ -12,17 +12,13 @@ gnoll_ideas = {
 		OR = {
             tag = PAL
             tag = MOS
-            tag = RVP
             tag = BKM
-            tag = BPC
             tag = DSN
             tag = GRI
             tag = MUD
             tag = REP
             tag = RRP
-            tag = ROT
             tag = SVH
-            tag = SDW
             tag = WOO
         }
 	}

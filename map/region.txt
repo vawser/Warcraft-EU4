@@ -573,6 +573,9 @@ region_mount_hyjal = {
         area_mount_hyjal_24
         area_mount_hyjal_25
         area_mount_hyjal_26
+        area_mount_hyjal_27
+        area_mount_hyjal_28
+        area_mount_hyjal_29
     }   
 }
 

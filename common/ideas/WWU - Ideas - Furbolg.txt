@@ -23,6 +23,10 @@ furbolg_ideas = {
             tag = FWD
             tag = BKF
             tag = GRZ
+            tag = BPC
+            tag = RVP
+            tag = ROT
+            tag = SDW
         }
 	}
 	free = yes		

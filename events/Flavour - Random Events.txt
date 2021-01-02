@@ -2194,6 +2194,10 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		NOT = { dip = 4 }
+        any_neighbor_country = {
+            NOT = { is_subject_of = root }
+            NOT = { alliance_with = root }
+        }
 	}
 
 	mean_time_to_happen = {

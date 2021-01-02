@@ -4,59 +4,17 @@ add_government_reform = tribal_despotism_reform
 primary_culture = dunemaul
 religion = geomancy
 
-capital = 1
+capital = 5119
 
-# The First War
-592.1.1 = {
+# The Scourge
+593.1.1 = {
+    set_global_flag = setup_dunemaul
+    
     monarch = {
         name = "Robhib"
-        dynasty = "the Vast"
+        dynasty = "the Dumb"
         adm = 1
         dip = 0
         mil = 1
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Zig'hob"
-        dynasty = "the Puncher"
-        adm = 5
-        dip = 2
-        mil = 0
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Dagdok"
-        dynasty = "the Smart"
-        adm = 1
-        dip = 0
-        mil = 5
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Hubgli"
-        dynasty = "the Coy"
-        adm = 1
-        dip = 2
-        mil = 2
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Bekrok"
-        dynasty = "the Punchy"
-        adm = 1
-        dip = 3
-        mil = 5
     }
 }

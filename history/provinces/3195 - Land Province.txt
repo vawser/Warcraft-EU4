@@ -15,3 +15,15 @@ trade_goods = unknown
 hre = no
 
 add_building = wow_fort_1
+
+# The Scourge
+593.1.1 = {
+	is_city = yes
+    owner = SGL
+    controller = SGL
+    add_core = SGL
+    
+    culture = stonegullet
+    religion = geomancy
+}
+

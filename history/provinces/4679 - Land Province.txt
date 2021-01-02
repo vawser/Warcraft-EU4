@@ -14,8 +14,19 @@ religion = shamanism
 trade_goods = unknown
 hre = no
 
-200.1.1 = {
-    center_of_trade = 1
+center_of_trade = 1
+
+# The Scourge
+593.1.1 = {
+	is_city = yes
+    owner = EXO
+    controller = EXO
+    add_core = EXO
+    
+    culture = exodar
+    religion = light_of_the_naaru
+    
+    change_province_name = "The Exodar"
 }
 
 

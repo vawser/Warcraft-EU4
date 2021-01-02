@@ -119,21 +119,21 @@ DDW = "countries/Deadwood.txt"      # Felwood
 FWD = "countries/Foulweald.txt"     # Ashenvale 
 BKF = "countries/Blackwood.txt"     # Darkshore
 GRZ = "countries/Grizzleweald.txt"  # Val'sharah
+BPC = "countries/Blackpaw.txt"    
+RVP = "countries/Bloodmaw.txt"    
+ROT = "countries/Snowlimb.txt"
+SDW = "countries/Driftweald.txt"
 
 # ---- Gnoll ----
 PAL = "countries/Palemane.txt"    # Mulgore
 MOS = "countries/Mosshide.txt"    # Wetlands
-RVP = "countries/Riverpaw.txt"    # Elwynn Forest
 BKM = "countries/Blackmane.txt"   # Zouchin Strand - Krasarang Wilds
-BPC = "countries/Blackpaw.txt"    # Ghostlands, Mines
 DSN = "countries/Drysnout.txt"    # Badlands
 GRI = "countries/Grimtail.txt"    # Desolace
 MUD = "countries/Mudsnout.txt"    # Hillsbrad Foothills
 REP = "countries/Redpine.txt"     # Andorhal
 RRP = "countries/Redridge Pack.txt" # Redridge
-ROT = "countries/Rot Hide.txt"    # Lordaeron (Fenris Isle)
 SVH = "countries/Savage Hill.txt" # Storm Peaks
-SDW = "countries/Shadowhide.txt"  # Redridge
 WOO = "countries/Woodpaw.txt"     # Feralas
 
 # ---- Gnome ----
@@ -156,7 +156,8 @@ BFY = "countries/Bloodfury.txt"       # Stonetalon Mountains
 COL = "countries/Coldwind.txt"        # Dragonblight
 DUS = "countries/Dustwind.txt"        # Durotar
 WFY = "countries/Windfury.txt"        # Mulgore
-WIW = "countries/Witchwing.txt"       # Dry Hills, Barrens        
+WIW = "countries/Witchwing.txt"       # Dry Hills, Barrens  
+CIL = "countries/Chillwing.txt"       
        
 # ---- Hozen ----
 GRO = "countries/Grookin.txt" 

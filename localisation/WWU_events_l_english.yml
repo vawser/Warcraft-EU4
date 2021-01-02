@@ -3787,6 +3787,13 @@
  wwu_setup_draenei.2.option.b: "Tolerate them in our lands for now..."
  
  #-------------------------------------
+ # Orc Setup
+ #-------------------------------------
+ wwu_setup_orc.1.title: "The New Horde"
+ wwu_setup_orc.1.desc: "As the Scourge arises in Northrend and the Orcish Horde continues to collapse, a faction of orcs and other similar races have formed what shall be known as the New Horde, taking refuge in Durotar, in the valley that shall soon be known as Orgrimmar."
+ wwu_setup_orc.1.option.a: "Arise!"
+ 
+ #-------------------------------------
  # Orcish Horde
  #-------------------------------------
  wwu_orcish_horde.1.title: "The Orcish Horde"

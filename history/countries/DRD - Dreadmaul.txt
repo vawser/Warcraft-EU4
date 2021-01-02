@@ -4,59 +4,17 @@ add_government_reform = autocracy_reform
 primary_culture = dreadmaul
 religion = geomancy
 
-capital = 1
+capital = 3120
 
-# The First War
-592.1.1 = {
+# The Scourge
+593.1.1 = {
+    set_global_flag = setup_dreadmaul
+    
     monarch = {
         name = "Vorkor"
         dynasty = "the Smasher"
         adm = 4
         dip = 3
         mil = 2
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Subkor"
-        dynasty = "the Frenzied"
-        adm = 5
-        dip = 1
-        mil = 5
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Rokkor"
-        dynasty = "the Sapient"
-        adm = 4
-        dip = 3
-        mil = 3
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Gall'rog"
-        dynasty = "the Sly"
-        adm = 1
-        dip = 0
-        mil = 3
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Klalog"
-        dynasty = "the Gutsy"
-        adm = 5
-        dip = 4
-        mil = 1
     }
 }

@@ -4,7 +4,7 @@ add_government_reform = pirate_republic_reform
 primary_culture = wastewander
 religion = avarice
 
-capital = 1
+capital = 5129
 
 # Third War
 612.1.1 = {

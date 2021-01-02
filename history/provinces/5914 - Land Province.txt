@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 9
-native_ferocity = 2
-native_hostileness = 10
+is_city = yes
+owner = CIL
+controller = CIL
+add_core = CIL
 
 base_tax = 4
 base_production = 1
 base_manpower = 4
 
-culture = primitive
-religion = shamanism
+culture = chillwing
+religion = wind
 
 trade_goods = unknown
 hre = no

@@ -4,10 +4,12 @@ add_government_reform = tribal_despotism_reform
 primary_culture = torchbelcher
 religion = geomancy
 
-capital = 1
+capital = 3319
 
-# The First War
-592.1.1 = {
+# The Scourge
+593.1.1 = {
+    set_global_flag = setup_torchbelcher
+    
     monarch = {
         name = "Gallkli"
         dynasty = "the Crazed"
@@ -17,46 +19,3 @@ capital = 1
     }
 }
 
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Ghe'gog"
-        dynasty = "the Maniac"
-        adm = 0
-        dip = 0
-        mil = 5
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Habty"
-        dynasty = "the Almighty"
-        adm = 3
-        dip = 3
-        mil = 1
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Ombek"
-        dynasty = "the Smasher"
-        adm = 4
-        dip = 3
-        mil = 1
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Dugnog"
-        dynasty = "the Lusty"
-        adm = 1
-        dip = 2
-        mil = 5
-    }
-}

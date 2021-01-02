@@ -66,10 +66,10 @@ DAL_ideas = {
 		advisor_pool = 2
 	}
 	DAL_ideas_4 = {
-		infantry_fire = 1
+		shock_damage = 0.15
 	}
 	DAL_ideas_5 = {
-		movement_speed = 0.2
+		reinforce_cost_modifier = -0.33
 	}
 	DAL_ideas_6 = {
 		prestige = 1

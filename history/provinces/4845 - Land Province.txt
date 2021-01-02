@@ -14,4 +14,15 @@ religion = shamanism
 trade_goods = unknown
 hre = no
 
+# The Burning Legion
+594.1.1 = {
+	is_city = yes
+    owner = STM
+    controller = STM
+    add_core = STM
+    
+    culture = stonemaul
+    religion = geomancy
+}
+
 

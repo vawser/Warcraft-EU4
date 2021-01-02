@@ -4,59 +4,17 @@ add_government_reform = tribal_despotism_reform
 primary_culture = stone_fist
 religion = geomancy
 
-capital = 1
+capital = 2952
 
-# The First War
-592.1.1 = {
+# The Scourge
+593.1.1 = {
+    set_global_flag = setup_stonefist
+    
     monarch = {
         name = "Ragmor"
         dynasty = "the Vicious"
         adm = 4
         dip = 1
-        mil = 2
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Niggall"
-        dynasty = "the Powerful"
-        adm = 0
-        dip = 0
-        mil = 4
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Rakmog"
-        dynasty = "the Stabber"
-        adm = 1
-        dip = 2
-        mil = 1
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Thol'sub"
-        dynasty = "the Furious"
-        adm = 3
-        dip = 1
-        mil = 2
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Gorgha"
-        dynasty = "the Frantic"
-        adm = 4
-        dip = 4
         mil = 2
     }
 }

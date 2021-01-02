@@ -4,59 +4,17 @@ add_government_reform = tribal_despotism_reform
 primary_culture = stonegullet
 religion = geomancy
 
-capital = 1
+capital = 3197
 
-# The First War
-592.1.1 = {
+# The Scourge
+593.1.1 = {
+    set_global_flag = setup_stonegullet
+    
     monarch = {
         name = "Roggkar"
         dynasty = "the Wise"
         adm = 3
         dip = 3
         mil = 5
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Log'tha"
-        dynasty = "the Vicious"
-        adm = 0
-        dip = 3
-        mil = 4
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Ghetro"
-        dynasty = "the Fierce"
-        adm = 1
-        dip = 3
-        mil = 3
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Magzag"
-        dynasty = "the Maniac"
-        adm = 5
-        dip = 4
-        mil = 5
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Ombog"
-        dynasty = "the Wise"
-        adm = 1
-        dip = 4
-        mil = 0
     }
 }

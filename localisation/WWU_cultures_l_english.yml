@@ -213,6 +213,10 @@
  foulweald: "Foulweald"
  blackwood: "Blackwood"
  grizzleweald: "Grizzleweald"
+ blackpaw: "Blackpaw"
+ bloodmaw: "Bloodmaw"
+ snowlimb: "Snowlimb"
+ driftweald: "Driftweald"
  furbolg: "Furbolg"
  
  #--------------------------------
@@ -221,17 +225,13 @@
  gnoll_group: "Gnoll"
  palemane: "Palemane"
  mosshide: "Mosshide"
- riverpaw: "Riverpaw"
  blackmane: "Blackmane"
- blackpaw: "Blackpaw"
  drysnout: "Drysnout"
  grimtail: "Grimtail"
  mudsnout: "Mudsnout"
  redpine: "Redpine"
  redridge_pack: "Redridge Pack"
- rot_hide: "Rot Hide"
  savage_hill: "Savage Hill"
- shadowhide: "Shadowhide"
  woodpaw: "Woodpaw"
  gnoll: "Gnoll"
  
@@ -271,6 +271,7 @@
  dustwind: "Dustwind"
  windfury: "Windfury"
  witchwing: "Witchwing"
+ chillwing: "Chillwing"
  harpy: "Harpy"
  
  #--------------------------------

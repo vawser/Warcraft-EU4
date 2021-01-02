@@ -4,10 +4,12 @@ add_government_reform = demonic_order_reform
 primary_culture = demon
 religion = fel
 
-capital = 1
+capital = 6031
 
-# The First War
-592.1.1 = {
+# The Burning Legion
+594.1.1 = {
+    set_global_flag = setup_burning_legion
+    
     monarch = { 
 		name = "Archimonde" 
 		dynasty = "the Defiler" 

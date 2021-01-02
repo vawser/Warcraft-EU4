@@ -4,59 +4,17 @@ add_government_reform = tribal_despotism_reform
 primary_culture = boulderfist
 religion = geomancy
 
-capital = 1
+capital = 3431
 
-# The First War
-592.1.1 = {
+# The Scourge
+593.1.1 = {
+    set_global_flag = setup_boulderfist
+    
     monarch = {
         name = "Nigtu"
         dynasty = "the Furious"
         adm = 2
         dip = 1
-        mil = 0
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Orgnog"
-        dynasty = "the Stalwart"
-        adm = 1
-        dip = 1
-        mil = 0
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Erggha"
-        dynasty = "the Crazed"
-        adm = 3
-        dip = 4
-        mil = 1
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Chogig"
-        dynasty = "the Stabber"
-        adm = 3
-        dip = 0
-        mil = 5
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Roksub"
-        dynasty = "the Sage"
-        adm = 4
-        dip = 2
-        mil = 3
+        mil = 4
     }
 }

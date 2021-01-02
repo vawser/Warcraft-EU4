@@ -4,59 +4,17 @@ add_government_reform = tribal_despotism_reform
 primary_culture = mogrosh
 religion = geomancy
 
-capital = 1
+capital = 3242
 
-# The First War
-592.1.1 = {
+# The Scourge
+593.1.1 = {
+    set_global_flag = setup_mogrosh
+    
     monarch = {
         name = "Hibtra"
         dynasty = "the Insane"
         adm = 4
         dip = 4
         mil = 2
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Diglog"
-        dynasty = "the Witty"
-        adm = 3
-        dip = 2
-        mil = 0
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Choerg"
-        dynasty = "the Crazed"
-        adm = 5
-        dip = 0
-        mil = 0
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Varzig"
-        dynasty = "the Bonebreaker"
-        adm = 0
-        dip = 2
-        mil = 3
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Chobik"
-        dynasty = "the Gutter"
-        adm = 2
-        dip = 1
-        mil = 0
     }
 }

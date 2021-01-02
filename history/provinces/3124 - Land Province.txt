@@ -15,4 +15,14 @@ religion = fel
 trade_goods = unknown
 hre = no
 
+# The Scourge
+593.1.1 = {
+	is_city = yes
+    owner = DRD
+    controller = DRD
+    add_core = DRD
+    
+    culture = dreadmaul
+    religion = geomancy
+}
 

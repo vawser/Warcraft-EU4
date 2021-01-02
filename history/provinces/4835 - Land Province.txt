@@ -14,4 +14,14 @@ religion = shamanism
 trade_goods = unknown
 hre = no
 
+# The Burning Legion
+594.1.1 = {
+    is_city = yes
+    owner = TRM
+    controller = TRM
+    add_core = TRM
+    
+    culture = theramore
+    religion = the_holy_light
+}
 

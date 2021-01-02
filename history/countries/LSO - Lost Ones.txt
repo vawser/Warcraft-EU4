@@ -4,10 +4,10 @@ add_government_reform = monastic_order_reform
 primary_culture = lost_ones
 religion = shadow
 
-capital = 1
+capital = 3089
 
-# The First War
-592.1.1 = {
+# The Scourge
+593.1.1 = {
     monarch = {
         name = "Lozord"
         dynasty = "the Coy"
@@ -17,46 +17,3 @@ capital = 1
     }
 }
 
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Lihres"
-        dynasty = "the Crazed"
-        adm = 1
-        dip = 0
-        mil = 2
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Vebiuk"
-        dynasty = "the Sharp"
-        adm = 3
-        dip = 3
-        mil = 0
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Igid"
-        dynasty = "the Titanic"
-        adm = 4
-        dip = 3
-        mil = 1
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Nodoro"
-        dynasty = "the Tactful"
-        adm = 3
-        dip = 2
-        mil = 5
-    }
-}

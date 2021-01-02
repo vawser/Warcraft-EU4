@@ -15,6 +15,7 @@ harpy_ideas = {
             tag = DUS
             tag = WFY
             tag = WIW
+            tag = CIL
         }
 	}
 	free = yes		

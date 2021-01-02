@@ -3,9 +3,9 @@
 # country
 on_startup = {
     events = {
-        wwu_setup.1    # Global
-        wwu_setup.2    # Country
-        wwu_orcish_horde.1
+        wwu_setup.1         # Global
+        wwu_setup.2         # Country
+        wwu_orcish_horde.1  
 	}
 }
 
@@ -1704,17 +1704,6 @@ on_post_mil_advisor_fired = {
 # this = new client state, from = parent country
 on_create_client_state = {
 	#log = "[Root.GetName]: Triggered create_client_state"
-	if = {
-		limit = {
-			has_dlc = "Emperor"
-			FROM = {
-				is_revolutionary = yes
-			}
-			government = republic
-		}
-		add_government_reform = junior_revolutionary_republic_reform
-		set_country_flag = had_revolution
-	}
 }
 
 # this = new target, from = previous target (both can be non-existent tag)

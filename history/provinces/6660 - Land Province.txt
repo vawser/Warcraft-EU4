@@ -14,4 +14,14 @@ religion = shamanism
 trade_goods = unknown
 hre = no
 
+# The Scourge
+593.1.1 = {
+	is_city = yes
+    owner = SCO
+    controller = SCO
+    add_core = SCO
+    
+    culture = scourge
+    religion = cult_of_the_damned
+}
 

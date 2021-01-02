@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 16
-native_ferocity = 4
-native_hostileness = 5
+is_city = yes
+owner = BPC
+controller = BPC
+add_core = BPC
 
 base_tax = 3
 base_production = 1
 base_manpower = 4
 
-culture = primitive
+culture = blackpaw
 religion = shamanism
 
 trade_goods = unknown

@@ -2,9 +2,7 @@
 # Changelog
 #------------------------------
 Add national ideas
-Name provinces
+Name key provinces
 
-Add Burning Legion invasion crisis
 Enable plague event for Lordaeron region
  
-Add Orgrimmar spawn 

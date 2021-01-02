@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 60
-native_ferocity = 9
-native_hostileness = 4
+is_city = yes
+owner = RVP
+controller = RVP
+add_core = RVP
 
 base_tax = 1
 base_production = 3
 base_manpower = 1
 
-culture = primitive
+culture = riverpaw
 religion = shamanism
 
 trade_goods = unknown

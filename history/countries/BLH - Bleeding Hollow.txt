@@ -5,7 +5,7 @@ government_rank = 2
 primary_culture = bleeding_hollow
 religion = fel
 
-capital = 1
+capital = 1642
 
 # The First War
 592.1.1 = {
