@@ -54,7 +54,7 @@ blood_elf_group = {
 }
 
 felblood_group = {
-    graphical_culture = felblood_gfx
+    graphical_culture = blood_elf_gfx
     
     felblood = {
         male_names = { 
@@ -71,7 +71,7 @@ felblood_group = {
 }
 
 void_elf_group = {
-    graphical_culture = void_elf_gfx
+    graphical_culture = blood_elf_gfx
     
     void_elf = {
         male_names = { 
@@ -88,7 +88,7 @@ void_elf_group = {
 }
 
 wretched_group = {
-    graphical_culture = wretched_gfx
+    graphical_culture = blood_elf_gfx
     
     wretched = {
         male_names = { 

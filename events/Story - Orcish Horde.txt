@@ -8,13 +8,10 @@ country_event = {
 	picture = ORCISH_INVASION_eventPicture
 	
     is_triggered_only = yes
+    major = yes
 
 	trigger = {
-        ai = no
-		OR = {
-            tag = SRW
-            tag = TOH
-        }
+        tag = TOH
         NOT = { has_global_flag = orcish_horde_info_flag }
 	}
 	
@@ -27,6 +24,58 @@ country_event = {
 	option = {
 		name = wwu_orcish_horde.1.option.a
 		
+        define_general = {
+            shock = 6
+            fire = 4
+            manuever = 3
+            siege = 3
+            name = "Warchief Blackhand"
+        }
+        define_general = {
+            shock = 4
+            fire = 5
+            manuever = 2
+            siege = 2
+            name = "Rend Blackhand"
+        }
+        
+        custom_tooltip = ORCISH_HORDE_ARMY_TT
+        hidden_effect = {
+            capital_scope = {
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+            }
+        }
 	}
 }
 
@@ -189,5 +238,32 @@ country_event = {
 		name = wwu_orcish_horde.6.option.a
         
         add_yearly_manpower = 1.0
+	}
+}
+
+# AI event to force the First War
+country_event = {
+	id = wwu_orcish_horde.7
+	title = wwu_orcish_horde.7.title
+	desc = wwu_orcish_horde.7.desc
+	picture = DARK_PORTAL_CLOSEUP_eventPicture
+
+    trigger = {
+        tag = TOH
+        ai = yes
+        mission_completed = prepare_for_the_assault
+    }
+    
+    mean_time_to_happen = {
+		days = 1
+	}
+    
+	option = {
+		name = wwu_orcish_horde.6.option.a
+        
+        declare_war_with_cb = {
+            who = SRW
+            casus_belli = cb_azeroth_assault
+        }
 	}
 }

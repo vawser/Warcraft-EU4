@@ -1,4 +1,4 @@
-graphical_culture = ulduar_gfx
+graphical_culture = earthen_gfx
 
 color = { 247 238 52 }
 

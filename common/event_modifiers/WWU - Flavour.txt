@@ -157,3 +157,10 @@ battles_reclaimed = {
 kings_grasp = {
     reduced_liberty_desire = 1000		#It is simply not possible to break true Lich King's grasp
 }
+
+#----------------------------------------------
+# Lordaeron
+#----------------------------------------------
+legacy_of_arathor = {
+    diplomatic_upkeep = 2
+}

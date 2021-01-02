@@ -1,0 +1,105 @@
+orcish_horde_missions = {
+	slot = 6
+	ai = yes
+	
+	potential = {
+		tag = TOH
+	}
+	
+	prepare_for_the_assault = {
+		icon = mission_assemble_an_army
+		required_missions = { }
+
+		trigger = {
+            army_size_percentage = 0.75
+			manpower_percentage = 0.75
+		}
+		effect = {
+			region_elwynn_forest = {
+                add_permanent_claim = ROOT
+            }
+            region_duskwood = {
+                add_permanent_claim = ROOT
+            }
+            region_westfall = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+	
+	devastate_the_humans = {
+		icon = mission_cannons_firing
+		required_missions = { prepare_for_the_assault }
+
+		trigger = {
+			2993 = {
+                controlled_by = ROOT
+            }
+		}
+        provinces_to_highlight = { 
+            province_id = 2993
+        }
+		effect = {
+			add_country_modifier = {
+				name = "orc_might"
+				duration = -1 
+			}
+		}
+	}
+	
+	consolidate_conquests = {
+		icon = mission_unite_home_region
+		required_missions = { devastate_the_humans }
+
+		trigger = {
+			num_of_cities = 70
+		}
+		effect = {
+			region_redridge_mountains = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+	
+	destroy_lakeshire = {
+		icon = mission_empire
+		required_missions = { consolidate_conquests }
+
+		trigger = {
+			region_redridge_mountains = {
+                type = all
+                is_empty = no
+                owned_by = ROOT
+            }
+		}
+        provinces_to_highlight = { 
+            region = region_redridge_mountains
+            is_empty = no
+        }
+		effect = {
+            region_burning_steppes = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+	
+	control_blackrock_mountain = {
+		icon = mission_unite_home_region
+		required_missions = { destroy_lakeshire }
+
+		trigger = {
+			1717 = {
+                owned_by = ROOT
+            }
+		}
+        provinces_to_highlight = {
+            province_id = 1717
+        }
+		effect = {
+			add_country_modifier = {
+				name = "blackrock_mountain"
+				duration = -1 
+			}
+		}
+	}
+}

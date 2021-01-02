@@ -747,20 +747,11 @@
  #-----------------------------------------------
  # Terrain
  #-----------------------------------------------
- desolate_waste: "Desolate"
- desolate_waste_desc: "Desolate Waste represents land that has undergone catastrophic damage, often due to war, leaving it lifeless."
-
  urban: "Urban"
- urban_desc: "Urban represents land dominated by dwellings occupied by citizens of the nation whom owns the land."
- suspended: "Suspended"
- suspended_desc: "Suspended represents land that is suspended in the air by some fashion."
- 
- nethertouched: "Nether-touched"
- nethertouched_desc: "Nether-touched represents land that is or has been exposed to the Twisting Nether in some form."
- arcanetouched: "Arcane-touched"
- arcanetouched_desc: "Arcane-touched represents land that is or has been exposed to Arcane energies in some form."
- feltouched: "Fel-touched"
- feltouched_desc: "Fel-touched represents land that is or has been exposed to Fel energies in some form."
+ urban_desc: "Represents land dominated by dwellings occupied by citizens of the nation whom owns the land."
+
+ sheltered_urban: "Sheltered Urban"
+ sheltered_urban_desc: "Represents land dominated by dwellings occupied by citizens of the nation whom owns the land."
  
  #-----------------------------------------------
  # Canals

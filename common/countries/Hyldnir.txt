@@ -1,4 +1,4 @@
-graphical_culture = frost_vrykul_gfx
+graphical_culture = vrykul_gfx
 
 color = { 233 160 44 }
 

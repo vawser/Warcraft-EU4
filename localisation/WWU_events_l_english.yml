@@ -3793,6 +3793,8 @@
  wwu_orcish_horde.1.desc: "The kingdom of Stormwind was a prosperous one. The humans who dwelled there turned the land into a paradise. The Knights of Stormwind, and the Clerics of Northshire Abbey, roamed far and wide, serving the king's people with honor and justice. \n\nThe well-trained armies of the king were maintaining a lasting peace since the days of the Gnoll War. The people of Azeroth were unbeknownst to the fact that the powerful human mage Medivh was seeking a way to destroy this kingdom and wrought terror on the lands. With the help of an other-worldy being named Gul'dan, the two managed to open a portal between their two worlds, a portal which would later became known as the Dark Portal.\n\nThrough the portal came the Orcish Horde. The humans did not know from whence these foul creatures came, and none were prepared for the terror that they spawned. When reports of mysterious creatures lurking around the Black Morass reached Stormwind, rumors spread through the streets that they were either vengeful spirits, trolls armed with some new breed of power, or a strange race from across the Great Sea. Their warriors wielded axe and spear with deadly proficiency, while others rode dark wolves as black as the moonless night. \n\nUnimagined were the destructive powers of their evil magic, derived from the fires of the Twisting Nether. Filled with the demonic blood of Mannoroth, these creatures lusted for war and would destroy anything that prevented them from reaching their goal; to conquer Azeroth."
  wwu_orcish_horde.1.option.a: "..."
  
+ ORCISH_HORDE_ARMY_TT: "The Orcish Horde passes through the Dark Portal."
+ 
  wwu_orcish_horde.2.title: "The King's Champion"
  wwu_orcish_horde.2.desc: "King Llane has requested Lothar deal with the orcish menance. Lothar, the King's Champion, took it upon himself to study the weakness of the orcs. It appears that the orcs become vulnerable along their lines of retreat, which is where Lothar's knights shall strike."
  wwu_orcish_horde.2.option.a: "Ingenious!"
@@ -3813,3 +3815,22 @@
  wwu_orcish_horde.6.title: "Reinforcements from the Dark Portal"
  wwu_orcish_horde.6.desc: "More denizens of Outland flow through the Dark Portal into Azeroth, ready to join the Orcish Horde in its conquest of Azeroth."
  wwu_orcish_horde.6.option.a: "Huzzah!"
+ 
+ wwu_orcish_horde.7.title: "War with Stormwind"
+ wwu_orcish_horde.7.desc: "Declare war on Stormwind."
+ wwu_orcish_horde.7.option.a: "WAR!"
+ 
+ #-------------------------------------
+ # Ruler
+ #-------------------------------------
+ wwu_ruler.1.title: "Inspiration"
+ wwu_ruler.1.desc: "As a long-lived individual, [Root.Monarch.GetName]'s skills wax and wane over time. Often it is pivotal conversations with individuals of merit that cause such shifts. A recent conversation has spurred this, what was the response that results in this?"
+ wwu_ruler.1.option.a: "A reflective observation"
+ wwu_ruler.1.option.b: "A witty retort"
+ wwu_ruler.1.option.c: "An aggressive shout"
+ 
+ wwu_ruler.2.title: "Degredation"
+ wwu_ruler.2.desc: "As a long-lived individual, [Root.Monarch.GetName]'s skills wax and wane over time. Occasionally mistakes can cause a permanent loss of confidence, and in that skill. Which mistake caused this?"
+ wwu_ruler.2.option.a: "An administrative mistake"
+ wwu_ruler.2.option.b: "A diplomatic blunder"
+ wwu_ruler.2.option.c: "A military failure"

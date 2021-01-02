@@ -334,7 +334,7 @@ blood_troll_group = {
 	}
 }
 dark_troll_group = {
-    graphical_culture = dark_troll_gfx 
+    graphical_culture = jungle_troll_gfx 
     
     dark_troll = {
         male_names = { 

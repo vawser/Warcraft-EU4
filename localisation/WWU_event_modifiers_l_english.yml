@@ -167,6 +167,9 @@
  legendary_vitality: "Legendary Vitality"
  desc_unusual_vitality: "This ruler is very long lived."
  
+ legacy_of_arathor: "Legacy of Arathor"
+ desc_legacy_of_arathor: ""
+ 
  #------------------------------------------------
  # Other
  #------------------------------------------------
@@ -892,6 +895,7 @@
  desc_law_and_order: "We are keeping law and order in this province."
  
  #-------------------------------
- # Missions
+ # Misc
  #-------------------------------
- 
+ songs_of_the_bard: "Songs of the Bard"
+ desc_songs_of_the_bard: ""

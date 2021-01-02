@@ -273,6 +273,7 @@ country_event = {
 		}
         
 		add_harmonization_progress = -10
+        add_stability = 1
 	}
 }
 

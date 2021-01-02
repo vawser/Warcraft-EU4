@@ -13,8 +13,9 @@ capital = 3668
         name = "Elucendri"
         dynasty = "Skywater"
         adm = 3
-        dip = 3
+        dip = 4
         mil = 1
         female = yes
+        birth_date = 120.1.1
     }
 }

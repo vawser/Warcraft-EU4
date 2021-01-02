@@ -203,8 +203,8 @@ upm_dark_portal = {
         NOT = { has_country_flag = dark_portal_destroyed }
 	}
     
-    global_manpower_modifier = 0.5
-    land_forcelimit_modifier = 0.5
+    global_manpower_modifier = 1.0
+    land_forcelimit_modifier = 1.0
 }
 
 upm_ironforge = {

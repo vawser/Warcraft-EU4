@@ -1,4 +1,4 @@
-graphical_culture = frost_dwarf_gfx
+graphical_culture = dwarf_gfx
 
 color = { 131 164 204 }
 

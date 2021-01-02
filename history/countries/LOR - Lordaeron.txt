@@ -17,7 +17,12 @@ historical_friend = QUE
 		adm = 4
 		dip = 5
 		mil = 3 
- 	} 
+ 	}
+    
+    add_country_modifier = {
+        name = legacy_of_arathor
+        duration = 7200
+    }
 }
 
 # Second War

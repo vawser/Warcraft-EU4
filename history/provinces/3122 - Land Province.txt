@@ -15,4 +15,4 @@ religion = fel
 trade_goods = unknown
 hre = no
 
-
+add_building = wow_fort_1

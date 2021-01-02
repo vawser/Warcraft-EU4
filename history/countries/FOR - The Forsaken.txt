@@ -26,7 +26,4 @@ capital = 1
 			siege = 4
 		}
 	}
-	
-    clear_scripted_personalities = yes
-    add_ruler_personality = immortal_personality
 }

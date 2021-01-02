@@ -1,4 +1,4 @@
-graphical_culture = hill_dwarf_gfx
+graphical_culture = dwarf_gfx
 
 color = { 53 192 73 }
 

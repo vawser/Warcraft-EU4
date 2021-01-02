@@ -1,5 +1,5 @@
 ulduar_giant_group = {
-    graphical_culture = ulduar_gfx
+    graphical_culture = earthen_gfx
     
     ulduar = {
         primary = ULD

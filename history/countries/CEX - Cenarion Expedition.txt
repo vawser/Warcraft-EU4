@@ -16,5 +16,6 @@ capital = 5048
         dip = 2
         mil = 2
         female = yes
+        birth_date = 210.1.1
     }
 }

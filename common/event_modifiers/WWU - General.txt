@@ -248,3 +248,7 @@ world_tree_destruction_max = {
 	local_development_cost = 1
 	allowed_num_of_buildings = -3
 }
+
+songs_of_the_bard = {
+    prestige = 1
+}

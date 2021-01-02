@@ -9,7 +9,7 @@ titan_vitality = {
 		culture_group = titan_group
 	}
 
-	monarch_lifespan = 100.0
+	monarch_lifespan = 10.0
 }
 dwarven_vitality = {
 	potential = {
@@ -37,7 +37,7 @@ draenei_vitality = {
 		culture_group = draenei_group
 	}
 
-	monarch_lifespan = 5.0
+	monarch_lifespan = 10.0
 }
 night_elf_vitality = {
 	potential = {
@@ -47,7 +47,7 @@ night_elf_vitality = {
 		culture_group = night_elf_group
 	}
 
-	monarch_lifespan = 4.0
+	monarch_lifespan = 10.0
 }
 high_elf_vitality = {
 	potential = {
@@ -65,7 +65,7 @@ high_elf_vitality = {
         }
 	}
 
-	monarch_lifespan = 4.0
+	monarch_lifespan = 10.0
 }
 qiraji_vitality = {
 	potential = {
@@ -75,7 +75,7 @@ qiraji_vitality = {
 		culture_group = qiraji_group
 	}
 
-	monarch_lifespan = 100.0
+	monarch_lifespan = 10.0
 }
 nerubian_vitality = {
 	potential = {
@@ -85,7 +85,7 @@ nerubian_vitality = {
 		culture_group = nerubian_group
 	}
 
-	monarch_lifespan = 100.0
+	monarch_lifespan = 10.0
 }
 mantid_vitality = {
 	potential = {
@@ -95,7 +95,7 @@ mantid_vitality = {
 		culture_group = mantid_group
 	}
 
-	monarch_lifespan = 100.0
+	monarch_lifespan = 10.0
 }
 demon_vitality = {
 	potential = {
@@ -105,7 +105,7 @@ demon_vitality = {
 		culture_group = demon_group
 	}
 
-	monarch_lifespan = 100.0
+	monarch_lifespan = 10.0
 }
 mogu_vitality = {
 	potential = {
@@ -113,26 +113,6 @@ mogu_vitality = {
 	}
 	trigger = {
 		culture_group = mogu_group
-	}
-
-	monarch_lifespan = 3.0
-}
-pandaren_vitality = {
-	potential = {
-		culture_group = pandaren_group
-	}
-	trigger = {
-		culture_group = pandaren_group
-	}
-
-	monarch_lifespan = 3.0
-}
-arrakoa_vitality = {
-	potential = {
-		culture_group = arrakoa_group
-	}
-	trigger = {
-		culture_group = arrakoa_group
 	}
 
 	monarch_lifespan = 3.0
@@ -145,5 +125,71 @@ tolvir_vitality = {
 		culture_group = tolvir_group
 	}
 
-	monarch_lifespan = 100.0
+	monarch_lifespan = 10.0
+}
+troll_vitality = {
+	potential = {
+        OR = {
+            culture_group = forest_troll_group
+            culture_group = jungle_troll_group
+            culture_group = frost_troll_group
+            culture_group = sand_troll_group
+            culture_group = zandalari_troll_group
+            culture_group = blood_troll_group
+            culture_group = dark_troll_group
+        }
+	}
+	trigger = {
+		OR = {
+            culture_group = forest_troll_group
+            culture_group = jungle_troll_group
+            culture_group = frost_troll_group
+            culture_group = sand_troll_group
+            culture_group = zandalari_troll_group
+            culture_group = blood_troll_group
+            culture_group = dark_troll_group
+        }
+	}
+
+	monarch_lifespan = 2.0
+}
+dragon_vitality = {
+	potential = {
+        is_dragon_culture_group = yes
+	}
+	trigger = {
+		is_dragon_culture_group = yes
+	}
+
+	monarch_lifespan = 10.0
+}
+nightborne_vitality = {
+	potential = {
+		OR = {
+            culture_group = nightborne_group
+            culture_group = faldorei_group
+            culture_group = nightfallen_group
+            culture_group = felborne_group
+        }
+	}
+	trigger = {
+		OR = {
+            culture_group = nightborne_group
+            culture_group = faldorei_group
+            culture_group = nightfallen_group
+            culture_group = felborne_group
+        }
+	}
+
+	monarch_lifespan = 10.0
+}
+naga_vitality = {
+	potential = {
+		culture_group = naga_group
+	}
+	trigger = {
+		culture_group = naga_group
+	}
+
+	monarch_lifespan = 10.0
 }

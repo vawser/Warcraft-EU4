@@ -1,0 +1,22 @@
+is_immortal_lifespan = {
+    OR = {
+        has_country_modifier = titan_vitality
+        has_country_modifier = draenei_vitality
+        has_country_modifier = night_elf_vitality
+        has_country_modifier = high_elf_vitality
+        has_country_modifier = qiraji_vitality
+        has_country_modifier = nerubian_vitality
+        has_country_modifier = mantid_vitality
+        has_country_modifier = demon_vitality
+        has_country_modifier = troll_vitality
+        has_country_modifier = dragon_vitality
+        has_country_modifier = nightborne_vitality
+        has_country_modifier = naga_vitality
+    }
+}
+is_increased_lifespan = {
+    OR = {
+        has_country_modifier = dwarven_vitality
+        has_country_modifier = mogu_vitality
+    }
+}

@@ -358,7 +358,7 @@ country_event = {
 
 	trigger = {
 		NOT = {
-			has_country_modifier = the_sound_of_music
+			has_country_modifier = songs_of_the_bard
 		}
 		adm_power = 10
 		years_of_income = 0.1
@@ -371,7 +371,7 @@ country_event = {
 		name = wwu_cultural.9.opt1
 		
 		add_country_modifier = {
-			name = the_sound_of_music
+			name = songs_of_the_bard
 			duration = 365
 		}
 		add_adm_power = -10

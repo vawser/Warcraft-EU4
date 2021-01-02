@@ -152,7 +152,6 @@ assasinate_ruler = {
                                 heir_age = 20
                                 OR = {
                                     is_dragon_culture_group = yes
-                                    culture_group = arrakoa_group
                                     culture_group = titan_group
                                     culture_group = harpy_group
                                     culture_group = ethereal_group

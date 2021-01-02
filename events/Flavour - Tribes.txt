@@ -532,6 +532,10 @@ country_event = {
 	
 	is_triggered_only = yes	
 
+    trigger = {
+		is_warband_government_type = yes
+	}
+    
 	mean_time_to_happen = {
 		days = 1
 
@@ -563,6 +567,10 @@ country_event = {
 	
 	is_triggered_only = yes	
 
+    trigger = {
+		is_warband_government_type = yes
+	}
+    
 	mean_time_to_happen = {
 		days = 1
 
@@ -671,6 +679,10 @@ country_event = {
 	
 	is_triggered_only = yes	
 
+    trigger = {
+		is_warband_government_type = yes
+	}
+    
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -739,6 +751,10 @@ country_event = {
 	
 	is_triggered_only = yes	
 
+    trigger = {
+		is_warband_government_type = yes
+	}
+    
 	mean_time_to_happen = {
 		days = 1
 

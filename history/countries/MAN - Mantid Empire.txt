@@ -20,6 +20,7 @@ add_country_modifier = {
         adm = 5
         dip = 1
         mil = 6
+        birth_date = 20.1.1
     }
 }
 

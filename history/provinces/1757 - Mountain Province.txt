@@ -14,6 +14,8 @@ religion = the_holy_light
 trade_goods = unknown
 hre = no
 
+add_building = wow_fort_2
+
 add_province_triggered_modifier = upm_ironforge
 
 center_of_trade = 1

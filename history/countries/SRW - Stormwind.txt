@@ -12,9 +12,10 @@ capital = 2993
     monarch = { 
 		name = "Llane" 
 		dynasty = "Wrynn" 
-		adm = 3
-		dip = 3
-		mil = 4 
+		adm = 6
+		dip = 5
+		mil = 5
+        birth_date = 540.1.1
  	}
     heir = {
 		name = "Varian"
@@ -24,19 +25,10 @@ capital = 2993
 		death_date = 650.1.1
 		claim = 100
 		adm = 3
-		dip = 3
-		mil = 5
+		dip = 4
+		mil = 6
 	}
-}
-
-# Second War
-596.1.1 = {
-    monarch = { 
-		name = "Varian" 
-		dynasty = "Wrynn" 
-		adm = 3
-		dip = 3
-		mil = 5
- 	}
+    clear_scripted_personalities = yes
+	add_ruler_personality = just_personality
 }
 

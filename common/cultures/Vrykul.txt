@@ -84,7 +84,7 @@ vrykul_group = {
 }
     
 kvaldir_group = {
-    graphical_culture = kvaldir_gfx
+    graphical_culture = vrykul_gfx
     
     skadir = { 
         primary = SKA
@@ -113,7 +113,7 @@ kvaldir_group = {
 }
 
 frost_vrykul_group = {
-    graphical_culture = frost_vrykul_gfx
+    graphical_culture = vrykul_gfx
 
     hyldnir = { 
         primary = HYL

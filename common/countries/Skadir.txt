@@ -1,4 +1,4 @@
-graphical_culture = kvaldir_gfx
+graphical_culture = vrykul_gfx
 
 color = { 74 162 8 }
 

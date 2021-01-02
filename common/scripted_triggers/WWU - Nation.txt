@@ -99,7 +99,6 @@ is_outlander = {
 		culture_group = draenei_group
 		culture_group = broken_group
 		culture_group = ogre_group
-		culture_group = arrakoa_group
     }
 }
 
