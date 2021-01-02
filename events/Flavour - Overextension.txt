@@ -1,10 +1,10 @@
-namespace = overextension
+namespace = wwu_overextension
 
 # Troops Deserting
 country_event = {
-	id = overextension.1
-	title = "EVTNAME748"
-	desc = "EVTDESFER8"
+	id = wwu_overextension.1
+	title = wwu_overextension.1.title
+	desc = wwu_overextension.1.desc
 	picture = MILITARY_CAMP_eventPicture
 	
 	trigger = {
@@ -17,7 +17,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA748"
+		name = wwu_overextension.1.option.a
 		
 		add_war_exhaustion = 1
 		add_yearly_manpower = -0.5
@@ -26,9 +26,9 @@ country_event = {
 
 # Widespread Opposition
 country_event = {
-	id = overextension.2
-	title = "EVTNAME749"
-	desc = "EVTDESFER9"
+	id = wwu_overextension.2
+	title = wwu_overextension.2.title
+	desc = wwu_overextension.2.desc
 	picture = DEBATE_REPUBLICAN_eventPicture
 	
 	trigger = {
@@ -41,7 +41,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA749"
+		name = wwu_overextension.2.option.a
 		
 		add_stability = -1
 	}
@@ -49,9 +49,9 @@ country_event = {
 
 # Bad Reputation!
 country_event = {
-	id = overextension.3
-	title = "EVTNAME750"
-	desc = "EVTDESC750"
+	id = wwu_overextension.3
+	title = wwu_overextension.3.title
+	desc = wwu_overextension.3.desc
 	picture = DIPLOMACY_eventPicture
 	
 	is_triggered_only = yes
@@ -65,7 +65,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA750"
+		name = wwu_overextension.3.option.a
 		
 		add_prestige = -25
 	}
@@ -73,9 +73,9 @@ country_event = {
 
 # Inflation
 country_event = {
-	id = overextension.4
-	title = "EVTNAME751"
-	desc = "EVTDESC751"
+	id = wwu_overextension.4
+	title = wwu_overextension.4.title
+	desc = wwu_overextension.4.desc
 	picture = OVEREXTENSION_eventPicture
 	
 	is_triggered_only = yes
@@ -89,7 +89,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA751"
+		name = wwu_overextension.4.option.a
 		
 		add_inflation = 1
 	}
@@ -97,9 +97,9 @@ country_event = {
 
 # Officers Deserting
 country_event = {
-	id = overextension.5
-	title = "EVTNAME752"
-	desc = "EVTDESC752"
+	id = wwu_overextension.5
+	title = wwu_overextension.5.title
+	desc = wwu_overextension.5.desc
 	picture = LAND_MILITARY_eventPicture
 
 	is_triggered_only = yes
@@ -113,7 +113,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA752"
+		name = wwu_overextension.5.option.a
 		
 		add_army_tradition = -10
 	}
@@ -121,9 +121,9 @@ country_event = {
 
 # Merchants Resented
 country_event = {
-	id = overextension.6
-	title = "EVTNAME753"
-	desc = "EVTDESC753"
+	id = wwu_overextension.6
+	title = wwu_overextension.6.title
+	desc = wwu_overextension.6.desc
 	picture = MERCHANTS_TALKING_eventPicture
 
 	is_triggered_only = yes
@@ -146,7 +146,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA753"
+		name = wwu_overextension.6.option.a
 		
 		random_active_trade_node = {
 			limit = {
@@ -179,9 +179,9 @@ country_event = {
 
 # Merchants Assassinated!
 country_event = {
-	id = overextension.7
-	title = "EVTNAME773"
-	desc = "EVTDESC773"
+	id = wwu_overextension.7
+	title = wwu_overextension.7.title
+	desc = wwu_overextension.7.desc
 	picture = WOW_ASSASSINATION_eventPicture
 
 	is_triggered_only = yes
@@ -204,7 +204,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA773"
+		name = wwu_overextension.7.opion.a
 		
 		random_active_trade_node = {
 			limit = {
@@ -228,9 +228,9 @@ country_event = {
 
 # Legitimacy Questioned
 country_event = {
-	id = overextension.8
-	title = "EVTNAME754"
-	desc = "EVTDESC754"
+	id = wwu_overextension.8
+	title = wwu_overextension.8.title
+	desc = wwu_overextension.8.desc
 	picture = COURT_eventPicture
 	
 	is_triggered_only = yes
@@ -246,7 +246,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA754"
+		name = wwu_overextension.8.option.a
 		
 		if = {
 			limit = { NOT = { is_warband_government_type = yes } }
@@ -261,9 +261,9 @@ country_event = {
 
 # Magistrates Resigns
 country_event = {
-	id = overextension.9
-	title = "EVTNAME755"
-	desc = "EVTDESC755"
+	id = wwu_overextension.9
+	title = wwu_overextension.9.title
+	desc = wwu_overextension.9.desc
 	picture = DEBATE_REPUBLICAN_eventPicture
 
 	is_triggered_only = yes
@@ -277,7 +277,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA755"
+		name = wwu_overextension.option.a
 		
 		add_dip_power = -50
 	}
@@ -285,9 +285,9 @@ country_event = {
 
 # Advisor Resigns
 country_event = {
-	id = overextension.10
-	title = "EVTNAME756"
-	desc = "EVTDESC756"
+	id = wwu_overextension.10
+	title = wwu_overextension.10.title
+	desc = wwu_overextension.10.desc
 	picture = OVEREXTENSION_eventPicture
 	
 	is_triggered_only = yes
@@ -306,7 +306,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA756"
+		name = wwu_overextension.10.option.a
 		
 		reduce_meritocracy_effect = yes
 		if = {

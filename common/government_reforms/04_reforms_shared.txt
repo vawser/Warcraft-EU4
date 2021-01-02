@@ -19,7 +19,7 @@ wwu_states_general_reform = {
 	}
 
 	removed_effect = {
-		country_event = { id = wwu_states_general.1 }
+		country_event = { id = wwu_government.8 }
 	}
 
 	conditional = {

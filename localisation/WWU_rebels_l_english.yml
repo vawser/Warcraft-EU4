@@ -202,11 +202,11 @@
  fleshshaping_rebels_demand_desc: "They demand freedom to pursue the promises of Fleshshaping"
  
  # Elemental
- shamanism_rebels_title: "Ancestral Adherents"
- shamanism_rebels_name: "Ancestral Adherents"
+ shamanism_rebels_title: "Shamanism Adherents"
+ shamanism_rebels_name: "Shamanism Adherents"
  shamanism_rebels_desc: "They demand freedom to follow their shamanism beliefs"
- shamanism_rebels_army: "Ancestral Adherents"
- shamanism_rebels_demand: "Convert to Ancestral"
+ shamanism_rebels_army: "Shamanism Adherents"
+ shamanism_rebels_demand: "Convert to Shamanism"
  shamanism_rebels_demand_desc: "They demand freedom to follow their shamanism beliefs"
  
  fire_rebels_title: "Fire Adherents"

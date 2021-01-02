@@ -1535,9 +1535,9 @@ azshara_rebels = {
 	}
 }
 #---------------------------------
-# Ancestral
+# Shamanism
 #---------------------------------
-ancestral_rebels = {
+shamanism_rebels = {
 	color = { 205 135 122 }
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
@@ -1691,7 +1691,7 @@ ancestral_rebels = {
 	}
 
 	# Localisation for their demands
-	demands_description = "ancestral_rebels_demand"
+	demands_description = "shamanism_rebels_demand"
 
 	# Country Scope
 	demands_enforced_effect = {

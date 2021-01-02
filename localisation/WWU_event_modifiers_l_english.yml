@@ -1,4 +1,13 @@
 ﻿l_english:
+ incensed_people: "Incensed People"
+ desc_incensed_people: "We have used force on these people, and they resent us for that."
+ 
+ denied_autonomy: "Denied Autonomy"
+ desc_denied_autonomy: "We have denied the people of their autonomy, and they resent us for that."
+ 
+ sexually_frustrated: "Sexually Frustrated"
+ desc_sexually_frustrated: "We have denied the people of this settlement an outlet for their carnal desires."
+ 
  #-----------------------------------------------
  # Factions
  #-----------------------------------------------

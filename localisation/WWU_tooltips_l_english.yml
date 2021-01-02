@@ -1,4 +1,8 @@
 ﻿l_english:
+ PRICE_FLUCTUATION: "Annual Trade Changes"
+ 
+ remains_ruler_tt: "[Root.Monarch.GetName] ([Root.Monarch.GetAdm] £adm£ / [Root.Monarch.GetDip] £dip£ / [Root.Monarch.GetMil] £mil£ ) remains ruler."
+ 
  EVIL_ACTION_TOOLTIP: "\n§RWARNING: This action is considered as evil by other countries and there may have serious consequences!§!"
 
  DIP_INCOMP_NOTAVAILABLE: "Not available for this country."

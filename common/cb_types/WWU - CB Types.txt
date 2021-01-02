@@ -1,21 +1,21 @@
-cb_continental = {
-	valid_for_subject = no
+# cb_continental = {
+	# valid_for_subject = no
 
-	prerequisites = {
-		num_of_colonists = 1
-		any_owned_province = {
-			has_port = yes
-		}
-		FROM = {
-			any_owned_province = {
-				NOT = { same_continent = ROOT }
-				has_port = yes
-			}
-		}
-	}
+	# prerequisites = {
+		# num_of_colonists = 1
+		# any_owned_province = {
+			# has_port = yes
+		# }
+		# FROM = {
+			# any_owned_province = {
+				# NOT = { same_continent = ROOT }
+				# has_port = yes
+			# }
+		# }
+	# }
 	
-	war_goal = continental_landing
-}
+	# war_goal = continental_landing
+# }
 
 cb_scourge = {
 	valid_for_subject = no
@@ -90,54 +90,66 @@ cb_legion_invasion = {
 	war_goal = legion_invasion_goal
 }
 
-cb_enslavement = {
-	valid_for_subject = no
+# cb_enslavement = {
+	# valid_for_subject = no
 	
-	prerequisites = {
-		has_government_attribute = can_enslave
-		NOT = { enslavement = 1 }
-		FROM = {
-			is_neighbor_of = ROOT
-			NOT = { total_development = 75 }
-			NOT = { num_of_cities = 3 }
-		}
-	}
+	# prerequisites = {
+		# has_government_attribute = can_enslave
+		# NOT = { enslavement = 1 }
+		# FROM = {
+			# is_neighbor_of = ROOT
+			# NOT = { total_development = 75 }
+			# NOT = { num_of_cities = 3 }
+		# }
+	# }
 	
-	war_goal = forced_enslavement_goal
-}
+	# war_goal = forced_enslavement_goal
+# }
 
-cb_magical_enslavement = {
-	valid_for_subject = no
+# cb_magical_enslavement = {
+	# valid_for_subject = no
 	
-	prerequisites = {
-		OR = {
-			AND = {
-				NOT = { magical_enslavement = 1 }
-				OR = {
-					religion_group = old_gods_group
-					religion = fel
-				}
-				FROM = {
-					is_neighbor_of = ROOT
-					NOT = { total_development = 100 }
-					NOT = { num_of_cities = 5 }
-				}
-			}
-			AND = {
-				has_country_modifier = lich_kings_crown
-				FROM = {
-					culture_group = ROOT
-				}
-			}
-		}
-	}
+	# prerequisites = {
+		# OR = {
+			# AND = {
+				# NOT = { magical_enslavement = 1 }
+				# OR = {
+					# religion_group = old_gods_group
+					# religion = fel
+				# }
+				# FROM = {
+					# is_neighbor_of = ROOT
+					# NOT = { total_development = 100 }
+					# NOT = { num_of_cities = 5 }
+				# }
+			# }
+			# AND = {
+				# has_country_modifier = lich_kings_crown
+				# FROM = {
+					# culture_group = ROOT
+				# }
+			# }
+		# }
+	# }
 	
-	war_goal = forced_magical_enslavement_goal
-}
+	# war_goal = forced_magical_enslavement_goal
+# }
 
 cb_fury_of_dragons = {
 	valid_for_subject = no
 	is_triggered_only = yes
 	
 	war_goal = annex_country
+}
+
+cb_imperial_wwu = {
+	valid_for_subject = no
+
+	prerequisites = {
+		has_idea = wwu_imperialism_ideas_1
+		is_free_or_tributary_trigger = yes
+		is_revolution_target = no
+	}
+
+	war_goal = take_capital_imperial
 }

@@ -2224,12 +2224,12 @@ wwu_imperialism_ideas = {
     }
     # Imperial Frontiers
     wwu_imperialism_ideas_1 = {
-        may_establish_frontier = yes
         may_explore = yes
     }
     # Loyal Colonists
     wwu_imperialism_ideas_2 = {
         colonists = 1
+        may_establish_frontier = yes
     }
     # Enforced Migration
     wwu_imperialism_ideas_3 = {

@@ -5,8 +5,8 @@ namespace = on_action_special
 # Using has_country_flag = declared_war_to@ condition, we can tell whether a country was at war with another country.
 country_event = {
 	id = on_action_special.1
-	title = e_l
-	desc = e_l
+	title = on_action_special.1.title
+	desc = on_action_special.1.desc
 	picture = ES_START_eventPicture
 	
 	hidden = yes
@@ -38,15 +38,15 @@ country_event = {
 	}
 	
 	option = {
-		name = e_l
+		name = on_action_special.1.option.a
 	}
 }
 
 # To remove declared_war_to flag.
 country_event = {
 	id = on_action_special.2
-	title = e_l
-	desc = e_l
+	title = on_action_special.2.title
+	desc = on_action_special.2.desc
 	picture = ES_START_eventPicture
 	
 	hidden = yes
@@ -80,6 +80,6 @@ country_event = {
 	}
 	
 	option = {
-		name = e_l
+		name = on_action_special.2.option.a
 	}
 }

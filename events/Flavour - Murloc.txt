@@ -1,12 +1,10 @@
-namespace = murloc
+namespace = wwu_murloc_flavour
 
 country_event = {
-	id = murloc.1
-	title = murloc_mating_call.title
-	desc = murloc_mating_call.desc
+	id = wwu_murloc_flavour.1
+	title = wwu_murloc_flavour.1.title
+	desc = wwu_murloc_flavour.1.desc
 	picture = OGRE_MAGE_eventPicture
-    
-	fire_only_once = no
 	
 	trigger = {
 		culture_group = murloc_group
@@ -18,7 +16,7 @@ country_event = {
 	}
 	
 	option = {
-		name = murloc_mating_call.opt1
+		name = wwu_murloc_flavour.1.opt1
 		
 		random_list = {
 			20 = {
@@ -36,7 +34,7 @@ country_event = {
 	}
 	
 	option = {
-		name = murloc_mating_call.opt2
+		name = wwu_murloc_flavour.1.opt2
 		
 		add_treasury = -200
 		add_country_modifier = { 
@@ -47,20 +45,18 @@ country_event = {
 	}
 	
 	option = {
-		name = murloc_mating_call.opt3
+		name = wwu_murloc_flavour.1.opt3
 		
 		add_prestige = -5
 	}
 }
 
 country_event = {
-	id = murloc.2
-	title = murloc_net.title
-	desc = murloc_net.desc
+	id = wwu_murloc_flavour.2
+	title = wwu_murloc_flavour.2.title
+	desc = wwu_murloc_flavour.2.desc
 	picture = OGRE_MAGE_eventPicture
-    
-	fire_only_once = no
-	
+
 	trigger = {
 		culture_group = murloc_group
 		any_owned_province = {
@@ -74,7 +70,7 @@ country_event = {
 	}
 	
 	option = {
-		name = murloc_net.opt1
+		name = wwu_murloc_flavour.2.opt1
 		
 		every_owned_province = {
 			limit = {
@@ -87,7 +83,7 @@ country_event = {
 	}
 	
 	option = {
-		name = murloc_net.opt2
+		name = wwu_murloc_flavour.2.opt2
 		
 		random_owned_province = {
 			limit = {
@@ -100,20 +96,18 @@ country_event = {
 	}
 	
 	option = {
-		name = murloc_net.opt3
+		name = wwu_murloc_flavour.2.opt3
 		
 		
 	}
 }
 
 country_event = {
-	id = murloc.3
-	title = murloc_king_mrgl.title
-	desc = murloc_king_mrgl.desc
+	id = wwu_murloc_flavour.3
+	title = wwu_murloc_flavour.3.title
+	desc = wwu_murloc_flavour.3.desc
 	picture = OGRE_MAGE_eventPicture
     
-	fire_only_once = no
-	
 	trigger = {
 		culture_group = murloc_group
 		NOT = { natural_scientist = 3 }
@@ -124,7 +118,7 @@ country_event = {
 	}
 	
 	option = {
-		name = murloc_king_mrgl.opt1
+		name = wwu_murloc_flavour.3.opt1
 		
 		define_advisor = {
 			type = natural_scientist
@@ -142,7 +136,7 @@ country_event = {
 	}
 	
 	option = {
-		name = murloc_king_mrgl.opt2
+		name = wwu_murloc_flavour.3.opt2
 		
 		add_adm_power = 50
 	}

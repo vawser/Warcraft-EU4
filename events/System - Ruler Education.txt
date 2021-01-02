@@ -14,8 +14,18 @@ country_event = {
 	trigger = {
 	    NOT = { government = tribal }
 	    NOT = { government = native }
-	    NOT = { primary_culture = kul_tiras }
-	    NOT = { has_country_flag = missing_diplomat_storyline }
+        
+        NOT = { has_ruler_modifier = ruler_education_adm_1_civilized }
+        NOT = { has_ruler_modifier = ruler_education_adm_2_civilized }
+        NOT = { has_ruler_modifier = ruler_education_adm_3_civilized }
+        
+        NOT = { has_ruler_modifier = ruler_education_dip_1_civilized }
+        NOT = { has_ruler_modifier = ruler_education_dip_2_civilized }
+        NOT = { has_ruler_modifier = ruler_education_dip_3_civilized }
+        
+        NOT = { has_ruler_modifier = ruler_education_mil_1_civilized }
+        NOT = { has_ruler_modifier = ruler_education_mil_2_civilized }
+        NOT = { has_ruler_modifier = ruler_education_mil_3_civilized }
 	}
 
 	option = {
@@ -139,11 +149,22 @@ country_event = {
     is_triggered_only = yes
     
 	trigger = {
-	   OR = {
+        OR = {
 		   government = tribal
 		   government = native
-	   }
-		NOT = { has_country_flag = missing_diplomat_storyline }
+        }
+        
+        NOT = { has_ruler_modifier = ruler_education_adm_1_savage }
+        NOT = { has_ruler_modifier = ruler_education_adm_2_savage }
+        NOT = { has_ruler_modifier = ruler_education_adm_3_savage }
+        
+        NOT = { has_ruler_modifier = ruler_education_dip_1_savage }
+        NOT = { has_ruler_modifier = ruler_education_dip_2_savage }
+        NOT = { has_ruler_modifier = ruler_education_dip_3_savage }
+        
+        NOT = { has_ruler_modifier = ruler_education_mil_1_savage }
+        NOT = { has_ruler_modifier = ruler_education_mil_2_savage }
+        NOT = { has_ruler_modifier = ruler_education_mil_3_savage }
 	}
 
     option = {

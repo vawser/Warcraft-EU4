@@ -1,9 +1,9 @@
-namespace = gnoll
+namespace = wwu_gnoll_flavour
 
 country_event = {
-	id = gnoll.1
-	title = gnoll_battle_tactics.title
-	desc = gnoll_battle_tactics.desc
+	id = wwu_gnoll_flavour.1
+	title = wwu_gnoll_flavour.1.title
+	desc = wwu_gnoll_flavour.1.desc
 	picture = GNOLL_eventPicture
     
 	fire_only_once = no
@@ -23,7 +23,7 @@ country_event = {
 	}
 	
 	option = {
-		name = gnoll_battle_tactics.opt1
+		name = wwu_gnoll_flavour.1.opt1
 		
 		random_country = {
 			limit = {
@@ -34,22 +34,22 @@ country_event = {
 	}
 	
 	option = {
-		name = gnoll_battle_tactics.opt2
+		name = wwu_gnoll_flavour.1.opt2
 		
 		add_war_exhaustion = -1
 	}
 	
 	option = {
-		name = gnoll_battle_tactics.opt3
+		name = wwu_gnoll_flavour.1.opt3
 		
 		add_army_tradition = 5
 	}
 }
 
 country_event = {
-	id = gnoll.2
-	title = gnoll_kidnapping.title
-	desc = gnoll_kidnapping.desc
+	id = wwu_gnoll_flavour.2
+	title = wwu_gnoll_flavour.2.title
+	desc = wwu_gnoll_flavour.2.desc
 	picture = GNOLL_eventPicture
 	
 	trigger = {
@@ -70,7 +70,7 @@ country_event = {
 	}
 	
 	option = {
-		name = gnoll_kidnapping.opt1
+		name = wwu_gnoll_flavour.2.opt1
 		
 		reverse_add_opinion = {
 			who = event_target:KidnapTarget
@@ -90,7 +90,7 @@ country_event = {
 	}
 	
 	option = {
-		name = gnoll_kidnapping.opt2
+		name = wwu_gnoll_flavour.2.opt2
 		
 		reverse_add_opinion = {
 			who = event_target:KidnapTarget
@@ -105,16 +105,16 @@ country_event = {
 	}
 	
 	option = {
-		name = gnoll_kidnapping.opt3
+		name = wwu_gnoll_flavour.2.opt3
 		
 		add_prestige = -10
 	}
 }
 
 country_event = {
-	id = gnoll.3
-	title = gnoll_rotten_meat.title
-	desc = gnoll_rotten_meat.desc
+	id = wwu_gnoll_flavour.3
+	title = wwu_gnoll_flavour.3.title
+	desc = wwu_gnoll_flavour.3.desc
 	picture = GNOLL_eventPicture
     
 	fire_only_once = no
@@ -128,7 +128,7 @@ country_event = {
 	}
 	
 	option = {
-		name = gnoll_rotten_meat.opt1
+		name = wwu_gnoll_flavour.3.opt1
 		
 		random = { 
 			chance = 10
@@ -149,7 +149,7 @@ country_event = {
 	}
 	
 	option = {
-		name = gnoll_rotten_meat.opt2
+		name = wwu_gnoll_flavour.3.opt2
 		
 		random = { 
 			chance = 50
@@ -161,7 +161,7 @@ country_event = {
 	}
 	
 	option = {
-		name = gnoll_rotten_meat.opt3
+		name = wwu_gnoll_flavour.3.opt3
 		
 		add_prestige = -10
 	}

@@ -160,7 +160,7 @@ order_group = {
 			defensiveness = 0.33
 		}
 		
-		holy_sites = { 728 1514 1573 1968 2509 } # Ulduar - Chamber of Heart - Uldum - Uldaman - Uldir
+		holy_sites = { 2159 5050 3207 4921 3721 } # Ulduar - Chamber of Heart - Uldum - Uldaman - Uldir
 		
 		blessings = {
 			titan_gift_of_the_stone
@@ -190,7 +190,7 @@ order_group = {
             yearly_absolutism = 0.5
 		}
         
-		holy_sites = { 728 1514 1573 1968 2509 } # Ulduar - Chamber of Heart - Uldum - Uldaman - Uldir
+		holy_sites = { 2159 5050 3207 4921 3721 } # Ulduar - Chamber of Heart - Uldum - Uldaman - Uldir
 		
 		blessings = {
 			corrupt_titan_the_dark_heart

@@ -557,8 +557,8 @@ country_event = {
 # Clean everything. Triggered upon monarch death.
 country_event = {
 	id = assassination.7
-	title = e_l
-	desc = e_l
+	title = assassination.7.title
+	desc = assassination.7.desc
 	
 	picture = CAUGHT_eventPicture
 	
@@ -578,7 +578,7 @@ country_event = {
 	}
 	
 	option = {
-		name = e_l
+		name = assassination.7.option.a
 		event_target:plotter = {
 			clr_country_flag = plotting_assassination_of@FROM
 			clr_country_flag = poison_plot

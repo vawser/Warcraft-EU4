@@ -2,9 +2,9 @@ namespace = excavation
 
 # "Archaeological Dig"
 country_event = {
-	id = excavation.1
-	title = excavation.1.title
-	desc = excavation.1.desc
+	id = wwu_archaeology.1
+	title = wwu_archaeology.1.title
+	desc = wwu_archaeology.1.desc
 	picture = ARCHAEOLOGY_eventPicture
     hidden = yes
     
@@ -22,7 +22,7 @@ country_event = {
 			hidden_effect = {
 				random_list = {
 					10 = {
-							country_event = { id = excavation.2 }
+							country_event = { id = wwu_archaeology.2 }
 					}
 					1 = {
 						if = {
@@ -32,7 +32,7 @@ country_event = {
 								}
 							}
 							
-							country_event = { id = excavation.3 }
+							country_event = { id = wwu_archaeology.3 }
 						}
 						if = {
 							limit = {
@@ -44,7 +44,7 @@ country_event = {
 								hidden = no
 							}
 							
-							country_event = { id = excavation.15 }
+							country_event = { id = wwu_archaeology.15 }
 						}
 					}
 					1 = {
@@ -55,7 +55,7 @@ country_event = {
 								}
 							}
 							
-							country_event = { id = excavation.4 }
+							country_event = { id = wwu_archaeology.4 }
 						}
 						if = {
 							limit = {
@@ -67,7 +67,7 @@ country_event = {
 								hidden = no
 							}
 							
-							country_event = { id = excavation.15 }
+							country_event = { id = wwu_archaeology.15 }
 						}
 					}
 					1 = {
@@ -78,7 +78,7 @@ country_event = {
 								}
 							}
 							
-							country_event = { id = excavation.5 }
+							country_event = { id = wwu_archaeology.5 }
 						}
 						if = {
 							limit = {
@@ -90,7 +90,7 @@ country_event = {
 								hidden = no
 							}
 							
-							country_event = { id = excavation.15 }
+							country_event = { id = wwu_archaeology.15 }
 						}
 					}
 					1 = {
@@ -101,7 +101,7 @@ country_event = {
 								}
 							}
 							
-							country_event = { id = excavation.6 }
+							country_event = { id = wwu_archaeology.6 }
 						}
 						if = {
 							limit = {
@@ -113,7 +113,7 @@ country_event = {
 								hidden = no
 							}
 							
-							country_event = { id = excavation.15 }
+							country_event = { id = wwu_archaeology.15 }
 						}
 					}
 					1 = {
@@ -124,7 +124,7 @@ country_event = {
 								}
 							}
 							
-							country_event = { id = excavation.7 }
+							country_event = { id = wwu_archaeology.7 }
 						}
 						if = {
 							limit = {
@@ -136,7 +136,7 @@ country_event = {
 								hidden = no
 							}
 							
-							country_event = { id = excavation.15 }
+							country_event = { id = wwu_archaeology.15 }
 						}
 					}
 					1 = {
@@ -147,7 +147,7 @@ country_event = {
 								}
 							}
 							
-							country_event = { id = excavation.8 }
+							country_event = { id = wwu_archaeology.8 }
 						}
 						if = {
 							limit = {
@@ -159,7 +159,7 @@ country_event = {
 								hidden = no
 							}
 							
-							country_event = { id = excavation.15 }
+							country_event = { id = wwu_archaeology.15 }
 						}
 					}
 					1 = {
@@ -170,7 +170,7 @@ country_event = {
 								}
 							}
 							
-							country_event = { id = excavation.9 }
+							country_event = { id = wwu_archaeology.9 }
 						}
 						if = {
 							limit = {
@@ -182,7 +182,7 @@ country_event = {
 								hidden = no
 							}
 							
-							country_event = { id = excavation.15 }
+							country_event = { id = wwu_archaeology.15 }
 						}
 					}
 					1 = {
@@ -193,7 +193,7 @@ country_event = {
 								}
 							}
 							
-							country_event = { id = excavation.10 }
+							country_event = { id = wwu_archaeology.10 }
 						}
 						if = {
 							limit = {
@@ -205,7 +205,7 @@ country_event = {
 								hidden = no
 							}
 							
-							country_event = { id = excavation.15 }
+							country_event = { id = wwu_archaeology.15 }
 						}
 					}
 					1 = {
@@ -216,7 +216,7 @@ country_event = {
 								}
 							}
 							
-							country_event = { id = excavation.11 }
+							country_event = { id = wwu_archaeology.11 }
 						}
 						if = {
 							limit = {
@@ -228,7 +228,7 @@ country_event = {
 								hidden = no
 							}
 							
-							country_event = { id = excavation.15 }
+							country_event = { id = wwu_archaeology.15 }
 						}
 					}
 					1 = {
@@ -239,7 +239,7 @@ country_event = {
 								}
 							}
 							
-							country_event = { id = excavation.12 }
+							country_event = { id = wwu_archaeology.12 }
 						}
 						if = {
 							limit = {
@@ -251,7 +251,7 @@ country_event = {
 								hidden = no
 							}
 							
-							country_event = { id = excavation.15 }
+							country_event = { id = wwu_archaeology.15 }
 						}
 					}
 					1 = {
@@ -262,7 +262,7 @@ country_event = {
 								}
 							}
 							
-							country_event = { id = excavation.13 }
+							country_event = { id = wwu_archaeology.13 }
 						}
 						if = {
 							limit = {
@@ -274,7 +274,7 @@ country_event = {
 								hidden = no
 							}
 							
-							country_event = { id = excavation.15 }
+							country_event = { id = wwu_archaeology.15 }
 						}
 					}
 					1 = {
@@ -285,7 +285,7 @@ country_event = {
 								}
 							}
 							
-							country_event = { id = excavation.14 }
+							country_event = { id = wwu_archaeology.14 }
 						}
 						if = {
 							limit = {
@@ -297,7 +297,7 @@ country_event = {
 								hidden = no
 							}
 							
-							country_event = { id = excavation.15 }
+							country_event = { id = wwu_archaeology.15 }
 						}
 					}
 				}
@@ -305,7 +305,7 @@ country_event = {
 	}
 	
 	option = {
-		name = excavation.1.option.a
+		name = wwu_archaeology.1.option.a
 		
 		
 	}
@@ -313,29 +313,29 @@ country_event = {
 
 # "Excavation Failure"
 country_event = {
-	id = excavation.2
-	title = excavation.2.title
-	desc = excavation.2.desc
+	id = wwu_archaeology.2
+	title = wwu_archaeology.2.title
+	desc = wwu_archaeology.2.desc
 	picture = ARCHAEOLOGY_eventPicture
 	
 	is_triggered_only = yes
 
 	option = {
-		name = excavation.2.option.a
+		name = wwu_archaeology.2.option.a
 	}
 }
 
 # "Found Apocalypse!"
 country_event = {
-	id = excavation.3
-	title = excavation.3.title
-	desc = excavation.3.desc
+	id = wwu_archaeology.3
+	title = wwu_archaeology.3.title
+	desc = wwu_archaeology.3.desc
 	picture = APOCALYPSE_eventPicture
 	
 	is_triggered_only = yes
 
 	option = {
-		name = excavation.3.option.a
+		name = wwu_archaeology.3.option.a
 		
 		add_country_modifier = { 
 			name = apocalypse
@@ -347,15 +347,15 @@ country_event = {
 
 # "Found Twinblades of Deceiver!"
 country_event = {
-	id = excavation.4
-	title = excavation.4.title
-	desc = excavation.4.desc
+	id = wwu_archaeology.4
+	title = wwu_archaeology.4.title
+	desc = wwu_archaeology.4.desc
 	picture = TWINBLADES_eventPicture
 	
 	is_triggered_only = yes
 
 	option = {
-		name = excavation.4.option.a
+		name = wwu_archaeology.4.option.a
 		
 		add_country_modifier = { 
 			name = twinblades_of_deceiver
@@ -367,15 +367,15 @@ country_event = {
 
 # "Found Thas'dorah, Legacy of the Windrunners!"
 country_event = {
-	id = excavation.5
-	title = excavation.5.title
-	desc = excavation.5.desc
+	id = wwu_archaeology.5
+	title = wwu_archaeology.5.title
+	desc = wwu_archaeology.5.desc
 	picture = THASDORAH_eventPicture
 	
 	is_triggered_only = yes
 
 	option = {
-		name = excavation.5.option.a
+		name = wwu_archaeology.5.option.a
 		
 		add_country_modifier = { 
 			name = thasdorah
@@ -387,15 +387,15 @@ country_event = {
 
 # "Found Aluneth!"
 country_event = {
-	id = excavation.6
-	title = excavation.6.title
-	desc = excavation.6.desc
+	id = wwu_archaeology.6
+	title = wwu_archaeology.6.title
+	desc = wwu_archaeology.6.desc
 	picture = ALUNETH_eventPicture
 	
 	is_triggered_only = yes
 
 	option = {
-		name = excavation.6.option.a
+		name = wwu_archaeology.6.option.a
 		
 		add_country_modifier = { 
 			name = aluneth
@@ -407,15 +407,15 @@ country_event = {
 
 # "Found Sheilun, Staff of The Mists!"
 country_event = {
-	id = excavation.7
-	title = excavation.7.title
-	desc = excavation.7.desc
+	id = wwu_archaeology.7
+	title = wwu_archaeology.7.title
+	desc = wwu_archaeology.7.desc
 	picture = SHEILUN_eventPicture
 	
 	is_triggered_only = yes
 
 	option = {
-		name = excavation.7.option.a
+		name = wwu_archaeology.7.option.a
 		
 		add_country_modifier = { 
 			name = sheilun
@@ -427,15 +427,15 @@ country_event = {
 
 # "Found The Ashbringer!"
 country_event = {
-	id = excavation.8
-	title = excavation.8.title
-	desc = excavation.8.desc
+	id = wwu_archaeology.8
+	title = wwu_archaeology.8.title
+	desc = wwu_archaeology.8.desc
 	picture = ASHBRINGER_eventPicture
 	
 	is_triggered_only = yes
 
 	option = {
-		name = excavation.8.option.a
+		name = wwu_archaeology.8.option.a
 		
 		add_country_modifier = { 
 			name = ashbringer
@@ -447,15 +447,15 @@ country_event = {
 
 # "Found Xalatath, Blade of The Black Empire!"
 country_event = {
-	id = excavation.9
-	title = excavation.9.title
-	desc = excavation.9.desc
+	id = wwu_archaeology.9
+	title = wwu_archaeology.9.title
+	desc = wwu_archaeology.9.desc
 	picture = XALATATH_eventPicture
 	
 	is_triggered_only = yes
 
 	option = {
-		name = excavation.9.option.a
+		name = wwu_archaeology.9.option.a
 		
 		add_country_modifier = { 
 			name = xalatath
@@ -467,15 +467,15 @@ country_event = {
 
 # "Found Doomhammer"
 country_event = {
-	id = excavation.10
-	title = excavation.10.title
-	desc = excavation.10.desc
+	id = wwu_archaeology.10
+	title = wwu_archaeology.10.title
+	desc = wwu_archaeology.10.desc
 	picture = DOOMHAMMER_eventPicture
 	
 	is_triggered_only = yes
 
 	option = {
-		name = excavation.10.option.a
+		name = wwu_archaeology.10.option.a
 		
 		add_country_modifier = { 
 			name = doomhammer
@@ -487,15 +487,15 @@ country_event = {
 
 # "Found The Dreadblades!"
 country_event = {
-	id = excavation.11
-	title = excavation.11.title
-	desc = excavation.11.desc
+	id = wwu_archaeology.11
+	title = wwu_archaeology.11.title
+	desc = wwu_archaeology.11.desc
 	picture = DREADBLADES_eventPicture
 	
 	is_triggered_only = yes
 
 	option = {
-		name = excavation.11.option.a
+		name = wwu_archaeology.11.option.a
 		
 		add_country_modifier = { 
 			name = the_dreadblades
@@ -507,15 +507,15 @@ country_event = {
 
 # "Found Skull of Man'ari!"
 country_event = {
-	id = excavation.12
-	title = excavation.12.title
-	desc = excavation.12.desc
+	id = wwu_archaeology.12
+	title = wwu_archaeology.12.title
+	desc = wwu_archaeology.12.desc
 	picture = SKULL_eventPicture
 	
 	is_triggered_only = yes
 
 	option = {
-		name = excavation.12.option.a
+		name = wwu_archaeology.12.option.a
 		
 		add_country_modifier = { 
 			name = skull_of_manari
@@ -527,15 +527,15 @@ country_event = {
 
 # "Found Warswords of Valarjar!"
 country_event = {
-	id = excavation.13
-	title = excavation.13.title
-	desc = excavation.13.desc
+	id = wwu_archaeology.13
+	title = wwu_archaeology.13.title
+	desc = wwu_archaeology.13.desc
 	picture = WARSWORDS_eventPicture
 	
 	is_triggered_only = yes
 
 	option = {
-		name = excavation.13.option.a
+		name = wwu_archaeology.13.option.a
 		
 		add_country_modifier = { 
 			name = warswords_of_valarjar
@@ -547,15 +547,15 @@ country_event = {
 
 # "Found the Scythe of Elune!"
 country_event = {
-	id = excavation.14
-	title = excavation.14.title
-	desc = excavation.14.desc
+	id = wwu_archaeology.14
+	title = wwu_archaeology.14.title
+	desc = wwu_archaeology.14.desc
 	picture = SCYTHE_eventPicture
 	
 	is_triggered_only = yes
 
 	option = {
-		name = excavation.14.option.a
+		name = wwu_archaeology.14.option.a
 		
 		add_country_modifier = { 
 			name = scythe_of_elune
@@ -567,15 +567,15 @@ country_event = {
 
 # "Found Archaeology Fragments"
 country_event = {
-	id = excavation.15
-	title = excavation.15.title
-	desc = excavation.15.desc
+	id = wwu_archaeology.15
+	title = wwu_archaeology.15.title
+	desc = wwu_archaeology.15.desc
 	picture = FRAGMENT_eventPicture
 	
 	is_triggered_only = yes
 
 	option = {
-		name = excavation.15.option.a
+		name = wwu_archaeology.15.option.a
 		
 		add_country_modifier = { 
 			name = archaeology_fragment

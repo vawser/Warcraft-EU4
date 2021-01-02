@@ -1,10 +1,11 @@
-namespace = ancestral
+namespace = wwu_ancestral
 
+# "Passing of Great Leader"
 country_event = {
-	id = ancestral.2
-	title = ancestral.2.title
-	desc = ancestral.2.desc
-	picture = ELEMENTAL_eventPicture
+	id = wwu_ancestral.1
+	title = wwu_ancestral.1.title
+	desc = wwu_ancestral.1.desc
+	picture = DRUIDCLAW_eventPicture
 	
 	trigger = {
 		religion = shamanism
@@ -17,22 +18,19 @@ country_event = {
 	mean_time_to_happen = {
 		months = 12
 	}
-	
-	immediate = {
-	
-	}
-	
+
 	option = {
-		name = ancestral.2.opt1
+		name = wwu_ancestral.1.option.a
 		
-		custom_tooltip = ancestral.2.opt1.tt
+		custom_tooltip = wwu_ancestral.1.option.a.tt
+        
 		hidden_effect = {
 			exile_ruler_as = honored_great_person
 			set_country_flag = honored_great_person_flag
+            
 			random = {
 				chance = 50
-				
-				country_event = { id = ancestral.3 days = 3650 random = 1825 }
+				country_event = { id = wwu_ancestral.2 days = 3650 random = 1825 }
 			}
 		}
 		tooltip = {
@@ -49,17 +47,19 @@ country_event = {
 			}
 		}
 	}
+    
 	option = {
-		name = ancestral.2.opt2
+		name = wwu_ancestral.1.option.b
 		
-		custom_tooltip = ancestral.2.opt2.tt
+		custom_tooltip = wwu_ancestral.1.option.b.tt
+        
 		hidden_effect = {
 			exile_ruler_as = disrespected_great_person
 			set_country_flag = disrespected_great_person_flag
 			random = {
 				chance = 50
 				
-				country_event = { id = ancestral.4 days = 3650 random = 1825 }
+				country_event = { id = wwu_ancestral.3 days = 3650 random = 1825 }
 			}
 		}
 		tooltip = {
@@ -67,21 +67,24 @@ country_event = {
 		}
 		add_karma = 10
 	}
+    
 	option = {
-		name = ancestral.2.opt3
+		name = wwu_ancestral.1.option.c
 		
-		custom_tooltip = ancestral.2.opt3.tt
+		custom_tooltip = wwu_ancestral.1.option.c.tt
+        
 		kill_ruler = yes
 		add_years_of_income = -0.5
 		add_prestige = 5
 	}
 }
-# Triggered from ancestral.2, when choose building a tomb.
+
+# "Help of Ancestors"
 country_event = {
-	id = ancestral.3
-	title = ancestral.3.title
-	desc = ancestral.3.desc
-	picture = ELEMENTAL_eventPicture
+	id = wwu_ancestral.2
+	title = wwu_ancestral.2.title
+	desc = wwu_ancestral.2.desc
+	picture = DRUIDCLAW_eventPicture
 	
 	is_triggered_only = yes
 	
@@ -90,7 +93,7 @@ country_event = {
 	}
 	
 	option = {
-		name = ancestral.3.opt1
+		name = wwu_ancestral.2.option.a
 		
 		add_prestige = -5
 		change_adm = 1
@@ -98,7 +101,7 @@ country_event = {
 		change_mil = 1
 	}
 	option = {
-		name = ancestral.3.opt2
+		name = wwu_ancestral.2.option.b
 		
 		add_prestige = -10
 		define_general = {
@@ -110,7 +113,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = ancestral.3.opt3
+		name = wwu_ancestral.2.option.c
 		
 		add_prestige = -20
 		add_stability = 1
@@ -118,17 +121,18 @@ country_event = {
 		add_manpower = 10
 	}
 	option = {
-		name = ancestral.3.opt4
+		name = wwu_ancestral.2.option.c
 		
 		add_prestige = 10
 	}
 }
-# Triggered from ancestral.2, when choose disrespecting ruler.
+
+# "Curse of Ancestors"
 country_event = {
-	id = ancestral.4
-	title = ancestral.4.title
-	desc = ancestral.4.desc 
-	picture = ELEMENTAL_eventPicture
+	id = wwu_ancestral.3
+	title = wwu_ancestral.3.title
+	desc = wwu_ancestral.3.desc 
+	picture = DRUIDCLAW_eventPicture
 	
 	is_triggered_only = yes
 	
@@ -137,7 +141,7 @@ country_event = {
 	}
 	
 	option = {
-		name = ancestral.4.opt1
+		name = wwu_ancestral.3.option.a
 		
 		add_prestige = 10
 		random_list = {
@@ -145,26 +149,24 @@ country_event = {
 				kill_ruler = yes
 			}
 			4 = {
-				custom_tooltip = ancestral.4.opt1.tt # You walk away as victor.
+				custom_tooltip = wwu_ancestral.3.option.a.tt
 			}
 		}
 	}
+    
 	option = {
-		name = ancestral.3.opt2
+		name = wwu_ancestral.3.option.b
 		
 		add_prestige = -10
 	}
 }
-# ancestral.3 - mtth version
+
+# "Help of Ancestors"
 country_event = {
-	id = ancestral.5
-	title = ancestral.3.title
-	desc = ancestral.3.desc 
-	picture = ELEMENTAL_eventPicture
-	
-	mean_time_to_happen = {
-		months = 360
-	}
+	id = wwu_ancestral.4
+	title = wwu_ancestral.4.title
+	desc = wwu_ancestral.4.desc 
+	picture = DRUIDCLAW_eventPicture
 	
 	trigger = {
 		religion = shamanism
@@ -174,15 +176,20 @@ country_event = {
 		}
 	}
 	
+    mean_time_to_happen = {
+		months = 360
+	}
+    
 	option = {
-		name = ancestral.3.opt1
+		name = wwu_ancestral.4.option.a
 		
 		add_prestige = -5
 		change_adm = 1
 		change_dip = 1
 	}
+    
 	option = {
-		name = ancestral.3.opt2
+		name = wwu_ancestral.4.option.b
 		
 		add_prestige = -10
 		define_general = {
@@ -193,30 +200,29 @@ country_event = {
 			siege = 2
 		}
 	}
+    
 	option = {
-		name = ancestral.3.opt3
+		name = wwu_ancestral.4.option.c
 		
 		add_prestige = -20
 		add_stability = 1
 		add_years_of_income = 1
 		add_manpower = 5
 	}
+    
 	option = {
-		name = ancestral.3.opt4
+		name = wwu_ancestral.4.option.d
 		
 		add_prestige = 10
 	}
 }
-# ancestral.4 - mtth version
+
+# "Curse of Ancestors"
 country_event = {
-	id = ancestral.6
-	title = ancestral.4.title
-	desc = ancestral.4.desc
-	picture = ELEMENTAL_eventPicture
-	
-	mean_time_to_happen = {
-		months = 360
-	}
+	id = wwu_ancestral.5
+	title = wwu_ancestral.5.title
+	desc = wwu_ancestral.5.desc
+	picture = DRUIDCLAW_eventPicture
 	
 	trigger = {
 		religion = shamanism
@@ -227,8 +233,12 @@ country_event = {
 		}
 	}
 	
+    mean_time_to_happen = {
+		months = 360
+	}
+    
 	option = {
-		name = ancestral.4.opt1
+		name = wwu_ancestral.5.option.a
 		
 		add_prestige = 10
 		random_list = {
@@ -236,12 +246,12 @@ country_event = {
 				kill_ruler = yes
 			}
 			4 = {
-				custom_tooltip = ancestral.4.opt1.tt # You walk away as victor.
+				custom_tooltip = wwu_ancestral.5.option.a.tt
 			}
 		}
 	}
 	option = {
-		name = ancestral.3.opt2
+		name = wwu_ancestral.5.option.c
 		
 		add_prestige = -10
 	}

@@ -76,7 +76,7 @@ life_group = {
 			}			
 		}
 		
-		holy_sites = { 1073 1304 1308 1431 1435 }
+		holy_sites = { 4781 5667 4802 5758 5746 }
 		
 		blessings = {
 			elune_calm_of_the_night

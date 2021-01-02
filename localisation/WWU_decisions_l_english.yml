@@ -101,12 +101,14 @@
  #-----------------------------------------------
  # Dwarf
  #-----------------------------------------------
- unify_dwarves_ironforge_title: "Unify Dwarves"
- unify_dwarves_ironforge_desc: "Unite with other dwarven families and show the world that dwarves will prevail forever."
- unify_dwarves_darkiron_title: "Unify Dwarves"
- unify_dwarves_darkiron_desc: "Unite with other dwarven families and show the world that dwarves will prevail forever."
- unify_dwarves_wildhammer_title: "Unify Dwarves"
- unify_dwarves_wildhammer_desc: "Unite with other dwarven families and show the world that dwarves will prevail forever."
+ unify_dwarves_ironforge_title: "Unify the Three Kingdoms"
+ unify_dwarves_ironforge_desc: "Unite with other two dwarven families and show the world that dwarves will prevail forever."
+ 
+ unify_dwarves_dark_iron_title: "Unify the Three Kingdoms"
+ unify_dwarves_dark_iron_desc: "Unite with other two dwarven families and show the world that dwarves will prevail forever."
+ 
+ unify_dwarves_wildhammer_title: "Unify the Three Kingdoms"
+ unify_dwarves_wildhammer_desc: "Unite with other two dwarven families and show the world that dwarves will prevail forever."
  
  #-----------------------------------------------
  # Emerald Dream

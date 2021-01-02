@@ -1,4 +1,4 @@
-namespace = random_province
+namespace = wwu_province_flavour
 
 # Upset in [Root.GetName]
 # The people of [Root.GetName] have become discontent with their [Root.Monarch.GetName], and demand more autonomy over the land they reside on.
@@ -6,9 +6,9 @@ namespace = random_province
 # Deny their request
 # Dent them, and punish them for their insolence
 province_event = {
-	id = random_province.1
-	title = random_province.1.title
-	desc = random_province.1.desc
+	id = wwu_province_flavour.1
+	title = wwu_province_flavour.1.title
+	desc = wwu_province_flavour.1.desc
 	picture = ANGRY_MOB_eventPicture # Placeholder
 
     is_mtth_scaled_to_size = 1
@@ -42,20 +42,14 @@ province_event = {
     }
     
 	option = {
-		name = random_province.1.option.a
-		
-
-        ###if = { limit = { has_global_flag = enable_event_logging } 
+		name = wwu_province_flavour.1.option.a
 
         set_local_autonomy = 75
 	}
     
     option = {
-		name = random_province.1.option.b
+		name = wwu_province_flavour.1.option.b
 		
-
-        ###if = { limit = { has_global_flag = enable_event_logging } 
-
         add_province_modifier = {
             name = denied_autonomy
             duration = 3650
@@ -63,11 +57,8 @@ province_event = {
 	}
     
     option = {
-		name = random_province.1.option.c
+		name = wwu_province_flavour.1.option.c
 		
-
-        ###if = { limit = { has_global_flag = enable_event_logging } 
-
         add_province_modifier = {
             name = incensed_people
             duration = 3650
@@ -83,9 +74,9 @@ province_event = {
 # Shut it down
 # Shut it down and punish the owners
 province_event = {
-	id = random_province.2
-	title = random_province.2.title
-	desc = random_province.2.desc
+	id = wwu_province_flavour.2
+	title = wwu_province_flavour.2.title
+	desc = wwu_province_flavour.2.desc
 	picture = TAVERN_eventPicture
 
     is_mtth_scaled_to_size = 1
@@ -103,29 +94,20 @@ province_event = {
     }
     
 	option = {
-		name = random_province.2.option.a
+		name = wwu_province_flavour.2.option.a
 		
-
-        ###if = { limit = { has_global_flag = enable_event_logging } 
-
-        add_base_tax = 2
+        add_base_tax = 1
 	}
     
     option = {
-		name = random_province.2.option.b
+		name = wwu_province_flavour.2.option.b
 		
-
-        ###if = { limit = { has_global_flag = enable_event_logging } 
-
         add_scaled_local_adm_power = 10
 	}
     
     option = {
-		name = random_province.2.option.c
+		name = wwu_province_flavour.2.option.c
 		
-
-        ###if = { limit = { has_global_flag = enable_event_logging } 
-
         add_province_modifier = {
             name = sexually_frustrated
             duration = 1825
@@ -141,9 +123,9 @@ province_event = {
 # Punish the soldiers
 # Punish the owners of the pit
 province_event = {
-	id = random_province.3
-	title = random_province.3.title
-	desc = random_province.3.desc
+	id = wwu_province_flavour.3
+	title = wwu_province_flavour.3.title
+	desc = wwu_province_flavour.3.desc
 	picture = BRAWL_eventPicture
 
     is_mtth_scaled_to_size = 1
@@ -164,26 +146,20 @@ province_event = {
     }
     
 	option = {
-		name = random_province.3.option.a
+		name = wwu_province_flavour.3.option.a
 		
-
-        ###if = { limit = { has_global_flag = enable_event_logging } 
         add_scaled_local_dip_power = 10
 	}
     
     option = {
-		name = random_province.3.option.b
-		
+		name = wwu_province_flavour.3.option.b
 
-        ###if = { limit = { has_global_flag = enable_event_logging } 
         add_scaled_local_mil_power = 10
 	}
     
     option = {
-		name = random_province.3.option.c
-		
+		name = wwu_province_flavour.3.option.c
 
-        ###if = { limit = { has_global_flag = enable_event_logging } 
         add_scaled_local_adm_power = 10
 	}
 }

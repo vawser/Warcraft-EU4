@@ -1,0 +1,12 @@
+﻿l_english:
+ #-----------------------------------------------
+ # Gnoll
+ #-----------------------------------------------
+ wwu_primitive_flavour.1.title: "Hostile Adventurers"
+ wwu_primitive_flavour.1.desc: "Azerothians have been hunting the races they view as inferior for millenia. Recently, foreign adventurers from a neighbouring nation entered to our realm and are killing our officers and leaders, causing great harm to our people. This cannot continue."
+ wwu_primitive_flavour.1.opt1: "[Root.Monarch.GetName] will face them personally"
+ wwu_primitive_flavour.1.opt2: "Tighten security of borders"
+ wwu_primitive_flavour.1.opt3: "Go into hiding"
+ wwu_primitive_flavour.1.opt1.tt_win: "You defeat the adventurers"
+ wwu_primitive_flavour.1.opt1.tt_lose: "You lose and get killed"
+ 

@@ -1,0 +1,41 @@
+﻿l_english:
+ #-------------------------------------
+ # Hidden
+ #-------------------------------------
+ wwu_setup.1.title: "World Setup"
+ wwu_setup.1.desc: ""
+ wwu_setup.1.option.a: "World Setup OK"
+ 
+ wwu_setup.2.title: "[Root.GetName] Setup"
+ wwu_setup.2.desc: ""
+ wwu_setup.2.option.a: "[Root.GetName] Setup OK"
+ 
+ dark_portal.1.title: "Dark Portal - Eastern Kingdoms"
+ dark_portal.1.desc: ""
+ dark_portal.1.option.a: "Dark Portal - Eastern Kingdoms added."
+ 
+ dark_portal.2.title: "Dark Portal - Outland"
+ dark_portal.2.desc: ""
+ dark_portal.2.option.a: "Dark Portal - Outland added."
+ 
+ incompatible.1.title: "Underwater Incompatibility"
+ incompatible.1.desc: ""
+ incompatible.1.option.a: "Underwater Incompatibility"
+ 
+ incompatible.2.title: "Underground Incompatibility"
+ incompatible.2.desc: ""
+ incompatible.2.option.a: "Underground Incompatibility"
+ 
+ incompatible.3.title: "Incompatibility Removal"
+ incompatible.3.desc: ""
+ incompatible.3.option.a: "Incompatibility Removal"
+ 
+ on_action_special.1.title: "Add declared_war_to@<tag> flag"
+ on_action_special.1.desc: ""
+ on_action_special.1.option.a: "Ok"
+ 
+ on_action_special.2.title: "Remove declared_war_to@<tag> flag"
+ on_action_special.2.desc: ""
+ on_action_special.2.option.a: "Ok"
+ 
+ 

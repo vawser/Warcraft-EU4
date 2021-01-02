@@ -1,15 +1,15 @@
-namespace = karazhan
+namespace = wwu_guardian_of_tirisfal
 
-# Send Khadgar to spy on Medivh
+# "Mysteries of The Guardian"
 country_event = {
-	id = karazhan.4
-	title = apprentice_sending.title
-	desc = apprentice_sending.desc # 
-	picture = KARAZHAN_eventPicture
-	fire_only_once = yes
-	
+	id = wwu_guardian_of_tirisfal.1
+	title = wwu_guardian_of_tirisfal.1.title
+	desc = wwu_guardian_of_tirisfal.1.desc
+	picture = MAGI_eventPicture
+    
 	trigger = {
 		tag = DAL
+        NOT = { has_country_flag = guardian_of_tirisfal_chain_flag }
 	}
 	
 	mean_time_to_happen = {
@@ -17,15 +17,17 @@ country_event = {
 	}
 	
 	immediate = {
-		
+		hidden_effect = {
+            set_country_flag = guardian_of_tirisfal_chain_flag
+        }
 	}
 	
 	option = {
-		name = apprentice_sending.opt1
+		name = wwu_guardian_of_tirisfal.1.option.a
 		
-		custom_tooltip = apprentice_sending.opt1.tt
+		custom_tooltip = wwu_guardian_of_tirisfal.option.a.tt
 		KAZ = {
-			country_event = { id = karazhan.5 }
+			country_event = { id = wwu_guardian_of_tirisfal.2 }
 		}
         ai_chance = {
             factor = 100
@@ -33,7 +35,7 @@ country_event = {
 	}
 	
 	option = {
-		name = apprentice_sending.opt2
+		name =  wwu_guardian_of_tirisfal.1.option.b
 		
 		custom_tooltip = apprentice_sending.opt2.tt
         ai_chance = {
@@ -41,22 +43,21 @@ country_event = {
         }
 	}
 }
-# Dalaran sends Khadgar to study under Medivh's guidance.
+
+# "Apprentice From Dalaran"
 country_event = {
-	id = karazhan.5
-	title = apprentice_from_dalaran.title
-	desc = apprentice_from_dalaran.desc # 
-	picture = KARAZHAN_eventPicture
+	id = wwu_guardian_of_tirisfal.2
+	title = wwu_guardian_of_tirisfal.2.title
+	desc = wwu_guardian_of_tirisfal.2.desc 
+	picture = MAGI_eventPicture
+    
 	is_triggered_only = yes
-	
-	immediate = {
-		
-	}
-	
+
 	option = {
-		name = apprentice_from_dalaran.opt1
+		name = wwu_guardian_of_tirisfal.2.option.a
 		
-		custom_tooltip = apprentice_from_dalaran.opt1.tt
+		custom_tooltip = wwu_guardian_of_tirisfal.2.option.a.tt
+        
 		define_advisor = {
 			type = theologian
 			name = "Khadgar"
@@ -64,33 +65,38 @@ country_event = {
 			culture = dalaran
 			religion = arcane
 		}
+        
 		set_country_flag = has_khadgar
+        
         ai_chance = {
             factor = 100
         }
 	}
 	
 	option = {
-		name = apprentice_from_dalaran.opt2
+		name = wwu_guardian_of_tirisfal.2.option.b
 		
-		custom_tooltip = apprentice_from_dalaran.opt2.tt
+		custom_tooltip = wwu_guardian_of_tirisfal.2.option.b.tt
+        
 		add_prestige = -5
+        
         ai_chance = {
             factor = 0
         }
 	}
 }
-# Medivh's plot is revealed by Khadgar.
+
+# "Medivh's True Intentions Revealed"
 country_event = {
-	id = karazhan.6
-	title = medivh_plot_revealed_1.title
-	desc = medivh_plot_revealed_1.desc # 
-	picture = KARAZHAN_eventPicture
-	fire_only_once = yes
+	id = wwu_guardian_of_tirisfal.3
+	title = wwu_guardian_of_tirisfal.3.title
+	desc = wwu_guardian_of_tirisfal.3.desc
+	picture = MAGI_eventPicture
 	
 	trigger = {
 		tag = KAZ
 		has_country_flag = has_khadgar
+        NOT = { has_country_flag = guardian_of_tirisfal_medivh_flag }
 	}
 	
 	mean_time_to_happen = {
@@ -98,29 +104,33 @@ country_event = {
 	}
 	
 	immediate = {
-		
+		hidden_effect = {
+            set_country_flag = guardian_of_tirisfal_medivh_flag
+        }
 	}
 	
 	option = {
-		name = medivh_plot_revealed_1.opt1
+		name = wwu_guardian_of_tirisfal.3.option.a
 		
-		custom_tooltip = medivh_plot_revealed_1.opt1.tt
+		custom_tooltip = wwu_guardian_of_tirisfal.3.option.a.tt
+        
 		overlord = {
-			country_event = { id = karazhan.8 }
+			country_event = { id = wwu_guardian_of_tirisfal.5 }
 		}
 	}
 }
-# Medivh's plot is revealed by someone else.
+
+# "Apprentice From Dalaran"
 country_event = {
-	id = karazhan.7
-	title = medivh_plot_revealed_2.title
-	desc = medivh_plot_revealed_2.desc # 
-	picture = KARAZHAN_eventPicture
-	fire_only_once = yes
-	
+	id = wwu_guardian_of_tirisfal.4
+	title = wwu_guardian_of_tirisfal.4.title
+	desc = wwu_guardian_of_tirisfal.4.desc
+	picture = MAGI_eventPicture
+    
 	trigger = {
 		tag = KAZ
 		NOT = { has_country_flag = has_khadgar }
+        NOT = { has_country_flag = guardian_of_tirisfal_medivh_flag }
 	}
 	
 	mean_time_to_happen = {
@@ -128,34 +138,35 @@ country_event = {
 	}
 	
 	immediate = {
-		
+		hidden_effect = {
+            set_country_flag = guardian_of_tirisfal_medivh_flag
+        }
 	}
 	
 	option = {
-		name = medivh_plot_revealed_2.opt1
+		name = wwu_guardian_of_tirisfal.4.option.a
 		
-		custom_tooltip = medivh_plot_revealed_2.opt1.tt
+		custom_tooltip = wwu_guardian_of_tirisfal.4.option.a.tt
 		overlord = {
-			country_event = { id = karazhan.8 }
+			country_event = { id = wwu_guardian_of_tirisfal.5 }
 		}
 	}
 }
 
+# "News From Dalaran"
 country_event = {
-	id = karazhan.8
-	title = betrayal_of_medivh.title
-	desc = betrayal_of_medivh.desc # 
-	picture = KARAZHAN_eventPicture
+	id = wwu_guardian_of_tirisfal.5
+	title = wwu_guardian_of_tirisfal.5.title
+	desc = wwu_guardian_of_tirisfal.5.desc
+	picture = MAGI_eventPicture
+    
 	is_triggered_only = yes
 	
-	immediate = {
-		
-	}
-	
 	option = {
-		name = betrayal_of_medivh.opt1
+		name = wwu_guardian_of_tirisfal.5.option.a
 		
-		custom_tooltip = betrayal_of_medivh.opt1.tt
+		custom_tooltip = wwu_guardian_of_tirisfal.5.option.a.tt
+        
 		KAZ = { grant_independence = yes }
 		declare_war_with_cb = {
 			who = KAZ
@@ -164,9 +175,10 @@ country_event = {
 	}
 	
 	option = {
-		name = betrayal_of_medivh.opt2
+		name = wwu_guardian_of_tirisfal.5.option.b
 		
-		custom_tooltip = betrayal_of_medivh.opt2.tt
+		custom_tooltip = wwu_guardian_of_tirisfal.5.option.b.tt
+        
 		add_prestige = -15
 		every_subject_country = {
 			limit = {

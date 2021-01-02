@@ -1,18 +1,11 @@
-namespace = random_savage
-
-# is_savage
+namespace = wwu_savage_flavour
 
 # Warlust
-# Our citizens ache for war, and we must deliver it to them, lest they turn on their leaders. Denying them this right will result in massive unrest.
-# Attack!
-# We must wait!
 country_event = {
-	id = random_savage.1
-	title = random_savage.1.title
-	desc = random_savage.1.desc
+	id = wwu_savage_flavour.1
+	title = wwu_savage_flavour.1.title
+	desc = wwu_savage_flavour.1.desc
 	picture = BLOODLUST_eventPicture
-
-    is_triggered_only = yes
 
 	trigger = {
         OR = {
@@ -33,8 +26,12 @@ country_event = {
         }
 	}
 
+    mean_time_to_happen = {
+        months = 600
+    } 
+       
 	option = {
-		name = random_savage.1.option.a
+		name = wwu_savage_flavour.1.option.a
 		
 
         ##if = { limit = { has_global_flag = enable_event_logging } 
@@ -60,7 +57,7 @@ country_event = {
 	}
     
     option = {
-		name = random_savage.1.option.b
+		name = wwu_savage_flavour.1.option.b
 		
 
         ##if = { limit = { has_global_flag = enable_event_logging } 

@@ -16,23 +16,15 @@ is_great_leader = {
 		AND = {
 			adm = 5
 			dip = 5
+		}
+		AND = {
+			adm = 5
 			mil = 5
 		}
 		AND = {
-			adm = 6
-			dip = 6
+			dip = 5
+			mil = 5
 		}
-		AND = {
-			adm = 6
-			mil = 6
-		}
-		AND = {
-			dip = 6
-			mil = 6
-		}
-		adm = 7
-		dip = 7
-		mil = 7
 	}
 }
 
