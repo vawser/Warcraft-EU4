@@ -4,6 +4,7 @@
 Add national ideas
 Name key provinces
 
+Remove Darnassus from initial placement, add as spawnable for The Burning Legion time
 Enable plague event for Lordaeron region
  
 # Crash:

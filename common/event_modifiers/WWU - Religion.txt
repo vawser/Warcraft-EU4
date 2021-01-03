@@ -2,27 +2,63 @@
 # Decisions
 #----------------------------------------------
 fel_conduits = {
-    global_missionary_strength = 0.03
+    global_missionary_strength = 0.02
+    religion = yes
 }
 
 blood_sacrifice_hakkari = {
-    global_missionary_strength = 0.03
+    global_missionary_strength = 0.02
+    religion = yes
 }
 
 the_light_fervor = {
-    global_missionary_strength = 0.03
+    global_missionary_strength = 0.02
+    religion = yes
 }
 
 the_light_contemplation = {
-    global_missionary_strength = 0.03
+    global_missionary_strength = 0.01
+    religion = yes
 }
 
 the_light_sunwell = {
-    global_missionary_strength = 0.03
+    global_missionary_strength = 0.01
+    religion = yes
 }
 
 void_portals = {
+    global_missionary_strength = 0.02
+    religion = yes
+}
+
+titan_histories = {
+    global_missionary_strength = 0.01
+    religion = yes
+}
+
+nature_communion = {
+    global_missionary_strength = 0.01
+    religion = yes
+}
+
+old_god_corruption = {
     global_missionary_strength = 0.03
+    religion = yes
+}
+
+religious_introspection = {
+    global_missionary_strength = 0.01
+    religion = yes
+}
+
+religious_purge = {
+    global_missionary_strength = 0.03
+    religion = yes
+}
+
+mass_infestation = {
+    global_missionary_strength = 0.03
+    religion = yes
 }
 
 sacrificed_a_loa = {

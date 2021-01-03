@@ -1,0 +1,53 @@
+namespace = wwu_goblin_flavour
+
+country_event = {
+	id = wwu_goblin_flavour.1
+	title = wwu_goblin_flavour.1.title
+	desc = wwu_goblin_flavour.1.desc
+	picture = GOOD_WITH_MONARCH_eventPicture
+    
+	trigger = {
+        has_country_flag = seek_kajamite
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+    
+    immediate = {
+        hidden_effect = {
+            clr_country_flag = seek_kajamite
+        }
+    }
+	
+	option = {
+		name = wwu_goblin_flavour.1.option.a
+		
+		random_list = {
+            55 = {
+            
+            }
+            
+            10 = {
+                add_country_modifier = {
+                    name = technological_discovery
+                    duration = 3650
+                }
+            }
+            
+            30 = {
+                add_country_modifier = {
+                    name = waste_of_money
+                    duration = 3650
+                }
+            }
+            
+            5 = {
+                add_country_modifier = {
+                    name = kaja_mite
+                    duration = 3650
+                }
+            }
+        }
+	}
+}

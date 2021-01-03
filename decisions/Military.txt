@@ -1,7 +1,6 @@
 country_decisions = {
 	enlist_privateers = {
 		potential = {
-			
 			NOT = { has_country_modifier = hire_privateers }
 			navy_size = 1
 			has_idea_group = wwu_trade_ideas
@@ -21,25 +20,6 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
-			# England, France, Barbary Coast
 		}
 	}
-	abolish_state_firearm_regiments = {
-		potential = {
-			has_dlc = "Cradle of Civilization"
-			has_country_modifier = gunpowder_core
-		}
-		allow = {
-			has_country_modifier = gunpowder_core
-		}
-		effect = {
-			add_army_professionalism = -0.05
-			remove_country_modifier = gunpowder_core
-			clr_country_flag = gunpowder_core_activated
-		}
-		ai_will_do = {
-			factor = 0 #Plays it safer with cash
-		}
-	}
-	
 }

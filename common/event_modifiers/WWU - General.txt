@@ -252,3 +252,137 @@ world_tree_destruction_max = {
 songs_of_the_bard = {
     prestige = 1
 }
+
+# High Elf
+sunwell_energies = {
+    monarch_admin_power = 1
+    monarch_diplomatic_power = 1
+    monarch_military_power = 1
+}
+
+forest_protection_act = {
+    movement_speed = 0.1
+}
+
+the_three_gates = {
+    defensiveness = 0.25
+}
+
+# Gnoll
+curbed_infighting = {
+    discipline = 0.03
+    land_morale = 0.05
+}
+
+divined_magic = {
+    infantry_power = 0.05
+}
+
+weapons_trade = {
+    infantry_cost = -0.1
+}
+
+challenged_alpha = {
+    leader_land_shock = 1
+}
+
+# Human
+mobilised_workforces = {
+    build_cost = -0.2
+}
+
+illusion_of_grandeur = {
+    diplomatic_reputation = 1
+}
+
+enchanted_spyglass = {
+    range = 0.25
+}
+
+scrying_orb = {
+    spy_offence = 0.25
+}
+
+arcane_familiars = {
+    build_cost = -0.1
+}
+
+conjured_feasts = {
+    diplomatic_upkeep = 1
+}
+
+enchanted_broom = {
+    development_cost = -0.05
+}
+
+embued_tome = {
+    all_power_cost = -0.05
+}
+
+mana_shields = {
+    prestige = 1
+}
+
+invisibility_cloaks = {
+    leader_land_shock = 1
+}
+
+arcane_crystal = { 
+    production_efficiency = 0.1
+}
+
+# Kobold
+shiny_trove = {
+    global_tax_income = 12
+}
+
+candle_devotion = {
+    global_missionary_strength = 0.02
+}
+
+# Murloc
+encouraged_worship = {
+    global_missionary_strength = 0.02
+}
+
+embraced_magic = {
+    infantry_power = 0.05
+}
+
+treasures_of_azeroth = {
+    global_tax_income = 12
+}
+
+murloc_muster = {
+    global_manpower_modifier = 0.1
+}
+
+gmmmlmmmrrmrmrmgrg = {
+    land_morale = 0.05
+}
+
+# Orc
+warlust = {
+    manpower_recovery_speed = 0.25
+    adm_tech_cost_modifier = 0.2
+    dip_tech_cost_modifier = 0.2
+}
+
+# Troll
+initiate_guerilla_warfare = {
+    land_morale = 0.05
+    infantry_power = 0.05
+}
+
+enforcing_loa_worship = {
+    global_missionary_strength = 0.01
+}
+
+conducting_blood_worship = {
+    global_missionary_strength = 0.03
+}
+
+sacrificed_prisoners = {
+    infantry_power = 0.05
+    global_unrest = 2
+}

@@ -1,4 +1,83 @@
 country_decisions = {    
+    seek_kaja_mite = {
+        potential = {
+            culture_group = goblin_group
+            NOT = { has_country_modifier = seek_kaja_mite }
+        }
+        allow = {
+            NOT = { has_country_modifier = seek_kaja_mite }
+            treasury = 1000
+        }
+        effect = {
+            add_treasury = -1000
+            add_country_modifier = {
+                name = seek_kaja_mite
+                duration = 8900
+            }
+            hidden_effect = { set_country_flag = seek_kajamite }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    consult_with_the_trade_princes = {
+        potential = {
+            culture_group = goblin_group
+            NOT = { has_country_modifier = aggressive_marketing }
+        }
+        allow = {
+            NOT = { trade_income_percentage = 0.1 }
+        }
+        effect = {
+            add_country_modifier = {
+                name = aggressive_marketing
+                duration = 5475
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    
+    establish_illicit_connections = {
+        potential = {
+            culture_group = goblin_group
+            NOT = { has_country_modifier = illicit_connections }
+        }
+        allow = {
+            NOT = { has_country_modifier = illicit_connections }
+        }
+        effect = {
+            add_country_modifier = {
+                name = illicit_connections
+                duration = 8900
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    
+    blackmail_labourers = {
+        potential = {
+            culture_group = goblin_group
+            NOT = { has_country_modifier = blackmailed_labourers }
+        }
+        allow = {
+            NOT = { has_country_modifier = blackmailed_labourers }
+        }
+        effect = {
+            add_country_modifier = {
+                name = blackmailed_labourers
+                duration = 3650
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    
     alchemy_surge = {
         potential = {
             culture_group = goblin_group
@@ -17,7 +96,7 @@ country_decisions = {
             }
         }
         ai_will_do = {
-            factor = 0
+            factor = 1
         }
     }
     
@@ -39,7 +118,7 @@ country_decisions = {
             }
         }
         ai_will_do = {
-            factor = 0
+            factor = 1
         }
     }
     
@@ -61,7 +140,7 @@ country_decisions = {
             }
         }
         ai_will_do = {
-            factor = 0
+            factor = 1
         }
     }
 }

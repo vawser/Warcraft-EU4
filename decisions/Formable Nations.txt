@@ -1,47 +1,45 @@
 country_decisions = {
-	# theramore_nation = {
-		# major = yes
-		# potential = {
-			
-			# NOT = { exists = TRM } # Theramore
-			# is_human_culture_group = yes
-			# is_colonial_nation = no
-			# capital_scope = { continent = eastern_kingdoms }
-			
-		# }
-        # provinces_to_highlight = {
-			# region = region_dustwallow_marsh
-			# OR = {
-				# NOT = { owned_by = ROOT }
-				# is_city = no
-			# }
-		# }
-		# allow = {
-			# capital_scope = { region = region_dustwallow_marsh }
-		    # owns_core_province = 1456 #Theramore Isle
-			# NOT = { exists = TRM }
-			# is_at_war = no		
-		# }
-		# effect = {
-			# add_prestige = 25
-			# change_tag = TRM
-			# add_country_modifier = {
-				# name = "centralization_modifier"
-				# duration = 7300
-			# }
-            # 1461 = { add_permanent_claim = TRM }
-            # 1462 = { add_permanent_claim = TRM }
-            # 1463 = { add_permanent_claim = TRM }
-            # 1465 = { add_permanent_claim = TRM }
+	form_theramore = {
+		major = yes
+        
+		potential = {
+			NOT = { exists = TRM }
+			primary_culture = kul_tiras
+		}
+        provinces_to_highlight = {
+			OR = {
+                area = area_dustwallow_3
+                area = area_dustwallow_4
+            }
+		}
+		allow = {
+            primary_culture = kul_tiras
+			area_dustwallow_3 = {
+                owned_by = ROOT
+            }
+            area_dustwallow_4 = {
+                owned_by = ROOT
+            }
+			NOT = { exists = TRM }
+			is_at_war = no		
+		}
+		effect = {
+			add_prestige = 25
+            swap_free_idea_group = yes
+			change_tag = TRM
             
-			# change_government = monarchy
-			# set_capital = 1456
-			# swap_free_idea_group = yes
-		# }
-		# ai_will_do = {
-			# factor = 1
-		# }
-	# }
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+            
+            area_dustwallow_3 = { add_permanent_claim = TRM }
+            area_dustwallow_4 = { add_permanent_claim = TRM }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
 
 	# found_orgrimmar = {
 		# major = yes

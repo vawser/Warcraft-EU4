@@ -976,10 +976,6 @@ tribal_despotism_reform = {
     
 	heir = yes
 	queen = yes
-	
-	custom_attributes = {
-		can_enslave = yes
-	}
     
 	modifiers = {
 		global_unrest = -1

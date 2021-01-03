@@ -3,10 +3,7 @@
  # Custom Attributes
  #-----------------------------
  mechanic_champion_system_yes: "Can Assign Champions as Heirs."
- mechanic_can_enslave_yes: "Can Use Enslavement Casus Belli."
- mechanic_can_mass_migrate_yes: "Can Migrate like Natives."
  mechanic_council_system_yes: "Has Council System."
- mechanic_absolute_hereditary_yes: "Wrong Dynasty Cause Regression"
  
  mechanic_is_merchant_republic_yes: "Is Merchant Republic: §GYes§!"
  mechanic_can_use_trade_post_yes: "Can Establish Trading Outpost: §GYes§!"
@@ -35,7 +32,7 @@
  mechanic_monastic_yes: "Is Monastic: §GYes§!"
  mechanic_papacy_yes:  "Is Papacy: §GYes§!"
  mechanic_dictatorship_yes:  "Is Dictatorship: §GYes§!"
- mechanic_free_city_yes:  "The Faith: §GYes§!"
+ mechanic_free_city_yes:  "Is Free City: §GYes§!"
  
  mechanic_native_mechanic_no: "Native Mechanic: §RNo§!"
  mechanic_allow_migration_yes: "Allows Migration: §GYes§!"

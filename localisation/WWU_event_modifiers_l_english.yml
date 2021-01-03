@@ -1,4 +1,136 @@
-﻿l_english:
+﻿l_english: 
+ #------------------------------------------------
+ # Troll
+ #------------------------------------------------
+ initiate_guerilla_warfare: "Guerilla Warfare"
+ desc_initiate_guerilla_warfare: "We are conducting guerilla warfare."
+ 
+ enforcing_loa_worship: "Enforcing Loa Worship"
+ desc_enforcing_loa_worship: "We are enforcing worship of the Loa."
+
+ conducting_blood_worship: "Blood Sacrifices"
+ desc_conducting_blood_worship: "Let us worship Hakkar, the Blood God, and offer him the blood sacrifices he desires."
+ 
+ sacrificed_prisoners: "Sacrificed Prisoners"
+ desc_sacrificed_prisoners: "We have sacrificed our prisoners of war to strengthen our own warriors."
+ 
+ #------------------------------------------------
+ # Religion
+ #------------------------------------------------
+ fel_conduits: "Fel Conduits"
+ desc_fel_conduits: "We have constructed fel conduits, allowing us to more easily remove those that do not submit to the power of Fel."
+ 
+ blood_sacrifice_hakkari: "Blood Sacrifice"
+ desc_blood_sacrifice_hakkari: "We have enacted a blood sacrifice to the Blood God Hakkar. Our priests will find their conversion efforts much easier than before."
+ 
+ the_light_fervor: "Fervorous Light"
+ desc_the_light_fervor: "Fervorous talk has been spread, and our missionaries are emboldened by such talk."
+ 
+ the_light_contemplation: "Contemplative Light"
+ desc_the_light_contemplation: "Our people contemplate what it means to live under the guidance of the Light, and how they can best serve it and others."
+ 
+ the_light_sunwell: "Light of the Sunwell"
+ desc_the_light_sunwell: "Our people have laid witness to the power of the Sunwell, and their faith within it is unshakeable."
+ 
+ void_portals: "Void Portals"
+ desc_void_portals: "We have constructed void portals, allowing us to more easily remove those that do not submit to the power of the Void."
+ 
+ titan_histories: "Titan Histories"
+ desc_titan_histories: "We have published titan histories, which will encourage more of our breathren to worship the Titans."
+ 
+ nature_communion: "Nature Communion"
+ desc_nature_communion: "Our people are communing with nature more frequently, strengthening their connection to the Wild Gods."
+ 
+ old_god_corruption: "Old God Corruption"
+ desc_old_god_corruption: "The non-believers have been mentally corrupted, and their worship is all but guaranteed."
+ 
+ religious_introspection: "Religious Introspection"
+ desc_religious_introspection: "By looking inwards, our people are more willing to accept the Celestials as religious leaders."
+ 
+ religious_purge: "Religious Purge"
+ desc_religious_purge: "We have purged many of the non-believers, making conversion swift."
+ 
+ mass_infestation: "Mass Infestation"
+ desc_mass_infestation: "We have infected the masses with the Plague of Undeath, they will soon see the 'light', heh."
+ 
+ #------------------------------------------------
+ # Orc
+ #------------------------------------------------
+ warlust: "Warlust"
+ desc_warlust: "We ache for war, and thus our neighbours pay the price."
+ 
+ #------------------------------------------------
+ # Murloc
+ #------------------------------------------------
+ encouraged_worship: "Encouraging Worship"
+ desc_encouraged_worship: "Uuuuggguglugglugglugluguaararaaaagllug!"
+ 
+ embraced_magic: "Embraced Magic"
+ desc_embraced_magic: "Gluuuguuug!"
+ 
+ treasures_of_azeroth: "Treasures of Azeroth"
+ desc_treasures_of_azeroth: "Lugluguaalugluguaalugluguaa...lugluguaa!"
+ 
+ murloc_muster: "Murloc Muster"
+ desc_murloc_muster: "Luglugarraaaa!"
+ 
+ gmmmlmmmrrmrmrmgrg: "Gmmmlmmmrrmrmrmgrg!"
+ desc_gmmmlmmmrrmrmrmgrg: "Gmmmlmmmrrmrmrmgrg!"
+ 
+ #------------------------------------------------
+ # Kobold
+ #------------------------------------------------
+ shiny_trove: "Shiny Trove"
+ desc_shiny_trove: "Our trove of shinies!"
+ 
+ candle_devotion: "Candle Devotion"
+ desc_candle_devotion: "Worship of the candle is a must!"
+ 
+ #------------------------------------------------
+ # Human
+ #------------------------------------------------
+ inspire_righteousness_modifier: "Inspired Righteousness"
+ desc_inspire_righteousness_modifier: "We have inspired righteousness within our people."
+ 
+ civil_code: "Civil Code"
+ desc_civil_code: "We have enacted a civil code for our citizens to follow, bringing a strong sense of order to our society."
+ 
+ mobilised_workforces: "Mobilised Workforces"
+ desc_mobilised_workforces: "Our people need land to live on, and without clearing the land it's trees and scrubs, they'll have nowhere to go. Let us mobilise our labourers and clear the land in an efficient manner."
+ 
+ illusion_of_grandeur: "Illusion of Grandeur"
+ desc_illusion_of_grandeur: "By casting an illusion on our [Root.Monarch.GetTitle] when [Root.Monarch.GetHeShe] visits other realms, we can grant [Root.Monarch.GetHimHer] a more imposing stature, increasing the likelihood of success during diplomatic dealings."
+ 
+ enchanted_spyglass: "Enchanted Spyglasses"
+ desc_enchanted_spyglass: "Our sailors are often lacking vision, but with an enchanted spyglass they will be able to see further, and with more clarity than before."
+ 
+ scrying_orb: "Scrying Orb"
+ desc_scrying_orb: "A scrying orb offers much to our generals, whom can use it to monitor fronts from afar, without enemy acknowledgement."
+ 
+ arcane_familiars: "Arcane Familiars"
+ desc_arcane_familiars: "Beings wrought from arcane energies, these familiars can be used for construction, organisation, and many other actions."
+ 
+ conjured_feasts: "Conjured Feasts"
+ desc_conjured_feasts: "With numerous guests being entertained, it is often courteous to provide them with a dish from their own region. By conjuring it up, we can provide these dishes with minimal impact to our coffers."
+ 
+ enchanted_broom: "Enchanted Brooms"
+ desc_enchanted_broom: "By enchanting common household objects, we can eliminate the need for servants within many of our nobility's estates, pleasing the heads of the households."
+ 
+ embued_tome: "Embued Tomes"
+ desc_embued_tome: "Through the use of scrying, our researchers found an ancient tome with untold knowledge within. They have recovered it and have offered it to the [Root.Monarch.GetTitle]."
+ 
+ mana_shields: "Mana Shields"
+ desc_mana_shields: "By providing mana shields to people of importance, we can better protect people of a prestigious position, in turn granting us a more prestigious position in the world."
+ 
+ invisibility_cloaks: "Invisibility Cloaks"
+ desc_invisibility_cloaks: "Through powerful arcane magic, our mages have managed to imbue the cloaks of our shock troops with invisibility, allowing them to operate at a much higher level of effectiveness."
+
+ arcane_crystal: "Arcane Crystals"
+ desc_arcane_crystal: "Our mages have managed to create an 'energy' crystal out of arcane magic, allowing us to power our technological inventions more easily."
+ 
+ #------------------------------------------------
+ # Event
+ #------------------------------------------------
  incensed_people: "Incensed People"
  desc_incensed_people: "We have used force on these people, and they resent us for that."
  
