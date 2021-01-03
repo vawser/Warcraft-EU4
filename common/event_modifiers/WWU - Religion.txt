@@ -17,7 +17,7 @@ the_light_fervor = {
 }
 
 the_light_contemplation = {
-    global_missionary_strength = 0.01
+    tolerance_heathen = 2
     religion = yes
 }
 

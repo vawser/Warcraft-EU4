@@ -6,13 +6,11 @@ country_decisions = {
 		}
 		
 		allow = {
-			stability = 1
+			mil = 4
             NOT = { has_country_modifier = curbed_infighting }
 		}
 		
 		effect = {
-			stability = -1
-            
             add_country_modifier = {
                 name = curbed_infighting
                 duration = 3650
@@ -31,13 +29,11 @@ country_decisions = {
 		}
 		
 		allow = {
-			prestige = 50
+			adm = 4
             NOT = { has_country_modifier = divined_magic }
 		}
 		
 		effect = {
-			add_prestige = -25
-            
             add_country_modifier = {
                 name = divined_magic
                 duration = 3650
@@ -81,12 +77,12 @@ country_decisions = {
 		}
 		
 		allow = {
-			mil = 5
+			dip = 4
             NOT = { has_country_modifier = challenged_alpha }
 		}
 		
 		effect = {
-            add_country_modifier = {
+            add_ruler_modifier = {
                 name = challenged_alpha
                 duration = -1
             }

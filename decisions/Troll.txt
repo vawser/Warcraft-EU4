@@ -1,7 +1,7 @@
 country_decisions = {
     initiate_guerilla_warfare = {
 		potential = {
-			is_troll = yes
+			is_troll_culture_group = yes
             NOT = { has_country_modifier = initiate_guerilla_warfare }
 		}
 		
@@ -25,9 +25,9 @@ country_decisions = {
     
     enforce_loa_worship = {
 		potential = {
-			is_troll = yes
+			is_troll_culture_group = yes
             NOT = { has_country_modifier = enforcing_loa_worship }
-            religion = loa
+            religion = voodoo
 		}
 		
 		allow = {
@@ -49,7 +49,7 @@ country_decisions = {
     
     conduct_blood_sacrifice = {
 		potential = {
-			is_troll = yes
+			is_troll_culture_group = yes
             religion = hakkari
             NOT = { has_country_modifier = summoned_blood_god }
 		}
@@ -75,7 +75,7 @@ country_decisions = {
     
     sacrifice_prisoners = {
 		potential = {
-			is_troll = yes
+			is_troll_culture_group = yes
             religion = hakkari
             NOT = { has_country_modifier = sacrificed_prisoners }
             is_at_war = yes

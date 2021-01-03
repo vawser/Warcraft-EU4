@@ -1,4 +1,4 @@
-namespace = excavation
+namespace = wwu_archaeology
 
 # "Archaeological Dig"
 country_event = {

@@ -46,6 +46,7 @@ country_decisions = {
             NOT = { has_country_modifier = illicit_connections }
         }
         allow = {
+            dip = 4
             NOT = { has_country_modifier = illicit_connections }
         }
         effect = {
@@ -65,6 +66,7 @@ country_decisions = {
             NOT = { has_country_modifier = blackmailed_labourers }
         }
         allow = {
+            mil = 4
             NOT = { has_country_modifier = blackmailed_labourers }
         }
         effect = {
@@ -108,10 +110,10 @@ country_decisions = {
             NOT = { has_country_modifier = engineering_surge }
         }
         allow = {
-            adm_power = 100
+            mil_power = 100
         }
         effect = {
-            add_adm_power = -100
+            mil_power = -100
             add_country_modifier = {
                 name = explosives_surge
                 duration = 8900
@@ -133,7 +135,7 @@ country_decisions = {
             adm_power = 100
         }
         effect = {
-            add_adm_power = -100
+            add_mil_power = -100
             add_country_modifier = {
                 name = engineering_surge
                 duration = 8900

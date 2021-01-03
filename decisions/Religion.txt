@@ -290,11 +290,11 @@ country_decisions = {
     
     infest_the_masses = {
         potential = {
-            religion_group = death_group
+            religion = cult_of_the_damned
             NOT = { has_country_modifier = mass_infestation }
         }
         allow = {
-            religion_group = death_group
+            religion = cult_of_the_damned
             adm_power = 100
         }
         effect = {

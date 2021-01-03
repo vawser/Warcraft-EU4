@@ -732,19 +732,6 @@ on_mil_development = {
 
 on_overextension_pulse = {
 	#log = "[Root.GetName]: Triggered overextension_pulse"
-    
-	random_events = {
-		100 = wwu_overextenstion.1
-		100 = wwu_overextenstion.2
-		100 = wwu_overextenstion.3
-		100 = wwu_overextenstion.4
-		100 = wwu_overextenstion.5
-		100 = wwu_overextenstion.6
-		100 = wwu_overextenstion.7
-		100 = wwu_overextenstion.8
-		100 = wwu_overextenstion.9
-		100 = wwu_overextenstion.10
-	}
 }
 
 

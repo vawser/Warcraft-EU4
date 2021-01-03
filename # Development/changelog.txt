@@ -7,6 +7,8 @@ Name key provinces
 Remove Darnassus from initial placement, add as spawnable for The Burning Legion time
 Enable plague event for Lordaeron region
  
-# Crash:
+Do formable decisions and nations
+ 
+# Fix Crash:
 [flags.cpp:169]: Trying to get undefined non-dynamic flag: 'Monarch'
 
