@@ -165,13 +165,34 @@
  NORDRASSIL_DESTROYED: "Nordrassil has been destroyed!"
  NORDRASSIL_NOT_DESTROTED: "Nordrassil has not been destroyed."
  
+ # Scourge
  scourge_convert_government: "We have been absorbed into the Scourge."
  
- SCOURGE_REMNANTS_STRING: "Scourge Remnants"
- SCOURGE_REMNANTS_STRING_ADJ: "Scourge Remnants"
+ SCOURGE_SUCCUMBED_TO_TT: "Succumbed to the Scourge."
  
  SCOURGE_GOV_GAIN_MANPOWER: "Gain $G0.1$! $YYearly Manpower$! for each province under your control."
  SCOURGE_GOV_GAIN_LEGITIMACY: "Gain $G0.1$! $YLegitimacy$! for each province under your control."
  SCOURGE_GOV_GAIN_REFORM_PROGRESS: "Gain $G0.25$! $YReform Progress$! for each province under your control."
  
- SCOURGE_SUCCUMBED_TO_TT: "Succumbed to the Scourge."
+ SCOURGE_REMNANTS_STRING: "Scourge Remnants"
+ SCOURGE_REMNANTS_STRING_ADJ: "Scourge Remnants"
+
+ SCOURGE_UNBOUND_STRING: "Unbound Scourge"
+ SCOURGE_UNBOUND_STRING_ADJ: "Unbound Scourge"
+ 
+ SCOURGE_AUBERDINE_STRING: "Scourge of Auberdine"
+ SCOURGE_AUBERDINE_STRING_ADJ: "Scourge of Auberdine"
+ 
+ SCOURGE_ASHENVALE_STRING: "Scourge of Ashenvale"
+ SCOURGE_ASHENVALE_STRING_ADJ: "Scourge of Ashenvale"
+ 
+ SCOURGE_CENARIUS_STRING: "Scourge of the Grove"
+ SCOURGE_CENARIUS_STRING_ADJ: "Scourge of the Grove"
+ 
+ SCOURGE_HYJAL_STRING: "Scourge of Hyjal"
+ SCOURGE_HYJAL_STRING_ADJ: "Scourge of Hyjal"
+ 
+ SCOURGE_FEATHERMOON_STRING: "Scourge of Feathermoon"
+ SCOURGE_FEATHERMOON_STRING_ADJ: "Scourge of Feathermoon"
+ 
+ 

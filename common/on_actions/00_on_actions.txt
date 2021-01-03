@@ -706,6 +706,44 @@ on_embrace_revolution = {
 	define_ruler = { 
         religion = cult_of_the_damned
     }
+    
+    # Names
+    if = {
+        limit = {
+            tag = UNB
+        }
+        override_country_name = SCOURGE_UNBOUND_STRING
+    }
+    if = {
+        limit = {
+            tag = SDS
+        }
+        override_country_name = SCOURGE_AUBERDINE_STRING
+    }
+    if = {
+        limit = {
+            tag = SEA
+        }
+        override_country_name = SCOURGE_ASHENVALE_STRING
+    }
+    if = {
+        limit = {
+            tag = COC
+        }
+        override_country_name = SCOURGE_CENARIUS_STRING
+    }
+    if = {
+        limit = {
+            tag = SEN
+        }
+        override_country_name = SCOURGE_HYJAL_STRING
+    }
+    if = {
+        limit = {
+            tag = SFR
+        }
+        override_country_name = SCOURGE_FEATHERMOON_STRING
+    }
 }
 
 on_dismantle_revolution = {

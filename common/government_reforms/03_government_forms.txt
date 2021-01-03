@@ -141,7 +141,7 @@ scourge_reform = {
 	modifiers = {
 		land_forcelimit_modifier = 0.5
         land_maintenance_modifier = -0.1
-        max_revolutionary_zeal = 100
+        max_revolutionary_zeal = 50
 	}
 	
 	ai = { factor = 0 }
@@ -272,7 +272,7 @@ scourge_domain_reform = {
 	modifiers = {
 		land_forcelimit_modifier = 0.2
         land_maintenance_modifier = -0.1
-        max_revolutionary_zeal = 50
+        max_revolutionary_zeal = 25
 	}
     
 	ai = { factor = 0 }

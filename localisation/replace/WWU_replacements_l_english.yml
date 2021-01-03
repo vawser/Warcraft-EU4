@@ -1701,3 +1701,5 @@
  cb_spread_the_revolution:0 "Spread Pestilence"
  cb_spread_the_revolution_desc:0 "We must spread pestilence beyond our borders!"
  
+ SPREAD_REVOLUTION_NAME:0 "$ORDER$$FIRST$ Pestilence War against $SECOND$"
+ 
