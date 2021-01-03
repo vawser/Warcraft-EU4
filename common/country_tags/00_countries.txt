@@ -3,22 +3,16 @@ PIR = "countries/Pirates.txt"
 NAT = "countries/Natives.txt"
 
 # ---- Formable ----
-X01 = "countries/formable/The Black Empire.txt"     # Qiraji
-X02 = "countries/formable/Arathor.txt"             # Lordaeron culture group
-X03 = "countries/formable/Black Warband.txt"        # Centaur
-X04 = "countries/formable/Dominion of Cenarius.txt" # Dryad
-X05 = "countries/formable/Kaldorei Empire.txt"      # Night Elf
-X06 = "countries/formable/The Grand Cartel.txt"     # Goblin
-X07 = "countries/formable/Throne of Thunder.txt"    # Mogu
+X01 = "countries/formable/The Black Empire.txt"             # Qiraji
+X02 = "countries/formable/Arathor.txt"                      # Lordaeron culture group
+X03 = "countries/formable/Black Warband.txt"                # Centaur
+X04 = "countries/formable/Dominion of Cenarius.txt"         # Dryad
+X05 = "countries/formable/Kaldorei Empire.txt"              # Night Elf
+X06 = "countries/formable/The Grand Cartel.txt"             # Goblin
+X07 = "countries/formable/Throne of Thunder.txt"            # Mogu
 X08 = "countries/formable/Dominion of the Deep Mother.txt"  # Murloc
-X09 = "countries/formable/The Nazjatar Empire.txt"  # Naga
-X10 = "countries/formable/The Pandaren Empire.txt"  # Pandaren
-X11 = "countries/formable/The Orcish Horde.txt"     # Orc
-X12 = "countries/formable/Empire of Zul.txt"        # Troll
-X13 = "countries/formable/The Amani Empire.txt"     # Forest Troll
-X14 = "countries/formable/The Drakkari Empire.txt"  # Frost Troll
-X15 = "countries/formable/The Gurubashi Empire.txt" # Jungle Troll
-X16 = "countries/formable/The Zandalari Empire.txt" # Zandalari Troll   
+X09 = "countries/formable/The Nazjatar Empire.txt"          # Naga
+X10 = "countries/formable/The Pandaren Empire.txt"          # Pandaren
 
 # ---- Human ----
 ALT = "countries/Alterac.txt"     

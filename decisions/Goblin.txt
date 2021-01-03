@@ -27,9 +27,11 @@ country_decisions = {
             NOT = { has_country_modifier = aggressive_marketing }
         }
         allow = {
-            NOT = { trade_income_percentage = 0.1 }
+            NOT = { trade_income_percentage = 0.3 }
+            dip_power = 100
         }
         effect = {
+            add_dip_power = -100
             add_country_modifier = {
                 name = aggressive_marketing
                 duration = 5475
@@ -50,9 +52,9 @@ country_decisions = {
             NOT = { has_country_modifier = illicit_connections }
         }
         effect = {
-            add_country_modifier = {
+            add_ruler_modifier = {
                 name = illicit_connections
-                duration = 8900
+                duration = -1
             }
         }
         ai_will_do = {
@@ -70,9 +72,9 @@ country_decisions = {
             NOT = { has_country_modifier = blackmailed_labourers }
         }
         effect = {
-            add_country_modifier = {
+            add_ruler_modifier = {
                 name = blackmailed_labourers
-                duration = 3650
+                duration = -1
             }
         }
         ai_will_do = {
@@ -113,7 +115,7 @@ country_decisions = {
             mil_power = 100
         }
         effect = {
-            mil_power = -100
+            add_mil_power = -100
             add_country_modifier = {
                 name = explosives_surge
                 duration = 8900
@@ -132,7 +134,7 @@ country_decisions = {
             NOT = { has_country_modifier = engineering_surge }
         }
         allow = {
-            adm_power = 100
+            mil_power = 100
         }
         effect = {
             add_mil_power = -100

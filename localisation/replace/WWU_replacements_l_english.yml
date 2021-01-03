@@ -1494,13 +1494,42 @@
  HARMONIZATION_PROGRESS_LESS_THAN: "Assimilation Progress less than §Y$VAL$%§!"
  HARMONIZATION_PROGRESS_AT_LEAST: "Assimilation Progress at least §Y$VAL$%§!"
  
+ #------------------------------------------------------
+ # Church Power
+ #------------------------------------------------------
+ HURCH_POWER:1 "Religious Power: $POWER|Y$"
+ CHURCH_OF:0 ""
+ CHURCH_POWER_MONTHLY:0 "$DIFF$ each month (base §Y$SKILL$§! monarch power * §Y$SCALE$§! modified $MOD$)\n\nThe following modifiers apply:\n"
+ NO_ASPECT_SELECTED:0 "No Aspect chosen"
+ CHANGE_ASPECT_TOO_LOW_POWER:2 "§RYou need at least $COST$ Religious Power to be able to apply another $ASPECTS_SHORT$§! (currently have $CURRENT|Y$)\n"
+ CHANGE_ASPECT_TOO_LOW_STAB:1 "§RYou need to have at least $MIN$ stability to be able to remove an $ASPECTS_SHORT$§!\n"
+ CHANGE_ASPECT_TOO_MANY:0 "Can at most have $MAX$ Aspects. Remove one to pick another.\n"
+ CHANGE_ASPECT_NONE:0 "There are no aspects to remove!\n"
+ CHANGE_ASPECT_TAKEN:0 "§RThe slot is already taken! Remove aspect first.§!\n"
+ CHANGE_ASPECT_EMPTY:0 "§RThe slot is already empty!§!\n"
+ CHANGE_ASPECT_ALREADY_TAKEN:0 "Aspect already selected.\n"
+ CHANGE_ASPECT_ALREADY_GONE:0 "Don't have this aspect anymore.\n"
+ CHANGE_ASPECT_CAN_ADD:0 "§GClick to choose a new Aspect!§!\n"
+ CHANGE_ASPECT_CAN_REMOVE:0 "§GClick to remove this Aspect.§!\n"
+ CHANGE_ASPECT_ADD:2 "§GClick to apply $NAME|Y$.§!"
+ MODIFIER_CHURCH_POWER:0 "Religious Power"
+ ADD_CHURCH_POWER_EFFECT:0 "$DIRECTION$ $VALUE$ Religious Power.\n"
  
- 
- 
- 
- 
- 
- 
+ #------------------------------------------------------
+ # Siberian Frontier
+ #------------------------------------------------------
+ SIBERIAN_FRONTIER_LACKS_IDEA: "Without a national idea, its impossible to establish a settlement."
+ CONFIRSIBERIANFRONTIER: "Confirm Establish Settlements"
+ CONFIRSIBERIANFRONTIER_TEXT: "$EFFECT$\nAre you sure?"
+ NOT_SIB_TO_BE_SEI: "Settlements can not be seized like normal colonies."
+ SIB_FRONTIER_TOOLTIP: "This colony gains between $MIN|Y$ and $MAX|Y$ settlers each month."
+ SIB_FRONT_TXT: "Settlement"
+ NOSF_NO_POINTS: "You need §Y$COST$§!£dip to establish a settlement, and you only have §Y$VAL$§!."
+ NOSF_HAS_OWNER: "You can't establish a new settlement in a province which is currently being colonized."
+ NOSF_ALREADY_COLONISED: "It is impossible to establish a settlement in a province where there is a colonisation of some sort in process."
+ NOSF_NO_TRACE_HOME: "A settlement can only be established next to a city we own that can trace a route back to our capital."
+ ESTABLISH_SIBFRO_IRO: "Establishing a settlement will cost of §Y$COST$§!£dip . This will create a colony that will slowly grow, without the need for a colonist, nor any colonial maintenance."
+ IDEA_MAY_SIBERIAN_FRONTIER: "May Establish Settlements"
  
  
  

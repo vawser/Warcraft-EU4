@@ -45,6 +45,10 @@ night_elf_vitality = {
 	}
 	trigger = {
 		culture_group = night_elf_group
+        custom_trigger_tooltip = {
+            tooltip = NORDRASSIL_NOT_DESTROTED
+            NOT = { has_global_flag = nordrassil_destroyed }
+        }
 	}
 
 	monarch_lifespan = 10.0

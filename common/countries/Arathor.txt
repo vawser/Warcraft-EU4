@@ -1,0 +1,747 @@
+graphical_culture = human_gfx
+
+color = { 18 97 153 }
+
+monarch_names = {
+	"Harry #0" = 20
+	"Oliver #0" = 20
+	"Jack #0" = 20
+	"Charlie #0" = 20
+	"Jacob #0" = 20
+	"Thomas #0" = 20
+	"Alfie #0" = 20
+	"Riley #0" = 20
+	"William #0" = 20
+	"James #0" = 20
+	"Joshua #0" = 20
+	"George #0" = 20
+	"Ethan #0" = 20
+	"Noah #0" = 20
+	"Samuel #0" = 20
+	"Daniel #0" = 20
+	"Oscar #0" = 20
+	"Max #0" = 20
+	"Leo #0" = 20
+	"Tyler #0" = 20
+	"Joseph #0" = 20
+	"Archie #0" = 20
+	"Henry #0" = 20
+	"Lucas #0" = 20
+	"Alexander #0" = 20
+	"Dylan #0" = 20
+	"Logan #0" = 20
+	"Isaac #0" = 20
+	"Mason #0" = 20
+	"Benjamin #0" = 20
+	"Jake #0" = 20
+	"Finley #0" = 20
+	"Harrison #0" = 20
+	"Edward #0" = 20
+	"Jayden #0" = 20
+	"Freddie #0" = 20
+	"Adam #0" = 20
+	"Zachary #0" = 20
+	"Sebastian #0" = 20
+	"Ryan #0" = 20
+	"Lewis #0" = 20
+	"Theo #0" = 20
+	"Luke #0" = 20
+	"Harvey #0" = 20
+	"Toby #0" = 20
+	"Liam #0" = 20
+	"Callum #0" = 20
+	"Arthur #0" = 20
+	"Michael #0" = 20
+	"Jenson #0" = 20
+	"Tommy #0" = 20
+	"Nathan #0" = 20
+	"Bobby #0" = 20
+	"Connor #0" = 20
+	"David #0" = 20
+	"Luca #0" = 20
+	"Charles #0" = 20
+	"Kai #0" = 20
+	"Jamie #0" = 20
+	"Alex #0" = 20
+	"Blake #0" = 20
+	"Frankie #0" = 20
+	"Reuben #0" = 20
+	"Aaron #0" = 20
+	"Dexter #0" = 20
+	"Jude #0" = 20
+	"Leon #0" = 20
+	"Ollie #0" = 20
+	"Stanley #0" = 20
+	"Elliot #0" = 20
+	"Gabriel #0" = 20
+	"Cameron #0" = 20
+	"Owen #0" = 20
+	"Louie #0" = 20
+	"Aiden #0" = 20
+	"Louis #0" = 20
+	"Elijah #0" = 20
+	"Finlay #0" = 20
+	"Rhys #0" = 20
+	"Caleb #0" = 20
+	"Evan #0" = 20
+	"Fredirick #0" = 20
+	"Hugo #0" = 20
+	"Kian #0" = 20
+	"Sonny #0" = 20
+	"Seth #0" = 20
+	"Kayden #0" = 20
+	"Taylor #0" = 20
+	"Kyle #0" = 20
+	"Elliott #0" = 20
+	"Robert #0" = 20
+	"Theodore #0" = 20
+	"Bailey #0" = 20
+	"Rory #0" = 20
+	"Ellis #0" = 20
+	"Joel #0" = 20
+	"Bradley #0" = 20
+	"Hayden #0" = 20
+	"John #0" = 20
+	"Ronnie #0" = 20
+	"Olly #0" = 20
+	"Austin #0" = 20
+	"Albert #0" = 20
+	"Billy #0" = 20
+	"Ashton #0" = 20
+	"Christopher #0" = 20
+	"Jackson #0" = 20
+	"Felix #0" = 20
+	"Dominic #0" = 20
+	"Corey #0" = 20
+	"Ben #0" = 20
+	"Nathaniel #0" = 20
+	"Aidan #0" = 20
+	"Reece #0" = 20
+	"Cody #0" = 20
+	"Sam #0" = 20
+	"Maxwell #0" = 20
+	"Patrick #0" = 20
+	"Tobias #0" = 20
+	"Yusuf #0" = 20
+	"Jasper #0" = 20
+	"Jakub #0" = 20
+	"Finn #0" = 20
+	"Kaiden #0" = 20
+	"Roman #0" = 20
+	"Tristan #0" = 20
+	"Carter #0" = 20
+	"Zac #0" = 20
+	"Rwan #0" = 20
+	"Morgan #0" = 20
+	"Ali #0" = 20
+	"Jay #0" = 20
+	"Teddy #0" = 20
+	"Anthony #0" = 20
+	"Syed #0" = 20
+	"Filip #0" = 20
+	"Eli #0" = 20
+	"Flynn #0" = 20
+	"Joe #0" = 20
+	"Reggie #0" = 20
+	"Nicholas #0" = 20
+	"Spencer #0" = 20
+	"Cole #0" = 20
+	"Levi #0" = 20
+	"Andrew #0" = 20
+	"Ewan #0" = 20
+	"Zack #0" = 20
+	"Brandon #0" = 20
+	"Alfred #0" = 20
+	"Maximilian #0" = 20
+	"Milo #0" = 20
+	"Zain #0" = 20
+	"Layton #0" = 20
+	"Xavier #0" = 20
+	"Jason #0" = 20
+	"Zak #0" = 20
+	"Leighton #0" = 20
+	"Marcus #0" = 20
+	"Marley #0" = 20
+	"Johnathan #0" = 20
+	"Kieran #0" = 20
+	"Beau #0" = 20
+	"Kacper #0" = 20
+	"Ruben #0" = 20
+	"Declan #0" = 20
+	"Joey #0" = 20
+	"Alan #0" = 20
+	"Kevin #0" = 20
+	"Joanh #0" = 20
+	"Oskar #0" = 20
+	"Vincent #0" = 20
+	"Peter #0" = 20
+	"Jaiden #0" = 20
+	"Miles #0" = 20
+	"Rocco #0" = 20
+	"Albie #0" = 20
+	"Lukas #0" = 20
+	"Jensen #0" = 20
+	"Jaxon #0" = 20
+	"Ralph #0" = 20
+	"Rio #0" = 20
+	"Zach #0" = 20
+	"Tom #0" = 20
+	"Shay #0" = 20
+	"Jesse #0" = 20
+	"Fraser #0" = 20
+	"Lennon #0" = 20
+	"Myles #0" = 20
+	"Amelia #0" = -20
+	"Olivia #0" = -20
+	"Jessica #0" = -20
+	"Emily #0" = -20
+	"Lily #0" = -20
+	"Ava #0" = -20
+	"Mia #0" = -20
+	"Isla #0" = -20
+	"Sophie #0" = -20
+	"Isabella #0" = -20
+	"Evie #0" = -20
+	"Ruby #0" = -20
+	"Poppy #0" = -20
+	"Grace #0" = -20
+	"Sophia #0" = -20
+	"Chloe #0" = -20
+	"Isabelle #0" = -20
+	"Ella #0" = -20
+	"Freya #0" = -20
+	"Charlotte #0" = -20
+	"Scarlett #0" = -20
+	"Daisy #0" = -20
+	"Lola #0" = -20
+	"Eva #0" = -20
+	"Holly #0" = -20
+	"Millie #0" = -20
+	"Lucy #0" = -20
+	"Phoebe #0" = -20
+	"Layla #0" = -20
+	"Maisie #0" = -20
+	"Sienna #0" = -20
+	"Alice #0" = -20
+	"Lilly #0" = -20
+	"Florence #0" = -20
+	"Ellie #0" = -20
+	"Erin #0" = -20
+	"Imogen #0" = -20
+	"Elizabeth #0" = -20
+	"Molly #0" = -20
+	"Summer #0" = -20
+	"Megan #0" = -20
+	"Hannah #0" = -20
+	"Sofia #0" = -20
+	"Abigail #0" = -20
+	"Jasmine #0" = -20
+	"Lexi #0" = -20
+	"Matilda #0" = -20
+	"Rosie #0" = -20
+	"Lacey #0" = -20
+	"Emma #0" = -20
+	"Amelie #0" = -20
+	"Gracie #0" = -20
+	"Maya #0" = -20
+	"Hollie #0" = -20
+	"Georgia #0" = -20
+	"Emilia #0" = -20
+	"Evelyn #0" = -20
+	"Bella #0" = -20
+	"Brooke #0" = -20
+	"Amber #0" = -20
+	"Eliza #0" = -20
+	"Amy #0" = -20
+	"Eleanor #0" = -20
+	"Leah #0" = -20
+	"Esme #0" = -20
+	"Katie #0" = -20
+	"Harriet #0" = -20
+	"Anna #0" = -20
+	"Willow #0" = -20
+	"Elsie #0" = -20
+	"Zara #0" = -20
+	"Annabelle #0" = -20
+	"Bethany #0" = -20
+	"Faith #0" = -20
+	"Madison #0" = -20
+	"Isabel #0" = -20
+	"Martha #0" = -20
+	"Rose #0" = -20
+	"Julia #0" = -20
+	"Paige #0" = -20
+	"Maryam #0" = -20
+	"Maddison #0" = -20
+	"Heidi #0" = -20
+	"Mollie #0" = -20
+	"Niamh #0" = -20
+	"Skye #0" = -20
+	"Aisha #0" = -20
+	"Ivy #0" = -20
+	"Darcey #0" = -20
+	"Francesca #0" = -20
+	"Zoe #0" = -20
+	"Keira #0" = -20
+	"Tilly #0" = -20
+	"Maria #0" = -20
+	"Sarah #0" = -20
+	"Lydia #0" = -20
+	"Caitlin #0" = -20
+	"Isobel #0" = -20
+	"Sara #0" = -20
+	"Violet #0" = -20
+	"Alexis #0" = -20
+	"Lexie #0" = -20
+	"Lauren #0" = -20
+	"Mya #0" = -20
+	"Seren #0" = -20
+	"Victoria #0" = -20
+	"Darcy #0" = -20
+	"Rebecca #0" = -20
+	"Annabel #0" = -20
+	"Eloise #0" = -20
+	"Maisy #0" = -20
+	"Lottie #0" = -20
+	"Fatima #0" = -20
+	"Beatrice #0" = -20
+	"Lara #0" = -20
+	"Alexandra #0" = -20
+	"Tia #0" = -20
+	"Laila #0" = -20
+	"Nicole #0" = -20
+	"Gabriella #0" = -20
+	"Nevaeh #0" = -20
+	"Darcie #0" = -20
+	"Iris #0" = -20
+	"Isis #0" = -20
+	"Nancy #0" = -20
+	"Aaliyah #0" = -20
+	"Annie #0" = -20
+	"Libby #0" = -20
+	"Lois #0" = -20
+	"Alisha #0" = -20
+	"Maja #0" = -20
+	"Zainab #0" = -20
+	"Leila #0" = -20
+	"Lyla #0" = -20
+	"Eve #0" = -20
+	"Kayla #0" = -20
+	"Savannah #0" = -20
+	"Lena #0" = -20
+	"Hope #0" = -20
+	"Naomi #0" = -20
+	"Laura #0" = -20
+	"Angel #0" = -20
+	"Miley #0" = -20
+	"India #0" = -20
+	"Faye #0" = -20
+	"Zahra #0" = -20
+	"Elise #0" = -20
+	"Alicia #0" = -20
+	"Madeleine #0" = -20
+	"Natalia #0" = -20
+	"Eden #0" = -20
+	"Lillie #0" = -20
+	"Connie #0" = -20
+	"Aimee #0" = -20
+	"Robyn #0" = -20
+	"Orla #0" = -20
+	"Esther #0" = -20
+	"Georgina #0" = -20
+	"Scarlet #0" = -20
+	"Neve #0" = -20
+	"Mila #0" = -20
+	"Alyssa #0" = -20
+	"Alexa #0" = -20
+	"Anya #0" = -20
+	"Emelia #0" = -20
+	"Pippa #0" = -20
+	"Yasmin #0" = -20
+	"Abbie #0" = -20
+	"Jessie #0" = -20
+	"Beau #0" = -20
+	"Betsy #0" = -20
+	"Felicity #0" = -20
+	"Sadie #0" = -20
+	"Amira #0" = -20
+	"Frankie #0" = -20
+	"Aleena #0" = -20
+	"Nina #0" = -20
+	"Arabella #0" = -20
+	"Elsa #0" = -20
+	"Anaya #0" = -20
+	"Clara #0" = -20
+	"Macie #0" = -20
+	"Tabitha #0" = -20
+	"Hanna #0" = -20
+	"Mariam #0" = -20
+	"Elena #0" = -20
+	"Zuzanna #0" = -20
+	"Amina #0" = -20
+	"Autumn #0" = -20
+	"Lucia #0" = -20
+	"Alexia #0" = -20
+	"Melissa #0" = -20
+	"Nadia #0" = -20
+	"Ayla #0" = -20
+	"Macey #0" = -20
+	"Jemima #0" = -20
+	"Jennifer #0" = -20
+	"Lacie #0" = -20
+	"Skyla #0" = -20
+
+}
+
+leader_names = {
+	"Jonathan"
+	"Lothar"
+	"Clay"
+	"Fordragon"
+	"Windsor"
+	"Soluna"
+	"Leland"
+	"Stockton"
+	"Lohan"
+	"Bauden"
+	"McCoy"
+	"Allen"
+	"Miller"
+	"Gallina"
+	"Rall"
+	"Marie"
+	"Anship"
+	"Chaddis"
+	"Raskol"
+	"Langston"
+	"Stoutmantle"
+	"Stonefield"
+	"Schweitzer"
+	"Pfeiffer"
+	"Sanders"
+	"Lind"
+	"Pressler"
+	"Fielder"
+	"Odesyus"
+	"Taylor"
+	"Brom"
+	"Moulaine"
+	"Arbington"
+	"Mallory"
+	"Moore"
+	"Laughlin"
+	"Bolero"
+	"Constantine"
+	"Merriweather"
+	"Hafgan"
+	"Axeman"
+	"Potts"
+	"Derring"
+	"Jainrose"
+	"Eva"
+	"Griffith"
+	"Berrybuck"
+	"Davenport"
+	"Germaine"
+	"Halloran"
+	"Krighton"
+	"Fadran"
+	"Wainwright"
+	"Hastings"
+	"Kryten"
+	"Benedictus"
+	"Gaiman"
+	"Malin"
+	"Nakada"
+	"Cailen"
+	"Stormfeather"
+	"Marsters"
+	"Peshkov"
+	"Huwe"
+	"Neto"
+	"Blank"
+	"Bridenbecker"
+	"Downs"
+	"Chilton"
+	"Fitch"
+	"Fitzgerald"
+	"Hesse"
+	"Jaxon"
+	"Lauffer"
+	"Burnhep"
+	"Feeney"
+	"Windmill"
+	"Fellwood"
+	"Ironboot"
+	"Matalli"
+	"Daniels"
+	"Dobbins"
+	"Hann"
+	"Kelly"
+	"Townsley"
+	"Alexston"
+	"Tidewater"
+	"Wental"
+	"Bartleby"
+	"Ginsetti"
+	"Behsten"
+	"Mora"
+	"Trias"
+	"Carevin"
+	"Elgueta"
+	"Foxworthy"
+	"Stonehammer"
+	"Gump"
+	"Brubaker"
+	"Heisten"
+	"Quin"
+	"Featherwhistle"
+	"Maclure"
+	"DeLavey"
+	"Farthing"
+	"Grey"
+	"Gray"
+	"Hammerbeak"
+	"Hennigan"
+	"Cloudwing"
+	"Terrel"
+	"Hamfist"
+	"Stonebraid"
+	"Crowley"
+	"Grassman"
+	"Thomas"
+	"Jongleur"
+	"Alpert"
+	"Danuvin"
+	"Darill"
+	"Hanes"
+	"Dirgehammer"
+	"Holley"
+	"Revshon"
+	"Nials"
+	"Greenfield"
+	"Brownfield"
+	"Rouncefield"
+	"Longfield"
+	"Windfield"
+	"Oakfield"
+	"Oak"
+	"Maple"
+	"Yew"
+	"Teak"
+	"Sycaruse"
+	"Willow"
+	"Jones"
+	"Williams"
+	"Campbell"
+	"Davis"
+	"Thompson"
+	"Kelly"
+	"Sullivan"
+	"O'Brien"
+	"Evans"
+	"Brown"
+	"Lewis"
+	"Wilson"
+	"Wallace"
+	"Ryan"
+	"Moore"
+	"Anderson"
+	"Jackson"
+	"Johnson"
+	"Smith"
+	"Murphy"
+	"Rogers"
+	"Philips"
+	"Morgan"
+	"Graham"
+	"Robinson"
+	"Burns"
+	"Robertson"
+	"Rodriguez"
+	"Thomas"
+	"Walker"
+	"Clark"
+	"Harris"
+	"Wright"
+	"Howard"
+	"Powell"
+	"Price"
+	"King"
+	"Frizgerald"
+	"Roberts"
+	"Taylor"
+	"Lopez"
+	"Russell"
+	"Gray"
+	"Walsh"
+	"Duncan"
+	"Kelley"
+	"Stewart"
+	"Richardson"
+	"Higgins"
+	"Hamilton"
+	"Wells"
+	"Carroll"
+	"Ferguson"
+	"Armstrong"
+	"Allen"
+	"Burke"
+	"Cle"
+	"Lynch"
+	"McCarthy"
+	"Nelson"
+	"Baker"
+	"Parker"
+	"Hall"
+	"Moran"
+	"Craig"
+	"Perez"
+	"Davies"
+	"Watson"
+	"Hughes"
+	"Hill"
+	"Adams"
+	"Chapman"
+	"Casey"
+	"Butler"
+	"Ward"
+	"White"
+	"Knight"
+	"Garcia"
+	"Grant"
+	"Spencer"
+	"Henderson"
+	"Green"
+	"Perry"
+	"Bailey"
+	"Turner"
+	"Cunningham"
+	"Martin"
+	"Morris"
+	"McLaughlin"
+	"Harrison"
+	"Long"
+	"Flynn"
+	"Gallagher"
+	"Edwards"
+	"Brooks"
+	"Miller"
+	"Dunn"
+	"Cooper"
+	"Young"
+	"Owens"
+	"Cook"
+	"Carter"
+	"Ross"
+	"Ellis"
+	"Mitchell"
+	"Cameron"
+	"Warren"
+	"Johnston"
+	"Gibson"
+	"Smith"
+	"Buchanan"
+	"Barnes"
+	"Byrne"
+	"Riley"
+	"Morrison"
+	"Foster"
+	"Lloyd"
+	"Richards"
+	"McClure"
+	"Elliott"
+	"Taylor"
+	"Andrews"
+	"Miller"
+	"MacDonald"
+	"O'Neil"
+	"McMahon"
+	"Fowler"
+	"Douglas"
+	"Crawford"
+	"Mason"
+	"Alexander"
+	"Stevens"
+	"Hawkins"
+	"Clark"
+	"Wagner"
+	"Farrell"
+	"Wood"
+	"Fitzpatrick"
+	"McCormick"
+	"Webb"
+	"Myers"
+	"Hunt"
+	"Monygomery"
+	"Harper"
+	"Tucker"
+	"Schmidt"
+	"Torres"
+	"West"
+	"Sweeney"
+	"Holmes"
+	"Dixon"
+	"Payne"
+	"Barrett"
+	"Jensen"
+	"Perkins"
+	"O'Donnell"
+	"McLean"
+	"Scott"
+	"Lee"
+	"Murray"
+	"Reed"
+	"McCullough"
+	"Quinn"
+	"Bennett"
+	"Hopkins"
+	"Stephens"
+	"Ortiz"
+	"Foley"
+	"Simmons"
+	"Reid"
+	"McGrath"
+	"Patterson"
+	"Nolan"
+	"Kennedy"
+	"Joyce"
+	"Dillon"
+	"Doyle"
+	"Brennan"
+	"Holland"
+	"Gordon"
+	"Brady"
+	"McCann"
+	"Schneider"
+	"Rhodes"
+	"Little"
+	"Coleman"
+	"McDonald"
+	"Howell"
+	"Rowe"
+	"Reyes"
+	"Dougherty"
+	"Bates"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+

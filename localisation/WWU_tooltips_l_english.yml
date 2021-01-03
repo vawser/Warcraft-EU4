@@ -161,3 +161,7 @@
  lord_elemental: "the Elements"
 
  HUMAN_MAGI_DISCOVERY_TT: "Our magi will discover something unique."
+ 
+ NORDRASSIL_DESTROYED: "Nordrassil has been destroyed!"
+ NORDRASSIL_NOT_DESTROTED: "Nordrassil has not been destroyed."
+ 

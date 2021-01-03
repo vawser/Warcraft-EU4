@@ -2,7 +2,7 @@ namespace = wwu_orcish_horde
 
 # The Orcish Horde
 country_event = {
-	id = wwu_orcish_horde.1			# Landing of Naxxramas
+	id = wwu_orcish_horde.1
 	title = wwu_orcish_horde.1.title
 	desc = wwu_orcish_horde.1.desc
 	picture = ORCISH_INVASION_eventPicture
@@ -11,6 +11,7 @@ country_event = {
     major = yes
 
 	trigger = {
+        start_date = 592.1.1 # Started in Orcish Horde bookmark
         tag = TOH
         NOT = { has_global_flag = orcish_horde_info_flag }
 	}
@@ -87,6 +88,7 @@ country_event = {
 	picture = SWORD_SHIELD_eventPicture
 
 	trigger = {
+        start_date = 592.1.1 # Started in Orcish Horde bookmark
         tag = SRW
         NOT = { has_country_flag = the_kings_champion }
         war_with = TOH
@@ -123,6 +125,7 @@ country_event = {
 	picture = SWORD_SHIELD_eventPicture
 
 	trigger = {
+        start_date = 592.1.1 # Started in Orcish Horde bookmark
         tag = LOR
         NOT = { has_country_flag = stormwind_attacked }
         SRW = { defensive_war_with = TOH }
@@ -249,6 +252,7 @@ country_event = {
 	picture = DARK_PORTAL_CLOSEUP_eventPicture
 
     trigger = {
+        start_date = 592.1.1 # Started in Orcish Horde bookmark
         tag = TOH
         ai = yes
         mission_completed = prepare_for_the_assault

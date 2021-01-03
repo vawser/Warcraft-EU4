@@ -1,6 +1,7 @@
 country_decisions = {
 	form_theramore = {
 		major = yes
+        ai_importance = 400
         
 		potential = {
 			NOT = { exists = TRM }
@@ -11,20 +12,25 @@ country_decisions = {
                 area = area_dustwallow_3
                 area = area_dustwallow_4
             }
+            NOT = { owned_by = ROOT }
 		}
 		allow = {
+            is_at_war = no
+            prestige = 0
+            
             primary_culture = kul_tiras
+            
 			area_dustwallow_3 = {
+                type = all
                 owned_by = ROOT
             }
             area_dustwallow_4 = {
+                type = all
                 owned_by = ROOT
-            }
-			NOT = { exists = TRM }
-			is_at_war = no		
+            }	
 		}
 		effect = {
-			add_prestige = 25
+			add_prestige = 50
             swap_free_idea_group = yes
 			change_tag = TRM
             
@@ -41,376 +47,622 @@ country_decisions = {
 		}
 	}
 
-	# found_orgrimmar = {
-		# major = yes
-		# potential = {
-			# NOT = { exists = ORG }
-			# culture_group = orc_group
-			# is_colonial_nation = no
-			# capital_scope = { continent = kalimdor }
-		# }
-        # provinces_to_highlight = {
-			# region = region_durotar
-			# OR = {
-				# NOT = { owned_by = ROOT }
-				# is_city = no
-			# }
-		# }
-		# allow = {
-			# capital_scope = { region = region_durotar }
-			# owns_core_province = 1377
-			# NOT = { is_non_faction_subject = yes }
-			# is_at_war = no
-			# NOT = { exists = ORG }
-		# }
-		# effect = {
-			# change_tag = ORG
-			# if = {
-				# limit = { NOT = { government_rank = 3 } }
-				# set_government_rank = 3
-			# }
-			# 1377 = {
-				# while = {
-					# limit = {
-						# NOT = { base_tax = 8 }
-					# }
-					# add_base_tax = 1
-				# }
-				# while = {
-					# limit = {
-						# NOT = { base_manpower = 8 }
-					# }
-					# add_base_manpower = 1
-				# }
-				# while = {
-					# limit = {
-						# NOT = { base_production = 8 }
-					# }
-					# add_base_production = 1
-				# }
-				# if = {
-					# limit = { NOT = { culture = culture_horde } }
-					# change_culture = culture_horde
-				# }
-				# if = {
-					# limit = { NOT = { religion = religion_ancestral } }
-					# change_religion = religion_ancestral
-				# }
-			# }
-			
-			# add_country_modifier = {
-				# name = "centralization_modifier"
-				# duration = 7300
-			# }
-			
-			# add_prestige = 25
-			# change_primary_culture = culture_horde
-		# }
-		# ai_will_do = {
-			# factor = 1
-		# }
-	# }
-
-    # establish_the_empire_of_the_shifting_sands = {
-		# major = yes
-		
-		# potential = {
-			# NOT = { exists = X01 } 
-			# culture_group = qiraji_group
-			# is_colonial_nation = no
-		# }
-		# provinces_to_highlight = {
-			# OR = {
-                # region = region_silithus
-                # region = region_ungoro_crater
-                # region = region_tanaris
-                # region = region_uldum
-            # }
-			# OR = {
-				# NOT = { owned_by = ROOT }
-				# is_city = no
-			# }
-		# }
-		# allow = {
-            # region_silithus = {
-                # owned_by = ROOT
-                # type = all
-            # }
-            
-            # region_ungoro_crater = {
-                # owned_by = ROOT
-                # type = all
-            # }
-            
-            # region_tanaris = {
-                # owned_by = ROOT
-                # type = all
-            # }
-            
-            # region_uldum = {
-                # owned_by = ROOT
-                # type = all
-            # }
-            
-			# is_at_war = no		
-		# }
-		
-		# effect = {
-			# add_prestige = 25
-			# change_tag = X01
-            
-			# add_country_modifier = {
-				# name = "centralization_modifier"
-				# duration = 7300
-			# }
-
-			# if = {
-				# limit = {
-					# NOT = { government_rank = 3 }
-				# }
-				# set_government_rank = 3
-			# }
-		# }
-		
-		# ai_will_do = {
-			# factor = 1
-		# }
-	# }
-
-	# form_darnassus = {
-		# major = yes
-		# potential = {
-			
-			# NOT = { exists = DAS }
-			# culture_group = night_elf_group
-		# }
-        # provinces_to_highlight = {
-			# region = region_teldrassil
-			# OR = {
-				# NOT = { owned_by = ROOT }
-				# is_city = no
-			# }
-		# }
-		# allow = {
-			# is_at_war = no		
-			# region_teldrassil = {
-				# owned_by = ROOT
-			# }
-			# dip_power = 200
-		# }
-		# effect = {
-			# add_prestige = 25
-			# change_tag = DAS
-			# add_dip_power = -200
-			# add_country_modifier = {
-				# name = "centralization_modifier"
-				# duration = 7300
-			# }
-		# }
-		
-		# ai_importance = 400
-		
-		# ai_will_do = {
-			# factor = 1
-		# }
-	# }
-	
-	# form_empire_of_arathor = {
-		# major = yes
-		# potential = {
-			# NOT = { exists = X02 }
-			# is_human_culture_group = yes
-		# }
-		# allow = {
-			# total_development = 500
-			# legitimacy = 95
-			# prestige = 95
-			# dip = 3
-			# dip_power = 500
-		# }
-		# effect = {
-			# add_prestige = 5
-			# change_tag = X02
-			# change_primary_culture = culture_arathorian
-			# hidden_effect = { every_owned_province = { change_culture = culture_arathorian } }
-			# add_dip_power = -500
-			# add_country_modifier = {
-				# name = "centralization_modifier"
-				# duration = 7300
-			# }
-			# swap_free_idea_group = yes
-		# }
-		
-		# ai_importance = 400
-		
-		# ai_will_do = {
-			# factor = 1
-		# }
-	# }
-	# form_gurubashi_empire = {
-		# potential = {
-			# culture_group = culture_group_jungle_troll
-			# NOT = { exists = X15 }
-		# }
-        # provinces_to_highlight = {
-			# region = region_stranglethorn_vale
-			# OR = {
-				# NOT = { owned_by = ROOT }
-				# is_city = no
-			# }
-		# }
-		# allow = {
-            # region_stranglethorn_vale = {
-				# owned_by = ROOT
-			# }
-			# NOT = { is_non_faction_subject = yes }
-			# is_at_war = no
-			# prestige = 25
-		# }
-		# effect = {
-			# change_tag = X15 # Gurubashi Empire
-			# change_government = monarchy
-			# add_prestige = 35
-		# }
-		
-		# ai_importance = 400
-		
-		# ai_will_do = {
-			# factor = 1
-		# }
-	# }
-	
-	# form_centaur_khanate = {
-		# major = yes
-		# potential = {
-			# NOT = { exists = X03 }
-			# culture_group = centaur_group
-		# }
-        # provinces_to_highlight = {
-			# region = region_desolace
-			# OR = {
-				# NOT = { owned_by = ROOT }
-				# is_city = no
-			# }
-		# }
-		# allow = {
-			# is_at_war = no		
-			# region_desolace = {
-				# type = all
-				# owned_by = ROOT
-				# culture_group = centaur_group
-			# }
-			# mil_power = 200
-			# dip_power = 200
-			# adm_power = 200
-		# }
-		# effect = {
-			# add_prestige = 50
-			# change_tag = X03
-			# add_dip_power = -200
-			# add_mil_power = -200
-			# add_adm_power = -200
-			# add_country_modifier = {
-				# name = "centralization_modifier"
-				# duration = 7300
-			# }
-		# }
-		
-		# ai_importance = 400
-		
-		# ai_will_do = {
-			# factor = 1
-		# }
-	# }
-	
-	# form_drakkari_empire = {
-		# major = yes
+	form_orgrimmar = {
+		major = yes
+        ai_importance = 400
         
-		# potential = {
-			# NOT = { exists = X14 }
-			# culture_group = ice_troll_group
-		# }
-        # provinces_to_highlight = {
-			# region = region_zuldrak
-			# OR = {
-				# NOT = { owned_by = ROOT }
-				# is_city = no
-			# }
-		# }
-		# allow = {
-			# is_at_war = no		
-			# region_zuldrak = {
-				# type = all
-				# owned_by = ROOT
-			# }
-			# legitimacy_equivalent = 85
-			# dip_power = 300
-			# adm_power = 300
-		# }
-		# effect = {
-			# add_prestige = 50
-			# change_tag = X14
-			# add_dip_power = -300
-			# add_adm_power = -300
-			# add_country_modifier = {
-				# name = "centralization_modifier"
-				# duration = 7300
-			# }
-		# }
-		
-		# ai_importance = 400
-		
-		# ai_will_do = {
-			# factor = 1
-		# }
-	# }
-	
-	# form_amani_empire = {
-		# major = yes
+		potential = {
+			NOT = { exists = ORG }
+            NOT = { religion = fel }
+			culture_group = orc_group
+		}
+        provinces_to_highlight = {
+			OR = { 
+                area = area_durotar_1
+                area = area_durotar_2
+                province_id = 7214
+                province_id = 7200
+                province_id = 7213
+                province_id = 7216
+                province_id = 7211
+                province_id = 7229
+                province_id = 7257
+                province_id = 7194
+            }
+            NOT = { owned_by = ROOT }
+		}
+		allow = {
+            is_at_war = no
+            prestige = 0
+            
+            NOT = { religion = fel }
+            
+			area_durotar_1 = {
+                type = all
+                owned_by = ROOT
+                is_core = ROOT
+            }
+            area_durotar_1 = {
+                type = all
+                owned_by = ROOT
+                is_core = ROOT
+            }
+            owns_core_province = 7214
+            owns_core_province = 7200
+            owns_core_province = 7213
+            owns_core_province = 7216
+            owns_core_province = 7211
+            owns_core_province = 7229
+			owns_core_province = 7257
+			owns_core_province = 7194
+		}
+		effect = {
+            add_prestige = 50
+            swap_free_idea_group = yes
+			change_tag = ORG
+			
+            # Orgrimmar
+            7197 = {
+                set_base_tax = 10
+                set_base_production = 10
+                set_base_manpower = 10
+            }
+            region_durotar = {
+                limit = { 
+                    owned_by = ROOT
+                }
+                
+                change_culture = orgrimmar
+                change_religion = ROOT
+            }
+            region_durotar = {
+                add_permanent_claim = ROOT
+            }
+            
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    form_the_black_empire = {
+		major = yes
+		ai_importance = 400
         
-		# potential = {
-			# NOT = { exists = X13 }
-			# culture_group = forest_troll_group
-		# }
-        # provinces_to_highlight = {
-			# OR = {
-                # region = region_eversong_woods
-                # region = region_ghostlands
-            # }
-			# OR = {
-				# NOT = { owned_by = ROOT }
-				# is_city = no
-			# }
-		# }
-		# allow = {
-			# is_at_war = no		
-			# region_eversong_woods = {
-				# type = all
-				# owned_by = ROOT
-			# }	
-			# region_ghostlands = {
-				# type = all
-				# owned_by = ROOT
-			# }
-			# legitimacy_equivalent = 75
-			# mil_power = 100
-			# adm_power = 100
-		# }
-		# effect = {
-			# add_prestige = 50
-			# change_tag = X13
-			# add_mil_power = -100
-			# add_adm_power = -100
-			# add_country_modifier = {
-				# name = "centralization_modifier"
-				# duration = 7300
-			# }
-		# }
+		potential = {
+			NOT = { exists = X01 } 
+			is_old_god_religion = yes
+		}
+		provinces_to_highlight = {
+			OR = {
+                region = region_silithus
+                region = region_uldum
+                area = area_storm_peak_1
+                area = area_storm_peak_2
+                area = area_storm_peak_3
+                area = area_storm_peak_4
+                area = area_suramar_1
+                area = area_lordaeron_11
+            }
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+            is_at_war = no
+            is_old_god_religion = yes
+            total_development = 1000
+            
+            region_silithus = {
+                owned_by = ROOT
+                type = all
+            }
+            region_uldum = {
+                owned_by = ROOT
+                type = all
+            }
+            area_storm_peak_1 = {
+                owned_by = ROOT
+                type = all
+            }
+            area_storm_peak_2 = {
+                owned_by = ROOT
+                type = all
+            }
+            area_storm_peak_3 = {
+                owned_by = ROOT
+                type = all
+            }
+            area_storm_peak_4 = {
+                owned_by = ROOT
+                type = all
+            }
+            area_suramar_1 = {
+                owned_by = ROOT
+                type = all
+            }
+			area_lordaeron_11 = {
+                owned_by = ROOT
+                type = all
+            }		
+		}
 		
-		# ai_importance = 400
+		effect = {
+            set_government_rank = 3
+			add_prestige = 100
+            swap_free_idea_group = yes
+			change_tag = X01
+			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
 		
-		# ai_will_do = {
-			# factor = 1
-		# }
-	# }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    form_arathor = {
+		major = yes
+        ai_importance = 400
+        
+		potential = {
+			NOT = { exists = X02 }
+			is_human_culture_group = yes
+		}
+        provinces_to_highlight = {
+            OR = {
+                province_id = 3905
+                province_id = 3514 
+                province_id = 4033
+                province_id = 3599
+                province_id = 3469
+                province_id = 3475
+                province_id = 3445
+            }
+            NOT = { owned_by = ROOT }
+        }
+		allow = {
+            is_at_war = no
+			total_development = 1000
+            
+            owns_or_vassal_of = 3905
+            owns_or_vassal_of = 3514 
+            owns_or_vassal_of = 4033
+            owns_or_vassal_of = 3599
+            owns_or_vassal_of = 3469
+            owns_or_vassal_of = 3475
+            owns_or_vassal_of = 3445
+		}
+		effect = {
+            set_government_rank = 3
+            add_prestige = 100
+            swap_free_idea_group = yes
+			change_tag = X02
+			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+            
+            lordaeron = {
+                add_permanent_claim = ROOT
+            }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+	form_the_black_warband = {
+		major = yes
+        ai_importance = 400
+        
+		potential = {
+			NOT = { exists = X03 }
+			culture_group = centaur_group
+		}
+        provinces_to_highlight = {
+			region = region_desolace
+			NOT = { owned_by = ROOT }
+		}
+		allow = {  
+            is_at_war = no
+            
+			region_desolace = {
+                owned_by = ROOT
+                type = all
+            }
+		}
+		effect = {
+            set_government_rank = 3
+			add_prestige = 100
+            swap_free_idea_group = yes
+			change_tag = X03
+			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+            
+            region_desolace = {
+                add_permanent_claim = ROOT
+            }
+            region_feralas = {
+                add_permanent_claim = ROOT
+            }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    form_the_dominion_of_cenarius = {
+		major = yes
+        ai_importance = 400
+        
+		potential = {
+			NOT = { exists = X04 }
+			culture_group = dryad_group
+		}
+        provinces_to_highlight = {
+			region = region_mount_hyjal
+			NOT = { owned_by = ROOT }
+		}
+		allow = {  
+            is_at_war = no
+            
+			region_mount_hyjal = {
+                owned_by = ROOT
+                type = all
+            }
+		}
+		effect = {
+            set_government_rank = 3
+			add_prestige = 100
+            swap_free_idea_group = yes
+			change_tag = X04
+			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+            
+            region_mount_hyjal = {
+                add_permanent_claim = ROOT
+            }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_the_kaldorei_empire = {
+		major = yes
+        ai_importance = 400
+        
+		potential = {
+			NOT = { exists = X05 }
+			culture_group = night_elf_group
+		}
+        provinces_to_highlight = {
+			OR = {
+                region = region_mount_hyjal
+                region = region_teldrassil
+                region = region_darkshore
+                region = region_ashenvale
+                region = region_azshara
+                region = region_felwood
+                region = region_winterspring
+            }
+			NOT = { owned_by = ROOT }
+		}
+		allow = {  
+            is_at_war = no
+            
+			region_mount_hyjal = {
+                owned_by = ROOT
+                type = all
+            }
+            region_teldrassil = {
+                owned_by = ROOT
+                type = all
+            }
+            region_darkshore = {
+                owned_by = ROOT
+                type = all
+            }
+            region_ashenvale = {
+                owned_by = ROOT
+                type = all
+            }
+            region_azshara = {
+                owned_by = ROOT
+                type = all
+            }
+            region_felwood = {
+                owned_by = ROOT
+                type = all
+            }
+            region_winterspring = {
+                owned_by = ROOT
+                type = all
+            }
+		}
+		effect = {
+            set_government_rank = 3
+			add_prestige = 100
+            swap_free_idea_group = yes
+			change_tag = X05
+			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+            
+            region_mount_hyjal = {
+                add_permanent_claim = ROOT
+            }
+            region_teldrassil = {
+                add_permanent_claim = ROOT
+            }
+            region_darkshore = {
+                add_permanent_claim = ROOT
+            }
+            region_ashenvale = {
+                add_permanent_claim = ROOT
+            }
+            region_azshara = {
+                add_permanent_claim = ROOT
+            }
+            region_felwood = {
+                add_permanent_claim = ROOT
+            }
+            region_winterspring = {
+                add_permanent_claim = ROOT
+            }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    form_the_grand_cartel = {
+		major = yes
+        ai_importance = 400
+        
+		potential = {
+			NOT = { exists = X06 }
+			culture_group = goblin_group
+		}
+        provinces_to_highlight = {
+			OR = {
+                province_id = 2880
+                province_id = 3727
+                province_id = 5521
+                province_id = 5143
+            }
+			NOT = { owned_by = ROOT }
+		}
+		allow = {  
+            is_at_war = no
+            monthly_income = 80
+            trade_income_percentage = 0.5
+            
+			owns_or_vassal_of = 2880
+            owns_or_vassal_of = 3727
+            owns_or_vassal_of = 5521
+            owns_or_vassal_of = 5143
+		}
+		effect = {
+            set_government_rank = 3
+			add_prestige = 100
+            swap_free_idea_group = yes
+			change_tag = X06
+			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    form_the_throne_of_thunder = {
+		major = yes
+        ai_importance = 400
+        
+		potential = {
+			NOT = { exists = X07 }
+			culture_group = mogu_group
+		}
+        provinces_to_highlight = {
+			region = region_isle_of_thunder
+			NOT = { owned_by = ROOT }
+		}
+		allow = {  
+            is_at_war = no
+            total_development = 500
+            
+			region_isle_of_thunder = {
+                owned_by = ROOT
+                type = all
+            }
+		}
+		effect = {
+            set_government_rank = 3
+			add_prestige = 100
+            swap_free_idea_group = yes
+			change_tag = X07
+			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+            
+            pandaria = {
+                add_permanent_claim = ROOT
+            }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    form_the_dominion_of_the_deep_mother = {
+		major = yes
+        ai_importance = 400
+        
+		potential = {
+			NOT = { exists = X08 }
+			culture_group = murloc_group
+		}
+		allow = {  
+            is_at_war = no
+            total_development = 1000
+		}
+		effect = {
+            set_government_rank = 3
+			add_prestige = 100
+            swap_free_idea_group = yes
+			change_tag = X08
+			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    form_the_nazjatar_empire = {
+		major = yes
+        ai_importance = 400
+        
+		potential = {
+			NOT = { exists = X09 }
+			culture_group = naga_group
+		}
+        provinces_to_highlight = {
+			OR = {
+                area = area_eye_of_azshara_1
+                area = area_azsuna_2
+                area = area_borean_tundra_4
+                area = area_borean_tundra_5
+                area = area_azshara_8
+                province_id = 4802
+                province_id = 4801
+            }
+			NOT = { owned_by = ROOT }
+		}
+		allow = {  
+            is_at_war = no
+            total_development = 500
+            
+            area_eye_of_azshara_1 = {
+                type = all
+                owned_by = ROOT
+            }
+            area_azsuna_2 = {
+                type = all
+                owned_by = ROOT
+            }
+            area_borean_tundra_4 = {
+                type = all
+                owned_by = ROOT
+            }
+            area_borean_tundra_5 = {
+                type = all
+                owned_by = ROOT
+            }
+            area_azshara_8 = {
+                type = all
+                owned_by = ROOT
+            }
+            owns_or_vassal_of = 4802
+            owns_or_vassal_of = 4801
+		}
+		effect = {
+            set_government_rank = 3
+			add_prestige = 100
+            swap_free_idea_group = yes
+			change_tag = X09
+			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+    form_the_pandaren_empire = {
+		major = yes
+        ai_importance = 400
+        
+		potential = {
+			NOT = { exists = X10 }
+			culture_group = pandaren_group
+		}
+        provinces_to_highlight = {
+			region = region_vale_of_eternal_blossoms
+			NOT = { owned_by = ROOT }
+		}
+		allow = {  
+            is_at_war = no
+            
+            NOT = { exists = MOH }
+            NOT = { exists = GOM }
+            NOT = { exists = DOJ }
+            NOT = { exists = SAZ }
+            NOT = { exists = SHO }
+            NOT = { exists = GTH }
+            NOT = { exists = HRT }
+            NOT = { exists = KGH }
+            NOT = { exists = KAO }
+            NOT = { exists = KRJ }
+            NOT = { exists = KRN }
+            NOT = { exists = KRS }
+            NOT = { exists = JIT }
+            NOT = { exists = X07 }
+            
+            region_vale_of_eternal_blossoms = {
+                type = all
+                owned_by = ROOT
+            }
+		}
+		effect = {
+            set_government_rank = 3
+			add_prestige = 100
+            swap_free_idea_group = yes
+			change_tag = X10
+			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

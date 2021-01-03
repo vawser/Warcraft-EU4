@@ -2,39 +2,41 @@
  #-----------------------------------------------
  # Formation
  #-----------------------------------------------
- form_the_black_empire_title: "Form the Black Empire"
- form_the_black_empire_desc: ""
+ form_theramore_title: "Establish Theramore"
+ form_theramore_desc: "We shall establish the nation of Theramore."
  
- form_arathor_title: "Form Arathor"
- form_arathor_desc: ""
+ form_orgrimmar_title: "Establish Orgrimmar"
+ form_orgrimmar_desc: "We shall establish the city of Orgrimmar, the New Horde's capital."
  
- form_the_black_warband_title: "Form the Black Warband"
- form_the_black_warband_desc: ""
+ form_the_black_empire_title: "Establish the Black Empire"
+ form_the_black_empire_desc: "We shall re-establish the Black Empire!"
+ 
+ form_arathor_title: "Establish the Empire of Arathor"
+ form_arathor_desc: "We shall re-establish the Empire of Arathor"
+ 
+ form_the_black_warband_title: "Establish the Black Warband"
+ form_the_black_warband_desc: "We shall establish the Black Warband!"
 
- form_the_dominion_of_cenarius_title: "Form the Dominion of Cenarius" 
- form_the_dominion_of_cenarius_desc: ""
+ form_the_dominion_of_cenarius_title: "Establish the Dominion of Cenarius" 
+ form_the_dominion_of_cenarius_desc: "We shall establish the Dominion of Cenarius."
  
- form_the_kaldorei_empire_title: "Form the Kaldorei Empire"
- form_the_kaldorei_empire_desc: ""
+ form_the_kaldorei_empire_title: "Establish the Kaldorei Empire"
+ form_the_kaldorei_empire_desc: "We shall establish the Empire of the Kaldorei."
  
- form_the_grand_cartel_title: "Form the Grand Cartel"
- form_the_grand_cartel_desc: ""
+ form_the_grand_cartel_title: "Establish the Grand Cartel"
+ form_the_grand_cartel_desc: "We shall establish the Grand Cartel"
  
- form_the_throne_of_thunder_title: "Form the Throne of Thunder"
- form_the_throne_of_thunder_desc: ""
+ form_the_throne_of_thunder_title: "Establish the Throne of Thunder"
+ form_the_throne_of_thunder_desc: "We shall re-establish the Throne of Thunder!"
  
- form_the_dominion_of_the_deep_mother_title: "Form the Dominion of the Deep Mother"
- form_the_dominion_of_the_deep_mother_desc: ""
+ form_the_dominion_of_the_deep_mother_title: "Establish the Dominion of the Deep Mother"
+ form_the_dominion_of_the_deep_mother_desc: "We shall establish the Dominion of the Deep Mother."
  
- form_the_nazjatar_empire_title: "Form the Nazjatar Empire"
- form_the_nazjatar_empire_desc: ""
+ form_the_nazjatar_empire_title: "Establish the Nazjatar Empire"
+ form_the_nazjatar_empire_desc: "We shall establish the Nazjatar Empire!"
  
- form_the_pandaren_empire_title: "Form the Pandaren Empire"
- form_the_pandaren_empire_desc: ""
- 
- form_theramore_title: "Form Theramore"
- form_theramore_desc: ""
- 
+ form_the_pandaren_empire_title: "Establish the Pandaren Empire"
+ form_the_pandaren_empire_desc: "We shall re-establish the Pandaren Empire."
  
  #-----------------------------------------------
  # Fel
@@ -132,6 +134,9 @@
  #-----------------------------------------------
  encourage_bloodlust_title: "Encourage Bloodlust"
  encourage_bloodlust_desc: "We ache for war, let us raid our non-orc neighbours more often to sate the bloodlust."
+ 
+ turn_to_shamanism_title: "Turn towards Shamanism"
+ turn_to_shamanism_desc: "The Orcish Horde has splintered, and the tribes have begun to venture outwards. Let us abandon the foolish belief in Fel, and restore traditional shamanistic practices."
  
  #-----------------------------------------------
  # Murloc

@@ -98,4 +98,9 @@
  wwu_setup_orc.1.desc: "As the Scourge arises in Northrend and the Orcish Horde continues to collapse, a faction of orcs and other similar races have formed what shall be known as the New Horde, taking refuge in Durotar, in the valley that shall soon be known as Orgrimmar."
  wwu_setup_orc.1.option.a: "Arise!"
  
- 
+ #-------------------------------------
+ # Night Elf
+ #-------------------------------------
+ wwu_setup_night_elf.1.title: "Teldrassil"
+ wwu_setup_night_elf.1.desc: "Nordrassil, atop Mount Hyjal has been destroyed. Without a World Tree, the Night Elves are lost. The Circle of the Ancients have concocted a plan to combine powers and grow an immense tree within the Veiled Sea, to be named Teldrassil."
+ wwu_setup_night_elf.1.option.a: "Arise Teldrassil!"

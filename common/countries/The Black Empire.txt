@@ -1,0 +1,326 @@
+graphical_culture = qiraji_gfx
+
+color = { 33 36 34 }
+
+monarch_names = {
+	"Onokzor #0" = 20
+	"Kipik #0" = 20
+	"Zor'jak #0" = 20
+	"Xakip #0" = 20
+	"Jakiyyo #0" = 20
+	"Pa'ril #0" = 20
+	"Mokkuk #0" = 20
+	"Jakqi #0" = 20
+	"Ninil'ner #0" = 20
+	"Rikiyyo #0" = 20
+	"Qimok #0" = 20
+	"Vo'tar #0" = 20
+	"Rik'lok #0" = 20
+	"Haravo #0" = 20
+	"Riun #0" = 20
+	"Kilkal #0" = 20
+	"Jarak'shek #0" = 20
+	"Bak'sok #0" = 20
+	"Kukxeer #0" = 20
+	"Mal'zek #0" = 20
+	"Haraka #0" = 20
+	"Zekek #0" = 20
+	"Jinrik #0" = 20
+	"Xa'kuk #0" = 20
+	"Kalvalak #0" = 20
+	"Ik'onok #0" = 20
+	"Vomel #0" = 20
+	"Rixa #0" = 20
+	"Melun #0" = 20
+	"Zekkuk #0" = 20
+	"Shek'kor #0" = 20
+	"Kiphara #0" = 20
+	"Qi'kor #0" = 20
+	"Ruk'kal #0" = 20
+	"Nerkuk #0" = 20
+	"Erske #0" = 20
+	"Haraqi #0" = 20
+	"Komel #0" = 20
+	"Qi'kil #0" = 20
+	"Xeerril #0" = 20
+	"Tiktilak #0" = 20
+	"Kilga #0" = 20
+	"Ninil'ner #0" = 20
+	"Ek'shek #0" = 20
+	"His'kor #0" = 20
+	"Korxa #0" = 20
+	"Kukga #0" = 20
+	"Roz'tilak #0" = 20
+	"Jak'kaz #0" = 20
+	"Ninilkor #0" = 20
+	"Ril'ek #0" = 20
+	"Kor'un #0" = 20
+	"Ta'ta #0" = 20
+	"Ga'ri #0" = 20
+	"Ikkuk #0" = 20
+	"Yakiyyo #0" = 20
+	"Shekvo #0" = 20
+	"Kaik #0" = 20
+	"Kil'zek #0" = 20
+	"Kal'xeer #0" = 20
+	"Zor'ruk #0" = 20
+	"Skeri #0" = 20
+	"Bakko #0" = 20
+	"Mok'bak #0" = 20
+	"Iyyo'bak #0" = 20
+	"Koryak #0" = 20
+	"Valakvalak #0" = 20
+	"Kip'xeer #0" = 20
+	"Vomal #0" = 20
+	"Takal #0" = 20
+	"Skezek #0" = 20
+	"Voik #0" = 20
+	"Kil'shek #0" = 20
+	"Hara'lok #0" = 20
+	"Kilmok #0" = 20
+	"Tilak'jarak #0" = 20
+	"Ko'mel #0" = 20
+	"Rozkal #0" = 20
+	"Ta'tar #0" = 20
+	"Kip'hara #0" = 20
+	"Sokko #0" = 20
+	"Ekroz #0" = 20
+	"Skerik #0" = 20
+	"Ka'kor #0" = 20
+	"Korbak #0" = 20
+	"Kipvalak #0" = 20
+	"Kari #0" = 20
+	"Shek'un #0" = 20
+	"Tarik #0" = 20
+	"Mokkip #0" = 20
+	"Jakske #0" = 20
+	"Kiphara #0" = 20
+	"Paroz #0" = 20
+	"Zekroz #0" = 20
+	"Mel'zor #0" = 20
+	"Kazkor #0" = 20
+	"Kalkaz #0" = 20
+	"Unmok #0" = 20
+	"Iyyoiyyo #0" = 20
+	"Jin'mal #0" = 20
+	"Paer #0" = 20
+	"Rilkor #0" = 20
+	"Valakkaz #0" = 20
+	"Rikkor #0" = 20
+	"Bakkil #0" = 20
+	"Melvo #0" = 20
+	"Kaz'zor #0" = 20
+	"Kajin #0" = 20
+	"Onokzor #0" = -20
+	"Kipik #0" = -20
+	"Zor'jak #0" = -20
+	"Xakip #0" = -20
+	"Jakiyyo #0" = -20
+	"Pa'ril #0" = -20
+	"Mokkuk #0" = -20
+	"Jakqi #0" = -20
+	"Ninil'ner #0" = -20
+	"Rikiyyo #0" = -20
+	"Qimok #0" = -20
+	"Vo'tar #0" = -20
+	"Rik'lok #0" = -20
+	"Haravo #0" = -20
+	"Riun #0" = -20
+	"Kilkal #0" = -20
+	"Jarak'shek #0" = -20
+	"Bak'sok #0" = -20
+	"Kukxeer #0" = -20
+	"Mal'zek #0" = -20
+	"Haraka #0" = -20
+	"Zekek #0" = -20
+	"Jinrik #0" = -20
+	"Xa'kuk #0" = -20
+	"Kalvalak #0" = -20
+	"Ik'onok #0" = -20
+	"Vomel #0" = -20
+	"Rixa #0" = -20
+	"Melun #0" = -20
+	"Zekkuk #0" = -20
+	"Shek'kor #0" = -20
+	"Kiphara #0" = -20
+	"Qi'kor #0" = -20
+	"Ruk'kal #0" = -20
+	"Nerkuk #0" = -20
+	"Erske #0" = -20
+	"Haraqi #0" = -20
+	"Komel #0" = -20
+	"Qi'kil #0" = -20
+	"Xeerril #0" = -20
+	"Tiktilak #0" = -20
+	"Kilga #0" = -20
+	"Ninil'ner #0" = -20
+	"Ek'shek #0" = -20
+	"His'kor #0" = -20
+	"Korxa #0" = -20
+	"Kukga #0" = -20
+	"Roz'tilak #0" = -20
+	"Jak'kaz #0" = -20
+	"Ninilkor #0" = -20
+	"Ril'ek #0" = -20
+	"Kor'un #0" = -20
+	"Ta'ta #0" = -20
+	"Ga'ri #0" = -20
+	"Ikkuk #0" = -20
+	"Yakiyyo #0" = -20
+	"Shekvo #0" = -20
+	"Kaik #0" = -20
+	"Kil'zek #0" = -20
+	"Kal'xeer #0" = -20
+	"Zor'ruk #0" = -20
+	"Skeri #0" = -20
+	"Bakko #0" = -20
+	"Mok'bak #0" = -20
+	"Iyyo'bak #0" = -20
+	"Koryak #0" = -20
+	"Valakvalak #0" = -20
+	"Kip'xeer #0" = -20
+	"Vomal #0" = -20
+	"Takal #0" = -20
+	"Skezek #0" = -20
+	"Voik #0" = -20
+	"Kil'shek #0" = -20
+	"Hara'lok #0" = -20
+	"Kilmok #0" = -20
+	"Tilak'jarak #0" = -20
+	"Ko'mel #0" = -20
+	"Rozkal #0" = -20
+	"Ta'tar #0" = -20
+	"Kip'hara #0" = -20
+	"Sokko #0" = -20
+	"Ekroz #0" = -20
+	"Skerik #0" = -20
+	"Ka'kor #0" = -20
+	"Korbak #0" = -20
+	"Kipvalak #0" = -20
+	"Kari #0" = -20
+	"Shek'un #0" = -20
+	"Tarik #0" = -20
+	"Mokkip #0" = -20
+	"Jakske #0" = -20
+	"Kiphara #0" = -20
+	"Paroz #0" = -20
+	"Zekroz #0" = -20
+	"Mel'zor #0" = -20
+	"Kazkor #0" = -20
+	"Kalkaz #0" = -20
+	"Unmok #0" = -20
+	"Iyyoiyyo #0" = -20
+	"Jin'mal #0" = -20
+	"Paer #0" = -20
+	"Rilkor #0" = -20
+	"Valakkaz #0" = -20
+	"Rikkor #0" = -20
+	"Bakkil #0" = -20
+	"Melvo #0" = -20
+	"Kaz'zor #0" = -20
+	"Kajin #0" = -20
+
+}
+
+leader_names = {
+	"the Bonebreaker"
+	"the Throatslicer"
+	"the Wise"
+	"the Quick"
+	"the Sly"
+	"the Coy"
+	"the Smasher"
+	"the Stabber"
+	"the Gutter"
+	"the Ripper"
+	"the Puncher"
+	"the Kicker"
+	"the Massive"
+	"the Mammoth"
+	"the Monstrous"
+	"the Colossal"
+	"the Gigantic"
+	"the Giant"
+	"the Immense"
+	"the Vast"
+	"the Towering"
+	"the Bulky"
+	"the Lusty"
+	"the Mighty"
+	"the Titanic"
+	"the Potent"
+	"the Powerful"
+	"the Stout"
+	"the Tough"
+	"the Strong"
+	"the Sturdy"
+	"the Stalwart"
+	"the Brawny"
+	"the Hearty"
+	"the Great"
+	"the Almighty"
+	"the Gutsy"
+	"the Punchy"
+	"the Astute"
+	"the Careful"
+	"the Enlightened"
+	"the Perceptive"
+	"the Prudent"
+	"the Sane"
+	"the Shrewd"
+	"the Smart"
+	"the Wary"
+	"the Cunning"
+	"the Keen"
+	"the Sage"
+	"the Sharp"
+	"the Crafty"
+	"the Erudite"
+	"the Witty"
+	"the Sapient"
+	"the Tactful"
+	"the Furious"
+	"the Desperate"
+	"the Fierce"
+	"the Frantic"
+	"the Livid"
+	"the Raging"
+	"the Violent"
+	"the Frenzied"
+	"the Inciter"
+	"the Insane"
+	"the Crazed"
+	"the Maniac"
+	"the Vicious"
+	"the Rabid"
+	"the Delirious"
+	"the Fanatical"
+	"the Fervent"
+	"the Virulent"
+	"the Zealous"
+	"the Astute"
+	"the Educated"
+	"the Ample"
+	"the Judicious"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+
