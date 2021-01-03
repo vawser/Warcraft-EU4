@@ -606,9 +606,12 @@ country_event = {
 			max_random_dip = 4
 			mil = 6
 		}
-        every_owned_province = {
-			owner = { add_yearly_manpower = 0.01 }
-		}
+        custom_tooltip = SCOURGE_GOV_GAIN_MANPOWER
+        hidden_effect = {
+            every_owned_province = {
+                owner = { add_yearly_manpower = 0.01 }
+            }
+        }
 	}
 	option = {
 		name = wwu_government.7.option.b
@@ -618,9 +621,12 @@ country_event = {
 			dip = 6
 			max_random_mil = 4
 		}
-        every_owned_province = {
-			owner = { add_legitimacy = 0.1 } 
-		}
+        custom_tooltip = SCOURGE_GOV_GAIN_LEGITIMACY
+        hidden_effect = {
+            every_owned_province = {
+                owner = { add_legitimacy = 0.1 } 
+            }
+        }
 	}
     option = {
 		name = wwu_government.7.option.c
@@ -630,9 +636,12 @@ country_event = {
 			max_random_dip = 4
 			max_random_mil = 4
 		}
-        every_owned_province = {
-			owner = { adopt_reform_progress = 0.25 }
-		}
+        custom_tooltip = SCOURGE_GOV_GAIN_REFORM_PROGRESS
+        hidden_effect = {
+            every_owned_province = {
+                owner = { adopt_reform_progress = 0.25 }
+            }
+        }
 	}
 }
 

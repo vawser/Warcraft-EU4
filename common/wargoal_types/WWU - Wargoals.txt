@@ -1,0 +1,67 @@
+war_against_men = {
+	type = take_capital
+	
+	badboy_factor = 0.50
+	prestige_factor = 0.75
+	peace_cost_factor = 0.50
+	
+	peace_options = {
+		po_release_vassals
+		po_release_annexed
+		po_change_religion
+		po_revoke_cores
+		po_demand_provinces
+		po_become_vassal
+	}
+	
+	war_name = FIRST_WAR_NAME	
+}
+war_against_evil = {
+	type = take_capital
+	
+	badboy_factor = 0.75
+	prestige_factor = 1.25
+	peace_cost_factor = 0.75
+	
+	peace_options = {
+		po_release_vassals
+		po_release_annexed
+		po_change_religion
+		po_revoke_cores
+		po_demand_provinces
+		po_become_vassal
+	}
+	
+	war_name = GOOD_WAR_NAME	
+}
+titan_clash = {
+	type = take_capital
+	
+	badboy_factor = 1.50
+	prestige_factor = 1.50
+	peace_cost_factor = 1.50
+	
+	peace_options = {
+		po_change_religion
+	}
+	
+	war_name = TITAN_CLASH	
+}
+legion_invasion_goal = {
+	type = take_capital
+	
+	badboy_factor = 2.0
+	prestige_factor = 1.0
+	peace_cost_factor = 0.5
+	
+	peace_options = {
+		po_demand_provinces
+		po_gold
+		po_become_vassal
+	}
+	
+	war_name = INVASION_WAR_NAME	
+}
+
+
+

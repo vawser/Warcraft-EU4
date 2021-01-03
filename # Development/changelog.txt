@@ -4,8 +4,6 @@
 Add national ideas
 Name key provinces
 
-Enable plague event for Lordaeron region
- 
 # Fix Crash:
 [flags.cpp:169]: Trying to get undefined non-dynamic flag: 'Monarch'
 

@@ -273,3 +273,9 @@
  avarice_rebels_demand: "Convert to Avarice"
  avarice_rebels_demand_desc: "They demand freedom to pursue the promises of Avarice"
  
+ scourge_rebels_title: "Scourge"
+ scourge_rebels_name: "$COUNTRY$ Scourge"
+ scourge_rebels_desc: "The Scourge are out to cull our people, which they regard as mere obstacles to their true goal."
+ scourge_rebels_demand: "Absorb into the Scourge"
+ scourge_rebels_demand_desc: "The scourge aim to absorb us into the Scourge."
+ 

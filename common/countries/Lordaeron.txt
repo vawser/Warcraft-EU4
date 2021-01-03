@@ -2,6 +2,8 @@ graphical_culture = human_gfx
 
 color = { 235 243 250 }
 
+revolutionary_colors = { 0 15 15 }
+
 monarch_names = {
 	"Harry #0" = 20
 	"Oliver #0" = 20

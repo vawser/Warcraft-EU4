@@ -2,6 +2,8 @@ graphical_culture = scourge_gfx
 
 color = { 11 78 133 }
 
+revolutionary_colors = { 15 0 0 }
+
 monarch_names = {
 	"Faerkel #0" = 20
 	"Ran'ran #0" = 20

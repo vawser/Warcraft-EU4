@@ -1,8 +1,10 @@
+# Scourge Infestation
 revolution = {
 	# FROM = center of revolution
 	target_province_weights = {
 		factor = 1
 
+        # Ignore empty provinces
 		modifier = {
 			factor = 0
 			OR = {
@@ -11,12 +13,15 @@ revolution = {
 				is_sea = yes
 			}
 		}
+        
+        # Boost if Scourge
 		modifier = {
 			factor = 2
 			controller = {
 				is_revolution_target = yes
 			}
 		}
+        # Boost if succumbed to Scourge
 		modifier = {
 			factor = 1.5
 			controller = {
@@ -24,6 +29,7 @@ revolution = {
 				is_revolutionary = yes
 			}
 		}
+        # Boost if overlord has succumbed to Scourge
 		modifier = {
 			factor = 1.25
 			owner = {
@@ -34,79 +40,68 @@ revolution = {
 				}
 			}
 		}
+        # High chance in these regions
+        modifier = {
+			factor = 2
+			OR = {
+                region = region_tirisfal_glades
+                region = region_stratholme
+                region = region_andorhal
+            }
+		}
+        # High chance on these continents
+		modifier = {
+			factor = 2
+			OR = {
+                continent = lordaeron
+                continent = northrend
+            }
+		}
+        # Normal chance on these continents
+		modifier = {
+			factor = 1
+			OR = {
+                continent = azeroth
+                continent = khaz_modan
+                continent = northern_kalimdor
+                continent = pandaria
+                continent = broken_isles
+            }
+		}
+        # Low chance on these continents
 		modifier = {
 			factor = 0.5
-			NOT = { same_continent = FROM }
+			OR = {
+                continent = islands_kalimdor
+                continent = central_kalimdor
+                continent = southern_kalimdor
+                continent = kezan
+                continent = zandalar
+                continent = plunder_isle
+            }
 		}
-		modifier = {
-			factor = 0.5
-			NOT = { same_continent = FROM }
-			NOT = {
-				OR = {
-					has_port = yes
-					any_neighbor_province = {
-						has_revolution_in_province = yes
-					}
-					controller = { is_revolutionary = yes }
-				}
-			}
-		}
+        # Reduce chance if not port
 		modifier = {
 			factor = 0.75
-			NOT = { superregion = FROM }
-			same_continent = FROM
+			NOT = { has_port = yes }
 		}
+        # Increase chance against humans
 		modifier = {
 			factor = 1.2
-			culture_group = FROM
+			is_human_culture_group = yes
 		}
-		modifier = {
-			factor = 0.8
-			NOT = { religion = FROM }
-		}
-		modifier = {
-			factor = 0.6
-			NOT = { religion_group = FROM }
-		}
+        # Increase chance with Scourge rebels
 		modifier = {
 			factor = 1.5
 			unrest = 1
-			likely_rebels = revolutionary_rebels
+			likely_rebels = scourge_rebels
 		}
+        # Increase chance with Scourge rebels
 		modifier = {
 			factor = 2
-			controlled_by = revolutionary_rebels
+			controlled_by = scourge_rebels
 		}
-		modifier = {
-			factor = 1.2
-			owner = {
-				any_ally = {
-					is_revolution_target = yes
-				}
-			}
-		}
-		#target absolutist states more
-		modifier = {
-			factor = 0.8
-			NOT = { owner = { absolutism = 60 } }
-		}
-		modifier = {
-			factor = 1.1
-			owner = { absolutism = 70 }
-		}
-		modifier = {
-			factor = 1.1
-			owner = { absolutism = 80 }
-		}
-		modifier = {
-			factor = 1.15
-			owner = { absolutism = 90 }
-		}
-		modifier = {
-			factor = 1.2
-			owner = { absolutism = 100 }
-		}
-		 #cities are breeding grounds for revolution
+        # Increase chance against high development
 		modifier = {
 			factor = 0.8
 			NOT = { development = 10 }
@@ -135,14 +130,15 @@ revolution = {
 			factor = 1.2
 			province_has_center_of_trade_of_level = 2
 		}
-		#make it not be such a scatter gun
+        # Increase chance if neighbor has pestilence
 		modifier = {
 			factor = 2
 			any_neighbor_province = {
 				has_revolution_in_province = yes
 			}
 		}
-		modifier = { #so that it will get to islands like Britain
+        # Increase chance if port and sea neighbors has pestilence
+        modifier = {
 			factor = 1.6
 			has_port = yes
 			sea_zone = {
@@ -156,11 +152,13 @@ revolution = {
 				}
 			}
 		}
-		modifier = { #so that it stays gone once removed
+        # Remove chance if revolution is removed
+		modifier = {
 			factor = 0
 			controller = { NOT = { is_revolutionary = yes } }
 			has_province_modifier = no_revolution_here_dummy
 		}
+        # Remove chance if revolution is removed
 		modifier = {
 			factor = 0
 			controller = { NOT = { is_revolutionary = yes } }
@@ -176,6 +174,6 @@ revolution = {
 	# Values at 100 Revolutionary Zeal
 	zeal_modifiers = {
 		administrative_efficiency = 0.3
-		special_unit_forcelimit = 0.2
+		special_unit_forcelimit = 0.5
 	}
 }

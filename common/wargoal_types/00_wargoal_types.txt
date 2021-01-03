@@ -989,10 +989,15 @@ take_province_excommunication = {
 	badboy_factor = 0.5
 	prestige_factor = 1.25
 	peace_cost_factor = 1.0	
+
+	defender = {
+		is_excommunication = yes
+	}
 	
 	allowed_provinces = {
 		owner = { 
 			is_excommunicated = yes
+			religion = fel		
 		}
 		OR = {
 			is_core = ROOT

@@ -1,0 +1,20 @@
+﻿l_english: 
+ #-------------------------------------
+ # Scourge
+ #-------------------------------------
+ wwu_scourge.1.title: "The Scourge"
+ wwu_scourge.1.desc: "The Lich King has been awoken and now controls the Scourge, a mindless undead horde. Unless defeated atop Icecrown Citadel, the Lich King and his scourge minions shall infest every corner of Azeroth."
+ wwu_scourge.1.option.a: "Arise!"
+ 
+ wwu_scourge.2.title: "Scourging of Lordaeron"
+ wwu_scourge.2.desc: "Under the command of the Lich King, Kel'Thuzad founded the Cult of the Damned within Lordaeron. The cult spread a plague throughout the lands of Lordaeron that will turn those infected into undead."
+ wwu_scourge.2.option.a: "Odd tasting bread..."
+ 
+ wwu_scourge.3.title: "Lich King Destroyed"
+ wwu_scourge.3.desc: "We have taken control of Icecrown Citadel and laid siege to the Lich King's throne. With Frostmorne shattered, the Helm of Domination may pass to somebody with the will to resist."
+ wwu_scourge.3.option.a: "Excellent"
+ 
+ wwu_scourge.4.title: "Exert Influence"
+ wwu_scourge.4.desc: "As the Lich King, the mindless hordes are often best given vague instruction on where to shamble to. However, occasionally it can be beneficial to take more of a direct hand in operations through various, hidden means."
+ wwu_scourge.4.option.a: "Let us establish direct control"
+ wwu_scourge.4.option.a: "Leave them to their own devices"

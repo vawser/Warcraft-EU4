@@ -114,6 +114,7 @@ scourge_reform = {
     legacy_equivalent = scourge_legacy
     
     potential = {
+        NOT = { has_global_flag = destroyed_lich_king }
 		OR = {
 			technology_group = tech_undead
 			technology_group = tech_scourge
@@ -123,6 +124,9 @@ scourge_reform = {
 	royal_marriage = no
     maintain_dynasty = no
 	
+    uses_revolutionary_zeal = yes
+	revolutionary = yes
+    
 	custom_attributes = {
         champion_system = yes
         locked_government_type = yes
@@ -137,6 +141,7 @@ scourge_reform = {
 	modifiers = {
 		land_forcelimit_modifier = 0.5
         land_maintenance_modifier = -0.1
+        max_revolutionary_zeal = 100
 	}
 	
 	ai = { factor = 0 }
@@ -240,13 +245,21 @@ scourge_domain_reform = {
     legacy_equivalent = scourge_domain_legacy
     
     potential = {
-		technology_group = tech_scourge
+        NOT = { has_global_flag = destroyed_lich_king }
+        custom_trigger_tooltip = {
+            tooltip = SCOURGE_SUCCUMBED_TO_TT
+            has_country_flag = allow_scourge_government
+        }
 	}
     
-    heir = no
+    heir = yes
 	queen = no
     
+    uses_revolutionary_zeal = yes
+	revolutionary = yes
+    
     custom_attributes = {
+        champion_system = yes
 		locked_government_type = yes
 	}
     conditional = {
@@ -257,8 +270,9 @@ scourge_domain_reform = {
 	}
     
 	modifiers = {
-		land_forcelimit_modifier = 0.33
+		land_forcelimit_modifier = 0.2
         land_maintenance_modifier = -0.1
+        max_revolutionary_zeal = 50
 	}
     
 	ai = { factor = 0 }

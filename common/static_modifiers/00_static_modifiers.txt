@@ -1,6 +1,6 @@
-# All global modifiers are here. They are applied from certain game-features.
+ # All global modifiers are here. They are applied from certain game-features.
 #
-# Effects are fully scriptable here.
+# Effects are fully scriptable  here.
 
 # These names can NOT be removed or changes, as the code uses them....
 
@@ -823,6 +823,10 @@ defender_of_faith = {
 	devotion = 0.5
 }
 
+defender_of_faith_refused_cta = {
+	diplomatic_reputation = -1
+}
+
 emperor = {
 	spy_offence = 0.1
 	advisor_pool = 1
@@ -867,9 +871,7 @@ num_of_marriages = {
 }
 
 num_of_provinces = {
-	ae_impact = 0.002
-	harsh_treatment_cost = 0.002
-	stability_cost_modifier = 0.002
+	
 }
 
 country_development = {
@@ -1311,7 +1313,6 @@ revolution_target = {
 	naval_maintenance_modifier = -0.15
 	land_forcelimit_modifier = 0.4
 	naval_forcelimit_modifier = 0.4
-	papal_influence = -100
 }
 
 dishonoured_alliance =  {
@@ -1650,5 +1651,5 @@ lost_hegemony = {
 }
 
 at_peace_revolutionary = { # Applied if at peace while reactionaries are bordering you
-	yearly_revolutionary_zeal = -4
+	yearly_revolutionary_zeal = -2
 }

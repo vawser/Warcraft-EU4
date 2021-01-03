@@ -165,3 +165,13 @@
  NORDRASSIL_DESTROYED: "Nordrassil has been destroyed!"
  NORDRASSIL_NOT_DESTROTED: "Nordrassil has not been destroyed."
  
+ scourge_convert_government: "We have been absorbed into the Scourge."
+ 
+ SCOURGE_REMNANTS_STRING: "Scourge Remnants"
+ SCOURGE_REMNANTS_STRING_ADJ: "Scourge Remnants"
+ 
+ SCOURGE_GOV_GAIN_MANPOWER: "Gain $G0.1$! $YYearly Manpower$! for each province under your control."
+ SCOURGE_GOV_GAIN_LEGITIMACY: "Gain $G0.1$! $YLegitimacy$! for each province under your control."
+ SCOURGE_GOV_GAIN_REFORM_PROGRESS: "Gain $G0.25$! $YReform Progress$! for each province under your control."
+ 
+ SCOURGE_SUCCUMBED_TO_TT: "Succumbed to the Scourge."

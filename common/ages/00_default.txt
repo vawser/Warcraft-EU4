@@ -226,7 +226,7 @@ age_orcish_horde = {
 	}
 }
 age_scourge = {
-	start = 700
+	start = 593
 	
 	can_start = {
 		custom_trigger_tooltip = {
@@ -436,7 +436,7 @@ age_scourge = {
 }
 
 age_burning_legion = {
-	start = 800
+	start = 594
 	
 	can_start = {
 		custom_trigger_tooltip = {

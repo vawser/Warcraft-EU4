@@ -15,6 +15,7 @@ add_country_modifier = {
 # The Scourge
 593.1.1 = {
     set_global_flag = setup_scourge
+    set_revolution_target = SCO
     
     monarch = {
 		name = "Ner'zhul"

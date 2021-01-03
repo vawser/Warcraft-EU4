@@ -295,15 +295,18 @@
  #------------------------------------------------------
  # Units
  #------------------------------------------------------
+ SPECIAL_FORCE_LIMIT:0 "We can only have $VAL|Y$ $NAME$ due to:\n$WHY$"
  # REGCAT_normal: "Regulars"
  # REGCAT_mercenary: "Mercenaries"
  
- # Streltsy - Undead
- REGCAT_streltsy: "Undead"
- STRELTSY_NAME: "$HOME$'s $NUM$$ORDER$ Undead"
- STRELTSY_REGIMENT: "Undead"
- ADD_STRELTSY_SUB_UNIT_EFFECT: "Get '§GUndead§!' $UNIT$ in §Y$WHERE$§!."
- streltsy_modifier: "Reliance on Undead"
+ MARINES_FORCELIMIT:0 "We can recruit up $VAL|%Y$ of our force-limit as §GMarines§! of $FL$ due to:\n"
+ 
+ # Streltsy - Ghoul
+ REGCAT_streltsy: "Ghoul"
+ STRELTSY_NAME: "$HOME$'s $NUM$$ORDER$ Ghoul"
+ STRELTSY_REGIMENT: "Ghoul"
+ ADD_STRELTSY_SUB_UNIT_EFFECT: "Get '§GGhoul§!' $UNIT$ in §Y$WHERE$§!."
+ streltsy_modifier: "Reliance on Ghouls"
  
  # Cossacks - Demons
  REGCAT_cossacks: "Demonic Host"
@@ -334,6 +337,24 @@
  CONFIRRAISEBANNER: "Confirm Raise Champions"
  BANNER_REGIMENT:2 "Champion Regiment\nDiscipline Bonus: $DISC|+%$\nManpower Usage: $MANPOWER|Y%$\nReinforce Speed: $REINFORCE|+%$\nMaintenance Cost: $MAINTENANCE|+%$"
  BANNER_NONE_AVAIL: "There are not enough people in $NAME$ for us to be able to raise a single Champion."
+ 
+ # Jannisary
+ JANISSARY_FORCELIMIT:0 "We can recruit up $VAL|%Y$ of our force-limit as §GJanissaries§! of $FL$ as we can only recruit them from our Heathen Provinces.\n"
+ JANISSARY_NAME:0 "$HOME$'s $NUM$$ORDER$ Janissary"
+ 
+ # Cossacks
+ COSSACKS_FORCELIMIT:0 "We can recruit up $VAL|%Y$ of our force-limit as §GDemons§! of $FL$ due to:\n"
+ 
+ # Rajput
+ RAJPUT_FORCELIMIT:0 "We can recruit up $VAL|%Y$ of our force-limit as §GRajputs§! of $FL$ due to:\n"
+ 
+ # Revolutionary Guard
+ REV_GUARD_FORCELIMIT:0 "We can recruit up $VAL|%Y$ of our force-limit as §GScourge Regiments§! of $FL$ due to:\n"
+ REVOLUTIONARY_GUARD_REGIMENT:0 "Scourge Regiment\n$EFFECT$"
+ REGCAT_revolutionary_guard:0 "Scourge"
+ REVOLUTIONARY_GUARD_DESC:0 "Scourge Regiments are the elite regiments of your army. They will take less damage, and drill much quicker, but they are much more expensive to maintain."
+ REVOLUTIONARY_GUARD_NAME:0 "$HOME$'s $NUM$$ORDER$ Guard"
+ ONLY_REVOLUTIONARY_GUARD_MODIFIER:0 "§YAffects only Scourge Regiments§!"
  
  #----------------------------------------------------
  # Rajput (Unsullied)
@@ -1497,7 +1518,7 @@
  #------------------------------------------------------
  # Church Power
  #------------------------------------------------------
- HURCH_POWER:1 "Religious Power: $POWER|Y$"
+ CHURCH_POWER:1 "Religious Power: $POWER|Y$"
  CHURCH_OF:0 ""
  CHURCH_POWER_MONTHLY:0 "$DIFF$ each month (base §Y$SKILL$§! monarch power * §Y$SCALE$§! modified $MOD$)\n\nThe following modifiers apply:\n"
  NO_ASPECT_SELECTED:0 "No Aspect chosen"
@@ -1531,16 +1552,152 @@
  ESTABLISH_SIBFRO_IRO: "Establishing a settlement will cost of §Y$COST$§!£dip . This will create a colony that will slowly grow, without the need for a colonist, nor any colonial maintenance."
  IDEA_MAY_SIBERIAN_FRONTIER: "May Establish Settlements"
  
+ #------------------------------------------------------
+ # Revolution
+ #------------------------------------------------------
+ SCORE_REVOLUTION:0 "Helm of Domination: $VAL|%=+0$"
+ REVOLUTION_IS_TAKING_PLACE:0 "Outbreak of Pestilence is taking place in $WHERE$."
+ revolution_target:0 "Helm of Domination"
+ REVOLUTION_TARGET_DESC:0 "While a outbreak of pestilence is happening, this country will get $SCORE|+0%$ more score."
+ PEACE_DISMANTLE_REVOLUTION:0 "Destroy the Helm of Domination"
+ DISMANTLE_REVOLUTION:0 "The Scourge will collapse."
+ REVOLUTIONARY_NAME:0 "Scourge of $NAME$"
+ REVOLUTIONARY_SHORT_NAME:0 "Scourge of $NAME$"
+ DIPLO_REVOLUTIONARY_WAR:0 "It's a scourge war: "
+ DIPLO_IS_REVOLUTION_TARGET:0 "$WHO$ is the owner of the Helm of Domination: "
+ at_peace_revolutionary:0 "Scourge Nation at Peace"
+ mechanic_revolutionary_yes:0 "Is a Scourge Nation"
+ CENTER_OF_REVOLUTION:0 "Outbreak of Pestilence"
+ REVOLUTION_HAS_SPREADED:0 "Outbreak of Pestilence is fully present here!"
+ REVOLUTION_IS_SPREADING:0 "Outbreak of Pestilence is spreading here"
+ REV_MOVE_MAP_TO:0 "Clicking this will center the map on the §YOutbreak of Pestilence§! which is in $NAME|Y$. It will also change mapmode to the Scourge mapmode."
+ REVOLUTION_NOT_IS_GREAT_POWER:0 "$NAME$ is not a Great Power, so can not succumb to the Scourge!"
+ CLAIM_REVOLUTION_BUTTON_TITLE:0 "§YSuccumb to the Scourge§!\n"
+ REVOLUTION_TARGET_INFO:0 "The Scourge gains $SCORE|+0%$ more score and the following benefits:\n$EFFECT$"
+ alert_revolution_can_be_lost_instant:0 "§YWe may lose possession of the Helm of Domination!§!"
+ alert_revolution_can_be_lost_delayed:0 "We are no longer the Scourge country with the highest pestilence, so $LIST|Y$ can claim the Helm of Domination from us!"
  
+ MODIFIER_MAX_REVOLUTIONARY_ZEAL:0 "Maximum Pestilence"
+ MODIFIER_YEARLY_REVOLUTIONARY_ZEAL:0 "Yearly Pestilence"
+ custom_max_zeal:0 "Pestilence"
+ custom_max_zeal_desc:0 "Pestilence inspires our people, driving them to great deeds in its name."
  
+ CENTER_OF_REVOLUTION_INSTANT:0 "$PROVINCE|Y$ is an Outbreak of Pestilence."
+ CENTER_OF_REVOLUTION_DELAYED:0 "An Outbreak of Pestilence is home to dangerous minions of the Scourge. Unless they are stopped, they will spread their pestilence to innocent citizens, adding to their horde and diminishing our strength."
+ CENTER_OF_REVOLUTION_DELAYED_REV:0 "An Outbreak of Pestilence houses loyal minions of the Scourge."
+ PROVINCE_HAS_REVOLUTION_INSTANT:0 "The Outbreak of Pestilence has spread to $PROVINCE|Y$."
+ PROVINCE_HAS_REVOLUTION_INSTANT_2:0 "\nWith $ABSOLUTISM|Y$ absolutism in $OWNER|Y$, it has the following effects:\n\n$MODIFIERS$"
+ PROVINCE_HAS_REVOLUTION_DELAYED:1 "Pestilence spreads over time to provinces nearby an Outbreak of Pestilence. Once an Outbreak of Pestilence takes over a province, the autonomy will rise depending on how Absolutist the country is."
+ PROVINCE_HAS_REVOLUTION_DELAYED_REV:1 "Pestilence spreads over time to provinces nearby a Outbreak of Pestilence. Spreading an Outbreak of Pestilence to other countries will increase our own Pestilence."
+ PROVINCE_REVOLUTION_SPREAD_INSTANT:0 "An Outbreak of Pestilence is spreading from $CENTER|Y$ to $PROVINCE|Y$. It has spread by $PROGRESS|Y$% so far."
+ PROVINCE_REVOLUTIONARY_ZEAL:0 "$COUNTRY|Y$ has succumbed to the Scourge and currently has $ZEAL|Y$ Outbreak of Pestilence."
+ PROVINCE_REVOLUTION_MODIFIER:0 "Outbreak of Pestilence"
+ LIBERTY_DESIRE_FROM_REVOLUTION:0 "Prestilence spreads to §Y$SPREAD$%§! of subject development: $VAL$"
+ MAPMODE_REVOLUTION:0 "Scourge"
+ MAPMODE_REVOLUTION_DESC:1 "This displays the spread and impact of the Scourge pestilence. The owner of the Helm of Domination is displayed in purple, other scourge countries are green, yellow to red are non-scourge countries, showing how badly their provinces are affected by Outbreaks of Pestilence."
+ COUNTRY_CAN_EMBRACE_REVOLUTION:0 "We can succumb to the Scourge."
+ COUNTRY_CANNOT_EMBRACE_REVOLUTION_IS_REVOLUTIONARY:0 "We are already Scourge."
+ COUNTRY_CANNOT_EMBRACE_REVOLUTION_MIN_DEV:1 "$COUNTRY|Y$ is too weak to claim the Helm of Domination. We need at least $MINDEV|Y$ Development and we only have $DEV|Y$."
+ COUNTRY_CANNOT_EMBRACE_REVOLUTION_NO_SPREAD:0 "Pestilence is not widespread enough in $COUNTRY|Y$ to succumb to the Scourge. We need §Y$REQUIRED$%§! and only have §Y$SPREAD$%§!."
+ COUNTRY_CANNOT_EMBRACE_REVOLUTION_NOT_AGAIN:0 "Pestilence has left deep scars in our country. We shall not succumb to the Scourge again."
+ COUNTRY_CANNOT_EMBRACE_REVOLUTION_CELESTIAL_EMPIRE:0 "The Scourge goes against everything the Mandate of Heaven stands for. The Emperor of China would never succumb to it."
+ COUNTRY_CANNOT_EMBRACE_REVOLUTION_PAPAL_STATES:0 "The Holy See will never succumb to the Scourge."
+ COUNTRY_CANNOT_EMBRACE_REVOLUTION_HAS_DISASTER:0 "We cannot succumb to the Scourge while in a disaster."
+ EMBRACE_REVOL_HAS_EFFE:0 "\nThis will have the following effect on our country:\n$EFFECT$"
+ COUNTRY_EMBRACE_REVOLUTION_DELAYED:1 "Should the Pestilence come to a tragic end, another great power can succumb to the Helm of Domination as its own and become Scourge.\nOutbreaks of Pestilence have spread to at least §Y$REQUIRED$%§! of its development and it must not have been a Scourge nation in the past."
+ COUNTRY_REVOLUTION_SPREAD_INSTANT:0 "Pestilence has spread to $PROGRESS$ of $COUNTRY|Y$."
+ COUNTRY_REVOLUTION_SPREAD_DELAYED:0 "Pestilence spreads over time to provinces nearby an Outbreak of Pestilence, converting provinces to its cause and enticing their people to turn against their ruler. The more absolutist a country is, the worse the impact of the Pestilence will be on its provinces. Only by bringing the Pestilence to an end will the spread stop and order be eventually restored."
+ COUNTRY_REVOLUTION_SPREAD_DELAYED_NO_TARGET:0 "The Pestilence has been put to an end, for now at least. As long as Pestilence remains present in provinces, the people will still succumb to it. That risk will eventually disappear, unless another country decides to succumb to the Helm of Domination as its own and become Scourge."
+ PROVINCE_REVOLUTION_SPREAD_HINT:0 "The locals will now oppose our absolutist tendencies."
+ PROVINCE_REVOLUTION_SPREAD_HINT_REV:0 "The support for the Scourge in our country grows stronger."
+ alert_can_embrace_revolution_instant:0 "§YWe can succumb to the Scourge§!"
+ alert_can_embrace_revolution_delayed:0 "We can succumb to the Scourge now!"
+ SPREAD_REVOLUTION_TREATY_NAME:0 "Spread Pestilence"
+ SPREAD_REVOLUTION_TREATY_DESC:0 "Pestilence will spread to all $GIVER_ADJECTIVE|Y$ provinces in $CONTINENT|Y$. $TAKER|Y$ will gain $POWER|G$ of each monarch power and $GIVER|Y$ will lose $POWER|R$ of each monarch power."
+ PEACE_OPTION_ONLY_REV_TARGET:1 "Only the owner of the Helm of Domination can demand this peace option."
+ PEACE_OPTION_REQUIRES_PROVINCES_TO_SPREAD:0 "There is no province left to which Pestilence can be spread to."
+ spread_revolution_to_enemy:0 "Spread pestilence to $TARGET$"
+ spread_revolution_to_us:0 "$TARGET$ spread pestilence to our provinces"
+ IS_CENTER_OF_REVOLUTION_TRIGGER:0 "Is an Outbreak of Pestilence"
+ IS_NOT_CENTER_OF_REVOLUTION_TRIGGER:0 "Is not an Outbreak of Pestilence"
+ PROVINCE_HAS_REVOLUTION_TRIGGER:0 "Has pestilence"
+ PROVINCE_HAS_NOT_REVOLUTION_TRIGGER:0 "Does not have pestilence"
+ COUNTRY_HAS_REVOLUTION_SPREAD_TRIGGER:0 "Has a least $VAL|Y$% spread of pestilence"
+ COUNTRY_HAS_NOT_REVOLUTION_SPREAD_TRIGGER:0 "Has less than $VAL|Y$% spread of pestilence"
+ CAN_EMBRACE_REVOLUTION_TRIGGER:0 "Can succumb to the Scourge"
+ CANNOT_EMBRACE_REVOLUTION_TRIGGER:0 "Cannot succumb to the Scourge"
+ PROVINCE_SET_REVOLUTION_EFFECT:1 "Pestilence will spread to $PROVINCE|Y$."
+ PROVINCE_REMOVE_REVOLUTION_EFFECT:1 "Pestilence will be removed from $PROVINCE|Y$."
+ SPAWN_CENTER_OF_REVOLUTION_EFFECT:0 "An Outbreak of Pestilence will appear in $PROVINCE|Y$."
+ REMOVE_CENTER_OF_REVOLUTION_EFFECT:0 "The Outbreak of Pestilence in $PROVINCE|Y$ will be removed."
+ mechanic_uses_revolutionary_zeal_yes:0 "Uses Pestilence instead of Absolutism."
+ COUNTRY_REVOLUTIONARY_ZEAL_MODIFIER:0 "Pestilence"
+ REV_ZEAL_CHANGE_TT:0 "It changes by $VAL|+=2$ each year due to:\n$WHY$"
+ REVOLUTIONARY_ZEAL_INSTANT:0 "With $VAL|Y$ Pestilence our country gains the following benefits:\n\n$MODIFIERS$"
+ REVOLUTIONARY_ZEAL_DELAYED:0 "Pestilence emboldens our undead minions. It replaces Absolutism for Scourge nations.\n\nAt §Y100§! it gives the following benefits:\n$MODIFIERS$"
+ MAX_REVOLUTIONARY_ZEAL_BASE:0 "From §Y$SPREAD$%§! spread of Pestilence: $VAL$"
+ MAX_REVOLUTIONARY_ZEAL_INSTANT:0 "Our current maximum Pestilence is $MAX|0Y$:\n\n$DETAILS$"
+ MAX_REVOLUTIONARY_ZEAL_DELAYED:0 "A country's Pestilence is limited by how much the Revolution has spread to its provinces. The more it spreads, the higher the cap."
+ PEACE_OPTION_ZEAL_GAIN:0 "$TAG|Y$ gains $ZEAL|G$ Pestilence."
+ PEACE_OPTION_ZEAL_LOSS:0 "$TAG|Y$ loses $ZEAL|R$ Pestilence."
+ COUNTRY_ZEAL_GAIN:0 "We will gain $ZEAL|G$ Pestilence."
+ COUNTRY_ZEAL_LOSS:0 "We will lose $ZEAL|R$ Pestilence."
+ USES_ABSOLUTISM_TRIGGER:0 "Uses Absolutism"
+ USES_REVOLUTIONARY_ZEAL_TRIGGER:0 "Uses Pestilence"
+ COUNTRY_HAS_REVOLUTIONARY_ZEAL_TRIGGER:0 "Has a least $VAL|0Y$ Pestilence"
+ COUNTRY_HAS_NOT_REVOLUTIONARY_ZEAL_TRIGGER:0 "Has less than $VAL|0Y$ Pestilence"
+ COUNTRY_HAS_MAX_REVOLUTIONARY_ZEAL_TRIGGER:0 "Has a least $VAL|0Y$ Maximum Pestilence"
+ COUNTRY_HAS_NOT_MAX_REVOLUTIONARY_ZEAL_TRIGGER:0 "Has less than $VAL|0Y$ Maximum Pestilence"
+ IS_REVOLUTIONARY:0 "Is Scourge"
+ IS_NOT_REVOLUTIONARY:0 "Is not Scourge"
+ REVOLUTION_DISMANTLED_SINCE:0 "Helm of Domination was destroyed at least $YEARS|Y$ years ago."
+ REVOLUTION_NOT_DISMANTLED_SINCE:0 "Helm of Domination still exists or was hidden less than $YEARS|Y$ years ago."
+ COUNTRY_CLAIM_REVOLUTION:0 "We can claim the Helm of Domination!"
+ COUNTRY_CLAIM_REVOLUTION_ZEAL_TOO_LOW:0 "Our Pestilence is too low to contest the Helm of Domination, we need $MIN|Y$ but only have $VAL|R$."
+ COUNTRY_CLAIM_REVOLUTION_TARGET_STRONG:1 "$TARGET|Y$ has a higher Pestilence than you. They have $ZEAL|Y$ Pestilence."
+ COUNTRY_CLAIM_REVOLUTION_TARGET_TOO_SOON:0 "$TARGET|Y$ is currently carrying the Helm of domination. If their Pestilence doesn't go above $LOW|Y$ before $DATE|Y$, we will be able to claim the helm."
+ alert_can_claim_revolution_instant:0 "§YWe can claim the Helm of Domination§!"
+ alert_can_claim_revolution_delayed:0 "The Scourge is weak right now. It is time for our nation to step up and lead the Scourge to victory!"
+ REVOLUTION_CLAIM_COOLDOWN:0 "The Helm of Domination has been claimed recently. You can claim it again $DATE|Y$."
+ REVOLUTION_PROGRESS_VALUE:0 "$VALUE|¤0Y$§Y%§!"
+ REVOLUTIONARY:0 "Scourge"
+ SETREVOLUTIONTARGET_EFFECT:0 "§Y$WHO$§W will become the main source of pestilence.\n"
+ STOPREVOLUTIONTARGET_EFFECT:2 "The §YHelm of Domination§! will be lost."
+ IS_NOT_REVOLUTIONARY_TARGET:0 "Is NOT the owner of the Helm of Domination"
+ IS_REVOLUTIONARY_TARGET:0 "Is the owner of the Helm of Domination
+ THERE_IS_NOT_A_REVOLUTIONARY_TARGET_IN_THE_WORLD:0 "There is no owner of the Helm of Domination in the world"
+ THERE_IS_A_REVOLUTIONARY_TARGET_IN_THE_WORLD:0 "There is an owner of the Helm of Domination in the world"
+ FIRST_REVOLUTION_HAS_STARTED:0 "The Scourge has emerged."
+ FIRST_REVOLUTION_HAS_NOT_STARTED:0 "The Scourge has not emerged yet."
+ TRIGGER_REVOLUTION_TARGET:0 "Owner of the Helm of Domination"
  
+ REVOLUTION_SPREAD_TITLE:0 "Pestilence Spread"
+ REVOLUTION_SPREAD_SETUP:0 "When pestilence spread to our provinces."
+ REVOLUTION_SPREAD_HEADER:0 "$MESSENGER$"
+ REVOLUTION_SPREAD_1:0 "Pestilence Spread"
+ REVOLUTION_SPREAD_2:0 "$MONARCHTITLE$, the Outbreak of Pestilence in"
+ REVOLUTION_SPREAD_3:0 "$REVCENTER$"
+ REVOLUTION_SPREAD_4:0 "has spread Pestilence to some of our provinces:"
+ REVOLUTION_SPREAD_5:0 "$DESC$"
+ REVOLUTION_SPREAD_6:0 "$HINT$"
+ REVOLUTION_SPREAD_LOG:0 "Pestilence has spread to our provinces."
+ REVOLUTION_SPREAD_BTN2:0 "Ok"
+ REVOLUTION_SPREAD_BTN3:0 "Go to"
+ REVOLUTION_SPREAD_ZEAL_TITLE:0 "Pestilence Spread"
+ REVOLUTION_SPREAD_ZEAL_SETUP:0 "When we spread pestilence to our ennemies."
+ REVOLUTION_SPREAD_ZEAL_HEADER:0 "$MESSENGER$"
+ REVOLUTION_SPREAD_ZEAL_1:0 "Pestilence Spread"
+ REVOLUTION_SPREAD_ZEAL_2:0 "$MONARCHTITLE$, the Outbreak of Pestilence in"
+ REVOLUTION_SPREAD_ZEAL_3:0 "$REVCENTER$"
+ REVOLUTION_SPREAD_ZEAL_4:0 "has spread Pestilence to ennemy provinces:"
+ REVOLUTION_SPREAD_ZEAL_5:0 "$PROVINCES$"
+ REVOLUTION_SPREAD_ZEAL_6:0 "We have have gained $ZEAL$ Pestilence."
+ REVOLUTION_SPREAD_ZEAL_LOG:0 "Pestilence has spread to ennemy' provinces."
+ REVOLUTION_SPREAD_ZEAL_BTN2:0 "Ok"
+ REVOLUTION_SPREAD_ZEAL_BTN3:0 "Go to"
  
- 
- 
- 
- 
- 
- 
- 
- 
+ cb_crush_the_revolution:0 "Crush the Scourge"
+ cb_crush_the_revolution_desc:0 "We must stop the Scourge and restore peace and order!"
+ cb_spread_the_revolution:0 "Spread Pestilence"
+ cb_spread_the_revolution_desc:0 "We must spread pestilence beyond our borders!"
  
