@@ -49,6 +49,10 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 
+
+
+
+
 		iconType =
 		{
 			name ="topbar_upper_left_bg"
@@ -66,7 +70,16 @@ guiTypes = {
 
 		}
 
-        guiButtonType = {
+		iconType = {
+			name = "government_reforms_button_base"
+			quadTextureSprite ="GFX_government_reforms_button_base"
+			position = { x= 93 y = 104 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		
+		
+		guiButtonType = {
 			name = "player_shield"
 			quadTextureSprite ="GFX_mega_flag"
 			position = { x= -5 y = -5 }
@@ -85,14 +98,6 @@ guiTypes = {
 			alwaystransparent = yes
 		}
         
-		iconType = {
-			name = "government_reforms_button_base"
-			quadTextureSprite ="GFX_government_reforms_button_base"
-			position = { x= 93 y = 104 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
-		
         iconType = {
 			name = "build_interface_button_base"
 			quadTextureSprite ="GFX_government_reforms_button_base"
@@ -147,7 +152,6 @@ guiTypes = {
 			clicksound = macro_build
 		}
 
-        
 	######### top bar portraits ###########
 
 

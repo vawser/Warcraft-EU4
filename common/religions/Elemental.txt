@@ -22,8 +22,6 @@ elemental_group = {
 		
         uses_karma = yes
         
-        personal_deity = yes
-        
 		on_convert = {
 			change_religion = shamanism
 			add_prestige = -100
@@ -45,8 +43,6 @@ elemental_group = {
 		country_as_secondary = {
 			land_forcelimit_modifier = 0.1
 		}
-        
-        personal_deity = yes
     }
     
     ordos = {
@@ -61,8 +57,10 @@ elemental_group = {
 			local_missionary_strength = -0.01
 		}
 		
-        personal_deity = yes
-		
+        authority = yes
+		religious_reforms = yes
+		reform_tooltip = ORDOS_REFORM_TOOLTIP
+        
 		on_convert = {
 			change_religion = ordos
 			add_prestige = -100
@@ -86,9 +84,7 @@ elemental_group = {
 		province = {
 			local_missionary_strength = -0.01
 		}
-		
-        personal_deity = yes
-		
+
 		on_convert = {
 			change_religion = fire
 			add_prestige = -100
@@ -110,8 +106,6 @@ elemental_group = {
 		province = {
 			local_missionary_strength = -0.01
 		}
-		
-        personal_deity = yes
 		
 		on_convert = {
 			change_religion = earth
@@ -135,8 +129,6 @@ elemental_group = {
 			local_missionary_strength = -0.01
 		}
 
-        personal_deity = yes
-		
 		on_convert = {
 			change_religion = water
 			add_prestige = -100
@@ -158,8 +150,6 @@ elemental_group = {
 		province = {
 			local_missionary_strength = -0.01
 		}
-		
-        personal_deity = yes
 		
 		on_convert = {
 			change_religion = wind

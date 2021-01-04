@@ -633,30 +633,6 @@
  deity_borrok: "Borrok"
  deity_borrok_desc: "Borrok the Devourer is a lava worm living in Frostfire Ridge, believed to be immortal. Many ogres in Frostfire Ridge worships him as a god."
  
- # Elemental
- deity_neptulon: "Neptulon"
- deity_neptulon_desc: "Neptulon the Tidehunter is the Elemental Lord of Water on Azeroth, who rules the Abyssal Maw."
- deity_ragnaros: "Ragnaros"
- deity_ragnaros_desc: "Ragnaros the Firelord is the Elemental Lord of Fire on Azeroth, who rules the Firelands."
- deity_al_akir: "Al'Akir"
- deity_al_akir_desc: "Al'Akir the Windlord is the Elemental Lord of Air on Azeroth, who rules Skywall."
- deity_therazane: "Therazane"
- deity_therazane_desc: "Therazane the Stonemother is the Elemental Lord of Earth on Azeroth, who rules Deepholme."
- deity_tidemother: "Tidemother"
- deity_tidemother_desc: "A mysterious deity often worshipped by Tidesages of Kul Tiras."
- deity_deepmother: "Deepmother"
- deity_deepmother_desc: "Some murlocs honor an entity known as 'the Deepmother' or 'the One in the Deeps', a being which supposedly encompasses all oceans."
- deity_ordos: "Ordos"
- deity_ordos_desc: "The Yaungol demi-god of fire, legend has it his status was granted for his service to the lords of the Firelands."
- deity_gurok: "Gurok"
- deity_gurok_desc: "A powerful earth elemental of Nagrand, which has subjugated the other elementals of the land."
- deity_storm: "Aviana"
- deity_storm_desc: "Aviana is a Demigod, the mother of harpies, and mistress of the Mother Tree, G'Hanir. She watches over all winged creatures of Azeroth."
- 
- #
- deity_aviana: "Storm Magic"
- deity_aviana_desc: ""
- 
  #-----------------------------------------------
  # Harmony
  #-----------------------------------------------
@@ -678,4 +654,24 @@
  harmonized_rational_philosophies: "Integration of Rational Philosophies"
  desc_harmonized_rational_philosophies: "We have integrated rational philosophies into the Light."
  
+ #-----------------------------------------------
+ # Ordos
+ #-----------------------------------------------
+ ordos_reforms: "Tribal Reform"
  
+ ORDOS_REFORM_TOOLTIP:0 "Are you sure you want to unlock §Y$NAME$§!? Doing so will cost §Y100§! Authority, lower your stability by §R2§! and plunge the nation into civil war."
+ 
+ ordos_reform_1: "Yaungol Forever"
+ ordos_reform_1_desc: "Provides the following modifiers:"
+ 
+ ordos_reform_2: "Exploding Kegs"
+ ordos_reform_2_desc: "Provides the following modifiers:"
+ 
+ ordos_reform_3: "Might is Right"
+ ordos_reform_3_desc: "Provides the following modifiers:"
+ 
+ ordos_reform_4: "Self-Immolation"
+ ordos_reform_4_desc: "Provides the following modifiers:"
+ 
+ ordos_reform_5: "Steppe Homeland"
+ ordos_reform_5_desc: "Provides the following modifiers:"

@@ -68,6 +68,15 @@
  blessing_of_al_akir: "Blessing of Al'Akir"
  desc_blessing_of_al_akir: ""
  
+ sunwell_energies: "Sunwell Energies"
+ desc_sunwell_energies: ""
+ 
+ forest_protection_act: "Forest Protection Act"
+ desc_forest_protection_act: ""
+ 
+ the_three_gates: "The Three Gates"
+ desc_the_three_gates: ""
+ 
  #------------------------------------------------
  # Orc
  #------------------------------------------------
@@ -1055,3 +1064,24 @@
  #-------------------------------
  songs_of_the_bard: "Songs of the Bard"
  desc_songs_of_the_bard: ""
+ 
+ #-------------------------------
+ # Tauren Federation
+ #-------------------------------
+ tribal_issues_addressed: "Tribal Issues Addressed"
+ desc_tribal_issues_addressed: ""
+ 
+ veneration_of_the_earth_mother: "Veneration of the Earth Mother"
+ desc_veneration_of_the_earth_mother: ""
+ 
+ veneration_of_the_hunter: "Veneration of the Hunter"
+ desc_veneration_of_the_hunter: ""
+ 
+ bolster_the_vanguard: "Bolster the Vanguard"
+ desc_bolster_the_vanguard: ""
+ 
+ settle_the_barrens: "Settle the Barrens"
+ desc_settle_the_barrens: ""
+ 
+ crush_the_centaurs: "Crush the Centaurs"
+ desc_crush_the_centaurs: ""

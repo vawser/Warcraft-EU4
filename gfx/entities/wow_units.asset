@@ -1,8 +1,0 @@
-entity = {
-	name = "orc_gfx_INFANTRY_1"
-	pdxmesh = "mesh_orc_grunt"
-}
-entity = {
-	name = "orc_gfx_CAVALRY_1"
-	pdxmesh = "mesh_orc_wolf"
-}

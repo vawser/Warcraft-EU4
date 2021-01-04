@@ -238,6 +238,7 @@ groups = {
     tech_yaungol = {
         start_cost_modifier = 0.0 # Primitive
         start_level = 0
+        is_primitive = yes
     }
     tech_nraqi = {
         start_cost_modifier = 0.0

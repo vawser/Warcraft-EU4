@@ -50,7 +50,7 @@ ancient_kingdom_reform = {
 	legacy_equivalent = ancient_kingdom_legacy
     
     potential = {
-		is_ancient = yes
+        have_had_reform = ancient_kingdom_reform
 	}
     
     maintain_dynasty = yes
@@ -165,6 +165,7 @@ kingdom_of_magic_reform = {
     legacy_equivalent = kingdom_of_magic_legacy
     
     potential = {
+        have_had_reform = kingdom_of_magic_reform
 		OR = {
 			religion = arcane
 			religion = fel
@@ -441,6 +442,7 @@ magocracy_reform = {
     legacy_equivalent = magocracy_legacy
     
     potential = {
+        have_had_reform = magocracy_reform
 		NOT = { has_reform = free_city_reform }
 		NOT = { has_reform = trading_city_reform }
 		NOT = { has_reform = colonial_government_reform }
@@ -490,7 +492,7 @@ free_city_reform = {
     legacy_equivalent = free_city_legacy
     
     potential = {
-		has_reform = free_city_reform
+		have_had_reform = free_city_reform
 	}
     
     free_city = yes
@@ -526,7 +528,7 @@ trading_city_reform = {
     legacy_equivalent = trading_city_legacy
     
     potential = {
-		has_reform = trading_city_reform
+		have_had_reform = trading_city_reform
 	}
     
     is_trading_city = yes
@@ -614,7 +616,7 @@ tinker_republic_reform = {
     legacy_equivalent = tinker_republic_legacy
     
     potential = {
-		religion = technomancy
+        have_had_reform = tinker_republic_reform
 	}
     
     boost_income = yes
@@ -709,7 +711,7 @@ ancient_theocracy_reform = {
 	legacy_equivalent = ancient_theocracy_legacy
     
     potential = {
-		is_ancient = yes
+        have_had_reform = ancient_theocracy_reform
 	}
     
     custom_attributes = {
@@ -790,8 +792,11 @@ druidic_circle_reform = {
 	icon = "druidic_circle"
     legacy_equivalent = druidic_circle_legacy
     
-    potential = {
-        religion_group = life_group
+    potential = {   
+        OR = {
+            have_had_reform = druidic_circle_reform
+            religion_group = life_group
+        }
     }
     
     monastic = yes
@@ -829,7 +834,10 @@ elemental_cult_reform = {
     legacy_equivalent = elemental_cult_legacy
     
 	potential = {
-        religion_group = elemental_group
+        OR = {
+            have_had_reform = elemental_cult_reform
+            religion_group = elemental_group
+        }
     }
     
     different_religion_acceptance = -20
@@ -865,7 +873,10 @@ shadow_cult_reform = {
     legacy_equivalent = shadow_cult_legacy
     
 	potential = {
-        religion_group = shadow_group
+        OR = {
+            have_had_reform = shadow_cult_reform
+            religion_group = shadow_group
+        }
     }
     
     different_religion_acceptance = -20
@@ -906,6 +917,10 @@ orcish_horde_reform = {
     
     nomad = yes
 	generals_become_rulers = yes
+    
+    potential = {
+        have_had_reform = orcish_horde_reform
+    }
     
 	modifiers = {
 		army_tradition = 1

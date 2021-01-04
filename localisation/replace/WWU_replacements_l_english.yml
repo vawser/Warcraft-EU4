@@ -15,14 +15,12 @@
  Wednesday: "Odyn's Day"
  
  #----------------------------------------------------
- # Religion
+ # Native
  #----------------------------------------------------
- shamanism: "Shamanism"
- shamanism_religion_desc: "Shamans honour the spirits of their ancestors and the elemental forces. Many carve totems to represent the spirits and animals from which they draw power, and it is within these totems that the true potency of a shaman lies. Some shamans live in balance with the elements and call upon them for aid, while others bind and twist them to their will."
+ REFORM_NATIVE_EXPL:1 "Reform to §Y$GOV$§! by learning from §Y$WHO$§!, giving us §Y$LVL$§! technologies spread across the categories, while embracing $NUM|Y$ institutions."
+ REFORM_NATIVE_EXPL_DET_2:0 "It is possible to reform away from a native council to a more advanced form of government if we have all native advancements and either border a European nation OR have a total of $NEEDED|Y$ technology levels."
+ REFORM_NATIVE_NO_SPONSOR_EXPL:0 "Reform our nation by applying our technological understanding. This will change our government into a more modern type and allow us to Westernize."
  
- #----------------------------------------------------
- # Buildings
- #----------------------------------------------------
  building_native_earthwork: "Earthwork"
  building_native_palisade: "Palisade Walls"
  building_native_fortified_house: "Fotified House"
@@ -33,6 +31,41 @@
  building_native_sweat_lodge: "Feast Hall"
  building_native_great_trail: "Barracks"
  building_native_three_sisters_field: "Market"
+ 
+ #----------------------------------------------------
+ # Religion
+ #----------------------------------------------------
+ shamanism: "Shamanism"
+ shamanism_religion_desc: "Shamans honour the spirits of their ancestors and the elemental forces. Many carve totems to represent the spirits and animals from which they draw power, and it is within these totems that the true potency of a shaman lies. Some shamans live in balance with the elements and call upon them for aid, while others bind and twist them to their will."
+ 
+ HEADER_REFORMS:0 "Tribal Reforms"
+ REFORM_RELIGION:0 "Reform Tribe"
+ NO_REFORMS_RELIGION:0 "§RYou must reform your Tribe before you can enact Government Reforms.§!"
+ REFORM_RELIGION_EXPL:2 "Reform our tribe by learning from §Y$WHO$§!, giving us §Y$LVL$§! technologies spread across the categories, while embracing $NUM|Y$ institutions and adopting their form of government."
+ REFORM_RELIGION_EXPL_DET_2:0 "It is possible to reform our tribe and society if we have all the tribal reforms and have a total of $NEEDED|Y$ technology levels."
+ REFORM_RELIGION_NO_SPONSOR_EXPL:0 "Reform our tribe by applying our technological understanding. This will change our government into a more modern type and give us institutions to help us."
+ GOTTA_CATCH_THEM_ALL_REFORMS:0 "§R- Need all tribal reforms.§!\n"
+ REMOVE_RELIGIOUS_REFORMS_EFFECT:0 "§Y$COUNTRY$§! loses $AMOUNT$ tribal reforms.\n"
+ alert_religious_reform_instant:0 "§YYou can now pass a tribal reform.§!"
+ 
+ # Authority
+ authority:0 "Authority"
+ AUTHORITY_TOOLTIP_INSTANT:0 "Authority changes by $CHANGE$ every year due to:\n"
+ AUTHORITY_TOOLTIP_EFFECTS:0 "§YEffects from our current Authority:§!\n"
+ AUTHORITY_TOOLTIP_DESC:0 "Authority is a measure of the spiritual power and stature of the $MONARCHTITLE$. When Authority reaches §Y100§!, we will be able to enact tribal reforms. Authority increases from owning a large number of provinces, and goes down when provinces are granted autonomy."
+ 
+ # Doom
+ doom:0 "Doom"
+ DOOM_TOOLTIP_INSTANT:0 "Doom changes by $CHANGE$ every year due to:\n"
+ DOOM_TOOLTIP_MAX:0 "If Doom reaches §Y100§!, we will have no choice but to sacrifice our ruling family, casting our nation into chaos."
+ DOOM_TOOLTIP_DESC:0 "Our people believe that the world will come to an end unless our gods are strong enough to prevent it. By §Ywinning battles, occupying provinces and sacrificing the rulers and heirs of our subjects§! we can acquire captives to sacrifice, giving strength to the gods and ensuring that doomsday never arrives."
+ DOOM_TOOLTIP_EFFECTS:0 "§YEffects from our current Doom:§!\n"
+ DOOM_FROM_PROVINCES:0 "Number of owned provinces: $VAL$"
+ DOOM_FROM_REFORMS:0 "\nNumber of Tribal Reforms: $VAL$"
+ 
+ RELEASE_SUBJECTS_EFFECT:0 "All §Y$COUNTRY$§! subjects become independent."
+ RELEASE_CORES_EFFECT:0 "§Y$COUNTRY$§! become independent."
+ COLLAPSE_NATION_EFFECT:0 "§Y$COUNTRY$§! is reduced to a size of §Y$NUM$§! provinces."
  
  #------------------------------------------------------
  # Meritocracy
@@ -1155,6 +1188,27 @@
  # HRE
  #---------------------------------------------
  HRE_HRE: "Tauren Federation"
+ HRE_DISMANTLE:0 "Dismantle Federation"
+ HRE_LEAVE_NOT_AS_EMPEROR:0 "The High Chieftain cannot leave the Tauren Federation!"
+ HRE_LEAVE:0 "Leave Federation"
+ LEAVE_HRE_CONFIRM:0 "Leave the Tauren Federation"
+ HRE_LEAVE_EMPEROR:0 "The High Chieftain (§Y$COUNTRY$§W) will gain ownership of the following provinces: $LIST$.\n"
+ HRE_LEAVE_PROVINCES:0 "All other provinces will remain with the current owner and be removed from the Tauren Federation."
+ HRE_LEAVE_RELEASE_SHORT:0 "§Y$COUNTRY$§W will be released with §Y$COUNT$§W provinces.\n"
+ HRE_LEAVE_EMPEROR_SHORT:0 "The High Chieftain (§Y$COUNTRY$§W) will gain ownership of §Y$COUNT$§W provinces.\n"
+ HRE_LEAVE_NOT_PART_OF_EMPIRE:0 "You're not a member of the Tauren Federation."
+ HRE_LEAVE_HAS_OVERLORD:0 "You cannot leave if you're a vassal or lesser part of a personal union."
+ HRE_CANT_EMPEROR:0 "You cannot dismantle the Tauren Federation if you are the current High Chieftain."
+ 
+ HRE_INTERNAL_CB_ENABLED:0 "Allow Internal Federation Wars"
+ HRE_INTERNAL_CB_DISABLED:0 "Disallow Internal Federation Wars"
+ HRE_IMPERIAL_BAN_ENABLED:0 "Gives casus belli on non-members holding Tauren territory."
+ HRE_IMPERIAL_BAN_DISABLED:0 "No longer gives casus belli on non-members holding Tauren territory."
+ HRE_IMPERIAL_BAN_IS_ENABLED:0 "High Chieftain has CB on occupiers of Tauren territory"
+ HRE_IMPERIAL_BAN_IS_DISABLED:0 "High Chieftain does NOT have CB on occupiers of Tauren territory"
+ EXPAND_EMPIRE_CB:0 "Gives casus-belli on non-members bordering Tauren territory to force them to join the Tauren Federation."
+ HRE_INHERITABLE_ENABLED:0 "Tauren Federation is now always inherited by the same country.\n"
+ HRE_INHERITABLE_DISABLED:0 "Tauren Federation is now open to election!\n"
  
  DIPLOMACYACTION_CATEGORY_emperor:0 "Federation actions"
  IMPERIALREALMWARTITLE:0 "Declare Federation War"
@@ -1224,8 +1278,8 @@
  NUM_OF_PRINCES:0 "The §Y$TOTAL$§! Members and §Y$CITIES$§! Free Cities in the Tauren Federation give the following to the High Chieftain:\n"
  HRE_NUM_MEMBERS_DELAYED:1 "More countries might join the Tauren Federation if they are threatened by outside powers, and have a friendly attitude towards the High Chieftain. A high Tribal Authority may help to convince them."
  HRE_INFLUENCE_DESC: "Tribal Authority represents the amount of control the High Chieftain exerts over the Members of the Tauren Federation. Authority is needed to enact decrees within the Tauren Federation."
- HRE_INFLUENCE_GAIN: "Gained by:\n - Having a large amount of member states\n - The member states being at peace\n - Provinces joining the Tauren Federation\n - Successive High Chieftains from the same country"
- HRE_INFLUENCE_LOSS: "Lost by:\n - Dishonoring the Calls of members\n - Provinces leaving the Tauren Federation\n - Tauren territory under the control of foreign states\n - Tauren territory under the control of heathens and heretics"
+ HRE_INFLUENCE_GAIN: "Gained by:\n - Having a large amount of member states\n - The member states being at peace\n - Provinces joining the Tauren Federation\n - Successive High Chieftains from the same country\n - Releasing members of the Tauren Federation\n - Defending the Tauren Federation in war"
+ HRE_INFLUENCE_LOSS: "Lost by:\n - Dishonoring the Calls of members\n - Provinces leaving the Tauren Federation\n - Tauren territory under the control of foreign states\n - Tauren territory under the control of heathens and heretics\n - Tauren Federation members being annexed\n - Failing to defend the Tauren Federation in war"
  
  IA_CHANGE_TOTAL: "Tribal Authority changes by $VAL$ every month."
  
@@ -1255,7 +1309,13 @@
  HRE_OTHER_VOTE_SELF: "The Elector of §Y$ELECTOR$§W is backing themselves for the High Chieftain."
  HRE_RELATION_SELF: "We give ourselves §Y$POINTS$§W when ranking of who we want to vote for as the next High Chieftain."
  HRE_CAST_VOTE_DESC: "You can select who you want to vote for the High Chieftain!"
- BENEFIT_FOR_EMPEROR: "High Chieftain gets"
+ 
+ BENEFIT_FOR_EMPEROR: "High Chieftain gets:\n$MODIFIER$"
+ BENEFIT_FOR_EMPEROR_PER_PRINCE:1 "High Chieftain gets (depends on number of princes):\n$MODIFIER$"
+ BENEFIT_FOR_ELECTOR_PER_PRINCE:1 "Electors get (depends on number of princes):\n$MODIFIER$"
+ BENEFIT_FOR_MEMBER:2 "Members get:\n$MODIFIER$"
+ BENEFIT_FOR_EVERYONE:1 "All in the Empire get:\n$MODIFIER$"
+ 
  NO_WAR_ON_EMPIRE: "You can not declare war on a member of the Tauren Federation, if you are allied with the High Chieftain in a war."
  NO_WAR_ON_EMPIRE_FIRST_MONTHS: "You can not declare war on a member of the Tauren Federation, if you are allied with the High Chieftain and the High Chieftain has recently gone to war."
  ALREADY_WAR_EMPIRE: "You can not declare war on a member of the Tauren Federation, if you are already at war with the High Chieftain."

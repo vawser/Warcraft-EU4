@@ -1215,6 +1215,13 @@ heretic_rebels = {
 			}
 			add_devotion = -35
 		}
+        if = {
+            limit = { 
+                religion = ordos
+                is_religion_reformed = no
+            }
+            remove_religious_reforms = 1
+        }
 		if = {
 			limit = {
 				religion = voodoo

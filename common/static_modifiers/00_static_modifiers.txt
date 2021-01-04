@@ -837,7 +837,8 @@ emperor = {
 
 states_in_hre = {							
 	land_forcelimit	= 0.25					
-	global_manpower = 0.25					
+	global_manpower = 0.25		
+    imperial_authority_value = 0.01
 }
 
 free_cities_in_hre = {

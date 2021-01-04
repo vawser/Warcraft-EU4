@@ -1,6 +1,17 @@
 #------------------------------
 # Changelog
 #------------------------------
-Add national ideas
 Name key provinces
+
+Add national ideas
+
+Add temp area names
+
+Go over trade goods
+
+Fix crash:  
+ [flags.cpp:169]: Trying to get undefined non-dynamic flag: 'Monarch'
+ [war.cpp:221]: Missing proper war name localization for: FIRST_WAR_NAME
+ 
+ Likely related to war state in someway
 

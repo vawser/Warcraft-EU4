@@ -550,10 +550,16 @@ on_heir_needed_theocracy = {
 
 # Emperor from same dynasty
 on_successive_emperor = {
+    emperor = {
+        add_imperial_influence = 5
+    }
 }
 
 # HRE Prince released by the emperor
 on_released_hre_member = {
+    emperor = {
+        add_imperial_influence = 10
+    }
 }
 
 # HRE Prince converts to non-Emperor religion
@@ -566,10 +572,16 @@ on_hre_member_true_religion = {
 
 # Emperor wins HRE defensive war
 on_hre_wins_defensive_war = {
+    emperor = {
+        add_imperial_influence = 10
+    }
 }
 
 # HRE member annexed by non-HRE country
 on_hre_member_annexed = {
+    emperor = {
+        add_imperial_influence = -10
+    }
 }
 
 # HRE member released from non-HRE vassalage
@@ -582,10 +594,16 @@ on_hre_transfered_vassal = {
 
 # Emperor coming to the defense of a HRE member
 on_hre_defense = {
+    emperor = {
+        add_imperial_influence = 5
+    }
 }
 
 # Emperor NOT coming to the defense of a HRE member
 on_hre_non_defense = {
+    emperor = {
+        add_imperial_influence = -10
+    }
 }
 
 # HRE Member takes a HRE province from an outs100e country in a peace (province scope)
@@ -1253,9 +1271,24 @@ on_conquistador_native = {
 }
 
 on_buy_religious_reform = {
+    if = {
+        limit = { religion = ordos }
+        add_authority = -100
+        
+        capital_scope = {
+            spawn_rebels = {
+                type = pretender_rebels
+                size = 5
+            }
+        }
+    }
 }
 
 on_circumnavigation = {
+    events = {
+		wwu_exploration.1 # Initial Circumnavigation
+        wwu_exploration.2 # Repeat Circumnavigation
+    }
 }
 
 on_become_free_city = {

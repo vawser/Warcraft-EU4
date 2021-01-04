@@ -1381,12 +1381,12 @@ guiTypes = {
 		{
 			name = "messagelog_window"
 			backGround=""
-			position = { x=-1325 y=-950 }	
-			show_position = { x=-1325 y=-950 }
+			position = { x=-1325 y=-100 }	
+			show_position = { x=-1325 y=-100 }
 			hide_position = { x=-1325 y=10 }
 			animation_type = "decelerated"
 			animation_time = 1000
-			size = { x=770 y=1000 }	
+			size = { x=770 y=100 }	
 			moveable = 0
 			dontRender = ""
 			horizontalBorder= ""
@@ -1405,9 +1405,9 @@ guiTypes = {
 			listboxType = 
 			{
 				name ="messagelog"
-				position = { x = 60 y = 10 }
+				position = { x = 120 y = 10 }
 				backGround=""
-				size = { x= 750 y = 940}
+				size = { x= 715 y = 90}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 5
@@ -1419,54 +1419,54 @@ guiTypes = {
 			
 			checkboxType = {
 				name = "messagecat_combat"
-				position = { x=39 y=-980 }
+				position = { x=225 y=-110 }
 				quadTextureSprite ="GFX_msg_log_combat"
 				Orientation = "LOWER_LEFT"
 			}
 		
 			checkboxType = {
 				name = "messagecat_diplomacy"
-				position = { x=39 y=-950 }
+				position = { x=200 y=-110 }
 				quadTextureSprite ="GFX_msg_log_diplo"
 				Orientation = "LOWER_LEFT"
 			}
 			
 			checkboxType = {
 				name = "messagecat_government"
-				position = { x=39 y=-920 }
+				position = { x=175 y=-110 }
 				quadTextureSprite ="GFX_msg_log_gov"
 				Orientation = "LOWER_LEFT"
 			}
 			
 			checkboxType = {
 				name = "messagecat_trade"
-				position = { x=39 y=-890 }
+				position = { x=150 y=-110 }
 				quadTextureSprite ="GFX_msg_log_trade"
 				Orientation = "LOWER_LEFT"
 			}
 			
 			checkboxType = {
 				name = "messagecat_events"
-				position = { x=39 y=-860 }
+				position = { x=125 y=-110 }
 				quadTextureSprite ="GFX_msg_log_event"
 				Orientation = "LOWER_LEFT"
 			}
 			
 			checkboxType = {
 				name = "logfilter_me"
-				position = { x=830 y=-980 }
+				position = { x=96 y=-101 }
 				quadTextureSprite ="GFX_checkbox_logfilter_me"
 				Orientation = "LOWER_LEFT"
 			}
 			checkboxType = {
 				name = "logfilter_interesting"
-				position = { x=830 y=-940 }
+				position = { x=96 y=-68 }
 				quadTextureSprite ="GFX_checkbox_logfilter_interesting"
 				Orientation = "LOWER_LEFT"
 			}
 			checkboxType = {
 				name = "logfilter_other"
-				position = { x=830 y=-900 }
+				position = { x=96 y=-35 }
 				quadTextureSprite ="GFX_checkbox_logfilter_other"
 				Orientation = "LOWER_LEFT"
 			}

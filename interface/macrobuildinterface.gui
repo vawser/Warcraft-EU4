@@ -483,7 +483,7 @@ guiTypes = {
 		}
 		
 		instantTextBoxType={
-			name = "administration_trade"
+			name = "title_administration"
 			position = {x = 44 y = 9 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	

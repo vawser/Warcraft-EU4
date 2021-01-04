@@ -1,5 +1,7 @@
 ﻿l_english:
- dummy_institution: "civilization."
+ dummy_institution: "Civilization."
+ dummy_institution_date: "592"
+ desc_dummy_institution: ""
 
  # Main
  civic_code: "Civic Code"

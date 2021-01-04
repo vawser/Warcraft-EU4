@@ -23,25 +23,19 @@ country_decisions = {
 			OR = {
 				AND = {
 					has_country_modifier = archaeology_fragment
-					adm_power = 15
+					adm_power = 50
 					treasury = 500
 				}
 				AND = {
 					NOT = { has_country_modifier = archaeology_fragment }
-					adm_power = 30
+					adm_power = 50
 					treasury = 1000
 				}
 			}
         }
         effect = {
-			add_adm_power = -30
+			add_adm_power = -50
 			add_treasury = -100
-			random_owned_province = {
-				limit = {
-					NOT = { devastation = 30 }
-				}
-				add_devastation = 30
-			}
 			custom_tooltip = start_archeological_project_tooltip
 			set_country_flag = archaeological_project_started
         }
