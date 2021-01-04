@@ -4,9 +4,9 @@ owner = BDF
 controller = BDF
 add_core = BDF
 
-base_tax = 3
-base_production = 4
-base_manpower = 4
+base_tax = 6
+base_production = 5
+base_manpower = 5
 
 culture = caverns_of_time
 religion = dragon_aspects

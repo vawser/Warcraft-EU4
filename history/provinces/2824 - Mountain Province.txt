@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 82
-native_ferocity = 1
-native_hostileness = 1
+is_city = yes
+owner = ORS
+controller = ORS
+add_core = ORS
 
 base_tax = 1
 base_production = 1
 base_manpower = 2
 
-culture = primitive
-religion = shamanism
+culture = orsis
+religion = titan_worship
 
 trade_goods = unknown
 hre = no

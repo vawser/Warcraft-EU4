@@ -1,17 +1,17 @@
 
-is_city = no
-native_size = 73
-native_ferocity = 2
-native_hostileness = 10
+is_city = yes
+owner = CST
+controller = CST
+add_core = CST
 
 base_tax = 2
 base_production = 4
 base_manpower = 1
 
-culture = primitive
-religion = shamanism
+culture = cloudsong
+religion = earth_mother
 
 trade_goods = unknown
-hre = no
+hre = yes
 
 

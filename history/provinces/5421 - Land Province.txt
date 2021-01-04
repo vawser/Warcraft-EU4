@@ -12,6 +12,6 @@ culture = grimtotem
 religion = shamanism
 
 trade_goods = unknown
-hre = no
+hre = yes
 
 

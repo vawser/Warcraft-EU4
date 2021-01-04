@@ -21,9 +21,9 @@ country_event = {
         set_global_flag = completed_wwu_setup
         
         # World State
-        hre_inheritable = yes
-		set_hre_religion = dragon_aspects
-		set_hre_heretic_religion = fel
+        #hre_inheritable = yes
+		set_hre_religion = earth_mother
+		set_hre_heretic_religion = druidism
         #set_papacy_active = no
         
         # Initializes variables which are used in on_actions

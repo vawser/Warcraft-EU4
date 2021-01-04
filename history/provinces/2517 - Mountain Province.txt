@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 16
-native_ferocity = 2
-native_hostileness = 4
+is_city = yes
+owner = KOL
+controller = KOL
+add_core = KOL
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = primitive
+culture = kolkar
 religion = shamanism
 
 trade_goods = unknown

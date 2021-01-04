@@ -724,6 +724,8 @@ region_desolace = {
         area_desolace_12
         area_desolace_13
         area_desolace_14
+        area_desolace_15
+        area_desolace_16
     }
 }
 
@@ -746,6 +748,8 @@ region_mulgore = {
         area_mulgore_15
         area_mulgore_16
         area_mulgore_17
+        area_mulgore_18
+        area_mulgore_19
     }
 }
 
@@ -815,6 +819,7 @@ region_feralas = {
         area_feralas_17
         area_feralas_18
         area_feralas_19
+        area_feralas_20
     }
 }
 
@@ -837,8 +842,6 @@ region_silithus = {
         area_silithus_15
         area_silithus_16
         area_silithus_17
-        area_silithus_18
-        area_silithus_19
     }
 }
 
@@ -885,6 +888,8 @@ region_tanaris = {
         area_tanaris_22
         area_tanaris_23
         area_tanaris_24
+        area_tanaris_25
+        area_tanaris_26
     }
 }
 
@@ -916,6 +921,8 @@ region_uldum = {
         area_uldum_24
         area_uldum_25
         area_uldum_26
+        area_uldum_27
+        area_uldum_28
     }
 }
 

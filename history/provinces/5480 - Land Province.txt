@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = DST
-controller = DST
-add_core = DST
+owner = PAL
+controller = PAL
+add_core = PAL
 
 base_tax = 3
 base_production = 4
 base_manpower = 1
 
-culture = dawnstrider
-religion = earth_mother
+culture = palemane
+religion = shamanism
 
 trade_goods = unknown
 hre = no

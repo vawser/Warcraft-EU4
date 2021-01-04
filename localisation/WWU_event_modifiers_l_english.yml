@@ -53,6 +53,21 @@
  mass_infestation: "Mass Infestation"
  desc_mass_infestation: "We have infected the masses with the Plague of Undeath, they will soon see the 'light', heh."
  
+ blessing_of_the_elements: "Blessing of the Elements"
+ desc_blessing_of_the_elements: ""
+ 
+ blessing_of_ragnaros: "Blessing of Ragnaros"
+ desc_blessing_of_ragnaros: ""
+ 
+ blessing_of_therazane: "Blessing of Therazane"
+ desc_blessing_of_therazane: ""
+ 
+ blessing_of_neptulon: "Blessing of Neptulon"
+ desc_blessing_of_neptulon: ""
+ 
+ blessing_of_al_akir: "Blessing of Al'Akir"
+ desc_blessing_of_al_akir: ""
+ 
  #------------------------------------------------
  # Orc
  #------------------------------------------------

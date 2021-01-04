@@ -4,7 +4,9 @@ add_government_reform = tribal_federation_reform
 primary_culture = darkmane
 religion = earth_mother
 
-capital = 5510
+capital = 5436
+
+elector = yes
 
 # The First War
 592.1.1 = {

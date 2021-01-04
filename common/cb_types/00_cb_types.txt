@@ -757,6 +757,48 @@ cb_force_tributary = {
 	war_goal = take_capital_force_tributary
 }
 
+cb_force_join_hre = {
+	valid_for_subject = no
+
+	prerequisites = {
+		has_dlc = "Emperor"
+		ROOT = {
+			is_emperor = yes
+			hre_reform_passed = emperor_safeguard_tribal_stability
+			can_use_peace_treaty = {
+				who = FROM
+				treaty = po_join_empire
+			}
+		}
+		FROM = {
+			religion_group = ROOT
+			capital_scope = {
+				same_continent = ROOT
+				is_part_of_hre = no
+			}
+			any_owned_province = {
+				any_neighbor_province = {
+					is_part_of_hre = yes
+				}
+			}
+		}
+	}
+
+	war_goal = take_capital_force_join_hre
+}
+
+# A HRE prince has been annexed
+cb_imperial_realm_war = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+	months = 12
+
+	call_empire_members = yes
+
+	war_goal = superiority_reichskrieg
+}
+
 # Force religion on Heathens
 cb_world_crusade = {
 	valid_for_subject = no

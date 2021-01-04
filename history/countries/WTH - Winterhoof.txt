@@ -4,7 +4,7 @@ add_government_reform = tribal_federation_reform
 primary_culture = winterhoof
 religion = earth_mother
 
-capital = 5492
+capital = 7248
 
 # The First War
 592.1.1 = {

@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = CST
-controller = CST
-add_core = CST
+owner = MRA
+controller = MRA
+add_core = MRA
 
 base_tax = 2
 base_production = 1
 base_manpower = 3
 
-culture = cloudsong
-religion = earth_mother
+culture = magram
+religion = shamanism
 
 trade_goods = unknown
 hre = no

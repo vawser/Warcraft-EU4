@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 92
-native_ferocity = 10
-native_hostileness = 0
+is_city = yes
+owner = MRA
+controller = MRA
+add_core = MRA
 
 base_tax = 2
 base_production = 3
 base_manpower = 1
 
-culture = primitive
+culture = magram
 religion = shamanism
 
 trade_goods = unknown

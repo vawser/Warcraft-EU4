@@ -4,7 +4,7 @@ add_government_reform = warband_reform
 primary_culture = gelkis
 religion = shamanism
 
-capital = 5350
+capital = 5510
 
 # The First War
 592.1.1 = {

@@ -1,0 +1,68 @@
+namespace = wwu_tauren_federation
+
+# "Empire of the Tauren" - Emperor
+country_event = {
+	id = wwu_tauren_federation.1
+	title = wwu_tauren_federation.1.title
+	desc = wwu_tauren_federation.1.desc
+	picture = TAUREN_SHAMAN_eventPicture
+
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = wwu_tauren_federation.1.option.a
+        
+		#change_tag = HLR
+
+		every_province = {
+			limit = {
+				is_part_of_hre = yes
+				OR = {
+					owned_by = ROOT
+					owner = { is_neighbor_of = ROOT }
+				}
+				NOT = { is_core = ROOT }
+			}
+			add_core = emperor
+		}
+		every_country = {
+			limit = {
+				is_part_of_hre = yes
+				is_emperor = no
+				num_of_cities = 1
+			}
+			country_event = { id = wwu_tauren_federation.2 }
+		}
+        
+		dismantle_hre = yes
+		set_government_rank = 3
+		add_adm_power = 250
+        
+		if = {
+			limit = {
+				has_custom_ideas = no
+			}
+			country_event = { id = wwu_ideagroups.100 } #Swap Ideas
+		}
+		swap_non_generic_missions = yes
+	}
+}
+
+# "Empire of the Tauren" - Members
+country_event = {
+	id = wwu_tauren_federation.2
+	title = wwu_tauren_federation.2.title
+	desc = wwu_tauren_federation.2.desc
+	picture = TAUREN_SHAMAN_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wwu_tauren_federation.2.option.a
+        
+		emperor = {
+			inherit = ROOT
+		}
+	}
+}

@@ -1,17 +1,17 @@
 
-is_city = no
-native_size = 51
-native_ferocity = 10
-native_hostileness = 2
+is_city = yes
+owner = WIT
+controller = WIT
+add_core = WIT
 
 base_tax = 1
 base_production = 1
 base_manpower = 4
 
-culture = primitive
-religion = shamanism
+culture = windtotem
+religion = earth_mother
 
 trade_goods = unknown
-hre = no
+hre = yes
 
 

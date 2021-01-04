@@ -61,6 +61,7 @@ is_ancient = {
     OR = {
 		technology_group = tech_vrykul
 		technology_group = tech_titan
+        technology_group = tech_tolvir
 		technology_group = tech_qiraji
 		technology_group = tech_nerubian
         technology_group = tech_mantid

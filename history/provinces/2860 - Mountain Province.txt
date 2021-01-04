@@ -12,6 +12,6 @@ culture = rivermane
 religion = earth_mother
 
 trade_goods = unknown
-hre = no
+hre = yes
 
 

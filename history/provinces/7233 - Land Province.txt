@@ -1,17 +1,17 @@
 
-is_city = no
-native_size = 22
-native_ferocity = 8
-native_hostileness = 6
+is_city = yes
+owner = BDH
+controller = BDH
+add_core = BDH
 
 base_tax = 2
 base_production = 3
 base_manpower = 2
 
-culture = primitive
-religion = shamanism
+culture = bloodhoof
+religion = earth_mother
 
 trade_goods = unknown
-hre = no
+hre = yes
 
 

@@ -227,8 +227,6 @@ order_group = {
         color = { 213 114 96 }
 		icon = 22
 		
-		hre_religion = yes
-        
 		country = {
             prestige = 1
             ae_impact = -0.1

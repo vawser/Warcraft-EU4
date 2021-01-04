@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = DKM
-controller = DKM
-add_core = DKM
+owner = GEL
+controller = GEL
+add_core = GEL
 
 base_tax = 3
 base_production = 3
 base_manpower = 1
 
-culture = darkmane
-religion = earth_mother
+culture = gelkis
+religion = shamanism
 
 trade_goods = unknown
 hre = no

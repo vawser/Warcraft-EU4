@@ -1,0 +1,11 @@
+﻿l_english: 
+ #-----------------------------------------------
+ # Tauren Federation
+ #-----------------------------------------------
+ wwu_tauren_federation.1.title: "Empire of the Tauren"
+ wwu_tauren_federation.1.desc: "We have united the disprate tribes of the Taurens into one, powerful state. Let us proclaim ourselves an empire and protect Mulgore from any whom would threaten it!"
+ wwu_tauren_federation.1.option.a: "For the Earth Mother!"
+ 
+ wwu_tauren_federation.2.title: "Empire of the Tauren"
+ wwu_tauren_federation.2.desc: "The federation has united the disprate tribes of the Taurens into one, powerful state. We shall become part of their empire and protect Mulgore from any whom would threaten it!"
+ wwu_tauren_federation.2.option.a: "For the Earth Mother!"

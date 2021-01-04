@@ -4,7 +4,7 @@ add_government_reform = tribal_federation_reform
 primary_culture = eagletalon
 religion = earth_mother
 
-capital = 5512
+capital = 5518
 
 # The First War
 592.1.1 = {
