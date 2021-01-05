@@ -251,6 +251,8 @@ country_event = {
 	desc = wwu_orcish_horde.7.desc
 	picture = DARK_PORTAL_CLOSEUP_eventPicture
 
+    fire_only_once = yes
+
     trigger = {
         start_date = 592.1.1 # Started in Orcish Horde bookmark
         tag = TOH

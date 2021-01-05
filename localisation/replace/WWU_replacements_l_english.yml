@@ -1199,6 +1199,11 @@
  HRE_LEAVE_NOT_PART_OF_EMPIRE:0 "You're not a member of the Tauren Federation."
  HRE_LEAVE_HAS_OVERLORD:0 "You cannot leave if you're a vassal or lesser part of a personal union."
  HRE_CANT_EMPEROR:0 "You cannot dismantle the Tauren Federation if you are the current High Chieftain."
+ HRE_REFORMS:0 "Reforms"
+ HRE_LEFTBRANCH:0 "Decentralization"
+ HRE_RIGHTBRANCH:0 "Centralization"
+ HRE_JOIN:0 "Join Federation"
+ HRE_IMPERIALDIET: "Tribal Incidents"
  
  HRE_INTERNAL_CB_ENABLED:0 "Allow Internal Federation Wars"
  HRE_INTERNAL_CB_DISABLED:0 "Disallow Internal Federation Wars"
@@ -1607,7 +1612,7 @@
  REICHSKRIEG_DEFENSE_OF_REALM_MODIFIER:0 "High Chieftain and Electors will be able to raise War Taxes for free while at war with enemies of the Tauren Federation"
  defense_of_the_empire_modifier:0 "Defense of the Federation"
  
- HRE_IMPERIALDIET: "Tribal Incidents"
+ 
  
  #------------------------------------------------------
  # Fervor

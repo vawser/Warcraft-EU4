@@ -11,6 +11,7 @@ country_event = {
 	trigger = { 
 		num_of_cities = 3 
 		government = monarchy
+        NOT = { has_government_attribute = council_system }
 		NOT = { legitimacy = 75 }
 	}
 	

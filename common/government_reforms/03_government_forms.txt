@@ -182,9 +182,8 @@ kingdom_of_magic_reform = {
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		heir = no
-		foreign_slave_rulers = yes
 	}
-	
+    
 	modifiers = {
 		advisor_cost = -0.25
 		max_absolutism = -10
@@ -457,10 +456,14 @@ magocracy_reform = {
 	election_on_death = yes
 	duration = 10
 	
+    custom_attributes = {
+		council_system = yes
+        locked_government_type = yes
+	}
+    
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		election_on_death = no
-		foreign_slave_rulers = yes
 	}
     conditional = {
 		allow = { has_dlc = "Common Sense" }

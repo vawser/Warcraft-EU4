@@ -46,50 +46,6 @@ highest_development = {
 	} }
 }
 
-potential_refuge = { # Determines which country allows your country's refugees when it's annexed. Used in remnant events. Order of AND blocks in OR indicates priority.
-	is_at_war = no
-	is_subject = no
-	OR = {
-		AND = {
-			historical_friend_with = ROOT
-			primary_culture = ROOT
-			has_opinion = { who = ROOT value = 0 }
-		}
-		AND = {
-			NOT = { primary_culture = ROOT }
-			alliance_with = ROOT
-			trust = { who = ROOT value = 50 }
-		}
-		AND = {
-			historical_friend_with = ROOT
-			NOT = { primary_culture = ROOT }
-			has_opinion = { who = ROOT value = 50 }
-		}
-		AND = {
-			primary_culture = ROOT
-			alliance_with = ROOT
-		}
-		AND = {
-			historical_friend_with = ROOT
-			alliance_with = ROOT
-		}
-		AND = {
-			is_neighbor_of = ROOT
-			NOT = { primary_culture = ROOT }
-			has_opinion = { who = ROOT value = 150 }
-		}
-		AND = {
-			is_neighbor_of = ROOT
-			primary_culture = ROOT
-			has_opinion = { who = ROOT value = 50 }
-		}
-		AND = {
-			alliance_with = ROOT
-			trust = { who = ROOT value = 50 }
-		}
-	}
-}
-
 owns_or_vassal_or_ally_of = {
 	OR = {
 		$country$ = {
@@ -170,4 +126,25 @@ same_region = {
 			province_id = $prov_2$
 		}
 	}
+}
+
+has_been_insulted_by_root = {
+	custom_trigger_tooltip = {
+		tooltip = has_been_insulted_by_root
+		OR = {
+			has_opinion_modifier = {
+				who = ROOT
+				modifier = insulted
+			}
+			has_opinion_modifier = {
+				who = ROOT
+				modifier = scornfully_insulted
+			}
+		}
+	}
+}
+
+valid_for_personal_unions_trigger = {
+	is_subject = no
+	government = monarchy
 }

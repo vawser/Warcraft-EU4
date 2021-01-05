@@ -452,41 +452,15 @@ can_have_center_of_reformation_trigger = { #Province Scope
 }
 
 province_viable_for_industrialization_events_trigger = { #Province Scope
-	is_state = yes
-	NOT = { devastation = 1 }
-	OR = {
-		is_in_capital_area = yes
-		continent = CAPITAL
-	}
-	enlightenment = 100
+	always = no
 }
 
 unindustrialized_province_trigger = { #Province Scope
-	#NOT = { has_province_flag = canals_and_turnpikes_flag }
-	#NOT = { has_province_flag = agricultural_revolution_province }
-	NOT = { has_province_flag = had_economic_urbanization }
-	NOT = { has_province_flag = swapped_to_cloth }
-	NOT = { has_province_flag = swapped_to_paper }
-	NOT = { has_province_flag = swapped_to_glass }
-	NOT = { has_province_flag = industrial_urbanization }
-	NOT = { has_province_flag = metalwork_center }
-	NOT = { has_province_flag = textile_center }
-	NOT = { has_province_flag = shipyards_of_x }
+	always = no
 }
 
 industrialized_province_trigger = { #Province Scope
-	OR = {
-		#has_province_flag = canals_and_turnpikes_flag
-		#has_province_flag = agricultural_revolution_province
-		has_province_flag = had_economic_urbanization 
-		has_province_flag = swapped_to_cloth
-		has_province_flag = swapped_to_paper
-		has_province_flag = swapped_to_glass
-		has_province_flag = industrial_urbanization
-		has_province_flag = metalwork_center
-		has_province_flag = textile_center
-		has_province_flag = shipyards_of_x
-	}
+	always = no
 }
 
 was_never_end_game_tag_trigger = {
@@ -506,28 +480,36 @@ has_manufactory_trigger = { #Province Scope
 #Use this one if you want it to say which manufactory has to be built
 # Does not include 1.30 manufactories
 has_manufactory_no_custom_tooltip_trigger = {
-	always = no
+	custom_trigger_tooltip = {
+		tooltip = has_manufactory_trigger_tooltip
+		has_building = wow_manufactory
+	}
 }
 
-has_no_manufactory_trigger = { #Province Scope
-	always = no
+has_manufactory_no_custom_tooltip_trigger = { #Province Scope
+	has_building = wow_manufactory
 }
 
 # Does not include new manufactories - they don't fit for the purposes of this trigger
+has_no_manufactory_trigger = { #Province Scope
+	NOT = { has_building = wow_manufactory }
+}
+
 root_can_build_manufactory_here_trigger = {
-	always = no
+    has_no_manufactory_trigger = yes
+    num_free_building_slots = 1
 }
 
 has_nobles_trade_good_trigger = {
-	
+	always = no
 }
 
 has_burghers_trade_good_trigger = {
-	
+	always = no
 }
 
 has_church_trade_good_trigger = {
-	
+	always = no
 }
 
 has_dharma_elephants_trigger = {
@@ -536,12 +518,47 @@ has_dharma_elephants_trigger = {
 
 # This is for when we want to award government reform progress and need to check if that's useful to the player based on dlc ownership
 has_completed_all_reforms_trigger = {
-	always = no
+	custom_trigger_tooltip = {
+		tooltip = has_completed_all_reforms_trigger_tooltip
+		NOT = { has_dlc = "Emperor" }
+		OR = {
+			has_reform = wwu_political_absolutism_reform
+			has_reform = wwu_legislative_houses_reform
+			has_reform = wwu_strengthen_executive_powers_reform
+			has_reform = wwu_reinforce_republican_values_reform
+			has_reform = wwu_religion_in_one_country_reform
+			has_reform = wwu_religious_permanent_revolution_reform
+			has_reform = wwu_many_fingers_of_god_reform
+			has_reform = wwu_priestly_autonomy_reform
+			has_reform = wwu_proclaim_religious_head_reform
+			has_reform = wwu_barbaric_despoilers_reform
+			has_reform = wwu_tribal_unity_reform
+			has_reform = wwu_militarized_state_reform
+			has_reform = wwu_strengthen_pirate_unity_reform
+		}
+	}
 }
 
 # This is for all other situations
 has_final_tier_reforms_trigger = {
-	always = no
+	custom_trigger_tooltip = {
+		tooltip = has_completed_all_reforms_trigger_tooltip
+		OR = {
+			has_reform = wwu_political_absolutism_reform
+			has_reform = wwu_legislative_houses_reform
+			has_reform = wwu_strengthen_executive_powers_reform
+			has_reform = wwu_reinforce_republican_values_reform
+			has_reform = wwu_religion_in_one_country_reform
+			has_reform = wwu_religious_permanent_revolution_reform
+			has_reform = wwu_many_fingers_of_god_reform
+			has_reform = wwu_priestly_autonomy_reform
+			has_reform = wwu_proclaim_religious_head_reform
+			has_reform = wwu_barbaric_despoilers_reform
+			has_reform = wwu_tribal_unity_reform
+			has_reform = wwu_militarized_state_reform
+			has_reform = wwu_strengthen_pirate_unity_reform
+		}
+	}
 }
 
 has_holy_order_trigger = {
@@ -609,10 +626,9 @@ same_govt_as_root_trigger = {
 }
 
 # Building triggers
-
 has_tax_building_trigger = {
 	OR = {
-		has_building = wow_farm
+		has_building = wow_temple
 	}
 }
 
@@ -654,7 +670,7 @@ has_forcelimit_building_trigger = {
 
 has_courthouse_building_trigger = {
 	OR = {	
-		has_building = wow_internment_camp
+		has_building = wow_farm
 	}
 }
 
@@ -680,23 +696,12 @@ valid_for_personal_unions_trigger = {
 }
 
 is_shadow_kingdom_eligible_trigger = {
-	is_emperor = no
-	is_part_of_hre = yes
-	OR = {
-		# MAP # capital_scope = { area = area_deepholm }
-		AND = {
-			culture = culture_black
-			any_owned_province = {
-				# MAP # area = area_deepholm
-			}
-		}
-	}
+	always = no
 }
 
 will_leave_for_shadow_kingdom_trigger = {
 	always = no
 }
-
 
 is_germanic_but_not_swamp = {
 	always = no

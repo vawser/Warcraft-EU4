@@ -11,7 +11,7 @@ country_event = {
 	id = expel_minority_events.1
 	title = expel_minority_events.1.t
 	desc = expel_minority_events.1.d
-	picture = SWORD_SHIELD_eventPicture
+	picture = EUROPEAN_REFUGEES_eventPicture
 
 	trigger = {
 		any_owned_province = {
@@ -45,7 +45,6 @@ country_event = {
 
 	option = {
 		name = expel_minority_events.1.a
-		
 		event_target:expelling_colony = { add_colonysize = 200 }
 	}
 }
@@ -55,7 +54,7 @@ country_event = {
 	id = expel_minority_events.2
 	title = expel_minority_events.2.t
 	desc = expel_minority_events.2.d
-	picture = SWORD_SHIELD_eventPicture
+	picture = EUROPEAN_REFUGEES_eventPicture
 
 	trigger = {
 		any_owned_province = {
@@ -63,6 +62,7 @@ country_event = {
 			has_owner_religion = no
 			NOT = { religion_group = owner }
 			any_neighbor_province = {
+				owned_by = root
 				has_owner_religion = no
 				NOT = { religion_group = owner }
 				base_tax = 2
@@ -81,6 +81,7 @@ country_event = {
 					has_owner_religion = no
 					NOT = { religion_group = owner }
 					any_neighbor_province = {
+						owned_by = root
 						has_owner_religion = no
 						NOT = { religion_group = owner }
 						base_tax = 2
@@ -90,6 +91,7 @@ country_event = {
 				save_event_target_as = expelling_province
 				random_neighbor_province = {
 					limit = {
+						owned_by = root
 						has_owner_religion = no
 						NOT = { religion_group = owner }
 						base_tax = 2
@@ -110,14 +112,12 @@ country_event = {
 
 	option = {
 		name = expel_minority_events.2.a
-		
 		event_target:heathen_neighbors_moving = { add_base_tax = -1 }
 		event_target:expelling_colony = { add_colonysize = 200 }
 	}
 
 	option = {
 		name = expel_minority_events.2.b
-		
 		event_target:heathen_neighbors_moving = { add_unrest = 3 }
 	}
 }
@@ -127,7 +127,7 @@ country_event = {
 	id = expel_minority_events.3
 	title = expel_minority_events.3.t
 	desc = expel_minority_events.3.d
-	picture = SWORD_SHIELD_eventPicture
+	picture = EUROPEAN_REFUGEES_eventPicture
 
 	trigger = {
 		any_owned_province = {
@@ -163,7 +163,6 @@ country_event = {
 
 	option = {
 		name = expel_minority_events.3.a
-		
 		event_target:expelling_province= {
 			add_base_tax = -1
 			add_unrest = 4
@@ -177,7 +176,7 @@ country_event = {
 	id = expel_minority_events.4
 	title = expel_minority_events.4.t
 	desc = expel_minority_events.4.d
-	picture = SWORD_SHIELD_eventPicture
+	picture = EUROPEAN_REFUGEES_eventPicture
 
 	trigger = {
 		any_owned_province = {
@@ -228,7 +227,6 @@ country_event = {
 
 	option = {
 		name = expel_minority_events.4.a
-		
 		event_target:nearby_refugee_province = {
 			add_base_tax = 1
 			add_unrest = 10
@@ -237,7 +235,6 @@ country_event = {
 
 	option = {
 		name = expel_minority_events.4.b
-		
 		event_target:expelling_province = { add_base_tax = -1 }
 	}
 }
@@ -247,7 +244,7 @@ country_event = {
 	id = expel_minority_events.5
 	title = expel_minority_events.5.t
 	desc = expel_minority_events.5.d
-	picture = SWORD_SHIELD_eventPicture
+	picture = EUROPEAN_REFUGEES_eventPicture
 
 	trigger = {
 		any_owned_province = {
@@ -277,13 +274,11 @@ country_event = {
 
 	option = {
 		name = expel_minority_events.5.a
-		
 		event_target:expelling_province = { add_local_autonomy = 25 }
 	}
 
 	option = {
 		name = expel_minority_events.5.b
-		
 		event_target:expelling_province = { add_base_tax = -1 }
 	}
 }

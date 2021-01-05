@@ -379,9 +379,6 @@ nationalist_rebels = {
 #---------------------------------
 # Noble
 #---------------------------------
-######################################################################
-# Disgruntled nobles.
-######################################################################
 noble_rebels = {
 
 	color = { 179 75 75 }
@@ -956,7 +953,7 @@ tribal_rebels = {
 			factor = 2.0
 			owner = {
 				estate_territory = {
-					estate = estate_tribes
+					estate = estate_tribals
 					territory = 20
 				}
 			}
@@ -965,7 +962,7 @@ tribal_rebels = {
 			factor = 2.0
 			owner = {
 				estate_territory = {
-					estate = estate_tribes
+					estate = estate_tribals
 					territory = 30
 				}
 			}
@@ -1049,7 +1046,7 @@ tribal_rebels = {
 		add_local_autonomy = 10	
 		owner = {
 			change_estate_land_share = {
-				estate = estate_tribes
+				estate = estate_tribals
 				share = 10.0
 				province = ROOT
 			}
@@ -1085,14 +1082,14 @@ tribal_rebels = {
 			add_local_autonomy = 30
 		}
 		add_estate_influence_modifier = {
-			estate = estate_tribes
+			estate = estate_tribals
 			desc = EST_VAL_SUCCESFUL_TRIBAL_REVOLT
 			duration = 3650
 			influence = 15
 		}
 		add_prestige = -20
 		change_estate_land_share = {
-			estate = estate_tribes
+			estate = estate_tribals
 			share = 10.0
 		}
 	}

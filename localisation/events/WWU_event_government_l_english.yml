@@ -37,11 +37,12 @@
  
  # Council
  wwu_government.6.title: "New Rulership"
- wwu_government.6.desc: "The old $MONARCHTITLE$ has passed away. Time has come to raise a new $MONARCHTITLE$ for $COUNTRY$. The council of court officers gathered immediately. After a fierce adjudication between the advisors, each council member suggested a name." 
- wwu_government.6.option.a: "Elect [Root.Adm_Advisor.GetName]'s Candidate"
- wwu_government.6.option.b: "Elect [Root.Dip_Advisor.GetName]'s Candidate"
- wwu_government.6.option.c: "Elect [Root.Mil_Advisor.GetName]'s Candidate"
+ wwu_government.6.desc: "The old $MONARCHTITLE$ has passed away. Time has come to raise a new $MONARCHTITLE$ for $COUNTRY$. The council of advisors gathered immediately. After a fierce adjudication between the advisors, each council member suggested a name." 
+ wwu_government.6.option.a: "Elect [Root.Adm_Advisor.GetName]'s candidate"
+ wwu_government.6.option.b: "Elect [Root.Dip_Advisor.GetName]'s candidate"
+ wwu_government.6.option.c: "Elect [Root.Mil_Advisor.GetName]'s candidate"
  wwu_government.6.option.d: "A local noble that we can puppet will suit this job well."
+ wwu_government.6.option.e: "A true archmage, tutored by our council of officers."
  
  # Undead
  wwu_government.7.title: "Undead Champion"

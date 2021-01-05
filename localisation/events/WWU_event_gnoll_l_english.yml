@@ -3,7 +3,7 @@
  # Gnoll
  #-----------------------------------------------
  wwu_gnoll_flavour.1.title: "Battle Tactics!"
- wwu_gnoll_flavour.1.desc: "For our ongoing war efforts, one of our generals has prepared a great battle strategy for us. It has several options for all kind of possiblities without any chance to fail. Now the [Root.GetTitle] shall decide which path we are going to take."
+ wwu_gnoll_flavour.1.desc: "For our ongoing war efforts, one of our generals has prepared a great battle strategy for us. It has several options for all kind of possiblities without any chance to fail. Now the [Root.Monarch.GetTitle] shall decide which path we are going to take."
  wwu_gnoll_flavour.1.opt1: "Kill!"
  wwu_gnoll_flavour.1.opt2: "Sleep?"
  wwu_gnoll_flavour.1.opt3: "EAT"

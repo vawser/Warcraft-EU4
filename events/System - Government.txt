@@ -11,6 +11,7 @@ country_event = {
 
 	trigger = {
 		government = republic
+        NOT = { has_government_attribute = council_system }
         NOT = { has_states_general_mechanic = yes }
 		NOT = { has_government_attribute = lottery_election }
         NOT = { has_reform = despotic_republic_reform }
@@ -106,6 +107,7 @@ country_event = {
 	
 	trigger = {
 		government = republic
+        NOT = { has_government_attribute = council_system }
         NOT = { has_states_general_mechanic = yes }
 		NOT = { has_government_attribute = lottery_election }
         NOT = { has_reform = despotic_republic_reform }
@@ -300,6 +302,7 @@ country_event = {
 	
 	trigger = {
 		government = republic
+        NOT = { has_government_attribute = council_system }
 		is_colonial_nation = no
 		OR = {
 			AND = {
@@ -355,6 +358,7 @@ country_event = {
 	
 	trigger = {
 		has_government_attribute = lottery_election
+        NOT = { has_government_attribute = council_system }
 	}
 	
 	immediate = {
@@ -464,7 +468,7 @@ country_event = {
 	}
 }
 
-# Council Government
+# Advisor Government
 country_event = {
 	id = wwu_government.6
 	title = wwu_government.6.title
@@ -483,23 +487,63 @@ country_event = {
 		trigger = {
 			has_adm_advisor = yes
 		}
-		use_adm_talent_on_country = yes
-		hidden_effect = {
-			export_to_variable = {
-				which = adv_rel
-				value = dip_advisor_religion
-			}
-			export_to_variable = {
-				which = adv_cul
-				value = dip_advisor_culture
-			}
-		}
-		define_ruler = {
-			adm = 3
-			religion = variable:adv_rel
-			culture = variable:adv_cul
-			claim = 75
-		}
+        
+        if = {
+            limit = {
+                has_level_3_adm_advisor = yes
+            }
+            define_ruler = {
+                adm = 6
+                dip = 4
+                mil = 4
+                fixed = yes
+                min_age = 80
+                max_age = 200
+                claim = 80
+            }
+            add_adm_power = 100
+        }
+		else_if = {
+            limit = {
+                has_level_2_adm_advisor = yes
+            }
+            define_ruler = {
+                adm = 5
+                dip = 3
+                mil = 3
+                fixed = yes
+                min_age = 80
+                max_age = 200
+                claim = 80
+            }
+            add_adm_power = 50
+        }
+        else_if = {
+            limit = {
+                has_level_1_adm_advisor = yes
+            }
+            define_ruler = {
+                adm = 4
+                dip = 2
+                mil = 2
+                fixed = yes
+                min_age = 80
+                max_age = 200
+                claim = 80
+            }
+            add_adm_power = 25
+        }
+        else = {
+            define_ruler = {
+                adm = 3
+                dip = 1
+                mil = 1
+                fixed = yes
+                min_age = 80
+                max_age = 200
+                claim = 80
+            }
+        }
 	}
 	
 	option = {
@@ -508,24 +552,63 @@ country_event = {
 		trigger = {
 			has_dip_advisor = yes
 		}
-		use_dip_talent_on_country = yes
 		
-		hidden_effect = {
-			export_to_variable = {
-				which = adv_rel
-				value = dip_advisor_religion
-			}
-			export_to_variable = {
-				which = adv_cul
-				value = dip_advisor_culture
-			}
-		}
-		define_ruler = {
-			dip = 3
-			religion = variable:adv_rel
-			culture = variable:adv_cul
-			claim = 75
-		}
+        if = {
+            limit = {
+                has_level_3_dip_advisor = yes
+            }
+            define_ruler = {
+                adm = 4
+                dip = 6
+                mil = 4
+                fixed = yes
+                min_age = 80
+                max_age = 200
+                claim = 80
+            }
+            add_dip_power = 100
+        }
+		else_if = {
+            limit = {
+                has_level_2_dip_advisor = yes
+            }
+            define_ruler = {
+                adm = 3
+                dip = 5
+                mil = 3
+                fixed = yes
+                min_age = 80
+                max_age = 200
+                claim = 80
+            }
+            add_dip_power = 50
+        }
+        else_if = {
+            limit = {
+                has_level_1_dip_advisor = yes
+            }
+            define_ruler = {
+                adm = 2
+                dip = 4
+                mil = 2
+                fixed = yes
+                min_age = 80
+                max_age = 200
+                claim = 80
+            }
+            add_dip_power = 25
+        }
+        else = {
+            define_ruler = {
+                adm = 1
+                dip = 3
+                mil = 1
+                fixed = yes
+                min_age = 80
+                max_age = 200
+                claim = 80
+            }
+        }
 	}
 	
 	option = {
@@ -534,47 +617,94 @@ country_event = {
 		trigger = {
 			has_mil_advisor = yes
 		}
-		use_mil_talent_on_country = yes
-		
-		hidden_effect = {
-			export_to_variable = {
-				which = adv_rel
-				value = mil_advisor_religion
-			}
-			export_to_variable = {
-				which = adv_cul
-				value = mil_advisor_culture
-			}
-		}
-		define_ruler = {
-			mil = 3
-			religion = variable:adv_rel
-			culture = variable:adv_cul
-			claim = 75
-		}
+        
+		if = {
+            limit = {
+                has_level_3_mil_advisor = yes
+            }
+            define_ruler = {
+                adm = 4
+                dip = 4
+                mil = 6
+                fixed = yes
+                min_age = 80
+                max_age = 200
+                claim = 80
+            }
+            add_mil_power = 100
+        }
+		else_if = {
+            limit = {
+                has_level_2_mil_advisor = yes
+            }
+            define_ruler = {
+                adm = 3
+                dip = 3
+                mil = 5
+                fixed = yes
+                min_age = 80
+                max_age = 200
+                claim = 80
+            }
+            add_mil_power = 50
+        }
+        else_if = {
+            limit = {
+                has_level_1_mil_advisor = yes
+            }
+            define_ruler = {
+                adm = 2
+                dip = 2
+                mil = 4
+                fixed = yes
+                min_age = 80
+                max_age = 200
+                claim = 80
+            }
+            add_mil_power = 75
+        }
+        else = {
+            define_ruler = {
+                adm = 1
+                dip = 1
+                mil = 3
+                fixed = yes
+                min_age = 80
+                max_age = 200
+                claim = 80
+            }
+        }
 	}
-	
 	option = {
 		name = wwu_government.6.option.d
         
-		trigger = {
-			NOT = { has_adm_advisor = yes }
-			NOT = { has_dip_advisor = yes }
-			NOT = { has_mil_advisor = yes }
-		}
-		export_to_variable = {
-			which = adv_rel
-			value = mil_advisor_religion
-		}
-		export_to_variable = {
-			which = adv_cul
-			value = mil_advisor_culture
-		}
 		define_ruler = {
-			adm = 2
-			dip = 2
-			mil = 2
-			claim = 75
+            adm = 3
+            dip = 3
+            mil = 3
+            fixed = yes
+            min_age = 80
+            max_age = 200
+			claim = 50
+		}
+	}
+    option = {
+		name = wwu_government.6.option.e
+        
+        trigger = {
+            has_level_5_adm_advisor = yes
+            has_level_5_dip_advisor = yes
+            has_level_5_mil_advisor = yes
+        }
+        
+		define_ruler = {
+            adm = 6
+            dip = 6
+            mil = 6
+            fixed = yes
+            min_age = 80
+            max_age = 200
+			claim = 100
 		}
 	}
 }

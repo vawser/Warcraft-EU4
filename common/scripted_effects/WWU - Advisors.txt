@@ -511,10 +511,3 @@ kill_advisor_by_category_effect = {
 		}
 	]
 }
-
-
-
-
-
-
-

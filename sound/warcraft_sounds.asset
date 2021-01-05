@@ -115,10 +115,6 @@ sound = {
 	file = "start_conversion_christian_catholic.wav"
 }
 sound = {
-	name = start_convert_shamanism
-	file = "start_conversion_christian_catholic.wav"
-}
-sound = {
 	name = start_convert_geomancy
 	file = "start_conversion_christian_catholic.wav"
 }
@@ -260,10 +256,6 @@ sound = {
 }
 sound = {
 	name = religion_hakkari
-	file = "tab_religion_christian.wav"
-}
-sound = {
-	name = religion_shamanism
 	file = "tab_religion_christian.wav"
 }
 sound = {
