@@ -9,10 +9,7 @@ tuskarr_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = KAL
-            tag = MOA
-        }
+		culture_group = tuskarr_group
 	}
 	free = yes		
 	

@@ -1,6 +1,7 @@
 technology_group = tech_frost_troll
-government = tribal
-add_government_reform = tribal_despotism_reform
+government = monarchy
+add_government_reform = troll_kingdom_reform
+government_rank = 1
 primary_culture = winterax
 religion = voodoo
 
@@ -9,54 +10,9 @@ capital = 3511
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Marlo"
-        dynasty = "the Prudent"
+        name = "Marlo the Prudent"
         adm = 5
         dip = 2
-        mil = 1
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Longoqee"
-        dynasty = "the Smart"
-        adm = 3
-        dip = 1
-        mil = 3
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Manmoji"
-        dynasty = "the Furious"
-        adm = 4
-        dip = 5
-        mil = 2
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Timoo"
-        dynasty = "the Titanic"
-        adm = 1
-        dip = 4
-        mil = 0
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Zal'kara"
-        dynasty = "the Careful"
-        adm = 2
-        dip = 4
         mil = 1
     }
 }

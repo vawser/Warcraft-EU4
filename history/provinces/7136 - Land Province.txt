@@ -8,7 +8,7 @@ base_tax = 1
 base_production = 4
 base_manpower = 1
 
-culture = obsidian_dragonshrine
+culture = black_dragonflight
 religion = dragon_aspects
 
 trade_goods = unknown

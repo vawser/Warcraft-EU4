@@ -9,7 +9,7 @@ base_production = 1
 base_manpower = 2
 
 culture = razormane
-religion = shamanism
+religion = geomancy
 
 trade_goods = unknown
 hre = no

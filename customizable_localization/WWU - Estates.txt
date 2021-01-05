@@ -132,12 +132,6 @@ defined_text = {
             tag = SRW
 		}
 	}
-    text = {
-		localisation_key = estate_traders_ancients
-		trigger = {
-            is_ancient = yes
-		}
-	}
     
     text = {
 		localisation_key = estate_traders
@@ -156,12 +150,6 @@ defined_text = {
 		localisation_key = estate_traders_workers
 		trigger = {
             tag = SRW
-		}
-	}
-    text = {
-		localisation_key = estate_traders_ancients
-		trigger = {
-            is_ancient = yes
 		}
 	}
     

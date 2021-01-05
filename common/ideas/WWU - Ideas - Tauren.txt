@@ -47,33 +47,7 @@ tauren_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = CFW
-            tag = RET
-            tag = DST
-            tag = BDH
-            tag = WTH
-            tag = CST
-            tag = DKM
-            tag = EGL
-            tag = MIS
-            tag = SKC
-            tag = SOT
-            tag = SPR
-            tag = SKY
-            tag = WHE
-            tag = WHI
-            tag = WIM
-            tag = WIR
-            tag = WIT
-            tag = YOU
-            tag = HMT
-            tag = BOT
-            tag = IRH
-            tag = PRF
-            tag = RVM
-            tag = SKH
-        }
+		culture_group = tauren_group
 	}
 	free = yes		
 	

@@ -219,15 +219,15 @@ gov_colonial_government = {
 	}
 	
 	ruler_male = {
-		1 = EXPEDITIONER
-		2 = EXPEDITIONER
-		3 = EXPEDITIONER
+		1 = GOVERNOR
+		2 = GOVERNOR
+		3 = GOVERNOR
 	}
 	
 	ruler_female = {
-		1 = EXPEDITIONER
-		2 = EXPEDITIONER
-		3 = EXPEDITIONER
+		1 = GOVERNOR
+		2 = GOVERNOR
+		3 = GOVERNOR
     }
 	
 	trigger = {
@@ -258,3 +258,51 @@ gov_tinker_republic = {
 	}
 }
 
+gov_dragonflight_brood_wyrmrest_temple = {
+	rank = {
+		1 = DRAGONFLIGHT_BROOD
+        2 = DRAGONFLIGHT_BROOD
+        3 = DRAGONFLIGHT_BROOD
+	}
+	
+	ruler_male = {
+		1 = DRAGON_KING
+        2 = DRAGON_KING
+        3 = DRAGON_KING
+	}
+	
+	ruler_female = {
+		1 = DRAGON_QUEEN
+        2 = DRAGON_QUEEN
+        3 = DRAGON_QUEEN
+	}
+	
+	trigger = {
+        tag = WYT
+        has_reform = dragonflight_brood_reform
+	}
+}
+
+gov_dragonflight_brood = {
+	rank = {
+		1 = DRAGONFLIGHT_BROOD
+        2 = DRAGONFLIGHT_BROOD
+        3 = DRAGONFLIGHT_BROOD
+	}
+	
+	ruler_male = {
+		1 = DRAGON_ASPECT
+        2 = DRAGON_ASPECT
+        3 = DRAGON_ASPECT
+	}
+	
+	ruler_female = {
+		1 = DRAGON_ASPECT
+        2 = DRAGON_ASPECT
+        3 = DRAGON_ASPECT
+	}
+	
+	trigger = {
+        has_reform = dragonflight_brood_reform
+	}
+}

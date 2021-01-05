@@ -1,6 +1,7 @@
 technology_group = tech_sand_troll
-government = tribal
-add_government_reform = tribal_despotism_reform
+government = monarchy
+add_government_reform = troll_kingdom_reform
+government_rank = 1
 government_rank = 2
 primary_culture = sandfury
 religion = voodoo
@@ -10,54 +11,9 @@ capital = 5106
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Ralkat"
-        dynasty = "the Smasher"
-        adm = 1
-        dip = 0
-        mil = 0
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Loqee"
-        dynasty = "the Erudite"
-        adm = 3
-        dip = 2
-        mil = 4
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Rabimon"
-        dynasty = "the Smart"
-        adm = 0
-        dip = 2
-        mil = 1
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Kotaz"
-        dynasty = "the Immense"
-        adm = 1
+        name = "Ralkat the Smasher"
+        adm = 5
         dip = 3
         mil = 4
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Kotjin"
-        dynasty = "the Gigantic"
-        adm = 5
-        dip = 5
-        mil = 1
     }
 }

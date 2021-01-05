@@ -496,10 +496,10 @@ country_event = {
                 adm = 6
                 dip = 4
                 mil = 4
-                fixed = yes
-                min_age = 80
-                max_age = 200
+                min_age = 70
+                max_age = 90
                 claim = 80
+                fixed = yes
             }
             add_adm_power = 100
         }
@@ -511,10 +511,10 @@ country_event = {
                 adm = 5
                 dip = 3
                 mil = 3
-                fixed = yes
-                min_age = 80
-                max_age = 200
+                min_age = 70
+                max_age = 90
                 claim = 80
+                fixed = yes
             }
             add_adm_power = 50
         }
@@ -526,10 +526,10 @@ country_event = {
                 adm = 4
                 dip = 2
                 mil = 2
-                fixed = yes
-                min_age = 80
-                max_age = 200
+                min_age = 70
+                max_age = 90
                 claim = 80
+                fixed = yes
             }
             add_adm_power = 25
         }
@@ -538,10 +538,10 @@ country_event = {
                 adm = 3
                 dip = 1
                 mil = 1
-                fixed = yes
-                min_age = 80
-                max_age = 200
+                min_age = 70
+                max_age = 90
                 claim = 80
+                fixed = yes
             }
         }
 	}
@@ -561,10 +561,10 @@ country_event = {
                 adm = 4
                 dip = 6
                 mil = 4
-                fixed = yes
-                min_age = 80
-                max_age = 200
+                min_age = 70
+                max_age = 90
                 claim = 80
+                fixed = yes
             }
             add_dip_power = 100
         }
@@ -576,10 +576,10 @@ country_event = {
                 adm = 3
                 dip = 5
                 mil = 3
-                fixed = yes
-                min_age = 80
-                max_age = 200
+                min_age = 70
+                max_age = 90
                 claim = 80
+                fixed = yes
             }
             add_dip_power = 50
         }
@@ -591,10 +591,10 @@ country_event = {
                 adm = 2
                 dip = 4
                 mil = 2
-                fixed = yes
-                min_age = 80
-                max_age = 200
+                min_age = 70
+                max_age = 90
                 claim = 80
+                fixed = yes
             }
             add_dip_power = 25
         }
@@ -603,10 +603,10 @@ country_event = {
                 adm = 1
                 dip = 3
                 mil = 1
-                fixed = yes
-                min_age = 80
-                max_age = 200
+                min_age = 70
+                max_age = 90
                 claim = 80
+                fixed = yes
             }
         }
 	}
@@ -626,10 +626,10 @@ country_event = {
                 adm = 4
                 dip = 4
                 mil = 6
-                fixed = yes
-                min_age = 80
-                max_age = 200
+                min_age = 70
+                max_age = 90
                 claim = 80
+                fixed = yes
             }
             add_mil_power = 100
         }
@@ -641,10 +641,10 @@ country_event = {
                 adm = 3
                 dip = 3
                 mil = 5
-                fixed = yes
-                min_age = 80
-                max_age = 200
+                min_age = 70
+                max_age = 90
                 claim = 80
+                fixed = yes
             }
             add_mil_power = 50
         }
@@ -656,10 +656,10 @@ country_event = {
                 adm = 2
                 dip = 2
                 mil = 4
-                fixed = yes
-                min_age = 80
-                max_age = 200
+                min_age = 70
+                max_age = 90
                 claim = 80
+                fixed = yes
             }
             add_mil_power = 75
         }
@@ -668,10 +668,10 @@ country_event = {
                 adm = 1
                 dip = 1
                 mil = 3
-                fixed = yes
-                min_age = 80
-                max_age = 200
+                min_age = 70
+                max_age = 90
                 claim = 80
+                fixed = yes
             }
         }
 	}
@@ -682,10 +682,10 @@ country_event = {
             adm = 3
             dip = 3
             mil = 3
-            fixed = yes
-            min_age = 80
-            max_age = 200
+            min_age = 70
+            max_age = 90
 			claim = 50
+            fixed = yes
 		}
 	}
     option = {
@@ -701,10 +701,10 @@ country_event = {
             adm = 6
             dip = 6
             mil = 6
-            fixed = yes
-            min_age = 80
-            max_age = 200
+            min_age = 70
+            max_age = 90
 			claim = 100
+            fixed = yes
 		}
 	}
 }
@@ -880,4 +880,3 @@ country_event = {
 		add_devotion = 10
 	}
 }
-

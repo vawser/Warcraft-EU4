@@ -10,30 +10,19 @@ is_immortal_lifespan = {
             }
         }
         culture_group = high_elf_group
-        culture_group = blood_elf_group
-        culture_group = void_elf_group
         culture_group = qiraji_group
         culture_group = nerubian_group
         culture_group = mantid_group
         culture_group = demon_group
         culture_group = tolvir_group
-        culture_group = red_dragonflight_group
-        culture_group = green_dragonflight_group
-        culture_group = black_dragonflight_group
-        culture_group = blue_dragonflight_group
-        culture_group = bronze_dragonflight_group
+        culture_group = dragonflight_group
         culture_group = nightborne_group
-        culture_group = faldorei_group
-        culture_group = nightfallen_group
-        culture_group = felborne_group
         culture_group = naga_group
     }
 }
 is_increased_lifespan = {
     OR = {
         culture_group = dwarf_group
-        culture_group = hill_dwarf_group
-        culture_group = dark_iron_dwarf_group
         culture_group = mogu_group
     }
 }

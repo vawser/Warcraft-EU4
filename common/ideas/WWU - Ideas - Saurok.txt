@@ -9,20 +9,7 @@ saurok_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = GLI
-            tag = MTD
-            tag = RVE
-            tag = BDS
-            tag = DKH
-            tag = HES
-            tag = MKS
-            tag = PLB
-            tag = SKM
-            tag = SLI
-            tag = VLT
-            tag = WDS
-        }
+		culture_group = saurok_group
 	}
 	free = yes		
 	

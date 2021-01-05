@@ -1,62 +1,17 @@
 technology_group = tech_blue_dragonflight
-government = monarchy
+government = theocracy
 add_government_reform = dragonflight_brood_reform
-primary_culture = azure_dragonshrine
+primary_culture = blue_dragonflight
 religion = dragon_aspects
 
 capital = 7103
 
-# The First War
 592.1.1 = {
     monarch = {
-        name = "Nezigos"
-        dynasty = "the Educated"
-        adm = 4
-        dip = 3
-        mil = 2
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Sunrengos"
-        dynasty = "the Violent"
-        adm = 2
-        dip = 0
-        mil = 3
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Iralgos"
-        dynasty = "the Crafty"
-        adm = 1
-        dip = 5
-        mil = 5
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Egdagos"
-        dynasty = "the Virulent"
-        adm = 2
-        dip = 5
-        mil = 0
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Arzargos"
-        dynasty = "the Giant"
-        adm = 1
-        dip = 0
-        mil = 5
+        name = "Cyrrigos the Violent"
+        adm = 3
+        dip = 2
+        mil = 6
+        birth_date = 225.1.1
     }
 }

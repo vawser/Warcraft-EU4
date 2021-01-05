@@ -1,6 +1,6 @@
 technology_group = tech_titan
 government = theocracy
-add_government_reform = ancient_theocracy_reform
+add_government_reform = titan_facility_reform
 primary_culture = lifewarder
 religion = titan_worship
 
@@ -9,8 +9,7 @@ capital = 6378
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Brangird"
-        dynasty = "Stoneshaper"
+        name = "Brangird Stoneshaper"
         adm = 5
         dip = 4
         mil = 2

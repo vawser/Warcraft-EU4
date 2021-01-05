@@ -2,7 +2,7 @@ technology_group = tech_quillboar
 government = tribal
 add_government_reform = tribal_despotism_reform
 primary_culture = razormane
-religion = shamanism
+religion = geomancy
 
 capital = 5551
 

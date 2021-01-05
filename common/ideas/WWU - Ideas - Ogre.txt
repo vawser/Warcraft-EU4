@@ -9,22 +9,7 @@ ogre_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = DRD
-            tag = DUM
-            tag = GOR
-            tag = MOG
-            tag = BOU
-            tag = CRS
-            tag = DWO
-            tag = DBR
-            tag = FRG
-            tag = MSO
-            tag = SPF
-            tag = STM
-            tag = SGL
-            tag = TBC
-        }
+		culture_group = ogre_group
 	}
 	free = yes		
 	

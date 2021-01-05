@@ -392,21 +392,7 @@ pandaren_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = GSV
-            tag = DWB
-            tag = HDV
-            tag = PWD
-            tag = SRL
-            tag = TIA
-            tag = BIV
-            tag = MSP
-            tag = ONK
-            tag = YYV
-            tag = ZUC
-            tag = ZHU
-            tag = MSF
-        }
+		culture_group = pandaren_group
 	}
 	free = yes		
 	

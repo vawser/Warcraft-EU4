@@ -1,7 +1,7 @@
 technology_group = tech_green_dragonflight
-government = monarchy
+government = theocracy
 add_government_reform = dragonflight_brood_reform
-primary_culture = emerald_dragonshrine
+primary_culture = green_dragonflight
 religion = dragon_aspects
 
 capital = 6814

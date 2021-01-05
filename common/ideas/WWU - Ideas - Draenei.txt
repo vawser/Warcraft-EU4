@@ -10,11 +10,7 @@ draenei_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = EXO
-            tag = LSO
-            tag = POR
-        }
+		culture_group = draenei_group
 	}
 	free = yes		
 	

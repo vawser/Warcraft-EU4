@@ -10,13 +10,7 @@ centaur_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = GAL
-            tag = GEL
-            tag = MRA
-            tag = MUR
-            tag = KOL
-        }
+		culture_group = centaur_group
 	}
 	free = yes		
 	

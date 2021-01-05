@@ -1,0 +1,19 @@
+technology_group = tech_harpy
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = northspring
+religion = wind
+
+capital = 5275
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Cilani"
+        dynasty = "Springwind"
+        adm = 3
+        dip = 4
+        mil = 2
+        female = yes
+    }
+}

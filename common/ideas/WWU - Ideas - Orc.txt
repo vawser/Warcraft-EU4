@@ -47,16 +47,7 @@ orc_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = BLK
-            tag = BTG
-            tag = BLH
-            tag = TWH
-            tag = SRC
-            tag = DGM
-            tag = BBC
-            tag = TOH
-        }
+		culture_group = orc_group
 	}
 	free = yes		
 	

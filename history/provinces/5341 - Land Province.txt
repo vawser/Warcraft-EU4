@@ -8,7 +8,7 @@ base_tax = 2
 base_production = 4
 base_manpower = 3
 
-culture = dream_bough
+culture = green_dragonflight
 religion = dragon_aspects
 
 trade_goods = unknown

@@ -53,10 +53,6 @@ estate_nobility = {
 					is_old_god_religion = yes
 				}
 			}
-            OR = {
-                has_reform = ancient_kingdom_reform
-                has_reform = ancient_theocracy_reform
-            }
 		}
 	}
 

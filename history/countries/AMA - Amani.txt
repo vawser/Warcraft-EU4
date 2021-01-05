@@ -1,7 +1,7 @@
 technology_group = tech_forest_troll
 government = monarchy
-add_government_reform = autocracy_reform
-government_rank = 3
+add_government_reform = troll_kingdom_reform
+government_rank = 2
 primary_culture = amani
 religion = voodoo
 
@@ -10,54 +10,9 @@ capital = 4110
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Ko'mar"
-        dynasty = "the Enlightened"
+        name = "Ko'mar the Sly"
         adm = 4
         dip = 2
         mil = 4
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Tadaa"
-        dynasty = "the Smart"
-        adm = 5
-        dip = 4
-        mil = 3
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Katrak"
-        dynasty = "the Shrewd"
-        adm = 4
-        dip = 2
-        mil = 3
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Nislad"
-        dynasty = "the Kicker"
-        adm = 1
-        dip = 1
-        mil = 1
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Tokrak"
-        dynasty = "the Smasher"
-        adm = 3
-        dip = 3
-        mil = 0
     }
 }

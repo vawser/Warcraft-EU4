@@ -1,6 +1,6 @@
 technology_group = tech_qiraji
-government = monarchy
-add_government_reform = ancient_kingdom_reform
+government = theocracy
+add_government_reform = aqir_kingdom_reform
 government_rank = 10
 primary_culture = ahn_qiraj
 religion = cthun
@@ -15,8 +15,7 @@ add_country_modifier = {
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Ikthan"
-        dynasty = "the Immense"
+        name = "Ikthan the Immense"
         adm = 3
         dip = 1
         mil = 5

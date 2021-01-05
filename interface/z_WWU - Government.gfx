@@ -716,6 +716,46 @@ spriteTypes = {
 		texturefile = "gfx//interface//government_reform_icons//horde.dds"
 		loadType = "INGAME"
 	}
+    spriteType = {
+		name = "government_reform_troll_kingdom"
+		texturefile = "gfx//interface//government_reform_icons//troll_male.dds"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "government_reform_dwarven_clan"
+		texturefile = "gfx//interface//government_reform_icons//dwarf.dds"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "government_reform_titan_facility"
+		texturefile = "gfx//interface//government_reform_icons//archaedas.dds"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "government_reform_aqir_kingdom"
+		texturefile = "gfx//interface//government_reform_icons//aqir.dds"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "government_reform_nerubian_kingdom"
+		texturefile = "gfx//interface//government_reform_icons//nerubian.dds"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "government_reform_mantid_kingdom"
+		texturefile = "gfx//interface//government_reform_icons//mantid.dds"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "government_reform_tolvir_kingdom"
+		texturefile = "gfx//interface//government_reform_icons//tolvir_arena.dds"
+		loadType = "INGAME"
+	}
+    spriteType = {
+		name = "government_reform_satyr_sect"
+		texturefile = "gfx//interface//government_reform_icons//satyr.dds"
+		loadType = "INGAME"
+	}
     
     #
     # spriteType = {

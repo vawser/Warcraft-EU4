@@ -9,11 +9,7 @@ quillboar_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = BIS
-            tag = RAZ
-            tag = RAF
-        }
+		culture_group = quillboar_group
 	}
 	free = yes		
 	

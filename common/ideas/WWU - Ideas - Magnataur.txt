@@ -9,11 +9,7 @@ magnataur_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = MAG
-            tag = GAM
-            tag = GMM
-        }
+		culture_group = magnataur_group
 	}
 	free = yes		
 	

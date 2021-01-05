@@ -1,6 +1,6 @@
 technology_group = tech_zandalari_troll
 government = monarchy
-add_government_reform = autocracy_reform
+add_government_reform = troll_kingdom_reform
 government_rank = 3
 primary_culture = zandalari
 religion = voodoo
@@ -10,8 +10,7 @@ capital = 3710
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Rastakhan"
-        dynasty = "the Vicious"
+        name = "Rastakhan the Almighty"
         adm = 5
         dip = 5
         mil = 4

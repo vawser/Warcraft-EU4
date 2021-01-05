@@ -1,6 +1,7 @@
 technology_group = tech_frost_troll
-government = tribal
-add_government_reform = warband_reform
+government = monarchy
+add_government_reform = troll_kingdom_reform
+government_rank = 1
 primary_culture = winterfang
 religion = voodoo
 
@@ -9,54 +10,9 @@ capital = 6704
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Tulrabi"
-        dynasty = "the Puncher"
+        name = "Tulrabi the Puncher"
         adm = 1
         dip = 4
         mil = 4
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Marman"
-        dynasty = "the Violent"
-        adm = 3
-        dip = 3
-        mil = 2
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Galgree"
-        dynasty = "the Crafty"
-        adm = 3
-        dip = 0
-        mil = 1
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Zunbar"
-        dynasty = "the Massive"
-        adm = 2
-        dip = 3
-        mil = 5
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Rabilo"
-        dynasty = "the Inciter"
-        adm = 5
-        dip = 1
-        mil = 3
     }
 }

@@ -9,17 +9,7 @@ yaungol_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = BAT
-            tag = BUR
-            tag = ORD
-            tag = RUQ
-            tag = YON
-            tag = OSU
-            tag = DTK
-            tag = PAW
-            tag = GAI
-        }
+		culture_group = yaungol_group
 	}
 	free = yes		
 	

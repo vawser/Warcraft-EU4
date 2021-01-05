@@ -1,6 +1,7 @@
 technology_group = tech_jungle_troll
-government = tribal
-add_government_reform = tribal_despotism_reform
+government = monarchy
+add_government_reform = troll_kingdom_reform
+government_rank = 1
 primary_culture = shatterspear
 religion = voodoo
 
@@ -9,54 +10,9 @@ capital = 5846
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Longofon"
-        dynasty = "the Brawny"
+        name = "Longofon the Brawny"
         adm = 0
         dip = 1
         mil = 3
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Bar'man"
-        dynasty = "the Stalwart"
-        adm = 3
-        dip = 1
-        mil = 0
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Fon'run"
-        dynasty = "the Titanic"
-        adm = 0
-        dip = 5
-        mil = 0
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Juarrak"
-        dynasty = "the Frantic"
-        adm = 4
-        dip = 5
-        mil = 0
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Zol'Maz"
-        dynasty = "the Astute"
-        adm = 2
-        dip = 3
-        mil = 5
     }
 }

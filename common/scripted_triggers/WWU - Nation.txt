@@ -1,15 +1,9 @@
 is_civilized = {
     OR = {
         culture_group = azerothian_group
-        culture_group = gilnean_group
-        culture_group = kul_tiran_group
-        culture_group = arathi_group
-        culture_group = alteraci_group
-        culture_group = lordaeron_group
-        culture_group = arcane_group
+        culture_group = draenei_group
         culture_group = dwarf_group
         culture_group = high_elf_group
-        culture_group = blood_elf_group
         culture_group = nightborne_group
         culture_group = night_elf_group
         culture_group = pandaren_group
@@ -55,26 +49,6 @@ is_bug = {
         technology_group = tech_nerubian
         technology_group = tech_mantid
     }
-}
-
-is_ancient = {
-    OR = {
-		technology_group = tech_vrykul
-		technology_group = tech_titan
-        technology_group = tech_tolvir
-		technology_group = tech_qiraji
-		technology_group = tech_nerubian
-        technology_group = tech_mantid
-		technology_group = tech_red_dragonflight
-        technology_group = tech_green_dragonflight
-        technology_group = tech_black_dragonflight
-        technology_group = tech_blue_dragonflight
-        technology_group = tech_bronze_dragonflight
-		technology_group = tech_night_elf
-		technology_group = tech_draenei
-        technology_group = tech_broken
-		has_country_flag = is_custom_ancient
-	}
 }
 
 is_honorable = {

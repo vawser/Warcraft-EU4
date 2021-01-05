@@ -9,16 +9,7 @@ murloc_ideas = {
 	}
 	
 	trigger = {
-		OR = { 
-            tag = SIF
-            tag = BLU
-            tag = VIL
-            tag = SAL
-            tag = ROC
-            tag = REG
-            tag = WRF
-            tag = CHI
-        }
+		culture_group = murloc_group
 	}
 	free = yes		
 	

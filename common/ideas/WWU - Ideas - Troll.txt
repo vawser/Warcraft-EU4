@@ -85,15 +85,7 @@ forest_troll_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = SWP
-            tag = VLB
-            tag = RVT
-            tag = FRR
-            tag = WTR
-            tag = SLD
-            tag = SWN
-        }
+		culture_group = forest_troll_group
 	}
 	free = yes		
 	
@@ -207,12 +199,7 @@ jungle_troll_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = BLS
-            tag = STS
-            tag = SKS
-            tag = JEL
-        }
+		culture_group = jungle_troll_group
 	}
 	free = yes		
 	
@@ -288,7 +275,7 @@ SAN_ideas = {
 	}
 	
 	trigger = {
-		tag = SAN
+		culture_group = sand_troll_group
 	}
 	free = yes		
 	
@@ -364,11 +351,7 @@ frost_troll_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = FSM
-            tag = WTX
-            tag = WTF
-        }
+		culture_group = frost_troll_group
 	}
 	free = yes		
 	

@@ -9,18 +9,7 @@ gnoll_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = PAL
-            tag = MOS
-            tag = BKM
-            tag = DSN
-            tag = GRI
-            tag = MUD
-            tag = REP
-            tag = RRP
-            tag = SVH
-            tag = WOO
-        }
+		culture_group = gnoll_group
 	}
 	free = yes		
 	

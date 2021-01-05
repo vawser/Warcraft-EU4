@@ -9,10 +9,7 @@ pygmy_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = OOG
-            tag = OOM
-        }
+		culture_group = pygmy_group
 	}
 	free = yes		
 	

@@ -1,7 +1,7 @@
 technology_group = tech_naga
 government = monarchy
 add_government_reform = naga_domain_reform
-primary_culture = eye_of_azshara
+primary_culture = hatecoil
 religion = azshara
 
 capital = 3641

@@ -1,6 +1,7 @@
 technology_group = tech_jungle_troll
-government = tribal
-add_government_reform = tribal_despotism_reform
+government = monarchy
+add_government_reform = troll_kingdom_reform
+government_rank = 1
 primary_culture = skullsplitter
 religion = voodoo
 
@@ -9,8 +10,7 @@ capital = 2894
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Runlo"
-        dynasty = "the Sage"
+        name = "Runlo the Sage"
         adm = 4
         dip = 1
         mil = 5

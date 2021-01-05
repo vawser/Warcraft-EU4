@@ -1,6 +1,7 @@
 technology_group = tech_forest_troll
-government = tribal
-add_government_reform = tribal_despotism_reform
+government = monarchy
+add_government_reform = troll_kingdom_reform
+government_rank = 1
 primary_culture = smolderthorn
 religion = voodoo
 
@@ -9,54 +10,9 @@ capital = 3198
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Tiju"
-        dynasty = "the Wary"
+        name = "Tiju the Wary"
         adm = 0
         dip = 5
         mil = 4
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Hawinni"
-        dynasty = "the Mighty"
-        adm = 1
-        dip = 2
-        mil = 3
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Rennrak"
-        dynasty = "the Gutsy"
-        adm = 4
-        dip = 1
-        mil = 5
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Ranmoo"
-        dynasty = "the Inciter"
-        adm = 5
-        dip = 4
-        mil = 4
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Gashmoo"
-        dynasty = "the Frenzied"
-        adm = 3
-        dip = 5
-        mil = 0
     }
 }

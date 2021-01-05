@@ -9,14 +9,7 @@ harpy_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = BFY
-            tag = COL
-            tag = DUS
-            tag = WFY
-            tag = WIW
-            tag = CIL
-        }
+		culture_group = harpy_group
 	}
 	free = yes		
 	

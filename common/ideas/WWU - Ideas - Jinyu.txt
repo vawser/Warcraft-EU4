@@ -9,11 +9,7 @@ jinyu_ideas = {
 	}
 	
 	trigger = {
-        OR = {
-            tag = PEA
-            tag = INK
-            tag = FAL
-        }
+        culture_group = jinyu_group
 	}
 	free = yes		
 	

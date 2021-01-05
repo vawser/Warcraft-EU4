@@ -9,12 +9,7 @@ trogg_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = SVT
-            tag = GVF
-            tag = RJW
-            tag = SPI
-        }
+		culture_group = trogg_group
 	}
 	free = yes		
 	

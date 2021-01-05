@@ -47,14 +47,7 @@ vrykul_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = DGF
-            tag = WTO
-            tag = SKA
-            tag = YMI
-            tag = HYL
-            tag = JOT
-        }
+		culture_group = vrykul_group
 	}
 	free = yes		
 	

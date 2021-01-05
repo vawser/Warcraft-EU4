@@ -1,7 +1,7 @@
 technology_group = tech_jungle_troll
 government = monarchy
-add_government_reform = autocracy_reform
-government_rank = 3
+add_government_reform = troll_kingdom_reform
+government_rank = 2
 primary_culture = gurubashi
 religion = voodoo
 
@@ -10,54 +10,9 @@ capital = 2913
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Rabitok"
-        dynasty = "the Throatslicer"
-        adm = 0
-        dip = 1
-        mil = 0
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Kovex"
-        dynasty = "the Insane"
-        adm = 5
-        dip = 5
-        mil = 2
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Ralgash"
-        dynasty = "the Brawny"
-        adm = 0
-        dip = 3
-        mil = 4
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Longochu"
-        dynasty = "the Smart"
+        name = "Rabitok the Bloodthirsty"
         adm = 4
-        dip = 0
-        mil = 5
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Katrak"
-        dynasty = "the Perceptive"
-        adm = 3
-        dip = 2
-        mil = 1
+        dip = 5
+        mil = 6
     }
 }

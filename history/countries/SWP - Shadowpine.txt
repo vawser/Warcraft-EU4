@@ -1,6 +1,7 @@
 technology_group = tech_forest_troll
-government = tribal
-add_government_reform = tribal_despotism_reform
+government = monarchy
+add_government_reform = troll_kingdom_reform
+government_rank = 1
 primary_culture = shadowpine
 religion = voodoo
 
@@ -9,54 +10,9 @@ capital = 4066
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Mojinrabi"
-        dynasty = "the Powerful"
+        name = "Mojinrabi the Powerful"
         adm = 1
         dip = 3
         mil = 4
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Ongogash"
-        dynasty = "the Kicker"
-        adm = 3
-        dip = 1
-        mil = 1
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Manzim"
-        dynasty = "the Coy"
-        adm = 5
-        dip = 0
-        mil = 2
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Azkrag"
-        dynasty = "the Ripper"
-        adm = 0
-        dip = 4
-        mil = 3
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Tonga'chu"
-        dynasty = "the Frenzied"
-        adm = 3
-        dip = 5
-        mil = 3
     }
 }

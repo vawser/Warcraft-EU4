@@ -9,13 +9,7 @@ sprite_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = RIK
-            tag = PKH
-            tag = DKW
-            tag = SOF
-            tag = TLF
-        }
+		culture_group = spriteling_group
 	}
 	free = yes		
 	

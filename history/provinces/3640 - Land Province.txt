@@ -8,7 +8,7 @@ base_tax = 4
 base_production = 3
 base_manpower = 3
 
-culture = eye_of_azshara
+culture = hatecoil
 religion = azshara
 
 trade_goods = unknown

@@ -13,13 +13,12 @@ technology = {
 	
 	autocracy_legacy = yes
     feudalism_legacy = yes
-    ancient_kingdom_legacy = yes
     scourge_legacy = yes
     admiralty_legacy = yes
     kingdom_of_magic_legacy = yes
     naga_domain_legacy = yes
     scourge_domain_legacy = yes
-    dragonflight_brood_legacy = yes
+    troll_kingdom_legacy = yes
         
     noble_republic_legacy = yes
     mercantile_republic_legacy = yes
@@ -32,16 +31,23 @@ technology = {
     
     theocracy_legacy = yes
     monastic_order_legacy = yes
-    ancient_theocracy_legacy = yes
     demonic_order_legacy = yes
     druidic_circle_legacy = yes
     elemental_cult_legacy = yes
-    shadow_cult_legacy = yes
-    
-    orcish_horde_legacy = yes
+    dragonflight_brood_legacy = yes
+    titan_facility_legacy = yes
+    cult_of_hakkar_legacy = yes
+    tolvir_kingdom_legacy = yes
+    aqir_kingdom_legacy = yes
+    nerubian_kingdom_legacy = yes
+    mantid_kingdom_legacy = yes
+        
     warband_legacy = yes
     tribal_federation_legacy = yes
     tribal_despotism_legacy = yes
+    orcish_horde_legacy = yes
+    dwarven_clan_legacy = yes
+    satyr_sect_legacy = yes
     
     native_tribe_legacy = yes
     
@@ -78,7 +84,7 @@ technology = {
 	# Tech 2
 	year = 604
 
-	governing_capacity = 50
+	allowed_idea_groups = 1
 }
 
 technology = {
@@ -92,14 +98,14 @@ technology = {
 	# Tech 4
 	year = 628
 
-	allowed_idea_groups = 1
+	governing_capacity = 50
 }
 
 technology = {
 	# Tech 5
 	year = 640
 
-	governing_capacity = 50
+	allowed_idea_groups = 2
 }
 
 technology = {
@@ -121,7 +127,7 @@ technology = {
 	# Tech 8
 	year = 676
 
-	allowed_idea_groups = 2
+	governing_capacity = 50
 }
 
 technology = {

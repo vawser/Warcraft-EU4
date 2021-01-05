@@ -9,16 +9,7 @@ kobold_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = GRV
-            tag = WIS
-            tag = BWX
-            tag = GOG
-            tag = DRY
-            tag = SKW
-            tag = TNR
-            tag = WWK
-        }
+		culture_group = kobold_group
 	}
 	free = yes		
 	

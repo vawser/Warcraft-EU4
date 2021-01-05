@@ -372,7 +372,7 @@ country_event = {
     trigger = {
         culture_group = centaur_group
         any_country = {
-            culture_group = kalimdor_tauren_group
+            culture_group = tauren_group
             war_with = PREV
         }
 	}

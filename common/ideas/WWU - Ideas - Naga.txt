@@ -9,20 +9,7 @@ naga_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = RIP
-            tag = FAT
-            tag = EYE
-            tag = BOC
-            tag = DGS
-            tag = HTC
-            tag = SLB
-            tag = SPL
-            tag = SMC
-            tag = SHZ
-            tag = WRS
-            tag = WRT
-        }
+		culture_group = naga_group
 	}
 	free = yes		
 	

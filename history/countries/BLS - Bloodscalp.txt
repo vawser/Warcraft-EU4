@@ -1,6 +1,7 @@
 technology_group = tech_jungle_troll
-government = tribal
-add_government_reform = tribal_despotism_reform
+government = monarchy
+add_government_reform = troll_kingdom_reform
+government_rank = 1
 primary_culture = bloodscalp
 religion = voodoo
 
@@ -9,54 +10,9 @@ capital = 2936
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Dujin"
-        dynasty = "the Sharp"
+        name = "Dujin the Sharp"
         adm = 4
         dip = 1
-        mil = 1
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Ranjai"
-        dynasty = "the Keen"
-        adm = 5
-        dip = 3
-        mil = 0
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Sladzun"
-        dynasty = "the Mighty"
-        adm = 2
-        dip = 0
-        mil = 5
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Manmojin"
-        dynasty = "the Mammoth"
-        adm = 0
-        dip = 4
-        mil = 1
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Hormark"
-        dynasty = "the Crafty"
-        adm = 3
-        dip = 4
-        mil = 5
+        mil = 4
     }
 }

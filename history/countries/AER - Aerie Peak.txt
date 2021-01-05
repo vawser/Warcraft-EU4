@@ -1,6 +1,6 @@
 technology_group = tech_hill_dwarf
 government = tribal
-add_government_reform = tribal_federation_reform
+add_government_reform = dwarven_clan_reform
 government_rank = 2
 primary_culture = aerie_peak
 religion = shamanism

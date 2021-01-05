@@ -9,11 +9,7 @@ taunka_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = ICE
-            tag = ASH
-            tag = WTG
-        }
+		culture_group = taunka_group
 	}
 	free = yes		
 	

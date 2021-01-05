@@ -1,7 +1,7 @@
 technology_group = tech_blue_dragonflight
-government = monarchy
+government = theocracy
 add_government_reform = dragonflight_brood_reform
-primary_culture = the_nexus
+primary_culture = blue_dragonflight
 religion = dragon_aspects
 
 capital = 6105

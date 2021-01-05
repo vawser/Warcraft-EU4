@@ -1,7 +1,7 @@
 technology_group = tech_red_dragonflight
-government = monarchy
+government = theocracy
 add_government_reform = dragonflight_brood_reform
-primary_culture = grim_batol
+primary_culture = red_dragonflight
 religion = dragon_aspects
 
 capital = 1785

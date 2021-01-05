@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 79
-native_ferocity = 8
-native_hostileness = 9
+is_city = yes
+owner = DPS
+controller = DPS
+add_core = DPS
 
 base_tax = 1
 base_production = 4
 base_manpower = 2
 
-culture = demonic
-religion = fel
+culture = deepsurge
+religion = azshara
 
 trade_goods = unknown
 hre = no

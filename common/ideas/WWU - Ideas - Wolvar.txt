@@ -9,13 +9,7 @@ wolvar_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = BLP
-            tag = FZY
-            tag = HWG
-            tag = RGC
-            tag = SNF
-        }
+		culture_group = wolvar_group
 	}
 	free = yes		
 	

@@ -110,11 +110,7 @@ wwu_elvish_nobles_reform = {
 	allow_normal_conversion = yes
     
 	potential = {
-		OR = {
-            culture_group = high_elf_group
-            culture_group = blood_elf_group
-            culture_group = void_elf_group
-        }
+		culture_group = high_elf_group
 	}
     
 	modifiers = {
@@ -325,11 +321,7 @@ wwu_dwarven_culture_reform = {
 	allow_normal_conversion = yes
     
 	potential = {
-		OR = {
-            culture_group = dwarf_group
-            culture_group = hill_dwarf_group
-            culture_group = dark_iron_dwarf_group
-        }
+		culture_group = dwarf_group
 	}
     
 	modifiers = {
@@ -346,10 +338,7 @@ wwu_formalized_hoof_reform = {
 	allow_normal_conversion = yes
     
 	potential = {
-		OR = {
-            culture_group = kalimdor_tauren_group
-            culture_group = highmountain_tauren_group
-        }
+		culture_group = tauren_group
 	}
     
 	modifiers = {

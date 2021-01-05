@@ -1,7 +1,7 @@
 technology_group = tech_black_dragonflight
-government = monarchy
+government = theocracy
 add_government_reform = dragonflight_brood_reform
-primary_culture = wyrmbog
+primary_culture = black_dragonflight
 religion = dragon_aspects
 
 capital = 4863

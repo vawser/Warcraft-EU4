@@ -1,6 +1,6 @@
 technology_group = tech_earthen
 government = theocracy
-add_government_reform = ancient_theocracy_reform
+add_government_reform = titan_facility_reform
 primary_culture = uldaman
 religion = titan_worship
 
@@ -9,13 +9,11 @@ capital = 3207
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Archaedas"
-        dynasty = "the Wise"
+        name = "Archaedas the Wise"
 		adm = 3
 		dip = 3
 		mil = 3 
-        birth_date = -1684.1.1
-        death_date = 2816.1.1
+        birth_date = 20.1.1
     }
 }
 

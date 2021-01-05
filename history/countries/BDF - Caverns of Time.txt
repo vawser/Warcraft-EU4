@@ -1,7 +1,7 @@
 technology_group = tech_bronze_dragonflight
 government = theocracy
 add_government_reform = dragonflight_brood_reform
-primary_culture = caverns_of_time
+primary_culture = bronze_dragonflight
 religion = dragon_aspects
 
 capital = 5133

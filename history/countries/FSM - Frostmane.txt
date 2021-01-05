@@ -1,6 +1,7 @@
 technology_group = tech_frost_troll
 government = monarchy
-add_government_reform = autocracy_reform
+add_government_reform = troll_kingdom_reform
+government_rank = 1
 primary_culture = frostmane
 religion = voodoo
 
@@ -9,54 +10,9 @@ capital = 3289
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Mojin'zul"
-        dynasty = "the Sapient"
+        name = "Mojin'zul the Sapient"
         adm = 4
         dip = 5
         mil = 4
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Tokrak"
-        dynasty = "the Stalwart"
-        adm = 2
-        dip = 1
-        mil = 4
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Tichu"
-        dynasty = "the Crazed"
-        adm = 2
-        dip = 1
-        mil = 0
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Azmoz"
-        dynasty = "the Mammoth"
-        adm = 5
-        dip = 1
-        mil = 5
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Ongo'bo"
-        dynasty = "the Ripper"
-        adm = 2
-        dip = 0
-        mil = 2
     }
 }

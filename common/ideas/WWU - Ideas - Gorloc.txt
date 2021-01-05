@@ -9,12 +9,7 @@ gorloc_ideas = {
 	}
 	
 	trigger = {
-		OR = { 
-            tag = MSW
-            tag = RAI
-            tag = MWK
-            tag = SPK
-        }
+		culture_group = gorloc_group
 	}
 	free = yes		
 	

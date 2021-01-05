@@ -2695,20 +2695,8 @@ guiTypes = {
 			windowType = {
 				name = "investment_offset"
 				backGround=""
-				position = { x=12 y=419 }
-				if_resolution = {
-					max_height = 800
-					size= { x=458 y=150 }
-				}
-				if_resolution = {
-					max_height = 1047
-					min_height = 801
-					size = { x=458 y=230}
-				}
-				if_resolution = {
-					min_height = 1048
-					size = { x=458 y=240}
-				}
+				position = { x=500 y=0 }
+				size = { x=800 y=800}
 				dontRender = ""
 				horizontalBorder= ""
 				verticalBorder= ""

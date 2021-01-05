@@ -9,21 +9,7 @@ mogu_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = MOH
-            tag = GOM
-            tag = DOJ
-            tag = SAZ
-            tag = SHO
-            tag = GTH
-            tag = HRT
-            tag = KGH
-            tag = KAO
-            tag = KRJ
-            tag = KRN
-            tag = KRS
-            tag = JIT
-        }
+		culture_group = mogu_group
 	}
 	free = yes		
 	

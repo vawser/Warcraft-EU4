@@ -1,19 +1,19 @@
 technology_group = tech_red_dragonflight
-government = monarchy
+government = theocracy
 add_government_reform = dragonflight_brood_reform
-primary_culture = wyrmrest_temple
+primary_culture = red_dragonflight
 religion = dragon_aspects
 
 capital = 7090
 
-# The First War
+# The Orcish Horde
 592.1.1 = {
     monarch = {
-        name = "Alexstrasza"
-        dynasty = "the Life-Binder"
+        name = "Alexstrasza the Life-binder"
         adm = 4
         dip = 5
         mil = 3
+        birth_date = 20.1.1
         female = yes
     }
 }

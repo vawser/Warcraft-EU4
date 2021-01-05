@@ -47,6 +47,8 @@ GEL = "countries/Gelkis.txt"        # Desolace
 MRA = "countries/Magram.txt"        # Desolace
 MUR = "countries/Mauraudine.txt"    # Desolace
 KOL = "countries/Kolkar.txt"        # Desolace
+KRK = "countries/Krenka.txt"
+MLG = "countries/Malgen.txt"
 
 # ---- Draenei ----
 EXO = "countries/Exodar.txt"            # Azuremyst Isle
@@ -152,7 +154,9 @@ DUS = "countries/Dustwind.txt"        # Durotar
 WFY = "countries/Windfury.txt"        # Mulgore
 WIW = "countries/Witchwing.txt"       # Dry Hills, Barrens  
 CIL = "countries/Chillwing.txt"       
-       
+NTS = "countries/Northspring.txt"
+FFT = "countries/Frostfeather.txt"
+
 # ---- Hozen ----
 GRO = "countries/Grookin.txt" 
 OON = "countries/Oona.txt"
@@ -175,6 +179,7 @@ DRY = "countries/Drywhisker.txt"     # Arathi Highlands
 SKW = "countries/Skywhisker.txt"     # Highmountain
 TNR = "countries/Tunnel Rat.txt"     # Loch Modan
 WWK = "countries/Whitewhisker.txt"   # Alterac Valley
+SWK = "countries/Slatewhisker.txt"
 
 # ---- Magnataur ----
 MAG = "countries/Magmoth.txt"       # Borean Tundra
@@ -222,6 +227,8 @@ SMC = "countries/Stormscale.txt"       # Darkshore
 SHZ = "countries/Strashaz.txt"         # Strashaz
 WRS = "countries/Wrathscale.txt"       # Azuremyst / Bloodmyst Isle
 WRT = "countries/Wrathtail.txt"        # Ashenvale
+DPS = "countries/Deepsurge.txt"
+SPT = "countries/Spitescale.txt"
 
 # ---- Ogre ----
 DRD = "countries/Dreadmaul.txt"    # Blasted Lands
@@ -293,6 +300,7 @@ HAL = "countries/Haldarr.txt"         # West Azshara
 JAD = "countries/Jadefire.txt"        # Felwood
 AXX = "countries/Axxarian.txt"        # Bloodmyst Isle
 WDP = "countries/Wildspawn.txt"       # Dire Maul
+DHT = "countries/Darkheart.txt"
 
 # ---- Saurok  ----
 GLI = "countries/Glintrok.txt"      # Jade Forest

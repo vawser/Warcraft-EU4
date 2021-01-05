@@ -1,6 +1,6 @@
 technology_group = tech_mantid
-government = monarchy
-add_government_reform = ancient_kingdom_reform
+government = theocracy
+add_government_reform = mantid_kingdom_reform
 government_rank = 10
 primary_culture = mantid
 religion = yshaarj
@@ -15,8 +15,7 @@ add_country_modifier = {
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Shek'zeer"
-        dynasty = "the Almight"
+        name = "Shek'zeer the Almighty"
         adm = 5
         dip = 1
         mil = 6

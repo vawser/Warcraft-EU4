@@ -1,6 +1,6 @@
 technology_group = tech_tolvir
-government = monarchy
-add_government_reform = ancient_kingdom_reform
+government = theocracy
+add_government_reform = tolvir_kingdom_reform
 government_rank = 2
 primary_culture = neferset
 religion = titan_worship
@@ -10,54 +10,9 @@ capital = 4883
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Baahn"
-        dynasty = "the Maniac"
-        adm = 0
-        dip = 3
-        mil = 0
-    }
-}
-
-# Second War
-596.1.1 = {
-    monarch = {
-        name = "Anuret"
-        dynasty = "the Stout"
+        name = "Tekahn the Maniac"
         adm = 3
         dip = 3
-        mil = 5
-    }
-}
-
-# Invasion of Draenor
-600.1.1 = {
-    monarch = {
-        name = "Ninjris"
-        dynasty = "the Powerful"
-        adm = 0
-        dip = 2
-        mil = 0
-    }
-}
-
-# War of the Spider
-605.1.1 = {
-    monarch = {
-        name = "Baesh"
-        dynasty = "the Sharp"
-        adm = 5
-        dip = 1
-        mil = 1
-    }
-}
-
-# Third War
-612.1.1 = {
-    monarch = {
-        name = "Tekris"
-        dynasty = "the Tough"
-        adm = 2
-        dip = 5
-        mil = 3
+        mil = 6
     }
 }

@@ -47,15 +47,7 @@ night_elf_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = SEN
-            tag = CEN
-            tag = CEX
-            tag = VAL
-            tag = SEA
-            tag = SDS
-            tag = SFR
-        }
+		culture_group = night_elf_group
 	}
 	free = yes		
 	

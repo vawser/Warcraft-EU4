@@ -9,15 +9,7 @@ satyr_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = LEG
-            tag = NAZ
-            tag = XAV
-            tag = HAL
-            tag = JAD
-            tag = AXX
-            tag = WDP
-        }
+		culture_group = satyr_group
 	}
 	free = yes		
 	

@@ -9,35 +9,21 @@
  westfall: "Westfall"
  redridge: "Redridge"
  azerothian: "Azerothian"     
-
- criminal_group: "Criminal"
  bloodsail: "Bloodsail"
  southsea_freebooter: "Southsea Freebooter"
  wastewander: "Wastewander"
- 
- gilnean_group: "Gilnean"
  gilnean: "Gilneas"
- 
- kul_tiran_group: "Kul Tirasian"
  kul_tiras: "Kul Tiras"
  theramore: "Theramore"
- 
- arathi_group: "Arathi"
  stromgarde: "Stromgarde"
  tol_barad: "Tol Barad"
  arathi: "Arathi"               
- 
- alteraci_group: "Alteraci"
  alterac: "Alterac" 
  alteraci: "Alteraci"           
- 
- lordaeron_group: "Lordaeron"
  andorhal: "Andorhal"
  southshore: "Southshore"
  stratholme: "Stratholme"
  lordaeron: "Lordaeron"   
- 
- arcane_group: "Arcaneum"
  dalaran: "Dalaran"
  karazhan: "Karazhan"
 
@@ -88,31 +74,11 @@
  #--------------------------------
  # Dragon Aspects
  #--------------------------------
- red_dragonflight_group: "Red Dragonflight"
- wyrmrest_temple: "Wyremrest Temple"
- grim_batol: "Grim Batol"
+ dragonflight_group: "Dragonflights"
  red_dragonflight: "Red Dragonflight"
- 
- green_dragonflight_group: "Green Dragonflight"
- twilight_grove: "Twilight Grove"
- seradane: "Seradane"
- emerald_dragonshrine: "Emerald Dragonshrine"
- dream_bough: "Dream Bough"
  green_dragonflight: "Green Dragonflight"
-
- black_dragonflight_group: "Black Dragonflight"
- obsidian_dragonshrine: "Obsidian Dragonshrine"
- wyrmbog: "Wyrmbog"
  black_dragonflight: "Black Dragonflight"
- 
- blue_dragonflight_group: "Blue Dragonflight"
- the_nexus: "The Nexus"
- azure_dragonshrine: "Azure Dragonshrine"
- azurewing: "Azurewing"
  blue_dragonflight: "Blue Dragonflight"
- 
- bronze_dragonflight_group: "Bronze Dragonflight"
- caverns_of_time: "Caverns of Time"
  bronze_dragonflight: "Bronze Dragonflight"
 
  #--------------------------------
@@ -124,10 +90,7 @@
  dark_iron: "Dark Iron"
  aerie_peak: "Aerie Peak"
  dwarf: "Dwarf"
- hill_dwarf: "Hill Dwarf"
- 
- hill_dwarf_group: "Hill Dwarf"
- dark_iron_dwarf_group: "Dark Iron Dwarf"
+ frostborn: "Frostborn"
 
  #--------------------------------
  # Dryad
@@ -149,25 +112,17 @@
  #--------------------------------
  earthen_group: "Earthen"
  thor_modan: "Thor Modan"
- frostborn: "Frostborn"
  uldaman: "Uldaman"
  earthen: "Earthen"
- frostborn_group: "Frostborn"
+ ulduar: "Ulduar"
  
  #--------------------------------
  # High Elf
  #--------------------------------
- high_elf_group: "High Elf"
+ high_elf_group: "Thalassian"
  quelthalas: "Quel'Thalas"
  high_elf: "High Elf"
  blood_elf: "Blood Elf"
- felblood: "Felblood"
- void_elf: "Void Elf"
- wretched: "Wretched"
- wretched_group: "Wretched"
- void_elf_group: "Void Elf"
- felblood_group: "Felblood"
- blood_elf_group: "Blood Elf"
  
  #--------------------------------
  # Nightborne
@@ -175,17 +130,11 @@
  nightborne_group: "Nightborne"
  suramar: "Suramar"
  nightborne: "Nightborne"
- faldorei: "Fal'dorei"
- nightfallen: "Nightfallen"
- felborne: "Felborne"
- faldorei_group: "Fal'dorei"
- nightfallen_group: "Nightfallen"
- felborne_group: "Felborne"
  
  #--------------------------------
  # Night Elf
  #--------------------------------
- night_elf_group: "Night Elf"
+ night_elf_group: "Darnassian"
  darnassus: "Darnassus"
  sentinels_of_hyjal: "Sentinels of Hyjal"
  moonglade: "Moonglade"
@@ -357,7 +306,7 @@
  naga_group: "Naga"
  riplash: "Riplash"
  blackfathom: "Blackfathom"
- eye_of_azshara: "Eye of Azshara"
+ hatecoil: "Hatecoil"
  bloodcursed: "Bloodcursed"
  daggerspine: "Daggerspine"
  hatecrest: "Hatecrest"
@@ -504,7 +453,7 @@
  #--------------------------------
  # Tauren
  #--------------------------------
- kalimdor_tauren_group: "Tauren"
+ tauren_group: "Tauren"
  cliffwalker: "Cliffwalker"
  grimtotem: "Grimtotem"
  runetotem: "Runetotem"
@@ -526,8 +475,6 @@
  windtotem: "Windtotem"
  younghoof: "Younghoof"
  tauren: "Tauren"
- 
- highmountain_tauren_group: "Highmountain Tauren"
  highmountain: "Highmountain"
  bloodtotem: "Bloodtotem"
  ironhorn: "Ironhorn"
@@ -643,8 +590,6 @@
  vrykul: "Vrykul"
  frost_vrykul: "Frost Vrykul"
  kvaldir: "Kvaldir"
- kvaldir_group: "Kvaldir"
- frost_vrykul_group: "Frost Vrykul"
  
  #--------------------------------
  # Wolvar
@@ -673,12 +618,6 @@
  yaungol: "Yaungol"
  
  #--------------------------------
- # Faceless Ones
- #--------------------------------
- nraqi_group: "N'raqi"
- nraqi: "N'raqi"
- 
- #--------------------------------
  # Void
  #--------------------------------
  void_group: "Void"
@@ -687,10 +626,12 @@
  #--------------------------------
  # Giant
  #--------------------------------
- ulduar_giant_group: "Ulduar Giant"
- ulduar: "Ulduar"
+ mountain_giant_group: "Mountain Giant"
+ mountain_giant: "Mountain Giant"
+ 
  sea_giant_group: "Sea Giant"
  sea_giant: "Sea Giant"
+ 
  frost_giant_group: "Frost Giant"
  frost_giant: "Frost Giant"
  
@@ -711,22 +652,7 @@
  #--------------------------------
  fungarian_group: "Fungarian"
  fungarian: "Fungarian"
- 
- #--------------------------------
- # Botani
- #--------------------------------
- botani_group: "Botani"
- botani: "Botani"
- 
- podling_group: "Podling"
- podling: "Podling"
- 
- #--------------------------------
- # Arrakoa
- #--------------------------------
- arrakoa_group: "Arakkoa"
- arrakoa: "Arakkoa"
- 
+
  #--------------------------------
  # Ethereal
  #--------------------------------
@@ -738,31 +664,13 @@
  #--------------------------------
  sethrak_group: "Sethrak"
  sethrak: "Sethrak"
- 
- #--------------------------------
- # Sporeling
- #--------------------------------
- sporeling_group: "Sporeling"
- sporeling: "Sporeling"
- 
- #--------------------------------
- # Saberon
- #--------------------------------
- saberon_group: "Saberon"
- saberon: "Saberon"
- 
+
  #--------------------------------
  # Tortollan
  #--------------------------------
  tortollan_group: "Tortollan"
  tortollan: "Tortollan"
- 
- #--------------------------------
- # Virmen
- #--------------------------------
- virmen_group: "Virmen"
- virmen: "Virmen"
- 
+
  #--------------------------------
  # Vulpera
  #--------------------------------

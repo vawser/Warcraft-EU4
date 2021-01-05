@@ -307,94 +307,7 @@ KAZ_ideas = {
 	}
 }
 
-# Human
-human_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		OR = {
-            tag = ANO
-            tag = BRI
-            tag = DAR
-            tag = RED
-            tag = SOU
-            tag = STR
-            tag = TOL
-            tag = WES
-            tag = TRM
-            tag = KSH
-        }
-	}
-	free = yes		
-	
-	human_ideas_1 = {
-		
-	}
-	human_ideas_2 = {
-		
-	}
-	human_ideas_3 = {
-		
-	}
-	human_ideas_4 = {
-		
-	}
-	human_ideas_5 = {
-		
-	}
-	human_ideas_6 = {
-		
-	}
-	human_ideas_7 = {
-		
-	}
-}
-
-# Bloodsail
-BLO_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = BLO
-	}
-	free = yes		
-	
-	BLO_ideas_1 = {
-		
-	}
-	BLO_ideas_2 = {
-		
-	}
-	BLO_ideas_3 = {
-		
-	}
-	BLO_ideas_4 = {
-		
-	}
-	BLO_ideas_5 = {
-		
-	}
-	BLO_ideas_6 = {
-		
-	}
-	BLO_ideas_7 = {
-		
-	}
-}
-
-# Wastewander
+# Pirate
 pirate_ideas = {
 	start = {
 		
@@ -406,6 +319,7 @@ pirate_ideas = {
 	
 	trigger = {
 		OR = {
+            tag = BLO
             tag = SSP
             tag = WWP
         }
@@ -431,6 +345,45 @@ pirate_ideas = {
 		
 	}
 	pirate_ideas_7 = {
+		
+	}
+}
+
+
+# Human
+human_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		culture_group = azerothian_group
+	}
+	free = yes		
+	
+	human_ideas_1 = {
+		
+	}
+	human_ideas_2 = {
+		
+	}
+	human_ideas_3 = {
+		
+	}
+	human_ideas_4 = {
+		
+	}
+	human_ideas_5 = {
+		
+	}
+	human_ideas_6 = {
+		
+	}
+	human_ideas_7 = {
 		
 	}
 }

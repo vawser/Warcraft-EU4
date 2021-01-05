@@ -1,6 +1,6 @@
 technology_group = tech_jungle_troll
 government = theocracy
-add_government_reform = theocracy_reform
+add_government_reform = cult_of_hakkar_reform
 primary_culture = atalai
 religion = hakkari
 

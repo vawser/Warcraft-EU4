@@ -27,12 +27,6 @@ estate_traders = {
             is_lesser = yes
         }
     }
-    custom_name = {
-        desc = estate_traders_ancients
-        trigger = {
-            is_ancient = yes
-        }
-    }
     
 	# ----- Conditions -----
 	trigger = {

@@ -9,25 +9,7 @@ furbolg_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = TIM
-            tag = STP
-            tag = WTA
-            tag = FTP
-            tag = RDF
-            tag = THS
-            tag = BMW
-            tag = BOH
-            tag = BMB
-            tag = DDW
-            tag = FWD
-            tag = BKF
-            tag = GRZ
-            tag = BPC
-            tag = RVP
-            tag = ROT
-            tag = SDW
-        }
+		culture_group = furbolg_group
 	}
 	free = yes		
 	

@@ -1,6 +1,6 @@
 technology_group = tech_nerubian
-government = monarchy
-add_government_reform = ancient_kingdom_reform
+government = theocracy
+add_government_reform = nerubian_kingdom_reform
 government_rank = 8
 primary_culture = azjol_nerub
 religion = yogg_saron
@@ -15,8 +15,7 @@ add_country_modifier = {
 # The First War
 592.1.1 = {
     monarch = {
-        name = "Kil'zek"
-        dynasty = "the Shrewd"
+        name = "Kil'zek the Shrewd"
         adm = 6
         dip = 4
         mil = 5

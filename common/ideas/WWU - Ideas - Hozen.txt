@@ -9,14 +9,7 @@ hozen_ideas = {
 	}
 	
 	trigger = {
-		OR = {
-            tag = GRO
-            tag = OON
-            tag = NRN
-            tag = BRT
-            tag = OOK
-            tag = KKT
-         }
+		culture_group = hozen_group
 	}
 	free = yes		
 	
