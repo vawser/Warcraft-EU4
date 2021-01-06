@@ -624,7 +624,7 @@ wow_manufactory = {
 
 wow_arcane_tower = {
 	manufactory = {
-		artifacts
+		wwu_artifacts
 	}
     
 	modifier = {

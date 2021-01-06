@@ -4,8 +4,8 @@ namespace = internal_conflicts
 # Internal Conflicts
 country_event = {
 	id = internal_conflicts.1
-	title = "EVTNAMEHR01"
-	desc = "EVTDESHOR01"
+	title = "EVTNAME3001"
+	desc = "EVTDESC3001"
 	picture = PLAGUE_eventPicture
 
 	major = yes
@@ -45,8 +45,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA3001"
-		
+		name = "EVTOPTA3001" # Dire times are ahead of us
 		
 	}
 }
@@ -54,8 +53,8 @@ country_event = {
 # Religious struggles
 country_event = {
 	id = internal_conflicts.2
-	title = "EVTNAMEHR02"
-	desc = "EVTDESHOR02"
+	title = "EVTNAME3002"
+	desc = "EVTDESC3002"
 	picture = RELIGION_eventPicture
 	
 	trigger = {
@@ -74,8 +73,7 @@ country_event = {
 		days = 1
 	}
 	option = {
-		name = "EVTOPTA3002"
-		
+		name = "EVTOPTA3002"			# One nation, one belief!
 		add_dip_power = -50
 		add_country_modifier = {
 			name = "religious_intolerance"
@@ -83,8 +81,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTB3002"
-		
+		name = "EVTOPTB3002"			# Tolerate all beliefs
 		add_adm_power = -50
 		add_country_modifier = {
 			name = "religious_tolerance"
@@ -96,8 +93,8 @@ country_event = {
 # National instability
 country_event = {
 	id = internal_conflicts.3
-	title = "EVTNAMEHR03"
-	desc = "EVTDESHOR03"
+	title = "EVTNAME3003"
+	desc = "EVTDESC3003"
 	picture = ANGRY_MOB_eventPicture
 
 	trigger = {
@@ -114,16 +111,14 @@ country_event = {
 	
 	
 	option = {
-		name = "EVTOPTA3003"
-		
+		name = "EVTOPTA3003"			# The war is our main concern
 		every_owned_province = {
 			limit = { is_capital = no }
 			add_local_autonomy = 15
 		}
 	}
 	option = {
-		name = "EVTOPTB3003"
-		
+		name = "EVTOPTB3003"			# Our domestic problems are our main concern
 		if = {
 			limit = {
 				has_disaster = internal_conflicts
@@ -140,8 +135,8 @@ country_event = {
 # Unrest among the peasants
 country_event = {
 	id = internal_conflicts.4
-	title = "EVTNAMEHR04"
-	desc = "EVTDESHOR04"
+	title = "EVTNAME3004"
+	desc = "EVTDESC3004"
 	picture = ANGRY_MOB_eventPicture
 	
 	trigger = {
@@ -158,8 +153,7 @@ country_event = {
 	
 	
 	option = {
-		name = "EVTOPTA3004"
-		
+		name = "EVTOPTA3004"			# Restrict serfdom
 		random_owned_province = { noble_rebels = 1 }
 		if = {
 			limit = {
@@ -173,8 +167,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTB3004"
-		
+		name = "EVTOPTB3004"			# Keep the masses in chains
 		random_owned_province = { anti_tax_rebels = 1 }
 		if = {
 			limit = {
@@ -192,8 +185,8 @@ country_event = {
 # War exhaustion
 country_event = {
 	id = internal_conflicts.5
-	title = "EVTNAMEHR05"
-	desc = "EVTDESHOR05"
+	title = "EVTNAME3005"
+	desc = "EVTDESC3005"
 	picture = BATTLE_eventPicture
 	
 	
@@ -211,8 +204,7 @@ country_event = {
 	
 	
 	option = {
-		name = "EVTOPTA3005"
-		
+		name = "EVTOPTA3005"			# There is no immediate solution at hand
 		if = {
 			limit = {
 				has_disaster = internal_conflicts
@@ -226,8 +218,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTB3005"
-		
+		name = "EVTOPTB3005"			# Let their voices be heard
 		add_mil_power = -50
 		add_yearly_manpower = -0.25
 	}
@@ -236,8 +227,8 @@ country_event = {
 # Inefficient ruler
 country_event = {
 	id = internal_conflicts.6
-	title = "EVTNAMEHR06"
-	desc = "EVTDESHOR06"
+	title = "EVTNAME3006"
+	desc = "EVTDESC3006"
 	picture = BAD_WITH_MONARCH_eventPicture
 	
 	trigger = {
@@ -259,8 +250,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA3006"
-		
+		name = "EVTOPTA3006"			# Leave the nation's fate in his hands
 		random_owned_province = { 
 			limit= {
 				development = 8
@@ -279,8 +269,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTB3006"
-		
+		name = "EVTOPTB3006"			# Oppose him
 		random_owned_province = { 
 			limit= {
 				development = 8
@@ -304,8 +293,8 @@ country_event = {
 # Famine
 country_event = {
 	id = internal_conflicts.7
-	title = "EVTNAMEHR07"
-	desc = "EVTDESHOR07"
+	title = "EVTNAME3007"
+	desc = "EVTDESC3007"
 	picture = FAMINE_eventPicture
 	
 	trigger = {
@@ -320,8 +309,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTA3007"
-		
+		name = "EVTOPTA3007"			# Try to alleviate the suffering
 		add_years_of_income = -1.0
 		if = {
 			limit = {
@@ -335,8 +323,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTB3007"
-		
+		name = "EVTOPTB3007"			# We are helpless in the face of such a disaster...
 		if = {
 			limit = {
 				has_disaster = internal_conflicts
@@ -354,8 +341,8 @@ country_event = {
 # Stability returns
 country_event = {
 	id = internal_conflicts.8
-	title = "EVTNAMEHR08"
-	desc = "EVTDESHOR08"
+	title = "EVTNAME3008"
+	desc = "EVTDESC3008"
 	picture = CIVIL_WAR_eventPicture
 	
 	
@@ -369,8 +356,7 @@ country_event = {
 	
 
 	option = {
-		name = "EVTOPTA3008"
-		
+		name = "EVTOPTA3008"			# Restore order
 		add_stability_or_adm_power = yes
 	}
 }

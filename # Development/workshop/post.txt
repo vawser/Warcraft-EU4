@@ -1,0 +1,29 @@
+Warcraft is an unique take of the First War scenario from the World of Warcraft universe. 
+
+[h1]Overview[/h1]
+Starting during the Orc invasion of Azeroth, you can play as the Orcish Horde itself, and claim Azeroth as your own. Or play as Stormwind, repel and crush the orc invaders and secure Azeroth for the humans.
+
+After the Orcish Horde has been defeated once, the Scourge will appear in Northrend as a respond to the failure of the Orcish Horde. They will begin their campaign to establish Scourge control over Azeroth.
+
+If the Scourge are defeated, then the Burning Legion itself will invade and attempt to secure Kalimdor and the world tree Nordrassil before launching a full-scale invasion of Azeroth.
+
+Additionally, the rest of the world is populated with appropriate nations to give you an exciting and varied playthrough.
+
+[h1]Features[/h1]
+- Detailed map that is inspired by the World of Warcraft map.
+- Lots and lots of different nations, split into different races and religions, providing an assortment of different playstyles.
+- Adapted features such as the Tauren Federation, which makes use of the HRE mechanics to provide an unique clan system for the Taurens.
+
+[h1]Links[/h1]
+- [url=https://discord.gg/https://discord.gg/PF5f2EzDee]Discord[/url], where you can discuss the mod.
+- [url=https://github.com/vawser/Warcraft-EU4]Github repository[/url], where you can download the cutting edge versions of the mod.
+
+[h1]FAQ[/h1]
+[h1]Why are province and area names generic?[/h1]
+Naming over 5000 provinces uniquely with most locations requiring novel naming means it will take time to complete. I'd rather release the mod and allow people to play it than making them wait for something that is basically functionally aesthetic. Important provinces and those that match existing locations from World of Warcraft will be named.
+
+[h1]Credits[/h1]
+[list]
+[*]Dogabeey, Aetherum and Papillonmyu for various pieces of content included in this mod, inherited from the original [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1796527319&searchtext=warcraft]World of Warcraft Universalis[/url].
+[/list]
+

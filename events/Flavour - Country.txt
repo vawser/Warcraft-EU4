@@ -7809,7 +7809,7 @@ country_event = {
 			}
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 1
-				trade_goods = gold
+				trade_goods = wwu_gold
 				OR = {
 					is_overseas = yes
 					owner = {
@@ -7819,7 +7819,7 @@ country_event = {
 			}
 		}
 		NOT = {
-			gold = 1
+			wwu_gold = 1
 		}
 	}
 	
@@ -7837,7 +7837,7 @@ country_event = {
 					}
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						trade_goods = gold
+						trade_goods = wwu_gold
 						OR = {
 							is_overseas = yes
 							owner = {
@@ -9173,7 +9173,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		grain = 1
+		wwu_food = 1
 	}
 
 	mean_time_to_happen = {
@@ -9197,7 +9197,7 @@ country_event = {
 	
 
 	trigger = {
-		wine = 1
+		wwu_food = 1
 		NOT = { has_country_modifier = excellent_vintage }
 	}
 	
@@ -9225,7 +9225,7 @@ country_event = {
 	picture = TRADEGOODS_eventPicture
 
 	trigger = {
-		wine  = 1
+		wwu_food  = 1
 	}
 
 	is_triggered_only = yes
@@ -9250,7 +9250,7 @@ country_event = {
 	picture = TRADEGOODS_eventPicture
 
 	trigger = {
-		wool = 1
+		wwu_textiles = 1
 	}
 
 	is_triggered_only = yes
@@ -9273,7 +9273,7 @@ country_event = {
 	picture = TRADEGOODS_eventPicture
 
 	trigger = {
-		cloth = 1 
+		wwu_textiles = 1 
 		NOT = { has_country_modifier = poor_uniforms }
 	}
 
@@ -9301,7 +9301,7 @@ country_event = {
 	picture = TRADEGOODS_eventPicture
 
 	trigger = {
-		fish =  1
+		wwu_oil =  1
 		num_of_ports = 1
 		primitives = no
 	}
@@ -9327,7 +9327,7 @@ country_event = {
 	picture = TRADE_GOODS_FURS_FISH_AND_SALT_eventPicture
 
 	trigger = {
-		salt = 1
+		wwu_food = 1
 		NOT = { has_country_modifier = salt_crisis }
 	}
 
@@ -9355,7 +9355,7 @@ country_event = {
 	picture = TRADEGOODS_eventPicture
 
 	trigger = {
-		naval_supplies = 1
+		wwu_lumber = 1
 		num_of_ports = 1
 		primitives = no
 		NOT = { has_country_modifier = good_supplies }
@@ -9384,7 +9384,7 @@ country_event = {
 	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
 
 	trigger = {
-		copper = 1
+		wwu_metals = 1
 		mil_tech = 7
 		NOT = { has_country_modifier = poor_copper }
 	}
@@ -9412,7 +9412,7 @@ country_event = {
 	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
 
 	trigger = {
-		gold = 1
+		wwu_gold = 1
 	}
 
 	is_triggered_only = yes
@@ -9436,7 +9436,7 @@ country_event = {
 	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
 
 	trigger = {
-		iron = 1
+		wwu_metals = 1
 		NOT = { has_country_modifier = poor_iron }
 	}
 
@@ -9454,162 +9454,6 @@ country_event = {
 		}
 	}
 }
-
-
-
-# Quality Ivory
-country_event = {
-	id = 6431
-	title = "EVTNAME6431"
-	desc = "EVTDESC6431"
-	picture = TRADEGOODS_eventPicture
-
-	trigger = {
-		ivory = 1
-	}
-
-	is_triggered_only = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "EVTOPTA6431"
-		add_prestige = 20
-	}
-}
-
-# Tea Party
-country_event = {
-	id = 6432
-	title = "EVTNAME6432"
-	desc = "EVTDESC6432"
-	picture = TRADE_GOODS_PLANTATION_GOODS_IN_WAREHOUSE_eventPicture
-	goto = tea_province
-
-	trigger = {
-		any_owned_province = {
-			trade_goods = tea 
-			is_overseas = yes
-			is_city = yes
-		}
-	}
-	is_triggered_only = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = {
-					trade_goods = tea 
-					is_overseas = yes
-					is_city = yes
-				}
-				save_event_target_as = tea_province
-			}
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA6432"
-		event_target:tea_province = {
-			add_unrest = 10
-		}
-		
-	}
-}
-
-# Storms
-country_event = {
-	id = 6433
-	title = "EVTNAME6433N"
-	desc = "EVTDESC6433N"
-	picture = TRADEGOODS_eventPicture
-	goto = chinaware_province
-
-	trigger = {
-		chinaware = 1
-	}
-
-	is_triggered_only = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = {
-					trade_goods = chinaware
-				}
-				save_event_target_as = chinaware_province
-			}
-		}
-	}
-	
-	option = {
-		name = "EVTOPTA6433N"
-		event_target:chinaware_province = {
-			add_province_modifier = {
-				name = "storms"
-				duration = 730
-			}			
-		}
-	}
-}
-
-
-# Harvest failure
-country_event = {
-	id = 6434
-	title = "EVTNAME6434"
-	desc = "EVTDESC6434"
-	picture = FARMING_eventPicture
-	goto = spice_province
-
-	trigger = {
-		spices = 1
-		any_owned_province = {
-			trade_goods = spices
-			NOT = { has_province_modifier = harvest_fails }
-		}
-	}
-
-	immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = {
-					trade_goods = spices
-					NOT = { has_province_modifier = harvest_fails }
-				}
-				save_event_target_as = spice_province
-			}
-		}
-	}
-	
-	is_triggered_only = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = "EVTOPTA6434"
-		
-		event_target:spice_province = {
-			add_province_modifier = {
-				name = "harvest_fails"
-				duration = 730
-			}			
-		}		
-	}
-}
-
 
 # Benign Neglect
 country_event = {
@@ -9786,10 +9630,10 @@ country_event = {
 	goto = plague_province
 
 	trigger = {
-		grain = 1
+		wwu_food = 1
 		num_of_cities = 2
 		any_owned_province = {
-			trade_goods = grain
+			trade_goods = wwu_food
 			is_capital = no
 		}
 	}
@@ -9798,7 +9642,7 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					trade_goods = grain
+					trade_goods = wwu_food
 					is_capital = no
 				}
 				save_event_target_as = plague_province
@@ -9846,7 +9690,7 @@ country_event = {
 	goto = province_in_question
 
 	trigger = {
-		grain = 1
+		wwu_food = 1
 	}
 	
 	
@@ -9860,7 +9704,7 @@ country_event = {
 		hidden_effect = {
 			random_owned_province = {
 				limit = {
-					trade_goods = grain
+					trade_goods = wwu_food
 				}		
 				save_event_target_as = province_in_question
 			}

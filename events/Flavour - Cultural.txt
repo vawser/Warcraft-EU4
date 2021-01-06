@@ -326,7 +326,7 @@ country_event = {
 	trigger = {
 		advisor = natural_scientist
 		any_owned_province = {
-			trade_goods = gold
+			trade_goods = wwu_gold
 		}
 	}
 	
@@ -338,7 +338,7 @@ country_event = {
 		name = wwu_cultural.8.opt1
 		
 		random_province = {
-			limit = { trade_goods = gold }
+			limit = { trade_goods = wwu_gold }
 			add_base_production = 3
 			add_base_tax = 2
 			change_culture = culture_tunnel_rat

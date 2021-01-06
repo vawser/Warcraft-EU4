@@ -557,7 +557,7 @@ country_event = {
 
 	trigger = {
 		has_country_modifier = the_abolish_slavery_act
-		any_owned_province = { trade_goods = slaves }
+		any_owned_province = { trade_goods = wwu_slaves }
 	}
 
 	mean_time_to_happen = {
@@ -568,7 +568,7 @@ country_event = {
 		name = "EVTOPTA9520"
 		
 		every_owned_province = {
-			limit = { trade_goods = slaves }
+			limit = { trade_goods = wwu_slaves }
 			change_trade_goods = unknown
 			remove_building = wow_farm
 			if = {

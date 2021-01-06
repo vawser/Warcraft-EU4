@@ -802,12 +802,9 @@ country_event = {
 				OR = {
 					development = 15 #Produces luxury goods
 					AND = { #Trade Goods other than these should be fine without necessarily having to be refined that much.
-						NOT = { trade_goods = iron } #Luxery related to Iron would high dev province
-						NOT = { trade_goods = wool } #Luxery related to Wool would high dev province
-						NOT = { trade_goods = copper } #Luxery related to Copper would high dev province
-						NOT = { trade_goods = naval_supplies } #Luxery related to Copper would high dev province
-						NOT = { trade_goods = fish } #Luxery related to Copper would high dev province
-						NOT = { trade_goods = grain } #Luxery related to Copper would high dev province
+						NOT = { trade_goods = wwu_metals } #Luxery related to Copper would high dev province
+						NOT = { trade_goods = wwu_lumber } #Luxery related to Copper would high dev province
+						NOT = { trade_goods = wwu_food } #Luxery related to Copper would high dev province
 					}
 				}
 			}
@@ -828,12 +825,9 @@ country_event = {
 						OR = {
 							development = 15 #Produces luxury goods
 							AND = { #Trade Goods other than these should be fine without necessarily having to be refined that much.
-								NOT = { trade_goods = iron } #Luxery related to Iron would high dev province
-								NOT = { trade_goods = wool } #Luxery related to Wool would high dev province
-								NOT = { trade_goods = copper } #Luxery related to Copper would high dev province
-								NOT = { trade_goods = naval_supplies } #Luxery related to Copper would high dev province
-								NOT = { trade_goods = fish } #Luxery related to Copper would high dev province
-								NOT = { trade_goods = grain } #Luxery related to Copper would high dev province
+								NOT = { trade_goods = wwu_metals } #Luxery related to Copper would high dev province
+                                NOT = { trade_goods = wwu_lumber } #Luxery related to Copper would high dev province
+                                NOT = { trade_goods = wwu_food } #Luxery related to Copper would high dev province
 							}
 						}
 					}

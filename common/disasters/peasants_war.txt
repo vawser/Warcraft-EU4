@@ -1,15 +1,10 @@
 peasant_war = {
 	potential = {
-		NOT = { has_country_flag = complete_stasis }
-		NOT = { 
-			capital_scope = {
-				continent = pandaria
-			}
+		OR = {
+			government = monarchy
+			government = theocracy
 		}
-		NOT = { is_warband_government_type = yes }
-		NOT = { has_reform = demonic_order_reform }
-        NOT = { has_reform = elemental_cult_reform }
-        
+		NOT = { is_nomad = yes }
 		uses_doom = no
 		is_free_or_tributary_trigger = yes
 		num_of_cities = 5
@@ -69,7 +64,6 @@ peasant_war = {
 	can_end = {
 		NOT = { num_of_rebel_controlled_provinces = 1 }
 		stability = 1
-		#TODO, trigger on support for antitax rebels
 	}
 	
 

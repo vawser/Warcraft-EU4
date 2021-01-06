@@ -195,10 +195,6 @@ nationalist_rebels = {
 			factor = 10
 			nationalism = 1
 		}
-		modifier = {
-			factor = 15
-			has_province_modifier = court_and_country_hardline_vs_separatists
-		}
 	 	modifier = {
 			factor = 0.001
 			is_colony = yes
@@ -456,13 +452,6 @@ noble_rebels = {
 			}
 		}
 		modifier = {
-			factor = 10
-			owner = {
-				has_disaster = court_and_country
-			}
-		}
-		
-		modifier = {
 			factor = 2.5
 			owner = {
 				government = republic
@@ -576,14 +565,6 @@ noble_rebels = {
 		add_prestige = -20
 		add_legitimacy = -20
 		add_horde_unity = -20
-		if = {
-			limit = {
-				has_disaster = court_and_country
-			}
-			set_country_flag = court_and_country_surrendered_to_rebels
-			hidden_effect = { country_event = { id = court_and_country_events.100 } }
-			end_disaster = court_and_country
-		}
 		if = {
 			limit = { has_estate = estate_nobility }
 			change_estate_land_share = {
@@ -842,15 +823,15 @@ pretender_rebels = {
             kill_heir = yes
         }
         if = {
-            limit = { has_disaster = civil_war }
-            end_disaster = civil_war
-            clr_country_flag = civilwar_on_capital
-        }
-        if = {
-            limit = { has_disaster = internal_conflicts }
-            country_event = { id = internal_conflicts.8 }
-            end_disaster = internal_conflicts
-        }
+			limit = { has_disaster = civil_war }
+			end_disaster = civil_war
+			clr_country_flag = civilwar_on_capital
+		}
+		if = {
+			limit = { has_disaster = internal_conflicts }
+			country_event = { id = internal_conflicts.8 }
+			end_disaster = internal_conflicts
+		}
 	}
 }
 

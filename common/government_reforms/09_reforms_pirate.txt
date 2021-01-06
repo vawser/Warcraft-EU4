@@ -50,7 +50,7 @@ wwu_war_against_the_world_doctrine_reform = {
 	icon = "war_against_the_world_doctrine_wwu"
 	allow_normal_conversion = yes
 	
-	disallowed_trade_goods = { slaves }
+	disallowed_trade_goods = { wwu_slaves }
     
 	modifiers = {
 		pr_buccaneers_influence = 0.1

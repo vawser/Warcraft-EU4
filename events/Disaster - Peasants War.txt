@@ -3,8 +3,8 @@ namespace = peasants_war
 # Peasants' War
 country_event = {
 	id = peasants_war.1
-	title = "EVTNAMEHR21"
-	desc = "EVTDESHOR21"
+	title = "EVTNAME3021"
+	desc = "EVTDESC3021"
 	picture = ANGRY_MOB_eventPicture
 	
 	major = yes
@@ -30,16 +30,15 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA3021"
-		
+		name = "EVTOPTA3021"			# Dire times are ahead of us	
 	}
 }
 
 # Peasant protests
 country_event = {
 	id = peasants_war.2
-	title = "EVTNAMEHR22"
-	desc = "EVTDESHOR22"
+	title = "EVTNAME3022"
+	desc = "EVTDESC3022"
 	picture = ANGRY_MOB_eventPicture
 
 
@@ -58,8 +57,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA3022"
-		
+		name = "EVTOPTA3022"			# Enforce serfdom
 		ai_chance = { factor = 65 }
 		random_owned_province = { 
 			anti_tax_rebels = 1 
@@ -79,8 +77,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTB3022"
-		
+		name = "EVTOPTB3022"			# Restrict serfdom
 		ai_chance = { factor = 35 }
 		if = {
 			limit = {
@@ -105,15 +102,15 @@ country_event = {
 # Religious revolt
 country_event = {
 	id = peasants_war.3
-	title = "EVTNAMEHR23"
-	desc = "EVTDESHOR23"
+	title = "EVTNAME3023"
+	desc = "EVTDESC3023"
 	picture = ANGRY_MOB_eventPicture
 
 
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { has_country_flag = religious_revolt }		
+		NOT = { has_country_flag = religious_revolt }	
 		NOT = { religious_unity = 1.0 }
 	}
 
@@ -127,8 +124,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA3023"
-		
+		name = "EVTOPTA3023" # Crush the rebels!
 		ai_chance = { factor = 60 }		
 		random_owned_province = { 
 			spawn_rebels = {
@@ -149,10 +145,10 @@ country_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTB3023"
-		
+		name = "EVTOPTB3023" # Let them chose their own faith
 		ai_chance = { factor = 40 }
 		add_dip_power = -50
+		add_papal_influence = -10
 		add_devotion = -25
 		if = {
 			limit = {
@@ -170,8 +166,8 @@ country_event = {
 # Obsolete forces
 country_event = {
 	id = peasants_war.4
-	title = "EVTNAMEHR24"
-	desc = "EVTDESHOR24"
+	title = "EVTNAME3024"
+	desc = "EVTDESC3024"
 	picture = BATTLE_eventPicture
 	
 	
@@ -179,6 +175,8 @@ country_event = {
 
 	trigger = {
 		NOT = { has_country_flag = obsolete_forces }
+		mil_tech = 6
+		NOT = { mil_tech = 18 }
 	}
 
 	mean_time_to_happen = {
@@ -190,8 +188,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA3024"
-		
+		name = "EVTOPTA3024"			# They have no place in our society
 		ai_chance = { factor = 50 }
 		if = {
 			limit = {
@@ -205,8 +202,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTB3024"
-		
+		name = "EVTOPTB3024"			# They may still be of some use
 		ai_chance = { factor = 50 }
 		add_years_of_income = -1.0
 		if = {
@@ -225,14 +221,15 @@ country_event = {
 # National decentralisation
 country_event = {
 	id = peasants_war.5
-	title = "EVTNAMEHR25"
-	desc = "EVTDESHOR25"
+	title = "EVTNAME3025"
+	desc = "EVTDESC3025"
 	picture = ANGRY_MOB_eventPicture
 	
 	is_triggered_only = yes
 
 	trigger = {
 		NOT = { has_country_modifier = isolate_rebels }
+		num_of_rebel_controlled_provinces = 1
 	}
 
 	mean_time_to_happen = {
@@ -240,8 +237,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVTOPTA3025"
-		
+		name = "EVTOPTA3025"			# Crush the rebels
 		ai_chance = { factor = 55 }
 		random_owned_province = {
 			limit = { is_core = ROOT }
@@ -255,8 +251,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "EVTOPTB3025"
-		
+		name = "EVTOPTB3025"			# We have to negotiate a solution
 		add_years_of_income = -0.1
 		add_prestige = -10
 	}
@@ -265,8 +260,8 @@ country_event = {
 # Order is returning
 country_event = {
 	id = peasants_war.6
-	title = "EVTNAMEHR26"
-	desc = "EVTDESHOR26"
+	title = "EVTNAME3026"
+	desc = "EVTDESC3026"
 	picture = ANGRY_MOB_eventPicture
 	
 	
@@ -280,8 +275,7 @@ country_event = {
 	
 
 	option = {
-		name = "EVTOPTA3026"
-		
+		name = "EVTOPTA3026"			# Restore order
 		if = {
 			limit = {
 				government = monarchy
@@ -294,7 +288,7 @@ country_event = {
 		clr_country_flag = peasant_protests
 		clr_country_flag = religious_revolt
 		clr_country_flag = obsolete_forces
-		clr_country_flag = peasants_war_can_end
+#		clr_country_flag = peasants_war_can_end
 		
 		remove_country_modifier = enforce_serfdom	
 		remove_country_modifier = restrict_serfdom

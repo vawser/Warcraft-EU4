@@ -8,7 +8,3 @@ Add national ideas
 Fix crash:  
  [flags.cpp:169]: Trying to get undefined non-dynamic flag: 'Monarch'
 
-Go over trade goods
-    Narrow down lists for each terrain type, these are generic goods
-    Keep some unique goods that are added directly to province history
-    

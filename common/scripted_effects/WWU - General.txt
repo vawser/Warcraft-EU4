@@ -266,7 +266,7 @@ abolish_slavery_effect = {
 	hidden_effect = {
 		every_owned_province = {
 			limit = {
-				trade_goods = slaves
+				trade_goods = wwu_slaves
 			}
 			change_trade_goods = unknown
 		}
@@ -790,20 +790,15 @@ change_government_to_theocracy = {
 }
 
 form_holy_order_effect = {
-	hidden_effect = { add_local_autonomy = 10 }
-	custom_tooltip = ADD_AUTONOMY_TOOLTIP
 	add_base_tax = 1
 	add_base_production = 1
 	add_base_manpower = 1
 }
 
 abandon_holy_order_effect = {
-	hidden_effect = { add_local_autonomy = -10 }
-	custom_tooltip = SUB_AUTONOMY_TOOLTIP
 	add_base_tax = -1
 	add_base_production = -1
 	add_base_manpower = -1
-	add_unrest = 2
 }
 
 change_province_name_with_year = {

@@ -1228,3 +1228,17 @@ defined_text = {
 		localisation_key = merchants_string
 	}
 }
+defined_text = {
+	name = GetMarathasOrRajputsOrNoblesName
+    
+    text = {
+		localisation_key = nobles_string
+	}
+}
+defined_text = {
+	name = GetBurghersName
+    
+    text = {
+		localisation_key = merchants_string
+	}
+}

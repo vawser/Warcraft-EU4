@@ -1,16 +1,10 @@
 civil_war = {
 	potential = {
-		NOT = { has_country_flag = complete_stasis }
-		always = no
 		num_of_cities = 5
 		any_owned_province = {
-			development = 15
+			is_core = ROOT 
+			development = 10
 			is_capital = no
-		}
-		NOT = { 
-			capital_scope = {
-				continent = pandaria
-			}
 		}
 		government = monarchy
 		is_free_or_tributary_trigger = yes
@@ -24,7 +18,7 @@ civil_war = {
 		has_any_disaster = no
 		has_regency = no
 		average_home_autonomy = 30
-		NOT = { legitimacy_or_horde_unity = 20 }
+		NOT = { legitimacy_or_horde_unity = 50 }
 	}
 	
 	
@@ -69,6 +63,7 @@ civil_war = {
 	
 	can_end = {
 		legitimacy_or_horde_unity = 90
+		NOT = { has_spawned_rebels = pretender_rebels }
 	}
 	
 

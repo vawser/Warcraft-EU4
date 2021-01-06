@@ -1556,7 +1556,7 @@ country_event = {
 				religion = ROOT 
 			}
 			spawn_rebels = {
-				type = heretic_rebels
+				type = religious_rebels
 				size = 1
 			}
 		 } 
@@ -1649,7 +1649,7 @@ country_event = {
 				religion = ROOT
 			}
 			spawn_rebels = {
-				type = heretic_rebels
+				type = religious_rebels
 				size = 1
 			}
 		}
@@ -5474,7 +5474,7 @@ country_event = {
 	trigger = {
 		is_quantity_ideagroup = yes
 		NOT = { has_country_modifier = "horse_population_boom" }
-		grain = 1
+		wwu_food = 1
 	}
 	
 	mean_time_to_happen = {
