@@ -1220,3 +1220,11 @@ defined_text = {
 		localisation_key = sin_adultery
 	}
 }
+
+defined_text = {
+	name = GetVaishyasOrBurghersName
+    
+    text = {
+		localisation_key = merchants_string
+	}
+}

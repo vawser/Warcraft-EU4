@@ -3,7 +3,7 @@ administrative_reform = {
 
 	allow = {
 		num_of_owned_provinces_with = {
-			value = 5
+			value = 3
 			local_autonomy = 20
 		}
 	}

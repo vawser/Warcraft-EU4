@@ -4,8 +4,8 @@ harmonization_of_laws = {
 
 	allow = {
 		OR = {
-			vassal = 1
-			personal_union = 1
+			vassal = 2
+			personal_union = 2
 			AND = {
 				vassal = 1
 				personal_union = 1
@@ -17,14 +17,15 @@ harmonization_of_laws = {
 	effect = {
 		random_subject_country = {
 			add_opinion = {
-				who = ROOT
+				who = FROM
 				modifier = parliament_closer_ties
 			}
 		}
 	}
 	
 	modifier = {
-		diplomatic_annexation_cost = -0.10
+		diplomatic_annexation_cost = -0.15
+		vassal_income = 0.05
 	}
 	
 	chance = {

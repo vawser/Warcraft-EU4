@@ -11,6 +11,7 @@ backing_war_effort = {
 	}
 	
 	modifier = {
+		war_exhaustion = -0.05
 		manpower_recovery_speed = 0.1
 	}
 	

@@ -7,7 +7,7 @@ extend_militarization_of_the_state = {
 	}
 	
 	effect = {
-		add_militarization_scaled_to_seats = 25
+		add_militarization_scaled_to_seats = 20
 	}
 	
 	modifier = {

@@ -1,10 +1,11 @@
 lose_ia = {
 	trigger = {
 		is_emperor = yes
+		imperial_influence = 5
 	}
 	
 	effect = {
-		add_imperial_influence = -10
+		add_imperial_influence = -5
 	}
 	
 	ai_will_do = {

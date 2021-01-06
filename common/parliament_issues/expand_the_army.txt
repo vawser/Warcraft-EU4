@@ -11,6 +11,7 @@ expand_the_army = {
 	}
 	
 	modifier = {
+		global_regiment_recruit_speed = -0.1
 		global_regiment_cost = -0.1
 	}
 

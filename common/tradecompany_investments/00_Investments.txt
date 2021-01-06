@@ -12,10 +12,7 @@ wwu_tc_market_1 = {
 
 	company_province_area_modifier = {
 		province_trade_power_value = 1
-	}
-
-	area_modifier = {
-		local_production_efficiency = 0.1
+		local_production_efficiency = 0.25
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -31,9 +28,7 @@ wwu_tc_market_2 = {
 
 	company_province_area_modifier = {
 		province_trade_power_value = 2
-	}
-	area_modifier = {
-		local_production_efficiency = 0.2
+		local_production_efficiency = 0.5
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -49,9 +44,7 @@ wwu_tc_market_3 = {
 
 	company_province_area_modifier = {
 		province_trade_power_value = 3
-	}
-	area_modifier = {
-		local_production_efficiency = 0.3
+		local_production_efficiency = 0.75
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -67,9 +60,7 @@ wwu_tc_market_4 = {
 
 	company_province_area_modifier = {
 		province_trade_power_value = 4
-	}
-	area_modifier = {
-		local_production_efficiency = 0.4
+		local_production_efficiency = 1.0
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -82,12 +73,57 @@ wwu_tc_market_5 = {
 	category = wwu_tc_market
 	cost = 500.0
 
-	company_province_area_modifier = {
-		province_trade_power_value = 5
+	allow = {
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_market_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_exchange_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_shrine_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_garrison_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_tavern_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_army_barracks_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_naval_barracks_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_outpost_5
+				value = 1
+			}
+		}
 	}
-	area_modifier = {
-		local_production_efficiency = 0.5
-	}
+    
     owner_modifier = {
         trade_efficiency = 0.05
     }
@@ -107,12 +143,9 @@ wwu_tc_exchange_1 = {
 	upgrades_to = wwu_tc_exchange_2
 	cost = 100.0
 
-	company_province_area_modifier = {
-		trade_goods_size = 0.2
-	}
-
 	area_modifier = {
-		local_production_efficiency = 0.1
+        trade_goods_size = 0.25
+		local_production_efficiency = 0.25
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -126,11 +159,9 @@ wwu_tc_exchange_2 = {
 	upgrades_to = wwu_tc_exchange_3
 	cost = 200.0
 
-	company_province_area_modifier = {
-		trade_goods_size = 0.4
-	}
 	area_modifier = {
-		local_production_efficiency = 0.2
+        trade_goods_size = 0.5
+		local_production_efficiency = 0.5
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -144,11 +175,9 @@ wwu_tc_exchange_3 = {
 	upgrades_to = wwu_tc_exchange_4
 	cost = 300.0
 
-	company_province_area_modifier = {
-		trade_goods_size = 0.6
-	}
 	area_modifier = {
-		local_production_efficiency = 0.3
+        trade_goods_size = 0.75
+		local_production_efficiency = 0.75
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -162,11 +191,9 @@ wwu_tc_exchange_4 = {
 	upgrades_to = wwu_tc_exchange_5
 	cost = 400.0
 
-	company_province_area_modifier = {
-		trade_goods_size = 0.8
-	}
 	area_modifier = {
-		local_production_efficiency = 0.4
+        trade_goods_size = 1.0
+		local_production_efficiency = 1.0
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -179,12 +206,57 @@ wwu_tc_exchange_5 = {
 	category = wwu_tc_exchange
 	cost = 500.0
 
-	company_province_area_modifier = {
-		trade_goods_size = 1.0
+	allow = {
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_market_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_exchange_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_shrine_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_garrison_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_tavern_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_army_barracks_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_naval_barracks_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_outpost_5
+				value = 1
+			}
+		}
 	}
-	area_modifier = {
-		local_production_efficiency = 0.5
-	}
+    
     owner_modifier = {
         production_efficiency = 0.05
     }
@@ -205,9 +277,9 @@ wwu_tc_shrine_1 = {
 	cost = 100.0
 
 	area_modifier = {
-		local_missionary_strength = 0.01
-        local_missionary_maintenance_cost = -0.1
-		local_state_maintenance_modifier = -0.1
+		local_missionary_strength = 0.0125
+        local_missionary_maintenance_cost = -0.125
+		local_state_maintenance_modifier = -0.125
         local_unrest = -1
 	}
 	
@@ -223,9 +295,9 @@ wwu_tc_shrine_2 = {
 	cost = 200.0
 
 	area_modifier = {
-		local_missionary_strength = 0.02
-        local_missionary_maintenance_cost = -0.2
-		local_state_maintenance_modifier = -0.2
+		local_missionary_strength = 0.025
+        local_missionary_maintenance_cost = -0.25
+		local_state_maintenance_modifier = -0.25
         local_unrest = -2
 	}
 	
@@ -241,9 +313,9 @@ wwu_tc_shrine_3 = {
 	cost = 300.0
 
 	area_modifier = {
-		local_missionary_strength = 0.03
-        local_missionary_maintenance_cost = -0.3
-		local_state_maintenance_modifier = -0.3
+		local_missionary_strength = 0.0375
+        local_missionary_maintenance_cost = -0.375
+		local_state_maintenance_modifier = -0.375
         local_unrest = -3
 	}
 	
@@ -259,9 +331,9 @@ wwu_tc_shrine_4 = {
 	cost = 400.0
 
 	area_modifier = {
-		local_missionary_strength = 0.04
-        local_missionary_maintenance_cost = -0.4
-		local_state_maintenance_modifier = -0.4
+		local_missionary_strength = 0.05
+        local_missionary_maintenance_cost = -0.5
+		local_state_maintenance_modifier = -0.5
         local_unrest = -4
 	}
 	
@@ -275,12 +347,57 @@ wwu_tc_shrine_5 = {
 	category = wwu_tc_shrine
 	cost = 500.0
 
-	area_modifier = {
-		local_missionary_strength = 0.05
-        local_missionary_maintenance_cost = -0.5
-		local_state_maintenance_modifier = -0.5
-        local_unrest = -5
+	allow = {
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_market_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_exchange_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_shrine_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_garrison_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_tavern_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_army_barracks_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_naval_barracks_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_outpost_5
+				value = 1
+			}
+		}
 	}
+    
     owner_modifier = {
         local_missionary_strength = 0.01
     }
@@ -301,8 +418,12 @@ wwu_tc_garrison_1 = {
 	cost = 100.0
 
 	area_modifier = {
-		local_defensiveness = 0.1
-		supply_limit_modifier = 0.2
+		local_defensiveness = 0.25
+        garrison_growth = 0.25
+		supply_limit_modifier = 0.25
+        blockade_force_required = 0.25
+        hostile_disembark_speed = 0.25
+        hostile_fleet_attrition = 1
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -317,8 +438,12 @@ wwu_tc_garrison_2 = {
 	cost = 200.0
 
 	area_modifier = {
-		local_defensiveness = 0.2
-		supply_limit_modifier = 0.4
+		local_defensiveness = 0.5
+        garrison_growth = 0.5
+		supply_limit_modifier = 0.5
+        blockade_force_required = 0.5
+        hostile_disembark_speed = 0.5
+        hostile_fleet_attrition = 2
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -333,8 +458,12 @@ wwu_tc_garrison_3 = {
 	cost = 300.0
 
 	area_modifier = {
-		local_defensiveness = 0.3
-		supply_limit_modifier = 0.6
+		local_defensiveness = 0.75
+        garrison_growth = 0.75
+		supply_limit_modifier = 0.75
+        blockade_force_required = 0.75
+        hostile_disembark_speed = 0.75
+        hostile_fleet_attrition = 3
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -349,8 +478,12 @@ wwu_tc_garrison_4 = {
 	cost = 400.0
 
 	area_modifier = {
-		local_defensiveness = 0.4
-		supply_limit_modifier = 0.8
+		local_defensiveness = 1
+        garrison_growth = 1
+		supply_limit_modifier = 1
+        blockade_force_required = 1
+        hostile_disembark_speed = 1
+        hostile_fleet_attrition = 4
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -363,12 +496,59 @@ wwu_tc_garrison_5 = {
 	category = wwu_tc_garrison
 	cost = 500.0
 
-	area_modifier = {
-		local_defensiveness = 0.5
-		supply_limit_modifier = 1.0
+	allow = {
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_market_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_exchange_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_shrine_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_garrison_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_tavern_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_army_barracks_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_naval_barracks_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_outpost_5
+				value = 1
+			}
+		}
 	}
+    
     owner_modifier = {
-        army_tradition = 0.5
+        army_tradition = 0.25
     }
 	
 	ai_global_worth = { factor = 0 }
@@ -386,10 +566,12 @@ wwu_tc_tavern_1 = {
 	upgrades_to = wwu_tc_tavern_2
 	cost = 100.0
 
-	area_modifier = {
-        local_build_cost = -0.1
-        local_build_time = -0.1
-        local_monthly_devastation = -0.01
+	area_modifier = {   
+        local_tax_modifier = 0.25
+        local_culture_conversion_cost = -0.125
+        local_build_cost = -0.125
+        local_build_time = -0.125
+        local_monthly_devastation = -0.025
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -404,9 +586,11 @@ wwu_tc_tavern_2 = {
 	cost = 200.0
 
 	area_modifier = {
-        local_build_cost = -0.2
-        local_build_time = -0.2
-        local_monthly_devastation = -0.02
+        local_tax_modifier = 0.5
+        local_culture_conversion_cost = -0.25
+        local_build_cost = -0.25
+        local_build_time = -0.25
+        local_monthly_devastation = -0.05
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -421,9 +605,11 @@ wwu_tc_tavern_3 = {
 	cost = 300.0
 
 	area_modifier = {
-        local_build_cost = -0.3
-        local_build_time = -0.3
-        local_monthly_devastation = -0.03
+        local_tax_modifier = 0.75
+        local_culture_conversion_cost = -0.375
+        local_build_cost = -0.375
+        local_build_time = -0.375
+        local_monthly_devastation = -0.075
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -438,9 +624,11 @@ wwu_tc_tavern_4 = {
 	cost = 400.0
 
 	area_modifier = {
-        local_build_cost = -0.4
-        local_build_time = -0.4
-        local_monthly_devastation = -0.04
+        local_tax_modifier = 1.0
+        local_culture_conversion_cost = -0.5
+        local_build_cost = -0.5
+        local_build_time = -0.5
+        local_monthly_devastation = -0.1
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -453,11 +641,57 @@ wwu_tc_tavern_5 = {
 	category = wwu_tc_tavern
 	cost = 500.0
 
-	area_modifier = {
-        local_build_cost = -0.5
-        local_build_time = -0.5
-        local_monthly_devastation = -0.05
+	allow = {
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_market_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_exchange_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_shrine_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_garrison_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_tavern_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_army_barracks_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_naval_barracks_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_outpost_5
+				value = 1
+			}
+		}
 	}
+    
     owner_modifier = {
         global_tax_modifier = 0.05
     }
@@ -478,8 +712,9 @@ wwu_tc_army_barracks_1 = {
 	cost = 100.0
 
 	area_modifier = {
-		local_regiment_cost = -0.1
-        regiment_recruit_speed = -0.1
+        local_manpower_modifier = 0.25
+		local_regiment_cost = -0.125
+        regiment_recruit_speed = -0.125
         local_hostile_attrition = 1
 	}
     
@@ -495,8 +730,9 @@ wwu_tc_army_barracks_2 = {
 	cost = 200.0
 
 	area_modifier = {
-		local_regiment_cost = -0.2
-        regiment_recruit_speed = -0.2
+		local_manpower_modifier = 0.5
+		local_regiment_cost = -0.25
+        regiment_recruit_speed = -0.25
         local_hostile_attrition = 2
 	}
     
@@ -512,8 +748,9 @@ wwu_tc_army_barracks_3 = {
 	cost = 300.0
 
 	area_modifier = {
-		local_regiment_cost = -0.3
-        regiment_recruit_speed = -0.3
+		local_manpower_modifier = 0.75
+		local_regiment_cost = -0.375
+        regiment_recruit_speed = -0.375
         local_hostile_attrition = 3
 	}
     
@@ -529,8 +766,9 @@ wwu_tc_army_barracks_4 = {
 	cost = 400.0
 
 	area_modifier = {
-		local_regiment_cost = -0.4
-        regiment_recruit_speed = -0.4
+		local_manpower_modifier = 1.0
+		local_regiment_cost = -0.5
+        regiment_recruit_speed = -0.5
         local_hostile_attrition = 4
 	}
     
@@ -544,11 +782,57 @@ wwu_tc_army_barracks_5 = {
 	category = wwu_tc_army_barracks
 	cost = 500.0
 
-	area_modifier = {
-		local_regiment_cost = -0.5
-        regiment_recruit_speed = -0.5
-        local_hostile_attrition = 5
+    allow = {
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_market_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_exchange_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_shrine_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_garrison_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_tavern_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_army_barracks_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_naval_barracks_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_outpost_5
+				value = 1
+			}
+		}
 	}
+    
     owner_modifier = {
         global_manpower_modifier = 0.05
     }
@@ -569,13 +853,10 @@ wwu_tc_naval_barracks_1 = {
 	cost = 100.0
 
 	area_modifier = {
-		local_development_cost = -0.1
-        local_ship_cost = -0.1
-        ship_recruit_speed = -0.1
-        local_sailors_modifier = 0.1
-        blockade_force_required = 0.2
-        hostile_disembark_speed = 0.2
-        hostile_fleet_attrition = 1
+		local_development_cost = -0.025
+        local_sailors_modifier = 0.25
+        local_ship_cost = -0.125
+        ship_recruit_speed = -0.125
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -590,13 +871,10 @@ wwu_tc_naval_barracks_2 = {
 	cost = 200.0
 
 	area_modifier = {
-		local_development_cost = -0.2
-        local_ship_cost = -0.2
-        ship_recruit_speed = -0.2
-        local_sailors_modifier = 0.2
-        blockade_force_required = 0.4
-        hostile_disembark_speed = 0.4
-        hostile_fleet_attrition = 2
+		local_development_cost = -0.05
+        local_sailors_modifier = 0.5
+        local_ship_cost = -0.25
+        ship_recruit_speed = -0.25
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -611,13 +889,10 @@ wwu_tc_naval_barracks_3 = {
 	cost = 300.0
 
 	area_modifier = {
-		local_development_cost = -0.3
-        local_ship_cost = -0.3
-        ship_recruit_speed = -0.3
-        local_sailors_modifier = 0.3
-        blockade_force_required = 0.6
-        hostile_disembark_speed = 0.6
-        hostile_fleet_attrition = 3
+		local_development_cost = -0.075
+        local_sailors_modifier = 0.75
+        local_ship_cost = -0.375
+        ship_recruit_speed = -0.375
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -632,13 +907,10 @@ wwu_tc_naval_barracks_4 = {
 	cost = 400.0
 
 	area_modifier = {
-		local_development_cost = -0.4
-        local_ship_cost = -0.4
-        ship_recruit_speed = -0.4
-        local_sailors_modifier = 0.4
-        blockade_force_required = 0.8
-        hostile_disembark_speed = 0.8
-        hostile_fleet_attrition = 4
+		local_development_cost = -0.1
+        local_sailors_modifier = 1.0
+        local_ship_cost = -0.5
+        ship_recruit_speed = -0.5
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -651,18 +923,60 @@ wwu_tc_naval_barracks_5 = {
 	category = wwu_tc_naval_barracks
 	cost = 500.0
 
-	area_modifier = {
-		local_development_cost = -0.5
-        local_ship_cost = -0.5
-        ship_recruit_speed = -0.5
-        local_sailors_modifier = 0.5
-        blockade_force_required = 1
-        hostile_disembark_speed = 1
-        hostile_fleet_attrition = 5
+	allow = {
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_market_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_exchange_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_shrine_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_garrison_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_tavern_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_army_barracks_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_naval_barracks_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_outpost_5
+				value = 1
+			}
+		}
 	}
+    
     # Once per region
     owner_modifier = {
-        global_sailors_modifier = 0.10
+        global_sailors_modifier = 0.05
     }
 	
 	ai_global_worth = { factor = 0 }
@@ -682,9 +996,9 @@ wwu_tc_outpost_1 = {
 
 	area_modifier = {
 		local_colonial_growth = 5
-        local_colonist_placement_chance = 0.01
-        local_hostile_movement_speed = -0.1
-		local_friendly_movement_speed = 0.1
+        local_colonist_placement_chance = 0.025
+        local_hostile_movement_speed = -0.125
+		local_friendly_movement_speed = 0.125
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -700,9 +1014,9 @@ wwu_tc_outpost_2 = {
 
 	area_modifier = {
 		local_colonial_growth = 10
-        local_colonist_placement_chance = 0.02
-        local_hostile_movement_speed = -0.2
-		local_friendly_movement_speed = 0.2
+        local_colonist_placement_chance = 0.05
+        local_hostile_movement_speed = -0.25
+		local_friendly_movement_speed = 0.25
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -718,9 +1032,9 @@ wwu_tc_outpost_3 = {
 
 	area_modifier = {
 		local_colonial_growth = 15
-        local_colonist_placement_chance = 0.03
-        local_hostile_movement_speed = -0.3
-		local_friendly_movement_speed = 0.3
+        local_colonist_placement_chance = 0.075
+        local_hostile_movement_speed = -0.375
+		local_friendly_movement_speed = 0.375
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -736,9 +1050,9 @@ wwu_tc_outpost_4 = {
 
 	area_modifier = {
 		local_colonial_growth = 20
-        local_colonist_placement_chance = 0.04
-        local_hostile_movement_speed = -0.4
-		local_friendly_movement_speed = 0.4
+        local_colonist_placement_chance = 0.1
+        local_hostile_movement_speed = -0.5
+		local_friendly_movement_speed = 0.5
 	}
 	
 	ai_global_worth = { factor = 0 }
@@ -751,13 +1065,57 @@ wwu_tc_outpost_5 = {
 	category = wwu_tc_outpost
 	cost = 500.0
 
-	area_modifier = {
-		local_colonial_growth = 25
-        local_colonist_placement_chance = 0.05
-        local_hostile_movement_speed = -0.5
-		local_friendly_movement_speed = 0.5
+    allow = {
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_market_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_exchange_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_shrine_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_garrison_5
+				value = 1
+			}
+		}
+		NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_tavern_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_army_barracks_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_naval_barracks_5
+				value = 1
+			}
+		}
+        NOT = {
+			num_investments_in_trade_company_region = { 
+				investment = wwu_tc_outpost_5
+				value = 1
+			}
+		}
 	}
-    # Once per region
+    
     owner_modifier = {
         global_colonial_growth = 25
     }

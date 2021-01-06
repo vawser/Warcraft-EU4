@@ -555,14 +555,30 @@ cb_claim_throne = {
 	war_goal = take_capital_throne
 }
 
+# Horde vs Civilized
+cb_horde_vs_civ = {
+	valid_for_subject = no
+
+	prerequisites = {
+		is_neighbor_of = FROM
+		FROM = {
+			is_nomad = no
+		}
+		is_nomad = yes
+		is_revolutionary = no
+	}
+
+	war_goal = superiority_horde
+}
+
 # Tribal vs Tribal Feud
 cb_tribal_feud = {
 	valid_for_subject = no
 
 	prerequisites = {
-		is_savage = yes
+		is_nomad = yes
 		FROM = {
-			is_savage = yes
+			is_nomad = yes
 		}
 		is_neighbor_of = FROM
 		is_revolutionary = no

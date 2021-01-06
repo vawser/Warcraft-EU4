@@ -2696,7 +2696,7 @@ guiTypes = {
 				name = "investment_offset"
 				backGround=""
 				position = { x=500 y=0 }
-				size = { x=800 y=800}
+				size = { x=760 y=800}
 				dontRender = ""
 				horizontalBorder= ""
 				verticalBorder= ""

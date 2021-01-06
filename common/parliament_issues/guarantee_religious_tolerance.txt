@@ -15,24 +15,13 @@ guarantee_religious_tolerance = {
 		}
 		random_owned_province = {
 			limit = {
-				is_in_capital_area = yes
+				has_owner_religion = no
 			}
 			set_province_flag = guarantee_religious_tolerance_flag
 		}
 	}
 	
 	effect = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = {
-					has_owner_religion = no
-				}
-				add_province_modifier = {
-					name = "provincial_religious_migration"
-					duration = 3650
-				}
-			}
-		}
 		if = {
 			limit = {
 				NOT = {
@@ -41,9 +30,7 @@ guarantee_religious_tolerance = {
 					}
 				}
 			}
-			tooltip = {
-				custom_tooltip = guarantee_religious_tolerance_tooltip
-			}
+			custom_tooltip = guarantee_religious_tolerance_tooltip
 		}
 		if = {
 			limit = {
@@ -51,9 +38,10 @@ guarantee_religious_tolerance = {
 					has_province_flag = guarantee_religious_tolerance_flag
 				}
 			}
-			tooltip = {
-				every_owned_province = {
-					limit = { has_province_flag = guarantee_religious_tolerance_flag }
+			random_owned_province = {
+				limit = { has_province_flag = guarantee_religious_tolerance_flag }
+				custom_tooltip = guarantee_religious_tolerance_tooltip_specified
+				hidden_effect = {
 					add_province_modifier = {
 						name = "provincial_religious_migration"
 						duration = 3650
@@ -86,6 +74,7 @@ guarantee_religious_tolerance = {
 	}
 	
 	modifier = {
+		tolerance_heretic = 1
 		tolerance_heathen = 1
 	}
 

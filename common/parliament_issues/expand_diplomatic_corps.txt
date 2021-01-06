@@ -11,7 +11,8 @@ expand_diplomatic_corps = {
 	}
 	
 	modifier = {
-		spy_offence = 0.10
+		diplomats = 1
+		spy_offence = 0.2
 	}
 	
 	chance = {

@@ -3,7 +3,7 @@ expand_navy = {
 	category = 2
 
 	allow = {
-		num_of_ports = 1
+		num_of_ports = 2
 	}
 	
 	effect = {
@@ -11,6 +11,7 @@ expand_navy = {
 	
 	modifier = {
 		global_ship_cost = -0.1
+		sailors_recovery_speed = 0.1
 	}
 	
 	chance = {

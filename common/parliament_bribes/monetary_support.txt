@@ -4,7 +4,7 @@ monetary_support = {
 	}
 	
 	effect = {
-		add_years_of_income = -0.1
+		add_years_of_income = -0.05
 	}
 	
 	ai_will_do = {

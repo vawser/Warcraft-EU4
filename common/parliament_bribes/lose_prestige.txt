@@ -4,7 +4,7 @@ lose_prestige = {
 	}
 	
 	effect = {
-		add_prestige = -10
+		add_prestige = -5
 	}
 	
 	ai_will_do = {

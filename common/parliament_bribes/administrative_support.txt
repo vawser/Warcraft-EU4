@@ -4,7 +4,7 @@ administrative_support = {
 	}
 	
 	effect = {
-		FROM = { add_scaled_local_adm_power = -4 }
+		adm_power_cost = 10
 	}
 	
 	ai_will_do = {

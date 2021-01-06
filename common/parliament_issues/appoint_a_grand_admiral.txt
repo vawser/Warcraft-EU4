@@ -3,7 +3,7 @@ appoint_a_grand_admiral = {
 	category = 2
 
 	allow = {
-		num_of_ports = 1
+		num_of_ports = 2
 	}
 	
 	effect = {

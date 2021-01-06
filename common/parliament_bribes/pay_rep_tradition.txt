@@ -4,7 +4,7 @@ pay_rep_tradition = {
 	}
 	
 	effect = {
-		add_republican_tradition = -2
+		add_republican_tradition = -1
 	}
 	
 	ai_will_do = {

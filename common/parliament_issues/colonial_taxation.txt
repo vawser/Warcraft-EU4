@@ -3,6 +3,7 @@ colonial_taxation = {
 	category = 2
 
 	allow = {
+		always = no
 		colony = 1
 	}
 	
@@ -11,7 +12,7 @@ colonial_taxation = {
 	}
 	
 	modifier = {
-		global_tariffs = 0.10
+		global_tariffs = 0.25
 	}
 	
 	chance = {

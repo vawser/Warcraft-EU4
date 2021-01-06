@@ -306,7 +306,6 @@ on_new_monarch = {
 			has_reform = wwu_hereditary_rule_reform
 		}
 		set_country_flag = country_has_no_heir
-		##log = "[Root.Monarch.GetName] is no longer a heir and became monarch."
 	}
     
     events = {
@@ -346,7 +345,6 @@ on_new_consort = {
 on_monarch_death = {
 	events = {
 		loa.2 # Remove old loa's influence
-        wwu_government.6 # Advisor Ruler Selection
 	}
 	
 }
@@ -416,15 +414,15 @@ on_diplomatic_annex = {
 on_heir_death = {
 	if = {
 		limit = { has_country_flag = heir_dip_education }
-		clr_ruler_flag = heir_dip_education
+		clr_country_flag = heir_dip_education
 	}
 	if = {
 		limit = { has_country_flag = heir_mil_education }
-		clr_ruler_flag = heir_mil_education
+		clr_country_flag = heir_mil_education
 	}
 	if = {
 		limit = { has_country_flag = heir_adm_education }
-		clr_ruler_flag = heir_adm_education
+		clr_country_flag = heir_adm_education
 	}
 	if = {
 		limit = { has_ruler_flag = well_advised_tutored_heir }
@@ -457,7 +455,6 @@ on_heir_death = {
 			has_reform = wwu_hereditary_rule_reform
 		}
 		set_country_flag = country_has_no_heir
-		##log = "[Root.GetName]'s heir died"
 	}
 }
 
@@ -504,15 +501,15 @@ on_queen_death = {
 		clr_ruler_flag = refused_to_help_spouses_family
 	}
 	if = {
-		limit = { has_ruler_flag = lowborn_consort }
+		limit = { has_ruler_flag = has_lowborn_consort }
 		random_owned_province = {
 			limit = { has_province_modifier = home_of_consort }
 			remove_province_modifier = home_of_consort
 		}
 	}
 	if = {
-		limit = { has_ruler_flag = lowborn_consort }
-		clr_ruler_flag = lowborn_consort
+		limit = { has_ruler_flag = has_lowborn_consort }
+		clr_ruler_flag = has_lowborn_consort
 	}
 	if = {
 		limit = { has_country_modifier = consort_adm_advice }
@@ -544,7 +541,6 @@ on_new_heir = {
 			has_reform = wwu_hereditary_rule_reform
 		}
 		clr_country_flag = country_has_no_heir
-		##log = "[Root.GetName] has a new heir."
 	}
 }
 
@@ -567,6 +563,67 @@ on_successive_emperor = {
     emperor = {
         add_imperial_influence = 5
     }
+}
+
+on_emperor_elected = {
+	every_elector = {
+		if = {
+			limit = {
+				preferred_emperor = root
+			}
+			change_variable = {
+				which = supported_successive_emperors
+				value = 1
+			}
+		}
+		else = {
+			set_variable = {
+				which = supported_successive_emperors
+				value = 0
+			}
+		}
+	}
+
+	emperor = {
+		save_global_event_target_as = Emperor
+	}
+	FROM = {
+		if = {
+			limit = { has_country_modifier = diet_occupied }
+			remove_country_modifier = diet_occupied
+			ROOT = {
+				add_country_modifier = { name = diet_occupied duration = -1 }
+			}
+		}
+		if = {
+			limit = {
+				any_country = {
+					reverse_has_opinion_modifier = {
+						modifier = opinion_imperial_diplomacy
+						who = prev
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					reverse_has_opinion_modifier = {
+						modifier = opinion_imperial_diplomacy
+						who = prev
+					}
+				}
+				reverse_remove_opinion = {
+					modifier = opinion_imperial_diplomacy
+					who = prev
+				}
+				ROOT = {
+					add_opinion = {
+						modifier = opinion_imperial_diplomacy
+						who = prev
+					}
+				}
+			}
+		}
+	}
 }
 
 # HRE Prince released by the emperor
@@ -1891,10 +1948,12 @@ on_trade_company_investment = {
 }
 
 on_center_of_trade_upgrade = {
-	owner = { change_variable = {
-		which = cot_upgraded
+	owner = { 
+		change_variable = {
+			which = cot_upgraded
 		value = 1
-	} }
+		}
+	}
 }
 
 on_center_of_trade_downgrade = {
@@ -2098,67 +2157,6 @@ on_conquest = {
 }
 
 on_country_creation = {
-}
-
-on_emperor_elected = {
-	every_elector = {
-		if = {
-			limit = {
-				preferred_emperor = root
-			}
-			change_variable = {
-				which = supported_successive_emperors
-				value = 1
-			}
-		}
-		else = {
-			set_variable = {
-				which = supported_successive_emperors
-				value = 0
-			}
-		}
-	}
-
-	emperor = {
-		save_global_event_target_as = Emperor
-	}
-	FROM = {
-		if = {
-			limit = { has_country_modifier = diet_occupied }
-			remove_country_modifier = diet_occupied
-			ROOT = {
-				add_country_modifier = { name = diet_occupied duration = -1 }
-			}
-		}
-		if = {
-			limit = {
-				any_country = {
-					reverse_has_opinion_modifier = {
-						modifier = opinion_imperial_diplomacy
-						who = prev
-					}
-				}
-			}
-			every_country = {
-				limit = {
-					reverse_has_opinion_modifier = {
-						modifier = opinion_imperial_diplomacy
-						who = prev
-					}
-				}
-				reverse_remove_opinion = {
-					modifier = opinion_imperial_diplomacy
-					who = prev
-				}
-				ROOT = {
-					add_opinion = {
-						modifier = opinion_imperial_diplomacy
-						who = prev
-					}
-				}
-			}
-		}
-	}
 }
 
 # Harmony

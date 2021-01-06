@@ -3,13 +3,14 @@ impressment_of_sailors = {
 	category = 2
 
 	allow = {
-		num_of_ports = 1
+		num_of_ports = 2
 	}
 	
 	effect = {
 	}
 	
 	modifier = {
+		recover_navy_morale_speed = 0.05
 		sailors_recovery_speed = 0.10
 	}
 	

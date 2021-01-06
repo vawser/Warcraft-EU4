@@ -42,6 +42,7 @@
 # warsubsidy
 # sellprov
 # imperial_relations_action
+# imperial_realm_war_action
 # religious_unity_action
 # grant_electorate
 # remove_electorate
@@ -59,7 +60,6 @@
 # sabotage_reputation
 # support_rebels
 # sow_discontent
-# study_technology
 # agitate_for_liberty
 # form_coalition
 # request_to_join_federation
@@ -69,8 +69,7 @@
 # designate_march
 # ask_for_march
 # sell_ships_action
-# counterespionage
-# abandon_union_action
+# abandon_union
 # takeondebt
 # influence_nation
 # claim_states
@@ -369,8 +368,6 @@ royal_marriage = {
 	}
 }
 
-
-
 annexationaction = {
 	condition = {
 		tooltip = ANNEX_TOO_LOW
@@ -459,7 +456,6 @@ vassalaction = {
 
 abandon_union_action = {
 	condition = {
-		tooltip = DIP_INCOMP_NOTAVAILABLE
 		potential = {
 		}
 		allow = {
@@ -470,9 +466,6 @@ abandon_union_action = {
 		}
 	}
 }
-
-
-
 
 form_coalition = {
 	condition = {
@@ -498,7 +491,6 @@ form_coalition = {
 			has_opinion_modifier = {
 				modifier = aggressive_expansion
 				who = FROM
-				value = -50
 			}		
 			NOT = {
 				has_opinion_modifier = {
@@ -510,7 +502,6 @@ form_coalition = {
 		}
 	}
 }
-
 
 request_to_join_trade_league = {
 	condition = {

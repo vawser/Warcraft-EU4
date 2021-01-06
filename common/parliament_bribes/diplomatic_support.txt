@@ -4,7 +4,7 @@ diplomatic_support = {
 	}
 	
 	effect = {
-		FROM = { add_scaled_local_dip_power = -4 }
+		dip_power_cost = 10
 	}
 	
 	ai_will_do = {

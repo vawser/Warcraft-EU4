@@ -4,7 +4,7 @@ government_debt_reduction = {
 	category = 3
 
 	allow = {
-		num_of_loans = 1
+		num_of_loans = 2
 	}
 	
 	effect = {
@@ -13,6 +13,7 @@ government_debt_reduction = {
 	
 	modifier = {
 		interest = -0.25
+		inflation_reduction = 0.05
 	}
 	
 	chance = {

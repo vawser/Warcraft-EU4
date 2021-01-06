@@ -8,7 +8,7 @@ imports_exports = {
 	}
 	
 	effect = {
-		add_mercantilism = 1
+		add_mercantilism = 2
 	}
 	
 	modifier = {

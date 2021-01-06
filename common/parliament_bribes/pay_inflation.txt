@@ -1,10 +1,10 @@
 pay_inflation = {
 	trigger = {
-		always = yes
+		NOT = { corruption = 99.91 }
 	}
 	
 	effect = {
-		add_corruption = 0.2
+		add_corruption = 0.1
 	}
 	
 	ai_will_do = {

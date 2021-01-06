@@ -11,7 +11,8 @@ treason_act = {
 	}
 	
 	modifier = {
-		global_spy_defence = 0.10
+		global_spy_defence = 0.15
+		global_unrest = -2
 	}
 
 	chance = {

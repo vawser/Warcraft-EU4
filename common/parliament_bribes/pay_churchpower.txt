@@ -4,7 +4,7 @@ pay_churchpower = {
 	}
 	
 	effect = {
-		add_church_power = -10
+		add_church_power = -5
 	}
 	
 	ai_will_do = {

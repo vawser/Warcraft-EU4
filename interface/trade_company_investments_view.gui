@@ -7,7 +7,7 @@ guiTypes = {
 
 	windowType = {
 		name = "trade_company_investment_view"
-		position = { x=0 y=0 }	
+		position = { x=0 y=-20 }	
 		size = { x=1000 y=300 }
 
         iconType = {
@@ -36,7 +36,7 @@ guiTypes = {
 		
 		listboxType = {
 			name = "investment_category_pair_list"
-			position = { x=70 y=100}
+			position = { x=80 y=100}
 			size = { x = 458 y = 140 }
 
 			scrollbartype = "standardlistbox_slider"
@@ -47,7 +47,7 @@ guiTypes = {
 	windowType = {
 		name = "investment_category_pair_item"
 		position = { x=0 y=0 }
-		size = { x=800 y=120}
+		size = { x=400 y=120}
         
 		listboxType = {
 			name = "investment_category_list"

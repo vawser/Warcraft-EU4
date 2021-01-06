@@ -4,7 +4,7 @@ military_support = {
 	}
 	
 	effect = {
-		FROM = { add_scaled_local_mil_power = -4 }
+		mil_power_cost = 10
 	}
 	
 	ai_will_do = {

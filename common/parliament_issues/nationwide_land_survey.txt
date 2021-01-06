@@ -3,7 +3,7 @@ nationwide_land_survey = {
 	category = 3
 	
 	allow = {
-		num_of_cities = 5
+		num_of_cities = 6
 	}
 	
 	on_issue_taken = {

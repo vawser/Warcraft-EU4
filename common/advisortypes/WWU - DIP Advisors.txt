@@ -152,23 +152,3 @@ navigator = {
 	}
 }
 
-#-----------------------------------------------------------------
-# Unique
-#-----------------------------------------------------------------
-# Mathias Shaw
-spymaster_mathias_shaw = {
-	monarch_power = DIP
-	
-	# Bonus
-	spy_offence = 0.25
-	
-	skill_scaled_modifier = { meritocracy = 0.25 }
-
-	chance = {
-		factor = 0
-	}
-	
-	ai_will_do = {
-		factor = 1
-	}
-}

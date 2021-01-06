@@ -15,6 +15,7 @@ propagation_of_state_religion = {
 	
 	modifier = {
 		global_missionary_strength = 0.01
+		missionaries = 1
 	}
 	
 	chance = {
