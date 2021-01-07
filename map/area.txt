@@ -3234,11 +3234,11 @@ area_icecrown_3 = {
 }
 
 area_icecrown_4 = {
-    6167 6168 6169 6170
+    6167 6168 6169 6170 6166
 }
 
 area_icecrown_5 = {
-    2141 2142 2143 6166
+    # Reused
 }
 
 area_icecrown_6 = {

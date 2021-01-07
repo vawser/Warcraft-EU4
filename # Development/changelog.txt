@@ -4,7 +4,4 @@
 Name key provinces
 Add national ideas
 
-# Fix
-Fix crash:  
- [flags.cpp:169]: Trying to get undefined non-dynamic flag: 'Monarch'
-
+Add new Zandalar and Outland

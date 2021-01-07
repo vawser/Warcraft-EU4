@@ -1085,3 +1085,9 @@
  
  crush_the_centaurs: "Crush the Centaurs"
  desc_crush_the_centaurs: ""
+ 
+ #-------------------------------
+ # Army Professionalism
+ #-------------------------------
+ yearly_assessments: "Yearly Assessments"
+ desc_yearly_assessments: ""

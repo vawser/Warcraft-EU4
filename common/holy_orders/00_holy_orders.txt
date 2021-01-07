@@ -72,7 +72,7 @@ hunter_order = {
 	    abandon_holy_order_effect = yes
     }
     modifier = {
-        local_production_efficiency = 1.0
+        local_production_efficiency = 0.5
     }
     ai_priority = {
         factor = 1

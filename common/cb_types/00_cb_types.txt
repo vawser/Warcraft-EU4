@@ -676,6 +676,7 @@ cb_spread_the_revolution = {
 	valid_for_subject = no
 
 	prerequisites = {
+        is_neighbor_of = FROM
 		is_revolutionary = yes
 		OR = {
 			ai = no

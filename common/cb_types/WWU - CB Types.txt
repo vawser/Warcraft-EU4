@@ -1,18 +1,5 @@
-# cb_scourge = {
-	# valid_for_subject = no
-
-	# prerequisites = {
-		# is_neighbor_of = FROM
-		# FROM = {
-			# NOT = { religion = cult_of_the_damned }
-		# }
-		# religion = cult_of_the_damned
-	# }
-	
-	# war_goal = superiority_horde
-# }
-
 cb_azeroth_assault = {
+    ai_peace_desire = -50
 	valid_for_subject = yes
 
 	prerequisites = {
@@ -28,6 +15,7 @@ cb_azeroth_assault = {
 }
 
 cb_against_evil = {
+    ai_peace_desire = -50
 	valid_for_subject = no
 
 	prerequisites = {
@@ -64,6 +52,7 @@ cb_titan_rivalry = {
 }
 
 cb_legion_invasion = {
+    ai_peace_desire = -50
 	valid_for_subject = no
 	is_triggered_only = yes
 	

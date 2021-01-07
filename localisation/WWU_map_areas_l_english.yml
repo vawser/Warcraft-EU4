@@ -15602,3 +15602,202 @@
  area_plunder_isle_50_name: "Plunder Isle"
  area_plunder_isle_50_adj: "Plunder Isle"
 
+ area_kezan_1: "Lost Isles I"
+ area_kezan_1_name: "Lost Isles"
+ area_kezan_1_adj: "Lost Isles"
+
+ area_kezan_2: "Lost Isles II"
+ area_kezan_2_name: "Lost Isles"
+ area_kezan_2_adj: "Lost Isles"
+
+ area_kezan_3: "Lost Isles III"
+ area_kezan_3_name: "Lost Isles"
+ area_kezan_3_adj: "Lost Isles"
+
+ area_kezan_4: "Lost Isles IV"
+ area_kezan_4_name: "Lost Isles"
+ area_kezan_4_adj: "Lost Isles"
+
+ area_kezan_5: "Lost Isles V"
+ area_kezan_5_name: "Lost Isles"
+ area_kezan_5_adj: "Lost Isles"
+
+ area_kezan_6: "Lost Isles VI"
+ area_kezan_6_name: "Lost Isles"
+ area_kezan_6_adj: "Lost Isles"
+
+ area_kezan_7: "Lost Isles VII"
+ area_kezan_7_name: "Lost Isles"
+ area_kezan_7_adj: "Lost Isles"
+
+ area_kezan_8: "Lost Isles VIII"
+ area_kezan_8_name: "Lost Isles"
+ area_kezan_8_adj: "Lost Isles"
+
+ area_kezan_9: "Lost Isles IX"
+ area_kezan_9_name: "Lost Isles"
+ area_kezan_9_adj: "Lost Isles"
+
+ area_kezan_10: "Lost Isles X"
+ area_kezan_10_name: "Lost Isles"
+ area_kezan_10_adj: "Lost Isles"
+
+ area_kezan_11: "Lost Isles XI"
+ area_kezan_11_name: "Lost Isles"
+ area_kezan_11_adj: "Lost Isles"
+
+ area_kezan_12: "Lost Isles XII"
+ area_kezan_12_name: "Lost Isles"
+ area_kezan_12_adj: "Lost Isles"
+
+ area_kezan_13: "Lost Isles XIII"
+ area_kezan_13_name: "Lost Isles"
+ area_kezan_13_adj: "Lost Isles"
+
+ area_kezan_14: "Lost Isles XIV"
+ area_kezan_14_name: "Lost Isles"
+ area_kezan_14_adj: "Lost Isles"
+
+ area_kezan_15: "Lost Isles XV"
+ area_kezan_15_name: "Lost Isles"
+ area_kezan_15_adj: "Lost Isles"
+
+ area_kezan_16: "Lost Isles XVI"
+ area_kezan_16_name: "Lost Isles"
+ area_kezan_16_adj: "Lost Isles"
+
+ area_kezan_17: "Lost Isles XVII"
+ area_kezan_17_name: "Lost Isles"
+ area_kezan_17_adj: "Lost Isles"
+
+ area_kezan_18: "Lost Isles XVIII"
+ area_kezan_18_name: "Lost Isles"
+ area_kezan_18_adj: "Lost Isles"
+
+ area_kezan_19: "Lost Isles XIX"
+ area_kezan_19_name: "Lost Isles"
+ area_kezan_19_adj: "Lost Isles"
+
+ area_kezan_20: "Lost Isles XX"
+ area_kezan_20_name: "Lost Isles"
+ area_kezan_20_adj: "Lost Isles"
+
+ area_kezan_21: "Lost Isles XXI"
+ area_kezan_21_name: "Lost Isles"
+ area_kezan_21_adj: "Lost Isles"
+
+ area_kezan_22: "Lost Isles XXII"
+ area_kezan_22_name: "Lost Isles"
+ area_kezan_22_adj: "Lost Isles"
+
+ area_kezan_23: "Lost Isles XXIII"
+ area_kezan_23_name: "Lost Isles"
+ area_kezan_23_adj: "Lost Isles"
+
+ area_kezan_24: "Lost Isles XXIV"
+ area_kezan_24_name: "Lost Isles"
+ area_kezan_24_adj: "Lost Isles"
+
+ area_kezan_25: "Lost Isles XXV"
+ area_kezan_25_name: "Lost Isles"
+ area_kezan_25_adj: "Lost Isles"
+
+ area_kezan_26: "Lost Isles XXVI"
+ area_kezan_26_name: "Lost Isles"
+ area_kezan_26_adj: "Lost Isles"
+
+ area_kezan_27: "Lost Isles XXVII"
+ area_kezan_27_name: "Lost Isles"
+ area_kezan_27_adj: "Lost Isles"
+
+ area_kezan_28: "Lost Isles XXVIII"
+ area_kezan_28_name: "Lost Isles"
+ area_kezan_28_adj: "Lost Isles"
+
+ area_kezan_29: "Lost Isles XXIX"
+ area_kezan_29_name: "Lost Isles"
+ area_kezan_29_adj: "Lost Isles"
+
+ area_kezan_30: "Lost Isles XXX"
+ area_kezan_30_name: "Lost Isles"
+ area_kezan_30_adj: "Lost Isles"
+
+ area_kezan_31: "Lost Isles XXXI"
+ area_kezan_31_name: "Lost Isles"
+ area_kezan_31_adj: "Lost Isles"
+
+ area_kezan_32: "Lost Isles XXXII"
+ area_kezan_32_name: "Lost Isles"
+ area_kezan_32_adj: "Lost Isles"
+
+ area_kezan_33: "Lost Isles XXXIII"
+ area_kezan_33_name: "Lost Isles"
+ area_kezan_33_adj: "Lost Isles"
+
+ area_kezan_34: "Lost Isles XXXIV"
+ area_kezan_34_name: "Lost Isles"
+ area_kezan_34_adj: "Lost Isles"
+
+ area_kezan_35: "Lost Isles XXXV"
+ area_kezan_35_name: "Lost Isles"
+ area_kezan_35_adj: "Lost Isles"
+
+ area_kezan_36: "Lost Isles XXXVI"
+ area_kezan_36_name: "Lost Isles"
+ area_kezan_36_adj: "Lost Isles"
+
+ area_kezan_37: "Lost Isles XXXVII"
+ area_kezan_37_name: "Lost Isles"
+ area_kezan_37_adj: "Lost Isles"
+
+ area_kezan_38: "Lost Isles XXXVIII"
+ area_kezan_38_name: "Lost Isles"
+ area_kezan_38_adj: "Lost Isles"
+
+ area_kezan_39: "Lost Isles XXXIX"
+ area_kezan_39_name: "Lost Isles"
+ area_kezan_39_adj: "Lost Isles"
+
+ area_kezan_40: "Lost Isles XL"
+ area_kezan_40_name: "Lost Isles"
+ area_kezan_40_adj: "Lost Isles"
+
+ area_kezan_41: "Lost Isles XLI"
+ area_kezan_41_name: "Lost Isles"
+ area_kezan_41_adj: "Lost Isles"
+
+ area_kezan_42: "Lost Isles XLII"
+ area_kezan_42_name: "Lost Isles"
+ area_kezan_42_adj: "Lost Isles"
+
+ area_kezan_43: "Lost Isles XLIII"
+ area_kezan_43_name: "Lost Isles"
+ area_kezan_43_adj: "Lost Isles"
+
+ area_kezan_44: "Lost Isles XLIV"
+ area_kezan_44_name: "Lost Isles"
+ area_kezan_44_adj: "Lost Isles"
+
+ area_kezan_45: "Lost Isles XLV"
+ area_kezan_45_name: "Lost Isles"
+ area_kezan_45_adj: "Lost Isles"
+
+ area_kezan_46: "Lost Isles XLVI"
+ area_kezan_46_name: "Lost Isles"
+ area_kezan_46_adj: "Lost Isles"
+
+ area_kezan_47: "Lost Isles XLVII"
+ area_kezan_47_name: "Lost Isles"
+ area_kezan_47_adj: "Lost Isles"
+
+ area_kezan_48: "Lost Isles XLVIII"
+ area_kezan_48_name: "Lost Isles"
+ area_kezan_48_adj: "Lost Isles"
+
+ area_kezan_49: "Lost Isles XLIX"
+ area_kezan_49_name: "Lost Isles"
+ area_kezan_49_adj: "Lost Isles"
+
+ area_kezan_50: "Lost Isles L"
+ area_kezan_50_name: "Lost Isles"
+ area_kezan_50_adj: "Lost Isles"

@@ -63,7 +63,7 @@ wow_temple = {
     
 	modifier = {
 		local_missionary_strength = 0.03
-        local_tax_modifier = 1.0
+        local_tax_modifier = 0.5
 	}
 	
 	ai_will_do = {
@@ -75,7 +75,7 @@ wow_mine = {
 	time = 12
     
 	modifier = {
-		local_production_efficiency = 1.0
+		local_production_efficiency = 0.5
 	}
 	
 	ai_will_do = {
@@ -87,7 +87,7 @@ wow_barracks = {
 	time = 12
     
 	modifier = {
-		local_manpower_modifier = 1.0
+		local_manpower_modifier = 0.5
 	}
 	
 	ai_will_do = {
@@ -100,7 +100,7 @@ wow_arsenal = {
     
 	modifier = {
 		land_forcelimit = 5
-        supply_limit_modifier = 1.0
+        supply_limit_modifier = 0.5
 	}
 	
 	ai_will_do = {
@@ -142,7 +142,7 @@ wow_dockyard = {
     }
     
 	modifier = {
-		local_sailors_modifier = 1.0
+		local_sailors_modifier = 0.5
         ship_recruit_speed = -0.5
 	}
 	
@@ -155,7 +155,7 @@ wow_marketplace = {
 	time = 12
 
 	modifier = {
-		province_trade_power_modifier = 1.0
+		province_trade_power_modifier = 0.5
 	}
 	
 	ai_will_do = {

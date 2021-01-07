@@ -482,7 +482,7 @@ tributary_state = {
 		NOT = { 
 			is_subject_of_type = tributary_state
 		}
-		total_development = 1000
+		has_idea = wwu_tyranny_ideas_1
 	}
 	
 	# Graphics:

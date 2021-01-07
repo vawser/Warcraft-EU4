@@ -50,14 +50,34 @@ country_event = {
             change_culture = scourge
             change_religion = cult_of_the_damned
         }
-        region_crystalsong = {
+        area_crystalsong_1 = {
             limit = {
                 NOT = { owned_by = UNB }
                 NOT = { owned_by = ROOT }
             }
             cede_province = SCO
             add_core = SCO
-           change_culture = scourge
+            change_culture = scourge
+            change_religion = cult_of_the_damned
+        }
+        area_crystalsong_2 = {
+            limit = {
+                NOT = { owned_by = UNB }
+                NOT = { owned_by = ROOT }
+            }
+            cede_province = SCO
+            add_core = SCO
+            change_culture = scourge
+            change_religion = cult_of_the_damned
+        }
+        area_crystalsong_3 = {
+            limit = {
+                NOT = { owned_by = UNB }
+                NOT = { owned_by = ROOT }
+            }
+            cede_province = SCO
+            add_core = SCO
+            change_culture = scourge
             change_religion = cult_of_the_damned
         }
         # Ignore player ownership for the Citadel

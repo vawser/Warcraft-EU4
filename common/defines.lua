@@ -315,7 +315,7 @@ NDiplomacy = {
 	INTEGRATE_UNION_MIN_YEARS = 50,					-- Number of years before a union can be integrated
 	INTEGRATE_VASSAL_MIN_YEARS = 10,				-- Number of years before a vassal can be integrated
 
-	MONTHS_BEFORE_TOTAL_OCCUPATION = 60,			-- Before this many months have passed in the war, you cannot gain 100% warscore by just occupying the warleader
+	MONTHS_BEFORE_TOTAL_OCCUPATION = 12,			-- Before this many months have passed in the war, you cannot gain 100% warscore by just occupying the warleader
 
 	WAR_REPARATIONS_FACTOR = 0.1,
 	WAR_REPARATIONS_YEARS = 10,
@@ -427,7 +427,7 @@ NCountry = {
 	EXPLOIT_ADM_INCOME = 60,	-- months of income
 	EXPLOIT_DIP_SAILORS = 6,
 	EXPLOIT_MIL_MANPOWER = 6,
-	EXPLOIT_COOLDOWN_MONTHS = 240,
+	EXPLOIT_COOLDOWN_MONTHS = 1,
 
 	MONTHS_FOR_MAX_MP_ALERT = 3,
 
@@ -453,20 +453,20 @@ NCountry = {
 	ABDICATE_LEGITIMACY_THRESHOLD = 50,
 	ABDICATE_AGE_THRESHOLD = 60,
 	ABDICATE_RULING_LENGTH_THRESHOLD = 20,
-	ABDICATE_LEGITIMACY_HIT = -20,
-	ABDICATE_PRESTIGE_HIT = -50,
+	ABDICATE_LEGITIMACY_HIT = -50,
+	ABDICATE_PRESTIGE_HIT = -100,
 
 
-	DISINHERIT_PRESTIGE_HIT = -50,
+	DISINHERIT_PRESTIGE_HIT = -100,
 	DISINHERIT_PRESTIGE_THRESHOLD = 0,
 	
-	NEW_HEIR_PRESTIGE_HIT = -20,
+	NEW_HEIR_PRESTIGE_HIT = -50,
 	NEW_HEIR_PRESTIGE_THRESHOLD = 0,
-	NEW_HEIR_LEGITIMACY_HIT = -20,
+	NEW_HEIR_LEGITIMACY_HIT = -50,
 	NEW_HEIR_LEGITIMACY_THRESHOLD = 90,
 	NEW_HEIR_AGE_RANDOM_FACTOR = 10,
 	NEW_HEIR_AGE_MIN_FACTOR = 1,
-	NEW_HEIR_CLAIM_RANDOM_FACTOR = 30,
+	NEW_HEIR_CLAIM_RANDOM_FACTOR = 50,
 	
 
 	INSTITUTION_BONUS_FROM_IMP_DEVELOPMENT = 5,
@@ -596,12 +596,12 @@ NCountry = {
 	PIETY_PERCENTAGE_AT_NEW_RULER = 0.25,			-- percentage of piety kept at new ruler.
 	PIETY_INCREASE_AT_GOOD_WAR = 0.25,
 	PIETY_DECREASE_AT_BAD_WAR = -0.33,
-	ADVISOR_COST_INCREASE_PER_YEAR = 0.005,			-- yearly increase in price in percent,
+	ADVISOR_COST_INCREASE_PER_YEAR = 0.01,			-- yearly increase in price in percent,
 	SCRIPTED_ADVISOR_DISCOUNT = 0.5,				-- Multiplier on cost for advisors scripted with discount=yes
 	MINIMUM_ADVISOR_DURATION = 10, 					-- _CDEF_MINIMUM_ADVISOR_DURATION_
 	MINIMUM_ADVISOR_DURATION_CHANCE_VALUE = 15,		-- Higher value here gives lower daily death chance after MINIMUM_ADVISOR_DURATION
 	ADVISOR_CUT_OFF_AGE = 30, 						-- _CDEF_ADVISOR_CUT_OFF_AGE = 10,
-	MAXIMUM_ADVISOR_SKILL = 5,						-- Maximum advisor skill reachable through promotion
+	MAXIMUM_ADVISOR_SKILL = 10,						-- Maximum advisor skill reachable through promotion
 	PROMOTE_COST_MONTHS_ADVISOR_SALARY = 60.0,		-- Promote advisor cost in monthly salaries
 	CULTURE_LOSS_THRESHOLD = 0.10, 					-- _CDEF_CULTURE_LOSS_THRESHOLD = 10,
 	CULTURE_GAIN_THRESHOLD = 0.20, 					-- _CDEF_CULTURE_GAIN_THRESHOLD = 10,
@@ -1052,7 +1052,6 @@ NMilitary = {
 
 	DEVELOPMENT_FOR_BLOCKADE_COST = 0.5,
 	
-
 	ARMY_DRILL_YEARLY_DECAY = -1.0,					-- Loss from not Drilling
 	ARMY_DRILL_YEARLY_GAIN = 10.0,					-- Gain from Drilling
 	ARMY_DRILL_MAX = 100.0,
@@ -1093,7 +1092,7 @@ NMilitary = {
 	SIEGE_ATTRITION = 1,
 	SIEGE_DISEASE_IMPACT = 0.05,						-- Fraction of besieging soldiers lost in a disease outbraek
 	ARMY_ATTRITION_AT_COAST = 1,					-- How many percent attrition units take while loaded onto ships along the coast
-	ARMY_ATTRITION_AT_SEA = 10,						-- How many percent attrition units take while loaded onto ships traveling open sea
+	ARMY_ATTRITION_AT_SEA = 1,						-- How many percent attrition units take while loaded onto ships traveling open sea
 	NATIVE_FEROCITY_IMPACT = 0.05,					-- how many percentage each ferocity gives in combat bonus
 	GALLEY_BONUS_INLAND_SEA = 1.0,
 	GALLEY_DICE_MALLUS_HIGH_SEA = 0,				-- Malus dice roll when not fighting in inland sea.

@@ -386,3 +386,8 @@ sacrificed_prisoners = {
     infantry_power = 0.05
     global_unrest = 2
 }
+
+yearly_drills = {
+    drill_gain_modifier = 1.0
+    land_maintenance_modifier = 1.0
+}

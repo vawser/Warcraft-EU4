@@ -779,24 +779,32 @@ on_mandate_of_heaven_lost = {
 }
 
 on_embrace_revolution = {
+    # Toggles the government reform
     set_country_flag = allow_scourge_government
+    
+    # Free from overlord
+    grant_independence = yes
+    
+    # Add government
 	if = {
 		limit = { NOT = { government = monarchy } }
 		change_government = monarchy
 	}
 	add_government_reform = scourge_domain_reform
     
+    # Add religion
     change_religion = cult_of_the_damned
     every_owned_province = {
         limit = { has_revolution_in_province = yes }
         change_religion = cult_of_the_damned
     }
     
+    # Add new ruler
 	define_ruler = { 
         religion = cult_of_the_damned
     }
     
-    # Names
+    # Handle special names
     if = {
         limit = {
             tag = UNB

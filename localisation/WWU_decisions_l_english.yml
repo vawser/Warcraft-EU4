@@ -286,3 +286,8 @@
  sacrifice_prisoners_title: "Sacrifice Prisoners of War"
  sacrifice_prisoners_desc: "Let us drain our prisoners of their blood and empower our own warriors for battle."
  
+ #-----------------------------------------------
+ # Army Professionalism
+ #-----------------------------------------------
+ institute_yearly_assessments_title: "Institute Yearly Assessments"
+ institute_yearly_assessments_desc: "To ensure our troops are professional, we shall institute a system of yearly assessments to ensure standards are maintained. This will cost the state however."
