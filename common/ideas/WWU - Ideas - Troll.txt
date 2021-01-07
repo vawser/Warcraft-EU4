@@ -265,7 +265,7 @@ DRK_ideas = {
 }
 
 # Sandfury
-SAN_ideas = {
+sand_troll_ideas = {
 	start = {
 		
 	}
@@ -279,25 +279,25 @@ SAN_ideas = {
 	}
 	free = yes		
 	
-	SAN_ideas_1 = {
+	sand_troll_ideas_1 = {
 		
 	}
-	SAN_ideas_2 = {
+	sand_troll_ideas_2 = {
 		
 	}
-	SAN_ideas_3 = {
+	sand_troll_ideas_3 = {
 		
 	}
-	SAN_ideas_4 = {
+	sand_troll_ideas_4 = {
 		
 	}
-	SAN_ideas_5 = {
+	sand_troll_ideas_5 = {
 		
 	}
-	SAN_ideas_6 = {
+	sand_troll_ideas_6 = {
 		
 	}
-	SAN_ideas_7 = {
+	sand_troll_ideas_7 = {
 		
 	}
 }
@@ -341,7 +341,7 @@ DAK_ideas = {
 }
 
 # Frost Troll
-frost_troll_ideas = {
+blood_troll_ideas = {
 	start = {
 		
 	}
@@ -351,29 +351,68 @@ frost_troll_ideas = {
 	}
 	
 	trigger = {
-		culture_group = frost_troll_group
+		culture_group = blood_troll_group
 	}
 	free = yes		
 	
-	frost_troll_ideas_1 = {
+	blood_troll_ideas_1 = {
 		
 	}
-	frost_troll_ideas_2 = {
+	blood_troll_ideas_2 = {
 		
 	}
-	frost_troll_ideas_3 = {
+	blood_troll_ideas_3 = {
 		
 	}
-	frost_troll_ideas_4 = {
+	blood_troll_ideas_4 = {
 		
 	}
-	frost_troll_ideas_5 = {
+	blood_troll_ideas_5 = {
 		
 	}
-	frost_troll_ideas_6 = {
+	blood_troll_ideas_6 = {
 		
 	}
-	frost_troll_ideas_7 = {
+	blood_troll_ideas_7 = {
 		
 	}
 }
+
+# Blood Troll
+blood_troll_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		culture_group = blood_troll_group
+	}
+	free = yes		
+	
+	blood_troll_ideas_1 = {
+		
+	}
+	blood_troll_ideas_2 = {
+		
+	}
+	blood_troll_ideas_3 = {
+		
+	}
+	blood_troll_ideas_4 = {
+		
+	}
+	blood_troll_ideas_5 = {
+		
+	}
+	blood_troll_ideas_6 = {
+		
+	}
+	blood_troll_ideas_7 = {
+		
+	}
+}
+

@@ -15801,3 +15801,403 @@
  area_kezan_50: "Lost Isles L"
  area_kezan_50_name: "Lost Isles"
  area_kezan_50_adj: "Lost Isles"
+ 
+ area_nazmir_1: "Nazmir I"
+ area_nazmir_1_name: "Nazmir"
+ area_nazmir_1_adj: "Nazmir"
+
+ area_nazmir_2: "Nazmir II"
+ area_nazmir_2_name: "Nazmir"
+ area_nazmir_2_adj: "Nazmir"
+
+ area_nazmir_3: "Nazmir III"
+ area_nazmir_3_name: "Nazmir"
+ area_nazmir_3_adj: "Nazmir"
+
+ area_nazmir_4: "Nazmir IV"
+ area_nazmir_4_name: "Nazmir"
+ area_nazmir_4_adj: "Nazmir"
+
+ area_nazmir_5: "Nazmir V"
+ area_nazmir_5_name: "Nazmir"
+ area_nazmir_5_adj: "Nazmir"
+
+ area_nazmir_6: "Nazmir VI"
+ area_nazmir_6_name: "Nazmir"
+ area_nazmir_6_adj: "Nazmir"
+
+ area_nazmir_7: "Nazmir VII"
+ area_nazmir_7_name: "Nazmir"
+ area_nazmir_7_adj: "Nazmir"
+
+ area_nazmir_8: "Nazmir VIII"
+ area_nazmir_8_name: "Nazmir"
+ area_nazmir_8_adj: "Nazmir"
+
+ area_nazmir_9: "Nazmir IX"
+ area_nazmir_9_name: "Nazmir"
+ area_nazmir_9_adj: "Nazmir"
+
+ area_nazmir_10: "Nazmir X"
+ area_nazmir_10_name: "Nazmir"
+ area_nazmir_10_adj: "Nazmir"
+
+ area_nazmir_11: "Nazmir XI"
+ area_nazmir_11_name: "Nazmir"
+ area_nazmir_11_adj: "Nazmir"
+
+ area_nazmir_12: "Nazmir XII"
+ area_nazmir_12_name: "Nazmir"
+ area_nazmir_12_adj: "Nazmir"
+
+ area_nazmir_13: "Nazmir XIII"
+ area_nazmir_13_name: "Nazmir"
+ area_nazmir_13_adj: "Nazmir"
+
+ area_nazmir_14: "Nazmir XIV"
+ area_nazmir_14_name: "Nazmir"
+ area_nazmir_14_adj: "Nazmir"
+
+ area_nazmir_15: "Nazmir XV"
+ area_nazmir_15_name: "Nazmir"
+ area_nazmir_15_adj: "Nazmir"
+
+ area_nazmir_16: "Nazmir XVI"
+ area_nazmir_16_name: "Nazmir"
+ area_nazmir_16_adj: "Nazmir"
+
+ area_nazmir_17: "Nazmir XVII"
+ area_nazmir_17_name: "Nazmir"
+ area_nazmir_17_adj: "Nazmir"
+
+ area_nazmir_18: "Nazmir XVIII"
+ area_nazmir_18_name: "Nazmir"
+ area_nazmir_18_adj: "Nazmir"
+
+ area_nazmir_19: "Nazmir XIX"
+ area_nazmir_19_name: "Nazmir"
+ area_nazmir_19_adj: "Nazmir"
+
+ area_nazmir_20: "Nazmir XX"
+ area_nazmir_20_name: "Nazmir"
+ area_nazmir_20_adj: "Nazmir"
+
+ area_nazmir_21: "Nazmir XXI"
+ area_nazmir_21_name: "Nazmir"
+ area_nazmir_21_adj: "Nazmir"
+
+ area_nazmir_22: "Nazmir XXII"
+ area_nazmir_22_name: "Nazmir"
+ area_nazmir_22_adj: "Nazmir"
+
+ area_nazmir_23: "Nazmir XXIII"
+ area_nazmir_23_name: "Nazmir"
+ area_nazmir_23_adj: "Nazmir"
+
+ area_nazmir_24: "Nazmir XXIV"
+ area_nazmir_24_name: "Nazmir"
+ area_nazmir_24_adj: "Nazmir"
+
+ area_nazmir_25: "Nazmir XXV"
+ area_nazmir_25_name: "Nazmir"
+ area_nazmir_25_adj: "Nazmir"
+
+ area_nazmir_26: "Nazmir XXVI"
+ area_nazmir_26_name: "Nazmir"
+ area_nazmir_26_adj: "Nazmir"
+
+ area_nazmir_27: "Nazmir XXVII"
+ area_nazmir_27_name: "Nazmir"
+ area_nazmir_27_adj: "Nazmir"
+
+ area_nazmir_28: "Nazmir XXVIII"
+ area_nazmir_28_name: "Nazmir"
+ area_nazmir_28_adj: "Nazmir"
+
+ area_nazmir_29: "Nazmir XXIX"
+ area_nazmir_29_name: "Nazmir"
+ area_nazmir_29_adj: "Nazmir"
+
+ area_nazmir_30: "Nazmir XXX"
+ area_nazmir_30_name: "Nazmir"
+ area_nazmir_30_adj: "Nazmir"
+
+ area_nazmir_31: "Nazmir XXXI"
+ area_nazmir_31_name: "Nazmir"
+ area_nazmir_31_adj: "Nazmir"
+
+ area_nazmir_32: "Nazmir XXXII"
+ area_nazmir_32_name: "Nazmir"
+ area_nazmir_32_adj: "Nazmir"
+
+ area_nazmir_33: "Nazmir XXXIII"
+ area_nazmir_33_name: "Nazmir"
+ area_nazmir_33_adj: "Nazmir"
+
+ area_nazmir_34: "Nazmir XXXIV"
+ area_nazmir_34_name: "Nazmir"
+ area_nazmir_34_adj: "Nazmir"
+
+ area_nazmir_35: "Nazmir XXXV"
+ area_nazmir_35_name: "Nazmir"
+ area_nazmir_35_adj: "Nazmir"
+
+ area_nazmir_36: "Nazmir XXXVI"
+ area_nazmir_36_name: "Nazmir"
+ area_nazmir_36_adj: "Nazmir"
+
+ area_nazmir_37: "Nazmir XXXVII"
+ area_nazmir_37_name: "Nazmir"
+ area_nazmir_37_adj: "Nazmir"
+
+ area_nazmir_38: "Nazmir XXXVIII"
+ area_nazmir_38_name: "Nazmir"
+ area_nazmir_38_adj: "Nazmir"
+
+ area_nazmir_39: "Nazmir XXXIX"
+ area_nazmir_39_name: "Nazmir"
+ area_nazmir_39_adj: "Nazmir"
+
+ area_nazmir_40: "Nazmir XL"
+ area_nazmir_40_name: "Nazmir"
+ area_nazmir_40_adj: "Nazmir"
+
+ area_nazmir_41: "Nazmir XLI"
+ area_nazmir_41_name: "Nazmir"
+ area_nazmir_41_adj: "Nazmir"
+
+ area_nazmir_42: "Nazmir XLII"
+ area_nazmir_42_name: "Nazmir"
+ area_nazmir_42_adj: "Nazmir"
+
+ area_nazmir_43: "Nazmir XLIII"
+ area_nazmir_43_name: "Nazmir"
+ area_nazmir_43_adj: "Nazmir"
+
+ area_nazmir_44: "Nazmir XLIV"
+ area_nazmir_44_name: "Nazmir"
+ area_nazmir_44_adj: "Nazmir"
+
+ area_nazmir_45: "Nazmir XLV"
+ area_nazmir_45_name: "Nazmir"
+ area_nazmir_45_adj: "Nazmir"
+
+ area_nazmir_46: "Nazmir XLVI"
+ area_nazmir_46_name: "Nazmir"
+ area_nazmir_46_adj: "Nazmir"
+
+ area_nazmir_47: "Nazmir XLVII"
+ area_nazmir_47_name: "Nazmir"
+ area_nazmir_47_adj: "Nazmir"
+
+ area_nazmir_48: "Nazmir XLVIII"
+ area_nazmir_48_name: "Nazmir"
+ area_nazmir_48_adj: "Nazmir"
+
+ area_nazmir_49: "Nazmir XLIX"
+ area_nazmir_49_name: "Nazmir"
+ area_nazmir_49_adj: "Nazmir"
+
+ area_nazmir_50: "Nazmir L"
+ area_nazmir_50_name: "Nazmir"
+ area_nazmir_50_adj: "Nazmir"
+ 
+ area_voldun_1: "Vol'dun I"
+ area_voldun_1_name: "Vol'dun"
+ area_voldun_1_adj: "Vol'dun"
+
+ area_voldun_2: "Vol'dun II"
+ area_voldun_2_name: "Vol'dun"
+ area_voldun_2_adj: "Vol'dun"
+
+ area_voldun_3: "Vol'dun III"
+ area_voldun_3_name: "Vol'dun"
+ area_voldun_3_adj: "Vol'dun"
+
+ area_voldun_4: "Vol'dun IV"
+ area_voldun_4_name: "Vol'dun"
+ area_voldun_4_adj: "Vol'dun"
+
+ area_voldun_5: "Vol'dun V"
+ area_voldun_5_name: "Vol'dun"
+ area_voldun_5_adj: "Vol'dun"
+
+ area_voldun_6: "Vol'dun VI"
+ area_voldun_6_name: "Vol'dun"
+ area_voldun_6_adj: "Vol'dun"
+
+ area_voldun_7: "Vol'dun VII"
+ area_voldun_7_name: "Vol'dun"
+ area_voldun_7_adj: "Vol'dun"
+
+ area_voldun_8: "Vol'dun VIII"
+ area_voldun_8_name: "Vol'dun"
+ area_voldun_8_adj: "Vol'dun"
+
+ area_voldun_9: "Vol'dun IX"
+ area_voldun_9_name: "Vol'dun"
+ area_voldun_9_adj: "Vol'dun"
+
+ area_voldun_10: "Vol'dun X"
+ area_voldun_10_name: "Vol'dun"
+ area_voldun_10_adj: "Vol'dun"
+
+ area_voldun_11: "Vol'dun XI"
+ area_voldun_11_name: "Vol'dun"
+ area_voldun_11_adj: "Vol'dun"
+
+ area_voldun_12: "Vol'dun XII"
+ area_voldun_12_name: "Vol'dun"
+ area_voldun_12_adj: "Vol'dun"
+
+ area_voldun_13: "Vol'dun XIII"
+ area_voldun_13_name: "Vol'dun"
+ area_voldun_13_adj: "Vol'dun"
+
+ area_voldun_14: "Vol'dun XIV"
+ area_voldun_14_name: "Vol'dun"
+ area_voldun_14_adj: "Vol'dun"
+
+ area_voldun_15: "Vol'dun XV"
+ area_voldun_15_name: "Vol'dun"
+ area_voldun_15_adj: "Vol'dun"
+
+ area_voldun_16: "Vol'dun XVI"
+ area_voldun_16_name: "Vol'dun"
+ area_voldun_16_adj: "Vol'dun"
+
+ area_voldun_17: "Vol'dun XVII"
+ area_voldun_17_name: "Vol'dun"
+ area_voldun_17_adj: "Vol'dun"
+
+ area_voldun_18: "Vol'dun XVIII"
+ area_voldun_18_name: "Vol'dun"
+ area_voldun_18_adj: "Vol'dun"
+
+ area_voldun_19: "Vol'dun XIX"
+ area_voldun_19_name: "Vol'dun"
+ area_voldun_19_adj: "Vol'dun"
+
+ area_voldun_20: "Vol'dun XX"
+ area_voldun_20_name: "Vol'dun"
+ area_voldun_20_adj: "Vol'dun"
+
+ area_voldun_21: "Vol'dun XXI"
+ area_voldun_21_name: "Vol'dun"
+ area_voldun_21_adj: "Vol'dun"
+
+ area_voldun_22: "Vol'dun XXII"
+ area_voldun_22_name: "Vol'dun"
+ area_voldun_22_adj: "Vol'dun"
+
+ area_voldun_23: "Vol'dun XXIII"
+ area_voldun_23_name: "Vol'dun"
+ area_voldun_23_adj: "Vol'dun"
+
+ area_voldun_24: "Vol'dun XXIV"
+ area_voldun_24_name: "Vol'dun"
+ area_voldun_24_adj: "Vol'dun"
+
+ area_voldun_25: "Vol'dun XXV"
+ area_voldun_25_name: "Vol'dun"
+ area_voldun_25_adj: "Vol'dun"
+
+ area_voldun_26: "Vol'dun XXVI"
+ area_voldun_26_name: "Vol'dun"
+ area_voldun_26_adj: "Vol'dun"
+
+ area_voldun_27: "Vol'dun XXVII"
+ area_voldun_27_name: "Vol'dun"
+ area_voldun_27_adj: "Vol'dun"
+
+ area_voldun_28: "Vol'dun XXVIII"
+ area_voldun_28_name: "Vol'dun"
+ area_voldun_28_adj: "Vol'dun"
+
+ area_voldun_29: "Vol'dun XXIX"
+ area_voldun_29_name: "Vol'dun"
+ area_voldun_29_adj: "Vol'dun"
+
+ area_voldun_30: "Vol'dun XXX"
+ area_voldun_30_name: "Vol'dun"
+ area_voldun_30_adj: "Vol'dun"
+
+ area_voldun_31: "Vol'dun XXXI"
+ area_voldun_31_name: "Vol'dun"
+ area_voldun_31_adj: "Vol'dun"
+
+ area_voldun_32: "Vol'dun XXXII"
+ area_voldun_32_name: "Vol'dun"
+ area_voldun_32_adj: "Vol'dun"
+
+ area_voldun_33: "Vol'dun XXXIII"
+ area_voldun_33_name: "Vol'dun"
+ area_voldun_33_adj: "Vol'dun"
+
+ area_voldun_34: "Vol'dun XXXIV"
+ area_voldun_34_name: "Vol'dun"
+ area_voldun_34_adj: "Vol'dun"
+
+ area_voldun_35: "Vol'dun XXXV"
+ area_voldun_35_name: "Vol'dun"
+ area_voldun_35_adj: "Vol'dun"
+
+ area_voldun_36: "Vol'dun XXXVI"
+ area_voldun_36_name: "Vol'dun"
+ area_voldun_36_adj: "Vol'dun"
+
+ area_voldun_37: "Vol'dun XXXVII"
+ area_voldun_37_name: "Vol'dun"
+ area_voldun_37_adj: "Vol'dun"
+
+ area_voldun_38: "Vol'dun XXXVIII"
+ area_voldun_38_name: "Vol'dun"
+ area_voldun_38_adj: "Vol'dun"
+
+ area_voldun_39: "Vol'dun XXXIX"
+ area_voldun_39_name: "Vol'dun"
+ area_voldun_39_adj: "Vol'dun"
+
+ area_voldun_40: "Vol'dun XL"
+ area_voldun_40_name: "Vol'dun"
+ area_voldun_40_adj: "Vol'dun"
+
+ area_voldun_41: "Vol'dun XLI"
+ area_voldun_41_name: "Vol'dun"
+ area_voldun_41_adj: "Vol'dun"
+
+ area_voldun_42: "Vol'dun XLII"
+ area_voldun_42_name: "Vol'dun"
+ area_voldun_42_adj: "Vol'dun"
+
+ area_voldun_43: "Vol'dun XLIII"
+ area_voldun_43_name: "Vol'dun"
+ area_voldun_43_adj: "Vol'dun"
+
+ area_voldun_44: "Vol'dun XLIV"
+ area_voldun_44_name: "Vol'dun"
+ area_voldun_44_adj: "Vol'dun"
+
+ area_voldun_45: "Vol'dun XLV"
+ area_voldun_45_name: "Vol'dun"
+ area_voldun_45_adj: "Vol'dun"
+
+ area_voldun_46: "Vol'dun XLVI"
+ area_voldun_46_name: "Vol'dun"
+ area_voldun_46_adj: "Vol'dun"
+
+ area_voldun_47: "Vol'dun XLVII"
+ area_voldun_47_name: "Vol'dun"
+ area_voldun_47_adj: "Vol'dun"
+
+ area_voldun_48: "Vol'dun XLVIII"
+ area_voldun_48_name: "Vol'dun"
+ area_voldun_48_adj: "Vol'dun"
+
+ area_voldun_49: "Vol'dun XLIX"
+ area_voldun_49_name: "Vol'dun"
+ area_voldun_49_adj: "Vol'dun"
+
+ area_voldun_50: "Vol'dun L"
+ area_voldun_50_name: "Vol'dun"
+ area_voldun_50_adj: "Vol'dun"

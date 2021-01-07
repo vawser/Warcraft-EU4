@@ -133,6 +133,27 @@ death_group = {
 		}
     }
     
-    
+    bloodmancy = {
+        color = { 133 130 215 }
+		icon = 3
+		
+		country = {
+			global_manpower_modifier = 0.2
+		}
+		
+		province = {
+			local_missionary_strength = -0.02
+		}
+        
+		on_convert = {
+			change_religion = bloodmancy
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+    }
 }
 

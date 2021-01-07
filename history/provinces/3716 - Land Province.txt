@@ -1,17 +1,16 @@
 
 is_city = yes
-owner = ZDL
-controller = ZDL
-add_core = ZDL
+owner = SEK
+controller = SEK
+add_core = SEK
 
-base_tax = 3
-base_production = 3
+base_tax = 5
+base_production = 4
 base_manpower = 4
 
-culture = zandalari
-religion = voodoo
+culture = sethrak
+religion = faithless
 
 trade_goods = unknown
 hre = no
-
 

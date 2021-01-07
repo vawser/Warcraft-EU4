@@ -64,5 +64,8 @@ discover_home_continent = {
     pg_broken_isles_lakes = {
 		discover_country = ROOT
 	}
+    pg_zandalar_lakes = {
+		discover_country = ROOT
+	}
 }
 

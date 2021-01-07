@@ -3,6 +3,7 @@ government = pirate
 add_government_reform = pirate_republic_reform
 primary_culture = wastewander
 religion = avarice
+religious_school = naval_philosophy
 
 capital = 5129
 

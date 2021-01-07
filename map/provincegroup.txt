@@ -34,3 +34,7 @@ pg_pandaria_lakes = {
 pg_broken_isles_lakes = {
     1553 1554
 }
+
+pg_zandalar_lakes = {
+    1016 536 535
+}

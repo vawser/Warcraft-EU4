@@ -18,6 +18,8 @@ tortollan_group = {
     }
     
     tortollan = {  
+        primary = TOR
+        
         male_names = { }
         female_names = { }
 		dynasty_names = { }

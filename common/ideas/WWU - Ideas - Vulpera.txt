@@ -1,0 +1,37 @@
+# Vulpera
+vulpera_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		culture_group = vulpera_group
+	}
+	free = yes		
+	
+	vulpera_ideas_1 = {
+		
+	}
+	vulpera_ideas_2 = {
+		
+	}
+	vulpera_ideas_3 = {
+		
+	}
+	vulpera_ideas_4 = {
+		
+	}
+	vulpera_ideas_5 = {
+		
+	}
+	vulpera_ideas_6 = {
+		
+	}
+	vulpera_ideas_7 = {
+		
+	}
+}

@@ -1,0 +1,37 @@
+# Tortollan
+tortollan_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		culture_group = tortollan_group
+	}
+	free = yes		
+	
+	tortollan_ideas_1 = {
+		
+	}
+	tortollan_ideas_2 = {
+		
+	}
+	tortollan_ideas_3 = {
+		
+	}
+	tortollan_ideas_4 = {
+		
+	}
+	tortollan_ideas_5 = {
+		
+	}
+	tortollan_ideas_6 = {
+		
+	}
+	tortollan_ideas_7 = {
+		
+	}
+}

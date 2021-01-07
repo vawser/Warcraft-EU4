@@ -26,7 +26,9 @@ sethrak_group = {
         "Dunescale" "Dunefury" "Dunerod" "Dunetail" "Duneslither" "Dunerak" "Dunetalon"
     }
     
-    sethrak = {  
+    sethrak = { 
+        primary = SEK
+        
         male_names = { }
         female_names = { }
 		dynasty_names = { }

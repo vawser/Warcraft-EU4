@@ -1471,15 +1471,8 @@ region_eye_of_azshara = {
 }
 
 # --------------------------------------
-# Islands
+# Zandalar
 # --------------------------------------
-region_kezan = {
-    areas = {
-        area_kezan_1
-        area_kezan_2
-    }
-}
-
 region_zandalar = {
     areas = {
         area_zandalar_1
@@ -1488,6 +1481,42 @@ region_zandalar = {
         area_zandalar_4
         area_zandalar_5
         area_zandalar_6
+        area_zandalar_7
+        area_zandalar_8
+    }
+}
+
+
+region_nazmir = {
+    areas = {
+        area_nazmir_1
+        area_nazmir_2
+        area_nazmir_3
+        area_nazmir_4
+        area_nazmir_5
+    }
+}
+
+
+region_voldun = {
+    areas = {
+        area_voldun_1
+        area_voldun_2
+        area_voldun_3
+        area_voldun_4
+        area_voldun_5
+        area_voldun_6
+    }
+}
+
+
+# --------------------------------------
+# Islands
+# --------------------------------------
+region_kezan = {
+    areas = {
+        area_kezan_1
+        area_kezan_2
     }
 }
 
@@ -1499,6 +1528,8 @@ region_plunder_isle = {
         area_plunder_isle_4
     }
 }
+
+
 
 #-------------------
 # Oceans
@@ -1558,7 +1589,6 @@ region_ocean_7 = {
     areas = {
         area_ocean_southeast_2
         area_coast_east_pandaria
-        area_ocean_centre_east_3
     }
 }
 
@@ -1566,7 +1596,6 @@ region_ocean_8 = {
     areas = {
         area_coast_khaz_modan_west
         area_ocean_centre_east_1
-        area_ocean_centre_east_2
         area_coast_gilneas
         area_coast_kul_tiras_isles
     }
@@ -1577,6 +1606,8 @@ region_ocean_9 = {
         area_coast_zandalar
         area_coast_broken_isles
         area_ocean_maelstrom_2
+        area_ocean_centre_east_2
+        area_ocean_centre_east_3
     }
 }
 

@@ -1,9 +1,9 @@
 # Specific
 gov_theocracy_blood_troll = {
 	rank = {
-		1 = THEOCRACY
-		2 = THEOCRACY
-		3 = THEOCRACY
+		1 = BLOOD_CULT
+		2 = BLOOD_CULT
+		3 = BLOOD_CULT
 	}
 	
 	ruler_male = {

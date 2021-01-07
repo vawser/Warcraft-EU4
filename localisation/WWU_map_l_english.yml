@@ -38,6 +38,7 @@
  northrend_superregion: "Northrend"
  pandaria_superregion: "Pandaria"
  broken_isles_superregion: "Broken Isles"
+ zandalar_superregion: "Zandalar"
  
  #-----------------------------------------------
  # Regions
@@ -117,6 +118,9 @@
  region_kun_lai_summit: "Kun-lai Summit"
  
  region_zandalar: "Zandalar"
+ region_nazmir: "Nazmir"
+ region_voldun: "Vol'dun"
+ 
  region_plunder_isle: "Plunder Isle"
 
  region_eye_of_azshara: "Eye of Azshara"
@@ -161,6 +165,7 @@
  pg_northrend_lakes: "Lakes of Northrend"
  pg_pandaria_lakes: "Lakes of Pandaria"
  pg_broken_isles_lakes: "Lakes of the Broken Isles"
+ pg_zandalar_lakes: "Lakes of Zandalar"
  
  #-----------------------------------------------
  # Areas

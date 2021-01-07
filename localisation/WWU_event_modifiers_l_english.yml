@@ -1091,3 +1091,9 @@
  #-------------------------------
  yearly_assessments: "Yearly Assessments"
  desc_yearly_assessments: ""
+ 
+ #-------------------------------
+ # Innovativeness
+ #-------------------------------
+ speculative_research: "Speculative Research"
+ desc_speculative_research: ""

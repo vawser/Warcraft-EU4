@@ -4,9 +4,9 @@ owner = ZDL
 controller = ZDL
 add_core = ZDL
 
-base_tax = 4
-base_production = 3
-base_manpower = 2
+base_tax = 12
+base_production = 10
+base_manpower = 11
 
 culture = zandalari
 religion = voodoo

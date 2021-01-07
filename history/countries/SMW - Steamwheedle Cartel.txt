@@ -3,6 +3,7 @@ government = republic
 add_government_reform = mercantile_republic_reform
 primary_culture = steamwheedle_cartel
 religion = avarice
+religious_school = engineering_philosophy
 
 capital = 5143
 

@@ -487,7 +487,7 @@ province_event = {
 	desc = {
 		trigger = {
 			owner = {
-				has_reform = mission_to_civilize_reform
+				has_reform = wwu_mission_to_civilize_reform
 			}
 		}
 		desc = "EVTDESC3077.C"

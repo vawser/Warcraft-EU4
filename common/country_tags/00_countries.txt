@@ -407,6 +407,9 @@ FSM = "countries/Frostmane.txt"       # Dun Morogh
 WTX = "countries/Winterax.txt"        # Alterac Valley
 WTF = "countries/Winterfang.txt"      # Zul'Drak
 
+# ---- Blood Troll ----
+NZM = "countries/Nazmir.txt"
+
 #  ---- Tuskarr ---- 
 KAL = "countries/Kaluak.txt" 
 MOA = "countries/Moaki.txt"             
@@ -440,6 +443,15 @@ OSU = "countries/Osul.txt"          # Townlong
 DTK = "countries/Deadtalker.txt"    # Townlong
 PAW = "countries/Palewind.txt"      # Townlong
 GAI = "countries/Gai-Cho.txt"       # Townlong  
+
+# ---- Vulpera ----
+VLC = "countries/Vol'dun Cartel.txt"
+
+# ---- Sethrak ----
+SEK = "countries/Sethrak Empire.txt"
+
+# ---- Tortollan ----
+TOR = "countries/Tortollan Refuge.txt"
 
 # ---- Demon ----
 TBL = "countries/The Burning Legion.txt"

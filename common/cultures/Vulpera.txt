@@ -17,6 +17,8 @@ vulpera_group = {
     }
     
     vulpera = {  
+        primary = VLC
+        
         male_names = { }
         female_names = { }
 		dynasty_names = { }

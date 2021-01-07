@@ -1,0 +1,37 @@
+# Sethrak
+sethrak_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		culture_group = sethrak_group
+	}
+	free = yes		
+	
+	sethrak_ideas_1 = {
+		
+	}
+	sethrak_ideas_2 = {
+		
+	}
+	sethrak_ideas_3 = {
+		
+	}
+	sethrak_ideas_4 = {
+		
+	}
+	sethrak_ideas_5 = {
+		
+	}
+	sethrak_ideas_6 = {
+		
+	}
+	sethrak_ideas_7 = {
+		
+	}
+}

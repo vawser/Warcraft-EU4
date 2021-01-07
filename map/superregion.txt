@@ -107,6 +107,12 @@ broken_isles_superregion = {
     region_eye_of_azshara
 }
 
+zandalar_superregion = {
+    region_zandalar
+    region_nazmir
+    region_voldun
+}
+
 ocean_superregion = {
     region_ocean_1
     region_ocean_2

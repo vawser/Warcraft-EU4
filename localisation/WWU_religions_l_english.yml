@@ -71,6 +71,9 @@
  hakkari: "Hakkari"
  hakkari_religion_desc: "Hakkar the Soulflayer is the Blood God of the Gurubashi tribe. A vile, bloodthirsty Loa, he heard the trolls' call after the Great Sundering and decided to aid them. Hakkar gave his secrets of blood to the Gurubashi and helped them extend their civilization across most of Stranglethorn Vale, in exchange, the bloodthirsty god demands souls be sacrificed to him daily."
  
+ bloodmancy: "Bloodmancy"
+ bloodmancy_religion_desc: "As practiced by the Blood Trolls of Nazmir, bloodmancy is centered around the use of forbidden blood magic in sacred rituals."
+ 
  #-----------------------------------------------
  # Light
  #-----------------------------------------------
@@ -151,6 +154,12 @@
  #-----------------------------------------------
  philosophy_group: "Philosophy"
  philosophy_group_desc: ""
+ 
+ rationalism: "Rationalism"
+ rationalism_religion_desc: "Races such as the Tortollans pursue knowledge and artifacts with an almost religious fervor."
+ 
+ faithless: "Faithless"
+ faithless_religion_desc: "A rejection of Sethraliss by the Sethraks under Korthek."
  
  technomancy: "Technomancy"
  technomancy_religion_desc: "Races like the Gnomes or the Goblins usually don't place much value in spirituality or the concept of deity. Their society and philosophies are instead driven by an urge to invent new and ingenious technological wonders, each greater than the last. "
@@ -460,7 +469,7 @@
  HOLY_SITE_5050_DESC: "Behind the corrupted, dusty lands beneath of Silithus, one of the most sacred places in Azeroth lies, called Chamber of Heart. Here, the strongest heroes of Azeroth communicate with Azeroth."
  HOLY_SITE_3207_DESC: "Uldaman is an ancient Titan vault that has laid buried deep within the earth since the world's creation. Legends say Titans created first troggs here, and kept their recordings in the facility."
  HOLY_SITE_4921_DESC: "Temple of Uldum is a well-guarded titan facility which holds a dangerous artifact called Coffer of Promise. This device is allegedly capable of wipe out entire planet in case of unrecoverable corruption."
- HOLY_SITE_3721_DESC: "Uldir was a titan research and quarantine facility where the titans conducted experiments on the Old Gods and dissected them to try to understand them. Instead, they ended up creating another Old God: G'huun."
+ HOLY_SITE_3703_DESC: "Uldir was a titan research and quarantine facility where the titans conducted experiments on the Old Gods and dissected them to try to understand them. Instead, they ended up creating another Old God: G'huun."
  
  # Corrupt Titan
  corrupt_titan_the_dark_heart: "The Dark Heart"

@@ -533,8 +533,8 @@ province;red;green;blue;type;name;DRAWN;notes
 532;45;60;170;sea;Unnamed;DRAWN
 533;45;70;170;sea;Unnamed;DRAWN
 534;45;80;170;sea;Unnamed;DRAWN
-535;45;90;170;sea;Unnamed;DRAWN
-536;45;100;170;sea;Unnamed;DRAWN
+535;10;150;175;sea;Unnamed;DRAWN
+536;5;150;175;sea;Unnamed;DRAWN
 537;45;110;170;sea;Unnamed;DRAWN
 538;45;120;170;sea;Unnamed;DRAWN
 539;45;130;170;sea;Unnamed;DRAWN
@@ -1014,7 +1014,7 @@ province;red;green;blue;type;name;DRAWN;notes
 1013;12;50;140;sea;Unnamed;DRAWN
 1014;12;60;140;sea;Unnamed;DRAWN
 1015;12;70;140;sea;Unnamed;DRAWN
-1016;12;80;140;sea;Unnamed;DRAWN
+1016;0;150;175;lake;Unnamed;DRAWN
 1017;12;90;140;sea;Unnamed;DRAWN
 1018;12;100;140;sea;Unnamed;DRAWN
 1019;12;110;140;sea;Unnamed;DRAWN
@@ -7292,3 +7292,47 @@ province;red;green;blue;type;name;DRAWN;notes
 7291;242;50;0;wasteland;Unnamed;Zul'drak Wall
 7292;242;60;0;wasteland;Unnamed;Icecrown Gate
 7293;242;70;0;wasteland;Unnamed;Ahn'qiraji Wall
+7294;36;100;4;land;Unnamed;DRAWN
+7295;36;110;4;land;Unnamed;DRAWN
+7296;36;120;4;land;Unnamed;DRAWN
+7297;36;130;4;land;Unnamed;DRAWN
+7298;36;140;4;land;Unnamed;DRAWN
+7299;36;150;4;land;Unnamed;DRAWN
+7300;36;160;4;land;Unnamed;DRAWN
+7301;36;170;4;land;Unnamed;DRAWN
+7302;36;180;4;land;Unnamed;DRAWN
+7303;36;190;4;land;Unnamed;DRAWN
+7304;36;200;4;land;Unnamed;DRAWN
+7305;37;100;4;land;Unnamed;DRAWN
+7306;37;110;4;land;Unnamed;DRAWN
+7307;37;120;4;land;Unnamed;DRAWN
+7308;37;130;4;land;Unnamed;DRAWN
+7309;37;140;4;land;Unnamed;DRAWN
+7310;37;150;4;land;Unnamed;DRAWN
+7311;37;160;4;land;Unnamed;DRAWN
+7312;37;170;4;land;Unnamed;DRAWN
+7313;37;180;4;land;Unnamed;DRAWN
+7314;37;190;4;land;Unnamed;DRAWN
+7315;37;200;4;land;Unnamed;DRAWN
+7316;38;100;4;land;Unnamed;DRAWN
+7317;38;110;4;land;Unnamed;DRAWN
+7318;38;120;4;land;Unnamed;DRAWN
+7319;38;130;4;land;Unnamed;DRAWN
+7320;38;140;4;land;Unnamed;DRAWN
+7321;38;150;4;land;Unnamed;DRAWN
+7322;38;160;4;land;Unnamed;DRAWN
+7323;38;170;4;land;Unnamed;DRAWN
+7324;38;180;4;land;Unnamed;DRAWN
+7325;38;190;4;land;Unnamed;DRAWN
+7326;38;200;4;land;Unnamed;DRAWN
+7327;39;100;4;land;Unnamed;DRAWN
+7328;39;110;4;land;Unnamed;DRAWN
+7329;39;120;4;land;Unnamed;DRAWN
+7330;39;130;4;land;Unnamed;DRAWN
+7331;39;140;4;land;Unnamed;DRAWN
+7332;39;150;4;land;Unnamed;DRAWN
+7333;39;160;4;land;Unnamed;DRAWN
+7334;39;170;4;land;Unnamed;DRAWN
+7335;39;180;4;land;Unnamed;DRAWN
+7336;39;190;4;land;Unnamed;DRAWN
+7337;39;200;4;land;Unnamed;DRAWN

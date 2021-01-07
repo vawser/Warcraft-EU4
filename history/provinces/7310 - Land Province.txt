@@ -1,0 +1,16 @@
+
+is_city = yes
+owner = SEK
+controller = SEK
+add_core = SEK
+
+base_tax = 8
+base_production = 8
+base_manpower = 9
+
+culture = sethrak
+religion = faithless
+
+trade_goods = unknown
+hre = no
+

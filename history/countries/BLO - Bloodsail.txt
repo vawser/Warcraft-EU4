@@ -4,6 +4,7 @@ add_government_reform = pirate_kingdom_reform
 government_rank = 5
 primary_culture = bloodsail
 religion = avarice
+religious_school = military_philosophy
 
 capital = 3732
 

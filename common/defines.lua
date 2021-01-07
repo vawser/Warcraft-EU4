@@ -920,7 +920,7 @@ NCountry = {
 	TREASURE_SHIP_PASSAGE_FLAG_DECAY_DAYS = 365, -- How long the has_recent_tradeship_passage trigger is true after ship passage (days)
 	LEADER_PIPS_MONARCH_SKILL_INFLUENCE = 1.0, -- Influence of leader pips on monarch skills
 
-	REVOLUTION_SPREAD_COUNT = 3,			-- Max number of concurrent province revolution spread
+	REVOLUTION_SPREAD_COUNT = 5,			-- Max number of concurrent province revolution spread
 	REVOLUTION_DAILY_SPREAD = 1.0,			-- How much the revolution spreads each day (progress is 0-100)
 	REVOLUTION_EMBRACE_MIN_SPREAD = 1.0,	-- Minimum revolution spread in % of state development required to embrace to Revolution
 	REVOLUTION_EMBRACE_MIN_DEV = 0,		-- Minimum country development required to embrace to Revolution
@@ -1124,9 +1124,9 @@ NMilitary = {
 	MIN_MONTHLY_SAILORS = 5,						-- 5 sailors/month is minimum
 	SLAVE_RAIDS_SAILOR_FACTOR = 0.25,						--
 	SLAVE_RAIDS_DURATION = 3650,
-	INFANTRY_SPEED = 0.7, 							-- _MDEF_INFANTRY_SPEED = 10,
-	CAVALRY_SPEED = 0.7, 							-- _MDEF_CAVALRY_SPEED = 10,
-	ARTILLERY_SPEED = 0.7, 							-- _MDEF_ARTILLERY_SPEED = 10,
+	INFANTRY_SPEED = 1.0, 							-- _MDEF_INFANTRY_SPEED = 10,
+	CAVALRY_SPEED = 1.0, 							-- _MDEF_CAVALRY_SPEED = 10,
+	ARTILLERY_SPEED = 1.0, 							-- _MDEF_ARTILLERY_SPEED = 10,
 	HEAVY_SHIP_SPEED = 6.0, 						-- _MDEF_HEAVY_SHIP_SPEED = 10,
 	LIGHT_SHIP_SPEED = 10.0, 						-- _MDEF_LIGHT_SHIP_SPEED = 10,
 	GALLEY_SPEED = 4.0, 							-- _MDEF_GALLEY_SPEED = 10,
@@ -1139,13 +1139,13 @@ NMilitary = {
 	LIGHT_SHIP_COST = 20, 							-- _MDEF_LIGHT_SHIP_COST = 10,
 	GALLEY_COST = 10, 								-- _MDEF_GALLEY_COST = 10,
 	TRANSPORT_COST = 12,							-- _MDEF_TRANSPORT_COST = 10,
-	INFANTRY_TIME = 60, 							-- _MDEF_INFANTRY_TIME = 10,
+	INFANTRY_TIME = 90, 							-- _MDEF_INFANTRY_TIME = 10,
 	CAVALRY_TIME = 90, 								-- _MDEF_CAVALRY_TIME = 10,
-	ARTILLERY_TIME = 120, 							-- _MDEF_ARTILLERY_TIME = 10,
-	HEAVY_SHIP_TIME = 730, 							-- _MDEF_HEAVY_SHIP_TIME = 10,
-	LIGHT_SHIP_TIME = 365, 							-- _MDEF_LIGHT_SHIP_TIME = 10,
-	GALLEY_TIME = 365, 								-- _MDEF_GALLEY_TIME = 10,
-	TRANSPORT_TIME = 365, 							-- _MDEF_TRANSPORT_TIME = 10,
+	ARTILLERY_TIME = 90, 							-- _MDEF_ARTILLERY_TIME = 10,
+	HEAVY_SHIP_TIME = 120, 							-- _MDEF_HEAVY_SHIP_TIME = 10,
+	LIGHT_SHIP_TIME = 90, 							-- _MDEF_LIGHT_SHIP_TIME = 10,
+	GALLEY_TIME = 90, 								-- _MDEF_GALLEY_TIME = 10,
+	TRANSPORT_TIME = 90, 							-- _MDEF_TRANSPORT_TIME = 10,
 	MONTHLY_REINFORCE = 0.1,						-- Amount of regiment strength reinforced each month.
 	MONTHLY_REPAIR = 0.1,							-- Ship repair speed.
 	EXTRA_LAND_REINFORCE_COST = 2.00,				-- extra cost for reinforcing land units (as a multiplier of maintenance).
@@ -1156,8 +1156,8 @@ NMilitary = {
 	CONDOTTIERI_TRADITION_BONUS = 0.5,				-- This modifies army tradition gained from fighting with condottieris
 	FRONT_LINE_MODIFIER = 1.0, 						-- _MDEF_FRONT_LINE_MODIFIER_
 	BACK_LINE_MODIFIER = 0.5, 						-- _MDEF_BACK_LINE_MODIFIER_
-	BASE_COMBAT_WIDTH = 15.0,						-- _MDEF_BASE_COMBAT_WIDTH_
-	MAX_COMBAT_WIDTH = 40,
+	BASE_COMBAT_WIDTH = 20.0,						-- _MDEF_BASE_COMBAT_WIDTH_
+	MAX_COMBAT_WIDTH = 30,
 	FORCE_MARCH_FACTOR = 0.5,						--
 	LOOT_DEVASTATION_IMPACT = 10,						-- how much devastation full loot impacts
 	SCORCHED_DEVASTATION_IMPACT = 5, 					-- how much devastation scorching impacts.
@@ -1185,7 +1185,7 @@ NMilitary = {
 	DEFAULT_WARGOAL_WARSCORE_BONUS	= 5,			-- Warscore bonus
 	DEFAULT_WARGOAL_BATTLESCORE_BONUS = 3,		-- Battle score bonus from winning battles
 	SUPERIORITY_WARGOAL_WARSCORE_THRESHOLD	= 10,	-- Needed battle score for getting ticking war score for war goal superiority
-	WARSCORE_MAX_FROM_BATTLES = 40,					-- maximum amount to get from a battles .
+	WARSCORE_MAX_FROM_BATTLES = 60,					-- maximum amount to get from a battles .
 	WAR_ENTHUSIASM_HIGH_THRESHOLD = -20,			-- desire for peace must be less than this for high war enthuasiasm
 	WAR_ENTHUSIASM_LOW_THRESHOLD = 0,				-- desire for peace must be more than this for low war enthusiasm
 	EXPLORATION_TRAVEL_TIME = 3,					-- Multiplier for travel time when exploring
@@ -1207,7 +1207,7 @@ NMilitary = {
 	SEA_LANDING_PENALTY = -2,							-- Dice roll penalty from sea invasion
 	MOTHBALLING_MONTHLY_DECREASE = 0.05,				-- When mothballin is turned on, the units strength will lose this much each month
 	MOTHBALLING_MINIMUM_STRENGTH = 0.25,				-- The minimum strength value the fleet will reach while mothballin
-	MIN_RECRUIT_TIME_MODIFIER = 0.2,					-- Recruit time cannot be lower than this * base
+	MIN_RECRUIT_TIME_MODIFIER = 0.1,					-- Recruit time cannot be lower than this * base
 	PRESTIGE_FROM_LAND = 10,					-- Maximum base prestige from land battles (unmodified).
 	PRESTIGE_FROM_NAVAL = 10,					-- Maximum base prestige from naval battles (unmodified).
 	CONDOTTIERI_PRESTIGE_BONUS = 0.5,			-- Prestige from land battles are modified by this.
@@ -1302,14 +1302,14 @@ NMilitary = {
 },
 
 NAI = {
-	ACCEPTABLE_BALANCE_DEFAULT = 1.7, --AI wants this advantage to enter battles typically. (There are some exceptions, e.g. offensives.)
+	ACCEPTABLE_BALANCE_DEFAULT = 0.9, --AI wants this advantage to enter battles typically. (There are some exceptions, e.g. offensives.)
 	ACCEPTABLE_BALANCE_FRIEND_IN_COMBAT = 0.75,
 	EDICT_VALUE_THRESHOLD = 120, -- The higher this value, the less the AI will use Edicts
 	EDICT_VALUE_THRESHOLD_MULTIPLY_DEFICIT = 10, -- Change to above threshold in case of running deficit
 	EDICT_VALUE_THRESHOLD_MULTIPLY_LOW_INCOME = 3, -- Change to above threshold in case of low income
 	PRESS_THEM_FURTHER = 0, -- This makes AI that has been promised land require that the enemy is pressed further if they think it is possible. Set to 1 to activate
 	CALL_ACCEPTANCE_COALITION_VS_SUBJECT = -60, -- Acceptance penalty when an AI's Tributary (or currently non-existing Subject type with similar mechanic) calls to war against someone who is in a coalition against them
-	WANT_TRIBUTARY_LOST_MANDATE = 10, -- How important it is for Celestial Emperor to make tributaries out of neighbors.
+	WANT_TRIBUTARY_LOST_MANDATE = 1, -- How important it is for Celestial Emperor to make tributaries out of neighbors.
 	MIN_CAV_PERCENTAGE = 5, --AI will always try to have at least this many % of their army as cav, regardless of time in the game.
 	MAX_CAV_PERCENTAGE = 50, -- For modding, actual ratio is dynamically computed but will be no higher than this.
 	FOG_OF_WAR_FORGET_CHANCE = 1, --Daily percentage chance of AI forgetting a unit that's hidden in Fog of War.
@@ -1354,8 +1354,8 @@ NAI = {
 	SUBSIDY_YEARS = 20, -- Years AI will give subsidies for
 	MIN_INCOME_FOR_SUBSIDIES = 20, -- Minimum monthly income for AI to want to spend some on subsidies
 	PS_SHORT_TERM_POOL = 100, -- Max power AI will store in its short-term spending pool
-	AGGRESSIVENESS = 200, -- Base chance (out of 10000) of AI being willing to start a war each diplomatic tick (~1.5 times a month)
-	AGGRESSIVENESS_BONUS_EASY_WAR = 300, -- Added to aggressiveness if the war is against a weak or particularily hated enemy
+	AGGRESSIVENESS = 1000, -- Base chance (out of 10000) of AI being willing to start a war each diplomatic tick (~1.5 times a month)
+	AGGRESSIVENESS_BONUS_EASY_WAR = 2000, -- Added to aggressiveness if the war is against a weak or particularily hated enemy
 	MISSION_PICK_CHANCE = 33, -- Monthly chance of AI picking a mission if it lacks one (of 100)
 	TRADE_INTEREST_THRESHOLD = 3, -- Number of merchants required to be a nation with trade interest
 	DEFICIT_SPENDING_MIN_MONTHS = 6, -- AI must have at least this many monthly deficits of savings to be willing to deficit spend
@@ -1400,15 +1400,15 @@ NAI = {
 	PEACE_BATTLE_RELUCTANCE = 60, -- Reluctance multiplied by fraction of support limit currently in an ongoing battle in this war (to encourage battle resolution before peacing).
 	PEACE_EXCESSIVE_DEMANDS_FACTOR = 0.005, -- AI unwillingness to peace based on demanding more stuff than you have warscore
 	PEACE_EXCESSIVE_DEMANDS_THRESHOLD = 20, -- If you have less warscore than this, excessive demands will be factored in more highly
-	PEACE_TIME_MONTHS = 60, -- Months of additional AI stubbornness in a war
-	PEACE_TIME_MAX_MONTHS = 600, -- Max months applied to time factor in a war
+	PEACE_TIME_MONTHS = 0, -- Months of additional AI stubbornness in a war
+	PEACE_TIME_MAX_MONTHS = 0, -- Max months applied to time factor in a war
 	PEACE_TIME_EARLY_FACTOR = 0.75, -- During months of stubbornness the effect of time passed is multiplied by this
 	PEACE_TIME_LATE_FACTOR = 1.0, -- After months of stubbornness the effect of time passed is multiplied by this (only applied to positive war enthusiasm)
 	PEACE_STALLED_WAR_TIME_FACTOR = 0.34, -- Applied to number of years war has been stalled to determine how much positive war enthusiasm is reduced
 	PEACE_STALLED_WAR_THRESHOLD = 3, -- If the warscore has changed by this amount or less in the last year, the war is stalled
-	PEACE_WAR_EXHAUSTION_FACTOR = 1.0, -- AI willingness to peace based on war exhaustion
+	PEACE_WAR_EXHAUSTION_FACTOR = 2.0, -- AI willingness to peace based on war exhaustion
 	PEACE_HIGH_WAR_EXHAUSTION_THRESHOLD = 10, -- Threshold for when PEACE_HIGH_WAR_EXHAUSTION_FACTOR is applied
-	PEACE_HIGH_WAR_EXHAUSTION_FACTOR = 2.0, -- Additional AI willingness to peace based on war exhaustion above the high threshold
+	PEACE_HIGH_WAR_EXHAUSTION_FACTOR = 5.0, -- Additional AI willingness to peace based on war exhaustion above the high threshold
 	PEACE_WAR_DIRECTION_FACTOR = 0.5, -- AI willingness to peace based on who's making gains in the war
 	PEACE_WAR_DIRECTION_WINNING_MULT = 5.0, -- Multiplies AI emphasis on war direction if it's the one making gains
 	PEACE_FORCE_BALANCE_FACTOR = 0.2, -- AI willingness to peace based on strength estimation of both sides
@@ -1428,7 +1428,7 @@ NAI = {
 	PEACE_ALLY_MILITARY_STRENGTH_MULT = 2.0, -- Multiplies PEACE_MILITARY_STRENGTH_FACTOR for allies in a war
 	PEACE_OTHER_WAR_FORCE_BALANCE_MULT = 0.5, -- Multiplies the force balance of other countries who are involved in a different war with either side
 	PEACE_INCONCLUSIVE_THRESHOLD = 10,	-- no demands will be accepted by AI if under this warscore
-	PEACE_DESPERATION_FACTOR = 40, -- AI willingness to peace based on desperation from occupied homelands
+	PEACE_DESPERATION_FACTOR = 100, -- AI willingness to peace based on desperation from occupied homelands
 	PEACE_ALLY_DESPERATION_MULT = 1.0, -- Multiplies PEACE_DESPERATION_FACTOR for allies in a war
 	PEACE_REBELS_FACTOR = 20, -- AI willingness to peace based on number of revolts in their provinces
 	PEACE_COALITION_FACTOR = 30, -- AI unwillingness to peace based on being in a coalition war

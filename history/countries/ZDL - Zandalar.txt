@@ -5,7 +5,7 @@ government_rank = 3
 primary_culture = zandalari
 religion = voodoo
 
-capital = 3710
+capital = 3713
 
 # The First War
 592.1.1 = {
