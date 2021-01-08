@@ -1,7 +1,7 @@
 technology_group = tech_draenei
 government = theocracy
 add_government_reform = theocracy_reform
-government_rank = 5
+government_rank = 2
 primary_culture = exodar
 religion = light_of_the_naaru
 

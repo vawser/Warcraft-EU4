@@ -1,7 +1,6 @@
 technology_group = tech_frost_troll
 government = monarchy
 add_government_reform = troll_kingdom_reform
-government_rank = 1
 primary_culture = frostmane
 religion = voodoo
 

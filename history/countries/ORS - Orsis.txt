@@ -1,7 +1,6 @@
 technology_group = tech_tolvir
 government = theocracy
 add_government_reform = tolvir_kingdom_reform
-government_rank = 2
 primary_culture = orsis
 religion = titan_worship
 

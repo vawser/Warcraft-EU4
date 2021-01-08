@@ -1,7 +1,6 @@
 technology_group = tech_night_elf
 government = theocracy
 add_government_reform = druidic_circle_reform
-government_rank = 2
 primary_culture = valsharah
 religion = elune
 

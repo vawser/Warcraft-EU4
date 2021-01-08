@@ -1,7 +1,6 @@
 technology_group = tech_night_elf
 government = theocracy
 add_government_reform = monastic_order_reform
-government_rank = 2
 primary_culture = sentinels_of_auberdine
 religion = elune
 

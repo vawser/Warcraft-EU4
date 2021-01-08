@@ -1,7 +1,6 @@
 technology_group = tech_orc
 government = republic
 add_government_reform = despotic_republic_reform
-government_rank = 5
 primary_culture = orgrimmar
 religion = shamanism
 

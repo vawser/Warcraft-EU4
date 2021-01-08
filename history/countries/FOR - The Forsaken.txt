@@ -1,7 +1,7 @@
 technology_group = tech_undead
 government = monarchy
 add_government_reform = autocracy_reform
-government_rank = 3
+government_rank = 2
 primary_culture = forsaken
 religion = necromancy
 

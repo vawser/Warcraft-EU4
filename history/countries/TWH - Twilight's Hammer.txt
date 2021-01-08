@@ -1,7 +1,6 @@
 technology_group = tech_orc
 government = theocracy
 add_government_reform = theocracy_reform
-government_rank = 2
 primary_culture = twilights_hammer
 religion = fel
 

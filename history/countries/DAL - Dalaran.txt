@@ -1,7 +1,7 @@
 technology_group = tech_human
 government = republic
 add_government_reform = magocracy_reform
-government_rank = 5
+government_rank = 2
 primary_culture = dalaran
 religion = arcane
 

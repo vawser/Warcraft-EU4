@@ -1,7 +1,7 @@
 technology_group = tech_orc
 government = tribal
 add_government_reform = orcish_horde_reform
-government_rank = 3
+government_rank = 2
 primary_culture = orc
 religion = fel
 

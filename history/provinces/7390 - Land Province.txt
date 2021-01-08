@@ -4,9 +4,9 @@ owner = KUL
 controller = KUL
 add_core = KUL
 
-base_tax = 1
-base_production = 2
-base_manpower = 2
+base_tax = 8
+base_production = 6
+base_manpower = 9
 
 culture = kul_tiras
 religion = the_holy_light
@@ -14,3 +14,6 @@ religion = the_holy_light
 trade_goods = unknown
 hre = no
 
+200.1.1 = {
+    center_of_trade = 1
+}
