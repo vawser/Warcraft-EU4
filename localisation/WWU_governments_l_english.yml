@@ -282,6 +282,11 @@
  mantid_kingdom_legacy: "Mantid Kingdom"
  mantid_kingdom_legacy_desc: ""
  
+ naga_empire_reform: "Naga Empire"
+ naga_empire_reform_desc: ""
+ naga_empire_legacy: "Naga Empire"
+ naga_empire_legacy_desc: ""
+ 
  # Tribal
  orcish_horde_reform: "Orcish Horde"
  orcish_horde_reform_desc: ""
@@ -841,6 +846,8 @@
  SATYR_SECT: "Demonic Sect"
  
  BLOOD_CULT: "Blood Cult"
+ 
+ EMPIRE_OF_AZSHARA: "Empire of Azshara"
  
  #---------------------------------------------
  # Ruler Names

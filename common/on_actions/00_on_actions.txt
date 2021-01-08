@@ -311,6 +311,7 @@ on_new_monarch = {
     events = {
 		wwu_dynastic.19
 		wwu_pretender.1
+        wwu_government.50 # Nazjatar
     }
 	random_events = {
 		1000 = 0

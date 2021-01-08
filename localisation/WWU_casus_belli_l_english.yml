@@ -56,6 +56,9 @@
  cb_imperial_wwu: "Imperialism"
  cb_imperial_wwu_desc: "They will be better off in our glorious empire!"
  
+ cb_wrath_of_azshara: "Wrath of Azshara"
+ cb_wrath_of_azshara_desc: "They will be better off in our glorious naga empire!"
+ 
  #Wargoals
  titan_clash: "Titan Clash"
  titan_clash_desc: ""

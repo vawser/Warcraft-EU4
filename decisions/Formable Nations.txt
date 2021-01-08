@@ -555,53 +555,25 @@ country_decisions = {
         ai_importance = 400
         
 		potential = {
-			NOT = { exists = X09 }
+			NOT = { exists = NZJ }
 			culture_group = naga_group
 		}
         provinces_to_highlight = {
-			OR = {
-                area = area_eye_of_azshara_1
-                area = area_azsuna_2
-                area = area_borean_tundra_4
-                area = area_borean_tundra_5
-                area = area_azshara_8
-                province_id = 4802
-                province_id = 4801
-            }
+			region = region_nazjatar
 			NOT = { owned_by = ROOT }
 		}
 		allow = {  
             is_at_war = no
-            total_development = 500
-            
-            area_eye_of_azshara_1 = {
+            region_nazjatar = {
                 type = all
                 owned_by = ROOT
             }
-            area_azsuna_2 = {
-                type = all
-                owned_by = ROOT
-            }
-            area_borean_tundra_4 = {
-                type = all
-                owned_by = ROOT
-            }
-            area_borean_tundra_5 = {
-                type = all
-                owned_by = ROOT
-            }
-            area_azshara_8 = {
-                type = all
-                owned_by = ROOT
-            }
-            owns_or_vassal_of = 4802
-            owns_or_vassal_of = 4801
 		}
 		effect = {
             set_government_rank = 3
 			add_prestige = 100
             swap_free_idea_group = yes
-			change_tag = X09
+			change_tag = NZJ
 			
 			add_country_modifier = {
 				name = "centralization_modifier"

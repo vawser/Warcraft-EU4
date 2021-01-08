@@ -66,3 +66,7 @@
  wwu_government.9.option.c: "A Nobleman"
  wwu_government.9.option.d: "Delegate the selection"
  
+ # Historical Replacements
+ wwu_government.50.title: "Queen Azshara"
+ wwu_government.50.desc: "Although her wounds were deep, the death of Queen Azshara shall not be permitted whilst N'Zoth remains strong."
+ wwu_government.50.option.a: "Arise, my queen!"

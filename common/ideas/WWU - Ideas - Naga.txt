@@ -1,3 +1,42 @@
+# Nazjatar
+NZJ_ideas = {
+	start = {
+		
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		tag = NZJ
+	}
+	free = yes		
+	
+	NZJ_ideas_1 = {
+		
+	}
+	NZJ_ideas_2 = {
+		
+	}
+	NZJ_ideas_3 = {
+		
+	}
+	NZJ_ideas_4 = {
+		
+	}
+	NZJ_ideas_5 = {
+		
+	}
+	NZJ_ideas_6 = {
+		
+	}
+	NZJ_ideas_7 = {
+		
+	}
+}
+
+
 # Naga
 naga_ideas = {
 	start = {

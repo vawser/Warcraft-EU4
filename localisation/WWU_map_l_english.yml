@@ -8,6 +8,9 @@
  sheltered_urban: "Sheltered Urban"
  sheltered_urban_desc: "Represents land dominated by dwellings occupied by citizens of the nation whom owns the land."
  
+ underwater: "Underwater"
+ underwater_desc: "Represets areas occupied by naga or other waterborne species."
+ 
  #-----------------------------------------------
  # Continents
  #-----------------------------------------------
@@ -25,6 +28,9 @@
  zandalar: "Zandalar"
  plunder_isle: "Plunder Isle"
  kul_tiras: "Kul Tiras"
+ nazjatar: "Nazjatar"
+ vashjir: "Vash'jir"
+ 
  #-----------------------------------------------
  # Superregions
  #-----------------------------------------------
@@ -40,6 +46,9 @@
  broken_isles_superregion: "Broken Isles"
  zandalar_superregion: "Zandalar"
  kul_tiras_superregion: "Kul Tiras"
+ nazjatar_superregion: "Nazjatar"
+ vashjir_superregion: "Vash'jir"
+ 
  #-----------------------------------------------
  # Regions
  #-----------------------------------------------
@@ -135,6 +144,9 @@
  region_val_sharah: "Val'sharah"
  region_stormheim: "Stormheim"
  region_highmountain: "Highmountain"
+ 
+ region_nazjatar: "Nazjatar"
+ region_vashjir: "Vash'jir"
  
  region_ocean_1: "The Primeval Sea"
  region_ocean_2: "North Forbidding Sea"

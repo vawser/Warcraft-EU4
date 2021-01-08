@@ -495,3 +495,26 @@ gov_tolvir_kingdom = {
         has_reform = tolvir_kingdom_reform
 	}
 }
+gov_naga_empire = {
+	rank = {
+		1 = EMPIRE_OF_AZSHARA
+		2 = EMPIRE_OF_AZSHARA
+		3 = EMPIRE_OF_AZSHARA
+	}
+	
+	ruler_male = {
+		1 = KING
+        2 = KING
+        3 = KING
+	}
+	
+	ruler_female = {
+		1 = QUEEN
+        2 = QUEEN
+        3 = QUEEN
+	}
+	
+	trigger = {
+        has_reform = naga_empire_reform
+	}
+}

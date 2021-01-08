@@ -1113,6 +1113,45 @@ mantid_kingdom_reform = {
     valid_for_nation_designer = yes
     nation_designer_cost = 0
 }
+naga_empire_reform = {
+	icon = "naga_empire"
+    legacy_equivalent = naga_empire_legacy
+    
+    potential = {
+        have_had_reform = naga_empire_reform
+    }
+    
+    republican_name = yes
+    queen = no
+    heir = no
+    
+	modifiers = {
+		discipline = 0.05
+        global_naval_engagement_modifier = 0.25
+        max_absolutism = 40
+	}
+	
+    conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			mamluk_mechanic
+		}
+	}
+    
+	ai = { factor = 0 }
+    
+    custom_attributes = {
+		locked_government_type = yes
+	}
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+    lock_level_when_selected = yes
+    
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
 
 #--------------------------------------------
 # Tribal

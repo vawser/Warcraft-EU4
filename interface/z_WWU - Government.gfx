@@ -756,6 +756,11 @@ spriteTypes = {
 		texturefile = "gfx//interface//government_reform_icons//satyr.dds"
 		loadType = "INGAME"
 	}
+    spriteType = {
+		name = "government_reform_naga_empire"
+		texturefile = "gfx//interface//government_reform_icons//naga_empire.dds"
+		loadType = "INGAME"
+	}
     
     #
     # spriteType = {

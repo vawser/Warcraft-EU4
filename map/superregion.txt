@@ -119,6 +119,14 @@ kul_tiras_superregion = {
     region_mechagon
 }
 
+nazjatar_superregion = {
+    region_nazjatar
+}
+
+vashjir_superregion = {
+    region_vashjir
+}
+
 ocean_superregion = {
     region_ocean_1
     region_ocean_2

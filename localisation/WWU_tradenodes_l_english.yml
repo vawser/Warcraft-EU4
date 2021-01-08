@@ -3,8 +3,8 @@
  # Tradenodes
  #-----------------------------------------------
  node_maelstrom: "Maelstrom"
- node_south_seas: "South Seas"
- node_kezan: "Kezan"
+ node_great_sea: "Great Sea"
+ node_south_sea: "South Sea"
  node_zandalar: "Zandalar"
  node_plunder_isle: "Plunder Isle"
  node_eversong_forest: "Eversong Forest"

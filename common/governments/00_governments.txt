@@ -221,6 +221,7 @@ theocracy = {
                 nerubian_kingdom_reform
                 mantid_kingdom_reform
                 tolvir_kingdom_reform
+                naga_empire_reform
 			}
 		}
         tier_theocracy_internal_vs_external_mission = {
@@ -301,6 +302,7 @@ theocracy = {
         aqir_kingdom_legacy
         nerubian_kingdom_legacy
         mantid_kingdom_legacy
+        naga_empire_legacy
     }
 }
 

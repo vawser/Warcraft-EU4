@@ -880,3 +880,34 @@ country_event = {
 		add_devotion = 10
 	}
 }
+
+#-------------------------------------
+# Historical Replacements
+#-------------------------------------
+# Used for rulers that shouldn't disappear
+country_event = {
+	id = wwu_government.50
+	title = wwu_government.50.title
+	desc = wwu_government.50.desc
+	picture = GOOD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+        tag = NZJ
+        NOT = { has_ruler = "Azshara the Vainglorious" }
+	}
+
+	option = {
+		name = wwu_government.50.option.a
+        
+		define_ruler = {
+            name = "Azshara the Vainglorious"
+            adm = 3
+            dip = 3
+            mil = 3
+            female = yes
+        }
+	}
+}
+

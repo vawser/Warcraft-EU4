@@ -1550,7 +1550,7 @@ region_mechagon = {
 }
 
 # --------------------------------------
-# Islands
+# Misc
 # --------------------------------------
 region_kezan = {
     areas = {
@@ -1568,6 +1568,28 @@ region_plunder_isle = {
     }
 }
 
+region_nazjatar = {
+    areas = {
+        area_nazjatar_1
+        area_nazjatar_2
+        area_nazjatar_3
+        area_nazjatar_4
+        area_nazjatar_5
+        area_nazjatar_6
+        area_nazjatar_7
+        area_nazjatar_8
+        area_nazjatar_9
+        area_nazjatar_10
+        area_nazjatar_11
+        area_nazjatar_12
+    }
+}
+
+region_vashjir = {
+    areas = {
+        area_vashjir_1
+    }
+}
 
 
 #-------------------

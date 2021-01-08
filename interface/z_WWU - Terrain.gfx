@@ -16,6 +16,10 @@ spriteTypes = {
 		name = "GFX_colony_terrain_impassable_mountains"
 		texturefile = "gfx//interface//terrain//colony_terrain_impassable_mountains.dds"
 	}
+    spriteType = {
+		name = "GFX_colony_terrain_underwater"
+		texturefile = "gfx//interface//terrain//colony_terrain_underwater.dds"
+	}
     
 	# Combat
 	# 388 x 80
@@ -30,5 +34,9 @@ spriteTypes = {
     spriteType = {
 		name = "GFX_combat_terrain_impassable_mountains"
 		texturefile = "gfx//interface//terrain//combat_terrain_impassable_mountains.dds"
+	}
+    spriteType = {
+		name = "GFX_combat_terrain_underwater"
+		texturefile = "gfx//interface//terrain//combat_terrain_underwater.dds"
 	}
 }

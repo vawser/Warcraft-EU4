@@ -42,6 +42,12 @@ discover_home_continent = {
     kul_tiras = {
 		discover_country = ROOT
 	}
+    nazjatar = {
+		discover_country = ROOT
+	}
+    vashjir = {
+		discover_country = ROOT
+	}
     
     # Sea
     ocean_superregion = {

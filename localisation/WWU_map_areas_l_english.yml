@@ -17001,3 +17001,403 @@
  area_mechagon_50: "Mechagon L"
  area_mechagon_50_name: "Mechagon"
  area_mechagon_50_adj: "Mechagon"
+ 
+ area_nazjatar_1: "Nazjatar I"
+ area_nazjatar_1_name: "Nazjatar"
+ area_nazjatar_1_adj: "Nazjatar"
+
+ area_nazjatar_2: "Nazjatar II"
+ area_nazjatar_2_name: "Nazjatar"
+ area_nazjatar_2_adj: "Nazjatar"
+
+ area_nazjatar_3: "Nazjatar III"
+ area_nazjatar_3_name: "Nazjatar"
+ area_nazjatar_3_adj: "Nazjatar"
+
+ area_nazjatar_4: "Nazjatar IV"
+ area_nazjatar_4_name: "Nazjatar"
+ area_nazjatar_4_adj: "Nazjatar"
+
+ area_nazjatar_5: "Nazjatar V"
+ area_nazjatar_5_name: "Nazjatar"
+ area_nazjatar_5_adj: "Nazjatar"
+
+ area_nazjatar_6: "Nazjatar VI"
+ area_nazjatar_6_name: "Nazjatar"
+ area_nazjatar_6_adj: "Nazjatar"
+
+ area_nazjatar_7: "Nazjatar VII"
+ area_nazjatar_7_name: "Nazjatar"
+ area_nazjatar_7_adj: "Nazjatar"
+
+ area_nazjatar_8: "Nazjatar VIII"
+ area_nazjatar_8_name: "Nazjatar"
+ area_nazjatar_8_adj: "Nazjatar"
+
+ area_nazjatar_9: "Nazjatar IX"
+ area_nazjatar_9_name: "Nazjatar"
+ area_nazjatar_9_adj: "Nazjatar"
+
+ area_nazjatar_10: "Nazjatar X"
+ area_nazjatar_10_name: "Nazjatar"
+ area_nazjatar_10_adj: "Nazjatar"
+
+ area_nazjatar_11: "Nazjatar XI"
+ area_nazjatar_11_name: "Nazjatar"
+ area_nazjatar_11_adj: "Nazjatar"
+
+ area_nazjatar_12: "Nazjatar XII"
+ area_nazjatar_12_name: "Nazjatar"
+ area_nazjatar_12_adj: "Nazjatar"
+
+ area_nazjatar_13: "Nazjatar XIII"
+ area_nazjatar_13_name: "Nazjatar"
+ area_nazjatar_13_adj: "Nazjatar"
+
+ area_nazjatar_14: "Nazjatar XIV"
+ area_nazjatar_14_name: "Nazjatar"
+ area_nazjatar_14_adj: "Nazjatar"
+
+ area_nazjatar_15: "Nazjatar XV"
+ area_nazjatar_15_name: "Nazjatar"
+ area_nazjatar_15_adj: "Nazjatar"
+
+ area_nazjatar_16: "Nazjatar XVI"
+ area_nazjatar_16_name: "Nazjatar"
+ area_nazjatar_16_adj: "Nazjatar"
+
+ area_nazjatar_17: "Nazjatar XVII"
+ area_nazjatar_17_name: "Nazjatar"
+ area_nazjatar_17_adj: "Nazjatar"
+
+ area_nazjatar_18: "Nazjatar XVIII"
+ area_nazjatar_18_name: "Nazjatar"
+ area_nazjatar_18_adj: "Nazjatar"
+
+ area_nazjatar_19: "Nazjatar XIX"
+ area_nazjatar_19_name: "Nazjatar"
+ area_nazjatar_19_adj: "Nazjatar"
+
+ area_nazjatar_20: "Nazjatar XX"
+ area_nazjatar_20_name: "Nazjatar"
+ area_nazjatar_20_adj: "Nazjatar"
+
+ area_nazjatar_21: "Nazjatar XXI"
+ area_nazjatar_21_name: "Nazjatar"
+ area_nazjatar_21_adj: "Nazjatar"
+
+ area_nazjatar_22: "Nazjatar XXII"
+ area_nazjatar_22_name: "Nazjatar"
+ area_nazjatar_22_adj: "Nazjatar"
+
+ area_nazjatar_23: "Nazjatar XXIII"
+ area_nazjatar_23_name: "Nazjatar"
+ area_nazjatar_23_adj: "Nazjatar"
+
+ area_nazjatar_24: "Nazjatar XXIV"
+ area_nazjatar_24_name: "Nazjatar"
+ area_nazjatar_24_adj: "Nazjatar"
+
+ area_nazjatar_25: "Nazjatar XXV"
+ area_nazjatar_25_name: "Nazjatar"
+ area_nazjatar_25_adj: "Nazjatar"
+
+ area_nazjatar_26: "Nazjatar XXVI"
+ area_nazjatar_26_name: "Nazjatar"
+ area_nazjatar_26_adj: "Nazjatar"
+
+ area_nazjatar_27: "Nazjatar XXVII"
+ area_nazjatar_27_name: "Nazjatar"
+ area_nazjatar_27_adj: "Nazjatar"
+
+ area_nazjatar_28: "Nazjatar XXVIII"
+ area_nazjatar_28_name: "Nazjatar"
+ area_nazjatar_28_adj: "Nazjatar"
+
+ area_nazjatar_29: "Nazjatar XXIX"
+ area_nazjatar_29_name: "Nazjatar"
+ area_nazjatar_29_adj: "Nazjatar"
+
+ area_nazjatar_30: "Nazjatar XXX"
+ area_nazjatar_30_name: "Nazjatar"
+ area_nazjatar_30_adj: "Nazjatar"
+
+ area_nazjatar_31: "Nazjatar XXXI"
+ area_nazjatar_31_name: "Nazjatar"
+ area_nazjatar_31_adj: "Nazjatar"
+
+ area_nazjatar_32: "Nazjatar XXXII"
+ area_nazjatar_32_name: "Nazjatar"
+ area_nazjatar_32_adj: "Nazjatar"
+
+ area_nazjatar_33: "Nazjatar XXXIII"
+ area_nazjatar_33_name: "Nazjatar"
+ area_nazjatar_33_adj: "Nazjatar"
+
+ area_nazjatar_34: "Nazjatar XXXIV"
+ area_nazjatar_34_name: "Nazjatar"
+ area_nazjatar_34_adj: "Nazjatar"
+
+ area_nazjatar_35: "Nazjatar XXXV"
+ area_nazjatar_35_name: "Nazjatar"
+ area_nazjatar_35_adj: "Nazjatar"
+
+ area_nazjatar_36: "Nazjatar XXXVI"
+ area_nazjatar_36_name: "Nazjatar"
+ area_nazjatar_36_adj: "Nazjatar"
+
+ area_nazjatar_37: "Nazjatar XXXVII"
+ area_nazjatar_37_name: "Nazjatar"
+ area_nazjatar_37_adj: "Nazjatar"
+
+ area_nazjatar_38: "Nazjatar XXXVIII"
+ area_nazjatar_38_name: "Nazjatar"
+ area_nazjatar_38_adj: "Nazjatar"
+
+ area_nazjatar_39: "Nazjatar XXXIX"
+ area_nazjatar_39_name: "Nazjatar"
+ area_nazjatar_39_adj: "Nazjatar"
+
+ area_nazjatar_40: "Nazjatar XL"
+ area_nazjatar_40_name: "Nazjatar"
+ area_nazjatar_40_adj: "Nazjatar"
+
+ area_nazjatar_41: "Nazjatar XLI"
+ area_nazjatar_41_name: "Nazjatar"
+ area_nazjatar_41_adj: "Nazjatar"
+
+ area_nazjatar_42: "Nazjatar XLII"
+ area_nazjatar_42_name: "Nazjatar"
+ area_nazjatar_42_adj: "Nazjatar"
+
+ area_nazjatar_43: "Nazjatar XLIII"
+ area_nazjatar_43_name: "Nazjatar"
+ area_nazjatar_43_adj: "Nazjatar"
+
+ area_nazjatar_44: "Nazjatar XLIV"
+ area_nazjatar_44_name: "Nazjatar"
+ area_nazjatar_44_adj: "Nazjatar"
+
+ area_nazjatar_45: "Nazjatar XLV"
+ area_nazjatar_45_name: "Nazjatar"
+ area_nazjatar_45_adj: "Nazjatar"
+
+ area_nazjatar_46: "Nazjatar XLVI"
+ area_nazjatar_46_name: "Nazjatar"
+ area_nazjatar_46_adj: "Nazjatar"
+
+ area_nazjatar_47: "Nazjatar XLVII"
+ area_nazjatar_47_name: "Nazjatar"
+ area_nazjatar_47_adj: "Nazjatar"
+
+ area_nazjatar_48: "Nazjatar XLVIII"
+ area_nazjatar_48_name: "Nazjatar"
+ area_nazjatar_48_adj: "Nazjatar"
+
+ area_nazjatar_49: "Nazjatar XLIX"
+ area_nazjatar_49_name: "Nazjatar"
+ area_nazjatar_49_adj: "Nazjatar"
+
+ area_nazjatar_50: "Nazjatar L"
+ area_nazjatar_50_name: "Nazjatar"
+ area_nazjatar_50_adj: "Nazjatar"
+ 
+ area_vashjir_1: "Vash'jir I"
+ area_vashjir_1_name: "Vash'jir"
+ area_vashjir_1_adj: "Vash'jir"
+
+ area_vashjir_2: "Vash'jir II"
+ area_vashjir_2_name: "Vash'jir"
+ area_vashjir_2_adj: "Vash'jir"
+
+ area_vashjir_3: "Vash'jir III"
+ area_vashjir_3_name: "Vash'jir"
+ area_vashjir_3_adj: "Vash'jir"
+
+ area_vashjir_4: "Vash'jir IV"
+ area_vashjir_4_name: "Vash'jir"
+ area_vashjir_4_adj: "Vash'jir"
+
+ area_vashjir_5: "Vash'jir V"
+ area_vashjir_5_name: "Vash'jir"
+ area_vashjir_5_adj: "Vash'jir"
+
+ area_vashjir_6: "Vash'jir VI"
+ area_vashjir_6_name: "Vash'jir"
+ area_vashjir_6_adj: "Vash'jir"
+
+ area_vashjir_7: "Vash'jir VII"
+ area_vashjir_7_name: "Vash'jir"
+ area_vashjir_7_adj: "Vash'jir"
+
+ area_vashjir_8: "Vash'jir VIII"
+ area_vashjir_8_name: "Vash'jir"
+ area_vashjir_8_adj: "Vash'jir"
+
+ area_vashjir_9: "Vash'jir IX"
+ area_vashjir_9_name: "Vash'jir"
+ area_vashjir_9_adj: "Vash'jir"
+
+ area_vashjir_10: "Vash'jir X"
+ area_vashjir_10_name: "Vash'jir"
+ area_vashjir_10_adj: "Vash'jir"
+
+ area_vashjir_11: "Vash'jir XI"
+ area_vashjir_11_name: "Vash'jir"
+ area_vashjir_11_adj: "Vash'jir"
+
+ area_vashjir_12: "Vash'jir XII"
+ area_vashjir_12_name: "Vash'jir"
+ area_vashjir_12_adj: "Vash'jir"
+
+ area_vashjir_13: "Vash'jir XIII"
+ area_vashjir_13_name: "Vash'jir"
+ area_vashjir_13_adj: "Vash'jir"
+
+ area_vashjir_14: "Vash'jir XIV"
+ area_vashjir_14_name: "Vash'jir"
+ area_vashjir_14_adj: "Vash'jir"
+
+ area_vashjir_15: "Vash'jir XV"
+ area_vashjir_15_name: "Vash'jir"
+ area_vashjir_15_adj: "Vash'jir"
+
+ area_vashjir_16: "Vash'jir XVI"
+ area_vashjir_16_name: "Vash'jir"
+ area_vashjir_16_adj: "Vash'jir"
+
+ area_vashjir_17: "Vash'jir XVII"
+ area_vashjir_17_name: "Vash'jir"
+ area_vashjir_17_adj: "Vash'jir"
+
+ area_vashjir_18: "Vash'jir XVIII"
+ area_vashjir_18_name: "Vash'jir"
+ area_vashjir_18_adj: "Vash'jir"
+
+ area_vashjir_19: "Vash'jir XIX"
+ area_vashjir_19_name: "Vash'jir"
+ area_vashjir_19_adj: "Vash'jir"
+
+ area_vashjir_20: "Vash'jir XX"
+ area_vashjir_20_name: "Vash'jir"
+ area_vashjir_20_adj: "Vash'jir"
+
+ area_vashjir_21: "Vash'jir XXI"
+ area_vashjir_21_name: "Vash'jir"
+ area_vashjir_21_adj: "Vash'jir"
+
+ area_vashjir_22: "Vash'jir XXII"
+ area_vashjir_22_name: "Vash'jir"
+ area_vashjir_22_adj: "Vash'jir"
+
+ area_vashjir_23: "Vash'jir XXIII"
+ area_vashjir_23_name: "Vash'jir"
+ area_vashjir_23_adj: "Vash'jir"
+
+ area_vashjir_24: "Vash'jir XXIV"
+ area_vashjir_24_name: "Vash'jir"
+ area_vashjir_24_adj: "Vash'jir"
+
+ area_vashjir_25: "Vash'jir XXV"
+ area_vashjir_25_name: "Vash'jir"
+ area_vashjir_25_adj: "Vash'jir"
+
+ area_vashjir_26: "Vash'jir XXVI"
+ area_vashjir_26_name: "Vash'jir"
+ area_vashjir_26_adj: "Vash'jir"
+
+ area_vashjir_27: "Vash'jir XXVII"
+ area_vashjir_27_name: "Vash'jir"
+ area_vashjir_27_adj: "Vash'jir"
+
+ area_vashjir_28: "Vash'jir XXVIII"
+ area_vashjir_28_name: "Vash'jir"
+ area_vashjir_28_adj: "Vash'jir"
+
+ area_vashjir_29: "Vash'jir XXIX"
+ area_vashjir_29_name: "Vash'jir"
+ area_vashjir_29_adj: "Vash'jir"
+
+ area_vashjir_30: "Vash'jir XXX"
+ area_vashjir_30_name: "Vash'jir"
+ area_vashjir_30_adj: "Vash'jir"
+
+ area_vashjir_31: "Vash'jir XXXI"
+ area_vashjir_31_name: "Vash'jir"
+ area_vashjir_31_adj: "Vash'jir"
+
+ area_vashjir_32: "Vash'jir XXXII"
+ area_vashjir_32_name: "Vash'jir"
+ area_vashjir_32_adj: "Vash'jir"
+
+ area_vashjir_33: "Vash'jir XXXIII"
+ area_vashjir_33_name: "Vash'jir"
+ area_vashjir_33_adj: "Vash'jir"
+
+ area_vashjir_34: "Vash'jir XXXIV"
+ area_vashjir_34_name: "Vash'jir"
+ area_vashjir_34_adj: "Vash'jir"
+
+ area_vashjir_35: "Vash'jir XXXV"
+ area_vashjir_35_name: "Vash'jir"
+ area_vashjir_35_adj: "Vash'jir"
+
+ area_vashjir_36: "Vash'jir XXXVI"
+ area_vashjir_36_name: "Vash'jir"
+ area_vashjir_36_adj: "Vash'jir"
+
+ area_vashjir_37: "Vash'jir XXXVII"
+ area_vashjir_37_name: "Vash'jir"
+ area_vashjir_37_adj: "Vash'jir"
+
+ area_vashjir_38: "Vash'jir XXXVIII"
+ area_vashjir_38_name: "Vash'jir"
+ area_vashjir_38_adj: "Vash'jir"
+
+ area_vashjir_39: "Vash'jir XXXIX"
+ area_vashjir_39_name: "Vash'jir"
+ area_vashjir_39_adj: "Vash'jir"
+
+ area_vashjir_40: "Vash'jir XL"
+ area_vashjir_40_name: "Vash'jir"
+ area_vashjir_40_adj: "Vash'jir"
+
+ area_vashjir_41: "Vash'jir XLI"
+ area_vashjir_41_name: "Vash'jir"
+ area_vashjir_41_adj: "Vash'jir"
+
+ area_vashjir_42: "Vash'jir XLII"
+ area_vashjir_42_name: "Vash'jir"
+ area_vashjir_42_adj: "Vash'jir"
+
+ area_vashjir_43: "Vash'jir XLIII"
+ area_vashjir_43_name: "Vash'jir"
+ area_vashjir_43_adj: "Vash'jir"
+
+ area_vashjir_44: "Vash'jir XLIV"
+ area_vashjir_44_name: "Vash'jir"
+ area_vashjir_44_adj: "Vash'jir"
+
+ area_vashjir_45: "Vash'jir XLV"
+ area_vashjir_45_name: "Vash'jir"
+ area_vashjir_45_adj: "Vash'jir"
+
+ area_vashjir_46: "Vash'jir XLVI"
+ area_vashjir_46_name: "Vash'jir"
+ area_vashjir_46_adj: "Vash'jir"
+
+ area_vashjir_47: "Vash'jir XLVII"
+ area_vashjir_47_name: "Vash'jir"
+ area_vashjir_47_adj: "Vash'jir"
+
+ area_vashjir_48: "Vash'jir XLVIII"
+ area_vashjir_48_name: "Vash'jir"
+ area_vashjir_48_adj: "Vash'jir"
+
+ area_vashjir_49: "Vash'jir XLIX"
+ area_vashjir_49_name: "Vash'jir"
+ area_vashjir_49_adj: "Vash'jir"
+
+ area_vashjir_50: "Vash'jir L"
+ area_vashjir_50_name: "Vash'jir"
+ area_vashjir_50_adj: "Vash'jir"

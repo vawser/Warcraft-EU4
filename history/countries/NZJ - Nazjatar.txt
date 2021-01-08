@@ -1,0 +1,18 @@
+technology_group = tech_naga
+government = theocracy
+add_government_reform = naga_empire_reform
+primary_culture = nazjatar
+religion = azshara
+
+capital = 7433
+
+592.1.1 = {
+    monarch = {
+        name = "Azshara the Vainglorious"
+        adm = 6
+        dip = 6
+        mil = 6
+        female = yes
+        birth_date = 20.1.1
+    }
+}

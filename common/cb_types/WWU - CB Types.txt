@@ -87,3 +87,13 @@ cb_imperial_wwu = {
 
 	war_goal = take_capital_imperial
 }
+
+cb_wrath_of_azshara = {
+	valid_for_subject = no
+
+	prerequisites = {
+        tag = NZJ
+	}
+
+	war_goal = take_capital_imperial
+}

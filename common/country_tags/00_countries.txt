@@ -11,7 +11,6 @@ X05 = "countries/formable/Kaldorei Empire.txt"              # Night Elf
 X06 = "countries/formable/The Grand Cartel.txt"             # Goblin
 X07 = "countries/formable/Throne of Thunder.txt"            # Mogu
 X08 = "countries/formable/Dominion of the Deep Mother.txt"  # Murloc
-X09 = "countries/formable/The Nazjatar Empire.txt"          # Naga
 X10 = "countries/formable/The Pandaren Empire.txt"          # Pandaren
 
 # ---- Human ----
@@ -229,6 +228,7 @@ WRS = "countries/Wrathscale.txt"       # Azuremyst / Bloodmyst Isle
 WRT = "countries/Wrathtail.txt"        # Ashenvale
 DPS = "countries/Deepsurge.txt"
 SPT = "countries/Spitescale.txt"
+NZJ = "countries/Nazjatar.txt"          # Naga
 
 # ---- Ogre ----
 DRD = "countries/Dreadmaul.txt"    # Blasted Lands
