@@ -1,17 +1,17 @@
-cb_azeroth_assault = {
-    ai_peace_desire = -50
-	valid_for_subject = yes
+#--------------------------------------------
+# Freeform
+#--------------------------------------------
+cb_imperial_wwu = {
+	valid_for_subject = no
 
 	prerequisites = {
-        tag = TOH
         is_revolutionary = no
-		FROM = {
-			capital_scope = { continent = azeroth }
-            culture_group = azerothian_group
-		}
+		has_idea = wwu_imperialism_ideas_1
+		is_free_or_tributary_trigger = yes
+		is_revolution_target = no
 	}
-	
-	war_goal = war_against_men
+
+	war_goal = take_capital_imperial
 }
 
 cb_against_evil = {
@@ -31,6 +31,25 @@ cb_against_evil = {
 	war_goal = war_against_evil
 }
 
+#--------------------------------------------
+# Specific
+#--------------------------------------------
+cb_warlust = {
+    ai_peace_desire = -50
+	valid_for_subject = yes
+
+	prerequisites = {
+        tag = TOH
+        is_revolutionary = no
+        current_age = age_orcish_horde
+		FROM = {
+			capital_scope = { continent = azeroth }
+            culture_group = azerothian_group
+		}
+	}
+	
+	war_goal = war_against_men
+}
 cb_titan_rivalry = {
 	valid_for_subject = no
 
@@ -50,7 +69,6 @@ cb_titan_rivalry = {
 	
 	war_goal = titan_clash
 }
-
 cb_legion_invasion = {
     ai_peace_desire = -50
 	valid_for_subject = no
@@ -63,31 +81,6 @@ cb_legion_invasion = {
 	
 	war_goal = legion_invasion_goal
 }
-
-cb_fury_of_dragons = {
-	valid_for_subject = no
-	is_triggered_only = yes
-	
-    prerequisites = {
-        is_revolutionary = no
-    }
-    
-	war_goal = annex_country
-}
-
-cb_imperial_wwu = {
-	valid_for_subject = no
-
-	prerequisites = {
-        is_revolutionary = no
-		has_idea = wwu_imperialism_ideas_1
-		is_free_or_tributary_trigger = yes
-		is_revolution_target = no
-	}
-
-	war_goal = take_capital_imperial
-}
-
 cb_wrath_of_azshara = {
 	valid_for_subject = no
 

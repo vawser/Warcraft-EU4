@@ -7,7 +7,7 @@ religion = the_holy_light
 capital = 3671
 
 # The Burning Legion
-594.1.1 = {
+595.1.1 = {
     set_global_flag = setup_theramore
     monarch = {
         name = "Jaina" 

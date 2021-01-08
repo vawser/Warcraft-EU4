@@ -8,12 +8,16 @@ country_event = {
 	picture = OGRE_MAGE_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = DRD }
         NOT = { has_global_flag = setup_dreadmaul }
-        is_year = 620 # 28 years after game start
+        has_global_flag = orcish_horde_lost_war
     }
     
     immediate = {
@@ -69,12 +73,16 @@ country_event = {
 	picture = OGRE_MAGE_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = DUM }
         NOT = { has_global_flag = setup_dunemaul }
-        is_year = 640
+        has_global_flag = orcish_horde_lost_war
     }
     
     immediate = {
@@ -130,12 +138,16 @@ country_event = {
 	picture = OGRE_MAGE_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = GOR }
         NOT = { has_global_flag = setup_gordunni }
-        is_year = 640
+        has_global_flag = orcish_horde_lost_war
     }
     
     immediate = {
@@ -191,12 +203,16 @@ country_event = {
 	picture = OGRE_MAGE_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = MOG }
         NOT = { has_global_flag = setup_mogrosh }
-        is_year = 620
+        has_global_flag = orcish_horde_lost_war
     }
     
     immediate = {
@@ -252,12 +268,16 @@ country_event = {
 	picture = OGRE_MAGE_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = BOU }
         NOT = { has_global_flag = setup_boulderfist }
-        is_year = 625
+        has_global_flag = orcish_horde_lost_war
     }
     
     immediate = {
@@ -313,12 +333,16 @@ country_event = {
 	picture = OGRE_MAGE_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = DWO }
         NOT = { has_global_flag = setup_deadwind }
-        is_year = 600
+        has_global_flag = orcish_horde_lost_war
     }
     
     immediate = {
@@ -401,12 +425,16 @@ country_event = {
 	picture = OGRE_MAGE_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = DBR }
         NOT = { has_global_flag = setup_dustbelcher }
-        is_year = 615
+        has_global_flag = orcish_horde_lost_war
     }
     
     immediate = {
@@ -489,12 +517,16 @@ country_event = {
 	picture = OGRE_MAGE_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = FRG }
         NOT = { has_global_flag = setup_firegut }
-        is_year = 625
+        has_global_flag = orcish_horde_lost_war
     }
     
     immediate = {
@@ -550,12 +582,16 @@ country_event = {
 	picture = OGRE_MAGE_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = MSO }
         NOT = { has_global_flag = setup_moshogg }
-        is_year = 630
+        has_global_flag = orcish_horde_lost_war
     }
     
     immediate = {
@@ -647,12 +683,16 @@ country_event = {
 	picture = OGRE_MAGE_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = SPF }
         NOT = { has_global_flag = setup_stonefist }
-        is_year = 625
+        has_global_flag = orcish_horde_lost_war
     }
     
     immediate = {
@@ -708,12 +748,16 @@ country_event = {
 	picture = OGRE_MAGE_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = SGL }
         NOT = { has_global_flag = setup_stonegullet }
-        is_year = 620
+        has_global_flag = orcish_horde_lost_war
     }
     
     immediate = {
@@ -769,12 +813,16 @@ country_event = {
 	picture = OGRE_MAGE_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = TBC }
         NOT = { has_global_flag = setup_torchbelcher }
-        is_year = 630
+        has_global_flag = orcish_horde_lost_war
     }
     
     immediate = {
@@ -830,12 +878,16 @@ country_event = {
 	picture = OGRE_MAGE_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = CRS }
         NOT = { has_global_flag = setup_crushridge }
-        has_global_flag = setup_scourge
+        current_age = age_scourge
     }
     
     immediate = {
@@ -891,12 +943,16 @@ country_event = {
 	picture = OGRE_MAGE_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = STM }
         NOT = { has_global_flag = setup_stonemaul }
-        has_global_flag = setup_scourge
+        current_age = age_scourge
     }
     
     immediate = {

@@ -1,6 +1,6 @@
 namespace = wwu_setup_night_elf
 
-# Orgrimmar
+# Darnassus
 country_event = {
 	id = wwu_setup_night_elf.1
 	title = wwu_setup_night_elf.1.title
@@ -8,12 +8,15 @@ country_event = {
 	picture = DRUIDCAT_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = DAS }
         NOT = { has_global_flag = setup_darnassus }
-        is_year = 750
         has_global_flag = nordrassil_destroyed
     }
     

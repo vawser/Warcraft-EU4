@@ -17,7 +17,7 @@ hre = no
 center_of_trade = 1
 
 # The Scourge
-593.1.1 = {
+594.1.1 = {
 	is_city = yes
     owner = ORG
     controller = ORG

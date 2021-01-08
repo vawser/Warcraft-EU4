@@ -8,12 +8,16 @@ country_event = {
 	picture = KAELTHAS_CLOSE_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = EXO }
         NOT = { has_global_flag = setup_exodar }
-        has_global_flag = setup_scourge
+        current_age = age_scourge
     }
     
     immediate = {
@@ -73,6 +77,7 @@ country_event = {
 	picture = DRAENEI_DEVOLUTION_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
         ai = no

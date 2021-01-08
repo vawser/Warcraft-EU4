@@ -7,7 +7,7 @@ religion = geomancy
 capital = 3479
 
 # The Burning Legion
-594.1.1 = {
+595.1.1 = {
     set_global_flag = setup_crushridge
     
     monarch = {

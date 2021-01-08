@@ -104,3 +104,28 @@
  wwu_setup_night_elf.1.title: "Teldrassil"
  wwu_setup_night_elf.1.desc: "Nordrassil, atop Mount Hyjal has been destroyed. Without a World Tree, the Night Elves are lost. The Circle of the Ancients have concocted a plan to combine powers and grow an immense tree within the Veiled Sea, to be named Teldrassil."
  wwu_setup_night_elf.1.option.a: "Arise Teldrassil!"
+ 
+ #-------------------------------------
+ # Human
+ #-------------------------------------
+ wwu_setup_human.1.title: "Theramore"
+ wwu_setup_human.1.desc: "Jaina Proudmoore and her assortment of survivors from the Scourging of Lordaeron have made landing in Kalimdor, and established the city-state of Theramore in Dustwallow Marsh."
+ wwu_setup_human.1.option.a: "Arise!"
+ 
+ #-------------------------------------
+ # Pirate
+ #-------------------------------------
+ wwu_setup_pirate.1.title: "Southsea Freebooters"
+ wwu_setup_pirate.1.desc: "Pirates have begun to explore far to the west, landing on the coast of Tanaris in Kalimdor."
+ wwu_setup_pirate.1.option.a: "Good riddance"
+ 
+ wwu_setup_pirate.2.title: "Wastewander"
+ wwu_setup_pirate.2.desc: "Pirates have begun to explore far to the west, landing on the coast of Tanaris in Kalimdor."
+ wwu_setup_pirate.2.option.a: "Good riddance"
+ 
+ #-------------------------------------
+ # Burning Legion
+ #-------------------------------------
+ wwu_setup_burning_legion.1.title: "The Burning Legion"
+ wwu_setup_burning_legion.1.desc: "Archimonde and his vanguard of demons have arrived and taken control of the majority of Mount Hyjal, in an attempt to destroy the world tree Nordrassil."
+ wwu_setup_burning_legion.1.option.a: "Oh no!"

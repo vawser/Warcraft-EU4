@@ -1,6 +1,6 @@
 namespace = wwu_setup_burning_legion
 
-# This event signals the aftermath of Third War and anything afterwards
+# This event signals the tail-end of the Third War
 # Burning Legion
 country_event = {
 	id = wwu_setup_burning_legion.1
@@ -9,13 +9,16 @@ country_event = {
 	picture = ARCHIMONDE_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = TBL }
         NOT = { has_global_flag = setup_burning_legion }
-        has_global_flag = scourge_lost_war
-        is_year = 800
+        current_age = age_burning_legion
     }
     
     immediate = {

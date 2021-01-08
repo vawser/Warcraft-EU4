@@ -1,9 +1,9 @@
 war_against_men = {
 	type = take_capital
 	
-	badboy_factor = 0.50
-	prestige_factor = 0.75
-	peace_cost_factor = 0.50
+	badboy_factor = 1
+	prestige_factor = 1
+	peace_cost_factor = 1
 	
 	peace_options = {
 		po_release_vassals
@@ -62,6 +62,3 @@ legion_invasion_goal = {
 	
 	war_name = INVASION_WAR_NAME	
 }
-
-
-

@@ -1,7 +1,5 @@
 namespace = wwu_setup_scourge
 
-# This event signals the Third War turning point
-
 # Scourge
 country_event = {
 	id = wwu_setup_scourge.1
@@ -10,13 +8,16 @@ country_event = {
 	picture = NAXXRAMAS_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = SCO }
         NOT = { has_global_flag = setup_scourge }
-        has_global_flag = orcish_horde_lost_war
-        is_year = 700
+        current_age = age_scourge
     }
     
     immediate = {
@@ -26,7 +27,7 @@ country_event = {
     }
     
     mean_time_to_happen = {
-		months = 240
+		months = 600
 	}
 
 	option = {

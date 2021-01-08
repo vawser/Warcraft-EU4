@@ -1,4 +1,3 @@
-
 vassal = {
 	first = SMG
 	second = TOL

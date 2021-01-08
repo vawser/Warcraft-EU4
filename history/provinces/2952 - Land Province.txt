@@ -14,8 +14,18 @@ religion = the_holy_light
 trade_goods = unknown
 hre = no
 
-# The Scourge
+# Second War
 593.1.1 = {
+    owner = TOH
+    controller = TOH
+    add_core = TOH
+    
+    culture = orc
+    religion = fel
+}
+
+# The Scourge
+594.1.1 = {
 	is_city = yes
     owner = SPF
     controller = SPF

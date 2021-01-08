@@ -8,7 +8,7 @@ religion = light_of_the_naaru
 capital = 4679
 
 # The Scourge
-593.1.1 = {
+594.1.1 = {
     monarch = { 
         name = "Velen" 
         dynasty = "of Argus" 

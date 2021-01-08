@@ -8,14 +8,17 @@ country_event = {
 	picture = ORC_SHAMAN_eventPicture
 
     major = yes
+	fire_only_once = yes
     
 	trigger = {
-        ai = no
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
         NOT = { exists = ORG }
         NOT = { has_global_flag = setup_orgrimmar }
         has_global_flag = setup_orgrimmar
-        is_year = 650
-        has_global_flag = orcish_horde_lost_war
+        current_age = age_scourge
     }
     
     immediate = {

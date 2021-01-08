@@ -1,3 +1,4 @@
+# Covers the First and Second War
 age_orcish_horde = {
 	start = 592
 	
@@ -225,13 +226,14 @@ age_orcish_horde = {
 		}
 	}
 }
+
+# Covers the start of the Third War
 age_scourge = {
-	start = 593
+	start = 594
 	
 	can_start = {
 		custom_trigger_tooltip = {
 			tooltip = age_scourge_condition
-            is_year = 700
 			has_global_flag = orcish_horde_lost_war
 		}
 	}
@@ -435,13 +437,13 @@ age_scourge = {
 	}
 }
 
+# Covers the tail-end of the Third War
 age_burning_legion = {
-	start = 594
+	start = 595
 	
 	can_start = {
 		custom_trigger_tooltip = {
 			tooltip = age_burning_legion_condition
-            is_year = 800
 			has_global_flag = scourge_lost_war
 		}
 	}

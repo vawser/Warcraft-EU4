@@ -7,7 +7,7 @@ religion = shamanism
 capital = 7197
 
 # The Scourge
-593.1.1 = {
+594.1.1 = {
     set_global_flag = setup_orgrimmar
     monarch = {
 		name = "Thrall"

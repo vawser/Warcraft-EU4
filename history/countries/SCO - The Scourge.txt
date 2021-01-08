@@ -13,7 +13,7 @@ add_country_modifier = {
 }
 
 # The Scourge
-593.1.1 = {
+594.1.1 = {
     set_global_flag = setup_scourge
     set_revolution_target = SCO
     
@@ -27,7 +27,7 @@ add_country_modifier = {
 }
 
 # The Burning Legion
-594.1.1 = {
+595.1.1 = {
     monarch = {
 		name = "Arthas" 
 		dynasty = "Menethil" 	

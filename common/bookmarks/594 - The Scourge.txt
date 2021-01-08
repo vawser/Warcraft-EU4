@@ -1,7 +1,8 @@
+# This is the start of the Third War
 bookmark = {
 	name = "THE_SCOURGE_NAME"
 	desc = "THE_SCOURGE_DESC"
-	date = 593.1.1
+	date = 594.1.1
     
     country = SCO
     country = ORG

@@ -151,18 +151,6 @@ cb_trade_war_triggered = {
 	months = 24
 
 	war_goal = superiority_trade
-
-	attacker_disabled_po = {
-		po_demand_provinces
-		po_revoke_cores
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_become_vassal
-		po_become_tributary_state
-		po_form_personal_union
-		po_transfer_vassals
-	}
 }
 
 cb_trade_conflict = {
@@ -172,18 +160,6 @@ cb_trade_conflict = {
 	months = 24
 
 	war_goal = blockade_ports
-
-	attacker_disabled_po = {
-		po_demand_provinces
-		po_revoke_cores
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_become_vassal
-		po_form_personal_union
-		po_become_tributary_state
-		po_transfer_vassals
-	}
 }
 
 cb_trade_league_conflict = {
@@ -196,18 +172,6 @@ cb_trade_league_conflict = {
 	months = 24
 
 	war_goal = blockade_ports
-
-	attacker_disabled_po = {
-		po_demand_provinces
-		po_revoke_cores
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_become_vassal
-		po_become_tributary_state
-		po_form_personal_union
-		po_transfer_vassals
-	}
 }
 
 cb_annex = {
@@ -449,18 +413,6 @@ cb_trade_war = {
 	}
 
 	war_goal = superiority_trade_mutual
-
-	attacker_disabled_po = {
-		po_demand_provinces
-		po_revoke_cores
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_become_vassal
-		po_become_tributary_state
-		po_form_personal_union
-		po_transfer_vassals
-	}
 }
 
 # Trade War for embargoed Trade League members
@@ -474,18 +426,6 @@ cb_trade_league_dispute = {
 	}
 
 	war_goal = superiority_trade_mutual
-
-	attacker_disabled_po = {
-		po_demand_provinces
-		po_revoke_cores
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_become_vassal
-		po_become_tributary_state
-		po_form_personal_union
-		po_transfer_vassals
-	}
 }
 
 # Imperial Ban
@@ -703,18 +643,7 @@ cb_humiliate_rotw = {
 		is_rival = FROM
 		is_revolutionary = no
 	}
-
-	attacker_disabled_po = {
-		po_demand_provinces
-		po_release_vassals
-		po_release_annexed
-		po_return_cores
-		po_become_vassal
-		po_become_tributary_state
-		po_form_personal_union
-		po_transfer_vassals
-	}
-
+    
 	war_goal = humiliate_rotw
 }
 

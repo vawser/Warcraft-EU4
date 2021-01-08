@@ -7,7 +7,7 @@ religion = shadow
 capital = 3089
 
 # The Scourge
-593.1.1 = {
+594.1.1 = {
     monarch = {
         name = "Lozord"
         dynasty = "the Coy"

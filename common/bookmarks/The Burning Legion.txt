@@ -1,7 +1,0 @@
-bookmark = {
-	name = "THE_BURNING_LEGION_NAME"
-	desc = "THE_BURNING_LEGION_DESC"
-	date = 594.1.1
-    
-    country = TBL
-}

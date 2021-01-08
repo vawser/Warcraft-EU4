@@ -1,4 +1,3 @@
-
 # First War
 vassal = {
 	first = SRW

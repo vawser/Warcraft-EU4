@@ -7,9 +7,13 @@
  THE_ORCISH_HORDE_DESC: "For many years, the humans of Stormwind have lived in peace and prosperity on the continent of Azeroth. But that ended when the wizard Medivh, the Guardian of Tirisfal, was corrupted by the demonlord Sargeras. Under Sargeras's control, Medivh opened the Dark Portal in the Black Morass, unleashing the Orcish Horde upon Azeroth. Known as the First War."
 
  # 593
- THE_SCOURGE_NAME: "The Scourge"
+ THE_FALL_OF_STORMWIND_NAME: "The Fall of Stormwind"
+ THE_FALL_OF_STORMWIND_DESC: "The gates of Stormwind have been breached, and the Orcish Horde has siezed control. As human refuges flee to Lordaeron, the Orcish Horde advances forth."
+
+ # 594
+ THE_SCOURGE_NAME: "The Scourge of Lordaeron"
  THE_SCOURGE_DESC: "Ner'zhul, the warchief of the failed Old Horde, was punished by Kil'jaeden the Deceiver for failing to subjugate the humans. As punishment, Ner'zhul's body was destroyed, and his mind was encased in a suit of armor bound to the Frozen Throne, and thrown towards Azeroth where it smashed into Northrend, residing near the top of Icecrown Glacier. And thus the Lich King was born, and the Plague of Undeath was sent to Lordaeron."
  
- # 594
- THE_BURNING_LEGION_NAME: "The Burning Legion"
- THE_BURNING_LEGION_DESC: "The Burning Legion, having failed to invade Azeroth before, have taken it upon themselves to unleash the full might of the Legion upon Azeroth."
+ # 595
+ THE_BATTLE_OF_MOUNT_HYJAL_NAME: "The Battle of Mount Hyjal"
+ THE_BATTLE_OF_MOUNT_HYJAL_DESC: "Under Medivh's guidance, Thrall and Jaina Proudmoore - the leader of the human forces in Kalimdor - realized that they had to put aside their differences. Similarly, the night elves, led by Malfurion and Tyrande, agreed that they must unite if they hoped to defend the World Tree. Unified in purpose, the races of Azeroth worked together to fortify the World Tree's energies to their utmost."

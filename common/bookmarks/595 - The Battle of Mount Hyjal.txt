@@ -1,0 +1,8 @@
+bookmark = {
+	name = "THE_BATTLE_OF_MOUNT_HYJAL_NAME"
+	desc = "THE_BATTLE_OF_MOUNT_HYJAL_DESC"
+	date = 595.1.1
+    
+    country = TBL
+    country = SEN
+}

@@ -1031,6 +1031,7 @@ superiority_trade = {
 	peace_cost_factor = 0.75	
 	
 	peace_options = {
+        po_demand_provinces
 		po_revoke_cores
 		po_gold
 		po_concede_defeat
@@ -1050,6 +1051,7 @@ superiority_trade_mutual = {
 		peace_cost_factor = 0.75	
 		
 		peace_options = {
+            po_demand_provinces
 			po_revoke_cores
 			po_gold
 			po_concede_defeat
@@ -1064,6 +1066,7 @@ superiority_trade_mutual = {
 		peace_cost_factor = 0.75	
 		
 		peace_options = {
+            po_demand_provinces
 			po_revoke_cores
 			po_gold
 			po_concede_defeat
@@ -1418,8 +1421,6 @@ humiliate = {
 		po_humiliate
 	}
 	
-	deny_annex = yes
-	
 	country_desc = ALL_NATIVES
 	prov_desc = ALL_PROVS
 	war_name = HUMILIATE_WAR_NAME	
@@ -1451,8 +1452,6 @@ humiliate_rotw = {
 		po_humiliate_rival
 	}
 	
-	deny_annex = yes
-	
 	country_desc = ALL_COUNTRIES
 	prov_desc = NO_PROVS
 	war_name = HUMILIATE_ROTW_WAR_NAME	
@@ -1462,6 +1461,7 @@ blockade_ports = {
 	type = blockade_ports
 	
 	peace_options = {
+        po_demand_provinces
 		po_gold
 		po_concede_defeat
 		po_trade_power
@@ -1575,8 +1575,6 @@ force_migration = {
 	prestige_factor = 1
 	peace_cost_factor = 1
 	
-	deny_annex = yes
-
 	war_name = FORCE_MIGRATION_WAR_NAME
 }
 

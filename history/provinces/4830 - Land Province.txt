@@ -15,7 +15,7 @@ trade_goods = unknown
 hre = no
 
 # The Burning Legion
-594.1.1 = {
+595.1.1 = {
     is_city = yes
     owner = TRM
     controller = TRM

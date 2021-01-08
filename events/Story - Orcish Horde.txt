@@ -42,34 +42,42 @@ country_event = {
         
         custom_tooltip = ORCISH_HORDE_ARMY_TT
         hidden_effect = {
-            capital_scope = {
+            random_owned_province = {
                 infantry = ROOT
                 infantry = ROOT
                 infantry = ROOT
                 infantry = ROOT
                 infantry = ROOT
+            }
+            random_owned_province = {
                 infantry = ROOT
                 infantry = ROOT
                 infantry = ROOT
                 infantry = ROOT
                 infantry = ROOT
-                
+            }
+            random_owned_province = {
                 infantry = ROOT
                 infantry = ROOT
                 infantry = ROOT
                 infantry = ROOT
                 infantry = ROOT
+            }
+            random_owned_province = {
                 infantry = ROOT
                 infantry = ROOT
                 infantry = ROOT
                 infantry = ROOT
                 infantry = ROOT
-                
+            }
+            random_owned_province = {
                 infantry = ROOT
                 infantry = ROOT
                 infantry = ROOT
                 infantry = ROOT
                 infantry = ROOT
+            }
+            random_owned_province = {
                 infantry = ROOT
                 infantry = ROOT
                 infantry = ROOT
@@ -195,7 +203,7 @@ country_event = {
         hidden_effect = {
             if = {
                 limit = {
-                    LOR = { has_country_flag = failed_stormwind}
+                    LOR = { has_country_flag = failed_stormwind }
                 }
                 LOR = { country_event = { id = wwu_orcish_horde.5 } }
             }
@@ -269,7 +277,7 @@ country_event = {
         
         declare_war_with_cb = {
             who = SRW
-            casus_belli = cb_azeroth_assault
+            casus_belli = cb_warlust
         }
 	}
 }
