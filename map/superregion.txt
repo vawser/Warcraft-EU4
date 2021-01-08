@@ -32,7 +32,6 @@ lordaeron_superregion = {
     region_alterac
     region_hillsbrad_foothills
     region_tol_barad
-    region_kul_tiras
     region_arathi_highlands
     region_the_hinterlands
 }
@@ -111,6 +110,13 @@ zandalar_superregion = {
     region_zandalar
     region_nazmir
     region_voldun
+}
+
+kul_tiras_superregion = {
+    region_tiragarde_sound
+    region_drustvar
+    region_stormsong_valley
+    region_mechagon
 }
 
 ocean_superregion = {

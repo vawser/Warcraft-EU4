@@ -39,6 +39,9 @@ discover_home_continent = {
     plunder_isle = {
 		discover_country = ROOT
 	}
+    kul_tiras = {
+		discover_country = ROOT
+	}
     
     # Sea
     ocean_superregion = {

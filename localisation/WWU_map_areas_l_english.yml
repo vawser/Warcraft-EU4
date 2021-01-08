@@ -16201,3 +16201,803 @@
  area_voldun_50: "Vol'dun L"
  area_voldun_50_name: "Vol'dun"
  area_voldun_50_adj: "Vol'dun"
+ 
+ area_tiragarde_1: "Tiragarde Sound I"
+ area_tiragarde_1_name: "Tiragarde Sound"
+ area_tiragarde_1_adj: "Tiragarde Sound"
+
+ area_tiragarde_2: "Tiragarde Sound II"
+ area_tiragarde_2_name: "Tiragarde Sound"
+ area_tiragarde_2_adj: "Tiragarde Sound"
+
+ area_tiragarde_3: "Tiragarde Sound III"
+ area_tiragarde_3_name: "Tiragarde Sound"
+ area_tiragarde_3_adj: "Tiragarde Sound"
+
+ area_tiragarde_4: "Tiragarde Sound IV"
+ area_tiragarde_4_name: "Tiragarde Sound"
+ area_tiragarde_4_adj: "Tiragarde Sound"
+
+ area_tiragarde_5: "Tiragarde Sound V"
+ area_tiragarde_5_name: "Tiragarde Sound"
+ area_tiragarde_5_adj: "Tiragarde Sound"
+
+ area_tiragarde_6: "Tiragarde Sound VI"
+ area_tiragarde_6_name: "Tiragarde Sound"
+ area_tiragarde_6_adj: "Tiragarde Sound"
+
+ area_tiragarde_7: "Tiragarde Sound VII"
+ area_tiragarde_7_name: "Tiragarde Sound"
+ area_tiragarde_7_adj: "Tiragarde Sound"
+
+ area_tiragarde_8: "Tiragarde Sound VIII"
+ area_tiragarde_8_name: "Tiragarde Sound"
+ area_tiragarde_8_adj: "Tiragarde Sound"
+
+ area_tiragarde_9: "Tiragarde Sound IX"
+ area_tiragarde_9_name: "Tiragarde Sound"
+ area_tiragarde_9_adj: "Tiragarde Sound"
+
+ area_tiragarde_10: "Tiragarde Sound X"
+ area_tiragarde_10_name: "Tiragarde Sound"
+ area_tiragarde_10_adj: "Tiragarde Sound"
+
+ area_tiragarde_11: "Tiragarde Sound XI"
+ area_tiragarde_11_name: "Tiragarde Sound"
+ area_tiragarde_11_adj: "Tiragarde Sound"
+
+ area_tiragarde_12: "Tiragarde Sound XII"
+ area_tiragarde_12_name: "Tiragarde Sound"
+ area_tiragarde_12_adj: "Tiragarde Sound"
+
+ area_tiragarde_13: "Tiragarde Sound XIII"
+ area_tiragarde_13_name: "Tiragarde Sound"
+ area_tiragarde_13_adj: "Tiragarde Sound"
+
+ area_tiragarde_14: "Tiragarde Sound XIV"
+ area_tiragarde_14_name: "Tiragarde Sound"
+ area_tiragarde_14_adj: "Tiragarde Sound"
+
+ area_tiragarde_15: "Tiragarde Sound XV"
+ area_tiragarde_15_name: "Tiragarde Sound"
+ area_tiragarde_15_adj: "Tiragarde Sound"
+
+ area_tiragarde_16: "Tiragarde Sound XVI"
+ area_tiragarde_16_name: "Tiragarde Sound"
+ area_tiragarde_16_adj: "Tiragarde Sound"
+
+ area_tiragarde_17: "Tiragarde Sound XVII"
+ area_tiragarde_17_name: "Tiragarde Sound"
+ area_tiragarde_17_adj: "Tiragarde Sound"
+
+ area_tiragarde_18: "Tiragarde Sound XVIII"
+ area_tiragarde_18_name: "Tiragarde Sound"
+ area_tiragarde_18_adj: "Tiragarde Sound"
+
+ area_tiragarde_19: "Tiragarde Sound XIX"
+ area_tiragarde_19_name: "Tiragarde Sound"
+ area_tiragarde_19_adj: "Tiragarde Sound"
+
+ area_tiragarde_20: "Tiragarde Sound XX"
+ area_tiragarde_20_name: "Tiragarde Sound"
+ area_tiragarde_20_adj: "Tiragarde Sound"
+
+ area_tiragarde_21: "Tiragarde Sound XXI"
+ area_tiragarde_21_name: "Tiragarde Sound"
+ area_tiragarde_21_adj: "Tiragarde Sound"
+
+ area_tiragarde_22: "Tiragarde Sound XXII"
+ area_tiragarde_22_name: "Tiragarde Sound"
+ area_tiragarde_22_adj: "Tiragarde Sound"
+
+ area_tiragarde_23: "Tiragarde Sound XXIII"
+ area_tiragarde_23_name: "Tiragarde Sound"
+ area_tiragarde_23_adj: "Tiragarde Sound"
+
+ area_tiragarde_24: "Tiragarde Sound XXIV"
+ area_tiragarde_24_name: "Tiragarde Sound"
+ area_tiragarde_24_adj: "Tiragarde Sound"
+
+ area_tiragarde_25: "Tiragarde Sound XXV"
+ area_tiragarde_25_name: "Tiragarde Sound"
+ area_tiragarde_25_adj: "Tiragarde Sound"
+
+ area_tiragarde_26: "Tiragarde Sound XXVI"
+ area_tiragarde_26_name: "Tiragarde Sound"
+ area_tiragarde_26_adj: "Tiragarde Sound"
+
+ area_tiragarde_27: "Tiragarde Sound XXVII"
+ area_tiragarde_27_name: "Tiragarde Sound"
+ area_tiragarde_27_adj: "Tiragarde Sound"
+
+ area_tiragarde_28: "Tiragarde Sound XXVIII"
+ area_tiragarde_28_name: "Tiragarde Sound"
+ area_tiragarde_28_adj: "Tiragarde Sound"
+
+ area_tiragarde_29: "Tiragarde Sound XXIX"
+ area_tiragarde_29_name: "Tiragarde Sound"
+ area_tiragarde_29_adj: "Tiragarde Sound"
+
+ area_tiragarde_30: "Tiragarde Sound XXX"
+ area_tiragarde_30_name: "Tiragarde Sound"
+ area_tiragarde_30_adj: "Tiragarde Sound"
+
+ area_tiragarde_31: "Tiragarde Sound XXXI"
+ area_tiragarde_31_name: "Tiragarde Sound"
+ area_tiragarde_31_adj: "Tiragarde Sound"
+
+ area_tiragarde_32: "Tiragarde Sound XXXII"
+ area_tiragarde_32_name: "Tiragarde Sound"
+ area_tiragarde_32_adj: "Tiragarde Sound"
+
+ area_tiragarde_33: "Tiragarde Sound XXXIII"
+ area_tiragarde_33_name: "Tiragarde Sound"
+ area_tiragarde_33_adj: "Tiragarde Sound"
+
+ area_tiragarde_34: "Tiragarde Sound XXXIV"
+ area_tiragarde_34_name: "Tiragarde Sound"
+ area_tiragarde_34_adj: "Tiragarde Sound"
+
+ area_tiragarde_35: "Tiragarde Sound XXXV"
+ area_tiragarde_35_name: "Tiragarde Sound"
+ area_tiragarde_35_adj: "Tiragarde Sound"
+
+ area_tiragarde_36: "Tiragarde Sound XXXVI"
+ area_tiragarde_36_name: "Tiragarde Sound"
+ area_tiragarde_36_adj: "Tiragarde Sound"
+
+ area_tiragarde_37: "Tiragarde Sound XXXVII"
+ area_tiragarde_37_name: "Tiragarde Sound"
+ area_tiragarde_37_adj: "Tiragarde Sound"
+
+ area_tiragarde_38: "Tiragarde Sound XXXVIII"
+ area_tiragarde_38_name: "Tiragarde Sound"
+ area_tiragarde_38_adj: "Tiragarde Sound"
+
+ area_tiragarde_39: "Tiragarde Sound XXXIX"
+ area_tiragarde_39_name: "Tiragarde Sound"
+ area_tiragarde_39_adj: "Tiragarde Sound"
+
+ area_tiragarde_40: "Tiragarde Sound XL"
+ area_tiragarde_40_name: "Tiragarde Sound"
+ area_tiragarde_40_adj: "Tiragarde Sound"
+
+ area_tiragarde_41: "Tiragarde Sound XLI"
+ area_tiragarde_41_name: "Tiragarde Sound"
+ area_tiragarde_41_adj: "Tiragarde Sound"
+
+ area_tiragarde_42: "Tiragarde Sound XLII"
+ area_tiragarde_42_name: "Tiragarde Sound"
+ area_tiragarde_42_adj: "Tiragarde Sound"
+
+ area_tiragarde_43: "Tiragarde Sound XLIII"
+ area_tiragarde_43_name: "Tiragarde Sound"
+ area_tiragarde_43_adj: "Tiragarde Sound"
+
+ area_tiragarde_44: "Tiragarde Sound XLIV"
+ area_tiragarde_44_name: "Tiragarde Sound"
+ area_tiragarde_44_adj: "Tiragarde Sound"
+
+ area_tiragarde_45: "Tiragarde Sound XLV"
+ area_tiragarde_45_name: "Tiragarde Sound"
+ area_tiragarde_45_adj: "Tiragarde Sound"
+
+ area_tiragarde_46: "Tiragarde Sound XLVI"
+ area_tiragarde_46_name: "Tiragarde Sound"
+ area_tiragarde_46_adj: "Tiragarde Sound"
+
+ area_tiragarde_47: "Tiragarde Sound XLVII"
+ area_tiragarde_47_name: "Tiragarde Sound"
+ area_tiragarde_47_adj: "Tiragarde Sound"
+
+ area_tiragarde_48: "Tiragarde Sound XLVIII"
+ area_tiragarde_48_name: "Tiragarde Sound"
+ area_tiragarde_48_adj: "Tiragarde Sound"
+
+ area_tiragarde_49: "Tiragarde Sound XLIX"
+ area_tiragarde_49_name: "Tiragarde Sound"
+ area_tiragarde_49_adj: "Tiragarde Sound"
+
+ area_tiragarde_50: "Tiragarde Sound L"
+ area_tiragarde_50_name: "Tiragarde Sound"
+ area_tiragarde_50_adj: "Tiragarde Sound"
+ 
+ area_drustvar_1: "Drustvar I"
+ area_drustvar_1_name: "Drustvar"
+ area_drustvar_1_adj: "Drustvar"
+
+ area_drustvar_2: "Drustvar II"
+ area_drustvar_2_name: "Drustvar"
+ area_drustvar_2_adj: "Drustvar"
+
+ area_drustvar_3: "Drustvar III"
+ area_drustvar_3_name: "Drustvar"
+ area_drustvar_3_adj: "Drustvar"
+
+ area_drustvar_4: "Drustvar IV"
+ area_drustvar_4_name: "Drustvar"
+ area_drustvar_4_adj: "Drustvar"
+
+ area_drustvar_5: "Drustvar V"
+ area_drustvar_5_name: "Drustvar"
+ area_drustvar_5_adj: "Drustvar"
+
+ area_drustvar_6: "Drustvar VI"
+ area_drustvar_6_name: "Drustvar"
+ area_drustvar_6_adj: "Drustvar"
+
+ area_drustvar_7: "Drustvar VII"
+ area_drustvar_7_name: "Drustvar"
+ area_drustvar_7_adj: "Drustvar"
+
+ area_drustvar_8: "Drustvar VIII"
+ area_drustvar_8_name: "Drustvar"
+ area_drustvar_8_adj: "Drustvar"
+
+ area_drustvar_9: "Drustvar IX"
+ area_drustvar_9_name: "Drustvar"
+ area_drustvar_9_adj: "Drustvar"
+
+ area_drustvar_10: "Drustvar X"
+ area_drustvar_10_name: "Drustvar"
+ area_drustvar_10_adj: "Drustvar"
+
+ area_drustvar_11: "Drustvar XI"
+ area_drustvar_11_name: "Drustvar"
+ area_drustvar_11_adj: "Drustvar"
+
+ area_drustvar_12: "Drustvar XII"
+ area_drustvar_12_name: "Drustvar"
+ area_drustvar_12_adj: "Drustvar"
+
+ area_drustvar_13: "Drustvar XIII"
+ area_drustvar_13_name: "Drustvar"
+ area_drustvar_13_adj: "Drustvar"
+
+ area_drustvar_14: "Drustvar XIV"
+ area_drustvar_14_name: "Drustvar"
+ area_drustvar_14_adj: "Drustvar"
+
+ area_drustvar_15: "Drustvar XV"
+ area_drustvar_15_name: "Drustvar"
+ area_drustvar_15_adj: "Drustvar"
+
+ area_drustvar_16: "Drustvar XVI"
+ area_drustvar_16_name: "Drustvar"
+ area_drustvar_16_adj: "Drustvar"
+
+ area_drustvar_17: "Drustvar XVII"
+ area_drustvar_17_name: "Drustvar"
+ area_drustvar_17_adj: "Drustvar"
+
+ area_drustvar_18: "Drustvar XVIII"
+ area_drustvar_18_name: "Drustvar"
+ area_drustvar_18_adj: "Drustvar"
+
+ area_drustvar_19: "Drustvar XIX"
+ area_drustvar_19_name: "Drustvar"
+ area_drustvar_19_adj: "Drustvar"
+
+ area_drustvar_20: "Drustvar XX"
+ area_drustvar_20_name: "Drustvar"
+ area_drustvar_20_adj: "Drustvar"
+
+ area_drustvar_21: "Drustvar XXI"
+ area_drustvar_21_name: "Drustvar"
+ area_drustvar_21_adj: "Drustvar"
+
+ area_drustvar_22: "Drustvar XXII"
+ area_drustvar_22_name: "Drustvar"
+ area_drustvar_22_adj: "Drustvar"
+
+ area_drustvar_23: "Drustvar XXIII"
+ area_drustvar_23_name: "Drustvar"
+ area_drustvar_23_adj: "Drustvar"
+
+ area_drustvar_24: "Drustvar XXIV"
+ area_drustvar_24_name: "Drustvar"
+ area_drustvar_24_adj: "Drustvar"
+
+ area_drustvar_25: "Drustvar XXV"
+ area_drustvar_25_name: "Drustvar"
+ area_drustvar_25_adj: "Drustvar"
+
+ area_drustvar_26: "Drustvar XXVI"
+ area_drustvar_26_name: "Drustvar"
+ area_drustvar_26_adj: "Drustvar"
+
+ area_drustvar_27: "Drustvar XXVII"
+ area_drustvar_27_name: "Drustvar"
+ area_drustvar_27_adj: "Drustvar"
+
+ area_drustvar_28: "Drustvar XXVIII"
+ area_drustvar_28_name: "Drustvar"
+ area_drustvar_28_adj: "Drustvar"
+
+ area_drustvar_29: "Drustvar XXIX"
+ area_drustvar_29_name: "Drustvar"
+ area_drustvar_29_adj: "Drustvar"
+
+ area_drustvar_30: "Drustvar XXX"
+ area_drustvar_30_name: "Drustvar"
+ area_drustvar_30_adj: "Drustvar"
+
+ area_drustvar_31: "Drustvar XXXI"
+ area_drustvar_31_name: "Drustvar"
+ area_drustvar_31_adj: "Drustvar"
+
+ area_drustvar_32: "Drustvar XXXII"
+ area_drustvar_32_name: "Drustvar"
+ area_drustvar_32_adj: "Drustvar"
+
+ area_drustvar_33: "Drustvar XXXIII"
+ area_drustvar_33_name: "Drustvar"
+ area_drustvar_33_adj: "Drustvar"
+
+ area_drustvar_34: "Drustvar XXXIV"
+ area_drustvar_34_name: "Drustvar"
+ area_drustvar_34_adj: "Drustvar"
+
+ area_drustvar_35: "Drustvar XXXV"
+ area_drustvar_35_name: "Drustvar"
+ area_drustvar_35_adj: "Drustvar"
+
+ area_drustvar_36: "Drustvar XXXVI"
+ area_drustvar_36_name: "Drustvar"
+ area_drustvar_36_adj: "Drustvar"
+
+ area_drustvar_37: "Drustvar XXXVII"
+ area_drustvar_37_name: "Drustvar"
+ area_drustvar_37_adj: "Drustvar"
+
+ area_drustvar_38: "Drustvar XXXVIII"
+ area_drustvar_38_name: "Drustvar"
+ area_drustvar_38_adj: "Drustvar"
+
+ area_drustvar_39: "Drustvar XXXIX"
+ area_drustvar_39_name: "Drustvar"
+ area_drustvar_39_adj: "Drustvar"
+
+ area_drustvar_40: "Drustvar XL"
+ area_drustvar_40_name: "Drustvar"
+ area_drustvar_40_adj: "Drustvar"
+
+ area_drustvar_41: "Drustvar XLI"
+ area_drustvar_41_name: "Drustvar"
+ area_drustvar_41_adj: "Drustvar"
+
+ area_drustvar_42: "Drustvar XLII"
+ area_drustvar_42_name: "Drustvar"
+ area_drustvar_42_adj: "Drustvar"
+
+ area_drustvar_43: "Drustvar XLIII"
+ area_drustvar_43_name: "Drustvar"
+ area_drustvar_43_adj: "Drustvar"
+
+ area_drustvar_44: "Drustvar XLIV"
+ area_drustvar_44_name: "Drustvar"
+ area_drustvar_44_adj: "Drustvar"
+
+ area_drustvar_45: "Drustvar XLV"
+ area_drustvar_45_name: "Drustvar"
+ area_drustvar_45_adj: "Drustvar"
+
+ area_drustvar_46: "Drustvar XLVI"
+ area_drustvar_46_name: "Drustvar"
+ area_drustvar_46_adj: "Drustvar"
+
+ area_drustvar_47: "Drustvar XLVII"
+ area_drustvar_47_name: "Drustvar"
+ area_drustvar_47_adj: "Drustvar"
+
+ area_drustvar_48: "Drustvar XLVIII"
+ area_drustvar_48_name: "Drustvar"
+ area_drustvar_48_adj: "Drustvar"
+
+ area_drustvar_49: "Drustvar XLIX"
+ area_drustvar_49_name: "Drustvar"
+ area_drustvar_49_adj: "Drustvar"
+
+ area_drustvar_50: "Drustvar L"
+ area_drustvar_50_name: "Drustvar"
+ area_drustvar_50_adj: "Drustvar"
+ 
+ area_stormsong_1: "Stormsong Valley I"
+ area_stormsong_1_name: "Stormsong Valley"
+ area_stormsong_1_adj: "Stormsong Valley"
+
+ area_stormsong_2: "Stormsong Valley II"
+ area_stormsong_2_name: "Stormsong Valley"
+ area_stormsong_2_adj: "Stormsong Valley"
+
+ area_stormsong_3: "Stormsong Valley III"
+ area_stormsong_3_name: "Stormsong Valley"
+ area_stormsong_3_adj: "Stormsong Valley"
+
+ area_stormsong_4: "Stormsong Valley IV"
+ area_stormsong_4_name: "Stormsong Valley"
+ area_stormsong_4_adj: "Stormsong Valley"
+
+ area_stormsong_5: "Stormsong Valley V"
+ area_stormsong_5_name: "Stormsong Valley"
+ area_stormsong_5_adj: "Stormsong Valley"
+
+ area_stormsong_6: "Stormsong Valley VI"
+ area_stormsong_6_name: "Stormsong Valley"
+ area_stormsong_6_adj: "Stormsong Valley"
+
+ area_stormsong_7: "Stormsong Valley VII"
+ area_stormsong_7_name: "Stormsong Valley"
+ area_stormsong_7_adj: "Stormsong Valley"
+
+ area_stormsong_8: "Stormsong Valley VIII"
+ area_stormsong_8_name: "Stormsong Valley"
+ area_stormsong_8_adj: "Stormsong Valley"
+
+ area_stormsong_9: "Stormsong Valley IX"
+ area_stormsong_9_name: "Stormsong Valley"
+ area_stormsong_9_adj: "Stormsong Valley"
+
+ area_stormsong_10: "Stormsong Valley X"
+ area_stormsong_10_name: "Stormsong Valley"
+ area_stormsong_10_adj: "Stormsong Valley"
+
+ area_stormsong_11: "Stormsong Valley XI"
+ area_stormsong_11_name: "Stormsong Valley"
+ area_stormsong_11_adj: "Stormsong Valley"
+
+ area_stormsong_12: "Stormsong Valley XII"
+ area_stormsong_12_name: "Stormsong Valley"
+ area_stormsong_12_adj: "Stormsong Valley"
+
+ area_stormsong_13: "Stormsong Valley XIII"
+ area_stormsong_13_name: "Stormsong Valley"
+ area_stormsong_13_adj: "Stormsong Valley"
+
+ area_stormsong_14: "Stormsong Valley XIV"
+ area_stormsong_14_name: "Stormsong Valley"
+ area_stormsong_14_adj: "Stormsong Valley"
+
+ area_stormsong_15: "Stormsong Valley XV"
+ area_stormsong_15_name: "Stormsong Valley"
+ area_stormsong_15_adj: "Stormsong Valley"
+
+ area_stormsong_16: "Stormsong Valley XVI"
+ area_stormsong_16_name: "Stormsong Valley"
+ area_stormsong_16_adj: "Stormsong Valley"
+
+ area_stormsong_17: "Stormsong Valley XVII"
+ area_stormsong_17_name: "Stormsong Valley"
+ area_stormsong_17_adj: "Stormsong Valley"
+
+ area_stormsong_18: "Stormsong Valley XVIII"
+ area_stormsong_18_name: "Stormsong Valley"
+ area_stormsong_18_adj: "Stormsong Valley"
+
+ area_stormsong_19: "Stormsong Valley XIX"
+ area_stormsong_19_name: "Stormsong Valley"
+ area_stormsong_19_adj: "Stormsong Valley"
+
+ area_stormsong_20: "Stormsong Valley XX"
+ area_stormsong_20_name: "Stormsong Valley"
+ area_stormsong_20_adj: "Stormsong Valley"
+
+ area_stormsong_21: "Stormsong Valley XXI"
+ area_stormsong_21_name: "Stormsong Valley"
+ area_stormsong_21_adj: "Stormsong Valley"
+
+ area_stormsong_22: "Stormsong Valley XXII"
+ area_stormsong_22_name: "Stormsong Valley"
+ area_stormsong_22_adj: "Stormsong Valley"
+
+ area_stormsong_23: "Stormsong Valley XXIII"
+ area_stormsong_23_name: "Stormsong Valley"
+ area_stormsong_23_adj: "Stormsong Valley"
+
+ area_stormsong_24: "Stormsong Valley XXIV"
+ area_stormsong_24_name: "Stormsong Valley"
+ area_stormsong_24_adj: "Stormsong Valley"
+
+ area_stormsong_25: "Stormsong Valley XXV"
+ area_stormsong_25_name: "Stormsong Valley"
+ area_stormsong_25_adj: "Stormsong Valley"
+
+ area_stormsong_26: "Stormsong Valley XXVI"
+ area_stormsong_26_name: "Stormsong Valley"
+ area_stormsong_26_adj: "Stormsong Valley"
+
+ area_stormsong_27: "Stormsong Valley XXVII"
+ area_stormsong_27_name: "Stormsong Valley"
+ area_stormsong_27_adj: "Stormsong Valley"
+
+ area_stormsong_28: "Stormsong Valley XXVIII"
+ area_stormsong_28_name: "Stormsong Valley"
+ area_stormsong_28_adj: "Stormsong Valley"
+
+ area_stormsong_29: "Stormsong Valley XXIX"
+ area_stormsong_29_name: "Stormsong Valley"
+ area_stormsong_29_adj: "Stormsong Valley"
+
+ area_stormsong_30: "Stormsong Valley XXX"
+ area_stormsong_30_name: "Stormsong Valley"
+ area_stormsong_30_adj: "Stormsong Valley"
+
+ area_stormsong_31: "Stormsong Valley XXXI"
+ area_stormsong_31_name: "Stormsong Valley"
+ area_stormsong_31_adj: "Stormsong Valley"
+
+ area_stormsong_32: "Stormsong Valley XXXII"
+ area_stormsong_32_name: "Stormsong Valley"
+ area_stormsong_32_adj: "Stormsong Valley"
+
+ area_stormsong_33: "Stormsong Valley XXXIII"
+ area_stormsong_33_name: "Stormsong Valley"
+ area_stormsong_33_adj: "Stormsong Valley"
+
+ area_stormsong_34: "Stormsong Valley XXXIV"
+ area_stormsong_34_name: "Stormsong Valley"
+ area_stormsong_34_adj: "Stormsong Valley"
+
+ area_stormsong_35: "Stormsong Valley XXXV"
+ area_stormsong_35_name: "Stormsong Valley"
+ area_stormsong_35_adj: "Stormsong Valley"
+
+ area_stormsong_36: "Stormsong Valley XXXVI"
+ area_stormsong_36_name: "Stormsong Valley"
+ area_stormsong_36_adj: "Stormsong Valley"
+
+ area_stormsong_37: "Stormsong Valley XXXVII"
+ area_stormsong_37_name: "Stormsong Valley"
+ area_stormsong_37_adj: "Stormsong Valley"
+
+ area_stormsong_38: "Stormsong Valley XXXVIII"
+ area_stormsong_38_name: "Stormsong Valley"
+ area_stormsong_38_adj: "Stormsong Valley"
+
+ area_stormsong_39: "Stormsong Valley XXXIX"
+ area_stormsong_39_name: "Stormsong Valley"
+ area_stormsong_39_adj: "Stormsong Valley"
+
+ area_stormsong_40: "Stormsong Valley XL"
+ area_stormsong_40_name: "Stormsong Valley"
+ area_stormsong_40_adj: "Stormsong Valley"
+
+ area_stormsong_41: "Stormsong Valley XLI"
+ area_stormsong_41_name: "Stormsong Valley"
+ area_stormsong_41_adj: "Stormsong Valley"
+
+ area_stormsong_42: "Stormsong Valley XLII"
+ area_stormsong_42_name: "Stormsong Valley"
+ area_stormsong_42_adj: "Stormsong Valley"
+
+ area_stormsong_43: "Stormsong Valley XLIII"
+ area_stormsong_43_name: "Stormsong Valley"
+ area_stormsong_43_adj: "Stormsong Valley"
+
+ area_stormsong_44: "Stormsong Valley XLIV"
+ area_stormsong_44_name: "Stormsong Valley"
+ area_stormsong_44_adj: "Stormsong Valley"
+
+ area_stormsong_45: "Stormsong Valley XLV"
+ area_stormsong_45_name: "Stormsong Valley"
+ area_stormsong_45_adj: "Stormsong Valley"
+
+ area_stormsong_46: "Stormsong Valley XLVI"
+ area_stormsong_46_name: "Stormsong Valley"
+ area_stormsong_46_adj: "Stormsong Valley"
+
+ area_stormsong_47: "Stormsong Valley XLVII"
+ area_stormsong_47_name: "Stormsong Valley"
+ area_stormsong_47_adj: "Stormsong Valley"
+
+ area_stormsong_48: "Stormsong Valley XLVIII"
+ area_stormsong_48_name: "Stormsong Valley"
+ area_stormsong_48_adj: "Stormsong Valley"
+
+ area_stormsong_49: "Stormsong Valley XLIX"
+ area_stormsong_49_name: "Stormsong Valley"
+ area_stormsong_49_adj: "Stormsong Valley"
+
+ area_stormsong_50: "Stormsong Valley L"
+ area_stormsong_50_name: "Stormsong Valley"
+ area_stormsong_50_adj: "Stormsong Valley"
+ 
+ area_mechagon_1: "Mechagon I"
+ area_mechagon_1_name: "Mechagon"
+ area_mechagon_1_adj: "Mechagon"
+
+ area_mechagon_2: "Mechagon II"
+ area_mechagon_2_name: "Mechagon"
+ area_mechagon_2_adj: "Mechagon"
+
+ area_mechagon_3: "Mechagon III"
+ area_mechagon_3_name: "Mechagon"
+ area_mechagon_3_adj: "Mechagon"
+
+ area_mechagon_4: "Mechagon IV"
+ area_mechagon_4_name: "Mechagon"
+ area_mechagon_4_adj: "Mechagon"
+
+ area_mechagon_5: "Mechagon V"
+ area_mechagon_5_name: "Mechagon"
+ area_mechagon_5_adj: "Mechagon"
+
+ area_mechagon_6: "Mechagon VI"
+ area_mechagon_6_name: "Mechagon"
+ area_mechagon_6_adj: "Mechagon"
+
+ area_mechagon_7: "Mechagon VII"
+ area_mechagon_7_name: "Mechagon"
+ area_mechagon_7_adj: "Mechagon"
+
+ area_mechagon_8: "Mechagon VIII"
+ area_mechagon_8_name: "Mechagon"
+ area_mechagon_8_adj: "Mechagon"
+
+ area_mechagon_9: "Mechagon IX"
+ area_mechagon_9_name: "Mechagon"
+ area_mechagon_9_adj: "Mechagon"
+
+ area_mechagon_10: "Mechagon X"
+ area_mechagon_10_name: "Mechagon"
+ area_mechagon_10_adj: "Mechagon"
+
+ area_mechagon_11: "Mechagon XI"
+ area_mechagon_11_name: "Mechagon"
+ area_mechagon_11_adj: "Mechagon"
+
+ area_mechagon_12: "Mechagon XII"
+ area_mechagon_12_name: "Mechagon"
+ area_mechagon_12_adj: "Mechagon"
+
+ area_mechagon_13: "Mechagon XIII"
+ area_mechagon_13_name: "Mechagon"
+ area_mechagon_13_adj: "Mechagon"
+
+ area_mechagon_14: "Mechagon XIV"
+ area_mechagon_14_name: "Mechagon"
+ area_mechagon_14_adj: "Mechagon"
+
+ area_mechagon_15: "Mechagon XV"
+ area_mechagon_15_name: "Mechagon"
+ area_mechagon_15_adj: "Mechagon"
+
+ area_mechagon_16: "Mechagon XVI"
+ area_mechagon_16_name: "Mechagon"
+ area_mechagon_16_adj: "Mechagon"
+
+ area_mechagon_17: "Mechagon XVII"
+ area_mechagon_17_name: "Mechagon"
+ area_mechagon_17_adj: "Mechagon"
+
+ area_mechagon_18: "Mechagon XVIII"
+ area_mechagon_18_name: "Mechagon"
+ area_mechagon_18_adj: "Mechagon"
+
+ area_mechagon_19: "Mechagon XIX"
+ area_mechagon_19_name: "Mechagon"
+ area_mechagon_19_adj: "Mechagon"
+
+ area_mechagon_20: "Mechagon XX"
+ area_mechagon_20_name: "Mechagon"
+ area_mechagon_20_adj: "Mechagon"
+
+ area_mechagon_21: "Mechagon XXI"
+ area_mechagon_21_name: "Mechagon"
+ area_mechagon_21_adj: "Mechagon"
+
+ area_mechagon_22: "Mechagon XXII"
+ area_mechagon_22_name: "Mechagon"
+ area_mechagon_22_adj: "Mechagon"
+
+ area_mechagon_23: "Mechagon XXIII"
+ area_mechagon_23_name: "Mechagon"
+ area_mechagon_23_adj: "Mechagon"
+
+ area_mechagon_24: "Mechagon XXIV"
+ area_mechagon_24_name: "Mechagon"
+ area_mechagon_24_adj: "Mechagon"
+
+ area_mechagon_25: "Mechagon XXV"
+ area_mechagon_25_name: "Mechagon"
+ area_mechagon_25_adj: "Mechagon"
+
+ area_mechagon_26: "Mechagon XXVI"
+ area_mechagon_26_name: "Mechagon"
+ area_mechagon_26_adj: "Mechagon"
+
+ area_mechagon_27: "Mechagon XXVII"
+ area_mechagon_27_name: "Mechagon"
+ area_mechagon_27_adj: "Mechagon"
+
+ area_mechagon_28: "Mechagon XXVIII"
+ area_mechagon_28_name: "Mechagon"
+ area_mechagon_28_adj: "Mechagon"
+
+ area_mechagon_29: "Mechagon XXIX"
+ area_mechagon_29_name: "Mechagon"
+ area_mechagon_29_adj: "Mechagon"
+
+ area_mechagon_30: "Mechagon XXX"
+ area_mechagon_30_name: "Mechagon"
+ area_mechagon_30_adj: "Mechagon"
+
+ area_mechagon_31: "Mechagon XXXI"
+ area_mechagon_31_name: "Mechagon"
+ area_mechagon_31_adj: "Mechagon"
+
+ area_mechagon_32: "Mechagon XXXII"
+ area_mechagon_32_name: "Mechagon"
+ area_mechagon_32_adj: "Mechagon"
+
+ area_mechagon_33: "Mechagon XXXIII"
+ area_mechagon_33_name: "Mechagon"
+ area_mechagon_33_adj: "Mechagon"
+
+ area_mechagon_34: "Mechagon XXXIV"
+ area_mechagon_34_name: "Mechagon"
+ area_mechagon_34_adj: "Mechagon"
+
+ area_mechagon_35: "Mechagon XXXV"
+ area_mechagon_35_name: "Mechagon"
+ area_mechagon_35_adj: "Mechagon"
+
+ area_mechagon_36: "Mechagon XXXVI"
+ area_mechagon_36_name: "Mechagon"
+ area_mechagon_36_adj: "Mechagon"
+
+ area_mechagon_37: "Mechagon XXXVII"
+ area_mechagon_37_name: "Mechagon"
+ area_mechagon_37_adj: "Mechagon"
+
+ area_mechagon_38: "Mechagon XXXVIII"
+ area_mechagon_38_name: "Mechagon"
+ area_mechagon_38_adj: "Mechagon"
+
+ area_mechagon_39: "Mechagon XXXIX"
+ area_mechagon_39_name: "Mechagon"
+ area_mechagon_39_adj: "Mechagon"
+
+ area_mechagon_40: "Mechagon XL"
+ area_mechagon_40_name: "Mechagon"
+ area_mechagon_40_adj: "Mechagon"
+
+ area_mechagon_41: "Mechagon XLI"
+ area_mechagon_41_name: "Mechagon"
+ area_mechagon_41_adj: "Mechagon"
+
+ area_mechagon_42: "Mechagon XLII"
+ area_mechagon_42_name: "Mechagon"
+ area_mechagon_42_adj: "Mechagon"
+
+ area_mechagon_43: "Mechagon XLIII"
+ area_mechagon_43_name: "Mechagon"
+ area_mechagon_43_adj: "Mechagon"
+
+ area_mechagon_44: "Mechagon XLIV"
+ area_mechagon_44_name: "Mechagon"
+ area_mechagon_44_adj: "Mechagon"
+
+ area_mechagon_45: "Mechagon XLV"
+ area_mechagon_45_name: "Mechagon"
+ area_mechagon_45_adj: "Mechagon"
+
+ area_mechagon_46: "Mechagon XLVI"
+ area_mechagon_46_name: "Mechagon"
+ area_mechagon_46_adj: "Mechagon"
+
+ area_mechagon_47: "Mechagon XLVII"
+ area_mechagon_47_name: "Mechagon"
+ area_mechagon_47_adj: "Mechagon"
+
+ area_mechagon_48: "Mechagon XLVIII"
+ area_mechagon_48_name: "Mechagon"
+ area_mechagon_48_adj: "Mechagon"
+
+ area_mechagon_49: "Mechagon XLIX"
+ area_mechagon_49_name: "Mechagon"
+ area_mechagon_49_adj: "Mechagon"
+
+ area_mechagon_50: "Mechagon L"
+ area_mechagon_50_name: "Mechagon"
+ area_mechagon_50_adj: "Mechagon"

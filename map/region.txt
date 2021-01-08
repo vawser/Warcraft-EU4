@@ -176,14 +176,6 @@ region_tol_barad = {
     }
 }
 
-region_kul_tiras = {
-    areas = {
-        area_kul_tiras_1
-        area_kul_tiras_2
-        area_kul_tiras_3
-    }
-}
-
 region_arathi_highlands = {
     areas = {
         area_arathi_highlands_1
@@ -1509,6 +1501,53 @@ region_voldun = {
     }
 }
 
+# --------------------------------------
+# Kul Tiras
+# --------------------------------------
+region_tiragarde_sound = {
+    areas = {
+        area_tiragarde_1
+        area_tiragarde_2
+        area_tiragarde_3
+        area_tiragarde_4
+        area_tiragarde_5
+        area_tiragarde_6
+        area_tiragarde_7
+        area_tiragarde_8
+        area_tiragarde_9
+        area_tiragarde_10
+    }
+}
+
+region_drustvar = {
+    areas = {
+        area_drustvar_1
+        area_drustvar_2
+        area_drustvar_3
+        area_drustvar_4
+        area_drustvar_5
+        area_drustvar_6
+    }
+}
+
+region_stormsong_valley = {
+    areas = {
+        area_stormsong_1
+        area_stormsong_2
+        area_stormsong_3
+        area_stormsong_4
+        area_stormsong_5
+        area_stormsong_6
+    }
+}
+
+region_mechagon = {
+    areas = {
+        area_mechagon_1
+        area_mechagon_2
+        area_mechagon_3
+    }
+}
 
 # --------------------------------------
 # Islands
@@ -1598,6 +1637,7 @@ region_ocean_8 = {
         area_ocean_centre_east_1
         area_coast_gilneas
         area_coast_kul_tiras_isles
+        area_ocean_centre_east_3
     }
 }
 
@@ -1607,7 +1647,6 @@ region_ocean_9 = {
         area_coast_broken_isles
         area_ocean_maelstrom_2
         area_ocean_centre_east_2
-        area_ocean_centre_east_3
     }
 }
 

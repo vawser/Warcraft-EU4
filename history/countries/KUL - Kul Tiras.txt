@@ -5,7 +5,7 @@ government_rank = 3
 primary_culture = kul_tiras
 religion = the_holy_light
 
-capital = 3636
+capital = 3633
 
 # The First War
 592.1.1 = {

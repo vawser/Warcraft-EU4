@@ -508,21 +508,6 @@ area_tol_barad_2 = {
 }
 
 #-------------------
-# Kul Tiras
-#-------------------
-area_kul_tiras_1 = {
-    2179 3632 3633
-}
-
-area_kul_tiras_2 = {
-    2180 3634 3639 3635
-}
-
-area_kul_tiras_3 = {
-    3637 3638 3636
-}
-
-#-------------------
 # Arathi Highlands
 #-------------------
 area_arathi_highlands_1 = {
@@ -4650,6 +4635,100 @@ area_eye_of_azshara_1 = {
 }
 
 # --------------------------------------
+# Kul Tiras
+# --------------------------------------
+#-------------------
+# Tiragarde Sound
+#-------------------
+area_tiragarde_1 = {
+    3633 3632 3637
+}
+area_tiragarde_2 = {
+    7344 7346 7347 
+}
+area_tiragarde_3 = {
+    7349 7348 7345
+}
+area_tiragarde_4 = {
+    7354 3635 3636
+}
+area_tiragarde_5 = {
+    3634 3639 3638
+}
+area_tiragarde_6 = {
+    7350 7351 7352
+}
+area_tiragarde_7 = {
+    7353
+}
+area_tiragarde_8 = {
+    7390 7389 7388
+}
+area_tiragarde_9 = {
+    7387 7386 7384 7385
+}
+area_tiragarde_10 = {
+    7383 7382 7381
+}
+
+#-------------------
+# Drustvar
+#-------------------
+area_drustvar_1 = {
+    7358 7357 7356 7355
+}
+area_drustvar_2 = {
+    7360 7359 7361
+}
+area_drustvar_3 = {
+    7363 7364 7362
+}
+area_drustvar_4 = {
+    7367 7366 7365
+}
+area_drustvar_5 = {
+    7368 7369 7371
+}
+area_drustvar_6 = {
+    7370 7372 7373
+}
+
+#-------------------
+# Stormsong Valley
+#-------------------
+area_stormsong_1 = {
+    7410 7411 7412 7413 7414
+}
+area_stormsong_2 = {
+    7391 7396 7395
+}
+area_stormsong_3 = {
+    7393 7394 7392 
+}
+area_stormsong_4 = {
+    7406 7409 7407 7403
+}
+area_stormsong_5 = {
+    7405 7404 7408 7401 7402
+}
+area_stormsong_6 = {
+    7398 7399 7397 7400
+}
+
+#-------------------
+# Mechagon
+#-------------------
+area_mechagon_1 = {
+    7378 7377 7380 7379 7376
+}
+area_mechagon_2 = {
+    7375
+}
+area_mechagon_3 = {
+    7374
+}
+
+# --------------------------------------
 # Coastal
 # --------------------------------------
 area_coast_south_pandaria = {
@@ -4726,11 +4805,11 @@ area_coast_west_northrend = {
 }
 
 area_coast_broken_isles = {
-    870 866 871 859 872 873 877 876 875 878 852 853 864 860 862 855 865 856 857 858
+    870 866 871 859 872 873 877 876 875 878 852 853 864 860 862 855 865 856  
 }
 
 area_coast_kul_tiras_isles = {
-    406 408 899 407 411 882 883 884 412 885 886 410
+    406 408 899 407 411 882 883 884 412 885 886 410 857 858 531 901 902 900 893 891
 }
 
 area_coast_azeroth_east = {
@@ -4816,15 +4895,15 @@ area_ocean_northeast_top_5 = {
 }
 
 area_ocean_centre_east_1 = {
-    893 892 896 891 895 897 898 422 527 528 526
+    892 896 895 897 898 422 527  
 }
 
 area_ocean_centre_east_2 = {
-    874 510 511 508 512 509 869 868 513 867
+    874 510 511 508 512 509 869 868 513 867 530
 }
 
 area_ocean_centre_east_3 = {
-    531 901 900 529 902 530 552 551 553
+    529 552 551 553 526 528
 }
 
 area_ocean_centre_east_4 = {

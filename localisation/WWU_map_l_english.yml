@@ -24,7 +24,7 @@
  kezan: "Kezan"
  zandalar: "Zandalar"
  plunder_isle: "Plunder Isle"
- 
+ kul_tiras: "Kul Tiras"
  #-----------------------------------------------
  # Superregions
  #-----------------------------------------------
@@ -39,7 +39,7 @@
  pandaria_superregion: "Pandaria"
  broken_isles_superregion: "Broken Isles"
  zandalar_superregion: "Zandalar"
- 
+ kul_tiras_superregion: "Kul Tiras"
  #-----------------------------------------------
  # Regions
  #-----------------------------------------------
@@ -120,6 +120,11 @@
  region_zandalar: "Zandalar"
  region_nazmir: "Nazmir"
  region_voldun: "Vol'dun"
+ 
+ region_tiragarde_sound: "Tiragarde Sound"
+ region_drustvar: "Drustvar"
+ region_stormsong_valley: "Stormsong Valley"
+ region_mechagon: "Mechagon"
  
  region_plunder_isle: "Plunder Isle"
 

@@ -4,5 +4,3 @@
 Name key provinces
 Add national ideas
 
-Add Outland
-
