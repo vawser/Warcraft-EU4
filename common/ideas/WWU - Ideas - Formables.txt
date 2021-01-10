@@ -36,43 +36,53 @@
 	# }
 # }
 
-# # Arathor
-# X02_ideas = {
-	# start = {
-		
-	# }
+# Arathor
+X02_ideas = {
+	start = {
+		technology_cost = -0.1
+        free_policy = 1
+	}
 
-	# bonus = {
-        
-	# }
+	bonus = {
+        discipline = 0.1
+	}
 	
-	# trigger = {
-		# tag = X02
-	# }
-	# free = yes		
+	trigger = {
+		tag = X02
+	}
+	free = yes		
 	
-	# X02_ideas_1 = {
-		
-	# }
-	# X02_ideas_2 = {
-		
-	# }
-	# X02_ideas_3 = {
-		
-	# }
-	# X02_ideas_4 = {
-		
-	# }
-	# X02_ideas_5 = {
-		
-	# }
-	# X02_ideas_6 = {
-		
-	# }
-	# X02_ideas_7 = {
-		
-	# }
-# }
+	X02_ideas_1 = {
+        defensiveness = 0.25
+		garrison_size = 0.25
+	}
+	X02_ideas_2 = {
+		reduced_liberty_desire = 10
+        stability_cost_modifier = -0.1
+	}
+	X02_ideas_3 = {
+		missionaries = 1
+        land_morale = 0.1
+	}
+	X02_ideas_4 = {
+		range = 0.5
+        core_creation = -0.1
+	}
+	X02_ideas_5 = {
+		yearly_absolutism = 0.5
+        max_absolutism = 20
+	}
+	X02_ideas_6 = {
+		yearly_corruption = -0.05
+	}
+	X02_ideas_7 = {
+		legitimacy = 1
+        republican_tradition = 1
+        devotion = 1
+        horde_unity = 1
+        meritocracy = 1
+	}
+}
 
 # # Black Warband
 # X03_ideas = {

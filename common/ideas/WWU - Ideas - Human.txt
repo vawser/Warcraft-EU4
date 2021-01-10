@@ -82,11 +82,12 @@ DAL_ideas = {
 # Gilneas
 GIL_ideas = {
 	start = {
-		
+		advisor_cost = -0.1
+        stability_cost_modifier = -0.15
 	}
 
 	bonus = {
-        
+        advisor_pool = 2
 	}
 	
 	trigger = {
@@ -95,36 +96,39 @@ GIL_ideas = {
 	free = yes		
 	
 	GIL_ideas_1 = {
-		
+		prestige = 1
 	}
 	GIL_ideas_2 = {
-		
+		heavy_ship_power = 0.25
+		naval_attrition = -0.25
 	}
 	GIL_ideas_3 = {
-		
+		production_efficiency = 0.1
 	}
 	GIL_ideas_4 = {
-		
+		defensiveness = 0.25
 	}
 	GIL_ideas_5 = {
-		
+		global_tax_modifier = 0.15
 	}
 	GIL_ideas_6 = {
-		
+        fort_maintenance_modifier = -0.5
 	}
 	GIL_ideas_7 = {
-		
+		development_cost = -0.1
+		build_cost = -0.1
 	}
 }
 
 # Kul Tiras
 KUL_ideas = {
 	start = {
-		
+		naval_forcelimit_modifier = 0.33
+		allowed_marine_fraction = 0.25
 	}
 
 	bonus = {
-        
+        navy_tradition = 1
 	}
 	
 	trigger = {
@@ -133,36 +137,41 @@ KUL_ideas = {
 	free = yes		
 	
 	KUL_ideas_1 = {
-		
+		naval_morale = 0.15
 	}
 	KUL_ideas_2 = {
-		
+		merchants = 1
+        trade_steering = 0.1
 	}
 	KUL_ideas_3 = {
-		
+        heavy_ship_power = 0.1
+		sailor_maintenance_modifer = -0.2
 	}
 	KUL_ideas_4 = {
-		
+		global_ship_recruit_speed = -0.5
 	}
 	KUL_ideas_5 = {
-		
+		colonists = 1
 	}
 	KUL_ideas_6 = {
-		
+        global_sailors_modifier = 0.25
+		sailors_recovery_speed = 0.1
 	}
 	KUL_ideas_7 = {
-		
+		leader_naval_shock = 1
+        capture_ship_chance = 0.1
 	}
 }
 
 # Lordaeron
 LOR_ideas = {
 	start = {
-		
+		improve_relation_modifier = 0.1
+		legitimacy = 1 
 	}
 
 	bonus = {
-        
+        country_admin_power = 1
 	}
 	
 	trigger = {
@@ -171,36 +180,40 @@ LOR_ideas = {
 	free = yes		
 	
 	LOR_ideas_1 = {
-		
+		war_exhaustion_cost = -0.33
 	}
 	LOR_ideas_2 = {
-		
+		production_efficiency = 0.1
 	}
 	LOR_ideas_3 = {
-		
+		land_morale = 0.1
 	}
 	LOR_ideas_4 = {
-		
+		tolerance_own = 2
+        missionaries = 1
 	}
 	LOR_ideas_5 = {
-		
+		discipline = 0.05
+		cavalry_power = 0.15
 	}
 	LOR_ideas_6 = {
-		
+		colonists = 1
 	}
 	LOR_ideas_7 = {
-		
+		diplomatic_reputation = 1
+        diplomatic_upkeep = 1
 	}
 }
 
 # Stromgarde
 SMG_ideas = {
 	start = {
-		
+		diplomatic_upkeep = 1
+        num_accepted_cultures = 2
 	}
 
 	bonus = {
-        
+        diplomatic_reputation = 2
 	}
 	
 	trigger = {
@@ -209,25 +222,26 @@ SMG_ideas = {
 	free = yes		
 	
 	SMG_ideas_1 = {
-		
+		discipline = 0.05
 	}
 	SMG_ideas_2 = {
-		
+		global_autonomy = -0.05
 	}
 	SMG_ideas_3 = {
-		
+		infantry_cost = -0.25
+        infantry_power = 0.05
 	}
 	SMG_ideas_4 = {
-		
+		leader_land_fire = 1
 	}
 	SMG_ideas_5 = {
-		
+		garrison_growth = 1.0
 	}
 	SMG_ideas_6 = {
-		
+		global_tax_modifier = 0.15
 	}
 	SMG_ideas_7 = {
-		
+		legitimacy = 1
 	}
 }
 

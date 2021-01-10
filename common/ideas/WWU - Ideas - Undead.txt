@@ -1,37 +1,39 @@
 # The Forsaken
-FOR_ideas = {
+undead_ideas = {
 	start = {
-		
+		culture_conversion_cost = -0.25
+		artillery_power = 0.1
 	}
 
 	bonus = {
-        
+        shock_damage_received = -0.25
 	}
 	
 	trigger = {
-		tag = FOR
+		culture_group = undead_group
 	}
 	free = yes		
 	
-	FOR_ideas_1 = {
-		
+	undead_ideas_1 = {
+		land_maintenance_modifier = -0.20
 	}
-	FOR_ideas_2 = {
-		
+	undead_ideas_2 = {
+		global_manpower_modifier = 0.1
 	}
-	FOR_ideas_3 = {
-		
+	undead_ideas_3 = {
+		diplomats = 1
 	}
-	FOR_ideas_4 = {
-		
+	undead_ideas_4 = {
+		land_morale = 0.1
 	}
-	FOR_ideas_5 = {
-		
+	undead_ideas_5 = {
+		diplomatic_upkeep = 1
+        envoy_travel_time = -0.25
 	}
-	FOR_ideas_6 = {
-		
+	undead_ideas_6 = {
+		siege_ability = 0.15
 	}
-	FOR_ideas_7 = {
-		
+	undead_ideas_7 = {
+		hostile_attrition = 2
 	}
 }

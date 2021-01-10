@@ -2018,6 +2018,30 @@ on_raid_coast = {
 			influence = 1
 		}
 	}
+    # Give Pirates CB to targets of Raid Coast
+    FROM = {
+        every_neighbor_province = {
+            limit = { is_sea = no }
+            owner = {
+                if = {
+                    limit = {
+                        NOT = {
+                            has_casus_belli = {
+                                type = cb_pirates
+                                target = ROOT
+                            }
+                        }
+                    }
+                    
+                    add_casus_belli = {
+                        target = ROOT
+                        type = cb_pirates
+                        months = 120
+                    }
+                }
+            }
+        }
+    }
 }
 
 # ROOT = Tag that captured the flagship, FROM = Tag that lost the flagship

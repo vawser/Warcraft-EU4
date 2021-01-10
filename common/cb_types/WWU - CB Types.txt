@@ -90,3 +90,9 @@ cb_wrath_of_azshara = {
 
 	war_goal = take_capital_imperial
 }
+cb_pirates = {
+	is_triggered_only = yes
+	months = 120
+
+	war_goal = blockade_ports
+}

@@ -1,38 +1,42 @@
-# Mantid Empire
-MAN_ideas = {
+# Mantid 
+mantid_ideas = {
 	start = {
-		
+		manpower_recovery_speed = 0.2
+		global_manpower_modifier = 0.2
 	}
 
 	bonus = {
-        
+        siege_ability = 0.1
 	}
 	
 	trigger = {
-		tag = MAN
+		culture_group = mantid_group
 	}
 	free = yes		
 	
-	MAN_ideas_1 = {
-		
+	mantid_ideas_1 = {
+		advisor_cost = -0.25
+		advisor_pool = 1
 	}
-	MAN_ideas_2 = {
-		
+	mantid_ideas_2 = {
+		land_forcelimit_modifier = 0.25
 	}
-	MAN_ideas_3 = {
-		
+	mantid_ideas_3 = {
+		yearly_corruption = -0.1
 	}
-	MAN_ideas_4 = {
-		
+	mantid_ideas_4 = {
+		build_cost = -0.15
+        build_time = -0.15
 	}
-	MAN_ideas_5 = {
-		
+	mantid_ideas_5 = {
+		unjustified_demands = -0.2
 	}
-	MAN_ideas_6 = {
-		
+	mantid_ideas_6 = {
+        diplomats = 1
+		envoy_travel_time = -0.25
 	}
-	MAN_ideas_7 = {
-		
+	mantid_ideas_7 = {
+		global_missionary_strength = 0.03
 	}
 }
 

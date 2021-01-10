@@ -1,11 +1,12 @@
 # Quel'Thalas
 QUE_ideas = {
 	start = {
-		
+		idea_cost = -0.1
+        governing_capacity_modifier = 0.2
 	}
 
 	bonus = {
-        
+        discipline = 0.05
 	}
 	
 	trigger = {
@@ -14,25 +15,27 @@ QUE_ideas = {
 	free = yes		
 	
 	QUE_ideas_1 = {
-		
+		development_cost = -0.15
 	}
 	QUE_ideas_2 = {
-		
+		stability_cost_modifier = -0.25
 	}
 	QUE_ideas_3 = {
-		
+		technology_cost = -0.1
 	}
 	QUE_ideas_4 = {
-		
+		global_unrest = -1
 	}
 	QUE_ideas_5 = {
-		
+		infantry_shock = 1
 	}
 	QUE_ideas_6 = {
-		
+        diplomats = 1
+		improve_relation_modifier = 0.1
 	}
 	QUE_ideas_7 = {
-		
+		rival_change_cost = -1.0
+        unjustified_demands = -0.2
 	}
 }
 

@@ -297,3 +297,9 @@
  #-----------------------------------------------
  invest_in_speculative_research_title: "Invest in Speculative Research"
  invest_in_speculative_research_desc: "The inventive require investment to bring their ideas to fruition. By supplying promising new tinkerers with the materials and tools they need, we shall benefit from their creativity."
+ 
+ #-----------------------------------------------
+ # Pirate
+ #-----------------------------------------------
+ adopt_piratical_government_title: "Adopt Piratical Government"
+ adopt_piratical_government_desc: "Let us adopt a form of piratical government, and claim the high seas as our own."

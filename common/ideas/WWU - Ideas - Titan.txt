@@ -1,76 +1,42 @@
-# Ulduar
-ULD_ideas = {
+# Titan
+titan_ideas = {
 	start = {
-		
+		governing_capacity_modifier = 0.25
+        global_unrest = -1
 	}
 
 	bonus = {
-        
+        years_of_nationalism = -5
 	}
 	
 	trigger = {
-		tag = ULD
+		OR = {
+            tag = LIF
+            tag = ULD
+        }
 	}
 	free = yes		
 	
-	ULD_ideas_1 = {
-		
+	titan_ideas_1 = {
+		all_power_cost = -0.05
 	}
-	ULD_ideas_2 = {
-		
+	titan_ideas_2 = {
+		infantry_fire = 1
 	}
-	ULD_ideas_3 = {
-		
+	titan_ideas_3 = {
+		defensiveness = 0.33
+        global_garrison_growth = 0.25
 	}
-	ULD_ideas_4 = {
-		
+	titan_ideas_4 = {
+		yearly_corruption = -0.05
 	}
-	ULD_ideas_5 = {
-		
+	titan_ideas_5 = {
+		technology_cost = -0.1
 	}
-	ULD_ideas_6 = {
-		
+	titan_ideas_6 = {
+		hostile_attrition = 3
 	}
-	ULD_ideas_7 = {
-		
-	}
-}
-
-# Lifewarders
-LIF_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = LIF
-	}
-	free = yes		
-	
-	LIF_ideas_1 = {
-		
-	}
-	LIF_ideas_2 = {
-		
-	}
-	LIF_ideas_3 = {
-		
-	}
-	LIF_ideas_4 = {
-		
-	}
-	LIF_ideas_5 = {
-		
-	}
-	LIF_ideas_6 = {
-		
-	}
-	LIF_ideas_7 = {
-		
+	titan_ideas_7 = {
+		prestige = 1
 	}
 }
-

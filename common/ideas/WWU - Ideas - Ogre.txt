@@ -1,11 +1,12 @@
 # Ogre
 ogre_ideas = {
 	start = {
-		
+		manpower_recovery_speed = 0.1
+		global_autonomy = -0.05
 	}
 
 	bonus = {
-        
+        core_creation = -0.1	
 	}
 	
 	trigger = {
@@ -14,24 +15,24 @@ ogre_ideas = {
 	free = yes		
 	
 	ogre_ideas_1 = {
-		
+		idea_cost = -0.1
 	}
 	ogre_ideas_2 = {
-		
+		infantry_power = 0.1
 	}
 	ogre_ideas_3 = {
-		
+		development_cost = -0.1
 	}
 	ogre_ideas_4 = {
-		
+		land_morale = 0.1
 	}
 	ogre_ideas_5 = {
-		
+		prestige = 1
 	}
 	ogre_ideas_6 = {
-		
+		land_maintenance_modifier = -0.1
 	}
 	ogre_ideas_7 = {
-		
+		leader_land_fire = 2
 	}
 }

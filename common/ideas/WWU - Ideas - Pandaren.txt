@@ -384,11 +384,12 @@ OCS_ideas = {
 # Panadaren
 pandaren_ideas = {
 	start = {
-		
+		movement_speed = 0.1
+		yearly_corruption = -0.05
 	}
 
 	bonus = {
-        
+        core_creation = -0.15
 	}
 	
 	trigger = {
@@ -397,24 +398,24 @@ pandaren_ideas = {
 	free = yes		
 	
 	pandaren_ideas_1 = {
-		
+		diplomatic_reputation = 1
 	}
 	pandaren_ideas_2 = {
-		
+		production_efficiency = 0.2
 	}
 	pandaren_ideas_3 = {
-		
+		war_exhaustion_cost = -0.25
 	}
 	pandaren_ideas_4 = {
-		
+		cavalry_flanking = 0.5
 	}
 	pandaren_ideas_5 = {
-		
+		defensiveness = 0.33
 	}
 	pandaren_ideas_6 = {
-		
+		fort_maintenance_modifier = -0.2
 	}
 	pandaren_ideas_7 = {
-		
+		free_mil_policy = 1
 	}
 }

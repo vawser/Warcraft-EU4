@@ -22,6 +22,9 @@
  cb_secure_port: "Secure Port"
  cb_secure_port_desc: "As a nation reliant on trade, we must secure ports to ensure the spice flows."
  
+ cb_pirates: "Pirates!"
+ cb_pirates_desc: "Our coasts have been raided by pirates. Let us strike back and stop these scoundrels."
+ 
  #-----------------------------------
  # Wargoals
  #-----------------------------------

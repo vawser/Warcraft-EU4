@@ -1,11 +1,12 @@
 # Nazjatar
 NZJ_ideas = {
 	start = {
-		
+		naval_attrition = -1.0
+		movement_speed_onto_off_boat_modifier = -1.0
 	}
 
 	bonus = {
-        
+        core_creation = -0.2
 	}
 	
 	trigger = {
@@ -14,25 +15,27 @@ NZJ_ideas = {
 	free = yes		
 	
 	NZJ_ideas_1 = {
-		
+		discipline = 0.1
 	}
 	NZJ_ideas_2 = {
-		
+		heavy_ship_power = 0.1
+        naval_forcelimit_modifier = 0.1
 	}
 	NZJ_ideas_3 = {
-		
+		global_sailors_modifier = 0.25
+        sailor_maintenance_modifer = -0.25
 	}
 	NZJ_ideas_4 = {
-		
+		unjustified_demands = -0.25
 	}
 	NZJ_ideas_5 = {
-		
+		years_of_nationalism = -10
 	}
 	NZJ_ideas_6 = {
-		
+		ship_durability = 0.1
 	}
 	NZJ_ideas_7 = {
-		
+		navy_tradition = 1
 	}
 }
 
@@ -40,11 +43,12 @@ NZJ_ideas = {
 # Naga
 naga_ideas = {
 	start = {
-		
+		naval_attrition = -1.0
+		movement_speed_onto_off_boat_modifier = -1.0
 	}
 
 	bonus = {
-        
+        discipline = 0.05
 	}
 	
 	trigger = {
@@ -53,24 +57,27 @@ naga_ideas = {
 	free = yes		
 	
 	naga_ideas_1 = {
-		
+		leader_naval_fire = 1
+		leader_naval_shock = 1
 	}
 	naga_ideas_2 = {
-		
+		heavy_ship_power = 0.1
+        naval_forcelimit_modifier = 0.1
 	}
 	naga_ideas_3 = {
-		
+		navy_tradition = 1
 	}
 	naga_ideas_4 = {
-		
+		province_warscore_cost = -0.2
 	}
 	naga_ideas_5 = {
-		
+		production_efficiency = 0.1
 	}
 	naga_ideas_6 = {
-		
+		global_unrest = -2
 	}
 	naga_ideas_7 = {
-		
+		global_ship_trade_power = 0.2
+		privateer_efficiency = 0.1
 	}
 }

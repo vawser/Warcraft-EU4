@@ -1,5 +1,16 @@
 spriteTypes = {
-	
+	# frameAnimatedSpriteType = {
+		# name = "ANIM_eventPicture"
+		# texturefile = "gfx//interface//alerticon_banner.tga"
+		# noOfFrames = 20
+		# loadType = "INGAME"
+		# transparencecheck = yes
+		# animation_rate_fps = 20
+		# looping = yes
+		# play_on_show = yes
+		# pause_on_loop = 2.0
+	# }
+    
 	spriteType = {
 		name = "BLOODLUST_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_WARCRAFT/BLOODLUST_eventPicture.dds"

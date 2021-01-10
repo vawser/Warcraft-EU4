@@ -1,152 +1,39 @@
-# Bilgewater Cartel
-BIL_ideas = {
+# Goblin
+goblin_ideas = {
 	start = {
-		
+		merchants = 1
+        light_ship_cost = -0.25
 	}
 
 	bonus = {
-        
+        naval_forcelimit_modifier = 0.25
 	}
 	
 	trigger = {
-		tag = BIL
+		culture_group = goblin_group
 	}
 	free = yes		
 	
-	BIL_ideas_1 = {
-		
+	goblin_ideas_1 = {
+		development_cost = -0.2
 	}
-	BIL_ideas_2 = {
-		
+	goblin_ideas_2 = {
+		idea_cost = -0.1
 	}
-	BIL_ideas_3 = {
-		
+	goblin_ideas_3 = {
+		global_trade_goods_size_modifier = 0.1
 	}
-	BIL_ideas_4 = {
-		
+	goblin_ideas_4 = {
+		global_trade_power = 0.1
 	}
-	BIL_ideas_5 = {
-		
+	goblin_ideas_5 = {
+		embargo_efficiency = 0.33
 	}
-	BIL_ideas_6 = {
-		
+	goblin_ideas_6 = {
+		trade_efficiency = 0.05
+        caravan_power = 0.1
 	}
-	BIL_ideas_7 = {
-		
-	}
-}
-
-# Steamwheedle Cartel
-SMW_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = SMW
-	}
-	free = yes		
-	
-	SMW_ideas_1 = {
-		
-	}
-	SMW_ideas_2 = {
-		
-	}
-	SMW_ideas_3 = {
-		
-	}
-	SMW_ideas_4 = {
-		
-	}
-	SMW_ideas_5 = {
-		
-	}
-	SMW_ideas_6 = {
-		
-	}
-	SMW_ideas_7 = {
-		
+	goblin_ideas_7 = {
+		province_warscore_cost = -0.15
 	}
 }
-
-# Venture Company
-VTC_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = VTC
-	}
-	free = yes		
-	
-	VTC_ideas_1 = {
-		
-	}
-	VTC_ideas_2 = {
-		
-	}
-	VTC_ideas_3 = {
-		
-	}
-	VTC_ideas_4 = {
-		
-	}
-	VTC_ideas_5 = {
-		
-	}
-	VTC_ideas_6 = {
-		
-	}
-	VTC_ideas_7 = {
-		
-	}
-}
-
-# Blackwater Cartel
-BWA_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = BWA
-	}
-	free = yes		
-	
-	BWA_ideas_1 = {
-		
-	}
-	BWA_ideas_2 = {
-		
-	}
-	BWA_ideas_3 = {
-		
-	}
-	BWA_ideas_4 = {
-		
-	}
-	BWA_ideas_5 = {
-		
-	}
-	BWA_ideas_6 = {
-		
-	}
-	BWA_ideas_7 = {
-		
-	}
-}
-

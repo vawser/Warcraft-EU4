@@ -1,11 +1,13 @@
 # Trogg
 trogg_ideas = {
 	start = {
-		
+		army_tradition_from_battle = 1.0
+        general_cost = -0.75
 	}
 
 	bonus = {
-        
+        fire_damage_received = -0.2
+        shock_damage_received = -0.2
 	}
 	
 	trigger = {
@@ -14,24 +16,28 @@ trogg_ideas = {
 	free = yes		
 	
 	trogg_ideas_1 = {
-		
+		infantry_power = 0.2
 	}
 	trogg_ideas_2 = {
-		
+		land_attrition = -0.15
 	}
 	trogg_ideas_3 = {
-		
+		garrison_size = 1.0
 	}
 	trogg_ideas_4 = {
-		
+		legitimacy = 1
+        republican_tradition = 1
+        devotion = 1
+        horde_unity = 1
+        meritocracy = 1
 	}
 	trogg_ideas_5 = {
-		
+		land_morale = 0.15
 	}
 	trogg_ideas_6 = {
-		
+		global_trade_goods_size_modifier = 0.1
 	}
 	trogg_ideas_7 = {
-		
+		core_creation = -0.1
 	}
 }
