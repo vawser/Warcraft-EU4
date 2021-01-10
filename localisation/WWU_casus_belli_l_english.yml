@@ -65,4 +65,7 @@
  po_orc_annex_desc: "Annex all provinces from the human nation, automatically coring them and converting them to Orc culture and Fel religion."
  CB_ALLOWED_po_orc_annex: "Annex All"
  
- 
+ PEACE_po_dismantle_alliance: "Dismantle Alliance"
+ po_dismantle_alliance: "Dismantle Alliance"
+ po_dismantle_alliance_desc: "Dismantle the Alliance of Lordaeron."
+ CB_ALLOWED_po_dismantle_alliance: "Dismantle the Alliance"

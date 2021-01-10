@@ -1,0 +1,35 @@
+﻿l_english: 
+ #-----------------------------------------------
+ # Arcane
+ #-----------------------------------------------
+ wwu_alliance.1.title: "Alliance of Lordaeron"
+ wwu_alliance.1.desc: "The fall of Stormwind signals a grave future for the human kingdoms of Azeroth. Regent Lord Anduin Lothar, the leader of the Stormwind refuges, has petitioned the leaders of the other human kingdoms to form a grand alliance to push back the Orcish Horde."
+ wwu_alliance.1.option.a: "The Alliance is born!"
+ wwu_alliance.1.option.b: "No, the threat is overstated."
+ 
+ wwu_alliance.2.title: "Join the Alliance"
+ wwu_alliance.2.desc: "[From.Monarch.GetTitle] [From.Monarch.GetName] has offered [From.Monarch.GetHerHis] hand to us, in exchange for a mutually beneficial alliance, to be known as the Alliance of Lordaeron."
+ wwu_alliance.2.option.a: "It is our duty to protect Azeroth."
+ wwu_alliance.2.option.b: "We would refuse such an offer."
+ 
+ wwu_alliance.3.title: "Join the Alliance"
+ wwu_alliance.3.desc: "The Alliance of Lordaeron has been formed by the human kingdoms. Now they offer their hand to us, so their alliance may be bolstered further."
+ wwu_alliance.3.option.a: "It is our duty to protect Azeroth."
+ wwu_alliance.3.option.b: "We would refuse such an offer."
+ 
+ wwu_alliance.4.title: "Call for Aid"
+ wwu_alliance.4.desc: "As a member of the Alliance of Lordaeron, we can call upon the members of the Alliance to join our wars, even if they aren't directly allied with us."
+ wwu_alliance.4.option.a: "Ask for support"
+ wwu_alliance.4.option.b: "We can face this alone"
+ 
+ wwu_alliance.5.title: "Called for Aid"
+ wwu_alliance.5.desc: "[From.GetName] has called upon the Alliance, and thus us to come to their aid in their current war. To refuse would be bad form, and may risk our ejection from the Alliance."
+ wwu_alliance.5.option.a: "We honor the call"
+ wwu_alliance.5.option.b: "Ignore the call"
+ 
+ wwu_alliance.6.title: "Call of Aid - Cleanup"
+ wwu_alliance.6.desc: ""
+ wwu_alliance.6.option.a: "Ok"
+ 
+ wwu_alliance.7.title: "Alliance Dismantled"
+ wwu_alliance.7.desc: "The Alliance of Lordaeron has been forced to dismantle due to a devastating loss in a recent war. This will create dire times for all human nations."

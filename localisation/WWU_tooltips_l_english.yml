@@ -237,3 +237,5 @@
  merchants_string: "Merchants"
  nobles_string: "Nobles"
  clergy_string: "Clergymen"
+ 
+ claim_lands_effect_tt: "Gain a free core on a random province with a claim."

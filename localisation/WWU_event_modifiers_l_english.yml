@@ -1,5 +1,23 @@
 ﻿l_english: 
  #------------------------------------------------
+ # Missions
+ #------------------------------------------------
+ friend_to_all: "Friend to All"
+ desc_friend_to_all: ""
+ 
+ espionage_ambition: "Espionage Ambition"
+ desc_espionage_ambition: ""
+ 
+ integrated_regions: "Integrated States"
+ desc_integrated_regions: ""
+ 
+ colonial_ambition: "Colonial Ambition"
+ desc_colonial_ambition: ""
+ 
+ almighty_nation: "Almighty Nation"
+ desc_almighty_nation: ""
+ 
+ #------------------------------------------------
  # Troll
  #------------------------------------------------
  initiate_guerilla_warfare: "Guerilla Warfare"
@@ -761,7 +779,6 @@
  
  
  built_forts: "Built Forts"
- integrated_regions: ""
  ensured_safety_of_trade: "Ensured Safety of Trade"
  secured_the_region: "Secured The Region"
  hero_of_first_war: "Hero of The First War"
@@ -1097,3 +1114,24 @@
  #-------------------------------
  speculative_research: "Speculative Research"
  desc_speculative_research: ""
+ 
+ #-------------------------------
+ # Alliance of Lordaeron
+ #-------------------------------
+ explusion_of_the_refuges: "Explusion of the Refuges"
+ desc_explusion_of_the_refuges: ""
+ 
+ alliance_of_lordaeron: "Alliance of Lordaeron"
+ desc_alliance_of_lordaeron: ""
+ 
+ member_of_the_alliance: "Member of the Alliance"
+ desc_member_of_the_alliance: ""
+ 
+ dissolved_the_alliance: "Dissolved the Alliance"
+ desc_dissolved_the_alliance: ""
+ 
+ called_for_aid: "Called for Aid"
+ desc_called_for_aid: ""
+ 
+ assisting_alliance_member: "Assisting Alliance Member"
+ desc_assisting_alliance_member: ""

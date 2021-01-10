@@ -1,0 +1,64 @@
+country_decisions = {
+    leave_the_alliance = {
+		potential = {
+			has_country_modifier = member_of_the_alliance
+		}
+		
+		allow = {
+            is_at_war = no
+			has_country_modifier = member_of_the_alliance
+		}
+		
+		effect = {
+            remove_country_modifier = member_of_the_alliance
+		}
+		
+		ai_will_do = {
+			factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                # If the head has an opinion > 0, don't leave
+                any_country = {
+                    has_country_modifier = alliance_of_lordaeron
+                    has_opinion = {
+                        who = ROOT
+                        value = 0
+                    }
+                }
+            }
+		}
+	}
+    
+    dissolve_the_alliance = {
+		potential = {
+			has_country_modifier = alliance_of_lordaeron
+		}
+		
+		allow = {
+            is_at_war = no
+			has_country_modifier = alliance_of_lordaeron
+		}
+		
+		effect = {
+            remove_country_modifier = alliance_of_lordaeron
+            
+			every_country = {
+                limit = {
+                    has_country_modifier = member_of_the_alliance
+                }
+                remove_country_modifier = member_of_the_alliance
+            }
+            
+            add_country_modifier = {
+                name = dissolved_the_alliance
+                duration = 7300
+            }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

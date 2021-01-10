@@ -303,3 +303,15 @@
  #-----------------------------------------------
  adopt_piratical_government_title: "Adopt Piratical Government"
  adopt_piratical_government_desc: "Let us adopt a form of piratical government, and claim the high seas as our own."
+ 
+ #-----------------------------------------------
+ # Alliance of Lordaeron
+ #-----------------------------------------------
+ assist_the_alliance_title: "Assist the Alliance"
+ assist_the_alliance_desc: "A member of the Alliance is at war. We may join their war and assist them against whomever threatens us."
+ 
+ dissolve_the_alliance_title: "Dissolve the Alliance"
+ dissolve_the_alliance_desc: "Let us dissolve the Alliance of Lordaeron."
+ 
+ leave_the_alliance_title: "Leave the Alliance"
+ leave_the_alliance_desc: "Let us leave the Alliance of Lordaeron."
