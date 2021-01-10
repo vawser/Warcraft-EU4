@@ -9,10 +9,10 @@ wwu_food = {
 	color = { 0.168 0.698 0.141 }
     
 	modifier = {
-		land_forcelimit_modifier = 0.10
+		development_cost = -0.1
 	}
     province = {
-		land_forcelimit = 0.5
+		local_development_cost = -0.1 
 	}
 	chance = {
 		factor = 100
@@ -26,10 +26,10 @@ wwu_textiles = {
 	color = { 0.290 0.882 0.890 }
     
 	modifier = {
-		num_accepted_cultures = 1
+		prestige = 1
 	}
     province = {
-		province_trade_power_value = 2
+		local_production_efficiency = 0.25
 	}
 	chance = {
 		factor = 100
@@ -78,10 +78,10 @@ wwu_textiles = {
 wwu_jewelry = {
 	color = { 0.250 0.419 0.831 }
 	modifier = {
-		stability_cost_modifier = -0.10
+		stability_cost_modifier = -0.25
 	}
     province = {
-		local_tax_modifier = 0.1
+		local_tax_modifier = 0.25
 	}
 	chance = {
 		factor = 25
@@ -105,10 +105,10 @@ wwu_jewelry = {
 wwu_metals = {
 	color = { 0.792 0.815 0.760 }
 	modifier = {
-		global_regiment_recruit_speed = -0.1
+		army_tradition = 1
 	}
     province = {
-		regiment_recruit_speed = -0.2
+		local_manpower_modifier = 0.25
 	}
 	chance = {
 		factor = 50
@@ -163,10 +163,10 @@ wwu_gold = {
 wwu_slaves = {
 	color = { 0.623 0.078 0.098 }
 	modifier = {
-		global_manpower_modifier = 0.1
+		global_manpower_modifier = 0.25
 	}
     province = {
-		local_missionary_strength = 0.01
+		province_trade_power_modifier = 0.25
 	}
 	chance = {
 		factor = 25
@@ -195,10 +195,10 @@ wwu_slaves = {
 wwu_oil = {
 	color = { 0 0 0 }
 	modifier = {
-		defensiveness = 0.1
+		global_sailors_modifier = 0.25
 	}
     province = {
-		local_development_cost = -0.1
+		local_sailors_modifier = 0.25
 	}
 	chance = {
 		factor = 25
@@ -227,10 +227,11 @@ wwu_oil = {
 wwu_lumber = {
 	color = { 0.623 0.501 0.078 }
 	modifier = {
-		naval_forcelimit_modifier = 0.20
+		state_maintenance_modifier = -0.25
 	}
     province = {
-		naval_forcelimit = 0.5
+		local_build_cost = -0.25
+        local_build_time = -0.25
 	}
 	chance = {
 		factor = 10
@@ -256,7 +257,7 @@ wwu_artifacts = {
 		technology_cost = -0.1
 	}
     province = {
-		local_build_time = -0.2
+		local_unrest = -1
 	}
 	chance = {
 		factor = 5

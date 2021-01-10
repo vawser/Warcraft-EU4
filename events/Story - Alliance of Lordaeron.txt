@@ -12,7 +12,8 @@ country_event = {
 	trigger = {
         start_date = 592.1.1 # Started in Orcish Horde bookmark
         tag = LOR
-        NOT = { exists = SRW }
+        2993 = { owned_by = TOH } # Stormwind Keep is owned by the Orcish Horde
+        NOT = { exists = SRW } # Stormwind annexed
         NOT = { has_global_flag = alliance_of_lordaeron_setup }
 	}
 	

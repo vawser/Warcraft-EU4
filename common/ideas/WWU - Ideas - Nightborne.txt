@@ -1,11 +1,12 @@
 # Suramar
 NTB_ideas = {
 	start = {
-		
+		governing_capacity_modifier = 0.1
+        global_tax_modifier = 0.1
 	}
 
 	bonus = {
-        
+        administrative_efficiency = 0.1
 	}
 	
 	trigger = {
@@ -14,25 +15,27 @@ NTB_ideas = {
 	free = yes		
 	
 	NTB_ideas_1 = {
-		
+		idea_cost = -0.1
 	}
 	NTB_ideas_2 = {
-		
+		diplomatic_reputation = 2
+        diplomats = 1
 	}
 	NTB_ideas_3 = {
-		
+		ae_impact = -0.2
 	}
 	NTB_ideas_4 = {
-		
+		prestige = 1
 	}
 	NTB_ideas_5 = {
-		
+		advisor_cost = -0.2
+        advisor_pool = 1
 	}
 	NTB_ideas_6 = {
-		
+		technology_cost = -0.1
 	}
 	NTB_ideas_7 = {
-		
+		discipline = 0.075
 	}
 }
 

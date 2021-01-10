@@ -1,11 +1,12 @@
 # Pygmy
 pygmy_ideas = {
 	start = {
-		
+		global_regiment_cost = -0.25
+        global_regiment_recruit_speed = -0.25
 	}
 
 	bonus = {
-        
+        shock_damage = 0.2
 	}
 	
 	trigger = {
@@ -14,24 +15,28 @@ pygmy_ideas = {
 	free = yes		
 	
 	pygmy_ideas_1 = {
-		
+		build_time = -0.5
 	}
 	pygmy_ideas_2 = {
-		
+		unjustified_demands = -0.15
 	}
 	pygmy_ideas_3 = {
-		
+		yearly_corruption = -0.05
 	}
 	pygmy_ideas_4 = {
-		
+		missionary_maintenance_cost = -0.25
 	}
 	pygmy_ideas_5 = {
-		
+		colonists = 1
 	}
 	pygmy_ideas_6 = {
-		
+		caravan_power = 0.15
 	}
 	pygmy_ideas_7 = {
-		
+		legitimacy = 1
+        republican_tradition = 1
+        devotion = 1
+        horde_unity = 1
+        meritocracy = 1
 	}
 }

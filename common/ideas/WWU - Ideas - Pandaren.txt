@@ -188,85 +188,6 @@ TIG_ideas = {
 	}
 }
 
-# Tillers
-TIL_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = TIL
-	}
-	free = yes		
-	
-	TIL_ideas_1 = {
-		
-	}
-	TIL_ideas_2 = {
-		
-	}
-	TIL_ideas_3 = {
-		
-	}
-	TIL_ideas_4 = {
-		
-	}
-	TIL_ideas_5 = {
-		
-	}
-	TIL_ideas_6 = {
-		
-	}
-	TIL_ideas_7 = {
-		
-	}
-}
-
-# Anglers
-ANG_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		OR = {
-            tag = ANG
-            tag = SOG
-        }
-	}
-	free = yes		
-	
-	ANG_ideas_1 = {
-		
-	}
-	ANG_ideas_2 = {
-		
-	}
-	ANG_ideas_3 = {
-		
-	}
-	ANG_ideas_4 = {
-		
-	}
-	ANG_ideas_5 = {
-		
-	}
-	ANG_ideas_6 = {
-		
-	}
-	ANG_ideas_7 = {
-		
-	}
-}
-
 # Golden Lotus
 GOL_ideas = {
 	start = {
@@ -339,44 +260,6 @@ LRW_ideas = {
 		
 	}
 	LRW_ideas_7 = {
-		
-	}
-}
-
-# Order of the Cloud Serpent
-OCS_ideas = {
-	start = {
-		
-	}
-
-	bonus = {
-        
-	}
-	
-	trigger = {
-		tag = OCS
-	}
-	free = yes		
-	
-	OCS_ideas_1 = {
-		
-	}
-	OCS_ideas_2 = {
-		
-	}
-	OCS_ideas_3 = {
-		
-	}
-	OCS_ideas_4 = {
-		
-	}
-	OCS_ideas_5 = {
-		
-	}
-	OCS_ideas_6 = {
-		
-	}
-	OCS_ideas_7 = {
 		
 	}
 }
