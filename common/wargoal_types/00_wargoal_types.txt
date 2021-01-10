@@ -1140,7 +1140,7 @@ take_capital_punitive = {
 	peace_cost_factor = 0.75	
 	
 	allowed_provinces = {
-		is_core = ROOT
+        
 	}
 	
 	peace_options = {

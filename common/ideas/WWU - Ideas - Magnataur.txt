@@ -29,7 +29,7 @@ magnataur_ideas = {
 		siege_ability = 0.1
 	}
 	magnataur_ideas_5 = {
-		yearly_corruption = -0.05
+		stability_cost_modifier = -0.2
 	}
 	magnataur_ideas_6 = {
 		harsh_treatment_cost = -0.25

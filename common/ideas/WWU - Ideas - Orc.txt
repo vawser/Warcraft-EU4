@@ -43,7 +43,7 @@ ORG_ideas = {
 orc_ideas = {
 	start = {
 		mil_advisor_cost = -0.5
-        yearly_corruption = -0.05
+        stability_cost_modifier = -0.2
 	}
 
 	bonus = {

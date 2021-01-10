@@ -1135,3 +1135,9 @@
  
  assisting_alliance_member: "Assisting Alliance Member"
  desc_assisting_alliance_member: ""
+ 
+ #-------------------------------
+ # Old Gods
+ #-------------------------------
+ ancient_corruption: "Ancient Corruption"
+ desc_ancient_corruption: ""

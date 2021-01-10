@@ -1,7 +1,7 @@
 # Satyr
 satyr_ideas = {
 	start = {
-		prestige_decay = 0.01
+		prestige_decay = -0.01
         infantry_shock = 1
 	}
 

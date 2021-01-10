@@ -2,5 +2,10 @@
 # Changelog
 #------------------------------
 Name key provinces
+
+Add development to important provinces
+Add more centers of trade
+
 Add national ideas
 
+Diasters -> Incidents

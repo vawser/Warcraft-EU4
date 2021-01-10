@@ -9,19 +9,13 @@ stromkar_the_warbreaker = {
     discipline = 0.05
 }
 
-lich_kings_crown = {
-    yearly_corruption = 0.03
-}
-
 apocalypse = {
 	hostile_attrition = 2
 	war_exhaustion = -0.1
-	yearly_corruption = 0.04
 }
 
 twinblades_of_deceiver = {
 	leader_land_fire = 3
-	yearly_corruption = 0.03
 }
 
 scythe_of_elune = {
@@ -42,13 +36,11 @@ sheilun = {
 }
 
 ashbringer = {
-	yearly_corruption = -0.03
-	prestige_from_land = 0.2
+	prestige_from_land = 0.5
 }
 
 xalatath = {
 	warscore_cost_vs_other_religion = -1
-	yearly_corruption = 0.15
 }
 
 the_dreadblades = {
@@ -63,7 +55,6 @@ doomhammer = {
 
 skull_of_manari = {
  	war_taxes_cost_modifier = -1
-	yearly_corruption = 0.03
 }
 
 warswords_of_valarjar = {
@@ -265,3 +256,8 @@ contract_subject = {
 magically_enslaved_subject = {
 	global_unrest = -5
 }
+
+#----------------------------------------------
+# Prices
+#----------------------------------------------
+trade_time = { }

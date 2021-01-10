@@ -2,7 +2,7 @@
 NZJ_ideas = {
 	start = {
 		naval_attrition = -1.0
-		movement_speed_onto_off_boat_modifier = -1.0
+		movement_speed_onto_off_boat_modifier = 1.0
 	}
 
 	bonus = {
@@ -44,7 +44,7 @@ NZJ_ideas = {
 naga_ideas = {
 	start = {
 		naval_attrition = -1.0
-		movement_speed_onto_off_boat_modifier = -1.0
+		movement_speed_onto_off_boat_modifier = 1.0
 	}
 
 	bonus = {

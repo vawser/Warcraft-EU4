@@ -6,6 +6,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = TRM }
 			primary_culture = kul_tiras
+            NOT = { has_country_modifier = centralization_modifier }
 		}
         provinces_to_highlight = {
 			OR = {
@@ -55,6 +56,7 @@ country_decisions = {
 			NOT = { exists = ORG }
             NOT = { religion = fel }
 			culture_group = orc_group
+            NOT = { has_country_modifier = centralization_modifier }
 		}
         provinces_to_highlight = {
 			OR = { 
@@ -136,6 +138,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = X01 } 
 			is_old_god_religion = yes
+            NOT = { has_country_modifier = centralization_modifier }
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -213,6 +216,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = X02 }
 			is_human_culture_group = yes
+            NOT = { has_country_modifier = centralization_modifier }
 		}
         provinces_to_highlight = {
             OR = {
@@ -266,6 +270,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = X03 }
 			culture_group = centaur_group
+            NOT = { has_country_modifier = centralization_modifier }
 		}
         provinces_to_highlight = {
 			region = region_desolace
@@ -310,6 +315,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = X04 }
 			culture_group = dryad_group
+            NOT = { has_country_modifier = centralization_modifier }
 		}
         provinces_to_highlight = {
 			region = region_mount_hyjal
@@ -351,6 +357,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = X05 }
 			culture_group = night_elf_group
+            NOT = { has_country_modifier = centralization_modifier }
 		}
         provinces_to_highlight = {
 			OR = {
@@ -442,6 +449,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = X06 }
 			culture_group = goblin_group
+            NOT = { has_country_modifier = centralization_modifier }
 		}
         provinces_to_highlight = {
 			OR = {
@@ -486,6 +494,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = X07 }
 			culture_group = mogu_group
+            NOT = { has_country_modifier = centralization_modifier }
 		}
         provinces_to_highlight = {
 			region = region_isle_of_thunder
@@ -528,6 +537,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = X08 }
 			culture_group = murloc_group
+            NOT = { has_country_modifier = centralization_modifier }
 		}
 		allow = {  
             is_at_war = no
@@ -557,6 +567,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = NZJ }
 			culture_group = naga_group
+            NOT = { has_country_modifier = centralization_modifier }
 		}
         provinces_to_highlight = {
 			region = region_nazjatar
@@ -593,6 +604,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = X10 }
 			culture_group = pandaren_group
+            NOT = { has_country_modifier = centralization_modifier }
 		}
         provinces_to_highlight = {
 			region = region_vale_of_eternal_blossoms

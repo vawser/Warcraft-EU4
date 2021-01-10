@@ -121,3 +121,46 @@ DKI_ideas = {
 		discipline = 0.05
 	}
 }
+
+# Dwarf
+dwarf_ideas = {
+	start = {
+		global_manpower_modifier = 0.1
+        leader_siege = 1
+	}
+
+	bonus = {
+        production_efficiency = 0.2
+	}
+	
+	trigger = {
+		culture_group = dwarf_group
+	}
+	free = yes		
+	
+	dwarf_ideas_1 = {
+		advisor_cost = -0.25
+        advisor_pool = 1
+	}
+	dwarf_ideas_2 = {
+		build_cost = -0.25
+        build_time = -0.25
+	}
+	dwarf_ideas_3 = {
+		colonists = 1
+	}
+	dwarf_ideas_4 = {
+        merchants = 1
+		trade_steering = 0.1
+	}
+	dwarf_ideas_5 = {
+		siege_ability = 0.2
+	}
+	dwarf_ideas_6 = {
+		development_cost = -0.1
+	}
+	dwarf_ideas_7 = {
+		core_creation = -0.1
+	}
+}
+

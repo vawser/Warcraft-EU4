@@ -39,12 +39,6 @@
  form_the_pandaren_empire_desc: "We shall re-establish the Pandaren Empire."
  
  #-----------------------------------------------
- # Fel
- #-----------------------------------------------
- succumb_to_chaos_title: "Succumb to Chaos"
- succumb_to_chaos_faith_desc: "[Root.Monarch.GetName] has harbored Fel beliefs for quite some time. But a change of heart has prompted them to mandate that Fel worship is the only worship allowed."
- 
- #-----------------------------------------------
  # High Elf
  #-----------------------------------------------
  drink_from_the_sunwell_title: "Drink from the Sunwell"
@@ -315,3 +309,126 @@
  
  leave_the_alliance_title: "Leave the Alliance"
  leave_the_alliance_desc: "Let us leave the Alliance of Lordaeron."
+ 
+ #-----------------------------------------------
+ # Religion Switch
+ #-----------------------------------------------
+ adopt_arcane_belief_title: "Practice the Arcane"
+ adopt_arcane_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_azshara_belief_title: "Venerate Azshara"
+ adopt_azshara_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_dragon_aspects_belief_title: "Venerate the Dragon Aspects"
+ adopt_dragon_aspects_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_titan_worship_belief_title: "Adopt Titan Worship"
+ adopt_titan_worship_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_corrupt_titan_worship_belief_title: "Adopt Corrupt Titan Worship"
+ adopt_corrupt_titan_worship_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_mystery_of_the_makers_belief_title: "Ascribe to the Mystery of the Makers"
+ adopt_mystery_of_the_makers_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_runic_belief_title: "Adopt Runic Worship"
+ adopt_runic_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_fel_belief_title: "Succumb to Fel"
+ adopt_fel_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_drudism_belief_title: "Practice Druidism"
+ adopt_drudism_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_elune_belief_title: "Venerate elune"
+ adopt_elune_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_earth_mother_belief_title: "Venerate the Earth Mother"
+ adopt_earth_mother_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_celestials_belief_title: "Venerate the August Celestials"
+ adopt_celestials_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_cult_of_the_damned_belief_title: "Join the Cult of the Damned"
+ adopt_cult_of_the_damned_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_necromancy_belief_title: "Practice Necromancy"
+ adopt_necromancy_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_voodoo_belief_title: "Practice Voodoo"
+ adopt_voodoo_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_hakkari_belief_title: "Worship Hakkar"
+ adopt_hakkari_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_bloodmancy_belief_title: "Practice Bloodmancy"
+ adopt_bloodmancy_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_the_holy_light_belief_title: "Worship the Holy Light"
+ adopt_the_holy_light_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_light_of_the_naaru_belief_title: "Worship the Light of the Naaru"
+ adopt_light_of_the_naaru_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_shadow_belief_title: "Succumb to the Shadow"
+ adopt_shadow_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_forgotten_shadow_belief_title: "Join the Forgotten Shadow"
+ adopt_forgotten_shadow_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_cthun_belief_title: "Succumb to C'Thun"
+ adopt_cthun_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_nzoth_belief_title: "Succumb to N'Zoth"
+ adopt_nzoth_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_yogg_saron_belief_title: "Succumb to Yogg-Saron"
+ adopt_yogg_saron_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_yshaarj_belief_title: "Succumb to Y'Shaarj"
+ adopt_yshaarj_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_twilight_cult_belief_title: "Succumb to the Twilight"
+ adopt_twilight_cult_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_nightmare_belief_title: "Succumb to the Nightmare"
+ adopt_nightmare_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_fleshshaping_belief_title: "Practice Flesh-shaping"
+ adopt_fleshshaping_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_shamanism_belief_title: "Practice Shamanism"
+ adopt_shamanism_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_geomancy_belief_title: "Practice Geomancy"
+ adopt_geomancy_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_deep_mother_belief_title: "Worship the Deep Mother"
+ adopt_deep_mother_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_ordos_belief_title: "Worship Ordos"
+ adopt_ordos_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_fire_belief_title: "Worship the Flame"
+ adopt_fire_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_earth_belief_title: "Worship the Earth"
+ adopt_earth_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_wind_belief_title: "Worship the Wind"
+ adopt_wind_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_water_belief_title: "Worship the Water"
+ adopt_water_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_rationalism_belief_title: "Ascribe to the Rationalist Philosophy"
+ adopt_rationalism_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_faithless_belief_title: "Join the Faithless Creed"
+ adopt_faithless_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_technomancy_belief_title: "Ascribe to the Technomancy Philosophy"
+ adopt_technomancy_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_avarice_belief_title: "Ascribe to the Avarice Philosophy"
+ adopt_avarice_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."

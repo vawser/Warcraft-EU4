@@ -35,7 +35,7 @@ yaungol_ideas = {
         max_absolutism = 10
 	}
 	yaungol_ideas_6 = {
-		yearly_corruption = -0.05
+		stability_cost_modifier = -0.2
 	}
 	yaungol_ideas_7 = {
 		army_tradition_decay = -0.02

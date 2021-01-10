@@ -1,11 +1,12 @@
 # The Unbound
 UNB_ideas = {
 	start = {
-		
+        stability_cost_modifier = -0.1
+		global_autonomy = -0.05
 	}
 
 	bonus = {
-        
+        colonists = 1
 	}
 	
 	trigger = {
@@ -14,36 +15,37 @@ UNB_ideas = {
 	free = yes		
 	
 	UNB_ideas_1 = {
-		
+		development_cost = -0.15
 	}
 	UNB_ideas_2 = {
-		
+		prestige_decay = -0.01
 	}
 	UNB_ideas_3 = {
-		
+		years_of_nationalism = -10
 	}
 	UNB_ideas_4 = {
-		
+		culture_conversion_cost = -0.25
 	}
 	UNB_ideas_5 = {
-		
+		global_missionary_strength = 0.03
 	}
 	UNB_ideas_6 = {
-		
+		cavalry_power = 0.1
 	}
 	UNB_ideas_7 = {
-		
+		recover_army_morale_speed = 0.1
 	}
 }
 
 # Sisterhood of Winter
 SOW_ideas = {
 	start = {
-		
+		idea_claim_colonies = yes
+        prestige_decay = -0.01
 	}
 
 	bonus = {
-        
+        yearly_corruption = 0.05
 	}
 	
 	trigger = {
@@ -52,25 +54,27 @@ SOW_ideas = {
 	free = yes		
 	
 	SOW_ideas_1 = {
-		
+		advisor_cost = -0.15
 	}
 	SOW_ideas_2 = {
-		
+        improve_relation_modifier = 0.1
+		envoy_travel_time = -0.20
 	}
 	SOW_ideas_3 = {
-		
+        missionaries = 1
+		missionary_maintenance_cost = -0.25
 	}
 	SOW_ideas_4 = {
-		
+		movement_speed = 0.2
 	}
 	SOW_ideas_5 = {
-		
+		ae_impact = -0.1
 	}
 	SOW_ideas_6 = {
-		
+		stability_cost_modifier = -0.2
 	}
 	SOW_ideas_7 = {
-		
+		land_morale = 0.15
 	}
 }
 

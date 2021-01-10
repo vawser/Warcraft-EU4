@@ -239,3 +239,5 @@
  clergy_string: "Clergymen"
  
  claim_lands_effect_tt: "Gain a free core on a random province with a claim."
+ 
+ CAN_REDUCE_IN_PEACE: "You cannot reduce war exhaustion whilst at war."

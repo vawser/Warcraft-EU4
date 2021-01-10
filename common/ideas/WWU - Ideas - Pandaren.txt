@@ -1,11 +1,12 @@
 # Shado-pan
 SPN_ideas = {
 	start = {
-		
+		land_morale = 0.15
+        monarch_military_power = 1
 	}
 
 	bonus = {
-        
+        core_creation = -0.1
 	}
 	
 	trigger = {
@@ -14,25 +15,26 @@ SPN_ideas = {
 	free = yes		
 	
 	SPN_ideas_1 = {
-		
+		infantry_power = 0.1
 	}
 	SPN_ideas_2 = {
-		
+		shock_damage = 0.2
 	}
 	SPN_ideas_3 = {
-		
+		defensiveness = 0.25
+        garrison_size = 0.25
 	}
 	SPN_ideas_4 = {
-		
+		mil_tech_cost_modifier = -0.1
 	}
 	SPN_ideas_5 = {
-		
+        advisor_cost = -0.1
 	}
 	SPN_ideas_6 = {
-		
+		discipline = 0.1
 	}
 	SPN_ideas_7 = {
-		
+		prestige = 1
 	}
 }
 

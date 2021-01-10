@@ -6,6 +6,12 @@
  SOCIAL_DSTATUS_OBSERVING: "Observing Azeroth in $YEAR$"
  
  CULTURE_CONSTRUCTIONS: "Culture conversions"
+
+ #----------------------------------------------------
+ # Absolutism
+ #----------------------------------------------------
+ ABSOLUTISM_NOT_YET_TOOLTIP:1 "§YAbsolutism§!\nAbsolutism is how ruthless and efficient the government is. The higher it is, the greater benefits we gain in Unrest Reduction and Discipline."
+ ABSOLUTISM_IMPACT_TT:1 "Absolutism is how ruthless and efficient the government is. The higher it is, the greater benefits we gain in Unrest Reduction and Discipline."
  
  #----------------------------------------------------
  # Native

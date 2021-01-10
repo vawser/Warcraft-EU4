@@ -98,9 +98,9 @@ cb_dishonored_call = {
 	valid_for_subject = no
 
 	is_triggered_only = yes
-	months = 36
+	months = 240
 
-	war_goal = superiority_insult
+	war_goal = humiliate
 }
 
 # CB for vassalization missions
@@ -479,7 +479,7 @@ cb_super_badboy = {
 		is_revolutionary = no
 	}
 
-	war_goal = superiority_punitive
+	war_goal = take_capital_punitive
 }
 
 

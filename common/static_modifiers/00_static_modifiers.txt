@@ -31,7 +31,6 @@ difficulty_very_easy_player = {
 	interest = -2
 	improve_relation_modifier = 0.10
 	ae_impact = -0.33
-	yearly_corruption = -1.0
 }
 
 difficulty_easy_player = {
@@ -39,7 +38,6 @@ difficulty_easy_player = {
 	global_unrest = -5
 	interest = -2
 	ae_impact = -0.33
-	yearly_corruption = -1.0
 }
 
 difficulty_normal_player = {
@@ -813,7 +811,6 @@ positive_piety = {
 #For convenience, its multiplied by negative piety in code.
 negative_piety = {
 	global_manpower_modifier = -0.25
-	yearly_corruption = 0.5
 	global_unrest = 4
 }
 
@@ -896,7 +893,7 @@ legitimacy = {
 	tolerance_heretic = 1
 	diplomatic_reputation = 1
 	vassal_income = 0.25
-	max_absolutism = 20
+	max_absolutism = 10
     
     # Estates
 	nobility_loyalty_modifier = 0.1
@@ -945,8 +942,9 @@ low_meritocracy = {
 	yearly_corruption = 0.2 #i.e. 0.1 at 0 Meritocracy
 }
 
+# Realm Efficiency
 corruption = {
-	diplomatic_reputation = -5
+    diplomatic_reputation = -5
 	spy_offence = -1
 	global_spy_defence = -1
 	all_power_cost = 1.0
@@ -959,6 +957,7 @@ corruption = {
 	tribals_loyalty_modifier = 0.1
 }
 
+# Exploit Realm Efficiency
 root_out_corruption = {
 	yearly_corruption = -1.0
 }
@@ -1171,9 +1170,8 @@ in_golden_era = {
 }
 
 absolutism = {
-	administrative_efficiency = 0.3
-	discipline = 0.05
-	core_decay_on_your_own = -0.5
+	discipline = 0.2
+    global_unrest = -5
 }
 
 low_army_professionalism = {
@@ -1269,7 +1267,7 @@ gov_rank_2 = {
     unjustified_demands = -0.05
     diplomats = 1
     diplomatic_upkeep = 1
-    max_absolutism = 10
+    max_absolutism = 5
 }
 
 gov_rank_3 = {
@@ -1277,7 +1275,7 @@ gov_rank_3 = {
     unjustified_demands = -0.1
     diplomats = 1
     diplomatic_upkeep = 2
-    max_absolutism = 20
+    max_absolutism = 10
 }
 
 gov_rank_4 = {
@@ -1353,7 +1351,7 @@ reputation_sabotaged = {
 }
 
 corrupt_officials = {
-	yearly_corruption = 0.33
+	stability_cost_modifier = 0.5
 }
 
 scaled_trade_league_leader = { #scaled by number of members

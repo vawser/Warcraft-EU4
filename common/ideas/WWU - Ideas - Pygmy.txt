@@ -21,7 +21,7 @@ pygmy_ideas = {
 		unjustified_demands = -0.15
 	}
 	pygmy_ideas_3 = {
-		yearly_corruption = -0.05
+		stability_cost_modifier = -0.2
 	}
 	pygmy_ideas_4 = {
 		missionary_maintenance_cost = -0.25
