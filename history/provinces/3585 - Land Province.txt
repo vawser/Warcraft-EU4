@@ -4,9 +4,9 @@ owner = WTR
 controller = WTR
 add_core = WTR
 
-base_tax = 3
-base_production = 2
-base_manpower = 1
+base_tax = 5
+base_production = 4
+base_manpower = 4
 
 culture = witherbark
 religion = voodoo

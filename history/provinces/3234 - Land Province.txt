@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = IRO
-controller = IRO
-add_core = IRO
+owner = IJW
+controller = IJW
+add_core = IJW
 
 base_tax = 3
 base_production = 1
 base_manpower = 4
 
-culture = ironforge
-religion = the_holy_light
+culture = ironjaw
+religion = geomancy
 
 trade_goods = unknown
 hre = no

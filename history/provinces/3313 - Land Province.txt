@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = IRO
-controller = IRO
-add_core = IRO
+owner = FEV
+controller = FEV
+add_core = FEV
 
 base_tax = 1
 base_production = 4
 base_manpower = 4
 
-culture = ironforge
-religion = the_holy_light
+culture = fenvault
+religion = geomancy
 
 trade_goods = unknown
 hre = no

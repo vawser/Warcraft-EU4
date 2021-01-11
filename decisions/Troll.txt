@@ -115,7 +115,7 @@ country_decisions = {
 			add_adm_power = 200
 			add_dip_power = 200
 			add_mil_power = 200
-			custom_tooltip = EVIL_ACTION_TOOLTIP
+            
             add_country_modifier = {
                 name = taint_of_evil
                 duration = -1

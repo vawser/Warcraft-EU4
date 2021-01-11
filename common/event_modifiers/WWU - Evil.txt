@@ -1,6 +1,3 @@
 taint_of_evil = {
-    diplomatic_reputation = -3
-    
-    years_of_nationalism = -10
-    culture_conversion_cost = -0.5
+    diplomatic_reputation = -2
 }

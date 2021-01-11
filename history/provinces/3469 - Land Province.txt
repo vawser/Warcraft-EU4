@@ -4,9 +4,9 @@ owner = DAL
 controller = DAL
 add_core = DAL
 
-base_tax = 2
-base_production = 2
-base_manpower = 4
+base_tax = 10
+base_production = 9
+base_manpower = 8
 
 culture = dalaran
 religion = arcane

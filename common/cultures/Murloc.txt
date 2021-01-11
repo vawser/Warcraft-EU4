@@ -76,6 +76,20 @@ murloc_group = {
 		female_names = { }
 		dynasty_names = { }
     }
+    evermere = {
+        primary = EVM
+        
+        male_names = { }
+		female_names = { }
+		dynasty_names = { }
+    }
+    stonegill = {
+        primary = SGI
+        
+        male_names = { }
+		female_names = { }
+		dynasty_names = { }
+    }
 }
 
 

@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = QUE
-controller = QUE
-add_core = QUE
+owner = SWP
+controller = SWP
+add_core = SWP
 
 base_tax = 4
 base_production = 2
 base_manpower = 4
 
-culture = quelthalas
-religion = arcane
+culture = shadowpine
+religion = voodoo
 
 trade_goods = unknown
 hre = no

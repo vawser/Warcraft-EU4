@@ -298,6 +298,8 @@
  redgill: "Redgill"
  winterfin: "Winterfin"
  chillmere: "Chillmere"
+ evermere: "Evermere"
+ stonegill: "Stonegill"
  murloc: "Murloc"
  
  #--------------------------------
@@ -516,6 +518,9 @@
  gravelflint: "Gravelflint"
  rockjaw: "Rockjaw"
  stonesplinter: "Stonesplinter"
+ fenvault: "Fenvault"
+ ironjaw: "Ironjaw"
+ silverflint: "Silverflint"
  trogg: "Trogg"
  
  #--------------------------------

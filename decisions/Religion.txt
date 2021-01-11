@@ -112,6 +112,10 @@ country_decisions = {
         }
         allow = {
             adm_power = 100
+            custom_trigger_tooltip = {
+                tooltip = SUNWELL_NOT_DESTROTED
+                NOT = { has_global_flag = sunwell_destroyed }
+            }
         }
         effect = {
             add_adm_power = -100

@@ -4,9 +4,9 @@ owner = RVT
 controller = RVT
 add_core = RVT
 
-base_tax = 3
-base_production = 1
-base_manpower = 3
+base_tax = 6
+base_production = 5
+base_manpower = 5
 
 culture = revantusk
 religion = voodoo

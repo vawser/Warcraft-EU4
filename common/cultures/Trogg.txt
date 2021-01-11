@@ -44,5 +44,26 @@ trogg_group = {
         female_names = { }
         dynasty_names = { }
     }
+    fenvault = {
+        primary = FEV
+        
+        male_names = { }
+        female_names = { }
+        dynasty_names = { }
+    }
+    ironjaw = {
+        primary = IJW
+        
+        male_names = { }
+        female_names = { }
+        dynasty_names = { }
+    }
+    silverflint = {
+        primary = SFL
+        
+        male_names = { }
+        female_names = { }
+        dynasty_names = { }
+    }
 }
 

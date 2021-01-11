@@ -161,6 +161,7 @@ upm_teldrassil = {
 		controller = {
 			culture_group = night_elf_group
 		}
+        has_country_flag = nordrassil_destroyed
 	}
 
 	trigger = {
@@ -177,13 +178,13 @@ upm_nordrassil = {
 		controller = {
 			culture_group = night_elf_group
 		}
+        NOT = { has_country_flag = nordrassil_destroyed }
 	}
 
 	trigger = {
 		controller = {
 			culture_group = night_elf_group
 		}
-        NOT = { has_country_flag = nordrassil_destroyed }
 	} 
     
     all_power_cost = -0.1
@@ -221,36 +222,4 @@ upm_ironforge = {
 	} 
     
     fort_level = 2
-}
-
-upm_sunwell = {
-    potential = {
-		always = yes
-	}
-
-	trigger = {
-		controller = {
-			tag = QUE
-		}
-        NOT = { has_country_flag = sunwell_corruption }
-	} 
-    
-    all_power_cost = -0.0
-}
-
-upm_corrupted_sunwell = {
-    potential = {
-		always = yes
-	}
-
-	trigger = {
-        has_country_flag = sunwell_corruption
-	}
-    
-    on_activation = {
-	
-	}
-    on_deactivation = {
-	
-	}
 }

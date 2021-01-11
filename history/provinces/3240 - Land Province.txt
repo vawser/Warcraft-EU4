@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = IRO
-controller = IRO
-add_core = IRO
+owner = SFL
+controller = SFL
+add_core = SFL
 
 base_tax = 4
 base_production = 1
 base_manpower = 2
 
-culture = ironforge
-religion = the_holy_light
+culture = silverflint
+religion = geomancy
 
 trade_goods = unknown
 hre = no

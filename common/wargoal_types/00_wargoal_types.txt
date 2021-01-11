@@ -610,7 +610,6 @@ take_capital_imperial = {
 		prestige_factor = 1
 		peace_cost_factor = 0.75	
 		
-		
 		allowed_provinces = {
 			always = yes
 		}
@@ -627,7 +626,6 @@ take_capital_imperial = {
 		badboy_factor = 0.75
 		prestige_factor = 1
 		peace_cost_factor = 0.75	
-		
 		
 		allowed_provinces = {
 			always = yes

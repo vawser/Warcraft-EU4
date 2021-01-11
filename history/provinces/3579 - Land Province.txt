@@ -4,9 +4,9 @@ owner = SER
 controller = SER
 add_core = SER
 
-base_tax = 2
-base_production = 2
-base_manpower = 1
+base_tax = 6
+base_production = 5
+base_manpower = 4
 
 culture = green_dragonflight
 religion = dragon_aspects

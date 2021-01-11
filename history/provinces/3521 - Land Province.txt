@@ -4,9 +4,9 @@ owner = ANO
 controller = ANO
 add_core = ANO
 
-base_tax = 1
+base_tax = 6
 base_production = 4
-base_manpower = 3
+base_manpower = 4
 
 culture = andorhal
 religion = the_holy_light

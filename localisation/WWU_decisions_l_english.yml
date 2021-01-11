@@ -108,6 +108,12 @@
  
  scourge_recently_won_battle_tt: "Have recently won a battle"
  
+ repel_the_undead_title: "Repel the Undead"
+ repel_the_undead_desc: "The Scourge have begun to emerge within our lands. Let us undertake a campaign of repulsion, ensuring their pestilence does not spread further."
+ 
+ purge_the_infected_title: "Purge the Infected"
+ purge_the_infected_desc: "Many communities within our lands have been infected by the Plague of Undeath. We must purge them to ensure the Scourge threat does not grow stronger yet."
+ 
  #-----------------------------------------------
  # Human
  #-----------------------------------------------

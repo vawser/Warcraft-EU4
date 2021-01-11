@@ -1,40 +1,42 @@
-# # The Black Empire
-# X01_ideas = {
-	# start = {
-		
-	# }
+# The Black Empire
+X01_ideas = {
+	start = {
+		development_cost = -0.1
+        culture_conversion_cost = -0.25
+	}
     
-	# bonus = {
-        
-	# }
+	bonus = {
+        all_power_cost = -0.05
+	}
 	
-	# trigger = {
-		# tag = X01
-	# }
-	# free = yes		
+	trigger = {
+		tag = X01
+	}
+	free = yes		
 	
-	# X01_ideas_1 = {
-		
-	# }
-	# X01_ideas_2 = {
-		
-	# }
-	# X01_ideas_3 = {
-		
-	# }
-	# X01_ideas_4 = {
-		
-	# }
-	# X01_ideas_5 = {
-		
-	# }
-	# X01_ideas_6 = {
-		
-	# }
-	# X01_ideas_7 = {
-		
-	# }
-# }
+	X01_ideas_1 = {
+		province_warscore_cost = -0.25
+	}
+	X01_ideas_2 = {
+		core_creation = -0.2
+	}
+	X01_ideas_3 = {
+		global_missionary_strength = 0.03
+	}
+	X01_ideas_4 = {
+		general_cost = -0.5
+        leader_siege = 1
+	}
+	X01_ideas_5 = {
+		warscore_cost_vs_other_religion = -0.25
+	}
+	X01_ideas_6 = {
+		shock_damage = 0.25
+	}
+	X01_ideas_7 = {
+		country_military_power = 1
+	}
+}
 
 # Arathor
 X02_ideas = {
@@ -308,44 +310,6 @@ X02_ideas = {
 		
 	# }
 	# X08_ideas_7 = {
-		
-	# }
-# }
-
-# # The Nazjatar Empire
-# X09_ideas = {
-	# start = {
-		
-	# }
-
-	# bonus = {
-        
-	# }
-	
-	# trigger = {
-		# tag = X09
-	# }
-	# free = yes		
-	
-	# X09_ideas_1 = {
-		
-	# }
-	# X09_ideas_2 = {
-		
-	# }
-	# X09_ideas_3 = {
-		
-	# }
-	# X09_ideas_4 = {
-		
-	# }
-	# X09_ideas_5 = {
-		
-	# }
-	# X09_ideas_6 = {
-		
-	# }
-	# X09_ideas_7 = {
 		
 	# }
 # }

@@ -4,19 +4,15 @@ owner = QUE
 controller = QUE
 add_core = QUE
 
-base_tax = 2
-base_production = 1
-base_manpower = 1
+base_tax = 8
+base_production = 6
+base_manpower = 7
 
 culture = quelthalas
 religion = arcane
 
 trade_goods = unknown
 hre = no
-
-add_province_triggered_modifier = upm_sunwell
-add_province_triggered_modifier = upm_corrupted_sunwell
-
 
 200.1.1 = {
     center_of_trade = 1

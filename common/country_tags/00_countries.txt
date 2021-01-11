@@ -211,7 +211,9 @@ SAL = "countries/Saltscale.txt"     # Stranglethorn
 ROC = "countries/Rockpool.txt"      # Blasted Lands
 REG = "countries/Redgill.txt"       # Pandaria
 WRF = "countries/Winterfin.txt"     # Borean Tundra   
-CHI = "countries/Chillmere.txt"     # Howling Fjord  
+CHI = "countries/Chillmere.txt"     # Howling Fjord 
+EVM = "countries/Evermere.txt"      
+SGI = "countries/Stonegill.txt"
         
 # ---- Naga  ----
 RIP = "countries/Riplash.txt"          # Borean Tundra
@@ -375,6 +377,9 @@ SVT = "countries/Stonevault.txt"        # Badlands
 GVF = "countries/Gravelflint.txt"       # Darkshore
 RJW = "countries/Rockjaw.txt"           # Dun Morogh
 SPI = "countries/Stonesplinter.txt"      # Loch Modan
+FEV = "countries/Fenvault.txt"
+IJW = "countries/Ironjaw.txt"
+SFL = "countries/Silverflint.txt"
 
 # ---- Zandalari Troll ----
 ZDL = "countries/Zandalar.txt"        # Zandalar

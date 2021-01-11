@@ -111,3 +111,54 @@ country_event = {
 	}
 }
 
+# Defilement of the Sunwell
+country_event = {
+	id = wwu_scourge.4
+	title = wwu_scourge.4.title
+	desc = wwu_scourge.4.desc
+	picture = UNDEAD_eventPicture
+	
+    is_triggered_only = yes
+    
+	trigger = {
+        OR = {
+            has_reform = scourge_reform
+            has_reform = scourge_domain_reform
+        }
+        FROM = {
+            tag = QUE
+            NOT = { has_reform = scourge_reform }
+            NOT = { has_reform = scourge_domain_reform }
+        }
+        NOT = { has_global_flag = sunwell_destroyed }
+	}
+	
+    immediate = {
+        hidden_effect = {
+            set_global_flag = sunwell_destroyed
+        }
+    }
+
+	option = {
+		name = wwu_scourge.4.option.a
+		
+        QUE = { country_event = { id = wwu_scourge.5 } }
+	}
+}
+
+# Defilement of the Sunwell
+country_event = {
+	id = wwu_scourge.5
+	title = wwu_scourge.5.title
+	desc = wwu_scourge.5.desc
+	picture = UNDEAD_eventPicture
+	
+    is_triggered_only = yes
+    
+	option = {
+		name = wwu_scourge.5.option.a
+		
+        add_stability = -3
+        add_prestige = -100
+	}
+}

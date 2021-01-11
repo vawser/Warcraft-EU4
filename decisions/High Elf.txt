@@ -11,6 +11,10 @@ country_decisions = {
 		allow = {
 			stability = 3
             NOT = { has_country_modifier = sunwell_energies }
+            custom_trigger_tooltip = {
+                tooltip = SUNWELL_NOT_DESTROYED
+                NOT = { has_global_flag = sunwell_destroyed }
+            }
 		}
 		
 		effect = {

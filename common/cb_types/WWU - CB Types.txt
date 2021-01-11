@@ -1,25 +1,58 @@
 #--------------------------------------------
-# Freeform
+# Triggered
 #--------------------------------------------
-cb_imperial_wwu = {
+cb_pirates = {
+	is_triggered_only = yes
+	months = 120
+
+	war_goal = blockade_ports
+}
+
+#--------------------------------------------
+# Preequisitie
+#--------------------------------------------
+cb_justified_war = {
+	valid_for_subject = no
+
+    prerequisites = {
+		is_free_or_tributary_trigger = yes
+        FROM = {
+            capital_scope = { continent = ROOT }
+        }
+	}
+
+	war_goal = take_capital_justified
+}
+cb_distant_conquest = {
+	valid_for_subject = no
+
+    prerequisites = {
+        has_idea = wwu_expansion_ideas_2
+		is_free_or_tributary_trigger = yes
+        FROM = {
+            NOT = {
+                capital_scope = { continent = ROOT }
+            }
+        }
+	}
+
+	war_goal = take_capital_justified
+}
+cb_merciless_war = {
 	valid_for_subject = no
 
 	prerequisites = {
-        is_revolutionary = no
-		has_idea = wwu_imperialism_ideas_1
+		has_idea = wwu_imperialism_ideas_7
 		is_free_or_tributary_trigger = yes
-		is_revolution_target = no
 	}
 
-	war_goal = take_capital_imperial
+	war_goal = take_capital_merciless
 }
-
 cb_against_evil = {
     ai_peace_desire = -50
 	valid_for_subject = no
 
 	prerequisites = {
-        is_revolutionary = no
 		NOT = { has_country_modifier = taint_of_evil }
         NOT = { government = tribal }
 		FROM = {
@@ -28,19 +61,14 @@ cb_against_evil = {
 		}
 	}
 	
-	war_goal = war_against_evil
+	war_goal = take_capital_barbarous
 }
-
-#--------------------------------------------
-# Specific
-#--------------------------------------------
 cb_warlust = {
     ai_peace_desire = -50
 	valid_for_subject = yes
 
 	prerequisites = {
         tag = TOH
-        is_revolutionary = no
         current_age = age_orcish_horde
 		FROM = {
 			capital_scope = { continent = azeroth }
@@ -48,13 +76,12 @@ cb_warlust = {
 		}
 	}
 	
-	war_goal = war_against_men
+	war_goal = take_capital_merciless
 }
 cb_titan_rivalry = {
 	valid_for_subject = no
 
 	prerequisites = {
-        is_revolutionary = no
 		OR = {
 			AND = {
 				religion = titan_worship
@@ -67,7 +94,7 @@ cb_titan_rivalry = {
 		}
 	}
 	
-	war_goal = titan_clash
+	war_goal = take_capital_justified
 }
 cb_legion_invasion = {
     ai_peace_desire = -50
@@ -76,10 +103,9 @@ cb_legion_invasion = {
 	
 	prerequisites = {
 		tag = TBL
-        is_revolutionary = no
 	}
 	
-	war_goal = legion_invasion_goal
+	war_goal = take_capital_ruthless
 }
 cb_wrath_of_azshara = {
 	valid_for_subject = no
@@ -88,11 +114,5 @@ cb_wrath_of_azshara = {
         tag = NZJ
 	}
 
-	war_goal = take_capital_imperial
-}
-cb_pirates = {
-	is_triggered_only = yes
-	months = 120
-
-	war_goal = blockade_ports
+	war_goal = take_capital_merciless
 }

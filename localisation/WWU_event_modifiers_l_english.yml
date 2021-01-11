@@ -951,21 +951,18 @@
  # Loa
  #-------------------------------
  sacrificed_a_loa: "Sacrificed a Loa"
- loa_low_influence: "Low Loa Influence"
- desc_loa_low_influence: "Your current Loa has a low influence on your people."
- loa_mid_influence: "Medium Loa Influence"
- desc_loa_mid_influence: "Your current Loa has a degree of influence on your people. His demands are starting to radicalise as you are indulging him."
- loa_high_influence: "High Loa Influence"
- desc_loa_high_influence: "Your current Loa has a high influence on your people. His demands are starting to be more and more severe and so shall his wrath will be if you don't cooperate."
+ loa_low_influence: "Weak Loa"
+ desc_loa_low_influence: "Your current Loa has a low sway over your people."
+ loa_mid_influence: "Bolstering Loa"
+ desc_loa_mid_influence: "Your current Loa has a considerable sway over your people. His demands are starting to radicalise as you are indulging him."
+ loa_high_influence: "Dominating Loa"
+ desc_loa_high_influence: "Your current Loa has a high sway over your people. His demands are starting to be more and more severe and so shall his wrath will be if you don't cooperate."
  shrine_to_loa: "[Root.GetDeity] Shrine"
  loa_is_angry: "[Root.GetDeity] is Angry"
- forbidden_other_loa: "Forbidden Worship to Other Loa"
+ forbidden_other_loa: "Forbidden Worship to other Loa"
  empowered_mil: "Empowered Military"
  empowered_dip: "Empowered Diplomacy"
  empowered_adm: "Empowered Adminstration"
- world_tree_destruction: "Destruction of Nordrassil"
- world_tree_destruction_severe: "Destruction of Nordrassil"
- world_tree_destruction_max: "Destruction of Nordrassil"
  
  #-------------------------------
  # Devastation
@@ -1141,3 +1138,9 @@
  #-------------------------------
  ancient_corruption: "Ancient Corruption"
  desc_ancient_corruption: ""
+ 
+ #-------------------------------
+ # Scourge
+ #-------------------------------
+ scourge_purge: "Purge of the Scourge"
+ desc_scourge_purge: ""

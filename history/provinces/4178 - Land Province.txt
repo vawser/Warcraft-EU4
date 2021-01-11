@@ -4,9 +4,9 @@ owner = QUE
 controller = QUE
 add_core = QUE
 
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 6
+base_production = 5
+base_manpower = 7
 
 culture = quelthalas
 religion = arcane

@@ -25,4 +25,118 @@ country_decisions = {
             factor = 1
         }
     }
+    
+    repel_the_undead = {
+        potential = {
+            revolution_target_exists = yes
+			has_first_revolution_started = yes
+            is_revolutionary = no
+            any_owned_province = {
+                has_revolution_in_province = yes
+            }
+        }
+        allow = {
+            any_owned_province = {
+                has_revolution_in_province = yes
+            }
+            mil_power = 100
+        }
+        effect = {
+            add_mil_power = -100
+            random_owned_province = {
+                limit = { has_revolution_in_province = yes }
+                set_revolution_in_province = no
+            }
+        }
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                NOT = { mil_power = 600 }
+            }
+            modifier = {
+                factor = 0
+                
+                tag = LOR
+            }
+        }
+    }
+    
+    purge_the_infected = {
+        major = yes
+        potential = {
+            revolution_target_exists = yes
+			has_first_revolution_started = yes
+            is_revolutionary = no
+            NOT = { has_country_modifier = scourge_purge }
+        }
+        allow = {
+            mil_power = 100
+            NOT = { has_country_modifier = scourge_purge }
+        }
+        effect = {
+            add_mil_power = -100
+            
+            add_country_modifier = {
+                name = scourge_purge
+                duration = 7300
+            }
+            
+            custom_tooltip = REDUCE_PESTILENCE_SPREAD
+        }
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                NOT = { mil_power = 600 }
+            }
+            modifier = {
+                factor = 0
+                
+                tag = LOR
+            }
+        }
+    }
+    
+    purge_the_infected = {
+        major = yes
+        potential = {
+            revolution_target_exists = yes
+			has_first_revolution_started = yes
+            is_revolutionary = no
+            NOT = { has_country_modifier = scourge_purge }
+        }
+        allow = {
+            mil_power = 100
+            NOT = { has_country_modifier = scourge_purge }
+        }
+        effect = {
+            add_mil_power = -100
+            
+            add_country_modifier = {
+                name = scourge_purge
+                duration = 7300
+            }
+            
+            custom_tooltip = REDUCE_PESTILENCE_SPREAD
+        }
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                NOT = { mil_power = 600 }
+            }
+            modifier = {
+                factor = 0
+                
+                tag = LOR
+            }
+        }
+    }
 }

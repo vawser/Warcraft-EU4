@@ -14,7 +14,10 @@
  wwu_scourge.3.desc: "We have taken control of Icecrown Citadel and laid siege to the Lich King's throne. With Frostmorne shattered, the Helm of Domination may pass to somebody with the will to resist."
  wwu_scourge.3.option.a: "Excellent"
  
- wwu_scourge.4.title: "Exert Influence"
- wwu_scourge.4.desc: "As the Lich King, the mindless hordes are often best given vague instruction on where to shamble to. However, occasionally it can be beneficial to take more of a direct hand in operations through various, hidden means."
- wwu_scourge.4.option.a: "Let us establish direct control"
- wwu_scourge.4.option.a: "Leave them to their own devices"
+ wwu_scourge.4.title: "Defilement of the Sunwell"
+ wwu_scourge.4.desc: "We have taken control of the Sunwell. Let us restore Kel'Thuzad, renewing his lichdom. This will destroy the Sunwell, but that matters little to us."
+ wwu_scourge.4.option.a: "Excellent"
+ 
+ wwu_scourge.5.title: "Defilement of the Sunwell"
+ wwu_scourge.5.desc: "The Scourge have taken control of the Sunwell and destroyed whilsting restoring Kel'Thuzad's lichdom. The loss of the Sunwell will mean dire times for elves of [Root.GetName]."
+ wwu_scourge.5.option.a: "This is horrific..."

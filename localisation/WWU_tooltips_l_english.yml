@@ -4,7 +4,7 @@
  
  remains_ruler_tt: "[Root.Monarch.GetName] ([Root.Monarch.GetAdm] £adm£ / [Root.Monarch.GetDip] £dip£ / [Root.Monarch.GetMil] £mil£ ) remains ruler."
  
- EVIL_ACTION_TOOLTIP: "\n§RWARNING: This action is considered as evil by other countries and there may have serious consequences!§!"
+ EVIL_ACTION_TOOLTIP: "\n§RWARNING: This action is considered evil by other countries and there may be serious consequences!§!"
 
  DIP_INCOMP_NOTAVAILABLE: "Not available for this country."
  DIP_INCOMP_PORTALNOTOPEN: "You cannot gain military access to the Dark Portal while portal is not open."
@@ -166,6 +166,9 @@
  NORDRASSIL_DESTROYED: "Nordrassil has been destroyed!"
  NORDRASSIL_NOT_DESTROTED: "Nordrassil has not been destroyed."
  
+ SUNWELL_DESTROYED: "Sunwell has been destroyed!"
+ SUNWELL_NOT_DESTROYED: "Sunwell has not been destroyed."
+ 
  # Scourge
  scourge_convert_government: "We have been absorbed into the Scourge."
  
@@ -241,3 +244,5 @@
  claim_lands_effect_tt: "Gain a free core on a random province with a claim."
  
  CAN_REDUCE_IN_PEACE: "You cannot reduce war exhaustion whilst at war."
+ 
+ REDUCE_PESTILENCE_SPREAD: "This act will significantly reduce the spread of Pestilence within our country for 20 years."

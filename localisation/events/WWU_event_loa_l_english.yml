@@ -10,11 +10,12 @@
  loa.2.desc: ""
  loa.2.option.a: "Ok"
  
- loa.3.title: "[Root.GetDeity]'s Influence is Increased"
- loa.3.desc: "Your latest actions increased [Root.GetDeity]'s influence countrywide. He will get bolder with his demands now, and he may punish you if you don't cooperate."
+ loa.3.title: "Sway of [Root.GetDeity] Grows"
+ loa.3.desc: "Your latest actions increased [Root.GetDeity]'s sway countrywide. He will get bolder with his demands now, and he may punish you if you don't cooperate."
  loa.3.opt1: "I have a bad mojo about this."
- loa.4.title: "[Root.GetDeity]'s Influence is Decreased"
- loa.4.desc: "Your latest actions decreased [Root.GetDeity]'s influence countrywide. He will be less demanding now and you can choose to not cooperate often without serious side effects."
+ 
+ loa.4.title: "Sway of [Root.GetDeity] Diminishes"
+ loa.4.desc: "Your latest actions decreased [Root.GetDeity]'s sway countrywide. He will be less demanding now and you can choose to not cooperate often without serious side effects."
  loa.4.opt1: "Good."
  
  loa.10.title: "Altar of [Root.GetDeity]"
@@ -81,7 +82,7 @@
  loa.20.opt1: "I think we can deal with some earthquake without commiting massacre."
  loa.20.opt2: "What choice do we have?"
  
- loa.21.title: "[Root.GetDeity]an Coup!"
+ loa.21.title: "[Root.GetDeity] Demands the Throne!"
  loa.21.desc: "Terrible news! All the offerings, all the sacrifices we committed to empower [Root.GetDeity] apparently was part of his long-term plan to dethrone [Root.Dynasty.GetName] dynasty. With all the blood and power he collected, [Root.GetDeity] unleashed a terrible assault against us and now trying to claim [Root.GetName] throne for himself."
  loa.21.opt1: "Do not resist."
  loa.21.opt2: "We won't go down without a fight."

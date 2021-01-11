@@ -96,6 +96,7 @@ on_war_won = {
 		}
 	}
 	events = {
+        wwu_scourge.4 # Defilement of the Sunwell
 		on_action_special.2
         wwu_elemental_attunement.1 # Triumph of the Elements 
 	}
@@ -2178,6 +2179,7 @@ on_conquest = {
 }
 
 on_country_creation = {
+    discover_home_continent = yes
 }
 
 # Harmony

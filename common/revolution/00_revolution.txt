@@ -14,6 +14,20 @@ revolution = {
 			}
 		}
         
+        # Reduce spread in a country (and subjects) whilst Purge of the Scourge modifier is present
+        modifier = {
+			factor = 0.05
+			controller = {
+                OR = {
+                    has_country_modifier = scourge_purge
+                    AND = {
+                        is_subject = yes
+                        overlord = { has_country_modifier = scourge_purge }
+                    }
+                }
+            }
+		}
+        
         # Boost if Scourge
 		modifier = {
 			factor = 2

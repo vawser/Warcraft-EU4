@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = QUE
-controller = QUE
-add_core = QUE
+owner = EVM
+controller = EVM
+add_core = EVM
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
-culture = quelthalas
-religion = arcane
+culture = evermere
+religion = deep_mother
 
 trade_goods = unknown
 hre = no

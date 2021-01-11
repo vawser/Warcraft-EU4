@@ -4,9 +4,9 @@ owner = ALT
 controller = ALT
 add_core = ALT
 
-base_tax = 4
-base_production = 1
-base_manpower = 1
+base_tax = 8
+base_production = 7
+base_manpower = 6
 
 culture = alterac
 religion = the_holy_light

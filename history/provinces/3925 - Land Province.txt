@@ -4,9 +4,9 @@ owner = LOR
 controller = LOR
 add_core = LOR
 
-base_tax = 4
-base_production = 4
-base_manpower = 4
+base_tax = 9
+base_production = 8
+base_manpower = 8
 
 culture = lordaeron
 religion = the_holy_light
