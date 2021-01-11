@@ -124,3 +124,5 @@ tags={
 picture="thumbnail.jpg"
 version="1.0.0"
 supported_version="1.30.*.*"
+path="C:/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/mod/warcraft"
+remote_file_id="2358458652"
