@@ -1,6 +1,17 @@
 #------------------------------
 # Changelog
 #------------------------------
+- Added correct history for Lordaeron during the Battle of Mount Hyjal, so it is now correctly a Scourge nation.
+- Become a Scourge natio now changes your technology group. Removing the Scourge from your nation will revert your technology group back to your original one.
+- Added rebel icons for the religious rebels.
+
+#------------------------------
+# Issues
+#------------------------------
+Add Feathermoon submerged isle
+
+#------------------------------
+# Notes
+#------------------------------
 Name key provinces
 
-https://steamcommunity.com/sharedfiles/filedetails/?id=2358423090

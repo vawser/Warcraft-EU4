@@ -1,3 +1,6 @@
+#--------------------
+# Always
+#--------------------
 vassal = {
 	first = SMG
 	second = TOL

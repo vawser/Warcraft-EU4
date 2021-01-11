@@ -1,20 +1,22 @@
-# First War
+#--------------------
+# The Orcish Horde
+#--------------------
 vassal = {
 	first = SRW
 	second = RED
 	start_date = 592.1.1
-	end_date = 806.1.1
+	end_date = 1000.1.1
 }
 vassal = {
 	first = SRW
 	second = WES
 	start_date = 592.1.1
-	end_date = 806.1.1
+	end_date = 1000.1.1
 }
 vassal = {
 	first = SRW
 	second = BRI
 	start_date = 592.1.1
-	end_date = 806.1.1
+	end_date = 1000.1.1
 }
 

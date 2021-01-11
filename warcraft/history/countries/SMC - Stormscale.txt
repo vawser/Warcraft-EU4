@@ -1,4 +1,5 @@
 technology_group = tech_naga
+set_country_flag = originally_tech_naga
 government = monarchy
 add_government_reform = naga_domain_reform
 primary_culture = stormscale

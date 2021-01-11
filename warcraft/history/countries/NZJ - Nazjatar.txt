@@ -1,4 +1,5 @@
 technology_group = tech_naga
+set_country_flag = originally_tech_naga
 government = theocracy
 add_government_reform = naga_empire_reform
 primary_culture = nazjatar

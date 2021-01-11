@@ -1,4 +1,5 @@
 technology_group = tech_dryad
+set_country_flag = originally_tech_dryad
 government = monarchy
 add_government_reform = theocracy_reform
 primary_culture = dryad

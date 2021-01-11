@@ -1,4 +1,5 @@
 technology_group = tech_frost_troll
+set_country_flag = originally_tech_frost_troll
 government = monarchy
 add_government_reform = troll_kingdom_reform
 primary_culture = winterfang

@@ -17,3 +17,16 @@ hre = no
 center_of_trade = 1
 
 add_building = wow_fort_2
+
+# Battle of Mount Hyjal
+595.1.1 = {
+    is_city = yes
+    owner = LOR
+    controller = LOR
+    add_core = LOR
+    
+    culture = lordaeron
+    religion = cult_of_the_damned
+    
+    set_revolution_in_province = yes
+}

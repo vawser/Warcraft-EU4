@@ -1,4 +1,5 @@
 technology_group = tech_human
+set_country_flag = originally_tech_human
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
@@ -7,7 +8,7 @@ religion = the_holy_light
 
 capital = 2993
 
-# The First War
+# The Orcish Horde
 592.1.1 = {
     monarch = { 
 		name = "Llane" 
@@ -32,3 +33,7 @@ capital = 2993
 	add_ruler_personality = just_personality
 }
 
+# Scourging of Lordaeron
+594.1.1 = {
+    capital = 2993
+}

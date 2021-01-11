@@ -1,4 +1,5 @@
 technology_group = tech_saurok
+set_country_flag = originally_tech_saurok
 government = tribal
 add_government_reform = warband_reform
 primary_culture = muckscale

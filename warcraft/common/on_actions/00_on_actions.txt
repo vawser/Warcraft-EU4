@@ -787,6 +787,9 @@ on_embrace_revolution = {
     # Free from overlord
     grant_independence = yes
     
+    # Become Scourge tech
+    join_scourge_technology_group = yes
+    
     # Add government
 	if = {
 		limit = { NOT = { government = monarchy } }
@@ -848,6 +851,8 @@ on_embrace_revolution = {
 on_dismantle_revolution = {
 	kill_ruler = yes
 
+    revert_initial_technology_group = yes
+    
 	if = {
 		limit = { has_heir = yes }
 		kill_heir = yes

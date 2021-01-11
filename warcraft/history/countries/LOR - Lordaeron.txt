@@ -1,4 +1,5 @@
 technology_group = tech_human
+set_country_flag = originally_tech_human
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 2
@@ -25,22 +26,14 @@ historical_friend = QUE
     }
 }
 
-# Second War
-596.1.1 = {
+# Battle of Mount Hyjal
+595.1.1 = {
+    technology_group = tech_scourge
+    religion = cult_of_the_damned
     
-}
-
-# Invasion of Draenor
-600.1.1 = {
+    set_country_flag = allow_scourge_government
+    add_government_reform = scourge_domain_reform
     
-}
-
-# War of the Spider
-605.1.1 = {
-    
-}
-
-# Third War
-612.1.1 = {
-    
+    add_accepted_culture = andorhal
+    add_accepted_culture = stratholme
 }

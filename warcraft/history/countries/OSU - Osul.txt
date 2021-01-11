@@ -1,4 +1,5 @@
 technology_group = tech_yaungol
+set_country_flag = originally_tech_yaungol
 government = tribal
 add_government_reform = warband_reform
 primary_culture = osul

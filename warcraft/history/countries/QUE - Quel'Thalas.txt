@@ -1,4 +1,5 @@
 technology_group = tech_high_elf
+set_country_flag = originally_tech_high_elf
 government = monarchy
 add_government_reform = kingdom_of_magic_reform
 government_rank = 3

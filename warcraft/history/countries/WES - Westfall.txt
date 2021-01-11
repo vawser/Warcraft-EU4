@@ -1,4 +1,5 @@
 technology_group = tech_human
+set_country_flag = originally_tech_human
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = westfall

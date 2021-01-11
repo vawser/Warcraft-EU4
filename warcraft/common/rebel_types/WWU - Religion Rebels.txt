@@ -2843,7 +2843,7 @@ the_holy_light_rebels = {
 	}
 
 	# Localisation for their demands
-	demands_description = "church_of_the_light_rebels_demand"
+	demands_description = "the_holy_light_rebels_demand"
 
 	# Country Scope
 	demands_enforced_effect = {

@@ -1,4 +1,5 @@
 technology_group = tech_ulduar
+set_country_flag = originally_tech_ulduar
 government = theocracy
 add_government_reform = titan_facility_reform
 primary_culture = ulduar

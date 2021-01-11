@@ -2,4 +2,17 @@
  #-----------------------------------------------
  # Subject Types
  #-----------------------------------------------
- vassla_overlord_title: "Overlord"
+ vassal_overlord_title: "Overlord"
+ 
+ scourge_vassal: "Scourge Vassal"
+ scourge_vassal_title: "Scourge Vassal"
+ scourge_vassal_title_plural: "Scourge Vassals"
+ scourge_vassal_long_desc: "A Scourge Vassal must pay a fraction of his income to his overlord. Otherwise they can act as independant nations can."
+ scourge_vassal_is_our: "$NAME|Y$ is our Scourge Vassal."
+ 
+ is_royal_overlord: "Is Scourge Overlord"
+ is_scourge_vassal: "Is Scourge Vassal"
+ scourge_vassal_nation: "Scourge Vassal"
+ scourge_vassal_overlord: "Scourge Overlord"
+ 
+ 

@@ -1,4 +1,5 @@
 technology_group = tech_draenei
+set_country_flag = originally_tech_draenei
 government = theocracy
 add_government_reform = theocracy_reform
 government_rank = 2

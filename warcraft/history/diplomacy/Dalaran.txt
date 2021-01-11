@@ -1,7 +1,9 @@
-# Elf-Kirin Tor alliance
+#--------------------
+# The Orcish Horde
+#--------------------
 alliance = {
 	first = DAL
 	second = QUE
 	start_date = 592.1.1
-	end_date = 1000.1.1
+	end_date = 595.1.1
 }
