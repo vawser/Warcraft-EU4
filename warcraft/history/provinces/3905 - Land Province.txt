@@ -1,0 +1,19 @@
+
+is_city = yes
+owner = LOR
+controller = LOR
+add_core = LOR
+
+base_tax = 12
+base_production = 10
+base_manpower = 14
+
+culture = lordaeron
+religion = the_holy_light
+
+trade_goods = unknown
+hre = no
+
+center_of_trade = 1
+
+add_building = wow_fort_2

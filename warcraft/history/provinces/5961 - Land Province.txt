@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SDW
+controller = SDW
+add_core = SDW
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+culture = driftweald
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

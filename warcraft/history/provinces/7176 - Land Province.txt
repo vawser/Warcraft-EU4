@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = WIW
+controller = WIW
+add_core = WIW
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+culture = witchwing
+religion = wind
+
+trade_goods = unknown
+hre = no
+
+

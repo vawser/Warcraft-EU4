@@ -1,0 +1,62 @@
+technology_group = tech_hozen
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = broketooth
+religion = celestials
+
+capital = 4532
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Arlang"
+        dynasty = "the Giant"
+        adm = 0
+        dip = 1
+        mil = 2
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Zik Zik"
+        dynasty = "the Raging"
+        adm = 3
+        dip = 2
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Gubek"
+        dynasty = "the Insane"
+        adm = 1
+        dip = 1
+        mil = 1
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Te Te"
+        dynasty = "the Gutter"
+        adm = 4
+        dip = 5
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Unbu"
+        dynasty = "the Cunning"
+        adm = 0
+        dip = 5
+        mil = 4
+    }
+}

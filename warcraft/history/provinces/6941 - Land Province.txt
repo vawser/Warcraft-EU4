@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = TMN
+controller = TMN
+add_core = TMN
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+culture = thor_modan
+religion = titan_worship
+
+trade_goods = unknown
+hre = no
+
+

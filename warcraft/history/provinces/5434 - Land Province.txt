@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = DKM
+controller = DKM
+add_core = DKM
+
+base_tax = 1
+base_production = 1
+base_manpower = 4
+
+culture = darkmane
+religion = earth_mother
+
+trade_goods = unknown
+hre = yes
+
+

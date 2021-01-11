@@ -1,0 +1,1001 @@
+namespace = wwu_setup_ogre
+
+# Dreadmaul
+country_event = {
+	id = wwu_setup_ogre.1
+	title = wwu_setup_ogre.1.title
+	desc = wwu_setup_ogre.1.desc
+	picture = OGRE_MAGE_eventPicture
+
+    major = yes
+	fire_only_once = yes
+    
+	trigger = {
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
+        NOT = { exists = DRD }
+        NOT = { has_global_flag = setup_dreadmaul }
+        has_global_flag = orcish_horde_lost_war
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_dreadmaul
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = wwu_setup_ogre.1.option.a
+        
+        area_blasted_lands_3 = {
+            cede_province = DRD
+            add_core = DRD
+            change_culture = dreadmaul
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+	option = {
+		name = wwu_setup_ogre.1.option.b
+        
+        trigger = {
+            area_blasted_lands_3 = {
+                type = any
+                owned_by = ROOT
+            }
+        }
+        
+        area_blasted_lands_3 = {
+            change_culture = dreadmaul
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# Dunemaul
+country_event = {
+	id = wwu_setup_ogre.2
+	title = wwu_setup_ogre.2.title
+	desc = wwu_setup_ogre.2.desc
+	picture = OGRE_MAGE_eventPicture
+
+    major = yes
+	fire_only_once = yes
+    
+	trigger = {
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
+        NOT = { exists = DUM }
+        NOT = { has_global_flag = setup_dunemaul }
+        has_global_flag = orcish_horde_lost_war
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_dunemaul
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = wwu_setup_ogre.2.option.a
+        
+        area_tanaris_24 = {
+            cede_province = DUM
+            add_core = DUM
+            change_culture = dunemaul
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+	option = {
+		name = wwu_setup_ogre.2.option.b
+        
+        trigger = {
+            area_tanaris_24 = {
+                type = any
+                owned_by = ROOT
+            }
+        }
+        
+        area_blasted_lands_3 = {
+            change_culture = dunemaul
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# Gordunni
+country_event = {
+	id = wwu_setup_ogre.3
+	title = wwu_setup_ogre.3.title
+	desc = wwu_setup_ogre.3.desc
+	picture = OGRE_MAGE_eventPicture
+
+    major = yes
+	fire_only_once = yes
+    
+	trigger = {
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
+        NOT = { exists = GOR }
+        NOT = { has_global_flag = setup_gordunni }
+        has_global_flag = orcish_horde_lost_war
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_gordunni
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = wwu_setup_ogre.3.option.a
+        
+        area_feralas_13 = {
+            cede_province = GOR
+            add_core = GOR
+            change_culture = gordunni
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+	option = {
+		name = wwu_setup_ogre.3.option.b
+        
+        trigger = {
+            area_feralas_13 = {
+                type = any
+                owned_by = ROOT
+            }
+        }
+        
+        area_feralas_13 = {
+            change_culture = gordunni
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# Mo'grosh
+country_event = {
+	id = wwu_setup_ogre.4
+	title = wwu_setup_ogre.4.title
+	desc = wwu_setup_ogre.4.desc
+	picture = OGRE_MAGE_eventPicture
+
+    major = yes
+	fire_only_once = yes
+    
+	trigger = {
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
+        NOT = { exists = MOG }
+        NOT = { has_global_flag = setup_mogrosh }
+        has_global_flag = orcish_horde_lost_war
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_mogrosh
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = wwu_setup_ogre.4.option.a
+        
+        area_loch_modan_1 = {
+            cede_province = MOG
+            add_core = MOG
+            change_culture = mogrosh
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+	option = {
+		name = wwu_setup_ogre.4.option.b
+        
+        trigger = {
+            area_loch_modan_1 = {
+                type = any
+                owned_by = ROOT
+            }
+        }
+        
+        area_loch_modan_1 = {
+            change_culture = mogrosh
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# Boulderfist
+country_event = {
+	id = wwu_setup_ogre.5
+	title = wwu_setup_ogre.5.title
+	desc = wwu_setup_ogre.5.desc
+	picture = OGRE_MAGE_eventPicture
+
+    major = yes
+	fire_only_once = yes
+    
+	trigger = {
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
+        NOT = { exists = BOU }
+        NOT = { has_global_flag = setup_boulderfist }
+        has_global_flag = orcish_horde_lost_war
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_boulderfist
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = wwu_setup_ogre.5.option.a
+        
+        area_arathi_highlands_8 = {
+            cede_province = BOU
+            add_core = BOU
+            change_culture = boulderfist
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+	option = {
+		name = wwu_setup_ogre.5.option.b
+        
+        trigger = {
+            area_arathi_highlands_8 = {
+                type = any
+                owned_by = ROOT
+            }
+        }
+        
+        area_arathi_highlands_8 = {
+            change_culture = boulderfist
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# Deadwind
+country_event = {
+	id = wwu_setup_ogre.6
+	title = wwu_setup_ogre.6.title
+	desc = wwu_setup_ogre.6.desc
+	picture = OGRE_MAGE_eventPicture
+
+    major = yes
+	fire_only_once = yes
+    
+	trigger = {
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
+        NOT = { exists = DWO }
+        NOT = { has_global_flag = setup_deadwind }
+        has_global_flag = orcish_horde_lost_war
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_deadwind
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = wwu_setup_ogre.6.option.a
+        
+        3076 = {
+            cede_province = DWO
+            add_core = DWO
+            change_culture = deadwind
+            change_religion = geomancy
+        }
+        3077 = {
+            cede_province = DWO
+            add_core = DWO
+            change_culture = deadwind
+            change_religion = geomancy
+        }
+        3078 = {
+            cede_province = DWO
+            add_core = DWO
+            change_culture = deadwind
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+	option = {
+		name = wwu_setup_ogre.6.option.b
+        
+        trigger = {
+            OR = {
+                3076 = {
+                    owned_by = ROOT
+                }
+                3077 = {
+                    owned_by = ROOT
+                }
+                3078 = {
+                    owned_by = ROOT
+                }
+            }
+        }
+        
+        3076 = {
+            change_culture = deadwind
+            change_religion = geomancy
+        }
+        3077 = {
+            change_culture = deadwind
+            change_religion = geomancy
+        }
+        3078 = {
+            change_culture = deadwind
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# Dustblecher
+country_event = {
+	id = wwu_setup_ogre.7
+	title = wwu_setup_ogre.7.title
+	desc = wwu_setup_ogre.7.desc
+	picture = OGRE_MAGE_eventPicture
+
+    major = yes
+	fire_only_once = yes
+    
+	trigger = {
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
+        NOT = { exists = DBR }
+        NOT = { has_global_flag = setup_dustbelcher }
+        has_global_flag = orcish_horde_lost_war
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_dustbelcher
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = wwu_setup_ogre.7.option.a
+        
+        3208 = {
+            cede_province = DBR
+            add_core = DBR
+            change_culture = dustbelcher
+            change_religion = geomancy
+        }
+        3209 = {
+            cede_province = DBR
+            add_core = DBR
+            change_culture = dustbelcher
+            change_religion = geomancy
+        }
+        3210 = {
+            cede_province = DBR
+            add_core = DBR
+            change_culture = dustbelcher
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+	option = {
+		name = wwu_setup_ogre.7.option.b
+        
+        trigger = {
+            OR = {
+                3208 = {
+                    owned_by = ROOT
+                }
+                3209 = {
+                    owned_by = ROOT
+                }
+                3210 = {
+                    owned_by = ROOT
+                }
+            }
+        }
+        
+        3208 = {
+            change_culture = dustbelcher
+            change_religion = geomancy
+        }
+        3209 = {
+            change_culture = dustbelcher
+            change_religion = geomancy
+        }
+        3210 = {
+            change_culture = dustbelcher
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# Firegut
+country_event = {
+	id = wwu_setup_ogre.8
+	title = wwu_setup_ogre.8.title
+	desc = wwu_setup_ogre.8.desc
+	picture = OGRE_MAGE_eventPicture
+
+    major = yes
+	fire_only_once = yes
+    
+	trigger = {
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
+        NOT = { exists = FRG }
+        NOT = { has_global_flag = setup_firegut }
+        has_global_flag = orcish_horde_lost_war
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_firegut
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = wwu_setup_ogre.8.option.a
+        
+        area_burning_steppes_3 = {
+            cede_province = FRG
+            add_core = FRG
+            change_culture = firegut
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+	option = {
+		name = wwu_setup_ogre.8.option.b
+        
+        trigger = {
+            area_burning_steppes_3 = {
+                type = any
+                owned_by = ROOT
+            }
+        }
+        
+        area_burning_steppes_3 = {
+            change_culture = firegut
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# Mosh'Ogg
+country_event = {
+	id = wwu_setup_ogre.9
+	title = wwu_setup_ogre.9.title
+	desc = wwu_setup_ogre.9.desc
+	picture = OGRE_MAGE_eventPicture
+
+    major = yes
+	fire_only_once = yes
+    
+	trigger = {
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
+        NOT = { exists = MSO }
+        NOT = { has_global_flag = setup_moshogg }
+        has_global_flag = orcish_horde_lost_war
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_moshogg
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = wwu_setup_ogre.9.option.a
+        
+        2896 = {
+            cede_province = MSO
+            add_core = MSO
+            change_culture = moshogg
+            change_religion = geomancy
+        }
+        2893 = {
+            cede_province = MSO
+            add_core = MSO
+            change_culture = moshogg
+            change_religion = geomancy
+        }
+        2894 = {
+            cede_province = MSO
+            add_core = MSO
+            change_culture = moshogg
+            change_religion = geomancy
+        }
+        2895 = {
+            cede_province = MSO
+            add_core = MSO
+            change_culture = moshogg
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+	option = {
+		name = wwu_setup_ogre.9.option.b
+        
+        trigger = {
+            OR = {
+                2896 = { owned_by = ROOT }
+                2893 = { owned_by = ROOT }
+                2894 = { owned_by = ROOT }
+                2895 = { owned_by = ROOT }
+            }
+        }
+        
+        2896 = {
+            add_core = MSO
+            change_culture = moshogg
+            change_religion = geomancy
+        }
+        2893 = {
+            add_core = MSO
+            change_culture = moshogg
+            change_religion = geomancy
+        }
+        2894 = {
+            add_core = MSO
+            change_culture = moshogg
+            change_religion = geomancy
+        }
+        2895 = {
+            add_core = MSO
+            change_culture = moshogg
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# Stone Fist
+country_event = {
+	id = wwu_setup_ogre.10
+	title = wwu_setup_ogre.10.title
+	desc = wwu_setup_ogre.10.desc
+	picture = OGRE_MAGE_eventPicture
+
+    major = yes
+	fire_only_once = yes
+    
+	trigger = {
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
+        NOT = { exists = SPF }
+        NOT = { has_global_flag = setup_stonefist }
+        has_global_flag = orcish_horde_lost_war
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_stonefist
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = wwu_setup_ogre.10.option.a
+        
+        area_duskwood_4 = {
+            cede_province = SPF
+            add_core = SPF
+            change_culture = stone_fist
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+	option = {
+		name = wwu_setup_ogre.10.option.b
+        
+        trigger = {
+            area_duskwood_4 = {
+                type = any
+                owned_by = ROOT
+            }
+        }
+        
+        area_duskwood_4 = {
+            change_culture = stone_fist
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# Stonegullet
+country_event = {
+	id = wwu_setup_ogre.11
+	title = wwu_setup_ogre.11.title
+	desc = wwu_setup_ogre.11.desc
+	picture = OGRE_MAGE_eventPicture
+
+    major = yes
+	fire_only_once = yes
+    
+	trigger = {
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
+        NOT = { exists = SGL }
+        NOT = { has_global_flag = setup_stonegullet }
+        has_global_flag = orcish_horde_lost_war
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_stonegullet
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = wwu_setup_ogre.11.option.a
+        
+        area_searing_gorge_1 = {
+            cede_province = SGL
+            add_core = SGL
+            change_culture = stonegullet
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+	option = {
+		name = wwu_setup_ogre.11.option.b
+        
+        trigger = {
+            area_searing_gorge_1 = {
+                type = any
+                owned_by = ROOT
+            }
+        }
+        
+        area_searing_gorge_1 = {
+            change_culture = stonegullet
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# Torchbelcher
+country_event = {
+	id = wwu_setup_ogre.12
+	title = wwu_setup_ogre.12.title
+	desc = wwu_setup_ogre.12.desc
+	picture = OGRE_MAGE_eventPicture
+
+    major = yes
+	fire_only_once = yes
+    
+	trigger = {
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
+        NOT = { exists = TBC }
+        NOT = { has_global_flag = setup_torchbelcher }
+        has_global_flag = orcish_horde_lost_war
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_torchbelcher
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = wwu_setup_ogre.12.option.a
+        
+        area_wetlands_16 = {
+            cede_province = TBC
+            add_core = TBC
+            change_culture = torchbelcher
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+	option = {
+		name = wwu_setup_ogre.12.option.b
+        
+        trigger = {
+            area_wetlands_16 = {
+                type = any
+                owned_by = ROOT
+            }
+        }
+        
+        area_wetlands_16 = {
+            change_culture = torchbelcher
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# Crushridge
+country_event = {
+	id = wwu_setup_ogre.13
+	title = wwu_setup_ogre.13.title
+	desc = wwu_setup_ogre.13.desc
+	picture = OGRE_MAGE_eventPicture
+
+    major = yes
+	fire_only_once = yes
+    
+	trigger = {
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
+        NOT = { exists = CRS }
+        NOT = { has_global_flag = setup_crushridge }
+        current_age = age_scourge
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_crushridge
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = wwu_setup_ogre.13.option.a
+        
+        area_alterac_1 = {
+            cede_province = CRS
+            add_core = CRS
+            change_culture = crushridge
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+	option = {
+		name = wwu_setup_ogre.13.option.b
+        
+        trigger = {
+            area_alterac_1 = {
+                type = any
+                owned_by = ROOT
+            }
+        }
+        
+        area_alterac_1 = {
+            change_culture = crushridge
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# Stonemaul
+country_event = {
+	id = wwu_setup_ogre.14
+	title = wwu_setup_ogre.14.title
+	desc = wwu_setup_ogre.14.desc
+	picture = OGRE_MAGE_eventPicture
+
+    major = yes
+	fire_only_once = yes
+    
+	trigger = {
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
+        NOT = { exists = STM }
+        NOT = { has_global_flag = setup_stonemaul }
+        current_age = age_scourge
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_stonemaul
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = wwu_setup_ogre.14.option.a
+        
+        area_dustwallow_7 = {
+            cede_province = STM
+            add_core = STM
+            change_culture = stonemaul
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+	option = {
+		name = wwu_setup_ogre.14.option.b
+        
+        trigger = {
+            area_dustwallow_7 = {
+                type = any
+                owned_by = ROOT
+            }
+        }
+        
+        area_dustwallow_7 = {
+            change_culture = stonemaul
+            change_religion = geomancy
+        }
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+}

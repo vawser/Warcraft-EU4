@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = FFT
+controller = FFT
+add_core = FFT
+
+base_tax = 4
+base_production = 1
+base_manpower = 2
+
+culture = frostfeather
+religion = wind
+
+trade_goods = unknown
+hre = no
+
+

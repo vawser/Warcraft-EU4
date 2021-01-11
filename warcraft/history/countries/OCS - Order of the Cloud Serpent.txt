@@ -1,0 +1,62 @@
+technology_group = tech_pandaren
+government = theocracy
+add_government_reform = monastic_order_reform
+primary_culture = order_of_the_cloud_serpent
+religion = celestials
+
+capital = 4238
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Guanyu"
+        dynasty = "Whitewalker"
+        adm = 0
+        dip = 0
+        mil = 4
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Qin"
+        dynasty = "Snowrub"
+        adm = 2
+        dip = 2
+        mil = 4
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Aiguo"
+        dynasty = "Steambrew"
+        adm = 2
+        dip = 0
+        mil = 1
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Rong"
+        dynasty = "Frostbrew"
+        adm = 1
+        dip = 5
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Fai"
+        dynasty = "Ironrub"
+        adm = 3
+        dip = 4
+        mil = 4
+    }
+}

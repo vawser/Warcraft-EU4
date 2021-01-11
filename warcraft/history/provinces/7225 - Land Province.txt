@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = MLG
+controller = MLG
+add_core = MLG
+
+base_tax = 4
+base_production = 1
+base_manpower = 3
+
+culture = malgen
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

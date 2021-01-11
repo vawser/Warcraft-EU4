@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = ANG
+controller = ANG
+add_core = ANG
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+culture = anglers
+religion = celestials
+
+trade_goods = unknown
+hre = no
+
+

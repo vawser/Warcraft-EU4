@@ -1,0 +1,62 @@
+technology_group = tech_naga
+government = monarchy
+add_government_reform = naga_domain_reform
+primary_culture = strashaz
+religion = azshara
+
+capital = 4819
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Gazjat"
+        dynasty = "the Smasher"
+        adm = 3
+        dip = 4
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Jata'sesh"
+        dynasty = "the Shrewd"
+        adm = 2
+        dip = 2
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Rassri"
+        dynasty = "the Vicious"
+        adm = 4
+        dip = 1
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Sheis"
+        dynasty = "the Stalwart"
+        adm = 0
+        dip = 4
+        mil = 1
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Zared"
+        dynasty = "the Stout"
+        adm = 4
+        dip = 0
+        mil = 4
+    }
+}

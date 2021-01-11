@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = GRI
+controller = GRI
+add_core = GRI
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = grimtail
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

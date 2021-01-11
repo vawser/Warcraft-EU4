@@ -1,0 +1,166 @@
+# Wildhammer
+WIL_ideas = {
+	start = {
+		defensiveness = 0.25
+        land_attrition = -0.1
+	}
+
+	bonus = {
+        siege_ability = 0.1
+	}
+	
+	trigger = {
+		OR = {
+            tag = WIL
+            tag = AER
+        }
+	}
+	free = yes		
+	
+	WIL_ideas_1 = {
+		movement_speed = 0.25
+	}
+	WIL_ideas_2 = {
+		production_efficiency = 0.2
+	}
+	WIL_ideas_3 = {
+		leader_siege = 1
+	}
+	WIL_ideas_4 = {
+		rival_change_cost = -1.0
+	}
+	WIL_ideas_5 = {
+		development_cost = -0.1
+	}
+	WIL_ideas_6 = {
+		core_creation = -0.1
+	}
+	WIL_ideas_7 = {
+		colonists = 1
+        colonist_placement_chance = 0.03
+	}
+}
+
+# Khaz Modan
+IRO_ideas = {
+	start = {
+		global_manpower_modifier = 0.1
+        leader_siege = 1
+	}
+
+	bonus = {
+        production_efficiency = 0.2
+	}
+	
+	trigger = {
+		tag = IRO
+	}
+	free = yes		
+	
+	IRO_ideas_1 = {
+		advisor_cost = -0.25
+        advisor_pool = 1
+	}
+	IRO_ideas_2 = {
+		build_cost = -0.25
+        build_time = -0.25
+	}
+	IRO_ideas_3 = {
+		legitimacy = 1
+	}
+	IRO_ideas_4 = {
+		trade_steering = 0.2
+	}
+	IRO_ideas_5 = {
+		siege_ability = 0.2
+	}
+	IRO_ideas_6 = {
+		development_cost = -0.1
+	}
+	IRO_ideas_7 = {
+		administrative_efficiency = 0.05
+	}
+}
+
+# Dark Iron
+DKI_ideas = {
+	start = {
+		army_tradition = 1
+        siege_ability = 0.1
+	}
+
+	bonus = {
+        land_morale = 0.1
+	}
+	
+	trigger = {
+		tag = DKI
+	}
+	free = yes		
+	
+	DKI_ideas_1 = {
+		tolerance_own = 1
+        warscore_cost_vs_other_religion = -0.25
+	}
+	DKI_ideas_2 = {
+		infantry_power = 0.2
+	}
+	DKI_ideas_3 = {
+		build_time = -0.8
+	}
+	DKI_ideas_4 = {
+		governing_capacity_modifier = 0.1
+	}
+	DKI_ideas_5 = {
+		mil_tech_cost_modifier = -0.1
+	}
+	DKI_ideas_6 = {
+		artillery_power = 0.1
+	}
+	DKI_ideas_7 = {
+		discipline = 0.05
+	}
+}
+
+# Dwarf
+dwarf_ideas = {
+	start = {
+		global_manpower_modifier = 0.1
+        leader_siege = 1
+	}
+
+	bonus = {
+        production_efficiency = 0.2
+	}
+	
+	trigger = {
+		culture_group = dwarf_group
+	}
+	free = yes		
+	
+	dwarf_ideas_1 = {
+		advisor_cost = -0.25
+        advisor_pool = 1
+	}
+	dwarf_ideas_2 = {
+		build_cost = -0.25
+        build_time = -0.25
+	}
+	dwarf_ideas_3 = {
+		colonists = 1
+	}
+	dwarf_ideas_4 = {
+        merchants = 1
+		trade_steering = 0.1
+	}
+	dwarf_ideas_5 = {
+		siege_ability = 0.2
+	}
+	dwarf_ideas_6 = {
+		development_cost = -0.1
+	}
+	dwarf_ideas_7 = {
+		core_creation = -0.1
+	}
+}
+

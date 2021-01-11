@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = ANO
+controller = ANO
+add_core = ANO
+
+base_tax = 6
+base_production = 4
+base_manpower = 4
+
+culture = andorhal
+religion = the_holy_light
+
+trade_goods = unknown
+hre = no
+
+

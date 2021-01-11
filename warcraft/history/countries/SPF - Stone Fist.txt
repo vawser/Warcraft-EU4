@@ -1,0 +1,20 @@
+technology_group = tech_ogre
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = stone_fist
+religion = geomancy
+
+capital = 2952
+
+# The Scourge
+594.1.1 = {
+    set_global_flag = setup_stonefist
+    
+    monarch = {
+        name = "Ragmor"
+        dynasty = "the Vicious"
+        adm = 4
+        dip = 1
+        mil = 2
+    }
+}

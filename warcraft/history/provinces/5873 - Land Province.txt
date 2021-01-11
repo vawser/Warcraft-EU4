@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SDS
+controller = SDS
+add_core = SDS
+
+base_tax = 4
+base_production = 2
+base_manpower = 2
+
+culture = sentinels_of_auberdine
+religion = elune
+
+trade_goods = unknown
+hre = no
+
+

@@ -1,0 +1,14 @@
+fel_empowerment = {
+	potential = {
+		religion = fel
+	}
+	trigger = {
+		religion = fel
+        reform_desire = 1.0
+	}
+
+	army_tradition = 1
+    loot_amount = 1.0
+    land_morale = 0.1
+}
+

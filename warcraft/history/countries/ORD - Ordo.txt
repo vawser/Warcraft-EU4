@@ -1,0 +1,62 @@
+technology_group = tech_yaungol
+government = tribal
+add_government_reform = warband_reform
+primary_culture = ordo
+religion = ordos
+
+capital = 4543
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Qoboi"
+        dynasty = "the Ripper"
+        adm = 2
+        dip = 5
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Gangtok"
+        dynasty = "the Mighty"
+        adm = 2
+        dip = 4
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Johbataar"
+        dynasty = "the Lusty"
+        adm = 5
+        dip = 5
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Uruk"
+        dynasty = "the Fierce"
+        adm = 4
+        dip = 0
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Orlun"
+        dynasty = "the Bonebreaker"
+        adm = 1
+        dip = 0
+        mil = 2
+    }
+}

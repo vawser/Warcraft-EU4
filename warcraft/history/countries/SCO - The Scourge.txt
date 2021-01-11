@@ -1,0 +1,38 @@
+technology_group = tech_scourge
+government = monarchy
+add_government_reform = scourge_reform
+government_rank = 3
+primary_culture = scourge
+religion = cult_of_the_damned
+
+capital = 2068
+
+add_country_modifier = {
+    name = taint_of_evil
+    duration = -1
+}
+
+# The Scourge
+594.1.1 = {
+    set_global_flag = setup_scourge
+    set_revolution_target = SCO
+    
+    monarch = {
+		name = "Ner'zhul"
+		dynasty = "Shadowmoon" 	
+		adm = 6
+		dip = 5	
+		mil = 1	
+	}
+}
+
+# The Burning Legion
+595.1.1 = {
+    monarch = {
+		name = "Arthas" 
+		dynasty = "Menethil" 	
+		adm = 5
+		dip = 3
+		mil = 6
+	}  
+}

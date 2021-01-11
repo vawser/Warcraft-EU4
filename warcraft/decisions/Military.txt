@@ -1,0 +1,25 @@
+country_decisions = {
+	enlist_privateers = {
+		potential = {
+			NOT = { has_country_modifier = hire_privateers }
+			navy_size = 1
+			has_idea_group = wwu_trade_ideas
+			num_of_ports = 1
+			dip_tech = 8
+		}
+		allow = {
+			navy_size_percentage = 0.5
+			full_idea_group = wwu_trade_ideas
+			mil = 3
+		}
+		effect = {
+			add_country_modifier = {
+				name = "hire_privateers"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

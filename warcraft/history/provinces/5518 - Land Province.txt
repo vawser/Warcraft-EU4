@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SKC
+controller = SKC
+add_core = SKC
+
+base_tax = 2
+base_production = 1
+base_manpower = 3
+
+culture = skychaser
+religion = earth_mother
+
+trade_goods = unknown
+hre = yes
+
+

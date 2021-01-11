@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SMC
+controller = SMC
+add_core = SMC
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+culture = stormscale
+religion = azshara
+
+trade_goods = unknown
+hre = no
+
+

@@ -1,0 +1,18 @@
+technology_group = tech_jungle_troll
+government = theocracy
+add_government_reform = cult_of_hakkar_reform
+primary_culture = atalai
+religion = hakkari
+
+capital = 3088
+
+# The First War
+592.1.1 = {
+    monarch = { 
+        name = "Ogom" 
+        dynasty = "Atal'ai" 
+		adm = 3
+		dip = 2
+		mil = 3
+ 	} 
+}

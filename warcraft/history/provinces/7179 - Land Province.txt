@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = KRK
+controller = KRK
+add_core = KRK
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+culture = krenka
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

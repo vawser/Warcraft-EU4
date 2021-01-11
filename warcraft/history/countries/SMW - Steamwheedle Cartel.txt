@@ -1,0 +1,63 @@
+technology_group = tech_goblin
+government = republic
+add_government_reform = mercantile_republic_reform
+primary_culture = steamwheedle_cartel
+religion = avarice
+religious_school = engineering_philosophy
+
+capital = 5143
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Walmat"
+        dynasty = "Silvercharge"
+        adm = 0
+        dip = 2
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Releex"
+        dynasty = "Cheapgrinder"
+        adm = 4
+        dip = 4
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Kleenqe"
+        dynasty = "Brisktwister"
+        adm = 3
+        dip = 2
+        mil = 1
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Qin"
+        dynasty = "Barrendust"
+        adm = 3
+        dip = 0
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Grigzoshi"
+        dynasty = "Nifttale"
+        adm = 3
+        dip = 3
+        mil = 3
+    }
+}

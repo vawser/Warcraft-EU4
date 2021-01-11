@@ -1,0 +1,18 @@
+technology_group = tech_jungle_troll
+government = monarchy
+add_government_reform = troll_kingdom_reform
+government_rank = 2
+primary_culture = gurubashi
+religion = voodoo
+
+capital = 2913
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Rabitok the Bloodthirsty"
+        adm = 4
+        dip = 5
+        mil = 6
+    }
+}

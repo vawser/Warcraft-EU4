@@ -1,0 +1,62 @@
+technology_group = tech_tauren
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = stonespire
+religion = earth_mother
+
+capital = 4876
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Mulmool"
+        dynasty = "Stonetotem"
+        adm = 1
+        dip = 5
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Hemboi"
+        dynasty = "Wildhorn"
+        adm = 2
+        dip = 3
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Boivon"
+        dynasty = "Mistfury"
+        adm = 0
+        dip = 5
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Athcei"
+        dynasty = "Mistchaser"
+        adm = 5
+        dip = 3
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Othbai"
+        dynasty = "Ragestrider"
+        adm = 5
+        dip = 3
+        mil = 3
+    }
+}

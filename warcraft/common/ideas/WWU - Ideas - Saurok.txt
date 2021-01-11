@@ -1,0 +1,42 @@
+# Saurok
+saurok_ideas = {
+	start = {
+		mil_tech_cost_modifier = -0.1
+        unjustified_demands = -0.1
+	}
+
+	bonus = {
+        province_warscore_cost = -0.25
+	}
+	
+	trigger = {
+		culture_group = saurok_group
+	}
+	free = yes		
+	
+	saurok_ideas_1 = {
+		global_manpower_modifier = 0.25
+	}
+	saurok_ideas_2 = {
+		core_creation = -0.2
+	}
+	saurok_ideas_3 = {
+		monarch_military_power = 1
+	}
+	saurok_ideas_4 = {
+		production_efficiency = 0.15
+	}
+	saurok_ideas_5 = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	saurok_ideas_6 = {
+		discipline = 0.075
+	}
+	saurok_ideas_7 = {
+		legitimacy = 1
+        republican_tradition = 1
+        devotion = 1
+        horde_unity = 1
+        meritocracy = 1
+	}
+}

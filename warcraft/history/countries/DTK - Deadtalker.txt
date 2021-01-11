@@ -1,0 +1,62 @@
+technology_group = tech_yaungol
+government = tribal
+add_government_reform = warband_reform
+primary_culture = deadtalker
+religion = ordos
+
+capital = 4565
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Kotang"
+        dynasty = "the Sly"
+        adm = 1
+        dip = 2
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Kotuk-bai"
+        dynasty = "the Prudent"
+        adm = 2
+        dip = 4
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Usuang"
+        dynasty = "the Kicker"
+        adm = 4
+        dip = 1
+        mil = 2
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Kutokdas"
+        dynasty = "the Gutter"
+        adm = 0
+        dip = 0
+        mil = 0
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Chatak"
+        dynasty = "the Frenzied"
+        adm = 4
+        dip = 1
+        mil = 3
+    }
+}

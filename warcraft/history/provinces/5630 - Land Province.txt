@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = THS
+controller = THS
+add_core = THS
+
+base_tax = 2
+base_production = 3
+base_manpower = 4
+
+culture = thistlefur
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

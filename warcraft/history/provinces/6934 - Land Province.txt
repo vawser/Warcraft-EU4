@@ -1,0 +1,19 @@
+
+is_city = yes
+owner = RDF
+controller = RDF
+add_core = RDF
+
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+culture = redfang
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+center_of_trade = 1
+
+

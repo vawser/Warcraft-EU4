@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = AER
+controller = AER
+add_core = AER
+
+base_tax = 4
+base_production = 1
+base_manpower = 3
+
+culture = aerie_peak
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

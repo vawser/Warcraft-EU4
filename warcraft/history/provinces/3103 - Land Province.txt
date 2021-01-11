@@ -1,0 +1,28 @@
+
+is_city = yes
+owner = TOH
+controller = TOH
+add_core = TOH
+
+base_tax = 1
+base_production = 4
+base_manpower = 2
+
+culture = orc
+religion = fel
+
+trade_goods = unknown
+hre = no
+
+# Third War
+594.1.1 = {
+    owner = ---
+    controller ---
+    remove_core = TOH
+    
+    is_city = no
+    native_size = 50
+    native_ferocity = 5
+    native_hostileness = 5
+}
+

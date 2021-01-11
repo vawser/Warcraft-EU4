@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = GRZ
+controller = GRZ
+add_core = GRZ
+
+base_tax = 2
+base_production = 3
+base_manpower = 4
+
+culture = grizzleweald
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

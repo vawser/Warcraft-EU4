@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = CEN
+controller = CEN
+add_core = CEN
+
+base_tax = 3
+base_production = 3
+base_manpower = 1
+
+culture = moonglade
+religion = elune
+
+trade_goods = unknown
+hre = no
+
+

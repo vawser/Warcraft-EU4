@@ -1,0 +1,62 @@
+technology_group = tech_quillboar
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = bristleback
+religion = geomancy
+
+capital = 5418
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Halrok"
+        dynasty = "Thornspine"
+        adm = 1
+        dip = 1
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Gukkgam"
+        dynasty = "Sharptooth"
+        adm = 4
+        dip = 4
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Huktla"
+        dynasty = "Sharpthorn"
+        adm = 2
+        dip = 0
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Loktla"
+        dynasty = "Taurenthorn"
+        adm = 4
+        dip = 4
+        mil = 0
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Gakkkum"
+        dynasty = "Thornjaw"
+        adm = 5
+        dip = 2
+        mil = 5
+    }
+}

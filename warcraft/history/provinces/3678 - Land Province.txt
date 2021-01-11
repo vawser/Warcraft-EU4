@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SKH
+controller = SKH
+add_core = SKH
+
+base_tax = 3
+base_production = 3
+base_manpower = 1
+
+culture = skyhorn
+religion = earth_mother
+
+trade_goods = unknown
+hre = yes
+
+

@@ -1,0 +1,62 @@
+technology_group = tech_kobold
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = gogger
+religion = geomancy
+
+capital = 5564
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Znozno"
+        dynasty = "Foulhorn"
+        adm = 2
+        dip = 4
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Sleegrin"
+        dynasty = "Thistlebinder"
+        adm = 1
+        dip = 1
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Larnog"
+        dynasty = "Blightshear"
+        adm = 5
+        dip = 2
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Grigri"
+        dynasty = "Gravelrat"
+        adm = 2
+        dip = 5
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Rukby"
+        dynasty = "Thistlepicker"
+        adm = 3
+        dip = 2
+        mil = 0
+    }
+}

@@ -1,0 +1,62 @@
+technology_group = tech_tauren
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = skychaser
+religion = earth_mother
+
+capital = 5517
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Bopor"
+        dynasty = "Runemane"
+        adm = 5
+        dip = 2
+        mil = 2
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Bouul"
+        dynasty = "Thunderchaser"
+        adm = 0
+        dip = 4
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Nagmul"
+        dynasty = "Wildchaser"
+        adm = 5
+        dip = 2
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Cootha"
+        dynasty = "Thunderstrider"
+        adm = 4
+        dip = 2
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Vunith"
+        dynasty = "Dawnfury"
+        adm = 4
+        dip = 5
+        mil = 4
+    }
+}

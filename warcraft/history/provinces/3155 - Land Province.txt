@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = ROC
+controller = ROC
+add_core = ROC
+
+base_tax = 4
+base_production = 1
+base_manpower = 1
+
+culture = rockpool
+religion = deep_mother
+
+trade_goods = unknown
+hre = no
+
+

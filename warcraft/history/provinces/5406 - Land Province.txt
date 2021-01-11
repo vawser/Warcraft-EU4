@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SPR
+controller = SPR
+add_core = SPR
+
+base_tax = 2
+base_production = 4
+base_manpower = 4
+
+culture = stonespire
+religion = earth_mother
+
+trade_goods = unknown
+hre = yes
+
+

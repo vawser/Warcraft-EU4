@@ -1,0 +1,19 @@
+technology_group = tech_crystal_nymph
+government = monarchy
+add_government_reform = theocracy_reform
+primary_culture = the_unbound
+religion = arcane
+
+capital = 6559
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Aveze"
+        dynasty = "Windhelm"
+        female = yes
+        adm = 2
+        dip = 4
+        mil = 1
+    }
+}

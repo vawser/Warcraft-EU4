@@ -1,0 +1,4 @@
+is_warband_government_type = {
+    is_nomad = yes
+}
+

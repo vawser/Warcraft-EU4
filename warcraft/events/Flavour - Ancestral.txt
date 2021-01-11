@@ -1,0 +1,258 @@
+namespace = wwu_ancestral
+
+# "Passing of Great Leader"
+country_event = {
+	id = wwu_ancestral.1
+	title = wwu_ancestral.1.title
+	desc = wwu_ancestral.1.desc
+	picture = DRUIDCLAW_eventPicture
+	
+	trigger = {
+		religion = shamanism
+		ruler_religion = shamanism
+		months_of_ruling = 180
+		ruler_age = 55
+		is_great_leader = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = wwu_ancestral.1.option.a
+		
+		custom_tooltip = wwu_ancestral.1.option.a.tt
+        
+		hidden_effect = {
+			exile_ruler_as = honored_great_person
+			set_country_flag = honored_great_person_flag
+            
+			random = {
+				chance = 50
+				country_event = { id = wwu_ancestral.2 days = 3650 random = 1825 }
+			}
+		}
+		tooltip = {
+			kill_ruler = yes
+		}
+		add_years_of_income = -1
+		add_prestige = 15
+		random_list = {
+			50 = {
+				add_karma = -10
+			}
+			50 = {
+				add_stability = 1
+			}
+		}
+	}
+    
+	option = {
+		name = wwu_ancestral.1.option.b
+		
+		custom_tooltip = wwu_ancestral.1.option.b.tt
+        
+		hidden_effect = {
+			exile_ruler_as = disrespected_great_person
+			set_country_flag = disrespected_great_person_flag
+			random = {
+				chance = 50
+				
+				country_event = { id = wwu_ancestral.3 days = 3650 random = 1825 }
+			}
+		}
+		tooltip = {
+			kill_ruler = yes
+		}
+		add_karma = 10
+	}
+    
+	option = {
+		name = wwu_ancestral.1.option.c
+		
+		custom_tooltip = wwu_ancestral.1.option.c.tt
+        
+		kill_ruler = yes
+		add_years_of_income = -0.5
+		add_prestige = 5
+	}
+}
+
+# "Help of Ancestors"
+country_event = {
+	id = wwu_ancestral.2
+	title = wwu_ancestral.2.title
+	desc = wwu_ancestral.2.desc
+	picture = DRUIDCLAW_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		religion = shamanism
+	}
+	
+	option = {
+		name = wwu_ancestral.2.option.a
+		
+		add_prestige = -5
+		change_adm = 1
+		change_dip = 1
+		change_mil = 1
+	}
+	option = {
+		name = wwu_ancestral.2.option.b
+		
+		add_prestige = -10
+		define_general = {
+			name = "The Lost Ancestor"
+			shock = 3
+			fire = 4
+			manuever = 2
+			siege = 2
+		}
+	}
+	option = {
+		name = wwu_ancestral.2.option.c
+		
+		add_prestige = -20
+		add_stability = 1
+		add_years_of_income = 1
+		add_manpower = 10
+	}
+	option = {
+		name = wwu_ancestral.2.option.c
+		
+		add_prestige = 10
+	}
+}
+
+# "Curse of Ancestors"
+country_event = {
+	id = wwu_ancestral.3
+	title = wwu_ancestral.3.title
+	desc = wwu_ancestral.3.desc 
+	picture = DRUIDCLAW_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		religion = shamanism
+	}
+	
+	option = {
+		name = wwu_ancestral.3.option.a
+		
+		add_prestige = 10
+		random_list = {
+			1 = {
+				kill_ruler = yes
+			}
+			4 = {
+				custom_tooltip = wwu_ancestral.3.option.a.tt
+			}
+		}
+	}
+    
+	option = {
+		name = wwu_ancestral.3.option.b
+		
+		add_prestige = -10
+	}
+}
+
+# "Help of Ancestors"
+country_event = {
+	id = wwu_ancestral.4
+	title = wwu_ancestral.4.title
+	desc = wwu_ancestral.4.desc 
+	picture = DRUIDCLAW_eventPicture
+	
+	trigger = {
+		religion = shamanism
+		OR = {
+			stability = 1
+			NOT = { num_of_loans = 1 }
+		}
+	}
+	
+    mean_time_to_happen = {
+		months = 360
+	}
+    
+	option = {
+		name = wwu_ancestral.4.option.a
+		
+		add_prestige = -5
+		change_adm = 1
+		change_dip = 1
+	}
+    
+	option = {
+		name = wwu_ancestral.4.option.b
+		
+		add_prestige = -10
+		define_general = {
+			name = "The Lost Ancestor"
+			shock = 3
+			fire = 3
+			manuever = 2
+			siege = 2
+		}
+	}
+    
+	option = {
+		name = wwu_ancestral.4.option.c
+		
+		add_prestige = -20
+		add_stability = 1
+		add_years_of_income = 1
+		add_manpower = 5
+	}
+    
+	option = {
+		name = wwu_ancestral.4.option.d
+		
+		add_prestige = 10
+	}
+}
+
+# "Curse of Ancestors"
+country_event = {
+	id = wwu_ancestral.5
+	title = wwu_ancestral.5.title
+	desc = wwu_ancestral.5.desc
+	picture = DRUIDCLAW_eventPicture
+	
+	trigger = {
+		religion = shamanism
+		OR = {
+			NOT = { stability = 0 }
+			num_of_loans = 2
+			unrest = 4
+		}
+	}
+	
+    mean_time_to_happen = {
+		months = 360
+	}
+    
+	option = {
+		name = wwu_ancestral.5.option.a
+		
+		add_prestige = 10
+		random_list = {
+			1 = {
+				kill_ruler = yes
+			}
+			4 = {
+				custom_tooltip = wwu_ancestral.5.option.a.tt
+			}
+		}
+	}
+	option = {
+		name = wwu_ancestral.5.option.c
+		
+		add_prestige = -10
+	}
+}

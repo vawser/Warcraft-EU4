@@ -1,0 +1,62 @@
+technology_group = tech_vrykul
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = winterskorn
+religion = runic
+
+capital = 6909
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Alva"
+        dynasty = "Dragonhulde"
+        adm = 5
+        dip = 3
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Tore"
+        dynasty = "Kalskorn"
+        adm = 1
+        dip = 5
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Halstein"
+        dynasty = "Brannhulde"
+        adm = 2
+        dip = 1
+        mil = 1
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Hackett"
+        dynasty = "Wyvernwhipper"
+        adm = 4
+        dip = 1
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Ingvar"
+        dynasty = "Kaiskarn"
+        adm = 1
+        dip = 1
+        mil = 5
+    }
+}

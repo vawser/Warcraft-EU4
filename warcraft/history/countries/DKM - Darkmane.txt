@@ -1,0 +1,64 @@
+technology_group = tech_tauren
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = darkmane
+religion = earth_mother
+
+capital = 5436
+
+elector = yes
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Ceihem"
+        dynasty = "Runefury"
+        adm = 2
+        dip = 0
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Ethrne"
+        dynasty = "Misttotem"
+        adm = 3
+        dip = 3
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Moolnug"
+        dynasty = "Bloodstrider"
+        adm = 5
+        dip = 1
+        mil = 4
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Athcoi"
+        dynasty = "Winterfury"
+        adm = 4
+        dip = 2
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Mugbu"
+        dynasty = "Winterchaser"
+        adm = 2
+        dip = 4
+        mil = 5
+    }
+}

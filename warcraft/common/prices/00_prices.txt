@@ -1,0 +1,35 @@
+# base_price = X			base price in $. (default is 1.0 if not specified
+# goldtype = yes/no			This resource works like 'gold' if yes, using prices from mine-value in province instead of supply/demand and baseprice. Also creates gold-inflation
+
+# Base resources
+wwu_food = {
+	base_price = 2
+}
+wwu_textiles = {
+	base_price = 5
+}
+wwu_jewelry = {
+	base_price = 8
+}
+wwu_metals = {
+	base_price = 5
+}
+wwu_gold = {
+	base_price = 0
+	goldtype = yes
+}
+wwu_slaves = {
+	base_price = 6
+}
+wwu_oil = {
+	base_price = 6
+}
+wwu_lumber = {
+	base_price = 3
+}
+wwu_artifacts = {
+	base_price = 10
+}
+unknown = {
+	base_price = 0
+}

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = AZW
+controller = AZW
+add_core = AZW
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+culture = blue_dragonflight
+religion = dragon_aspects
+
+trade_goods = unknown
+hre = no
+
+

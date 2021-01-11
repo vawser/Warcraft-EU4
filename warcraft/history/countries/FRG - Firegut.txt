@@ -1,0 +1,20 @@
+technology_group = tech_ogre
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = firegut
+religion = geomancy
+
+capital = 3166
+
+# The Scourge
+594.1.1 = {
+    set_global_flag = setup_firegut
+    
+    monarch = {
+        name = "Gallom"
+        dynasty = "the Giant"
+        adm = 5
+        dip = 5
+        mil = 2
+    }
+}

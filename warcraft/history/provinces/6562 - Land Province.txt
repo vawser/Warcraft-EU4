@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = UNB
+controller = UNB
+add_core = UNB
+
+base_tax = 2
+base_production = 2
+base_manpower = 4
+
+culture = the_unbound
+religion = arcane
+
+trade_goods = unknown
+hre = no
+
+

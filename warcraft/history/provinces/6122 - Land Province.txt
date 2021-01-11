@@ -1,0 +1,17 @@
+
+is_city = no
+native_size = 34
+native_ferocity = 1
+native_hostileness = 10
+
+base_tax = 1
+base_production = 4
+base_manpower = 1
+
+culture = primitive
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

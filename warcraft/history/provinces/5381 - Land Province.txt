@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = KOL
+controller = KOL
+add_core = KOL
+
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+culture = kolkar
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

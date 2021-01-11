@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = OCS
+controller = OCS
+add_core = OCS
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+culture = order_of_the_cloud_serpent
+religion = celestials
+
+trade_goods = unknown
+hre = no
+
+

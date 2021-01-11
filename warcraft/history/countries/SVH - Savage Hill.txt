@@ -1,0 +1,62 @@
+technology_group = tech_gnoll
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = savage_hill
+religion = shamanism
+
+capital = 6538
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Brozz"
+        dynasty = "Yelpmane"
+        adm = 2
+        dip = 3
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Grurkligg"
+        dynasty = "Blotmeat"
+        adm = 0
+        dip = 3
+        mil = 4
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Bof"
+        dynasty = "Gashclaw"
+        adm = 1
+        dip = 2
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Jicdir"
+        dynasty = "Dirtback"
+        adm = 5
+        dip = 3
+        mil = 4
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Relji"
+        dynasty = "Bruisefringe"
+        adm = 4
+        dip = 5
+        mil = 5
+    }
+}

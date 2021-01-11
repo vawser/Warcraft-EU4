@@ -1,0 +1,225 @@
+# Province Triggered modifiers are here.
+# These are added to provinces through the add_province_triggered_modifier effect
+
+# These are faction-specific modifiers
+upm_temple_of_the_white_tiger = {
+    potential = {
+		controller = {
+			culture_group = pandaren_group
+		}
+	}
+
+	trigger = {
+		controller = {
+			culture_group = pandaren_group
+		}
+        culture = pandaren
+	}
+    
+    local_regiment_cost = -0.25
+    regiment_recruit_speed = -0.25
+}
+
+upm_temple_of_the_jade_serpent = {
+    potential = {
+		controller = {
+			culture_group = pandaren_group
+		}
+	}
+
+	trigger = {
+		controller = {
+			culture_group = pandaren_group
+		}
+        culture = pandaren
+	}
+    
+    local_regiment_cost = -0.25
+    regiment_recruit_speed = -0.25
+}
+
+upm_temple_of_the_red_crane = {
+    potential = {
+		controller = {
+			culture_group = pandaren_group
+		}
+	}
+
+	trigger = {
+		controller = {
+			culture_group = pandaren_group
+		}
+        culture = pandaren
+	}
+
+    local_regiment_cost = -0.25
+    regiment_recruit_speed = -0.25
+}
+
+upm_temple_of_the_black_ox = {
+    potential = {
+		controller = {
+			culture_group = pandaren_group
+		}
+	}
+
+	trigger = {
+		controller = {
+			culture_group = pandaren_group
+		}
+        culture = pandaren
+	}
+    
+    local_regiment_cost = -0.25
+    regiment_recruit_speed = -0.25
+}
+
+upm_seat_of_the_thunder_king = {
+    potential = {
+		controller = {
+			culture_group = mogu_group
+		}
+	}
+
+	trigger = {
+		controller = {
+			culture_group = mogu_group
+		}
+	}
+    
+    fort_level = 2
+}
+
+upm_temple_of_atal_hakkar = {
+    potential = {
+		controller = {
+			culture = hakkari
+		}
+	}
+
+	trigger = {
+		controller = {
+			culture = hakkari
+		}
+        religion = hakkari
+	}
+    
+    fort_level = 2
+}
+
+upm_icecrown_citadel = {
+    potential = {
+		controller = {
+			tag = SCO
+		}
+	}
+
+	trigger = {
+		controller = {
+			tag = SCO
+		}
+	}
+    
+    fort_level = 4
+}
+
+upm_ulduar = {
+    potential = {
+		controller = {
+			tag = ULD
+		}
+	}
+
+	trigger = {
+		controller = {
+			tag = ULD
+		}
+	}   
+    
+    fort_level = 2
+}
+
+upm_the_nexus = {
+    potential = {
+		controller = {
+			is_dragon_culture_group = yes
+		}
+	}
+
+	trigger = {
+		controller = {
+			is_dragon_culture_group = yes
+		}
+        culture = blue_dragonflight
+	} 
+    
+    fort_level = 2
+}
+
+upm_teldrassil = {
+    potential = {
+		controller = {
+			culture_group = night_elf_group
+		}
+        has_country_flag = nordrassil_destroyed
+	}
+
+	trigger = {
+		controller = {
+			culture_group = night_elf_group
+		}
+	} 
+    
+    all_power_cost = -0.1
+}
+
+upm_nordrassil = {
+    potential = {
+		controller = {
+			culture_group = night_elf_group
+		}
+        NOT = { has_country_flag = nordrassil_destroyed }
+	}
+
+	trigger = {
+		controller = {
+			culture_group = night_elf_group
+		}
+	} 
+    
+    all_power_cost = -0.1
+}
+
+upm_dark_portal = {
+    potential = {
+		controller = {
+			culture_group = orc_group
+		}
+	}
+
+	trigger = {
+		controller = {
+			culture_group = orc_group
+		}
+        NOT = { has_country_flag = dark_portal_destroyed }
+	}
+    
+    global_manpower_modifier = 1.0
+    land_forcelimit_modifier = 1.0
+}
+
+upm_ironforge = {
+    potential = {
+		controller = {
+			tag = IRO
+		}
+	}
+
+	trigger = {
+		controller = {
+			tag = IRO
+		}
+	} 
+    
+    fort_level = 2
+}

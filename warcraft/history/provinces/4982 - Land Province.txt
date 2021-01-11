@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = RAM
+controller = RAM
+add_core = RAM
+
+base_tax = 4
+base_production = 2
+base_manpower = 3
+
+culture = ramkahen
+religion = titan_worship
+
+trade_goods = unknown
+hre = no
+
+

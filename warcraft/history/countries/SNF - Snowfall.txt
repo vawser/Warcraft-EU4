@@ -1,0 +1,62 @@
+technology_group = tech_wolvar
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = snowfall
+religion = shamanism
+
+capital = 7140
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Gzepek"
+        dynasty = "Bristlebarb"
+        adm = 1
+        dip = 3
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Gekrak"
+        dynasty = "Huskweald"
+        adm = 2
+        dip = 2
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Ekgek"
+        dynasty = "Lumberweald"
+        adm = 2
+        dip = 1
+        mil = 5
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Tekdai"
+        dynasty = "Crustwood"
+        adm = 1
+        dip = 5
+        mil = 0
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Keuhn"
+        dynasty = "Moldfang"
+        adm = 4
+        dip = 3
+        mil = 4
+    }
+}

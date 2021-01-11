@@ -1,0 +1,28 @@
+#----------------------------------------------
+# Alliance of Lordaeron
+#----------------------------------------------
+alliance_of_lordaeron = {
+    prestige = 1
+    diplomatic_upkeep = 8
+}
+
+member_of_the_alliance = {
+    diplomatic_upkeep = 2
+}
+
+explusion_of_the_refuges = {
+    global_unrest = -2
+}
+
+dissolved_the_alliance = {
+    max_absolutism = 20
+    yearly_absolutism = 1
+}
+
+called_for_aid = {
+    ae_impact = -0.05
+}
+
+assisting_alliance_member = {
+    prestige = 0.5
+}

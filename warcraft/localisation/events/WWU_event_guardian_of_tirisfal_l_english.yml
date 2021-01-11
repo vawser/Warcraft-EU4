@@ -1,0 +1,35 @@
+﻿l_english:
+ #-----------------------------------------------
+ # Karazhan
+ #-----------------------------------------------
+ wwu_guardian_of_tirisfal.1.title: "Mysteries of The Guardian"
+ wwu_guardian_of_tirisfal.1.desc: "For years, Archmage Medivh, the guarding of Azeroth eluded us and kept himself away from poltics of the world. Secluded in his dark tower in Karazhan, he spent his days collecting ancient tomes from every corner of Azeroth and kept his secrets away even from us. As the biggest magicocracy in Azeroth, regaining control of The Guardian is vital for our future.\n\nFor this, some of the magi in court brought up the idea of sending one of the students to spy on Medivh as they learn from him. If this works, we may eventually gain a leverage against him. Edlers already have an amazing student in their mind, who fits perfectly for this job. Intelligent, silver-tongued and courageous, he will surely manage to keep sanity while in tower and persuade Medivh he can be trusted.\n\nHe is called Khadgar, we will contact him with your permission."
+ wwu_guardian_of_tirisfal.1.option.a: "Send Khadgar to Medivh as an apprentice"
+ wwu_guardian_of_tirisfal.1.option.a.tt: "Khadgar will study under Medivh's guidance and may discover what Medivh is up to."
+ wwu_guardian_of_tirisfal.1.option.b: "No. Last apprentice is still having nightmares about that tower."
+ wwu_guardian_of_tirisfal.1.option.b.tt: "If Medivhi s plotting something insidious, it will take much more time to discover."
+ 
+ wwu_guardian_of_tirisfal.2.title: "Apprentice From Dalaran"
+ wwu_guardian_of_tirisfal.2.desc: "Dalaran sent yet another student of theirs to us. This new student seems different than others, but it's almost certain he was sent with purpose of information gathering."
+ wwu_guardian_of_tirisfal.2.option.a: "Accept Khadgar"
+ wwu_guardian_of_tirisfal.2.option.a.tt: "Khadgar may unearth Medivh's secrets."
+ wwu_guardian_of_tirisfal.2.option.b: "Shoo away"
+ wwu_guardian_of_tirisfal.2.option.b.tt: "Dalaran will not send another student."
+ 
+ wwu_guardian_of_tirisfal.3.title: "Medivh's True Intentions Revealed"
+ wwu_guardian_of_tirisfal.3.desc: "Recently, Medivh was becoming more and more erratic, disappearing for days at a time and being exhausted when he finally returned. Soon after, Khadgar began to sense something was drastically wrong with his master. Though he never suspected that Medivh was actually being controlled by Sargeras, the Dark Titan, he became suspicious of his master's actions and motives. After meeting a Horde emissary, the half-orc assassin Garona, Khadgar unraveled Medivh's plot to open a portal between Azeroth and Draenor. Knowing it was already too late to stop the Dark Portal from opening further, Khadgar and Garona rushed to King Llane Wrynn of Azeroth for help."
+ wwu_guardian_of_tirisfal.3.option.a: "Damn him!"
+ wwu_guardian_of_tirisfal.3.option.a.tt: "Medivh's secret is revealed."
+ 
+ wwu_guardian_of_tirisfal.4.title: "Apprentice From Dalaran"
+ wwu_guardian_of_tirisfal.4.desc: "Recently, Medivh was becoming more and more erratic, disappearing for days at a time and being exhausted when he finally returned. Soon after, his advisors began to sense something was drastically wrong with his master. Though he never suspected that Medivh was actually being controlled by Sargeras, the Dark Titan, he became suspicious of his master's actions and motives. After meeting a Stormwind emissary, Medivh's unintentionally revealed his plot to open a portal between Azeroth and Draenor, knowing it was already too late to stop the Dark Portal from opening further."
+ wwu_guardian_of_tirisfal.4.option.b: "Damn my tongue!"
+ wwu_guardian_of_tirisfal.4.option.b.tt: "Medivh's secret is revealed."
+ 
+ wwu_guardian_of_tirisfal.5.title: "News From Dalaran"
+ wwu_guardian_of_tirisfal.5.desc: "An emissary from Karazhan rushed to throne room with one of our trusted champions, claiming Medivh is possessed by demons. He was working with Orcs all along!"
+ wwu_guardian_of_tirisfal.5.option.a: "He shall pay!"
+ wwu_guardian_of_tirisfal.5.option.a.tt: "Stormwind will attack Karazhan."
+ wwu_guardian_of_tirisfal.5.option.a: "Well he is still our vassal..."
+ wwu_guardian_of_tirisfal.5.option.a.tt: "Our other vassals will not like this."
+ 

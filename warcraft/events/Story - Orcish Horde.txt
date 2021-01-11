@@ -1,0 +1,283 @@
+namespace = wwu_orcish_horde
+
+# The Orcish Horde
+country_event = {
+	id = wwu_orcish_horde.1
+	title = wwu_orcish_horde.1.title
+	desc = wwu_orcish_horde.1.desc
+	picture = ORCISH_INVASION_eventPicture
+	
+    is_triggered_only = yes
+    major = yes
+
+	trigger = {
+        start_date = 592.1.1 # Started in Orcish Horde bookmark
+        tag = TOH
+        NOT = { has_global_flag = orcish_horde_info_flag }
+	}
+	
+    immediate = {
+        hidden_effect = {
+            set_global_flag = orcish_horde_info_flag
+        }
+    }
+    
+	option = {
+		name = wwu_orcish_horde.1.option.a
+		
+        define_general = {
+            shock = 6
+            fire = 4
+            manuever = 3
+            siege = 3
+            name = "Warchief Blackhand"
+        }
+        define_general = {
+            shock = 4
+            fire = 5
+            manuever = 2
+            siege = 2
+            name = "Rend Blackhand"
+        }
+        
+        custom_tooltip = ORCISH_HORDE_ARMY_TT
+        hidden_effect = {
+            random_owned_province = {
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+            }
+            random_owned_province = {
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+            }
+            random_owned_province = {
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+            }
+            random_owned_province = {
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+            }
+            random_owned_province = {
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+            }
+            random_owned_province = {
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+                infantry = ROOT
+            }
+        }
+	}
+}
+
+# The King's Champion
+country_event = {
+	id = wwu_orcish_horde.2
+	title = wwu_orcish_horde.2.title
+	desc = wwu_orcish_horde.2.desc
+	picture = SWORD_SHIELD_eventPicture
+
+	trigger = {
+        start_date = 592.1.1 # Started in Orcish Horde bookmark
+        tag = SRW
+        NOT = { has_country_flag = the_kings_champion }
+        war_with = TOH
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_country_flag = the_kings_champion
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 36
+	}
+
+	option = {
+		name = wwu_orcish_horde.2.option.a
+        
+        define_general = {
+            name = "Sir Anduin Lothar"
+            fire = 4
+            shock = 4
+            manuever = 6
+            siege = 3
+        }
+	}
+}
+
+# Stormwind Calls for Assistance
+country_event = {
+	id = wwu_orcish_horde.3
+	title = wwu_orcish_horde.3.title
+	desc = wwu_orcish_horde.3.desc
+	picture = SWORD_SHIELD_eventPicture
+
+	trigger = {
+        start_date = 592.1.1 # Started in Orcish Horde bookmark
+        tag = LOR
+        NOT = { has_country_flag = stormwind_attacked }
+        SRW = { defensive_war_with = TOH }
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_country_flag = stormwind_attacked
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = wwu_orcish_horde.3.option.a
+        
+        join_all_defensive_wars_of = SRW
+        add_prestige = 25
+	}
+    option = {
+		name = wwu_orcish_horde.3.option.b
+        
+        add_stability = 2
+        hidden_effect = { set_country_flag = failed_stormwind }
+	}
+}
+
+# Stormwind Falls!
+country_event = {
+	id = wwu_orcish_horde.4
+	title = wwu_orcish_horde.4.title
+	desc = wwu_orcish_horde.4.desc
+	picture = ORC_THRONE_eventPicture
+
+    major = yes
+    
+	trigger = {
+        tag = TOH
+        NOT = { has_country_flag = stormwind_falls }
+        war_with = SRW
+        2993 = {
+            controlled_by = TOH
+        }
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_country_flag = stormwind_falls
+        }
+    }
+    
+    mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = wwu_orcish_horde.3.option.a
+        
+        SRW = {
+            every_owned_province = {
+                change_controller = TOH
+            }
+        }
+        
+        hidden_effect = {
+            if = {
+                limit = {
+                    LOR = { has_country_flag = failed_stormwind }
+                }
+                LOR = { country_event = { id = wwu_orcish_horde.5 } }
+            }
+        }
+	}
+}
+
+# Stormwind Falls!
+country_event = {
+	id = wwu_orcish_horde.5
+	title = wwu_orcish_horde.5.title
+	desc = wwu_orcish_horde.5.desc
+	picture = KING_LLANE_eventPicture
+
+    is_triggered_only = yes
+    
+	option = {
+		name = wwu_orcish_horde.3.option.a
+        
+        add_stability = -5
+	}
+}
+
+# Reinforcements from the Dark Portal
+country_event = {
+	id = wwu_orcish_horde.6
+	title = wwu_orcish_horde.6.title
+	desc = wwu_orcish_horde.6.desc
+	picture = DARK_PORTAL_CLOSEUP_eventPicture
+
+    trigger = {
+        tag = TOH
+        3135 = {
+            controlled_by = TOH
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 120
+	}
+    
+	option = {
+		name = wwu_orcish_horde.6.option.a
+        
+        add_yearly_manpower = 1.0
+	}
+}
+
+# AI event to force the First War
+country_event = {
+	id = wwu_orcish_horde.7
+	title = wwu_orcish_horde.7.title
+	desc = wwu_orcish_horde.7.desc
+	picture = DARK_PORTAL_CLOSEUP_eventPicture
+
+    fire_only_once = yes
+
+    trigger = {
+        start_date = 592.1.1 # Started in Orcish Horde bookmark
+        tag = TOH
+        ai = yes
+        mission_completed = prepare_for_the_assault
+    }
+    
+    mean_time_to_happen = {
+		days = 1
+	}
+    
+	option = {
+		name = wwu_orcish_horde.6.option.a
+        
+        declare_war_with_cb = {
+            who = SRW
+            casus_belli = cb_warlust
+        }
+	}
+}

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = MSP
+controller = MSP
+add_core = MSP
+
+base_tax = 1
+base_production = 1
+base_manpower = 4
+
+culture = muskpaw
+religion = celestials
+
+trade_goods = unknown
+hre = no
+
+

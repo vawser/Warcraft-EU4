@@ -1,0 +1,62 @@
+technology_group = tech_vrykul
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = dragonflayer
+religion = runic
+
+capital = 6868
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Kirby"
+        dynasty = "Kvalholde"
+        adm = 4
+        dip = 1
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Thurmond"
+        dynasty = "Wyveraflay"
+        adm = 5
+        dip = 1
+        mil = 4
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Crosby"
+        dynasty = "Dragder"
+        adm = 0
+        dip = 1
+        mil = 5
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Raul"
+        dynasty = "Wyrmhaim"
+        adm = 3
+        dip = 4
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Sten"
+        dynasty = "Branflayer"
+        adm = 4
+        dip = 5
+        mil = 3
+    }
+}

@@ -1,0 +1,38 @@
+technology_group = tech_frost_vrykul
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = hyldnir
+religion = runic
+
+capital = 6527
+
+# The First War
+592.1.1 = {
+    monarch = {  
+        name = "Thorim"  
+        dynasty = "the Stormlord"  
+ 		adm = 3
+		dip = 3
+		mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    
+}
+
+# War of the Spider
+605.1.1 = {
+    
+}
+
+# Third War
+612.1.1 = {
+    
+}

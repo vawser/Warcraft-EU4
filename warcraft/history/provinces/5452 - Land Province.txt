@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SOT
+controller = SOT
+add_core = SOT
+
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+culture = stonehoof
+religion = earth_mother
+
+trade_goods = unknown
+hre = yes
+
+

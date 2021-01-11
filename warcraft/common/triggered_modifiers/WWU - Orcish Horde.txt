@@ -1,0 +1,37 @@
+#---------------------------------------
+# Orcish Horde
+#---------------------------------------
+fel_rush = {
+	potential = {
+		tag = TOH
+        current_age = age_orcish_horde
+	}
+	trigger = {
+		tag = TOH
+        custom_trigger_tooltip = {
+            tooltip = ORCISH_HORDE_NO_LOSS
+            
+            NOT = { has_global_flag = orcish_horde_lost_war }
+        }
+	}
+
+	land_morale = 0.2
+}
+
+shattered_morale = {
+	potential = {
+		tag = TOH
+        current_age = age_orcish_horde
+	}
+	trigger = {
+		tag = TOH
+        custom_trigger_tooltip = {
+            tooltip = ORCISH_HORDE_LOST_WAR
+            
+            has_global_flag = orcish_horde_lost_war
+        }
+	}
+
+	land_morale = -0.2
+    enemy_core_creation = -0.75
+}

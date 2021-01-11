@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = WOO
+controller = WOO
+add_core = WOO
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+culture = woodpaw
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

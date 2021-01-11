@@ -1,0 +1,62 @@
+technology_group = tech_yaungol
+government = tribal
+add_government_reform = warband_reform
+primary_culture = gaicho
+religion = ordos
+
+capital = 4355
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Kotoktang"
+        dynasty = "the Perceptive"
+        adm = 0
+        dip = 0
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Kutoklun"
+        dynasty = "the Bonebreaker"
+        adm = 5
+        dip = 5
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Gomong"
+        dynasty = "the Potent"
+        adm = 0
+        dip = 0
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Goong"
+        dynasty = "the Violent"
+        adm = 4
+        dip = 3
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Asatut"
+        dynasty = "the Astute"
+        adm = 2
+        dip = 5
+        mil = 2
+    }
+}

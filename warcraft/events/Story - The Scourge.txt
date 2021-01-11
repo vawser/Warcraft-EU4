@@ -1,0 +1,164 @@
+namespace = wwu_scourge
+
+# The Scourge
+country_event = {
+	id = wwu_scourge.1
+	title = wwu_scourge.1.title
+	desc = wwu_scourge.1.desc
+	picture = NAXXRAMAS_eventPicture
+	
+    major = yes
+
+	trigger = {
+        NOT = { has_global_flag = the_scourge_info }
+        tag = SCO
+	}
+	
+    immediate = {
+        hidden_effect = {
+            set_global_flag = the_scourge_info
+        }
+    }
+    
+    mean_time_to_happen = {
+		days = 1
+	}
+    
+	option = {
+		name = wwu_scourge.1.option.a
+		
+        2068 = {
+            spawn_center_of_revolution = THIS
+        }
+        every_owned_province = {
+            set_revolution_in_province = yes
+        }
+	}
+}
+
+# Scourging of Lordaeron
+country_event = {
+	id = wwu_scourge.2
+	title = wwu_scourge.2.title
+	desc = wwu_scourge.2.desc
+	picture = UNDEAD_eventPicture
+	
+	trigger = {
+        exists = SCO
+        tag = LOR
+        NOT = { has_country_flag = scourging_of_lordaeron }
+	}
+	
+    immediate = {
+        hidden_effect = {
+            set_country_flag = scourging_of_lordaeron
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 360
+	}
+    
+	option = {
+		name = wwu_scourge.2.option.a
+		
+        region_andorhal = {
+            limit = { culture = andorhal }
+            set_revolution_in_province = yes
+        }
+	}
+}
+
+# Lich King Destroyed
+country_event = {
+	id = wwu_scourge.3
+	title = wwu_scourge.3.title
+	desc = wwu_scourge.3.desc
+	picture = BLIND_PALADIN_eventPicture
+	
+	trigger = {
+        has_first_revolution_started = yes
+        revolution_target_exists = yes
+        NOT = { is_revolutionary = yes } # Not Scourge
+        NOT = { tag = SCO }
+        2068 = {
+            controlled_by = ROOT
+        }
+        NOT = { has_global_flag = destroyed_lich_king }
+	}
+	
+    immediate = {
+        hidden_effect = {
+            set_global_flag = destroyed_lich_king
+        }
+    }
+    
+    mean_time_to_happen = {
+		days = 1
+	}
+    
+	option = {
+		name = wwu_scourge.3.option.a
+		
+        set_revolution_target = ---
+        every_province = {
+            limit = { is_center_of_revolution = yes }
+            remove_center_of_revolution = THIS
+        }
+        SCO = {
+            override_country_name = SCOURGE_REMNANTS_STRING
+        }
+	}
+}
+
+# Defilement of the Sunwell
+country_event = {
+	id = wwu_scourge.4
+	title = wwu_scourge.4.title
+	desc = wwu_scourge.4.desc
+	picture = UNDEAD_eventPicture
+	
+    is_triggered_only = yes
+    
+	trigger = {
+        OR = {
+            has_reform = scourge_reform
+            has_reform = scourge_domain_reform
+        }
+        FROM = {
+            tag = QUE
+            NOT = { has_reform = scourge_reform }
+            NOT = { has_reform = scourge_domain_reform }
+        }
+        NOT = { has_global_flag = sunwell_destroyed }
+	}
+	
+    immediate = {
+        hidden_effect = {
+            set_global_flag = sunwell_destroyed
+        }
+    }
+
+	option = {
+		name = wwu_scourge.4.option.a
+		
+        QUE = { country_event = { id = wwu_scourge.5 } }
+	}
+}
+
+# Defilement of the Sunwell
+country_event = {
+	id = wwu_scourge.5
+	title = wwu_scourge.5.title
+	desc = wwu_scourge.5.desc
+	picture = UNDEAD_eventPicture
+	
+    is_triggered_only = yes
+    
+	option = {
+		name = wwu_scourge.5.option.a
+		
+        add_stability = -3
+        add_prestige = -100
+	}
+}

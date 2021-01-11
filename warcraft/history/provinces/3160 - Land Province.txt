@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = FRR
+controller = FRR
+add_core = FRR
+
+base_tax = 1
+base_production = 4
+base_manpower = 3
+
+culture = firetree
+religion = voodoo
+
+trade_goods = unknown
+hre = no
+
+

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = GUR
+controller = GUR
+add_core = GUR
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+culture = gurubashi
+religion = voodoo
+
+trade_goods = unknown
+hre = no
+
+

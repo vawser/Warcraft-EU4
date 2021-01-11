@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SWK
+controller = SWK
+add_core = SWK
+
+base_tax = 2
+base_production = 3
+base_manpower = 4
+
+culture = slatewhisker
+religion = geomancy
+
+trade_goods = unknown
+hre = no
+
+

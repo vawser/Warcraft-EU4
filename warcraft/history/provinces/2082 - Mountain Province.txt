@@ -1,0 +1,18 @@
+
+is_city = yes
+owner = YMI
+controller = YMI
+add_core = YMI
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+culture = ymirjar
+religion = runic
+
+trade_goods = unknown
+hre = no
+
+
+

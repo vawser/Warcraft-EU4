@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = VLB
+controller = VLB
+add_core = VLB
+
+base_tax = 1
+base_production = 3
+base_manpower = 4
+
+culture = vilebranch
+religion = hakkari
+
+trade_goods = unknown
+hre = no
+
+

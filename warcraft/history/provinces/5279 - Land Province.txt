@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = RET
+controller = RET
+add_core = RET
+
+base_tax = 2
+base_production = 4
+base_manpower = 1
+
+culture = runetotem
+religion = earth_mother
+
+trade_goods = unknown
+hre = yes
+
+

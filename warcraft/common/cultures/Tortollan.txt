@@ -1,0 +1,28 @@
+tortollan_group = {
+    graphical_culture = tortollan_gfx
+    
+    male_names = { 
+        "Jol" "Kisha" "Kojo" "Lashk" "Ludwig" "Maedin" "Majo" "Nola" "Roko" "Toki" "Torka"
+        "Kol" "Jojo" "Lisha" "Mojo" "Kajo" "Maejo" "Mola" "Rako" "Ralo" "Tarko" "Toka"
+    }
+    female_names = { 
+        "Jol" "Kisha" "Kojo" "Lashk" "Ludwig" "Maedin" "Majo" "Nola" "Roko" "Toki" "Torka"
+        "Kol" "Jojo" "Lisha" "Mojo" "Kajo" "Maejo" "Mola" "Rako" "Ralo" "Tarko" "Toka"
+    }
+	dynasty_names = { 
+        "Wisescroll" "Wiseshell" "Wisecrack" "Wisesage" "Wiseseeker"
+        "Waterscroll" "Watershell" "Watercrack" "Watersage" "Waterseeker"
+        "Mistscroll" "Mistshell" "Mistcrack" "Mistsage" "Mistseeker"
+        "Luckscroll" "Luckshell" "Luckcrack" "Lucksage" "Luckseeker"
+        "Eelscroll" "Eelshell" "Eelcrack" "Eelsage" "Eelseeker"
+    }
+    
+    tortollan = {  
+        primary = TOR
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+}
+

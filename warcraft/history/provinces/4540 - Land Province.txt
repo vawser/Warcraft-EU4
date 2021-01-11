@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = KRN
+controller = KRN
+add_core = KRN
+
+base_tax = 1
+base_production = 4
+base_manpower = 1
+
+culture = korune
+religion = fleshshaping
+
+trade_goods = unknown
+hre = no
+
+

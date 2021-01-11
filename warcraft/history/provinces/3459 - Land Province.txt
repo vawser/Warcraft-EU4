@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = MUD
+controller = MUD
+add_core = MUD
+
+base_tax = 2
+base_production = 4
+base_manpower = 3
+
+culture = mudsnout
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

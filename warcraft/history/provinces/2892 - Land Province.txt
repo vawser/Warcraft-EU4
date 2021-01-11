@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SAL
+controller = SAL
+add_core = SAL
+
+base_tax = 2
+base_production = 4
+base_manpower = 3
+
+culture = saltscale
+religion = deep_mother
+
+trade_goods = unknown
+hre = no
+
+

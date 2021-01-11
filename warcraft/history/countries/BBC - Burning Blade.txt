@@ -1,0 +1,8 @@
+technology_group = tech_orc
+government = tribal
+add_government_reform = warband_reform
+primary_culture = burning_blade
+religion = fel
+
+capital = 3159
+

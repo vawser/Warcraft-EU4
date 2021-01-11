@@ -1,0 +1,20 @@
+technology_group = tech_ogre
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = dreadmaul
+religion = geomancy
+
+capital = 3120
+
+# The Scourge
+594.1.1 = {
+    set_global_flag = setup_dreadmaul
+    
+    monarch = {
+        name = "Vorkor"
+        dynasty = "the Smasher"
+        adm = 4
+        dip = 3
+        mil = 2
+    }
+}

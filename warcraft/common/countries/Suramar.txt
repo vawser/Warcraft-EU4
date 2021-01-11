@@ -1,0 +1,234 @@
+graphical_culture = nightborne_gfx
+
+color = { 82 90 239 }
+
+monarch_names = {
+	"Qilgrorn" = 20
+	"Kinthaeure" = 20
+	"Dilfan" = 20
+	"Geruith" = 20
+	"Fenthell" = 20
+	"Nelmer" = 20
+	"Feondauth" = 20
+	"Qithigas" = 20
+	"Silfostrus" = 20
+	"Jurdru" = 20
+	"Glundreure" = 20
+	"Qeovar" = 20
+	"Fisyr" = 20
+	"Sastrothel" = 20
+	"Ninnucox" = 20
+	"Qastindrell" = 20
+	"Qeogrul" = 20
+	"Caulgris" = 20
+	"Micaeu" = 20
+	"Phostalle" = 20
+	"Drothoran" = 20
+	"Thaldrarn" = 20
+	"Phathy" = 20
+	"Gludithe" = 20
+	"Meelgreth" = 20
+	"Virdraeuc" = 20
+	"Glirdruth" = 20
+	"Nendrun" = 20
+	"Cervire" = 20
+	"Fythautria" = 20
+	"Firlorruirn" = 20
+	"Mishomis" = 20
+	"Maetristrirn" = 20
+	"Tarvyx" = 20
+	"Grurrulthas" = 20
+	"Thunlin" = 20
+	"Taundresmir" = 20
+	"Lurasian" = 20
+	"Tolvuc" = 20
+	"Jilmen" = 20
+	"Vuna" = -20
+	"Sive" = -20
+	"Olti" = -20
+	"Sevy" = -20
+	"Thwecy" = -20
+	"Vussecy" = -20
+	"Nanosdo" = -20
+	"Kectain" = -20
+	"Nuerlu" = -20
+	"Rombra" = -20
+	"Dumbris" = -20
+	"Caltel" = -20
+	"Thulsa" = -20
+	"Thwyamyndi" = -20
+	"Tusra" = -20
+	"Odrys" = -20
+	"Ogiann" = -20
+	"Esdeu" = -20
+	"Lage" = -20
+	"Jasith" = -20
+	"Luedronn" = -20
+	"Thwiro" = -20
+	"Korgeu" = -20
+	"Cannuthe" = -20
+	"Nasraes" = -20
+	"Vumois" = -20
+	"Scimino" = -20
+	"Nogale" = -20
+	"Mosdo" = -20
+	"Omi" = -20
+	"Lurol" = -20
+	"Scorleth" = -20
+	"Thwasri" = -20
+	"Evo" = -20
+	"Thwulia" = -20
+	"Fatheia" = -20
+	"Octy" = -20
+	"Reronni" = -20
+	"Viemeci" = -20
+	"Thelsuth" = -20
+
+}
+
+leader_names = {
+	"Windrunner"
+	"Sunstrider"
+	"Sunrunner"
+	"Sunwalker"
+	"Windstrider"
+	"Windwalker"
+	"Longears"
+	"Shortears"
+	"Deemspring"
+	"Laspring"
+	"Sunstar"
+	"Roseblade"
+	"Dawnwhisper"
+	"Lightgaze"
+	"Phoenixflame"
+	"Redlight"
+	"Phoenixspear"
+	"Rosebrook"
+	"Blackreaver"
+	"Starshadow"
+	"Emberblade"
+	"Heartforge"
+	"Moonstalker"
+	"Mirthheart"
+	"Nightgazer"
+	"Silverbringer"
+	"Flamewhisper"
+	"Redsun"
+	"Mirthspark"
+	"Phoenixheart"
+	"Silversorrow"
+	"Moonstrider"
+	"Moonwalker"
+	"Moonrunner"
+	"Highwalker"
+	"Highstrider"
+	"Highrunner"
+	"Blackstalker"
+	"Moonstalker"
+	"Highstalker"
+	"Redblossom"
+	"Sunstalker"
+	"Dawnwalker"
+	"Dawnrunner"
+	"Dawnstrider"
+	"Dawnstalker"
+	"Phoenixsorrow"
+	"Dayheart"
+	"Nightheart"
+	"Dawnheart"
+	"Firewood"
+	"Dayshadow"
+	"Moonshadow"
+	"Bloodseeker"
+	"Moonseeker"
+	"Bloodwalker"
+	"Bloodstrider"
+	"Bloodrunner"
+	"Bloodstalker"
+	"Sunseeker"
+	"Windseeker"
+	"Bloodsorrow"
+	"Dewwalker"
+	"Dewstrider"
+	"Dewrunner"
+	"Dewstalker"
+	"Darkwing"
+	"Darkheart"
+	"Moonblade"
+	"Lightsworn"
+	"Nightfury"
+	"Dawnfury"
+	"Moonfury"
+	"Dayfury"
+	"Sunfury"
+	"Sungazer"
+	"Shadowgazer"
+	"Moongazer"
+	"Dewgazer"
+	"Windgazer"
+	"Emberseeker"
+	"Toramith"
+	"Thorgeluth"
+	"Nendilull"
+	"Veti"
+	"Monthae"
+	"Guball"
+	"Ketes"
+	"Fadrin"
+	"Melsil"
+	"Imath"
+	"Firgarqill"
+	"Telurqa"
+	"Ecinty"
+	"Tultro"
+	"Rottuth"
+	"Fessilu"
+	"Fophu"
+	"Ilsu"
+	"Gargunn"
+	"Kustroll"
+	"Konneth"
+	"Lillethal"
+	"Kitarga"
+	"Ilis"
+	"Kindor"
+	"Omeull"
+	"Terofin"
+	"Iretall"
+	"Tocirrull"
+	"Vergoseith"
+	"Famun"
+	"Undinn"
+	"Tiral"
+	"Inellis"
+	"Mece"
+	"Thamith"
+	"Vustrin"
+	"Vustrin"
+	"Thamith"
+	"Nottoro"
+	"Leti"
+	"Upholl"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = DRB
+controller = DRB
+add_core = DRB
+
+base_tax = 1
+base_production = 4
+base_manpower = 3
+
+culture = green_dragonflight
+religion = dragon_aspects
+
+trade_goods = unknown
+hre = no
+
+

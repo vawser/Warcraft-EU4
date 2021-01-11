@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = DAK
+controller = DAK
+add_core = DAK
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+culture = drakkari
+religion = voodoo
+
+trade_goods = unknown
+hre = no
+
+

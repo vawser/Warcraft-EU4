@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = DAL
+controller = DAL
+add_core = DAL
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+culture = dalaran
+religion = arcane
+
+trade_goods = unknown
+hre = no
+
+

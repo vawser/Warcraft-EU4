@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SHZ
+controller = SHZ
+add_core = SHZ
+
+base_tax = 1
+base_production = 2
+base_manpower = 4
+
+culture = strashaz
+religion = azshara
+
+trade_goods = unknown
+hre = no
+
+

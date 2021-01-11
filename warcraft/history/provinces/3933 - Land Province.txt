@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = LOR
+controller = LOR
+add_core = LOR
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+culture = lordaeron
+religion = the_holy_light
+
+trade_goods = unknown
+hre = no
+
+

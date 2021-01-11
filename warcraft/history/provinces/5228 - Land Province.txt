@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = WIM
+controller = WIM
+add_core = WIM
+
+base_tax = 3
+base_production = 1
+base_manpower = 1
+
+culture = wildmane
+religion = earth_mother
+
+trade_goods = unknown
+hre = yes
+
+

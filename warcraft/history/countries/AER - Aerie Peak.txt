@@ -1,0 +1,23 @@
+technology_group = tech_hill_dwarf
+government = tribal
+add_government_reform = dwarven_clan_reform
+government_rank = 2
+primary_culture = aerie_peak
+religion = shamanism
+
+capital = 3544
+
+# The First War
+592.1.1 = {
+    monarch = { 
+        name = "Kurdran" 
+        dynasty = "Wildhammer" 
+		adm = 3
+		dip = 2
+		mil = 5
+        birth_date = 480.1.1
+ 	} 
+    historical_friend = WIL
+    historical_rival = RVT
+}
+

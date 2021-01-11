@@ -1,0 +1,26 @@
+
+is_city = yes
+owner = SEN
+controller = SEN
+add_core = SEN
+
+base_tax = 1
+base_production = 1
+base_manpower = 4
+
+culture = sentinels_of_hyjal
+religion = elune
+
+trade_goods = unknown
+hre = no
+
+# The Burning Legion
+595.1.1 = {
+	is_city = yes
+    owner = TBL
+    controller = TBL
+    add_core = TBL
+    
+    culture = demon
+    religion = fel
+}

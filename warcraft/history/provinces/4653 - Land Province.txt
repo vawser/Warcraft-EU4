@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SIF
+controller = SIF
+add_core = SIF
+
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+culture = siltfin
+religion = deep_mother
+
+trade_goods = unknown
+hre = no
+
+

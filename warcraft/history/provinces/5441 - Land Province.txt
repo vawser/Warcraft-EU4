@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = WHI
+controller = WHI
+add_core = WHI
+
+base_tax = 2
+base_production = 3
+base_manpower = 3
+
+culture = whitehoof
+religion = earth_mother
+
+trade_goods = unknown
+hre = yes
+
+

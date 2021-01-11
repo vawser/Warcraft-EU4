@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = GOM
+controller = GOM
+add_core = GOM
+
+base_tax = 2
+base_production = 4
+base_manpower = 4
+
+culture = gormali
+religion = fleshshaping
+
+trade_goods = unknown
+hre = no
+
+

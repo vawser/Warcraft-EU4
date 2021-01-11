@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = BFY
+controller = BFY
+add_core = BFY
+
+base_tax = 4
+base_production = 1
+base_manpower = 4
+
+culture = bloodfury
+religion = wind
+
+trade_goods = unknown
+hre = no
+
+

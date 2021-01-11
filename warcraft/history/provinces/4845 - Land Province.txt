@@ -1,0 +1,28 @@
+
+is_city = no
+native_size = 4
+native_ferocity = 8
+native_hostileness = 1
+
+base_tax = 3
+base_production = 4
+base_manpower = 2
+
+culture = primitive
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+# The Burning Legion
+595.1.1 = {
+	is_city = yes
+    owner = STM
+    controller = STM
+    add_core = STM
+    
+    culture = stonemaul
+    religion = geomancy
+}
+
+

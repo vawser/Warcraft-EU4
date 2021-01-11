@@ -1,0 +1,25 @@
+
+is_city = yes
+owner = LRW
+controller = LRW
+add_core = LRW
+
+base_tax = 4
+base_production = 3
+base_manpower = 3
+
+culture = lorewalker
+religion = celestials
+
+trade_goods = unknown
+hre = no
+
+200.1.1 = {
+    add_permanent_province_modifier = {
+        name = religious_center
+        duration = -1
+    }
+}
+
+
+

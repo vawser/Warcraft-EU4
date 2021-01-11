@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = RVT
+controller = RVT
+add_core = RVT
+
+base_tax = 1
+base_production = 4
+base_manpower = 1
+
+culture = revantusk
+religion = voodoo
+
+trade_goods = unknown
+hre = no
+
+

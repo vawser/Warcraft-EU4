@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = HAL
+controller = HAL
+add_core = HAL
+
+base_tax = 1
+base_production = 2
+base_manpower = 2
+
+culture = haldarr
+religion = fel
+
+trade_goods = unknown
+hre = no
+
+

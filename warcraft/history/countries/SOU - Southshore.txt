@@ -1,0 +1,62 @@
+technology_group = tech_human
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = southshore
+religion = the_holy_light
+
+capital = 3464
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Nathaniel"
+        dynasty = "Moore"
+        adm = 5
+        dip = 1
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Charlie"
+        dynasty = "Johnston"
+        adm = 5
+        dip = 3
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Ethan"
+        dynasty = "Perry"
+        adm = 5
+        dip = 1
+        mil = 4
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Finn"
+        dynasty = "King"
+        adm = 1
+        dip = 4
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Toby"
+        dynasty = "Kelley"
+        adm = 5
+        dip = 1
+        mil = 4
+    }
+}

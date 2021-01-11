@@ -1,0 +1,62 @@
+technology_group = tech_murloc
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = rockpool
+religion = deep_mother
+
+capital = 3154
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Murglmr"
+        dynasty = "the Coy"
+        adm = 3
+        dip = 4
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Nrbmu"
+        dynasty = "the Careful"
+        adm = 0
+        dip = 2
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Kr'mut"
+        dynasty = "the Mammoth"
+        adm = 2
+        dip = 1
+        mil = 5
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Er'rg"
+        dynasty = "the Frenzied"
+        adm = 3
+        dip = 3
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Brglnur"
+        dynasty = "the Titanic"
+        adm = 0
+        dip = 5
+        mil = 0
+    }
+}

@@ -1,0 +1,329 @@
+namespace = wwu_alliance
+
+# Alliance of Lordaeron
+country_event = {
+	id = wwu_alliance.1
+	title = wwu_alliance.1.title
+	desc = wwu_alliance.1.desc
+	picture = KING_LLANE_eventPicture
+	
+    major = yes
+
+	trigger = {
+        start_date = 592.1.1 # Started in Orcish Horde bookmark
+        tag = LOR
+        2993 = { owned_by = TOH } # Stormwind Keep is owned by the Orcish Horde
+        NOT = { exists = SRW } # Stormwind annexed
+        NOT = { has_global_flag = alliance_of_lordaeron_setup }
+	}
+	
+    mean_time_to_happen = {
+		months = 36
+	}
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = alliance_of_lordaeron_setup
+        }
+    }
+    
+	option = {
+		name = wwu_alliance.1.option.a
+
+        add_country_modifier = {
+            name = alliance_of_lordaeron
+            duration = -1
+        }
+
+        ALT = { country_event = { id = wwu_alliance.2 } }
+        DAL = { country_event = { id = wwu_alliance.2 } } 
+        GIL = { country_event = { id = wwu_alliance.2 } }
+        KUL = { country_event = { id = wwu_alliance.2 } } 
+        SMG = { country_event = { id = wwu_alliance.2 } }
+        
+        ai_chance = { factor = 100 }
+	}
+    option = {
+		name = wwu_alliance.1.option.b
+		
+        add_stability = 1
+        add_country_modifier = {
+            name = explusion_of_the_refuges
+            duration = 7300
+        }
+        
+        ai_chance = { factor = 0 }
+	}
+}
+
+# Join the Alliance of Lordaeron (automatic)
+country_event = {
+	id = wwu_alliance.2
+	title = wwu_alliance.2.title
+	desc = wwu_alliance.2.desc
+	picture = KING_LLANE_eventPicture
+	
+	is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            set_country_flag = alliance_offer
+        }
+    }
+    
+	option = {
+		name = wwu_alliance.2.option.a
+        
+        create_alliance = LOR
+        
+        add_country_modifier = {
+            name = member_of_the_alliance
+            duration = -1
+        }
+        add_opinion = {
+            who = LOR
+            modifier = alliance_of_lordaeron
+        }
+        reverse_add_opinion = {
+            who = LOR
+            modifier = alliance_of_lordaeron
+        }
+        add_trust = {
+            who = LOR
+            value = 100
+            mutual = yes
+        }
+        
+        ai_chance = { factor = 100 }
+	}
+    option = {
+		name = wwu_alliance.2.option.b
+        
+        add_stability = 1
+        
+        ai_chance = { factor = 0 }
+	}
+}
+
+# Join the Alliance of Lordaeron (Random after initial setup)
+country_event = {
+	id = wwu_alliance.3
+	title = wwu_alliance.3.title
+	desc = wwu_alliance.3.desc
+	picture = KING_LLANE_eventPicture
+	
+	trigger = {
+        had_global_flag = {
+            flag = alliance_of_lordaeron_setup
+            days = 730
+        }
+        OR = {  
+            tag = QUE
+            tag = WIL
+            tag = AER
+            tag = IRO
+            tag = GNO
+        }
+        NOT = { alliance_with = LOR }
+        NOT = { has_country_flag = alliance_offer }
+	}
+	
+    mean_time_to_happen = {
+		months = 240
+        
+        modifier = {
+            factor = 2
+            
+            OR = {
+                tag = IRO
+                tag = GNO
+            }
+        }
+	}
+    
+    immediate = {
+        hidden_effect = {
+            set_country_flag = alliance_offer
+        }
+    }
+    
+	option = {
+		name = wwu_alliance.3.option.a
+        
+        create_alliance = LOR
+        
+        add_country_modifier = {
+            name = member_of_the_alliance
+            duration = -1
+        }
+        add_opinion = {
+            who = LOR
+            modifier = alliance_of_lordaeron
+        }
+        reverse_add_opinion = {
+            who = LOR
+            modifier = alliance_of_lordaeron
+        }
+        add_trust = {
+            who = LOR
+            value = 100
+            mutual = yes
+        }
+        
+        ai_chance = { factor = 80 }
+	}
+    option = {
+		name = wwu_alliance.3.option.b
+        
+        add_stability = 1
+        
+        ai_chance = { factor = 20 }
+	}
+}
+
+# Call for Aid
+country_event = {
+	id = wwu_alliance.4
+	title = wwu_alliance.4.title
+	desc = wwu_alliance.4.desc
+	picture = BURNING_CASTLE_eventPicture
+	
+	trigger = {
+        NOT = { has_country_modifier = assisting_alliance_member }
+        OR = {
+            has_country_modifier = alliance_of_lordaeron
+            has_country_modifier = member_of_the_alliance
+        }
+        is_at_war = yes
+        NOT = { has_country_modifier = called_for_aid }
+	}
+	
+    mean_time_to_happen = {
+		months = 1
+	}
+    
+    immediate = {
+        hidden_effect = {
+            add_country_modifier = {
+                name = called_for_aid
+                duration = 3650
+            }
+        }
+    }
+
+	option = {
+		name = wwu_alliance.4.option.a
+        
+        tooltip = {
+            add_country_modifier = {
+                name = called_for_aid
+                duration = 3650
+            }
+        }
+        
+        every_country = {
+            limit = {
+                OR = {
+                    has_country_modifier = alliance_of_lordaeron
+                    has_country_modifier = member_of_the_alliance
+                }
+                NOT = { tag = ROOT }
+            }
+            country_event = { id = wwu_alliance.5 }
+        }
+        
+        ai_chance = { factor = 80 }
+	}
+    option = {
+		name = wwu_alliance.4.option.b
+        
+        add_prestige = 10
+        
+        ai_chance = { factor = 20 }
+	}
+}
+
+# Called for Aid
+country_event = {
+	id = wwu_alliance.5
+	title = wwu_alliance.5.title
+	desc = wwu_alliance.5.desc
+	picture = KING_LLANE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = wwu_alliance.5.option.a
+        
+        add_country_modifier = { 
+            name = assisting_alliance_member
+            duration = -1
+        }
+        create_alliance = FROM
+        join_all_offensive_wars_of = FROM
+        join_all_defensive_wars_of = FROM
+        
+        ai_chance = { factor = 80 }
+	}
+    option = {
+		name = wwu_alliance.5.option.b
+        
+        add_prestige = -20
+        
+        if = {
+            limit = {
+                has_country_modifier = member_of_the_alliance
+            }
+            random = {
+                chance = 20
+                
+                remove_country_modifier = member_of_the_alliance
+            }
+        }
+        
+        ai_chance = { factor = 20 }
+	}
+}
+
+# Cleanup Call for Aid once not at war
+country_event = {
+	id = wwu_alliance.6
+	title = wwu_alliance.6.title
+	desc = wwu_alliance.6.desc
+	picture = BURNING_CASTLE_eventPicture
+	
+    hidden = yes
+    
+	trigger = {
+        has_country_modifier = assisting_alliance_member
+        is_at_war = no
+	}
+	
+    mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = wwu_alliance.6.option.a
+        
+        remove_country_modifier = assisting_alliance_member
+	}
+}
+
+# Alliance Dismantled
+country_event = {
+	id = wwu_alliance.7
+	title = wwu_alliance.7.title
+	desc = wwu_alliance.7.desc
+	picture = BURNING_CASTLE_eventPicture
+	
+    major = yes
+    is_triggered_only = yes
+
+	option = {
+		name = wwu_alliance.7.option.a
+        
+        add_stability = -3
+        add_prestige = -100
+	}
+}

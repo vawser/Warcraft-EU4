@@ -1,0 +1,62 @@
+technology_group = tech_kobold
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = tunnel_rat
+religion = geomancy
+
+capital = 3230
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Larlar"
+        dynasty = "Timberfang"
+        adm = 3
+        dip = 2
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Gibgrin"
+        dynasty = "Snarlblade"
+        adm = 3
+        dip = 0
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Boxgrin"
+        dynasty = "Blightfang"
+        adm = 5
+        dip = 0
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Byort"
+        dynasty = "Thistlepicker"
+        adm = 4
+        dip = 5
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Rukgug"
+        dynasty = "Moldblade"
+        adm = 0
+        dip = 5
+        mil = 5
+    }
+}

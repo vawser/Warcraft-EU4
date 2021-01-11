@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = BLO
+controller = BLO
+add_core = BLO
+
+base_tax = 1
+base_production = 4
+base_manpower = 4
+
+culture = bloodsail
+religion = avarice
+
+trade_goods = unknown
+hre = no
+
+

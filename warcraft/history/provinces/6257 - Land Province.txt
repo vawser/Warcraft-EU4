@@ -1,0 +1,19 @@
+
+is_city = yes
+owner = GMM
+controller = GMM
+add_core = GMM
+
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+culture = gammoth
+religion = geomancy
+
+trade_goods = unknown
+hre = no
+
+center_of_trade = 1
+
+

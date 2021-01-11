@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = BOC
+controller = BOC
+add_core = BOC
+
+base_tax = 3
+base_production = 3
+base_manpower = 1
+
+culture = bloodcursed
+religion = azshara
+
+trade_goods = unknown
+hre = no
+
+

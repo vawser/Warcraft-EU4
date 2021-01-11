@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = MSW
+controller = MSW
+add_core = MSW
+
+base_tax = 3
+base_production = 1
+base_manpower = 2
+
+culture = mistwhisper
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

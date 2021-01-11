@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = ROT
+controller = ROT
+add_core = ROT
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+culture = snowlimb
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

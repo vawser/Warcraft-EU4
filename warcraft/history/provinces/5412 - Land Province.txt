@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = RAF
+controller = RAF
+add_core = RAF
+
+base_tax = 1
+base_production = 2
+base_manpower = 2
+
+culture = razorfen
+religion = geomancy
+
+trade_goods = unknown
+hre = no
+
+

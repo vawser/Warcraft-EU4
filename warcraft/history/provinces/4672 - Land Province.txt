@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = BMB
+controller = BMB
+add_core = BMB
+
+base_tax = 2
+base_production = 1
+base_manpower = 2
+
+culture = bristlelimb
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

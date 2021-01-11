@@ -1,0 +1,17 @@
+technology_group = tech_forest_troll
+government = monarchy
+add_government_reform = troll_kingdom_reform
+primary_culture = witherbark
+religion = voodoo
+
+capital = 3585
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Arrakzul the Sly"
+        adm = 0
+        dip = 4
+        mil = 2
+    }
+}

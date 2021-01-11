@@ -1,0 +1,62 @@
+technology_group = tech_wolvar
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = rageclaw
+religion = shamanism
+
+capital = 6991
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Jektek"
+        dynasty = "Stilltooth"
+        adm = 2
+        dip = 5
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Gzepjek"
+        dynasty = "Barkfang"
+        adm = 2
+        dip = 2
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Gorejak"
+        dynasty = "Rotskin"
+        adm = 3
+        dip = 1
+        mil = 2
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Ikjak"
+        dynasty = "Bristlepile"
+        adm = 4
+        dip = 5
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Rakke"
+        dynasty = "Moldweald"
+        adm = 2
+        dip = 2
+        mil = 3
+    }
+}

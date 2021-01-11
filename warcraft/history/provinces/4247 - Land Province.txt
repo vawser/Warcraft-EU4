@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = PEA
+controller = PEA
+add_core = PEA
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+culture = pearlfin
+religion = celestials
+
+trade_goods = unknown
+hre = no
+
+

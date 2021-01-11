@@ -1,0 +1,63 @@
+technology_group = tech_goblin
+government = republic
+add_government_reform = mercantile_republic_reform
+primary_culture = bilgewater_cartel
+religion = avarice
+religious_school = diplomatic_philosophy
+
+capital = 3727
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Kleenqe"
+        dynasty = "Fizbead"
+        adm = 1
+        dip = 0
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Jibi"
+        dynasty = "Vividlock"
+        adm = 5
+        dip = 4
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Jexien"
+        dynasty = "Blandmine"
+        adm = 3
+        dip = 1
+        mil = 4
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Dilnixle"
+        dynasty = "Fizzleguard"
+        adm = 0
+        dip = 4
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Grald"
+        dynasty = "Blandmine"
+        adm = 0
+        dip = 5
+        mil = 3
+    }
+}

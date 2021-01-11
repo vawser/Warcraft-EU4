@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = RAZ
+controller = RAZ
+add_core = RAZ
+
+base_tax = 2
+base_production = 4
+base_manpower = 2
+
+culture = razormane
+religion = geomancy
+
+trade_goods = unknown
+hre = no
+
+

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SGI
+controller = SGI
+add_core = SGI
+
+base_tax = 3
+base_production = 4
+base_manpower = 1
+
+culture = stonegill
+religion = deep_mother
+
+trade_goods = unknown
+hre = no
+
+

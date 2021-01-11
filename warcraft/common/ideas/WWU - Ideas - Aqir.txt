@@ -1,0 +1,79 @@
+# Ahn'Qiraj
+AQJ_ideas = {
+	start = {
+		max_absolutism = 10
+        yearly_absolutism = 0.5
+	}
+
+	bonus = {
+        governing_capacity_modifier = 0.15
+	}
+	
+	trigger = {
+		tag = AQJ
+	}
+	free = yes		
+	
+	AQJ_ideas_1 = {
+		shock_damage = 0.15
+	}
+	AQJ_ideas_2 = {
+		unjustified_demands = -0.2
+	}
+	AQJ_ideas_3 = {
+        production_efficiency = 0.1
+	}
+	AQJ_ideas_4 = {
+		technology_cost = -0.1
+	}
+	AQJ_ideas_5 = {
+		years_of_nationalism = -5
+	}
+	AQJ_ideas_6 = {
+		global_missionary_strength = 0.02
+	}
+	AQJ_ideas_7 = {
+		prestige_decay = -0.02
+	}
+}
+
+# Azjol'Nerub
+AZJ_ideas = {
+	start = {
+		global_unrest = -1
+        global_tax_modifier = 0.1
+	}
+
+	bonus = {
+        reform_progress_growth = 0.5
+	}
+	
+	trigger = {
+		tag = AZJ
+	}
+	free = yes		
+	
+	AZJ_ideas_1 = {
+		build_cost = -0.2
+        build_time = -0.2
+	}
+	AZJ_ideas_2 = {
+		siege_ability = 0.1
+	}
+	AZJ_ideas_3 = {
+		global_manpower_modifier = 0.1
+        global_regiment_recruit_speed = -0.15
+	}
+	AZJ_ideas_4 = {
+		improve_relation_modifier = 0.15
+	}
+	AZJ_ideas_5 = {
+		hostile_attrition = 2
+	}
+	AZJ_ideas_6 = {
+		adm_tech_cost_modifier = -0.1
+	}
+	AZJ_ideas_7 = {
+		advisor_cost = -0.2
+	}
+}

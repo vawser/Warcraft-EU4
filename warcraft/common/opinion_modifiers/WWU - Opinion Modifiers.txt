@@ -1,0 +1,10 @@
+tauren_federation_addressed_concerns = {
+	opinion = 50
+	yearly_decay = -1
+}
+
+alliance_of_lordaeron = {
+    opinion = 200
+	yearly_decay = -1
+}
+

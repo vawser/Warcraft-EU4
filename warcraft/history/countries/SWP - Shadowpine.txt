@@ -1,0 +1,18 @@
+technology_group = tech_forest_troll
+government = monarchy
+add_government_reform = troll_kingdom_reform
+government_rank = 1
+primary_culture = shadowpine
+religion = voodoo
+
+capital = 4066
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Mojinrabi the Powerful"
+        adm = 1
+        dip = 3
+        mil = 4
+    }
+}

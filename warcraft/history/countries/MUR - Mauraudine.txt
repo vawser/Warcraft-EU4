@@ -1,0 +1,62 @@
+technology_group = tech_centaur
+government = tribal
+add_government_reform = warband_reform
+primary_culture = mauraudine
+religion = shamanism
+
+capital = 5347
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Ocha"
+        dynasty = "the Mighty"
+        adm = 4
+        dip = 1
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Ekra"
+        dynasty = "the Sly"
+        adm = 5
+        dip = 3
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Ekra"
+        dynasty = "the Educated"
+        adm = 2
+        dip = 4
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Ekra"
+        dynasty = "the Quick"
+        adm = 0
+        dip = 4
+        mil = 1
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Ocha"
+        dynasty = "the Erudite"
+        adm = 3
+        dip = 4
+        mil = 2
+    }
+}

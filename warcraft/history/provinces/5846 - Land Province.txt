@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = STS
+controller = STS
+add_core = STS
+
+base_tax = 4
+base_production = 4
+base_manpower = 1
+
+culture = shatterspear
+religion = voodoo
+
+trade_goods = unknown
+hre = no
+
+

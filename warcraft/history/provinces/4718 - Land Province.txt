@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = AXX
+controller = AXX
+add_core = AXX
+
+base_tax = 2
+base_production = 1
+base_manpower = 2
+
+culture = axxarian
+religion = fel
+
+trade_goods = unknown
+hre = no
+
+

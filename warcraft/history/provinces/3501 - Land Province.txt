@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SOU
+controller = SOU
+add_core = SOU
+
+base_tax = 4
+base_production = 3
+base_manpower = 1
+
+culture = southshore
+religion = the_holy_light
+
+trade_goods = unknown
+hre = no
+
+

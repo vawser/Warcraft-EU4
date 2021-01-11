@@ -1,0 +1,23 @@
+technology_group = tech_night_elf
+government = theocracy
+add_government_reform = druidic_circle_reform
+government_rank = 3
+primary_culture = darnassus
+religion = elune
+
+capital = 4781
+
+# The Burning Legion
+595.1.1 = {
+    set_global_flag = setup_darnassus
+    
+    monarch = { 
+		name = "Tyrande"  
+		dynasty = "Whisperwind" 	
+		adm = 4		
+		dip = 4
+		mil = 4	
+        female = yes
+        birth_date = 20.1.1
+    }
+}

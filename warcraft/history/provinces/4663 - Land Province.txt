@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = WRS
+controller = WRS
+add_core = WRS
+
+base_tax = 4
+base_production = 1
+base_manpower = 4
+
+culture = wrathscale
+religion = azshara
+
+trade_goods = unknown
+hre = no
+
+

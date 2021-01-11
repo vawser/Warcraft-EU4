@@ -1,0 +1,235 @@
+# General
+gov_warband_centaur = {
+	rank = {
+		1 = WARBAND
+		2 = WARBAND
+		3 = WARBAND
+	}
+	
+	ruler_male = {
+		1 = KHAN
+        2 = KHAN
+        3 = KHAN
+	}
+	
+	ruler_female = {
+		1 = KHANESS
+        2 = KHANESS
+        3 = KHANESS
+	}
+	
+	trigger = {
+        culture_group = centaur_group
+        has_reform = warband_reform
+	}
+}
+gov_warband = {
+	rank = {
+		1 = WARBAND
+		2 = WARBAND
+		3 = WARBAND
+	}
+	
+	ruler_male = {
+		1 = CHIEF
+        2 = CHIEF
+        3 = CHIEF
+	}
+	
+	ruler_female = {
+		1 = CHIEFTESS
+        2 = CHIEFTESS
+        3 = CHIEFTESS
+	}
+	
+	trigger = {
+        has_reform = warband_reform
+	}
+}
+gov_tribal_federation_kobold = {
+	rank = {
+		1 = TRIBAL_FEDERATION
+		2 = TRIBAL_FEDERATION
+		3 = TRIBAL_FEDERATION
+	}
+	
+	ruler_male = {
+		1 = TASKMASTER
+        2 = TASKMASTER
+        3 = TASKMASTER
+	}
+	
+	ruler_female = {
+		1 = TASKMASTER
+        2 = TASKMASTER
+        3 = TASKMASTER
+	}
+	
+	trigger = {
+        culture_group = kobold_group
+        has_reform = tribal_federation_reform
+	}
+}
+gov_tribal_federation_tauren = {
+	rank = {
+		1 = TRIBAL_FEDERATION
+		2 = TRIBAL_FEDERATION
+		3 = TRIBAL_FEDERATION
+	}
+	
+	ruler_male = {
+		1 = CHIEFTAIN
+        2 = CHIEFTAIN
+        3 = CHIEFTAIN
+	}
+	
+	ruler_female = {
+		1 = CHIEFESS
+        2 = CHIEFESS
+        3 = CHIEFESS
+	}
+	
+	trigger = {
+        culture_group = tauren_group
+        has_reform = tribal_federation_reform
+	}
+}
+gov_tribal_federation = {
+	rank = {
+		1 = TRIBAL_FEDERATION
+		2 = TRIBAL_FEDERATION
+		3 = TRIBAL_FEDERATION
+	}
+	
+	ruler_male = {
+		1 = CHIEF
+        2 = CHIEF
+        3 = CHIEF
+	}
+	
+	ruler_female = {
+		1 = CHIEFESS
+        2 = CHIEFESS
+        3 = CHIEFESS
+	}
+	
+	trigger = {
+        has_reform = tribal_federation_reform
+	}
+}
+gov_tribal_despotism_gnoll = {
+	rank = {
+		1 = GNOLL_PACK
+		2 = GNOLL_PACK
+		3 = GNOLL_PACK
+	}
+	
+	ruler_male = {
+		1 = PACKLEADER
+        2 = PACKLEADER
+        3 = PACKLEADER
+	}
+	
+	ruler_female = {
+		1 = PACKLEADER
+        2 = PACKLEADER
+        3 = PACKLEADER
+	}
+	
+	trigger = {
+        culture_group = gnoll_group
+        has_reform = tribal_despotism_reform
+	}
+}
+gov_tribal_despotism = {
+	rank = {
+		1 = TRIBAL_DESPOTISM
+		2 = TRIBAL_DESPOTISM
+		3 = TRIBAL_DESPOTISM
+	}
+	
+	ruler_male = {
+		1 = CHIEF
+        2 = CHIEF
+        3 = CHIEF
+	}
+	
+	ruler_female = {
+		1 = CHIEFESS
+        2 = CHIEFESS
+        3 = CHIEFESS
+	}
+	
+	trigger = {
+        has_reform = tribal_despotism_reform
+	}
+}
+gov_orcish_horde = {
+	rank = {
+		1 = ORCISH_HORDE
+		2 = ORCISH_HORDE
+		3 = ORCISH_HORDE
+	}
+	
+	ruler_male = {
+		1 = WARCHIEF
+        2 = WARCHIEF
+        3 = WARCHIEF
+	}
+	
+	ruler_female = {
+		1 = WARCHIEF
+        2 = WARCHIEF
+        3 = WARCHIEF
+	}
+	
+	trigger = {
+        has_reform = orcish_horde_reform
+	}
+}
+gov_dwarven_clan = {
+	rank = {
+		1 = DWARVEN_CLAN
+		2 = DWARVEN_CLAN
+		3 = DWARVEN_FEDERATION
+	}
+	
+	ruler_male = {
+		1 = HIGH_THANE
+        2 = HIGH_THANE
+        3 = HIGH_THANE
+	}
+	
+	ruler_female = {
+		1 = HIHG_THANESS
+        2 = HIHG_THANESS
+        3 = HIHG_THANESS
+	}
+	
+	trigger = {
+        has_reform = dwarven_clan_reform
+	}
+}
+gov_satyr_sect = {
+	rank = {
+		1 = SATYR_SECT
+		2 = SATYR_SECT
+		3 = SATYR_SECT
+	}
+	
+	ruler_male = {
+		1 = CORRUPTOR
+        2 = CORRUPTOR
+        3 = CORRUPTOR
+	}
+	
+	ruler_female = {
+		1 = CORRUPTOR
+        2 = CORRUPTOR
+        3 = CORRUPTOR
+	}
+	
+	trigger = {
+        has_reform = satyr_sect_reform
+	}
+}

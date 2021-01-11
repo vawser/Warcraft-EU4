@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = GIL
+controller = GIL
+add_core = GIL
+
+base_tax = 1
+base_production = 4
+base_manpower = 2
+
+culture = gilnean
+religion = the_holy_light
+
+trade_goods = unknown
+hre = no
+
+

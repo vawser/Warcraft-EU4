@@ -1,0 +1,62 @@
+technology_group = tech_mogu
+government = tribal
+add_government_reform = warband_reform
+primary_culture = shanze
+religion = fleshshaping
+
+capital = 3773
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Jai Ang"
+        dynasty = "Tefeng"
+        adm = 3
+        dip = 5
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Jaife"
+        dynasty = "Kienku"
+        adm = 2
+        dip = 1
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Fe-Kien"
+        dynasty = "Zuang"
+        adm = 1
+        dip = 5
+        mil = 1
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Feng Zu"
+        dynasty = "Zuku"
+        adm = 1
+        dip = 4
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Bu Jai"
+        dynasty = "Zhuke"
+        adm = 5
+        dip = 4
+        mil = 2
+    }
+}

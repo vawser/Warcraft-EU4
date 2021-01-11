@@ -1,0 +1,62 @@
+technology_group = tech_saurok
+government = tribal
+add_government_reform = warband_reform
+primary_culture = wildscale
+religion = fleshshaping
+
+capital = 4256
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Silshik"
+        dynasty = "the Shrewd"
+        adm = 0
+        dip = 4
+        mil = 4
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Ihgayis"
+        dynasty = "the Insane"
+        adm = 5
+        dip = 1
+        mil = 4
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Kroshi"
+        dynasty = "the Smart"
+        adm = 5
+        dip = 4
+        mil = 5
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Karlik"
+        dynasty = "the Fierce"
+        adm = 1
+        dip = 2
+        mil = 4
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Gekyis"
+        dynasty = "the Mammoth"
+        adm = 2
+        dip = 5
+        mil = 5
+    }
+}

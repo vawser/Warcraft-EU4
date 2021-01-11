@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = BLU
+controller = BLU
+add_core = BLU
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+culture = bluegill
+religion = deep_mother
+
+trade_goods = unknown
+hre = no
+
+

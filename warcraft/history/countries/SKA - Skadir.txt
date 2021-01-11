@@ -1,0 +1,62 @@
+technology_group = tech_kvaldir
+government = tribal
+add_government_reform = warband_reform
+primary_culture = skadir
+religion = runic
+
+capital = 6119
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Hjalmar"
+        dynasty = "Wyvernflay"
+        adm = 3
+        dip = 5
+        mil = 0
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Dagfinn"
+        dynasty = "Kvihilde"
+        adm = 2
+        dip = 0
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Einar"
+        dynasty = "Kviholde"
+        adm = 2
+        dip = 4
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Kirkwood"
+        dynasty = "Winterhalde"
+        adm = 1
+        dip = 3
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Oluf"
+        dynasty = "Bvinnhuim"
+        adm = 2
+        dip = 0
+        mil = 5
+    }
+}

@@ -1,0 +1,62 @@
+technology_group = tech_saurok
+government = tribal
+add_government_reform = warband_reform
+primary_culture = viletongue
+religion = fleshshaping
+
+capital = 4402
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Glintkan"
+        dynasty = "the Sane"
+        adm = 3
+        dip = 5
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Gekhula"
+        dynasty = "the Massive"
+        adm = 1
+        dip = 3
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Vorkan"
+        dynasty = "the Punchy"
+        adm = 5
+        dip = 5
+        mil = 4
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Borokshi"
+        dynasty = "the Throatslicer"
+        adm = 0
+        dip = 5
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Silhula"
+        dynasty = "the Quick"
+        adm = 0
+        dip = 2
+        mil = 2
+    }
+}

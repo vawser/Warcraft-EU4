@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SLI
+controller = SLI
+add_core = SLI
+
+base_tax = 1
+base_production = 1
+base_manpower = 4
+
+culture = slitherscale
+religion = fleshshaping
+
+trade_goods = unknown
+hre = no
+
+

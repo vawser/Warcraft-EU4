@@ -1,0 +1,62 @@
+technology_group = tech_naga
+government = monarchy
+add_government_reform = naga_domain_reform
+primary_culture = slitherblade
+religion = azshara
+
+capital = 2497
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Ussira"
+        dynasty = "the Towering"
+        adm = 4
+        dip = 2
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Gazjii"
+        dynasty = "the Powerful"
+        adm = 3
+        dip = 4
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Jatashe"
+        dynasty = "the Hearty"
+        adm = 1
+        dip = 0
+        mil = 1
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Shigaz"
+        dynasty = "the Crafty"
+        adm = 0
+        dip = 4
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Idrasesh"
+        dynasty = "the Frantic"
+        adm = 4
+        dip = 1
+        mil = 2
+    }
+}

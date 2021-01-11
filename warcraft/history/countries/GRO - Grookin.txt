@@ -1,0 +1,62 @@
+technology_group = tech_hozen
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = grookin
+religion = celestials
+
+capital = 4449
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Mit Mit"
+        dynasty = "the Immense"
+        adm = 5
+        dip = 5
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Ip-Ip"
+        dynasty = "the Maniac"
+        adm = 0
+        dip = 5
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Mit Mit"
+        dynasty = "the Towering"
+        adm = 4
+        dip = 4
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Lap-Lap Gramba Grom-Grom Eklaro Gikik Grukomu Wuk-Wuk"
+        dynasty = "the Stabber"
+        adm = 4
+        dip = 5
+        mil = 1
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Ot Ot Mekka Wuku Zooboomu Langka Eko Goklahe Moro Arlang To-to"
+        dynasty = "the Immense"
+        adm = 3
+        dip = 1
+        mil = 3
+    }
+}

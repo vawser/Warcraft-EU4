@@ -1,0 +1,167 @@
+has_level_5_adm_advisor = {
+    OR = {
+        philosopher = 5
+        natural_scientist = 5
+        artist = 5
+        treasurer = 5
+        theologian = 5
+        master_of_mint = 5
+        inquisitor = 5
+    }
+}
+has_level_4_adm_advisor = {
+    OR = {
+        philosopher = 4
+        natural_scientist = 4
+        artist = 4
+        treasurer = 4
+        theologian = 4
+        master_of_mint = 4
+        inquisitor = 4
+    }
+}
+has_level_3_adm_advisor = {
+    OR = {
+        philosopher = 3
+        natural_scientist = 3
+        artist = 3
+        treasurer = 3
+        theologian = 3
+        master_of_mint = 3
+        inquisitor = 3
+    }
+}
+has_level_2_adm_advisor = {
+    OR = {
+        philosopher = 2
+        natural_scientist = 2
+        artist = 2
+        treasurer = 2
+        theologian = 2
+        master_of_mint = 2
+        inquisitor = 2
+    }
+}
+has_level_1_adm_advisor = {
+    OR = {
+        philosopher = 1
+        natural_scientist = 1
+        artist = 1
+        treasurer = 1
+        theologian = 1
+        master_of_mint = 1
+        inquisitor = 1
+    }
+}
+
+has_level_5_dip_advisor = {
+    OR = {
+        statesman = 5
+        naval_reformer = 5
+        trader = 5
+        spymaster = 5
+        colonial_governor = 5
+        diplomat = 5
+        navigator = 5
+    }
+}
+has_level_4_dip_advisor = {
+    OR = {
+        statesman = 4
+        naval_reformer = 4
+        trader = 4
+        spymaster = 4
+        colonial_governor = 4
+        diplomat = 4
+        navigator = 4
+    }
+}
+has_level_3_dip_advisor = {
+    OR = {
+        statesman = 3
+        naval_reformer = 3
+        trader = 3
+        spymaster = 3
+        colonial_governor = 3
+        diplomat = 3
+        navigator = 3
+    }
+}
+has_level_2_dip_advisor = {
+    OR = {
+        statesman = 2
+        naval_reformer = 2
+        trader = 2
+        spymaster = 2
+        colonial_governor = 2
+        diplomat = 2
+        navigator = 2
+    }
+}
+has_level_1_dip_advisor = {
+    OR = {
+        statesman = 1
+        naval_reformer = 1
+        trader = 1
+        spymaster = 1
+        colonial_governor = 1
+        diplomat = 1
+        navigator = 1
+    }
+}
+
+has_level_5_mil_advisor = {
+    OR = {
+        army_reformer = 3
+        army_organiser = 3
+        commandant = 3
+        quartermaster = 3
+        recruitmaster = 3
+        fortification_expert = 3
+        grand_captain = 3
+    }
+}
+has_level_4_mil_advisor = {
+    OR = {
+        army_reformer = 4
+        army_organiser = 4
+        commandant = 4
+        quartermaster = 4
+        recruitmaster = 4
+        fortification_expert = 4
+        grand_captain = 4
+    }
+}
+has_level_3_mil_advisor = {
+    OR = {
+        army_reformer = 3
+        army_organiser = 3
+        commandant = 3
+        quartermaster = 3
+        recruitmaster = 3
+        fortification_expert = 3
+        grand_captain = 3
+    }
+}
+has_level_2_mil_advisor = {
+    OR = {
+        army_reformer = 2
+        army_organiser = 2
+        commandant = 2
+        quartermaster = 2
+        recruitmaster = 2
+        fortification_expert = 2
+        grand_captain = 2
+    }
+}
+has_level_1_mil_advisor = {
+    OR = {
+        army_reformer = 1
+        army_organiser = 1
+        commandant = 1
+        quartermaster = 1
+        recruitmaster = 1
+        fortification_expert = 1
+        grand_captain = 1
+    }
+}

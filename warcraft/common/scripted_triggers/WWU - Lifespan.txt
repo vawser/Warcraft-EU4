@@ -1,0 +1,28 @@
+is_immortal_lifespan = {
+    OR = {
+        culture_group = titan_group
+        culture_group = draenei_group
+        AND = {
+            culture_group = night_elf_group
+            custom_trigger_tooltip = {
+                tooltip = NORDRASSIL_NOT_DESTROTED
+                NOT = { has_global_flag = nordrassil_destroyed }
+            }
+        }
+        culture_group = high_elf_group
+        culture_group = qiraji_group
+        culture_group = nerubian_group
+        culture_group = mantid_group
+        culture_group = demon_group
+        culture_group = tolvir_group
+        culture_group = dragonflight_group
+        culture_group = nightborne_group
+        culture_group = naga_group
+    }
+}
+is_increased_lifespan = {
+    OR = {
+        culture_group = dwarf_group
+        culture_group = mogu_group
+    }
+}

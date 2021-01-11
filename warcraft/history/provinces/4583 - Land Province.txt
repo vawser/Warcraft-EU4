@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = DTK
+controller = DTK
+add_core = DTK
+
+base_tax = 2
+base_production = 4
+base_manpower = 4
+
+culture = deadtalker
+religion = ordos
+
+trade_goods = unknown
+hre = no
+
+

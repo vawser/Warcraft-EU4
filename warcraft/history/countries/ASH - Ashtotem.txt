@@ -1,0 +1,62 @@
+technology_group = tech_taunka
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = ashtotem
+religion = shamanism
+
+capital = 6732
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Grutun"
+        dynasty = "Spiritrunner"
+        adm = 1
+        dip = 4
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Dorta"
+        dynasty = "Chilltotem"
+        adm = 5
+        dip = 0
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Tohan"
+        dynasty = "Winterhide"
+        adm = 3
+        dip = 2
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Durshe"
+        dynasty = "Snowfrost"
+        adm = 0
+        dip = 1
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Akimak"
+        dynasty = "Chillrunner"
+        adm = 4
+        dip = 1
+        mil = 3
+    }
+}

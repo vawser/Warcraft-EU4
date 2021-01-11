@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = BIV
+controller = BIV
+add_core = BIV
+
+base_tax = 1
+base_production = 3
+base_manpower = 4
+
+culture = binan
+religion = celestials
+
+trade_goods = unknown
+hre = no
+
+

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = WRT
+controller = WRT
+add_core = WRT
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+culture = wrathscale
+religion = azshara
+
+trade_goods = unknown
+hre = no
+
+

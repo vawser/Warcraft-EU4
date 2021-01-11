@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = NEF
+controller = NEF
+add_core = NEF
+
+base_tax = 1
+base_production = 1
+base_manpower = 4
+
+culture = neferset
+religion = titan_worship
+
+trade_goods = unknown
+hre = no
+
+

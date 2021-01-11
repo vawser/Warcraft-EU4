@@ -1,0 +1,28 @@
+
+is_city = yes
+owner = SFR
+controller = SFR
+add_core = SFR
+
+base_tax = 1
+base_production = 4
+base_manpower = 1
+
+culture = sentinels_of_feathermoon
+religion = elune
+
+trade_goods = unknown
+hre = no
+
+# The Scourge
+594.1.1 = {
+	is_city = yes
+    owner = GOR
+    controller = GOR
+    add_core = GOR
+    
+    culture = gordunni
+    religion = geomancy
+}
+
+

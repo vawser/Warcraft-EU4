@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SAZ
+controller = SAZ
+add_core = SAZ
+
+base_tax = 3
+base_production = 1
+base_manpower = 2
+
+culture = shanze
+religion = fleshshaping
+
+trade_goods = unknown
+hre = no
+
+

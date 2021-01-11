@@ -1,0 +1,118 @@
+#--------------------------------------------
+# Triggered
+#--------------------------------------------
+cb_pirates = {
+	is_triggered_only = yes
+	months = 120
+
+	war_goal = blockade_ports
+}
+
+#--------------------------------------------
+# Preequisitie
+#--------------------------------------------
+cb_justified_war = {
+	valid_for_subject = no
+
+    prerequisites = {
+		is_free_or_tributary_trigger = yes
+        FROM = {
+            capital_scope = { continent = ROOT }
+        }
+	}
+
+	war_goal = take_capital_justified
+}
+cb_distant_conquest = {
+	valid_for_subject = no
+
+    prerequisites = {
+        has_idea = wwu_expansion_ideas_2
+		is_free_or_tributary_trigger = yes
+        FROM = {
+            NOT = {
+                capital_scope = { continent = ROOT }
+            }
+        }
+	}
+
+	war_goal = take_capital_justified
+}
+cb_merciless_war = {
+	valid_for_subject = no
+
+	prerequisites = {
+		has_idea = wwu_imperialism_ideas_7
+		is_free_or_tributary_trigger = yes
+	}
+
+	war_goal = take_capital_merciless
+}
+cb_against_evil = {
+    ai_peace_desire = -50
+	valid_for_subject = no
+
+	prerequisites = {
+		NOT = { has_country_modifier = taint_of_evil }
+        NOT = { government = tribal }
+		FROM = {
+			has_country_modifier = taint_of_evil
+			capital_scope = { continent = ROOT }
+		}
+	}
+	
+	war_goal = take_capital_barbarous
+}
+cb_warlust = {
+    ai_peace_desire = -50
+	valid_for_subject = yes
+
+	prerequisites = {
+        tag = TOH
+        current_age = age_orcish_horde
+		FROM = {
+			capital_scope = { continent = azeroth }
+            culture_group = azerothian_group
+		}
+	}
+	
+	war_goal = take_capital_merciless
+}
+cb_titan_rivalry = {
+	valid_for_subject = no
+
+	prerequisites = {
+		OR = {
+			AND = {
+				religion = titan_worship
+				FROM = { religion = corrupt_titan_worship }
+			}
+			AND = {
+				religion = corrupt_titan_worship
+				FROM = { religion = titan_worship }
+			}
+		}
+	}
+	
+	war_goal = take_capital_justified
+}
+cb_legion_invasion = {
+    ai_peace_desire = -50
+	valid_for_subject = no
+	is_triggered_only = yes
+	
+	prerequisites = {
+		tag = TBL
+	}
+	
+	war_goal = take_capital_ruthless
+}
+cb_wrath_of_azshara = {
+	valid_for_subject = no
+
+	prerequisites = {
+        tag = NZJ
+	}
+
+	war_goal = take_capital_merciless
+}

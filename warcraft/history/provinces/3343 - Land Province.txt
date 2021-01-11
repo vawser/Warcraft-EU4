@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = MOS
+controller = MOS
+add_core = MOS
+
+base_tax = 1
+base_production = 1
+base_manpower = 4
+
+culture = mosshide
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

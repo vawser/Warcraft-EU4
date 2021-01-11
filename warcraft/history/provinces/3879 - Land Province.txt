@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SWN
+controller = SWN
+add_core = SWN
+
+base_tax = 1
+base_production = 1
+base_manpower = 4
+
+culture = shadowglen
+religion = voodoo
+
+trade_goods = unknown
+hre = no
+
+

@@ -1,0 +1,387 @@
+monarch_power = MIL
+
+# applied when a country is ahead of time in this technology
+# no bonus for MIL currently
+ahead_of_time = {
+	army_tradition = 0.5
+}
+
+# Pre-era techs
+technology = {
+	# Tech 0
+	year = 592
+	
+	sprite_level = 1
+
+	land_morale 		= 2.0
+    military_tactics    = 0.0
+    combat_width        = 0.0
+    supply_limit        = 0.0
+    maneuver_value      = 0.0
+    
+    infantry_fire		= 0.25
+    infantry_shock 	    = 0.2
+    cavalry_fire  	    = 0.0
+    cavalry_shock   	= 0.8
+    artillery_fire 	    = 0.0
+    artillery_shock  	= 0.0 
+	
+    enable = warcraft_infantry_1_option_a
+    enable = warcraft_infantry_1_option_b
+    enable = warcraft_infantry_1_option_c
+    
+    enable = warcraft_cavalry_1_option_a
+    enable = warcraft_cavalry_1_option_b
+    
+    enable = warcraft_artillery_1_option_a
+    enable = warcraft_artillery_1_option_b
+    
+    wow_barracks = yes
+    wow_arsenal = yes
+    wow_portal_red = yes
+    wow_fort_1 = yes
+}
+technology = {
+	# Tech 1
+	year = 598
+    
+    infantry_fire = 0.25
+    infantry_shock = 0.25
+}
+
+technology = {
+	# Tech 2
+	year = 604
+
+    cavalry_shock = 0.6
+    cavalry_fire = 0.2
+    maneuver_value = 0.1
+}
+
+technology = {
+	# Tech 3
+	year = 616
+
+    infantry_fire = 0.25
+    infantry_shock = 0.25
+}
+
+technology = {
+	# Tech 4
+	year = 628
+	
+    land_morale = 0.5
+    military_tactics = 0.5
+}
+
+technology = {
+	# Tech 5
+	year = 640
+
+    artillery_fire = 0.6
+    artillery_shock = 0.2
+}
+
+technology = {
+	# Tech 6
+	year = 652
+
+	enable = warcraft_infantry_2_option_a
+    enable = warcraft_infantry_2_option_b
+    enable = warcraft_infantry_2_option_c
+    
+    enable = warcraft_cavalry_2_option_a
+    enable = warcraft_cavalry_2_option_b
+}
+
+technology = {
+	# Tech 7
+	year = 664
+	
+    wow_portal_yellow = yes
+    wow_city_barracks = yes
+}
+
+technology = {
+	# Tech 8
+	year = 676
+	
+    land_morale = 1
+    military_tactics = 0.5
+    
+    wow_fort_2 = yes
+}
+
+technology = {
+	# Tech 9
+	year = 688
+
+    cavalry_shock = 0.7
+    cavalry_fire = 0.2
+    maneuver_value = 0.1
+}
+
+technology = {
+	# Tech 10
+	year = 700
+	
+    infantry_fire = 0.25
+    infantry_shock = 0.25
+}
+
+technology = {
+	# Tech 11
+	year = 712
+
+    artillery_fire = 0.6
+    artillery_shock = 0.2
+}
+
+technology = {
+	# Tech 12
+	year = 724
+	
+	enable = warcraft_artillery_2_option_a
+    enable = warcraft_artillery_2_option_b
+}
+
+technology = {
+	# Tech 13
+	year = 736
+
+    infantry_fire = 0.35
+    infantry_shock = 0.35
+}
+
+technology = {
+	# Tech 14
+	year = 748
+
+    cavalry_shock = 0.7
+    cavalry_fire = 0.3
+    maneuver_value = 0.1
+}
+
+technology = {
+	# Tech 15
+	year = 760
+	
+	wow_military_academy = yes
+}
+
+technology = {
+	# Tech 16
+	year = 772
+	
+    land_morale = 0.5
+    military_tactics = 0.5
+    
+    wow_fort_3 = yes
+}
+
+technology = {
+	# Tech 17
+	year = 784
+
+    supply_limit = 0.25
+    combat_width = 2
+}
+
+technology = {
+	# Tech 18
+	year = 796
+
+	enable = warcraft_infantry_3_option_a
+    enable = warcraft_infantry_3_option_b
+    enable = warcraft_infantry_3_option_c
+}
+
+technology = {
+	# Tech 19
+	year = 808
+    
+    artillery_fire = 0.9
+    artillery_shock = 0.3
+}
+
+technology = {
+	# Tech 20
+	year = 820
+
+    land_morale = 1
+    military_tactics = 0.5
+    
+    wow_portal_green = yes
+    wow_fort_4 = yes
+}
+
+technology = {
+	# Tech 21
+	year = 832
+
+    infantry_fire = 0.35
+    infantry_shock = 0.35
+}
+
+technology = {
+	# Tech 22
+	year = 844
+
+    cavalry_shock = 0.7
+    cavalry_fire = 0.3
+    maneuver_value = 0.1
+}
+
+technology = {
+	# Tech 23
+	year = 856
+    
+    infantry_fire = 0.35
+    infantry_shock = 0.35
+}
+
+technology = {
+	# Tech 24
+	year = 868
+	
+	enable = warcraft_cavalry_3_option_a
+    enable = warcraft_cavalry_3_option_b
+}
+
+technology = {
+	# Tech 25
+	year = 880
+	
+    supply_limit = 0.25
+    combat_width = 2
+}
+
+technology = {
+	# Tech 26
+	year = 892
+
+    infantry_fire = 0.35
+    infantry_shock = 0.35
+}
+
+technology = {
+	# Tech 27
+	year = 904
+
+    artillery_fire = 0.9
+    artillery_shock = 0.3
+}
+
+technology = {
+	# Tech 28
+	year = 916
+	
+    land_morale = 0.5
+    military_tactics = 0.75
+    
+    wow_portal_blue = yes
+    wow_fortress = yes
+    wow_altar_of_power = yes
+}
+
+technology = {
+	# Tech 29
+	year = 928
+
+    supply_limit = 0.25
+    combat_width = 2
+}
+
+technology = {
+	# Tech 30
+	year = 930
+
+    cavalry_shock = 1.2
+    cavalry_fire = 0.5
+    maneuver_value = 0.1
+}
+
+technology = {
+	# Tech 31
+	year = 942
+    
+    infantry_fire = 0.4
+    infantry_shock = 0.45
+}
+
+technology = {
+	# Tech 32
+	year = 954
+
+    land_morale = 1
+    military_tactics = 0.75
+}
+
+technology = {
+	# Tech 33
+	year = 966
+
+    supply_limit = 0.25
+    combat_width = 2	
+}
+
+technology = {
+	# Tech 34
+	year = 978
+
+    enable = warcraft_artillery_3_option_a
+    enable = warcraft_artillery_3_option_b
+    
+    artillery_fire = 1.5
+    artillery_shock = 0.5
+}
+
+technology = {
+	# Tech 35
+	year = 990
+
+    infantry_fire = 0.7
+    infantry_shock = 0.7
+}
+
+technology = {
+	# Tech 36
+	year = 1002
+
+    land_morale = 0.5
+    military_tactics = 1
+}
+
+technology = {
+	# Tech 37
+	year = 1014
+
+    cavalry_shock = 1.3
+    cavalry_fire = 0.5
+    maneuver_value = 0.1
+}
+
+technology = {
+	# Tech 38
+	year = 1026
+
+    infantry_fire = 0.5
+    infantry_shock = 0.5
+}
+
+technology = {
+	# Tech 39
+	year = 1038
+    
+    artillery_fire = 1.5
+    artillery_shock = 0.5
+}
+
+technology = {
+	# Tech 40
+	year = 1050
+	
+    land_morale = 1
+    military_tactics = 1
+    combat_width = 2
+}

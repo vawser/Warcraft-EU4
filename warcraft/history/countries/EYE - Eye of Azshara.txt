@@ -1,0 +1,62 @@
+technology_group = tech_naga
+government = monarchy
+add_government_reform = naga_domain_reform
+primary_culture = hatecoil
+religion = azshara
+
+capital = 3641
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Shiskess"
+        dynasty = "the Stabber"
+        adm = 3
+        dip = 0
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Hethkre"
+        dynasty = "the Bulky"
+        adm = 3
+        dip = 4
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Sarlian"
+        dynasty = "the Throatslicer"
+        adm = 2
+        dip = 1
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Hag'kre"
+        dynasty = "the Immense"
+        adm = 3
+        dip = 4
+        mil = 0
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Hag'heth"
+        dynasty = "the Immense"
+        adm = 2
+        dip = 3
+        mil = 4
+    }
+}

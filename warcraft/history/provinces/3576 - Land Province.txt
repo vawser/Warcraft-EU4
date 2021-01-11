@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SER
+controller = SER
+add_core = SER
+
+base_tax = 1
+base_production = 3
+base_manpower = 2
+
+culture = green_dragonflight
+religion = dragon_aspects
+
+trade_goods = unknown
+hre = no
+
+

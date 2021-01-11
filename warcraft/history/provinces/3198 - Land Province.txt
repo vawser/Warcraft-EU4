@@ -1,0 +1,28 @@
+
+is_city = yes
+owner = SLD
+controller = SLD
+add_core = SLD
+
+base_tax = 2
+base_production = 3
+base_manpower = 4
+
+culture = smolderthorn
+religion = voodoo
+
+trade_goods = unknown
+hre = no
+
+# The Scourge
+594.1.1 = {
+	is_city = yes
+    owner = SGL
+    controller = SGL
+    add_core = SGL
+    
+    culture = stonegullet
+    religion = geomancy
+}
+
+

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = DKW
+controller = DKW
+add_core = DKW
+
+base_tax = 2
+base_production = 3
+base_manpower = 4
+
+culture = darkwood
+religion = druidism
+
+trade_goods = unknown
+hre = no
+
+

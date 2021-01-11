@@ -1,0 +1,58 @@
+country_decisions = {
+    encourage_bloodlust = {
+        major = yes
+        potential = {
+            culture_group = orc_group
+            NOT = { has_ruler_modifier = warlust }
+        }
+        allow = {
+            culture_group = orc_group
+            mil = 6
+        }
+        effect = {
+            add_ruler_modifier = { 
+                name = warlust
+                duration = -1
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                NOT = { num_of_cities = 5 }
+            }
+        }
+    }
+    
+    turn_to_shamanism = {
+        potential = {
+            culture_group = orc_group
+            NOT = { tag = TOH }
+            religion = fel
+            has_global_flag = orcish_horde_lost_war
+        }
+        allow = {
+            culture_group = orc_group
+            religion = fel
+            stability = 3
+        }
+        effect = {
+            add_stability = -3
+            
+            set_ruler_religion = shamanism
+            change_religion = shamanism
+            capital_scope = {
+                change_religion = shamanism
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                NOT = { num_of_cities = 5 }
+            }
+        }
+    }
+}

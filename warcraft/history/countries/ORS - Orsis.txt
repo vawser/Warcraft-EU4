@@ -1,0 +1,17 @@
+technology_group = tech_tolvir
+government = theocracy
+add_government_reform = tolvir_kingdom_reform
+primary_culture = orsis
+religion = titan_worship
+
+capital = 4950
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Nahkotep the Shrewd"
+        adm = 2
+        dip = 3
+        mil = 4
+    }
+}

@@ -1,0 +1,62 @@
+technology_group = tech_tauren
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = windtotem
+religion = earth_mother
+
+capital = 5022
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Vunboi"
+        dynasty = "Stonetotem"
+        adm = 4
+        dip = 4
+        mil = 4
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Atco"
+        dynasty = "Wintermane"
+        adm = 4
+        dip = 3
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Ethper"
+        dynasty = "Stormtotem"
+        adm = 2
+        dip = 1
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Atco"
+        dynasty = "Bloodmane"
+        adm = 5
+        dip = 0
+        mil = 4
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Mulcai"
+        dynasty = "Grimstrider"
+        adm = 2
+        dip = 0
+        mil = 3
+    }
+}

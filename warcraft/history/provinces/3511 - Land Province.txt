@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = WTX
+controller = WTX
+add_core = WTX
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+culture = winterax
+religion = voodoo
+
+trade_goods = unknown
+hre = no
+
+

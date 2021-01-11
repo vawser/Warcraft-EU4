@@ -1,0 +1,19 @@
+technology_group = tech_frost_dwarf
+government = tribal
+add_government_reform = dwarven_clan_reform
+primary_culture = frostborn
+religion = titan_worship
+
+capital = 2105
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Dimram"
+        dynasty = "Rockbeard"
+        adm = 5
+        dip = 3
+        mil = 4
+        birth_date = 390.1.1
+    }
+}

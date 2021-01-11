@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = MWK
+controller = MWK
+add_core = MWK
+
+base_tax = 4
+base_production = 2
+base_manpower = 4
+
+culture = mosswalker
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

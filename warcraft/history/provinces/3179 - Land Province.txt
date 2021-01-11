@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = DKI
+controller = DKI
+add_core = DKI
+
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+culture = dark_iron
+religion = fire
+
+trade_goods = unknown
+hre = no
+
+

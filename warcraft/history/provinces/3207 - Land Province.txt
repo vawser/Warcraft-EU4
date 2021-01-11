@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = ULM
+controller = ULM
+add_core =  ULM
+
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+culture = uldaman
+religion = titan_worship
+
+trade_goods = unknown
+hre = no
+
+

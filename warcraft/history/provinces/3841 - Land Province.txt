@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SOF
+controller = SOF
+add_core = SOF
+
+base_tax = 4
+base_production = 3
+base_manpower = 1
+
+culture = shadowfae
+religion = druidism
+
+trade_goods = unknown
+hre = no
+
+

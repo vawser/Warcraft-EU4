@@ -1,0 +1,62 @@
+technology_group = tech_centaur
+government = tribal
+add_government_reform = warband_reform
+primary_culture = gelkis
+religion = shamanism
+
+capital = 5510
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Duldrik"
+        dynasty = "the Almighty"
+        adm = 5
+        dip = 5
+        mil = 4
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Fir"
+        dynasty = "the Smasher"
+        adm = 1
+        dip = 2
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Jazel"
+        dynasty = "the Coy"
+        adm = 4
+        dip = 5
+        mil = 5
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Kildro"
+        dynasty = "the Puncher"
+        adm = 0
+        dip = 5
+        mil = 0
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Ocha"
+        dynasty = "the Livid"
+        adm = 2
+        dip = 2
+        mil = 5
+    }
+}

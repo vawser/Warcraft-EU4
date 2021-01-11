@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = EDS
+controller = EDS
+add_core = EDS
+
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+culture = green_dragonflight
+religion = dragon_aspects
+
+trade_goods = unknown
+hre = no
+
+

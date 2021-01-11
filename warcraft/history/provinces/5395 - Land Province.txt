@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SLB
+controller = SLB
+add_core = SLB
+
+base_tax = 1
+base_production = 3
+base_manpower = 3
+
+culture = slitherblade
+religion = azshara
+
+trade_goods = unknown
+hre = no
+
+

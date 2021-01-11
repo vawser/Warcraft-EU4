@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = CEX
+controller = CEX
+add_core = CEX
+
+base_tax = 2
+base_production = 2
+base_manpower = 4
+
+culture = cenarion_expedition
+religion = elune
+
+trade_goods = unknown
+hre = no
+
+

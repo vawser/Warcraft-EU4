@@ -1,0 +1,100 @@
+namespace = wwu_setup_scourge
+
+# Scourge
+country_event = {
+	id = wwu_setup_scourge.1
+	title = wwu_setup_scourge.1.title
+	desc = wwu_setup_scourge.1.desc
+	picture = NAXXRAMAS_eventPicture
+
+    major = yes
+	fire_only_once = yes
+    
+	trigger = {
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
+        NOT = { exists = SCO }
+        NOT = { has_global_flag = setup_scourge }
+        current_age = age_scourge
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_scourge
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 600
+	}
+
+	option = {
+		name = wwu_setup_scourge.1.option.a
+        
+        region_icecrown = {
+            limit = {
+                NOT = { owned_by = YMI }
+                NOT = { owned_by = JOT }
+                NOT = { owned_by = ROOT }
+                NOT = { area = area_icecrown_9 }
+                NOT = { area = area_icecrown_7 }
+                NOT = { area = area_icecrown_8 }
+                NOT = { area = area_icecrown_4 }
+                NOT = { area = area_icecrown_6 }
+                NOT = { area = area_icecrown_3 }
+                NOT = { area = area_icecrown_2 }
+            }
+            cede_province = SCO
+            add_core = SCO
+            change_culture = scourge
+            change_religion = cult_of_the_damned
+        }
+        area_crystalsong_1 = {
+            limit = {
+                NOT = { owned_by = UNB }
+                NOT = { owned_by = ROOT }
+            }
+            cede_province = SCO
+            add_core = SCO
+            change_culture = scourge
+            change_religion = cult_of_the_damned
+        }
+        area_crystalsong_2 = {
+            limit = {
+                NOT = { owned_by = UNB }
+                NOT = { owned_by = ROOT }
+            }
+            cede_province = SCO
+            add_core = SCO
+            change_culture = scourge
+            change_religion = cult_of_the_damned
+        }
+        area_crystalsong_3 = {
+            limit = {
+                NOT = { owned_by = UNB }
+                NOT = { owned_by = ROOT }
+            }
+            cede_province = SCO
+            add_core = SCO
+            change_culture = scourge
+            change_religion = cult_of_the_damned
+        }
+        # Ignore player ownership for the Citadel
+        2068 = {
+            cede_province = SCO
+            add_core = SCO
+            change_culture = scourge
+            change_religion = cult_of_the_damned
+            
+            set_base_tax = 12
+            set_base_production = 16
+            set_base_manpower = 18
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+}

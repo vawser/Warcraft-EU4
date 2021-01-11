@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = MKS
+controller = MKS
+add_core = MKS
+
+base_tax = 1
+base_production = 3
+base_manpower = 2
+
+culture = muckscale
+religion = fleshshaping
+
+trade_goods = unknown
+hre = no
+
+

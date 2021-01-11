@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = ATL
+controller = ATL
+add_core = ATL
+
+base_tax = 3
+base_production = 3
+base_manpower = 3
+
+culture = atalai
+religion = hakkari
+
+trade_goods = unknown
+hre = no
+
+

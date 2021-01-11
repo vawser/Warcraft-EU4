@@ -1,0 +1,38 @@
+
+is_city = yes
+owner = WES
+controller = WES
+add_core = WES
+
+base_tax = 3
+base_production = 1
+base_manpower = 1
+
+culture = westfall
+religion = the_holy_light
+
+trade_goods = unknown
+hre = no
+
+# Second War
+593.1.1 = {
+    owner = TOH
+    controller = TOH
+    add_core = TOH
+    
+    culture = orc
+    religion = fel
+}
+
+# Third War
+594.1.1 = {
+    remove_core = TOH
+    
+    owner = WES
+    controller = WES
+    add_core = WES
+    
+    culture = westfall
+    religion = the_holy_light
+}
+

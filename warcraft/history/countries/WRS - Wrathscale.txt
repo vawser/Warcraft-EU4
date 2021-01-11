@@ -1,0 +1,62 @@
+technology_group = tech_naga
+government = monarchy
+add_government_reform = naga_domain_reform
+primary_culture = wrathscale
+religion = azshara
+
+capital = 4662
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Vessjarr"
+        dynasty = "the Crafty"
+        adm = 5
+        dip = 1
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Ophjis"
+        dynasty = "the Massive"
+        adm = 1
+        dip = 0
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Jarkrel"
+        dynasty = "the Astute"
+        adm = 4
+        dip = 4
+        mil = 3
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Raijar"
+        dynasty = "the Mighty"
+        adm = 1
+        dip = 2
+        mil = 0
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Shisri"
+        dynasty = "the Tough"
+        adm = 3
+        dip = 2
+        mil = 3
+    }
+}

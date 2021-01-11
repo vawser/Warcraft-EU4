@@ -1,0 +1,19 @@
+
+is_city = yes
+owner = TIL
+controller = TIL
+add_core = TIL
+
+base_tax = 1
+base_production = 3
+base_manpower = 2
+
+culture = tillers
+religion = celestials
+
+trade_goods = unknown
+hre = no
+
+center_of_trade = 1
+
+

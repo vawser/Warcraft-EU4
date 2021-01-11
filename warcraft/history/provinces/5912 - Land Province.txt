@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = CIL
+controller = CIL
+add_core = CIL
+
+base_tax = 3
+base_production = 1
+base_manpower = 2
+
+culture = chillwing
+religion = wind
+
+trade_goods = unknown
+hre = no
+
+

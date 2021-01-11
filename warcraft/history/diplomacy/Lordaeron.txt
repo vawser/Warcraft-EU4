@@ -1,0 +1,66 @@
+# Alliances
+alliance = {
+	first = LOR
+	second = GIL
+	start_date = 592.1.1
+	end_date = 1000.1.1
+}
+alliance = {
+	first = LOR
+	second = DAL
+	start_date = 592.1.1
+	end_date = 1000.1.1
+}
+alliance = {
+	first = LOR
+	second = ALT
+	start_date = 592.1.1
+	end_date = 1000.1.1
+}
+alliance = {
+	first = LOR
+	second = SMG
+	start_date = 592.1.1
+	end_date = 1000.1.1
+}
+alliance = {
+	first = LOR
+	second = KUL
+	start_date = 592.1.1
+	end_date = 1000.1.1
+}
+alliance = {
+	first = LOR
+	second = IRO
+	start_date = 592.1.1
+	end_date = 1000.1.1
+}
+
+# Subjects
+vassal = {
+	first = LOR
+	second = STR
+	start_date = 592.1.1
+	end_date = 1000.1.1
+}
+
+vassal = {
+	first = LOR
+	second = ANO
+	start_date = 592.1.1
+	end_date = 1000.1.1
+}
+
+vassal = {
+	first = LOR
+	second = SOU
+	start_date = 592.1.1
+	end_date = 1000.1.1
+}
+
+vassal = {
+	first = LOR
+	second = KSH
+	start_date = 592.1.1
+	end_date = 1000.1.1
+}

@@ -1,0 +1,20 @@
+technology_group = tech_night_elf
+government = theocracy
+add_government_reform = monastic_order_reform
+primary_culture = sentinels_of_ashenvale
+religion = elune
+
+capital = 5667
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Silvas"
+        dynasty = "Seawing"
+        adm = 2
+        dip = 3
+        mil = 3
+        female = yes
+        birth_date = 130.1.1
+    }
+}

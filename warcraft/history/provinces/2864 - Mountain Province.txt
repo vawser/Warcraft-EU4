@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = BWX
+controller = BWX
+add_core = BWX
+
+base_tax = 3
+base_production = 1
+base_manpower = 2
+
+culture = bluewax
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

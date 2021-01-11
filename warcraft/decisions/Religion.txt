@@ -1,0 +1,320 @@
+country_decisions = {
+    construct_fel_conduits = {
+        potential = {
+            religion = fel
+            NOT = { has_country_modifier = fel_conduits }
+        }
+        allow = {
+            religion = fel
+            adm_power = 100
+        }
+        effect = {
+            add_adm_power = -100
+            add_country_modifier = {
+                name = fel_conduits
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+    
+    enact_blood_sacrifice = {
+        potential = {
+            religion = hakkari
+            NOT = { has_country_modifier = blood_sacrifice_hakkari }
+        }
+        allow = {
+            religion = hakkari
+            adm_power = 100
+        }
+        effect = {
+            add_adm_power = -100
+            add_country_modifier = {
+                name = blood_sacrifice_hakkari
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+    
+    encourage_fervor = {
+        potential = {
+            religion_group = light_group
+            NOT = { has_country_modifier = the_light_fervor }
+            NOT = { has_country_modifier = the_light_contemplation }
+        }
+        allow = {
+            religion_group = light_group
+            adm_power = 100
+        }
+        effect = {
+            add_adm_power = -100
+            add_country_modifier = {
+                name = the_light_fervor
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+    
+    enforce_daily_contemplation = {
+        potential = {
+            religion_group = light_group
+            NOT = { has_country_modifier = the_light_fervor }
+            NOT = { has_country_modifier = the_light_contemplation }
+        }
+        allow = {
+            religion_group = light_group
+            adm_power = 100
+        }
+        effect = {
+            add_adm_power = -100
+            add_country_modifier = {
+                name = the_light_contemplation
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+    
+    display_the_power_of_the_sunwell = {
+        potential = {
+            culture_group = high_elf_group
+            NOT = { has_country_modifier = the_light_sunwell }
+        }
+        allow = {
+            adm_power = 100
+            custom_trigger_tooltip = {
+                tooltip = SUNWELL_NOT_DESTROTED
+                NOT = { has_global_flag = sunwell_destroyed }
+            }
+        }
+        effect = {
+            add_adm_power = -100
+            add_country_modifier = {
+                name = the_light_sunwell
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+    
+    construct_void_portals = {
+        potential = {
+            religion_group = shadow_group
+            NOT = { has_country_modifier = void_portals }
+        }
+        allow = {
+            religion_group = shadow_group
+            adm_power = 100
+        }
+        effect = {
+            add_adm_power = -100
+            add_country_modifier = {
+                name = void_portals
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+    
+    publish_titan_histories = {
+        potential = {
+            religion = titan_worship
+            NOT = { has_country_modifier = titan_histories }
+        }
+        allow = {
+            religion = titan_worship
+            adm_power = 100
+        }
+        effect = {
+            add_adm_power = -100
+            add_country_modifier = {
+                name = titan_histories
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+    
+    encourage_communion_with_nature = {
+        potential = {
+            religion_group = life_group
+            NOT = { religion = celestials }
+            NOT = { has_country_modifier = nature_communion }
+        }
+        allow = {
+            religion_group = life_group
+            adm_power = 100
+        }
+        effect = {
+            add_adm_power = -100
+            add_country_modifier = {
+                name = nature_communion
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+    
+    corrupt_the_unwilling = {
+        potential = {
+            is_old_god_religion = yes
+            NOT = { has_country_modifier = old_god_corruption }
+        }
+        allow = {
+            is_old_god_religion = yes
+            adm_power = 100
+        }
+        effect = {
+            add_adm_power = -100
+            add_country_modifier = {
+                name = old_god_corruption
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+    
+    encourage_religious_introspection = {
+        potential = {
+            religion = celestials
+            NOT = { has_country_modifier = religious_introspection }
+        }
+        allow = {
+            religion = celestials
+            adm_power = 100
+        }
+        effect = {
+            add_adm_power = -100
+            add_country_modifier = {
+                name = religious_introspection
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+    
+    purge_the_unfaithful = {
+        potential = {
+            religion_group = elemental_group
+            NOT = { religion = shamanism }
+            NOT = { has_country_modifier = religious_purge }
+        }
+        allow = {
+            religion_group = elemental_group
+            adm_power = 100
+        }
+        effect = {
+            add_adm_power = -100
+            add_country_modifier = {
+                name = religious_purge
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+    
+    infest_the_masses = {
+        potential = {
+            religion = cult_of_the_damned
+            NOT = { has_country_modifier = mass_infestation }
+        }
+        allow = {
+            religion = cult_of_the_damned
+            adm_power = 100
+        }
+        effect = {
+            add_adm_power = -100
+            add_country_modifier = {
+                name = mass_infestation
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+}

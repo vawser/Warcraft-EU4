@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = STH
+controller = STH
+add_core = STH
+
+base_tax = 4
+base_production = 3
+base_manpower = 2
+
+culture = stormheim
+religion = runic
+
+trade_goods = unknown
+hre = no
+
+

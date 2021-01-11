@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = RVE
+controller = RVE
+add_core = RVE
+
+base_tax = 2
+base_production = 4
+base_manpower = 3
+
+culture = riverblade
+religion = fleshshaping
+
+trade_goods = unknown
+hre = no
+
+

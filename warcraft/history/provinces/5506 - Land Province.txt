@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = GEL
+controller = GEL
+add_core = GEL
+
+base_tax = 3
+base_production = 2
+base_manpower = 2
+
+culture = gelkis
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

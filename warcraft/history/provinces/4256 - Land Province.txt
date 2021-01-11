@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = WDS
+controller = WDS
+add_core = WDS
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+culture = wildscale
+religion = fleshshaping
+
+trade_goods = unknown
+hre = no
+
+

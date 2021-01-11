@@ -1,0 +1,26 @@
+
+is_city = no
+native_size = 63
+native_ferocity = 8
+native_hostileness = 1
+
+base_tax = 1
+base_production = 1
+base_manpower = 4
+
+culture = primitive
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+# The Scourge
+594.1.1 = {
+	is_city = yes
+    owner = SCO
+    controller = SCO
+    add_core = SCO
+    
+    culture = scourge
+    religion = cult_of_the_damned
+}

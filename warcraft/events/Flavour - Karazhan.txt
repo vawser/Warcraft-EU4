@@ -1,0 +1,193 @@
+namespace = wwu_guardian_of_tirisfal
+
+# "Mysteries of The Guardian"
+country_event = {
+	id = wwu_guardian_of_tirisfal.1
+	title = wwu_guardian_of_tirisfal.1.title
+	desc = wwu_guardian_of_tirisfal.1.desc
+	picture = MAGI_eventPicture
+    
+	trigger = {
+		tag = DAL
+        NOT = { has_country_flag = guardian_of_tirisfal_chain_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	immediate = {
+		hidden_effect = {
+            set_country_flag = guardian_of_tirisfal_chain_flag
+        }
+	}
+	
+	option = {
+		name = wwu_guardian_of_tirisfal.1.option.a
+		
+		custom_tooltip = wwu_guardian_of_tirisfal.option.a.tt
+		KAZ = {
+			country_event = { id = wwu_guardian_of_tirisfal.2 }
+		}
+        ai_chance = {
+            factor = 100
+        }
+	}
+	
+	option = {
+		name =  wwu_guardian_of_tirisfal.1.option.b
+		
+		custom_tooltip = apprentice_sending.opt2.tt
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# "Apprentice From Dalaran"
+country_event = {
+	id = wwu_guardian_of_tirisfal.2
+	title = wwu_guardian_of_tirisfal.2.title
+	desc = wwu_guardian_of_tirisfal.2.desc 
+	picture = MAGI_eventPicture
+    
+	is_triggered_only = yes
+
+	option = {
+		name = wwu_guardian_of_tirisfal.2.option.a
+		
+		custom_tooltip = wwu_guardian_of_tirisfal.2.option.a.tt
+        
+		define_advisor = {
+			type = theologian
+			name = "Khadgar"
+			skill = 1
+			culture = dalaran
+			religion = arcane
+		}
+        
+		set_country_flag = has_khadgar
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+	
+	option = {
+		name = wwu_guardian_of_tirisfal.2.option.b
+		
+		custom_tooltip = wwu_guardian_of_tirisfal.2.option.b.tt
+        
+		add_prestige = -5
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# "Medivh's True Intentions Revealed"
+country_event = {
+	id = wwu_guardian_of_tirisfal.3
+	title = wwu_guardian_of_tirisfal.3.title
+	desc = wwu_guardian_of_tirisfal.3.desc
+	picture = MAGI_eventPicture
+	
+	trigger = {
+		tag = KAZ
+		has_country_flag = has_khadgar
+        NOT = { has_country_flag = guardian_of_tirisfal_medivh_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 100
+	}
+	
+	immediate = {
+		hidden_effect = {
+            set_country_flag = guardian_of_tirisfal_medivh_flag
+        }
+	}
+	
+	option = {
+		name = wwu_guardian_of_tirisfal.3.option.a
+		
+		custom_tooltip = wwu_guardian_of_tirisfal.3.option.a.tt
+        
+		overlord = {
+			country_event = { id = wwu_guardian_of_tirisfal.5 }
+		}
+	}
+}
+
+# "Apprentice From Dalaran"
+country_event = {
+	id = wwu_guardian_of_tirisfal.4
+	title = wwu_guardian_of_tirisfal.4.title
+	desc = wwu_guardian_of_tirisfal.4.desc
+	picture = MAGI_eventPicture
+    
+	trigger = {
+		tag = KAZ
+		NOT = { has_country_flag = has_khadgar }
+        NOT = { has_country_flag = guardian_of_tirisfal_medivh_flag }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	immediate = {
+		hidden_effect = {
+            set_country_flag = guardian_of_tirisfal_medivh_flag
+        }
+	}
+	
+	option = {
+		name = wwu_guardian_of_tirisfal.4.option.a
+		
+		custom_tooltip = wwu_guardian_of_tirisfal.4.option.a.tt
+		overlord = {
+			country_event = { id = wwu_guardian_of_tirisfal.5 }
+		}
+	}
+}
+
+# "News From Dalaran"
+country_event = {
+	id = wwu_guardian_of_tirisfal.5
+	title = wwu_guardian_of_tirisfal.5.title
+	desc = wwu_guardian_of_tirisfal.5.desc
+	picture = MAGI_eventPicture
+    
+	is_triggered_only = yes
+	
+	option = {
+		name = wwu_guardian_of_tirisfal.5.option.a
+		
+		custom_tooltip = wwu_guardian_of_tirisfal.5.option.a.tt
+        
+		KAZ = { grant_independence = yes }
+		declare_war_with_cb = {
+			who = KAZ
+			casus_belli = cb_annex
+		}
+	}
+	
+	option = {
+		name = wwu_guardian_of_tirisfal.5.option.b
+		
+		custom_tooltip = wwu_guardian_of_tirisfal.5.option.b.tt
+        
+		add_prestige = -15
+		every_subject_country = {
+			limit = {
+				NOT = { tag = KAZ }
+			}
+			add_liberty_desire = 15
+		}
+        ai_chance = {
+            factor = 0
+        }
+	}
+}

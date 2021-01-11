@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = FTP
+controller = FTP
+add_core = FTP
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+culture = frostpaw
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

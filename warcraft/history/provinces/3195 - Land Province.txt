@@ -1,0 +1,29 @@
+
+is_city = yes
+owner = DKI
+controller = DKI
+add_core = DKI
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+culture = dark_iron
+religion = fire
+
+trade_goods = unknown
+hre = no
+
+add_building = wow_fort_1
+
+# The Scourge
+594.1.1 = {
+	is_city = yes
+    owner = SGL
+    controller = SGL
+    add_core = SGL
+    
+    culture = stonegullet
+    religion = geomancy
+}
+

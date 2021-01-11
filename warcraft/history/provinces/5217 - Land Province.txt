@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = WIT
+controller = WIT
+add_core = WIT
+
+base_tax = 2
+base_production = 3
+base_manpower = 3
+
+culture = windtotem
+religion = earth_mother
+
+trade_goods = unknown
+hre = yes
+
+

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = FZY
+controller = FZY
+add_core = FZY
+
+base_tax = 2
+base_production = 1
+base_manpower = 2
+
+culture = frenzyheart
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

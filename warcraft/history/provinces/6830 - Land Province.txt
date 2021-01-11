@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = ICE
+controller = ICE
+add_core = ICE
+
+base_tax = 3
+base_production = 1
+base_manpower = 4
+
+culture = icemist
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

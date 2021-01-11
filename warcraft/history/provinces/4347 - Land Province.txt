@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = RIK
+controller = RIK
+add_core = RIK
+
+base_tax = 2
+base_production = 2
+base_manpower = 4
+
+culture = rikkitun
+religion = druidism
+
+trade_goods = unknown
+hre = no
+
+

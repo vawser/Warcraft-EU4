@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = PRF
+controller = PRF
+add_core = PRF
+
+base_tax = 3
+base_production = 1
+base_manpower = 1
+
+culture = prepfoot
+religion = earth_mother
+
+trade_goods = unknown
+hre = yes
+
+

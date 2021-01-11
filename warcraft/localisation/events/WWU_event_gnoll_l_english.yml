@@ -1,0 +1,23 @@
+﻿l_english:
+ #-----------------------------------------------
+ # Gnoll
+ #-----------------------------------------------
+ wwu_gnoll_flavour.1.title: "Battle Tactics!"
+ wwu_gnoll_flavour.1.desc: "For our ongoing war efforts, one of our generals has prepared a great battle strategy for us. It has several options for all kind of possiblities without any chance to fail. Now the [Root.Monarch.GetTitle] shall decide which path we are going to take."
+ wwu_gnoll_flavour.1.opt1: "Kill!"
+ wwu_gnoll_flavour.1.opt2: "Sleep?"
+ wwu_gnoll_flavour.1.opt3: "EAT"
+ 
+ wwu_gnoll_flavour.2.title: "Kidnapping Incident"
+ wwu_gnoll_flavour.2.desc: "Some of tribesmen decided to cross [KidnapTarget.GetName] border and kidnapped several [KidnapTarget.Culture.GetName] villagers to stock them as food supply. Now the outraged villagers are arming against us and [KidnapTarget.GetName] has a good reason to attack us.\n\nWe can force kidnappers to give villagers back, yet this may cost our credibility."
+ wwu_gnoll_flavour.2.opt1: "Keep the villagers for winter"
+ wwu_gnoll_flavour.2.opt2: "Cook 'em right now!"
+ wwu_gnoll_flavour.2.opt3: "\"We cannot risk a war right now\""
+ 
+ wwu_gnoll_flavour.3.title: "Rotten Food"
+ wwu_gnoll_flavour.3.desc: "In gnoll culture, It is a custom to eat a deceased kinsman. We never let meat to waste, as it is biggest shame in our culture.\n\nRecently, a fellow kinsman died after a series of illnesses and It looks sickly even after death. The Tribe's oracles warn us that consuming it might be dangerous. Yet we cannot turn our backs on our traditions."
+ wwu_gnoll_flavour.3.opt1: "\"I cannot fear things that I do not see\""
+ wwu_gnoll_flavour.3.opt2: "Let the tribespeople eat the meat"
+ wwu_gnoll_flavour.3.opt3: "Burn it"
+ 
+ 

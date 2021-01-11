@@ -1,0 +1,18 @@
+technology_group = tech_kobold
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = slatewhisker
+religion = geomancy
+
+capital = 3481
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Kubbzno"
+        dynasty = "Slatetooth"
+        adm = 4
+        dip = 3
+        mil = 5
+    }
+}

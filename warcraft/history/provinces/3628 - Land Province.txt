@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = TOL
+controller = TOL
+add_core = TOL
+
+base_tax = 2
+base_production = 1
+base_manpower = 4
+
+culture = tol_barad
+religion = the_holy_light
+
+trade_goods = unknown
+hre = no
+
+

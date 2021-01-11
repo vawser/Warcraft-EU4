@@ -1,0 +1,139 @@
+furbolg_group = {
+    graphical_culture = furbolg_gfx 
+    
+    male_names = { 
+        "Gramota" "Turti" "Grazkra" "Ankra" "Grumak" "Purog" "Grale" "Krograz" "Ngwen" "Garlgrum" "Akbald" "Kraan" "Grazbald" "Murkra" "Grakra" "Gramur" "Legram" "Akdal" "Wengraz" "Akng" "Otakra" "Ranng" "Ting" "Gragraz" "Akgra" "Gramgarl" "Tiun" "Dalpur" "Tile" "Wenan" "Murun" "Otagraz" "Purti" "Wenwen" "Murota" "Garlak" "Ungram" "Anle" "Dalak" "Kragraz" "Otaota" "Puran" "Baldog" "Murgraz" "Aktur" "Unbald" "Oggra" "Randal" "Garlgraz" "Angrum" "Lekra" "Grazkro" "Dalgraz" "Ranog" "Murwen" "Murng" "Wenkra" "Krakra" "Grumwen" "Murog" "Purbald" "Ranran" "Angraz" "Ogng" "Nggra" "Anpur" "Grumkro" "Angra" "Otaran" "Wendal" "Ngmur" "Gramog" "Turgram" "Baldgra" "Kroan" "Lemur" "Wenota" "Daldal" "Muran" "Tidal" "Anran" "Wengram" "Grumbald" "Kramur" "Otang" "Garlle" "Akog" "Grazgarl" "Garlota" "Grabald" "Grumtur" "Legrum" "Wenun" "Anng" "Wenkro" "Turog" "Unkro" "Baldgrum" "Ranota" "Ranle" "Grampur" "Ngak" "Rangram" "Rankro" "Akkra" "Kroti" "Krogarl" "Krabald" "Purgraz" "Grazgra" "Ogkra" "Akan" "Graman" "Grumgraz" "Grati" "Andal" "Oggarl" "Murle" "Ngbald" "Gramgram" "Grazak" "Turwen" "Tiak"
+    }
+	female_names = { 
+        "Gramota" "Turti" "Grazkra" "Ankra" "Grumak" "Purog" "Grale" "Krograz" "Ngwen" "Garlgrum" "Akbald" "Kraan" "Grazbald" "Murkra" "Grakra" "Gramur" "Legram" "Akdal" "Wengraz" "Akng" "Otakra" "Ranng" "Ting" "Gragraz" "Akgra" "Gramgarl" "Tiun" "Dalpur" "Tile" "Wenan" "Murun" "Otagraz" "Purti" "Wenwen" "Murota" "Garlak" "Ungram" "Anle" "Dalak" "Kragraz" "Otaota" "Puran" "Baldog" "Murgraz" "Aktur" "Unbald" "Oggra" "Randal" "Garlgraz" "Angrum" "Lekra" "Grazkro" "Dalgraz" "Ranog" "Murwen" "Murng" "Wenkra" "Krakra" "Grumwen" "Murog" "Purbald" "Ranran" "Angraz" "Ogng" "Nggra" "Anpur" "Grumkro" "Angra" "Otaran" "Wendal" "Ngmur" "Gramog" "Turgram" "Baldgra" "Kroan" "Lemur" "Wenota" "Daldal" "Muran" "Tidal" "Anran" "Wengram" "Grumbald" "Kramur" "Otang" "Garlle" "Akog" "Grazgarl" "Garlota" "Grabald" "Grumtur" "Legrum" "Wenun" "Anng" "Wenkro" "Turog" "Unkro" "Baldgrum" "Ranota" "Ranle" "Grampur" "Ngak" "Rangram" "Rankro" "Akkra" "Kroti" "Krogarl" "Krabald" "Purgraz" "Grazgra" "Ogkra" "Akan" "Graman" "Grumgraz" "Grati" "Andal" "Oggarl" "Murle" "Ngbald" "Gramgram" "Grazak" "Turwen" "Tiak"
+	}
+    dynasty_names = { 
+        "Winterskin" "Crusttooth" "Prickleweald" "Deadmaw" "Foulpile" "Whitepelt" "Barkmaw" "Stillfur" "Flowerlimb" "Bloodpile" "Gnarlpelt" "Foulpelt" "Snarlclaw" "Crustfall" "Barkfall" "Crustbite" "Stubblepelt" "Huskpelt" "Husklimb" "Foulwood" "Rotpile" "Crustfang" "Redpile" "Nettlepaw" "Pricklefang" "Blightmaw" "Stilllimb" "Frostwood" "Foulpine" "Blightclaw" "Bloodwood" "Frostbarb" "Huskpile" "Nettlefur" "Blackbite" "Crustwood" "Frostfang" "Bristleskin" "Gutmaw" "Stubbleskin" "Bloodclaw" "Barkfang" "Whiskermaw" "Stubblefur" "Foulpaw" "Snowbarb" "Timberpile" "Whiskerfur" "Pricklepile" "Rotlimb" "Nettlebarb" "Blightpine" "Moldbite" "Deadpaw" "Gnarlpile" "Deadweald" "Pricklemaw" "Huskwood" "Stubbleweald" "Winterlimb" "Blightlimb" "Crustpelt" "Lumberpelt" "Redbite" "Whitewood" "Thornmaw" "Blackfang" "Stubblepine" "Stubblepaw" "Whiskertooth" "Blackwood" "Rotfall" "Gutfall" "Stillpile" "Rotbite" "Snowweald" "Moldclaw" "Whitepile" "Flowerfall" "Rotbarb" "Stubblefang" "Winterwood" "Rottooth" "Lumberfur" "Redpaw" "Nettlepile" "Blightwood" "Thornpaw" "Timberbite" "Redclaw" "Brambleweald" "Barkbite" "Barkwood" "Bramblemaw" "Gnarllimb" "Crustpine" "Pricklepelt" "Snarlpine" "Blackweald" "Winterpine" "Rotwood" "Moldskin" "Rotpaw" "Whitelimb" "Gutpaw" "Bramblepine" "Thistlepaw" "Frostclaw" "Redbarb" "Frostfall" "Huskskin" "Prickleclaw" "Thistlemaw" "Timberclaw" "Barkbarb" "Pricklebite" "Pricklebarb" "Barklimb" 
+    }
+    
+    furbolg = {
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    timbermaw = {
+        primary = TIM
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    stillpine = {
+        primary = STP
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    winterfall = {
+        primary = WTA
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    frostpaw = {
+        primary = FTP
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    redfang = {
+        primary = RDF
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    thistlefur = {
+        primary = THS
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    blackmaw = {
+        primary = BMW
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    bloodtooth = {
+        primary = BOH
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    bristlelimb = {
+        primary = BMB
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    deadwood = {
+        primary = DDW
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    foulweald = {
+        primary = FWD
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    blackwood = {
+        primary = BKF
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    grizzleweald = {
+        primary = GRZ
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    blackpaw = {
+        primary = BPC
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    bloodmaw = {
+        primary = RVP
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    snowlimb = {
+        primary = ROT
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    driftweald = {
+        primary = SDW
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+}
+

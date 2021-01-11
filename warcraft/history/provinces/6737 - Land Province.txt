@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SOW
+controller = SOW
+add_core = SOW
+
+base_tax = 2
+base_production = 4
+base_manpower = 2
+
+culture = sisterhood_of_winter
+religion = druidism
+
+trade_goods = unknown
+hre = no
+
+

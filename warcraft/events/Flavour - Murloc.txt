@@ -1,0 +1,143 @@
+namespace = wwu_murloc_flavour
+
+country_event = {
+	id = wwu_murloc_flavour.1
+	title = wwu_murloc_flavour.1.title
+	desc = wwu_murloc_flavour.1.desc
+	picture = OGRE_MAGE_eventPicture
+	
+	trigger = {
+		culture_group = murloc_group
+		is_female = no
+	}
+	
+	mean_time_to_happen = {
+		months = 360
+	}
+	
+	option = {
+		name = wwu_murloc_flavour.1.opt1
+		
+		random_list = {
+			20 = {
+				kill_ruler = yes
+			}
+			80 = {
+				add_country_modifier = { 
+					name = mating_call
+					duration = 180  
+					desc = mating_call_desc
+					hidden = no
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = wwu_murloc_flavour.1.opt2
+		
+		add_treasury = -200
+		add_country_modifier = { 
+			name = mating_call
+			duration = 180
+			hidden = no
+		 }
+	}
+	
+	option = {
+		name = wwu_murloc_flavour.1.opt3
+		
+		add_prestige = -5
+	}
+}
+
+country_event = {
+	id = wwu_murloc_flavour.2
+	title = wwu_murloc_flavour.2.title
+	desc = wwu_murloc_flavour.2.desc
+	picture = OGRE_MAGE_eventPicture
+
+	trigger = {
+		culture_group = murloc_group
+		any_owned_province = {
+			has_port = yes
+			trade_goods = wwu_food
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 360
+	}
+	
+	option = {
+		name = wwu_murloc_flavour.2.opt1
+		
+		every_owned_province = {
+			limit = {
+				has_port = yes
+				trade_goods = wwu_food
+			}
+			add_base_production = 1
+			owner = { add_adm_power = -50 }
+		}
+	}
+	
+	option = {
+		name = wwu_murloc_flavour.2.opt2
+		
+		random_owned_province = {
+			limit = {
+				has_port = yes
+				trade_goods = wwu_food
+			}
+			add_base_production = 1
+			owner = { add_adm_power = -50 }
+		}
+	}
+	
+	option = {
+		name = wwu_murloc_flavour.2.opt3
+		
+		
+	}
+}
+
+country_event = {
+	id = wwu_murloc_flavour.3
+	title = wwu_murloc_flavour.3.title
+	desc = wwu_murloc_flavour.3.desc
+	picture = OGRE_MAGE_eventPicture
+    
+	trigger = {
+		culture_group = murloc_group
+		NOT = { natural_scientist = 3 }
+	}
+	
+	mean_time_to_happen = {
+		months = 360
+	}
+	
+	option = {
+		name = wwu_murloc_flavour.3.opt1
+		
+		define_advisor = {
+			type = natural_scientist
+			name = "King Mrgl-Mrgl"
+			skill = 3
+			culture = murloc
+			discount = yes
+		}
+		random = { 
+			chance = 50
+			random_owned_province = {
+				change_religion = elune
+			}
+		}
+	}
+	
+	option = {
+		name = wwu_murloc_flavour.3.opt2
+		
+		add_adm_power = 50
+	}
+}

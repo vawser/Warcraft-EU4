@@ -1,0 +1,62 @@
+technology_group = tech_pandaren
+government = monarchy
+add_government_reform = tribal_federation_reform
+primary_culture = one_keg
+religion = celestials
+
+capital = 4549
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Yin"
+        dynasty = "Airhide"
+        adm = 0
+        dip = 1
+        mil = 2
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Dong"
+        dynasty = "Frostfur"
+        adm = 5
+        dip = 0
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Yi"
+        dynasty = "Rainsoil"
+        adm = 2
+        dip = 5
+        mil = 5
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Jian"
+        dynasty = "Stormhide"
+        adm = 5
+        dip = 3
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Bingwen"
+        dynasty = "Duststout"
+        adm = 1
+        dip = 0
+        mil = 1
+    }
+}

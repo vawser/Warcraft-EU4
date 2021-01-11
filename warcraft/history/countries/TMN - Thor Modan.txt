@@ -1,0 +1,19 @@
+technology_group = tech_earthen
+government = tribal
+add_government_reform = dwarven_clan_reform
+primary_culture = thor_modan
+religion = titan_worship
+
+capital = 6709
+
+# The First War
+592.1.1 = {
+    monarch = {  
+        name = "Loki"  
+        dynasty = "Furyhammer"  
+ 		adm = 3 
+		dip = 3
+		mil = 4
+        birth_date = 20.1.1
+  	} 
+}

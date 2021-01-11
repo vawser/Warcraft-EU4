@@ -1,0 +1,7 @@
+technology_group = tech_human
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = lordaeron
+religion = the_holy_light
+
+capital = 3905

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = MUR
+controller = MUR
+add_core = MUR
+
+base_tax = 1
+base_production = 4
+base_manpower = 4
+
+culture = mauraudine
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

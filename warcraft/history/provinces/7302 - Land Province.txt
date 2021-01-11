@@ -1,0 +1,16 @@
+
+is_city = yes
+owner = ZDL
+controller = ZDL
+add_core = ZDL
+
+base_tax = 11
+base_production = 12
+base_manpower = 9
+
+culture = zandalari
+religion = voodoo
+
+trade_goods = unknown
+hre = no
+

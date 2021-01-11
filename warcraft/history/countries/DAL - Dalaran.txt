@@ -1,0 +1,19 @@
+technology_group = tech_human
+government = republic
+add_government_reform = magocracy_reform
+government_rank = 2
+primary_culture = dalaran
+religion = arcane
+
+capital = 3470
+
+# The First War
+592.1.1 = {
+    monarch = { 
+        name = "Antonidas"
+        dynasty = "of Dalaran" 
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

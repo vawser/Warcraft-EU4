@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = COL
+controller = COL
+add_core = COL
+
+base_tax = 3
+base_production = 4
+base_manpower = 4
+
+culture = coldwind
+religion = wind
+
+trade_goods = unknown
+hre = no
+
+

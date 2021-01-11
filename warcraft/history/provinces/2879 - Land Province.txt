@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = BWA
+controller = BWA
+add_core = BWA
+
+base_tax = 4
+base_production = 3
+base_manpower = 2
+
+culture = blackwater_cartel
+religion = avarice
+
+trade_goods = unknown
+hre = no
+
+

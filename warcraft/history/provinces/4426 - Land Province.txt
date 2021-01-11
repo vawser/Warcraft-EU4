@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = GRO
+controller = GRO
+add_core = GRO
+
+base_tax = 4
+base_production = 1
+base_manpower = 1
+
+culture = grookin
+religion = celestials
+
+trade_goods = unknown
+hre = no
+
+

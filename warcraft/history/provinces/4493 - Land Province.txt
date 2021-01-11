@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = MSF
+controller = MSF
+add_core = MSF
+
+base_tax = 2
+base_production = 3
+base_manpower = 1
+
+culture = mistfall
+religion = celestials
+
+trade_goods = unknown
+hre = no
+
+

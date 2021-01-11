@@ -1,0 +1,35 @@
+has_any_estates = {
+	OR = {
+		has_estate = estate_clergy
+		has_estate = estate_traders
+		has_estate = estate_nobility
+		has_estate = estate_peasants
+		has_estate = estate_tribals
+		has_estate = estate_adventuring_guild
+        has_estate = estate_mercantile_guild
+        has_estate = estate_warriors_guild
+        has_estate = estate_religious_order
+        has_estate = estate_criminal_syndicate
+	}
+}
+
+has_any_guild = {
+    OR = {
+        has_estate = estate_adventuring_guild
+        has_estate = estate_mercantile_guild
+        has_estate = estate_warriors_guild
+        has_estate = estate_religious_order
+        has_estate = estate_criminal_syndicate
+    }
+}
+
+# Used to determine if the country is strong enough to force 
+# out the rest of the estates for actions that would have them
+# removed.
+crown_stronger_than_estate = {
+	crown_land_share = $estate$
+	estate_loyalty = {
+		estate = $estate$
+		higher_than_influence = yes
+	}
+}

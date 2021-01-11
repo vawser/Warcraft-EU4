@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SFR
+controller = SFR
+add_core = SFR
+
+base_tax = 4
+base_production = 3
+base_manpower = 1
+
+culture = sentinels_of_feathermoon
+religion = elune
+
+trade_goods = unknown
+hre = no
+
+

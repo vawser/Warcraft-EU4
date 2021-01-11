@@ -1,0 +1,62 @@
+technology_group = tech_trogg
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = rockjaw
+religion = geomancy
+
+capital = 3250
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Gnushmug"
+        dynasty = "Spoilfire"
+        adm = 1
+        dip = 1
+        mil = 2
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Brugosh"
+        dynasty = "Mithrilsplinter"
+        adm = 1
+        dip = 5
+        mil = 4
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Gushlush"
+        dynasty = "Pebbleflint"
+        adm = 0
+        dip = 4
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Gushaloc"
+        dynasty = "Pebbleflame"
+        adm = 2
+        dip = 2
+        mil = 3
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Grobgash"
+        dynasty = "Steeldeep"
+        adm = 5
+        dip = 5
+        mil = 4
+    }
+}

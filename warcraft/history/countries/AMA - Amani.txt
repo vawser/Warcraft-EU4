@@ -1,0 +1,18 @@
+technology_group = tech_forest_troll
+government = monarchy
+add_government_reform = troll_kingdom_reform
+government_rank = 2
+primary_culture = amani
+religion = voodoo
+
+capital = 4110
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Ko'mar the Sly"
+        adm = 4
+        dip = 2
+        mil = 4
+    }
+}

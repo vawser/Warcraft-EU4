@@ -1,0 +1,19 @@
+government 			    = republic
+add_government_reform   = mercantile_republic_reform
+mercantilism 		    = 20
+technology_group 	    = tech_vulpera
+religion			    = avarice
+primary_culture 	    = vulpera
+capital 			    = 7306
+religious_school = trade_philosophy
+
+592.1.1 = { 
+	monarch = { 
+		name = "Kiro" 
+		dynasty = "Sandfoot" 
+		adm = 2
+		dip = 5
+		mil = 1 
+	} 
+}
+

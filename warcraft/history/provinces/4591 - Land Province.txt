@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = HRT
+controller = HRT
+add_core = HRT
+
+base_tax = 1
+base_production = 3
+base_manpower = 3
+
+culture = harthak
+religion = fleshshaping
+
+trade_goods = unknown
+hre = no
+
+

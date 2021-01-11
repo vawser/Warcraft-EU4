@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = TIM
+controller = TIM
+add_core = TIM
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = timbermaw
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

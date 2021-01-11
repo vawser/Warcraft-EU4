@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = VAL
+controller = VAL
+add_core = VAL
+
+base_tax = 4
+base_production = 2
+base_manpower = 4
+
+culture = valsharah
+religion = elune
+
+trade_goods = unknown
+hre = no
+
+

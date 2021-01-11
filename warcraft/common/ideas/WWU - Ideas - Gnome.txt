@@ -1,0 +1,41 @@
+# Gnome
+gnome_ideas = {
+	start = {
+		technology_cost = -0.10
+        idea_cost = -0.1
+	}
+
+	bonus = {
+        production_efficiency = 0.2
+	}
+	
+	trigger = {
+		culture_group = gnome_group
+	}
+	free = yes		
+	
+	gnome_ideas_1 = {
+		development_cost = -0.1
+	}
+	gnome_ideas_2 = {
+		tolerance_heretic = 2
+		tolerance_heathen = 2
+	}
+	gnome_ideas_3 = {
+		siege_ability = 0.1
+	}
+	gnome_ideas_4 = {
+		artillery_cost = -0.2
+        artillery_power = 0.1
+	}
+	gnome_ideas_5 = {
+		leader_land_fire = 2
+	}
+	gnome_ideas_6 = {
+		global_trade_goods_size_modifier = 0.10
+	}
+	gnome_ideas_7 = {
+		hostile_attrition = 2
+	}
+}
+

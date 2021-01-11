@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = INK
+controller = INK
+add_core = INK
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+culture = inkgill
+religion = celestials
+
+trade_goods = unknown
+hre = no
+
+

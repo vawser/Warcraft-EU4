@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = NRN
+controller = NRN
+add_core = NRN
+
+base_tax = 1
+base_production = 2
+base_manpower = 3
+
+culture = nooka_nooka
+religion = celestials
+
+trade_goods = unknown
+hre = no
+
+

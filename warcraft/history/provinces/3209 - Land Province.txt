@@ -1,0 +1,28 @@
+
+is_city = yes
+owner = DSN
+controller = DSN
+add_core = DSN
+
+base_tax = 1
+base_production = 4
+base_manpower = 1
+
+culture = drysnout
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+# The Scourge
+594.1.1 = {
+	is_city = yes
+    owner = DBR
+    controller = DBR
+    add_core = DBR
+    
+    culture = dustbelcher
+    religion = geomancy
+}
+
+

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = BLP
+controller = BLP
+add_core = BLP
+
+base_tax = 3
+base_production = 4
+base_manpower = 2
+
+culture = bloodpaw
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

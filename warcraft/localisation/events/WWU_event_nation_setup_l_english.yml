@@ -1,0 +1,131 @@
+﻿l_english: 
+ #-------------------------------------
+ # Ogre Setup
+ #-------------------------------------
+ wwu_setup_ogre.1.title: "Dreadmaul Ogres"
+ wwu_setup_ogre.1.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.1.option.a: "Arise!"
+ wwu_setup_ogre.1.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.2.title: "Dunemaul Ogres"
+ wwu_setup_ogre.2.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.2.option.a: "Arise!"
+ wwu_setup_ogre.2.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.3.title: "Gordunni Ogres"
+ wwu_setup_ogre.3.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.3.option.a: "Arise!"
+ wwu_setup_ogre.3.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.4.title: "Mo'grosh Ogres"
+ wwu_setup_ogre.4.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.4.option.a: "Arise!"
+ wwu_setup_ogre.4.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.5.title: "Boulderfist Ogres"
+ wwu_setup_ogre.5.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.5.option.a: "Arise!"
+ wwu_setup_ogre.5.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.6.title: "Deadwind Ogres"
+ wwu_setup_ogre.6.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.6.option.a: "Arise!"
+ wwu_setup_ogre.6.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.7.title: "Dustblecher Ogres"
+ wwu_setup_ogre.7.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.7.option.a: "Arise!"
+ wwu_setup_ogre.7.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.8.title: "Firegut Ogres"
+ wwu_setup_ogre.8.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.8.option.a: "Arise!"
+ wwu_setup_ogre.8.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.9.title: "Mosh'Ogg Ogres"
+ wwu_setup_ogre.9.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.9.option.a: "Arise!"
+ wwu_setup_ogre.9.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.10.title: "Stone Fist Ogres"
+ wwu_setup_ogre.10.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.10.option.a: "Arise!"
+ wwu_setup_ogre.10.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.11.title: "Stonegullet Ogres"
+ wwu_setup_ogre.11.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.11.option.a: "Arise!"
+ wwu_setup_ogre.11.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.12.title: "Torchbelcher Ogres"
+ wwu_setup_ogre.12.desc: "As the Orcish Horde spreads its influence across Azeroth, ogres that were once part of the great horde have begun to drift off, forming their own factions within Azeroth."
+ wwu_setup_ogre.12.option.a: "Arise!"
+ wwu_setup_ogre.12.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.13.title: "Crushridge Ogres"
+ wwu_setup_ogre.13.desc: "As the Scourge arises in Northrend, ogres that were once part of the Orcish horde have begun to drift off, forming their new factions within Azeroth."
+ wwu_setup_ogre.13.option.a: "Arise!"
+ wwu_setup_ogre.13.option.b: "Tolerate them in our lands for now..."
+ 
+ wwu_setup_ogre.14.title: "Stonemaul Ogres"
+ wwu_setup_ogre.14.desc: "As the Scourge arises in Northrend, ogres that were once part of the Orcish horde have begun to drift off, forming their new factions within Azeroth."
+ wwu_setup_ogre.14.option.a: "Arise!"
+ wwu_setup_ogre.14.option.b: "Tolerate them in our lands for now..."
+ 
+ #-------------------------------------
+ # Scourge Setup
+ #-------------------------------------
+ wwu_setup_scourge.1.title: "The Scourge"
+ wwu_setup_scourge.1.desc: "Under the domination of the Lich King Ner'zhul, the Scourge serves as a means for the Burning Legion to spread terror and destruction across the whole of Azeroth, in anticipation of the Legion's inevitable invasion."
+ wwu_setup_scourge.1.option.a: "Arise!" 
+
+ #-------------------------------------
+ # Draenei Setup
+ #-------------------------------------
+ wwu_setup_draenei.1.title: "The Exodar"
+ wwu_setup_draenei.1.desc: "As the Scourge arises in Northrend, the consequences of Kael'thas Sunstrider's ambitions are made manifest. Having escaped the Tempest Keep, Prophet Velen has lead the Exodar and the associated draenei to Azeroth, landing in Azuremyst Isle."
+ wwu_setup_draenei.1.option.a: "Arise!"
+ 
+ wwu_setup_draenei.2.title: "Lost Ones"
+ wwu_setup_draenei.2.desc: "As the Scourge arises in Northrend, a group of surviving draenei that escaped the destruction of Draenor have emerged, making the Swamp of Sorrows their new home."
+ wwu_setup_draenei.2.option.a: "Arise!"
+ wwu_setup_draenei.2.option.b: "Tolerate them in our lands for now..."
+ 
+ #-------------------------------------
+ # Orc Setup
+ #-------------------------------------
+ wwu_setup_orc.1.title: "The New Horde"
+ wwu_setup_orc.1.desc: "As the Scourge arises in Northrend and the Orcish Horde continues to collapse, a faction of orcs and other similar races have formed what shall be known as the New Horde, taking refuge in Durotar, in the valley that shall soon be known as Orgrimmar."
+ wwu_setup_orc.1.option.a: "Arise!"
+ 
+ #-------------------------------------
+ # Night Elf
+ #-------------------------------------
+ wwu_setup_night_elf.1.title: "Teldrassil"
+ wwu_setup_night_elf.1.desc: "Nordrassil, atop Mount Hyjal has been destroyed. Without a World Tree, the Night Elves are lost. The Circle of the Ancients have concocted a plan to combine powers and grow an immense tree within the Veiled Sea, to be named Teldrassil."
+ wwu_setup_night_elf.1.option.a: "Arise Teldrassil!"
+ 
+ #-------------------------------------
+ # Human
+ #-------------------------------------
+ wwu_setup_human.1.title: "Theramore"
+ wwu_setup_human.1.desc: "Jaina Proudmoore and her assortment of survivors from the Scourging of Lordaeron have made landing in Kalimdor, and established the city-state of Theramore in Dustwallow Marsh."
+ wwu_setup_human.1.option.a: "Arise!"
+ 
+ #-------------------------------------
+ # Pirate
+ #-------------------------------------
+ wwu_setup_pirate.1.title: "Southsea Freebooters"
+ wwu_setup_pirate.1.desc: "Pirates have begun to explore far to the west, landing on the coast of Tanaris in Kalimdor."
+ wwu_setup_pirate.1.option.a: "Good riddance"
+ 
+ wwu_setup_pirate.2.title: "Wastewander"
+ wwu_setup_pirate.2.desc: "Pirates have begun to explore far to the west, landing on the coast of Tanaris in Kalimdor."
+ wwu_setup_pirate.2.option.a: "Good riddance"
+ 
+ #-------------------------------------
+ # Burning Legion
+ #-------------------------------------
+ wwu_setup_burning_legion.1.title: "The Burning Legion"
+ wwu_setup_burning_legion.1.desc: "Archimonde and his vanguard of demons have arrived and taken control of the majority of Mount Hyjal, in an attempt to destroy the world tree Nordrassil."
+ wwu_setup_burning_legion.1.option.a: "Oh no!"

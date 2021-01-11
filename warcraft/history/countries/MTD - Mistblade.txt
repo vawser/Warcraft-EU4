@@ -1,0 +1,62 @@
+technology_group = tech_saurok
+government = tribal
+add_government_reform = warband_reform
+primary_culture = mistblade
+religion = fleshshaping
+
+capital = 4598
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Gekshik"
+        dynasty = "the Punchy"
+        adm = 4
+        dip = 2
+        mil = 0
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Vorrok"
+        dynasty = "the Desperate"
+        adm = 0
+        dip = 4
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Vordlik"
+        dynasty = "the Vast"
+        adm = 2
+        dip = 2
+        mil = 2
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Glintrok"
+        dynasty = "the Fierce"
+        adm = 5
+        dip = 4
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Akoshi"
+        dynasty = "the Titanic"
+        adm = 3
+        dip = 4
+        mil = 3
+    }
+}

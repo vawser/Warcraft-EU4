@@ -1,0 +1,21 @@
+technology_group = tech_ogre
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = torchbelcher
+religion = geomancy
+
+capital = 3319
+
+# The Scourge
+594.1.1 = {
+    set_global_flag = setup_torchbelcher
+    
+    monarch = {
+        name = "Gallkli"
+        dynasty = "the Crazed"
+        adm = 1
+        dip = 3
+        mil = 0
+    }
+}
+

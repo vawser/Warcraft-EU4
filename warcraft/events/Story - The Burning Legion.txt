@@ -1,0 +1,55 @@
+namespace = wwu_burning_legion
+
+# Nordrassil Destroyed
+country_event = {
+	id = wwu_burning_legion.1
+	title = wwu_burning_legion.1.title
+	desc = wwu_burning_legion.1.desc
+	picture = ARCHIMONDE_eventPicture
+	
+    major = yes
+
+	trigger = {
+        NOT = { has_global_flag = nordrassil_destroyed }
+        tag = TBL
+        is_at_war = yes
+        6015 = {
+            controlled_by = ROOT
+        }
+	}
+	
+    immediate = {
+        hidden_effect = {
+            6015 = {
+                owner = { save_event_target_as = nordrassil_owner }
+            }
+        }
+    }
+    
+    mean_time_to_happen = {
+		days = 1
+	}
+    
+	option = {
+		name = wwu_burning_legion.1.option.a
+		
+        if = {
+            limit = {
+                event_target:nordrassil_owner = {
+                    war_with = ROOT
+                }
+            }
+            event_target:nordrassil_owner = {
+                every_owned_province = {
+                    limit = {
+                        region = region_mount_hyjal
+                    }
+                    change_controller = TBL
+                }
+            }
+        }
+        
+        custom_tooltip = "NORDRASSIL_DESTROYED"
+        hidden_effect = { set_global_flag = nordrassil_destroyed }
+	}
+}

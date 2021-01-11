@@ -1,0 +1,17 @@
+technology_group = tech_forest_troll
+government = monarchy
+add_government_reform = troll_kingdom_reform
+primary_culture = firetree
+religion = voodoo
+
+capital = 3167
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Mojin'krag the Sane"
+        adm = 5
+        dip = 1
+        mil = 3
+    }
+}

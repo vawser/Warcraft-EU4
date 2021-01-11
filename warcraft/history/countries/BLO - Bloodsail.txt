@@ -1,0 +1,63 @@
+technology_group = tech_human
+government = pirate
+add_government_reform = pirate_kingdom_reform
+primary_culture = bloodsail
+religion = avarice
+religious_school = military_philosophy
+
+capital = 3732
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Jamie"
+        dynasty = "Taylor"
+        adm = 3
+        dip = 2
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Declan"
+        dynasty = "Evans"
+        adm = 2
+        dip = 0
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Toby"
+        dynasty = "West"
+        adm = 2
+        dip = 2
+        mil = 1
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Arthur"
+        dynasty = "Douglas"
+        adm = 2
+        dip = 1
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Henry"
+        dynasty = "Frizgerald"
+        adm = 5
+        dip = 4
+        mil = 0
+    }
+}

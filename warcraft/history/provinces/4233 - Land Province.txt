@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = JAS
+controller = JAS
+add_core = JAS
+
+base_tax = 2
+base_production = 3
+base_manpower = 3
+
+culture = pandaren
+religion = celestials
+
+trade_goods = unknown
+hre = no
+
+

@@ -1,0 +1,208 @@
+graphical_culture = centaur_gfx
+
+color = { 242 218 18 }
+
+monarch_names = {
+	"Mulk" = 20
+	"Rhelk" = 20
+	"Kreg" = 20
+	"Felgra" = 20
+	"Duldrik" = 20
+	"Vrirgreg" = 20
+	"Luldreng" = 20
+	"Oglemo" = 20
+	"Galkrollil" = 20
+	"Fekrero" = 20
+	"Fir" = 20
+	"Jazh" = 20
+	"Wunh Krorronh" = 20
+	"Vremmoh" = 20
+	"Olkith" = 20
+	"Jazel" = 20
+	"Mokerik" = 20
+	"Blilkrerol" = 20
+	"Hrongoneg" = 20
+	"Grog Vruhn" = 20
+	"Val" = 20
+	"Ekra" = 20
+	"Shrigris" = 20
+	"Kildro" = 20
+	"Ocha" = 20
+	"Vez'hade" = 20
+	"Gablaman" = 20
+	"Krillunazh" = 20
+	"Grus" = 20
+	"Ker" = 20
+	"Wihn" = 20
+	"Bichos" = 20
+	"Kilkath" = 20
+	"Ih'pros" = 20
+	"Dom'zi" = 20
+	"Engila" = 20
+	"Emdaluh" = 20
+	"Jimmonal" = 20
+	"Hralk" = 20
+	"Jehn" = 20
+	"Linh" = 20
+	"Ferthe" = 20
+	"Ucha" = 20
+	"Akrhih" = 20
+	"Vrargrar" = 20
+	"Vemrakel" = 20
+	"Igroruzh" = 20
+	"Kogtaging" = 20
+	"Nazgozh" = -20
+	"Femes" = -20
+	"Uhnes" = -20
+	"Relgak" = -20
+	"Rubeth" = -20
+	"Emreh" = -20
+	"Dhethesh" = -20
+	"Lythozh" = -20
+	"Shythik" = -20
+	"Rhurdal" = -20
+	"Lugnak" = -20
+	"Egnih" = -20
+	"Yrrik" = -20
+	"Wyhrul" = -20
+	"Arrat" = -20
+	"Bylut" = -20
+	"Nehnah" = -20
+	"Dhyzal" = -20
+	"Khalnath" = -20
+	"Dhezen" = -20
+	"Dhagdel" = -20
+	"Ulgas" = -20
+	"Lyhras" = -20
+	"Behrit" = -20
+	"Niglat" = -20
+	"Dhezen" = -20
+	"Bhylral" = -20
+	"Ningath" = -20
+	"Hargek" = -20
+	"Khugdel" = -20
+	"Ergas" = -20
+	"Dhylrazh" = -20
+	"Dumril" = -20
+	"Hyrrok" = -20
+	"Yrdag" = -20
+	"Yrag" = -20
+	"Marreth" = -20
+	"Shyngel" = -20
+	"Guhan" = -20
+	"Udheth" = -20
+	"Migdezh" = -20
+	"Rurgak" = -20
+	"Fylmat" = -20
+	"Derresh" = -20
+	"Bymug" = -20
+	"Nygnol" = -20
+	"Edek" = -20
+	"Ezguzh" = -20
+	"Wulnas" = -20
+	"Myzut" = -20
+
+}
+
+leader_names = {
+	"the Bonebreaker"
+	"the Throatslicer"
+	"the Wise"
+	"the Quick"
+	"the Sly"
+	"the Coy"
+	"the Smasher"
+	"the Stabber"
+	"the Gutter"
+	"the Ripper"
+	"the Puncher"
+	"the Kicker"
+	"the Massive"
+	"the Mammoth"
+	"the Monstrous"
+	"the Colossal"
+	"the Gigantic"
+	"the Giant"
+	"the Immense"
+	"the Vast"
+	"the Towering"
+	"the Bulky"
+	"the Lusty"
+	"the Mighty"
+	"the Titanic"
+	"the Potent"
+	"the Powerful"
+	"the Stout"
+	"the Tough"
+	"the Strong"
+	"the Sturdy"
+	"the Stalwart"
+	"the Brawny"
+	"the Hearty"
+	"the Great"
+	"the Almighty"
+	"the Gutsy"
+	"the Punchy"
+	"the Astute"
+	"the Careful"
+	"the Enlightened"
+	"the Perceptive"
+	"the Prudent"
+	"the Sane"
+	"the Shrewd"
+	"the Smart"
+	"the Wary"
+	"the Cunning"
+	"the Keen"
+	"the Sage"
+	"the Sharp"
+	"the Crafty"
+	"the Erudite"
+	"the Witty"
+	"the Sapient"
+	"the Tactful"
+	"the Furious"
+	"the Desperate"
+	"the Fierce"
+	"the Frantic"
+	"the Livid"
+	"the Raging"
+	"the Violent"
+	"the Frenzied"
+	"the Inciter"
+	"the Insane"
+	"the Crazed"
+	"the Maniac"
+	"the Vicious"
+	"the Rabid"
+	"the Delirious"
+	"the Fanatical"
+	"the Fervent"
+	"the Virulent"
+	"the Zealous"
+	"the Astute"
+	"the Educated"
+	"the Ample"
+	"the Judicious"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+

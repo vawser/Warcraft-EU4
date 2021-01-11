@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = MAG
+controller = MAG
+add_core = MAG
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+culture = magmoth
+religion = geomancy
+
+trade_goods = unknown
+hre = no
+
+

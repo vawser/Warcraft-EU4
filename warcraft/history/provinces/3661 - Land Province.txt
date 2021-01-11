@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = NTB
+controller = NTB
+add_core = NTB
+
+base_tax = 1
+base_production = 3
+base_manpower = 4
+
+culture = suramar
+religion = arcane
+
+trade_goods = unknown
+hre = no
+
+

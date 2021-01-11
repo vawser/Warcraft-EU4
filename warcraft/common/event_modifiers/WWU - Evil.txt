@@ -1,0 +1,3 @@
+taint_of_evil = {
+    diplomatic_reputation = -2
+}

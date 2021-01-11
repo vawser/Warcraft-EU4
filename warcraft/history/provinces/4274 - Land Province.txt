@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = ZHU
+controller = ZHU
+add_core = ZHU
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+culture = zhu
+religion = celestials
+
+trade_goods = unknown
+hre = no
+
+

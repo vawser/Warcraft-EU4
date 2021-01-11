@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = GVF
+controller = GVF
+add_core = GVF
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+culture = gravelflint
+religion = geomancy
+
+trade_goods = unknown
+hre = no
+
+

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = MIS
+controller = MIS
+add_core = MIS
+
+base_tax = 4
+base_production = 1
+base_manpower = 4
+
+culture = mistrunner
+religion = earth_mother
+
+trade_goods = unknown
+hre = yes
+
+

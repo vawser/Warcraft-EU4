@@ -1,0 +1,255 @@
+graphical_culture = dryad_gfx
+
+color = { 239 65 183 }
+
+monarch_names = {
+	"Tira" = 20
+	"Naenthiphi" = 20
+	"Thasannal" = 20
+	"Femalillu" = 20
+	"Divrinne" = 20
+	"Ima" = 20
+	"Hevralan" = 20
+	"Seyildre" = 20
+	"Idriye" = 20
+	"Shilnad" = 20
+	"Mennivi" = 20
+	"Salgrisa" = 20
+	"Sidriphus" = 20
+	"Tayed" = 20
+	"Hired" = 20
+	"Sandinar" = 20
+	"Rinnilele" = 20
+	"Issenar" = 20
+	"Manthevu" = 20
+	"Aza" = 20
+	"Ranalne" = 20
+	"Annith" = 20
+	"Faezani" = 20
+	"Cisildrenne" = 20
+	"Dezendrinath" = 20
+	"Myphildralas" = 20
+	"Thandrad" = 20
+	"Ceamiyud" = 20
+	"Candrin" = 20
+	"Femudreth" = 20
+	"Sandimu" = 20
+	"Thelgrireph" = 20
+	"Missu" = 20
+	"Shaedrale" = 20
+	"Maedri" = 20
+	"Tilnazi" = 20
+	"Tivriya" = 20
+	"Malnive" = 20
+	"Fephaza" = 20
+	"Ysannessur" = 20
+	"Cyssalli" = 20
+	"Meaphanthazer" = 20
+	"Aressa" = 20
+	"Innezinel" = 20
+	"Ima" = 20
+	"Meleye" = 20
+	"Ravrunned" = 20
+	"Kileph" = 20
+	"Lendripha" = 20
+	"Cessir" = 20
+	"Saeruvrith" = 20
+	"Nelandi" = 20
+	"Thaemirenna" = 20
+	"Imize" = 20
+	"Aveze" = 20
+	"Haevevrera" = 20
+	"Eldrille" = 20
+	"Rave" = 20
+	"Laphivi" = 20
+	"Raendavi" = 20
+	"Tira" = -20
+	"Naenthiphi" = -20
+	"Thasannal" = -20
+	"Femalillu" = -20
+	"Divrinne" = -20
+	"Ima" = -20
+	"Hevralan" = -20
+	"Seyildre" = -20
+	"Idriye" = -20
+	"Shilnad" = -20
+	"Mennivi" = -20
+	"Salgrisa" = -20
+	"Sidriphus" = -20
+	"Tayed" = -20
+	"Hired" = -20
+	"Sandinar" = -20
+	"Rinnilele" = -20
+	"Issenar" = -20
+	"Manthevu" = -20
+	"Aza" = -20
+	"Ranalne" = -20
+	"Annith" = -20
+	"Faezani" = -20
+	"Cisildrenne" = -20
+	"Dezendrinath" = -20
+	"Myphildralas" = -20
+	"Thandrad" = -20
+	"Ceamiyud" = -20
+	"Candrin" = -20
+	"Femudreth" = -20
+	"Sandimu" = -20
+	"Thelgrireph" = -20
+	"Missu" = -20
+	"Shaedrale" = -20
+	"Maedri" = -20
+	"Tilnazi" = -20
+	"Tivriya" = -20
+	"Malnive" = -20
+	"Fephaza" = -20
+	"Ysannessur" = -20
+	"Cyssalli" = -20
+	"Meaphanthazer" = -20
+	"Aressa" = -20
+	"Innezinel" = -20
+	"Ima" = -20
+	"Meleye" = -20
+	"Ravrunned" = -20
+	"Kileph" = -20
+	"Lendripha" = -20
+	"Cessir" = -20
+	"Saeruvrith" = -20
+	"Nelandi" = -20
+	"Thaemirenna" = -20
+	"Imize" = -20
+	"Aveze" = -20
+	"Haevevrera" = -20
+	"Eldrille" = -20
+	"Rave" = -20
+	"Laphivi" = -20
+	"Raendavi" = -20
+
+}
+
+leader_names = {
+	"Whisperwind"
+	"Stormrage"
+	"Staghelm"
+	"Feathermoon"
+	"Shadowsong"
+	"Ravencrest"
+	"Stareye"
+	"Sunstrider"
+	"Bearmantle"
+	"Rainshadow"
+	"Seashade"
+	"Feathershadow"
+	"Woodfeather"
+	"Evenstrike"
+	"Evencloud"
+	"Leafstrike"
+	"Shademight"
+	"Misteye"
+	"Skygazer"
+	"Seawing"
+	"Stonetree"
+	"Spiritbow"
+	"Summerspear"
+	"Duskspirit"
+	"Fogbough"
+	"Voidforest"
+	"Wintercaller"
+	"Mistsky"
+	"Stormwalker"
+	"Farshade"
+	"Wildwind"
+	"Farsinger"
+	"Thunderbough"
+	"Voidbow"
+	"Windcloud"
+	"Forestmoon"
+	"Amberflower"
+	"Evenstriker"
+	"Truestar"
+	"Evenwater"
+	"Nightwatcher"
+	"Windhelm"
+	"Autumnstar"
+	"Forestspirit"
+	"Silverblade"
+	"Skywater"
+	"Oceanwhisper"
+	"Darkcloud"
+	"Silentswift"
+	"Swiftwhisper"
+	"Lunaspyre"
+	"Nightsnow"
+	"Mossoak"
+	"Woodweaver"
+	"Evenoak"
+	"Lightgazer"
+	"Rapidarrow"
+	"Truefeather"
+	"Strongfeather"
+	"Evenclouds"
+	"Swiftswift"
+	"Treestalker"
+	"Ravengazer"
+	"Rapidstriker"
+	"Wintershot"
+	"Stormwater"
+	"Shadowmight"
+	"Oceanstar"
+	"Skystrike"
+	"Shieldgazer"
+	"Rainfire"
+	"Thundershadow"
+	"Dawnleaf"
+	"Voiddancer"
+	"Evenmight"
+	"Searunner"
+	"Sunarrow"
+	"Windwatcher"
+	"Shadearrow"
+	"Winterleaf"
+	"Silverforest"
+	"Mistbranch"
+	"Trueblower"
+	"Swiftbough"
+	"Bladeswift"
+	"Mistgrove"
+	"Ambershot"
+	"Truelance"
+	"Ravenrunner"
+	"Greensinger"
+	"Stormoak"
+	"Farstriker"
+	"Forestwalker"
+	"Moondew"
+	"Darklance"
+	"Stonescribe"
+	"Thunderflower"
+	"Blueshade"
+	"Bladespirit"
+	"Mistclouds"
+	"Seasword"
+	"Moonsnow"
+	"Bladebranch"
+	"Dewcloud"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+

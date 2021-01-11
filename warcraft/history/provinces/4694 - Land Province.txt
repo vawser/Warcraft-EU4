@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = STP
+controller = STP
+add_core = STP
+
+base_tax = 4
+base_production = 4
+base_manpower = 3
+
+culture = stillpine
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

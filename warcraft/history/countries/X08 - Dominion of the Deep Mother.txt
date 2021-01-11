@@ -1,0 +1,7 @@
+technology_group = tech_murloc
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = murloc
+religion = deep_mother
+
+capital = 3865

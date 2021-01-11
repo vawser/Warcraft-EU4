@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = CHI
+controller = CHI
+add_core = CHI
+
+base_tax = 1
+base_production = 1
+base_manpower = 3
+
+culture = chillmere
+religion = deep_mother
+
+trade_goods = unknown
+hre = no
+
+

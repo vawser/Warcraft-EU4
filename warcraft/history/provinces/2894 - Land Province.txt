@@ -1,0 +1,27 @@
+
+is_city = yes
+owner = SKS
+controller = SKS
+add_core = SKS
+
+base_tax = 3
+base_production = 4
+base_manpower = 2
+
+culture = skullsplitter
+religion = voodoo
+
+trade_goods = unknown
+hre = no
+
+# The Scourge
+594.1.1 = {
+	is_city = yes
+    owner = MSO
+    controller = MSO
+    add_core = MSO
+    
+    culture = moshogg
+    religion = geomancy
+}
+

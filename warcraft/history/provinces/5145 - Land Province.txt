@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SMW
+controller = SMW
+add_core = SMW
+
+base_tax = 3
+base_production = 3
+base_manpower = 4
+
+culture = steamwheedle_cartel
+religion = avarice
+
+trade_goods = unknown
+hre = no
+
+

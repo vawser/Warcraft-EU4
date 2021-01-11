@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = DKH
+controller = DKH
+add_core = DKH
+
+base_tax = 1
+base_production = 3
+base_manpower = 3
+
+culture = darkhatched
+religion = fleshshaping
+
+trade_goods = unknown
+hre = no
+
+

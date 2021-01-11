@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = WHE
+controller = WHE
+add_core = WHE
+
+base_tax = 4
+base_production = 3
+base_manpower = 4
+
+culture = wheathoof
+religion = earth_mother
+
+trade_goods = unknown
+hre = yes
+
+

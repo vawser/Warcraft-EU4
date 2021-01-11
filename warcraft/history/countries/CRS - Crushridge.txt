@@ -1,0 +1,21 @@
+technology_group = tech_ogre
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = crushridge
+religion = geomancy
+
+capital = 3479
+
+# The Burning Legion
+595.1.1 = {
+    set_global_flag = setup_crushridge
+    
+    monarch = {
+        name = "Kurtra"
+        dynasty = "the Smart"
+        adm = 5
+        dip = 0
+        mil = 5
+    }
+}
+

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = WRF
+controller = WRF
+add_core = WRF
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+culture = winterfin
+religion = deep_mother
+
+trade_goods = unknown
+hre = no
+
+

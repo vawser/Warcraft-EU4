@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = DDW
+controller = DDW
+add_core = DDW
+
+base_tax = 3
+base_production = 1
+base_manpower = 1
+
+culture = deadwood
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

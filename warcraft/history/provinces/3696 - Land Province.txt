@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = KAO
+controller = KAO
+add_core = KAO
+
+base_tax = 2
+base_production = 1
+base_manpower = 1
+
+culture = kao_tien
+religion = fleshshaping
+
+trade_goods = unknown
+hre = no
+
+

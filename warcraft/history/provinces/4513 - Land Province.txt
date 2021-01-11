@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = BAT
+controller = BAT
+add_core = BAT
+
+base_tax = 3
+base_production = 4
+base_manpower = 3
+
+culture = bataari
+religion = ordos
+
+trade_goods = unknown
+hre = no
+
+

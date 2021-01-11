@@ -1,0 +1,28 @@
+
+is_city = yes
+owner = TOH
+controller = TOH
+add_core = TOH
+
+base_tax = 4
+base_production = 3
+base_manpower = 1
+
+culture = orc
+religion = fel
+
+trade_goods = unknown
+hre = no
+
+# The Scourge
+594.1.1 = {
+	is_city = yes
+    owner = LSO
+    controller = LSO
+    add_core = LSO
+    
+    culture = lost_ones
+    religion = shadow
+}
+
+

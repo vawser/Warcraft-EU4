@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = MRA
+controller = MRA
+add_core = MRA
+
+base_tax = 1
+base_production = 2
+base_manpower = 3
+
+culture = magram
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

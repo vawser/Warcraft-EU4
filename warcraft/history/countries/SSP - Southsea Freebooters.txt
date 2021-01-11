@@ -1,0 +1,19 @@
+technology_group = tech_human
+government = pirate
+add_government_reform = pirate_republic_reform
+primary_culture = southsea_freebooter
+religion = avarice
+religious_school = military_philosophy
+
+capital = 5137
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Zain"
+        dynasty = "Walker"
+        adm = 2
+        dip = 3
+        mil = 3
+    }
+}

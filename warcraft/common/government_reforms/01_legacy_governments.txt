@@ -1,0 +1,678 @@
+# Note: MUST be loaded before the government forms that reference them, otherwise CTD at launch will occur.
+#--------------------------------------------
+# Monarchy
+#--------------------------------------------
+autocracy_legacy = {
+	icon = "crown"
+	legacy_government = yes # legacy_equivalent = despotic_monarchy_legacy
+    
+    monarchy = yes
+  
+	ai = { factor = 1 }
+    
+    valid_for_new_country = yes   # Can be converted to via nation release
+    allow_normal_conversion = yes # Can be picked as a new reform
+	allow_convert = yes           # Can be converted to via peace term
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+feudalism_legacy = {
+	icon = "castle"
+    legacy_government = yes # legacy_equivalent = feudal_monarchy_legacy
+    
+    monarchy = yes
+
+	ai = { factor = 1 }
+    
+    valid_for_new_country = yes   # Can be converted to via nation release
+    allow_normal_conversion = yes # Can be picked as a new reform
+	allow_convert = yes           # Can be converted to via peace term
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+admiralty_legacy = {
+	icon = "admiralty"
+    legacy_government = yes # legacy_equivalent = admiralty_legacy
+    
+    monarchy = yes
+	
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+	allow_convert = no              # Can be converted to via peace term
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+scourge_legacy = {
+	icon = "undead_monarchy"
+    legacy_government = yes # legacy_equivalent = scourge_legacy
+    
+    monarchy = yes
+    
+	royal_marriage = no
+    maintain_dynasty = no
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = no    # Can be picked as a new reform
+	allow_convert = no              # Can be converted to via peace term
+    lock_level_when_selected = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+kingdom_of_magic_legacy = {
+	icon = "magocracy"
+    legacy_government = yes # legacy_equivalent = kingdom_of_magic_legacy
+    
+    monarchy = yes
+	queen = yes
+
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = no    # Can be picked as a new reform
+	allow_convert = no              # Can be converted to via peace term
+    lock_level_when_selected = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+naga_domain_legacy = {
+    icon = "clergyman"
+    legacy_government = yes # legacy_equivalent = naga_domain_legacy
+    
+    monarchy = yes
+    
+    heir = no
+	queen = no
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no    # Can be converted to via nation release
+    allow_normal_conversion = no # Can be picked as a new reform
+	allow_convert = no            # Can be converted to via peace term
+    lock_level_when_selected = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+scourge_domain_legacy = {
+    icon = "clergyman"
+    legacy_government = yes # legacy_equivalent = scourge_domain_legacy
+    
+    monarchy = yes
+    
+    heir = no
+	queen = no
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no    # Can be converted to via nation release
+    allow_normal_conversion = no # Can be picked as a new reform
+	allow_convert = no            # Can be converted to via peace term
+    lock_level_when_selected = yes
+    
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+}
+dragonflight_brood_legacy = {
+	icon = "crown"
+    legacy_government = yes # legacy_equivalent = dragonflight_brood_legacy
+    
+    monarchy = yes
+
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = no    # Can be picked as a new reform
+    allow_convert = no              # Can be converted to via peace term
+    lock_level_when_selected = yes
+
+    valid_for_nation_designer = no
+    nation_designer_cost = 0
+    nation_designer_trigger = {
+        is_dragon_culture_group = yes
+    }
+}
+
+#--------------------------------------------
+# Republic
+#--------------------------------------------
+noble_republic_legacy = {
+	icon = "nobleman"
+    legacy_government = yes # legacy_equivalent = noble_republic_legacy
+    
+    republic = yes
+    
+    duration = 12
+	royal_marriage = yes
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+mercantile_republic_legacy = {
+	icon = "politician"
+    legacy_government = yes # legacy_equivalent = mercantile_republic_legacy
+    
+    republic = yes
+
+    boost_income = yes
+	duration = 4
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+despotic_republic_legacy = {
+	icon = "politician"
+    legacy_government = yes # legacy_equivalent = despotic_republic_legacy
+    
+    dictatorship = yes
+    
+	has_term_election = no
+	
+    ai = { factor = 0 }
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+magocracy_legacy = {
+	icon = "magocracy"
+    legacy_government = yes # legacy_equivalent = magocracy_legacy
+    
+    republic = yes
+
+	royal_marriage = no
+	has_term_election = yes
+	election_on_death = yes
+	duration = 10
+
+    ai = { factor = 0 }
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+free_city_legacy = {
+	icon = "free_city"
+    legacy_government = yes # legacy_equivalent = free_city_legacy
+    
+    republic = yes
+
+    free_city = yes
+    fixed_rank = 1
+    duration = 4
+
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = no    # Can be picked as a new reform
+    allow_convert = no              # Can be converted to via peace term
+    lock_level_when_selected = yes
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+trading_city_legacy = {
+	icon = "trading_city"
+    legacy_government = yes # legacy_equivalent = trading_city_legacy
+    
+    republic = yes
+    
+    is_trading_city = yes
+    duration = 4
+    boost_income = yes
+	
+    ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = no    # Can be picked as a new reform
+    allow_convert = no              # Can be converted to via peace term
+    lock_level_when_selected = yes
+
+    valid_for_nation_designer = no
+    nation_designer_cost = 0
+}
+colonial_government_legacy = {
+	icon = "peasants"
+    legacy_government = yes # legacy_equivalent = colonial_government_legacy
+    
+    republic = yes
+
+	duration = 4
+	fixed_rank = 1
+
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = no    # Can be picked as a new reform
+    allow_convert = no              # Can be converted to via peace term
+    lock_level_when_selected = yes
+
+    valid_for_nation_designer = no
+    nation_designer_cost = 0
+}
+tinker_republic_legacy = {
+	icon = "politician"
+    legacy_government = yes # legacy_equivalent = tinker_republic_legacy
+    
+    republic = yes
+    
+    boost_income = yes
+	duration = 6
+
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = no              # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+
+#--------------------------------------------
+# Theocracy
+#--------------------------------------------
+theocracy_legacy = {
+	icon = "paper_money_map"
+    legacy_government = yes # legacy_equivalent = theocracy_legacy
+    
+    religion = yes
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+monastic_order_legacy = {
+	icon = "wow_order"
+    legacy_government = yes # legacy_equivalent = monastic_order_legacy
+    
+    religion = yes
+    
+    monastic = yes
+	rulers_can_be_generals = yes
+	heirs_can_be_generals = yes
+    
+    ai = { factor = 0 }
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+demonic_order_legacy = {
+	icon = "religious_leader"
+    legacy_government = yes # legacy_equivalent = demonic_order_legacy
+    
+    religion = yes
+    monastic = yes
+	rulers_can_be_generals = yes
+	heirs_can_be_generals = yes
+	royal_marriage = no
+	different_religion_group_acceptance = -100
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = no              # Can be converted to via peace term
+    lock_level_when_selected = yes
+    
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+druidic_circle_legacy = {
+	icon = "religious_leader"
+    legacy_government = yes # legacy_equivalent = druidic_circle_legacy
+    
+    religion = yes
+    monastic = yes
+	rulers_can_be_generals = yes
+	heirs_can_be_generals = yes
+	royal_marriage = no
+
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = no              # Can be converted to via peace term
+    lock_level_when_selected = yes
+    
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+elemental_cult_legacy = {
+	icon = "paper_money_map"
+    legacy_government = yes # legacy_equivalent = elemental_cult_legacy
+    
+    religion = yes
+
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = no              # Can be converted to via peace term
+    lock_level_when_selected = yes
+    
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+titan_facility_legacy = {
+	icon = "paper_money_map"
+    legacy_government = yes # legacy_equivalent = shadow_cult_legacy
+    
+    religion = yes
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = no              # Can be converted to via peace term
+    lock_level_when_selected = yes
+    
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+cult_of_hakkar_legacy = {
+	icon = "paper_money_map"
+    legacy_government = yes # legacy_equivalent = shadow_cult_legacy
+    
+    religion = yes
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = no              # Can be converted to via peace term
+    lock_level_when_selected = yes
+    
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+tolvir_kingdom_legacy = {
+	icon = "paper_money_map"
+    legacy_government = yes # legacy_equivalent = shadow_cult_legacy
+    
+    religion = yes
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = no              # Can be converted to via peace term
+    lock_level_when_selected = yes
+    
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+aqir_kingdom_legacy = {
+	icon = "worgriders"
+    legacy_government = yes # legacy_equivalent = warband_legacy
+    
+    religion = yes
+
+	ai = { factor = 0 }
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+nerubian_kingdom_legacy = {
+	icon = "worgriders"
+    legacy_government = yes # legacy_equivalent = warband_legacy
+    
+    religion = yes
+
+	ai = { factor = 0 }
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+mantid_kingdom_legacy = {
+	icon = "worgriders"
+    legacy_government = yes # legacy_equivalent = warband_legacy
+    
+    religion = yes
+
+	ai = { factor = 0 }
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+naga_empire_legacy = {
+	icon = "worgriders"
+    legacy_government = yes # legacy_equivalent = warband_legacy
+    
+    religion = yes
+
+	ai = { factor = 0 }
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+
+#--------------------------------------------
+# Tribal
+#--------------------------------------------
+orcish_horde_legacy = {
+	icon = "worgriders"
+    legacy_government = yes # legacy_equivalent = warband_legacy
+    
+    tribal = yes
+    nomad = yes
+
+	ai = { factor = 0 }
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+warband_legacy = {
+	icon = "worgriders"
+    legacy_government = yes # legacy_equivalent = warband_legacy
+    
+    tribal = yes
+    nomad = yes
+	
+	ai = { factor = 0 }
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+tribal_federation_legacy = {
+	icon = "tribal_centralize_power"
+    legacy_government = yes # legacy_equivalent = tribal_federation_legacy
+    
+    tribal = yes
+	heir = yes
+	queen = yes
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+tribal_despotism_legacy = {
+	icon = "wow_khan"
+    legacy_government = yes # legacy_equivalent = tribal_despotism_legacy
+    
+    tribal = yes
+	heir = yes
+	queen = yes
+	
+	ai = { factor = 0 }
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+troll_kingdom_legacy = {
+	icon = "worgriders"
+    legacy_government = yes # legacy_equivalent = warband_legacy
+    
+    tribal = yes
+    nomad = yes
+	generals_become_rulers = yes
+
+	ai = { factor = 0 }
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+dwarven_clan_legacy = {
+	icon = "worgriders"
+    legacy_government = yes # legacy_equivalent = warband_legacy
+    
+    tribal = yes
+	heir = yes
+	queen = yes
+
+	ai = { factor = 0 }
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+satyr_sect_legacy = {
+	icon = "worgriders"
+    legacy_government = yes # legacy_equivalent = warband_legacy
+    
+    tribal = yes
+	heir = yes
+	queen = yes
+
+	ai = { factor = 0 }
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+
+#------------------------------------------------------------
+# Native
+#------------------------------------------------------------
+native_tribe_legacy = {
+	icon = "crown"
+    legacy_government = yes # legacy_equivalent = native_tribe_legacy
+    
+    native_mechanic = yes
+	republican_name = yes
+	royal_marriage = no
+    fixed_rank = 1
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = yes     # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = yes             # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+
+#------------------------------------------------------------
+# Pirate
+#------------------------------------------------------------
+pirate_republic_legacy = {
+	icon = "trading_city"
+    legacy_government = yes # legacy_equivalent = pirate_republic_legacy
+    
+    republic = yes
+    has_term_election = yes
+	duration = 4
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = no              # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+pirate_kingdom_legacy = {
+	icon = "trading_city"
+    legacy_government = yes # legacy_equivalent = pirate_kingdom_legacy
+    
+    monarchy = yes
+	has_term_election = no
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = no      # Can be converted to via nation release
+    allow_normal_conversion = yes   # Can be picked as a new reform
+    allow_convert = no              # Can be converted to via peace term
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
+

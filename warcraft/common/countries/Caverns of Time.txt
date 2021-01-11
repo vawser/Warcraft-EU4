@@ -1,0 +1,197 @@
+graphical_culture = bronze_dragonflight_gfx
+
+color = { 140 121 79 }
+
+monarch_names = {
+	"Nokodnos" = 20
+	"Maraldomu" = 20
+	"Kardanzion" = 20
+	"Gridundormu" = 20
+	"Panardomu" = 20
+	"Tolnizdomu" = 20
+	"Kirzarrion" = 20
+	"Kizgoddomu" = 20
+	"Pegardormu" = 20
+	"Trotilzion" = 20
+	"Eremrion" = 20
+	"Rizzezzion" = 20
+	"Egamrion" = 20
+	"Kimdirdormu" = 20
+	"Trarizdomu" = 20
+	"Trozardormu" = 20
+	"Piaddumdomu" = 20
+	"Nakomdomu" = 20
+	"Daumelrius" = 20
+	"Kitorrion" = 20
+	"Rekkemdormu" = 20
+	"Ilmuzzion" = 20
+	"Naukurdomu" = 20
+	"Zelimdomu" = 20
+	"Iangaddormu" = 20
+	"Dradazdomu" = 20
+	"Pilimdomu" = 20
+	"Rizzemdormu" = 20
+	"Ryddannos" = 20
+	"Akamnos" = 20
+	"Algoznos" = 20
+	"Daramnos" = 20
+	"Zoleznos" = 20
+	"Gargondomu" = 20
+	"Tridezdormu" = 20
+	"Gramdezdomu" = 20
+	"Dratirdomu" = 20
+	"Pirguddormu" = 20
+	"Dokomnos" = 20
+	"Tronmaddomu" = 20
+	"Dynnerdomu" = 20
+	"Drinnerdomu" = 20
+	"Nomnurdormu" = 20
+	"Ydduzdomu" = 20
+	"Paurgomzion" = 20
+	"Grauggerdomu" = 20
+	"Yrzezdormu" = 20
+	"Tangindomu" = 20
+	"Pateddomu" = 20
+	"Irrudzion" = 20
+	"Irmu" = -20
+	"Chrirmi" = -20
+	"Tairmu" = -20
+	"Nirmi" = -20
+	"Mogarmi" = -20
+	"Zoldadormi" = -20
+	"Muldodormi" = -20
+	"Nazodormi" = -20
+	"Vuslirmu" = -20
+	"Mudirmi" = -20
+	"Girmu" = -20
+	"Tormi" = -20
+	"Sormi" = -20
+	"Zudormi" = -20
+	"Kidririmi" = -20
+	"Kridadormi" = -20
+	"Grauzadormi" = -20
+	"Gudodormi" = -20
+	"Idridormi" = -20
+	"Zodormu" = -20
+	"Cormu" = -20
+	"Naidormi" = -20
+	"Sadormi" = -20
+	"Kirmi" = -20
+	"Sindadormi" = -20
+	"Miagadormi" = -20
+	"Sanidormi" = -20
+	"Cagodormi" = -20
+	"Vudrirmi" = -20
+	"Konadormi" = -20
+	"Kaarmi" = -20
+	"Cirmi" = -20
+	"Garmi" = -20
+	"Todormi" = -20
+	"Tolririmi" = -20
+	"Graisladormi" = -20
+	"Tugnodormi" = -20
+	"Aunridormi" = -20
+	"Gruznirmi" = -20
+	"Sidormi" = -20
+	"Murimi" = -20
+	"Krurimi" = -20
+	"Korimi" = -20
+	"Drormi" = -20
+	"Nopradormi" = -20
+	"Valnirimi" = -20
+	"Vuprirmi" = -20
+	"Kaiznidormi" = -20
+	"Gropririmi" = -20
+	"Izormi" = -20
+
+}
+
+leader_names = {
+	"the Wise"
+	"the Quick"
+	"the Sly"
+	"the Coy"
+	"the Giant"
+	"the Immense"
+	"the Vast"
+	"the Towering"
+	"the Bulky"
+	"the Lusty"
+	"the Mighty"
+	"the Titanic"
+	"the Potent"
+	"the Powerful"
+	"the Stout"
+	"the Tough"
+	"the Strong"
+	"the Sturdy"
+	"the Stalwart"
+	"the Brawny"
+	"the Hearty"
+	"the Great"
+	"the Almighty"
+	"the Gutsy"
+	"the Punchy"
+	"the Astute"
+	"the Careful"
+	"the Enlightened"
+	"the Perceptive"
+	"the Prudent"
+	"the Sane"
+	"the Shrewd"
+	"the Smart"
+	"the Wary"
+	"the Cunning"
+	"the Keen"
+	"the Sage"
+	"the Sharp"
+	"the Crafty"
+	"the Erudite"
+	"the Witty"
+	"the Sapient"
+	"the Tactful"
+	"the Furious"
+	"the Desperate"
+	"the Fierce"
+	"the Frantic"
+	"the Livid"
+	"the Raging"
+	"the Violent"
+	"the Frenzied"
+	"the Inciter"
+	"the Insane"
+	"the Crazed"
+	"the Maniac"
+	"the Vicious"
+	"the Rabid"
+	"the Delirious"
+	"the Fanatical"
+	"the Fervent"
+	"the Virulent"
+	"the Zealous"
+	"the Astute"
+	"the Educated"
+	"the Ample"
+	"the Judicious"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+

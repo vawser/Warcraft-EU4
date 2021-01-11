@@ -1,0 +1,28 @@
+
+is_city = yes
+owner = OOG
+controller = OOG
+add_core = OOG
+
+base_tax = 4
+base_production = 1
+base_manpower = 3
+
+culture = oogah
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+# The Scourge
+594.1.1 = {
+	is_city = yes
+    owner = DUM
+    controller = DUM
+    add_core = DUM
+    
+    culture = dunemaul
+    religion = geomancy
+}
+
+

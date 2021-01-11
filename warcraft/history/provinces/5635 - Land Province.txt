@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = FWD
+controller = FWD
+add_core = FWD
+
+base_tax = 3
+base_production = 1
+base_manpower = 3
+
+culture = foulweald
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

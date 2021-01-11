@@ -1,0 +1,66 @@
+﻿l_english:
+ #-----------------------------------
+ # Casus Belli
+ #-----------------------------------
+ cb_warlust: "Warlust"
+ cb_warlust_desc: "Our clan has passaged through the Dark Portal to the world of Azeroth. Let us raid and pillage the people of this land."
+ 
+ cb_against_evil: "Punish Evil"
+ cb_against_evil_desc: "Their nation known for their evil acts against our world and must be stopped for the world's own good."
+ 
+ cb_titan_rivalry: "Titanic Clash"
+ cb_titan_rivalry_desc: "We must force them to our religion."
+ 
+ cb_legion_invasion: "Legion Invasion"
+ cb_legion_invasion_desc: "They will be crushed beneath the Burning Legion!"
+ 
+ cb_wrath_of_azshara: "Wrath of Azshara"
+ cb_wrath_of_azshara_desc: "They will be better off in our glorious naga empire!"
+ 
+ cb_pirates: "Pirates!"
+ cb_pirates_desc: "Our coasts have been raided by pirates. Let us strike back and stop these scoundrels."
+ 
+ cb_justified_war: "Justified War"
+ cb_justified_war_desc: "Our justification to declare war is acceptable. Bring them into the fold."
+ 
+ cb_merciless_war: "Merciless War"
+ cb_merciless_war_desc: "Our justification to declare war is acceptable. Bring them into the fold, without mercy."
+ 
+ cb_distant_conquest: "Distant Conquest"
+ cb_distant_conquest_desc: "We must secure settlements in distant lands to bolster our presence there."
+ 
+ #-----------------------------------
+ # Wargoals
+ #-----------------------------------
+ take_capital_justified: "Justified War"
+ take_capital_justified_desc: ""
+ 
+ take_capital_merciless: "Merciless War"
+ take_capital_merciless_desc: ""
+ 
+ take_capital_barbarous: "Barbarous War"
+ take_capital_barbarous_desc: ""
+ 
+ take_capital_ruthless: "Ruthless War"
+ take_capital_ruthless_desc: ""
+ 
+ #-----------------------------------
+ # War Names
+ #-----------------------------------
+ JUSTIFIED_WAR_NAME: "$ORDER$$FIRST$ Justified War against $SECOND$"
+ MERCILESS_WAR_NAME: "$ORDER$$FIRST$ Merciless War against $SECOND$"
+ BARBAROUS_WAR_NAME: "$ORDER$$FIRST$ Barbarous War against $SECOND$"
+ RUTHLESS_WAR_NAME: "$ORDER$$FIRST$ Ruthless War against $SECOND$"
+ 
+ #-----------------------------------
+ # Peace Options
+ #-----------------------------------
+ PEACE_po_orc_annex: "Annex All"
+ po_orc_annex: "Annex All"
+ po_orc_annex_desc: "Annex all provinces from the human nation, automatically coring them and converting them to Orc culture and Fel religion."
+ CB_ALLOWED_po_orc_annex: "Annex All"
+ 
+ PEACE_po_dismantle_alliance: "Dismantle Alliance"
+ po_dismantle_alliance: "Dismantle Alliance"
+ po_dismantle_alliance_desc: "Dismantle the Alliance of Lordaeron."
+ CB_ALLOWED_po_dismantle_alliance: "Dismantle the Alliance"

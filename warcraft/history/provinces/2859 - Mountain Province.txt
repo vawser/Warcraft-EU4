@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = IRH
+controller = IRH
+add_core = IRH
+
+base_tax = 2
+base_production = 3
+base_manpower = 2
+
+culture = ironhorn
+religion = earth_mother
+
+trade_goods = unknown
+hre = yes
+
+

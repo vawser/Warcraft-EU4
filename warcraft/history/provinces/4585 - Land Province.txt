@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = MAN
+controller = MAN
+add_core = MAN
+
+base_tax = 3
+base_production = 2
+base_manpower = 4
+
+culture = mantid
+religion = yshaarj
+
+trade_goods = unknown
+hre = no
+
+

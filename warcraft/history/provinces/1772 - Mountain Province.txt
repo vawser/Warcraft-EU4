@@ -1,0 +1,17 @@
+
+is_city = no
+native_size = 90
+native_ferocity = 1
+native_hostileness = 10
+
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+culture = gnome
+religion = technomancy
+
+trade_goods = unknown
+hre = no
+
+

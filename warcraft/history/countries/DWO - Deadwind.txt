@@ -1,0 +1,20 @@
+technology_group = tech_ogre
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = deadwind
+religion = geomancy
+
+capital = 3077
+
+# The Scourge
+594.1.1 = {
+    set_global_flag = setup_deadwind
+    
+    monarch = {
+        name = "Dugnog"
+        dynasty = "the Sly"
+        adm = 5
+        dip = 5
+        mil = 4
+    }
+}

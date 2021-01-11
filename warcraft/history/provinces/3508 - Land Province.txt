@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = REP
+controller = REP
+add_core = REP
+
+base_tax = 4
+base_production = 1
+base_manpower = 1
+
+culture = redpine
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

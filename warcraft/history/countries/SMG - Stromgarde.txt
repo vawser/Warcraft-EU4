@@ -1,0 +1,20 @@
+technology_group = tech_human
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+primary_culture = stromgarde
+religion = the_holy_light
+
+capital = 3445
+
+# The First War
+592.1.1 = {
+    monarch = { 
+		name = "Thoras" 
+		dynasty = "Trollbane" 
+		adm = 3
+		dip = 2
+		mil = 5 
+	} 
+}
+

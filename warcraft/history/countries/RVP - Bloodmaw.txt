@@ -1,0 +1,18 @@
+technology_group = tech_furbolg
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = bloodmaw
+religion = shamanism
+
+capital = 5953
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Drandirg"
+        dynasty = "Bloodmaw"
+        adm = 0
+        dip = 5
+        mil = 0
+    }
+}

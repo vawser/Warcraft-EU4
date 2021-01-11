@@ -1,0 +1,17 @@
+technology_group = tech_forest_troll
+government = monarchy
+add_government_reform = troll_kingdom_reform
+primary_culture = revantusk
+religion = voodoo
+
+capital = 3568
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Mantul the Potent"
+        adm = 4
+        dip = 2
+        mil = 4
+    }
+}

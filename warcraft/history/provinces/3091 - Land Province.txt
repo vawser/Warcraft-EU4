@@ -1,0 +1,28 @@
+
+is_city = yes
+owner = ATL
+controller = ATL
+add_core = ATL
+
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+culture = atalai
+religion = hakkari
+
+trade_goods = unknown
+hre = no
+
+# The Scourge
+594.1.1 = {
+	is_city = yes
+    owner = LSO
+    controller = LSO
+    add_core = LSO
+    
+    culture = lost_ones
+    religion = shadow
+}
+
+

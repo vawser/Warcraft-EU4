@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = WFY
+controller = WFY
+add_core = WFY
+
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+culture = windfury
+religion = wind
+
+trade_goods = unknown
+hre = no
+
+

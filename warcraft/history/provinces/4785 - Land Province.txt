@@ -1,0 +1,26 @@
+
+is_city = no
+native_size = 50
+native_ferocity = 5
+native_hostileness = 5
+
+base_tax = 1
+base_production = 3
+base_manpower = 4
+
+culture = primitive
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+# The Burning Legion
+595.1.1 = {
+    is_city = yes
+    owner = DAS
+    controller = DAS
+    add_core = DAS
+    
+    culture = darnassus
+    religion = elune
+}

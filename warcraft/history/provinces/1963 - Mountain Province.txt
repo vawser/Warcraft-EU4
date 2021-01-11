@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = OOM
+controller = OOM
+add_core = OOM
+
+base_tax = 3
+base_production = 1
+base_manpower = 2
+
+culture = oomlot
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

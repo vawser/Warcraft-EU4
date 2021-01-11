@@ -1,0 +1,23 @@
+﻿l_english: 
+ #-------------------------------------
+ # Scourge
+ #-------------------------------------
+ wwu_scourge.1.title: "The Scourge"
+ wwu_scourge.1.desc: "The Lich King has been awoken and now controls the Scourge, a mindless undead horde. Unless defeated atop Icecrown Citadel, the Lich King and his scourge minions shall infest every corner of Azeroth."
+ wwu_scourge.1.option.a: "Arise!"
+ 
+ wwu_scourge.2.title: "Scourging of Lordaeron"
+ wwu_scourge.2.desc: "Under the command of the Lich King, Kel'Thuzad founded the Cult of the Damned within Lordaeron. The cult spread a plague throughout the lands of Lordaeron that will turn those infected into undead."
+ wwu_scourge.2.option.a: "Odd tasting bread..."
+ 
+ wwu_scourge.3.title: "Lich King Destroyed"
+ wwu_scourge.3.desc: "We have taken control of Icecrown Citadel and laid siege to the Lich King's throne. With Frostmorne shattered, the Helm of Domination may pass to somebody with the will to resist."
+ wwu_scourge.3.option.a: "Excellent"
+ 
+ wwu_scourge.4.title: "Defilement of the Sunwell"
+ wwu_scourge.4.desc: "We have taken control of the Sunwell. Let us restore Kel'Thuzad, renewing his lichdom. This will destroy the Sunwell, but that matters little to us."
+ wwu_scourge.4.option.a: "Excellent"
+ 
+ wwu_scourge.5.title: "Defilement of the Sunwell"
+ wwu_scourge.5.desc: "The Scourge have taken control of the Sunwell and destroyed whilsting restoring Kel'Thuzad's lichdom. The loss of the Sunwell will mean dire times for elves of [Root.GetName]."
+ wwu_scourge.5.option.a: "This is horrific..."

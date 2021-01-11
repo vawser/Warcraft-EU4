@@ -1,0 +1,144 @@
+namespace = wwu_setup_orc
+
+# Orgrimmar
+country_event = {
+	id = wwu_setup_orc.1
+	title = wwu_setup_orc.1.title
+	desc = wwu_setup_orc.1.desc
+	picture = ORC_SHAMAN_eventPicture
+
+    major = yes
+	fire_only_once = yes
+    
+	trigger = {
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
+        NOT = { exists = ORG }
+        NOT = { has_global_flag = setup_orgrimmar }
+        has_global_flag = setup_orgrimmar
+        current_age = age_scourge
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_orgrimmar
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {
+		name = wwu_setup_orc.1.option.a
+        
+        area_durotar_1 = {
+            limit = { is_empty = yes }
+            cede_province = ORG
+            add_core = ORG
+            change_culture = orgrimmar
+            change_religion = shamanism
+        }
+        area_durotar_2 = {
+            limit = { is_empty = yes }
+            cede_province = ORG
+            add_core = ORG
+            change_culture = orgrimmar
+            change_religion = shamanism
+        }
+        if = {
+            limit = { 
+                7214 = { is_empty = yes }
+            }
+            7214 = {
+                cede_province = ORG
+                add_core = ORG
+                change_culture = orgrimmar
+                change_religion = shamanism
+            }
+        }
+        if = {
+            limit = { 
+                7200 = { is_empty = yes }
+            }
+            7200 = {
+                cede_province = ORG
+                add_core = ORG
+                change_culture = orgrimmar
+                change_religion = shamanism
+            }
+        }
+        if = {
+            limit = { 
+                7213 = { is_empty = yes }
+            }
+            7213 = {
+                cede_province = ORG
+                add_core = ORG
+                change_culture = orgrimmar
+                change_religion = shamanism
+            }
+        }
+        if = {
+            limit = { 
+                7216 = { is_empty = yes }
+            }
+            7216 = {
+                cede_province = ORG
+                add_core = ORG
+                change_culture = orgrimmar
+                change_religion = shamanism
+            }
+        }
+        if = {
+            limit = { 
+                7211 = { is_empty = yes }
+            }
+            7211 = {
+                cede_province = ORG
+                add_core = ORG
+                change_culture = orgrimmar
+                change_religion = shamanism
+            }
+        }
+        if = {
+            limit = { 
+                7229 = { is_empty = yes }
+            }
+            7229 = {
+                cede_province = ORG
+                add_core = ORG
+                change_culture = orgrimmar
+                change_religion = shamanism
+            }
+        }
+        if = {
+            limit = { 
+                7257 = { is_empty = yes }
+            }
+            7257 = {
+                cede_province = ORG
+                add_core = ORG
+                change_culture = orgrimmar
+                change_religion = shamanism
+            }
+        }
+        if = {
+            limit = { 
+                7194 = { is_empty = yes }
+            }
+            7194 = {
+                cede_province = ORG
+                add_core = ORG
+                change_culture = orgrimmar
+                change_religion = shamanism
+            }
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+}

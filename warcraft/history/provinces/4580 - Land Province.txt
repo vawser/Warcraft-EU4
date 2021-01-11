@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = OSU
+controller = OSU
+add_core = OSU
+
+base_tax = 1
+base_production = 2
+base_manpower = 3
+
+culture = osul
+religion = ordos
+
+trade_goods = unknown
+hre = no
+
+

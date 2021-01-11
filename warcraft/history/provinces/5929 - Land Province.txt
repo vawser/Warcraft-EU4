@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = WTA
+controller = WTA
+add_core = WTA
+
+base_tax = 2
+base_production = 3
+base_manpower = 1
+
+culture = winterfall
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = ORD
+controller = ORD
+add_core = ORD
+
+base_tax = 2
+base_production = 4
+base_manpower = 4
+
+culture = ordo
+religion = ordos
+
+trade_goods = unknown
+hre = no
+
+

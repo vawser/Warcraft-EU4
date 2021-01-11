@@ -1,0 +1,54 @@
+namespace = wwu_primitive_flavour
+
+country_event = {
+	id = wwu_primitive_flavour.1
+	title = wwu_primitive_flavour.1.title
+	desc = wwu_primitive_flavour.1.desc
+	picture = ELF_TROLL_eventPicture
+	
+	trigger = {
+		is_lesser = yes
+		any_neighbor_country = {
+			NOT = { 
+                has_opinion = {
+                    who = ROOT
+                    value = 25
+                }
+            }
+		}
+	}
+
+    mean_time_to_happen = {
+		months = 720
+	}
+	
+	option = {
+		name = wwu_primitive_flavour.1.opt1
+		
+		
+		random_list = {
+			40 = {
+				custom_tooltip = wwu_primitive_flavour.1.opt1.tt_win
+				add_prestige = 20
+			}
+			60 = {
+				custom_tooltip = wwu_primitive_flavour.1.opt1.tt_lose
+				kill_ruler = yes
+				add_prestige = 10
+			}
+		}
+	}
+	option = {
+		name = wwu_primitive_flavour.1.opt2
+		
+		add_country_modifier = {
+			name = increase_security
+			duration = 1825
+		}
+	}
+	option = {
+		name = wwu_primitive_flavour.1.opt3
+		
+		add_prestige = -5
+	}
+}

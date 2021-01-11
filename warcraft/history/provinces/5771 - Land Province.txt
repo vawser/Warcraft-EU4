@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = BMW
+controller = BMW
+add_core = BMW
+
+base_tax = 4
+base_production = 2
+base_manpower = 3
+
+culture = blackmaw
+religion = shamanism
+
+trade_goods = unknown
+hre = no
+
+

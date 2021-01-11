@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = LEG
+controller = LEG
+add_core = LEG
+
+base_tax = 1
+base_production = 4
+base_manpower = 4
+
+culture = legashi
+religion = fel
+
+trade_goods = unknown
+hre = no
+
+

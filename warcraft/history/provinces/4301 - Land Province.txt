@@ -1,0 +1,19 @@
+
+is_city = yes
+owner = KRS
+controller = KRS
+add_core = KRS
+
+base_tax = 3
+base_production = 1
+base_manpower = 3
+
+culture = krasari
+religion = fleshshaping
+
+trade_goods = unknown
+hre = no
+
+
+
+

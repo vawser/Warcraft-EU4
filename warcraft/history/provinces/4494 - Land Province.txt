@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SHO
+controller = SHO
+add_core = SHO
+
+base_tax = 1
+base_production = 1
+base_manpower = 2
+
+culture = shao_tien
+religion = fleshshaping
+
+trade_goods = unknown
+hre = no
+
+

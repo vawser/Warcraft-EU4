@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = GMT
+controller = GMT
+add_core = GMT
+
+base_tax = 2
+base_production = 1
+base_manpower = 3
+
+culture = grimtotem
+religion = shamanism
+
+trade_goods = unknown
+hre = yes
+
+

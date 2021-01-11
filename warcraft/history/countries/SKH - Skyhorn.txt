@@ -1,0 +1,62 @@
+technology_group = tech_highmountain_tauren
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = skyhorn
+religion = earth_mother
+
+capital = 2865
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Melutha"
+        dynasty = "Stonerunner"
+        adm = 5
+        dip = 1
+        mil = 2
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Bubai"
+        dynasty = "Mistchaser"
+        adm = 0
+        dip = 0
+        mil = 3
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Nagat"
+        dynasty = "Stonechaser"
+        adm = 2
+        dip = 1
+        mil = 5
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Ceibei"
+        dynasty = "Stonehoof"
+        adm = 3
+        dip = 5
+        mil = 1
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Magotha"
+        dynasty = "Winterfury"
+        adm = 4
+        dip = 4
+        mil = 0
+    }
+}

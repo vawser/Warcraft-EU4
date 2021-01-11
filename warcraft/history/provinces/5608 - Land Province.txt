@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = XAV
+controller = XAV
+add_core = XAV
+
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+culture = xavian
+religion = fel
+
+trade_goods = unknown
+hre = no
+
+

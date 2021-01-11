@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = GSV
+controller = GSV
+add_core = GSV
+
+base_tax = 2
+base_production = 1
+base_manpower = 4
+
+culture = greenstone
+religion = celestials
+
+trade_goods = unknown
+hre = no
+
+

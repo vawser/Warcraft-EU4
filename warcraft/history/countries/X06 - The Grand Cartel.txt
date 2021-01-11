@@ -1,0 +1,7 @@
+technology_group = tech_goblin
+government = republic
+add_government_reform = mercantile_republic_reform
+primary_culture = goblin
+religion = avarice
+
+capital = 3727

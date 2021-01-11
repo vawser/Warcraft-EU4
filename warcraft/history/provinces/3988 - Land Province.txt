@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = STR
+controller = STR
+add_core = STR
+
+base_tax = 4
+base_production = 4
+base_manpower = 1
+
+culture = stratholme
+religion = the_holy_light
+
+trade_goods = unknown
+hre = no
+
+

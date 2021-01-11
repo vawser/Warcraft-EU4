@@ -1,0 +1,62 @@
+technology_group = tech_tuskarr
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = moaki
+religion = shamanism
+
+capital = 6819
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Oruulu"
+        dynasty = "the Gutsy"
+        adm = 5
+        dip = 5
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Atolu"
+        dynasty = "the Maniac"
+        adm = 0
+        dip = 0
+        mil = 5
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Kauuk"
+        dynasty = "the Maniac"
+        adm = 2
+        dip = 0
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Tomkin"
+        dynasty = "the Monstrous"
+        adm = 0
+        dip = 4
+        mil = 2
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Tumrek"
+        dynasty = "the Ripper"
+        adm = 5
+        dip = 2
+        mil = 4
+    }
+}

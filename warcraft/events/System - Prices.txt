@@ -1,0 +1,44 @@
+namespace = www_prices
+
+country_event = {
+	id = www_prices.1
+	title = www_prices.1.t
+	desc = www_prices.1.d
+	picture = TRADE_GOODS_eventPicture
+	
+    hidden = yes
+
+	trigger = {
+        has_country_flag = trade_control_flag
+        NOT = { has_country_modifier = trade_time }
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+	}
+	
+	immediate = {
+        hidden_effect = {
+            add_country_modifier = {
+                name = "trade_time"
+                duration = 7300 # 20 years
+                hidden = yes
+            }
+        }
+    }
+	
+	option = {
+		name = www_prices.1.a
+		
+		hidden_effect = {
+            randomise_price = { good = wwu_food }
+            randomise_price = { good = wwu_textiles }
+            randomise_price = { good = wwu_jewelry }
+            randomise_price = { good = wwu_metals }
+            randomise_price = { good = wwu_slaves }
+            randomise_price = { good = wwu_oil }
+            randomise_price = { good = wwu_lumber }
+            randomise_price = { good = wwu_artifacts }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = WTR
+controller = WTR
+add_core = WTR
+
+base_tax = 5
+base_production = 4
+base_manpower = 4
+
+culture = witherbark
+religion = voodoo
+
+trade_goods = unknown
+hre = no
+
+

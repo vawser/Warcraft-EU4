@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = GRV
+controller = GRV
+add_core = GRV
+
+base_tax = 3
+base_production = 1
+base_manpower = 3
+
+culture = gravelsnout
+religion = geomancy
+
+trade_goods = unknown
+hre = no
+
+

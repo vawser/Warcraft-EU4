@@ -1,0 +1,62 @@
+technology_group = tech_saurok
+government = tribal
+add_government_reform = warband_reform
+primary_culture = skumblade
+religion = fleshshaping
+
+capital = 3759
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Silkan"
+        dynasty = "the Titanic"
+        adm = 1
+        dip = 4
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Sildraka"
+        dynasty = "the Stout"
+        adm = 4
+        dip = 4
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Vorlik"
+        dynasty = "the Stabber"
+        adm = 5
+        dip = 3
+        mil = 5
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Borokraka"
+        dynasty = "the Mighty"
+        adm = 5
+        dip = 5
+        mil = 5
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Ihgashi"
+        dynasty = "the Lusty"
+        adm = 0
+        dip = 0
+        mil = 1
+    }
+}

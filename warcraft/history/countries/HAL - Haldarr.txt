@@ -1,0 +1,62 @@
+technology_group = tech_satyr
+government = tribal
+add_government_reform = satyr_sect_reform
+primary_culture = haldarr
+religion = fel
+
+capital = 5736
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Oronnas"
+        dynasty = "the Colossal"
+        adm = 4
+        dip = 0
+        mil = 1
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Vizorak"
+        dynasty = "the Strong"
+        adm = 0
+        dip = 3
+        mil = 0
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Caeizar"
+        dynasty = "the Wise"
+        adm = 0
+        dip = 1
+        mil = 0
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Xishzor"
+        dynasty = "the Tough"
+        adm = 4
+        dip = 1
+        mil = 0
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Garrim"
+        dynasty = "the Enlightened"
+        adm = 2
+        dip = 0
+        mil = 3
+    }
+}

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = AMA
+controller = AMA
+add_core = AMA
+
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+culture = amani
+religion = voodoo
+
+trade_goods = unknown
+hre = no
+
+

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = WIS
+controller = WIS
+add_core = WIS
+
+base_tax = 4
+base_production = 1
+base_manpower = 4
+
+culture = windshear
+religion = geomancy
+
+trade_goods = unknown
+hre = no
+
+

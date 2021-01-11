@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = FAT
+controller = FAT
+add_core = FAT
+
+base_tax = 2
+base_production = 3
+base_manpower = 4
+
+culture = blackfathom
+religion = azshara
+
+trade_goods = unknown
+hre = no
+
+

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = DGS
+controller = DGS
+add_core = DGS
+
+base_tax = 2
+base_production = 3
+base_manpower = 1
+
+culture = daggerspine
+religion = azshara
+
+trade_goods = unknown
+hre = no
+
+

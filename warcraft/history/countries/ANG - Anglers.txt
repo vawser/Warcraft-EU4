@@ -1,0 +1,62 @@
+technology_group = tech_pandaren
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = anglers
+religion = celestials
+
+capital = 2025
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Cheng"
+        dynasty = "Fogbottom"
+        adm = 2
+        dip = 4
+        mil = 5
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Hui"
+        dynasty = "Galestout"
+        adm = 5
+        dip = 5
+        mil = 2
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Ming"
+        dynasty = "Murkpaw"
+        adm = 0
+        dip = 4
+        mil = 2
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Shanyuan"
+        dynasty = "Whitehide"
+        adm = 2
+        dip = 4
+        mil = 1
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Qing"
+        dynasty = "Starrub"
+        adm = 5
+        dip = 4
+        mil = 2
+    }
+}

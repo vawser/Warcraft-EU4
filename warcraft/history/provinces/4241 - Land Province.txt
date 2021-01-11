@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = PWD
+controller = PWD
+add_core = PWD
+
+base_tax = 4
+base_production = 2
+base_manpower = 3
+
+culture = pawdon
+religion = celestials
+
+trade_goods = unknown
+hre = no
+
+

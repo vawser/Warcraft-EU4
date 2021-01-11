@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = WTO
+controller = WTO
+add_core = WTO
+
+base_tax = 2
+base_production = 3
+base_manpower = 1
+
+culture = winterskorn
+religion = runic
+
+trade_goods = unknown
+hre = no
+
+

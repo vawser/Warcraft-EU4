@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = GNO
+controller = GNO
+add_core = GNO
+
+base_tax = 4
+base_production = 2
+base_manpower = 2
+
+culture = gnome
+religion = technomancy
+
+trade_goods = unknown
+hre = no
+
+

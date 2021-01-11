@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = REG
+controller = REG
+add_core = REG
+
+base_tax = 1
+base_production = 2
+base_manpower = 1
+
+culture = redgill
+religion = deep_mother
+
+trade_goods = unknown
+hre = no
+
+

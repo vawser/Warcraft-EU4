@@ -1,0 +1,62 @@
+technology_group = tech_naga
+government = monarchy
+add_government_reform = naga_domain_reform
+primary_culture = wrathtail
+religion = azshara
+
+capital = 5648
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Janjii"
+        dynasty = "the Vicious"
+        adm = 5
+        dip = 5
+        mil = 3
+    }
+}
+
+# Second War
+596.1.1 = {
+    monarch = {
+        name = "Jar'hag"
+        dynasty = "the Stout"
+        adm = 2
+        dip = 2
+        mil = 1
+    }
+}
+
+# Invasion of Draenor
+600.1.1 = {
+    monarch = {
+        name = "Zinvah"
+        dynasty = "the Wary"
+        adm = 2
+        dip = 1
+        mil = 1
+    }
+}
+
+# War of the Spider
+605.1.1 = {
+    monarch = {
+        name = "Zinsak"
+        dynasty = "the Vast"
+        adm = 3
+        dip = 5
+        mil = 0
+    }
+}
+
+# Third War
+612.1.1 = {
+    monarch = {
+        name = "Ves'vess"
+        dynasty = "the Wise"
+        adm = 0
+        dip = 3
+        mil = 0
+    }
+}

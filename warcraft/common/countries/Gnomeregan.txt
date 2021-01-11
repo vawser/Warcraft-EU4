@@ -1,0 +1,161 @@
+graphical_culture = gnome_gfx
+
+color = { 19 79 125 }
+
+monarch_names = {
+	"Krebribi" = 20
+	"Itlas" = 20
+	"Ithkazz" = 20
+	"Klunlonk" = 20
+	"Klilkilik" = 20
+	"Eefoteern" = 20
+	"Ditkock" = 20
+	"Mavamkuzz" = 20
+	"Timku" = 20
+	"Muciflorn" = 20
+	"Krimoldazz" = 20
+	"Ittlick" = 20
+	"Leethkogic" = 20
+	"Edinkak" = 20
+	"Itkish" = 20
+	"Ithkega" = 20
+	"Irkoc" = 20
+	"Krinklitla" = 20
+	"Terkirek" = 20
+	"Ittlizz" = 20
+	"Tinlizz" = 20
+	"Gutes" = 20
+	"Pikinlarn" = 20
+	"Pikidi" = 20
+	"Glimosh" = 20
+	"Eebu" = 20
+	"Mares" = 20
+	"Iclink" = 20
+	"Heerkozz" = 20
+	"Curkin" = 20
+	"Pattlenk" = 20
+	"Glankush" = 20
+	"Feerkish" = 20
+	"Krimkuk" = 20
+	"Callin" = 20
+	"Okeemkish" = 20
+	"Cithkec" = 20
+	"Glidizz" = 20
+	"Undos" = 20
+	"Oldick" = 20
+	"Hifinke" = 20
+	"Krorki" = 20
+	"Mukiblun" = 20
+	"Kreerlones" = 20
+	"Eesinceek" = 20
+	"Konleevonk" = 20
+	"Ciduklo" = 20
+	"Beetlas" = 20
+	"Kramkash" = 20
+	"Klurgotla" = 20
+	"Lulbank" = -20
+	"Gledok" = -20
+	"Klerenk" = -20
+	"Sitkock" = -20
+	"Tenni" = -20
+	"Jopock" = -20
+	"Selbe" = -20
+	"Thekiklu" = -20
+	"Klemku" = -20
+	"Thapuzz" = -20
+	"Fottluz" = -20
+	"Botik" = -20
+	"Jyttlozz" = -20
+	"Inkeys" = -20
+	"Leflinu" = -20
+	"Lutkil" = -20
+	"Eflullu" = -20
+	"Glilkeyl" = -20
+	"Nasuz" = -20
+	"Lilkene" = -20
+	"Jomos" = -20
+	"Klolbiz" = -20
+	"Nelonk" = -20
+	"Nulbesh" = -20
+	"Gnosliz" = -20
+	"Gnithull" = -20
+	"Salildeyz" = -20
+	"Fynnofluk" = -20
+	"Utkeenk" = -20
+	"Thedekle" = -20
+
+}
+
+leader_names = {
+	"Battlefield"
+	"Coppernozzle"
+	"Buzzdata"
+	"Shineclue"
+	"Silvergauge"
+	"Buzzinguard"
+	"Pumpcheek"
+	"Finesteel"
+	"Fastwizzle"
+	"Shiftcollar"
+	"Gripcount"
+	"Sparkdwadle"
+	"Temperfield"
+	"Wigglelight"
+	"Gearcup"
+	"Fuzzchalk"
+	"Sparklecable"
+	"Wheelbranch"
+	"Oilcog"
+	"Copperblast"
+	"Buzzinkettle"
+	"Castneedle"
+	"Trickbox"
+	"Singlenozzle"
+	"Toggleshape"
+	"Clockmaster"
+	"Luckpipe"
+	"Flickertrick"
+	"Sharpnozzle"
+	"Quickguard"
+	"Fizzlechalk"
+	"Mekkalaugh"
+	"Bizzcount"
+	"Berrysprocket"
+	"Pullcheek"
+	"Portersignal"
+	"Railgauge"
+	"Wheelfield"
+	"Buzzinlocket"
+	"Railfizz"
+	"Clockpitch"
+	"Overcup"
+	"Lockbadge"
+	"Shortcoil"
+	"Overchalk"
+	"Fixwizzle"
+	"Slipbit"
+	"Thunderpocket"
+	"Pullspring"
+	"Grindchart"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+
