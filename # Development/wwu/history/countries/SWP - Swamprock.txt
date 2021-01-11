@@ -1,9 +1,0 @@
-discover_home_continent = yes
-#Swamprock
-government = tribal
-add_government_reform = primitive_clan_reform
-mercantilism = 10
-technology_group = tech_depths
-religion = religion_water
-primary_culture = culture_nerglish
-capital = 1 # capital = 2634
