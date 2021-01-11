@@ -1,8 +1,0 @@
-﻿l_english:
- #-----------------------------------------------
- # Savage
- #-----------------------------------------------
- wwu_savage_flavour.1.title: "Warlust"
- wwu_savage_flavour.1.desc: "Our citizens ache for war, and we must deliver it to them, lest they turn on their leaders. Denying them this right will result in massive unrest."
- wwu_savage_flavour.1.option.a: "Attack!"
- wwu_savage_flavour.1.option.b: "We must wait!"

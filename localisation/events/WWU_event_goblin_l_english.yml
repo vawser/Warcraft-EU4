@@ -1,8 +1,0 @@
-﻿l_english: 
- #-----------------------------------------------
- # Goblin
- #-----------------------------------------------
- wwu_goblin_flavour.1.title: "Seek Kaja'mite"
- wwu_goblin_flavour.1.desc: "Found under Mount Kajaro, Kaja'mite was a mineral once valued by the trolls that ruled over Kezan. The goblins, at the time little more than crude lifeforms, hoarded the mineral. In time, the magical effects of Kaja'mite granted those that hoarded it increased intelligence. The goblins began to invent tools and weapons, which they used to overthrow their troll overlords. Kaja'mite could be used to gain an edge against our foes. Alas, all of the Kaja'mite under Mount Kajoro has been mined. Let our [Root.Monarch.GetName] send out a expeditionary force to look for some more."
- wwu_goblin_flavour.1.option.a: "What have we found..."
-  

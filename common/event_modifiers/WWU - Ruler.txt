@@ -1,3 +1,0 @@
-legendary_vitality = {
-    monarch_lifespan = 100.0
-}

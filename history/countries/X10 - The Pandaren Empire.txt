@@ -1,7 +1,0 @@
-technology_group = tech_pandaren
-government = monarchy
-add_government_reform = feudalism_reform
-primary_culture = pandaren
-religion = celestials
-
-capital = 4498

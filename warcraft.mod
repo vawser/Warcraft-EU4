@@ -122,6 +122,6 @@ tags={
 	"Utilities"
 }
 picture="photo.jpg"
-version="1.2.0"
+version="1.0.0"
 supported_version="1.30.*.*"
 path="C:/Users/Xylozi/Documents/Paradox Interactive/Europa Universalis IV/mod/warcraft"

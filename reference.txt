@@ -1,7 +1,0 @@
-# Add in for new province map
-2203;3049;canal;2505;-1;-1;-1;-1;Deeprun Tram
-1586;1001;canal;1008;-1;-1;-1;-1;
-1586;1006;canal;1008;-1;-1;-1;-1;
-
-# MAP # 
-Check these references

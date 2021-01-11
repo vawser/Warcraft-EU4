@@ -1,9 +1,0 @@
-2 = {
-	diplomats = 1
-	global_autonomy = -0.025
-}
-
-3 = {
-	diplomats = 1
-	global_autonomy = -0.05
-}

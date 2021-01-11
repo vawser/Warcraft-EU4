@@ -1,9 +1,0 @@
-# This is the start of the Second War
-bookmark = {
-	name = "THE_FALL_OF_STORMWIND_NAME"
-	desc = "THE_FALL_OF_STORMWIND_DESC"
-	date = 593.1.1
-    
-    country = TOH
-    country = LOR
-}
