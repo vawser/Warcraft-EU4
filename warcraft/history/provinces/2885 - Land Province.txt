@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = SKS
-controller = SKS
-add_core = SKS
+owner = BWA
+controller = BWA
+add_core = BWA
 
 base_tax = 2
 base_production = 3
 base_manpower = 4
 
-culture = skullsplitter
-religion = voodoo
+culture = blackwater_cartel
+religion = avarice
 
 trade_goods = unknown
 hre = no

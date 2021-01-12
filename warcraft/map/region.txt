@@ -281,6 +281,9 @@ region_badlands = {
         area_badlands_3
         area_badlands_4
         area_badlands_5
+        area_badlands_6
+        area_badlands_7
+        area_badlands_8
     }
 }
 
@@ -301,6 +304,8 @@ region_burning_steppes = {
         area_burning_steppes_4
         area_burning_steppes_5
         area_burning_steppes_6
+        area_burning_steppes_7
+        area_burning_steppes_8
     }
 }
 
@@ -313,6 +318,10 @@ region_redridge_mountains = {
         area_redridge_5
         area_redridge_6
         area_redridge_7
+        area_redridge_8
+        area_redridge_9
+        area_redridge_10
+        area_redridge_11
     }
 }
 
@@ -413,6 +422,7 @@ region_stranglethorn_vale = {
         area_stranglethorn_vale_15
         area_stranglethorn_vale_16
         area_stranglethorn_vale_17
+        area_stranglethorn_vale_18
     }
 }
 

@@ -5,7 +5,7 @@ add_government_reform = warband_reform
 primary_culture = redridge_pack
 religion = shamanism
 
-capital = 1682
+capital = 7493
 
 # The First War
 592.1.1 = {

@@ -14,7 +14,7 @@ Warcraft is an unique take of the World of Warcraft universe, adapted to work in
 
 [h1]FAQ[/h1]
 [h2]Why are province and area names generic?[/h2]
-Naming over 5000 provinces uniquely with most locations requiring novel naming means it will take time to complete. I'd rather release the mod and allow people to play it than making them wait for something that is basically functionally aesthetic. Important provinces and those that match existing locations from World of Warcraft will be named.
+Naming over 5000 provinces uniquely with most locations requiring novel naming means it will take time to complete. I'd rather release the mod and allow people to play it than making them wait for something that is functionally aesthetic. Important provinces and those that match existing locations from World of Warcraft will be named.
 
 [h2]Why is the text appearing oddly?[/h2]
 The mod only supports English localization, so if you are playing EU4 is a different language, you'll need to switch the English to see the actual text.
@@ -23,4 +23,3 @@ The mod only supports English localization, so if you are playing EU4 is a diffe
 [list]
 [*]Dogabeey, Aetherum and Papillonmyu for various pieces of content included in this mod, inherited from the original [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1796527319&searchtext=warcraft]World of Warcraft Universalis[/url].
 [/list]
-

@@ -1512,7 +1512,7 @@ province;red;green;blue;type;name;DRAWN;notes
 1511;35;200;140;sea;Unnamed;DRAWN
 1512;36;0;140;sea;Unnamed;DRAWN
 1513;10;0;170;lake;Stranglethorn Lake 1;DRAWN
-1514;10;10;170;lake;Stranglethorn Lake 2;DRAWN
+1514;10;10;170;sea;Unnamed;DRAWN
 1515;10;20;170;lake;Zulgurub Lake;DRAWN
 1516;10;30;170;lake;Moonbrook Lake;DRAWN
 1517;10;40;170;lake;Westbrook Garrison Lake;DRAWN
@@ -7463,3 +7463,58 @@ province;red;green;blue;type;name;DRAWN;notes
 7462;50;180;4;land;Unnamed;DRAWN
 7463;50;190;4;land;Unnamed;DRAWN
 7464;50;200;4;land;Unnamed;DRAWN
+7465;51;100;4;land;Unnamed;DRAWN
+7466;51;110;4;land;Unnamed;DRAWN
+7467;51;120;4;land;Unnamed;DRAWN
+7468;51;130;4;land;Unnamed;DRAWN
+7469;51;140;4;land;Unnamed;DRAWN
+7470;51;150;4;land;Unnamed;DRAWN
+7471;51;160;4;land;Unnamed;DRAWN
+7472;51;170;4;land;Unnamed;DRAWN
+7473;51;180;4;land;Unnamed;DRAWN
+7474;51;190;4;land;Unnamed;DRAWN
+7475;51;200;4;land;Unnamed;DRAWN
+7476;52;100;4;land;Unnamed;DRAWN
+7477;52;110;4;land;Unnamed;DRAWN
+7478;52;120;4;land;Unnamed;DRAWN
+7479;52;130;4;land;Unnamed;DRAWN
+7480;52;140;4;land;Unnamed;DRAWN
+7481;52;150;4;land;Unnamed;DRAWN
+7482;52;160;4;land;Unnamed;DRAWN
+7483;52;170;4;land;Unnamed;DRAWN
+7484;52;180;4;land;Unnamed;DRAWN
+7485;52;190;4;land;Unnamed;DRAWN
+7486;52;200;4;land;Unnamed;DRAWN
+7487;53;100;4;land;Unnamed;DRAWN
+7488;53;110;4;land;Unnamed;DRAWN
+7489;53;120;4;land;Unnamed;DRAWN
+7490;53;130;4;land;Unnamed;DRAWN
+7491;53;140;4;land;Unnamed;DRAWN
+7492;53;150;4;land;Unnamed;DRAWN
+7493;53;160;4;land;Unnamed;DRAWN
+7494;53;170;4;land;Unnamed;DRAWN
+7495;53;180;4;land;Unnamed;DRAWN
+7496;53;190;4;land;Unnamed;DRAWN
+7497;53;200;4;land;Unnamed;DRAWN
+7498;54;100;4;land;Unnamed;DRAWN
+7499;54;110;4;land;Unnamed;DRAWN
+7500;54;120;4;land;Unnamed;DRAWN
+7501;54;130;4;land;Unnamed;DRAWN
+7502;54;140;4;land;Unnamed;DRAWN
+7503;54;150;4;land;Unnamed;DRAWN
+7504;54;160;4;land;Unnamed;DRAWN
+7505;54;170;4;land;Unnamed;DRAWN
+7506;54;180;4;land;Unnamed;DRAWN
+7507;54;190;4;land;Unnamed;DRAWN
+7508;54;200;4;land;Unnamed;DRAWN
+7509;55;100;4;land;Unnamed;DRAWN
+7510;55;110;4;land;Unnamed;DRAWN
+7511;55;120;4;land;Unnamed;DRAWN
+7512;55;130;4;land;Unnamed;DRAWN
+7513;55;140;4;land;Unnamed;DRAWN
+7514;55;150;4;land;Unnamed;DRAWN
+7515;55;160;4;land;Unnamed;DRAWN
+7516;55;170;4;land;Unnamed;DRAWN
+7517;55;180;4;land;Unnamed;DRAWN
+7518;55;190;4;land;Unnamed;DRAWN
+7519;55;200;4;land;Unnamed;DRAWN
