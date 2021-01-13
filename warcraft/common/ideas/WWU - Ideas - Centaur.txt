@@ -6,7 +6,7 @@ centaur_ideas = {
 	}
 
 	bonus = {
-        discipline = 0.05
+        shock_damage = 0.1
 	}
 	
 	trigger = {
@@ -24,15 +24,15 @@ centaur_ideas = {
 		land_maintenance_modifier = -0.1
 	}
 	centaur_ideas_4 = {
-		fabricate_claims_cost = -0.5
+		movement_speed = 0.25
 	}
 	centaur_ideas_5 = {
 		yearly_corruption = -0.05
 	}
 	centaur_ideas_6 = {
-		leader_land_manuever = 2
+		leader_land_manuever = 1
 	}
 	centaur_ideas_7 = {
-		land_morale = 0.2
+		land_morale = 0.1
 	}
 }

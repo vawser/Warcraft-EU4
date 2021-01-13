@@ -1,7 +1,7 @@
 # Yaungol
 yaungol_ideas = {
 	start = {
-		global_manpower_modifier = 0.15
+		global_manpower_modifier = 0.1
         global_supply_limit_modifier = 0.1
 	}
 
@@ -18,7 +18,7 @@ yaungol_ideas = {
 		fire_damage = 0.1
 	}
 	yaungol_ideas_2 = {
-		governing_capacity_modifier = 0.1
+		global_unrest = -2
 	}
 	yaungol_ideas_3 = {
 		horde_unity = 1
@@ -38,6 +38,6 @@ yaungol_ideas = {
 		stability_cost_modifier = -0.2
 	}
 	yaungol_ideas_7 = {
-		army_tradition_decay = -0.02
+		army_tradition_decay = -0.01
 	}
 }

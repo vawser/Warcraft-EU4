@@ -1,12 +1,12 @@
 # Pygmy
 pygmy_ideas = {
 	start = {
-		global_regiment_cost = -0.25
-        global_regiment_recruit_speed = -0.25
+		global_regiment_cost = -0.15
+        global_regiment_recruit_speed = -0.15
 	}
 
 	bonus = {
-        shock_damage = 0.2
+        shock_damage = 0.1
 	}
 	
 	trigger = {
@@ -18,19 +18,19 @@ pygmy_ideas = {
 		build_time = -0.5
 	}
 	pygmy_ideas_2 = {
-		unjustified_demands = -0.15
+		unjustified_demands = -0.1
 	}
 	pygmy_ideas_3 = {
 		stability_cost_modifier = -0.2
 	}
 	pygmy_ideas_4 = {
-		missionary_maintenance_cost = -0.25
+		missionary_maintenance_cost = -0.1
 	}
 	pygmy_ideas_5 = {
 		colonists = 1
 	}
 	pygmy_ideas_6 = {
-		caravan_power = 0.15
+		caravan_power = 0.2
 	}
 	pygmy_ideas_7 = {
 		legitimacy = 1

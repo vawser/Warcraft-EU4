@@ -6,7 +6,7 @@ satyr_ideas = {
 	}
 
 	bonus = {
-        global_missionary_strength = 0.03
+        global_missionary_strength = 0.02
 	}
 	
 	trigger = {
@@ -18,7 +18,7 @@ satyr_ideas = {
 		culture_conversion_cost = -0.25
 	}
 	satyr_ideas_2 = {
-		core_creation = -0.1
+		missionaries = 1
 	}
 	satyr_ideas_3 = {
 		hostile_attrition = 2
@@ -33,6 +33,6 @@ satyr_ideas = {
 		tolerance_own = 2
 	}
 	satyr_ideas_7 = {
-		fire_damage = 0.25
+		fire_damage = 0.2
 	}
 }

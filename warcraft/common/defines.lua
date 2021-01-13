@@ -12,7 +12,7 @@ NGame = {
 	AGE_USHER_IN_TIME = 300,				-- how many months progress for a new age needs.
 
 	MAX_COLONIAL_NATIONS = 75,				-- Max is 100
-	MAX_CLIENT_STATES = 10,				    -- Max is 100 -- TODO: Lower this to 75 after 1.18 (used to start at K75 for some reason)
+	MAX_CLIENT_STATES = 75,				    -- Max is 100 -- TODO: Lower this to 75 after 1.18 (used to start at K75 for some reason)
 	MAX_ESTATE_COUNTRIES = 50,				-- Max is 100
 	MAX_TRADING_CITIES = 75,				-- Max is 100
 	MAX_CUSTOM_COUNTRIES = 75,				-- Max is 100

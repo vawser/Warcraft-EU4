@@ -1,12 +1,12 @@
 # Saurok
 saurok_ideas = {
 	start = {
-		mil_tech_cost_modifier = -0.1
+		mil_tech_cost_modifier = -0.05
         unjustified_demands = -0.1
 	}
 
 	bonus = {
-        province_warscore_cost = -0.25
+        province_warscore_cost = -0.1
 	}
 	
 	trigger = {
@@ -15,22 +15,22 @@ saurok_ideas = {
 	free = yes		
 	
 	saurok_ideas_1 = {
-		global_manpower_modifier = 0.25
+		global_manpower_modifier = 0.1
 	}
 	saurok_ideas_2 = {
-		core_creation = -0.2
+		core_creation = -0.1
 	}
 	saurok_ideas_3 = {
 		monarch_military_power = 1
 	}
 	saurok_ideas_4 = {
-		production_efficiency = 0.15
+		production_efficiency = 0.1
 	}
 	saurok_ideas_5 = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.05
 	}
 	saurok_ideas_6 = {
-		discipline = 0.075
+		discipline = 0.05
 	}
 	saurok_ideas_7 = {
 		legitimacy = 1

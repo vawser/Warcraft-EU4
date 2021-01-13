@@ -24,14 +24,14 @@ X01_ideas = {
 		global_missionary_strength = 0.03
 	}
 	X01_ideas_4 = {
-		general_cost = -0.5
+		general_cost = -0.25
         leader_siege = 1
 	}
 	X01_ideas_5 = {
 		warscore_cost_vs_other_religion = -0.25
 	}
 	X01_ideas_6 = {
-		shock_damage = 0.25
+		shock_damage = 0.2
 	}
 	X01_ideas_7 = {
 		country_military_power = 1
@@ -41,12 +41,12 @@ X01_ideas = {
 # Arathor
 X02_ideas = {
 	start = {
-		technology_cost = -0.1
+		technology_cost = -0.05
         free_policy = 1
 	}
 
 	bonus = {
-        discipline = 0.1
+        discipline = 0.05
 	}
 	
 	trigger = {
@@ -72,7 +72,7 @@ X02_ideas = {
 	}
 	X02_ideas_5 = {
 		yearly_absolutism = 0.5
-        max_absolutism = 20
+        max_absolutism = 10
 	}
 	X02_ideas_6 = {
 		yearly_corruption = -0.05

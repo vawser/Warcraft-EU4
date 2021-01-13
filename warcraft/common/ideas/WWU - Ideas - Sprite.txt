@@ -1,8 +1,8 @@
 # Sprite
 sprite_ideas = {
 	start = {
-		spy_offence = 0.5
-        global_spy_defence = 0.5
+		spy_offence = 0.25
+        global_spy_defence = 0.25
 	}
 
 	bonus = {
@@ -15,13 +15,13 @@ sprite_ideas = {
 	free = yes		
 	
 	sprite_ideas_1 = {
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	sprite_ideas_2 = {
 		global_tax_modifier = 0.1
 	}
 	sprite_ideas_3 = {
-		rebel_support_efficiency = 1.0
+		rebel_support_efficiency = 0.5
 	}
 	sprite_ideas_4 = {
 		production_efficiency = 0.1

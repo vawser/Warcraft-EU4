@@ -1,8 +1,8 @@
 # Draenei
 draenei_ideas = {
 	start = {
-		ae_impact = -0.1
-        envoy_travel_time = -0.25
+		ae_impact = -0.2
+        envoy_travel_time = -0.1
 	}
 
 	bonus = {
@@ -15,10 +15,10 @@ draenei_ideas = {
 	free = yes		
 	
 	draenei_ideas_1 = {
-		improve_relation_modifier = 0.15
+		improve_relation_modifier = 0.1
 	}
 	draenei_ideas_2 = {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.1
 	}
 	draenei_ideas_3 = {
 		diplomats = 1
@@ -33,6 +33,6 @@ draenei_ideas = {
 		yearly_corruption = -0.05
 	}
 	draenei_ideas_7 = {
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 }

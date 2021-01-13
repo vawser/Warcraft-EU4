@@ -1,7 +1,7 @@
 # Furbolg
 furbolg_ideas = {
 	start = {
-		ae_impact = -0.1
+		global_tax_modifier = 0.05
         development_cost = -0.1
 	}
 

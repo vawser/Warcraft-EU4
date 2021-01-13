@@ -1,15 +1,15 @@
 
-is_city = yes
-owner = SFT
-controller = SFT
-add_core = SFT
+is_city = no
+native_size = 50
+native_ferocity = 5
+native_hostileness = 5
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = swiftfin
-religion = deep_mother
+culture = primitive
+religion = shamanism
 
 trade_goods = unknown
 hre = no

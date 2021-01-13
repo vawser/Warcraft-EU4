@@ -1,12 +1,12 @@
 # Alterac
 ALT_ideas = {
 	start = {
-		stability_cost_modifier = -0.25
+		stability_cost_modifier = -0.2
         global_autonomy = -0.05
 	}
 
 	bonus = {
-        years_of_nationalism = -10
+        years_of_nationalism = -5
 	}
 	
 	trigger = {
@@ -26,7 +26,7 @@ ALT_ideas = {
         mercenary_manpower = 0.1
 	}
 	ALT_ideas_4 = {
-		production_efficiency = 0.2
+		production_efficiency = 0.1
 	}
 	ALT_ideas_5 = {
 		advisor_pool = 1
@@ -42,7 +42,7 @@ ALT_ideas = {
 # Dalaran
 DAL_ideas = {
 	start = {
-		idea_cost = -0.1
+		idea_cost = -0.05
         free_policy = 1
 	}
 
@@ -56,7 +56,7 @@ DAL_ideas = {
 	free = yes		
 	
 	DAL_ideas_1 = {
-		innovativeness_gain = 0.5
+		innovativeness_gain = 0.25
 	}
 	DAL_ideas_2 = {
 		development_cost = -0.1
@@ -66,16 +66,16 @@ DAL_ideas = {
 		advisor_pool = 2
 	}
 	DAL_ideas_4 = {
-		shock_damage = 0.15
+		fire_damage = 0.1
 	}
 	DAL_ideas_5 = {
-		reinforce_cost_modifier = -0.33
+		reinforce_cost_modifier = -0.2
 	}
 	DAL_ideas_6 = {
 		prestige = 1
 	}
 	DAL_ideas_7 = {
-		technology_cost = -0.15
+		technology_cost = -0.1
 	}
 }
 
@@ -99,8 +99,8 @@ GIL_ideas = {
 		prestige = 1
 	}
 	GIL_ideas_2 = {
-		heavy_ship_power = 0.25
-		naval_attrition = -0.25
+		heavy_ship_power = 0.1
+		naval_attrition = -0.2
 	}
 	GIL_ideas_3 = {
 		production_efficiency = 0.1
@@ -109,10 +109,10 @@ GIL_ideas = {
 		defensiveness = 0.25
 	}
 	GIL_ideas_5 = {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.1
 	}
 	GIL_ideas_6 = {
-        fort_maintenance_modifier = -0.5
+        fort_maintenance_modifier = -0.25
 	}
 	GIL_ideas_7 = {
 		development_cost = -0.1
@@ -123,7 +123,7 @@ GIL_ideas = {
 # Kul Tiras
 KUL_ideas = {
 	start = {
-		naval_forcelimit_modifier = 0.33
+		naval_forcelimit_modifier = 0.25
 		allowed_marine_fraction = 0.25
 	}
 
@@ -137,7 +137,7 @@ KUL_ideas = {
 	free = yes		
 	
 	KUL_ideas_1 = {
-		naval_morale = 0.15
+		naval_morale = 0.1
 	}
 	KUL_ideas_2 = {
 		merchants = 1
@@ -148,7 +148,7 @@ KUL_ideas = {
 		sailor_maintenance_modifer = -0.2
 	}
 	KUL_ideas_4 = {
-		global_ship_recruit_speed = -0.5
+		global_ship_recruit_speed = -0.25
 	}
 	KUL_ideas_5 = {
 		colonists = 1
@@ -180,13 +180,13 @@ LOR_ideas = {
 	free = yes		
 	
 	LOR_ideas_1 = {
-		war_exhaustion_cost = -0.33
+		war_exhaustion_cost = -0.25
 	}
 	LOR_ideas_2 = {
 		production_efficiency = 0.1
 	}
 	LOR_ideas_3 = {
-		land_morale = 0.1
+		prestige = 1
 	}
 	LOR_ideas_4 = {
 		tolerance_own = 2
@@ -194,7 +194,6 @@ LOR_ideas = {
 	}
 	LOR_ideas_5 = {
 		discipline = 0.05
-		cavalry_power = 0.15
 	}
 	LOR_ideas_6 = {
 		colonists = 1
@@ -213,7 +212,7 @@ SMG_ideas = {
 	}
 
 	bonus = {
-        diplomatic_reputation = 2
+        diplomatic_reputation = 1
 	}
 	
 	trigger = {
@@ -228,8 +227,8 @@ SMG_ideas = {
 		global_autonomy = -0.05
 	}
 	SMG_ideas_3 = {
-		infantry_cost = -0.25
-        infantry_power = 0.05
+		infantry_cost = -0.1
+        infantry_power = 0.1
 	}
 	SMG_ideas_4 = {
 		leader_land_fire = 1
@@ -238,7 +237,7 @@ SMG_ideas = {
 		garrison_growth = 1.0
 	}
 	SMG_ideas_6 = {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.1
 	}
 	SMG_ideas_7 = {
 		legitimacy = 1
@@ -248,12 +247,12 @@ SMG_ideas = {
 # Stormwind
 SRW_ideas = {
 	start = {
-		discipline = 0.05
-        idea_cost = -0.1
+		governing_capacity_modifier = 0.1
+        province_warscore_cost = -0.1
 	}
 
 	bonus = {
-        governing_capacity_modifier = 0.25
+        discipline = 0.05
 	}
 	
 	trigger = {
@@ -266,29 +265,29 @@ SRW_ideas = {
         diplomatic_upkeep = 1
 	}
 	SRW_ideas_2 = {
-		global_tax_modifier = 0.2
+		global_tax_modifier = 0.1
 	}
 	SRW_ideas_3 = {
-		technology_cost = -0.1
+		technology_cost = -0.05
 	}
 	SRW_ideas_4 = {
 		development_cost = -0.1
 	}
 	SRW_ideas_5 = {
-		improve_relation_modifier = 0.15
+		improve_relation_modifier = 0.1
 	}
 	SRW_ideas_6 = {
-		production_efficiency = 0.2
+		production_efficiency = 0.1
 	}
 	SRW_ideas_7 = {
-		land_morale = 0.2
+		manpower_recovery_speed = 0.25
 	}
 }
 
 # Karazhan
 KAZ_ideas = {
 	start = {
-		technology_cost = -0.25
+		technology_cost = -0.1
         innovativeness_gain = 0.25
 	}
 
@@ -302,7 +301,7 @@ KAZ_ideas = {
 	free = yes		
 	
 	KAZ_ideas_1 = {
-		idea_cost = -0.1
+		prestige = 1
 	}
 	KAZ_ideas_2 = {
 		country_admin_power = 1
@@ -314,7 +313,7 @@ KAZ_ideas = {
 		country_diplomatic_power = 1
 	}
 	KAZ_ideas_5 = {
-		fire_damage = 0.1
+		fire_damage = 0.15
 	}
 	KAZ_ideas_6 = {
 		improve_relation_modifier = 0.1
@@ -328,11 +327,11 @@ KAZ_ideas = {
 pirate_ideas = {
 	start = {
 		navy_tradition = 1
-        naval_forcelimit_modifier = 0.33
+        naval_forcelimit_modifier = 0.25
 	}
 
 	bonus = {
-        naval_morale = 0.2
+        naval_morale = 0.1
 	}
 	
 	trigger = {
@@ -356,7 +355,7 @@ pirate_ideas = {
         embargo_efficiency = 0.25
 	}
 	pirate_ideas_4 = {
-		admiral_cost = -0.5
+		admiral_cost = -0.25
         admiral_skill_gain_modifier = 0.25
 	}
 	pirate_ideas_5 = {
@@ -389,7 +388,7 @@ human_ideas = {
 	free = yes		
 	
 	human_ideas_1 = {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.1
 	}
 	human_ideas_2 = {
 		global_sailors_modifier = 0.15

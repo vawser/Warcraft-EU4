@@ -1,8 +1,8 @@
 # Taunka
 taunka_ideas = {
 	start = {
-		fire_damage_received = -0.2
-        shock_damage_received = -0.2
+		fire_damage_received = -0.1
+        shock_damage_received = -0.1
 	}
 
 	bonus = {

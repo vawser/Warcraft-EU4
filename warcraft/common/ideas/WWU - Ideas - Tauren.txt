@@ -29,10 +29,10 @@ tauren_ideas = {
 		development_cost = -0.1
 	}
 	tauren_ideas_5 = {
-		shock_damage = 0.2
+		shock_damage = 0.1
 	}
 	tauren_ideas_6 = {
-		land_morale = 0.15
+		army_tradition_from_battle = 0.5
 	}
 	tauren_ideas_7 = {
 		religious_unity = 0.35

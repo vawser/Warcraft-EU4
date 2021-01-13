@@ -1,12 +1,12 @@
 # Jinyu
 jinyu_ideas = {
 	start = {
-		monarch_diplomatic_power = 1
-        development_cost = -0.1
+		diplomatic_annexation_cost = -0.2
+        development_cost = -0.05
 	}
 
 	bonus = {
-        governing_capacity_modifier = 0.25
+        governing_capacity_modifier = 0.1
 	}
 	
 	trigger = {
@@ -19,23 +19,23 @@ jinyu_ideas = {
         leader_land_fire = 1
 	}
 	jinyu_ideas_2 = {
-		dip_tech_cost_modifier = -0.15
+		dip_tech_cost_modifier = -0.1
 	}
 	jinyu_ideas_3 = {
-		infantry_fire = 2
+		infantry_fire = 1
 	}
 	jinyu_ideas_4 = {
-		vassal_income = 0.5
-		vassal_forcelimit_bonus = 0.5
+		vassal_income = 0.25
+		vassal_forcelimit_bonus = 0.25
 	}
 	jinyu_ideas_5 = {
-        improve_relation_modifier = 0.2
+        improve_relation_modifier = 0.1
 	}
 	jinyu_ideas_6 = {
 		advisor_cost = -0.25
         advisor_pool = 1
 	}
 	jinyu_ideas_7 = {
-        diplomatic_reputation = 3
+        diplomatic_reputation = 2
 	}
 }

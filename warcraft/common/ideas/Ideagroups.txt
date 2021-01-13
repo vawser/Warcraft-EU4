@@ -236,7 +236,7 @@ wwu_administrative_ideas = {
     category = ADM
 
     bonus = {
-        governing_capacity_modifier = 0.25
+        governing_capacity_modifier = 0.15
     }
     # Organised Mercenary Payments
     wwu_administrative_ideas_1 = {
@@ -244,11 +244,11 @@ wwu_administrative_ideas = {
     }
     # Adaptability
     wwu_administrative_ideas_2 = {
-        core_creation = -0.2
+        core_creation = -0.1
     }
     # Consistent Recordkeeping
     wwu_administrative_ideas_3 = {
-        governing_capacity = 100
+        governing_capacity = 50
     }
     # Bookkeeping
     wwu_administrative_ideas_4 = {
@@ -381,7 +381,7 @@ wwu_law_ideas = {
     }
     # Trial by Combat
     wwu_law_ideas_2 = {
-        yearly_corruption = -0.1
+        yearly_corruption = -0.05
     }
     # Ministerial Traditions
     wwu_law_ideas_3 = {
@@ -389,7 +389,7 @@ wwu_law_ideas = {
     }
     # Sealed Contracts
     wwu_law_ideas_4 = {
-        trade_efficiency = 0.1
+        trade_efficiency = 0.05
         transfer_trade_power_reasons = 5
     }
     # Persuit of Usury
@@ -425,7 +425,7 @@ wwu_development_ideas = {
     }
     # Local Development
     wwu_development_ideas_1 = {
-        development_cost = -0.25
+        development_cost = -0.15
     }
     # Regional Standards
     wwu_development_ideas_2 = {
@@ -471,11 +471,11 @@ wwu_absolutism_ideas = {
     category = ADM
 
     bonus = {
-        max_absolutism = 50
+        max_absolutism = 25
     }
     # Ruling with an Iron Fist
     wwu_absolutism_ideas_1 = {
-       global_autonomy = -0.05
+        global_autonomy = -0.05
     }
     # Autocratic Favours
     wwu_absolutism_ideas_2 = {
@@ -516,7 +516,7 @@ wwu_autonomy_ideas = {
     category = ADM
 
     bonus = {
-        reduced_liberty_desire = 25
+        reduced_liberty_desire = 15
     }
     # Local Rule
     wwu_autonomy_ideas_1 = {
@@ -524,7 +524,7 @@ wwu_autonomy_ideas = {
     }
     # Farming Techniques
     wwu_autonomy_ideas_2 = {
-        production_efficiency = 0.15
+        production_efficiency = 0.1
     }
     # Provincial Traditions
     wwu_autonomy_ideas_3 = {
@@ -544,7 +544,7 @@ wwu_autonomy_ideas = {
     }
     # Power to the People
     wwu_autonomy_ideas_7 = {
-        years_of_nationalism = -10
+        years_of_nationalism = -5
     }
     
     ai_will_do = {
@@ -582,11 +582,11 @@ wwu_monarchy_ideas = {
     }
     # Crown Authority
     wwu_monarchy_ideas_5 = {
-        yearly_absolutism = 1
+        yearly_absolutism = 0.5
     }
     # Respected Families
     wwu_monarchy_ideas_6 = {
-        ae_impact = -0.2
+        ae_impact = -0.1
     }
     # United in Arms
     wwu_monarchy_ideas_7 = {
@@ -777,18 +777,18 @@ wwu_espionage_ideas = {
     category = DIP
 
     bonus = {
-        rebel_support_efficiency = 0.50
+        rebel_support_efficiency = 0.5
 		advisor_cost = -0.1
     }
     
     # Effective Spies
     wwu_espionage_ideas_1 = {
-        spy_offence = 0.5
+        spy_offence = 0.33
         ae_impact = -0.2
     }
     # Covert Missionaries
     wwu_espionage_ideas_2 = {
-        rebel_support_efficiency = 1
+        rebel_support_efficiency = 0.5
     }
     # Vetting
     wwu_espionage_ideas_3 = {
@@ -810,7 +810,7 @@ wwu_espionage_ideas = {
     }
     # Anti-Corruption Purges
     wwu_espionage_ideas_7 = {
-        yearly_corruption = -0.1
+        yearly_corruption = -0.05
     }
     
     ai_will_do = {
@@ -1020,7 +1020,7 @@ wwu_exploration_ideas = {
     # Colonial Surge
     wwu_exploration_ideas_6 = {
         colonists = 1
-		expel_minorities_cost = -0.5
+		expel_minorities_cost = -0.25
     }
     # Domination of the Seas
     wwu_exploration_ideas_7 = {
@@ -1095,7 +1095,7 @@ wwu_maritime_ideas = {
     }
     # Merchant Marines
     wwu_maritime_ideas_2 = {
-        global_sailors_modifier = 0.33
+        global_sailors_modifier = 0.25
         allowed_marine_fraction = 0.2
     }
     # Sheltered Ports
@@ -1163,11 +1163,11 @@ wwu_assimilation_ideas = {
     }
     # Mixed Courts
     wwu_assimilation_ideas_2 = {
-        diplomatic_annexation_cost = -0.25
+        diplomatic_annexation_cost = -0.15
     }
     # Brothers in Arms
     wwu_assimilation_ideas_3 = {
-        global_manpower_modifier = 0.15
+        global_manpower_modifier = 0.1
     }
     # Religious Unity
     wwu_assimilation_ideas_4 = {
@@ -1202,7 +1202,7 @@ wwu_society_ideas = {
     category = DIP
 
     bonus = {
-        advisor_pool = 1
+        advisor_pool = 2
     }
     
     # War Attitudes
@@ -1211,7 +1211,7 @@ wwu_society_ideas = {
     }
     # Local Communities
     wwu_society_ideas_2 = {
-        improve_relation_modifier = 0.15
+        improve_relation_modifier = 0.1
     }
     # Education for Commoners
     wwu_society_ideas_3 = {
@@ -1278,7 +1278,7 @@ wwu_propaganda_ideas = {
     }
     # Dissuade Dissidents
     wwu_propaganda_ideas_5 = {
-		yearly_absolutism = 1
+		yearly_absolutism = 0.5
     }
     # Unending Rhetoric
     wwu_propaganda_ideas_6 = {

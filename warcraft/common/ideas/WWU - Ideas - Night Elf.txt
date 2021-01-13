@@ -2,7 +2,7 @@
 DAS_ideas = {
 	start = {
 		ae_impact = -0.1
-        improve_relation_modifier = 0.2
+        improve_relation_modifier = 0.1
 	}
 
 	bonus = {
@@ -24,13 +24,13 @@ DAS_ideas = {
 		prestige_decay = -0.01
 	}
 	DAS_ideas_4 = {
-		general_cost = -0.5
+		general_cost = -0.25
 	}
 	DAS_ideas_5 = {
-		fire_damage = 0.2
+		fire_damage = 0.1
 	}
 	DAS_ideas_6 = {
-		core_creation = -0.2
+		core_creation = -0.1
 	}
 	DAS_ideas_7 = {
 		devotion = 1
@@ -45,7 +45,7 @@ night_elf_ideas = {
 	}
 
 	bonus = {
-        land_morale = 0.25
+        land_morale = 0.1
 	}
 	
 	trigger = {
@@ -57,12 +57,12 @@ night_elf_ideas = {
 		global_unrest = -2
 	}
 	night_elf_ideas_2 = {
-		infantry_cost = -0.2
-        garrison_size = 0.5
+		infantry_cost = -0.1
+        garrison_size = 0.25
 	}
 	night_elf_ideas_3 = {
-		build_cost = -0.25
-        build_time = -0.25
+		build_cost = -0.15
+        build_time = -0.15
 	}
 	night_elf_ideas_4 = {
 		global_missionary_strength = 0.02
@@ -71,7 +71,7 @@ night_elf_ideas = {
 		state_maintenance_modifier = -0.25
 	}
 	night_elf_ideas_6 = {
-		global_trade_goods_size_modifier = 0.15
+		global_trade_goods_size_modifier = 0.1
 	}
 	night_elf_ideas_7 = {
 		prestige = 1

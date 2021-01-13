@@ -22,11 +22,11 @@ magnataur_ideas = {
 		global_manpower_modifier = 0.1
 	}
 	magnataur_ideas_3 = {
-		fire_damage_received = -0.15
-        shock_damage_received = -0.15
+		fire_damage_received = -0.1
+        shock_damage_received = -0.1
 	}
 	magnataur_ideas_4 = {
-		siege_ability = 0.1
+		siege_ability = 0.05
 	}
 	magnataur_ideas_5 = {
 		stability_cost_modifier = -0.2
@@ -35,6 +35,6 @@ magnataur_ideas = {
 		harsh_treatment_cost = -0.25
 	}
 	magnataur_ideas_7 = {
-		land_morale = 0.2
+		land_morale = 0.1
 	}
 }

@@ -18,10 +18,10 @@ WIL_ideas = {
 	free = yes		
 	
 	WIL_ideas_1 = {
-		movement_speed = 0.25
+		movement_speed = 0.1
 	}
 	WIL_ideas_2 = {
-		production_efficiency = 0.2
+		production_efficiency = 0.1
 	}
 	WIL_ideas_3 = {
 		leader_siege = 1
@@ -69,13 +69,13 @@ IRO_ideas = {
 		legitimacy = 1
 	}
 	IRO_ideas_4 = {
-		trade_steering = 0.2
+		trade_steering = 0.1
 	}
 	IRO_ideas_5 = {
 		siege_ability = 0.2
 	}
 	IRO_ideas_6 = {
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	IRO_ideas_7 = {
 		administrative_efficiency = 0.05
@@ -100,10 +100,10 @@ DKI_ideas = {
 	
 	DKI_ideas_1 = {
 		tolerance_own = 1
-        warscore_cost_vs_other_religion = -0.25
+        warscore_cost_vs_other_religion = -0.1
 	}
 	DKI_ideas_2 = {
-		infantry_power = 0.2
+		infantry_power = 0.1
 	}
 	DKI_ideas_3 = {
 		build_time = -0.8
@@ -130,7 +130,7 @@ dwarf_ideas = {
 	}
 
 	bonus = {
-        production_efficiency = 0.2
+        production_efficiency = 0.1
 	}
 	
 	trigger = {
@@ -154,7 +154,7 @@ dwarf_ideas = {
 		trade_steering = 0.1
 	}
 	dwarf_ideas_5 = {
-		siege_ability = 0.2
+		siege_ability = 0.1
 	}
 	dwarf_ideas_6 = {
 		development_cost = -0.1

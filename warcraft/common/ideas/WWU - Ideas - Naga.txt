@@ -6,7 +6,7 @@ NZJ_ideas = {
 	}
 
 	bonus = {
-        core_creation = -0.2
+        governing_capacity_modifier = 0.1
 	}
 	
 	trigger = {
@@ -15,7 +15,7 @@ NZJ_ideas = {
 	free = yes		
 	
 	NZJ_ideas_1 = {
-		discipline = 0.1
+		discipline = 0.05
 	}
 	NZJ_ideas_2 = {
 		heavy_ship_power = 0.1
@@ -26,13 +26,13 @@ NZJ_ideas = {
         sailor_maintenance_modifer = -0.25
 	}
 	NZJ_ideas_4 = {
-		unjustified_demands = -0.25
+		unjustified_demands = -0.1
 	}
 	NZJ_ideas_5 = {
-		years_of_nationalism = -10
+		years_of_nationalism = -5
 	}
 	NZJ_ideas_6 = {
-		ship_durability = 0.1
+		ship_durability = 0.05
 	}
 	NZJ_ideas_7 = {
 		navy_tradition = 1
@@ -68,7 +68,7 @@ naga_ideas = {
 		navy_tradition = 1
 	}
 	naga_ideas_4 = {
-		province_warscore_cost = -0.2
+		province_warscore_cost = -0.1
 	}
 	naga_ideas_5 = {
 		production_efficiency = 0.1

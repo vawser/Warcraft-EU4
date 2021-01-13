@@ -1,12 +1,12 @@
 # Harpy
 harpy_ideas = {
 	start = {
-		mil_tech_cost_modifier = -0.1
+		culture_conversion_cost = -0.1
         prestige_decay = -0.01
 	}
 
 	bonus = {
-        mil_advisor_cost = -0.25
+        movement_speed = 0.2
 	}
 	
 	trigger = {
@@ -19,7 +19,7 @@ harpy_ideas = {
         manpower_recovery_speed = 0.1
 	}
 	harpy_ideas_2 = {
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	harpy_ideas_3 = {
 		may_recruit_female_generals = yes
@@ -32,10 +32,9 @@ harpy_ideas = {
 		production_efficiency = 0.1
 	}
 	harpy_ideas_6 = {
-		cavalry_power = 0.2
+		cavalry_power = 0.1
 	}
 	harpy_ideas_7 = {
 		cavalry_flanking = 1.0
-        movement_speed = 0.25
 	}
 }

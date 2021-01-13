@@ -6,7 +6,11 @@ NTB_ideas = {
 	}
 
 	bonus = {
-        administrative_efficiency = 0.1
+        legitimacy = 1
+        republican_tradition = 1
+        devotion = 1
+        horde_unity = 1
+        meritocracy = 1
 	}
 	
 	trigger = {
@@ -18,11 +22,11 @@ NTB_ideas = {
 		idea_cost = -0.1
 	}
 	NTB_ideas_2 = {
-		diplomatic_reputation = 2
+		diplomatic_reputation = 1
         diplomats = 1
 	}
 	NTB_ideas_3 = {
-		ae_impact = -0.2
+		ae_impact = -0.1
 	}
 	NTB_ideas_4 = {
 		prestige = 1
@@ -35,7 +39,7 @@ NTB_ideas = {
 		technology_cost = -0.1
 	}
 	NTB_ideas_7 = {
-		discipline = 0.075
+		discipline = 0.05
 	}
 }
 

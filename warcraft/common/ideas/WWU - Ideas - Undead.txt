@@ -6,7 +6,7 @@ undead_ideas = {
 	}
 
 	bonus = {
-        shock_damage_received = -0.25
+        shock_damage_received = -0.1
 	}
 	
 	trigger = {
@@ -15,7 +15,7 @@ undead_ideas = {
 	free = yes		
 	
 	undead_ideas_1 = {
-		land_maintenance_modifier = -0.20
+		land_maintenance_modifier = -0.2
 	}
 	undead_ideas_2 = {
 		global_manpower_modifier = 0.1
@@ -24,14 +24,14 @@ undead_ideas = {
 		diplomats = 1
 	}
 	undead_ideas_4 = {
-		land_morale = 0.1
+		global_unrest = -2
 	}
 	undead_ideas_5 = {
 		diplomatic_upkeep = 1
         envoy_travel_time = -0.25
 	}
 	undead_ideas_6 = {
-		siege_ability = 0.15
+		siege_ability = 0.1
 	}
 	undead_ideas_7 = {
 		hostile_attrition = 2

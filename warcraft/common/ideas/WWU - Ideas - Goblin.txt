@@ -6,7 +6,7 @@ goblin_ideas = {
 	}
 
 	bonus = {
-        naval_forcelimit_modifier = 0.25
+        naval_forcelimit_modifier = 0.2
 	}
 	
 	trigger = {
@@ -15,13 +15,13 @@ goblin_ideas = {
 	free = yes		
 	
 	goblin_ideas_1 = {
-		development_cost = -0.2
+		development_cost = -0.1
 	}
 	goblin_ideas_2 = {
-		idea_cost = -0.1
+		idea_cost = -0.05
 	}
 	goblin_ideas_3 = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.2
 	}
 	goblin_ideas_4 = {
 		global_trade_power = 0.1
@@ -34,6 +34,6 @@ goblin_ideas = {
         caravan_power = 0.1
 	}
 	goblin_ideas_7 = {
-		province_warscore_cost = -0.15
+		province_warscore_cost = -0.1
 	}
 }

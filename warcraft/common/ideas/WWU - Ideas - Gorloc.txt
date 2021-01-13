@@ -6,7 +6,7 @@ gorloc_ideas = {
 	}
 
 	bonus = {
-        global_unrest = -3
+        global_unrest = -2
 	}
 	
 	trigger = {
@@ -19,20 +19,20 @@ gorloc_ideas = {
 		technology_cost = -0.05
 	}
 	gorloc_ideas_2 = {
-		production_efficiency = 0.15
+		production_efficiency = 0.1
 	}
 	gorloc_ideas_3 = {
 		development_cost = -0.1
 	}
 	gorloc_ideas_4 = {
-		province_warscore_cost = -0.15
+		province_warscore_cost = -0.1
 	}
 	gorloc_ideas_5 = {
-		global_trade_power = 0.15
+		global_trade_power = 0.1
 	}
 	gorloc_ideas_6 = {
 		infantry_cost = -0.15
-        infantry_power = 0.1
+        infantry_power = 0.05
 	}
 	gorloc_ideas_7 = {
         tolerance_own = 1

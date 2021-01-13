@@ -5,7 +5,7 @@ add_government_reform = tribal_despotism_reform
 primary_culture = swiftfin
 religion = deep_mother
 
-capital = 7579
+capital = 7576
 
 # The First War
 592.1.1 = {

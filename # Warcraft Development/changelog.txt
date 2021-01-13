@@ -1,10 +1,7 @@
 #------------------------------
 # Changelog
 #------------------------------
-- AE is now accured normally.
-- Client states have a higher base liberty desire as they are available at anytime.
-- Changed maximum client states to 10.
-- Added new minor nations in lower EK.
+- Adjusted the National Idea modifiers.
 
 #------------------------------
 # Notes

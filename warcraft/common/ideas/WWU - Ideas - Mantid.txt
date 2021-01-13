@@ -19,24 +19,24 @@ mantid_ideas = {
 		advisor_pool = 1
 	}
 	mantid_ideas_2 = {
-		land_forcelimit_modifier = 0.25
+		land_forcelimit_modifier = 0.1
 	}
 	mantid_ideas_3 = {
-		yearly_corruption = -0.1
+		yearly_corruption = -0.05
 	}
 	mantid_ideas_4 = {
 		build_cost = -0.15
         build_time = -0.15
 	}
 	mantid_ideas_5 = {
-		unjustified_demands = -0.2
+		unjustified_demands = -0.15
 	}
 	mantid_ideas_6 = {
         diplomats = 1
 		envoy_travel_time = -0.25
 	}
 	mantid_ideas_7 = {
-		global_missionary_strength = 0.03
+		global_missionary_strength = 0.02
 	}
 }
 

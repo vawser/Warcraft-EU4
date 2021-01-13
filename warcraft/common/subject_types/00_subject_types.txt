@@ -179,7 +179,7 @@ vassal = {
 	can_be_annexed = yes
 	has_power_projection = no
 	gets_help_with_rebels = yes
-	takes_diplo_slot = no
+	takes_diplo_slot = yes
 
 	max_government_rank = 1
 
@@ -262,7 +262,7 @@ daimyo_vassal = {
 	
 	# Properties:
 	has_power_projection = yes
-	takes_diplo_slot = no
+	takes_diplo_slot = yes
 	gives_daimyo_bonuses = yes
 	gets_help_with_rebels = no
 	separatists_become_subjects = yes
