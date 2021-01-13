@@ -7,6 +7,9 @@
 # Notes
 #------------------------------
 Name key provinces
+
+Update trade company ID lists
+
 Add Feathermoon submerged isle
 Add more minors in EK, add some more interconnections between regions
 

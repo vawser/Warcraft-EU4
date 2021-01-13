@@ -15,7 +15,7 @@ lakes = {
 }
 
 only_used_for_random = { 
-    1100 1101 1512
+    1101 1512
 }
 force_coastal = { }
 

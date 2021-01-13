@@ -4,8 +4,8 @@ owner = QUE
 controller = QUE
 add_core = QUE
 
-base_tax = 7
-base_production = 6
+base_tax = 10
+base_production = 7
 base_manpower = 5
 
 culture = quelthalas
@@ -14,4 +14,4 @@ religion = arcane
 trade_goods = unknown
 hre = no
 
-
+center_of_trade = 2

@@ -1098,7 +1098,7 @@ province;red;green;blue;type;name;DRAWN;notes
 1097;16;50;140;sea;Unnamed;DRAWN
 1098;16;60;140;sea;Unnamed;DRAWN
 1099;16;70;140;sea;Unnamed;DRAWN
-1100;16;80;140;sea;Unnamed;DRAWN
+1100;220;30;25;wasteland;Unnamed
 1101;16;90;140;sea;Unnamed;DRAWN
 1102;16;100;140;sea;Unnamed;DRAWN
 1103;16;110;140;sea;Unnamed;DRAWN

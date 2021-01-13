@@ -56,6 +56,7 @@ region_eversong_forest = {
         area_eversong_forest_39
         area_eversong_forest_40
         area_eversong_forest_41
+        area_eversong_forest_42
     }
 }
 

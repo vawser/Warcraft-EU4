@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = FSM
-controller = FSM
-add_core = FSM
+owner = HTT
+controller = HTT
+add_core = HTT
 
 base_tax = 1
 base_production = 1
 base_manpower = 2
 
-culture = frostmane
-religion = voodoo
+culture = hilltooth
+religion = geomancy
 
 trade_goods = unknown
 hre = no

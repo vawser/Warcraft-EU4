@@ -36,7 +36,7 @@ area_eversong_forest_3 = {
 }
 
 area_eversong_forest_4 = {
-    4176 4168 4177 4179 4172
+    4172
 }
 
 area_eversong_forest_5 = {
@@ -44,11 +44,11 @@ area_eversong_forest_5 = {
 }
 
 area_eversong_forest_6 = {
-    4178 4169 4171 4173 4170 4174
+    4171 4173 4170 4174
 }
 
 area_eversong_forest_7 = {
-    4164 4165 4161 4162 
+    4161 4162 
 }
 
 area_eversong_forest_8 = {
@@ -60,7 +60,7 @@ area_eversong_forest_9 = {
 }
 
 area_eversong_forest_10 = {
-    4180 4175 4188 4181 4160
+    4180 4175 4188 4181 4160 4162
 }
 
 area_eversong_forest_11 = {
@@ -185,6 +185,10 @@ area_eversong_forest_40 = {
 
 area_eversong_forest_41 = {
     4096 4099 4104 4101 4100
+}
+
+area_eversong_forest_42 = {
+    4178 4168 4176 4169 4179 4164 4177 4165
 }
 
 #-------------------
