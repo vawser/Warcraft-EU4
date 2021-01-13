@@ -90,6 +90,41 @@ murloc_group = {
 		female_names = { }
 		dynasty_names = { }
     }
+    stormfin = {
+        primary = SMF
+        
+        male_names = { }
+		female_names = { }
+		dynasty_names = { }
+    }
+    bloodfin = {
+        primary = BFN
+        
+        male_names = { }
+		female_names = { }
+		dynasty_names = { }
+    }
+    titanscale = {
+        primary = TTS
+        
+        male_names = { }
+		female_names = { }
+		dynasty_names = { }
+    }
+    grimswarm = {
+        primary = GMS
+        
+        male_names = { }
+		female_names = { }
+		dynasty_names = { }
+    }
+    swiftfin = {
+        primary = SFT
+        
+        male_names = { }
+		female_names = { }
+		dynasty_names = { }
+    }
 }
 
 

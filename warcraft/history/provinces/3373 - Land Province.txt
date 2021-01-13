@@ -1,14 +1,14 @@
 
-is_city = no
-native_size = 6
-native_ferocity = 5
-native_hostileness = 4
+is_city = yes
+owner = HMM
+controller = HMM
+add_core = HMM
 
 base_tax = 3
 base_production = 3
 base_manpower = 2
 
-culture = wildhammer
+culture = hammertail
 religion = shamanism
 
 trade_goods = unknown

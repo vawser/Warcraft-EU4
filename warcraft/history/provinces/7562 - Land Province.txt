@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = CDD
+controller = CDD
+add_core = CDD
+
+base_tax = 2
+base_production = 1
+base_manpower = 2
+
+culture = candledeep
+religion = geomancy
+
+trade_goods = unknown
+hre = no
+
+

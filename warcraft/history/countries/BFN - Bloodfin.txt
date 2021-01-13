@@ -1,0 +1,20 @@
+technology_group = tech_murloc
+set_country_flag = originally_tech_murloc
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = bloodfin
+religion = deep_mother
+
+capital = 7499
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Murglpr"
+        dynasty = "the Bloodied"
+        adm = 1
+        dip = 2
+        mil = 5
+    }
+}
+

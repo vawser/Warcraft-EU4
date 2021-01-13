@@ -8,6 +8,10 @@ religion = the_holy_light
 
 capital = 1757
 
+historical_friend = SRW
+historical_friend = WIL
+historical_rival = TOH
+
 # The First War
 592.1.1 = {
     monarch = { 

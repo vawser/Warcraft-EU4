@@ -1,0 +1,19 @@
+technology_group = tech_kobold
+set_country_flag = originally_tech_kobold
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = thistlewhisker
+religion = shadow
+
+capital = 7483
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Nogzlak"
+        dynasty = "Whiskercandle"
+        adm = 6
+        dip = 5
+        mil = 4
+    }
+}

@@ -1,38 +1,16 @@
 
 is_city = yes
-owner = SRW
-controller = SRW
-add_core = SRW
+owner = TWK
+controller = TWK
+add_core = TWK
 
 base_tax = 3
 base_production = 4
 base_manpower = 2
 
-culture = stormwind
-religion = the_holy_light
+culture = thistlewhisker
+religion = geomancy
 
 trade_goods = unknown
 hre = no
-
-# Second War
-593.1.1 = {
-    owner = TOH
-    controller = TOH
-    add_core = TOH
-    
-    culture = orc
-    religion = fel
-}
-
-# Third War
-594.1.1 = {
-    remove_core = TOH
-    
-    owner = SRW
-    controller = SRW
-    add_core = SRW
-    
-    culture = stormwind
-    religion = the_holy_light
-}
 

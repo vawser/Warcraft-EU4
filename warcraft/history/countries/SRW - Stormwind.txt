@@ -8,6 +8,9 @@ religion = the_holy_light
 
 capital = 2993
 
+historical_rival = TOH
+historical_friend = IRO
+
 # The Orcish Horde
 592.1.1 = {
     monarch = { 

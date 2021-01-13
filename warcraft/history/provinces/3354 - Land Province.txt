@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = IRO
-controller = IRO
-add_core = IRO
+owner = BLU
+controller = BLU
+add_core = BLU
 
 base_tax = 3
 base_production = 4
 base_manpower = 1
 
-culture = ironforge
-religion = the_holy_light
+culture = bluegill
+religion = deep_mother
 
 trade_goods = unknown
 hre = no

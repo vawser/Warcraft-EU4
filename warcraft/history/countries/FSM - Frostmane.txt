@@ -5,7 +5,7 @@ add_government_reform = troll_kingdom_reform
 primary_culture = frostmane
 religion = voodoo
 
-capital = 3289
+capital = 7547
 
 # The First War
 592.1.1 = {

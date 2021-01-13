@@ -183,6 +183,11 @@
  savage_hill: "Savage Hill"
  woodpaw: "Woodpaw"
  gnoll: "Gnoll"
+ stonetail: "Stonetail"
+ goldpaw: "Goldpaw"
+ dustmane: "Dustmane"
+ hilltail: "Hilltail"
+ hammertail: "Hammertail"
  
  #--------------------------------
  # Gnome
@@ -257,6 +262,9 @@
  tunnel_rat: "Tunnel Rat"
  whitewhisker: "Whitewhisker"
  kobold: "Kobold"
+ thistlewhisker: "Thistlewhisker"
+ candledeep: "Candledeep"
+ shorerat: "Shorerat"
  
  #--------------------------------
  # Magnataur
@@ -301,6 +309,11 @@
  evermere: "Evermere"
  stonegill: "Stonegill"
  murloc: "Murloc"
+ stormfin: "Stormfin"
+ bloodfin: "Bloodfin"
+ titanscale: "Titanscale"
+ grimswarm: "Grimswarm"
+ swiftfin: "Swiftfin"
  
  #--------------------------------
  # Naga
@@ -522,6 +535,10 @@
  ironjaw: "Ironjaw"
  silverflint: "Silverflint"
  trogg: "Trogg"
+ caverntooth: "Caverntooth"
+ bronzefist: "Bronzefist"
+ hilltooth: "Hilltooth"
+ ironflint: "Ironflint"
  
  #--------------------------------
  # Troll

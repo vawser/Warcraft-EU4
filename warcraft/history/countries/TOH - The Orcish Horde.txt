@@ -8,6 +8,21 @@ religion = fel
 
 capital = 3135
 
+historical_rival = SRW
+historical_rival = IRO
+historical_rival = RED
+historical_rival = BRI
+historical_rival = WES
+historical_rival = GUR
+historical_rival = DKI
+historical_rival = QUE
+historical_rival = LOR
+historical_rival = SMG
+historical_rival = DAL
+historical_rival = ALT
+historical_rival = GIL
+historical_rival = KUL
+
 # The First War
 592.1.1 = {
     monarch = { 

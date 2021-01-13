@@ -65,5 +65,33 @@ trogg_group = {
         female_names = { }
         dynasty_names = { }
     }
+    caverntooth = {
+        primary = CVT
+        
+        male_names = { }
+        female_names = { }
+        dynasty_names = { }
+    }
+    bronzefist = {
+        primary = BZF
+        
+        male_names = { }
+        female_names = { }
+        dynasty_names = { }
+    }
+    hilltooth = {
+        primary = HTT
+        
+        male_names = { }
+        female_names = { }
+        dynasty_names = { }
+    }
+    ironflint = {
+        primary = IFT
+        
+        male_names = { }
+        female_names = { }
+        dynasty_names = { }
+    }
 }
 

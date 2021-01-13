@@ -1528,8 +1528,8 @@ province;red;green;blue;type;name;DRAWN;notes
 1527;10;140;170;lake;Ironforge Airfield Lake;DRAWN
 1528;10;150;170;lake;Ironforge Lake;DRAWN
 1529;10;160;170;lake;Dun Morogh Lake;DRAWN
-1530;10;170;170;lake;Twilight Mt. Lake;DRAWN
-1531;10;180;170;lake;Wetlands Lake;DRAWN
+1530;10;170;170;sea;Unnamed;DRAWN
+1531;10;180;170;sea;Unnamed;DRAWN
 1532;10;190;170;lake;Vermillion Lake;DRAWN
 1533;10;200;170;lake;Hinterlands Lake;DRAWN
 1534;11;0;170;lake;Aerie Peak Lake 1;DRAWN
@@ -7518,3 +7518,73 @@ province;red;green;blue;type;name;DRAWN;notes
 7517;55;180;4;land;Unnamed;DRAWN
 7518;55;190;4;land;Unnamed;DRAWN
 7519;55;200;4;land;Unnamed;DRAWN
+7520;56;100;4;land;Unnamed;DRAWN
+7521;56;110;4;land;Unnamed;DRAWN
+7522;56;120;4;land;Unnamed;DRAWN
+7523;56;130;4;land;Unnamed;DRAWN
+7524;56;140;4;land;Unnamed;DRAWN
+7525;56;150;4;land;Unnamed;DRAWN
+7526;56;160;4;land;Unnamed;DRAWN
+7527;56;170;4;land;Unnamed;DRAWN
+7528;56;180;4;land;Unnamed;DRAWN
+7529;56;190;4;land;Unnamed;DRAWN
+7530;56;200;4;land;Unnamed;DRAWN
+7531;57;100;4;land;Unnamed;DRAWN
+7532;57;110;4;land;Unnamed;DRAWN
+7533;57;120;4;land;Unnamed;DRAWN
+7534;57;130;4;land;Unnamed;DRAWN
+7535;57;140;4;land;Unnamed;DRAWN
+7536;57;150;4;land;Unnamed;DRAWN
+7537;57;160;4;land;Unnamed;DRAWN
+7538;57;170;4;land;Unnamed;DRAWN
+7539;57;180;4;land;Unnamed;DRAWN
+7540;57;190;4;land;Unnamed;DRAWN
+7541;57;200;4;land;Unnamed;DRAWN
+7542;58;100;4;land;Unnamed;DRAWN
+7543;58;110;4;land;Unnamed;DRAWN
+7544;58;120;4;land;Unnamed;DRAWN
+7545;58;130;4;land;Unnamed;DRAWN
+7546;58;140;4;land;Unnamed;DRAWN
+7547;58;150;4;land;Unnamed;DRAWN
+7548;58;160;4;land;Unnamed;DRAWN
+7549;58;170;4;land;Unnamed;DRAWN
+7550;58;180;4;land;Unnamed;DRAWN
+7551;58;190;4;land;Unnamed;DRAWN
+7552;58;200;4;land;Unnamed;DRAWN
+7553;59;100;4;land;Unnamed;DRAWN
+7554;59;110;4;land;Unnamed;DRAWN
+7555;59;120;4;land;Unnamed;DRAWN
+7556;59;130;4;land;Unnamed;DRAWN
+7557;59;140;4;land;Unnamed;DRAWN
+7558;59;150;4;land;Unnamed;DRAWN
+7559;59;160;4;land;Unnamed;DRAWN
+7560;59;170;4;land;Unnamed;DRAWN
+7561;59;180;4;land;Unnamed;DRAWN
+7562;59;190;4;land;Unnamed;DRAWN
+7563;59;200;4;land;Unnamed;DRAWN
+7564;60;100;4;land;Unnamed;DRAWN
+7565;60;110;4;land;Unnamed;DRAWN
+7566;60;120;4;land;Unnamed;DRAWN
+7567;60;130;4;land;Unnamed;DRAWN
+7568;60;140;4;land;Unnamed;DRAWN
+7569;60;150;4;land;Unnamed;DRAWN
+7570;60;160;4;land;Unnamed;DRAWN
+7571;60;170;4;land;Unnamed;DRAWN
+7572;60;180;4;land;Unnamed;DRAWN
+7573;60;190;4;land;Unnamed;DRAWN
+7574;60;200;4;land;Unnamed;DRAWN
+7575;61;100;4;land;Unnamed;DRAWN
+7576;61;110;4;land;Unnamed;DRAWN
+7577;61;120;4;land;Unnamed;DRAWN
+7578;61;130;4;land;Unnamed;DRAWN
+7579;61;140;4;land;Unnamed;DRAWN
+7580;61;150;4;land;Unnamed;DRAWN
+7581;61;160;4;land;Unnamed;DRAWN
+7582;61;170;4;land;Unnamed;DRAWN
+7583;61;180;4;land;Unnamed;DRAWN
+7584;61;190;4;land;Unnamed;DRAWN
+7585;61;200;4;land;Unnamed;DRAWN
+7586;62;100;4;land;Unnamed;DRAWN
+7587;62;110;4;land;Unnamed;DRAWN
+7588;62;120;4;land;Unnamed;DRAWN
+7589;62;130;4;land;Unnamed;DRAWN

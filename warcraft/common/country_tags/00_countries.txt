@@ -130,6 +130,11 @@ REP = "countries/Redpine.txt"     # Andorhal
 RRP = "countries/Redridge Pack.txt" # Redridge
 SVH = "countries/Savage Hill.txt" # Storm Peaks
 WOO = "countries/Woodpaw.txt"     # Feralas
+SNT = "countries/Stonetail.txt"
+GPW = "countries/Goldpaw.txt"
+DTM = "countries/Dustmane.txt"
+HTL = "countries/Hilltail.txt"
+HMM = "countries/Hammertail.txt"
 
 # ---- Gnome ----
 GNO = "countries/Gnomeregan.txt" 
@@ -179,6 +184,9 @@ SKW = "countries/Skywhisker.txt"     # Highmountain
 TNR = "countries/Tunnel Rat.txt"     # Loch Modan
 WWK = "countries/Whitewhisker.txt"   # Alterac Valley
 SWK = "countries/Slatewhisker.txt"
+TWK = "countries/Thistlewhisker.txt"
+CDD = "countries/Candledeep.txt"
+SRT = "countries/Shorerat.txt"
 
 # ---- Magnataur ----
 MAG = "countries/Magmoth.txt"       # Borean Tundra
@@ -214,7 +222,12 @@ WRF = "countries/Winterfin.txt"     # Borean Tundra
 CHI = "countries/Chillmere.txt"     # Howling Fjord 
 EVM = "countries/Evermere.txt"      
 SGI = "countries/Stonegill.txt"
-        
+SMF = "countries/Stormfin.txt"
+BFN = "countries/Bloodfin.txt"
+TTS = "countries/Titanscale.txt"
+GMS = "countries/Grimswarm.txt"
+SFT = "countries/Swiftfin.txt"
+
 # ---- Naga  ----
 RIP = "countries/Riplash.txt"          # Borean Tundra
 FAT = "countries/Blackfathom.txt"      # Ashenvale
@@ -380,6 +393,10 @@ SPI = "countries/Stonesplinter.txt"      # Loch Modan
 FEV = "countries/Fenvault.txt"
 IJW = "countries/Ironjaw.txt"
 SFL = "countries/Silverflint.txt"
+CVT = "countries/Caverntooth.txt"
+BZF = "countries/Bronzefist.txt"
+HTT = "countries/Hilltooth.txt"
+IFT = "countries/Ironflint.txt"
 
 # ---- Zandalari Troll ----
 ZDL = "countries/Zandalar.txt"        # Zandalar

@@ -224,6 +224,8 @@ region_wetlands = {
         area_wetlands_14
         area_wetlands_15
         area_wetlands_16
+        area_wetlands_17
+        area_wetlands_18
     }
 }
 
@@ -243,6 +245,10 @@ region_northeron = {
         area_northeron_11
         area_northeron_12
         area_northeron_13
+        area_northeron_14
+        area_northeron_15
+        area_northeron_16
+        area_northeron_17
     }
 }
 
@@ -254,6 +260,8 @@ region_loch_modan = {
         area_loch_modan_4
         area_loch_modan_5
         area_loch_modan_6
+        area_loch_modan_7
+        area_loch_modan_8
     }
 }
 
@@ -271,6 +279,16 @@ region_dun_morogh = {
         area_dun_morogh_10
         area_dun_morogh_11
         area_dun_morogh_12
+        area_dun_morogh_13
+        area_dun_morogh_14
+        area_dun_morogh_15
+        area_dun_morogh_16
+        area_dun_morogh_17
+        area_dun_morogh_18
+        area_dun_morogh_19
+        area_dun_morogh_20
+        area_dun_morogh_21
+        area_dun_morogh_22
     }
 }
 

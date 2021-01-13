@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = FSM
+controller = FSM
+add_core = FSM
+
+base_tax = 1
+base_production = 2
+base_manpower = 1
+
+culture = frostmane
+religion = voodoo
+
+trade_goods = unknown
+hre = no
+
+

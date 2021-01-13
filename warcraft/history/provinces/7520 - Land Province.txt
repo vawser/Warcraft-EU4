@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SVT
+controller = SVT
+add_core = SVT
+
+base_tax = 2
+base_production = 1
+base_manpower = 3
+
+culture = stonevault
+religion = geomancy
+
+trade_goods = unknown
+hre = no
+
+

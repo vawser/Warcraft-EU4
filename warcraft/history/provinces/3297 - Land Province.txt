@@ -4,9 +4,9 @@ owner = GNO
 controller = GNO
 add_core = GNO
 
-base_tax = 2
-base_production = 3
-base_manpower = 4
+base_tax = 8
+base_production = 9
+base_manpower = 7
 
 culture = gnome
 religion = technomancy

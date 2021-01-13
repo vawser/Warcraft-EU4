@@ -1,0 +1,19 @@
+technology_group = tech_gnoll
+set_country_flag = originally_tech_gnoll
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = hammertail
+religion = shamanism
+
+capital = 3375
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Gekkem"
+        dynasty = "Shadehide"
+        adm = 2
+        dip = 6
+        mil = 3
+    }
+}

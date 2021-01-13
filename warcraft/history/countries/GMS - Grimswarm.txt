@@ -1,0 +1,20 @@
+technology_group = tech_murloc
+set_country_flag = originally_tech_murloc
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = grimswarm
+religion = deep_mother
+
+capital = 3371
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Murgl'rg"
+        dynasty = "the Brutal"
+        adm = 3
+        dip = 3
+        mil = 4
+    }
+}
+

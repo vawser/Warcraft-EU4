@@ -1,0 +1,19 @@
+technology_group = tech_trogg
+set_country_flag = originally_tech_trogg
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = hilltooth
+religion = geomancy
+
+capital = 7541
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Warlok"
+        dynasty = "Hilltooth"
+        adm = 2
+        dip = 2
+        mil = 1
+    }
+}

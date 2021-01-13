@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SRT
+controller = SRT
+add_core = SRT
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = shorerat
+religion = geomancy
+
+trade_goods = unknown
+hre = no
+
+

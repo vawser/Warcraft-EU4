@@ -1,0 +1,19 @@
+technology_group = tech_kobold
+set_country_flag = originally_tech_kobold
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = shorerat
+religion = geomancy
+
+capital = 7588
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Znorim"
+        dynasty = "Whiskerhorn"
+        adm = 1
+        dip = 1
+        mil = 1
+    }
+}

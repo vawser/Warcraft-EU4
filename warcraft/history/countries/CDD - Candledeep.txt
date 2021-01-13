@@ -1,0 +1,19 @@
+technology_group = tech_kobold
+set_country_flag = originally_tech_kobold
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = candledeep
+religion = geomancy
+
+capital = 7557
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Feenarg"
+        dynasty = "Gutshear"
+        adm = 3
+        dip = 2
+        mil = 3
+    }
+}

@@ -5,7 +5,7 @@ add_government_reform = tribal_despotism_reform
 primary_culture = mosshide
 religion = shamanism
 
-capital = 3344
+capital = 3331
 
 # The First War
 592.1.1 = {

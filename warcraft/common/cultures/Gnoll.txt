@@ -86,5 +86,40 @@ gnoll_group = {
         female_names = { }
 		dynasty_names = { }
     }
+    stonetail = {
+        primary = SNT
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    goldpaw = {
+        primary = GPW
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    dustmane = {
+        primary = DTM
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    hilltail = {
+        primary = HTL
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    hammertail = {
+        primary = HMM
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
 }
 

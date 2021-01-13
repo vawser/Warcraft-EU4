@@ -1,0 +1,20 @@
+technology_group = tech_murloc
+set_country_flag = originally_tech_murloc
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = swiftfin
+religion = deep_mother
+
+capital = 7579
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Nurglb"
+        dynasty = "the Swift"
+        adm = 2
+        dip = 3
+        mil = 2
+    }
+}
+

@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = SFT
+controller = SFT
+add_core = SFT
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = swiftfin
+religion = deep_mother
+
+trade_goods = unknown
+hre = no
+
+

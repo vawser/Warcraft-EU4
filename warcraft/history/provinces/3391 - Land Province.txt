@@ -1,15 +1,15 @@
 
-is_city = no
-native_size = 32
-native_ferocity = 0
-native_hostileness = 8
+is_city = yes
+owner = IFT
+controller = IFT
+add_core = IFT
 
 base_tax = 4
 base_production = 1
 base_manpower = 1
 
-culture = wildhammer
-religion = shamanism
+culture = ironflint
+religion = geomancy
 
 trade_goods = unknown
 hre = no

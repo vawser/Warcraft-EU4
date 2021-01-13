@@ -1,58 +1,15 @@
 #------------------------------
 # Changelog
 #------------------------------
-- De-mountained areas in EK so the regions are more interconnected.
-- Made the Stormwind river system navigable.
-
-#------------------------------
-# Issues
-#------------------------------
-
+- AE is now accured normally.
+- Client states have a higher base liberty desire as they are available at anytime.
+- Changed maximum client states to 10.
+- Added new minor nations in lower EK.
 
 #------------------------------
 # Notes
 #------------------------------
 Name key provinces
-
 Add Feathermoon submerged isle
 Add more minors in EK, add some more interconnections between regions
-    2 on Bloodmyst
-        Furbolg
-        Murloc
-    1 on Azuremyst
-        Furbolg
-    3 in Hyjal (empty provs)
-        Harpy
-        Furbolg
-    3 Tanaris
-        Pygmy
-        Sand Troll
-    3 Borean Tundra
-        Taunka
-        Magnataur
-    3 Dragonblight
-        Taunka
-        Tuskarr
-    7 Gizzly Hills
-        Wolvar
-        Furbolg
-        Taunka
-    2 Howling Fjord
-        Wolvar
-        Tuskarr
-    3 Kul Tiras
-        Mechagnome
-        Tortolann
-        Briarback
-    2 Quel'thalas
-        Naga
-        Gnoll
-    1 Stratholme
-        Naga
-    1 Lordaeron
-        Murloc
-    3 Stormwind
-        Gnoll
-        Murloc
-        Kobold
-        
+

@@ -79,5 +79,26 @@ kobold_group = {
         female_names = { }
 		dynasty_names = { }
     }
+    thistlewhisker = {
+        primary = TWK
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    candledeep = {
+        primary = CDD
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
+    shorerat = {
+        primary = SRT
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
 }
 

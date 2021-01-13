@@ -1,0 +1,19 @@
+technology_group = tech_trogg
+set_country_flag = originally_tech_trogg
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = ironflint
+religion = geomancy
+
+capital = 3392
+
+# The First War
+592.1.1 = {
+    monarch = {
+        name = "Gnusherikk"
+        dynasty = "Ironflint"
+        adm = 0
+        dip = 3
+        mil = 4
+    }
+}

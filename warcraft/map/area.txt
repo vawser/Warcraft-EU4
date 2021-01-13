@@ -598,7 +598,7 @@ area_hinterlands_11 = {
 # Wetlands
 #-------------------
 area_wetlands_1 = {
-    3316 3315 3314 3344 3312
+    3314 3344 3312 
 }
 
 area_wetlands_2 = {
@@ -630,7 +630,7 @@ area_wetlands_8 = {
 }
 
 area_wetlands_9 = {
-    3308 3338 3337
+    3308 3338 3337 7566 
 }
 
 area_wetlands_10 = {
@@ -638,7 +638,7 @@ area_wetlands_10 = {
 }
 
 area_wetlands_11 = {
-    3332 3331 
+    3332 3331 7568 7567
 }
 
 area_wetlands_12 = {
@@ -661,6 +661,14 @@ area_wetlands_16 = {
     3317 3319 3318 3320 1785
 }
 
+area_wetlands_17 = {
+    7527 7526 7528 7529
+}
+
+area_wetlands_18 = {
+    7569 3316 3315 
+}
+
 #-------------------
 # Northeron 
 #-------------------
@@ -673,15 +681,15 @@ area_northeron_2 = {
 }
 
 area_northeron_3 = {
-    3366 
+    3366 7579 7581 7582
 }
 
 area_northeron_4 = {
-    3386 3387 3388 3389
+    3386 3387 3388 3389 7585
 }
 
 area_northeron_5 = {
-    3385 3383 3420 3418 3382 3384
+    3385 3383 3420 3418 3382 
 }
 
 area_northeron_6 = {
@@ -701,7 +709,7 @@ area_northeron_9 = {
 }
 
 area_northeron_10 = {
-    3375 3376 3401 3399
+    3375 3376 3401 3399 7586
 }
 
 area_northeron_11 = {
@@ -716,6 +724,22 @@ area_northeron_13 = {
     3409 3411 3408 3405 3403
 }
 
+area_northeron_14 = {
+    7573 7572 7570 7571
+}
+
+area_northeron_15 = {
+    3384 7574 7575
+}
+
+area_northeron_16 = {
+    7576 7577 7578
+}
+
+area_northeron_17 = {
+    7584 7583 7580
+}
+
 #-------------------
 # Loch Modan
 #-------------------
@@ -724,7 +748,7 @@ area_loch_modan_1 = {
 }
 
 area_loch_modan_2 = {
-    3234 3235 3237 3236 3244
+    3234 3235 3237 3236 3244 7520
 }
 
 area_loch_modan_3 = {
@@ -732,7 +756,7 @@ area_loch_modan_3 = {
 }
 
 area_loch_modan_4 = {
-    3219 3220 1731 3222 3221 1727
+    3220 1731 3222 3221 
 }
 
 area_loch_modan_5 = {
@@ -740,7 +764,15 @@ area_loch_modan_5 = {
 }
 
 area_loch_modan_6 = {
-    3229 3231 3230 3228 1747
+    3229 3231 3230 3228 
+}
+
+area_loch_modan_7 = {
+    7523 7522 7521 3219
+}
+
+area_loch_modan_8 = {
+    7587 7588 7589
 }
 
 #-------------------
@@ -755,7 +787,7 @@ area_dun_morogh_2 = {
 }
 
 area_dun_morogh_3 = {
-    3258 3257 3256 3255 3259
+    3258 3257 7525
 }
 
 area_dun_morogh_4 = {
@@ -771,7 +803,7 @@ area_dun_morogh_6 = {
 }
 
 area_dun_morogh_7 = {
-    3272 3274 3273 3275
+    3274 3273 3275 3272
 }
 
 area_dun_morogh_8 = {
@@ -792,6 +824,46 @@ area_dun_morogh_11 = {
 
 area_dun_morogh_12 = {
     3292 3288 3291 3290 3289 1774
+}
+
+area_dun_morogh_13 = {
+    3256 3255 3259 7524
+}
+
+area_dun_morogh_14 = {
+    7532 7530 7531  
+}
+
+area_dun_morogh_15 = {
+    7534 7533 7535
+}
+
+area_dun_morogh_16 = {
+    7540 7539 7538 7537 7536
+}
+
+area_dun_morogh_17 = {
+    7565 7564 7563 7561 7562
+}
+
+area_dun_morogh_18 = {
+    7558 7560 7559 7557
+}
+
+area_dun_morogh_19 = {
+    7542 7541 7544 7543 7545
+}
+
+area_dun_morogh_20 = {
+    7547 7546 7549 7548
+}
+
+area_dun_morogh_21 = {
+    7556 7554 7555
+}
+
+area_dun_morogh_22 = {
+    7553 7552 7551 7550
 }
 
 #-------------------
@@ -4908,12 +4980,12 @@ area_coast_azeroth_west = {
     514 525 1514
 }
 
-area_coast_khaz_modan_east = {
-    353 354 355 356 357 377 378 376 375 373 
+area_coast_khaz_modan_east = { 
+    353 354 355 356 357 377 378 376 375 373 1530 1072
 }
 
 area_coast_khaz_modan_west = {
-    372 371 402 401 400 423 424 421 425 426 427
+    372 371 402 401 400 423 424 421 425 426 427 1531 1073 1088 1089
 }
 
 area_coast_lordaeron_east = {

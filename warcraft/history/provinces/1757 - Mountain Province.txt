@@ -4,9 +4,9 @@ owner = IRO
 controller = IRO
 add_core = IRO
 
-base_tax = 2
-base_production = 1
-base_manpower = 3
+base_tax = 12
+base_production = 12
+base_manpower = 14
 
 culture = ironforge
 religion = the_holy_light
