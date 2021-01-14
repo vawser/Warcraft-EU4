@@ -5,8 +5,8 @@ controller = STR
 add_core = STR
 
 base_tax = 3
-base_production = 4
-base_manpower = 4
+base_production = 2
+base_manpower = 2
 
 culture = stratholme
 religion = the_holy_light

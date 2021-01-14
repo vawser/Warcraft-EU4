@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = REP
-controller = REP
-add_core = REP
+owner = WTX
+controller = WTX
+add_core = WTX
 
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 1
+base_production = 1
+base_manpower = 2
 
-culture = redpine
-religion = shamanism
+culture = winterax
+religion = voodoo
 
 trade_goods = unknown
 hre = no

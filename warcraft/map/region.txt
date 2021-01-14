@@ -45,18 +45,26 @@ region_eversong_forest = {
         area_eversong_forest_28
         area_eversong_forest_29
         area_eversong_forest_30
-        area_eversong_forest_31
-        area_eversong_forest_32
-        area_eversong_forest_33
-        area_eversong_forest_34
-        area_eversong_forest_35
-        area_eversong_forest_36
-        area_eversong_forest_37
-        area_eversong_forest_38
-        area_eversong_forest_39
-        area_eversong_forest_40
-        area_eversong_forest_41
-        area_eversong_forest_42
+    }
+}
+
+region_amani_basin = {
+    areas = {
+        area_amani_basin_1
+        area_amani_basin_2
+        area_amani_basin_3
+        area_amani_basin_4
+        area_amani_basin_5
+        area_amani_basin_6
+        area_amani_basin_7
+        area_amani_basin_8
+        area_amani_basin_9
+        area_amani_basin_10
+        area_amani_basin_11
+        area_amani_basin_12
+        area_amani_basin_13
+        area_amani_basin_14
+        area_amani_basin_15
     }
 }
 
@@ -98,6 +106,8 @@ region_stratholme = {
         area_stratholme_18
         area_stratholme_19
         area_stratholme_20
+        area_stratholme_21
+        area_stratholme_22
     }
 }
 
@@ -117,6 +127,10 @@ region_tirisfal_glades = {
         area_lordaeron_11
         area_lordaeron_12
         area_lordaeron_13
+        area_lordaeron_14
+        area_lordaeron_15
+        area_lordaeron_16
+        area_lordaeron_17
     }
 }
 
@@ -151,6 +165,7 @@ region_alterac = {
         area_alterac_1
         area_alterac_2
         area_alterac_3
+        area_alterac_4
     }
 }
 
@@ -188,6 +203,8 @@ region_arathi_highlands = {
         area_arathi_highlands_7
         area_arathi_highlands_8
         area_arathi_highlands_9
+        area_arathi_highlands_10
+        
     }
 }
 
@@ -204,6 +221,12 @@ region_the_hinterlands = {
         area_hinterlands_9
         area_hinterlands_10
         area_hinterlands_11
+        area_hinterlands_12
+        area_hinterlands_13
+        area_hinterlands_14
+        area_hinterlands_15
+        area_hinterlands_16
+        area_hinterlands_17
     }   
 }
 
@@ -841,6 +864,7 @@ region_feralas = {
         area_feralas_18
         area_feralas_19
         area_feralas_20
+        area_feralas_21
     }
 }
 

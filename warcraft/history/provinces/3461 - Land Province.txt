@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = SOU
-controller = SOU
-add_core = SOU
+owner = MUD
+controller = MUD
+add_core = MUD
 
 base_tax = 3
 base_production = 1
 base_manpower = 2
 
-culture = southshore
-religion = the_holy_light
+culture = mudsnout
+religion = shamanism
 
 trade_goods = unknown
 hre = no

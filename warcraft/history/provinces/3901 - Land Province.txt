@@ -1,17 +1,28 @@
 
 is_city = yes
-owner = VIL
-controller = VIL
-add_core = VIL
+owner = LOR
+controller = LOR
+add_core = LOR
 
 base_tax = 3
 base_production = 3
 base_manpower = 1
 
-culture = vilefin
-religion = deep_mother
+culture = lordaeron
+religion = the_holy_light
 
 trade_goods = unknown
 hre = no
 
-
+# Battle of Mount Hyjal
+595.1.1 = {
+    is_city = yes
+    owner = LOR
+    controller = LOR
+    add_core = LOR
+    
+    culture = lordaeron
+    religion = cult_of_the_damned
+    
+    set_revolution_in_province = yes
+}

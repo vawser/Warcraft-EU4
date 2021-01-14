@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = SMG
-controller = SMG
-add_core = SMG
+owner = DRY
+controller = DRY
+add_core = DRY
 
 base_tax = 1
 base_production = 1
 base_manpower = 3
 
-culture = stromgarde
-religion = the_holy_light
+culture = drywhisker
+religion = geomancy
 
 trade_goods = unknown
 hre = no

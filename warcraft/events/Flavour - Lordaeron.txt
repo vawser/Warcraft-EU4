@@ -1,0 +1,160 @@
+namespace = wwu_lordaeron
+
+# Demands from Southshore
+country_event = {
+	id = wwu_lordaeron.1
+	title = wwu_lordaeron.1.title
+	desc = wwu_lordaeron.1.desc
+	picture = KING_LLANE_eventPicture
+
+	trigger = {
+        tag = LOR
+        NOT = { has_country_flag = southshore_demands }
+        SOU = {
+            is_subject_of = LOR
+        }
+	}
+    
+    immediate = {
+        hidden_effect = {
+            set_country_flag = southshore_demands
+        }
+    }
+
+    mean_time_to_happen = {
+        months = 120
+        
+        modifier = {
+            factor = 0.5
+            
+            NOT = { stability = 0 }
+        }
+    } 
+       
+	option = {
+		name = wwu_lordaeron.1.option.a
+		
+        add_prestige = -25
+        
+        ai_chance = { factor = 10 }
+	}
+    
+    option = {
+		name = wwu_lordaeron.1.option.b
+		
+        SOU = {
+            add_country_modifier = {
+                name = rebellious_vassal
+                duration = 7300
+            }
+        }
+        
+        ai_chance = { factor = 90 }
+	}
+}
+
+# Demands from Andorhal
+country_event = {
+	id = wwu_lordaeron.2
+	title = wwu_lordaeron.2.title
+	desc = wwu_lordaeron.2.desc
+	picture = KING_LLANE_eventPicture
+
+	trigger = {
+        tag = LOR
+        NOT = { has_country_flag = andorhal_demands }
+        ANO = {
+            is_subject_of = ANO
+        }
+	}
+
+    immediate = {
+        hidden_effect = {
+            set_country_flag = andorhal_demands
+        }
+    }
+    
+    mean_time_to_happen = {
+        months = 240
+        
+        modifier = {
+            factor = 0.5
+            
+            NOT = { stability = 0 }
+        }
+    } 
+       
+	option = {
+		name = wwu_lordaeron.2.option.a
+		
+        add_prestige = -25
+        
+        ai_chance = { factor = 50 }
+	}
+    
+    option = {
+		name = wwu_lordaeron.2.option.b
+		
+        ANO = {
+            add_country_modifier = {
+                name = rebellious_vassal
+                duration = 7300
+            }
+        }
+        
+        ai_chance = { factor = 50 }
+	}
+}
+
+# Demands from Stratholme
+country_event = {
+	id = wwu_lordaeron.3
+	title = wwu_lordaeron.3.title
+	desc = wwu_lordaeron.3.desc
+	picture = KING_LLANE_eventPicture
+
+	trigger = {
+        tag = STR
+        NOT = { has_country_flag = stratholme_demands }
+        STR = {
+            is_subject_of = ANO
+        }
+	}
+
+    immediate = {
+        hidden_effect = {
+            set_country_flag = stratholme_demands
+        }
+    }
+    
+    mean_time_to_happen = {
+        months = 480
+        
+        modifier = {
+            factor = 0.5
+            
+            NOT = { stability = 0 }
+        }
+    } 
+       
+	option = {
+		name = wwu_lordaeron.3.option.a
+		
+        add_prestige = -25
+        
+        ai_chance = { factor = 80 }
+	}
+    
+    option = {
+		name = wwu_lordaeron.3.option.b
+		
+        STR = {
+            add_country_modifier = {
+                name = rebellious_vassal
+                duration = 7300
+            }
+        }
+        
+        ai_chance = { factor = 20 }
+	}
+}

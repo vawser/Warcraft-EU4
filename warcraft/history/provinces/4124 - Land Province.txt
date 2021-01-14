@@ -6,7 +6,7 @@ add_core = QUE
 
 base_tax = 3
 base_production = 4
-base_manpower = 1
+base_manpower = 2
 
 culture = quelthalas
 religion = arcane

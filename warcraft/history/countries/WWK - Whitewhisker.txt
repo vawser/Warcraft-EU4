@@ -5,7 +5,7 @@ add_government_reform = tribal_federation_reform
 primary_culture = whitewhisker
 religion = geomancy
 
-capital = 3481
+capital = 7626
 
 # The First War
 592.1.1 = {

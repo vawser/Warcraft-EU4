@@ -1,0 +1,17 @@
+
+is_city = yes
+owner = VIL
+controller = VIL
+add_core = VIL
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = vilefin
+religion = deep_mother
+
+trade_goods = unknown
+hre = no
+
+

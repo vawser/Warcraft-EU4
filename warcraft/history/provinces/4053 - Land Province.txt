@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = EVM
-controller = EVM
-add_core = EVM
+owner = AMA
+controller = AMA
+add_core = AMA
 
 base_tax = 1
 base_production = 1
-base_manpower = 2
+base_manpower = 1
 
-culture = evermere
-religion = deep_mother
+culture = amani
+religion = voodoo
 
 trade_goods = unknown
 hre = no

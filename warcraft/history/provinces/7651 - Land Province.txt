@@ -1,0 +1,28 @@
+
+is_city = yes
+owner = ANO
+controller = ANO
+add_core = ANO
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+culture = andorhal
+religion = the_holy_light
+
+trade_goods = unknown
+hre = no
+
+# Battle of Mount Hyjal
+595.1.1 = {
+    is_city = yes
+    owner = LOR
+    controller = LOR
+    add_core = LOR
+    
+    culture = andorhal
+    religion = cult_of_the_damned
+    
+    set_revolution_in_province = yes
+}

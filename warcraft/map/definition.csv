@@ -1539,7 +1539,7 @@ province;red;green;blue;type;name;DRAWN;notes
 1538;11;40;170;lake;Gilneas Lake 1;DRAWN
 1539;11;50;170;lake;Gilneas Lake 2;DRAWN
 1540;11;60;170;lake;Fenrir Lake;DRAWN
-1541;11;70;170;lake;Darrowmere Lake;DRAWN
+1541;11;70;170;sea;Darrowmere Lake;DRAWN
 1542;11;80;170;lake;Tirisfal Lake 1;DRAWN
 1543;11;90;170;lake;Tirisfal Lake 2;DRAWN
 1544;11;100;170;lake;Stratholme Lake 1;DRAWN
@@ -1547,10 +1547,10 @@ province;red;green;blue;type;name;DRAWN;notes
 1546;11;120;170;lake;Stratholme Lake 3;DRAWN
 1547;11;130;170;lake;Stratholme Lake 4;DRAWN
 1548;11;140;170;lake;Deatholme Lake;DRAWN
-1549;11;150;170;lake;Amani Lake 1;DRAWN
-1550;11;160;170;lake;Amani Lake 2;DRAWN
-1551;11;170;170;lake;Amani Lake 3;DRAWN
-1552;11;180;170;lake;Silvermoon Lake;DRAWN
+1549;11;150;170;sea;Amani Lake 1;DRAWN
+1550;11;160;170;sea;Amani Lake 2;DRAWN
+1551;11;170;170;sea;Amani Lake 3;DRAWN
+1552;11;180;170;sea;Silvermoon Lake;DRAWN
 1553;11;190;170;lake;Highmountain Lake;DRAWN
 1554;11;200;170;lake;Stormheim Lake;DRAWN
 1555;12;80;170;lake;Krasarang Wilds Lake 1;DRAWN
@@ -7588,3 +7588,74 @@ province;red;green;blue;type;name;DRAWN;notes
 7587;62;110;4;land;Unnamed;DRAWN
 7588;62;120;4;land;Unnamed;DRAWN
 7589;62;130;4;land;Unnamed;DRAWN
+7590;62;140;4;land;Unnamed;DRAWN
+7591;62;150;4;land;Unnamed;DRAWN
+7592;62;160;4;land;Unnamed;DRAWN
+7593;62;170;4;land;Unnamed;DRAWN
+7594;62;180;4;land;Unnamed;DRAWN
+7595;62;190;4;land;Unnamed;DRAWN
+7596;62;200;4;land;Unnamed;DRAWN
+7597;63;100;4;land;Unnamed;DRAWN
+7598;63;110;4;land;Unnamed;DRAWN
+7599;63;120;4;land;Unnamed;DRAWN
+7600;63;130;4;land;Unnamed;DRAWN
+7601;63;140;4;land;Unnamed;DRAWN
+7602;63;150;4;land;Unnamed;DRAWN
+7603;63;160;4;land;Unnamed;DRAWN
+7604;63;170;4;land;Unnamed;DRAWN
+7605;63;180;4;land;Unnamed;DRAWN
+7606;63;190;4;land;Unnamed;DRAWN
+7607;63;200;4;land;Unnamed;DRAWN
+7608;64;100;4;land;Unnamed;DRAWN
+7609;64;110;4;land;Unnamed;DRAWN
+7610;64;120;4;land;Unnamed;DRAWN
+7611;64;130;4;land;Unnamed;DRAWN
+7612;64;140;4;land;Unnamed;DRAWN
+7613;64;150;4;land;Unnamed;DRAWN
+7614;64;160;4;land;Unnamed;DRAWN
+7615;64;170;4;land;Unnamed;DRAWN
+7616;64;180;4;land;Unnamed;DRAWN
+7617;64;190;4;land;Unnamed;DRAWN
+7618;64;200;4;land;Unnamed;DRAWN
+7619;65;100;4;land;Unnamed;DRAWN
+7620;65;110;4;land;Unnamed;DRAWN
+7621;65;120;4;land;Unnamed;DRAWN
+7622;65;130;4;land;Unnamed;DRAWN
+7623;40;100;140;sea;Unnamed;DRAWN
+7624;40;110;140;sea;Unnamed;DRAWN
+7625;65;140;4;land;Unnamed;DRAWN
+7626;65;150;4;land;Unnamed;DRAWN
+7627;65;160;4;land;Unnamed;DRAWN
+7628;65;170;4;land;Unnamed;DRAWN
+7629;65;180;4;land;Unnamed;DRAWN
+7630;65;190;4;land;Unnamed;DRAWN
+7631;65;200;4;land;Unnamed;DRAWN
+7632;66;100;4;land;Unnamed;DRAWN
+7633;66;110;4;land;Unnamed;DRAWN
+7634;66;120;4;land;Unnamed;DRAWN
+7635;66;130;4;land;Unnamed;DRAWN
+7636;66;140;4;land;Unnamed;DRAWN
+7637;66;150;4;land;Unnamed;DRAWN
+7638;66;160;4;land;Unnamed;DRAWN
+7639;66;170;4;land;Unnamed;DRAWN
+7640;66;180;4;land;Unnamed;DRAWN
+7641;66;190;4;land;Unnamed;DRAWN
+7642;66;200;4;land;Unnamed;DRAWN
+7643;67;100;4;land;Unnamed;DRAWN
+7644;67;110;4;land;Unnamed;DRAWN
+7645;67;120;4;land;Unnamed;DRAWN
+7646;67;130;4;land;Unnamed;DRAWN
+7647;67;140;4;land;Unnamed;DRAWN
+7648;67;150;4;land;Unnamed;DRAWN
+7649;67;160;4;land;Unnamed;DRAWN
+7650;67;170;4;land;Unnamed;DRAWN
+7651;67;180;4;land;Unnamed;DRAWN
+7652;67;190;4;land;Unnamed;DRAWN
+7653;67;200;4;land;Unnamed;DRAWN
+7654;40;120;140;sea;Unnamed;DRAWN
+7655;40;130;140;sea;Unnamed;DRAWN
+7656;40;140;140;sea;Unnamed;DRAWN
+7657;40;150;140;sea;Unnamed;DRAWN
+7658;40;160;140;sea;Unnamed;DRAWN
+7659;40;170;140;sea;Unnamed;DRAWN
+7660;40;180;140;sea;Unnamed;DRAWN

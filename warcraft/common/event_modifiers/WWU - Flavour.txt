@@ -129,7 +129,11 @@ restored_stromgarde = {
 # Lordaeron
 #----------------------------------------------
 legacy_of_arathor = {
-    diplomatic_upkeep = 2
+    diplomatic_upkeep = 3
+}
+
+rebellious_vassal = {
+    liberty_desire = 50
 }
 
 #----------------------------------------------

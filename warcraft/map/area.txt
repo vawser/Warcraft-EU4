@@ -24,19 +24,19 @@ area_isle_of_queldanas_4 = {
 # Eversong Forest
 #-------------------
 area_eversong_forest_1 = {
-    4193 4194 4195
+    4193 4194 4196
 }
 
 area_eversong_forest_2 = {
-    4198 4196 4197 4199
+    4190 4191
 }
 
 area_eversong_forest_3 = {
-    4203 4202 4201 4200
+    4203 4202 4201 4200 4199
 }
 
 area_eversong_forest_4 = {
-    4172
+    4162 4161 4130 4195
 }
 
 area_eversong_forest_5 = {
@@ -48,55 +48,55 @@ area_eversong_forest_6 = {
 }
 
 area_eversong_forest_7 = {
-    4161 4162 
-}
-
-area_eversong_forest_8 = {
     4182 4184 4183
 }
 
-area_eversong_forest_9 = {
+area_eversong_forest_8 = {
     4186 4185 4187
 }
 
+area_eversong_forest_9 = {
+    4180 4175 4188 4181 
+}
+
 area_eversong_forest_10 = {
-    4180 4175 4188 4181 4160 4162
+    4157 4156 4155
 }
 
 area_eversong_forest_11 = {
-    4192 4190 4189 4191
+    4158 4159 4172 4160
 }
 
 area_eversong_forest_12 = {
-    4158 4159 4157 4156 
+    4090 4091 4149
 }
 
 area_eversong_forest_13 = {
-    4090 4091
+    4178 4168 4176 4169 4179 4164 4177 4165
 }
 
 area_eversong_forest_14 = {
-    4148 4149 4150 4143
+    4148 4150 4143
 }
 
 area_eversong_forest_15 = {
-    4088 4087 4086 
+    4088 4087 4114 
 }
 
 area_eversong_forest_16 = {
-    4152 4151 4153 4155 4140
+    4152 4151 4153 4140
 }
 
 area_eversong_forest_17 = {
-    4154 4139 4133 4138
+    4154 4139 4133 
 }
 
 area_eversong_forest_18 = {
-    4136 4135 4134 4137
+    4136 4134 4138
 }
 
 area_eversong_forest_19 = {
-    4132 4131 4130 4129
+    4129 4131 4145
 }
 
 area_eversong_forest_20 = {
@@ -108,27 +108,27 @@ area_eversong_forest_21 = {
 }
 
 area_eversong_forest_22 = {
-    4141 4146 4147 4144 4145
+    4146 4147 4144 4142
 }
 
 area_eversong_forest_23 = {
-    4085 4089
+    4063 4079 4078 4073 
 }
 
 area_eversong_forest_24 = {
-    4092 4093 4094 4095 4142
+    4092 4093 4094 4095 
 }
 
 area_eversong_forest_25 = {
-    4060 4059 4061 4058 4057
+    4060 4059 4057
 }
 
 area_eversong_forest_26 = {
-    4056 4055 4062 4075 4074
+    4056 4062 4075 
 }
 
 area_eversong_forest_27 = {
-    4048 4049 4050 4047 4051
+    4048 4049 4047 
 }
 
 area_eversong_forest_28 = {
@@ -136,59 +136,74 @@ area_eversong_forest_28 = {
 }
 
 area_eversong_forest_29 = {
-    4046 4052 4045 4044
+    4046 4045 4044
 }
 
 area_eversong_forest_30 = {
-    4054 4053 4077 4076
+    4054 4077 4055
 }
 
-area_eversong_forest_31 = {
-    4063 4079 4078 4073 4080
+#-------------------
+# Amani Basin
+#-------------------
+area_amani_basin_1 = {
+    4104 4101 4100 4105
 }
 
-area_eversong_forest_32 = {
-    4064 4081 4082 4065 4066
-}
-
-area_eversong_forest_33 = {
-    4072 4071 4084 4083 4070
-}
-
-area_eversong_forest_34 = {
-    4067 4069 4068  
-}
-
-area_eversong_forest_35 = {
-    4112 4114
-}
-
-area_eversong_forest_36 = {
-    4115 4113 4109
-}
-
-area_eversong_forest_37 = {
-    4106 4107 4108
-}
-
-area_eversong_forest_38 = {
-    4116 4117 4118 4119
-}
-
-area_eversong_forest_39 = {
+area_amani_basin_2 = {
     4122 4120 4121 4103 4102
 }
 
-area_eversong_forest_40 = {
-    4111 4110 4097 4098 4105
+area_amani_basin_3 = {
+    4116 4117 4118 4119
 }
 
-area_eversong_forest_41 = {
-    4096 4099 4104 4101 4100
+area_amani_basin_4 = { 
+    4098 4110 4097 
 }
 
-area_eversong_forest_42 = {
-    4178 4168 4176 4169 4179 4164 4177 4165
+area_amani_basin_5 = {
+    4108 4061 4107 4076 4083
+}
+
+area_amani_basin_6 = {
+    4115 4113 4109 4053 4080
+}
+
+area_amani_basin_7 = {
+    4067 4069 4068 4198 
+}
+
+area_amani_basin_8 = {
+    4064 4081 4082 4065 4066
+}
+
+area_amani_basin_9 = {
+    4072 4071 4070 4084
+}
+
+area_amani_basin_10 = {
+    4085 4089 4086
+}
+
+area_amani_basin_11 = {
+    4111 4106 4112
+}
+
+area_amani_basin_12 = {
+    4096 4099 4197 
+}
+
+area_amani_basin_13 = {
+    4058 4192 4189 4074
+}
+
+area_amani_basin_14 = {
+    4132 4141 4135 
+}
+
+area_amani_basin_15 = {
+    4052 4050 4051 4137
 }
 
 #-------------------
@@ -235,11 +250,11 @@ area_stratholme_10 = {
 }
 
 area_stratholme_11 = {
-    4033 4032 4034 4025 4024
+    4033 4032 4034 4036
 }
 
 area_stratholme_12 = {
-    4035 4036 4037 4038
+    4037 4038 7646 7645 7644
 }
 
 area_stratholme_13 = {
@@ -255,11 +270,11 @@ area_stratholme_15 = {
 }
 
 area_stratholme_16 = {
-    3963 3964 3966 3961 3959
+    3963 3964 3966  
 }
 
 area_stratholme_17 = {
-    3526 3953 3954
+    3526 3953 3954 3528
 }
 
 area_stratholme_18 = {
@@ -274,15 +289,23 @@ area_stratholme_20 = {
     3977 3976 3979 3978 
 }
 
+area_stratholme_21 = {
+    4025 4024 3959 3961
+}
+
+area_stratholme_22 = {
+    4035 7643 3527
+}
+
 #-------------------
 # Andorhal
 #-------------------
 area_andorhal_1 = {
-    3508 3507 3505
+    3539 3540 3541 3537 7653
 }
 
 area_andorhal_2 = {
-    3506 3511 3512 3520 3516
+    3511 3512 3520 3516
 }
 
 area_andorhal_3 = {
@@ -294,11 +317,11 @@ area_andorhal_4 = {
 }
 
 area_andorhal_5 = {
-    3528 3527 3525 3524 3529
+    3525 3524 3529
 }
 
 area_andorhal_6 = {
-    3534 3536 3530 3538
+    3534 3536 3530 3538 3533
 }
 
 area_andorhal_7 = {
@@ -306,11 +329,11 @@ area_andorhal_7 = {
 }
 
 area_andorhal_8 = {
-    3532 3531 3533 3537
+    3532 7652 3531 7647 7651
 }
 
 area_andorhal_9 = {
-    3539 3540 3541
+    7650 7649 7648
 }
 
 #-------------------
@@ -333,7 +356,7 @@ area_lordaeron_4 = {
 }
 
 area_lordaeron_5 = {
-    3942 3944 3945 3943
+    3942 3944 3945 3943 3919
 }
 
 area_lordaeron_6 = {
@@ -349,11 +372,11 @@ area_lordaeron_8 = {
 }
 
 area_lordaeron_9 = {
-    3922 3920 3919 
+    3922 3920 3921 3917
 }
 
 area_lordaeron_10 = {
-    3918 3917 3913
+    3918 3913 7640 7642 7641 
 }
 
 area_lordaeron_11 = {
@@ -361,22 +384,38 @@ area_lordaeron_11 = {
 }
 
 area_lordaeron_12 = {
-    3914 3915 3916 3921 
+    3914 3915 3916  
 }
 
 area_lordaeron_13 = {
     3885 3884 3886
 }
 
+area_lordaeron_14 = {
+    7635 7633 7639 7632 7634
+}
+
+area_lordaeron_15 = {
+    7636 7637 7638
+}
+
+area_lordaeron_16 = {
+    3903 3900 3902
+}
+
+area_lordaeron_17 = {
+    7631 3901 3898 3899
+}
+
 #-------------------
 # Silverpine Forest
 #-------------------
 area_silverpine_forest_1 = {
-    3898 3899 3894 3901 3900
+    7628 7629 7630
 }
 
 area_silverpine_forest_2 = {
-    3903 3902 3897 3895 3896
+    3897 3895 3896 3894
 }
 
 area_silverpine_forest_3 = {
@@ -402,6 +441,7 @@ area_silverpine_forest_7 = {
 area_silverpine_forest_8 = {
     3876 3888 3890 3593
 }
+
 
 #-------------------
 # Gilneas
@@ -453,6 +493,10 @@ area_alterac_3 = {
     3475 3476 3474 3473
 }
 
+area_alterac_4 = {
+    7625 7626 7627
+}
+
 #-------------------
 # Hillsbrad Foothills
 #-------------------
@@ -461,7 +505,7 @@ area_hillsbrad_1 = {
 }
 
 area_hillsbrad_2 = {
-    3504 3488 3487
+    3488 3487 3494
 }
 
 area_hillsbrad_3 = {
@@ -469,7 +513,7 @@ area_hillsbrad_3 = {
 }
 
 area_hillsbrad_4 = {
-    3494 3493 3492 3491 3495
+    3493 3492 3491 3495
 }
 
 area_hillsbrad_5 = {
@@ -515,11 +559,11 @@ area_tol_barad_2 = {
 # Arathi Highlands
 #-------------------
 area_arathi_highlands_1 = {
-    3424 
+    3424 7593 7594 7595 3425
 }
 
 area_arathi_highlands_2 = {
-    3425 3426 3427 3447
+    3426 3427 3447
 }
 
 area_arathi_highlands_3 = {
@@ -547,7 +591,11 @@ area_arathi_highlands_8 = {
 }
 
 area_arathi_highlands_9 = {
-    3422 3423
+    3422 3423 7596 7597 7598
+}
+
+area_arathi_highlands_10 = {
+    7599 7600 7601 7602 7603
 }
 
 #-------------------
@@ -590,13 +638,36 @@ area_hinterlands_9 = {
 }
 
 area_hinterlands_10 = {
-    3547 3546 3548 3549 3550
+    3547 3546 3548 3549 7608 7609
 }
 
 area_hinterlands_11 = {
     3588 3554 3551 3553 3552
 }
 
+area_hinterlands_12 = {
+    3506 7604 7605 7606
+}
+
+area_hinterlands_13 = {
+    3504 3505 3507 3508
+}
+
+area_hinterlands_14 = {
+    7607 7611 7610 3550
+}
+
+area_hinterlands_15 = {
+    7616 7615 7614 7612 7613
+}
+
+area_hinterlands_16 = {
+    7617 7618 7622
+}
+
+area_hinterlands_17 = {
+    7620 7621 7619
+}
 
 #-------------------
 # Wetlands
@@ -709,7 +780,7 @@ area_northeron_8 = {
 }
 
 area_northeron_9 = {
-    3374 3398 3373 3372 3396
+    3374 3398 3373 3372 3396 
 }
 
 area_northeron_10 = {
@@ -2571,6 +2642,10 @@ area_feralas_19 = {
 
 area_feralas_20 = {
     2774 2730 2731 2774 2773
+}
+
+area_feralas_21 = {
+    7590 7591 7592
 }
 
 #-------------------
@@ -4993,19 +5068,23 @@ area_coast_khaz_modan_west = {
 }
 
 area_coast_lordaeron_east = {
-    374 370 369 368 367 366 365 364 363 362 
+    374 370 369 368 367 366 365 364 363 362
+    1549 1550 1551
+    7656 7657 7658
 }
 
 area_coast_lordaeron_west = {
-    395 396 397 398 399 419 420 418 417 416 415 
+    395 396 397 398 399 419 420 418 417 416 415 7654 7655
 }
 
 area_coast_gilneas = {
     890 414 413 894 903 905 405 404 403 907 906 904
+    7623 7624 1541
 }
 
 area_coast_eversong = {
     361 360 359 358 381 382 385 383 384 386 387 388 389 390 391 392 393 394
+    7659 7660 1552
 }
 
 area_coast_plunder_isle = {

@@ -1,28 +1,17 @@
 
 is_city = yes
-owner = STR
-controller = STR
-add_core = STR
+owner = AMA
+controller = AMA
+add_core = AMA
 
 base_tax = 2
-base_production = 2
-base_manpower = 4
+base_production = 1
+base_manpower = 1
 
-culture = stratholme
-religion = the_holy_light
+culture = amani
+religion = voodoo
 
 trade_goods = unknown
 hre = no
 
-# Battle of Mount Hyjal
-595.1.1 = {
-    is_city = yes
-    owner = LOR
-    controller = LOR
-    add_core = LOR
-    
-    culture = stratholme
-    religion = cult_of_the_damned
-    
-    set_revolution_in_province = yes
-}
+

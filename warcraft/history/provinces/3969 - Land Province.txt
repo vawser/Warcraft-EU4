@@ -6,7 +6,7 @@ add_core = STR
 
 base_tax = 2
 base_production = 1
-base_manpower = 3
+base_manpower = 2
 
 culture = stratholme
 religion = the_holy_light

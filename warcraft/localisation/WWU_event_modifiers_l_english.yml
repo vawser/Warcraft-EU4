@@ -1144,3 +1144,9 @@
  #-------------------------------
  scourge_purge: "Purge of the Scourge"
  desc_scourge_purge: ""
+ 
+ #-------------------------------
+ # Lordaeron
+ #-------------------------------
+ rebellious_vassal: "Rebellious Vassal"
+ desc_rebellious_vassal: ""

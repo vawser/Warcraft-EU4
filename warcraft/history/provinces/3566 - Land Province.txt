@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = RVT
-controller = RVT
-add_core = RVT
+owner = VLB
+controller = VLB
+add_core = VLB
 
-base_tax = 3
+base_tax = 2
 base_production = 2
 base_manpower = 1
 
-culture = revantusk
-religion = voodoo
+culture = vilebranch
+religion = hakkari
 
 trade_goods = unknown
 hre = no

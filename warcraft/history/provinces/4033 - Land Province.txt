@@ -4,9 +4,9 @@ owner = STR
 controller = STR
 add_core = STR
 
-base_tax = 8
-base_production = 7
-base_manpower = 8
+base_tax = 10
+base_production = 8
+base_manpower = 12
 
 culture = stratholme
 religion = the_holy_light

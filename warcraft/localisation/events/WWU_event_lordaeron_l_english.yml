@@ -1,0 +1,19 @@
+﻿l_english:
+ #-----------------------------------------------
+ # Lordaeron
+ #-----------------------------------------------
+ wwu_lordaeron.1.title: "Demands from Southshore"
+ wwu_lordaeron.1.desc: "The citizens in Southshore demand greater autonomy, citing that [Root.Monarch.GetTitle] [Root.Monarch.GetName] hasn't visited the region in several years. Without a gesture of goodwill, it is likely they will attempt to fight for independance."
+ wwu_lordaeron.1.option.a: "If needs must..."
+ wwu_lordaeron.1.option.b: "Pitiful, let them rot!"
+ 
+ wwu_lordaeron.2.title: "Demands from Andorhal"
+ wwu_lordaeron.2.desc: "The citizens in Andorhal demand greater autonomy, citing that [Root.Monarch.GetTitle] [Root.Monarch.GetName] hasn't visited the region in several years. Without a gesture of goodwill, it is likely they will attempt to fight for independance."
+ wwu_lordaeron.2.option.a: "If needs must..."
+ wwu_lordaeron.2.option.b: "Pitiful, let them rot!"
+ 
+ wwu_lordaeron.3.title: "Demands from Stratholme"
+ wwu_lordaeron.3.desc: "The citizens in Stratholme demand greater autonomy, citing that [Root.Monarch.GetTitle] [Root.Monarch.GetName] hasn't visited the region in several years. Without a gesture of goodwill, it is likely they will attempt to fight for independance."
+ wwu_lordaeron.3.option.a: "If needs must..."
+ wwu_lordaeron.3.option.b: "Pitiful, let them rot!"
+ 
