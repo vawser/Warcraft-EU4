@@ -1,13 +1,9 @@
 #------------------------------
 # Changelog
 #------------------------------
-- Adjusted the National Idea modifiers.
-- Adjusted the map in upper EK.
-- Added more straits.
 
 #------------------------------
 # Notes
 #------------------------------
 Name key provinces
-
-
+Add missions

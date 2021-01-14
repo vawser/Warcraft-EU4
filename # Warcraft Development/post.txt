@@ -8,7 +8,7 @@ Warcraft is an unique take of the World of Warcraft universe, adapted to work in
 - Support for the Orcish Invasion, the Alliance of Lordaeron, the Scourge and the Battle of Hyjal as major events that will occur during a playthrough.
 
 [h1]Links[/h1]
-- [url=https://discord.gg/usACkJKDWs]Discord[/url], where you can discuss the mod.
+- [url=https://discord.gg/PF5f2EzDee]Discord[/url], where you can discuss the mod.
 - [url=https://github.com/vawser/Warcraft-EU4]Github repository[/url], where you can download the cutting edge versions of the mod.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2358423090]Music mod[/url], if you want to include the World of Warcraft music tracks.
 
