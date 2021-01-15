@@ -323,6 +323,11 @@
  satyr_sect_legacy: "Demonic Sect"
  satyr_sect_legacy_desc: ""
  
+ stateless_government_reform: "Stateless Government"
+ stateless_government_reform_desc: ""
+ stateless_government_legacy: "Stateless Government"
+ stateless_government_legacy_desc: ""
+ 
  # Native
  native_tribe_reform: "Native Tribe"
  native_tribe_reform_desc: ""
@@ -848,10 +853,13 @@
  BLOOD_CULT: "Blood Cult"
  
  EMPIRE_OF_AZSHARA: "Empire of Azshara"
- 
+
+ STATELESS_GOVERNMENT: "Stateless Government"
+  
  #---------------------------------------------
  # Ruler Names
  #---------------------------------------------
+ PRETENDER: "Pretender"
  KHAN: "Khan"
  KHANESS: "Khaness"
  PHAROAH: "Pharoah"

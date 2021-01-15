@@ -4,10 +4,6 @@ estate_religious_order = {
     
     influence_from_dev_modifier = 0.4
     
-	independence_government = theocracy
-	starting_reform = theocracy_reform
-	independence_tech_group = tech_human
-    
 	# ----- Conditions -----
     trigger = {
         has_country_flag = has_estate_religious_order

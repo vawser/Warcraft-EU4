@@ -1,12 +1,8 @@
 estate_adventuring_guild = {
 	icon = 8
     color = { 200 150 150 }
-    
+
     influence_from_dev_modifier = 0.4
-    
-	independence_government = monarchy
-	starting_reform = autocracy_reform
-	independence_tech_group = tech_human
     
 	# ----- Conditions -----
     trigger = {

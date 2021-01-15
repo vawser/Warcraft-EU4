@@ -233,3 +233,26 @@ gov_satyr_sect = {
         has_reform = satyr_sect_reform
 	}
 }
+gov_stateless_government = {
+	rank = {
+		1 = STATELESS_GOVERNMENT
+		2 = STATELESS_GOVERNMENT
+		3 = STATELESS_GOVERNMENT
+	}
+	
+	ruler_male = {
+		1 = PRETENDER
+        2 = PRETENDER
+        3 = PRETENDER
+	}
+	
+	ruler_female = {
+		1 = PRETENDER
+        2 = PRETENDER
+        3 = PRETENDER
+	}
+	
+	trigger = {
+        has_reform = stateless_government_reform
+	}
+}

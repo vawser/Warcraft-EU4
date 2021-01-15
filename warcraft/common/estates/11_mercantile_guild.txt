@@ -4,10 +4,6 @@ estate_mercantile_guild = {
     
     influence_from_dev_modifier = 0.4
     
-	independence_government = republic
-	starting_reform = noble_republic_reform
-	independence_tech_group = tech_human
-    
 	# ----- Conditions -----
     trigger = {
         has_country_flag = has_estate_mercantile_guild

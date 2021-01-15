@@ -4,10 +4,6 @@ estate_warriors_guild = {
     
     influence_from_dev_modifier = 0.4
     
-	independence_government = monarchy
-	starting_reform = autocracy_reform
-	independence_tech_group = tech_human
-    
 	# ----- Conditions -----
     trigger = {
         has_country_flag = has_estate_warriors_guild

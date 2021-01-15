@@ -326,6 +326,7 @@ tribal = {
                 orcish_horde_reform
                 dwarven_clan_reform
                 satyr_sect_reform
+                stateless_government_reform
 			}
 		}
         tier_tribal_cultural_values = {
@@ -369,6 +370,7 @@ tribal = {
         orcish_horde_legacy
         dwarven_clan_legacy
         satyr_sect_legacy
+        stateless_government_legacy
     }
 }
 
