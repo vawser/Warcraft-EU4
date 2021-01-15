@@ -169,6 +169,9 @@
  SUNWELL_DESTROYED: "Sunwell has been destroyed!"
  SUNWELL_NOT_DESTROYED: "Sunwell has not been destroyed."
  
+ DARK_PORTAL_DESTROYED: "The Dark Portal has been destroyed!"
+ DARK_PORTAL_NOT_DESTROYED: "The Dark Portal has not been destroyed."
+ 
  # Scourge
  scourge_convert_government: "We have been absorbed into the Scourge."
  
@@ -246,3 +249,7 @@
  CAN_REDUCE_IN_PEACE: "You cannot reduce war exhaustion whilst at war."
  
  REDUCE_PESTILENCE_SPREAD: "This act will significantly reduce the spread of Pestilence within our country for 20 years."
+ 
+ REPEL_THE_ORCS_TT: "Defeat the Orcish Horde in war."
+ 
+ 

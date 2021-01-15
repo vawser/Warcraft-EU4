@@ -127,23 +127,71 @@
  mission_blackrock_mountain: "Blackrock Mountain"
  desc_mission_blackrock_mountain: ""
  
+ #-----------------------------------
+ # Stormwind
+ #-----------------------------------
+ SRW_missions_1: "Stormwind Missions"
+ SRW_missions_branch_1: "Stormwind Missions"
+ SRW_missions_branch_2: "Stormwind Missions"
+ SRW_missions_branch_3: "Stormwind Missions"
  
+ SRW_repel_the_orcs_title: "Repel the Orcs"
+ SRW_repel_the_orcs_desc: "We must push the Orcish Horde back into the Swamp of Sorrow, otherwise we risk being overrun!"
  
+ SRW_quell_unrest_title: "Quell Unrest"
+ SRW_quell_unrest_desc: "The recent orc raids have caused tensions to run high in our subjects. We must assure them of our protection, otherwise these tensions could erupt into all out war."
  
+ SRW_control_the_swamp_title: "Control the Swamp"
+ SRW_control_the_swamp_desc: "With the Orcish Horde retreating, it is now time to secure the swamp for ourselves."
  
+ SRW_contain_the_orcish_horde_title: "Contain the Orcish Horde"
+ SRW_contain_the_orcish_horde_desc: "We must eliminate any escape route for the orcs, otherwise our attempts to destroy the Dark Portal may be thwarted."
  
+ SRW_destroy_the_dark_portal_title: "Destroy the Dark Portal"
+ SRW_destroy_the_dark_portal_desc: "With the Orcish Horde renders insignificant, we can now call upon Khadgar to destroy the Dark Portal and end the orc threat."
  
+ SRW_secure_the_redridge_mountains_title: "Secure the Redridge Mountains"
+ SRW_secure_the_redridge_mountains_desc: "Bands of gnolls patrol the Redridge mountains, harassing caravans and killing unwary travellers. Let us cleanse the mountains of these virmen."
  
+ SRW_neutralize_the_dark_iron_threat_title: "Neutralize the Dark Iron Threat"
+ SRW_neutralize_the_dark_iron_threat_desc: "The Kingdom of Thaurassian remains a threat to Stormwind whilst they submit to Ragnaros. Let us force them to retreat deep within the mountain, rendering their threat non-existent."
  
+ SRW_secure_the_jungles_of_stranglethorn_title: "Secure the Jungles of Stranglethorn"
+ SRW_secure_the_jungles_of_stranglethorn_desc: "The trolls of Stranglethorn have posed a threat to the subjects of Stormwind for far too long. Let us root out their stronghold and send their tribes scattering."
  
+ SRW_wipe_out_the_trolls_title: "Wipe out the Trolls"
+ SRW_wipe_out_the_trolls_desc: "The trolls are vicious warriors, and will not soon forget our recent incursion into Zul'Gurub. We must wipe out all remaining troll tribes in Stranglethorn Vale, otherwise they may re-group."
  
+ SRW_establish_settlements_in_kalimdor_title: "Establish Settlements in Kalimdor"
+ SRW_establish_settlements_in_kalimdor_desc: "News of a distant land to the far west has roused the [Root.Monarch.GetTitle]'s attention. It would be expedient if we begin settlement of the coastline of the continent they dub 'Kalimdor'."
  
+ SRW_secure_outposts_in_northrend_title: "Secure Outposts in Northrend"
+ SRW_secure_outposts_in_northrend_desc: "The frozen wastes of Northrend have often been thought of little use to any human kingdom. But activity in the area has called for a base of operations, so it would be wise to secure valuable land that could serve as such a base."
  
+ SRW_unveil_pandaria_title: "Unveil Pandaria"
+ SRW_unveil_pandaria_desc: "The mysterious continent of Pandaria has been revealed to our forces after an accidental landing by one of our fleets. It would be wise to setup a base of operations so we can communicate more readily with these 'pandaren'."
  
+ # --- Modifiers
+ mission_loyal_subjects: "Loyal Subjects"
+ desc_mission_loyal_subjects: ""
  
+ mission_saviours_of_azeroth: "Saviours of Azeroth"
+ desc_mission_saviours_of_azeroth: ""
  
+ mission_destruction_of_the_dark_portal: "Destruction of the Dark Portal"
+ desc_mission_destruction_of_the_dark_portal: ""
  
+ mission_secured_the_northern_border: "Secured the Northern Border"
+ desc_mission_secured_the_northern_border: ""
  
+ mission_secured_the_southern_border: "Secured the Southern Border"
+ desc_mission_secured_the_southern_border: ""
  
+ mission_kalimdor_settlers: "Kalimdor Settlers"
+ desc_mission_kalimdor_settlers: ""
  
+ mission_northrend_settlers: "Northrend Settlers"
+ desc_mission_northrend_settlers: ""
  
+ mission_pandaria_settlers: "Pandaria Settlers"
+ desc_mission_pandaria_settlers: ""

@@ -188,7 +188,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "mission_entry_button"
 			quadTextureSprite ="GFX_mission_icons_frame_complete"
-			position = { x= 0 y = 0 }
+			position = { x= -55 y = 0 }
 		}
 		
 		iconType = {

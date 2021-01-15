@@ -1,0 +1,407 @@
+SRW_missions_1 = {
+	slot = 1
+	ai = yes
+	
+	potential = {
+		tag = SRW
+	}
+	
+	SRW_repel_the_orcs = {
+		icon = mission_horde_invasion
+        
+		required_missions = { }
+
+		trigger = {
+            custom_trigger_tooltip = {
+                tooltip = REPEL_THE_ORCS_TT
+                has_country_flag = stormwind_repelled_the_orcs
+            }
+		}
+		effect = {
+			region_swamp_of_sorrows = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+	
+	SRW_quell_unrest = {
+		icon = mission_ancient_tome
+        
+		required_missions = { SRW_repel_the_orcs }
+
+		trigger = {
+			if = {
+                limit = {
+                    RED = { is_subject_of = ROOT }
+                }
+                RED = { NOT = { liberty_desire = 25 } }
+            }
+            else = {
+                area_redridge_1 = {
+                    type = all
+                    owned_by = ROOT
+                }
+                area_redridge_2 = {
+                    type = all
+                    owned_by = ROOT
+                }
+                area_redridge_3 = {
+                    type = all
+                    owned_by = ROOT
+                }
+                area_redridge_4 = {
+                    type = all
+                    owned_by = ROOT
+                }
+            }
+            if = {
+                limit = {
+                    WES = { is_subject_of = ROOT }
+                }
+                WES = { NOT = { liberty_desire = 25 } }
+            }
+            else = {
+                region_westfall = {
+                    type = all
+                    owned_by = ROOT
+                }
+            }
+            if = {
+                limit = {
+                    BRI = { is_subject_of = ROOT }
+                }
+                BRI = { NOT = { liberty_desire = 25 } }
+            }
+            else = {
+                region_duskwood = {
+                    type = all
+                    owned_by = ROOT
+                }
+            }
+		}
+        provinces_to_highlight = { 
+            OR = {
+                region = region_duskwood
+                region = region_westfall
+                area = area_redridge_1
+                area = area_redridge_2
+                area = area_redridge_3
+                area = area_redridge_4
+            }
+        }
+		effect = {
+			add_country_modifier = {
+				name = "mission_loyal_subjects"
+				duration = -1 
+			}
+		}
+	}
+	
+	SRW_control_the_swamp = {
+		icon = mission_orc_campfire
+        
+		required_missions = { SRW_quell_unrest }
+
+		trigger = {
+			region_swamp_of_sorrows = {
+                type = all
+                country_or_subject_holds = ROOT
+            }
+		}
+        provinces_to_highlight = {
+            region = region_swamp_of_sorrows
+        }
+		effect = {
+			region_blasted_lands = {
+                add_permanent_claim = ROOT
+            }
+		}
+	}
+	
+	SRW_contain_the_orcish_horde = {
+		icon = mission_orc_ogrim
+        
+		required_missions = { SRW_control_the_swamp }
+
+		trigger = {
+			TOH = {
+                all_owned_province = {
+                    region = region_blasted_lands
+                }
+            }
+		}
+		effect = {
+            add_country_modifier = {
+				name = "mission_saviours_of_azeroth"
+				duration = -1 
+			}
+		}
+	}
+	
+	SRW_destroy_the_dark_portal = {
+		icon = mission_dark_portal_blue
+        
+		required_missions = { SRW_contain_the_orcish_horde }
+
+		trigger = {
+			3135 = {
+                controlled_by = ROOT
+            }
+		}
+        provinces_to_highlight = {
+            province_id = 3135
+        }
+		effect = {
+            custom_tooltip = DARK_PORTAL_DESTROYED
+            hidden_effect = { set_global_flag = dark_portal_destroyed }
+            
+			add_country_modifier = {
+				name = "mission_destruction_of_the_dark_portal"
+				duration = -1 
+			}
+		}
+	}
+}
+
+SRW_missions_branch_1 = {
+	slot = 1
+	ai = yes
+	
+	potential = {
+		tag = SRW
+	}
+	
+	SRW_secure_the_redridge_mountains = {
+        position = 6
+		icon = mission_lakeshire
+        
+		required_missions = { }
+
+		trigger = {
+            region_redridge_mountains = {
+                type = all
+                country_or_subject_holds = ROOT
+            }
+		}
+        provinces_to_highlight = {
+            region = region_redridge_mountains
+        }
+		effect = {
+			region_burning_steppes = {
+                add_permanent_claim = ROOT
+            }
+		}
+    }
+    
+    SRW_neutralize_the_dark_iron_threat = {
+        position = 7
+		icon = mission_blackrock_mountain
+        
+		required_missions = { SRW_secure_the_redridge_mountains }
+
+		trigger = {
+			1717 = {
+                controlled_by = ROOT
+            }
+		}
+        provinces_to_highlight = {
+            province_id = 1717
+        }
+		effect = {
+			add_country_modifier = {
+				name = "mission_secured_the_northern_border"
+				duration = -1 
+			}
+		}
+    }
+}
+
+SRW_missions_branch_2 = {
+	slot = 2
+	ai = yes
+	
+	potential = {
+		tag = SRW
+	}
+	
+	SRW_secure_the_jungles_of_stranglethorn = {
+        position = 6
+		icon = mission_troll_hexxer
+        
+		required_missions = { }
+
+		trigger = {
+            area_stranglethorn_vale_5 = {
+                type = all
+                country_or_subject_holds = ROOT
+            }
+            area_stranglethorn_vale_6 = {
+                type = all
+                country_or_subject_holds = ROOT
+            }
+            area_stranglethorn_vale_7 = {
+                type = all
+                country_or_subject_holds = ROOT
+            }
+            area_stranglethorn_vale_8 = {
+                type = all
+                country_or_subject_holds = ROOT
+            }
+		}
+        provinces_to_highlight = {
+            OR = {
+                area = area_stranglethorn_vale_5
+                area = area_stranglethorn_vale_6
+                area = area_stranglethorn_vale_7
+                area = area_stranglethorn_vale_8
+            }
+        }
+		effect = {
+			region_stranglethorn_vale = {
+                limit = {
+                    OR = {
+                        owned_by = BLS
+                        owned_by = GUR
+                        owned_by = SKS
+                    }
+                }
+                add_permanent_claim = ROOT
+            }
+		}
+    }
+    
+    SRW_wipe_out_the_trolls = {
+        position = 7
+		icon = mission_troll_regen
+        
+		required_missions = { SRW_secure_the_jungles_of_stranglethorn }
+
+		trigger = {
+            BLS = {
+                NOT = {
+                    any_owned_province = {
+                        region = region_stranglethorn_vale
+                    }
+                }
+            }
+            GUR = {
+                NOT = {
+                    any_owned_province = {
+                        region = region_stranglethorn_vale
+                    }
+                }
+            }
+            SKS = {
+                NOT = {
+                    any_owned_province = {
+                        region = region_stranglethorn_vale
+                    }
+                }
+            }
+		}
+		effect = {
+			add_country_modifier = {
+				name = "mission_secured_the_southern_border"
+				duration = -1 
+			}
+		}
+    }
+}
+
+SRW_missions_branch_3 = {
+	slot = 3
+	ai = yes
+	
+	potential = {
+		tag = SRW
+	}
+	
+	SRW_establish_settlements_in_kalimdor = {
+        position = 6
+		icon = mission_tauren
+        
+		required_missions = { }
+
+		trigger = {
+            any_owned_province = {
+                OR = {
+                    is_core = ROOT
+                    is_colony = yes
+                }
+                OR = {
+                    continent = northern_kalimdor
+                    continent = central_kalimdor
+                    continent = southern_kalimdor
+                }
+            }
+		}
+        provinces_to_highlight = {
+            is_empty = yes
+            OR = {
+                continent = northern_kalimdor
+                continent = central_kalimdor
+                continent = southern_kalimdor
+            }
+        }
+		effect = {
+			add_country_modifier = {
+				name = "mission_kalimdor_settlers"
+				duration = -1 
+			}
+		}
+    }
+    
+    SRW_secure_outposts_in_northrend = {
+        position = 7
+		icon = mission_frost_dwarf
+        
+		required_missions = { SRW_establish_settlements_in_kalimdor }
+
+		trigger = {
+            any_owned_province = {
+                OR = {
+                    is_core = ROOT
+                    is_colony = yes
+                }
+                continent = northrend
+            }
+		}
+        provinces_to_highlight = {
+            is_empty = yes
+            continent = northrend
+        }
+		effect = {
+			add_country_modifier = {
+				name = "mission_northrend_settlers"
+				duration = -1 
+			}
+		}
+    }
+    
+    SRW_unveil_pandaria = {
+        position = 8
+		icon = mission_shado_pan
+        
+		required_missions = { SRW_secure_outposts_in_northrend }
+
+		trigger = {
+            any_owned_province = {
+                OR = {
+                    is_core = ROOT
+                    is_colony = yes
+                }
+                continent = pandaria
+            }
+		}
+        provinces_to_highlight = {
+            is_empty = yes
+            continent = pandaria
+        }
+		effect = {
+			add_country_modifier = {
+				name = "mission_pandaria_settlers"
+				duration = -1 
+			}
+		}
+    }
+}

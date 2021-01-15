@@ -71,3 +71,38 @@ mission_orc_might = {
 mission_blackrock_mountain = {
     siege_ability = 0.05
 }
+
+#----------------------------------------------
+# Stormwind
+#----------------------------------------------
+mission_loyal_subjects = {
+    vassal_income = 0.1
+}
+
+mission_saviours_of_azeroth = {
+    prestige = 1
+}
+
+mission_destruction_of_the_dark_portal = {
+    global_unrest = -1
+}
+
+mission_secured_the_northern_border = {
+    global_tax_modifier = 0.1
+}
+
+mission_secured_the_southern_border = {
+    production_efficiency = 0.1
+}
+
+mission_kalimdor_settlers = {
+    colonist_placement_chance = 0.03
+}
+
+mission_northrend_settlers = {
+    global_colonial_growth = 5
+}
+
+mission_pandaria_settlers = {
+    native_assimilation = 0.25
+}

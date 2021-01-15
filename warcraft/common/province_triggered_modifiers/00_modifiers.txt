@@ -201,7 +201,10 @@ upm_dark_portal = {
 		controller = {
 			culture_group = orc_group
 		}
-        NOT = { has_country_flag = dark_portal_destroyed }
+        custom_trigger_tooltip = {
+            tooltip = DARK_PORTAL_NOT_DESTROYED
+            NOT = { has_global_flag = dark_portal_destroyed }
+        }
 	}
     
     global_manpower_modifier = 1.0

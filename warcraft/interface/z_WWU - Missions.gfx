@@ -832,4 +832,16 @@ spriteTypes = {
 		name = "mission_blackrock_mountain" 
 		texturefile = "gfx//interface//missions//blackrock_mountain.dds" 
 	}
+    spriteType = { 
+		name = "mission_shado_pan" 
+		texturefile = "gfx//interface//missions//shado_pan.dds" 
+	}
+    spriteType = { 
+		name = "mission_jaina" 
+		texturefile = "gfx//interface//missions//jaina.dds" 
+	}
+    spriteType = { 
+		name = "mission_yogg_saron" 
+		texturefile = "gfx//interface//missions//yogg_saron.dds" 
+	}
 }

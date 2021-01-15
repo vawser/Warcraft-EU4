@@ -88,6 +88,15 @@ on_peace_recipient = {
 # country
 # root = winning country, from = loser country
 on_war_won = {
+    if = {
+        limit = {
+            NOT = { has_country_flag = stormwind_repelled_the_orcs }
+            tag = SRW
+            FROM = { tag = TOH }
+        }
+        set_country_flag = stormwind_repelled_the_orcs
+    }
+
 	ROOT = { 
 		country_event = { id = tributary_events.32 }
 		change_variable = {

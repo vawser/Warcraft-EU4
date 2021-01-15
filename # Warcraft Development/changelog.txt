@@ -8,3 +8,31 @@
 Name key provinces
 
 Add missions
+
+# Stormwind
+Repel the Orcs
+
+Quell Unrest
+
+Control the Swamp
+
+Contain the Orcish Horde
+
+Destroy the Dark Portal
+
+Branch
+    Secure the Redridge Mountains
+
+    Neutralise the Dark Iron Threat
+    
+Branch
+    Secure the Jungles of Stranglethorn
+    
+    Wipe out the Trolls
+
+Branch
+    Establish Kalimdor Settlements
+    
+    Secure Northrend Outposts
+    
+    Unveil Pandaria
