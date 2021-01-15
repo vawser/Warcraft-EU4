@@ -2,114 +2,130 @@
  #-----------------------------------
  # Generic Missions
  #-----------------------------------
- army_professionalism_missions: "Army Quests"
- expansion_missions: "Expansion Quests"
- espionage_missions: "Espionage Quests"
+ wwu_military_missions: "Military Missions"
  
- professional_army_1: "Professional Army"
- professional_army_1_title: "Professional Army"
- professional_army_1_desc: "When our enemies outnumber us, we must be capable of outmatch them. Let's start training our armies to create a more profesional army."
+ wwu_build_army_mission_title: "Build to Force Limit"
+ wwu_build_army_mission_desc: "Any growing country must maintain a reasonably sized army. By expanding our forces we can both further our political interests abroad and stimulate our domestic economy."
  
- building_barracks: "Build Barracks"
- building_barracks_title: "Build Barracks"
- building_barracks_desc: "We must expand our manpower to prevent running out of soldiers during long wars."
+ wwu_expand_country_mission_title: "Expand [Root.GetName]"
+ wwu_expand_country_mission_desc: "We have been given a strong and viable country by those that came before us. It is time we expand upon our legacy and grow [Root.GetName] so that we may leave a stronger and more influential country to our children."
  
- win_wars_1: "Win 5 Wars"
- win_wars_1_title: "Win 5 Wars"
- win_wars_1_desc: ""
+ wwu_conquer_states_title: "Conquer New States"
+ wwu_conquer_states_desc: "As we expand we must ensure that we can truly integrate the new lands we conquer into our administrative apparatus. After conquest comes the hard work of establishing true [Root.GetAdjective] Rule over the conquered territories."
  
- professional_army_2: "Professional Army"
- professional_army_2_title: "Professional Army"
- professional_army_2_desc: "When our enemies outnumber us, we must be capable of outmatch them. Let's start training our armies to create a more profesional army."
+ wwu_assemble_an_army_title: "Assemble An Army"
+ wwu_assemble_an_army_desc: "Our territorial ambitions require a grand army. We must build and maintain a strong standing army that can defend and expand the lands under our rule."
  
- win_wars_2: "Win 10 Wars"
- win_wars_2_title: "Win 10 Wars"
- win_wars_2_desc: ""
+ wwu_unite_home_region_title: "Unite Home Region"
+ wwu_unite_home_region_desc: "The time has come to put all our hard work to build a viable military machine to the test. We must rise to be the true hegemon of our region, respected and feared by all."
  
- building_shipyards: "Build Shipyards"
- building_shipyards_title: "Build Shipyards"
- building_shipyards_desc: "We overlooked our navy strength while we were focusing the landforces. We should compensate it by building few shipyards."
+ wwu_diplomatic_missions: "Diplomatic Missions"
  
- expansion_1: "Expand Homeland"
- expansion_1_title: "Expand Homeland"
- expansion_1_desc: "We must expand our lands to prove to our rivals that we are all-mighty."
+ wwu_building_alliances_title: "Trustworthy Allies"
+ wwu_building_alliances_desc: "No country can stand alone in this world. We must build lasting relationships with other countries if we are to be able to grow and prosper long term."
  
- safety_of_region: "Safety of the State"
- safety_of_region_title: "Safety of the State"
- safety_of_region_desc: "Lands of our enemies are now ours. Yet they are unprotected. We must change this by constructing new forts across the border."
- safety_of_region_tt: "Number of border provinces with a fort"
+ wwu_have_two_subjects_title: "Acquire Subjects"
+ wwu_have_two_subjects_desc: "What good is power if no one recognizes it? We must acquire subject states that pay us the kind of respect one would expect from a country like [Root.GetName]."
  
- wipe_out_threats: "Wipe Out Core Threats"
- wipe_out_threats_title: "Wipe Out Core Threats"
- wipe_out_threats_desc: "There are countries in the world who has a core claim in one or more of your provinces. See those kingdoms burn."
+ wwu_establish_high_seas_navy_title: "Create a Grand Fleet"
+ wwu_establish_high_seas_navy_desc: "In order to be able to project power overseas a high seas navy is a must. Warships may be expensive but it is an investment that is well worth it if we can find new markets to dominate and peoples to conquer."
  
- suppress_rebels: "Suppress Rebellions"
- suppress_rebels_title: "Suppress Rebellions"
- suppress_rebels_desc: "Petty insurgents are always a main problem in mighty nations like ours. Crush their so-called insurrection and show the world no one crosses [Root.GetName]."
- rebels_suppressed: "Rebel armies crushed."
+ wwu_dominate_home_trade_node_title: "Dominate Trade"
+ wwu_dominate_home_trade_node_desc: "Our merchant communities have been growing stronger and stronger for a long time now. It is time we give them the help they require to truly dominate our domestic trade. No foreign power must be allowed to influence the well being of our subjects."
+ wwu_dominant_home_node_reward_tooltip: "For the rest of the campaign one owned province in your Home Trade Node will get:\nLocal Trade Power: §G+10.00§!\nLocal Development Cost: §G-5%§!"
  
- colonial_ambitions: "Colonial Ambition"
- colonial_ambitions_title: "Colonial Ambition"
- colonial_ambitions_desc: ""
+ wwu_trade_company_region_abroad_title: "Expand Overseas"
+ wwu_trade_company_region_abroad_desc: "As big as the world is it is still interconnected through a number of vital trade routes. In an ancient order cloth, spices, metals, bullion, Chinaware and all kind of manufactured goods are brought across deserts and oceans to those who would pay the most for them. Taking a share of this trade, through acquiring useful ports in trade regions far abroad, could make even the smallest power richer than Croesus."
  
- global_empire: "Global Empire"
- global_empire_title: "Global Empire"
- global_empire: ""
+ wwu_administrative_missions: "Administrative Missions"
  
- united_nation: "[Root.GetName] United!"
- united_nation_title: "[Root.GetName] United!"
- united_nation_desc: "We realized our dreams as a country. Now we will unite as one nation. Forever."
+ wwu_high_income_mission_title: "High Income"
+ wwu_high_income_mission_desc: "We must increase state income by any means necessary. Money is a requirement for any endeavor of the state, from the daily expenses of the government to the maintenance of armies to invade our enemies."
  
- diplo_annex_countries: "Diplomatic Annexation"
- diplo_annex_countries_title: "Diplomatic Annexation"
- diplo_annex_countries_desc: ""
+ wwu_build_temples_title: "Build Buildings"
+ wwu_build_temples_desc: "Let us never sit idle, even in peaceful times. Instead we must use our resources with industry, in order to make sure that we have funds available in time if misfortune should strike upon us."
  
- trusted_alliances: "Trusted Alliances"
- trusted_alliances_title: "Trusted Alliances"
- trusted_alliances_desc: "A nation is in constant threat unless she has a trustworthy friend she can rely on. Let's make it happen."
+ wwu_build_treasury_title: "Build a Treasury"
+ wwu_build_treasury_desc: "A large treasury is an imperative buffer for all things that could befall us through. If this is seen as miserly, it is because some do not realize that this vice is the very essence of what it means to reign."
  
- basic_networking: "Basic Networking"
- basic_networking_title: "Basic Networking"
- basic_networking_desc: "To discover the secrets of our enemies and use them for our advantage, we must build espionage network within the courts of our rivals."
- basic_networking_tt: "Have 20 spy network within at least 2 countries"
+ wwu_build_manufactories_title: "Build Manufactories"
+ wwu_build_manufactories_desc: "Great advances are being made in the field of production, both technological and organizational. Let us invest greatly in new manufactories, a great industrious revolution might soon be upon us."
  
- claim_lands: "Claim Lands"
- claim_lands_title: "Claim Lands"
- claim_lands_desc: ""
- claim_lands_tt: "Number of non-core provinces with a claim."
+ wwu_imperial_ambition_mission_title: "Imperial Conquest"
+ wwu_imperial_ambition_mission_desc: "Securing wealth must always be the foremost priority of our state. Let us make use of the expensive armies and fleets that our economic prosperity has bought us to acquire even more resources and subjects for an aspiring empire."
  
- sabotage_reputations: "Sabotage Reputation"
- sabotage_reputations_title: "Sabotage Reputation"
- sabotage_reputations_desc: "Sabotage Reputation"
+ # --- Modifiers ---
+ mission_prepared_army: "Prepared Army"
+ desc_mission_prepared_army: ""
  
- good_diplomacy: "Effective Diplomacy"
- good_diplomacy_title: "Effective Diplomacy"
- good_diplomacy_desc: "Diplomacy is the key to survival in the world of war. We must use our potential as much as possible."
+ mission_prosperity_of_capital: "Prosperity of Capital"
+ desc_mission_prosperity_of_capital: ""
+ 
+ mission_expansionist_nation: "Expansionist Nation"
+ desc_mission_expansionist_nation: ""
+ 
+ mission_military_enthusiasm: "Military Enthusiasm"
+ desc_mission_military_enthusiasm: ""
+ 
+ mission_hegemonic_unity: "Hegemonic Unity"
+ desc_mission_hegemonic_unity: ""
+ 
+ mission_influential_diplomats: "Influential Diplomats"
+ desc_mission_influential_diplomats: ""
+ 
+ mission_submissive_subjects: "Submissive Subjects"
+ desc_mission_submissive_subjects: ""
+ 
+ mission_naval_pride: "Naval Pride"
+ desc_mission_naval_pride: ""
+ 
+ mission_dominant_trade_hub: "Dominant Trade Hub"
+ desc_mission_dominant_trade_hub: ""
+ 
+ mission_trade_company_rush: "Trade Company Rush"
+ desc_mission_trade_company_rush: ""
+ 
+ mission_bolstering_economy: "Bolstering Economy"
+ desc_mission_bolstering_economy: ""
+ 
+ mission_construction_spree: "Construction Spree"
+ desc_mission_construction_spree: ""
+ 
+ mission_healthy_treasury: "Healthy Treasury"
+ desc_mission_healthy_treasury: ""
+ 
+ mission_mass_production: "Mass Production"
+ desc_mission_mass_production: ""
+ 
+ mission_hegemonic_ambition: "Hegemonic Ambition"
+ desc_mission_hegemonic_ambition: ""
  
  #-----------------------------------
  # Orcish Horde
  #-----------------------------------
- prepare_for_the_assault_title: "Prepare for the Assault"
- prepare_for_the_assault_desc: "We must amass our forces before we assault the human lands."
+ TOH_missions_1: "Orcish Horde Missions"
  
- devastate_the_humans_title: "Devastate the Humans"
- devastate_the_humans_desc: "We must take Stormwind Keep so the might of the Horde is clear to all."
+ TOH_prepare_for_the_assault_title: "Prepare for the Assault"
+ TOH_prepare_for_the_assault_desc: "We must amass our forces before we assault the human lands."
  
- consolidate_conquests_title: "Consolidate Conquests"
- consolidate_conquests_desc: "The humans have been crushed, and their forces retreat. Let us establish a base of operations in Azeroth to better strike deeper into its heartlands."
+ TOH_devastate_the_humans_title: "Devastate the Humans"
+ TOH_devastate_the_humans_desc: "We must take Stormwind Keep so the might of the Horde is clear to all."
  
- destroy_lakeshire_title: "Destroy Lakeshire"
- destroy_lakeshire_desc: "Few humans remain, but those that do appear to have fled to the Redridge Mountains. Let us root them out!"
+ TOH_consolidate_conquests_title: "Consolidate Conquests"
+ TOH_consolidate_conquests_desc: "The humans have been crushed, and their forces retreat. Let us establish a base of operations in Azeroth to better strike deeper into its heartlands."
  
- control_blackrock_mountain_title: "Control Blackrock Mountain"
- control_blackrock_mountain_desc: "With the Redridge Mountains under our control, it is time to assault the Burning Steppes and delve deep within Blackrock Mountain to plunder the riches that lay below."
+ TOH_destroy_lakeshire_title: "Destroy Lakeshire"
+ TOH_destroy_lakeshire_desc: "Few humans remain, but those that do appear to have fled to the Redridge Mountains. Let us root them out!"
+ 
+ TOH_control_blackrock_mountain_title: "Control Blackrock Mountain"
+ TOH_control_blackrock_mountain_desc: "With the Redridge Mountains under our control, it is time to assault the Burning Steppes and delve deep within Blackrock Mountain to plunder the riches that lay below."
  
  # --- Modifiers
- orc_might: "Orc Might"
- desc_orc_might: ""
+ mission_orc_might: "Orc Might"
+ desc_mission_orc_might: ""
  
- blackrock_mountain: "Blackrock Mountain"
- desc_blackrock_mountain: ""
+ mission_blackrock_mountain: "Blackrock Mountain"
+ desc_mission_blackrock_mountain: ""
  
  
  

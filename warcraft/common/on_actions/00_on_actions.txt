@@ -144,17 +144,6 @@ on_war_lost = {
 # country
 # root = winning country, from = loser country
 on_battle_won_country = {
-	if = {
-		limit = {
-			has_country_modifier = hegemonic_victory
-			FROM = { tag = REB }
-		}
-		change_variable = {
-			which = rebels_suppressed
-			value = 1
-		}
-	}
-    
     if = {
         limit = {
             OR = {

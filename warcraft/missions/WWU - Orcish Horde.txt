@@ -1,13 +1,14 @@
-orcish_horde_missions = {
-	slot = 6
+TOH_missions_1 = {
+	slot = 1
 	ai = yes
 	
 	potential = {
 		tag = TOH
 	}
 	
-	prepare_for_the_assault = {
-		icon = mission_assemble_an_army
+	TOH_prepare_for_the_assault = {
+		icon = mission_horde_invasion
+        
 		required_missions = { }
 
 		trigger = {
@@ -27,9 +28,10 @@ orcish_horde_missions = {
 		}
 	}
 	
-	devastate_the_humans = {
-		icon = mission_cannons_firing
-		required_missions = { prepare_for_the_assault }
+	TOH_devastate_the_humans = {
+		icon = mission_human_male
+        
+		required_missions = { TOH_prepare_for_the_assault }
 
 		trigger = {
 			2993 = {
@@ -41,15 +43,16 @@ orcish_horde_missions = {
         }
 		effect = {
 			add_country_modifier = {
-				name = "orc_might"
+				name = "mission_orc_might"
 				duration = -1 
 			}
 		}
 	}
 	
-	consolidate_conquests = {
-		icon = mission_unite_home_region
-		required_missions = { devastate_the_humans }
+	TOH_consolidate_conquests = {
+		icon = mission_axe_and_sword
+        
+		required_missions = { TOH_devastate_the_humans }
 
 		trigger = {
 			num_of_cities = 70
@@ -61,9 +64,10 @@ orcish_horde_missions = {
 		}
 	}
 	
-	destroy_lakeshire = {
-		icon = mission_empire
-		required_missions = { consolidate_conquests }
+	TOH_destroy_lakeshire = {
+		icon = mission_lakeshire
+        
+		required_missions = { TOH_consolidate_conquests }
 
 		trigger = {
 			region_redridge_mountains = {
@@ -83,9 +87,10 @@ orcish_horde_missions = {
 		}
 	}
 	
-	control_blackrock_mountain = {
-		icon = mission_unite_home_region
-		required_missions = { destroy_lakeshire }
+	TOH_control_blackrock_mountain = {
+		icon = mission_blackrock_mountain
+        
+		required_missions = { TOH_destroy_lakeshire }
 
 		trigger = {
 			1717 = {
@@ -97,7 +102,7 @@ orcish_horde_missions = {
         }
 		effect = {
 			add_country_modifier = {
-				name = "blackrock_mountain"
+				name = "mission_blackrock_mountain"
 				duration = -1 
 			}
 		}

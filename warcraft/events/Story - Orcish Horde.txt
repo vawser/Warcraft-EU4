@@ -265,7 +265,7 @@ country_event = {
         start_date = 592.1.1 # Started in Orcish Horde bookmark
         tag = TOH
         ai = yes
-        mission_completed = prepare_for_the_assault
+        mission_completed = TOH_prepare_for_the_assault
     }
     
     mean_time_to_happen = {
