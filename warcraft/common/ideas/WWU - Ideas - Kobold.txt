@@ -34,6 +34,6 @@ kobold_ideas = {
 		governing_capacity_modifier = 0.1
 	}
 	kobold_ideas_7 = {
-		build_cost = -0.33
+		build_cost = -0.15
 	}
 }

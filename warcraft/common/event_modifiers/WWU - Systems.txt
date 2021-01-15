@@ -170,7 +170,7 @@ pneumatics_origin = {
 # Ruler Education
 #----------------------------------------------
 ruler_education_adm_1_savage = {
-	build_cost = -0.15
+	build_cost = -0.1
 }
 
 ruler_education_adm_2_savage = {

@@ -18,7 +18,7 @@ hozen_ideas = {
 		ae_impact = -0.05
 	}
 	hozen_ideas_2 = {
-		build_time = -0.33
+		build_time = -0.15
 	}
 	hozen_ideas_3 = {
 		yearly_corruption = -0.05

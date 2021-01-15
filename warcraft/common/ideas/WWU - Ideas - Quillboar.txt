@@ -15,7 +15,7 @@ quillboar_ideas = {
 	free = yes		
 	
 	quillboar_ideas_1 = {
-		build_cost = -0.33
+		build_cost = -0.15
 	}
 	quillboar_ideas_2 = {
 		mil_tech_cost_modifier = -0.1

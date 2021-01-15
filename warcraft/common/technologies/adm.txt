@@ -70,6 +70,9 @@ technology = {
     wow_farm = yes
     wow_tavern = yes
     
+    province_action_tax = yes
+    province_action_wonder = yes
+    
     may_support_rebels = yes
 }
 
@@ -211,11 +214,6 @@ technology = {
 technology = {
 	# Tech 20
 	year = 820
-
-    wow_grand_forge = yes
-    wow_palace = yes
-    wow_magic_tower = yes
-    wow_arcane_tower = yes
     
 	allowed_idea_groups = 5
 }

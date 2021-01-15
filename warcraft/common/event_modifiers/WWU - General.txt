@@ -95,7 +95,7 @@ communed_tidemother = {
 }
 
 working_overtime = {
-    build_time = -0.5
+    build_time = -0.25
 	global_unrest = 1
 }
 
@@ -290,7 +290,7 @@ challenged_alpha = {
 
 # Human
 mobilised_workforces = {
-    build_cost = -0.2
+    build_cost = -0.1
 }
 
 illusion_of_grandeur = {

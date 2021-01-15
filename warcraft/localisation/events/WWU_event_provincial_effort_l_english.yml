@@ -1,0 +1,68 @@
+﻿l_english:
+ #-----------------------------------------------
+ # Provincial Effort
+ #-----------------------------------------------
+ wwu_wonders.1.title: "Wonder of Azeroth"
+ wwu_wonders.1.desc: "Our labourers have been hard at work constructing our wonder. It is glorious, magnificant, and... what was it again?"
+ wwu_wonders.1.option.1: "Royal Palace"
+ wwu_wonders.1.option.2: "Grandiose Court"
+ wwu_wonders.1.option.3: "Administrative Academy"
+ wwu_wonders.1.option.4: "Den of Concubines"
+ wwu_wonders.1.option.5: "Union of Workers"
+ wwu_wonders.1.option.6: "Magi Conclave"
+ wwu_wonders.1.option.7: "Diplomatic Academy"
+ wwu_wonders.1.option.8: "Glittering Sculpture"
+ wwu_wonders.1.option.9: "Gorgeous Gardens"
+ wwu_wonders.1.option.10: "Grand Temple"
+ wwu_wonders.1.option.11: "Expeditionary School"
+ wwu_wonders.1.option.12: "Market of Azeroth"
+ wwu_wonders.1.option.13: "Military Academy"
+ wwu_wonders.1.option.14: "Naval Academy"
+ wwu_wonders.1.option.15: "Momumental Colosseum"
+ wwu_wonders.1.option.fallback: "Statue of [Owner.Monarch.GetName]"
+ 
+ # --- Modifiers ---
+ wonder_royal_palace: "Royal Palace"
+ desc_wonder_royal_palace: ""
+ 
+ wonder_glittering_court: "Grandiose Court"
+ desc_wonder_glittering_court: ""
+ 
+ wonder_administrative_academy: "Administrative Academy"
+ desc_wonder_administrative_academy: ""
+ 
+ wonder_den_of_concubines: "Den of Concubines"
+ desc_wonder_den_of_concubines: ""
+ 
+ wonder_union_of_workers: "Union of Workers"
+ desc_wonder_union_of_workers: ""
+ 
+ wonder_magi_conclave: "Magi Conclave"
+ desc_wonder_magi_conclave: ""
+ 
+ wonder_diplomatic_academy: "Diplomatic Academy"
+ desc_wonder_diplomatic_academy: "" 
+
+ wonder_glittering_sculpture: "Glittering Sculpture"
+ desc_wonder_glittering_sculpture: ""
+ 
+ wonder_gorgeous_gardens: "Gorgeous Gardens"
+ desc_wonder_gorgeous_gardens: ""
+ 
+ wonder_grand_temple: "Grand Temple"
+ desc_wonder_grand_temple: ""
+ 
+ wonder_colonial_school: "Expeditionary School"
+ desc_wonder_colonial_school: ""
+ 
+ wonder_market_of_the_world: "Market of Azeroth"
+ desc_wonder_market_of_the_world: ""
+ 
+ wonder_military_academy: "Military Academy"
+ desc_wonder_military_academy: ""
+ 
+ wonder_naval_academy: "Naval Academy"
+ desc_wonder_naval_academy: ""
+ 
+ wonder_monumental_colosseum: "Monumental Colosseum"
+ desc_wonder_monumental_colosseum: ""

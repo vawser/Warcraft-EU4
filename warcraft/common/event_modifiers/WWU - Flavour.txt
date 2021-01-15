@@ -49,7 +49,7 @@ illicit_connections = {
 }
 
 blackmailed_labourers = {
-    build_cost = -0.25
+    build_cost = -0.1
     global_unrest = 1
 }
 

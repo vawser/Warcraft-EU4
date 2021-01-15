@@ -63,4 +63,3 @@ propagate_religion_policy = {
 		}
 	}
 }
-

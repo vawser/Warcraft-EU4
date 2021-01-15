@@ -1,0 +1,232 @@
+namespace = wwu_wonders
+
+# Wonder of Azeroth
+province_event = {
+	id = wwu_wonders.1
+	title = wwu_wonders.1.title
+	desc = wwu_wonders.1.desc
+	picture = KING_LLANE_eventPicture
+	
+    is_triggered_only = yes
+    
+	option = {
+		name = wwu_wonders.1.option.1
+        
+        trigger = {
+            is_civilized = yes
+            NOT = { has_global_flag = wonder_royal_palace }
+        }
+        
+        hidden_effect = { set_global_flag = wonder_royal_palace }
+        
+        add_permanent_province_modifier = {
+            name = wonder_royal_palace
+            duration = -1
+        }
+	}
+    option = {
+		name = wwu_wonders.1.option.2
+        
+        trigger = {
+            NOT = { has_global_flag = wonder_glittering_court }
+        }
+        
+        hidden_effect = { set_global_flag = wonder_glittering_court }
+        
+        add_permanent_province_modifier = {
+            name = wonder_glittering_court
+            duration = -1
+        }
+	}
+    option = {
+		name = wwu_wonders.1.option.3
+        
+        trigger = {
+            NOT = { has_global_flag = wonder_administrative_academy }
+        }
+        
+        hidden_effect = { set_global_flag = wonder_administrative_academy }
+        
+        add_permanent_province_modifier = {
+            name = wonder_administrative_academy
+            duration = -1
+        }
+	}
+    option = {
+		name = wwu_wonders.1.option.4
+        
+        trigger = {
+            has_government_attribute = heir
+            NOT = { has_global_flag = wonder_den_of_concubines }
+        }
+        
+        hidden_effect = { set_global_flag = wonder_den_of_concubines }
+        
+        add_permanent_province_modifier = {
+            name = wonder_den_of_concubines
+            duration = -1
+        }
+	}
+    option = {
+		name = wwu_wonders.1.option.5
+        
+        trigger = {
+            NOT = { has_global_flag = wonder_union_of_workers }
+        }
+        
+        hidden_effect = { set_global_flag = wonder_union_of_workers }
+        
+        add_permanent_province_modifier = {
+            name = wonder_union_of_workers
+            duration = -1
+        }
+	}
+    option = {
+		name = wwu_wonders.1.option.6
+        
+        trigger = {
+            NOT = { has_global_flag = wonder_magi_conclave }
+        }
+        
+        hidden_effect = { set_global_flag = wonder_magi_conclave }
+        
+        add_permanent_province_modifier = {
+            name = wonder_magi_conclave
+            duration = -1
+        }
+	}
+    option = {
+		name = wwu_wonders.1.option.7
+        
+        trigger = {
+            NOT = { has_global_flag = wonder_diplomatic_academy }
+        }
+        
+        hidden_effect = { set_global_flag = wonder_diplomatic_academy }
+        
+        add_permanent_province_modifier = {
+            name = wonder_diplomatic_academy
+            duration = -1
+        }
+	}
+    option = {
+		name = wwu_wonders.1.option.8
+        
+        trigger = {
+            NOT = { has_global_flag = wonder_glittering_sculpture }
+        }
+        
+        hidden_effect = { set_global_flag = wonder_glittering_sculpture }
+        
+        add_permanent_province_modifier = {
+            name = wonder_glittering_sculpture
+            duration = -1
+        }
+	}
+    option = {
+		name = wwu_wonders.1.option.9
+        
+        trigger = {
+            NOT = { has_global_flag = wonder_gorgeous_gardens }
+        }
+        
+        hidden_effect = { set_global_flag = wonder_gorgeous_gardens }
+        
+        add_permanent_province_modifier = {
+            name = wonder_gorgeous_gardens
+            duration = -1
+        }
+	}
+    option = {
+		name = wwu_wonders.1.option.10
+        
+        trigger = {
+            NOT = { has_global_flag = wonder_grand_temple }
+        }
+        
+        hidden_effect = { set_global_flag = wonder_grand_temple }
+        
+        add_permanent_province_modifier = {
+            name = wonder_grand_temple
+            duration = -1
+        }
+	}
+    option = {
+		name = wwu_wonders.1.option.11
+        
+        trigger = {
+            NOT = { has_global_flag = wonder_colonial_school }
+        }
+        
+        hidden_effect = { set_global_flag = wonder_colonial_school }
+        
+        add_permanent_province_modifier = {
+            name = wonder_colonial_school
+            duration = -1
+        }
+	}
+    option = {
+		name = wwu_wonders.1.option.12
+        
+        trigger = {
+            NOT = { has_global_flag = wonder_market_of_the_world }
+        }
+        
+        hidden_effect = { set_global_flag = wonder_market_of_the_world }
+        
+        add_permanent_province_modifier = {
+            name = wonder_market_of_the_world
+            duration = -1
+        }
+	}
+    option = {
+		name = wwu_wonders.1.option.13
+        
+        trigger = {
+            NOT = { has_global_flag = wonder_military_academy }
+        }
+        
+        hidden_effect = { set_global_flag = wonder_military_academy }
+        
+        add_permanent_province_modifier = {
+            name = wonder_military_academy
+            duration = -1
+        }
+	}
+    option = {
+		name = wwu_wonders.1.option.14
+        
+        trigger = {
+            NOT = { has_global_flag = wonder_naval_academy }
+        }
+        
+        hidden_effect = { set_global_flag = wonder_naval_academy }
+        
+        add_permanent_province_modifier = {
+            name = wonder_naval_academy
+            duration = -1
+        }
+	}
+    option = {
+		name = wwu_wonders.1.option.15
+        
+        trigger = {
+            is_savage = yes
+            NOT = { has_global_flag = wonder_monumental_colosseum }
+        }
+        
+        hidden_effect = { set_global_flag = wonder_monumental_colosseum }
+        
+        add_permanent_province_modifier = {
+            name = wonder_monumental_colosseum
+            duration = -1
+        }
+	}
+    option = {
+		name = wwu_wonders.1.option.fallback
+        
+        add_prestige = 25
+	}
+}
+
+

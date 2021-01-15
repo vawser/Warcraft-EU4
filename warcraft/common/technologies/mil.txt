@@ -40,6 +40,7 @@ technology = {
     wow_arsenal = yes
     wow_portal_red = yes
     wow_fort_1 = yes
+    province_action_manpower = yes
 }
 technology = {
 	# Tech 1
@@ -166,7 +167,7 @@ technology = {
 	# Tech 15
 	year = 760
 	
-	wow_military_academy = yes
+	wow_fort_3 = yes
 }
 
 technology = {
@@ -175,8 +176,6 @@ technology = {
 	
     land_morale = 0.5
     military_tactics = 0.5
-    
-    wow_fort_3 = yes
 }
 
 technology = {
@@ -280,8 +279,6 @@ technology = {
     military_tactics = 0.75
     
     wow_portal_blue = yes
-    wow_fortress = yes
-    wow_altar_of_power = yes
 }
 
 technology = {

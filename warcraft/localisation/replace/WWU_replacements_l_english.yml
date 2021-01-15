@@ -7,6 +7,9 @@
  
  CULTURE_CONSTRUCTIONS: "Culture conversions"
 
+ MACRO_UNIQUE_BUILDING:0 "Provincal Effort"
+ MACRO_ONCE_IN_COUNTRY:0 "$BUILDING$ can only be used in one province at a time."
+ 
  #----------------------------------------------------
  # Absolutism
  #----------------------------------------------------

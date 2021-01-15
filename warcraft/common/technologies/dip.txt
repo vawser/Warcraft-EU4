@@ -42,6 +42,7 @@ technology = {
     wow_dockyard = yes
     wow_marketplace = yes
     wow_internment_camp = yes
+    province_action_production = yes
 }
 
 technology = {
@@ -91,6 +92,7 @@ technology = {
 	year = 664
 	
     wow_manufactory = yes
+    province_action_trade_center = yes
 }
 
 technology = {
@@ -125,8 +127,8 @@ technology = {
 	# Tech 12
 	year = 724
 
-    trade_range = 100
-    range = 100
+    trade_range = 50
+    range = 50
 }
 
 technology = {
@@ -147,9 +149,8 @@ technology = {
 	# Tech 15
 	year = 760
 	
-	wow_tomb_of_riches = yes
-    wow_naval_academy = yes
-    wow_grand_monument = yes
+	trade_range = 50
+    range = 50
 }
 
 technology = {

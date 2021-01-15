@@ -177,8 +177,8 @@
  dip_tech_cs_14_name: "Naval Prowess V"
  dip_tech_cs_14_desc: "Our navy has begun stronger and more disciplined, improving morale."
  
- dip_tech_cs_15_name: "Construction Innovations II"
- dip_tech_cs_15_desc: "Our nation has brought recent innovations in construction to the forefront of national thought, vastly expanding what we can build effectively."
+ dip_tech_cs_15_name: "Trade Innovations VI"
+ dip_tech_cs_15_desc: "Our markets have been transformed by recent innovations."
  
  dip_tech_cs_16_name: "Cultural Integration IV"
  dip_tech_cs_16_desc: "Our nation has integrated another culture into our own."
@@ -186,7 +186,7 @@
  dip_tech_cs_17_name: "Diplomatic Reach I"
  dip_tech_cs_17_desc: "Our diplomatic servants have learnt new techniques that greatly expand the reach of our nation."
  
- dip_tech_cs_18_name: "Trade Innovations VI"
+ dip_tech_cs_18_name: "Trade Innovations VII"
  dip_tech_cs_18_desc: "Our markets have been transformed by recent innovations."
  
  dip_tech_cs_19_name: "Naval Prowess VI"
@@ -195,13 +195,13 @@
  dip_tech_cs_20_name: "Cultural Integration V"
  dip_tech_cs_20_desc: "Our nation has integrated another culture into our own."
  
- dip_tech_cs_21_name: "Trade Innovations VII"
+ dip_tech_cs_21_name: "Trade Innovations VIII"
  dip_tech_cs_21_desc: "Our markets have been transformed by recent innovations."
  
  dip_tech_cs_22_name: "Naval Prowess VII"
  dip_tech_cs_22_desc: "Our navy has begun stronger and more disciplined, improving morale."
  
- dip_tech_cs_23_name: "Trade Innovations VIII"
+ dip_tech_cs_23_name: "Trade Innovations IX"
  dip_tech_cs_23_desc: "Our markets have been transformed by recent innovations."
  
  dip_tech_cs_24_name: "Cultural Integration V"
@@ -210,7 +210,7 @@
  dip_tech_cs_25_name: "Diplomatic Reach II"
  dip_tech_cs_25_desc: "Our diplomatic servants have learnt new techniques that greatly expand the reach of our nation."
  
- dip_tech_cs_26_name: "Trade Innovations IX"
+ dip_tech_cs_26_name: "Trade Innovations X"
  dip_tech_cs_26_desc: "Our markets have been transformed by recent innovations."
  
  dip_tech_cs_27_name: "Naval Prowess VIII"
@@ -225,7 +225,7 @@
  dip_tech_cs_30_name: "Naval Prowess IX"
  dip_tech_cs_30_desc: "Our navy has begun stronger and more disciplined, improving morale."
  
- dip_tech_cs_31_name: "Trade Innovations X"
+ dip_tech_cs_31_name: "Trade Innovations XI"
  dip_tech_cs_31_desc: "Our markets have been transformed by recent innovations."
  
  dip_tech_cs_32_name: "Cultural Integration VII"
@@ -237,7 +237,7 @@
  dip_tech_cs_34_name: "Naval Prowess X"
  dip_tech_cs_34_desc: "Our navy has begun stronger and more disciplined, improving morale."
  
- dip_tech_cs_35_name: "Trade Innovations XI"
+ dip_tech_cs_35_name: "Trade Innovations XII"
  dip_tech_cs_35_desc: "Our markets have been transformed by recent innovations."
  
  dip_tech_cs_36_name: "Diplomatic Reach V"
@@ -246,7 +246,7 @@
  dip_tech_cs_37_name: "Naval Prowess XI"
  dip_tech_cs_37_desc: "Our navy has begun stronger and more disciplined, improving morale."
  
- dip_tech_cs_38_name: "Trade Innovations XII"
+ dip_tech_cs_38_name: "Trade Innovations XIII"
  dip_tech_cs_38_desc: "Our markets have been transformed by recent innovations."
  
  dip_tech_cs_39_name: "Naval Prowess XII"

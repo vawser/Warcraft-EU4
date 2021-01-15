@@ -139,8 +139,8 @@ wwu_economic_ideas = {
     }
     # Organised Construction
     wwu_economic_ideas_2 = {
-        build_cost = -0.1
-		build_time = -0.2
+        build_cost = -0.15
+		build_time = -0.15
     }
     # Royal Bank
     wwu_economic_ideas_3 = {
@@ -445,7 +445,7 @@ wwu_development_ideas = {
     }
     # Local Building Materials
     wwu_development_ideas_6 = {
-        build_cost = -0.25
+        build_cost = -0.15
     }
     # Monetary Policy
     wwu_development_ideas_7 = {
@@ -2111,7 +2111,7 @@ wwu_militarization_ideas = {
     }
     # Wartime Construction
     wwu_militarization_ideas_5 = {
-        build_time = -0.33
+        build_time = -0.15
     }
     # Marshal Law
     wwu_militarization_ideas_6 = {
@@ -2194,7 +2194,7 @@ wwu_tyranny_ideas = {
     }
     # Labour Camps
     wwu_tyranny_ideas_4 = {
-        build_time = -0.33
+        build_time = -0.15
     }
     # Military Executions
     wwu_tyranny_ideas_5 = {

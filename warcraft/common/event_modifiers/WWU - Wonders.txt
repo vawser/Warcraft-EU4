@@ -1,0 +1,64 @@
+#----------------------------------------------
+# Wonders
+#----------------------------------------------
+wonder_royal_palace = {
+    legitimacy = 1
+}
+
+wonder_glittering_court = {
+    advisor_cost = -0.1
+}
+
+wonder_administrative_academy = {
+    administrative_efficiency = 0.05
+}
+
+wonder_den_of_concubines = {
+    heir_chance = 1.0
+}
+
+wonder_union_of_workers = {
+    production_efficiency = 0.1
+}
+
+wonder_magi_conclave = {
+    technology_cost = -0.05
+}
+
+wonder_diplomatic_academy = {
+    diplomatic_reputation = 1
+    diplomatic_upkeep = 1
+}
+
+wonder_glittering_sculpture = {
+    prestige = 1
+}
+
+wonder_gorgeous_gardens = {
+    stability_cost_modifier = -0.25
+}
+
+wonder_grand_temple = {
+    missionaries = 1
+}
+
+wonder_colonial_school = {
+    colonists = 1
+}
+
+wonder_market_of_the_world = {
+    trade_efficiency = 0.05
+    trade_steering = 0.25
+}
+
+wonder_military_academy = {
+    army_tradition = 1
+}
+
+wonder_naval_academy = {
+    navy_tradition = 1
+}
+
+wonder_monumental_colosseum = {
+    infantry_power = 0.05
+}

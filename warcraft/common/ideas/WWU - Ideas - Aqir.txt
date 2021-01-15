@@ -54,8 +54,8 @@ AZJ_ideas = {
 	free = yes		
 	
 	AZJ_ideas_1 = {
-		build_cost = -0.2
-        build_time = -0.2
+		build_cost = -0.1
+        build_time = -0.1
 	}
 	AZJ_ideas_2 = {
 		siege_ability = 0.1
