@@ -116,8 +116,8 @@ NDiplomacy = {
 	EMPEROR_VOTE_DAYS = 60,	 						-- _DDEF_EMPEROR_VOTE_DAYS_; "Cooldown" until Electors can change their vote again.
 	EMPEROR_REVOKE_AUTHORITY_COST = 50.0,			-- Cost for the emperor to revoke a reform
 	EMPEROR_REVOKE_MODIFIER_DAYS = 1800,			-- How long the temporary modifier applied after revoking will last
-	TRUCE_YEARS = 5, 								-- _DDEF_TRUCE_YEARS_; Years of Truce
-	SCALED_TRUCE_YEARS = 10,						-- Additional years of truce based on % of warscore taken in war (100% warscore = full scaled truce years)
+	TRUCE_YEARS = 2, 								-- _DDEF_TRUCE_YEARS_; Years of Truce
+	SCALED_TRUCE_YEARS = 3,						-- Additional years of truce based on % of warscore taken in war (100% warscore = full scaled truce years)
 	WARNING_YEARS = 20,								-- Years before warning expire
 	ANNUL_TREATIES_YEARS = 10,						-- Years before annul treaties expire
 	COALITION_YEARS = 20,							-- Years before coalition expire
@@ -351,7 +351,7 @@ NDiplomacy = {
 	STUDY_TECHNOLOGY_MIN_TECHS_AHEAD = 2,			-- Target must be at least this number of techs ahead of you to get power
 
 	THREATEN_WAR_PRESTIGE = 10,						-- Prestige lost due to complying with Threaten War.
-	THREATEN_WAR_TRUCE_YEARS = 5,					-- Length of truce imposed by Threaten War.
+	THREATEN_WAR_TRUCE_YEARS = 2,					-- Length of truce imposed by Threaten War.
 	THREATEN_WAR_ALLIANCE_OFFSET = 1.5,				-- If relative alliance strength is above this threshold, start applying gradient.
 	THREATEN_WAR_ALLIANCE_GRADIENT = 20,			-- Relative alliance strength to acceptance value, capped at +100.
 	THREATEN_WAR_COALITION_GRADIENT = -50,			-- Relative coalition strength to acceptance value, capped at -1000.
@@ -372,7 +372,7 @@ NDiplomacy = {
 	LEAVING_GREAT_POWER_YEARS = 5,					-- The number of years a Great Power can remain after being removed from the top (8).
 	GREAT_POWER_SUBJECT_CONTRIBUTION = 0.5,			-- Share of subjects' development that will count towards overlord's Great Power score.
 
-	FORCE_BREAK_ALLIANCE_TRUCE_YEARS = 10,			-- Length of truce imposed by Break Alliance.
+	FORCE_BREAK_ALLIANCE_TRUCE_YEARS = 2,			-- Length of truce imposed by Break Alliance.
 	FORCE_END_RIVALRY_YEARS = 15,					-- Years until you can re-add a Rival after being forced to remove them by peace treaty.
 	TRIBUTE_BASE_CASH = 0.125,						-- Tributary State: Part of yearly income given in tribute
 	TRIBUTE_BASE_ADM = 0.03,						-- Tributary State: Part Adm tribute, mulitplied by total development
@@ -1846,7 +1846,7 @@ NGraphics = {
 	TRUCE_LENGTH_MAX_G = 0.0,
 	TRUCE_LENGTH_MAX_B = 0.0,
 	TRUCE_LENGTH_A = 1.0,
-	MAX_NUM_YEAR_OF_TRUCE_FOR_MAPMODE = 15,
+	MAX_NUM_YEAR_OF_TRUCE_FOR_MAPMODE = 5,
 	COLONIAL_COLOR_INTERPOLATION_FACTOR = 0.35,
 
 	MINIMAP_LAND_COLOR_R 			= 2,

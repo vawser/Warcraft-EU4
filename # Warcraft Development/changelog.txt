@@ -9,3 +9,10 @@ Name key provinces
 
 Holy Roman emperor switch msg box needs loc change
 
+Add in nav rivers
+
+Add Outland
+
+Add Outland nations
+ Orc tribes will orc_tributary, meaning they give tribute to the Orcish Horde, but don't call them into any wars either way
+ 

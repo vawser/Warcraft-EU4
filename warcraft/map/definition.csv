@@ -1571,13 +1571,13 @@ province;red;green;blue;type;name;DRAWN;notes
 1570;13;20;170;lake;Howling Fjords Lake 2;DRAWN
 1571;13;30;170;lake;Howling Fjords Lake 3;DRAWN
 1572;13;40;170;lake;Howling Fjords Lake 4;DRAWN
-1573;13;50;170;lake;Grizzly Hills Lake 1;DRAWN
+1573;13;50;170;sea;Grizzly Hills Lake 1;DRAWN
 1574;13;60;170;lake;Grizzly Hills Lake 2;DRAWN
-1575;13;70;170;lake;Grizzly Hills Lake 3;DRAWN
+1575;13;70;170;sea;Grizzly Hills Lake 3;DRAWN
 1576;13;80;170;lake;Grizzly Hills Lake 4;DRAWN
 1577;13;90;170;lake;Dragonblight Lake 1;DRAWN
 1578;13;100;170;lake;Dragonblight Lake 2;DRAWN
-1579;13;110;170;lake;Dragonblight Lake 3;DRAWN
+1579;13;110;170;sea;Dragonblight Lake 3;DRAWN
 1580;13;120;170;lake;Borean Tundra Lake 1;DRAWN
 1581;13;130;170;lake;Borean Tundra Lake 2;DRAWN
 1582;13;140;170;lake;Borean Tundra Lake 3;DRAWN
@@ -1588,7 +1588,7 @@ province;red;green;blue;type;name;DRAWN;notes
 1587;13;190;170;lake;Sholazar Lake 4;DRAWN
 1588;13;200;170;lake;Sholazar Lake 5;DRAWN
 1589;14;0;170;lake;Sholazar Lake 6;DRAWN
-1590;14;10;170;lake;Uldum Lake 1;DRAWN
+1590;14;10;170;sea;Uldum Lake 1;DRAWN
 1591;14;20;170;lake;Uldum Lake 2;DRAWN
 1592;14;30;170;lake;Ungoro Lake 1;DRAWN
 1593;14;40;170;lake;Ungoro Lake 2;DRAWN
@@ -7659,3 +7659,12 @@ province;red;green;blue;type;name;DRAWN;notes
 7658;40;160;140;sea;Unnamed;DRAWN
 7659;40;170;140;sea;Unnamed;DRAWN
 7660;40;180;140;sea;Unnamed;DRAWN
+7661;40;190;140;sea;Unnamed;DRAWN
+7662;40;200;140;sea;Unnamed;DRAWN
+7663;41;100;140;sea;Unnamed;DRAWN
+7664;41;110;140;sea;Unnamed;DRAWN
+7665;41;120;140;sea;Unnamed;DRAWN
+7666;41;130;140;sea;Unnamed;DRAWN
+7667;41;140;140;sea;Unnamed;DRAWN
+7668;41;150;140;sea;Unnamed;DRAWN
+7669;41;160;140;sea;Unnamed;DRAWN
