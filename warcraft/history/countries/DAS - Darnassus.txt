@@ -1,10 +1,14 @@
 technology_group = tech_night_elf
-set_country_flag = originally_tech_night_elf
+
 government = theocracy
+
 add_government_reform = druidic_circle_reform
+
 government_rank = 3
 primary_culture = darnassus
+
 religion = elune
+
 
 capital = 4781
 

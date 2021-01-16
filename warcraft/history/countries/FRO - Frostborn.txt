@@ -1,9 +1,13 @@
 technology_group = tech_frost_dwarf
-set_country_flag = originally_tech_frost_dwarf
+
 government = tribal
+
 add_government_reform = dwarven_clan_reform
+
 primary_culture = frostborn
+
 religion = titan_worship
+
 
 capital = 2105
 

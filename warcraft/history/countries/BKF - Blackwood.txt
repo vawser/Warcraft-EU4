@@ -1,9 +1,13 @@
 technology_group = tech_furbolg
-set_country_flag = originally_tech_furbolg
+
 government = tribal
+
 add_government_reform = tribal_federation_reform
+
 primary_culture = blackwood
+
 religion = shamanism
+
 
 capital = 5900
 

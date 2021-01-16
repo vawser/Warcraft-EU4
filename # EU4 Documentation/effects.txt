@@ -103,7 +103,7 @@ set_government_and_rank = {
     rank = <rank>                       # 1, 2 or 3 is the default range
 }
 
-add_reform = <string>            # Non-Dharma will add legacy_equivalant
+add_government_reform = <string>            # Non-Dharma will add legacy_equivalant
 change_government_via_reform = <string>     # Change type of government
 change_government_reform_progress = <float> # Alters government reform progress
 lose_reforms = <int>

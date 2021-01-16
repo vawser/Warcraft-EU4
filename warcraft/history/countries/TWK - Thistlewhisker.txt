@@ -1,9 +1,13 @@
 technology_group = tech_kobold
-set_country_flag = originally_tech_kobold
+
 government = tribal
+
 add_government_reform = tribal_despotism_reform
+
 primary_culture = thistlewhisker
+
 religion = shadow
+
 
 capital = 7483
 

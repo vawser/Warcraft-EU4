@@ -1,9 +1,13 @@
 technology_group = tech_human
-set_country_flag = originally_tech_human
+
 government = pirate
+
 add_government_reform = pirate_republic_reform
+
 primary_culture = southsea_freebooter
+
 religion = avarice
+
 religious_school = military_philosophy
 
 capital = 5137

@@ -1,9 +1,13 @@
 technology_group = tech_tolvir
-set_country_flag = originally_tech_tolvir
+
 government = theocracy
+
 add_government_reform = tolvir_kingdom_reform
+
 primary_culture = ramkahen
+
 religion = titan_worship
+
 
 capital = 4952
 

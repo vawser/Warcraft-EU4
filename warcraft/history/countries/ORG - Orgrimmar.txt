@@ -1,9 +1,13 @@
 technology_group = tech_orc
-set_country_flag = originally_tech_orc
+
 government = republic
+
 add_government_reform = despotic_republic_reform
+
 primary_culture = orgrimmar
+
 religion = shamanism
+
 
 capital = 7197
 

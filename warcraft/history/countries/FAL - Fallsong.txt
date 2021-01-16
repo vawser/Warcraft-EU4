@@ -1,9 +1,13 @@
 technology_group = tech_jinyu
-set_country_flag = originally_tech_jinyu
+
 government = tribal
+
 add_government_reform = tribal_federation_reform
+
 primary_culture = fallsong
+
 religion = celestials
+
 
 capital = 4291
 

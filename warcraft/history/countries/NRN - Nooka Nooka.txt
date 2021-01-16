@@ -1,9 +1,13 @@
 technology_group = tech_hozen
-set_country_flag = originally_tech_hozen
+
 government = tribal
+
 add_government_reform = tribal_despotism_reform
+
 primary_culture = nooka_nooka
+
 religion = celestials
+
 
 capital = 4421
 

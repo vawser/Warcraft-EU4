@@ -1,9 +1,13 @@
 technology_group = tech_orc
-set_country_flag = originally_tech_orc
+
 government = tribal
+
 add_government_reform = warband_reform
+
 primary_culture = black_tooth_grin
+
 religion = fel
+
 
 capital = 1
 

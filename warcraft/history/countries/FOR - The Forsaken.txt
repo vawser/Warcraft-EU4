@@ -1,10 +1,14 @@
 technology_group = tech_undead
-set_country_flag = originally_tech_undead
+
 government = monarchy
+
 add_government_reform = autocracy_reform
+
 government_rank = 2
 primary_culture = forsaken
+
 religion = necromancy
+
 
 capital = 1
 

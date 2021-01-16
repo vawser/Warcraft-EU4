@@ -1,10 +1,14 @@
 technology_group = tech_dark_iron_dwarf
-set_country_flag = originally_tech_dark_iron_dwarf
+
 government = theocracy
+
 add_government_reform = elemental_cult_reform
+
 government_rank = 2
 primary_culture = dark_iron
+
 religion = fire
+
 
 capital = 1717
 

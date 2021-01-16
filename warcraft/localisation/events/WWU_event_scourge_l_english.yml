@@ -21,7 +21,5 @@
  wwu_scourge.5.title: "Defilement of the Sunwell"
  wwu_scourge.5.desc: "The Scourge have taken control of the Sunwell and destroyed whilsting restoring Kel'Thuzad's lichdom. The loss of the Sunwell will mean dire times for elves of [Root.GetName]."
  wwu_scourge.5.option.a: "This is horrific..."
+
  
- wwu_scourge.6.title: "Cleansing of the Scourge"
- wwu_scourge.6.desc: "Our nation was once under the grasp of the Lich King. Now his grasph has weakened, our people are free to live as they once did."
- wwu_scourge.6.option.a: "Hurrah"

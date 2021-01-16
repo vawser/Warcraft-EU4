@@ -1,9 +1,13 @@
 technology_group = tech_nightborne
-set_country_flag = originally_tech_nightborne
+
 government = monarchy
+
 add_government_reform = kingdom_of_magic_reform
+
 primary_culture = suramar
+
 religion = arcane
+
 
 capital = 3656
 

@@ -1,9 +1,13 @@
 technology_group = tech_spriteling
-set_country_flag = originally_tech_spriteling
+
 government = tribal
+
 add_government_reform = tribal_federation_reform
+
 primary_culture = thistleleaf
+
 religion = druidism
+
 
 capital = 3673
 

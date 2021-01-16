@@ -1,9 +1,13 @@
 technology_group = tech_ogre
-set_country_flag = originally_tech_ogre
+
 government = tribal
+
 add_government_reform = tribal_despotism_reform
+
 primary_culture = gordunni
+
 religion = geomancy
+
 
 capital = 2624
 

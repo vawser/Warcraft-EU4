@@ -1,9 +1,13 @@
 technology_group = tech_centaur
-set_country_flag = originally_tech_centaur
+
 government = tribal
+
 add_government_reform = warband_reform
+
 primary_culture = galak
+
 religion = shamanism
+
 
 capital = 5202
 

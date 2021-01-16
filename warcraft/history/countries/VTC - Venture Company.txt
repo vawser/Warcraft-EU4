@@ -1,9 +1,13 @@
 technology_group = tech_goblin
-set_country_flag = originally_tech_goblin
+
 government = republic
+
 add_government_reform = mercantile_republic_reform
+
 primary_culture = venture_company
+
 religion = avarice
+
 religious_school = trade_philosophy
 
 capital = 5521

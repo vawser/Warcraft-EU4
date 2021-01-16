@@ -1,9 +1,13 @@
 technology_group = tech_sand_troll
-set_country_flag = originally_tech_sand_troll
+
 government = monarchy
+
 add_government_reform = troll_kingdom_reform
+
 primary_culture = sandfury
+
 religion = voodoo
+
 
 capital = 5106
 

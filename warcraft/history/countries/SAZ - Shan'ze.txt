@@ -1,9 +1,13 @@
 technology_group = tech_mogu
-set_country_flag = originally_tech_mogu
+
 government = tribal
+
 add_government_reform = warband_reform
+
 primary_culture = shanze
+
 religion = fleshshaping
+
 
 capital = 3773
 

@@ -1,10 +1,14 @@
 technology_group = tech_zandalari_troll
-set_country_flag = originally_tech_zandalari_troll
+
 government = monarchy
+
 add_government_reform = troll_kingdom_reform
+
 government_rank = 3
 primary_culture = zandalari
+
 religion = voodoo
+
 
 capital = 3713
 

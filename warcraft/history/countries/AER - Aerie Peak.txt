@@ -1,10 +1,14 @@
 technology_group = tech_hill_dwarf
-set_country_flag = originally_tech_hill_dwarf
+
 government = tribal
+
 add_government_reform = dwarven_clan_reform
+
 government_rank = 2
 primary_culture = aerie_peak
+
 religion = shamanism
+
 
 capital = 3544
 

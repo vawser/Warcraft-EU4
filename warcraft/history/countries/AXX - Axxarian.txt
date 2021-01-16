@@ -1,9 +1,13 @@
 technology_group = tech_satyr
-set_country_flag = originally_tech_satyr
+
 government = tribal
+
 add_government_reform = satyr_sect_reform
+
 primary_culture = axxarian
+
 religion = fel
+
 
 capital = 4717
 

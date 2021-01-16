@@ -1,9 +1,13 @@
 technology_group = tech_earthen
-set_country_flag = originally_tech_earthen
+
 government = tribal
+
 add_government_reform = dwarven_clan_reform
+
 primary_culture = thor_modan
+
 religion = titan_worship
+
 
 capital = 6709
 

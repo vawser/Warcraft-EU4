@@ -1,9 +1,13 @@
 technology_group = tech_red_dragonflight
-set_country_flag = originally_tech_red_dragonflight
+
 government = theocracy
+
 add_government_reform = dragonflight_brood_reform
+
 primary_culture = red_dragonflight
+
 religion = dragon_aspects
+
 
 capital = 1785
 

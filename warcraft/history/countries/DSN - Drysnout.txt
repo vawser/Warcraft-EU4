@@ -1,9 +1,13 @@
 technology_group = tech_gnoll
-set_country_flag = originally_tech_gnoll
+
 government = tribal
+
 add_government_reform = tribal_despotism_reform
+
 primary_culture = drysnout
+
 religion = shamanism
+
 
 capital = 3211
 

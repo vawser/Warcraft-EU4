@@ -1,9 +1,13 @@
 technology_group = tech_ogre
-set_country_flag = originally_tech_ogre
+
 government = monarchy
+
 add_government_reform = autocracy_reform
+
 primary_culture = dreadmaul
+
 religion = geomancy
+
 
 capital = 3120
 

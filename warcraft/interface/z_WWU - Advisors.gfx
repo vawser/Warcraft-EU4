@@ -2523,6 +2523,198 @@ spriteTypes = {
 	}
     
     #-----------------
+    # Zandalari Troll
+    #-----------------
+    spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_artist"
+		texturefile = "gfx//interface//advisors//troll//male//1.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_philosopher"
+		texturefile = "gfx//interface//advisors//troll//male//2.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_natural_scientist"
+		texturefile = "gfx//interface//advisors//troll//male//3.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_theologian"
+		texturefile = "gfx//interface//advisors//troll//male//4.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_inquisitor"
+		texturefile = "gfx//interface//advisors//troll//male//5.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_master_of_mint"
+		texturefile = "gfx//interface//advisors//troll//male//6.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_treasurer"
+		texturefile = "gfx//interface//advisors//troll//male//7.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_statesman"
+		texturefile = "gfx//interface//advisors//troll//male//8.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_colonial_governor"
+		texturefile = "gfx//interface//advisors//troll//male//9.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_diplomat"
+		texturefile = "gfx//interface//advisors//troll//male//10.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_naval_reformer"
+		texturefile = "gfx//interface//advisors//troll//male//11.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_navigator"
+		texturefile = "gfx//interface//advisors//troll//male//12.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_trader"
+		texturefile = "gfx//interface//advisors//troll//male//13.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_spymaster"
+		texturefile = "gfx//interface//advisors//troll//male//14.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_grand_captain"
+		texturefile = "gfx//interface//advisors//troll//male//15.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_commandant"
+		texturefile = "gfx//interface//advisors//troll//male//16.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_army_organiser"
+		texturefile = "gfx//interface//advisors//troll//male//17.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_army_reformer"
+		texturefile = "gfx//interface//advisors//troll//male//18.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_recruitmaster"
+		texturefile = "gfx//interface//advisors//troll//male//19.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_fortification_expert"
+		texturefile = "gfx//interface//advisors//troll//male//20.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_advisor_zandalari_troll_gfx_quartermaster"
+		texturefile = "gfx//interface//advisors//troll//male//21.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+    
+    #-----------------
     # Goblin
     #-----------------
     # goblingfx

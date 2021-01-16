@@ -1,9 +1,13 @@
 technology_group = tech_vrykul
-set_country_flag = originally_tech_vrykul
+
 government = monarchy
+
 add_government_reform = autocracy_reform
+
 primary_culture = dragonflayer
+
 religion = runic
+
 
 capital = 6868
 

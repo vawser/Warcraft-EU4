@@ -1,10 +1,14 @@
 technology_group = tech_nerubian
-set_country_flag = originally_tech_nerubian
+
 government = theocracy
+
 add_government_reform = nerubian_kingdom_reform
+
 government_rank = 3
 primary_culture = azjol_nerub
+
 religion = yogg_saron
+
 
 capital = 6313
 

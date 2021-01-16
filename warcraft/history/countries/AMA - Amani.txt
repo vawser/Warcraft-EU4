@@ -1,10 +1,14 @@
 technology_group = tech_forest_troll
-set_country_flag = originally_tech_forest_troll
+
 government = monarchy
+
 add_government_reform = troll_kingdom_reform
+
 government_rank = 2
 primary_culture = amani
+
 religion = voodoo
+
 
 capital = 4110
 

@@ -1,9 +1,13 @@
 technology_group = tech_tuskarr
-set_country_flag = originally_tech_tuskarr
+
 government = tribal
+
 add_government_reform = tribal_federation_reform
+
 primary_culture = moaki
+
 religion = shamanism
+
 
 capital = 6819
 

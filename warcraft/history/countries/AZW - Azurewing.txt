@@ -1,9 +1,13 @@
 technology_group = tech_blue_dragonflight
-set_country_flag = originally_tech_blue_dragonflight
+
 government = theocracy
+
 add_government_reform = dragonflight_brood_reform
+
 primary_culture = blue_dragonflight
+
 religion = dragon_aspects
+
 
 capital = 3648
 

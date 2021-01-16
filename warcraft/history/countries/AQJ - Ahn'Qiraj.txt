@@ -1,10 +1,14 @@
 technology_group = tech_qiraji
-set_country_flag = originally_tech_qiraji
+
 government = theocracy
+
 add_government_reform = aqir_kingdom_reform
+
 government_rank = 3
 primary_culture = ahn_qiraj
+
 religion = cthun
+
 
 capital = 5005
 

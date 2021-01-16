@@ -1,10 +1,14 @@
 technology_group = tech_dwarf
-set_country_flag = originally_tech_dwarf
+
 government = monarchy
+
 add_government_reform = feudalism_reform
+
 government_rank = 2
 primary_culture = ironforge
+
 religion = the_holy_light
+
 
 capital = 1757
 

@@ -1,9 +1,13 @@
 technology_group = tech_pandaren
-set_country_flag = originally_tech_pandaren
+
 government = theocracy
+
 add_government_reform = monastic_order_reform
+
 primary_culture = shado_pan
+
 religion = celestials
+
 
 capital = 1982
 

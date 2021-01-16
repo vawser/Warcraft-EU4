@@ -1,9 +1,13 @@
 technology_group = tech_orc
-set_country_flag = originally_tech_orc
+
 government = theocracy
+
 add_government_reform = theocracy_reform
+
 primary_culture = twilights_hammer
+
 religion = fel
+
 
 capital = 3142
 
@@ -23,6 +27,7 @@ capital = 3142
 # Second War
 596.1.1 = {
     religion = twilight_cult
+
     
     add_country_modifier = {
         name = taint_of_evil

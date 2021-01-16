@@ -1,9 +1,13 @@
 technology_group = tech_demon
-set_country_flag = originally_tech_demon
+
 government = theocracy
+
 add_government_reform = demonic_order_reform
+
 primary_culture = demon
+
 religion = fel
+
 
 capital = 6031
 

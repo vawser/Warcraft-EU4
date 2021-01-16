@@ -1,9 +1,13 @@
 technology_group = tech_harpy
-set_country_flag = originally_tech_harpy
+
 government = tribal
+
 add_government_reform = tribal_despotism_reform
+
 primary_culture = frostfeather
+
 religion = wind
+
 
 capital = 6482
 

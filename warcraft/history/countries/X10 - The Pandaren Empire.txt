@@ -1,8 +1,12 @@
 technology_group = tech_pandaren
-set_country_flag = originally_tech_pandaren
+
 government = monarchy
+
 add_government_reform = feudalism_reform
+
 primary_culture = pandaren
+
 religion = celestials
+
 
 capital = 4498

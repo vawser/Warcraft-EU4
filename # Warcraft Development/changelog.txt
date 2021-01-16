@@ -7,3 +7,5 @@
 #------------------------------
 Name key provinces
 
+Holy Roman emperor switch msg box needs loc change
+

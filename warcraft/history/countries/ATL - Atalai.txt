@@ -1,9 +1,13 @@
 technology_group = tech_jungle_troll
-set_country_flag = originally_tech_jungle_troll
+
 government = theocracy
+
 add_government_reform = cult_of_hakkar_reform
+
 primary_culture = atalai
+
 religion = hakkari
+
 
 capital = 3088
 

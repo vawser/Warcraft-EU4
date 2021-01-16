@@ -1336,30 +1336,6 @@ satyr_sect_reform = {
     valid_for_nation_designer = yes
     nation_designer_cost = 0
 }
-stateless_government_reform = {
-	icon = "tribal_federation"
-    legacy_equivalent = stateless_government_legacy
-    
-    potential = {
-        have_had_reform = stateless_government_reform
-    }
-    
-	heir = no
-	queen = no
-    
-	modifiers = {
-		legitimacy = -1
-	}
-	
-	ai = { factor = 0 }
-    
-    valid_for_new_country = yes     # Can be converted to via nation release
-    allow_normal_conversion = no   # Can be picked as a new reform
-    allow_convert = no             # Can be converted to via peace term
-
-    valid_for_nation_designer = no
-    nation_designer_cost = 0
-}
 
 #------------------------------------------------------------
 # Native

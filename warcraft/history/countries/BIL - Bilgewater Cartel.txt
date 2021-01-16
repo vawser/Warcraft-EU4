@@ -1,9 +1,13 @@
 technology_group = tech_goblin
-set_country_flag = originally_tech_goblin
+
 government = republic
+
 add_government_reform = mercantile_republic_reform
+
 primary_culture = bilgewater_cartel
+
 religion = avarice
+
 religious_school = diplomatic_philosophy
 
 capital = 3727

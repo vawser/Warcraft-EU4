@@ -1,9 +1,13 @@
 technology_group = tech_highmountain_tauren
-set_country_flag = originally_tech_highmountain_tauren
+
 government = tribal
+
 add_government_reform = tribal_federation_reform
+
 primary_culture = highmountain
+
 religion = earth_mother
+
 
 capital = 3680
 

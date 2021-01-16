@@ -164,27 +164,3 @@ country_event = {
         add_prestige = -100
 	}
 }
-
-# Cleansing of the Scourge
-country_event = {
-	id = wwu_scourge.6
-	title = wwu_scourge.6.title
-	desc = wwu_scourge.6.desc
-	picture = BLIND_PALADIN_eventPicture
-	
-    trigger = {
-        NOT = { has_country_flag = originally_tech_scourge }
-        technology_group = tech_scourge
-        NOT = { has_reform = scourge_domain_reform } # Scourge been dismantled
-	}
-    
-    mean_time_to_happen = {
-		days = 1
-	}
-    
-	option = {
-		name = wwu_scourge.6.option.a
-		
-        revert_initial_technology_group = yes
-	}
-}

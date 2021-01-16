@@ -1,9 +1,13 @@
 technology_group = tech_earthen
-set_country_flag = originally_tech_earthen
+
 government = theocracy
+
 add_government_reform = titan_facility_reform
+
 primary_culture = uldaman
+
 religion = titan_worship
+
 
 capital = 3207
 

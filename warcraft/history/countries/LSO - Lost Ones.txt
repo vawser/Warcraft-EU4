@@ -1,9 +1,13 @@
 technology_group = tech_lost_one
-set_country_flag = originally_tech_lost_one
+
 government = theocracy
+
 add_government_reform = monastic_order_reform
+
 primary_culture = lost_ones
+
 religion = shadow
+
 
 capital = 3089
 

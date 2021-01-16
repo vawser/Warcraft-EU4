@@ -1,9 +1,13 @@
 technology_group = tech_tauren
-set_country_flag = originally_tech_tauren
+
 government = tribal
+
 add_government_reform = tribal_federation_reform
+
 primary_culture = bloodhoof
+
 religion = earth_mother
+
 
 capital = 5445
 

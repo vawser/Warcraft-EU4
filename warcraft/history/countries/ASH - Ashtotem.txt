@@ -1,9 +1,13 @@
 technology_group = tech_taunka
-set_country_flag = originally_tech_taunka
+
 government = tribal
+
 add_government_reform = tribal_federation_reform
+
 primary_culture = ashtotem
+
 religion = shamanism
+
 
 capital = 6732
 

@@ -1,10 +1,14 @@
 technology_group = tech_human
-set_country_flag = originally_tech_human
+
 government = monarchy
+
 add_government_reform = feudalism_reform
+
 government_rank = 2
 primary_culture = gilnean
+
 religion = the_holy_light
+
 
 capital = 3599
 

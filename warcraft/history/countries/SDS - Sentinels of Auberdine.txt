@@ -1,9 +1,13 @@
 technology_group = tech_night_elf
-set_country_flag = originally_tech_night_elf
+
 government = theocracy
+
 add_government_reform = monastic_order_reform
+
 primary_culture = sentinels_of_auberdine
+
 religion = elune
+
 
 capital = 4804
 

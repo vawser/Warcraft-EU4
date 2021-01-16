@@ -1,9 +1,13 @@
 technology_group = tech_wolvar
-set_country_flag = originally_tech_wolvar
+
 government = tribal
+
 add_government_reform = tribal_despotism_reform
+
 primary_culture = snowfall
+
 religion = shamanism
+
 
 capital = 7140
 

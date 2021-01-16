@@ -1,8 +1,12 @@
 technology_group = tech_mogu
-set_country_flag = originally_tech_mogu
+
 government = monarchy
+
 add_government_reform = autocracy_reform
+
 primary_culture = mogu
+
 religion = fleshshaping
+
 
 capital = 3759

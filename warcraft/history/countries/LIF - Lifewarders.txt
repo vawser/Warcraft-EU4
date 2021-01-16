@@ -1,9 +1,13 @@
 technology_group = tech_titan
-set_country_flag = originally_tech_titan
+
 government = theocracy
+
 add_government_reform = titan_facility_reform
+
 primary_culture = lifewarder
+
 religion = titan_worship
+
 
 capital = 6378
 

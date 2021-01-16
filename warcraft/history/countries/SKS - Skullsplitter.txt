@@ -1,9 +1,13 @@
 technology_group = tech_jungle_troll
-set_country_flag = originally_tech_jungle_troll
+
 government = monarchy
+
 add_government_reform = troll_kingdom_reform
+
 primary_culture = skullsplitter
+
 religion = voodoo
+
 
 capital = 2894
 

@@ -1,9 +1,13 @@
 technology_group = tech_murloc
-set_country_flag = originally_tech_murloc
+
 government = tribal
+
 add_government_reform = tribal_despotism_reform
+
 primary_culture = saltscale
+
 religion = deep_mother
+
 
 capital = 2897
 

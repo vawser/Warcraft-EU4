@@ -58,3 +58,10 @@
  return_to_overlord_title: "Return to Overlord"
  return_to_overlord_desc: "As the overlord of a subject, we can return to the overlord nation at any time."
  return_to_overlord_tooltip: "As the overlord of a subject, we can return to the overlord nation at any time."
+ 
+ establish_trust: "Establish Trust"
+ establish_trust_title: "Establish Trust"
+ establish_trust_desc: "We will convene a meeting for our respective diplomats and establish a deeper trust with [From.GetName]."
+ establish_trust_tooltip: "Establish Trust with [From.GetName]"
+ establish_trust_alert_tooltip: "Establish Trust with [From.GetName]"
+ 

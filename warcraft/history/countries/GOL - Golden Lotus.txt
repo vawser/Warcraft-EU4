@@ -1,9 +1,13 @@
 technology_group = tech_pandaren
-set_country_flag = originally_tech_pandaren
+
 government = theocracy
+
 add_government_reform = theocracy_reform
+
 primary_culture = golden_lotus
+
 religion = celestials
+
 
 capital = 4498
 
