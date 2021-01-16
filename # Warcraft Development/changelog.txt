@@ -9,8 +9,6 @@ Name key provinces
 
 Holy Roman emperor switch msg box needs loc change
 
-Add in nav rivers
-
 Add Outland
 
 Add Outland nations
