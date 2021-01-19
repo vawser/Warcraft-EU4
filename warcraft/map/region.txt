@@ -1603,6 +1603,45 @@ region_mechagon = {
 }
 
 # --------------------------------------
+# Outland
+# --------------------------------------
+region_hellfire_peninsula = {
+    areas = {
+        area_hellfire_1
+    }
+}
+region_zangarmarsh = {
+    areas = {   
+        area_zangarmarsh_1
+    }
+}
+region_nagrand = {
+    areas = {
+        area_nagrand_1
+    }
+}
+region_terokkar = {
+    areas = {
+        area_terokkar_1
+    }
+}  
+region_blades_edge = {
+    areas = {
+        area_blades_edge_1
+    }
+}
+region_netherstorm = {
+    areas = {
+        area_netherstorm_1
+    }
+}
+region_shadowmoon_valley = {
+    areas = {
+        area_shadowmoon_1
+    }
+}
+
+# --------------------------------------
 # Misc
 # --------------------------------------
 region_kezan = {
