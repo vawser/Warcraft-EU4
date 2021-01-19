@@ -127,16 +127,6 @@ vashjir_superregion = {
     region_vashjir
 }
 
-outland_superregion = {
-    region_hellfire_peninsula
-    region_zangarmarsh
-    region_nagrand
-    region_terokkar
-    region_blades_edge
-    region_netherstorm
-    region_shadowmoon_valley
-}
-
 ocean_superregion = {
     region_ocean_1
     region_ocean_2

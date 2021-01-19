@@ -30,7 +30,6 @@
  kul_tiras: "Kul Tiras"
  nazjatar: "Nazjatar"
  vashjir: "Vash'jir"
- outland: "Outland"
  
  #-----------------------------------------------
  # Superregions
@@ -49,7 +48,6 @@
  kul_tiras_superregion: "Kul Tiras"
  nazjatar_superregion: "Nazjatar"
  vashjir_superregion: "Vash'jir"
- outland_superregion: "Outland"
  
  #-----------------------------------------------
  # Regions
@@ -151,14 +149,6 @@
  region_nazjatar: "Nazjatar"
  region_vashjir: "Vash'jir"
  
- region_hellfire_peninsula: "Hellfire Peninsula"
- region_zangarmarsh: "Zangarmarsh"
- region_nagrand: "Nagrand"
- region_terokkar: "Terokkar Forest"
- region_blades_edge: "Blade's Edge Mountains"
- region_netherstorm: "Netherstorm"
- region_shadowmoon_valley: "Shadowmoon Valley"
- 
  region_ocean_1: "The Primeval Sea"
  region_ocean_2: "North Forbidding Sea"
  region_ocean_3: "Middle Forbidding Sea"
@@ -194,7 +184,6 @@
  pg_pandaria_lakes: "Lakes of Pandaria"
  pg_broken_isles_lakes: "Lakes of the Broken Isles"
  pg_zandalar_lakes: "Lakes of Zandalar"
- pg_outland_lakes: "Lakes of Outland"
  
  #-----------------------------------------------
  # Areas
