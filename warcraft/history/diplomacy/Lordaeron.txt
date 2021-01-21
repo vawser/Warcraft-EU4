@@ -4,31 +4,31 @@
 alliance = {
 	first = LOR
 	second = GIL
-	start_date = 592.1.1
+	start_date = 590.1.1
 	end_date = 595.1.1
 }
 alliance = {
 	first = LOR
 	second = DAL
-	start_date = 592.1.1
+	start_date = 590.1.1
 	end_date = 595.1.1
 }
 alliance = {
 	first = LOR
 	second = ALT
-	start_date = 592.1.1
+	start_date = 590.1.1
 	end_date = 595.1.1
 }
 alliance = {
 	first = LOR
 	second = SMG
-	start_date = 592.1.1
+	start_date = 590.1.1
 	end_date = 595.1.1
 }
 alliance = {
 	first = LOR
 	second = KUL
-	start_date = 592.1.1
+	start_date = 590.1.1
 	end_date = 595.1.1
 }
 
@@ -36,21 +36,21 @@ dependency = {
 	subject_type = "hegemonic_vassal"
 	first = LOR
 	second = STR
-	start_date = 592.1.1
+	start_date = 590.1.1
 	end_date = 595.1.1
 }
 dependency = {
 	subject_type = "hegemonic_vassal"
 	first = LOR
 	second = ANO
-	start_date = 592.1.1
+	start_date = 590.1.1
 	end_date = 595.1.1
 }
 dependency = {
 	subject_type = "hegemonic_vassal"
 	first = LOR
 	second = SOU
-	start_date = 592.1.1
+	start_date = 590.1.1
 	end_date = 595.1.1
 }
 

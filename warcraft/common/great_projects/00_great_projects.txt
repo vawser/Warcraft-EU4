@@ -1,0 +1,10 @@
+dark_portal = {
+    ambient_object = outland_dark_portal_outland
+    province = 7863
+    is_canal = yes
+    time = 1
+    
+    modifier = {
+        movement_speed = 10
+    }
+}

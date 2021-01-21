@@ -192,6 +192,7 @@ upm_nordrassil = {
 
 upm_dark_portal = {
     potential = {
+        has_global_flag = dark_portal_constructed
 		controller = {
 			culture_group = orc_group
 		}

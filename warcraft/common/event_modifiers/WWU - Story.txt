@@ -26,3 +26,10 @@ called_for_aid = {
 assisting_alliance_member = {
     prestige = 0.5
 }
+
+#----------------------------------------------
+# Rise of the Horde
+#----------------------------------------------
+dark_portal_teleport = {
+    movement_speed = 10
+}

@@ -1,9 +1,198 @@
+# Covers the Rise of the Horde
+age_rise_of_the_horde = {
+	start = 591
+	
+	can_start = {
+		always = yes
+	}
+	
+    papacy = 1.0
+	religious_conflicts = yes
+    absolutism = { 
+        harsh_treatment = 1
+		stability = 1
+		decrease_autonomy_command = 1
+		strengthen_government = 2
+		
+		increase_autonomy_command = -2
+		debase_currency = -1
+		execute_rebel_acceptance_command = -10
+		seat_in_parliament = -3
+		war_exhaustion = -1
+    }
+    
+	objectives = {
+		roth_obj_prestigious_capital = {
+            capital_scope = {
+                development = 30
+                religion = ROOT
+                culture = ROOT
+                NOT = { devastation = 1 }
+            }
+        }
+		roth_obj_absolute_rule = {
+            absolutism = 50
+        }
+        roth_obj_fel_submission = {
+		    religion = fel
+        }
+        roth_obj_masterful_counsel = {
+			AND = {
+                OR = {
+                    philosopher = 3
+                    natural_scientist = 3
+                    artist = 3
+                    treasurer = 3
+                    theologian = 3
+                    master_of_mint = 3
+                    inquisitor = 3
+                }
+                OR = {
+                    statesman = 3
+                    naval_reformer = 3
+                    trader = 3
+                    spymaster = 3
+                    colonial_governor = 3
+                    diplomat = 3
+                    navigator = 3
+                }
+                OR = {
+                    army_reformer = 3
+                    army_organiser = 3
+                    commandant = 3
+                    quartermaster = 3
+                    recruitmaster = 3
+                    fortification_expert = 3
+                    grand_captain = 3
+                }
+            }
+        }
+        roth_obj_colossal_army = {
+            land_forcelimit = 60
+            army_size_percentage = 0.8
+        }
+        roth_obj_colossal_navy = {
+            naval_forcelimit = 60
+            navy_size_percentage = 0.8
+        }
+        roth_obj_inspirational_leader = {
+            has_commanding_three_star = yes
+        }
+	}		
+
+	abilities = {
+        roth_development_focus = {
+			modifier = {
+				development_cost = -0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        roth_justified_annexation = {
+			modifier = {
+				ae_impact = -0.1
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        roth_prestigeous_traditions = {
+			modifier = {
+				prestige_decay = -0.01
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        roth_subdued_people = {
+			modifier = {
+				global_unrest = -2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        roth_expanded_trade_networks = {
+			modifier = {
+				global_trade_power = 0.2
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        roth_military_drills = {
+			modifier = {
+				yearly_army_professionalism = 1.0
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        roth_homeland_knowledge = {
+			rule = {
+				attack_bonus_in_capital_terrain = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+        roth_blackrock_munitions = {
+            allow = {
+                tag = BLK
+            }
+			modifier = {
+				fire_damage = 0.15
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+        roth_corrupted_blood = {
+            allow = {
+                tag = BLH
+            }
+			modifier = {
+				land_morale = 0.1
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+        roth_karabor_defence_system = {
+            allow = {
+                tag = KAR
+            }
+			modifier = {
+				defensiveness = 0.5
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+        roth_home_of_the_draenei = {
+            allow = {
+                tag = SHA
+            }
+			modifier = {
+				administrative_efficiency = 0.05
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+	}
+}
+
 # Covers the First and Second War
 age_orcish_horde = {
 	start = 592
 	
 	can_start = {
-		always = yes
+		custom_trigger_tooltip = {
+			tooltip = age_orcish_horde_condition
+			has_global_flag = orcish_horde_united
+		}
 	}
 	
     papacy = 1.0

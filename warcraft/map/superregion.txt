@@ -127,7 +127,7 @@ vashjir_superregion = {
     region_vashjir
 }
 
-ocean_superregion = {
+azeroth_ocean_superregion = {
     region_ocean_1
     region_ocean_2
     region_ocean_3
@@ -150,8 +150,12 @@ ocean_superregion = {
     region_ocean_20
     region_ocean_21
     region_ocean_22
-    region_ocean_23
-    region_ocean_24
+}
+
+draenor_ocean_superregion = {
+    region_draenor_ocean_1
+    region_draenor_ocean_2
+    region_draenor_ocean_3
 }
 
 new_world_superregion = { }

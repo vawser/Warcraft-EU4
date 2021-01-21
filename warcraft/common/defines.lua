@@ -1,9 +1,9 @@
 NDefines = {
 
 NGame = {
-	START_DATE = "592.1.1",
+	START_DATE = "591.1.1",
 	END_DATE = "2000.1.2",
-	MAX_RANDOM_NEW_WORLD = "592.1.1",
+	MAX_RANDOM_NEW_WORLD = "591.1.1",
 
 	GREAT_POWER_FRENZY_START = "800.1.1",	-- Latest date for the start of the Great Power Frenzy (struggle).
 	GREAT_POWER_FRENZY_WARMUP_MONTHS = 1200,	-- How many months does it take for the Great Power Frenzy to reach full potency after starting.

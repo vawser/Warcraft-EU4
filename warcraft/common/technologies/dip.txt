@@ -9,7 +9,7 @@ ahead_of_time = {
 # Pre-era techs
 technology = {
 	# Tech 0
-	year = 592
+	year = 590
 	
 	num_accepted_cultures   = 2
     global_colonial_growth	= 40

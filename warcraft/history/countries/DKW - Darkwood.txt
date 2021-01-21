@@ -12,7 +12,7 @@ religion = druidism
 capital = 4480
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Rosflaiarc"
         dynasty = "the Kicker"

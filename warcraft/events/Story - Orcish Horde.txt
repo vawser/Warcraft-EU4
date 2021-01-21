@@ -11,7 +11,10 @@ country_event = {
     major = yes
 
 	trigger = {
-        start_date = 592.1.1 # Started in Orcish Horde bookmark
+        OR = {
+            start_date = 591.1.1
+            start_date = 592.1.1
+        }
         tag = TOH
         NOT = { has_global_flag = orcish_horde_info_flag }
 	}
@@ -96,7 +99,10 @@ country_event = {
 	picture = SWORD_SHIELD_eventPicture
 
 	trigger = {
-        start_date = 592.1.1 # Started in Orcish Horde bookmark
+        OR = {
+            start_date = 591.1.1
+            start_date = 592.1.1
+        }
         tag = SRW
         NOT = { has_country_flag = the_kings_champion }
         war_with = TOH
@@ -133,7 +139,10 @@ country_event = {
 	picture = SWORD_SHIELD_eventPicture
 
 	trigger = {
-        start_date = 592.1.1 # Started in Orcish Horde bookmark
+        OR = {
+            start_date = 591.1.1
+            start_date = 592.1.1
+        }
         tag = LOR
         NOT = { has_country_flag = stormwind_attacked }
         SRW = { defensive_war_with = TOH }
@@ -262,7 +271,10 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        start_date = 592.1.1 # Started in Orcish Horde bookmark
+        OR = {
+            start_date = 591.1.1
+            start_date = 592.1.1
+        }
         tag = TOH
         ai = yes
         mission_completed = TOH_prepare_for_the_assault

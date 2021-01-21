@@ -12,7 +12,7 @@ religion = geomancy
 capital = 3250
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Gnushmug"
         dynasty = "Spoilfire"

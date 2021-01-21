@@ -12,7 +12,7 @@ religion = earth_mother
 capital = 3681
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Beboi"
         dynasty = "Thundermane"

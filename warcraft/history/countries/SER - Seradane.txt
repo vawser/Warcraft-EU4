@@ -12,7 +12,7 @@ religion = dragon_aspects
 capital = 3579
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Sizenius"
         dynasty = "the Livid"

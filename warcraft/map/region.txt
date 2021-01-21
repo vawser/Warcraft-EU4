@@ -1603,6 +1603,147 @@ region_mechagon = {
 }
 
 # --------------------------------------
+# Draenor
+# --------------------------------------
+region_ashran = {
+    areas = {
+        area_ashran_1
+    }
+}
+
+region_farahlon = {
+    areas = {
+        area_farahlon_1
+        area_farahlon_2
+        area_farahlon_3
+        area_farahlon_4
+        area_farahlon_5
+    }
+}
+
+region_frostfire_ridge = {
+    areas = {
+        area_frostfire_ridge_1
+        area_frostfire_ridge_2
+        area_frostfire_ridge_3
+        area_frostfire_ridge_4
+        area_frostfire_ridge_5
+        area_frostfire_ridge_6
+        area_frostfire_ridge_7
+        area_frostfire_ridge_8
+        area_frostfire_ridge_9
+        area_frostfire_ridge_10
+        area_frostfire_ridge_11
+        area_frostfire_ridge_12
+        area_frostfire_ridge_13
+    }
+}
+
+region_gorgrond = {
+    areas = {
+        area_gorgrond_1
+        area_gorgrond_2
+        area_gorgrond_3
+        area_gorgrond_4
+        area_gorgrond_5
+        area_gorgrond_6
+        area_gorgrond_7
+        area_gorgrond_8
+        area_gorgrond_9
+        area_gorgrond_10
+        area_gorgrond_11
+        area_gorgrond_12
+        area_gorgrond_13
+    }
+}
+
+region_nagrand = {
+    areas = {
+        area_nagrand_1
+        area_nagrand_2
+        area_nagrand_3
+        area_nagrand_4
+        area_nagrand_5
+        area_nagrand_6
+        area_nagrand_7
+        area_nagrand_8
+        area_nagrand_9
+        area_nagrand_10
+        area_nagrand_11
+        area_nagrand_12
+        area_nagrand_13
+        area_nagrand_14
+        area_nagrand_15
+        area_nagrand_16
+    }
+}
+
+region_talador = {
+    areas = {
+        area_talador_1
+        area_talador_2
+        area_talador_3
+        area_talador_4
+        area_talador_5
+        area_talador_6
+        area_talador_7
+        area_talador_8
+        area_talador_9
+        area_talador_10
+        area_talador_11
+        area_talador_12
+        area_talador_13
+    }
+}
+
+region_tanaan_jungle = {
+    areas = {
+        area_tanaan_jungle_1
+        area_tanaan_jungle_2
+        area_tanaan_jungle_3
+        area_tanaan_jungle_4
+        area_tanaan_jungle_5
+        area_tanaan_jungle_6
+        area_tanaan_jungle_7
+        area_tanaan_jungle_8
+        area_tanaan_jungle_9
+        area_tanaan_jungle_10
+    }
+}
+
+region_shadowmoon_valley = {
+    areas = {
+        area_shadowmoon_valley_1
+        area_shadowmoon_valley_2
+        area_shadowmoon_valley_3
+        area_shadowmoon_valley_4
+        area_shadowmoon_valley_5
+        area_shadowmoon_valley_6
+        area_shadowmoon_valley_7
+        area_shadowmoon_valley_8
+        area_shadowmoon_valley_9
+        area_shadowmoon_valley_10
+        area_shadowmoon_valley_11
+        area_shadowmoon_valley_12
+        area_shadowmoon_valley_13
+    }
+}
+
+region_spires_of_arak = {
+    areas = {
+        area_spires_of_arak_1
+        area_spires_of_arak_2
+        area_spires_of_arak_3
+        area_spires_of_arak_4
+        area_spires_of_arak_5
+        area_spires_of_arak_6
+        area_spires_of_arak_7
+        area_spires_of_arak_8
+        area_spires_of_arak_9
+    }
+}
+
+# --------------------------------------
 # Misc
 # --------------------------------------
 region_kezan = {
@@ -1650,9 +1791,9 @@ region_vashjir = {
 #-------------------
 region_ocean_1 = {
     areas = {
-        area_ocean_far_east_10
-        area_ocean_far_east_9
-        area_ocean_far_east_8
+        area_ocean_far_west_8
+        area_ocean_far_west_9
+        area_ocean_far_west_6
     }
 }
 
@@ -1665,9 +1806,7 @@ region_ocean_2 = {
 
 region_ocean_3 = {
     areas = {
-        area_ocean_far_east_7
         area_ocean_far_east_6
-        area_ocean_far_east_11
         area_coast_lordaeron_east
         area_coast_khaz_modan_east
     }
@@ -1820,8 +1959,10 @@ region_ocean_20 = {
 
 region_ocean_21 = {
     areas = {
-        area_ocean_far_east_4
-        area_ocean_far_east_3
+        area_ocean_far_west_4
+        area_ocean_far_west_3
+        area_ocean_far_west_2
+        area_ocean_far_west_1
     }
 }
 
@@ -1834,19 +1975,30 @@ region_ocean_22 = {
     }
 }
 
-region_ocean_23 = {
+region_draenor_ocean_1 = {
     areas = {
-        area_ocean_far_west_8
-        area_ocean_far_west_9
-        area_ocean_far_west_6
+        area_draenor_ocean_1
+        area_draenor_ocean_2
+        area_draenor_ocean_3
+        area_draenor_ocean_4
     }
 }
 
-region_ocean_24 = {
+region_draenor_ocean_2 = {
     areas = {
-        area_ocean_far_west_4
-        area_ocean_far_west_3
-        area_ocean_far_west_2
-        area_ocean_far_west_1
+        area_draenor_ocean_5
+        area_draenor_ocean_6
+        area_draenor_ocean_7
+        area_draenor_ocean_8
     }
 }
+
+region_draenor_ocean_3 = {
+    areas = {
+        area_coast_north_draenor
+        area_coast_east_draenor
+        area_coast_west_draenor
+        area_coast_south_draenor
+    }
+}
+

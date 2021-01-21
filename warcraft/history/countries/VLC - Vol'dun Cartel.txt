@@ -7,7 +7,7 @@ primary_culture 	    = vulpera
 capital 			    = 7306
 religious_school = trade_philosophy
 
-592.1.1 = { 
+590.1.1 = { 
 	monarch = { 
 		name = "Kiro" 
 		dynasty = "Sandfoot" 

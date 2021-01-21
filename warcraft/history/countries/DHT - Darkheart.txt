@@ -12,7 +12,7 @@ religion = nightmare
 capital = 2870
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Xavius"
         dynasty = "the Nightmare Lord"

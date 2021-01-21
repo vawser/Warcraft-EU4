@@ -12,7 +12,7 @@ religion = fel
 capital = 3135
 
 # The Orcish Horde
-592.1.1 = {
+590.1.1 = {
     monarch = { 
 		name = "Blackhand" 
 		dynasty = "the Warchief" 
@@ -30,7 +30,7 @@ capital = 3135
 }
 
 # The Scourge
-592.1.1 = {
+590.1.1 = {
     monarch = { 
 		name = "Orgrim" 
 		dynasty = "Doomhammer" 

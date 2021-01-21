@@ -2,10 +2,74 @@
  #-----------------------------------
  # Orcish Horde
  #-----------------------------------
+ age_rise_of_the_horde_short: "The Rise of the Horde"
+ age_rise_of_the_horde: "The Rise of the Horde" 
+ age_rise_of_the_horde_desc: "Unite the orc clans under one banner!"
+ age_rise_of_the_horde_condition: ""
+ 
+ # Objectives
+ roth_obj_prestigious_capital: "§YPrestigious Capital§!"
+ roth_obj_prestigious_capital_desc: "Have a capital with your religion and culture with 50 development and zero devastation."
+ 
+ roth_obj_absolute_rule: "§YAbsolute Rule§!"
+ roth_obj_absolute_rule_desc: "Obtain 80 Absolutism."
+ 
+ roth_obj_fel_submission: "§YFel Submission§!"
+ roth_obj_fel_submission_desc: "Follow the Fel religion."
+ 
+ roth_obj_masterful_counsel: "§YMasterful Counsel§!"
+ roth_obj_masterful_counsel_desc: "Employ a Level 3 advisor in the ADM, DIP and MIL categories."
+ 
+ roth_obj_colossal_army: "§YColossal Army§!"
+ roth_obj_colossal_army_desc: "Have 100 Land Forcelimit and have 80% of your land forcelimit used."
+ 
+ roth_obj_colossal_navy: "§YColossal Army§!"
+ roth_obj_colossal_navy_desc: "Have 100 Naval Forcelimit and have 80% of your naval forcelimit used."
+ 
+ roth_obj_inspirational_leader: "§YInspirational Leader§!"
+ roth_obj_inspirational_leader_desc: "Have a 3 star leader in charge of an army."
+ 
+ # Abilities
+ roth_development_focus: "Development Focus"
+ roth_development_focus_desc: ""
+ 
+ roth_justified_annexation: "Justified Annexation"
+ roth_justified_annexation_desc: ""
+ 
+ roth_prestigeous_traditions: "Prestigeous Traditions"
+ roth_prestigeous_traditions_desc: ""
+ 
+ roth_subdued_people: "Subdued People"
+ roth_subdued_people_desc: ""
+ 
+ roth_expanded_trade_networks: "Expanded Trade Networks"
+ roth_expanded_trade_networks_desc: ""
+ 
+ roth_military_drills: "Military Drills"
+ roth_military_drills_desc: ""
+ 
+ roth_homeland_knowledge: "Homeland Knowledge"
+ roth_homeland_knowledge_desc: ""
+ 
+ roth_blackrock_munitions: "Blackrock Munitions"
+ roth_blackrock_munitions_desc: ""
+ 
+ roth_corrupted_blood: "Corrupted Blood"
+ roth_corrupted_blood_desc: ""
+ 
+ roth_karabor_defence_system: "Karaborian Defence System"
+ roth_karabor_defence_system_desc: ""
+ 
+ roth_home_of_the_draenei: "Home of the Draenei"
+ roth_home_of_the_draenei_desc: ""
+ 
+ #-----------------------------------
+ # Orcish Horde
+ #-----------------------------------
  age_orcish_horde_short: "The Orcish Horde"
  age_orcish_horde: "The Orcish Horde" 
  age_orcish_horde_desc: "With the opening of the dark portal the forces of the Orcish Horde enter Azeroth"
- age_orcish_horde_condition: ""
+ age_orcish_horde_condition: "The Orcish Horde has formed."
  
  # Objectives
  toh_obj_prestigious_capital: "§YPrestigious Capital§!"

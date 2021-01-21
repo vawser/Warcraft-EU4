@@ -12,7 +12,7 @@ religion = azshara
 capital = 4810
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Zar'lian the Wise"
         adm = 6

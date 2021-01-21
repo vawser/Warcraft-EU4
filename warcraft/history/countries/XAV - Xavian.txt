@@ -12,7 +12,7 @@ religion = fel
 capital = 5622
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Xavvius"
         dynasty = "the Wise"

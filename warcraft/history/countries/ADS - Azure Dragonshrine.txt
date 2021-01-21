@@ -11,7 +11,7 @@ religion = dragon_aspects
 
 capital = 7103
 
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Cyrrigos the Violent"
         adm = 3

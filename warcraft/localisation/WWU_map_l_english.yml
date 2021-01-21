@@ -30,6 +30,8 @@
  kul_tiras: "Kul Tiras"
  nazjatar: "Nazjatar"
  vashjir: "Vash'jir"
+ draenor: "Draenor"
+ twisting_nether: "Twisting Nether"
  
  #-----------------------------------------------
  # Superregions
@@ -48,6 +50,9 @@
  kul_tiras_superregion: "Kul Tiras"
  nazjatar_superregion: "Nazjatar"
  vashjir_superregion: "Vash'jir"
+ draenor_superregion: "Draenor"
+ azeroth_ocean_superregion: "Azeroth Ocean"
+ draenor_ocean_superregion: "Draenor Ocean"
  
  #-----------------------------------------------
  # Regions
@@ -149,7 +154,17 @@
  region_nazjatar: "Nazjatar"
  region_vashjir: "Vash'jir"
  
- region_ocean_1: "The Primeval Sea"
+ region_ashran: "Ashran"
+ region_farahlon: "Farahlon"
+ region_frostfire_ridge: "Frostfire Ridge"
+ region_gorgrond: "Gorgrond"
+ region_nagrand: "Nagrand"
+ region_talador: "Talador"
+ region_tanaan_jungle: "Tanaan Jungle"
+ region_shadowmoon_valley: "Shadowmoon Valley"
+ region_spires_of_arak: "Spires of Arak"
+ 
+ region_ocean_1: "The Thundering Abyss"
  region_ocean_2: "North Forbidding Sea"
  region_ocean_3: "Middle Forbidding Sea"
  region_ocean_4: "South Forbidding Sea"
@@ -169,10 +184,8 @@
  region_ocean_18: "The South Sea"
  region_ocean_19: "South Veiled Sea"
  region_ocean_20: "Middle Veiled Sea"
- region_ocean_21: "The Moaning Deep"
+ region_ocean_21: "The Black Ocean"
  region_ocean_22: "Sea of Tirisfal"
- region_ocean_23: "The Thundering Abyss"
- region_ocean_24: "The Black Ocean"
  
  #-----------------------------------------------
  # Provincegroups
@@ -184,6 +197,7 @@
  pg_pandaria_lakes: "Lakes of Pandaria"
  pg_broken_isles_lakes: "Lakes of the Broken Isles"
  pg_zandalar_lakes: "Lakes of Zandalar"
+ pg_draenor_lakes: "Lakes of Draenor"
  
  #-----------------------------------------------
  # Areas
@@ -222,6 +236,11 @@
  area_coast_south_kalimdor_east: "Coast of Tanaris"
  area_coast_south_kalimdor_west: "Coast of Feralas"
  area_coast_central_kalimdor_west: "Coast of Desolace"
+ 
+ area_coast_north_draenor: "Coast of Gorgrond"
+ area_coast_east_draenor: "Coast of Ashran"
+ area_coast_west_draenor: "Sea of Zangar"
+ area_coast_south_draenor: "Coast of Arak"
  
  # Oceans
  area_ocean_northwest_top_2: "Ocean I"
@@ -277,4 +296,11 @@
  area_ocean_far_west_2: "Ocean XLVI"
  area_ocean_far_west_1: "Ocean XLVII"
 
- 
+ area_draenor_ocean_1: "Draenor Ocean I"
+ area_draenor_ocean_2: "Draenor Ocean II"
+ area_draenor_ocean_3: "Draenor Ocean III"
+ area_draenor_ocean_4: "Draenor Ocean IV"
+ area_draenor_ocean_5: "Draenor Ocean V"
+ area_draenor_ocean_6: "Draenor Ocean VI"
+ area_draenor_ocean_7: "Draenor Ocean VII"
+ area_draenor_ocean_8: "Draenor Ocean VIII"

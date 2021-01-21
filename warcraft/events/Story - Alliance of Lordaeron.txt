@@ -10,7 +10,10 @@ country_event = {
     major = yes
 
 	trigger = {
-        start_date = 592.1.1 # Started in Orcish Horde bookmark
+        OR = {
+            start_date = 591.1.1
+            start_date = 592.1.1
+        }
         tag = LOR
         2993 = { owned_by = TOH } # Stormwind Keep is owned by the Orcish Horde
         NOT = { exists = SRW } # Stormwind annexed

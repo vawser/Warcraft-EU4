@@ -53,6 +53,8 @@ MLG = "countries/Malgen.txt"
 EXO = "countries/Exodar.txt"            # Azuremyst Isle
 LSO = "countries/Lost Ones.txt"         # Swamp of Sorrows
 POR = "countries/Portal Seekers.txt"    # Remove
+# KAR = "countries/Karabor.txt"
+# SHA = "countries/Shattrath.txt"
 
 # ---- Dragonflight ----
 WYT = "countries/Wyrmrest Temple.txt" 
@@ -262,15 +264,19 @@ SGL = "countries/Stonegullet.txt"  # Searing Gorge
 TBC = "countries/Torchbelcher.txt" # Wetlands
 
 # ---- Orc ----
-ORG = "countries/Orgrimmar.txt"     # Durotar
-BLK = "countries/Blackrock.txt"
-BTG = "countries/Black Tooth Grin.txt"
-BLH = "countries/Bleeding Hollow.txt"
-TWH = "countries/Twilight's Hammer.txt"
-SRC = "countries/Stormreaver.txt"
-DGM = "countries/Dragonmaw.txt"
-BBC = "countries/Burning Blade.txt"
 TOH = "countries/The Orcish Horde.txt"
+ORG = "countries/Orgrimmar.txt"         # Durotar
+
+# Clans
+BLK = "countries/Blackrock.txt"         # Gorgrond (North)
+BLH = "countries/Bleeding Hollow.txt"   # Tanaan
+TWH = "countries/Twilight's Hammer.txt" # Nagrand
+DGM = "countries/Dragonmaw.txt"         # Gorgrond (South)
+BBC = "countries/Burning Blade.txt"     # Nagrand (east), Talador (west)
+
+# Too niche, remove
+BTG = "countries/Black Tooth Grin.txt"  
+SRC = "countries/Stormreaver.txt"
 
 # ---- Pandaren ----
 SPN = "countries/Shado-pan.txt"         # Shado-pan Monastery
@@ -477,3 +483,53 @@ TOR = "countries/Tortollan Refuge.txt"
 
 # ---- Demon ----
 TBL = "countries/The Burning Legion.txt"
+
+# ---- TODO ----
+# Human
+# SCS = "countries/Scarlet Crusade.txt" # Split from the Silver Hand (Third War)
+# ARG = "countries/Argent Dawn.txt"     # Split from the Silver Hand  (Third War)
+# AED = "countries/Sons of Lothar.txt" # After Second War, in Draenor
+# DFB = "countries/Defias Brotherhood.txt" # After Second War
+# SYD = "countries/Syndicate.txt" # After Second War, replace Alterac
+
+# Draenei
+# KAR = "countries/Karabor.txt"     
+# SHA = "countries/Shattrath.txt"
+# AUC = "countries/Auchenai.txt"
+
+# Orc
+# FEL = "countries/Fel Horde.txt"       # Magtheridon's forces (Outland)
+# SWM = "countries/Shadowmoon.txt"      # Shadowmoon Valley
+# STT = "countries/Shattered Hand.txt"  # Spires of Arak
+# TDL = "countries/Thunderlord.txt"     # Frostfire Ridge
+# LGS = "countries/Laughing Skull.txt"  # Gorgrond (south)
+# BCW = "countries/Bonechewer.txt"      # Tanaan (north)
+# FWF = "countries/Frostwolf.txt"       # Frostfire Ridge
+# MOK = "countries/Mok'nathal.txt"      # Frostfire Ridge
+# KIL = "countries/Kil'sorrow.txt"      # Nagrand
+# BLW = "countries/Bladewind.txt"       # Talador
+# LGB = "countries/Lightning's Blade"   # Gorgrond (north)
+# RWK = "countries/Redwalker.txt"       # Talador (south)
+# WHC = "countries/Whiteclaw.txt"       # Frostfire Ridge
+
+# Ogre
+# GOE = "countries/Gorian Empire.txt"   # Nagrand
+# BSP = "countries/Bladespire.txt"      # Frostfire Ridge
+# BLM = "countries/Bloodmaul.txt"       # Frostfire Ridge
+
+# Arrakoa
+# AHR = "countries/Adherents of Rukhmar.txt" # Spires of Arak
+
+# Fallen Arrakoa
+# SKT = "countries/Skettis.txt"             # Talador (Outland)
+# AKO = "countries/Arakkoa Outcasts.txt"    # Spires of Arak
+# DCC = "countries/Dark Conclave.txt"       # Shadowmoon Valley
+
+# Illidari
+# ILD = "countries/Illidari Domain.txt" # Illidan's forces (Outland)
+
+# Naga
+# CKS = "countries/Coilskar.txt" # Illidan's Naga forces
+
+# Blood Elf
+# SFY = "countries/Sunfury.txt" # Kael'thas forces (Outland)

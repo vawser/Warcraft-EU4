@@ -12,7 +12,7 @@ religion = voodoo
 capital = 6704
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Tulrabi the Puncher"
         adm = 1

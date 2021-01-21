@@ -12,7 +12,7 @@ religion = runic
 capital = 6119
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Hjalmar"
         dynasty = "Wyvernflay"

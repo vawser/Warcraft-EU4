@@ -12,7 +12,7 @@ religion = azshara
 capital = 6209
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Skess'idra"
         dynasty = "the Stalwart"

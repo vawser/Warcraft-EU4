@@ -48,11 +48,17 @@ discover_home_continent = {
     vashjir = {
 		discover_country = ROOT
 	}
+    draenor = {
+        discover_country = ROOT
+    }
     
     # Sea
-    ocean_superregion = {
+    azeroth_ocean_superregion = {
 		discover_country = ROOT
 	}
+    draenor_ocean_superregion = {
+        discover_country = ROOT
+    }
     
     # Lakes
     pg_eastern_kingdom_lakes = {
@@ -76,5 +82,8 @@ discover_home_continent = {
     pg_zandalar_lakes = {
 		discover_country = ROOT
 	}
+    pg_draenor_lakes = {
+        discover_country = ROOT
+    }
 }
 

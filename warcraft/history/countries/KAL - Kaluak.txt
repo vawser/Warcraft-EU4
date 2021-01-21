@@ -12,7 +12,7 @@ religion = shamanism
 capital = 6194
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Orinu"
         dynasty = "the Kicker"

@@ -11,7 +11,7 @@ religion = dragon_aspects
 
 capital = 3648
 
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Senegos the Calm"
         adm = 4

@@ -19,6 +19,15 @@ add_province_triggered_modifier = upm_dark_portal
 
 center_of_trade = 1
 
+# The Orcish Horde
+592.1.1 = {
+    show_ambient_object = outland_dark_portal_ek
+    add_permanent_province_modifier = {
+        name = dark_portal_teleport
+        duration = -1
+    }
+}
+
 # Third War
 594.1.1 = {
     owner = ---

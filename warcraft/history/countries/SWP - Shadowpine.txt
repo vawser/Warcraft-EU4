@@ -13,7 +13,7 @@ religion = voodoo
 capital = 4066
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Mojinrabi the Powerful"
         adm = 1

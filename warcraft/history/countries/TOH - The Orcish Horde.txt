@@ -28,7 +28,7 @@ historical_rival = GIL
 historical_rival = KUL
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = { 
 		name = "Blackhand" 
 		dynasty = "the Destroyer" 
@@ -50,3 +50,7 @@ historical_rival = KUL
 	add_ruler_personality = strict_personality
 }
 
+# The Orcish Horde
+592.1.1 = {
+    set_global_flag = orcish_horde_united
+}

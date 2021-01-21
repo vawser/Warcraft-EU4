@@ -13,7 +13,7 @@ religious_school = engineering_philosophy
 capital = 3297
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = { 
 		name = "Gelbin" 
 		dynasty = "Mekkatorque" 

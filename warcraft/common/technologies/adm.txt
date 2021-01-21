@@ -9,7 +9,7 @@ ahead_of_time = {
 # Pre-era techs
 technology = {
 	# Tech 0
-	year = 592
+	year = 590
 	
 	autocracy_legacy = yes
     feudalism_legacy = yes

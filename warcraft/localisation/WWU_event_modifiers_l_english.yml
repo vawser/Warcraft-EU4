@@ -1150,3 +1150,9 @@
  #-------------------------------
  rebellious_vassal: "Rebellious Vassal"
  desc_rebellious_vassal: ""
+ 
+ #-------------------------------
+ # Rise of the Horde
+ #-------------------------------
+ dark_portal_teleport: "Dark Portal"
+ desc_dark_portal_teleport: ""

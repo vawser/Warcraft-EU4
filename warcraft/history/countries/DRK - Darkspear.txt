@@ -12,7 +12,7 @@ religion = voodoo
 capital = 4809
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Senj'in Darkspear"
         birth_date = 536.1.1

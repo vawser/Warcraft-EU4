@@ -12,7 +12,7 @@ religion = dragon_aspects
 capital = 7090
 
 # The Orcish Horde
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Alexstrasza the Life-binder"
         adm = 4

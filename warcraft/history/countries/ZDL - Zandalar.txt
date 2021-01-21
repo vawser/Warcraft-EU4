@@ -13,7 +13,7 @@ religion = voodoo
 capital = 3713
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Rastakhan the Almighty"
         adm = 5

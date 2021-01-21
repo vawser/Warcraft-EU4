@@ -12,7 +12,7 @@ religion = deep_mother
 capital = 7576
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Nurglb"
         dynasty = "the Swift"

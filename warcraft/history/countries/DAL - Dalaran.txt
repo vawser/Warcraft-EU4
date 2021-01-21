@@ -13,7 +13,7 @@ religion = arcane
 capital = 3470
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = { 
         name = "Antonidas"
         dynasty = "of Dalaran" 

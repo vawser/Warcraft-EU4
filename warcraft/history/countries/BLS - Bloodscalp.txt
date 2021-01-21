@@ -12,7 +12,7 @@ religion = voodoo
 capital = 2936
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Dujin the Sharp"
         adm = 4

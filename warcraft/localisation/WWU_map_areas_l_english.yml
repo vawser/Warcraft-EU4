@@ -17601,3 +17601,1803 @@
  area_amani_basin_50: "Amani Basin L"
  area_amani_basin_50_name: "Amani Basin"
  area_amani_basin_50_adj: "Amani Basin"
+ 
+ area_ashran_1: "Ashran I"
+ area_ashran_1_name: "Ashran"
+ area_ashran_1_adj: "Ashran"
+
+ area_ashran_2: "Ashran II"
+ area_ashran_2_name: "Ashran"
+ area_ashran_2_adj: "Ashran"
+
+ area_ashran_3: "Ashran III"
+ area_ashran_3_name: "Ashran"
+ area_ashran_3_adj: "Ashran"
+
+ area_ashran_4: "Ashran IV"
+ area_ashran_4_name: "Ashran"
+ area_ashran_4_adj: "Ashran"
+
+ area_ashran_5: "Ashran V"
+ area_ashran_5_name: "Ashran"
+ area_ashran_5_adj: "Ashran"
+
+ area_ashran_6: "Ashran VI"
+ area_ashran_6_name: "Ashran"
+ area_ashran_6_adj: "Ashran"
+
+ area_ashran_7: "Ashran VII"
+ area_ashran_7_name: "Ashran"
+ area_ashran_7_adj: "Ashran"
+
+ area_ashran_8: "Ashran VIII"
+ area_ashran_8_name: "Ashran"
+ area_ashran_8_adj: "Ashran"
+
+ area_ashran_9: "Ashran IX"
+ area_ashran_9_name: "Ashran"
+ area_ashran_9_adj: "Ashran"
+
+ area_ashran_10: "Ashran X"
+ area_ashran_10_name: "Ashran"
+ area_ashran_10_adj: "Ashran"
+
+ area_ashran_11: "Ashran XI"
+ area_ashran_11_name: "Ashran"
+ area_ashran_11_adj: "Ashran"
+
+ area_ashran_12: "Ashran XII"
+ area_ashran_12_name: "Ashran"
+ area_ashran_12_adj: "Ashran"
+
+ area_ashran_13: "Ashran XIII"
+ area_ashran_13_name: "Ashran"
+ area_ashran_13_adj: "Ashran"
+
+ area_ashran_14: "Ashran XIV"
+ area_ashran_14_name: "Ashran"
+ area_ashran_14_adj: "Ashran"
+
+ area_ashran_15: "Ashran XV"
+ area_ashran_15_name: "Ashran"
+ area_ashran_15_adj: "Ashran"
+
+ area_ashran_16: "Ashran XVI"
+ area_ashran_16_name: "Ashran"
+ area_ashran_16_adj: "Ashran"
+
+ area_ashran_17: "Ashran XVII"
+ area_ashran_17_name: "Ashran"
+ area_ashran_17_adj: "Ashran"
+
+ area_ashran_18: "Ashran XVIII"
+ area_ashran_18_name: "Ashran"
+ area_ashran_18_adj: "Ashran"
+
+ area_ashran_19: "Ashran XIX"
+ area_ashran_19_name: "Ashran"
+ area_ashran_19_adj: "Ashran"
+
+ area_ashran_20: "Ashran XX"
+ area_ashran_20_name: "Ashran"
+ area_ashran_20_adj: "Ashran"
+
+ area_ashran_21: "Ashran XXI"
+ area_ashran_21_name: "Ashran"
+ area_ashran_21_adj: "Ashran"
+
+ area_ashran_22: "Ashran XXII"
+ area_ashran_22_name: "Ashran"
+ area_ashran_22_adj: "Ashran"
+
+ area_ashran_23: "Ashran XXIII"
+ area_ashran_23_name: "Ashran"
+ area_ashran_23_adj: "Ashran"
+
+ area_ashran_24: "Ashran XXIV"
+ area_ashran_24_name: "Ashran"
+ area_ashran_24_adj: "Ashran"
+
+ area_ashran_25: "Ashran XXV"
+ area_ashran_25_name: "Ashran"
+ area_ashran_25_adj: "Ashran"
+
+ area_ashran_26: "Ashran XXVI"
+ area_ashran_26_name: "Ashran"
+ area_ashran_26_adj: "Ashran"
+
+ area_ashran_27: "Ashran XXVII"
+ area_ashran_27_name: "Ashran"
+ area_ashran_27_adj: "Ashran"
+
+ area_ashran_28: "Ashran XXVIII"
+ area_ashran_28_name: "Ashran"
+ area_ashran_28_adj: "Ashran"
+
+ area_ashran_29: "Ashran XXIX"
+ area_ashran_29_name: "Ashran"
+ area_ashran_29_adj: "Ashran"
+
+ area_ashran_30: "Ashran XXX"
+ area_ashran_30_name: "Ashran"
+ area_ashran_30_adj: "Ashran"
+
+ area_ashran_31: "Ashran XXXI"
+ area_ashran_31_name: "Ashran"
+ area_ashran_31_adj: "Ashran"
+
+ area_ashran_32: "Ashran XXXII"
+ area_ashran_32_name: "Ashran"
+ area_ashran_32_adj: "Ashran"
+
+ area_ashran_33: "Ashran XXXIII"
+ area_ashran_33_name: "Ashran"
+ area_ashran_33_adj: "Ashran"
+
+ area_ashran_34: "Ashran XXXIV"
+ area_ashran_34_name: "Ashran"
+ area_ashran_34_adj: "Ashran"
+
+ area_ashran_35: "Ashran XXXV"
+ area_ashran_35_name: "Ashran"
+ area_ashran_35_adj: "Ashran"
+
+ area_ashran_36: "Ashran XXXVI"
+ area_ashran_36_name: "Ashran"
+ area_ashran_36_adj: "Ashran"
+
+ area_ashran_37: "Ashran XXXVII"
+ area_ashran_37_name: "Ashran"
+ area_ashran_37_adj: "Ashran"
+
+ area_ashran_38: "Ashran XXXVIII"
+ area_ashran_38_name: "Ashran"
+ area_ashran_38_adj: "Ashran"
+
+ area_ashran_39: "Ashran XXXIX"
+ area_ashran_39_name: "Ashran"
+ area_ashran_39_adj: "Ashran"
+
+ area_ashran_40: "Ashran XL"
+ area_ashran_40_name: "Ashran"
+ area_ashran_40_adj: "Ashran"
+
+ area_ashran_41: "Ashran XLI"
+ area_ashran_41_name: "Ashran"
+ area_ashran_41_adj: "Ashran"
+
+ area_ashran_42: "Ashran XLII"
+ area_ashran_42_name: "Ashran"
+ area_ashran_42_adj: "Ashran"
+
+ area_ashran_43: "Ashran XLIII"
+ area_ashran_43_name: "Ashran"
+ area_ashran_43_adj: "Ashran"
+
+ area_ashran_44: "Ashran XLIV"
+ area_ashran_44_name: "Ashran"
+ area_ashran_44_adj: "Ashran"
+
+ area_ashran_45: "Ashran XLV"
+ area_ashran_45_name: "Ashran"
+ area_ashran_45_adj: "Ashran"
+
+ area_ashran_46: "Ashran XLVI"
+ area_ashran_46_name: "Ashran"
+ area_ashran_46_adj: "Ashran"
+
+ area_ashran_47: "Ashran XLVII"
+ area_ashran_47_name: "Ashran"
+ area_ashran_47_adj: "Ashran"
+
+ area_ashran_48: "Ashran XLVIII"
+ area_ashran_48_name: "Ashran"
+ area_ashran_48_adj: "Ashran"
+
+ area_ashran_49: "Ashran XLIX"
+ area_ashran_49_name: "Ashran"
+ area_ashran_49_adj: "Ashran"
+
+ area_ashran_50: "Ashran L"
+ area_ashran_50_name: "Ashran"
+ area_ashran_50_adj: "Ashran"
+ 
+ area_farahlon_1: "Farahlon I"
+ area_farahlon_1_name: "Farahlon"
+ area_farahlon_1_adj: "Farahlon"
+
+ area_farahlon_2: "Farahlon II"
+ area_farahlon_2_name: "Farahlon"
+ area_farahlon_2_adj: "Farahlon"
+
+ area_farahlon_3: "Farahlon III"
+ area_farahlon_3_name: "Farahlon"
+ area_farahlon_3_adj: "Farahlon"
+
+ area_farahlon_4: "Farahlon IV"
+ area_farahlon_4_name: "Farahlon"
+ area_farahlon_4_adj: "Farahlon"
+
+ area_farahlon_5: "Farahlon V"
+ area_farahlon_5_name: "Farahlon"
+ area_farahlon_5_adj: "Farahlon"
+
+ area_farahlon_6: "Farahlon VI"
+ area_farahlon_6_name: "Farahlon"
+ area_farahlon_6_adj: "Farahlon"
+
+ area_farahlon_7: "Farahlon VII"
+ area_farahlon_7_name: "Farahlon"
+ area_farahlon_7_adj: "Farahlon"
+
+ area_farahlon_8: "Farahlon VIII"
+ area_farahlon_8_name: "Farahlon"
+ area_farahlon_8_adj: "Farahlon"
+
+ area_farahlon_9: "Farahlon IX"
+ area_farahlon_9_name: "Farahlon"
+ area_farahlon_9_adj: "Farahlon"
+
+ area_farahlon_10: "Farahlon X"
+ area_farahlon_10_name: "Farahlon"
+ area_farahlon_10_adj: "Farahlon"
+
+ area_farahlon_11: "Farahlon XI"
+ area_farahlon_11_name: "Farahlon"
+ area_farahlon_11_adj: "Farahlon"
+
+ area_farahlon_12: "Farahlon XII"
+ area_farahlon_12_name: "Farahlon"
+ area_farahlon_12_adj: "Farahlon"
+
+ area_farahlon_13: "Farahlon XIII"
+ area_farahlon_13_name: "Farahlon"
+ area_farahlon_13_adj: "Farahlon"
+
+ area_farahlon_14: "Farahlon XIV"
+ area_farahlon_14_name: "Farahlon"
+ area_farahlon_14_adj: "Farahlon"
+
+ area_farahlon_15: "Farahlon XV"
+ area_farahlon_15_name: "Farahlon"
+ area_farahlon_15_adj: "Farahlon"
+
+ area_farahlon_16: "Farahlon XVI"
+ area_farahlon_16_name: "Farahlon"
+ area_farahlon_16_adj: "Farahlon"
+
+ area_farahlon_17: "Farahlon XVII"
+ area_farahlon_17_name: "Farahlon"
+ area_farahlon_17_adj: "Farahlon"
+
+ area_farahlon_18: "Farahlon XVIII"
+ area_farahlon_18_name: "Farahlon"
+ area_farahlon_18_adj: "Farahlon"
+
+ area_farahlon_19: "Farahlon XIX"
+ area_farahlon_19_name: "Farahlon"
+ area_farahlon_19_adj: "Farahlon"
+
+ area_farahlon_20: "Farahlon XX"
+ area_farahlon_20_name: "Farahlon"
+ area_farahlon_20_adj: "Farahlon"
+
+ area_farahlon_21: "Farahlon XXI"
+ area_farahlon_21_name: "Farahlon"
+ area_farahlon_21_adj: "Farahlon"
+
+ area_farahlon_22: "Farahlon XXII"
+ area_farahlon_22_name: "Farahlon"
+ area_farahlon_22_adj: "Farahlon"
+
+ area_farahlon_23: "Farahlon XXIII"
+ area_farahlon_23_name: "Farahlon"
+ area_farahlon_23_adj: "Farahlon"
+
+ area_farahlon_24: "Farahlon XXIV"
+ area_farahlon_24_name: "Farahlon"
+ area_farahlon_24_adj: "Farahlon"
+
+ area_farahlon_25: "Farahlon XXV"
+ area_farahlon_25_name: "Farahlon"
+ area_farahlon_25_adj: "Farahlon"
+
+ area_farahlon_26: "Farahlon XXVI"
+ area_farahlon_26_name: "Farahlon"
+ area_farahlon_26_adj: "Farahlon"
+
+ area_farahlon_27: "Farahlon XXVII"
+ area_farahlon_27_name: "Farahlon"
+ area_farahlon_27_adj: "Farahlon"
+
+ area_farahlon_28: "Farahlon XXVIII"
+ area_farahlon_28_name: "Farahlon"
+ area_farahlon_28_adj: "Farahlon"
+
+ area_farahlon_29: "Farahlon XXIX"
+ area_farahlon_29_name: "Farahlon"
+ area_farahlon_29_adj: "Farahlon"
+
+ area_farahlon_30: "Farahlon XXX"
+ area_farahlon_30_name: "Farahlon"
+ area_farahlon_30_adj: "Farahlon"
+
+ area_farahlon_31: "Farahlon XXXI"
+ area_farahlon_31_name: "Farahlon"
+ area_farahlon_31_adj: "Farahlon"
+
+ area_farahlon_32: "Farahlon XXXII"
+ area_farahlon_32_name: "Farahlon"
+ area_farahlon_32_adj: "Farahlon"
+
+ area_farahlon_33: "Farahlon XXXIII"
+ area_farahlon_33_name: "Farahlon"
+ area_farahlon_33_adj: "Farahlon"
+
+ area_farahlon_34: "Farahlon XXXIV"
+ area_farahlon_34_name: "Farahlon"
+ area_farahlon_34_adj: "Farahlon"
+
+ area_farahlon_35: "Farahlon XXXV"
+ area_farahlon_35_name: "Farahlon"
+ area_farahlon_35_adj: "Farahlon"
+
+ area_farahlon_36: "Farahlon XXXVI"
+ area_farahlon_36_name: "Farahlon"
+ area_farahlon_36_adj: "Farahlon"
+
+ area_farahlon_37: "Farahlon XXXVII"
+ area_farahlon_37_name: "Farahlon"
+ area_farahlon_37_adj: "Farahlon"
+
+ area_farahlon_38: "Farahlon XXXVIII"
+ area_farahlon_38_name: "Farahlon"
+ area_farahlon_38_adj: "Farahlon"
+
+ area_farahlon_39: "Farahlon XXXIX"
+ area_farahlon_39_name: "Farahlon"
+ area_farahlon_39_adj: "Farahlon"
+
+ area_farahlon_40: "Farahlon XL"
+ area_farahlon_40_name: "Farahlon"
+ area_farahlon_40_adj: "Farahlon"
+
+ area_farahlon_41: "Farahlon XLI"
+ area_farahlon_41_name: "Farahlon"
+ area_farahlon_41_adj: "Farahlon"
+
+ area_farahlon_42: "Farahlon XLII"
+ area_farahlon_42_name: "Farahlon"
+ area_farahlon_42_adj: "Farahlon"
+
+ area_farahlon_43: "Farahlon XLIII"
+ area_farahlon_43_name: "Farahlon"
+ area_farahlon_43_adj: "Farahlon"
+
+ area_farahlon_44: "Farahlon XLIV"
+ area_farahlon_44_name: "Farahlon"
+ area_farahlon_44_adj: "Farahlon"
+
+ area_farahlon_45: "Farahlon XLV"
+ area_farahlon_45_name: "Farahlon"
+ area_farahlon_45_adj: "Farahlon"
+
+ area_farahlon_46: "Farahlon XLVI"
+ area_farahlon_46_name: "Farahlon"
+ area_farahlon_46_adj: "Farahlon"
+
+ area_farahlon_47: "Farahlon XLVII"
+ area_farahlon_47_name: "Farahlon"
+ area_farahlon_47_adj: "Farahlon"
+
+ area_farahlon_48: "Farahlon XLVIII"
+ area_farahlon_48_name: "Farahlon"
+ area_farahlon_48_adj: "Farahlon"
+
+ area_farahlon_49: "Farahlon XLIX"
+ area_farahlon_49_name: "Farahlon"
+ area_farahlon_49_adj: "Farahlon"
+
+ area_farahlon_50: "Farahlon L"
+ area_farahlon_50_name: "Farahlon"
+ area_farahlon_50_adj: "Farahlon"
+ 
+ area_frostfire_ridge_1: "Frostfire Ridge I"
+ area_frostfire_ridge_1_name: "Frostfire Ridge"
+ area_frostfire_ridge_1_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_2: "Frostfire Ridge II"
+ area_frostfire_ridge_2_name: "Frostfire Ridge"
+ area_frostfire_ridge_2_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_3: "Frostfire Ridge III"
+ area_frostfire_ridge_3_name: "Frostfire Ridge"
+ area_frostfire_ridge_3_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_4: "Frostfire Ridge IV"
+ area_frostfire_ridge_4_name: "Frostfire Ridge"
+ area_frostfire_ridge_4_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_5: "Frostfire Ridge V"
+ area_frostfire_ridge_5_name: "Frostfire Ridge"
+ area_frostfire_ridge_5_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_6: "Frostfire Ridge VI"
+ area_frostfire_ridge_6_name: "Frostfire Ridge"
+ area_frostfire_ridge_6_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_7: "Frostfire Ridge VII"
+ area_frostfire_ridge_7_name: "Frostfire Ridge"
+ area_frostfire_ridge_7_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_8: "Frostfire Ridge VIII"
+ area_frostfire_ridge_8_name: "Frostfire Ridge"
+ area_frostfire_ridge_8_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_9: "Frostfire Ridge IX"
+ area_frostfire_ridge_9_name: "Frostfire Ridge"
+ area_frostfire_ridge_9_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_10: "Frostfire Ridge X"
+ area_frostfire_ridge_10_name: "Frostfire Ridge"
+ area_frostfire_ridge_10_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_11: "Frostfire Ridge XI"
+ area_frostfire_ridge_11_name: "Frostfire Ridge"
+ area_frostfire_ridge_11_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_12: "Frostfire Ridge XII"
+ area_frostfire_ridge_12_name: "Frostfire Ridge"
+ area_frostfire_ridge_12_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_13: "Frostfire Ridge XIII"
+ area_frostfire_ridge_13_name: "Frostfire Ridge"
+ area_frostfire_ridge_13_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_14: "Frostfire Ridge XIV"
+ area_frostfire_ridge_14_name: "Frostfire Ridge"
+ area_frostfire_ridge_14_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_15: "Frostfire Ridge XV"
+ area_frostfire_ridge_15_name: "Frostfire Ridge"
+ area_frostfire_ridge_15_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_16: "Frostfire Ridge XVI"
+ area_frostfire_ridge_16_name: "Frostfire Ridge"
+ area_frostfire_ridge_16_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_17: "Frostfire Ridge XVII"
+ area_frostfire_ridge_17_name: "Frostfire Ridge"
+ area_frostfire_ridge_17_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_18: "Frostfire Ridge XVIII"
+ area_frostfire_ridge_18_name: "Frostfire Ridge"
+ area_frostfire_ridge_18_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_19: "Frostfire Ridge XIX"
+ area_frostfire_ridge_19_name: "Frostfire Ridge"
+ area_frostfire_ridge_19_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_20: "Frostfire Ridge XX"
+ area_frostfire_ridge_20_name: "Frostfire Ridge"
+ area_frostfire_ridge_20_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_21: "Frostfire Ridge XXI"
+ area_frostfire_ridge_21_name: "Frostfire Ridge"
+ area_frostfire_ridge_21_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_22: "Frostfire Ridge XXII"
+ area_frostfire_ridge_22_name: "Frostfire Ridge"
+ area_frostfire_ridge_22_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_23: "Frostfire Ridge XXIII"
+ area_frostfire_ridge_23_name: "Frostfire Ridge"
+ area_frostfire_ridge_23_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_24: "Frostfire Ridge XXIV"
+ area_frostfire_ridge_24_name: "Frostfire Ridge"
+ area_frostfire_ridge_24_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_25: "Frostfire Ridge XXV"
+ area_frostfire_ridge_25_name: "Frostfire Ridge"
+ area_frostfire_ridge_25_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_26: "Frostfire Ridge XXVI"
+ area_frostfire_ridge_26_name: "Frostfire Ridge"
+ area_frostfire_ridge_26_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_27: "Frostfire Ridge XXVII"
+ area_frostfire_ridge_27_name: "Frostfire Ridge"
+ area_frostfire_ridge_27_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_28: "Frostfire Ridge XXVIII"
+ area_frostfire_ridge_28_name: "Frostfire Ridge"
+ area_frostfire_ridge_28_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_29: "Frostfire Ridge XXIX"
+ area_frostfire_ridge_29_name: "Frostfire Ridge"
+ area_frostfire_ridge_29_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_30: "Frostfire Ridge XXX"
+ area_frostfire_ridge_30_name: "Frostfire Ridge"
+ area_frostfire_ridge_30_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_31: "Frostfire Ridge XXXI"
+ area_frostfire_ridge_31_name: "Frostfire Ridge"
+ area_frostfire_ridge_31_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_32: "Frostfire Ridge XXXII"
+ area_frostfire_ridge_32_name: "Frostfire Ridge"
+ area_frostfire_ridge_32_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_33: "Frostfire Ridge XXXIII"
+ area_frostfire_ridge_33_name: "Frostfire Ridge"
+ area_frostfire_ridge_33_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_34: "Frostfire Ridge XXXIV"
+ area_frostfire_ridge_34_name: "Frostfire Ridge"
+ area_frostfire_ridge_34_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_35: "Frostfire Ridge XXXV"
+ area_frostfire_ridge_35_name: "Frostfire Ridge"
+ area_frostfire_ridge_35_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_36: "Frostfire Ridge XXXVI"
+ area_frostfire_ridge_36_name: "Frostfire Ridge"
+ area_frostfire_ridge_36_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_37: "Frostfire Ridge XXXVII"
+ area_frostfire_ridge_37_name: "Frostfire Ridge"
+ area_frostfire_ridge_37_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_38: "Frostfire Ridge XXXVIII"
+ area_frostfire_ridge_38_name: "Frostfire Ridge"
+ area_frostfire_ridge_38_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_39: "Frostfire Ridge XXXIX"
+ area_frostfire_ridge_39_name: "Frostfire Ridge"
+ area_frostfire_ridge_39_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_40: "Frostfire Ridge XL"
+ area_frostfire_ridge_40_name: "Frostfire Ridge"
+ area_frostfire_ridge_40_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_41: "Frostfire Ridge XLI"
+ area_frostfire_ridge_41_name: "Frostfire Ridge"
+ area_frostfire_ridge_41_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_42: "Frostfire Ridge XLII"
+ area_frostfire_ridge_42_name: "Frostfire Ridge"
+ area_frostfire_ridge_42_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_43: "Frostfire Ridge XLIII"
+ area_frostfire_ridge_43_name: "Frostfire Ridge"
+ area_frostfire_ridge_43_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_44: "Frostfire Ridge XLIV"
+ area_frostfire_ridge_44_name: "Frostfire Ridge"
+ area_frostfire_ridge_44_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_45: "Frostfire Ridge XLV"
+ area_frostfire_ridge_45_name: "Frostfire Ridge"
+ area_frostfire_ridge_45_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_46: "Frostfire Ridge XLVI"
+ area_frostfire_ridge_46_name: "Frostfire Ridge"
+ area_frostfire_ridge_46_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_47: "Frostfire Ridge XLVII"
+ area_frostfire_ridge_47_name: "Frostfire Ridge"
+ area_frostfire_ridge_47_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_48: "Frostfire Ridge XLVIII"
+ area_frostfire_ridge_48_name: "Frostfire Ridge"
+ area_frostfire_ridge_48_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_49: "Frostfire Ridge XLIX"
+ area_frostfire_ridge_49_name: "Frostfire Ridge"
+ area_frostfire_ridge_49_adj: "Frostfire Ridge"
+
+ area_frostfire_ridge_50: "Frostfire Ridge L"
+ area_frostfire_ridge_50_name: "Frostfire Ridge"
+ area_frostfire_ridge_50_adj: "Frostfire Ridge"
+ 
+ area_gorgrond_1: "Gorgrond I"
+ area_gorgrond_1_name: "Gorgrond"
+ area_gorgrond_1_adj: "Gorgrond"
+
+ area_gorgrond_2: "Gorgrond II"
+ area_gorgrond_2_name: "Gorgrond"
+ area_gorgrond_2_adj: "Gorgrond"
+
+ area_gorgrond_3: "Gorgrond III"
+ area_gorgrond_3_name: "Gorgrond"
+ area_gorgrond_3_adj: "Gorgrond"
+
+ area_gorgrond_4: "Gorgrond IV"
+ area_gorgrond_4_name: "Gorgrond"
+ area_gorgrond_4_adj: "Gorgrond"
+
+ area_gorgrond_5: "Gorgrond V"
+ area_gorgrond_5_name: "Gorgrond"
+ area_gorgrond_5_adj: "Gorgrond"
+
+ area_gorgrond_6: "Gorgrond VI"
+ area_gorgrond_6_name: "Gorgrond"
+ area_gorgrond_6_adj: "Gorgrond"
+
+ area_gorgrond_7: "Gorgrond VII"
+ area_gorgrond_7_name: "Gorgrond"
+ area_gorgrond_7_adj: "Gorgrond"
+
+ area_gorgrond_8: "Gorgrond VIII"
+ area_gorgrond_8_name: "Gorgrond"
+ area_gorgrond_8_adj: "Gorgrond"
+
+ area_gorgrond_9: "Gorgrond IX"
+ area_gorgrond_9_name: "Gorgrond"
+ area_gorgrond_9_adj: "Gorgrond"
+
+ area_gorgrond_10: "Gorgrond X"
+ area_gorgrond_10_name: "Gorgrond"
+ area_gorgrond_10_adj: "Gorgrond"
+
+ area_gorgrond_11: "Gorgrond XI"
+ area_gorgrond_11_name: "Gorgrond"
+ area_gorgrond_11_adj: "Gorgrond"
+
+ area_gorgrond_12: "Gorgrond XII"
+ area_gorgrond_12_name: "Gorgrond"
+ area_gorgrond_12_adj: "Gorgrond"
+
+ area_gorgrond_13: "Gorgrond XIII"
+ area_gorgrond_13_name: "Gorgrond"
+ area_gorgrond_13_adj: "Gorgrond"
+
+ area_gorgrond_14: "Gorgrond XIV"
+ area_gorgrond_14_name: "Gorgrond"
+ area_gorgrond_14_adj: "Gorgrond"
+
+ area_gorgrond_15: "Gorgrond XV"
+ area_gorgrond_15_name: "Gorgrond"
+ area_gorgrond_15_adj: "Gorgrond"
+
+ area_gorgrond_16: "Gorgrond XVI"
+ area_gorgrond_16_name: "Gorgrond"
+ area_gorgrond_16_adj: "Gorgrond"
+
+ area_gorgrond_17: "Gorgrond XVII"
+ area_gorgrond_17_name: "Gorgrond"
+ area_gorgrond_17_adj: "Gorgrond"
+
+ area_gorgrond_18: "Gorgrond XVIII"
+ area_gorgrond_18_name: "Gorgrond"
+ area_gorgrond_18_adj: "Gorgrond"
+
+ area_gorgrond_19: "Gorgrond XIX"
+ area_gorgrond_19_name: "Gorgrond"
+ area_gorgrond_19_adj: "Gorgrond"
+
+ area_gorgrond_20: "Gorgrond XX"
+ area_gorgrond_20_name: "Gorgrond"
+ area_gorgrond_20_adj: "Gorgrond"
+
+ area_gorgrond_21: "Gorgrond XXI"
+ area_gorgrond_21_name: "Gorgrond"
+ area_gorgrond_21_adj: "Gorgrond"
+
+ area_gorgrond_22: "Gorgrond XXII"
+ area_gorgrond_22_name: "Gorgrond"
+ area_gorgrond_22_adj: "Gorgrond"
+
+ area_gorgrond_23: "Gorgrond XXIII"
+ area_gorgrond_23_name: "Gorgrond"
+ area_gorgrond_23_adj: "Gorgrond"
+
+ area_gorgrond_24: "Gorgrond XXIV"
+ area_gorgrond_24_name: "Gorgrond"
+ area_gorgrond_24_adj: "Gorgrond"
+
+ area_gorgrond_25: "Gorgrond XXV"
+ area_gorgrond_25_name: "Gorgrond"
+ area_gorgrond_25_adj: "Gorgrond"
+
+ area_gorgrond_26: "Gorgrond XXVI"
+ area_gorgrond_26_name: "Gorgrond"
+ area_gorgrond_26_adj: "Gorgrond"
+
+ area_gorgrond_27: "Gorgrond XXVII"
+ area_gorgrond_27_name: "Gorgrond"
+ area_gorgrond_27_adj: "Gorgrond"
+
+ area_gorgrond_28: "Gorgrond XXVIII"
+ area_gorgrond_28_name: "Gorgrond"
+ area_gorgrond_28_adj: "Gorgrond"
+
+ area_gorgrond_29: "Gorgrond XXIX"
+ area_gorgrond_29_name: "Gorgrond"
+ area_gorgrond_29_adj: "Gorgrond"
+
+ area_gorgrond_30: "Gorgrond XXX"
+ area_gorgrond_30_name: "Gorgrond"
+ area_gorgrond_30_adj: "Gorgrond"
+
+ area_gorgrond_31: "Gorgrond XXXI"
+ area_gorgrond_31_name: "Gorgrond"
+ area_gorgrond_31_adj: "Gorgrond"
+
+ area_gorgrond_32: "Gorgrond XXXII"
+ area_gorgrond_32_name: "Gorgrond"
+ area_gorgrond_32_adj: "Gorgrond"
+
+ area_gorgrond_33: "Gorgrond XXXIII"
+ area_gorgrond_33_name: "Gorgrond"
+ area_gorgrond_33_adj: "Gorgrond"
+
+ area_gorgrond_34: "Gorgrond XXXIV"
+ area_gorgrond_34_name: "Gorgrond"
+ area_gorgrond_34_adj: "Gorgrond"
+
+ area_gorgrond_35: "Gorgrond XXXV"
+ area_gorgrond_35_name: "Gorgrond"
+ area_gorgrond_35_adj: "Gorgrond"
+
+ area_gorgrond_36: "Gorgrond XXXVI"
+ area_gorgrond_36_name: "Gorgrond"
+ area_gorgrond_36_adj: "Gorgrond"
+
+ area_gorgrond_37: "Gorgrond XXXVII"
+ area_gorgrond_37_name: "Gorgrond"
+ area_gorgrond_37_adj: "Gorgrond"
+
+ area_gorgrond_38: "Gorgrond XXXVIII"
+ area_gorgrond_38_name: "Gorgrond"
+ area_gorgrond_38_adj: "Gorgrond"
+
+ area_gorgrond_39: "Gorgrond XXXIX"
+ area_gorgrond_39_name: "Gorgrond"
+ area_gorgrond_39_adj: "Gorgrond"
+
+ area_gorgrond_40: "Gorgrond XL"
+ area_gorgrond_40_name: "Gorgrond"
+ area_gorgrond_40_adj: "Gorgrond"
+
+ area_gorgrond_41: "Gorgrond XLI"
+ area_gorgrond_41_name: "Gorgrond"
+ area_gorgrond_41_adj: "Gorgrond"
+
+ area_gorgrond_42: "Gorgrond XLII"
+ area_gorgrond_42_name: "Gorgrond"
+ area_gorgrond_42_adj: "Gorgrond"
+
+ area_gorgrond_43: "Gorgrond XLIII"
+ area_gorgrond_43_name: "Gorgrond"
+ area_gorgrond_43_adj: "Gorgrond"
+
+ area_gorgrond_44: "Gorgrond XLIV"
+ area_gorgrond_44_name: "Gorgrond"
+ area_gorgrond_44_adj: "Gorgrond"
+
+ area_gorgrond_45: "Gorgrond XLV"
+ area_gorgrond_45_name: "Gorgrond"
+ area_gorgrond_45_adj: "Gorgrond"
+
+ area_gorgrond_46: "Gorgrond XLVI"
+ area_gorgrond_46_name: "Gorgrond"
+ area_gorgrond_46_adj: "Gorgrond"
+
+ area_gorgrond_47: "Gorgrond XLVII"
+ area_gorgrond_47_name: "Gorgrond"
+ area_gorgrond_47_adj: "Gorgrond"
+
+ area_gorgrond_48: "Gorgrond XLVIII"
+ area_gorgrond_48_name: "Gorgrond"
+ area_gorgrond_48_adj: "Gorgrond"
+
+ area_gorgrond_49: "Gorgrond XLIX"
+ area_gorgrond_49_name: "Gorgrond"
+ area_gorgrond_49_adj: "Gorgrond"
+
+ area_gorgrond_50: "Gorgrond L"
+ area_gorgrond_50_name: "Gorgrond"
+ area_gorgrond_50_adj: "Gorgrond"
+ 
+ area_nagrand_1: "Nagrand I"
+ area_nagrand_1_name: "Nagrand"
+ area_nagrand_1_adj: "Nagrand"
+
+ area_nagrand_2: "Nagrand II"
+ area_nagrand_2_name: "Nagrand"
+ area_nagrand_2_adj: "Nagrand"
+
+ area_nagrand_3: "Nagrand III"
+ area_nagrand_3_name: "Nagrand"
+ area_nagrand_3_adj: "Nagrand"
+
+ area_nagrand_4: "Nagrand IV"
+ area_nagrand_4_name: "Nagrand"
+ area_nagrand_4_adj: "Nagrand"
+
+ area_nagrand_5: "Nagrand V"
+ area_nagrand_5_name: "Nagrand"
+ area_nagrand_5_adj: "Nagrand"
+
+ area_nagrand_6: "Nagrand VI"
+ area_nagrand_6_name: "Nagrand"
+ area_nagrand_6_adj: "Nagrand"
+
+ area_nagrand_7: "Nagrand VII"
+ area_nagrand_7_name: "Nagrand"
+ area_nagrand_7_adj: "Nagrand"
+
+ area_nagrand_8: "Nagrand VIII"
+ area_nagrand_8_name: "Nagrand"
+ area_nagrand_8_adj: "Nagrand"
+
+ area_nagrand_9: "Nagrand IX"
+ area_nagrand_9_name: "Nagrand"
+ area_nagrand_9_adj: "Nagrand"
+
+ area_nagrand_10: "Nagrand X"
+ area_nagrand_10_name: "Nagrand"
+ area_nagrand_10_adj: "Nagrand"
+
+ area_nagrand_11: "Nagrand XI"
+ area_nagrand_11_name: "Nagrand"
+ area_nagrand_11_adj: "Nagrand"
+
+ area_nagrand_12: "Nagrand XII"
+ area_nagrand_12_name: "Nagrand"
+ area_nagrand_12_adj: "Nagrand"
+
+ area_nagrand_13: "Nagrand XIII"
+ area_nagrand_13_name: "Nagrand"
+ area_nagrand_13_adj: "Nagrand"
+
+ area_nagrand_14: "Nagrand XIV"
+ area_nagrand_14_name: "Nagrand"
+ area_nagrand_14_adj: "Nagrand"
+
+ area_nagrand_15: "Nagrand XV"
+ area_nagrand_15_name: "Nagrand"
+ area_nagrand_15_adj: "Nagrand"
+
+ area_nagrand_16: "Nagrand XVI"
+ area_nagrand_16_name: "Nagrand"
+ area_nagrand_16_adj: "Nagrand"
+
+ area_nagrand_17: "Nagrand XVII"
+ area_nagrand_17_name: "Nagrand"
+ area_nagrand_17_adj: "Nagrand"
+
+ area_nagrand_18: "Nagrand XVIII"
+ area_nagrand_18_name: "Nagrand"
+ area_nagrand_18_adj: "Nagrand"
+
+ area_nagrand_19: "Nagrand XIX"
+ area_nagrand_19_name: "Nagrand"
+ area_nagrand_19_adj: "Nagrand"
+
+ area_nagrand_20: "Nagrand XX"
+ area_nagrand_20_name: "Nagrand"
+ area_nagrand_20_adj: "Nagrand"
+
+ area_nagrand_21: "Nagrand XXI"
+ area_nagrand_21_name: "Nagrand"
+ area_nagrand_21_adj: "Nagrand"
+
+ area_nagrand_22: "Nagrand XXII"
+ area_nagrand_22_name: "Nagrand"
+ area_nagrand_22_adj: "Nagrand"
+
+ area_nagrand_23: "Nagrand XXIII"
+ area_nagrand_23_name: "Nagrand"
+ area_nagrand_23_adj: "Nagrand"
+
+ area_nagrand_24: "Nagrand XXIV"
+ area_nagrand_24_name: "Nagrand"
+ area_nagrand_24_adj: "Nagrand"
+
+ area_nagrand_25: "Nagrand XXV"
+ area_nagrand_25_name: "Nagrand"
+ area_nagrand_25_adj: "Nagrand"
+
+ area_nagrand_26: "Nagrand XXVI"
+ area_nagrand_26_name: "Nagrand"
+ area_nagrand_26_adj: "Nagrand"
+
+ area_nagrand_27: "Nagrand XXVII"
+ area_nagrand_27_name: "Nagrand"
+ area_nagrand_27_adj: "Nagrand"
+
+ area_nagrand_28: "Nagrand XXVIII"
+ area_nagrand_28_name: "Nagrand"
+ area_nagrand_28_adj: "Nagrand"
+
+ area_nagrand_29: "Nagrand XXIX"
+ area_nagrand_29_name: "Nagrand"
+ area_nagrand_29_adj: "Nagrand"
+
+ area_nagrand_30: "Nagrand XXX"
+ area_nagrand_30_name: "Nagrand"
+ area_nagrand_30_adj: "Nagrand"
+
+ area_nagrand_31: "Nagrand XXXI"
+ area_nagrand_31_name: "Nagrand"
+ area_nagrand_31_adj: "Nagrand"
+
+ area_nagrand_32: "Nagrand XXXII"
+ area_nagrand_32_name: "Nagrand"
+ area_nagrand_32_adj: "Nagrand"
+
+ area_nagrand_33: "Nagrand XXXIII"
+ area_nagrand_33_name: "Nagrand"
+ area_nagrand_33_adj: "Nagrand"
+
+ area_nagrand_34: "Nagrand XXXIV"
+ area_nagrand_34_name: "Nagrand"
+ area_nagrand_34_adj: "Nagrand"
+
+ area_nagrand_35: "Nagrand XXXV"
+ area_nagrand_35_name: "Nagrand"
+ area_nagrand_35_adj: "Nagrand"
+
+ area_nagrand_36: "Nagrand XXXVI"
+ area_nagrand_36_name: "Nagrand"
+ area_nagrand_36_adj: "Nagrand"
+
+ area_nagrand_37: "Nagrand XXXVII"
+ area_nagrand_37_name: "Nagrand"
+ area_nagrand_37_adj: "Nagrand"
+
+ area_nagrand_38: "Nagrand XXXVIII"
+ area_nagrand_38_name: "Nagrand"
+ area_nagrand_38_adj: "Nagrand"
+
+ area_nagrand_39: "Nagrand XXXIX"
+ area_nagrand_39_name: "Nagrand"
+ area_nagrand_39_adj: "Nagrand"
+
+ area_nagrand_40: "Nagrand XL"
+ area_nagrand_40_name: "Nagrand"
+ area_nagrand_40_adj: "Nagrand"
+
+ area_nagrand_41: "Nagrand XLI"
+ area_nagrand_41_name: "Nagrand"
+ area_nagrand_41_adj: "Nagrand"
+
+ area_nagrand_42: "Nagrand XLII"
+ area_nagrand_42_name: "Nagrand"
+ area_nagrand_42_adj: "Nagrand"
+
+ area_nagrand_43: "Nagrand XLIII"
+ area_nagrand_43_name: "Nagrand"
+ area_nagrand_43_adj: "Nagrand"
+
+ area_nagrand_44: "Nagrand XLIV"
+ area_nagrand_44_name: "Nagrand"
+ area_nagrand_44_adj: "Nagrand"
+
+ area_nagrand_45: "Nagrand XLV"
+ area_nagrand_45_name: "Nagrand"
+ area_nagrand_45_adj: "Nagrand"
+
+ area_nagrand_46: "Nagrand XLVI"
+ area_nagrand_46_name: "Nagrand"
+ area_nagrand_46_adj: "Nagrand"
+
+ area_nagrand_47: "Nagrand XLVII"
+ area_nagrand_47_name: "Nagrand"
+ area_nagrand_47_adj: "Nagrand"
+
+ area_nagrand_48: "Nagrand XLVIII"
+ area_nagrand_48_name: "Nagrand"
+ area_nagrand_48_adj: "Nagrand"
+
+ area_nagrand_49: "Nagrand XLIX"
+ area_nagrand_49_name: "Nagrand"
+ area_nagrand_49_adj: "Nagrand"
+
+ area_nagrand_50: "Nagrand L"
+ area_nagrand_50_name: "Nagrand"
+ area_nagrand_50_adj: "Nagrand"
+ 
+ area_talador_1: "Talador I"
+ area_talador_1_name: "Talador"
+ area_talador_1_adj: "Talador"
+
+ area_talador_2: "Talador II"
+ area_talador_2_name: "Talador"
+ area_talador_2_adj: "Talador"
+
+ area_talador_3: "Talador III"
+ area_talador_3_name: "Talador"
+ area_talador_3_adj: "Talador"
+
+ area_talador_4: "Talador IV"
+ area_talador_4_name: "Talador"
+ area_talador_4_adj: "Talador"
+
+ area_talador_5: "Talador V"
+ area_talador_5_name: "Talador"
+ area_talador_5_adj: "Talador"
+
+ area_talador_6: "Talador VI"
+ area_talador_6_name: "Talador"
+ area_talador_6_adj: "Talador"
+
+ area_talador_7: "Talador VII"
+ area_talador_7_name: "Talador"
+ area_talador_7_adj: "Talador"
+
+ area_talador_8: "Talador VIII"
+ area_talador_8_name: "Talador"
+ area_talador_8_adj: "Talador"
+
+ area_talador_9: "Talador IX"
+ area_talador_9_name: "Talador"
+ area_talador_9_adj: "Talador"
+
+ area_talador_10: "Talador X"
+ area_talador_10_name: "Talador"
+ area_talador_10_adj: "Talador"
+
+ area_talador_11: "Talador XI"
+ area_talador_11_name: "Talador"
+ area_talador_11_adj: "Talador"
+
+ area_talador_12: "Talador XII"
+ area_talador_12_name: "Talador"
+ area_talador_12_adj: "Talador"
+
+ area_talador_13: "Talador XIII"
+ area_talador_13_name: "Talador"
+ area_talador_13_adj: "Talador"
+
+ area_talador_14: "Talador XIV"
+ area_talador_14_name: "Talador"
+ area_talador_14_adj: "Talador"
+
+ area_talador_15: "Talador XV"
+ area_talador_15_name: "Talador"
+ area_talador_15_adj: "Talador"
+
+ area_talador_16: "Talador XVI"
+ area_talador_16_name: "Talador"
+ area_talador_16_adj: "Talador"
+
+ area_talador_17: "Talador XVII"
+ area_talador_17_name: "Talador"
+ area_talador_17_adj: "Talador"
+
+ area_talador_18: "Talador XVIII"
+ area_talador_18_name: "Talador"
+ area_talador_18_adj: "Talador"
+
+ area_talador_19: "Talador XIX"
+ area_talador_19_name: "Talador"
+ area_talador_19_adj: "Talador"
+
+ area_talador_20: "Talador XX"
+ area_talador_20_name: "Talador"
+ area_talador_20_adj: "Talador"
+
+ area_talador_21: "Talador XXI"
+ area_talador_21_name: "Talador"
+ area_talador_21_adj: "Talador"
+
+ area_talador_22: "Talador XXII"
+ area_talador_22_name: "Talador"
+ area_talador_22_adj: "Talador"
+
+ area_talador_23: "Talador XXIII"
+ area_talador_23_name: "Talador"
+ area_talador_23_adj: "Talador"
+
+ area_talador_24: "Talador XXIV"
+ area_talador_24_name: "Talador"
+ area_talador_24_adj: "Talador"
+
+ area_talador_25: "Talador XXV"
+ area_talador_25_name: "Talador"
+ area_talador_25_adj: "Talador"
+
+ area_talador_26: "Talador XXVI"
+ area_talador_26_name: "Talador"
+ area_talador_26_adj: "Talador"
+
+ area_talador_27: "Talador XXVII"
+ area_talador_27_name: "Talador"
+ area_talador_27_adj: "Talador"
+
+ area_talador_28: "Talador XXVIII"
+ area_talador_28_name: "Talador"
+ area_talador_28_adj: "Talador"
+
+ area_talador_29: "Talador XXIX"
+ area_talador_29_name: "Talador"
+ area_talador_29_adj: "Talador"
+
+ area_talador_30: "Talador XXX"
+ area_talador_30_name: "Talador"
+ area_talador_30_adj: "Talador"
+
+ area_talador_31: "Talador XXXI"
+ area_talador_31_name: "Talador"
+ area_talador_31_adj: "Talador"
+
+ area_talador_32: "Talador XXXII"
+ area_talador_32_name: "Talador"
+ area_talador_32_adj: "Talador"
+
+ area_talador_33: "Talador XXXIII"
+ area_talador_33_name: "Talador"
+ area_talador_33_adj: "Talador"
+
+ area_talador_34: "Talador XXXIV"
+ area_talador_34_name: "Talador"
+ area_talador_34_adj: "Talador"
+
+ area_talador_35: "Talador XXXV"
+ area_talador_35_name: "Talador"
+ area_talador_35_adj: "Talador"
+
+ area_talador_36: "Talador XXXVI"
+ area_talador_36_name: "Talador"
+ area_talador_36_adj: "Talador"
+
+ area_talador_37: "Talador XXXVII"
+ area_talador_37_name: "Talador"
+ area_talador_37_adj: "Talador"
+
+ area_talador_38: "Talador XXXVIII"
+ area_talador_38_name: "Talador"
+ area_talador_38_adj: "Talador"
+
+ area_talador_39: "Talador XXXIX"
+ area_talador_39_name: "Talador"
+ area_talador_39_adj: "Talador"
+
+ area_talador_40: "Talador XL"
+ area_talador_40_name: "Talador"
+ area_talador_40_adj: "Talador"
+
+ area_talador_41: "Talador XLI"
+ area_talador_41_name: "Talador"
+ area_talador_41_adj: "Talador"
+
+ area_talador_42: "Talador XLII"
+ area_talador_42_name: "Talador"
+ area_talador_42_adj: "Talador"
+
+ area_talador_43: "Talador XLIII"
+ area_talador_43_name: "Talador"
+ area_talador_43_adj: "Talador"
+
+ area_talador_44: "Talador XLIV"
+ area_talador_44_name: "Talador"
+ area_talador_44_adj: "Talador"
+
+ area_talador_45: "Talador XLV"
+ area_talador_45_name: "Talador"
+ area_talador_45_adj: "Talador"
+
+ area_talador_46: "Talador XLVI"
+ area_talador_46_name: "Talador"
+ area_talador_46_adj: "Talador"
+
+ area_talador_47: "Talador XLVII"
+ area_talador_47_name: "Talador"
+ area_talador_47_adj: "Talador"
+
+ area_talador_48: "Talador XLVIII"
+ area_talador_48_name: "Talador"
+ area_talador_48_adj: "Talador"
+
+ area_talador_49: "Talador XLIX"
+ area_talador_49_name: "Talador"
+ area_talador_49_adj: "Talador"
+
+ area_talador_50: "Talador L"
+ area_talador_50_name: "Talador"
+ area_talador_50_adj: "Talador"
+ 
+ area_tanaan_jungle_1: "Tanaan Jungle I"
+ area_tanaan_jungle_1_name: "Tanaan Jungle"
+ area_tanaan_jungle_1_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_2: "Tanaan Jungle II"
+ area_tanaan_jungle_2_name: "Tanaan Jungle"
+ area_tanaan_jungle_2_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_3: "Tanaan Jungle III"
+ area_tanaan_jungle_3_name: "Tanaan Jungle"
+ area_tanaan_jungle_3_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_4: "Tanaan Jungle IV"
+ area_tanaan_jungle_4_name: "Tanaan Jungle"
+ area_tanaan_jungle_4_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_5: "Tanaan Jungle V"
+ area_tanaan_jungle_5_name: "Tanaan Jungle"
+ area_tanaan_jungle_5_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_6: "Tanaan Jungle VI"
+ area_tanaan_jungle_6_name: "Tanaan Jungle"
+ area_tanaan_jungle_6_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_7: "Tanaan Jungle VII"
+ area_tanaan_jungle_7_name: "Tanaan Jungle"
+ area_tanaan_jungle_7_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_8: "Tanaan Jungle VIII"
+ area_tanaan_jungle_8_name: "Tanaan Jungle"
+ area_tanaan_jungle_8_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_9: "Tanaan Jungle IX"
+ area_tanaan_jungle_9_name: "Tanaan Jungle"
+ area_tanaan_jungle_9_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_10: "Tanaan Jungle X"
+ area_tanaan_jungle_10_name: "Tanaan Jungle"
+ area_tanaan_jungle_10_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_11: "Tanaan Jungle XI"
+ area_tanaan_jungle_11_name: "Tanaan Jungle"
+ area_tanaan_jungle_11_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_12: "Tanaan Jungle XII"
+ area_tanaan_jungle_12_name: "Tanaan Jungle"
+ area_tanaan_jungle_12_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_13: "Tanaan Jungle XIII"
+ area_tanaan_jungle_13_name: "Tanaan Jungle"
+ area_tanaan_jungle_13_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_14: "Tanaan Jungle XIV"
+ area_tanaan_jungle_14_name: "Tanaan Jungle"
+ area_tanaan_jungle_14_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_15: "Tanaan Jungle XV"
+ area_tanaan_jungle_15_name: "Tanaan Jungle"
+ area_tanaan_jungle_15_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_16: "Tanaan Jungle XVI"
+ area_tanaan_jungle_16_name: "Tanaan Jungle"
+ area_tanaan_jungle_16_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_17: "Tanaan Jungle XVII"
+ area_tanaan_jungle_17_name: "Tanaan Jungle"
+ area_tanaan_jungle_17_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_18: "Tanaan Jungle XVIII"
+ area_tanaan_jungle_18_name: "Tanaan Jungle"
+ area_tanaan_jungle_18_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_19: "Tanaan Jungle XIX"
+ area_tanaan_jungle_19_name: "Tanaan Jungle"
+ area_tanaan_jungle_19_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_20: "Tanaan Jungle XX"
+ area_tanaan_jungle_20_name: "Tanaan Jungle"
+ area_tanaan_jungle_20_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_21: "Tanaan Jungle XXI"
+ area_tanaan_jungle_21_name: "Tanaan Jungle"
+ area_tanaan_jungle_21_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_22: "Tanaan Jungle XXII"
+ area_tanaan_jungle_22_name: "Tanaan Jungle"
+ area_tanaan_jungle_22_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_23: "Tanaan Jungle XXIII"
+ area_tanaan_jungle_23_name: "Tanaan Jungle"
+ area_tanaan_jungle_23_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_24: "Tanaan Jungle XXIV"
+ area_tanaan_jungle_24_name: "Tanaan Jungle"
+ area_tanaan_jungle_24_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_25: "Tanaan Jungle XXV"
+ area_tanaan_jungle_25_name: "Tanaan Jungle"
+ area_tanaan_jungle_25_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_26: "Tanaan Jungle XXVI"
+ area_tanaan_jungle_26_name: "Tanaan Jungle"
+ area_tanaan_jungle_26_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_27: "Tanaan Jungle XXVII"
+ area_tanaan_jungle_27_name: "Tanaan Jungle"
+ area_tanaan_jungle_27_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_28: "Tanaan Jungle XXVIII"
+ area_tanaan_jungle_28_name: "Tanaan Jungle"
+ area_tanaan_jungle_28_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_29: "Tanaan Jungle XXIX"
+ area_tanaan_jungle_29_name: "Tanaan Jungle"
+ area_tanaan_jungle_29_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_30: "Tanaan Jungle XXX"
+ area_tanaan_jungle_30_name: "Tanaan Jungle"
+ area_tanaan_jungle_30_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_31: "Tanaan Jungle XXXI"
+ area_tanaan_jungle_31_name: "Tanaan Jungle"
+ area_tanaan_jungle_31_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_32: "Tanaan Jungle XXXII"
+ area_tanaan_jungle_32_name: "Tanaan Jungle"
+ area_tanaan_jungle_32_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_33: "Tanaan Jungle XXXIII"
+ area_tanaan_jungle_33_name: "Tanaan Jungle"
+ area_tanaan_jungle_33_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_34: "Tanaan Jungle XXXIV"
+ area_tanaan_jungle_34_name: "Tanaan Jungle"
+ area_tanaan_jungle_34_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_35: "Tanaan Jungle XXXV"
+ area_tanaan_jungle_35_name: "Tanaan Jungle"
+ area_tanaan_jungle_35_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_36: "Tanaan Jungle XXXVI"
+ area_tanaan_jungle_36_name: "Tanaan Jungle"
+ area_tanaan_jungle_36_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_37: "Tanaan Jungle XXXVII"
+ area_tanaan_jungle_37_name: "Tanaan Jungle"
+ area_tanaan_jungle_37_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_38: "Tanaan Jungle XXXVIII"
+ area_tanaan_jungle_38_name: "Tanaan Jungle"
+ area_tanaan_jungle_38_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_39: "Tanaan Jungle XXXIX"
+ area_tanaan_jungle_39_name: "Tanaan Jungle"
+ area_tanaan_jungle_39_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_40: "Tanaan Jungle XL"
+ area_tanaan_jungle_40_name: "Tanaan Jungle"
+ area_tanaan_jungle_40_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_41: "Tanaan Jungle XLI"
+ area_tanaan_jungle_41_name: "Tanaan Jungle"
+ area_tanaan_jungle_41_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_42: "Tanaan Jungle XLII"
+ area_tanaan_jungle_42_name: "Tanaan Jungle"
+ area_tanaan_jungle_42_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_43: "Tanaan Jungle XLIII"
+ area_tanaan_jungle_43_name: "Tanaan Jungle"
+ area_tanaan_jungle_43_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_44: "Tanaan Jungle XLIV"
+ area_tanaan_jungle_44_name: "Tanaan Jungle"
+ area_tanaan_jungle_44_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_45: "Tanaan Jungle XLV"
+ area_tanaan_jungle_45_name: "Tanaan Jungle"
+ area_tanaan_jungle_45_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_46: "Tanaan Jungle XLVI"
+ area_tanaan_jungle_46_name: "Tanaan Jungle"
+ area_tanaan_jungle_46_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_47: "Tanaan Jungle XLVII"
+ area_tanaan_jungle_47_name: "Tanaan Jungle"
+ area_tanaan_jungle_47_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_48: "Tanaan Jungle XLVIII"
+ area_tanaan_jungle_48_name: "Tanaan Jungle"
+ area_tanaan_jungle_48_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_49: "Tanaan Jungle XLIX"
+ area_tanaan_jungle_49_name: "Tanaan Jungle"
+ area_tanaan_jungle_49_adj: "Tanaan Jungle"
+
+ area_tanaan_jungle_50: "Tanaan Jungle L"
+ area_tanaan_jungle_50_name: "Tanaan Jungle"
+ area_tanaan_jungle_50_adj: "Tanaan Jungle"
+ 
+ area_shadowmoon_valley_1: "Shadowmoon Valley I"
+ area_shadowmoon_valley_1_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_1_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_2: "Shadowmoon Valley II"
+ area_shadowmoon_valley_2_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_2_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_3: "Shadowmoon Valley III"
+ area_shadowmoon_valley_3_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_3_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_4: "Shadowmoon Valley IV"
+ area_shadowmoon_valley_4_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_4_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_5: "Shadowmoon Valley V"
+ area_shadowmoon_valley_5_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_5_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_6: "Shadowmoon Valley VI"
+ area_shadowmoon_valley_6_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_6_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_7: "Shadowmoon Valley VII"
+ area_shadowmoon_valley_7_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_7_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_8: "Shadowmoon Valley VIII"
+ area_shadowmoon_valley_8_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_8_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_9: "Shadowmoon Valley IX"
+ area_shadowmoon_valley_9_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_9_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_10: "Shadowmoon Valley X"
+ area_shadowmoon_valley_10_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_10_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_11: "Shadowmoon Valley XI"
+ area_shadowmoon_valley_11_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_11_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_12: "Shadowmoon Valley XII"
+ area_shadowmoon_valley_12_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_12_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_13: "Shadowmoon Valley XIII"
+ area_shadowmoon_valley_13_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_13_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_14: "Shadowmoon Valley XIV"
+ area_shadowmoon_valley_14_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_14_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_15: "Shadowmoon Valley XV"
+ area_shadowmoon_valley_15_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_15_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_16: "Shadowmoon Valley XVI"
+ area_shadowmoon_valley_16_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_16_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_17: "Shadowmoon Valley XVII"
+ area_shadowmoon_valley_17_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_17_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_18: "Shadowmoon Valley XVIII"
+ area_shadowmoon_valley_18_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_18_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_19: "Shadowmoon Valley XIX"
+ area_shadowmoon_valley_19_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_19_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_20: "Shadowmoon Valley XX"
+ area_shadowmoon_valley_20_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_20_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_21: "Shadowmoon Valley XXI"
+ area_shadowmoon_valley_21_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_21_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_22: "Shadowmoon Valley XXII"
+ area_shadowmoon_valley_22_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_22_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_23: "Shadowmoon Valley XXIII"
+ area_shadowmoon_valley_23_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_23_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_24: "Shadowmoon Valley XXIV"
+ area_shadowmoon_valley_24_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_24_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_25: "Shadowmoon Valley XXV"
+ area_shadowmoon_valley_25_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_25_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_26: "Shadowmoon Valley XXVI"
+ area_shadowmoon_valley_26_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_26_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_27: "Shadowmoon Valley XXVII"
+ area_shadowmoon_valley_27_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_27_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_28: "Shadowmoon Valley XXVIII"
+ area_shadowmoon_valley_28_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_28_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_29: "Shadowmoon Valley XXIX"
+ area_shadowmoon_valley_29_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_29_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_30: "Shadowmoon Valley XXX"
+ area_shadowmoon_valley_30_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_30_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_31: "Shadowmoon Valley XXXI"
+ area_shadowmoon_valley_31_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_31_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_32: "Shadowmoon Valley XXXII"
+ area_shadowmoon_valley_32_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_32_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_33: "Shadowmoon Valley XXXIII"
+ area_shadowmoon_valley_33_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_33_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_34: "Shadowmoon Valley XXXIV"
+ area_shadowmoon_valley_34_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_34_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_35: "Shadowmoon Valley XXXV"
+ area_shadowmoon_valley_35_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_35_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_36: "Shadowmoon Valley XXXVI"
+ area_shadowmoon_valley_36_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_36_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_37: "Shadowmoon Valley XXXVII"
+ area_shadowmoon_valley_37_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_37_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_38: "Shadowmoon Valley XXXVIII"
+ area_shadowmoon_valley_38_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_38_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_39: "Shadowmoon Valley XXXIX"
+ area_shadowmoon_valley_39_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_39_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_40: "Shadowmoon Valley XL"
+ area_shadowmoon_valley_40_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_40_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_41: "Shadowmoon Valley XLI"
+ area_shadowmoon_valley_41_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_41_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_42: "Shadowmoon Valley XLII"
+ area_shadowmoon_valley_42_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_42_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_43: "Shadowmoon Valley XLIII"
+ area_shadowmoon_valley_43_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_43_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_44: "Shadowmoon Valley XLIV"
+ area_shadowmoon_valley_44_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_44_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_45: "Shadowmoon Valley XLV"
+ area_shadowmoon_valley_45_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_45_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_46: "Shadowmoon Valley XLVI"
+ area_shadowmoon_valley_46_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_46_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_47: "Shadowmoon Valley XLVII"
+ area_shadowmoon_valley_47_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_47_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_48: "Shadowmoon Valley XLVIII"
+ area_shadowmoon_valley_48_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_48_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_49: "Shadowmoon Valley XLIX"
+ area_shadowmoon_valley_49_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_49_adj: "Shadowmoon Valley"
+
+ area_shadowmoon_valley_50: "Shadowmoon Valley L"
+ area_shadowmoon_valley_50_name: "Shadowmoon Valley"
+ area_shadowmoon_valley_50_adj: "Shadowmoon Valley"
+ 
+ area_spires_of_arak_1: "Spires of Arak I"
+ area_spires_of_arak_1_name: "Spires of Arak"
+ area_spires_of_arak_1_adj: "Spires of Arak"
+
+ area_spires_of_arak_2: "Spires of Arak II"
+ area_spires_of_arak_2_name: "Spires of Arak"
+ area_spires_of_arak_2_adj: "Spires of Arak"
+
+ area_spires_of_arak_3: "Spires of Arak III"
+ area_spires_of_arak_3_name: "Spires of Arak"
+ area_spires_of_arak_3_adj: "Spires of Arak"
+
+ area_spires_of_arak_4: "Spires of Arak IV"
+ area_spires_of_arak_4_name: "Spires of Arak"
+ area_spires_of_arak_4_adj: "Spires of Arak"
+
+ area_spires_of_arak_5: "Spires of Arak V"
+ area_spires_of_arak_5_name: "Spires of Arak"
+ area_spires_of_arak_5_adj: "Spires of Arak"
+
+ area_spires_of_arak_6: "Spires of Arak VI"
+ area_spires_of_arak_6_name: "Spires of Arak"
+ area_spires_of_arak_6_adj: "Spires of Arak"
+
+ area_spires_of_arak_7: "Spires of Arak VII"
+ area_spires_of_arak_7_name: "Spires of Arak"
+ area_spires_of_arak_7_adj: "Spires of Arak"
+
+ area_spires_of_arak_8: "Spires of Arak VIII"
+ area_spires_of_arak_8_name: "Spires of Arak"
+ area_spires_of_arak_8_adj: "Spires of Arak"
+
+ area_spires_of_arak_9: "Spires of Arak IX"
+ area_spires_of_arak_9_name: "Spires of Arak"
+ area_spires_of_arak_9_adj: "Spires of Arak"
+
+ area_spires_of_arak_10: "Spires of Arak X"
+ area_spires_of_arak_10_name: "Spires of Arak"
+ area_spires_of_arak_10_adj: "Spires of Arak"
+
+ area_spires_of_arak_11: "Spires of Arak XI"
+ area_spires_of_arak_11_name: "Spires of Arak"
+ area_spires_of_arak_11_adj: "Spires of Arak"
+
+ area_spires_of_arak_12: "Spires of Arak XII"
+ area_spires_of_arak_12_name: "Spires of Arak"
+ area_spires_of_arak_12_adj: "Spires of Arak"
+
+ area_spires_of_arak_13: "Spires of Arak XIII"
+ area_spires_of_arak_13_name: "Spires of Arak"
+ area_spires_of_arak_13_adj: "Spires of Arak"
+
+ area_spires_of_arak_14: "Spires of Arak XIV"
+ area_spires_of_arak_14_name: "Spires of Arak"
+ area_spires_of_arak_14_adj: "Spires of Arak"
+
+ area_spires_of_arak_15: "Spires of Arak XV"
+ area_spires_of_arak_15_name: "Spires of Arak"
+ area_spires_of_arak_15_adj: "Spires of Arak"
+
+ area_spires_of_arak_16: "Spires of Arak XVI"
+ area_spires_of_arak_16_name: "Spires of Arak"
+ area_spires_of_arak_16_adj: "Spires of Arak"
+
+ area_spires_of_arak_17: "Spires of Arak XVII"
+ area_spires_of_arak_17_name: "Spires of Arak"
+ area_spires_of_arak_17_adj: "Spires of Arak"
+
+ area_spires_of_arak_18: "Spires of Arak XVIII"
+ area_spires_of_arak_18_name: "Spires of Arak"
+ area_spires_of_arak_18_adj: "Spires of Arak"
+
+ area_spires_of_arak_19: "Spires of Arak XIX"
+ area_spires_of_arak_19_name: "Spires of Arak"
+ area_spires_of_arak_19_adj: "Spires of Arak"
+
+ area_spires_of_arak_20: "Spires of Arak XX"
+ area_spires_of_arak_20_name: "Spires of Arak"
+ area_spires_of_arak_20_adj: "Spires of Arak"
+
+ area_spires_of_arak_21: "Spires of Arak XXI"
+ area_spires_of_arak_21_name: "Spires of Arak"
+ area_spires_of_arak_21_adj: "Spires of Arak"
+
+ area_spires_of_arak_22: "Spires of Arak XXII"
+ area_spires_of_arak_22_name: "Spires of Arak"
+ area_spires_of_arak_22_adj: "Spires of Arak"
+
+ area_spires_of_arak_23: "Spires of Arak XXIII"
+ area_spires_of_arak_23_name: "Spires of Arak"
+ area_spires_of_arak_23_adj: "Spires of Arak"
+
+ area_spires_of_arak_24: "Spires of Arak XXIV"
+ area_spires_of_arak_24_name: "Spires of Arak"
+ area_spires_of_arak_24_adj: "Spires of Arak"
+
+ area_spires_of_arak_25: "Spires of Arak XXV"
+ area_spires_of_arak_25_name: "Spires of Arak"
+ area_spires_of_arak_25_adj: "Spires of Arak"
+
+ area_spires_of_arak_26: "Spires of Arak XXVI"
+ area_spires_of_arak_26_name: "Spires of Arak"
+ area_spires_of_arak_26_adj: "Spires of Arak"
+
+ area_spires_of_arak_27: "Spires of Arak XXVII"
+ area_spires_of_arak_27_name: "Spires of Arak"
+ area_spires_of_arak_27_adj: "Spires of Arak"
+
+ area_spires_of_arak_28: "Spires of Arak XXVIII"
+ area_spires_of_arak_28_name: "Spires of Arak"
+ area_spires_of_arak_28_adj: "Spires of Arak"
+
+ area_spires_of_arak_29: "Spires of Arak XXIX"
+ area_spires_of_arak_29_name: "Spires of Arak"
+ area_spires_of_arak_29_adj: "Spires of Arak"
+
+ area_spires_of_arak_30: "Spires of Arak XXX"
+ area_spires_of_arak_30_name: "Spires of Arak"
+ area_spires_of_arak_30_adj: "Spires of Arak"
+
+ area_spires_of_arak_31: "Spires of Arak XXXI"
+ area_spires_of_arak_31_name: "Spires of Arak"
+ area_spires_of_arak_31_adj: "Spires of Arak"
+
+ area_spires_of_arak_32: "Spires of Arak XXXII"
+ area_spires_of_arak_32_name: "Spires of Arak"
+ area_spires_of_arak_32_adj: "Spires of Arak"
+
+ area_spires_of_arak_33: "Spires of Arak XXXIII"
+ area_spires_of_arak_33_name: "Spires of Arak"
+ area_spires_of_arak_33_adj: "Spires of Arak"
+
+ area_spires_of_arak_34: "Spires of Arak XXXIV"
+ area_spires_of_arak_34_name: "Spires of Arak"
+ area_spires_of_arak_34_adj: "Spires of Arak"
+
+ area_spires_of_arak_35: "Spires of Arak XXXV"
+ area_spires_of_arak_35_name: "Spires of Arak"
+ area_spires_of_arak_35_adj: "Spires of Arak"
+
+ area_spires_of_arak_36: "Spires of Arak XXXVI"
+ area_spires_of_arak_36_name: "Spires of Arak"
+ area_spires_of_arak_36_adj: "Spires of Arak"
+
+ area_spires_of_arak_37: "Spires of Arak XXXVII"
+ area_spires_of_arak_37_name: "Spires of Arak"
+ area_spires_of_arak_37_adj: "Spires of Arak"
+
+ area_spires_of_arak_38: "Spires of Arak XXXVIII"
+ area_spires_of_arak_38_name: "Spires of Arak"
+ area_spires_of_arak_38_adj: "Spires of Arak"
+
+ area_spires_of_arak_39: "Spires of Arak XXXIX"
+ area_spires_of_arak_39_name: "Spires of Arak"
+ area_spires_of_arak_39_adj: "Spires of Arak"
+
+ area_spires_of_arak_40: "Spires of Arak XL"
+ area_spires_of_arak_40_name: "Spires of Arak"
+ area_spires_of_arak_40_adj: "Spires of Arak"
+
+ area_spires_of_arak_41: "Spires of Arak XLI"
+ area_spires_of_arak_41_name: "Spires of Arak"
+ area_spires_of_arak_41_adj: "Spires of Arak"
+
+ area_spires_of_arak_42: "Spires of Arak XLII"
+ area_spires_of_arak_42_name: "Spires of Arak"
+ area_spires_of_arak_42_adj: "Spires of Arak"
+
+ area_spires_of_arak_43: "Spires of Arak XLIII"
+ area_spires_of_arak_43_name: "Spires of Arak"
+ area_spires_of_arak_43_adj: "Spires of Arak"
+
+ area_spires_of_arak_44: "Spires of Arak XLIV"
+ area_spires_of_arak_44_name: "Spires of Arak"
+ area_spires_of_arak_44_adj: "Spires of Arak"
+
+ area_spires_of_arak_45: "Spires of Arak XLV"
+ area_spires_of_arak_45_name: "Spires of Arak"
+ area_spires_of_arak_45_adj: "Spires of Arak"
+
+ area_spires_of_arak_46: "Spires of Arak XLVI"
+ area_spires_of_arak_46_name: "Spires of Arak"
+ area_spires_of_arak_46_adj: "Spires of Arak"
+
+ area_spires_of_arak_47: "Spires of Arak XLVII"
+ area_spires_of_arak_47_name: "Spires of Arak"
+ area_spires_of_arak_47_adj: "Spires of Arak"
+
+ area_spires_of_arak_48: "Spires of Arak XLVIII"
+ area_spires_of_arak_48_name: "Spires of Arak"
+ area_spires_of_arak_48_adj: "Spires of Arak"
+
+ area_spires_of_arak_49: "Spires of Arak XLIX"
+ area_spires_of_arak_49_name: "Spires of Arak"
+ area_spires_of_arak_49_adj: "Spires of Arak"
+
+ area_spires_of_arak_50: "Spires of Arak L"
+ area_spires_of_arak_50_name: "Spires of Arak"
+ area_spires_of_arak_50_adj: "Spires of Arak"

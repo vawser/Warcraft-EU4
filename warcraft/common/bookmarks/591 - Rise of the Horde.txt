@@ -1,0 +1,14 @@
+# This is the start of the Rise of the Horde
+bookmark = {
+	name = "THE_RISE_OF_THE_HORDE_NAME"
+	desc = "THE_RISE_OF_THE_HORDE_DESC"
+	date = 591.1.1
+    
+    country = BLK
+    country = BTG
+    country = BLH
+    country = TWH
+    country = SRC
+    country = DGM
+    country = BBC
+}

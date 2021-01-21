@@ -13,7 +13,7 @@ capital = 5471
 
 elector = yes
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Naguth"
         dynasty = "Dawnchaser"

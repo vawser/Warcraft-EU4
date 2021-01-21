@@ -13,7 +13,7 @@ religious_school = military_philosophy
 capital = 3732
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Jamie"
         dynasty = "Taylor"

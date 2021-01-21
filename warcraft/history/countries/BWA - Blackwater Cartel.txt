@@ -13,7 +13,7 @@ religious_school = administrative_philosophy
 capital = 2880
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Baxabiz"
         dynasty = "Barrendust"

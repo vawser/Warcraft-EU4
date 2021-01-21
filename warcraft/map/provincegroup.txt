@@ -38,3 +38,7 @@ pg_broken_isles_lakes = {
 pg_zandalar_lakes = {
     1016 536 535
 }
+
+pg_draenor_lakes = {
+    8076 8077 8078 8079 8080 8081 8082 
+}

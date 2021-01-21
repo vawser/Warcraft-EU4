@@ -12,7 +12,7 @@ religion = dragon_aspects
 capital = 5133
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Nozdormu"
         dynasty = "the Timeless"

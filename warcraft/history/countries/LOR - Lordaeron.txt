@@ -15,7 +15,7 @@ capital = 3905
 historical_friend = QUE
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = { 
         name = "Terenas II" 
         dynasty = "Menethil" 

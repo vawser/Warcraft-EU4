@@ -12,7 +12,7 @@ religion = the_holy_light
 capital = 3626
 
 # The First War
-592.1.1 = {
+590.1.1 = {
     monarch = { 
 		name = "Reginald I" 
 		dynasty = "Baradin" 

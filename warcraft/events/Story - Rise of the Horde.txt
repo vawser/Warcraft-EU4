@@ -1,0 +1,76 @@
+namespace = wwu_rise_of_the_horde
+
+# The Dark Portal
+country_event = {
+	id = wwu_rise_of_the_horde.1
+	title = wwu_rise_of_the_horde.1.title
+	desc = wwu_rise_of_the_horde.1.desc
+	picture = DARK_PORTAL_CLOSEUP_eventPicture
+	
+    major = yes
+
+	trigger = {
+        NOT = { has_global_flag = dark_portal_constructed }
+        has_global_flag = orcish_horde_united
+        always = no # TODO
+	}
+	
+    immediate = {
+        hidden_effect = {
+            set_global_flag = dark_portal_constructed
+        }
+    }
+    
+    mean_time_to_happen = {
+		days = 1
+	}
+    
+	option = {
+		name = wwu_rise_of_the_horde.1.option.a
+		
+        7863 = {
+            add_great_project = dark_portal
+        }
+        3135 = {
+            add_permanent_province_modifier = {
+                name = dark_portal_teleport
+                duration = -1
+            }
+        }
+        
+        show_ambient_object = outland_dark_portal_ek
+	}
+}
+
+# The Orcs Unite!
+country_event = {
+	id = wwu_rise_of_the_horde.2
+	title = wwu_rise_of_the_horde.2.title
+	desc = wwu_rise_of_the_horde.2.desc
+	picture = ORC_THRONE_eventPicture
+	
+    major = yes
+
+	trigger = {
+        NOT = { has_global_flag = orcish_horde_united }
+        always = no # TODO
+	}
+	
+    immediate = {
+        hidden_effect = {
+            set_global_flag = orcish_horde_united
+        }
+    }
+    
+    mean_time_to_happen = {
+		days = 1
+	}
+    
+	option = {
+		name = wwu_rise_of_the_horde.1.option.a
+		
+        # Spawn The Orcish Horde
+        
+        # Setup relations with the clans
+	}
+}

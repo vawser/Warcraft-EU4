@@ -11,7 +11,7 @@ religion = azshara
 
 capital = 7433
 
-592.1.1 = {
+590.1.1 = {
     monarch = {
         name = "Azshara the Vainglorious"
         adm = 6
