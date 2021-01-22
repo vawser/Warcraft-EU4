@@ -1,4 +1,28 @@
 # Specific
+gov_monastic_order_arakkoa = {
+	rank = {
+		1 = MONASTIC_ORDER
+		2 = MONASTIC_ORDER
+		3 = MONASTIC_ORDER
+	}
+	
+	ruler_male = {
+		1 = TALONPRIEST
+		2 = TALONPRIEST
+		3 = TALONPRIEST
+	}
+	
+	ruler_female = {
+		1 = TALONPRIEST
+		2 = TALONPRIEST
+		3 = TALONPRIEST
+	}
+	
+	trigger = {
+        technology_group = tech_fallen_arakkoa
+        religion = light_of_the_naaru
+	}
+}
 gov_theocracy_blood_troll = {
 	rank = {
 		1 = BLOOD_CULT
@@ -23,7 +47,31 @@ gov_theocracy_blood_troll = {
         culture_group = blood_troll_group
 	}
 }
-gov_theocracy_naaru = {
+gov_theocracy_arakkoa = {
+	rank = {
+		1 = ORDER_OF_RUKHMAR
+		2 = ORDER_OF_RUKHMAR
+		3 = ORDER_OF_RUKHMAR
+	}
+	
+	ruler_male = {
+		1 = HIGH_SAGE
+		2 = HIGH_SAGE
+		3 = HIGH_SAGE
+	}
+	
+	ruler_female = {
+		1 = HIGH_SAGE
+		2 = HIGH_SAGE
+		3 = HIGH_SAGE
+	}
+	
+	trigger = {
+        technology_group = tech_arakkoa
+        has_reform = theocracy_reform
+	}
+}
+gov_theocracy_naaru_EXO = {
 	rank = {
 		1 = THEOCRACY
 		2 = THEOCRACY
@@ -40,6 +88,31 @@ gov_theocracy_naaru = {
 		1 = PROPHETESS
 		2 = PROPHETESS
 		3 = PROPHETESS
+	}
+	
+	trigger = {
+        has_reform = theocracy_reform
+        religion = light_of_the_naaru
+        tag = EXO
+	}
+}
+gov_theocracy_naaru_draenor = {
+	rank = {
+		1 = THEOCRACY
+		2 = THEOCRACY
+		3 = THEOCRACY
+	}
+	
+	ruler_male = {
+		1 = HIGH_PRIEST
+		2 = HIGH_PRIEST
+		3 = HIGH_PRIEST
+	}
+	
+	ruler_female = {
+		1 = HIGH_PRIESTESS
+		2 = HIGH_PRIESTESS
+		3 = HIGH_PRIESTESS
 	}
 	
 	trigger = {
@@ -516,5 +589,28 @@ gov_naga_empire = {
 	
 	trigger = {
         has_reform = naga_empire_reform
+	}
+}
+gov_illidari_domain = {
+	rank = {
+		1 = ILLIDARI_DOMAIN
+		2 = ILLIDARI_DOMAIN
+		3 = ILLIDARI_DOMAIN
+	}
+	
+	ruler_male = {
+		1 = MASTER
+        2 = MASTER
+        3 = MASTER
+	}
+	
+	ruler_female = {
+		1 = MASTER
+        2 = MASTER
+        3 = MASTER
+	}
+	
+	trigger = {
+        has_reform = illidari_reform
 	}
 }

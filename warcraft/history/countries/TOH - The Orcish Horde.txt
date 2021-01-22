@@ -9,7 +9,6 @@ primary_culture = orc
 
 religion = fel
 
-
 capital = 3135
 
 historical_rival = SRW
@@ -50,7 +49,3 @@ historical_rival = KUL
 	add_ruler_personality = strict_personality
 }
 
-# The Orcish Horde
-592.1.1 = {
-    set_global_flag = orcish_horde_united
-}

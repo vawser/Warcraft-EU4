@@ -168,7 +168,7 @@ on_battle_won_country = {
 # root = loser country, from = winner country
 on_battle_lost_country = {
 	events = {
-        
+        wwu_rise_of_the_horde.6
     }
 	random_events = {
 		12 = 0

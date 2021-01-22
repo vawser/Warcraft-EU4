@@ -1,4 +1,29 @@
 # Specific
+gov_despotic_kingdom_GOE = {
+	rank = {
+		1 = DESPOTIC_KINGDOM
+        2 = DESPOTIC_KINGDOM
+        3 = DESPOTIC_KINGDOM
+	}
+	
+	ruler_male = {
+		1 = IMPERATOR
+        2 = IMPERATOR
+        3 = IMPERATOR
+	}
+	
+	ruler_female = {
+		1 = IMPERATOR
+        2 = IMPERATOR
+        3 = IMPERATOR
+	}
+	
+	trigger = {
+        tag = GOE
+        has_reform = autocracy_reform
+	}
+}
+
 gov_despotic_kingdom_vassal = {
 	rank = {
 		1 = DESPOTIC_VASSAL

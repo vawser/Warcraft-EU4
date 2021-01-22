@@ -1,15 +1,28 @@
-native_size = 9
-native_ferocity = 6
-native_hostileness = 3
-is_city = no
+is_city = yes
+owner = AKO
+controller = AKO
+add_core = AKO
 
-base_tax = 1
+base_tax = 2
 base_production = 1
-base_manpower = 2
+base_manpower = 1
 
-culture = primitive
-religion = shamanism
+culture = fallen_arakkoa
+religion = shadow
 
 hre = no
 trade_goods = unknown
+
+# Outland (Third War)
+594.1.1 = {
+    native_size = 50
+    native_ferocity = 5
+    native_hostileness = 5
+    is_city = no
+
+    cede_province = ---
+    
+    culture = primitive
+    religion = shamanism
+}
 

@@ -8,7 +8,6 @@ primary_culture = orgrimmar
 
 religion = shamanism
 
-
 capital = 7197
 
 # The Scourge

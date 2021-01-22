@@ -1,0 +1,17 @@
+technology_group = tech_ogre
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = bloodmaul
+religion = geomancy
+capital = 7730
+
+590.1.1 = {
+    monarch = {
+        name = "Gagsob"
+        dynasty = "Bloodblade"
+        adm = 3
+        dip = 1
+        mil = 5
+    }
+}
+

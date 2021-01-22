@@ -3,15 +3,23 @@
 #---------------------------------------
 fel_rush = {
 	potential = {
-		tag = TOH
+		OR = {
+            tag = TOH
+            has_country_flag = drank_the_demonsblood
+        }
         current_age = age_orcish_horde
 	}
 	trigger = {
-		tag = TOH
-        custom_trigger_tooltip = {
-            tooltip = ORCISH_HORDE_NO_LOSS
-            
-            NOT = { has_global_flag = orcish_horde_lost_war }
+		OR = {
+            AND = {
+                tag = TOH
+                custom_trigger_tooltip = {
+                    tooltip = ORCISH_HORDE_NO_LOSS
+                    
+                    NOT = { has_global_flag = orcish_horde_lost_war }
+                }
+            }
+            has_country_flag = drank_the_demonsblood
         }
 	}
 

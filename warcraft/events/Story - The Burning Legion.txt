@@ -10,6 +10,7 @@ country_event = {
     major = yes
 
 	trigger = {
+        current_age = age_burning_legion
         NOT = { has_global_flag = nordrassil_destroyed }
         tag = TBL
         is_at_war = yes

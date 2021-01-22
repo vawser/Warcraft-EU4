@@ -260,8 +260,11 @@
  tech_fel_orc: "Fel Orc"
  tech_fel_orc_desc: ""
  
- tech_arrakoa: "Arrakoa"
- tech_arrakoa_desc: ""
+ tech_arakkoa: "Arakkoa"
+ tech_arakkoa_desc: ""
+ 
+ tech_fallen_arakkoa: "Fallen Arakkoa"
+ tech_fallen_arakkoa_desc: ""
  
  tech_ethereal: "Ethereal"
  tech_ethereal_desc: ""
@@ -283,3 +286,6 @@
  
  tech_vulpera: "Vulpera"
  tech_vulpera_desc: ""
+ 
+ tech_illidari: "Illidari"
+ tech_illidari_desc: ""

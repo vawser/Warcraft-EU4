@@ -1,0 +1,18 @@
+technology_group = tech_naga
+government = theocracy
+add_government_reform = illidari_reform
+primary_culture = coilskar
+religion = fel
+capital = 1
+
+590.1.1 = {
+    monarch = {
+        name = "Vashj"
+        dynasty = "the Ambitious"
+        adm = 5
+        dip = 4
+        mil = 6
+        female = yes
+        birth_date = 20.1.1
+    }
+}

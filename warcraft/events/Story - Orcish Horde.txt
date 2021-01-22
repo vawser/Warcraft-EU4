@@ -11,10 +11,7 @@ country_event = {
     major = yes
 
 	trigger = {
-        OR = {
-            start_date = 591.1.1
-            start_date = 592.1.1
-        }
+        current_age = age_orcish_horde
         tag = TOH
         NOT = { has_global_flag = orcish_horde_info_flag }
 	}
@@ -42,52 +39,6 @@ country_event = {
             siege = 2
             name = "Rend Blackhand"
         }
-        
-        custom_tooltip = ORCISH_HORDE_ARMY_TT
-        hidden_effect = {
-            random_owned_province = {
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-            }
-            random_owned_province = {
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-            }
-            random_owned_province = {
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-            }
-            random_owned_province = {
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-            }
-            random_owned_province = {
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-            }
-            random_owned_province = {
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-                infantry = ROOT
-            }
-        }
 	}
 }
 
@@ -99,10 +50,7 @@ country_event = {
 	picture = SWORD_SHIELD_eventPicture
 
 	trigger = {
-        OR = {
-            start_date = 591.1.1
-            start_date = 592.1.1
-        }
+        current_age = age_orcish_horde
         tag = SRW
         NOT = { has_country_flag = the_kings_champion }
         war_with = TOH
@@ -139,10 +87,7 @@ country_event = {
 	picture = SWORD_SHIELD_eventPicture
 
 	trigger = {
-        OR = {
-            start_date = 591.1.1
-            start_date = 592.1.1
-        }
+        current_age = age_orcish_horde
         tag = LOR
         NOT = { has_country_flag = stormwind_attacked }
         SRW = { defensive_war_with = TOH }
@@ -182,6 +127,7 @@ country_event = {
     major = yes
     
 	trigger = {
+        current_age = age_orcish_horde
         tag = TOH
         NOT = { has_country_flag = stormwind_falls }
         war_with = SRW
@@ -244,6 +190,7 @@ country_event = {
 	picture = DARK_PORTAL_CLOSEUP_eventPicture
 
     trigger = {
+        current_age = age_orcish_horde
         tag = TOH
         3135 = {
             controlled_by = TOH
@@ -271,10 +218,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        OR = {
-            start_date = 591.1.1
-            start_date = 592.1.1
-        }
+        current_age = age_orcish_horde
         tag = TOH
         ai = yes
         mission_completed = TOH_prepare_for_the_assault

@@ -1,0 +1,17 @@
+technology_group = tech_arakkoa
+government = theocracy
+add_government_reform = theocracy_reform
+primary_culture = arakkoa
+religion = arcane
+capital = 7704
+
+590.1.1 = {
+    monarch = {
+        name = "Viryx"
+        dynasty = "the Virtuous"
+        adm = 5
+        dip = 4
+        mil = 5
+    }
+}
+

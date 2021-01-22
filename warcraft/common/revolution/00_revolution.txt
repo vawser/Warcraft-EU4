@@ -4,6 +4,18 @@ revolution = {
 	target_province_weights = {
 		factor = 1
 
+        # Stop spread once 5 nations have converted to Scourge
+        modifier = {
+			factor = 0
+			
+            calc_true_if = {
+                all_country = {
+                    has_reform = scourge_domain_reform
+                }
+                amount = 5
+            }
+		}
+        
         # Ignore empty provinces
 		modifier = {
 			factor = 0

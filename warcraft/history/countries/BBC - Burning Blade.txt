@@ -2,12 +2,26 @@ technology_group = tech_orc
 
 government = tribal
 
-add_government_reform = warband_reform
+add_government_reform = tribal_federation_reform
 
 primary_culture = burning_blade
 
-religion = fel
+religion = shamanism
 
+capital = 7991
 
-capital = 3159
+590.1.1 = {
+    monarch = { 
+		name = "Neeru" 
+		dynasty = "Fireblade" 
+		adm = 2
+		dip = 2
+		mil = 6
+	}
+}
 
+# The Orcish Horde
+592.1.1 = {
+    add_government_reform = warband_reform
+    religion = fel
+}

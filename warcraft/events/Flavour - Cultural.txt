@@ -308,11 +308,6 @@ country_event = {
 			name = researching_runic_tables
 			duration = 365
 		}
-		add_adm_power = -30
-	}
-	option = {
-		name = wwu_cultural.7.opt2
-		
 	}
 }
 

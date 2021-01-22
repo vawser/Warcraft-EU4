@@ -1,0 +1,48 @@
+technology_group = tech_human
+
+government = theocracy
+
+add_government_reform = monastic_order_reform
+
+primary_culture = crusader
+
+religion = the_holy_light
+
+
+capital = 1
+
+590.1.1 = {
+    monarch = { 
+		name = "Saiden" 
+		dynasty = "Dathrohan" 
+		adm = 3
+		dip = 3
+		mil = 6
+ 	} 
+	heir = { 
+		name = "Brigitte" 
+		monarch_name = "Brigitte" 
+		dynasty = "Abbendis" 
+		claim = 80
+		adm = 1
+		dip = 5
+		mil = 6
+		female = yes
+		birth_date = 560.1.1
+		death_date = 626.1.1
+ 	}
+    define_general = {
+		name = "Renault Mograine"
+		shock = 2
+		fire = 4
+		manuever = 4
+		siege = 1
+	}
+	add_ruler_personality = zealot_personality
+	add_ruler_personality = malevolent_personality
+
+	add_heir_personality = zealot_personality
+	add_heir_personality = cruel_personality
+	add_heir_personality = naive_personality
+}
+

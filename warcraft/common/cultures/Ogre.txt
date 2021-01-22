@@ -109,6 +109,27 @@ ogre_group = {
         female_names = { }
 		dynasty_names = { }
 	}
+    gorian = {
+        primary = GOE
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+	}
+    bladespire = {
+        primary = BSP
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+	}
+    bloodmaul = {
+        primary = BLM
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+	}
     
     ogre = {
         male_names = { } 

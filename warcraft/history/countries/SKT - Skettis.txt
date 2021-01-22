@@ -1,0 +1,17 @@
+technology_group = tech_fallen_arakkoa
+government = theocracy
+add_government_reform = monastic_order_reform
+primary_culture = skettis
+religion = shadow
+capital = 1
+
+590.1.1 = {
+    monarch = {
+        name = "Arekkou"
+        dynasty = "the Decietful"
+        adm = 3
+        dip = 2
+        mil = 1
+    }
+}
+

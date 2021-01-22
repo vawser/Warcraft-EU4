@@ -167,5 +167,15 @@ azerothian_group = {
 		female_names = { }
 		dynasty_names = { }
     }
+    crusader = {
+        male_names = { }
+		female_names = { }
+		dynasty_names = { }
+    }
+    criminal = {
+        male_names = { }
+		female_names = { }
+		dynasty_names = { }
+    }
 }
 

@@ -162,7 +162,7 @@ country_event = {
 	picture = DEATH_OF_HEIR_eventPicture
     
 	trigger = {
-        has_regency = no
+        has_heir = yes
 	    NOT = { is_immortal_lifespan = yes }
 	}
 

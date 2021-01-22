@@ -6,8 +6,7 @@ add_government_reform = warband_reform
 
 primary_culture = stormreaver
 
-religion = fel
-
+religion = shamanism
 
 capital = 3125
 
@@ -22,3 +21,6 @@ capital = 3125
 	} 
 }
 
+592.1.1 = {
+    religion = fel
+}

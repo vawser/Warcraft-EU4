@@ -10,6 +10,7 @@ country_event = {
     major = yes
 
 	trigger = {
+        current_age = age_scourge
         NOT = { has_global_flag = the_scourge_info }
         tag = SCO
 	}
@@ -46,6 +47,7 @@ country_event = {
 	picture = UNDEAD_eventPicture
 	
 	trigger = {
+        current_age = age_scourge
         exists = SCO
         tag = LOR
         NOT = { has_country_flag = scourging_of_lordaeron }
@@ -79,6 +81,7 @@ country_event = {
 	picture = BLIND_PALADIN_eventPicture
 	
 	trigger = {
+        current_age = age_scourge
         has_first_revolution_started = yes
         revolution_target_exists = yes
         NOT = { is_revolutionary = yes } # Not Scourge
@@ -123,6 +126,7 @@ country_event = {
     is_triggered_only = yes
     
 	trigger = {
+        current_age = age_scourge
         OR = {
             has_reform = scourge_reform
             has_reform = scourge_domain_reform

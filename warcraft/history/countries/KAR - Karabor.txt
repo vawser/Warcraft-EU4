@@ -1,0 +1,23 @@
+technology_group = tech_draenei
+
+government = theocracy
+
+add_government_reform = theocracy_reform
+
+primary_culture = karabor
+
+religion = light_of_the_naaru
+
+capital = 7892
+
+590.1.1 = {
+    monarch = { 
+        name = "Ishanah" 
+        dynasty = "Brightveil" 
+		adm = 4
+		dip = 4
+		mil = 3
+        birth_date = 120.1.1
+    }
+}
+

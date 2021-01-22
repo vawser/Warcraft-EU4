@@ -6,8 +6,7 @@ add_government_reform = warband_reform
 
 primary_culture = black_tooth_grin
 
-religion = fel
-
+religion = shamanism
 
 capital = 1
 
@@ -27,4 +26,8 @@ capital = 1
 		dip = 3
 		mil = 3
 	} 
+}
+
+592.1.1 = {
+    religion = fel
 }

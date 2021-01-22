@@ -1,15 +1,28 @@
-native_size = 4
-native_ferocity = 4
-native_hostileness = 3
-is_city = no
+is_city = yes
+owner = GOE
+controller = GOE
+add_core = GOE
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = primitive
-religion = shamanism
+culture = gorian
+religion = arcane
 
 hre = no
 trade_goods = unknown
+
+# Outland (Third War)
+594.1.1 = {
+    native_size = 50
+    native_ferocity = 5
+    native_hostileness = 5
+    is_city = no
+
+    cede_province = ---
+    
+    culture = primitive
+    religion = shamanism
+}
 

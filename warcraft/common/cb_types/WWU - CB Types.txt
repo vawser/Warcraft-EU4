@@ -116,3 +116,41 @@ cb_wrath_of_azshara = {
 
 	war_goal = take_capital_merciless
 }
+
+cb_draenei_scum = {
+	valid_for_subject = no
+
+	prerequisites = {
+		capital_scope = { continent = draenor }
+        culture_group = orc_group
+        OR = {
+            has_country_flag = joined_nerzhul
+            has_country_flag = joined_guldan
+            has_country_flag = accepted_the_demonsblood
+        }
+		FROM = {
+			capital_scope = { continent = draenor }
+            culture_group = draenei_group
+		}
+        current_age = age_rise_of_the_horde
+	}
+	
+	war_goal = take_capital_merciless
+}
+
+cb_the_dying_times = {
+	valid_for_subject = no
+
+	prerequisites = {
+		capital_scope = { continent = draenor }
+        culture_group = orc_group
+		FROM = {
+			capital_scope = { continent = draenor }
+            culture_group = orc_group
+		}
+        has_global_flag = the_dying_times
+        current_age = age_rise_of_the_horde
+	}
+	
+	war_goal = take_capital_merciless
+}

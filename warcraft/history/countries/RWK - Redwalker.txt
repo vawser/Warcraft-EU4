@@ -1,0 +1,24 @@
+technology_group = tech_orc
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = redwalker
+religion = shamanism
+capital = 7952
+
+590.1.1 = {
+    monarch = {
+		name = "Grubgub" 
+		dynasty = "Redhand" 
+        birth_date = 558.1.1
+		adm = 3
+		dip = 4
+		mil = 2
+ 	}
+}
+
+# 591.1.1 = {
+    # add_government_reform = warband_reform
+    # religion = fel
+# }
+
+

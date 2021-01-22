@@ -1,15 +1,9 @@
 technology_group = tech_orc
-
 government = tribal
-
-add_government_reform = warband_reform
-
+add_government_reform = tribal_federation_reform
 primary_culture = blackrock
-
-religion = fel
-
-
-capital = 3135
+religion = shamanism
+capital = 7773
 
 # The Orcish Horde
 590.1.1 = {
@@ -29,8 +23,11 @@ capital = 3135
 	}
 }
 
-# The Scourge
-590.1.1 = {
+# The Orcish Horde
+592.1.1 = {
+    add_government_reform = warband_reform
+    religion = fel
+
     monarch = { 
 		name = "Orgrim" 
 		dynasty = "Doomhammer" 

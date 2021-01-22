@@ -195,3 +195,20 @@
  
  mission_pandaria_settlers: "Pandaria Settlers"
  desc_mission_pandaria_settlers: ""
+ 
+ #-----------------------------------
+ # Orc Clans
+ #-----------------------------------
+ orc_clan_missions_branch_1: "Orc Clan Missions"
+ orc_clan_missions_branch_2: "Orc Clan Missions"
+ orc_clan_missions_branch_3: "Orc Clan Missions"
+ 
+ orc_annex_karabor_title: "Annex Karabor"
+ orc_annex_karabor_desc: "We must eliminate the Draenei from Draenor, no matter the cost."
+ 
+ orc_annex_shattrath_title: "Annex Shattrath"
+ orc_annex_shattrath_desc: "We must eliminate the Draenei from Draenor, no matter the cost."
+ 
+ orc_annex_auchenai_title: "Annex Auchenai"
+ orc_annex_auchenai_desc: "We must eliminate the Draenei from Draenor, no matter the cost."
+ 

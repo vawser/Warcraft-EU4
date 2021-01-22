@@ -4,7 +4,7 @@ government = theocracy
 
 add_government_reform = monastic_order_reform
 
-primary_culture = lordaeron
+primary_culture = crusader
 
 religion = the_holy_light
 

@@ -1156,3 +1156,12 @@
  #-------------------------------
  dark_portal_teleport: "Dark Portal"
  desc_dark_portal_teleport: ""
+ 
+ kiljaedens_favour: "Kil'jaeden's Favour"
+ desc_kiljaedens_favour: "Our actions have been influenced by the demonlord Kil'jaeden."
+ 
+ the_shadow_council: "The Shadow Council"
+ desc_the_shadow_council: "Formed from the most formidable warlocks in the orcish clans."
+ 
+ fel_infused: "Fel-infused"
+ desc_fel_infused: "Having taken the blood of Mannoroth, our orc clansmen are now fel-infused, granting them more power."

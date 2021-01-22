@@ -76,3 +76,6 @@ fungarian_gfx
 stonetolvir_gfx
 tolvir_gfx
 mecha_gnome_gfx
+arakkoa_gfx
+fallen_arakkoa_gfx
+illidari_gfx

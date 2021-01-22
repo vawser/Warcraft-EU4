@@ -1,19 +1,29 @@
 
-is_city = yes
-owner = TOH
-controller = TOH
-add_core = TOH
-add_core = DGM
+is_city = no
+native_size = 50
+native_ferocity = 5
+native_hostileness = 5
 
 base_tax = 1
 base_production = 3
 base_manpower = 1
 
-culture = orc
-religion = fel
+culture = primitive
+religion = shamanism
 
 trade_goods = unknown
 hre = no
+
+# First War
+592.1.1 = {
+    is_city = yes
+    owner = TOH
+    controller = TOH
+    add_core = TOH
+
+    culture = orc
+    religion = fel
+}
 
 # Third War
 594.1.1 = {

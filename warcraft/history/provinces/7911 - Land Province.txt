@@ -1,15 +1,28 @@
-native_size = 0
-native_ferocity = 2
-native_hostileness = 7
-is_city = no
+is_city = yes
+owner = KAR
+controller = KAR
+add_core = KAR
 
-base_tax = 2
-base_production = 1
+base_tax = 1
+base_production = 2
 base_manpower = 1
 
-culture = primitive
-religion = shamanism
+culture = karabor
+religion = light_of_the_naaru
 
 hre = no
 trade_goods = unknown
+
+# Outland (Third War)
+594.1.1 = {
+    native_size = 50
+    native_ferocity = 5
+    native_hostileness = 5
+    is_city = no
+
+    cede_province = ---
+    
+    culture = primitive
+    religion = shamanism
+}
 

@@ -1,15 +1,15 @@
 NDefines = {
 
 NGame = {
-	START_DATE = "591.1.1",
+	START_DATE = "590.1.1",
 	END_DATE = "2000.1.2",
-	MAX_RANDOM_NEW_WORLD = "591.1.1",
+	MAX_RANDOM_NEW_WORLD = "590.1.1",
 
 	GREAT_POWER_FRENZY_START = "800.1.1",	-- Latest date for the start of the Great Power Frenzy (struggle).
 	GREAT_POWER_FRENZY_WARMUP_MONTHS = 1200,	-- How many months does it take for the Great Power Frenzy to reach full potency after starting.
 	GREAT_POWER_FRENZY_QUICKSTART = 1,		-- Can the Great Power Frenzy start early due to one alliance block becoming too powerful?
 
-	AGE_USHER_IN_TIME = 300,				-- how many months progress for a new age needs.
+	AGE_USHER_IN_TIME = 12,				-- how many months progress for a new age needs.
 
 	MAX_COLONIAL_NATIONS = 75,				-- Max is 100
 	MAX_CLIENT_STATES = 75,				    -- Max is 100 -- TODO: Lower this to 75 after 1.18 (used to start at K75 for some reason)

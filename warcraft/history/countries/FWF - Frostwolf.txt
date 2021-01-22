@@ -1,0 +1,24 @@
+technology_group = tech_orc
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = frostwolf
+religion = shamanism
+capital = 7713
+
+590.1.1 = {
+    monarch = {
+		name = "Durotan" 
+		dynasty = "Frostwolf" 
+        birth_date = 558.1.1
+		adm = 6
+		dip = 3
+		mil = 4
+ 	}
+}
+
+# 591.1.1 = {
+    # add_government_reform = warband_reform
+    # religion = fel
+# }
+
+

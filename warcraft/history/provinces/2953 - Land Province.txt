@@ -13,6 +13,7 @@ religion = the_holy_light
 
 trade_goods = unknown
 hre = no
+
 # Second War
 593.1.1 = {
     owner = TOH

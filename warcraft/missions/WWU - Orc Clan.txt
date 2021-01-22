@@ -1,0 +1,137 @@
+orc_clan_missions_branch_1 = {
+	slot = 1
+	ai = yes
+	
+	potential = {
+		OR = {
+            tag = BLK
+            tag = BLH
+            tag = TWH
+            tag = DGM
+            tag = BBC
+            tag = WAR
+            tag = SWM
+            tag = STT
+            tag = TDL
+            tag = LGS
+            tag = BCW
+            tag = LGS
+            tag = FWF
+            tag = MOK
+            tag = KIL
+            tag = BLW
+            tag = LGB
+            tag = RWK
+            tag = WHC
+        }
+	}
+	
+	orc_annex_karabor = {
+        position = 6
+		icon = mission_draenei_male
+        
+		required_missions = { }
+
+		trigger = {
+            NOT = { exists = KAR }
+		}
+        provinces_to_highlight = {
+            owned_by = KAR
+        }
+		effect = {
+			add_mil_power = 200
+		}
+    }
+}
+
+orc_clan_missions_branch_2 = {
+	slot = 2
+	ai = yes
+	
+	potential = {
+		OR = {
+            tag = BLK
+            tag = BLH
+            tag = TWH
+            tag = DGM
+            tag = BBC
+            tag = WAR
+            tag = SWM
+            tag = STT
+            tag = TDL
+            tag = LGS
+            tag = BCW
+            tag = LGS
+            tag = FWF
+            tag = MOK
+            tag = KIL
+            tag = BLW
+            tag = LGB
+            tag = RWK
+            tag = WHC
+        }
+	}
+	
+	orc_annex_shattrath = {
+        position = 6
+		icon = mission_draenei_female
+        
+		required_missions = { }
+
+		trigger = {
+            NOT = { exists = SHA }
+		}
+        provinces_to_highlight = {
+            owned_by = SHA
+        }
+		effect = {
+			add_mil_power = 200
+		}
+    }
+}
+
+orc_clan_missions_branch_3 = {
+	slot = 3
+	ai = yes
+	
+	potential = {
+		OR = {
+            tag = BLK
+            tag = BLH
+            tag = TWH
+            tag = DGM
+            tag = BBC
+            tag = WAR
+            tag = SWM
+            tag = STT
+            tag = TDL
+            tag = LGS
+            tag = BCW
+            tag = LGS
+            tag = FWF
+            tag = MOK
+            tag = KIL
+            tag = BLW
+            tag = LGB
+            tag = RWK
+            tag = WHC
+        }
+	}
+	
+	orc_annex_auchenai = {
+        position = 6
+		icon = mission_orbital_strike
+        
+		required_missions = { }
+
+		trigger = {
+            NOT = { exists = AUC }
+		}
+        provinces_to_highlight = {
+            owned_by = AUC
+        }
+		effect = {
+			add_mil_power = 200
+		}
+    }
+}

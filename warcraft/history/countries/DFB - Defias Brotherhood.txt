@@ -1,0 +1,18 @@
+technology_group = tech_human
+government = tribal
+add_government_reform = tribal_despotism_reform
+primary_culture = criminal
+religion = shadow
+
+capital = 1
+
+590.1.1 = {
+    monarch = { 
+		name = "Edwin" 
+		dynasty = "VanCleef" 
+		adm = 6
+		dip = 3
+		mil = 3        
+	}
+}
+

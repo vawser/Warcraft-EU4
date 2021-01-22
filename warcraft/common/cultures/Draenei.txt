@@ -43,6 +43,27 @@ draenei_group = {
         female_names = { }
 		dynasty_names = { }
     }
+    karabor = {
+        primary = KAR
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+    }
+    shattrath = {
+        primary = SHA
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+    }
+    auchenai = {
+        primary = AUC
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+    }
 }
 
 broken_group = {

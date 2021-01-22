@@ -1,18 +1,561 @@
 namespace = wwu_rise_of_the_horde
 
-# The Dark Portal
+# Kil'jaeden's Scheme
 country_event = {
 	id = wwu_rise_of_the_horde.1
 	title = wwu_rise_of_the_horde.1.title
 	desc = wwu_rise_of_the_horde.1.desc
+	picture = ORCISH_INVASION_eventPicture
+    
+	trigger = {
+        NOT = { has_global_flag = kiljaeden_scheme }
+        current_age = age_rise_of_the_horde
+		tag = SWM
+	}
+	
+    mean_time_to_happen = {
+		days = 1
+	}
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = kiljaeden_scheme 
+        }
+    }
+    
+	option = {
+		name = wwu_rise_of_the_horde.1.option.a
+		
+        set_global_flag = nerzhul_recruitment
+        set_country_flag = joined_nerzhul
+        custom_tooltip = incite_draenei_violence
+        
+        add_ruler_modifier = {
+            name = kiljaedens_favour
+            duration = -1
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+    }
+    
+    option = {
+		name = wwu_rise_of_the_horde.1.option.b
+		
+        trigger = {
+            ai = no
+        }
+
+        custom_tooltip = trapped_on_draenor
+        
+        ai_chance = {
+            factor = 0
+        }
+    }
+}
+
+# Messenger from Ner'zhul
+country_event = {
+	id = wwu_rise_of_the_horde.2
+	title = wwu_rise_of_the_horde.2.title
+	desc = wwu_rise_of_the_horde.2.desc
+	picture = ORCISH_INVASION_eventPicture
+
+	trigger = {
+        current_age = age_rise_of_the_horde
+        has_global_flag = nerzhul_recruitment
+        
+        NOT = { has_country_flag = set_side_for_nerzhul_event }
+        capital_scope = { continent = draenor }
+        culture_group = orc_group
+        government = tribal
+        NOT = { tag = SWM }
+	}
+    
+    mean_time_to_happen = {
+		days = 1
+	}
+    
+    immediate = {
+        set_country_flag = set_side_for_nerzhul_event
+    }
+	
+    # Join
+	option = {
+		name = wwu_rise_of_the_horde.2.option.a
+		
+
+        SWM = {
+            add_opinion = {
+                who = ROOT
+                modifier = allies_of_nerzhul
+            }
+        }
+        add_opinion = {
+            who = SWM
+            modifier = allies_of_nerzhul
+        }
+        
+        add_ruler_modifier = {
+            name = kiljaedens_favour
+            duration = -1
+        }
+        
+        set_country_flag = joined_nerzhul
+        
+        ai_chance = {
+            factor = 75
+        }
+    }
+    
+    # Reject
+    option = {
+		name = wwu_rise_of_the_horde.2.option.b
+		
+        SWM = {
+            add_opinion = {
+                who = ROOT
+                modifier = enemies_of_nerzhul
+            }
+        }
+        add_opinion = {
+            who = SWM
+            modifier = enemies_of_nerzhul
+        }
+        
+        set_country_flag = refused_nerzhul
+        
+        ai_chance = {
+            factor = 25
+            
+            modifier = {
+                factor = 10
+                OR = {
+                    tag = FWF
+                    tag = MOK
+                    tag = KIL
+                    tag = BLW
+                    tag = LGB
+                    tag = RWK
+                    tag = WHC
+                }
+            }
+        }
+    }
+}
+
+# Doubts of Ner'zhul
+country_event = {
+	id = wwu_rise_of_the_horde.3
+	title = wwu_rise_of_the_horde.3.title
+	desc = wwu_rise_of_the_horde.3.desc
+	picture = ORCISH_INVASION_eventPicture
+    
+	trigger = {
+        NOT = { has_global_flag = doubts_of_nerzhul }
+        current_age = age_rise_of_the_horde
+        had_global_flag = { flag = nerzhul_recruitment days = 365 }
+		tag = SWM
+	}
+	
+    mean_time_to_happen = {
+		days = 1
+	}
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = doubts_of_nerzhul
+            
+            every_country = {
+                limit = {
+                    has_country_flag = set_side_for_nerzhul_event
+                }
+                if = { 
+                    limit = { 
+                        exists = SWM
+                    }
+                    remove_opinion = {
+                        who = SWM
+                        modifier = allies_of_nerzhul
+                    }
+                    SWM = {
+                        remove_opinion = {
+                            who = ROOT
+                            modifier = allies_of_nerzhul
+                        }
+                    }
+                }
+                if = { 
+                    limit = { 
+                        exists = SWM
+                    }
+                    remove_opinion = {
+                        who = SWM
+                        modifier = enemies_of_nerzhul
+                    }
+                    SWM = {
+                        remove_opinion = {
+                            who = ROOT
+                            modifier = enemies_of_nerzhul
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+	option = {
+		name = wwu_rise_of_the_horde.3.option.a
+		
+        set_global_flag = guldan_recruitment
+        set_country_flag = joined_guldan
+        
+        exile_ruler_as = exiled_nerzhul
+        set_country_flag = exiled_nerzhul_flag
+        
+        define_ruler = {
+            name = "Teron'gor"
+            dynasty = "Shadowmoon"
+            adm = 5
+            dip = 4
+            mil = 6
+        }
+        
+        add_ruler_modifier = {
+            name = kiljaedens_favour
+            duration = -1
+        }
+    }
+}
+
+# The First Warlocks
+country_event = {
+	id = wwu_rise_of_the_horde.4
+	title = wwu_rise_of_the_horde.4.title
+	desc = wwu_rise_of_the_horde.4.desc
+	picture = ORCISH_INVASION_eventPicture
+
+	trigger = {
+        current_age = age_rise_of_the_horde
+        has_global_flag = guldan_recruitment
+        
+        NOT = { has_country_flag = set_side_for_guldan_event }
+        capital_scope = { continent = draenor }
+        culture_group = orc_group
+        government = tribal
+        NOT = { tag = SWM }
+	}
+    
+    mean_time_to_happen = {
+		days = 1
+	}
+    
+    immediate = {
+        hidden_effect = {
+            set_country_flag = set_side_for_guldan_event
+            SWM = {
+                set_country_flag = joined_guldan
+            }
+        }
+    }
+	
+    # Join
+	option = {
+		name = wwu_rise_of_the_horde.4.option.a
+        
+        SWM = {
+            add_opinion = {
+                who = ROOT
+                modifier = allies_of_guldan
+            }
+        }
+        add_opinion = {
+            who = SWM
+            modifier = allies_of_guldan
+        }
+        
+        add_ruler_modifier = {
+            name = kiljaedens_favour
+            duration = -1
+        }
+        
+        set_country_flag = joined_guldan
+        
+        random_owned_province = {
+            change_religion = fel
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+    }
+    
+    # Reject
+    option = {
+		name = wwu_rise_of_the_horde.4.option.b
+		
+        SWM = {
+            add_opinion = {
+                who = ROOT
+                modifier = enemies_of_guldan
+            }
+        }
+        add_opinion = {
+            who = SWM
+            modifier = enemies_of_guldan
+        }
+        
+        set_country_flag = refused_guldan
+        
+        ai_chance = {
+            factor = 0
+        }
+    }
+}
+
+# The Shadow Council
+#   Grant a buff to Shadowmoon
+country_event = {
+	id = wwu_rise_of_the_horde.5
+	title = wwu_rise_of_the_horde.5.title
+	desc = wwu_rise_of_the_horde.5.desc
+	picture = ORCISH_INVASION_eventPicture
+    
+    major = yes
+    
+	trigger = {
+        current_age = age_rise_of_the_horde
+        has_global_flag = blood_of_mannoroth
+        NOT = { has_country_flag = set_blood_of_mannoroth }
+		tag = SWM
+	}
+
+    mean_time_to_happen = {
+		days = 1
+    }
+    
+	option = {
+		name = wwu_rise_of_the_horde.5.option.a
+		
+        set_country_flag = set_blood_of_mannoroth
+        set_country_flag = drank_the_demonsblood
+        
+        if = { 
+            limit = { NOT = { religion = fel } }
+            
+            change_religion = fel
+            
+            every_owned_province = {
+                change_religion = fel
+            }
+        }
+    }
+}
+
+# Collapse of the Draenei
+country_event = {
+	id = wwu_rise_of_the_horde.6
+	title = wwu_rise_of_the_horde.6.title
+	desc = wwu_rise_of_the_horde.6.desc
+	picture = ORCISH_INVASION_eventPicture
+     
+	trigger = {
+        current_age = age_rise_of_the_horde
+        NOT = { has_global_flag = blood_of_mannoroth }
+        has_global_flag = guldan_recruitment
+        capital_scope = { continent = draenor }
+        culture_group = draenei_group
+        FROM = {
+            capital_scope = { continent = draenor }
+            culture_group = orc_group
+            government = tribal
+        }
+	}
+	
+    mean_time_to_happen = {
+		days = 1
+    }
+    
+    immediate = {
+        
+    }
+    
+	option = {
+		name = wwu_rise_of_the_horde.6.option.a
+		
+        set_global_flag = blood_of_mannoroth
+    }
+}
+
+# Blood of Mannoroth
+country_event = {
+	id = wwu_rise_of_the_horde.7
+	title = wwu_rise_of_the_horde.7.title
+	desc = wwu_rise_of_the_horde.7.desc
+	picture = ORCISH_INVASION_eventPicture
+    
+	trigger = {
+        current_age = age_rise_of_the_horde
+        has_global_flag = blood_of_mannoroth
+        
+        capital_scope = { continent = draenor }
+        culture_group = orc_group
+        NOT = { has_country_flag = set_blood_of_mannoroth }
+	}
+    
+    immediate = {
+        set_country_flag = set_blood_of_mannoroth
+    }
+	
+    mean_time_to_happen = {
+		days = 1
+    }
+
+    # Join
+	option = {
+		name = wwu_rise_of_the_horde.7.option.a
+		
+        SWM = {
+            add_opinion = {
+                who = ROOT
+                modifier = accepted_the_demonsblood
+            }
+        }
+        add_opinion = {
+            who = SWM
+            modifier = accepted_the_demonsblood
+        }
+        
+        set_country_flag = drank_the_demonsblood
+        
+        change_religion = fel
+        
+        every_owned_province = {
+            change_religion = fel
+        }
+        
+        ai_chance = {
+            factor = 75
+        }
+    }
+    
+    # Reject
+    option = {
+		name = wwu_rise_of_the_horde.7.option.b
+		
+        SWM = {
+            add_opinion = {
+                who = ROOT
+                modifier = rejected_the_demonsblood
+            }
+        }
+        add_opinion = {
+            who = SWM
+            modifier = rejected_the_demonsblood
+        }
+        
+        set_country_flag = refused_the_demonsblood
+        
+        ai_chance = {
+            factor = 25
+            
+            modifier = {
+                factor = 10
+                OR = {
+                    tag = FWF
+                    tag = MOK
+                    tag = KIL
+                    tag = BLW
+                    tag = LGB
+                    tag = RWK
+                    tag = WHC
+                }
+            }
+        }
+    }
+}
+
+
+# The Dying Time
+#   Once all Draenei states are destroyed (add mission to encourage this)
+#   Kil'jaeden ceases contact, the orcs are without an enemy with all Draenei holdings destroyed
+#   All clans gain CB on one another called 'The Dying Times'
+country_event = {
+	id = wwu_rise_of_the_horde.8
+	title = wwu_rise_of_the_horde.8.title
+	desc = wwu_rise_of_the_horde.8.desc
+	picture = ORCISH_INVASION_eventPicture
+
+	trigger = { 
+        NOT = { has_global_flag = the_dying_times }
+        current_age = age_rise_of_the_horde
+        has_global_flag = blood_of_mannoroth
+        NOT = { exists = KAR }
+        NOT = { exists = SHA }
+        NOT = { exists = AUC }
+	}
+	
+    mean_time_to_happen = {
+		days = 1
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = the_dying_times
+        }
+    }
+    
+	option = {
+		name = wwu_rise_of_the_horde.8.option.a
+    }
+}
+
+# "Contact with Medivh"
+country_event = {
+	id = wwu_rise_of_the_horde.9
+	title = wwu_rise_of_the_horde.9.title
+	desc = wwu_rise_of_the_horde.9.desc
+	picture = ORCISH_INVASION_eventPicture
+    
+    fire_only_once = yes
+    
+	trigger = {
+        had_global_flag = { flag = the_dying_times days = 365 }
+        current_age = age_rise_of_the_horde
+        culture_group = orc_group
+        capital_scope = { continent = draenor } 
+	}
+	
+    mean_time_to_happen = {
+		days = 1
+    }
+    
+    immediate = {
+        hidden_effect = { set_global_flag = dark_portal_can_be_built }
+    }
+    
+	option = {
+		name = wwu_rise_of_the_horde.9.option.a
+		
+		custom_tooltip = dark_portal_starts_construction
+    }
+}
+
+
+# The Dark Portal
+country_event = {
+	id = wwu_rise_of_the_horde.10
+	title = wwu_rise_of_the_horde.10.title
+	desc = wwu_rise_of_the_horde.10.desc
 	picture = DARK_PORTAL_CLOSEUP_eventPicture
 	
     major = yes
 
 	trigger = {
+        current_age = age_rise_of_the_horde
+        had_global_flag = { flag = dark_portal_starts_construction days = 365 }
         NOT = { has_global_flag = dark_portal_constructed }
-        has_global_flag = orcish_horde_united
-        always = no # TODO
 	}
 	
     immediate = {
@@ -26,7 +569,7 @@ country_event = {
 	}
     
 	option = {
-		name = wwu_rise_of_the_horde.1.option.a
+		name = wwu_rise_of_the_horde.10.option.a
 		
         7863 = {
             add_great_project = dark_portal
@@ -38,39 +581,111 @@ country_event = {
             }
         }
         
-        show_ambient_object = outland_dark_portal_ek
+        show_ambient_object = draenor_dark_portal_ek
+        
+        # Add the Orcish Horde
+        hidden_effect = {
+            region_blasted_lands = {
+                limit = { is_empty = yes }
+                
+                cede_province = TOH
+                add_core = TOH
+                change_culture = orc
+                change_religion = fel
+            }
+            region_swamp_of_sorrows = {
+                limit = { is_empty = yes }
+                
+                cede_province = TOH
+                add_core = TOH
+                change_culture = orc
+                change_religion = fel
+            }
+            3074 = {
+                cede_province = TOH
+                add_core = TOH
+                change_culture = orc
+                change_religion = fel
+            }
+            3075 = {
+                cede_province = TOH
+                add_core = TOH
+                change_culture = orc
+                change_religion = fel
+            }
+            3080 = {
+                cede_province = TOH
+                add_core = TOH
+                change_culture = orc
+                change_religion = fel
+            }
+            area_tanaan_jungle_1 = {
+                limit = { is_empty = yes }
+                
+                cede_province = TOH
+                add_core = TOH
+                change_culture = orc
+                change_religion = fel
+            }
+            area_tanaan_jungle_2 = {
+                limit = { is_empty = yes }
+                
+                cede_province = TOH
+                add_core = TOH
+                change_culture = orc
+                change_religion = fel
+            }
+            
+            # Change player if they are clan that took the demonsblood
+            every_country = {
+                limit = {
+                    ai = no
+                    has_country_flag = drank_the_demonsblood
+                }
+                country_event = { id = wwu_rise_of_the_horde.11 }
+            }
+
+            TOH = { country_event = { id = wwu_rise_of_the_horde.12 days = 30 } }
+        }
 	}
 }
 
-# The Orcs Unite!
+# "The Orcish Horde"
 country_event = {
-	id = wwu_rise_of_the_horde.2
-	title = wwu_rise_of_the_horde.2.title
-	desc = wwu_rise_of_the_horde.2.desc
-	picture = ORC_THRONE_eventPicture
-	
-    major = yes
+	id = wwu_rise_of_the_horde.11
+	title = wwu_rise_of_the_horde.11.title
+	desc = wwu_rise_of_the_horde.11.desc
+	picture = ORCISH_INVASION_eventPicture
+    
+    is_triggered_only = yes
 
-	trigger = {
-        NOT = { has_global_flag = orcish_horde_united }
-        always = no # TODO
-	}
-	
-    immediate = {
-        hidden_effect = {
-            set_global_flag = orcish_horde_united
+	option = {
+		name = wwu_rise_of_the_horde.11.option.a
+		
+		switch_tag = TOH
+        
+        discover_home_continent = yes
+    }
+}
+
+# Integration of the Clans
+country_event = {
+	id = wwu_rise_of_the_horde.12
+	title = wwu_rise_of_the_horde.12.title
+	desc = wwu_rise_of_the_horde.12.desc
+	picture = ORCISH_INVASION_eventPicture
+    
+    is_triggered_only = yes
+
+	option = {
+		name = wwu_rise_of_the_horde.12.option.a
+		
+		# Inherit all the Fel orc clans into the Orcish Horde
+        every_country = {
+            limit = {
+                has_country_flag = drank_the_demonsblood
+            }
+            TOH = { inherit = PREV }
         }
     }
-    
-    mean_time_to_happen = {
-		days = 1
-	}
-    
-	option = {
-		name = wwu_rise_of_the_horde.1.option.a
-		
-        # Spawn The Orcish Horde
-        
-        # Setup relations with the clans
-	}
 }

@@ -72,6 +72,104 @@ orc_group = {
         female_names = { }
 		dynasty_names = { }
     }
+    fel_orc = {
+        primary = FEL
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+    }
+    shadowmoon = {
+        primary = SWM
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+    }
+    warsong = {
+        primary = WAR
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+    }
+    shattered_hand = {
+        primary = STT
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+    }
+    thunderlord = {
+        primary = TDL
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+    }
+    laughing_skull = {
+        primary = LGS
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+    }
+    bonechewer = {
+        primary = BCW
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+    }
+    frostwolf = {
+        primary = FWF
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+    }
+    moknathal = {
+        primary = MOK
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+    }
+    kilsorrow = {
+        primary = KIL
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+    }
+    bladewind = {
+        primary = BLW
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+    }
+    lightning_blade = {
+        primary = LGB
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+    }
+    redwalker = {
+        primary = RWK
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+    }
+    whiteclaw = {
+        primary = WHC
+        
+        male_names = { } 
+        female_names = { }
+		dynasty_names = { }
+    }
 }
 
 

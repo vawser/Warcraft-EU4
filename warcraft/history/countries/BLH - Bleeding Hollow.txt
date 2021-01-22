@@ -2,14 +2,13 @@ technology_group = tech_orc
 
 government = tribal
 
-add_government_reform = warband_reform
+add_government_reform = tribal_federation_reform
 
 primary_culture = bleeding_hollow
 
-religion = fel
+religion = shamanism
 
-
-capital = 1642
+capital = 7845
 
 # The First War
 590.1.1 = {
@@ -22,3 +21,8 @@ capital = 1642
 	}
 }
 
+# The Orcish Horde
+592.1.1 = {
+    add_government_reform = warband_reform
+    religion = fel
+}

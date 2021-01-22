@@ -29,6 +29,12 @@
  cb_distant_conquest: "Distant Conquest"
  cb_distant_conquest_desc: "We must secure settlements in distant lands to bolster our presence there."
  
+ cb_draenei_scum: "Crush the Draenei"
+ cb_draenei_scum_desc: "As it has been made clear by Ner'zhul, we must eradicate the Draenei."
+ 
+ cb_the_dying_times: "The Dying Times"
+ cb_the_dying_times_desc: "The elements have abandoned us. We should sieze this opportunity to crush another tribe."
+ 
  #-----------------------------------
  # Wargoals
  #-----------------------------------

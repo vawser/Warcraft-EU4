@@ -1,0 +1,18 @@
+technology_group = tech_illidari
+government = theocracy
+add_government_reform = illidari_reform
+primary_culture = illidari
+religion = fel
+capital = 1
+
+590.1.1 = {
+    monarch = {
+        name = "Illidan"
+        dynasty = "the Betrayer"
+        adm = 6
+        dip = 6
+        mil = 6
+        birth_date = 20.1.1
+    }
+}
+

@@ -1,0 +1,19 @@
+technology_group = tech_ogre
+government = monarchy
+government_rank = 3
+add_government_reform = autocracy_reform
+primary_culture = gorian
+religion = arcane
+
+capital = 7975
+
+590.1.1 = {
+    monarch = {
+        name = "Mar'gok"
+        dynasty = "the Vicious"
+        adm = 6
+        dip = 5
+        mil = 6
+    }
+}
+

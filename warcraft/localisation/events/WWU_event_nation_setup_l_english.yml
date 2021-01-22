@@ -129,3 +129,13 @@
  wwu_setup_burning_legion.1.title: "The Burning Legion"
  wwu_setup_burning_legion.1.desc: "Archimonde and his vanguard of demons have arrived and taken control of the majority of Mount Hyjal, in an attempt to destroy the world tree Nordrassil."
  wwu_setup_burning_legion.1.option.a: "Oh no!"
+ 
+ #-------------------------------------
+ # Crusaders
+ #-------------------------------------
+ # wwu_setup_crusader.1.title: "Knights of the Silver Hand"
+ # wwu_setup_crusader.1.desc: "Setup in the aftermath of the First War, the Knights of the Silver Hand proved themselves instrumental in repelling the orc threat in the subsequent wars."
+ # wwu_setup_crusader.1.option.a: "Light protects!"
+ 
+ # wwu_setup_crusader.2.title: "Scarlet Crusade"
+ # wwu_setup_crusader.2.desc: ""

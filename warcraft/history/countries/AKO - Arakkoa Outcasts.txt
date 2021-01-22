@@ -1,0 +1,17 @@
+technology_group = tech_fallen_arakkoa
+government = theocracy
+add_government_reform = monastic_order_reform
+primary_culture = fallen_arakkoa
+religion = shadow
+capital = 8025
+
+590.1.1 = {
+    monarch = {
+        name = "Raahazkeem"
+        dynasty = "the Wise"
+        adm = 5
+        dip = 4
+        mil = 1
+    }
+}
+

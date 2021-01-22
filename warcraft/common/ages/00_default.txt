@@ -191,7 +191,7 @@ age_orcish_horde = {
 	can_start = {
 		custom_trigger_tooltip = {
 			tooltip = age_orcish_horde_condition
-			has_global_flag = orcish_horde_united
+			has_global_flag = dark_portal_constructed
 		}
 	}
 	
@@ -424,6 +424,11 @@ age_scourge = {
 		custom_trigger_tooltip = {
 			tooltip = age_scourge_condition
 			has_global_flag = orcish_horde_lost_war
+            TOH = {
+                all_owned_province = {
+                    continent = draenor
+                }
+            }
 		}
 	}
 	
@@ -634,6 +639,7 @@ age_burning_legion = {
 		custom_trigger_tooltip = {
 			tooltip = age_burning_legion_condition
 			has_global_flag = scourge_lost_war
+            has_global_flag = destroyed_lich_king
 		}
 	}
 	

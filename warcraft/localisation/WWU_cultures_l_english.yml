@@ -26,6 +26,8 @@
  lordaeron: "Lordaeron"   
  dalaran: "Dalaran"
  karazhan: "Karazhan"
+ crusader: "Crusader"
+ criminal: "Criminal"
 
  #--------------------------------
  # Aqir
@@ -69,7 +71,10 @@
  lost_one_group: "Lost Ones"
  lost_ones: "Lost Ones"
  portal_seekers: "Portal Seekers"
- broken: "Broken"           
+ broken: "Broken"     
+ karabor: "Karabor"
+ shattrath: "Shattrath"
+ auchenai: "Auchenai"
 
  #--------------------------------
  # Dragon Aspects
@@ -333,6 +338,7 @@
  wrathtail: "Wrathtail"
  nazjatar: "Nazjatar"
  naga: "Naga"
+ coilskar: "Coilskar"
  
  #--------------------------------
  # Ogre
@@ -353,6 +359,9 @@
  stonegullet: "Stonegullet"
  torchbelcher: "Torchbelcher"
  ogre: "Ogre"
+ gorian: "Gorian"
+ bladespire: "Bladespire"
+ bloodmaul: "Bloodmaul"
  
  #--------------------------------
  # Orc
@@ -366,11 +375,21 @@
  stormreaver: "Stormreaver"
  dragonmaw: "Dragonmaw"
  burning_blade: "Burning Blade"
- pale_orc: "Pale Orc"
- fel_orc: "Fel Orc"
  orc: "Orc"
- pale_orc_group: "Pale Orc"
- fel_orc_group: "Fel Orc"
+ fel_orc: "Fel Orc"
+ shadowmoon: "Shadowmoon"
+ shattered_hand: "Shattered Hand"
+ thunderlord: "Thunderlord"
+ laughing_skull: "Laughing Skull"
+ bonechewer: "Bonechewer"
+ frostwolf: "Frostwolf"
+ moknathal: "Mok'nathal"
+ kilsorrow: "Kil'sorrow"
+ bladewind: "Bladewind"
+ lightning_blade: "Lightning Blade"
+ redwalker: "Redwalker"
+ whiteclaw: "Whiteclaw"
+ warsong: "Warsong"
  
  #--------------------------------
  # Pandaren
@@ -707,3 +726,14 @@
  #--------------------------------
  primitive_group: "Primitive"
  primitive: "Primitive"
+ 
+ #--------------------------------
+ # Arakkoa
+ #--------------------------------
+ arakkoa_group: "Arakkoa"
+ arakkoa: "Arakkoa"
+ 
+ fallen_arakkoa_group: "Fallen Arakkoa"
+ skettis: "Skettis"
+ dark_conclave: "Dark Conclave"
+ fallen_arakkoa: "Fallen Arakkoa"

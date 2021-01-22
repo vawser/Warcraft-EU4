@@ -344,7 +344,11 @@ groups = {
         start_cost_modifier = 0.0
         start_level = 0
     }
-    tech_arrakoa = {
+    tech_arakkoa = {
+        start_cost_modifier = 0.0
+        start_level = 0
+    }
+    tech_fallen_arakkoa = {
         start_cost_modifier = 0.0
         start_level = 0
     }
@@ -373,6 +377,10 @@ groups = {
         start_level = 0
     }
     tech_vulpera = {
+        start_cost_modifier = 0.0
+        start_level = 0
+    }
+    tech_illidari = {
         start_cost_modifier = 0.0
         start_level = 0
     }

@@ -323,6 +323,11 @@
  satyr_sect_legacy: "Demonic Sect"
  satyr_sect_legacy_desc: ""
  
+ illidari_reform: "Illidari Domain"
+ illidari_reform_desc: ""
+ illidari_legacy: "Illidari Domain"
+ illidari_legacy_desc: ""
+ 
  # Native
  native_tribe_reform: "Native Tribe"
  native_tribe_reform_desc: ""
@@ -851,6 +856,10 @@
 
  STATELESS_GOVERNMENT: "Stateless Government"
   
+ ORDER_OF_RUKHMAR: "Order of Rukhmar"
+ 
+ ILLIDARI_DOMAIN: "Illidari Domain"
+ 
  #---------------------------------------------
  # Ruler Names
  #---------------------------------------------
@@ -988,3 +997,7 @@
  GRAND_EMPRESS: "Grand Empress"
  CORRUPTOR: "Corruptor"
  TASKMASTER: "Taskmaster"
+ IMPERATOR: "Imperator"
+ HIGH_SAGE: "High Sage"
+ MASTER: "Master"
+ TALONPRIEST: "Talonpriest"

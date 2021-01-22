@@ -1,0 +1,23 @@
+technology_group = tech_draenei
+
+government = theocracy
+
+add_government_reform = theocracy_reform
+
+primary_culture = auchenai
+
+religion = light_of_the_naaru
+
+capital = 7940
+
+590.1.1 = {
+    monarch = { 
+        name = "Erudal" 
+        dynasty = "Lightfury" 
+		adm = 4
+		dip = 3
+		mil = 4
+        birth_date = 80.1.1
+    }
+}
+

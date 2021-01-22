@@ -1,6 +1,6 @@
 graphical_culture = orc_gfx
 
-color = { 58 40 42 }
+color = { 130 31 234 }
 
 monarch_names = {
 	"Gludbog" = 20

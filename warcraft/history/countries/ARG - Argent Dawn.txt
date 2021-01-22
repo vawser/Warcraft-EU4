@@ -1,0 +1,22 @@
+technology_group = tech_human
+
+government = theocracy
+
+add_government_reform = monastic_order_reform
+
+primary_culture = crusader
+
+religion = the_holy_light
+
+capital = 1
+
+590.1.1 = {
+    monarch = { 
+		name = "Maxwell" 
+		dynasty = "Tyrosus" 
+		adm = 3
+		dip = 4
+		mil = 4
+ 	}
+}
+

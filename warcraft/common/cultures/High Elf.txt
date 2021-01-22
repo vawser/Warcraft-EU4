@@ -25,6 +25,7 @@ high_elf_group = {
     }
     blood_elf = {
         graphical_culture = blood_elf_gfx
+        primary = SFY
         
         male_names = { }
         female_names = { }

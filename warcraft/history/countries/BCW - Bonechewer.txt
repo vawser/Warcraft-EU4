@@ -1,0 +1,23 @@
+technology_group = tech_orc
+government = tribal
+add_government_reform = tribal_federation_reform
+primary_culture = bonechewer
+religion = shamanism
+capital = 7857
+
+590.1.1 = {
+    monarch = { 
+		name = "Hurkan" 
+		dynasty = "Skullsplinter" 
+		adm = 2
+		dip = 3
+		mil = 3      
+	}
+}
+
+592.1.1 = {
+    add_government_reform = warband_reform
+    religion = fel
+}
+
+

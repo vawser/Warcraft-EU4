@@ -1,0 +1,21 @@
+technology_group = tech_orc
+
+government = theocracy
+
+add_government_reform = demonic_order_reform
+
+primary_culture = fel_orc
+
+religion = fel
+
+capital = 1
+
+590.1.1 = {
+    monarch = { 
+		name = "Magtheridon" 
+		dynasty = "the Vicious" 
+		adm = 4
+		dip = 2
+		mil = 6
+ 	}
+}

@@ -125,6 +125,13 @@ naga_group = {
         female_names = { }
 		dynasty_names = { }
     }
+    coilskar = {
+        primary = CKS
+        
+        male_names = { }
+        female_names = { }
+		dynasty_names = { }
+    }
 }
 
 
