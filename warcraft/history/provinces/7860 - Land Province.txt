@@ -13,3 +13,13 @@ religion = shamanism
 hre = no
 trade_goods = unknown
 
+# First War
+592.1.1 = {
+    is_city = yes
+    owner = TOH
+    controller = TOH
+    add_core = TOH
+
+    culture = orc
+    religion = fel
+}

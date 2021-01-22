@@ -8,7 +8,7 @@ primary_culture = crusader
 
 religion = the_holy_light
 
-capital = 1
+capital = 3986
 
 590.1.1 = {
     monarch = { 

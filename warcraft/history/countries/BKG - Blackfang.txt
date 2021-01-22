@@ -1,0 +1,18 @@
+technology_group = tech_saberon
+government = tribal
+add_government_reform = warband_reform
+primary_culture = blackfang
+religion = shamanism
+capital = 7870
+
+# The First War
+590.1.1 = {
+    monarch = {
+		name = "Aralas"
+		dynasty = "the Quick"
+		adm = 4
+		dip = 3
+		mil = 6
+	}
+}
+

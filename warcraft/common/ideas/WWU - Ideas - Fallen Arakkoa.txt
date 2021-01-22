@@ -1,0 +1,37 @@
+# Fallen Arakkoa
+fallen_arakkoa_ideas = {
+	start = {
+        
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		culture_group = fallen_arakkoa_group
+	}
+	free = yes		
+	
+	fallen_arakkoa_ideas_1 = {
+		
+	}
+	fallen_arakkoa_ideas_2 = {
+		
+	}
+	fallen_arakkoa_ideas_3 = {
+		
+	}
+	fallen_arakkoa_ideas_4 = {
+		
+	}
+	fallen_arakkoa_ideas_5 = {
+		
+	}
+	fallen_arakkoa_ideas_6 = {
+		
+	}
+	fallen_arakkoa_ideas_7 = {
+		
+	}
+}

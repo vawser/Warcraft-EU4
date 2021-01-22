@@ -1,6 +1,7 @@
 country_decisions = {
 	raise_the_dead = {
         potential = {
+            current_age = age_scourge
 			OR = {
                 has_reform = scourge_reform
                 has_reform = scourge_domain_reform
@@ -28,6 +29,7 @@ country_decisions = {
     
     repel_the_undead = {
         potential = {
+            current_age = age_scourge
             revolution_target_exists = yes
 			has_first_revolution_started = yes
             is_revolutionary = no
@@ -67,6 +69,7 @@ country_decisions = {
     purge_the_infected = {
         major = yes
         potential = {
+            current_age = age_scourge
             revolution_target_exists = yes
 			has_first_revolution_started = yes
             is_revolutionary = no

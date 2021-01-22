@@ -1,4 +1,29 @@
 # Specific
+gov_despotic_kingdom_FOR = {
+	rank = {
+		1 = DESPOTIC_KINGDOM
+        2 = DESPOTIC_KINGDOM
+        3 = DESPOTIC_KINGDOM
+	}
+	
+	ruler_male = {
+		1 = BANSHEE_KING
+        2 = BANSHEE_KING
+        3 = BANSHEE_KING
+	}
+	
+	ruler_female = {
+		1 = BANSHEE_QUEEN
+        2 = BANSHEE_QUEEN
+        3 = BANSHEE_QUEEN
+	}
+	
+	trigger = {
+        tag = FOR
+        has_reform = autocracy_reform
+	}
+}
+
 gov_despotic_kingdom_GOE = {
 	rank = {
 		1 = DESPOTIC_KINGDOM

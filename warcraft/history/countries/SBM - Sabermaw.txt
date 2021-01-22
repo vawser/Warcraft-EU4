@@ -1,0 +1,18 @@
+technology_group = tech_saberon
+government = tribal
+add_government_reform = warband_reform
+primary_culture = sabermaw
+religion = shamanism
+capital = 7994
+
+# The First War
+590.1.1 = {
+    monarch = {
+		name = "Rajhkee"
+		dynasty = "the Delirious"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+

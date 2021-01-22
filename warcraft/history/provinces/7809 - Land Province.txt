@@ -13,6 +13,15 @@ religion = shamanism
 hre = no
 trade_goods = unknown
 
+# First War
+592.1.1 = {
+    owner = TOH
+    controller = TOH
+    add_core = TOH
+
+    religion = fel
+}
+
 # Outland (Third War)
 594.1.1 = {
     native_size = 50
@@ -20,7 +29,8 @@ trade_goods = unknown
     native_hostileness = 5
     is_city = no
 
-    cede_province = ---
+    owner = ---
+	controller = ---
     
     culture = primitive
     religion = shamanism

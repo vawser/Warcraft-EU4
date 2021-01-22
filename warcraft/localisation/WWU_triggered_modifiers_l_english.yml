@@ -44,6 +44,10 @@
  
  ORCISH_HORDE_LOST_WAR: "The Orcish Horde has lost a war."
  
+ # Human
+ knights_of_the_silver_hand: "Knights of the Silver Hand"
+ desc_knights_of_the_silver_hand: ""
+ 
  # Province
  upm_temple_of_the_white_tiger: "Temple of the White Tiger"
  upm_temple_of_the_white_tiger_desc: ""

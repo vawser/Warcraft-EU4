@@ -1,0 +1,18 @@
+technology_group = tech_saberon
+government = tribal
+add_government_reform = warband_reform
+primary_culture = bloodmane
+religion = shamanism
+capital = 8030
+
+# The First War
+590.1.1 = {
+    monarch = {
+		name = "Karskull"
+		dynasty = "the Stout"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+

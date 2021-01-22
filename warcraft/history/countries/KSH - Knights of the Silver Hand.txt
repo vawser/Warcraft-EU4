@@ -8,8 +8,7 @@ primary_culture = crusader
 
 religion = the_holy_light
 
-
-capital = 3986
+capital = 4033
 
 # The First War
 590.1.1 = {

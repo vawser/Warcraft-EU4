@@ -1,0 +1,37 @@
+# Saberon
+saberon_ideas = {
+	start = {
+        
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		culture_group = saberon_group
+	}
+	free = yes		
+	
+	saberon_ideas_1 = {
+		
+	}
+	saberon_ideas_2 = {
+		
+	}
+	saberon_ideas_3 = {
+		
+	}
+	saberon_ideas_4 = {
+		
+	}
+	saberon_ideas_5 = {
+		
+	}
+	saberon_ideas_6 = {
+		
+	}
+	saberon_ideas_7 = {
+		
+	}
+}

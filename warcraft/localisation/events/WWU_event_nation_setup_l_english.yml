@@ -112,6 +112,20 @@
  wwu_setup_human.1.desc: "Jaina Proudmoore and her assortment of survivors from the Scourging of Lordaeron have made landing in Kalimdor, and established the city-state of Theramore in Dustwallow Marsh."
  wwu_setup_human.1.option.a: "Arise!"
  
+ wwu_setup_human.2.title: "Scarlet Crusade"
+ wwu_setup_human.2.desc: "The core of the Crusade's forces began as a group of survivors of the Silver Hand who regrouped in Hearthglen after an offer of Taelan Fordring. Ashbringer in hand, Highlord Alexandros Mograine led the knights of the once-proud order on a crusade of furious retribution in Lordaeron. Such were his acts that he and his weapon quickly became legends."
+ wwu_setup_human.2.option.a: "Arise!"
+ wwu_setup_human.2.option.b: "Arise as me!"
+ 
+ wwu_setup_human.3.title: "Argent Dawn"
+ wwu_setup_human.3.desc: "After the death of Alexandros Mograine, the survivors of the Knights of the Silver Hand became more zealous and fanatic. However, there were those who believed that their comrades had fallen from their once-noble purpose, and left to form their own order: the Argent Dawn."
+ wwu_setup_human.3.option.a: "Arise!"
+ wwu_setup_human.3.option.b: "Arise as me!"
+ 
+ wwu_setup_human.4.title: "Knights of the Silver Hand"
+ wwu_setup_human.4.desc: "The Order of the Knights of the Silver Hand is an order of paladins created in response to the First War. They were instrumental in assisting the Alliance of Lordaeron during the Second War."
+ wwu_setup_human.4.option.a: "Arise!"
+ 
  #-------------------------------------
  # Pirate
  #-------------------------------------
@@ -131,11 +145,8 @@
  wwu_setup_burning_legion.1.option.a: "Oh no!"
  
  #-------------------------------------
- # Crusaders
+ # Undead
  #-------------------------------------
- # wwu_setup_crusader.1.title: "Knights of the Silver Hand"
- # wwu_setup_crusader.1.desc: "Setup in the aftermath of the First War, the Knights of the Silver Hand proved themselves instrumental in repelling the orc threat in the subsequent wars."
- # wwu_setup_crusader.1.option.a: "Light protects!"
- 
- # wwu_setup_crusader.2.title: "Scarlet Crusade"
- # wwu_setup_crusader.2.desc: ""
+ wwu_setup_undead.1.title: "The Forsaken"
+ wwu_setup_undead.1.desc: "After Illidan's attack upon Northrend, the grasp of the Lich King has weakened. Under the banner of Sylvanas Windrunner, newly free-willed undead staged a coup against the Kel'Thuzad and rooted out the dreadlords Varimathras and Balnazzar."
+ wwu_setup_undead.1.option.a: "Arise!"

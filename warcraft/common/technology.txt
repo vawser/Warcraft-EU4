@@ -384,6 +384,14 @@ groups = {
         start_cost_modifier = 0.0
         start_level = 0
     }
+    tech_saberon = {
+        start_cost_modifier = 0.0
+        start_level = 0
+    }
+    tech_botani = {
+        start_cost_modifier = 0.0
+        start_level = 0
+    }
 }
 
 tables = {

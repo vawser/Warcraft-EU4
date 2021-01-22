@@ -79,3 +79,5 @@ mecha_gnome_gfx
 arakkoa_gfx
 fallen_arakkoa_gfx
 illidari_gfx
+saberon_gfx
+botani_gfx

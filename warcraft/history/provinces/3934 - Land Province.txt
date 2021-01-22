@@ -17,12 +17,12 @@ hre = no
 # Battle of Mount Hyjal
 595.1.1 = {
     is_city = yes
-    owner = LOR
-    controller = LOR
-    add_core = LOR
+    owner = SCS
+    controller = SCS
+    add_core = SCS
     
-    culture = lordaeron
-    religion = cult_of_the_damned
-    
-    set_revolution_in_province = yes
+    culture = crusader
+    religion = the_holy_light
 }
+
+

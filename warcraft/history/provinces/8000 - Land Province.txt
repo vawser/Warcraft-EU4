@@ -1,17 +1,26 @@
 is_city = yes
-owner = TWH
-controller = TWH
-add_core = TWH
+owner = SBM
+controller = SBM
+add_core = SBM
 
-base_tax = 3
-base_production = 4
-base_manpower = 4
+base_tax = 2
+base_production = 3
+base_manpower = 3
 
-culture = twilights_hammer
-religion = twilight_cult
+culture = sabermaw
+religion = shamanism
 
 hre = no
 trade_goods = unknown
+
+# First War
+592.1.1 = {
+    owner = TOH
+    controller = TOH
+    add_core = TOH
+
+    religion = fel
+}
 
 # Outland (Third War)
 594.1.1 = {
@@ -20,7 +29,8 @@ trade_goods = unknown
     native_hostileness = 5
     is_city = no
 
-    cede_province = ---
+    owner = ---
+	controller = ---
     
     culture = primitive
     religion = shamanism

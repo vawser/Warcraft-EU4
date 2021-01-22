@@ -24,7 +24,8 @@ trade_goods = unknown
     native_hostileness = 5
     is_city = no
 
-    cede_province = ---
+    owner = ---
+	controller = ---
     
     culture = primitive
     religion = shamanism

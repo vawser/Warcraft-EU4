@@ -1,19 +1,24 @@
 is_city = yes
-owner = BLK
-controller = BLK
-add_core = BLK
+owner = TTR
+controller = TTR
+add_core = TTR
 
 base_tax = 2
-base_production = 3
-base_manpower = 3
+base_production = 1
+base_manpower = 1
 
-culture = blackrock
+culture = tailthrasher
 religion = shamanism
 
 hre = no
 trade_goods = unknown
 
+# First War
 592.1.1 = {
+    owner = TOH
+    controller = TOH
+    add_core = TOH
+
     religion = fel
 }
 
@@ -24,7 +29,8 @@ trade_goods = unknown
     native_hostileness = 5
     is_city = no
 
-    cede_province = ---
+    owner = ---
+	controller = ---
     
     culture = primitive
     religion = shamanism

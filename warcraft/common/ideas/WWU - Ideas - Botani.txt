@@ -1,0 +1,37 @@
+# Botani
+botani_ideas = {
+	start = {
+        
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		culture_group = botani_group
+	}
+	free = yes		
+	
+	botani_ideas_1 = {
+		
+	}
+	botani_ideas_2 = {
+		
+	}
+	botani_ideas_3 = {
+		
+	}
+	botani_ideas_4 = {
+		
+	}
+	botani_ideas_5 = {
+		
+	}
+	botani_ideas_6 = {
+		
+	}
+	botani_ideas_7 = {
+		
+	}
+}

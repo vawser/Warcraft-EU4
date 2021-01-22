@@ -1,0 +1,18 @@
+technology_group = tech_saberon
+government = tribal
+add_government_reform = warband_reform
+primary_culture = tailthrasher
+religion = shamanism
+capital = 7782
+
+# The First War
+590.1.1 = {
+    monarch = {
+		name = "Gorho"
+		dynasty = "the Strong"
+		adm = 5
+		dip = 4
+		mil = 6
+	}
+}
+

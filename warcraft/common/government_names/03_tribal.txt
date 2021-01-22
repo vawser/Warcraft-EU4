@@ -1,4 +1,28 @@
 # General
+gov_warband_saberon = {
+	rank = {
+		1 = PRIDE
+		2 = PRIDE
+		3 = PRIDE
+	}
+	
+	ruler_male = {
+		1 = PRIDELORD
+        2 = PRIDELORD
+        3 = PRIDELORD
+	}
+	
+	ruler_female = {
+		1 = PRIDELADY
+        2 = PRIDELADY
+        3 = PRIDELADY
+	}
+	
+	trigger = {
+        culture_group = saberon_group
+        has_reform = warband_reform
+	}
+}
 gov_warband_centaur = {
 	rank = {
 		1 = WARBAND

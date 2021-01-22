@@ -1,17 +1,26 @@
 is_city = yes
-owner = KIL
-controller = KIL
-add_core = KIL
+owner = SRP
+controller = SRP
+add_core = SRP
 
 base_tax = 1
-base_production = 2
+base_production = 1
 base_manpower = 2
 
-culture = kilsorrow
+culture = snarlpaw
 religion = shamanism
 
 hre = no
 trade_goods = unknown
+
+# First War
+592.1.1 = {
+    owner = TOH
+    controller = TOH
+    add_core = TOH
+
+    religion = fel
+}
 
 # Outland (Third War)
 594.1.1 = {
@@ -20,7 +29,8 @@ trade_goods = unknown
     native_hostileness = 5
     is_city = no
 
-    cede_province = ---
+    owner = ---
+	controller = ---
     
     culture = primitive
     religion = shamanism

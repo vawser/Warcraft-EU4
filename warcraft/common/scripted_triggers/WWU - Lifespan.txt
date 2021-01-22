@@ -18,11 +18,14 @@ is_immortal_lifespan = {
         culture_group = dragonflight_group
         culture_group = nightborne_group
         culture_group = naga_group
+        culture_group = botani_group
     }
 }
 is_increased_lifespan = {
     OR = {
         culture_group = dwarf_group
         culture_group = mogu_group
+        culture_group = arakkoa_group
+        culture_group = fallen_arakkoa_group
     }
 }

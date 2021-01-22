@@ -10,7 +10,6 @@ country_event = {
     major = yes
 
 	trigger = {
-        current_age = age_scourge
         NOT = { has_global_flag = the_scourge_info }
         tag = SCO
 	}
@@ -28,9 +27,16 @@ country_event = {
 	option = {
 		name = wwu_scourge.1.option.a
 		
-        2068 = {
-            spawn_center_of_revolution = THIS
+        # Only spawn this in the Scourge age, so the spread stops in the Burning Legion bookmark
+        if = {
+            limit = {
+                current_age = age_scourge
+            }
+            2068 = {
+                spawn_center_of_revolution = THIS
+            }
         }
+        
         hidden_effect = {
             every_owned_province = {
                 set_revolution_in_province = yes

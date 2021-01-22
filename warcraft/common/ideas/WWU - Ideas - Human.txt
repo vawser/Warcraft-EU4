@@ -323,6 +323,49 @@ KAZ_ideas = {
 	}
 }
 
+# Crusader
+crusader_ideas = {
+	start = {
+        
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		OR = {
+            tag = SCS
+            tag = ARG
+            tag = KSH
+        }
+	}
+	free = yes		
+	
+	crusader_ideas_1 = {
+		
+	}
+	crusader_ideas_2 = {
+		
+	}
+	crusader_ideas_3 = {
+		
+	}
+	crusader_ideas_4 = {
+		
+	}
+	crusader_ideas_5 = {
+		
+	}
+	crusader_ideas_6 = {
+		
+	}
+	crusader_ideas_7 = {
+		
+	}
+}
+
+
 # Pirate
 pirate_ideas = {
 	start = {

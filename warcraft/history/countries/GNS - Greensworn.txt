@@ -1,0 +1,18 @@
+technology_group = tech_botani
+government = theocracy
+add_government_reform = monastic_order_reform
+primary_culture = greensworn
+religion = sporemounds
+capital = 7778
+
+# The First War
+590.1.1 = {
+    monarch = {
+		name = "Telogen"
+		dynasty = "the Fierce"
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+

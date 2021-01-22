@@ -5,7 +5,6 @@
 - Added Rise of the Horde bookmark/age.
 - Added Rise of the Horde events.
 - Scourge age now requires the Orcish Horde to both lose a war and have no provinces on Azeroth before it can start.
-- Burning Legion age now requires Scourge to both lose a war and have the Lich King destroyed (Icecrown Citadel sieged).
 - Scourge spread now stops if atleast 5 non-scourge nations are considered Scourge.
 
 #------------------------------
@@ -17,24 +16,11 @@ Holy Roman emperor switch msg box needs loc change
 - Add Illidan/Kael'thas events
 - Add Scourge Arthas events
 
-- Add TOH control of orc clans during First War bookmark
+- Add the new NI groups
+ Fallen Arakkoa
+ Arakkoa
+ Saberon
+ Orc Clan
+ Botani
+ Crusader
 
-- Add crusader setup events/history placement
-# Crusader states
-KSH = "countries/Knights of the Silver Hand.txt"
-SCS = "countries/Scarlet Crusade.txt"   # Split from the Silver Hand (Third War)
-ARG = "countries/Argent Dawn.txt"       # Split from the Silver Hand  (Third War)
-AED = "countries/Sons of Lothar.txt"    # After Second War, in Draenor
-
-- Add Forsaken setup event/history placement
-FOR = "countries/The Forsaken.txt" 
-
-- Add new nations
-# Saberon - Arak
-8033 8032 8030 8028 8029
-
-# Saberon - Tanaan
-7855 7869 7868 7870 7867 7871 7872
-
-# Botani
-7778 7776 7766 7764 7802 7796 7804 7803 7808 

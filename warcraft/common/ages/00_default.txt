@@ -639,7 +639,6 @@ age_burning_legion = {
 		custom_trigger_tooltip = {
 			tooltip = age_burning_legion_condition
 			has_global_flag = scourge_lost_war
-            has_global_flag = destroyed_lich_king
 		}
 	}
 	

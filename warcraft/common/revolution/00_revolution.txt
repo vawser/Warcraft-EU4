@@ -16,6 +16,12 @@ revolution = {
             }
 		}
         
+        # Ignore if not in Scourge age
+        modifier = {
+			factor = 0
+            NOT = { current_age = age_scourge }
+		}
+        
         # Ignore empty provinces
 		modifier = {
 			factor = 0
@@ -26,9 +32,9 @@ revolution = {
 			}
 		}
         
-        # Reduce spread in a country (and subjects) whilst Purge of the Scourge modifier is present
+        # Stop spread in a country (and subjects) whilst Purge of the Scourge modifier is present
         modifier = {
-			factor = 0.05
+			factor = 0
 			controller = {
                 OR = {
                     has_country_modifier = scourge_purge

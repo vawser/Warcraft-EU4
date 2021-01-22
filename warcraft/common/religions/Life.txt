@@ -102,4 +102,17 @@ life_group = {
 			land_forcelimit_modifier = 0.1
 		}
     }
+    
+    sporemounds = {
+        color = { 34 191 85 }
+		icon = 6
+		
+		country = {
+			defensiveness = 0.33
+            hostile_attrition = 2
+		}
+		country_as_secondary = {
+			defensiveness = 0.15
+		}
+    }
 }

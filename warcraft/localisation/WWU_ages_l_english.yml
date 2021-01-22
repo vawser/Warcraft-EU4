@@ -197,7 +197,7 @@
  age_burning_legion_short: "The Burning Legion"
  age_burning_legion: "The Burning Legion" 
  age_burning_legion_desc: "The Burning Legion has sent a demonic invasion force down upon Azeroth."
- age_burning_legion_condition: "The Scourge has lost a war and Icecrown Citadel has been controlled by another nation."
+ age_burning_legion_condition: "The Scourge has lost a war."
  
  # Objectives
  tbl_obj_united_front: "§YUnited Front§!"

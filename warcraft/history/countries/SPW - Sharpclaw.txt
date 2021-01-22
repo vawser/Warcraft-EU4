@@ -1,0 +1,18 @@
+technology_group = tech_saberon
+government = tribal
+add_government_reform = warband_reform
+primary_culture = sharpclaw
+religion = shamanism
+capital = 8055
+
+# The First War
+590.1.1 = {
+    monarch = {
+		name = "Shileo"
+		dynasty = "the Raging"
+		adm = 1
+		dip = 2
+		mil = 5
+	}
+}
+

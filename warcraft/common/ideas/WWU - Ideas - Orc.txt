@@ -39,8 +39,8 @@ ORG_ideas = {
 	}
 }
 
-# Orc
-orc_ideas = {
+# Orcish Horde
+TOH_ideas = {
 	start = {
 		mil_advisor_cost = -0.25
         stability_cost_modifier = -0.1
@@ -51,29 +51,67 @@ orc_ideas = {
 	}
 	
 	trigger = {
+		tag = TOH
+	}
+	free = yes		
+	
+	TOH_ideas_1 = {
+		horde_unity = 1
+	}
+	TOH_ideas_2 = {
+		discipline = 0.1
+	}
+	TOH_ideas_3 = {
+		yearly_absolutism = 0.5
+	}
+	TOH_ideas_4 = {
+		reinforce_cost_modifier = -0.25
+	}
+	TOH_ideas_5 = {
+		governing_capacity_modifier = 0.1
+	}
+	TOH_ideas_6 = {
+		land_morale = 0.1
+	}
+	TOH_ideas_7 = {
+		army_tradition = 0.5
+	}
+}
+
+# Orc
+orc_ideas = {
+	start = {
+        
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
 		culture_group = orc_group
 	}
 	free = yes		
 	
 	orc_ideas_1 = {
-		horde_unity = 1
+		
 	}
 	orc_ideas_2 = {
-		discipline = 0.1
+		
 	}
 	orc_ideas_3 = {
-		yearly_absolutism = 0.5
+		
 	}
 	orc_ideas_4 = {
-		reinforce_cost_modifier = -0.25
+		
 	}
 	orc_ideas_5 = {
-		governing_capacity_modifier = 0.1
+		
 	}
 	orc_ideas_6 = {
-		land_morale = 0.1
+		
 	}
 	orc_ideas_7 = {
-		army_tradition = 0.5
+		
 	}
 }

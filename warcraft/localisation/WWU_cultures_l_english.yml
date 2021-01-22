@@ -737,3 +737,25 @@
  skettis: "Skettis"
  dark_conclave: "Dark Conclave"
  fallen_arakkoa: "Fallen Arakkoa"
+ 
+ #--------------------------------
+ # Saberon
+ #--------------------------------
+ saberon_group: "Saberon"
+ saberon: "Saberon"
+ bloodmane: "Bloodmane"
+ daggerjaw: "Daggerjaw"
+ sabermaw: "Sabermaw"
+ sharpclaw: "Sharpclaw"
+ snarlpaw: "Snarlpaw"
+ steamscar: "Steamscar"
+ tailthrasher: "Tailthrasher"
+ blackfang: "Blackfang"
+ 
+ #--------------------------------
+ # Botani
+ #--------------------------------
+ botani_group: "Botani"
+ botani: "Botani"
+ greensworn: "Greensworn"
+ primalsworn: "Primalsworn"

@@ -1,0 +1,54 @@
+namespace = wwu_setup_undead
+
+# The Forsaken
+country_event = {
+	id = wwu_setup_undead.1
+	title = wwu_setup_undead.1.title
+	desc = wwu_setup_undead.1.desc
+	picture = UNDEAD_eventPicture
+
+    major = yes
+	fire_only_once = yes
+    
+	trigger = {
+        OR = {
+            ai = no
+            is_great_power = yes
+        }
+        NOT = { exists = FOR }
+        NOT = { has_global_flag = setup_forsaken }
+        current_age = age_burning_legion
+        LOR = {
+            has_reform = scourge_domain_reform
+        }
+    }
+    
+    immediate = {
+        hidden_effect = {
+            set_global_flag = setup_forsaken
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = wwu_setup_undead.1.option.a
+        
+        region_tirisfal_glades = {
+            limit = { 
+                culture = scourge
+            }
+            
+            cede_province = FOR
+            add_core = FOR
+            change_culture = forsaken
+            change_religion = necromancy
+        }
+        
+        ai_chance = {
+            factor = 100
+        }
+	}
+}

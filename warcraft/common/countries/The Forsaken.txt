@@ -1,6 +1,6 @@
 graphical_culture = undead_gfx
 
-color = { 166 43 201 }
+color = { 87 27 182 }
 
 monarch_names = {
 	"Harry" = 20

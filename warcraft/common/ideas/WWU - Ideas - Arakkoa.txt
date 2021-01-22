@@ -1,0 +1,37 @@
+# Arakkoa
+arakkoa_ideas = {
+	start = {
+        
+	}
+
+	bonus = {
+        
+	}
+	
+	trigger = {
+		culture_group = arakkoa_group
+	}
+	free = yes		
+	
+	arakkoa_ideas_1 = {
+		
+	}
+	arakkoa_ideas_2 = {
+		
+	}
+	arakkoa_ideas_3 = {
+		
+	}
+	arakkoa_ideas_4 = {
+		
+	}
+	arakkoa_ideas_5 = {
+		
+	}
+	arakkoa_ideas_6 = {
+		
+	}
+	arakkoa_ideas_7 = {
+		
+	}
+}

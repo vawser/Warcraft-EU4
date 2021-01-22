@@ -9,11 +9,10 @@ primary_culture = forsaken
 
 religion = necromancy
 
-
-capital = 1
+capital = 3905
 
 # Third War
-612.1.1 = {
+590.1.1 = {
     monarch = { 
 		name = "Sylvannas" 
 		dynasty = "Windrunner" 

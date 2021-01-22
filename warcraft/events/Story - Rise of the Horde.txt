@@ -14,7 +14,7 @@ country_event = {
 	}
 	
     mean_time_to_happen = {
-		days = 1
+		months = 64
 	}
     
     immediate = {
@@ -160,7 +160,7 @@ country_event = {
 	}
 	
     mean_time_to_happen = {
-		days = 1
+		months = 24
 	}
     
     immediate = {
@@ -378,13 +378,11 @@ country_event = {
     }
     
     immediate = {
-        
+        hidden_effect = { set_global_flag = blood_of_mannoroth }
     }
     
 	option = {
 		name = wwu_rise_of_the_horde.6.option.a
-		
-        set_global_flag = blood_of_mannoroth
     }
 }
 
@@ -497,7 +495,7 @@ country_event = {
 	}
 	
     mean_time_to_happen = {
-		days = 1
+		months = 12
     }
     
     immediate = {
@@ -528,7 +526,7 @@ country_event = {
 	}
 	
     mean_time_to_happen = {
-		days = 1
+		months = 24
     }
     
     immediate = {
@@ -565,7 +563,7 @@ country_event = {
     }
     
     mean_time_to_happen = {
-		days = 1
+		months = 24
 	}
     
 	option = {
@@ -689,3 +687,4 @@ country_event = {
         }
     }
 }
+

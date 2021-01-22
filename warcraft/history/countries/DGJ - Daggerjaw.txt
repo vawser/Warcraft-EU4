@@ -1,0 +1,18 @@
+technology_group = tech_saberon
+government = tribal
+add_government_reform = warband_reform
+primary_culture = daggerjaw
+religion = shamanism
+capital = 7830
+
+# The First War
+590.1.1 = {
+    monarch = {
+		name = "Gorash"
+		dynasty = "the Towering"
+		adm = 4
+		dip = 1
+		mil = 2
+	}
+}
+

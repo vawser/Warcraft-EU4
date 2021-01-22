@@ -1,15 +1,29 @@
-native_size = 3
-native_ferocity = 1
-native_hostileness = 6
-is_city = no
+is_city = yes
+owner = SPW
+controller = SPW
+add_core = SPW
 
-base_tax = 1
+base_tax = 2
 base_production = 1
-base_manpower = 1
+base_manpower = 2
 
-culture = primitive
+culture = sharpclaw
 religion = shamanism
 
 hre = no
 trade_goods = unknown
+
+# Outland (Third War)
+594.1.1 = {
+    native_size = 50
+    native_ferocity = 5
+    native_hostileness = 5
+    is_city = no
+
+    owner = ---
+	controller = ---
+    
+    culture = primitive
+    religion = shamanism
+}
 

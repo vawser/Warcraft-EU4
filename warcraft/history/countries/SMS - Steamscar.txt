@@ -1,0 +1,18 @@
+technology_group = tech_saberon
+government = tribal
+add_government_reform = warband_reform
+primary_culture = snarlpaw
+religion = shamanism
+capital = 7805
+
+# The First War
+590.1.1 = {
+    monarch = {
+		name = "Ashraz"
+		dynasty = "the Tough"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+

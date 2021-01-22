@@ -15,8 +15,16 @@ trade_goods = unknown
 
 clr_global_flag = dark_portal_constructed
 
-# The Orcish Horde
+# First War
 592.1.1 = {
+    is_city = yes
+    owner = TOH
+    controller = TOH
+    add_core = TOH
+
+    culture = orc
+    religion = fel
+    
     add_great_project = dark_portal
     set_global_flag = dark_portal_constructed
 }

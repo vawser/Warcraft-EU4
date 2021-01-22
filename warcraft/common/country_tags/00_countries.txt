@@ -526,3 +526,18 @@ FEL = "countries/Fel Horde.txt"         # Magtheridon's forces (Outland)
 ILD = "countries/Illidari Domain.txt"   # Illidan's forces (Outland)
 CKS = "countries/Coilskar.txt"          # Illidan's Naga forces
 SFY = "countries/Sunfury.txt"           # Kael'thas forces (Outland)
+
+# ---- Saberon ----
+BOM = "countries/Bloodmane.txt"
+DGJ = "countries/Daggerjaw.txt"
+SBM = "countries/Sabermaw.txt"
+SPW = "countries/Sharpclaw.txt"
+SRP = "countries/Snarlpaw.txt"
+SMS = "countries/Steamscar.txt"
+TTR = "countries/Tailthrasher.txt"
+BKG = "countries/Blackfang.txt"
+
+# ---- Botani ----
+GNS = "countries/Greensworn.txt"
+PMS = "countries/Primalsworn.txt"
+

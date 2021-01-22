@@ -847,18 +847,15 @@
  NERUBIAN_EMPIRE: "Nerubian Empire"
  
  TOLVIR_KINGDOM: "Tol'vir Kingdom"
- 
  SATYR_SECT: "Demonic Sect"
- 
  BLOOD_CULT: "Blood Cult"
- 
  EMPIRE_OF_AZSHARA: "Empire of Azshara"
-
  STATELESS_GOVERNMENT: "Stateless Government"
-  
  ORDER_OF_RUKHMAR: "Order of Rukhmar"
- 
  ILLIDARI_DOMAIN: "Illidari Domain"
+ PRIMAL_ORDER: "Primal Order"
+ ORDER_OF_RAVENS: "Order of Ravens"
+ PRIDE: "Pride"
  
  #---------------------------------------------
  # Ruler Names
@@ -1001,3 +998,8 @@
  HIGH_SAGE: "High Sage"
  MASTER: "Master"
  TALONPRIEST: "Talonpriest"
+ BANSHEE_KING: "Banshee King"
+ BANSHEE_QUEEN: "Banshee Queen"
+ GROVE_WARDEN: "Grove Warden"
+ PRIDELORD: "Pridelord"
+ PRIDELADY: "Pridelady"

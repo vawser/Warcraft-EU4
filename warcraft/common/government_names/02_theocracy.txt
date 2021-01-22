@@ -1,9 +1,33 @@
 # Specific
+gov_monastic_order_botani = {
+	rank = {
+		1 = PRIMAL_ORDER
+		2 = PRIMAL_ORDER
+		3 = PRIMAL_ORDER
+	}
+	
+	ruler_male = {
+		1 = GROVE_WARDEN
+		2 = GROVE_WARDEN
+		3 = GROVE_WARDEN
+	}
+	
+	ruler_female = {
+		1 = GROVE_WARDEN
+		2 = GROVE_WARDEN
+		3 = GROVE_WARDEN
+	}
+	
+	trigger = {
+        technology_group = tech_botani
+        has_reform = monastic_order_reform
+	}
+}
 gov_monastic_order_arakkoa = {
 	rank = {
-		1 = MONASTIC_ORDER
-		2 = MONASTIC_ORDER
-		3 = MONASTIC_ORDER
+		1 = ORDER_OF_RAVENS
+		2 = ORDER_OF_RAVENS
+		3 = ORDER_OF_RAVENS
 	}
 	
 	ruler_male = {
@@ -20,7 +44,7 @@ gov_monastic_order_arakkoa = {
 	
 	trigger = {
         technology_group = tech_fallen_arakkoa
-        religion = light_of_the_naaru
+        has_reform = monastic_order_reform
 	}
 }
 gov_theocracy_blood_troll = {
