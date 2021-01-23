@@ -1,7 +1,7 @@
 technology_group = tech_ogre
 government = monarchy
 government_rank = 3
-add_government_reform = autocracy_reform
+add_government_reform = kingdom_of_magic_reform
 primary_culture = gorian
 religion = arcane
 
@@ -14,6 +14,21 @@ capital = 7975
         adm = 6
         dip = 5
         mil = 6
+    }
+    clear_scripted_personalities = yes
+    add_ruler_personality = spellcaster_personality
+    
+    set_variable = {
+        which = ruler_magic_aptitude
+        value = 20
+    }
+    set_variable = {
+        which = ruler_magic_finesse
+        value = 15
+    }
+    set_variable = {
+        which = ruler_magic_concentration
+        value = 15
     }
 }
 

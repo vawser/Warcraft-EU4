@@ -273,7 +273,86 @@ on_abandon_colony = {
 # OBS: Consider that the following on_actions can be called for Personal Union juniors as well.
 # country
 on_new_monarch = {
-
+    #---------------
+    # Magic
+    #---------------
+    reset_spellcaster_skills = yes
+    
+    # Add the Spellcaster mechanic automatically for these monarchs
+    if = {
+        limit = {
+            OR = {
+                has_reform = magocracy_reform
+                has_reform = kingdom_of_magic_reform
+            }
+        }
+        add_ruler_personality = spellcaster_personality
+    
+        random_list = {
+            33 = {
+                set_variable = {
+                    which = ruler_magic_aptitude
+                    value = 5
+                }
+            }
+            33 = {
+                set_variable = {
+                    which = ruler_magic_aptitude
+                    value = 10
+                }
+            }
+            33 = {
+                set_variable = {
+                    which = ruler_magic_aptitude
+                    value = 15
+                }
+            }
+        }
+        random_list = {
+            33 = {
+                set_variable = {
+                    which = ruler_magic_finesse
+                    value = 5
+                }
+            }
+            33 = {
+                set_variable = {
+                    which = ruler_magic_finesse
+                    value = 10
+                }
+            }
+            33 = {
+                set_variable = {
+                    which = ruler_magic_finesse
+                    value = 15
+                }
+            }
+        }
+        random_list = {
+            33 = {
+                set_variable = {
+                    which = ruler_magic_concentration
+                    value = 5
+                }
+            }
+            33 = {
+                set_variable = {
+                    which = ruler_magic_concentration
+                    value = 10
+                }
+            }
+            33 = {
+                set_variable = {
+                    which = ruler_magic_concentration
+                    value = 15
+                }
+            }
+        }
+    }
+    
+    #---------------
+    # Consort
+    #---------------
 	if = {
 		limit = {
 			has_consort_regency = no
@@ -1016,7 +1095,50 @@ on_bi_yearly_pulse_2 = {
 }
 
 on_bi_yearly_pulse_3 = {
+    #-----------------------
+    # Mana Regen
+    #-----------------------
+    random = {
+        chance = 50
+        change_variable = {
+            which = ruler_magic_mana
+            value = 1
+        }
+        if = {
+            limit = {
+                check_variable = {
+                    which = ruler_magic_mana
+                    value = 5
+                }
+            }
+            set_variable = {
+                which = ruler_magic_mana
+                value = 5
+            }
+        }
+    }
+    
+    #-----------------------
+    # Magic Events
+    #-----------------------
+    events = {
+        wwu_magic.11 # Accomplished Spellcaster
+    }
+    random_events = {
+        # Magic Training
+        100 = wwu_magic.1
+        50 = wwu_magic.2
+        50 = wwu_magic.3
+        50 = wwu_magic.4
+        100 = wwu_magic.5
+        100 = wwu_magic.6
+        100 = wwu_magic.7
+        100 = wwu_magic.8
+        100 = wwu_magic.9
+        100 = wwu_magic.10
         
+        1000 = 0
+    }
 }
 
 on_bi_yearly_pulse_4 = {

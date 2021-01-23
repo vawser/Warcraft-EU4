@@ -19,7 +19,22 @@ capital = 3079
 		adm = 4
 		dip = 5
 		mil = 4
-	} 
+	}
+    clear_scripted_personalities = yes
+    add_ruler_personality = spellcaster_personality
+    
+    set_variable = {
+        which = ruler_magic_aptitude
+        value = 25
+    }
+    set_variable = {
+        which = ruler_magic_finesse
+        value = 25
+    }
+    set_variable = {
+        which = ruler_magic_concentration
+        value = 25
+    }
 }
 
 # Second War

@@ -1,18 +1,40 @@
 #------------------------------
 # Changelog
 #------------------------------
-- Added Draenor.
-- Added Rise of the Horde bookmark/age.
-- Added Rise of the Horde events.
-- Scourge age now requires the Orcish Horde to both lose a war and have no provinces on Azeroth before it can start.
-- Scourge spread now stops if atleast 5 non-scourge nations are considered Scourge.
 
 #------------------------------
 # Notes
 #------------------------------
 Name key provinces
-Holy Roman emperor switch msg box needs loc change
 
+Holy Roman emperor switch msg box needs loc change
+Extend the lower res mission bg to match the bigger res one
+
+- Add Thunderbluff for Tauren Federation
 - Add Illidan/Kael'thas events
 - Add Scourge Arthas events
 
+- Add magic system, similar to Anbennar
+ - Linked to ruler, add Powerful Spellcaster as a personality trait, allow it to be gained via study, or automatic for some nations such as Dalaran.
+ 
+# ruler_magic_training
+# ruler_magic_aptitude
+# ruler_magic_finesse
+# ruler_magic_concentration
+# ruler_magic_mana
+
+  - Each ruler has a skill level in the following attributes:
+   - Finesse (Power)
+   - Concentration (Duration)
+   - Aptitude (Unlock spells)
+  - They are improved through study, although at the cost of monarch power gain
+  
+  - Invoke Domain Magic: allows the use of nation-level spells
+   - Transmute Gold: convert mana into gold
+   - Conjure Feast: gain diplomatic bonuses
+   - Alter Time: gain administrative bonuses
+   - Frigid Winds: add hostile movement speed debuff in all provinces
+   - Invisibility: add friendly movement speed buff in all provinces
+   - Summon Portal: add construction bonuses
+   - Ice Block: add defensive bonus in all provinces
+   

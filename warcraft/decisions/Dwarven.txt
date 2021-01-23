@@ -9,18 +9,18 @@ country_decisions = {
             NOT = { DKI = { has_country_flag = unified_dwarf } }
 		}
 		allow = {
+            prestige = 50
             # Cities is higher than other two
             num_of_cities = DKI
             num_of_cities = WIL
             
 			DKI = {
-				has_opinion = { who = ROOT value = 180 }
+				has_opinion = { who = ROOT value = 200 }
 				alliance_with = ROOT
 			}
 			WIL = {
-				has_opinion = { who = ROOT value = 180 }
+				has_opinion = { who = ROOT value = 200 }
 				alliance_with = ROOT
-                marriage_with = ROOT
 			}
 		}
 		effect = {
@@ -71,18 +71,18 @@ country_decisions = {
             NOT = { DKI = { has_country_flag = unified_dwarf } }
 		}
 		allow = {
+            prestige = 50
             # Cities is higher than other two
             num_of_cities = DKI
             num_of_cities = IRO
             
 			DKI = {
-				has_opinion = { who = ROOT value = 180 }
+				has_opinion = { who = ROOT value = 200 }
 				alliance_with = ROOT
 			}
 			IRO = {
-				has_opinion = { who = ROOT value = 180 }
+				has_opinion = { who = ROOT value = 200 }
 				alliance_with = ROOT
-                marriage_with = ROOT
 			}
 		}
 		effect = {
@@ -133,19 +133,18 @@ country_decisions = {
             NOT = { IRO = { has_country_flag = unified_dwarf } }
 		}
 		allow = {
+            prestige = 50
             # Cities is higher than other two
             num_of_cities = IRO
             num_of_cities = WIL
             
 			IRO = {
-				has_opinion = { who = ROOT value = 180 }
+				has_opinion = { who = ROOT value = 200 }
 				alliance_with = ROOT
-                marriage_with = ROOT
 			}
 			WIL = {
-				has_opinion = { who = ROOT value = 180 }
+				has_opinion = { who = ROOT value = 200 }
 				alliance_with = ROOT
-                marriage_with = ROOT
 			}
 		}
 		effect = {

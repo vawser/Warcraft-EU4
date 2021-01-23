@@ -1,0 +1,1235 @@
+#------------------------
+# Skills
+#------------------------
+add_magical_training_point = {
+    custom_tooltip = MAGIC_TRAINING_GAIN
+    
+    hidden_effect = {
+        change_variable = {
+            which = ruler_magic_training
+            value = 1
+        }
+    }
+}
+remove_magical_training_point = {
+    custom_tooltip = MAGIC_TRAINING_LOSS
+    
+    hidden_effect = {
+        change_variable = {
+            which = ruler_magic_training
+            value = -1
+        }
+    }
+}
+
+add_aptitude_point = {
+    custom_tooltip = MAGIC_APTITUDE_GAIN
+    
+    hidden_effect = {
+        change_variable = {
+            which = ruler_magic_aptitude
+            value = 1
+        }
+    }
+}
+remove_aptitude_point = {
+    custom_tooltip = MAGIC_APTITUDE_LOSS
+    
+    hidden_effect = {
+        change_variable = {
+            which = ruler_magic_aptitude
+            value = -1
+        }
+    }
+}
+
+add_finesse_point = {
+    custom_tooltip = MAGIC_FINESSE_GAIN
+    
+    hidden_effect = {
+        change_variable = {
+            which = ruler_magic_finesse
+            value = 1
+        }
+    }
+}
+remove_finesse_point = {
+    custom_tooltip = MAGIC_FINESSE_LOSS
+    
+    hidden_effect = {
+        change_variable = {
+            which = ruler_magic_finesse
+            value = -1
+        }
+    }
+}
+
+add_concentration_point = {
+    custom_tooltip = MAGIC_CONCENTRATION_GAIN
+    
+    hidden_effect = {
+        change_variable = {
+            which = ruler_magic_concentration
+            value = 1
+        }
+    }
+}
+remove_concentration_point = {
+    custom_tooltip = MAGIC_CONCENTRATION_LOSS
+    
+    hidden_effect = {
+        change_variable = {
+            which = ruler_magic_concentration
+            value = -1
+        }
+    }
+}
+
+reset_spellcaster_skills = {
+    set_variable = {
+        which = ruler_magic_aptitude
+        value = 0
+    }
+    set_variable = {
+        which = ruler_magic_finesse
+        value = 0
+    }
+    set_variable = {
+        which = ruler_magic_concentration
+        value = 0
+    }
+    set_variable = {
+        which = ruler_magic_mana
+        value = 0
+    }
+}
+
+add_mana = {
+    custom_tooltip = MANA_GAIN
+    
+    hidden_effect = {
+        change_variable = {
+            which = ruler_magic_mana
+            value = 1
+        }
+    }
+}
+lose_mana = {
+    custom_tooltip = MANA_LOSS
+    
+    hidden_effect = {
+        change_variable = {
+            which = ruler_magic_mana
+            value = -1
+        }
+    }
+}
+
+add_magical_exhaustion = {
+    custom_tooltip = ADD_MAGICAL_EXHAUSTION_TT
+    
+    hidden_effect = {
+        add_ruler_modifier = {
+            name = magical_exhaustion
+            duration = 365
+        }
+    }
+}
+
+#------------------------
+# Spells
+#------------------------
+conjure_feast_effect = {
+    # Poor
+    if = {
+        limit = {
+            has_poor_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_poor
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_poor
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_poor
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_poor
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_poor
+                duration = 3650
+            }
+        }
+    }
+    # Common
+    else_if = {
+        limit = {
+            has_common_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_common
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_common
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_common
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_common
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_common
+                duration = 3650
+            }
+        }
+    }
+    # Rare
+    else_if = {
+        limit = {
+            has_rare_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_rare
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_rare
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_rare
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_rare
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_rare
+                duration = 3650
+            }
+        }
+    }
+    # Epic
+    else_if = {
+        limit = {
+            has_epic_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_epic
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_epic
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_epic
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_epic
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_epic
+                duration = 3650
+            }
+        }
+    }
+    # Legendary
+    else_if = {
+        limit = {
+            has_legendary_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_legendary
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_legendary
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_legendary
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_legendary
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = conjure_feast_legendary
+                duration = 3650
+            }
+        }
+    }
+}
+
+apply_mass_invisibility_effect = {
+    # Poor
+    if = {
+        limit = {
+            has_poor_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_poor
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_poor
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_poor
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_poor
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_poor
+                duration = 3650
+            }
+        }
+    }
+    # Common
+    else_if = {
+        limit = {
+            has_common_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_common
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_common
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_common
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_common
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_common
+                duration = 3650
+            }
+        }
+    }
+    # Rare
+    else_if = {
+        limit = {
+            has_rare_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_rare
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_rare
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_rare
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_rare
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_rare
+                duration = 3650
+            }
+        }
+    }
+    # Epic
+    else_if = {
+        limit = {
+            has_epic_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_epic
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_epic
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_epic
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_epic
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_epic
+                duration = 3650
+            }
+        }
+    }
+    # Legendary
+    else_if = {
+        limit = {
+            has_legendary_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_legendary
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_legendary
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_legendary
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_legendary
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = apply_mass_invisibility_legendary
+                duration = 3650
+            }
+        }
+    }
+}
+
+summon_portals_effect = {
+    # Poor
+    if = {
+        limit = {
+            has_poor_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_poor
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_poor
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_poor
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_poor
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_poor
+                duration = 3650
+            }
+        }
+    }
+    # Common
+    else_if = {
+        limit = {
+            has_common_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_common
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_common
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_common
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_common
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_common
+                duration = 3650
+            }
+        }
+    }
+    # Rare
+    else_if = {
+        limit = {
+            has_rare_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_rare
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_rare
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_rare
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_rare
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_rare
+                duration = 3650
+            }
+        }
+    }
+    # Epic
+    else_if = {
+        limit = {
+            has_epic_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_epic
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_epic
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_epic
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_epic
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_epic
+                duration = 3650
+            }
+        }
+    }
+    # Legendary
+    else_if = {
+        limit = {
+            has_legendary_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_legendary
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_legendary
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_legendary
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_legendary
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = summon_portals_legendary
+                duration = 3650
+            }
+        }
+    }
+}
+
+transmute_gold_effect = {
+    # Poor
+    if = {
+        limit = {
+            has_poor_finesse = yes
+        }
+        
+        add_years_of_income = 1
+    }
+    # Common
+    else_if = {
+        limit = {
+            has_common_finesse = yes
+        }
+        
+        add_years_of_income = 2
+    }
+    # Rare
+    else_if = {
+        limit = {
+            has_rare_finesse = yes
+        }
+        
+        add_years_of_income = 3
+    }
+    # Epic
+    else_if = {
+        limit = {
+            has_epic_finesse = yes
+        }
+        
+        add_years_of_income = 4
+    }
+    # Legendary
+    else_if = {
+        limit = {
+            has_legendary_finesse = yes
+        }
+        
+        add_years_of_income = 5
+    }
+}
+
+alter_time_effect = {
+    # Poor
+    if = {
+        limit = {
+            has_poor_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_poor
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_poor
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_poor
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_poor
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_poor
+                duration = 3650
+            }
+        }
+    }
+    # Common
+    else_if = {
+        limit = {
+            has_common_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_common
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_common
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_common
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_common
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_common
+                duration = 3650
+            }
+        }
+    }
+    # Rare
+    else_if = {
+        limit = {
+            has_rare_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_rare
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_rare
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_rare
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_rare
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_rare
+                duration = 3650
+            }
+        }
+    }
+    # Epic
+    else_if = {
+        limit = {
+            has_epic_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_epic
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_epic
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_epic
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_epic
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_epic
+                duration = 3650
+            }
+        }
+    }
+    # Legendary
+    else_if = {
+        limit = {
+            has_legendary_finesse = yes
+        }
+        
+        if = {
+            limit = {
+                has_poor_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_legendary
+                duration = 730
+            }
+        }
+        else_if = {
+            limit = {
+                has_common_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_legendary
+                duration = 1460
+            }
+        }
+        else_if = {
+            limit = {
+                has_rare_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_legendary
+                duration = 2190
+            }
+        }
+        else_if = {
+            limit = {
+                has_epic_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_legendary
+                duration = 2920
+            }
+        }
+        else_if = {
+            limit = {
+                has_legendary_concentration = yes
+            }
+            add_ruler_modifier = {
+                name = alter_time_legendary
+                duration = 3650
+            }
+        }
+    }
+}

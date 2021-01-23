@@ -21,4 +21,19 @@ capital = 3470
 		dip = 6
 		mil = 6
 	}
+    clear_scripted_personalities = yes
+    add_ruler_personality = spellcaster_personality
+    
+    set_variable = {
+        which = ruler_magic_aptitude
+        value = 20
+    }
+    set_variable = {
+        which = ruler_magic_finesse
+        value = 25
+    }
+    set_variable = {
+        which = ruler_magic_concentration
+        value = 15
+    }
 }

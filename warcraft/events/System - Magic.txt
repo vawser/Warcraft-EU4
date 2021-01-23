@@ -1,0 +1,1033 @@
+namespace = wwu_magic
+
+# ruler_magic_training
+# ruler_magic_aptitude
+# ruler_magic_finesse
+# ruler_magic_concentration
+
+#-----------------------------
+# Magic Training
+#-----------------------------
+# Magical Experiments
+country_event = {
+	id = wwu_magic.1
+	title = wwu_magic.1.title
+	desc = wwu_magic.1.desc
+	picture = KAELTHAS_CLOSE_eventPicture
+    
+	is_triggered_only = yes
+    
+    trigger = {
+        has_ruler_modifier = magical_training
+    }
+	
+	option = {
+		name = wwu_magic.1.option.a
+		
+        add_adm_power = 25
+	}
+    option = {
+		name = wwu_magic.1.option.b
+		
+        add_magical_training_point = yes
+	}
+}
+
+# Test of Aptitude
+country_event = {
+	id = wwu_magic.2
+	title = wwu_magic.2.title
+	desc = wwu_magic.2.desc
+	picture = BIG_BOOK_eventPicture
+    
+	is_triggered_only = yes
+    
+    trigger = {
+        has_ruler_modifier = magical_training
+    }
+	
+	option = {
+		name = wwu_magic.2.option.a
+		
+        add_magical_training_point = yes
+        
+        random_list = {
+            75 = {
+                add_aptitude_point = yes
+            }
+            25 = {
+                remove_aptitude_point = yes
+            }
+        }
+	}
+    option = {
+		name = wwu_magic.2.option.b
+		
+        add_magical_training_point = yes
+        
+        random = {
+            chance = 25
+            
+            add_aptitude_point = yes
+        }
+	}
+    option = {
+		name = wwu_magic.2.option.c
+		
+        add_adm_power = 100
+	}
+}
+
+# Test of Finesse
+country_event = {
+	id = wwu_magic.3
+	title = wwu_magic.3.title
+	desc = wwu_magic.3.desc
+	picture = BIG_BOOK_eventPicture
+    
+	is_triggered_only = yes
+    
+    trigger = {
+        has_ruler_modifier = magical_training
+    }
+	
+	option = {
+		name = wwu_magic.3.option.a
+		
+        add_magical_training_point = yes
+        
+        random_list = {
+            75 = {
+                add_finesse_point = yes
+            }
+            25 = {
+                remove_finesse_point = yes
+            }
+        }
+	}
+    option = {
+		name = wwu_magic.3.option.b
+		
+        add_magical_training_point = yes
+        
+        random = {
+            chance = 25
+            
+            add_finesse_point = yes
+        }
+	}
+    option = {
+		name = wwu_magic.3.option.c
+		
+        add_mil_power = 100
+	}
+}
+
+# Test of Concentration
+country_event = {
+	id = wwu_magic.4
+	title = wwu_magic.4.title
+	desc = wwu_magic.4.desc
+	picture = BIG_BOOK_eventPicture
+    
+	is_triggered_only = yes
+    
+    trigger = {
+        has_ruler_modifier = magical_training
+    }
+	
+	option = {
+		name = wwu_magic.4.option.a
+		
+        add_magical_training_point = yes
+        
+        random_list = {
+            75 = {
+                add_concentration_point = yes
+            }
+            25 = {
+                remove_concentration_point = yes
+            }
+        }
+	}
+    option = {
+		name = wwu_magic.4.option.b
+		
+        add_magical_training_point = yes
+        
+        random = {
+            chance = 25
+            
+            add_concentration_point = yes
+        }
+	}
+    option = {
+		name = wwu_magic.4.option.c
+		
+        add_dip_power = 100
+	}
+}
+
+# Involve the Light
+country_event = {
+	id = wwu_magic.5
+	title = wwu_magic.5.title
+	desc = wwu_magic.5.desc
+	picture = BLIND_PALADIN_eventPicture
+    
+	is_triggered_only = yes
+    
+    trigger = {
+        has_ruler_modifier = magical_training
+        religion_group = light_group
+    }
+	
+    option = {
+		name = wwu_magic.5.option.a
+		
+        add_magical_training_point = yes
+	}
+}
+
+# Twisting in the Shadows
+country_event = {
+	id = wwu_magic.6
+	title = wwu_magic.6.title
+	desc = wwu_magic.6.desc
+	picture = NATHREZIM_eventPicture
+    
+	is_triggered_only = yes
+    
+    trigger = {
+        has_ruler_modifier = magical_training
+        religion_group = shadow_group
+    }
+	
+    option = {
+		name = wwu_magic.6.option.a
+		
+        add_magical_training_point = yes
+	}
+}
+
+# Manifest the Arcane
+country_event = {
+	id = wwu_magic.7
+	title = wwu_magic.7.title
+	desc = wwu_magic.7.desc
+	picture = MAGI_eventPicture
+    
+	is_triggered_only = yes
+    
+    trigger = {
+        has_ruler_modifier = magical_training
+        religion_group = order_group
+    }
+	
+    option = {
+		name = wwu_magic.7.option.a
+		
+        add_magical_training_point = yes
+	}
+}
+
+# Invoke Disorder
+country_event = {
+	id = wwu_magic.8
+	title = wwu_magic.8.title
+	desc = wwu_magic.8.desc
+	picture = ORC_WARLOCK_KILJAEDEN_eventPicture
+    
+	is_triggered_only = yes
+    
+    trigger = {
+        has_ruler_modifier = magical_training
+        religion_group = disorder_group
+    }
+	
+    option = {
+		name = wwu_magic.8.option.a
+		
+        add_magical_training_point = yes
+	}
+}
+
+# Draw upon Life
+country_event = {
+	id = wwu_magic.9
+	title = wwu_magic.9.title
+	desc = wwu_magic.9.desc
+	picture = DRUIDCLAW_eventPicture
+    
+	is_triggered_only = yes
+    
+    trigger = {
+        has_ruler_modifier = magical_training
+        religion_group = life_group
+    }
+	
+    option = {
+		name = wwu_magic.9.option.a
+		
+        add_magical_training_point = yes
+	}
+}
+
+# Ruminate about Death
+country_event = {
+	id = wwu_magic.10
+	title = wwu_magic.10.title
+	desc = wwu_magic.10.desc
+	picture = NAXXRAMAS_eventPicture
+    
+	is_triggered_only = yes
+    
+    trigger = {
+        has_ruler_modifier = magical_training
+        religion_group = death_group
+    }
+	
+    option = {
+		name = wwu_magic.10.option.a
+		
+        add_magical_training_point = yes
+	}
+}
+
+# Accomplished Spellcaster
+country_event = {
+	id = wwu_magic.11
+	title = wwu_magic.11.title
+	desc = wwu_magic.11.desc
+	picture = BIG_BOOK_eventPicture
+    
+	is_triggered_only = yes
+    
+    trigger = {
+        NOT = { ruler_has_personality = spellcaster_personality }
+        check_variable = {
+            which = ruler_magic_training
+            value = 5
+        }
+    }
+	
+    option = {
+		name = wwu_magic.11.option.a
+		
+        add_ruler_personality = spellcaster_personality
+        
+        hidden_effect = {
+            remove_country_modifier = magical_training
+            
+            # Reset mana
+            set_variable = {
+                which = ruler_magic_mana
+                value = 0
+            }
+        }
+	}
+}
+
+# More Training Required
+country_event = {
+	id = wwu_magic.12
+	title = wwu_magic.12.title
+	desc = wwu_magic.12.desc
+	picture = BIG_BOOK_eventPicture
+    
+	is_triggered_only = yes
+    
+    trigger = {
+        NOT = { ruler_has_personality = spellcaster_personality }
+    }
+	
+    option = {
+		name = wwu_magic.12.option.a
+		
+        add_prestige = -5
+	}
+}
+
+# Degredation of Aptitude
+country_event = {
+	id = wwu_magic.13
+	title = wwu_magic.13.title
+	desc = wwu_magic.13.desc
+	picture = BIG_BOOK_eventPicture
+    
+	trigger = {
+        ruler_has_personality = spellcaster_personality
+        check_variable = {
+            which = ruler_magic_aptitude
+            value = 1
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+        
+        modifier = {
+            factor = 2
+            
+            stability = 0
+        }
+    }
+    
+    trigger = {
+        NOT = { ruler_has_personality = spellcaster_personality }
+    }
+	
+    option = {
+		name = wwu_magic.13.option.a
+		
+        remove_aptitude_point = yes
+	}
+    option = {
+		name = wwu_magic.13.option.b
+		
+        add_adm_power = -100
+	}
+}
+
+# Degredation of Finesse
+country_event = {
+	id = wwu_magic.14
+	title = wwu_magic.14.title
+	desc = wwu_magic.14.desc
+	picture = BIG_BOOK_eventPicture
+    
+	trigger = {
+        ruler_has_personality = spellcaster_personality
+        check_variable = {
+            which = ruler_magic_finesse
+            value = 1
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+        
+        modifier = {
+            factor = 2
+            
+            stability = 0
+        }
+    }
+    
+    trigger = {
+        NOT = { ruler_has_personality = spellcaster_personality }
+    }
+	
+    option = {
+		name = wwu_magic.14.option.a
+		
+        remove_finesse_point = yes
+	}
+    option = {
+		name = wwu_magic.14.option.b
+		
+        add_mil_power = -100
+	}
+}
+
+# Degredation of Concentration
+country_event = {
+	id = wwu_magic.15
+	title = wwu_magic.15.title
+	desc = wwu_magic.15.desc
+	picture = BIG_BOOK_eventPicture
+    
+	trigger = {
+        ruler_has_personality = spellcaster_personality
+        check_variable = {
+            which = ruler_magic_concentration
+            value = 1
+        }
+    }
+    
+    mean_time_to_happen = {
+		months = 240
+        
+        modifier = {
+            factor = 2
+            
+            stability = 0
+        }
+    }
+    
+    trigger = {
+        NOT = { ruler_has_personality = spellcaster_personality }
+    }
+	
+    option = {
+		name = wwu_magic.15.option.a
+		
+        remove_concentration_point = yes
+	}
+    option = {
+		name = wwu_magic.15.option.b
+		
+        add_dip_power = -100
+	}
+}
+
+#-----------------------------
+# Spells
+#-----------------------------
+
+# Domain Magic
+country_event = {
+	id = wwu_magic.20
+	title = wwu_magic.20.title
+	desc = wwu_magic.20.desc
+	picture = BIG_BOOK_eventPicture
+    
+	is_triggered_only = yes
+    
+    trigger = {
+        ruler_has_personality = spellcaster_personality
+    }
+
+    #--------------------------------
+    # Generic
+    #--------------------------------
+    # Conjure Feast
+    option = {
+		name = wwu_magic.20.option.conjure_feast
+        
+        trigger = {
+            has_mana = yes
+        }
+		
+        add_magical_exhaustion = yes
+        lose_mana = yes
+        
+        conjure_feast_effect = yes
+	}
+    
+    # Apply Mass Invisibility
+    option = {
+		name = wwu_magic.20.option.apply_mass_invisibility
+        
+        trigger = {
+            has_common_aptitude = yes
+            has_mana = yes
+        }
+		
+        add_magical_exhaustion = yes
+        lose_mana = yes
+        
+        apply_mass_invisibility_effect = yes
+	}
+    
+    # Summon Portals
+    option = {
+		name = wwu_magic.20.option.summon_portals
+        
+        trigger = {
+            has_rare_aptitude = yes
+            has_mana = yes
+        }
+		
+        add_magical_exhaustion = yes
+        lose_mana = yes
+        
+        summon_portals_effect = yes
+	}
+    
+    # Transmute Gold
+    option = {
+		name = wwu_magic.20.option.transmute_gold
+        
+        trigger = {
+            has_epic_aptitude = yes
+            has_mana = yes
+        }
+		
+        add_magical_exhaustion = yes
+        lose_mana = yes
+        
+        transmute_gold_effect = yes
+	}
+    
+    # Alter Time
+    option = {
+		name = wwu_magic.20.option.alter_time
+        
+        trigger = {
+            has_legendary_aptitude = yes
+            has_mana = yes
+        }
+		
+        add_magical_exhaustion = yes
+        lose_mana = yes
+        
+        alter_time_effect = yes
+	}
+    
+    #--------------------------------
+    # Unique
+    #--------------------------------
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.arcane
+		
+        # trigger = {
+            # religion = arcane
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.azshara
+		
+        # trigger = {
+            # religion = azshara
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.dragon_aspects
+		
+        # trigger = {
+            # religion = dragon_aspects
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.titan_worship
+		
+        # trigger = {
+            # religion = titan_worship
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.corrupt_titan_worship
+		
+        # trigger = {
+            # religion = corrupt_titan_worship
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.mystery_of_the_makers
+		
+        # trigger = {
+            # religion = mystery_of_the_makers
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.runic
+		
+        # trigger = {
+            # religion = runic
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.grace_of_rukhmar
+		
+        # trigger = {
+            # religion = grace_of_rukhmar
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.fel
+		
+        # trigger = {
+            # religion = fel
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.druidism
+		
+        # trigger = {
+            # religion = druidism
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.elune
+		
+        # trigger = {
+            # religion = elune
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.earth_mother
+		
+        # trigger = {
+            # religion = earth_mother
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.celestials
+		
+        # trigger = {
+            # religion = celestials
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.sporemounds
+		
+        # trigger = {
+            # religion = sporemounds
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.cult_of_the_damned
+		
+        # trigger = {
+            # religion = cult_of_the_damned
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.necromancy
+		
+        # trigger = {
+            # religion = necromancy
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.voodoo
+		
+        # trigger = {
+            # religion = voodoo
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.hakkari
+		
+        # trigger = {
+            # religion = hakkari
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.bloodmancy
+		
+        # trigger = {
+            # religion = bloodmancy
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.the_holy_light
+		
+        # trigger = {
+            # religion = the_holy_light
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.light_of_the_naaru
+		
+        # trigger = {
+            # religion = light_of_the_naaru
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.shadow
+		
+        # trigger = {
+            # religion = shadow
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.forgotten_shadow
+		
+        # trigger = {
+            # religion = forgotten_shadow
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.cthun
+		
+        # trigger = {
+            # religion = cthun
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.nzoth
+		
+        # trigger = {
+            # religion = nzoth
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.yogg_saron
+		
+        # trigger = {
+            # religion = yogg_saron
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.yshaarj
+		
+        # trigger = {
+            # religion = yshaarj
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.twilight_cult
+		
+        # trigger = {
+            # religion = twilight_cult
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.nightmare
+		
+        # trigger = {
+            # religion = nightmare
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.fleshshaping
+		
+        # trigger = {
+            # religion = fleshshaping
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.shamanism
+		
+        # trigger = {
+            # religion = shamanism
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.geomancy
+		
+        # trigger = {
+            # religion = geomancy
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.deep_mother
+		
+        # trigger = {
+            # religion = deep_mother
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.ordos
+		
+        # trigger = {
+            # religion = ordos
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.fire
+		
+        # trigger = {
+            # religion = fire
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.earth
+		
+        # trigger = {
+            # religion = earth
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.wind
+		
+        # trigger = {
+            # religion = wind
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+    # # 
+    # option = {
+		# name = wwu_magic.20.option.water
+		
+        # trigger = {
+            # religion = water
+            # has_mana = yes
+        # }
+        
+        # add_magical_exhaustion = yes
+        # lose_mana = yes
+	# }
+
+    # Exit
+    option = {
+		name = wwu_magic.20.option.exit
+		
+	}
+}

@@ -14,7 +14,7 @@ capital = 3905
 # Third War
 590.1.1 = {
     monarch = { 
-		name = "Sylvannas" 
+		name = "Sylvanas" 
 		dynasty = "Windrunner" 
 		adm = 4
 		dip = 4
@@ -22,7 +22,7 @@ capital = 3905
         female = yes
 
 		leader = {
-			name = "Sylvannas Windrunner"
+			name = "Sylvanas Windrunner"
 			type = general
 			fire = 6
 			shock = 6
