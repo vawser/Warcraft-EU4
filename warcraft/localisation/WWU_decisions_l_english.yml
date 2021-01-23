@@ -241,6 +241,12 @@
  infest_the_masses_title: "Infest the Masses"
  infest_the_masses_desc: "By infecting the masses with the Plague of Undeath, they will soon see the 'light'."
  
+ encourage_spore_growth_title: "Encourage Spore Growth"
+ encourage_spore_growth_desc: "Let us encourage the growth of the spores across Draenor."
+ 
+ garner_rukhmars_grace_title: "Garner Rukhmar's Grace"
+ garner_rukhmars_grace_desc: "Call upon the Sun Goddess Rukhmar to bless us."
+ 
  #-----------------------------------------------
  # Cultural
  #-----------------------------------------------
@@ -438,3 +444,9 @@
  
  adopt_avarice_belief_title: "Ascribe to the Avarice Philosophy"
  adopt_avarice_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_sporemounds_title: "Worship the Sporemounds"
+ adopt_sporemounds_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ adopt_grace_of_rukhmar_title: "Worship Rukhmar"
+ adopt_grace_of_rukhmar_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."

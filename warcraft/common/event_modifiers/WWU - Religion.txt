@@ -61,6 +61,16 @@ mass_infestation = {
     religion = yes
 }
 
+primal_infestation = {
+    global_missionary_strength = 0.03
+    religion = yes
+}
+
+shine_of_rukhmar = {
+    global_missionary_strength = 0.03
+    religion = yes
+}
+
 #----------------------------------------------
 # Province modifiers
 #----------------------------------------------

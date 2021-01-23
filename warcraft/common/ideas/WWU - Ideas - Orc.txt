@@ -81,11 +81,12 @@ TOH_ideas = {
 # Orc
 orc_ideas = {
 	start = {
-        
+        infantry_cost = -0.1
+        infantry_power = 0.1
 	}
 
 	bonus = {
-        
+        discipline = 0.05
 	}
 	
 	trigger = {
@@ -94,24 +95,24 @@ orc_ideas = {
 	free = yes		
 	
 	orc_ideas_1 = {
-		
+		tolerance_own = 2
 	}
 	orc_ideas_2 = {
-		
+		global_trade_goods_size_modifier = 0.05
 	}
 	orc_ideas_3 = {
-		
+		province_warscore_cost = -0.1
 	}
 	orc_ideas_4 = {
-		
+		development_cost = -0.1
 	}
 	orc_ideas_5 = {
-		
+		leader_land_shock = 1
 	}
 	orc_ideas_6 = {
-		
+		unjustified_demands = -0.25
 	}
 	orc_ideas_7 = {
-		
+		governing_capacity_modifier = 0.15
 	}
 }

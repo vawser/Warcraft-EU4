@@ -326,11 +326,12 @@ KAZ_ideas = {
 # Crusader
 crusader_ideas = {
 	start = {
-        
+        army_tradition = 0.5
+        discipline = 0.05
 	}
 
 	bonus = {
-        
+        global_missionary_strength = 0.03
 	}
 	
 	trigger = {
@@ -343,25 +344,25 @@ crusader_ideas = {
 	free = yes		
 	
 	crusader_ideas_1 = {
-		
+		missionaries = 1
 	}
 	crusader_ideas_2 = {
-		
+		land_morale = 0.1
 	}
 	crusader_ideas_3 = {
-		
+		manpower_recovery_speed = 0.15
 	}
 	crusader_ideas_4 = {
-		
+		war_exhaustion = -0.05
 	}
 	crusader_ideas_5 = {
-		
+		prestige = 1
 	}
 	crusader_ideas_6 = {
-		
+		land_morale = 0.15
 	}
 	crusader_ideas_7 = {
-		
+		extra_manpower_at_religious_war = yes
 	}
 }
 

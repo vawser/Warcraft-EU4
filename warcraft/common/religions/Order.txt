@@ -267,4 +267,27 @@ order_group = {
 			}			
 		}
 	}
+    
+    grace_of_rukhmar = {
+        color = { 227 218 74 }
+		icon = 30
+		
+		country = {
+            prestige = 1
+            movement_speed = 0.25
+		}
+        province = {
+            local_missionary_strength = -0.01
+        }
+        
+        on_convert = {
+			change_religion = grace_of_rukhmar
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+    }
 }

@@ -317,4 +317,56 @@ country_decisions = {
             }
         }
     }
+    
+    encourage_spore_growth = {
+        potential = {
+            religion = sporemounds
+            NOT = { has_country_modifier = primal_infestation }
+        }
+        allow = {
+            religion = sporemounds
+            adm_power = 100
+        }
+        effect = {
+            add_adm_power = -100
+            add_country_modifier = {
+                name = primal_infestation
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
+    
+    garner_rukhmars_grace = {
+        potential = {
+            religion = grace_of_rukhmar
+            NOT = { has_country_modifier = shine_of_rukhmar }
+        }
+        allow = {
+            religion = grace_of_rukhmar
+            adm_power = 100
+        }
+        effect = {
+            add_adm_power = -100
+            add_country_modifier = {
+                name = shine_of_rukhmar
+                duration = 3650
+            }
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                religious_unity = 1.0
+            }
+        }
+    }
 }

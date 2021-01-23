@@ -2,7 +2,7 @@ technology_group = tech_arakkoa
 government = theocracy
 add_government_reform = theocracy_reform
 primary_culture = arakkoa
-religion = arcane
+religion = grace_of_rukhmar
 capital = 7704
 
 590.1.1 = {

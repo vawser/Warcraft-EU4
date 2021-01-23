@@ -16,7 +16,6 @@ country_decisions = {
 			DKI = {
 				has_opinion = { who = ROOT value = 180 }
 				alliance_with = ROOT
-                marriage_with = ROOT
 			}
 			WIL = {
 				has_opinion = { who = ROOT value = 180 }
@@ -79,7 +78,6 @@ country_decisions = {
 			DKI = {
 				has_opinion = { who = ROOT value = 180 }
 				alliance_with = ROOT
-                marriage_with = ROOT
 			}
 			IRO = {
 				has_opinion = { who = ROOT value = 180 }

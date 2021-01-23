@@ -16,11 +16,3 @@ Holy Roman emperor switch msg box needs loc change
 - Add Illidan/Kael'thas events
 - Add Scourge Arthas events
 
-- Add the new NI groups
- Fallen Arakkoa
- Arakkoa
- Saberon
- Orc Clan
- Botani
- Crusader
-

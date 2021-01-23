@@ -1399,4 +1399,74 @@ country_decisions = {
             factor = 0
         }
     }
+    adopt_sporemounds = {
+        major = yes
+        
+        potential = {
+            NOT = { religion = sporemounds }
+            OR = {
+                ruler_religion = sporemounds
+                capital_scope = {
+                    religion = sporemounds
+                }
+            }
+        }
+        allow = {
+            NOT = { religion = sporemounds }
+            OR = {
+                ruler_religion = sporemounds
+                capital_scope = {
+                    religion = sporemounds
+                }
+            }
+            stability = 1
+        }
+        effect = {
+            add_stability = -3
+            change_religion = sporemounds
+            
+            add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+        }		
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    adopt_grace_of_rukhmar = {
+        major = yes
+        
+        potential = {
+            NOT = { religion = grace_of_rukhmar }
+            OR = {
+                ruler_religion = grace_of_rukhmar
+                capital_scope = {
+                    religion = grace_of_rukhmar
+                }
+            }
+        }
+        allow = {
+            NOT = { religion = grace_of_rukhmar }
+            OR = {
+                ruler_religion = grace_of_rukhmar
+                capital_scope = {
+                    religion = grace_of_rukhmar
+                }
+            }
+            stability = 1
+        }
+        effect = {
+            add_stability = -3
+            change_religion = grace_of_rukhmar
+            
+            add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+        }		
+        ai_will_do = {
+            factor = 0
+        }
+    }
 }

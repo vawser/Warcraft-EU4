@@ -26,6 +26,9 @@
  runic: "Runic"
  runic_religion_desc: "The art of runic magic."
  
+ grace_of_rukhmar: "Rukhmar's Grace"
+ grace_of_rukhmar_religion_desc: "The sun godess Rukhmar, the deity who created the arakkoa."
+ 
  #-----------------------------------------------
  # Disorder
  #-----------------------------------------------
