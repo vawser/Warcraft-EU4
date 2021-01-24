@@ -79,7 +79,7 @@ country_decisions = {
         effect = {
             add_adm_power = -250
             
-            add_aptitude_rank = yes
+            add_aptitude_point = yes
         }		
         ai_will_do = {
             factor = 0
@@ -99,7 +99,7 @@ country_decisions = {
         effect = {
             add_mil_power = -250
             
-            add_finesse_rank = yes
+            add_finesse_point = yes
         }		
         ai_will_do = {
             factor = 0
@@ -119,7 +119,7 @@ country_decisions = {
         effect = {
             add_dip_power = -250
             
-            add_concentration_rank = yes
+            add_concentration_point = yes
         }		
         ai_will_do = {
             factor = 0
