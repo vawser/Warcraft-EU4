@@ -123,7 +123,7 @@ age_rise_of_the_horde = {
 		}
         roth_military_drills = {
 			modifier = {
-				yearly_army_professionalism = 1.0
+				yearly_army_professionalism = 0.01
 			}
 			ai_will_do = {
 				factor = 10
