@@ -3,6 +3,19 @@
 #------------------------------
 - Added Inventions (institutions). Provide a bonus, no longer affect technology cost.
 - Added Thunderbluff.
+- Removed the Magical Exhaustion block, now it solely gated by mana. Made the spells cost different amounts of mana.
+- Mana regenerates at the rate of 1 every 4 years. Certain national ideas boost this.
+- Added Poor spell: Soothe Minds - adds stability, costs 2 mana
+- Added Poor spell: Polymorph - converts culture in random provinces(s), costs 2 mana
+- Added Common spell: Focus Magic - adds army and navy tradition, costs 2 mana
+- Added Rare spell: Display Prowess - adds splendor, costs 2 mana
+- Added Epic spell: Temporal Sight - removes corruption, costs 3 mana
+- Added Epic spell: Touch of the Magi - adds fire damage bonus, costs 3 mana, for non-Fel only
+- Added Epic spell: Demonic Touch - adds shock damage, costs 3 mana, for Fel only
+- Added Legendary spell: Presence of Mind - adds monarch points, costs 4 mana
+- Added a new type of spell: Cataclysmic. These spells cost 5 mana and risk spellcaster skill loss or ruler death when used.
+- Added Legendary spell: Mind Surge - adds 1 random tech.
+- Added Legendary spell: Ascendance - causes your spellcaster ruler to ascend, becoming a 10/10/10/10 general. This will cause them to die within 3 years, with a 1 year grace so you can actually use the general.
 
 #------------------------------
 # Notes
@@ -13,4 +26,3 @@ Holy Roman emperor switch msg box needs loc change
 
 - Add Illidan/Kael'thas events
 - Add Scourge Arthas events
-

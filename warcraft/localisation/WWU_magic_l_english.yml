@@ -138,6 +138,12 @@
  MANA_LOSS_4: "[Root.Monarch.GetName] will lose four points of §YMana§!."
  MANA_LOSS_5: "[Root.Monarch.GetName] will lose five points of §YMana§!."
  
+ HAS_MANA_1: "[Root.Monarch.GetName] has one point of §YMana§!."
+ HAS_MANA_2: "[Root.Monarch.GetName] has two points of §YMana§!."
+ HAS_MANA_3: "[Root.Monarch.GetName] has three points of §YMana§!."
+ HAS_MANA_4: "[Root.Monarch.GetName] has four points of §YMana§!."
+ HAS_MANA_5: "[Root.Monarch.GetName] has five points of §YMana§!."
+ 
  SKILL_RANK_LEGENDARY: "§yLegendary§!"
  SKILL_RANK_EPIC: "§eEpic§!"
  SKILL_RANK_RARE: "§rRare§!"

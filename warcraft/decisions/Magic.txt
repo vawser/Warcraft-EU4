@@ -136,7 +136,7 @@ country_decisions = {
             ruler_has_personality = spellcaster_personality
         }
         allow = {
-            NOT = { has_ruler_modifier = magical_exhaustion }
+            has_mana_1 = yes
             ruler_has_personality = spellcaster_personality
         }
         effect = {

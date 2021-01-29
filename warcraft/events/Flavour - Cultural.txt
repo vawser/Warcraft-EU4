@@ -7,35 +7,27 @@ country_event = {
 	picture = THEATRE_eventPicture
 
 	trigger = {
-		NOT = {
-			has_country_modifier = ethereal_traders
-		}
-		years_of_income = 0.1
-		adm_power = 10
+        NOT = { has_country_modifier = ethereal_traders }
+		years_of_income = 1
 	}
 	
 	mean_time_to_happen = {
-		months = 180
+		months = 9125
 	}
 	
-	immediate = {
-		set_country_flag = ethereal_traders
-	}
-		
 	option = {
 		name = wwu_cultural.1.opt1
 		
 		add_country_modifier = {
 			name = ethereal_traders
-			duration = 1460
+			duration = 3650
 		}
-		add_adm_power = -10
-		add_years_of_income = -0.1
+        
+		add_years_of_income = -0.5
 	}
+    
 	option = {
 		name = wwu_cultural.1.opt2
-		
-		add_prestige = -5
 	}
 }
 

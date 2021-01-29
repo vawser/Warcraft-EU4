@@ -138,32 +138,52 @@ has_legendary_concentration = {
 # Mana
 #------------------------
 has_mana_1 = {
-    check_variable = {
-        which = ruler_magic_mana
-        value = 1
+    custom_trigger_tooltip = {
+        tooltip = HAS_MANA_1
+    
+        check_variable = {
+            which = ruler_magic_mana
+            value = 1
+        }
     }
 }
 has_mana_2 = {
-    check_variable = {
-        which = ruler_magic_mana
-        value = 1
+    custom_trigger_tooltip = {
+        tooltip = HAS_MANA_2
+    
+        check_variable = {
+            which = ruler_magic_mana
+            value = 2
+        }
     }
 }
 has_mana_3 = {
-    check_variable = {
-        which = ruler_magic_mana
-        value = 1
+    custom_trigger_tooltip = {
+        tooltip = HAS_MANA_3
+    
+        check_variable = {
+            which = ruler_magic_mana
+            value = 3
+        }
     }
 }
 has_mana_4 = {
-    check_variable = {
-        which = ruler_magic_mana
-        value = 1
+    custom_trigger_tooltip = {
+        tooltip = HAS_MANA_4
+    
+        check_variable = {
+            which = ruler_magic_mana
+            value = 4
+        }
     }
 }
 has_mana_5 = {
-    check_variable = {
-        which = ruler_magic_mana
-        value = 1
+    custom_trigger_tooltip = {
+        tooltip = HAS_MANA_5
+    
+        check_variable = {
+            which = ruler_magic_mana
+            value = 5
+        }
     }
 }

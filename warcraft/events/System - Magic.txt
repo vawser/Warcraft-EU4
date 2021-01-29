@@ -605,6 +605,7 @@ country_event = {
 		name = wwu_magic.20.option.display_prowess
         
         trigger = {
+            has_dlc = "Mandate of Heaven"
             has_rare_aptitude = yes
             has_mana_2 = yes
         }
@@ -634,10 +635,10 @@ country_event = {
         
         trigger = {
             has_epic_aptitude = yes
-            has_mana_2 = yes
+            has_mana_3 = yes
         }
 
-        lose_mana_2 = yes
+        lose_mana_3 = yes
         
         temporal_sight_effect = yes
 	}
