@@ -326,20 +326,20 @@ core = {
 }
 
 non_core = {
-	local_missionary_strength = -0.02
+	local_missionary_strength = -0.01
 }
 
 territory_core = {
 	local_tax_modifier = 0.75				#90% more in a core
 	local_manpower_modifier = 0.75			#75% more in a core
 	local_sailors_modifier = 0.75
-	local_missionary_strength = -0.02
+	local_missionary_strength = -0.01
 	min_local_autonomy = 90
 	local_governing_cost = -0.75
 }
 
 territory_non_core = {
-	local_missionary_strength = -0.02
+	local_missionary_strength = -0.01
 	min_local_autonomy = 90
 	local_governing_cost = -0.75
 }
@@ -359,12 +359,10 @@ same_culture_group = {
 	local_tax_modifier = -0.25
 	local_manpower_modifier = -0.25
 	local_sailors_modifier = -0.25
-    local_missionary_strength = -0.01
 }
 
 non_accepted_culture = {
 	local_tax_modifier = -0.75
-	local_missionary_strength = -0.02
 	local_manpower_modifier = -0.75
 	local_sailors_modifier = -0.75
 	local_unrest = 1					#1% revolt risk!
@@ -377,7 +375,6 @@ accepted_culture_demoted = {
 # Special modifier to the above, for non-tribal republics
 non_accepted_culture_republic = {
 	local_tax_modifier = -0.75
-	local_missionary_strength = -0.02
 	local_manpower_modifier = -0.75
 	local_sailors_modifier = -0.75
 	local_unrest = 1					#1% revolt risk!
@@ -577,7 +574,7 @@ stability = {
 positive_stability = {
 	global_unrest = -1					#-1% revolt risk each step
 	global_tax_modifier = 0.05
-	global_missionary_strength = 0.005
+	global_missionary_strength = 0.01
 	stability_cost_modifier = 0.50
 	monthly_fervor_increase = 1
 	devotion = 0.5

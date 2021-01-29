@@ -4,6 +4,7 @@ bookmark = {
 	desc = "THE_RISE_OF_THE_HORDE_DESC"
 	date = 591.1.1
     
+    country = SRW
     country = BLK
     country = BLH
     country = TWH

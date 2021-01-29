@@ -5399,7 +5399,7 @@ area_coast_kezan = {
 
 area_coast_south_kalimdor_east = {
     2 53 54 55 56 57 58 59 60 61 
-    1590 
+    1590 8081 8082 
 }
 
 area_coast_south_kalimdor_west = {
@@ -5407,7 +5407,7 @@ area_coast_south_kalimdor_west = {
 }
 
 area_coast_central_kalimdor_east = {
-    62 65 63 66 64 67 69 70 68 72 73
+    62 65 63 66 64 67 69 70 68 72 73 8079 8080
 }
 
 area_coast_central_kalimdor_west = {
@@ -5440,7 +5440,7 @@ area_coast_east_northrend = {
 
 area_coast_south_northrend = {
     685 686 688 687  689 690 691 692 693 716 717 718 719 720 721 722 723 724
-    1579 1573 1575 7661 7662
+    1579 1573 1575 7661 7662 8076 8077 
 }
 
 area_coast_west_northrend = {
