@@ -11,8 +11,6 @@ Name key provinces
 
 Holy Roman emperor switch msg box needs loc change
 
-- Add Thunderbluff for Tauren Federation
 - Add Illidan/Kael'thas events
 - Add Scourge Arthas events
 
-THB

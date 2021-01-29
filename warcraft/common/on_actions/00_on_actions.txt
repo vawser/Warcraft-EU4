@@ -1096,29 +1096,6 @@ on_bi_yearly_pulse_2 = {
 
 on_bi_yearly_pulse_3 = {
     #-----------------------
-    # Mana Regen
-    #-----------------------
-    random = {
-        chance = 50
-        change_variable = {
-            which = ruler_magic_mana
-            value = 1
-        }
-        if = {
-            limit = {
-                check_variable = {
-                    which = ruler_magic_mana
-                    value = 5
-                }
-            }
-            set_variable = {
-                which = ruler_magic_mana
-                value = 5
-            }
-        }
-    }
-    
-    #-----------------------
     # Magic Events
     #-----------------------
     events = {
@@ -1490,6 +1467,22 @@ on_four_year_pulse = {
 }
 
 on_four_year_pulse_2 = {
+    # Magic
+    add_mana_1 = yes
+    
+    # Mana Regeneration sources
+    if = {
+        limit = {
+            OR = {
+                has_idea = DAL_ideas_7
+                has_idea = KAZ_ideas_4
+                has_idea = blue_dragonflight_ideas_7
+                has_idea = TBL_ideas_4
+                has_idea = tortollan_ideas_5
+            }
+        }
+        add_mana_1 = yes
+    }
 }
 
 on_four_year_pulse_3 = {

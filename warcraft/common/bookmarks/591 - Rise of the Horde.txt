@@ -5,10 +5,10 @@ bookmark = {
 	date = 591.1.1
     
     country = BLK
-    country = BTG
     country = BLH
     country = TWH
-    country = SRC
     country = DGM
     country = BBC
+    country = KAR
+    country = SHA
 }

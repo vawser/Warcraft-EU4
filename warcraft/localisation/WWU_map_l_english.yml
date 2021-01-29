@@ -186,6 +186,10 @@
  region_ocean_20: "Middle Veiled Sea"
  region_ocean_21: "The Black Ocean"
  region_ocean_22: "Sea of Tirisfal"
+ region_draenor_ocean_1: "The Ogrefall Sea"
+ region_draenor_ocean_2: "The Draenor Ocean"
+ region_draenor_ocean_3: "The Accursed Waters"
+ 
  
  #-----------------------------------------------
  # Provincegroups

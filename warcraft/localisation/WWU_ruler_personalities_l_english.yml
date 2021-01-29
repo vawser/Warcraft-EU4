@@ -1,5 +1,5 @@
 ﻿l_english:
  spellcaster_personality: "Spellcaster"
  spellcaster_personality_die_desc: "[Root.Monarch.GetHerHisCap] has died."
- desc_spellcaster_personality: "Spellcasters wield a form of magic, often related to the religion they worship.\n\nEnables §BMagic§! mechanics."
+ desc_spellcaster_personality: "Spellcasters wield a form of magic, often related to the religion they worship.\n\nEnables §YMagic§! mechanics."
  
