@@ -1,0 +1,12 @@
+technology_group = tech_tauren
+
+government = tribal
+
+add_government_reform = tribal_federation_reform
+
+primary_culture = tauren
+
+religion = earth_mother
+
+capital = 5597
+

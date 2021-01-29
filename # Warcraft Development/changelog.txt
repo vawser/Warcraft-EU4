@@ -1,6 +1,8 @@
 #------------------------------
 # Changelog
 #------------------------------
+- Added Inventions (institutions). Provide a bonus, no longer affect technology cost.
+- Added Thunderbluff.
 
 #------------------------------
 # Notes
@@ -8,18 +10,9 @@
 Name key provinces
 
 Holy Roman emperor switch msg box needs loc change
-Extend the lower res mission bg to match the bigger res one
 
 - Add Thunderbluff for Tauren Federation
 - Add Illidan/Kael'thas events
 - Add Scourge Arthas events
 
-- Add magic system, similar to Anbennar
- - Linked to ruler, add Powerful Spellcaster as a personality trait, allow it to be gained via study, or automatic for some nations such as Dalaran.
- 
-# ruler_magic_training
-# ruler_magic_aptitude
-# ruler_magic_finesse
-# ruler_magic_concentration
-# ruler_magic_mana
-
+THB

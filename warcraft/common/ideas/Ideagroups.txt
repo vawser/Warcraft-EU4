@@ -30,7 +30,7 @@ wwu_innovation_ideas = {
     # Popular Court
     wwu_innovation_ideas_4 = {
         advisor_pool = 1
-        monarch_lifespan = 0.1
+        global_institution_spread = 0.1
     }
     # Pragmatism
     wwu_innovation_ideas_5 = {

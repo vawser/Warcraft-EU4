@@ -396,6 +396,7 @@ WIM = "countries/Wildmane.txt"       # Kalimdor
 WIR = "countries/Wildrunner.txt"     # Mulgore
 WIT = "countries/Windtotem.txt"      # Mulgore
 YOU = "countries/Younghoof.txt"      # Mulgore
+THB = "countries/Thunderbluff.txt"
 
 # ---- Highmountain Tauren ----
 HMT = "countries/Highmountain.txt"   # Broken Isles

@@ -170,7 +170,7 @@ guiTypes = {
 		{
 			name ="institution_icon"
 			spriteType = "GFX_province_institutions_button"
-			position = { x= 440 y = 9999 }
+			position = { x= 440 y = 327 }
 			shortcut = "n"
 		}
 
@@ -3622,7 +3622,7 @@ guiTypes = {
 			listboxType = {
 				name = "institutions"
 				position = { x= 26 y = 178 }
-				size = { x = 256 y = 480 }
+				size = { x = 285 y = 480 }
 				Orientation = "UPPER_LEFT"
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -6083,7 +6083,8 @@ guiTypes = {
 		{
 			name ="icon"
 			spriteType = "GFX_estates_icons"
-			position = { x= -2 y = 0 }
+			position = { x= -4 y = -4 }
+            scale = 0.8
 		}
 
 		iconType =
@@ -6127,7 +6128,7 @@ guiTypes = {
 			font = "vic_22s"
 			borderSize = {x = 2 y = 2}
 			text = "..."
-			maxWidth = 180
+			maxWidth = 250
 			maxHeight = 20
 			format = left
 		}

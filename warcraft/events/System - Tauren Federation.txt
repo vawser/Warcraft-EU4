@@ -13,7 +13,7 @@ country_event = {
 	option = {
 		name = wwu_tauren_federation.1.option.a
         
-		#change_tag = HLR
+		change_tag = THB
 
 		every_province = {
 			limit = {
