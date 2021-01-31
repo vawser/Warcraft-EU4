@@ -1172,4 +1172,32 @@
  fel_infused: "Fel-infused"
  desc_fel_infused: "Having taken the blood of Mannoroth, our orc clansmen are now fel-infused, granting them more power."
  
+ #-------------------------------
+ # Druidism
+ #-------------------------------
+ druidic_elune_syncretism: "Druidic-Elune Syncretism"
+ desc_druidic_elune_syncretism: ""
  
+ dream_empowerment: "Dream Empowerment"
+ desc_dream_empowerment: ""
+ 
+ dream_siphon: "Dream Siphon"
+ desc_dream_siphon: ""
+ 
+ #-------------------------------
+ # Celestials
+ #-------------------------------
+ blessing_of_yulon: "Blessing of Yu'lon"
+ desc_blessing_of_yulon: ""
+ 
+ blessing_of_chiji: "Blessing of Chi'ji"
+ desc_blessing_of_chiji: ""
+ 
+ blessing_of_niuzao: "Blessing of Niuzao"
+ desc_blessing_of_niazuo: ""
+ 
+ blessing_of_xuen: "Blessing of Xuen"
+ desc_blessing_of_xuen: ""
+ 
+ celestial_support: "Celestial Exhaustion"
+ desc_celestial_support: ""

@@ -22,7 +22,7 @@ the_light_contemplation = {
 }
 
 the_light_sunwell = {
-    global_missionary_strength = 0.01
+    global_missionary_strength = 0.02
     religion = yes
 }
 
@@ -32,12 +32,12 @@ void_portals = {
 }
 
 titan_histories = {
-    global_missionary_strength = 0.01
+    global_missionary_strength = 0.02
     religion = yes
 }
 
 nature_communion = {
-    global_missionary_strength = 0.01
+    global_missionary_strength = 0.02
     religion = yes
 }
 
@@ -47,7 +47,7 @@ old_god_corruption = {
 }
 
 religious_introspection = {
-    global_missionary_strength = 0.01
+    global_missionary_strength = 0.02
     religion = yes
 }
 

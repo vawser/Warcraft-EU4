@@ -1,0 +1,75 @@
+#------------------------
+# Earth Mother Balance
+#------------------------
+has_musha_1 = {
+    custom_trigger_tooltip = {
+        tooltip = has_musha_1
+    
+        is_variable_equal = {
+            which = ruler_earth_mother_balance
+            value = 1
+        }
+    }
+}
+has_musha_2 = {
+    custom_trigger_tooltip = {
+        tooltip = has_musha_2
+    
+        is_variable_equal = {
+            which = ruler_earth_mother_balance
+            value = 2
+        }
+    }
+}
+has_musha_3 = {
+    custom_trigger_tooltip = {
+        tooltip = has_musha_3
+    
+        is_variable_equal = {
+            which = ruler_earth_mother_balance
+            value = 3
+        }
+    }
+}
+
+has_earth_mother_balance = {
+    custom_trigger_tooltip = {
+        tooltip = has_earth_mother_balance
+    
+        is_variable_equal = {
+            which = ruler_earth_mother_balance
+            value = 0
+        }
+    }
+}
+
+has_anshe_1 = {
+    custom_trigger_tooltip = {
+        tooltip = has_anshe_1
+    
+        is_variable_equal = {
+            which = ruler_earth_mother_balance
+            value = -1
+        }
+    }
+}
+has_anshe_2 = {
+    custom_trigger_tooltip = {
+        tooltip = has_anshe_2
+    
+        is_variable_equal = {
+            which = ruler_earth_mother_balance
+            value = -2
+        }
+    }
+}
+has_anshe_3 = {
+    custom_trigger_tooltip = {
+        tooltip = has_anshe_3
+    
+        is_variable_equal = {
+            which = ruler_earth_mother_balance
+            value = -3
+        }
+    }
+}

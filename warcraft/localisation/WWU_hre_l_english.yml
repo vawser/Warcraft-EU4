@@ -114,9 +114,12 @@
  #-----------------------------------------------
  incident_tribal_rumours: "Tribal Rumours"
  incident_tribal_rumours_alert: "Tribal Rumours incident has begun."
+ incident_tribal_rumours_emperor_alert: "Tribal Rumours incident has begun."
  
  incident_rites_of_the_great_hunt: "Rites of the Great Hunt"
  incident_rites_of_the_great_hunt_alert: "Rites of the Great Hunt incident has begun."
+ incident_rites_of_the_great_hunt_emperor_alert: "Rites of the Great Hunt incident has begun."
  
  incident_centaur_incursion: "Centaur Incursion"
  incident_centaur_incursion_alert: "Centaur Incursion incident has begun."
+ incident_centaur_incursion_emperor_alert: "Centaur Incursion incident has begun."

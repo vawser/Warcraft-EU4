@@ -1,0 +1,60 @@
+#------------------------
+# Skills
+#------------------------
+favour_musha = {
+    custom_tooltip = MUSHA_GAIN
+    
+    hidden_effect = {
+        change_variable = {
+            which = ruler_earth_mother_balance
+            value = 1
+        }
+        if = {
+            limit = {
+                check_variable = {
+                    which = ruler_earth_mother_balance
+                    value = 3
+                }
+            }
+            set_variable = {
+                which = ruler_earth_mother_balance
+                value = 3
+            }
+        }
+    }
+}
+favour_anshe = {
+    custom_tooltip = ANSHE_GAIN
+    
+    hidden_effect = {
+        change_variable = {
+            which = ruler_earth_mother_balance
+            value = -1
+        }
+        if = {
+            limit = {
+                NOT = {
+                    check_variable = {
+                        which = ruler_earth_mother_balance
+                        value = -3
+                    }
+                }
+            }
+            set_variable = {
+                which = ruler_earth_mother_balance
+                value = -3
+            }
+        }
+    }
+}
+
+reset_earth_mother_balance = {
+    custom_tooltip = EQUALISE_BALANCE
+    
+    hidden_effect = {
+        set_variable = {
+            which = ruler_earth_mother_balance
+            value = 0
+        }
+    }
+}

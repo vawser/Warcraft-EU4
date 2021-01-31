@@ -512,6 +512,14 @@
  desc_elune_bounties_of_the_forest: ""
  elune_the_night_warriors: "The Night Warriors"
  desc_elune_the_night_warriors: ""
+ elune_glade_networks: "Glade Networks"
+ desc_elune_glade_networks: ""
+ elune_tidal_fury: "Tidal Fury"
+ desc_elune_tidal_fury: ""
+ elune_kaldorei_sentinels: "Kaldorei Sentinels"
+ desc_elune_kaldorei_sentinels: ""
+ elune_elune_protection: "Elune's Protection"
+ desc_elune_elune_protection: ""
 
  #------------------------------------------------
  # Holy Order

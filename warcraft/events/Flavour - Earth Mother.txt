@@ -1,0 +1,43 @@
+namespace = wwu_earth_mother
+
+# Favour of Mu'sha
+country_event = {
+	id = wwu_earth_mother.1
+	title = wwu_earth_mother.1.title
+	desc = wwu_earth_mother.1.desc
+	picture = DRUIDCLAW_eventPicture
+	
+    is_triggered_only = yes
+
+	option = {
+		name = wwu_earth_mother.1.option.a
+        
+        favour_musha = yes
+	}
+    option = {
+		name = wwu_earth_mother.1.option.b
+        
+        add_dip_power = 100
+	}
+}
+
+# Favour of An'she
+country_event = {
+	id = wwu_earth_mother.2
+	title = wwu_earth_mother.2.title
+	desc = wwu_earth_mother.2.desc
+	picture = DRUIDCLAW_eventPicture
+	
+    is_triggered_only = yes
+
+	option = {
+		name = wwu_earth_mother.2.option.a
+        
+        favour_anshe = yes
+	}
+    option = {
+		name = wwu_earth_mother.2.option.b
+        
+        add_mil_power = 100
+	}
+}

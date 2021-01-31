@@ -1,0 +1,113 @@
+country_decisions = {
+    favour_musha = {
+        potential = {
+            religion = earth_mother
+            NOT = { 
+                has_musha_3 = yes
+            }
+            NOT = { has_country_modifier = earth_mother_favour_cooldown }
+        }
+        allow = {
+            religion = earth_mother
+            dip_power = 100
+        }
+        effect = {
+            add_dip_power = -100
+            
+            favour_musha = yes
+            
+            hidden_effect = { 
+                add_country_modifier = {
+                    name = earth_mother_favour_cooldown
+                    duration = 1825
+                    hidden = yes
+                }
+            }
+        }		
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    favour_anshe = {
+        potential = {
+            religion = earth_mother
+            NOT = { 
+                has_anshe_3 = yes
+            }
+            NOT = { has_country_modifier = earth_mother_favour_cooldown }
+        }
+        allow = {
+            religion = earth_mother
+            mil_power = 100
+        }
+        effect = {
+            add_mil_power = -100
+            
+            favour_anshe = yes
+            
+            hidden_effect = { 
+                add_country_modifier = {
+                    name = earth_mother_favour_cooldown
+                    duration = 1825
+                    hidden = yes
+                }
+            }
+        }		
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    
+    beckon_the_earth_mother = {
+        potential = {
+            religion = earth_mother
+            OR = {
+                has_musha_1 = yes
+                has_musha_2 = yes
+                has_musha_3 = yes
+                has_anshe_1 = yes
+                has_anshe_2 = yes
+                has_anshe_3 = yes
+            }
+        }
+        allow = {
+            religion = earth_mother
+        }
+        effect = {
+            if = {
+                limit = {
+                    OR = {
+                        has_musha_1 = yes
+                        has_anshe_1 = yes
+                    }
+                }
+                add_stability = 1
+            }
+            
+            if = {
+                limit = {
+                    OR = {
+                        has_musha_2 = yes
+                        has_anshe_2 = yes
+                    }
+                }
+                add_stability = 2
+            }
+            
+            if = {
+                limit = {
+                    OR = {
+                        has_musha_3 = yes
+                        has_anshe_3 = yes
+                    }
+                }
+                add_stability = 3
+            }
+            
+            reset_earth_mother_balance = yes
+        }		
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}

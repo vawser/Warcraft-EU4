@@ -1,0 +1,14 @@
+﻿l_english:
+ #-----------------------------------------------
+ # Earth Mother
+ #-----------------------------------------------
+ wwu_earth_mother.1.title: "Favour of Mu'sha"
+ wwu_earth_mother.1.desc: "The Earth Mother, acting as Mu'sha, has granted us her favour due to our recent actions of stabilization. Let us utilise this boon in the best way possible."
+ wwu_earth_mother.1.option.a: "Accept the boon"
+ wwu_earth_mother.1.option.b: "Request more immediate benefit"
+ 
+ wwu_earth_mother.2.title: "Favour of An'she"
+ wwu_earth_mother.2.desc: "The Earth Mother, acting as An'she, has granted us her favour due to our recent actions of aggression. Let us utilise this boon in the best way possible."
+ wwu_earth_mother.2.option.a: "Accept the boon"
+ wwu_earth_mother.2.option.b: "Request more immediate benefit"
+ 

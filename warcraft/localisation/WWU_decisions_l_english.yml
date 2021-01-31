@@ -251,6 +251,49 @@
  garner_rukhmars_grace_desc: "Call upon the Sun Goddess Rukhmar to bless us."
  
  #-----------------------------------------------
+ # Druidic
+ #-----------------------------------------------
+ soothe_the_dream_title: "Soothe the Dream"
+ soothe_the_dream_desc: "The nightmare has begun to creep deeper into the Emerald Dream. Let us assist the forces within the Dream."
+ 
+ sacrifice_druid_title: "Sacrifice Druid"
+ sacrifice_druid_desc: "A druid under our employ has offered to help push back the Nightmare and enter the Emerald Dream. This act will end their life upon Azeroth."
+ 
+ DREAM_SUPPORT_TT: "Exhausts our druids, preventing §YPurity§! boosting decisions for one year."
+ 
+ sycretise_druidism_and_elune_title: "Syncretise Druidic and Elune"
+ sycretise_druidism_and_elune_desc: "The syncretism of Druidic belief and Elune will benefit our nation, and reduce conflicts in the future."
+ 
+ enforce_druidism_title: "Enforce Druidism"
+ enforce_druidism_desc: "As a Druidic ruler, it is time to enforce our will upon our nation and mandate Druidism as our main religion."
+ 
+ call_upon_the_dream_title: "Call upon the Dream"
+ call_upon_the_dream_desc: "The Emerald Dream is in possession of a great many archdruids. Let us call upon their power and siphon it for our own ends. Such an act will empower the encroaching Nightmare however."
+ 
+ siphon_the_dream_title: "Siphon the Dream"
+ siphon_the_dream_desc: "Let our ruler, [Root.Monarch.GetName], siphon a portion of the power of Emerald Dream as their own, empowering them in all aspects of their being. Such an act will empower the encroaching Nightmare however."
+ 
+ #-----------------------------------------------
+ # Celestials
+ #-----------------------------------------------
+ call_upon_the_jade_serpent_title: "Call upon the Jade Serpent"
+ call_upon_the_jade_serpent_desc: "Ask of Yu'lon, the Jade Serpent, to support us in combat for a short period. Such a request will reduce any additional help for quite some time afterwards."
+ 
+ call_upon_the_red_crane_title: "Call upon the Red Crane"
+ call_upon_the_red_crane_desc: "Ask of Chi'ji, the Red Crane, to support us in combat for a short period. Such a request will reduce any additional help for quite some time afterwards."
+ 
+ call_upon_the_black_ox_title: "Call upon the Black Ox"
+ call_upon_the_black_ox_desc: "Ask of Niuzao, the Black Ox, to support us in combat for a short period. Such a request will reduce any additional help for quite some time afterwards."
+ 
+ call_upon_the_white_tiger_title: "Call upon the White Tiger"
+ call_upon_the_white_tiger_desc: "Ask of Xuen, the White Tiger, to support us in combat for a short period. Such a request will reduce any additional help for quite some time afterwards."
+ 
+ CELESTIAL_GENERAL_YULON_TT: "Grants a §Y2§!/§Y2§!/§Y6§!/§Y2§! general called §Y\"The Jade Serpent\"§! for five years."
+ CELESTIAL_GENERAL_CHIJI_TT: "Grants a §Y6§!/§Y2§!/§Y2§!/§Y2§! general called §Y\"The Red Crane\"§! for five years."
+ CELESTIAL_GENERAL_NIUZAO_TT: "Grants a §Y2§!/§Y2§!/§Y2§!/§Y6§! general called §Y\"The Black Ox\"§! for five years."
+ CELESTIAL_GENERAL_XUEN_TT: "Grants a §Y2§!/§Y6§!/§Y2§!/§Y2§! general called §Y\"The White Tiger\"§! for five years."
+ 
+ #-----------------------------------------------
  # Cultural
  #-----------------------------------------------
  wwu_cultural_shift_title: "Shift Culture"
@@ -453,3 +496,15 @@
  
  adopt_grace_of_rukhmar_title: "Worship Rukhmar"
  adopt_grace_of_rukhmar_belief_desc: "Citizens in our capital city have begun to believe in a new religion. Perhaps it would be wise to adopt this new religion as our own, as the most distinguished within our society already follow it."
+ 
+ #-------------------------------
+ # Earth Mother
+ #-------------------------------
+ favour_musha_title: "Favour Mu'sha, the Eye of the Moon"
+ favour_musha_desc: "Our [Root.Monarch.GetTitle], [Root.Monarch.GetName] desires to draw closer to Mu'sha, the eye of the Earth Mother that become the moon. Mu'sha is regarded as an aspect of the Earth Mother to turn towards for stability and safety."
+ 
+ favour_anshe_title: "Favour An'she, the Eye of the Sun"
+ favour_anshe_desc: "Our [Root.Monarch.GetTitle], [Root.Monarch.GetName] desires to draw closer to An'she, the eye of the Earth Mother that become the sun. An'she is regarded as an aspect of the Earth Mother to turn towards for war and aggression."
+ 
+ beckon_the_earth_mother_title: "Beckon the Earth Mother"
+ beckon_the_earth_mother_desc: "Call for the Earth Mother to stabilise the tribe and quell unrest."

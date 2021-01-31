@@ -1006,6 +1006,9 @@
  USES_PIETY: "$COUNTRY|Y$ uses Purity."
  USES_NOT_PIETY: "$COUNTRY|Y$ does NOT use Purity."
  
+ GAIN_PIETY:0 "Boosts Purity by $VALUE|Y$"
+ LOSE_PIETY:0 "Reduces Purity by $VALUE|Y$"
+ 
  #---------------------------------------------
  # Karma
  #---------------------------------------------

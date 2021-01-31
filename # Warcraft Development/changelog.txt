@@ -5,6 +5,8 @@
 - Added Unite the Kaldorei Empire decision, allowing for a diplomatic unification of the Night Elf sentinel nations.
 - Changed 3 of the Elune holy sites.
 - Adjusted the Elune blessings.
+- Added flavour for Druidic religion
+- Added flavour for Celestial religion
 
 #------------------------------
 # Notes
@@ -16,4 +18,5 @@ Holy Roman emperor switch msg box needs loc change
 - Add Illidan/Kael'thas events
 - Add Scourge Arthas events
 
- 
+Add EOC mechanic for pandas
+

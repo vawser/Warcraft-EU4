@@ -9,10 +9,10 @@
  desc_loss_of_the_sunwell: "A source of unimaginable arcane energies, the Sunwell granted our people unfathomable power and satifised their thirst for magic. Without it, we are weakened, and our people lethargic."
  
  matriarchal: "Matriarchal"
- matriarchal_desc: "As a matriarchal society, we only accept female rulers."
+ desc_matriarchal: "As a matriarchal society, we only accept female rulers."
  
  egalitarian: "Egalitarian"
- egalitarian_desc: "As a egalitarian society, we accept both male and female rulers."
+ desc_egalitarian: "As a egalitarian society, we accept both male and female rulers."
  
  fel_empowerment: "Fel Empowerment"
  desc_fel_empowerment: "With the Burning Legion at full strength, all Fel nations benefit from this demonic unity."

@@ -40,7 +40,6 @@ life_group = {
 		
 		country = {
 			diplomatic_reputation = 2
-			monthly_piety = -0.01
 		}
         
         hre_heretic_religion = yes
@@ -86,6 +85,10 @@ life_group = {
 			elune_cleansing_of_corruption
 			elune_bounties_of_the_forest
 			elune_the_night_warriors
+            elune_glade_networks
+            elune_tidal_fury
+            elune_kaldorei_sentinels
+            elune_elune_protection
 		}
     }
     
@@ -94,6 +97,8 @@ life_group = {
 		icon = 6
 		
         hre_religion = yes
+        
+        # Mu'sha/An'she mechanic
         
 		country = {
 			land_forcelimit_modifier = 0.1

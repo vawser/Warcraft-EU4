@@ -11,11 +11,11 @@ country_decisions = {
         allow = {
             NOT = { ruler_has_personality = spellcaster_personality }
             adm_power = 100
-            treasury = 2000
+            treasury = 1000
         }
         effect = {
             add_adm_power = -100
-            add_treasury = -2000
+            add_treasury = -1000
             
             add_ruler_modifier = {
                 name = magical_training

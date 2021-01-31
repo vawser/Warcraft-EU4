@@ -1,0 +1,41 @@
+﻿l_english: 
+ #-------------------------------
+ # Variables
+ #-------------------------------
+ ruler_earth_mother_balance: "Earth Mother Balance"
+ 
+ #-------------------------------
+ # Triggered Modifiers
+ #-------------------------------
+ weak_blessing_of_musha: "Weak Blessing of Mu'sha"
+ desc_weak_blessing_of_musha: ""
+ 
+ strong_blessing_of_musha: "Strong Blessing of Mu'sha"
+ desc_strong_blessing_of_musha: ""
+ 
+ potent_blessing_of_musha: "Potent Blessing of Mu'sha"
+ desc_potent_blessing_of_musha: ""
+ 
+ weak_blessing_of_anshe: "Weak Blessing of An'she"
+ desc_weak_blessing_of_anshe: ""
+ 
+ strong_blessing_of_anshe: "Strong Blessing of An'she"
+ desc_strong_blessing_of_anshe: ""
+ 
+ potent_blessing_of_anshe: "Potent Blessing of An'she"
+ desc_potent_blessing_of_anshe: ""
+ 
+ #-------------------------------
+ # Tooltip
+ #-------------------------------
+ MUSHA_GAIN: "[Root.Monarch.GetName] will gain the favour of §YMu'sha§!."
+ ANSHE_GAIN: "[Root.Monarch.GetName] will gain the favour of §YAn'she§!."
+ EQUALISE_BALANCE: "[Root.Monarch.GetName] will equalize the balance of favour between §YMu'sha§! and §YAn'she§!."
+ 
+ has_musha_1: "Is favoured §Ylightly§! by §YMu'sha§!."
+ has_musha_2: "Is favoured §Yfirmly§! by §YMu'sha§!."
+ has_musha_3: "Is favoured §Yfully§! by §YMu'sha§!."
+ 
+ has_anshe_1: "Is favoured §Ylightly§! by §YAn'she§!."
+ has_anshe_2: "Is favoured §Yfirmly§! by §YAn'she§!."
+ has_anshe_3: "Is favoured §Yfully§! by §YAn'she§!."
