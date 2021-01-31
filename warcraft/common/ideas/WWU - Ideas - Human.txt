@@ -56,7 +56,7 @@ DAL_ideas = {
 	free = yes		
 	
 	DAL_ideas_1 = {
-		innovativeness_gain = 0.25
+		innovativeness_gain = 0.15
 	}
 	DAL_ideas_2 = {
 		development_cost = -0.1
@@ -75,7 +75,7 @@ DAL_ideas = {
 		prestige = 1
 	}
 	DAL_ideas_7 = {
-		technology_cost = -0.1
+		technology_cost = -0.075
 	}
 }
 
@@ -287,12 +287,12 @@ SRW_ideas = {
 # Karazhan
 KAZ_ideas = {
 	start = {
-		technology_cost = -0.1
-        innovativeness_gain = 0.25
+		technology_cost = -0.05
+        innovativeness_gain = 0.1
 	}
 
 	bonus = {
-        all_power_cost = -0.1
+        all_power_cost = -0.05
 	}
 	
 	trigger = {
@@ -353,7 +353,7 @@ crusader_ideas = {
 		manpower_recovery_speed = 0.15
 	}
 	crusader_ideas_4 = {
-		war_exhaustion = -0.05
+		war_exhaustion = -0.02
 	}
 	crusader_ideas_5 = {
 		prestige = 1

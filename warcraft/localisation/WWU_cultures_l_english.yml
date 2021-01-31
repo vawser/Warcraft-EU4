@@ -66,15 +66,15 @@
  draenei_group: "Draenei"
  exodar: "Exodar"
  draenei: "Draenei"
+ karabor: "Karabor"
+ shattrath: "Shattrath"
+ auchenai: "Auchenai"
  
  broken_group: "Broken"
  lost_one_group: "Lost Ones"
  lost_ones: "Lost Ones"
  portal_seekers: "Portal Seekers"
  broken: "Broken"     
- karabor: "Karabor"
- shattrath: "Shattrath"
- auchenai: "Auchenai"
 
  #--------------------------------
  # Dragon Aspects
@@ -662,13 +662,13 @@
  yaungol: "Yaungol"
  
  #--------------------------------
- # Void
+ # Void (UNUSED)
  #--------------------------------
  void_group: "Void"
  void: "Void"
  
  #--------------------------------
- # Giant
+ # Giant (UNUSED)
  #--------------------------------
  mountain_giant_group: "Mountain Giant"
  mountain_giant: "Mountain Giant"
@@ -680,25 +680,25 @@
  frost_giant: "Frost Giant"
  
  #--------------------------------
- # Grummle
+ # Grummle (UNUSED)
  #--------------------------------
  grummle_group: "Grummle"
  grummle: "Grummle"
  
  #--------------------------------
- # Drogbar
+ # Drogbar (UNUSED)
  #--------------------------------
  drogbar_group: "Drogbar"
  drogbar: "Drogbar"
  
  #--------------------------------
- # Fungarian
+ # Fungarian (UNUSED)
  #--------------------------------
  fungarian_group: "Fungarian"
  fungarian: "Fungarian"
 
  #--------------------------------
- # Ethereal
+ # Ethereal (UNUSED)
  #--------------------------------
  ethereal_group: "Ethereal"
  ethereal: "Ethereal"

@@ -17,7 +17,7 @@ wwu_innovation_ideas = {
     
     # Scientific Progress
     wwu_innovation_ideas_1 = {
-        technology_cost = -0.1
+        technology_cost = -0.075
     }
     # Astute Accounting
     wwu_innovation_ideas_2 = {
@@ -38,7 +38,7 @@ wwu_innovation_ideas = {
     }
     # Hope for the Future
     wwu_innovation_ideas_6 = {
-        war_exhaustion = -0.05
+        war_exhaustion = -0.02
     }
     # Military Education
     wwu_innovation_ideas_7 = {
@@ -671,7 +671,7 @@ wwu_theocracy_ideas = {
     }
     
     bonus = {
-        war_exhaustion = -0.05
+        war_exhaustion = -0.03
     }
     
     # Absolute Devotion
@@ -1261,7 +1261,7 @@ wwu_propaganda_ideas = {
     
     # War Propaganda
     wwu_propaganda_ideas_1 = {
-        war_exhaustion = -0.05
+        war_exhaustion = -0.02
         ae_impact = -0.1
     }
     # Intergrated Spymaster
@@ -1968,7 +1968,7 @@ wwu_army_tactics_ideas = {
     category = MIL
 
     bonus = {
-        war_exhaustion = -0.05
+        war_exhaustion = -0.02
     }
     # Battlefield Techniques
     wwu_army_tactics_ideas_1 = {

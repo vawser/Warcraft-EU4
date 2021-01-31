@@ -11,6 +11,12 @@ religion = elune
 
 capital = 4804
 
+historical_friend = CEN
+historical_friend = CEX
+historical_friend = SEA
+historical_friend = SEN
+historical_friend = SFR
+
 # The First War
 590.1.1 = {
     monarch = {

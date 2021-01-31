@@ -154,13 +154,13 @@ blue_dragonflight_ideas = {
 		prestige = 1
 	}
 	blue_dragonflight_ideas_2 = {
-		innovativeness_gain = 0.25
+		innovativeness_gain = 0.1
 	}
 	blue_dragonflight_ideas_3 = {
 		fire_damage = 0.1
 	}
 	blue_dragonflight_ideas_4 = {
-		technology_cost = -0.1
+		technology_cost = -0.05
 	}
 	blue_dragonflight_ideas_5 = {
 		advisor_cost = -0.25
@@ -203,7 +203,7 @@ bronze_dragonflight_ideas = {
         hostile_attrition = 1
 	}
 	bronze_dragonflight_ideas_4 = {
-		war_exhaustion = -0.1
+		war_exhaustion = -0.03
 	}
 	bronze_dragonflight_ideas_5 = {
 		diplomatic_reputation = 1

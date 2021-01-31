@@ -1,7 +1,7 @@
 # Gnome
 gnome_ideas = {
 	start = {
-		technology_cost = -0.1
+		technology_cost = -0.075
         advisor_cost = -0.1
 	}
 

@@ -355,3 +355,4 @@ westerngfx_sprite_pack = {
 		3 = westerngfx_ARTILLERY_4
 	}
 }
+

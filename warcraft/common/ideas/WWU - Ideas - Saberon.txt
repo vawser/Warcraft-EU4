@@ -15,7 +15,7 @@ saberon_ideas = {
 	free = yes		
 	
 	saberon_ideas_1 = {
-		shock_damage = 0.2
+		shock_damage = 0.15
 	}
 	saberon_ideas_2 = {
 		siege_ability = 0.1

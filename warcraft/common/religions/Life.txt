@@ -78,13 +78,13 @@ life_group = {
 			}			
 		}
 		
-		holy_sites = { 4781 5667 4802 5758 5746 }
+		holy_sites = { 4781 5667 6015 5055 5300 }
 		
 		blessings = {
 			elune_calm_of_the_night
 			elune_visions_of_hope
 			elune_cleansing_of_corruption
-			elune_power_over_the_tides
+			elune_bounties_of_the_forest
 			elune_the_night_warriors
 		}
     }

@@ -67,7 +67,7 @@ vrykul_ideas = {
 		prestige_from_land = 0.5
 	}
 	vrykul_ideas_4 = {
-		war_exhaustion = -0.03
+		war_exhaustion = -0.02
 	}
 	vrykul_ideas_5 = {
 		land_forcelimit_modifier = 0.15

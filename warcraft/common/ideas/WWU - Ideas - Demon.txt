@@ -19,7 +19,7 @@ TBL_ideas = {
         global_regiment_cost = -0.25
 	}
 	TBL_ideas_2 = {
-		war_exhaustion = -0.1
+		war_exhaustion = -0.03
 	}
 	TBL_ideas_3 = {
 		fire_damage_received = -0.2

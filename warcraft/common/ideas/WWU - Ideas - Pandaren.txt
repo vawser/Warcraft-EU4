@@ -2,7 +2,7 @@
 SPN_ideas = {
 	start = {
 		land_morale = 0.1
-        war_exhaustion = -0.03
+        war_exhaustion = -0.01
 	}
 
 	bonus = {
@@ -275,10 +275,10 @@ LRW_ideas = {
 	free = yes		
 	
 	LRW_ideas_1 = {
-		all_power_cost = -0.05
+		all_power_cost = -0.03
 	}
 	LRW_ideas_2 = {
-		technology_cost = -0.1
+		technology_cost = -0.075
 	}
 	LRW_ideas_3 = {
 		global_tax_modifier = 0.1

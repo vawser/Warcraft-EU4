@@ -79,3 +79,172 @@
  upm_corrupted_sunwell_desc: ""
  upm_seat_of_the_thunder_king: "Throne of Thunder"
  upm_seat_of_the_thunder_king_desc: ""
+ 
+ # Heritage
+ human_heritage: "Human Heritage"
+ desc_human_heritage: ""
+ 
+ qiraji_heritage: "Qiraji Heritage"
+ desc_qiraji_heritage: ""
+ 
+ nerubian_heritage: "Nerubian Heritage"
+ desc_nerubian_heritage: ""
+ 
+ mantid_heritage: "Mantid Heritage"
+ desc_mantid_heritage: ""
+ 
+ centaur_heritage: "Centaur Heritage"
+ desc_centaur_heritage: ""
+ 
+ demon_heritage: "Demon Heritage"
+ desc_demon_heritage: ""
+ 
+ draenei_heritage: "Draenei Heritage"
+ desc_draenei_heritage: ""
+ 
+ broken_heritage: "Broken Heritage"
+ desc_broken_heritage: ""
+ 
+ dragon_heritage: "Dragon Heritage"
+ desc_dragon_heritage: ""
+ 
+ dwarf_heritage: "Dwarven Heritage"
+ desc_dwarf_heritage: ""
+ 
+ dryad_heritage: "Dryad Heritage"
+ desc_dryad_heritage: ""
+ 
+ earthen_heritage: "Earthen Heritage"
+ desc_earthen_heritage: ""
+ 
+ high_elf_heritage: "High Elf Heritage"
+ desc_high_elf_heritage: ""
+ 
+ nightborne_heritage: "Nightborne Heritage"
+ desc_nightborne_heritage: ""
+ 
+ night_elf_heritage: "Night Elf Heritage"
+ desc_night_elf_heritage: ""
+ 
+ furbolg_heritage: "Furbolg Heritage"
+ desc_furbolg_heritage: ""
+ 
+ gnoll_heritage: "Gnoll Heritage"
+ desc_gnoll_heritage: ""
+ 
+ gnome_heritage: "Gnome Heritage"
+ desc_gnome_heritage: ""
+ 
+ goblin_heritage: "Goblin Heritage"
+ desc_goblin_heritage: ""
+ 
+ gorloc_heritage: "Gorloc Heritage"
+ desc_gorloc_heritage: ""
+ 
+ harpy_heritage: "Harpy Heritage"
+ desc_harpy_heritage: ""
+ 
+ hozen_heritage: "Hozen Heritage"
+ desc_hozen_heritage: ""
+ 
+ jinyu_heritage: "Jinyu Heritage"
+ desc_jinyu_heritage: ""
+ 
+ kobold_heritage: "Kobold Heritage"
+ desc_kobold_heritage: ""
+ 
+ magnataur_heritage: "Magnataur Heritage"
+ desc_magnataur_heritage: ""
+ 
+ mogu_heritage: "Mogu Heritage"
+ desc_mogu_heritage: ""
+ 
+ murloc_heritage: "Murloc Heritage"
+ desc_murloc_heritage: ""
+ 
+ naga_heritage: "Naga Heritage"
+ desc_naga_heritage: ""
+ 
+ ogre_heritage: "Ogre Heritage"
+ desc_ogre_heritage: ""
+ 
+ orc_heritage: "Orc Heritage"
+ desc_orc_heritage: ""
+ 
+ pandaren_heritage: "Pandaren Heritage"
+ desc_pandaren_heritage: ""
+ 
+ pygmy_heritage: "Pygmy Heritage"
+ desc_pygmy_heritage: ""
+ 
+ quillboar_heritage: "Quillboar Heritage"
+ desc_quillboar_heritage: ""
+ 
+ satyr_heritage: "Satyr Heritage"
+ desc_satyr_heritage: ""
+ 
+ saurok_heritage: "Saurok Heritage"
+ desc_saurok_heritage: ""
+ 
+ scourge_heritage: "Scourge Heritage"
+ desc_scourge_heritage: ""
+ 
+ spriteling_heritage: "Spriteling Heritage"
+ desc_spriteling_heritage: ""
+ 
+ tauren_heritage: "Tauren Heritage"
+ desc_tauren_heritage: ""
+ 
+ taunka_heritage: "Taunka Heritage"
+ desc_taunka_heritage: ""
+ 
+ tolvir_heritage: "Tol'vir Heritage"
+ desc_tolvir_heritage: ""
+ 
+ titan_heritage: "Titan Heritage"
+ desc_titan_heritage: ""
+ 
+ trogg_heritage: "Trogg Heritage"
+ desc_trogg_heritage: ""
+ 
+ troll_heritage: "Troll Heritage"
+ desc_troll_heritage: ""
+ 
+ blood_troll_heritage: "Blood Troll Heritage"
+ desc_blood_troll_heritage: ""
+ 
+ tuskarr_heritage: "Tuskarr Heritage"
+ desc_tuskarr_heritage: ""
+ 
+ undead_heritage: "Undead Heritage"
+ desc_undead_heritage: ""
+ 
+ vrykul_heritage: "Vrykul Heritage"
+ desc_vrykul_heritage: ""
+ 
+ wolvar_heritage: "Wolvar Heritage"
+ desc_wolvar_heritage: ""
+ 
+ yaungol_heritage: "Yaungol Heritage"
+ desc_yaungol_heritage: ""
+ 
+ sethrak_heritage: "Sethrak Heritage"
+ desc_sethrak_heritage: ""
+ 
+ tortollan_heritage: "Tortollan Heritage"
+ desc_tortollan_heritage: ""
+ 
+ vulpera_heritage: "Vulpera Heritage"
+ desc_vulpera_heritage: ""
+ 
+ arakkoa_heritage: "Arakkoa Heritage"
+ desc_arakkoa_heritage: ""
+ 
+ fallen_arakkoa_heritage: "Fallen Arrakoa Heritage"
+ desc_fallen_arakkoa_heritage: ""
+ 
+ saberon_heritage: "Saberon Heritage"
+ desc_saberon_heritage: ""
+ 
+ botani_heritage: "Botani Heritage"
+ desc_botani_heritage: ""

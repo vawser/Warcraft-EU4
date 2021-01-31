@@ -33,6 +33,6 @@ satyr_ideas = {
 		tolerance_own = 2
 	}
 	satyr_ideas_7 = {
-		fire_damage = 0.2
+		fire_damage = 0.1
 	}
 }

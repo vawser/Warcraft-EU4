@@ -223,7 +223,7 @@ blood_troll_ideas = {
 		hostile_attrition = 2
 	}
 	blood_troll_ideas_2 = {
-		war_exhaustion = -0.03
+		war_exhaustion = -0.02
 	}
 	blood_troll_ideas_3 = {
 		province_warscore_cost = -0.1

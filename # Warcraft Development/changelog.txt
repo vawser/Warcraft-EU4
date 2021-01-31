@@ -2,6 +2,9 @@
 # Changelog
 #------------------------------
 - Moved the peace acceptance indicator so it is visible whilst adding gold.
+- Added Unite the Kaldorei Empire decision, allowing for a diplomatic unification of the Night Elf sentinel nations.
+- Changed 3 of the Elune holy sites.
+- Adjusted the Elune blessings.
 
 #------------------------------
 # Notes

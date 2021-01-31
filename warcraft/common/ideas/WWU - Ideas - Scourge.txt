@@ -33,7 +33,7 @@ SCO_ideas = {
 	}
 	SCO_ideas_6 = {
 		monarch_diplomatic_power = 1
-		all_power_cost = -0.05
+		all_power_cost = -0.03
 	}
 	SCO_ideas_7 = {
 		monarch_military_power = 1

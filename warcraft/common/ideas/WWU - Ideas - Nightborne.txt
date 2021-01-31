@@ -36,7 +36,7 @@ NTB_ideas = {
         advisor_pool = 1
 	}
 	NTB_ideas_6 = {
-		technology_cost = -0.1
+		technology_cost = -0.075
 	}
 	NTB_ideas_7 = {
 		discipline = 0.05

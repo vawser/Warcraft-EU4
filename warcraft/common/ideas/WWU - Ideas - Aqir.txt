@@ -24,7 +24,7 @@ AQJ_ideas = {
         production_efficiency = 0.1
 	}
 	AQJ_ideas_4 = {
-		technology_cost = -0.1
+		technology_cost = -0.075
 	}
 	AQJ_ideas_5 = {
 		years_of_nationalism = -5

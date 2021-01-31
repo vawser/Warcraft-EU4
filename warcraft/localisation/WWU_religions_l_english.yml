@@ -466,9 +466,9 @@
  # Elune
  HOLY_SITE_4781_DESC: "Darnassus is the greatest city of the night elves, housing the leaders of both the druids and the faithful of Elune. It is carefully guarded by Sentinels, ancient protectors, and ancients of war."
  HOLY_SITE_5667_DESC: "Built ages ago by the night elves, this ancient shrine dedicated to the wilderness spirit Aessina lies in the midst of a forest glade in Ashenvale's heart. The shrine is a clear forest pool with a statue of Aessina, standing beside it, clothed only in ivy. Dryads are known to visit the shrine to venerate her."
- HOLY_SITE_4802_DESC: "A former, partially underwater temple to the moon goddess Elune that was once known as Lathar'Lazal. It was thought to have been destroyed during the Sundering, and lost beneath the ocean. Millennia later, members of the Twilight's Hammer cult were drawn by whispers and foul dreams to what is now a series of watery caverns located beneath Ashenvale, near the ancient night elven city of Zoram. "
- HOLY_SITE_5758_DESC: "The Temple of Arkkoran is a former temple of Elune located on the northeastern shores of Azshara and is where Arkkoroc, the supposed god of the sea giants, resides. He was great temple dedicated to Azshara before The Sundering."
- HOLY_SITE_5746_DESC: "Eldarath is an ancient night elven city located in central Azshara. During the War of the Ancients, a battle was fought here between the Kaldorei Resistance and Burning Legion."
+ HOLY_SITE_6015_DESC: "The world tree Nordrassil is the lifeblood of the Night Elf civilization. It is the source of their immortality, and without it the Night Elves would be left adrift."
+ HOLY_SITE_5055_DESC: "The bastion of Night Elves in the south, Cenarion Hold, has held back the Silithid threat for millenia."
+ HOLY_SITE_5300_DESC: "The home of the Highborne, exiled after the War of Ancients, they have made Dire Maul their new bae of operations. Whilst their former betrayal of the Night Elf people has caused much animosity, their knowledge is indispensable."
  
  # Titan Worship
  HOLY_SITE_2159_DESC: "Ulduar is the biggest titan-forged complex on Azeroth. Situated in the Storm Peaks, it notably encompasses the Halls of Stone, the Halls of Lightning, and the prison of the Old God Yogg-Saron."
@@ -508,8 +508,8 @@
  desc_elune_visions_of_hope: ""
  elune_cleansing_of_corruption: "Cleansing of Corruption"
  desc_elune_cleansing_of_corruption: ""
- elune_power_over_the_tides: "Power over the Tides"
- desc_elune_power_over_the_tides: ""
+ elune_bounties_of_the_forest: "Bounties of the Forest"
+ desc_elune_bounties_of_the_forest: ""
  elune_the_night_warriors: "The Night Warriors"
  desc_elune_the_night_warriors: ""
 

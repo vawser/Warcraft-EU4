@@ -369,37 +369,37 @@ country_decisions = {
                 region = region_felwood
                 region = region_winterspring
             }
-			NOT = { owned_by = ROOT }
+			NOT = { country_or_vassal_holds = ROOT }
 		}
 		allow = {  
             is_at_war = no
             
 			region_mount_hyjal = {
-                owned_by = ROOT
+                country_or_vassal_holds = ROOT
                 type = all
             }
             region_teldrassil = {
-                owned_by = ROOT
+                country_or_vassal_holds = ROOT
                 type = all
             }
             region_darkshore = {
-                owned_by = ROOT
+                country_or_vassal_holds = ROOT
                 type = all
             }
             region_ashenvale = {
-                owned_by = ROOT
+                country_or_vassal_holds = ROOT
                 type = all
             }
             region_azshara = {
-                owned_by = ROOT
+                country_or_vassal_holds = ROOT
                 type = all
             }
             region_felwood = {
-                owned_by = ROOT
+                country_or_vassal_holds = ROOT
                 type = all
             }
             region_winterspring = {
-                owned_by = ROOT
+                country_or_vassal_holds = ROOT
                 type = all
             }
 		}
@@ -439,6 +439,200 @@ country_decisions = {
 		
 		ai_will_do = {
 			factor = 1
+		}
+	}
+    
+    unite_the_kaldorei_empire = {
+		major = yes
+        ai_importance = 400
+        
+		potential = {
+			NOT = { exists = X05 }
+			culture_group = night_elf_group
+            NOT = { has_country_modifier = centralization_modifier }
+		}
+        provinces_to_highlight = {
+			OR = {
+                region = region_mount_hyjal
+                region = region_teldrassil
+                region = region_darkshore
+                region = region_ashenvale
+                region = region_azshara
+                region = region_felwood
+                region = region_winterspring
+            }
+			NOT = { owner = { culture_group = night_elf_group } }
+		}
+		allow = {  
+            is_at_war = no
+            
+			region_mount_hyjal = {
+                owner = { culture_group = night_elf_group }
+                type = all
+            }
+            region_teldrassil = {
+                owner = { culture_group = night_elf_group }
+                type = all
+            }
+            region_darkshore = {
+                owner = { culture_group = night_elf_group }
+                type = all
+            }
+            region_ashenvale = {
+                owner = { culture_group = night_elf_group }
+                type = all
+            }
+            region_azshara = {
+                owner = { culture_group = night_elf_group }
+                type = all
+            }
+            region_felwood = {
+                owner = { culture_group = night_elf_group }
+                type = all
+            }
+            region_winterspring = {
+                owner = { culture_group = night_elf_group }
+                type = all
+            }
+            
+            if = {
+                limit = {
+                    tag = SEN
+                }
+                alliance_with = SEA
+                alliance_with = SDS
+                alliance_with = SFR
+            }
+            if = {
+                limit = {
+                    tag = SEA
+                }
+                alliance_with = SEN
+                alliance_with = SDS
+                alliance_with = SFR
+            }
+            if = {
+                limit = {
+                    tag = SDS
+                }
+                alliance_with = SEA
+                alliance_with = SEN
+                alliance_with = SFR
+            }
+            if = {
+                limit = {
+                    tag = SFR
+                }
+                alliance_with = SEA
+                alliance_with = SDS
+                alliance_with = SEN
+            }
+		}
+		effect = {
+            if = {
+                limit = {
+                    tag = SEN
+                }
+                create_subject = {
+                    subject_type = vassal
+                    subject = SEA
+                }
+                create_subject = {
+                    subject_type = vassal
+                    subject = SDS
+                }
+                create_subject = {
+                    subject_type = vassal
+                    subject = SFR
+                }
+            }
+            if = {
+                limit = {
+                    tag = SEA
+                }
+                create_subject = {
+                    subject_type = vassal
+                    subject = SEN
+                }
+                create_subject = {
+                    subject_type = vassal
+                    subject = SDS
+                }
+                create_subject = {
+                    subject_type = vassal
+                    subject = SFR
+                }
+            }
+            if = {
+                limit = {
+                    tag = SDS
+                }
+                create_subject = {
+                    subject_type = vassal
+                    subject = SEA
+                }
+                create_subject = {
+                    subject_type = vassal
+                    subject = SEN
+                }
+                create_subject = {
+                    subject_type = vassal
+                    subject = SFR
+                }
+            }
+            if = {
+                limit = {
+                    tag = SFR
+                }
+                create_subject = {
+                    subject_type = vassal
+                    subject = SEA
+                }
+                create_subject = {
+                    subject_type = vassal
+                    subject = SDS
+                }
+                create_subject = {
+                    subject_type = vassal
+                    subject = SEN
+                }
+            }
+            
+            set_government_rank = 3
+			add_prestige = 100
+            swap_free_idea_group = yes
+			change_tag = X05
+			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+            
+            region_mount_hyjal = {
+                add_permanent_claim = ROOT
+            }
+            region_teldrassil = {
+                add_permanent_claim = ROOT
+            }
+            region_darkshore = {
+                add_permanent_claim = ROOT
+            }
+            region_ashenvale = {
+                add_permanent_claim = ROOT
+            }
+            region_azshara = {
+                add_permanent_claim = ROOT
+            }
+            region_felwood = {
+                add_permanent_claim = ROOT
+            }
+            region_winterspring = {
+                add_permanent_claim = ROOT
+            }
+		}
+		
+		ai_will_do = {
+			factor = 0
 		}
 	}
     
