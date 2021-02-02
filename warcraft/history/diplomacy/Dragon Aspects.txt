@@ -1,0 +1,79 @@
+100.1.1 = { celestial_emperor = WYT }
+
+# dependency = {
+	# subject_type = "tributary_state"
+	# first = WYT
+    # second = GMB
+    # start_date = 100.1.1
+    # end_date = 1000.1.1
+# }
+dependency = {
+	subject_type = "tributary_state"
+	first = WYT
+    second = TWG
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = WYT
+    second = SER
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = WYT
+    second = EDS
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = WYT
+    second = DRB
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = WYT
+    second = WYB
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = WYT
+    second = ODS
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = WYT
+    second = NEX
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = WYT
+    second = ADS
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = WYT
+    second = AZW
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = WYT
+    second = BDF
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}

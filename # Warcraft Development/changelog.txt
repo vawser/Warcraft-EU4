@@ -7,6 +7,7 @@
 - Adjusted the Elune blessings.
 - Added flavour for Druidic religion
 - Added flavour for Celestial religion
+- Added flavour for Earth Mother religion
 
 #------------------------------
 # Notes

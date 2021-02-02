@@ -1540,7 +1540,7 @@ take_capital_take_mandate = {
 			po_take_mandate
 		}
 
-		country_desc = CHINESE_EMPIRE_COUNTRY
+		country_desc = ASPECT_EMPIRE_COUNTRY
 		prov_desc = ALL_PROVS
 	}
 	
@@ -1557,7 +1557,7 @@ take_capital_take_mandate = {
 		prov_desc = ALL_PROVS
 	}
 	
-	war_name = CELESTIAL_EMPIRE_WAR_NAME
+	war_name = ASPECT_EMPIRE_WAR_NAME
 }
 
 force_migration = {

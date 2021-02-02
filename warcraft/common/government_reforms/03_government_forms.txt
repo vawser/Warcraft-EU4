@@ -855,6 +855,11 @@ dragonflight_brood_reform = {
         }
     }
     
+    conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+        has_meritocracy = yes
+    }
+    
 	ai = { factor = 0 }
     
     custom_attributes = {

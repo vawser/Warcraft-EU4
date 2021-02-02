@@ -314,12 +314,47 @@ country_event = {
     }
 }
 
-# The Shadow Council
-#   Grant a buff to Shadowmoon
+# Collapse of the Draenei
 country_event = {
 	id = wwu_rise_of_the_horde.5
 	title = wwu_rise_of_the_horde.5.title
 	desc = wwu_rise_of_the_horde.5.desc
+	picture = ORCISH_INVASION_eventPicture
+     
+	trigger = {
+        current_age = age_rise_of_the_horde
+        has_global_flag = guldan_recruitment
+        NOT = { has_global_flag = blood_of_mannoroth }
+        
+        tag = SHA
+
+        FROM = {
+            capital_scope = { continent = draenor }
+            culture_group = orc_group
+        }
+	}
+	
+    mean_time_to_happen = {
+		days = 1
+    }
+    
+    immediate = {
+        hidden_effect = { 
+            set_global_flag = blood_of_mannoroth 
+        }
+    }
+    
+	option = {
+		name = wwu_rise_of_the_horde.5.option.a
+    }
+}
+
+# The Shadow Council
+#   Grant a buff to Shadowmoon
+country_event = {
+	id = wwu_rise_of_the_horde.6
+	title = wwu_rise_of_the_horde.6.title
+	desc = wwu_rise_of_the_horde.6.desc
 	picture = ORCISH_INVASION_eventPicture
     
     major = yes
@@ -336,7 +371,7 @@ country_event = {
     }
     
 	option = {
-		name = wwu_rise_of_the_horde.5.option.a
+		name = wwu_rise_of_the_horde.6.option.a
 		
         set_country_flag = set_blood_of_mannoroth
         set_country_flag = drank_the_demonsblood
@@ -350,39 +385,6 @@ country_event = {
                 change_religion = fel
             }
         }
-    }
-}
-
-# Collapse of the Draenei
-country_event = {
-	id = wwu_rise_of_the_horde.6
-	title = wwu_rise_of_the_horde.6.title
-	desc = wwu_rise_of_the_horde.6.desc
-	picture = ORCISH_INVASION_eventPicture
-     
-	trigger = {
-        current_age = age_rise_of_the_horde
-        NOT = { has_global_flag = blood_of_mannoroth }
-        has_global_flag = guldan_recruitment
-        capital_scope = { continent = draenor }
-        culture_group = draenei_group
-        FROM = {
-            capital_scope = { continent = draenor }
-            culture_group = orc_group
-            government = tribal
-        }
-	}
-	
-    mean_time_to_happen = {
-		days = 1
-    }
-    
-    immediate = {
-        hidden_effect = { set_global_flag = blood_of_mannoroth }
-    }
-    
-	option = {
-		name = wwu_rise_of_the_horde.6.option.a
     }
 }
 
@@ -489,9 +491,15 @@ country_event = {
         NOT = { has_global_flag = the_dying_times }
         current_age = age_rise_of_the_horde
         has_global_flag = blood_of_mannoroth
-        NOT = { exists = KAR }
-        NOT = { exists = SHA }
-        NOT = { exists = AUC }
+        OR = {
+            AND = {
+                NOT = { is_year = 650 }
+                NOT = { exists = KAR }
+                NOT = { exists = SHA }
+                NOT = { exists = AUC }
+            }
+            is_year = 650 # Fire easily after 650
+        }
 	}
 	
     mean_time_to_happen = {

@@ -25,13 +25,13 @@
  wwu_rise_of_the_horde.4.option.a: "Accept Gul'dan's teachings"
  wwu_rise_of_the_horde.4.option.b: "Reject Gul'dan's teachings"
  
- wwu_rise_of_the_horde.5.title: "The Shadow Council"
- wwu_rise_of_the_horde.5.desc: "To rein in any dissidents, Gul'dan has formed the Shadow Council to act as the guiding hand that leads orc society towards the 'correct' path. Those that doubt the power of the warlocks and necrolytes are swiftly punished."
- wwu_rise_of_the_horde.5.option.a: "Mwuhahaha!"
+ wwu_rise_of_the_horde.5.title: "The Collapse of the Draenei"
+ wwu_rise_of_the_horde.5.desc: "The orc clans have attacked our cities, and they have finally reached the jewel of the Draenei civilisation. The city will hold for now, but the power of Gul'dan cannot be underestimated."
+ wwu_rise_of_the_horde.5.option.a: "Krona ki cristorr!"
  
- wwu_rise_of_the_horde.6.title: "The Assault on Shattrath"
- wwu_rise_of_the_horde.6.desc: "The orc clans have destroyed our cities, and they have finally reached the jewel of the Draenei civilisation. The city will hold for now, but the power of Gul'dan cannot be underestimated."
- wwu_rise_of_the_horde.6.option.a: "Krona ki cristorr!"
+ wwu_rise_of_the_horde.6.title: "The Shadow Council"
+ wwu_rise_of_the_horde.6.desc: "To rein in any dissidents, Gul'dan has formed the Shadow Council to act as the guiding hand that leads orc society towards the 'correct' path. Those that doubt the power of the warlocks and necrolytes are swiftly punished."
+ wwu_rise_of_the_horde.6.option.a: "Mwuhahaha!"
     
  wwu_rise_of_the_horde.7.title: "The Blood of Mannoroth"
  wwu_rise_of_the_horde.7.desc: "Gul'dan has offered our chieftain, [Root.Monarch.GetName] a cup of demonsblood from the pit lord Mannoroth. If [Root.Monarch.GetSheHe] accepts, [Root.Monarch.GetSheHe] will be overcome with a demonic bloodlust, and all the clan will have to partake, sealing our allegiance to Gul'dan."

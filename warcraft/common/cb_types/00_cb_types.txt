@@ -655,6 +655,7 @@ cb_take_mandate = {
 		has_dlc = "Mandate of Heaven"
 		is_subject = no
 		is_neighbor_of = FROM
+        culture_group = dragonflight_group
 		FROM = { is_emperor_of_china = yes }
 		is_revolutionary = no
 	}

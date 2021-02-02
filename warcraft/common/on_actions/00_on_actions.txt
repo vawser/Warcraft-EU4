@@ -15,7 +15,7 @@ on_startup = {
     events = {
         wwu_setup.1         # Global
         wwu_setup.2         # Country
-        wwu_setup.3         # Racial modifiers
+        
 	}
 }
 
@@ -105,6 +105,7 @@ on_war_won = {
 		}
 	}
 	events = {
+        wwu_dragon_aspects.1
         wwu_scourge.4 # Defilement of the Sunwell
 		on_action_special.2
         wwu_elemental_attunement.1 # Triumph of the Elements 
@@ -146,8 +147,10 @@ on_war_lost = {
 	}
 
 	events = {
+        wwu_dragon_aspects.2
 		on_action_special.2
         wwu_elemental_attunement.2 # Sorrow of the Elements
+        wwu_rise_of_the_horde.5 # The Assault on Shattrath
 	}
 }
 
@@ -389,6 +392,8 @@ on_new_monarch = {
 		wwu_dynastic.19
 		wwu_pretender.1
         wwu_government.50 # Nazjatar
+        wwu_dragon_aspects.3
+        wwu_dragon_aspects.5
     }
 	random_events = {
 		1000 = 0
@@ -810,6 +815,10 @@ on_integrate = {
 # Nation annexed.
 # FROM is the nation being annexed
 on_annexed = {
+    events = {
+        wwu_dragon_aspects.30
+        wwu_dragon_aspects.31
+    }
 	change_variable = {
 		which = annexed_nation
 		value = 1
@@ -819,6 +828,7 @@ on_annexed = {
 # When the chinese empire gets dismantled (e.g. when the emperor is annexed)
 # FROM = Emperor, ROOT = Current Nation
 on_chinese_empire_dismantled = {
+    clear_global_event_target = EmperorOfChina
 	events = {
 
 	}
@@ -827,21 +837,23 @@ on_chinese_empire_dismantled = {
 # When a nation gains the Mandate of Heaven (becomes the Emperor of China)
 # FROM = Old Emperor, ROOT = New Emperor
 on_mandate_of_heaven_gained = {
-	if = {
-		limit = {
-			OR = {
-				NOT = { government = monarchy }
-				government = tribal
-			}
-		}
-		change_government = monarchy
-	}
+	save_global_event_target_as = EmperorOfChina
+    
 	set_mandate = 60
-	if = {
+	set_meritocracy = 60
+    add_country_modifier = {
+		name = new_leader_of_the_aspects
+		duration = 9125
+	}
+    if = {
 		limit = {
 			has_country_modifier = lost_mandate_of_heaven
 		}
 		remove_country_modifier = lost_mandate_of_heaven
+	}
+    country_event = {
+		id = wwu_dragon_aspects.31
+		days = 365
 	}
 }
 
@@ -851,9 +863,16 @@ on_mandate_of_heaven_lost = {
     
 	add_country_modifier = {
 		name = lost_mandate_of_heaven
-		duration = 7300	# 20 years
+		duration = 7300
 	}
-	add_stability = -2
+    
+    add_stability = -2
+    if = {
+		limit = {
+			has_country_modifier = new_leader_of_the_aspects
+		}
+		remove_country_modifier = new_leader_of_the_aspects
+	}
 }
 
 on_embrace_revolution = {
@@ -1429,6 +1448,7 @@ on_thri_yearly_pulse_3 = {
 }
 
 on_thri_yearly_pulse_4 = {
+    
 }
 
 on_four_year_pulse = {
@@ -1506,6 +1526,8 @@ on_four_year_pulse_2 = {
         }
         add_mana_1 = yes
     }
+    
+    
 }
 
 on_four_year_pulse_3 = {
@@ -1797,6 +1819,10 @@ on_five_year_pulse = {
 		100 = ideagroups.1908
 		100 = ideagroups.1909
 		100 = ideagroups.1910
+        
+        500 = wwu_dragon_aspects.10
+        500 = wwu_dragon_aspects.11
+        500 = wwu_dragon_aspects.12
 
 		1000 = 0
 	}
@@ -2330,10 +2356,6 @@ on_conquest = {
 
 on_country_creation = {
     discover_home_continent = yes
-    
-    events = {
-        wwu_setup.3 # Racial modifiers
-    }
 }
 
 # Harmony

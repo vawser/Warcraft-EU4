@@ -81,6 +81,7 @@ NEX = "countries/The Nexus.txt"
 ADS = "countries/Azure Dragonshrine.txt" 
 AZW = "countries/Azurewing.txt"
 BDF = "countries/Caverns of Time.txt"
+DAP = "countries/Dragon Aspects.txt"
 
 # ---- Dwarf ----
 WIL = "countries/Wildhammer.txt" 

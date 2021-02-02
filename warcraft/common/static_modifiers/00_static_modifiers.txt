@@ -945,7 +945,7 @@ corruption = {
 	spy_offence = -1
 	global_spy_defence = -1
 	all_power_cost = 1.0
-	
+    
     # Estates
 	clergy_loyalty_modifier = 0.1
 	traders_loyalty_modifier = 0.1
