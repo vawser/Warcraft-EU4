@@ -1602,6 +1602,7 @@ army_drill_modifier = { # Used by an entire army, is the average of all subunits
 	shock_damage_received = -0.25
 }
 
+# 
 janissary_regiment = {
 	fire_damage_received = -0.1
 	shock_damage_received = -0.1
@@ -1609,6 +1610,7 @@ janissary_regiment = {
 	drill_gain_modifier = 1.0
 }
 
+# Scourge
 revolutionary_guard_regiment = {
 	fire_damage_received = -0.1
 	shock_damage_received = -0.1
@@ -1620,10 +1622,9 @@ innovativeness = {
     development_cost = -0.25
 }
 
+# Anima Golem
 rajput_regiment = {
-	drill_decay_modifier = -0.25
-	reinforce_cost_modifier = -0.5
-	land_morale = 0.05
+	shock_damage = 0.5
 }
 
 #---------------------------------------

@@ -8,6 +8,11 @@
 - Added flavour for Druidic religion
 - Added flavour for Celestial religion
 - Added flavour for Earth Mother religion
+- Added Dragon Aspects mechanic for the Dragonflight nations.
+- Added Naga Tendrils (tributaries) for Nazjatar
+- Added Runt Attitude religion mechanic for Runic.
+- Added church aspect actions for Bloodmancy/Hakkari.
+- Added church aspect actions for Anima.
 
 #------------------------------
 # Notes
@@ -19,5 +24,27 @@ Holy Roman emperor switch msg box needs loc change
 - Add Illidan/Kael'thas events
 - Add Scourge Arthas events
 
-Add EOC mechanic for pandas
 
+# Religions without mechanics
+geomancy
+fire
+water
+wind
+earth
+deep_mother
+sporemounds
+
+grace_of_rukhmar
+
+fleshshaping
+
+# Mechanics
+aspects = { } / uses_hussite_power / uses_church_power / uses_anglican_power
+holy_sites = { } / blessings = { }
+fetishist_cult = yes / personal_deity = yes
+
+religious_reforms = yes / doom = yes / authority = yes / reform_tooltip = NAHUATL_REFORM_TOOLTIP
+
+religious_schools
+
+country_as_secondary

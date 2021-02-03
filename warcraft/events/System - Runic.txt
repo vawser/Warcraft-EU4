@@ -1,0 +1,41 @@
+namespace = wwu_runic
+
+# Runts!
+country_event = {
+	id = wwu_runic.1
+	title = wwu_runic.1.title
+	desc = wwu_runic.1.desc
+	picture = DEBATE_REPUBLICAN_eventPicture
+	
+    is_triggered_only = yes
+    
+    trigger = {
+        has_dlc = "Mandate of Heaven"
+        religion = runic
+    }
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+    # Persecute the runts!
+	option = {
+		name = wwu_runic.1.option.a
+		
+        trigger = {
+            NOT = { isolationism = 5 }
+        }
+        
+        add_isolationism = 1
+    }
+    # Tolerate the runts
+	option = {
+		name = wwu_runic.1.option.b
+		
+        trigger = {
+            isolationism = 0
+        }
+        
+        add_isolationism = -1
+    }
+}

@@ -17,11 +17,13 @@ disorder_group = {
 		icon = 11
 		
 		country = {
-			core_creation = -0.05
-            army_tradition = 0.5
+			core_creation = -0.2
+		}
+        country_as_secondary = {
+			core_creation = -0.1
 		}
 		province = {
-			local_missionary_strength = -0.02
+			local_missionary_strength = -0.04
 		}
 		
 		on_convert = {

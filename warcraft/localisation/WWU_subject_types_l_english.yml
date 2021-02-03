@@ -27,3 +27,15 @@
  is_hegemonic_vassal: "Is Hegemonic Vassal"
  hegemonic_vassal_nation: "Hegemonic Vassal"
  hegemonic_vassal_overlord: "Hegemonic Overlord"
+ 
+ # Naga Tendril
+ naga_vassal: "Naga Tendril"
+ naga_vassal_title: "Naga Tendril"
+ naga_vassal_title_plural: "Naga Tendrils"
+ naga_vassal_long_desc: "A Naga Tendril must pay a fraction of his income to his overlord. Otherwise they can act as independant nations can."
+ naga_vassal_is_our: "$NAME|Y$ is our Naga Tendril."
+ 
+ is_naga_overlord: "Is Naga Overlord"
+ is_naga_vassal: "Is Naga Tendril"
+ naga_vassal_nation: "Naga Tendril"
+ naga_vassal_overlord: "Naga Overlord"

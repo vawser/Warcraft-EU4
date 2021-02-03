@@ -259,6 +259,10 @@ sound = {
 	file = "tab_religion_christian.wav"
 }
 sound = {
+	name = religion_bloodmancy
+	file = "tab_religion_christian.wav"
+}
+sound = {
 	name = religion_geomancy
 	file = "tab_religion_christian.wav"
 }
@@ -292,5 +296,13 @@ sound = {
 }
 sound = {
 	name = religion_avarice
+	file = "tab_religion_christian.wav"
+}
+sound = {
+	name = religion_rationalism
+	file = "tab_religion_christian.wav"
+}
+sound = {
+	name = religion_faithless
 	file = "tab_religion_christian.wav"
 }

@@ -1,4 +1,4 @@
-open_doors_isolation = {
+runt_acceptance_isolation = {
 	isolation_value = 0
 
 	modifier = {
@@ -7,25 +7,24 @@ open_doors_isolation = {
 	}
 }
 
-adaptive_isolation = {
+runt_integration_isolation = {
 	isolation_value = 1
 
 	modifier = {
-		#global_institution_spread = 0.10
+		global_institution_spread = 0.10
 		development_cost = -0.10
 	}
 }
 
-selective_integration_isolation = {
+runt_selection_isolation = {
 	isolation_value = 2
 
 	modifier = {
-		idea_cost = -0.10
-		build_cost = -0.10
+		build_cost = -0.2
 	}
 }
 
-isolationism_isolation = {
+runt_persecution_isolation = {
 	isolation_value = 3
 
 	modifier = {
@@ -34,11 +33,10 @@ isolationism_isolation = {
 	}
 }
 
-closed_doors_isolation = {
+runt_extermination_isolation = {
 	isolation_value = 4
 
 	modifier = {
-		war_exhaustion_cost = -0.10
-		stability_cost_modifier = -0.10
+		infantry_power = 0.1
 	}
 }

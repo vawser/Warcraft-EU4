@@ -188,6 +188,12 @@
  FORGOTTEN_ASPECTS_LONG: "Forgotten Aspect"
  FORGOTTEN_ASPECTS_SHORT: "aspect"
  
+ BLOOD_ASPECTS_LONG: "Blood Aspect"
+ BLOOD_ASPECTS_SHORT: "aspect"
+ 
+ ANIMA_ASPECTS_LONG: "Anima Aspect"
+ ANIMA_ASPECTS_SHORT: "aspect"
+ 
  #-----------------------------------------------
  # Religious Conversion
  #-----------------------------------------------
@@ -698,3 +704,67 @@
  
  ordos_reform_5: "Steppe Homeland"
  ordos_reform_5_desc: "Provides the following modifiers:"
+ 
+ #-----------------------------------------------
+ # Runic
+ #-----------------------------------------------
+ runt_acceptance_isolation: "Runt Acceptance"
+ runt_acceptance_isolation_title: "Runt Acceptance"
+ runt_acceptance_isolation_desc: ""
+ runt_integration_isolation: "Runt Integration"
+ runt_integration_isolation_title: "Runt Integration"
+ runt_integration_isolation_desc: ""
+ runt_selection_isolation: "Runt Selection"
+ runt_selection_isolation_title: "Runt Selection"
+ runt_selection_isolation_desc: ""
+ runt_persecution_isolation: "Runt Persecution"
+ runt_persecution_isolation_title: "Runt Persecution"
+ runt_persecution_isolation_desc: ""
+ runt_extermination_isolation: "Runt Extermination"
+ runt_extermination_isolation_title: "Runt Extermination"
+ runt_extermination_isolation_desc: ""
+ 
+ #-----------------------------------------------
+ # Bloodmancy
+ #-----------------------------------------------
+ bloodmancy_bloodlust: "Bloodlust"
+ desc_bloodmancy_bloodlust: ""
+ 
+ hakkari_conduct_blood_rituals_aspect: "Conduct Blood Rituals"
+ desc_hakkari_conduct_blood_rituals_aspect: ""
+ hakkari_induce_bloodlust_aspect: "Induce Bloodlust"
+ desc_hakkari_induce_bloodlust_aspect: ""
+ hakkari_siphon_hakkars_essence_aspect: "Siphon Hakkar's Essence"
+ desc_hakkari_siphon_hakkars_essence_aspect: ""
+ hakkari_summon_avatar_of_the_soulflayer_aspect: "Summon Avatar of the Soulflayer"
+ desc_hakkari_summon_avatar_of_the_soulflayer_aspect: ""
+ hakkari_purify_tainted_blood_aspect: "Purify Tainted Blood"
+ desc_hakkari_purify_tainted_blood_aspect: ""
+ hakkari_consume_blood_aspect: "Consume Blood Tincture"
+ desc_hakkari_consume_blood_aspect: ""
+ 
+ bloodmancy_conduct_blood_rituals_aspect: "Conduct Blood Rituals"
+ desc_bloodmancy_conduct_blood_rituals_aspect: ""
+ bloodmancy_induce_bloodlust_aspect: "Induce Bloodlust"
+ desc_bloodmancy_induce_bloodlust_aspect: ""
+ bloodmancy_siphon_ghunns_essence_aspect: "Siphon Ghuun's Essence"
+ desc_bloodmancy_siphon_ghunns_essence_aspect: ""
+ bloodmancy_summon_blood_avatar_aspect: "Summon Blood Avatar"
+ desc_bloodmancy_summon_blood_avatar_aspect: ""
+ bloodmancy_purify_tainted_blood_aspect: "Purify Tainted Blood"
+ desc_bloodmancy_purify_tainted_blood_aspect: ""
+ bloodmancy_consume_blood_aspect: "Consume Blood Tincture"
+ desc_bloodmancy_consume_blood_aspect: ""
+ 
+ anima_construct_anima_golem_aspect: "Construct Anima Golem"
+ desc_anima_construct_anima_golem_aspect: ""
+ anima_enforce_rule_aspect: "Enforce Rule"
+ desc_anima_enforce_rule_aspect: ""
+ anima_spread_anima_aspect: "Spread Anima"
+ desc_anima_spread_anima_aspect: ""
+ anima_plunder_vault_aspect: "Plunder Vaults"
+ desc_anima_plunder_vault_aspect: ""
+ anima_crush_dissent_aspect: "Crush Dissent"
+ desc_anima_crush_dissent_aspect: ""
+ anima_imbue_mogu_warriors_aspect: "Imbue Mogu Warriors"
+ desc_anima_imbue_mogu_warriors_aspect: ""

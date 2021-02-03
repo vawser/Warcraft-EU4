@@ -89,6 +89,9 @@
  wwu_dragon_aspects.31.desc:  "With the fall of [From.Capital.GetCapitalName] the former [From.Monarch.GetTitle] of the Dragon Aspects has been crushed. Let us claim the mantle of the Dragon Aspects as our own.
  wwu_dragon_aspects.31.option.a: "Hurrah!"
  
+ SUBDUE_ASPECTS_TT: "Make all the friendly Dragonflights into §YHegemonic Vassals§!."
+ UNITE_ASPECTS_TT: "Inherit all Dragonflights that are §YHegemonic Vassals§!."
+ 
  #---------------------
  # Modifiers
  #---------------------

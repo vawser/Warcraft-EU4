@@ -17,6 +17,44 @@
  ABSOLUTISM_IMPACT_TT:1 "Absolutism is how ruthless and efficient the government is. The higher it is, the greater benefits we gain in Unrest Reduction and Discipline."
  
  #----------------------------------------------------
+ # Isolationism
+ #----------------------------------------------------
+ ISOLATIONISM:0 "Runt Attitude"
+ ISOLATIONISM_LEVEL_TITLE:0 "$ISOLATIONLEVELTITLE|Y$"
+ ISOLATIONISM_MECHANIC_DESCRIPTION:1 "Runt Attitude represents a nation's willingness to accept vrykul runts. It can range from $FIRSTISOLATIONLEVELNAME|Y$ to $LASTISOLATIONLEVELNAME|Y$.\n\n§MRunt Attitude is changed by the Runts! event.§!"
+ YOUR_CURRENT_ISOLATIONISM_INSTANT:1 "Your current Runt Attitude level is $ISOLATIONLEVELTITLE|Y$ \n$ISOLATIONLEVELDESCRIPTION$"
+ THEIR_CURRENT_ISOLATIONISM_INSTANT:0 "$ISOLATIONLEVELTITLE|Y$"
+ CURRENT_ISOLATIONISM_DELAYED:0 "$ISOLATIONLEVELDESCRIPTION$"
+ ISOLATIONISM_LEVELS_LIST:0 "If our Runt Attitude levels change, our nation would get the following effects:\n$ISOLATIONISMDESCRIPTIONLIST$"
+ ISOLATIONISM_DIFFERENCE:0 "This is $DIF|Y$ away from our own Runt Attitude, costing us:\n$EFFECTS$\n"
+ ISOLATIONISM_SAME:0 "This is the same as our own Runt Attitude, giving us:\n$EFFECTS$\n"
+ CHANGE_ISOLATION_TITLE:0 "$INCREASEDECREASE$ Runt Attitude"
+ CHANGE_ISOLATION_DESCRIPTION:1 "Change their Runt Attitude closer to our own!"
+ CHANGE_ISOLATION_SAME:0 "They have the same Runt Attitude as we do."
+ USES_ISOLATIONISM:0 "$COUNTRY|Y$ uses Runt Attitude.\n"
+ USES_NOT_ISOLATIONISM:0 "$COUNTRY|Y$ does NOT use Runt Attitude.\n"
+ ISOLATIONISM_AT_LEAST:0 "Runt Attitude level at least $VALUE|Y$.\n"
+ ISOLATIONISM_LESS_THAN:0 "Runt Attitude level lower than $VALUE|Y$.\n"
+ INCIDENT_VARIABLE_VALUE:0 "Incident $INCIDENTNAME|Y$ value is at least $VALUE|Y$\n"
+ INCIDENT_VARIABLE_VALUE_NOT:0 "Incident $INCIDENTNAME|Y$ value is less than $VALUE|Y$\n"
+ IS_INCIDENT_POTENTIAL:0 "Incident $INCIDENTNAME|Y$ is possible in the future for "$COUNTRYNAME|Y$".\n"
+ IS_INCIDENT_POTENTIAL_NOT:0 "Incident $INCIDENTNAME|Y$ is NOT possible in the future for $COUNTRYNAME|Y$.\n"
+ IS_INCIDENT_ACTIVE:0 "Incident $INCIDENTNAME|Y$ is active for $COUNTRYNAME|Y$.\n"
+ IS_INCIDENT_ACTIVE_NOT:0 "Incident $INCIDENTNAME|Y$ is NOT active for $COUNTRYNAME|Y$.\n"
+ IS_INCIDENT_ACTIVE_ANY:0 "Any Incident is active for $COUNTRYNAME|Y$.\n"
+ IS_INCIDENT_ACTIVE_ANY_NOT:0 "Any Incident is NOT active for $COUNTRYNAME|Y$.\n"
+ IS_INCIDENT_PAST:1 "Incident $INCIDENTNAME|Y$ has happened for $COUNTRYNAME|Y$.\n"
+ IS_INCIDENT_PAST_NOT:1 "Incident $INCIDENTNAME|Y$ has NOT happened for $COUNTRYNAME|Y$.\n"
+ IS_INCIDENT_POSSIBLE:1 "Incident $INCIDENTNAME|Y$ can trigger for $COUNTRYNAME|Y$.\n"
+ IS_INCIDENT_POSSIBLE_NOT:1 "Incident $INCIDENTNAME|Y$ can NOT trigger for $COUNTRYNAME|Y$.\n"
+ ADD_ISOLATIONISM_EFFECT:0 "Reduce tolerance towards Runts.\n"
+ ADD_ISOLATIONISM_EFFECT_REDUCE:0 "Increase tolerance towards Runts.\n"
+ SET_ISOLATIONISM_EFFECT:0 "Set tolerance of Runts.\n"
+ ADD_INCIDENT_VARIABLE_VALUE_EFFECT:0 "Add $VALUE|Y$ to $INCIDENTNAME|Y$.\n"
+ SET_INCIDENT_VARIABLE_VALUE_EFFECT:0 "Set $INCIDENTNAME|Y$ to $VALUE|Y$.\n"
+ END_INCIDENT_EFFECT:0 "End Incident $INCIDENTNAME|Y$.\n"
+ 
+ #----------------------------------------------------
  # Native
  #----------------------------------------------------
  REFORM_NATIVE_EXPL:1 "Reform to §Y$GOV$§! by learning from §Y$WHO$§!, giving us §Y$LVL$§! technologies spread across the categories, while embracing $NUM|Y$ inventions."
@@ -383,7 +421,7 @@
  COSSACKS_FORCELIMIT:0 "We can recruit up $VAL|%Y$ of our force-limit as §GDemons§! of $FL$ due to:\n"
  
  # Rajput
- RAJPUT_FORCELIMIT:0 "We can recruit up $VAL|%Y$ of our force-limit as §GRajputs§! of $FL$ due to:\n"
+ RAJPUT_FORCELIMIT:0 "We can recruit up $VAL|%Y$ of our force-limit as §GAnima Golems§! of $FL$ due to:\n"
  
  # Revolutionary Guard
  REV_GUARD_FORCELIMIT:0 "We can recruit up $VAL|%Y$ of our force-limit as §GScourge Regiments§! of $FL$ due to:\n"
@@ -396,17 +434,17 @@
  #----------------------------------------------------
  # Rajput (Unsullied)
  #----------------------------------------------------
- # REGCAT_rajput: "Unsullied"
- # RAJPUT_NAME: "$HOME$'s $NUM$$ORDER$ Unsullied"
- # RAJPUT_REGIMENT: "Unsullied Regiment\n$EFFECT$"
- # ONLY_RAJPUT_MODIFIER: "§YAffects only Unsullied Regiments§!"
- # ADD_RAJPUT_SUB_UNIT_EFFECT: "Get '§GUnsullied§!' $UNIT$ in $WHERE|Y$."
- # HAVE_LESS_RAJPUT_THAN: "Have less Unsullied Regiments than $VALUE|Y$.\n"
- # HAVE_AT_LEAST_RAJPUT_THAN: "Have at least $VALUE|Y$ Unsullied Regiments.\n"
- # RAJPUT_DESC: "By granting special privileges to the Ghiscari §YNobility§! estate, we gain access to the Unsullied. Unsullied have stronger discipline than average troops, are cheaper to reinforce and retain their drill bonuses for a longer period of time."
- # RAJPUT_FORCELIMIT: "We can recruit up $VAL|%Y$ of our force-limit as §GUnsullied§! of $FL$ due to:\n"
- # enables_rajput_regiments: "Unsullied Regiments"
- # RAJPUT_REGIMENT_TYPE: "Unsullied"
+ REGCAT_rajput: "Anima Golems"
+ RAJPUT_NAME: "$HOME$'s $NUM$$ORDER$ Anima Golems"
+ RAJPUT_REGIMENT: "Anima Golem Regiment\n$EFFECT$"
+ ONLY_RAJPUT_MODIFIER: "§YAffects only Anima Golem Regiments§!"
+ ADD_RAJPUT_SUB_UNIT_EFFECT: "Get '§GAnima Golem§!' $UNIT$ in $WHERE|Y$."
+ HAVE_LESS_RAJPUT_THAN: "Have less Anima Golem Regiments than $VALUE|Y$.\n"
+ HAVE_AT_LEAST_RAJPUT_THAN: "Have at least $VALUE|Y$ Anima Golem Regiments.\n"
+ RAJPUT_DESC: ""
+ RAJPUT_FORCELIMIT: "We can recruit up $VAL|%Y$ of our force-limit as §GAnima Golems§! of $FL$ due to:\n"
+ enables_rajput_regiments: "Anima Golem Regiments"
+ RAJPUT_REGIMENT_TYPE: "Anima Golem"
  
  #------------------------------------------------------
  # Janissaries

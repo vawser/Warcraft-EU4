@@ -1,0 +1,98 @@
+dependency = {
+	subject_type = "naga_vassal"
+	first = NZJ
+    second = RIP
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "naga_vassal"
+	first = NZJ
+    second = FAT
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "naga_vassal"
+	first = NZJ
+    second = EYE
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "naga_vassal"
+	first = NZJ
+    second = BOC
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "naga_vassal"
+	first = NZJ
+    second = DGS
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "naga_vassal"
+	first = NZJ
+    second = HTC
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "naga_vassal"
+	first = NZJ
+    second = SLB
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "naga_vassal"
+	first = NZJ
+    second = SPL
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "naga_vassal"
+	first = NZJ
+    second = SMC
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "naga_vassal"
+	first = NZJ
+    second = SHZ
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "naga_vassal"
+	first = NZJ
+    second = WRS
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "naga_vassal"
+	first = NZJ
+    second = WRT
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "naga_vassal"
+	first = NZJ
+    second = DPS
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}
+dependency = {
+	subject_type = "naga_vassal"
+	first = NZJ
+    second = SPT
+    start_date = 100.1.1
+    end_date = 1000.1.1
+}

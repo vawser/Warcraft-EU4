@@ -50,3 +50,13 @@ ruler_became_warchief = {
 	opinion = 100
 	yearly_decay = -1
 }
+
+# Subjects
+is_naga_overlord = {
+	opinion = 15
+}
+is_naga_vassal = {
+	opinion = 15
+}
+
+

@@ -20,7 +20,10 @@ order_group = {
             advisor_cost = -0.1
 			advisor_pool = 1
 		}
-		
+		country_as_secondary = {
+            advisor_cost = -0.1
+		}
+        
 		has_patriarchs = yes
 		
 		orthodox_icons = {
@@ -139,6 +142,12 @@ order_group = {
 			shock_damage = 0.1
             naval_forcelimit_modifier = 0.1
 		}
+        country_as_secondary = {
+			shock_damage = 0.05
+		}
+        province = {
+            local_missionary_strength = -0.04
+        }
         
         on_convert = {
 			change_religion = azshara
@@ -159,7 +168,13 @@ order_group = {
             governing_capacity_modifier = 0.1
 			defensiveness = 0.33
 		}
-		
+		country_as_secondary = {
+            governing_capacity_modifier = 0.1
+		}
+        province = {
+            local_missionary_strength = -0.01
+        }
+        
 		holy_sites = { 2159 5050 3207 4921 3703 } # Ulduar - Chamber of Heart - Uldum - Uldaman - Uldir
 		
 		blessings = {
@@ -186,9 +201,15 @@ order_group = {
 		icon = 27
 		
 		country = {
-			country_military_power = 1
+			all_power_cost = -0.05
             yearly_absolutism = 0.5
 		}
+        country_as_secondary = {
+			all_power_cost = -0.025
+		}
+        province = {
+            local_missionary_strength = -0.01
+        }
         
 		holy_sites = { 2159 5050 3207 4921 3703 } # Ulduar - Chamber of Heart - Uldum - Uldaman - Uldir
 		
@@ -216,11 +237,17 @@ order_group = {
 		icon = 15
 		
 		country = {
-			prestige = 1
+			build_cost = -0.2
+            build_time = -0.2
 		}
 		country_as_secondary = {
-			prestige = 1
+			build_cost = -0.1
 		}
+        province = {
+            local_missionary_strength = 0.01
+        }
+        
+        can_have_secondary_religion = yes
 	}
     
     dragon_aspects = {
@@ -228,9 +255,17 @@ order_group = {
 		icon = 22
 		
 		country = {
+            reform_progress_growth = 0.25
             prestige = 1
-            ae_impact = -0.1
 		}
+        country_as_secondary = {
+            reform_progress_growth = 0.125
+		}
+        province = {
+            local_missionary_strength = -0.03
+        }
+        
+        can_have_secondary_religion = yes
         
         on_convert = {
 			change_religion = dragon_aspects
@@ -248,14 +283,17 @@ order_group = {
 		icon = 26
 		
 		country = {
-            discipline = 0.05
-			reserves_organisation = 0.2
+            infantry_power = 0.1
+			global_manpower_modifier = 0.1
+		}
+        country_as_secondary = {
+            infantry_power = 0.05
 		}
         province = {
-            local_missionary_strength = 0.01
+            local_missionary_strength = -0.01
         }
         
-        fervor = yes
+        uses_isolationism = yes
         
 		on_convert = {
 			change_religion = runic
@@ -273,11 +311,13 @@ order_group = {
 		icon = 30
 		
 		country = {
-            prestige = 1
-            movement_speed = 0.25
+            hostile_attrition = 5
+		}
+        country_as_secondary = {
+            hostile_attrition = 2.5
 		}
         province = {
-            local_missionary_strength = -0.01
+            local_missionary_strength = -0.02
         }
         
         on_convert = {

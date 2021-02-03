@@ -28,14 +28,21 @@ subdue_the_aspects_decision = {
 		administrative_efficiency = 0.05
 	}
     on_effect = {
-		every_country = {
-            limit = {
-                culture_group = dragonflight_group
-            }
-            ROOT = {
-                create_subject = {
-                    subject_type = hegemonic_vassal
-                    subject = PREV
+        custom_tooltip = SUBDUE_ASPECTS_TT
+        hidden_effect = {
+            every_country = {
+                limit = {
+                    has_opinion = {
+                        who = ROOT
+                        value = 0
+                    }
+                    culture_group = dragonflight_group
+                }
+                ROOT = {
+                    create_subject = {
+                        subject_type = hegemonic_vassal
+                        subject = PREV
+                    }
                 }
             }
         }
@@ -48,13 +55,15 @@ unite_the_aspect_decision = {
 		discipline = 0.05
 	}
     on_effect = {
-		every_country = {
-            limit = {
-                culture_group = dragonflight_group
-                is_subject_of = ROOT
-            }
-            ROOT = {
-                inherit = PREV
+        custom_tooltip = UNITE_ASPECTS_TT
+        hidden_effect = {
+            every_subject_country = {
+                limit = {
+                    is_subject_of_type = hegemonic_vassal
+                }
+                ROOT = {
+                    inherit = PREV
+                }
             }
         }
         change_tag = DAP
