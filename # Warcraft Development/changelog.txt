@@ -36,8 +36,6 @@ sporemounds
 
 grace_of_rukhmar
 
-fleshshaping
-
 # Mechanics
 aspects = { } / uses_hussite_power / uses_church_power / uses_anglican_power
 holy_sites = { } / blessings = { }
@@ -48,3 +46,7 @@ religious_reforms = yes / doom = yes / authority = yes / reform_tooltip = NAHUAT
 religious_schools
 
 country_as_secondary
+
+#------------------------------
+# Map
+#------------------------------
