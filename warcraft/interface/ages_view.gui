@@ -30,12 +30,61 @@ guiTypes = {
         WindowType = {
 			name = "age_rise_of_the_horde"
 			position = { x= 35 y = -29}
-
+            
+			iconType = {
+				name ="icon_age_1"
+				spriteType = "GFX_icon_age_active"
+				position = { x= -15 y = 20 }
+				frame = 1
+            }
+			iconType = {
+				name ="icon_age_2"
+				spriteType = "GFX_icon_age_inactive"
+				position = { x= -15 y = 60 }
+				frame = 2
+            }
+			iconType = {
+				name ="icon_age_3"
+				spriteType = "GFX_icon_age_inactive"
+				position = { x= -15 y = 100 }
+				frame = 3
+            }
+			iconType = {
+				name ="icon_age_4"
+				spriteType = "GFX_icon_age_inactive"
+				position = { x= -15 y = 140 }
+				frame = 4
+            }
 		}
         
 		WindowType = {
 			name = "age_orcish_horde"
 			position = { x= 35 y = -29}
+
+            iconType = {
+				name ="icon_age_1"
+				spriteType = "GFX_icon_age_inactive"
+				position = { x= -15 y = 20 }
+				frame = 1
+            }
+			iconType = {
+				name ="icon_age_2"
+				spriteType = "GFX_icon_age_active"
+				position = { x= -15 y = 60 }
+				frame = 2
+            }
+			iconType = {
+				name ="icon_age_3"
+				spriteType = "GFX_icon_age_inactive"
+				position = { x= -15 y = 100 }
+				frame = 3
+            }
+			iconType = {
+				name ="icon_age_4"
+				spriteType = "GFX_icon_age_inactive"
+				position = { x= -15 y = 140 }
+				frame = 4
+            }
 
 		}			
 		
@@ -43,12 +92,60 @@ guiTypes = {
 			name = "age_scourge"
 			position = { x= 35 y = -29}
 
+            iconType = {
+				name ="icon_age_1"
+				spriteType = "GFX_icon_age_inactive"
+				position = { x= -15 y = 20 }
+				frame = 1
+            }
+			iconType = {
+				name ="icon_age_2"
+				spriteType = "GFX_icon_age_inactive"
+				position = { x= -15 y = 60 }
+				frame = 2
+            }
+			iconType = {
+				name ="icon_age_3"
+				spriteType = "GFX_icon_age_active"
+				position = { x= -15 y = 100 }
+				frame = 3
+            }
+			iconType = {
+				name ="icon_age_4"
+				spriteType = "GFX_icon_age_inactive"
+				position = { x= -15 y = 140 }
+				frame = 4
+            }
 		}	
         
         WindowType = {
 			name = "age_burning_legion"
 			position = { x= 35 y = -29}
 
+            iconType = {
+				name ="icon_age_1"
+				spriteType = "GFX_icon_age_inactive"
+				position = { x= -15 y = 20 }
+				frame = 1
+            }
+			iconType = {
+				name ="icon_age_2"
+				spriteType = "GFX_icon_age_inactive"
+				position = { x= -15 y = 60 }
+				frame = 2
+            }
+			iconType = {
+				name ="icon_age_3"
+				spriteType = "GFX_icon_age_inactive"
+				position = { x= -15 y = 100 }
+				frame = 3
+            }
+			iconType = {
+				name ="icon_age_4"
+				spriteType = "GFX_icon_age_active"
+				position = { x= -15 y = 140 }
+				frame = 4
+            }
 		}
         
 		instantTextBoxType = {

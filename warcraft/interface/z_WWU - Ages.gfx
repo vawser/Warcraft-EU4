@@ -1,14 +1,14 @@
 spriteTypes = {
     spriteType = {
-		name = "GFX_icon_age_s"
-		texturefile = "gfx/interface/ages/icon_age_s.dds"
-		noOfFrames = 11
+		name = "GFX_icon_age_active"
+		texturefile = "gfx/interface/ages/icon_age_active.dds"
+		noOfFrames = 4
 	}	
 
 	spriteType = {
-		name = "GFX_icon_age_l"
-		texturefile = "gfx/interface/ages/icon_age_l.dds"
-		noOfFrames = 11
+		name = "GFX_icon_age_inactive"
+		texturefile = "gfx/interface/ages/icon_age_inactive.dds"
+		noOfFrames = 4
 	}
     
     #------------------------------------
