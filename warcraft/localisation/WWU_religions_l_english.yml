@@ -683,6 +683,12 @@
  harmonized_rational_philosophies: "Integration of Rational Philosophies"
  desc_harmonized_rational_philosophies: "We have integrated rational philosophies into the Light."
  
+ harmonized_holy_light: "Integration of the Holy Light"
+ desc_harmonized_holy_light: "We have integrated the Holy Light into the Light."
+ 
+ harmonized_light_of_the_naaru: "Integration of the Light of the Naaru"
+ desc_harmonized_light_of_the_naaru: "We have integrated the Light of the Naaru into the Light."
+ 
  #-----------------------------------------------
  # Ordos
  #-----------------------------------------------

@@ -197,6 +197,14 @@ harmonized_death = {
     global_manpower_modifier = 0.2
     religion = yes
 }
+harmonized_holy_light = {
+    development_cost = -0.1
+    religion = yes
+}
+harmonized_light_of_the_naaru = {
+    development_cost = -0.1
+    religion = yes
+}
 
 #----------------------------------------------
 # Rational Philosophies - Schools

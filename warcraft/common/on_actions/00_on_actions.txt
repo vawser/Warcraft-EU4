@@ -2396,3 +2396,13 @@ harmonized_death = {
         wwu_harmonization.7
     }
 }
+harmonized_holy_light = {
+    events = {
+        wwu_harmonization.8
+    }
+}
+harmonized_light_of_the_naaru = {
+    events = {
+        wwu_harmonization.9
+    }
+}

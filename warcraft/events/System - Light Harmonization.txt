@@ -147,6 +147,48 @@ country_event = {
 	}
 }
 
+# Integration of the Holy Light
+country_event = {
+	id = wwu_harmonization.8
+	title = wwu_harmonization.8.title
+	desc = wwu_harmonization.8.desc
+	picture = BLIND_PALADIN_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = wwu_harmonization.8.option.a
+        
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_holy_light"
+				duration = -1
+			}
+		}
+	}
+}
+
+# Integration of the Light of the Naaru
+country_event = {
+	id = wwu_harmonization.9
+	title = wwu_harmonization.9.title
+	desc = wwu_harmonization.9.desc
+	picture = BLIND_PALADIN_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = wwu_harmonization.9.option.a
+        
+		tooltip = {
+			add_country_modifier = {
+				name = "harmonized_light_of_the_naaru"
+				duration = -1
+			}
+		}
+	}
+}
+
 # Concept of Light
 country_event = {
 	id = wwu_harmonization.10
