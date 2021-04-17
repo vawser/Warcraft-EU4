@@ -1,0 +1,39 @@
+dependency = {
+	subject_type = "hegemonic_vassal"
+	first = XAV
+	second = HAL
+	start_date = 590.1.1
+	end_date = 595.1.1
+}
+
+dependency = {
+	subject_type = "hegemonic_vassal"
+	first = BIL
+	second = SMW
+	start_date = 590.1.1
+	end_date = 595.1.1
+}
+
+dependency = {
+	subject_type = "hegemonic_vassal"
+	first = BIL
+	second = VTC
+	start_date = 590.1.1
+	end_date = 595.1.1
+}
+
+dependency = {
+	subject_type = "hegemonic_vassal"
+	first = BIL
+	second = BWA
+	start_date = 590.1.1
+	end_date = 595.1.1
+}
+
+dependency = {
+	subject_type = "hegemonic_vassal"
+	first = WIL
+	second = AER
+	start_date = 590.1.1
+	end_date = 595.1.1
+}
