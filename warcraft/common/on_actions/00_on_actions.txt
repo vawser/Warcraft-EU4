@@ -17,6 +17,8 @@ on_startup = {
         wwu_setup.2         # Country
 
 	}
+
+	set_corrupted_states = yes
 }
 
 # country
@@ -2358,7 +2360,6 @@ on_conquest = {
 
 on_country_creation = {
     discover_home_continent = yes
-	set_corrupted_states = yes
 }
 
 # Harmony

@@ -176,7 +176,6 @@ discover_home_continent = {
     	limit = {
         	OR = {
 				capital_scope = { continent = plunder_isle }
-
 			}
     	}
 
@@ -206,9 +205,11 @@ set_corrupted_states = {
 			}
     	}
 
-		add_country_modifier = {
-			name = corrupt_state_5
-			duration = -1
+		ROOT = {
+			add_country_modifier = {
+				name = corrupt_state_5
+				duration = -1
+			}
 		}
 	}
 }
