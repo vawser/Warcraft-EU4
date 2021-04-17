@@ -6,29 +6,29 @@ wwu_food = {
 	base_price = 2
 }
 wwu_textiles = {
-	base_price = 5
+	base_price = 3
 }
 wwu_jewelry = {
-	base_price = 8
+	base_price = 5
 }
 wwu_metals = {
-	base_price = 5
+	base_price = 4
 }
 wwu_gold = {
 	base_price = 0
 	goldtype = yes
 }
 wwu_slaves = {
-	base_price = 6
+	base_price = 5
 }
 wwu_oil = {
 	base_price = 6
 }
 wwu_lumber = {
-	base_price = 3
+	base_price = 2
 }
 wwu_artifacts = {
-	base_price = 10
+	base_price = 7
 }
 unknown = {
 	base_price = 0
