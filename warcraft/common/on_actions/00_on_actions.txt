@@ -11,11 +11,11 @@ on_startup = {
 		}
 		save_global_event_target_as = celestial_emperor
 	}
-    
+
     events = {
         wwu_setup.1         # Global
         wwu_setup.2         # Country
-        
+
 	}
 }
 
@@ -46,9 +46,9 @@ on_religion_change = {
 		duration = 10
 		hidden = yes
 	}
-    
+
 	events = {
-		
+
 	}
 }
 
@@ -65,12 +65,12 @@ on_enforce_rebel_demands = {
 
 # country
 on_colonial_liberation = {
-    
+
 }
 
 # country
 on_colonial_reintegration = {
-	
+
 }
 
 # country
@@ -97,7 +97,7 @@ on_war_won = {
         set_country_flag = stormwind_repelled_the_orcs
     }
 
-	ROOT = { 
+	ROOT = {
 		country_event = { id = tributary_events.32 }
 		change_variable = {
 			which = war_won
@@ -108,7 +108,7 @@ on_war_won = {
         wwu_dragon_aspects.1
         wwu_scourge.4 # Defilement of the Sunwell
 		on_action_special.2
-        wwu_elemental_attunement.1 # Triumph of the Elements 
+        wwu_elemental_attunement.1 # Triumph of the Elements
         wwu_earth_mother.2 # Favour of An'she
 	}
 }
@@ -121,7 +121,7 @@ on_war_lost = {
 		which = war_lost
 		value = 1
 	}
-    
+
     # Used to enable the Scourge spawning
     if = {
         limit = {
@@ -130,7 +130,7 @@ on_war_lost = {
         }
         set_global_flag = orcish_horde_lost_war
     }
-    
+
     # Used to enable the Burning Legion spawning
     if = {
         limit = {
@@ -139,7 +139,7 @@ on_war_lost = {
         }
         set_global_flag = scourge_lost_war
     }
-    
+
 	add_country_modifier = {
 		name = just_lost_war_timer
 		duration = 10
@@ -178,7 +178,7 @@ on_battle_lost_country = {
 		12 = 0
 		2 = friendship_events.1 #Historical Friendship Broken
 	}
-	
+
 }
 
 # province
@@ -280,7 +280,7 @@ on_abandon_colony = {
 on_new_monarch = {
     reset_spellcaster_skills = yes
     reset_earth_mother_balance = yes
-    
+
     # Add the Spellcaster mechanic automatically for these monarchs
     if = {
         limit = {
@@ -290,7 +290,7 @@ on_new_monarch = {
             }
         }
         add_ruler_personality = spellcaster_personality
-    
+
         random_list = {
             33 = {
                 set_variable = {
@@ -352,7 +352,7 @@ on_new_monarch = {
             }
         }
     }
-    
+
     #---------------
     # Consort
     #---------------
@@ -387,7 +387,7 @@ on_new_monarch = {
 		}
 		set_country_flag = country_has_no_heir
 	}
-    
+
     events = {
 		wwu_dynastic.19
 		wwu_pretender.1
@@ -400,12 +400,12 @@ on_new_monarch = {
 		50 = wwu_dynastic.30
 		250 = wwu_pretender.1
 	}
-	
+
 }
 
 on_new_consort = {
 	country_event = { id = wwu_consort.2 }
-	
+
 	if = {
 		limit = { has_ruler_flag = had_10_years_anniversary }
 		clr_ruler_flag = had_10_years_anniversary
@@ -429,7 +429,7 @@ on_monarch_death = {
 	events = {
 		loa.2 # Remove old loa's influence
 	}
-	
+
 }
 
 # country
@@ -466,7 +466,7 @@ on_death_election = {
 # country
 on_death_foreign_slave_ruler = {
 	events = {
-		
+
 	}
 }
 
@@ -838,7 +838,7 @@ on_chinese_empire_dismantled = {
 # FROM = Old Emperor, ROOT = New Emperor
 on_mandate_of_heaven_gained = {
 	save_global_event_target_as = celestial_emperor
-    
+
 	set_mandate = 60
 	set_meritocracy = 60
     add_country_modifier = {
@@ -860,12 +860,12 @@ on_mandate_of_heaven_gained = {
 # When a nation loses the Mandate of Heaven
 # FROM = New Emperor, ROOT = Old Emperor
 on_mandate_of_heaven_lost = {
-    
+
 	add_country_modifier = {
 		name = lost_mandate_of_heaven
 		duration = 7300
 	}
-    
+
     add_stability = -2
     if = {
 		limit = {
@@ -878,39 +878,39 @@ on_mandate_of_heaven_lost = {
 on_embrace_revolution = {
     # Toggles the government reform
     set_country_flag = allow_scourge_government
-    
+
     # Free from overlord
     grant_independence = yes
-    
+
     # Become Scourge tech
     change_technology_group = tech_scourge
-    
+
     # Add government
 	if = {
 		limit = { NOT = { government = monarchy } }
 		change_government = monarchy
 	}
 	add_government_reform = scourge_domain_reform
-    
+
     # Add culture
     change_primary_culture = scourge
     every_owned_province = {
         limit = { has_revolution_in_province = yes }
         change_culture = scourge
     }
-    
+
     # Add religion
     change_religion = cult_of_the_damned
     every_owned_province = {
         limit = { has_revolution_in_province = yes }
         change_religion = cult_of_the_damned
     }
-    
+
     # Add new ruler
-	define_ruler = { 
+	define_ruler = {
         religion = cult_of_the_damned
     }
-    
+
     # Handle special names
     if = {
         limit = {
@@ -954,7 +954,7 @@ on_dismantle_revolution = {
     # Disable Scourge Domain government
     remove_government_reform = scourge_domain_reform
     clr_country_flag = allow_scourge_government
-    
+
     kill_ruler = yes
 
 	if = {
@@ -1000,12 +1000,12 @@ on_siberian_pulse = {
 
 # country random events
 on_bi_yearly_pulse = {
-	
+
 	swap_non_generic_missions = yes # Update missions
-    
+
     # Flag Update
     clr_country_flag = scourge_can_raise_dead
-    
+
     # Events
 	random_events = {
 		# Trade Specific
@@ -1021,7 +1021,7 @@ on_bi_yearly_pulse = {
 		100 = trade.10
 		100 = trade.11
 		100 = trade.12
-        
+
 		# Trade League Events
 		100 = trade_league.1
 		100 = trade_league.2
@@ -1053,7 +1053,7 @@ on_bi_yearly_pulse = {
 		100 = wwu_tribes.22
 		100 = wwu_tribes.23
 		100 = wwu_tribes.24
-        
+
 		# Sailor events
 		100 = sailor_event.1
 		100 = sailor_event.2
@@ -1101,26 +1101,26 @@ on_bi_yearly_pulse_2 = {
 		200 = wwu_corruption.13
 		200 = wwu_corruption.14
 		200 = wwu_corruption.15
-        
+
         # Fel
         100 = wwu_fel.10
         100 = wwu_fel.11
         100 = wwu_fel.12
         100 = wwu_fel.13
-        
+
         # Fel - Legion Strength 100%
         200 = wwu_fel.20
         200 = wwu_fel.21
-        
+
         # Elemental Attunement
         400 = wwu_elemental_attunement.10
         50 = wwu_elemental_attunement.11
         50 = wwu_elemental_attunement.12
-        
+
         # Ruler Education
-        200 = wwu_ruler_education.1 
-        200 = wwu_ruler_education.2  
-        
+        200 = wwu_ruler_education.1
+        200 = wwu_ruler_education.2
+
 		4000 = 0
 	}
 }
@@ -1144,7 +1144,7 @@ on_bi_yearly_pulse_3 = {
         100 = wwu_magic.8
         100 = wwu_magic.9
         100 = wwu_magic.10
-        
+
         1000 = 0
     }
 }
@@ -1156,14 +1156,14 @@ on_bi_yearly_pulse_4 = {
 		10 = espionage_events.6
 		100 = espionage_events.8
 		80 = espionage_events.9
-        
+
         # Minority Expulsion Events
 		100 = expel_minority_events.1
 		100 = expel_minority_events.2
 		100 = expel_minority_events.3
 		100 = expel_minority_events.4
 		100 = expel_minority_events.5
-        
+
         # Innovativeness
 		100 = innovativeness_events.4
 		100 = innovativeness_events.5
@@ -1174,14 +1174,14 @@ on_bi_yearly_pulse_4 = {
 		100 = innovativeness_events.10
 		100 = innovativeness_events.13
 		100 = innovativeness_events.15
-        
+
         # Mercenaries
 		100 = mercs.2
 		100 = mercs.3
 		100 = mercs.4
 		100 = mercs.7
 		100 = mercs.11
-        
+
         # Professionalism
 		100 = army_professionalism_events.4
 		100 = army_professionalism_events.5
@@ -1203,7 +1203,7 @@ on_bi_yearly_pulse_4 = {
 
 # country random events
 on_thri_yearly_pulse = {
-    
+
 	random_events = {
 		# Republics
 		100 = republics.4
@@ -1253,7 +1253,7 @@ on_thri_yearly_pulse = {
 		75 = meritocracy_events.3
 		75 = meritocracy_events.4
 		75 = meritocracy_events.5
-		
+
 		# Random Events
 		100 = 5008
 		100 = 5014
@@ -1381,7 +1381,7 @@ on_thri_yearly_pulse = {
 		100 = 5037
 		100 = 5063
 		100 = 6014
-        
+
 		1000 = 0
 	}
 }
@@ -1448,7 +1448,7 @@ on_thri_yearly_pulse_3 = {
 }
 
 on_thri_yearly_pulse_4 = {
-    
+
 }
 
 on_four_year_pulse = {
@@ -1483,7 +1483,7 @@ on_four_year_pulse = {
 		100 = pirates.17
 		100 = pirates.18
 		100 = pirates.19
-        
+
         # Republican Dictatorship
 		100 = republican_dictatorship.1
 		100 = republican_dictatorship.2
@@ -1493,18 +1493,18 @@ on_four_year_pulse = {
 		100 = republican_dictatorship.6
 		100 = republican_dictatorship.7
 		100 = republican_dictatorship.8
-        
+
         # Druidism
         100 = wwu_druidism.1
         100 = wwu_druidism.2
         100 = wwu_druidism.3
-        
+
         # Celestials
         100 = wwu_celestials.1
         100 = wwu_celestials.2
         100 = wwu_celestials.3
         100 = wwu_celestials.4
-        
+
         1000 = 0
 	}
 }
@@ -1512,7 +1512,7 @@ on_four_year_pulse = {
 on_four_year_pulse_2 = {
     # Magic
     add_mana_1 = yes
-    
+
     # Mana Regeneration sources
     if = {
         limit = {
@@ -1526,8 +1526,8 @@ on_four_year_pulse_2 = {
         }
         add_mana_1 = yes
     }
-    
-    
+
+
 }
 
 on_four_year_pulse_3 = {
@@ -1819,7 +1819,7 @@ on_five_year_pulse = {
 		100 = ideagroups.1908
 		100 = ideagroups.1909
 		100 = ideagroups.1910
-        
+
         500 = wwu_dragon_aspects.10
         500 = wwu_dragon_aspects.11
         500 = wwu_dragon_aspects.12
@@ -1832,7 +1832,7 @@ on_five_year_pulse_2 = {
     random_events = {
         10 = wwu_ruler_education.1
         10 = wwu_ruler_education.2
-        
+
         # Immortal Ruler skill events
         10 = wwu_ruler.1
         10 = wwu_ruler.2
@@ -1850,9 +1850,9 @@ on_five_year_pulse_3 = {
         100 = wwu_emerald_dream.6
         100 = wwu_emerald_dream.7
         100 = wwu_emerald_dream.8
-        
+
         100 = wwu_runic.1
-    
+
 		# 100 = propagate_religion_events.1
 		# 100 = propagate_religion_events.2
 		# 100 = propagate_religion_events.3
@@ -1900,7 +1900,7 @@ on_five_year_pulse_4 = {
 
 # El Dorado
 on_explore_coast = {
-    
+
 }
 on_conquistador_empty = {
 }
@@ -1912,7 +1912,7 @@ on_buy_religious_reform = {
     if = {
         limit = { religion = ordos }
         add_authority = -100
-        
+
         capital_scope = {
             spawn_rebels = {
                 type = pretender_rebels
@@ -1931,13 +1931,13 @@ on_circumnavigation = {
 
 on_become_free_city = {
 	events = {
-        
+
 	}
 }
 
 on_remove_free_city = {
 	events = {
-        
+
 	}
 }
 
@@ -2002,7 +2002,7 @@ on_province_religion_converted = {
 			value = 1
 		}
 	}
-    
+
     on_province_religion_converted_estate_privileges_effect = yes
 }
 
@@ -2135,7 +2135,7 @@ on_trade_company_investment = {
 }
 
 on_center_of_trade_upgrade = {
-	owner = { 
+	owner = {
 		change_variable = {
 			which = cot_upgraded
 		value = 1
@@ -2210,7 +2210,7 @@ on_raid_coast = {
                             }
                         }
                     }
-                    
+
                     add_casus_belli = {
                         target = ROOT
                         type = cb_pirates
@@ -2250,8 +2250,8 @@ on_flagship_destroyed = {
 }
 
 # this = Released country, FROM = Releasing country
-on_country_released = { 
-    
+on_country_released = {
+
 }
 
 # ROOT = province, FROM = country
@@ -2262,7 +2262,7 @@ on_trade_good_changed = {
 			limit = {
 				trade_goods = food
 			}
-			add_province_modifier = { 
+			add_province_modifier = {
 				name = grain_bonus_prod
 				duration = -1
 				hidden = yes
@@ -2328,12 +2328,12 @@ on_post_adm_advisor_fired = {
 
 # this = country
 on_post_dip_advisor_fired = {
-	
+
 }
 
 # this = country
 on_post_mil_advisor_fired = {
-	
+
 }
 
 # this = new client state, from = parent country
@@ -2358,6 +2358,7 @@ on_conquest = {
 
 on_country_creation = {
     discover_home_continent = yes
+	set_corrupted_states = yes
 }
 
 # Harmony

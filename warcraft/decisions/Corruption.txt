@@ -1,0 +1,118 @@
+country_decisions = {
+    fight_corruption_5 = {
+        potential = {
+            has_country_modifier = corrupt_state_5
+        }
+        allow = {
+            has_country_modifier = corrupt_state_5
+            adm_power = 200
+            dip_power = 200
+            mil_power = 200
+        }
+        effect = {
+            add_adm_power = -200
+            add_dip_power = -200
+            add_mil_power = -200
+            remove_country_modifier = corrupt_state_5
+            add_country_modifier = {
+                name = corrupt_state_4
+                duration = -1
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    fight_corruption_4 = {
+        potential = {
+            has_country_modifier = corrupt_state_4
+        }
+        allow = {
+            has_country_modifier = corrupt_state_4
+            adm_power = 200
+            dip_power = 200
+            mil_power = 200
+        }
+        effect = {
+            add_adm_power = -200
+            add_dip_power = -200
+            add_mil_power = -200
+            remove_country_modifier = corrupt_state_4
+            add_country_modifier = {
+                name = corrupt_state_3
+                duration = -1
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    fight_corruption_3 = {
+        potential = {
+            has_country_modifier = corrupt_state_3
+        }
+        allow = {
+            has_country_modifier = corrupt_state_3
+            adm_power = 200
+            dip_power = 200
+            mil_power = 200
+        }
+        effect = {
+            add_adm_power = -200
+            add_dip_power = -200
+            add_mil_power = -200
+            remove_country_modifier = corrupt_state_3
+            add_country_modifier = {
+                name = corrupt_state_2
+                duration = -1
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    fight_corruption_2 = {
+        potential = {
+            has_country_modifier = corrupt_state_2
+        }
+        allow = {
+            has_country_modifier = corrupt_state_2
+            adm_power = 200
+            dip_power = 200
+            mil_power = 200
+        }
+        effect = {
+            add_adm_power = -200
+            add_dip_power = -200
+            add_mil_power = -200
+            remove_country_modifier = corrupt_state_2
+            add_country_modifier = {
+                name = corrupt_state_1
+                duration = -1
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    fight_corruption_1 = {
+        potential = {
+            has_country_modifier = corrupt_state_1
+        }
+        allow = {
+            has_country_modifier = corrupt_state_1
+            adm_power = 200
+            dip_power = 200
+            mil_power = 200
+        }
+        effect = {
+            add_adm_power = -200
+            add_dip_power = -200
+            add_mil_power = -200
+            remove_country_modifier = corrupt_state_1
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

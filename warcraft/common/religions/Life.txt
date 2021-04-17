@@ -4,18 +4,18 @@
 life_group = {
     defender_of_faith = no
 	can_form_personal_unions = no
-	
+
 	flags_with_emblem_percentage = 85
 	flag_emblem_index_range = { 1 120 }
-    
+
     crusade_name = CRUSADE
-    
+
     harmonized_modifier = harmonized_life
-    
+
     celestials = {
         color = { 49 177 85 }
 		icon = 14
-		
+
 		country = {
 			diplomatic_reputation = 1
             diplomatic_upkeep = 1
@@ -26,9 +26,9 @@ life_group = {
         province = {
 			local_missionary_strength = -0.01
 		}
-        
+
 		personal_deity = yes
-        
+
         on_convert = {
 			change_religion = celestials
 			add_prestige = -100
@@ -36,14 +36,14 @@ life_group = {
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
-			}			
+			}
 		}
     }
-    
+
     druidism = {
         color = { 113 254 123 }
 		icon = 9
-		
+
 		country = {
 			development_cost = -0.1
 		}
@@ -53,9 +53,9 @@ life_group = {
         province = {
 			local_missionary_strength = -0.01
 		}
-        
+
         hre_heretic_religion = yes
-        
+
 		on_convert = {
 			change_religion = druidism
 			add_prestige = -100
@@ -65,27 +65,27 @@ life_group = {
 				duration = 3650
 			}
 		}
-		
+
 		uses_piety = yes
     }
 
     elune = {
         color = { 178 255 255 }
 		icon = 2
-		
+
 		misguided_heretic = yes
-		
+
 		country = {
-			ae_impact = -0.1
-            stability_cost_modifier = -0.1
+			stability_cost_to_declare_war = 1
+            stability_cost_modifier = -0.3
 		}
 		country_as_secondary = {
-			ae_impact = -0.05
+            stability_cost_modifier = -0.15
 		}
         province = {
 			local_missionary_strength = -0.01
 		}
-        
+
 		on_convert = {
 			change_religion = elune
 			add_prestige = -100
@@ -93,11 +93,11 @@ life_group = {
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
-			}			
+			}
 		}
-		
+
 		holy_sites = { 4781 5667 6015 5055 5300 }
-		
+
 		blessings = {
 			elune_calm_of_the_night
 			elune_visions_of_hope
@@ -110,15 +110,15 @@ life_group = {
             elune_elune_protection
 		}
     }
-    
+
     earth_mother = {
         color = { 40 50 120 }
 		icon = 6
-		
+
         hre_religion = yes
-        
+
         # Mu'sha/An'she mechanic
-        
+
 		country = {
 			improve_relation_modifier = 0.2
 		}
@@ -128,13 +128,13 @@ life_group = {
         province = {
 			local_missionary_strength = -0.01
 		}
-        
+
     }
-    
+
     sporemounds = {
         color = { 34 191 85 }
 		icon = 6
-		
+
 		country = {
 			global_regiment_recruit_speed = -0.5
             hostile_attrition = 2
@@ -145,6 +145,6 @@ life_group = {
         province = {
 			local_missionary_strength = -0.02
 		}
-        
+
     }
 }

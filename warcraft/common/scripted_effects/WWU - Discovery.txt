@@ -1,89 +1,214 @@
 discover_home_continent = {
     # Land
-	azeroth = {
+
+	if = {
+    	limit = {
+        	OR = {
+				capital_scope = { continent = azeroth }
+				capital_scope = { continent = khaz_modan }
+				capital_scope = { continent = lordaeron }
+				capital_scope = { continent = kul_tiras }
+				capital_scope = { continent = nazjatar }
+				capital_scope = { continent = kezan }
+			}
+    	}
+
+    	azeroth = {
+			discover_country = ROOT
+		}
+		khaz_modan = {
+			discover_country = ROOT
+		}
+		lordaeron = {
+			discover_country = ROOT
+		}
+		kul_tiras = {
+			discover_country = ROOT
+		}
+		pg_eastern_kingdom_lakes = {
 		discover_country = ROOT
 	}
-    khaz_modan = {
-		discover_country = ROOT
 	}
-    lordaeron = {
-		discover_country = ROOT
-	}
-    islands_kalimdor = {
-		discover_country = ROOT
-	}
-    northern_kalimdor = {
-		discover_country = ROOT
-	}
-    central_kalimdor = {
-		discover_country = ROOT
-	}
-    southern_kalimdor = {
-		discover_country = ROOT
-	}
-    northrend = {
-		discover_country = ROOT
-	}
-    pandaria = {
-		discover_country = ROOT
-	}
-    broken_isles = {
-		discover_country = ROOT
-	}
-    kezan = {
-		discover_country = ROOT
-	}
-    zandalar = {
-        discover_country = ROOT
-    }
-    plunder_isle = {
-		discover_country = ROOT
-	}
-    kul_tiras = {
-		discover_country = ROOT
-	}
-    nazjatar = {
-		discover_country = ROOT
-	}
-    vashjir = {
-		discover_country = ROOT
-	}
-    draenor = {
-        discover_country = ROOT
-    }
-    
-    # Sea
-    azeroth_ocean_superregion = {
-		discover_country = ROOT
-	}
-    draenor_ocean_superregion = {
-        discover_country = ROOT
-    }
-    
-    # Lakes
-    pg_eastern_kingdom_lakes = {
-		discover_country = ROOT
-	}
-    pg_kalimdor_lakes = {
+
+	if = {
+    	limit = {
+        	OR = {
+				capital_scope = { continent = islands_kalimdor }
+				capital_scope = { continent = northern_kalimdor }
+				capital_scope = { continent = central_kalimdor }
+				capital_scope = { continent = southern_kalimdor }
+				capital_scope = { continent = kezan }
+				capital_scope = { continent = nazjatar }
+				capital_scope = { continent = plunder_isle }
+				capital_scope = { continent = kul_tiras }
+			}
+    	}
+
+    	islands_kalimdor = {
+			discover_country = ROOT
+		}
+		northern_kalimdor = {
+			discover_country = ROOT
+		}
+		central_kalimdor = {
+			discover_country = ROOT
+		}
+		southern_kalimdor = {
+			discover_country = ROOT
+		}
+		pg_kalimdor_lakes = {
 		discover_country = ROOT
 	}
     pg_kalimdor_islands_lakes = {
 		discover_country = ROOT
 	}
-    pg_northrend_lakes = {
+	}
+
+	if = {
+    	limit = {
+        	OR = {
+				capital_scope = { continent = northrend }
+				capital_scope = { continent = nazjatar }
+			}
+    	}
+
+		northrend = {
+			discover_country = ROOT
+		}
+		pg_northrend_lakes = {
 		discover_country = ROOT
 	}
-    pg_pandaria_lakes = {
+	}
+
+	if = {
+    	limit = {
+        	OR = {
+				capital_scope = { continent = pandaria }
+			}
+    	}
+
+		pandaria = {
+			discover_country = ROOT
+		}
+		pg_pandaria_lakes = {
 		discover_country = ROOT
 	}
-    pg_broken_isles_lakes = {
+	}
+
+	if = {
+    	limit = {
+        	OR = {
+				capital_scope = { continent = broken_isles }
+			}
+    	}
+
+		broken_isles = {
+			discover_country = ROOT
+		}
+		pg_broken_isles_lakes = {
 		discover_country = ROOT
 	}
-    pg_zandalar_lakes = {
+	}
+
+	if = {
+    	limit = {
+        	OR = {
+				capital_scope = { continent = kezan }
+			}
+    	}
+
+		kezan = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+    	limit = {
+        	OR = {
+				capital_scope = { continent = zandalar }
+			}
+    	}
+
+		zandalar = {
+			discover_country = ROOT
+		}
+		pg_zandalar_lakes = {
 		discover_country = ROOT
 	}
-    pg_draenor_lakes = {
-        discover_country = ROOT
-    }
+	}
+
+	if = {
+    	limit = {
+        	OR = {
+				capital_scope = { continent = draenor }
+			}
+    	}
+
+		draenor = {
+			discover_country = ROOT
+		}
+		pg_draenor_lakes = {
+        	discover_country = ROOT
+    	}
+		draenor_ocean_superregion = {
+        	discover_country = ROOT
+    	}
+	}
+
+	if = {
+    	limit = {
+        	OR = {
+				capital_scope = { continent = nazjatar }
+				capital_scope = { continent = vashjir }
+				religion = azshara
+			}
+    	}
+
+		nazjatar = {
+			discover_country = ROOT
+		}
+		vashjir = {
+			discover_country = ROOT
+		}
+	}
+
+	if = {
+    	limit = {
+        	OR = {
+				capital_scope = { continent = plunder_isle }
+
+			}
+    	}
+
+		plunder_isle = {
+			discover_country = ROOT
+		}
+	}
+
+    # Sea
+    azeroth_ocean_superregion = {
+		discover_country = ROOT
+	}
+        # Lakes
 }
 
+
+set_corrupted_states = {
+	if = {
+    	limit = {
+        	OR = {
+				tag = DAK
+				tag = LOR
+				tag = QUE
+				tag = IRO
+				tag = SRW
+				tag = STR
+			}
+    	}
+
+		add_country_modifier = {
+			name = corrupt_state_5
+			duration = -1
+		}
+	}
+}
