@@ -5,8 +5,8 @@ controller = AQJ
 add_core = AQJ
 
 base_tax = 1
-base_production = 2
-base_manpower = 3
+base_production = 1
+base_manpower = 2
 
 culture = ahn_qiraj
 religion = cthun

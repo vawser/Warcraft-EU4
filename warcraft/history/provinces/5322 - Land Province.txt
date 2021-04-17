@@ -4,7 +4,7 @@ owner = SFR
 controller = SFR
 add_core = SFR
 
-base_tax = 4
+base_tax = 3
 base_production = 1
 base_manpower = 1
 

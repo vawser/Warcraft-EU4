@@ -5,8 +5,8 @@ controller = BDF
 add_core = BDF
 
 base_tax = 6
-base_production = 5
-base_manpower = 5
+base_production = 4
+base_manpower = 4
 
 culture = bronze_dragonflight
 religion = dragon_aspects

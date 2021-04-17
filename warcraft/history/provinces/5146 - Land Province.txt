@@ -5,7 +5,7 @@ controller = SMW
 add_core = SMW
 
 base_tax = 1
-base_production = 4
+base_production = 3
 base_manpower = 1
 
 culture = steamwheedle_cartel

@@ -5,8 +5,8 @@ controller = MAG
 add_core = MAG
 
 base_tax = 1
-base_production = 4
-base_manpower = 3
+base_production = 3
+base_manpower = 2
 
 culture = magmoth
 religion = geomancy

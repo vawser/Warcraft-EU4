@@ -6,7 +6,7 @@ add_core = ORS
 
 base_tax = 1
 base_production = 1
-base_manpower = 3
+base_manpower = 2
 
 culture = orsis
 religion = titan_worship

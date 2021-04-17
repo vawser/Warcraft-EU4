@@ -4,9 +4,9 @@ owner = RET
 controller = RET
 add_core = RET
 
-base_tax = 2
+base_tax = 1
 base_production = 1
-base_manpower = 4
+base_manpower = 3
 
 culture = runetotem
 religion = earth_mother

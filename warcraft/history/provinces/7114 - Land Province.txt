@@ -4,9 +4,9 @@ owner = WYT
 controller = WYT
 add_core = WYT
 
-base_tax = 3
+base_tax = 2
 base_production = 1
-base_manpower = 4
+base_manpower = 3
 
 culture = red_dragonflight
 religion = dragon_aspects

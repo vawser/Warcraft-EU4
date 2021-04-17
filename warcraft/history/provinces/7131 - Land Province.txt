@@ -4,9 +4,9 @@ owner = SNF
 controller = SNF
 add_core = SNF
 
-base_tax = 2
-base_production = 2
-base_manpower = 4
+base_tax = 1
+base_production = 1
+base_manpower = 3
 
 culture = snowfall
 religion = shamanism

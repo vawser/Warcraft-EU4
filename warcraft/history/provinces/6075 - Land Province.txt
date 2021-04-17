@@ -5,8 +5,8 @@ controller = COC
 add_core = COC
 
 base_tax = 1
-base_production = 4
-base_manpower = 3
+base_production = 2
+base_manpower = 1
 
 culture = daughters_of_cenarius
 religion = druidism

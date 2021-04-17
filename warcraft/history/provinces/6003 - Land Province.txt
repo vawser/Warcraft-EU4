@@ -4,9 +4,9 @@ owner = SEN
 controller = SEN
 add_core = SEN
 
-base_tax = 3
-base_production = 3
-base_manpower = 4
+base_tax = 1
+base_production = 1
+base_manpower = 2
 
 culture = sentinels_of_hyjal
 religion = elune

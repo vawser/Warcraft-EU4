@@ -4,9 +4,9 @@ owner = SDS
 controller = SDS
 add_core = SDS
 
-base_tax = 4
-base_production = 4
-base_manpower = 4
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 culture = sentinels_of_auberdine
 religion = elune

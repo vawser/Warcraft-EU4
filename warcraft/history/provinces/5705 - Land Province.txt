@@ -4,9 +4,9 @@ owner = FWD
 controller = FWD
 add_core = FWD
 
-base_tax = 4
+base_tax = 3
 base_production = 1
-base_manpower = 4
+base_manpower = 3
 
 culture = foulweald
 religion = shamanism

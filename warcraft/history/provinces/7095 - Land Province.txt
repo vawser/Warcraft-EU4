@@ -6,7 +6,7 @@ add_core = WYT
 
 base_tax = 1
 base_production = 1
-base_manpower = 3
+base_manpower = 2
 
 culture = red_dragonflight
 religion = dragon_aspects

@@ -6,7 +6,7 @@ add_core = TIM
 
 base_tax = 1
 base_production = 1
-base_manpower = 4
+base_manpower = 3
 
 culture = timbermaw
 religion = shamanism

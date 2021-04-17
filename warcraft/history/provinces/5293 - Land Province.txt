@@ -4,9 +4,9 @@ owner = NTS
 controller = NTS
 add_core = NTS
 
-base_tax = 3
-base_production = 3
-base_manpower = 3
+base_tax = 2
+base_production = 2
+base_manpower = 2
 
 culture = northspring
 religion = wind
