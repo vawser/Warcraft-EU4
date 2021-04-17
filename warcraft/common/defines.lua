@@ -83,7 +83,7 @@ NDiplomacy = {
 	AUTONOMY_WARSCORE_COST_MODIFIER = 0.33,			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)
 
 
-	NUM_POSSIBLE_RIVALS = 1, 
+	NUM_POSSIBLE_RIVALS = 1,
 	RIVAL_PRESTIGE_BONUS = 0.25,
 	RIVAL_SPY_OFFENCE = 0.25,
 	SPY_NETWORK_DISTANCE_EFFECT = 0.1,			-- Mutiplied by distance between capitals to get penalty
@@ -189,10 +189,10 @@ NDiplomacy = {
 	AE_INFIDEL_CONQUEST = 0.25, 		-- different religion group conquered same religion province
 	AE_SAME_RELIGION = 0.2,
 	AE_SAME_RELIGION_GROUP = 0.0,
-	AE_DIFFERENT_RELIGION = -0.2, 
+	AE_DIFFERENT_RELIGION = -0.2,
 	AE_HRE_INTERNAL = 0.0,
 	AE_ATTACKER_DEVELOPMENT = 0.03,	-- Increased so aggressor AE is an real threat
-	AE_DEFENDER_DEVELOPMENT = 0.01,	 
+	AE_DEFENDER_DEVELOPMENT = 0.01,
 	AE_DISTANCE_BASE = 0.75,
 	AE_SAME_OVERLORD = 0.5,
 	AE_PROVINCE_CAP = 30,				-- Province development above this will not count for AE (also used for warscore cost cap)
@@ -459,7 +459,7 @@ NCountry = {
 
 	DISINHERIT_PRESTIGE_HIT = -100,
 	DISINHERIT_PRESTIGE_THRESHOLD = 0,
-	
+
 	NEW_HEIR_PRESTIGE_HIT = -50,
 	NEW_HEIR_PRESTIGE_THRESHOLD = 0,
 	NEW_HEIR_LEGITIMACY_HIT = -50,
@@ -467,7 +467,7 @@ NCountry = {
 	NEW_HEIR_AGE_RANDOM_FACTOR = 10,
 	NEW_HEIR_AGE_MIN_FACTOR = 1,
 	NEW_HEIR_CLAIM_RANDOM_FACTOR = 50,
-	
+
 
 	INSTITUTION_BONUS_FROM_IMP_DEVELOPMENT = 0,
 	INSTITUTION_CAP_IMP_DEVELOPMENT = 0,
@@ -734,7 +734,7 @@ NCountry = {
 
 	START_YEARLY_INFLATION = 0.0, 					-- _CDEF_START_YEARLY_INFLATION_
 	CLAIM_LOSE = 25,								-- how many years until a claim is lost.
-	CORE_LOSE = 50, 								-- how many years until a core is lost.
+	CORE_LOSE = 1000, 								-- how many years until a core is lost.
 	CORE_LOSE_CULTURE_GROUP =150,					-- how many years until a core in a country's culture group is lost.
 	CORE_LOSE_PRIMARY_CULTURE_TAG = -1,				-- how many years until a core is lost for the primary tag of a country (-1 = never lost)
 	CORE_LOSE_PRESTIGE = -10.0,						-- Prestige change when lost core
@@ -1051,7 +1051,7 @@ NMilitary = {
 	SLACKEN_MANPOWER_INCREASE = 2.0,
 
 	DEVELOPMENT_FOR_BLOCKADE_COST = 0.5,
-	
+
 	ARMY_DRILL_YEARLY_DECAY = -1.0,					-- Loss from not Drilling
 	ARMY_DRILL_YEARLY_GAIN = 10.0,					-- Gain from Drilling
 	ARMY_DRILL_MAX = 100.0,
@@ -1118,15 +1118,15 @@ NMilitary = {
 	LIGHT_SHIP_SAILORS_COST = 50,					-- 1 = 1 men in cost.
 	GALLEY_SHIP_SAILORS_COST = 100,					-- 1 = 1 men in cost.
 	TRANSPORT_SHIP_SAILORS_COST = 50,				-- 1 = 1 men in cost.
-	MAX_MANPOWER = 10, 								-- years in mp pool
+	MAX_MANPOWER = 20, 								-- years in mp pool
 	MIN_MONTHLY_MANPOWER = 0.1,						-- 100 men/month is minimum
 	MAX_SAILORS = 10, 								-- years in mp pool
 	MIN_MONTHLY_SAILORS = 5,						-- 5 sailors/month is minimum
 	SLAVE_RAIDS_SAILOR_FACTOR = 0.25,						--
 	SLAVE_RAIDS_DURATION = 3650,
 	INFANTRY_SPEED = 1.0, 							-- _MDEF_INFANTRY_SPEED = 10,
-	CAVALRY_SPEED = 1.0, 							-- _MDEF_CAVALRY_SPEED = 10,
-	ARTILLERY_SPEED = 1.0, 							-- _MDEF_ARTILLERY_SPEED = 10,
+	CAVALRY_SPEED = 1.2, 							-- _MDEF_CAVALRY_SPEED = 10,
+	ARTILLERY_SPEED = 0.7, 							-- _MDEF_ARTILLERY_SPEED = 10,
 	HEAVY_SHIP_SPEED = 6.0, 						-- _MDEF_HEAVY_SHIP_SPEED = 10,
 	LIGHT_SHIP_SPEED = 10.0, 						-- _MDEF_LIGHT_SHIP_SPEED = 10,
 	GALLEY_SPEED = 4.0, 							-- _MDEF_GALLEY_SPEED = 10,
@@ -1163,7 +1163,7 @@ NMilitary = {
 	SCORCHED_DEVASTATION_IMPACT = 5, 					-- how much devastation scorching impacts.
 	SCORCHED_DURATION = 60,				-- months
 	LOOTED_DAYS = 730,								-- Time the "Looted" static modifier lasts.
-	LOOTED_SCALE = 1,								-- Scaling value from province development to number of ducats it contains.
+	LOOTED_SCALE = 2,								-- Scaling value from province development to number of ducats it contains.
 	LOOTED_MAX = 5,									-- Maximum amount of ducats (total) a province can be looted for each month.
 	LOOTED_RECOVERY = 0.1,							-- Speed at which a looted province recovers in fractional units per month (multiply by 100 for percentage).
 	NAVAL_SUPPLY_RANGE = 150, 						-- Supply range for ships.
@@ -1219,8 +1219,8 @@ NMilitary = {
 	-- Suppression values are multiplied by the static modifier friendly_regiments
 	MAX_REBEL_SUPPRESSION = 5.0;				-- Maximum amount of rebel suppression by troops in a province
 	INF_SUPPRESSION = 0.25,						-- The amount of reduction to unrest for each friendly infantry regiment in a province
-	CAV_SUPPRESSION = 0.25,						-- The amount of reduction to unrest for each friendly cavalry regiment in a province
-	ART_SUPPRESSION = 0.25,						-- The amount of reduction to unrest for each friendly artillery regiment in a province
+	CAV_SUPPRESSION = 0.5,						-- The amount of reduction to unrest for each friendly cavalry regiment in a province
+	ART_SUPPRESSION = 0.15,						-- The amount of reduction to unrest for each friendly artillery regiment in a province
 
 	FORT_FLIPPING_TIME = 30,					-- Number of days it takes an influencing fort to revert the control of a province if left unhindered.
 	STACKWIPE_MANPOWER_RETURN_FRACTION = 0.5,	-- Fraction of manpower that returns to pool when a stack is wiped.
@@ -1995,7 +1995,7 @@ NFrontend = {
 NReligion = {
 	COUNCIL_BASE_COST = 1000,
 	COUNCIL_CARDINAL_SPREAD = 500,
-	
+
 	PIETY_CORRUPTION = -2,
 	PIETY_MANPOWER = 2.0,
 	PIETY_COST = 0.50,
@@ -2169,20 +2169,20 @@ NGovernment = {
 	IQTA_POLICY_COOLDOWN_YEARS = 20,
 	EFFICIENT_FARMING_DUCAT_MULTIPLIER = 2,
 	LAND_AQUISITION_MANPOWER_MULTIPLIER = 0.05,
-	
+
     FEUDAL_THEOCRACY_INTERACTION_COOLDOWN_YEARS = 5,
     SEIZE_CLERICAL_HOLDINGS_COST = 50,
 	INVITE_MINORITIES_COST = 50,
 	SANCTION_HOLY_WAR_COST = 50,
 	SANCTION_HOLY_WAR_LIST_SIZE = 7,
 	INVITE_MINORITIES_GAIN = 1,
-    
+
     MAMLUK_ABILITY_POOL_SIZE = 150,
 	MAMLUK_ABILITY_COST = 100,
 	MAMLUK_RECRUIT_MANPOWER_MULTIPLIER = 50,
 	MAMLUK_SELL_SLAVES_DUCATS_MULTIPLIER = 2,
 	PROMOTE_MAMLUK_CULTURE_DURATION_YEARS = 1,
-	
+
     TRAIN_HORSEMANSHIP_DURATION_YEARS = 10,
 	CONSCRIPT_FROM_TRIBES_AMOUNT = 6,
 	CONSCRIPT_FROM_TRIBES_TIME = 0.25,
@@ -2191,24 +2191,24 @@ NGovernment = {
 	TRIBAL_ALLEGIANCE_HUMILIATE = 30.0, -- TA gained from doing Humiliate or Show Strength in a war.
 	TRIBAL_FEDERATION_ABILITY_COST = 30,
 	ENLIST_GENERAL_TRADITION = 40,
-	
-    
+
+
 	GOVERNMENT_REFORM_BASE_COST = 100.0,
 	GOVERNMENT_REFORM_COST_INCREASE = 50.0,
 	GOVERNMENT_REFORM_YEARLY_BASE_PROGRESS = 10.0,
 	GOVERNMENT_REFORM_HISTORIC_AUTONOMY = 0.25,
 	GOVERNMENT_REFORM_CHANGE_PROGRESS_COST = 50.0,
-    
+
 	DICTATORSHIP_TO_MONARCHY_REFORM_PENALTY = 4,
 	NATIVE_REFORM_REFORM_PENALTY = 2,
 	EXPAND_ADMIN_COST = 20.0,
-    
+
 	RECEIVE_SERFS_DEVELOPMENT = 1,
 	RECEIVE_SERFS_MODIFIER_ON_RIVAL_DURATION_DAYS = 3650,
 	COSSACKS_ABILITY_COSSACKS_SPAWN_SIZE = 0.2,
 	COSSACKS_ABILITY_COSSACKS_WE_CHANGE = -2,
 	RAIDING_PARTIES_MODIFIER_DURATION = 10,
-    
+
 	LEGACY_NATIVES_REFORM_REPUBLIC_SPONSOR = "despotic_republic_legacy",
 	LEGACY_NATIVES_REFORM_MONARCHY_SPONSOR = "despotic_monarchy_legacy",
 	LEGACY_NATIVES_REFORM_THEOCRACY_SPONSOR = "theocracy_legacy",
