@@ -13,6 +13,8 @@ religion = twilight_cult
 hre = no
 trade_goods = unknown
 
+center_of_trade = 1
+
 # First War
 592.1.1 = {
     owner = TOH
@@ -31,8 +33,7 @@ trade_goods = unknown
 
     owner = ---
 	controller = ---
-    
+
     culture = primitive
     religion = shamanism
 }
-
