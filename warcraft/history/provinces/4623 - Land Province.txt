@@ -4,9 +4,9 @@ owner = MAN
 controller = MAN
 add_core = MAN
 
-base_tax = 3
+base_tax = 2
 base_production = 1
-base_manpower = 4
+base_manpower = 3
 
 culture = mantid
 religion = yshaarj
