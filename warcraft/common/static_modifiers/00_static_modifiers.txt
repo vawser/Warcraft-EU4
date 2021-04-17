@@ -286,7 +286,7 @@ capital_city = {
 
 
 patriarch_state = {
-	
+
 }
 
 # Multiplied in provinces of same religion.
@@ -546,7 +546,7 @@ base_values = {
 	merc_maintenance_modifier = 0.5
 
 	global_tax_income = 12
-    
+
     monthly_piety = -0.01 # Piety
     allowed_marine_fraction = 0.2
 }
@@ -587,9 +587,9 @@ positive_stability = {
 	devotion = 0.33
     horde_unity = 0.33
 	meritocracy = 0.33
-    
+
     yearly_patriarch_authority = 0.001
-    
+
     # Factions
     # mr_aristocrats_influence = 0.025
 }
@@ -607,7 +607,7 @@ negative_stability = {
 	migration_cooldown = 0.25
 	global_institution_spread = 0.15
 	yearly_harmony = 0.25
-	
+
 	caravan_power = 0.25
 	legitimacy = 2.5
 	republican_tradition = 2.5
@@ -615,7 +615,7 @@ negative_stability = {
     horde_unity = 2.5
 	meritocracy = 2.5
     yearly_patriarch_authority = 0.002
-    
+
     # Factions
 	# mr_aristocrats_influence = 0.025
 }
@@ -687,7 +687,7 @@ bankruptcy = {
 	technology_cost = 0.5
 	idea_cost = 0.5
 	imperial_mandate = -0.1
-    
+
     # Factions
 	# mr_guilds_influence = 0.25
 }
@@ -706,7 +706,7 @@ peace = {
 	global_institution_spread = 0.1
     yearly_patriarch_authority = 0.001
     monthly_militarized_society = -0.2
-    
+
     # Factions
     pr_smugglers_influence = 0.1
 }
@@ -730,7 +730,7 @@ war_exhaustion = {
 	sailors_recovery_speed = -0.01
 	siege_ability = -0.01
 	global_trade_goods_size_modifier = -0.02
-	
+
     # Factions
 	# mr_aristocrats_influence = -0.05
 }
@@ -764,7 +764,7 @@ trade_refusal = {
 mercantilism = {
 	global_prov_trade_power_modifier = 2.0
 	embargo_efficiency = 0.5
-    
+
     # Estates
 	traders_loyalty_modifier = 0.05
 }
@@ -775,10 +775,10 @@ army_tradition = {
 	land_morale = 0.2
 	siege_ability = 0.1
     free_leader_pool = 4
-	
+
     # Factions
 	# mr_aristocrats_influence = 0.1
-    
+
     # Estates
 	nobility_loyalty_modifier = 0.1
 }
@@ -791,10 +791,10 @@ navy_tradition = {
 	sailors_recovery_speed = 0.2
 	recover_navy_morale_speed = 0.1
 	free_leader_pool = 4
-    
+
     # Factions
 	# mr_traders_influence = 0.1
-    
+
     # Estates
 	traders_loyalty_modifier = 0.1
 }
@@ -833,9 +833,9 @@ emperor = {
 	prestige = 1
 }
 
-states_in_hre = {							
-	land_forcelimit	= 0.25					
-	global_manpower = 0.25		
+states_in_hre = {
+	land_forcelimit	= 0.25
+	global_manpower = 0.25
     imperial_authority_value = 0.01
 }
 
@@ -870,7 +870,7 @@ num_of_marriages = {
 }
 
 num_of_provinces = {
-	
+
 }
 
 country_development = {
@@ -891,7 +891,7 @@ legitimacy = {
 	diplomatic_reputation = 1
 	vassal_income = 0.25
 	max_absolutism = 10
-    
+
     # Estates
 	nobility_loyalty_modifier = 0.1
 }
@@ -904,7 +904,7 @@ horde_unity = {
 	tolerance_heathen = 1
 	tolerance_heretic = 1
 	vassal_income = 0.25
-    
+
     # Estates
 	tribals_loyalty_modifier = 0.1
 }
@@ -921,7 +921,7 @@ devotion = {
 	tolerance_heretic = 1
 	diplomatic_reputation = 2
 	vassal_income = 0.25
-    
+
     # Estates
 	clergy_loyalty_modifier = 0.1
 }
@@ -945,7 +945,7 @@ corruption = {
 	spy_offence = -1
 	global_spy_defence = -1
 	all_power_cost = 1.0
-    
+
     # Estates
 	clergy_loyalty_modifier = 0.1
 	traders_loyalty_modifier = 0.1
@@ -1016,7 +1016,7 @@ over_extension = {
 	yearly_corruption = 1.0
 	prestige = -1
 	harsh_treatment_cost = 1.0
-    
+
     # Factions
 	# mr_guilds_influence = 0.5
 }
@@ -1062,9 +1062,9 @@ inverse_republican_tradition = {
 }
 
 curia_controller = {
-	diplomats = 1							
-	prestige = 1							
-	stability_cost_modifier = -0.1			
+	diplomats = 1
+	prestige = 1
+	stability_cost_modifier = -0.1
 	advisor_pool = 1
 	advisor_cost = -0.10
 	free_leader_pool = 1
@@ -1079,7 +1079,7 @@ bought_indulgence = {
 religious_unity = {
 	monthly_fervor_increase = 1
 	max_absolutism = 5
-    
+
     # Estates
 	clergy_loyalty_modifier = 0.05
 }
@@ -1461,7 +1461,7 @@ native_policy_hostile = {
 #---------------------------------------
 high_harmony = {
 	tolerance_own = 3
-    development_cost = -0.2
+    development_cost = -0.1
 }
 
 low_harmony = {
@@ -1510,7 +1510,7 @@ subject_sankin_kotai = {
 }
 
 overlord_expel_ronin = {
-	
+
 }
 
 subject_expel_ronin = {
@@ -1602,7 +1602,7 @@ army_drill_modifier = { # Used by an entire army, is the average of all subunits
 	shock_damage_received = -0.25
 }
 
-# 
+#
 janissary_regiment = {
 	fire_damage_received = -0.1
 	shock_damage_received = -0.1
@@ -1642,7 +1642,7 @@ over_governing_capacity_modifier = {
 	improve_relation_modifier = -0.5
 	core_creation = 0.2
 	advisor_cost = 1.0
-	
+
 }
 
 lost_hegemony = {
