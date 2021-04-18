@@ -15,13 +15,14 @@ trade_goods = unknown
 hre = no
 
 add_building = wow_fort_1
+center_of_trade = 1
 
 # Second War
 593.1.1 = {
     owner = TOH
     controller = TOH
     add_core = TOH
-    
+
     culture = orc
     religion = fel
 }
@@ -29,11 +30,11 @@ add_building = wow_fort_1
 # Third War
 594.1.1 = {
     remove_core = TOH
-    
+
     owner = BRI
     controller = BRI
     add_core = BRI
-    
+
     culture = brightwood
     religion = the_holy_light
 }

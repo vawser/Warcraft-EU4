@@ -10,6 +10,7 @@ discover_home_continent = {
 				capital_scope = { continent = kul_tiras }
 				capital_scope = { continent = nazjatar }
 				capital_scope = { continent = kezan }
+				capital_scope = { continent = plunder_isle }
 			}
     	}
 
@@ -26,8 +27,8 @@ discover_home_continent = {
 			discover_country = ROOT
 		}
 		pg_eastern_kingdom_lakes = {
-		discover_country = ROOT
-	}
+			discover_country = ROOT
+		}
 	}
 
 	if = {
@@ -40,7 +41,6 @@ discover_home_continent = {
 				capital_scope = { continent = kezan }
 				capital_scope = { continent = nazjatar }
 				capital_scope = { continent = plunder_isle }
-				capital_scope = { continent = kul_tiras }
 			}
     	}
 
@@ -106,8 +106,8 @@ discover_home_continent = {
 			discover_country = ROOT
 		}
 		pg_broken_isles_lakes = {
-		discover_country = ROOT
-	}
+			discover_country = ROOT
+		}
 	}
 
 	if = {
@@ -133,8 +133,8 @@ discover_home_continent = {
 			discover_country = ROOT
 		}
 		pg_zandalar_lakes = {
-		discover_country = ROOT
-	}
+			discover_country = ROOT
+		}
 	}
 
 	if = {
