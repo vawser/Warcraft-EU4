@@ -3,12 +3,12 @@
 #---------------------------------------
 bribe_adminstration = {
 	category = covert
-
+	
 	alert_index = 40
 	alert_tooltip = bribe_adminstration_tooltip
-
+	
 	require_acceptance = no # Whether the recipient gets an option to decline
-
+	
 	is_visible = {
 		has_estate = estate_mercantile_guild
 	}
@@ -22,15 +22,15 @@ bribe_adminstration = {
 			who = FROM
 			value = 20
 		}
-		add_country_modifier = {
+		add_country_modifier = { 
 			name = bribed
 			duration = 365
 		}
 	}
-	on_decline = 	{
+	on_decline = 	{ 
 	}
-
-	ai_acceptance = {
+	
+	ai_acceptance = { 
 	}
 
 	ai_will_do = {
@@ -44,12 +44,12 @@ bribe_adminstration = {
 #---------------------------------------
 form_raid = {
 	category = covert
-
+	
 	alert_index = 40
 	alert_tooltip = form_raid_tooltip
-
+	
 	require_acceptance = no # Whether the recipient gets an option to decline
-
+	
 	is_visible = {
 		has_estate = estate_adventuring_guild
 	}
@@ -77,10 +77,10 @@ form_raid = {
 			}
 		}
 	}
-	on_decline = 	{
+	on_decline = 	{ 
 	}
-
-	ai_acceptance = {
+	
+	ai_acceptance = { 
 	}
 
 	ai_will_do = {
@@ -93,12 +93,12 @@ form_raid = {
 #---------------------------------------
 assasinate_ruler = {
 	category = covert
-
+	
 	alert_index = 40
 	alert_tooltip = assasinate_ruler_tooltip
-
+	
 	require_acceptance = no # Whether the recipient gets an option to decline
-
+	
 	is_visible = {
 		has_estate = estate_criminal_syndicate
 	}
@@ -134,7 +134,7 @@ assasinate_ruler = {
 				}
 				1 = {
 					set_country_flag = hunting_plot
-
+                    
                     trigger = {
                         FROM = {
                             NOT = {
@@ -145,7 +145,7 @@ assasinate_ruler = {
 				}
 				1 = {
 					set_country_flag = fall_plot
-
+                    
                     trigger = {
                         FROM = {
                             NOT = {
@@ -163,10 +163,10 @@ assasinate_ruler = {
 			}
 		}
 	}
-	on_decline = 	{
+	on_decline = 	{ 
 	}
-
-	ai_acceptance = {
+	
+	ai_acceptance = { 
 	}
 
 	ai_will_do = {
@@ -179,12 +179,12 @@ assasinate_ruler = {
 #---------------------------------------
 recruit_manpower = {
 	category = covert
-
+	
 	alert_index = 40
 	alert_tooltip = recruit_manpower_tooltip
-
+	
 	require_acceptance = no # Whether the recipient gets an option to decline
-
+	
 	is_visible = {
 		has_estate = estate_warriors_guild
 	}
@@ -193,9 +193,7 @@ recruit_manpower = {
 			who = FROM
 			value = 35
 		}
-		FROM = {
-			manpower = 5
-		}
+		manpower = 5
 	}
 	on_accept = {
 		add_spy_network_in = {
@@ -205,10 +203,10 @@ recruit_manpower = {
 		add_manpower = 5
 		FROM = { add_manpower = -5 }
 	}
-	on_decline = 	{
+	on_decline = 	{ 
 	}
-
-	ai_acceptance = {
+	
+	ai_acceptance = { 
 	}
 
 	ai_will_do = {
@@ -221,12 +219,12 @@ recruit_manpower = {
 #---------------------------------------
 spread_religion = {
 	category = covert
-
+	
 	alert_index = 40
 	alert_tooltip = spread_religion_tooltip
-
+	
 	require_acceptance = no # Whether the recipient gets an option to decline
-
+	
 	is_visible = {
 		has_estate = estate_religious_order
 	}
@@ -258,10 +256,10 @@ spread_religion = {
 			}
 		}
 	}
-	on_decline = 	{
+	on_decline = 	{ 
 	}
-
-	ai_acceptance = {
+	
+	ai_acceptance = { 
 	}
 
 	ai_will_do = {
@@ -274,18 +272,18 @@ spread_religion = {
 #---------------------------------------
 spread_fel = {
 	category = covert
-
+	
 	alert_index = 40
 	alert_tooltip = spread_fel_tooltip
-
+	
 	require_acceptance = no # Whether the recipient gets an option to decline
-
+	
 	is_visible = {
         religion = fel
 	}
 	is_allowed = {
         reform_desire = 0.25
-
+        
 		has_spy_network_in = {
 			who = FROM
 			value = 50
@@ -309,10 +307,10 @@ spread_fel = {
 			}
 		}
 	}
-	on_decline = {
+	on_decline = { 
 	}
-
-	ai_acceptance = {
+	
+	ai_acceptance = { 
 	}
 
 	ai_will_do = {
