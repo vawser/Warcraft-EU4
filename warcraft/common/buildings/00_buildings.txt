@@ -19,14 +19,14 @@
 # Generic
 #----------------------------------
 wow_farm = {
-	cost = 250
+	cost = 100
 	time = 12
-    
+
 	modifier = {
 		local_development_cost = -0.25
         local_governing_cost = -0.25
 	}
-	
+
 	ai_will_do = {
 		factor = 100
 
@@ -45,67 +45,67 @@ wow_farm = {
 	}
 }
 wow_internment_camp = {
-	cost = 250
+	cost = 100
 	time = 12
-	
+
 	modifier = {
 		local_unrest = -3
         culture_conversion_cost = -0.5
 	}
-	
+
 	ai_will_do = {
 		factor = 50
 	}
 }
 wow_temple = {
-	cost = 250
+	cost = 100
 	time = 12
-    
+
 	modifier = {
 		local_missionary_strength = 0.03
         local_tax_modifier = 0.5
 	}
-	
+
 	ai_will_do = {
 		factor = 100
 	}
 }
 wow_mine = {
-	cost = 250
+	cost = 100
 	time = 12
-    
+
 	modifier = {
 		local_production_efficiency = 0.5
 	}
-	
+
 	ai_will_do = {
 		factor = 100
 	}
 }
 wow_barracks = {
-	cost = 250
+	cost = 100
 	time = 12
-    
+
 	modifier = {
 		local_manpower_modifier = 0.5
 	}
-	
+
 	ai_will_do = {
 		factor = 100
 	}
 }
 wow_arsenal = {
-	cost = 250
+	cost = 100
 	time = 12
-    
+
 	modifier = {
 		land_forcelimit = 5
         supply_limit_modifier = 0.5
 	}
-	
+
 	ai_will_do = {
 		factor = 50
-        
+
 		modifier = {
 			factor = 0
 			owner = { land_forcelimit = 100 }
@@ -117,61 +117,61 @@ wow_arsenal = {
 	}
 }
 wow_shipyard = {
-	cost = 250
+	cost = 100
 	time = 12
-	
-    build_trigger  = { 
+
+    build_trigger  = {
         has_port = yes
     }
-    
+
 	modifier = {
 		local_ship_repair = 1
         local_ship_cost = -0.5
 	}
-	
+
 	ai_will_do = {
 		factor = 100
 	}
 }
 wow_dockyard = {
-	cost = 250
+	cost = 100
 	time = 12
-	
-    build_trigger  = { 
+
+    build_trigger  = {
         has_port = yes
     }
-    
+
 	modifier = {
 		local_sailors_modifier = 0.5
         ship_recruit_speed = -0.5
 	}
-	
+
 	ai_will_do = {
 		factor = 100
 	}
 }
 wow_marketplace = {
-	cost = 250
+	cost = 100
 	time = 12
 
 	modifier = {
 		province_trade_power_modifier = 0.5
 	}
-	
+
 	ai_will_do = {
 		factor = 100
 	}
 }
 wow_tavern = {
-	cost = 250
+	cost = 100
 	time = 12
-    
+
 	modifier = {
 		local_friendly_movement_speed = 0.25
         local_monthly_devastation = -0.1
         #local_institution_spread = 0.25
 	}
-	
+
 	ai_will_do = {
 		factor = 100
 	}
@@ -181,18 +181,18 @@ wow_tavern = {
 # Fortification
 #----------------------------------
 wow_fort_1 = {
-	cost = 100
+	cost = 250
 	time = 30
-    
+
 	modifier = {
 		fort_level = 2
         garrison_growth = 0.2
 	}
-	
+
 	onmap = yes
-	
+
 	influencing_fort = yes
-	
+
 	ai_will_do = {
 		factor = 1000
 		modifier = {
@@ -202,17 +202,17 @@ wow_fort_1 = {
 					NOT = { owned_by = ROOT }
 				}
 			}
-		}			
+		}
 		modifier = {
 			factor = 2.0
 			any_neighbor_province = {
 				NOT = { owned_by = ROOT }
 			}
-		}	
+		}
 		modifier = {
 			factor = 0.1
 			is_overseas = yes
-		}	
+		}
 		modifier = {
 			factor = 0
 			any_neighbor_province = {
@@ -224,24 +224,24 @@ wow_fort_1 = {
 					has_building = wow_fort_4
 				}
 			}
-		}		
+		}
 	}
 }
 
 wow_fort_2 = {
-	cost = 250
+	cost = 350
 	time = 30
     make_obsolete = wow_fort_1
-    
+
 	modifier = {
 		fort_level = 3
         garrison_growth = 0.3
 	}
-	
+
 	onmap = yes
-	
+
 	influencing_fort = yes
-	
+
 	ai_will_do = {
 		factor = 1000
 		modifier = {
@@ -251,17 +251,17 @@ wow_fort_2 = {
 					NOT = { owned_by = ROOT }
 				}
 			}
-		}			
+		}
 		modifier = {
 			factor = 2.0
 			any_neighbor_province = {
 				NOT = { owned_by = ROOT }
 			}
-		}	
+		}
 		modifier = {
 			factor = 0.1
 			is_overseas = yes
-		}	
+		}
 		modifier = {
 			factor = 0
 			any_neighbor_province = {
@@ -273,24 +273,24 @@ wow_fort_2 = {
 					has_building = wow_fort_4
 				}
 			}
-		}		
+		}
 	}
 }
-    
+
 wow_fort_3 = {
 	cost = 500
 	time = 30
     make_obsolete = wow_fort_2
-    
+
 	modifier = {
 		fort_level = 4
         garrison_growth = 0.4
 	}
-	
+
 	onmap = yes
-	
+
 	influencing_fort = yes
-	
+
 	ai_will_do = {
 		factor = 1000
 		modifier = {
@@ -300,17 +300,17 @@ wow_fort_3 = {
 					NOT = { owned_by = ROOT }
 				}
 			}
-		}			
+		}
 		modifier = {
 			factor = 2.0
 			any_neighbor_province = {
 				NOT = { owned_by = ROOT }
 			}
-		}	
+		}
 		modifier = {
 			factor = 0.1
 			is_overseas = yes
-		}	
+		}
 		modifier = {
 			factor = 0
 			any_neighbor_province = {
@@ -322,7 +322,7 @@ wow_fort_3 = {
 					has_building = wow_fort_4
 				}
 			}
-		}		
+		}
 	}
 }
 
@@ -335,11 +335,11 @@ wow_fort_4 = {
 		fort_level = 5
         garrison_growth = 0.5
 	}
-	
+
 	onmap = yes
-	
+
 	influencing_fort = yes
-	
+
 	ai_will_do = {
 		factor = 1000
 		modifier = {
@@ -349,17 +349,17 @@ wow_fort_4 = {
 					NOT = { owned_by = ROOT }
 				}
 			}
-		}			
+		}
 		modifier = {
 			factor = 2.0
 			any_neighbor_province = {
 				NOT = { owned_by = ROOT }
 			}
-		}	
+		}
 		modifier = {
 			factor = 0.1
 			is_overseas = yes
-		}	
+		}
 		modifier = {
 			factor = 0
 			any_neighbor_province = {
@@ -371,7 +371,7 @@ wow_fort_4 = {
 					has_building = wow_fort_4
 				}
 			}
-		}		
+		}
 	}
 }
 
@@ -379,65 +379,65 @@ wow_fort_4 = {
 # Portal
 #----------------------------------
 wow_portal_red = {
-	cost = 100
+	cost = 300
 	time = 4
-    
-    build_trigger  = { 
+
+    build_trigger  = {
         owner = { NOT = { wow_portal_red = 3 } }
     }
-	
+
 	modifier = {
 		supply_limit = 1
 	}
-	
+
 	ai_will_do = {
-		factor = 0	
+		factor = 0
 	}
 }
 wow_portal_yellow = {
-	cost = 100
+	cost = 300
 	time = 4
-    
-    build_trigger  = { 
+
+    build_trigger  = {
         owner = { NOT = { wow_portal_yellow = 3 } }
     }
-	
+
 	modifier = {
 		supply_limit = 1
 	}
-	
+
 	ai_will_do = {
-		factor = 0	
+		factor = 0
 	}
 }
 wow_portal_green = {
-	cost = 100
+	cost = 300
 	time = 4
-    
-    build_trigger  = { 
+
+    build_trigger  = {
         owner = { NOT = { wow_portal_green = 3 } }
     }
-	
+
 	modifier = {
 		supply_limit = 1
 	}
-	
+
 	ai_will_do = {
-		factor = 0	
+		factor = 0
 	}
 }
 wow_portal_blue = {
-	cost = 100
+	cost = 300
 	time = 4
-    
-    build_trigger  = { 
+
+    build_trigger  = {
         owner = { NOT = { wow_portal_blue = 3 } }
     }
-	
+
 	modifier = {
 		supply_limit = 1
 	}
-	
+
 	ai_will_do = {
 		factor = 0
 	}
@@ -485,7 +485,7 @@ wow_arcane_tower = {
 	manufactory = {
 		wwu_artifacts
 	}
-    
+
 	modifier = {
 		global_trade_goods_size_modifier = 0.05
 	}
@@ -506,7 +506,7 @@ wow_citadel = {
 		local_defensiveness = 0.33
 	}
 	onmap = yes
-	show_separate = yes 
+	show_separate = yes
 
 	ai_will_do = {
 		factor = 1
@@ -521,8 +521,8 @@ wow_city_barracks = {
 	modifier = {
 		local_manpower = 1.0
 	}
-    
-	show_separate = yes 
+
+	show_separate = yes
 
 	ai_will_do = {
 		factor = 1
@@ -547,7 +547,7 @@ wow_garrison = {
 			}
 		}
 	}
-	
+
 	keep_trigger = {
 		NOT = {
 			area_for_scope_province = {
@@ -567,11 +567,10 @@ wow_garrison = {
 		statewide_governing_cost = -0.5
 		min_local_autonomy = -5
 	}
-    
-	show_separate = yes 
+
+	show_separate = yes
 
 	ai_will_do = {
 		factor = 1
 	}
 }
-
