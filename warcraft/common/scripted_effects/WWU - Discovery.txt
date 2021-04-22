@@ -141,6 +141,7 @@ discover_home_continent = {
     	limit = {
         	OR = {
 				capital_scope = { continent = draenor }
+				tag = TOH
 			}
     	}
 
