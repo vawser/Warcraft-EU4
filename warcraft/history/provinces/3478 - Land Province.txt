@@ -27,3 +27,10 @@ add_building = wow_fort_1
     religion = geomancy
 }
 
+
+# Syndicate append
+595.1.1 = {
+    owner = SYD
+    controller = SYD
+    add_core = SYD
+}
