@@ -14,7 +14,7 @@ wwu_innovation_ideas = {
     bonus = {
         advisor_cost = -0.2
     }
-    
+
     # Scientific Progress
     wwu_innovation_ideas_1 = {
         technology_cost = -0.075
@@ -44,18 +44,23 @@ wwu_innovation_ideas = {
     wwu_innovation_ideas_7 = {
         free_leader_pool = 1
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 2
-			personality = ai_capitalist 
+			personality = ai_capitalist
 		}
-        
+
+        modifier = {
+			factor = 5
+			religion = technomancy
+		}
+
 		modifier = {
 			factor = 2
-			personality = ai_militarist 
+			personality = ai_militarist
 		}
     }
 }
@@ -68,7 +73,7 @@ wwu_religious_ideas = {
         culture_conversion_cost = -0.2
         clergy_loyalty_modifier = 0.1
     }
-    
+
     # Deus Vult
     wwu_religious_ideas_1 = {
         cb_on_religious_enemies = yes
@@ -101,10 +106,10 @@ wwu_religious_ideas = {
     wwu_religious_ideas_7 = {
         missionary_maintenance_cost = -0.2
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 2
 			NOT = { religious_unity = 0.9 }
@@ -119,7 +124,7 @@ wwu_religious_ideas = {
 		}
         modifier = {
 			factor = 2
-			personality = ai_capitalist 
+			personality = ai_capitalist
 		}
     }
 }
@@ -131,7 +136,7 @@ wwu_economic_ideas = {
     bonus = {
         development_cost = -0.2
     }
-    
+
     # Bureaucracy
     wwu_economic_ideas_1 = {
         global_tax_modifier = 0.2
@@ -162,13 +167,17 @@ wwu_economic_ideas = {
     wwu_economic_ideas_7 = {
         production_efficiency = 0.1
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 2
-			personality = ai_capitalist 
+			personality = ai_capitalist
+		}
+        modifier = {
+			factor = 5
+			monthly_income = 25
 		}
     }
 }
@@ -210,20 +219,26 @@ wwu_expansion_ideas = {
     wwu_expansion_ideas_7 = {
         harsh_treatment_cost = -0.25
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 0
-			NOT = { has_idea_group = wwu_exploration_ideas }
 			NOT = {
                 any_owned_province = {
                     has_empty_adjacent_province = yes
                 }
             }
 		}
-        
+
+        modifier = {
+			factor = 5
+			any_owned_province = {
+                    has_empty_adjacent_province = yes
+            }
+		}
+
         modifier = {
 			factor = 2
 			has_idea_group = wwu_exploration_ideas
@@ -266,13 +281,18 @@ wwu_administrative_ideas = {
     wwu_administrative_ideas_7 = {
         adm_tech_cost_modifier = -0.05
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 2
-			personality = ai_capitalist 
+			personality = ai_capitalist
+		}
+
+        modifier = {
+			factor = 5
+			num_of_provinces_in_territories = 10
 		}
     }
 }
@@ -285,7 +305,7 @@ wwu_harmony_ideas = {
         stability_cost_modifier = -0.2
         peasants_loyalty_modifier = 0.1
     }
-    
+
     # Religious Unity
     wwu_harmony_ideas_1 = {
         religious_unity = 0.25
@@ -314,10 +334,10 @@ wwu_harmony_ideas = {
     wwu_harmony_ideas_7 = {
         tolerance_heathen = 2
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 2
 			personality = ai_diplomat
@@ -405,13 +425,22 @@ wwu_law_ideas = {
         tolerance_heathen = 1
 		tolerance_heretic = 1
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 2
-			personality = ai_capitalist 
+			personality = ai_capitalist
+		}
+
+        modifier = {
+			factor = 2
+			corruption = 4
+		}
+        modifier = {
+			factor = 2
+			NOT = { legitimacy = 50 }
 		}
     }
 }
@@ -451,13 +480,13 @@ wwu_development_ideas = {
     wwu_development_ideas_7 = {
         inflation_reduction = 0.05
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 2
-			personality = ai_capitalist 
+			personality = ai_capitalist
 		}
         modifier = {
 			factor = 2
@@ -505,7 +534,7 @@ wwu_absolutism_ideas = {
     wwu_absolutism_ideas_7 = {
         yearly_absolutism = 1
     }
-    
+
     ai_will_do = {
         factor = 1
     }
@@ -546,7 +575,7 @@ wwu_autonomy_ideas = {
     wwu_autonomy_ideas_7 = {
         years_of_nationalism = -5
     }
-    
+
     ai_will_do = {
         factor = 1
     }
@@ -559,7 +588,7 @@ wwu_monarchy_ideas = {
     trigger = {
         has_government_attribute = enables_monarchy_ideagroup
     }
-    
+
     bonus = {
         cav_to_inf_ratio = 0.25
         nobility_loyalty_modifier = 0.1
@@ -592,17 +621,17 @@ wwu_monarchy_ideas = {
     wwu_monarchy_ideas_7 = {
         global_manpower_modifier = 0.1
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 2
-			personality = ai_capitalist 
+			personality = ai_capitalist
 		}
 		modifier = {
 			factor = 2
-			personality = ai_militarist 
+			personality = ai_militarist
 		}
     }
 }
@@ -614,11 +643,11 @@ wwu_republic_ideas = {
     trigger = {
         has_government_attribute = enables_republic_ideagroup
     }
-    
+
     bonus = {
         manpower_recovery_speed = 0.1
     }
-    
+
     # Diplomatic Links
     wwu_republic_ideas_1 = {
         diplomatic_upkeep = 2
@@ -647,17 +676,17 @@ wwu_republic_ideas = {
     wwu_republic_ideas_7 = {
         candidate_random_bonus = 1
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 2
-			personality = ai_capitalist 
+			personality = ai_capitalist
 		}
 		modifier = {
 			factor = 2
-			personality = ai_militarist 
+			personality = ai_militarist
 		}
     }
 }
@@ -669,11 +698,11 @@ wwu_theocracy_ideas = {
     trigger = {
         has_government_attribute = enables_theocracy_ideagroup
     }
-    
+
     bonus = {
         war_exhaustion = -0.03
     }
-    
+
     # Absolute Devotion
     wwu_theocracy_ideas_1 = {
         devotion = 1
@@ -703,17 +732,17 @@ wwu_theocracy_ideas = {
     wwu_theocracy_ideas_7 = {
         unjustified_demands = -0.2
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 2
-			personality = ai_capitalist 
+			personality = ai_capitalist
 		}
 		modifier = {
 			factor = 2
-			personality = ai_militarist 
+			personality = ai_militarist
 		}
     }
 }
@@ -725,7 +754,7 @@ wwu_tribal_ideas = {
     trigger = {
         has_government_attribute = enables_tribal_ideagroup
     }
-    
+
     bonus = {
         yearly_absolutism = 1
     }
@@ -757,17 +786,17 @@ wwu_tribal_ideas = {
     wwu_tribal_ideas_7 = {
         land_morale = 0.1
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 2
-			personality = ai_capitalist 
+			personality = ai_capitalist
 		}
 		modifier = {
 			factor = 2
-			personality = ai_militarist 
+			personality = ai_militarist
 		}
     }
 }
@@ -780,7 +809,7 @@ wwu_espionage_ideas = {
         rebel_support_efficiency = 0.5
 		advisor_cost = -0.1
     }
-    
+
     # Effective Spies
     wwu_espionage_ideas_1 = {
         spy_offence = 0.33
@@ -800,7 +829,7 @@ wwu_espionage_ideas = {
     }
     # Local Intergration
     wwu_espionage_ideas_5 = {
-        diplomats = 1	
+        diplomats = 1
 		diplomatic_annexation_cost = -0.1
     }
     # Privateers
@@ -812,18 +841,18 @@ wwu_espionage_ideas = {
     wwu_espionage_ideas_7 = {
         yearly_corruption = -0.05
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 4
 			personality = ai_diplomat
 		}
-		
+
 		modifier = {
 			factor = 2
-			personality = ai_militarist 
+			personality = ai_militarist
 		}
     }
 }
@@ -836,7 +865,7 @@ wwu_dynastic_ideas = {
         reduced_stab_impacts = yes
 		heir_chance = 0.5
     }
-    
+
     # Foreign Courts
     wwu_dynastic_ideas_1 = {
         diplomats = 1
@@ -866,13 +895,13 @@ wwu_dynastic_ideas = {
     wwu_dynastic_ideas_7 = {
         yearly_corruption = -0.05
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 2
-			personality = ai_diplomat 
+			personality = ai_diplomat
 		}
     }
 }
@@ -884,7 +913,7 @@ wwu_influence_ideas = {
     bonus = {
         unjustified_demands = -0.5
     }
-    
+
     # Loyal Subjects
     wwu_influence_ideas_1 = {
         vassal_income = 0.25
@@ -914,13 +943,13 @@ wwu_influence_ideas = {
     wwu_influence_ideas_7 = {
         vassal_forcelimit_bonus = 0.5
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 1.25
-			personality = ai_diplomat 
+			personality = ai_diplomat
 		}
     }
 }
@@ -933,7 +962,7 @@ wwu_trade_ideas = {
         merchants = 1
         traders_loyalty_modifier = 0.1
     }
-    
+
     # Shrewd Practises
     wwu_trade_ideas_1 = {
         global_trade_power = 0.2
@@ -964,10 +993,10 @@ wwu_trade_ideas = {
     wwu_trade_ideas_7 = {
         caravan_power = 0.2
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 0
 			NOT = { trade_income_percentage = 0.25 }
@@ -996,7 +1025,7 @@ wwu_exploration_ideas = {
         colonist_placement_chance = 0.05
         auto_explore_adjacent_to_colony = yes
     }
-    
+
     # Colonial Ventures
     wwu_exploration_ideas_1 = {
         colonists = 1
@@ -1026,10 +1055,10 @@ wwu_exploration_ideas = {
     wwu_exploration_ideas_7 = {
         naval_forcelimit_modifier = 0.2
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 0
 			OR = {
@@ -1083,12 +1112,12 @@ wwu_maritime_ideas = {
     trigger = {
 		primitives = no
 	}
-    
+
     bonus = {
         leader_naval_shock = 1
 		blockade_efficiency = 0.33
     }
-    
+
     # Sea Hawks
     wwu_maritime_ideas_1 = {
         navy_tradition = 1
@@ -1119,10 +1148,10 @@ wwu_maritime_ideas = {
     wwu_maritime_ideas_7 = {
         leader_naval_fire = 1
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 0
 			NOT = { num_of_ports = 3 }
@@ -1156,7 +1185,7 @@ wwu_assimilation_ideas = {
         diplomatic_reputation = 1
         peasants_loyalty_modifier = 0.1
     }
-    
+
     # Cultural Doctrine
     wwu_assimilation_ideas_1 = {
         culture_conversion_cost = -0.33
@@ -1186,10 +1215,10 @@ wwu_assimilation_ideas = {
         diplomatic_upkeep = 1
         accept_vassalization_reasons = 5
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 2
 			personality = ai_diplomat
@@ -1204,7 +1233,7 @@ wwu_society_ideas = {
     bonus = {
         advisor_pool = 2
     }
-    
+
     # War Attitudes
     wwu_society_ideas_1 = {
         land_maintenance_modifier = -0.1
@@ -1235,17 +1264,17 @@ wwu_society_ideas = {
     wwu_society_ideas_7 = {
         min_autonomy_in_territories = -0.2
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 2
 			personality = ai_diplomat
 		}
 		modifier = {
 			factor = 2
-			personality = ai_militarist 
+			personality = ai_militarist
 		}
     }
 }
@@ -1258,7 +1287,7 @@ wwu_propaganda_ideas = {
         global_manpower_modifier = 0.1
         can_fabricate_for_vassals = yes
     }
-    
+
     # War Propaganda
     wwu_propaganda_ideas_1 = {
         war_exhaustion = -0.02
@@ -1288,10 +1317,10 @@ wwu_propaganda_ideas = {
     wwu_propaganda_ideas_7 = {
         siege_ability = 0.1
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
 			factor = 2
 			personality = ai_diplomat
@@ -1306,7 +1335,7 @@ wwu_naval_bombardment_ideas = {
     trigger = {
 		primitives = no
 	}
-    
+
     bonus = {
         naval_maintenance_modifier = -0.1
     }
@@ -1338,13 +1367,13 @@ wwu_naval_bombardment_ideas = {
     wwu_naval_bombardment_ideas_7 = {
         leader_naval_fire = 1
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
             factor = 0
-            
+
             NOT = { num_of_ports = 1 }
         }
     }
@@ -1357,7 +1386,7 @@ wwu_naval_skirmish_ideas = {
     trigger = {
 		primitives = no
 	}
-    
+
     bonus = {
         naval_forcelimit_modifier = 0.1
         may_perform_slave_raid = yes
@@ -1392,13 +1421,13 @@ wwu_naval_skirmish_ideas = {
     wwu_naval_skirmish_ideas_7 = {
         navy_tradition_decay = -0.01
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
             factor = 0
-            
+
             NOT = { num_of_ports = 1 }
         }
     }
@@ -1411,7 +1440,7 @@ wwu_naval_trade_ideas = {
     trigger = {
 		primitives = no
 	}
-    
+
     bonus = {
         naval_tradition_from_trade = 1.0
     }
@@ -1443,13 +1472,13 @@ wwu_naval_trade_ideas = {
     wwu_naval_trade_ideas_7 = {
         embargo_efficiency = 0.5
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
             factor = 0
-            
+
             NOT = { num_of_ports = 1 }
         }
     }
@@ -1462,7 +1491,7 @@ wwu_naval_organisation_ideas = {
     trigger = {
 		primitives = no
 	}
-    
+
     bonus = {
         sea_repair = yes
     }
@@ -1494,13 +1523,13 @@ wwu_naval_organisation_ideas = {
     wwu_naval_organisation_ideas_7 = {
         movement_speed_onto_off_boat_modifier = -0.33
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
             factor = 0
-            
+
             NOT = { num_of_ports = 1 }
         }
     }
@@ -1513,7 +1542,7 @@ wwu_naval_leadership_ideas = {
     trigger = {
 		primitives = no
 	}
-    
+
     bonus = {
         navy_tradition_decay = -0.01
     }
@@ -1546,13 +1575,13 @@ wwu_naval_leadership_ideas = {
     wwu_naval_leadership_ideas_7 = {
         naval_tradition_from_battle = 1.0
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
             factor = 0
-            
+
             NOT = { num_of_ports = 1 }
         }
     }
@@ -1565,7 +1594,7 @@ wwu_naval_tactics_ideas = {
     trigger = {
 		primitives = no
 	}
-    
+
     bonus = {
         naval_maintenance_modifier = -0.1
     }
@@ -1597,26 +1626,26 @@ wwu_naval_tactics_ideas = {
     wwu_naval_tactics_ideas_7 = {
         sailors_recovery_speed = 0.1
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
             factor = 0
-            
+
             NOT = { num_of_ports = 1 }
         }
     }
 }
 
-# Offensive 
+# Offensive
 wwu_offensive_ideas = {
     category = MIL
 
     bonus = {
         land_attrition = -0.2
     }
-    
+
     # Suprise Offensive
     wwu_offensive_ideas_1 = {
         leader_land_shock = 1
@@ -1645,13 +1674,13 @@ wwu_offensive_ideas = {
     wwu_offensive_ideas_7 = {
         discipline = 0.05
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
-			factor = 2
-			personality = ai_militarist 
+			factor = 5
+			personality = ai_militarist
 		}
     }
 }
@@ -1663,7 +1692,7 @@ wwu_defensive_ideas = {
     bonus = {
         hostile_attrition = 1
     }
-    
+
     # Battlefield Traditions
     wwu_defensive_ideas_1 = {
         army_tradition = 0.5
@@ -1695,13 +1724,13 @@ wwu_defensive_ideas = {
     wwu_defensive_ideas_7 = {
         land_maintenance_modifier = -0.10
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
-			factor = 2
-			personality = ai_militarist 
+			factor = 4
+			personality = ai_militarist
 		}
     }
 }
@@ -1741,13 +1770,13 @@ wwu_quality_ideas = {
     wwu_quality_ideas_7 = {
         artillery_power = 0.1
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
-			factor = 2
-			personality = ai_militarist 
+			factor = 5
+			personality = ai_militarist
 		}
     }
 }
@@ -1787,13 +1816,13 @@ wwu_quantity_ideas = {
     wwu_quantity_ideas_7 = {
         land_attrition = -0.1
     }
-    
+
     ai_will_do = {
         factor = 1
-        
+
         modifier = {
-			factor = 2
-			personality = ai_militarist 
+			factor = 5
+			personality = ai_militarist
 		}
     }
 }
@@ -1801,7 +1830,7 @@ wwu_quantity_ideas = {
 wwu_professional_army_ideas = {
     category = MIL
 
-    bonus = {   
+    bonus = {
         global_supply_limit_modifier = 0.1
         special_unit_forcelimit = 0.2
     }
@@ -1834,9 +1863,14 @@ wwu_professional_army_ideas = {
         drill_decay_modifier = -0.5
         army_tradition = 0.5
     }
-    
+
     ai_will_do = {
         factor = 1
+
+        modifier = {
+			factor = 3
+			monarchy = yes
+		}
     }
 }
 
@@ -1875,9 +1909,14 @@ wwu_mercenary_army_ideas = {
     wwu_mercenary_army_ideas_7 = {
         loot_amount = 1.0
     }
-    
+
     ai_will_do = {
         factor = 1
+
+        modifier = {
+			factor = 5
+			republic = yes
+		}
     }
 }
 
@@ -1916,9 +1955,13 @@ wwu_army_organisation_ideas = {
     wwu_army_organisation_ideas_7 = {
         global_supply_limit_modifier = 0.25
     }
-    
+
     ai_will_do = {
         factor = 1
+        modifier = {
+			factor = 5
+			personality = ai_militarist
+		}
     }
 }
 
@@ -1957,9 +2000,13 @@ wwu_army_leadership_ideas = {
     wwu_army_leadership_ideas_7 = {
         backrow_artillery_damage = 0.2
     }
-    
+
     ai_will_do = {
         factor = 1
+        modifier = {
+			factor = 5
+			personality = ai_militarist
+		}
     }
 }
 
@@ -1998,9 +2045,13 @@ wwu_army_tactics_ideas = {
     wwu_army_tactics_ideas_7 = {
         army_tradition_from_battle = 1
     }
-    
+
     ai_will_do = {
         factor = 1
+        modifier = {
+			factor = 5
+			personality = ai_militarist
+		}
     }
 }
 
@@ -2019,7 +2070,7 @@ wwu_armaments_ideas = {
     wwu_armaments_ideas_2 = {
         fire_damage = 0.1
     }
-    # Burning Ammunition 
+    # Burning Ammunition
     wwu_armaments_ideas_3 = {
         artillery_fire = 0.5
     }
@@ -2039,9 +2090,13 @@ wwu_armaments_ideas = {
     wwu_armaments_ideas_7 = {
         artillery_bonus_vs_fort = 3
     }
-    
+
     ai_will_do = {
         factor = 1
+        modifier = {
+			factor = 5
+			personality = ai_militarist
+		}
     }
 }
 
@@ -2080,9 +2135,12 @@ wwu_fortification_ideas = {
     wwu_fortification_ideas_7 = {
         global_supply_limit_modifier = 0.2
     }
-    
+
     ai_will_do = {
         factor = 1
+        any_owned_province = {
+            has_terrain = mountain
+        }
     }
 }
 
@@ -2095,7 +2153,7 @@ wwu_militarization_ideas = {
     }
     # Regular Enlistment
     wwu_militarization_ideas_1 = {
-        has_banners = 1 
+        has_banners = 1
     }
     # Wartime Efficiencies
     wwu_militarization_ideas_2 = {
@@ -2121,9 +2179,13 @@ wwu_militarization_ideas = {
     wwu_militarization_ideas_7 = {
         reinforce_cost_modifier = -0.33
     }
-    
+
     ai_will_do = {
         factor = 1
+        modifier = {
+			factor = 5
+			personality = ai_militarist
+		}
     }
 }
 
@@ -2162,9 +2224,13 @@ wwu_subjugation_ideas = {
     wwu_subjugation_ideas_7 = {
         vassal_income = 0.15
     }
-    
+
     ai_will_do = {
         factor = 1
+        modifier = {
+			factor = 5
+			num_of_vassals = 2
+		}
     }
 }
 
@@ -2208,7 +2274,7 @@ wwu_tyranny_ideas = {
     wwu_tyranny_ideas_7 = {
         yearly_absolutism = 1
     }
-    
+
     ai_will_do = {
         factor = 1
     }
@@ -2250,8 +2316,12 @@ wwu_imperialism_ideas = {
     wwu_imperialism_ideas_7 = {
         range = 0.5
     }
-    
+
     ai_will_do = {
         factor = 1
+        modifier = {
+			factor = 5
+			rank = 3
+		}
     }
 }
