@@ -1,12 +1,12 @@
 estate_peasants_land_rights = {
 	icon = privilege_blueprint
-	
+
     # Costs
     max_absolutism = -5
 	land_share = 10
 	loyalty = 0.05
 	influence = 0.05
-    
+
 	can_select = {
 	}
 	on_granted = {
@@ -18,7 +18,7 @@ estate_peasants_land_rights = {
 	}
 	ai_will_do = {
 		factor = 25
-        
+
 		modifier = {
 			factor = 1.4
 			num_of_territories = 5
@@ -71,13 +71,13 @@ estate_peasants_land_rights = {
 
 estate_peasants_increased_taxation = {
 	icon = privilege_gold
-    
+
     # Costs
     max_absolutism = -5
 	land_share = 0
 	loyalty = -0.05
 	influence = 0.05
-    
+
 	is_valid = {
 	}
 	on_granted = {
@@ -124,49 +124,26 @@ estate_peasants_increased_taxation = {
 
 estate_peasants_guaranteed_autonomy = {
 	icon = privilege_barracks
-    
+
     # Costs
     max_absolutism = -5
 	land_share = 0
 	loyalty = 0.2
 	influence = 0.05
-    
+
 	is_valid = {
 	}
 	on_granted = {
 		custom_tooltip = estate_peasants_guaranteed_autonomy_effect_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				add_province_modifier = {
-					name = estate_peasants_guaranteed_autonomy_mod
-					duration = -1
-				}
-			}
-		}
 	}
 	on_revoked = {
 		custom_tooltip = estate_peasants_guaranteed_autonomy_revoke_effect_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = estate_peasants_guaranteed_autonomy_mod
-				}
-				remove_province_modifier = estate_peasants_guaranteed_autonomy_mod
-			}
-		}
 	}
 	on_invalid = {
 		custom_tooltip = estate_peasants_guaranteed_autonomy_revoke_effect_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = estate_peasants_guaranteed_autonomy_mod
-				}
-				remove_province_modifier = estate_peasants_guaranteed_autonomy_mod
-			}
-		}
 	}
 	penalties = {
+		global_missionary_strength = -1
 	}
 	benefits = {
 	}
@@ -183,7 +160,7 @@ estate_peasants_meritocratic_promotion = {
 	land_share = 0
 	loyalty = 0.1
 	influence = 0.1
-    
+
 	penalties = {
 		clergy_loyalty_modifier = -0.05
         traders_loyalty_modifier = -0.05
@@ -199,13 +176,13 @@ estate_peasants_meritocratic_promotion = {
 
 estate_peasants_manpower = {
 	icon = privilege_salvage_yard
-    
+
     # Costs
     max_absolutism = -5
 	land_share = 0
 	loyalty = -0.05
 	influence = 0.1
-    
+
 	is_valid = {
 
 	}
@@ -255,13 +232,13 @@ estate_peasants_manpower = {
 
 estate_peasants_religious_tolerance = {
 	icon = privilege_scroll
-    
+
     # Costs
     max_absolutism = -5
 	land_share = 0
 	loyalty = 0.05
 	influence = 0.1
-    
+
 	is_valid = {
 		any_owned_province = {
 			NOT = { religion = root }
