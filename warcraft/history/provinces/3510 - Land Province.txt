@@ -9,9 +9,16 @@ base_production = 4
 base_manpower = 1
 
 culture = primitive
-religion = shamanism
+religion = cult_of_the_damned
 
 trade_goods = unknown
 hre = no
 
-
+# Scourge invasion of Quel Thalas
+595.1.1 = {
+owner = LOR
+controller = LOR
+add_core = LOR
+religion = cult_of_the_damned
+set_revolution_in_province = yes
+}

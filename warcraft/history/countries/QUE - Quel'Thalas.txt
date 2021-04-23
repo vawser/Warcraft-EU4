@@ -24,7 +24,7 @@ capital = 4164
 	}
 	clear_scripted_personalities = yes
     add_ruler_personality = spellcaster_personality
-    
+
     set_variable = {
         which = ruler_magic_aptitude
         value = 20
@@ -37,7 +37,7 @@ capital = 4164
         which = ruler_magic_concentration
         value = 20
     }
-    
+
 	heir = {
 		name = "Kael'Thas"
 		monarch_name = "Kael'Thas"
@@ -49,44 +49,44 @@ capital = 4164
 		dip = 2
 		mil = 4
 	}
-	
+
 	leader = {
 		name = "Aristan Windrunner"
 		type = general
-		
+
 		fire = 4
 		shock = 3
 		manuever = 2
 		siege = 4
 		death_date = 816.1.1
 	}
-    
+
     leader = {
 		name = "Sylvanas Windrunner"
 		type = general
-		
+
 		fire = 4
 		shock = 5
 		manuever = 5
 		siege = 3
 		death_date = 906.1.1
 	}
-	
+
 	leader = {
 		name = "Lor'Themar Theron"
 		type = general
-		
+
 		fire = 2
 		shock = 3
 		manuever = 3
 		siege = 5
 		death_date = 906.1.1
 	}
-	
+
 	leader = {
 		name = "Halduron Brightwing"
 		type = general
-		
+
 		fire = 4
 		shock = 3
 		manuever = 3
@@ -95,3 +95,7 @@ capital = 4164
 	}
 }
 
+# Battle of Mount Hyjal
+595.1.1 = {
+    technology_group = tech_blood_elf
+}
