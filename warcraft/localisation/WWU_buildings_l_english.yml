@@ -4,22 +4,25 @@
  #-----------------------------------------------
  # Generic
  building_wow_farm: "Farm"
+ building_wow_farm_desc: "A building that makes developing this province cheaper."
  building_wow_internment_camp: "Internment Camp"
  building_wow_temple: "Temple"
+ building_wow_temple_desc: "A building that makes taxe income of this province bigger."
  building_wow_mine: "Mine"
+ building_wow_mine_desc: "A building that makes production income of this province bigger."
  building_wow_barracks: "Barracks"
  building_wow_arsenal: "Arsenal"
  building_wow_shipyard: "Shipyard"
  building_wow_dockyard: "Dockyard"
  building_wow_marketplace: "Marketplace"
  building_wow_tavern: "Tavern"
- 
+
  # Fortification
  building_wow_fort_1: "Outpost"
  building_wow_fort_2: "Keep"
  building_wow_fort_3: "Castle"
  building_wow_fort_4: "Bastion"
- 
+
  # Portals
  building_wow_portal_red: "Red Portal"
  building_wow_portal_red_desc: "A magical portal which lets troops be teleported between. Each color of portal can be built two different provinces for each nation. Once built, these portals can be used for teleporting troops between provinces with same portal color, in decision screen."
@@ -29,14 +32,17 @@
  building_wow_portal_yellow_desc: "A magical portal which lets troops be teleported between. Each color of portal can be built two different provinces for each nation. Once built, these portals can be used for teleporting troops between provinces with same portal color, in decision screen."
  building_wow_portal_green: "Green Portal"
  building_wow_portal_green_desc: "A magical portal which lets troops be teleported between. Each color of portal can be built two different provinces for each nation. Once built, these portals can be used for teleporting troops between provinces with same portal color, in decision screen."
- 
+
  # Manufactories
  building_wow_manufactory: "Manufactory"
  building_wow_citadel: "Citadel"
+ building_wow_citadel_desc: "Manufacture that can be used as a fort alternative."
  building_wow_garrison: "Garrison"
+ building_wow_citadel_desc: "Manufacture for increasing government capacity size."
  building_wow_arcane_tower: "Arcane Tower"
+ building_wow_arcane_tower_desc: "Manufacture for artifacts that improves global trade goods produced."
  building_wow_city_barracks: "City Barracks"
- 
+
  #-----------------------------------------------
  # Provincial Efforts
  #-----------------------------------------------
