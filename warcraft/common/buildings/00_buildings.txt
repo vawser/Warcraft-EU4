@@ -80,6 +80,18 @@ wow_mine = {
 
 	ai_will_do = {
 		factor = 100
+		modifier = {
+			factor = 2
+			base_production = 5
+		}
+		modifier = {
+			factor = 2
+			base_production = 7
+		}
+		modifier = {
+			factor = 2
+			base_production = 10
+		}
 	}
 }
 wow_barracks = {
@@ -91,7 +103,7 @@ wow_barracks = {
 	}
 
 	ai_will_do = {
-		factor = 100
+		factor = 50
 	}
 }
 wow_arsenal = {
@@ -107,7 +119,7 @@ wow_arsenal = {
 		factor = 50
 
 		modifier = {
-			factor = 0
+			factor = 0.5
 			owner = { land_forcelimit = 100 }
 		}
         modifier = {
@@ -130,7 +142,7 @@ wow_shipyard = {
 	}
 
 	ai_will_do = {
-		factor = 100
+		factor = 50
 	}
 }
 wow_dockyard = {
@@ -147,7 +159,7 @@ wow_dockyard = {
 	}
 
 	ai_will_do = {
-		factor = 100
+		factor = 50
 	}
 }
 wow_marketplace = {
@@ -160,6 +172,18 @@ wow_marketplace = {
 
 	ai_will_do = {
 		factor = 100
+		modifier = {
+			factor = 2
+			province_trade_power = 10
+		}
+		modifier = {
+			factor = 2
+			province_trade_power = 15
+		}
+		modifier = {
+			factor = 2
+			province_trade_power = 25
+		}
 	}
 }
 wow_tavern = {
@@ -208,6 +232,18 @@ wow_fort_1 = {
 			any_neighbor_province = {
 				NOT = { owned_by = ROOT }
 			}
+		}
+		modifier = {
+			factor = 3.0
+            has_terrain = mountain
+		}
+		modifier = {
+			factor = 1.5
+            has_terrain = hills
+		}
+		modifier = {
+			factor = 1.5
+            has_terrain = jungle
 		}
 		modifier = {
 			factor = 0.1
@@ -274,6 +310,18 @@ wow_fort_2 = {
 				}
 			}
 		}
+		modifier = {
+			factor = 3.0
+            has_terrain = mountain
+		}
+		modifier = {
+			factor = 1.5
+            has_terrain = hills
+		}
+		modifier = {
+			factor = 1.5
+            has_terrain = jungle
+		}
 	}
 }
 
@@ -323,6 +371,18 @@ wow_fort_3 = {
 				}
 			}
 		}
+		modifier = {
+			factor = 3.0
+            has_terrain = mountain
+		}
+		modifier = {
+			factor = 1.5
+            has_terrain = hills
+		}
+		modifier = {
+			factor = 1.5
+            has_terrain = jungle
+		}
 	}
 }
 
@@ -371,6 +431,18 @@ wow_fort_4 = {
 					has_building = wow_fort_4
 				}
 			}
+		}
+		modifier = {
+			factor = 3.0
+            has_terrain = mountain
+		}
+		modifier = {
+			factor = 1.5
+            has_terrain = hills
+		}
+		modifier = {
+			factor = 1.5
+            has_terrain = jungle
 		}
 	}
 }
@@ -478,6 +550,10 @@ wow_manufactory = {
 			NOT = { num_free_building_slots = 3 }
 			factor = 1.5
 		}
+		modifier = {
+			factor = 5
+			trade_goods = wwu_oil
+		}
 	}
 }
 
@@ -519,7 +595,7 @@ wow_city_barracks = {
 	}
 
 	modifier = {
-		local_manpower = 1.0
+		local_manpower = 1.5
 	}
 
 	show_separate = yes
@@ -566,6 +642,7 @@ wow_garrison = {
 	modifier = {
 		statewide_governing_cost = -0.5
 		min_local_autonomy = -5
+		governing_capacity = 25
 	}
 
 	show_separate = yes
