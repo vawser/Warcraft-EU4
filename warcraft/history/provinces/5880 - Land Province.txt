@@ -5,8 +5,8 @@ controller = GVF
 add_core = GVF
 
 base_tax = 1
-base_production = 3
-base_manpower = 3
+base_production = 2
+base_manpower = 2
 
 culture = gravelflint
 religion = geomancy

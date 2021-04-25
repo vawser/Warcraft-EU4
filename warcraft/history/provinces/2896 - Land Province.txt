@@ -13,6 +13,7 @@ religion = voodoo
 
 trade_goods = unknown
 hre = no
+center_of_trade = 1
 
 # The Scourge
 594.1.1 = {
@@ -20,10 +21,7 @@ hre = no
     owner = MSO
     controller = MSO
     add_core = MSO
-    
+
     culture = moshogg
     religion = geomancy
 }
-
-
-

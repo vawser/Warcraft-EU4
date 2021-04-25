@@ -5,8 +5,8 @@ controller = SKA
 add_core = SKA
 
 base_tax = 1
-base_production = 2
-base_manpower = 3
+base_production = 1
+base_manpower = 2
 
 culture = skadir
 religion = runic

@@ -27,7 +27,9 @@
  node_azeroth: "Azeroth"
  node_lordaeron: "Lordaeron"
  node_dun_morogh: "Dun Morogh"
- 
+ node_westfall: "Westfall"
+ node_duskwood: "Duskwood"
+
  node_teldrassil: "Teldrassil"
  node_bloodmyst_isle: "Bloodmyst Isle"
  node_azuremyst_isle: "Azuremyst Isle"
@@ -50,7 +52,9 @@
  node_uldum: "Uldum"
  node_durotar: "Durotar"
  node_silithus: "Silithus"
- 
+ node_ghostlands: "Ghostlands"
+
+
  node_borean_tundra: "Borean Tundra"
  node_wintergrasp: "Wintergrasp"
  node_dragonblight: "Dragonblight"
@@ -61,7 +65,7 @@
  node_crystalsong: "Crystalsong"
  node_icecrown: "Icecrown"
  node_howling_fjord: "Howling Fjord"
- 
+
  node_jade_forest: "Jade Forest"
  node_valley_of_the_four_winds: "Valley of the Four Winds"
  node_krasarang_wilds: "Krasarang Wilds"
@@ -69,9 +73,9 @@
  node_townlong_steppes: "Townlong Steppes"
  node_kunlai_summit: "Kunlai Summit"
  node_vale_of_eternal_blossom: "Vale of Eternal Blossom"
- 
+
  node_broken_isles: "Broken Isles"
- 
+
  node_farahlon: "Farahlon"
  node_frostfire_ridge: "Frostfire Ridge"
  node_gorgrond: "Gorgrond"

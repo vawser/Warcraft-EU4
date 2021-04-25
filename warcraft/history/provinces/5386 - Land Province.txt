@@ -4,9 +4,9 @@ owner = SLB
 controller = SLB
 add_core = SLB
 
-base_tax = 4
+base_tax = 3
 base_production = 1
-base_manpower = 3
+base_manpower = 2
 
 culture = slitherblade
 religion = azshara

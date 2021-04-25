@@ -6,7 +6,7 @@ add_core = WDP
 
 base_tax = 1
 base_production = 1
-base_manpower = 2
+base_manpower = 1
 
 culture = wildspawn
 religion = fel

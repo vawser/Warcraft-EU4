@@ -7,12 +7,12 @@
 #---------------------------------
 wwu_food = {
 	color = { 0.168 0.698 0.141 }
-    
+
 	modifier = {
 		development_cost = -0.1
 	}
     province = {
-		local_development_cost = -0.1 
+		local_manpower_modifier = 0.25
 	}
 	chance = {
 		factor = 100
@@ -24,16 +24,17 @@ wwu_food = {
 #---------------------------------
 wwu_textiles = {
 	color = { 0.290 0.882 0.890 }
-    
+
 	modifier = {
-		prestige = 1
+		stability_cost_modifier = -0.25
+
 	}
     province = {
-		local_production_efficiency = 0.25
+		local_development_cost = -0.1
 	}
 	chance = {
 		factor = 100
-		
+
         modifier = {
 			factor = 0.5
 			OR = {
@@ -78,14 +79,14 @@ wwu_textiles = {
 wwu_jewelry = {
 	color = { 0.250 0.419 0.831 }
 	modifier = {
-		stability_cost_modifier = -0.25
+		prestige = 1
 	}
     province = {
 		local_tax_modifier = 0.25
 	}
 	chance = {
 		factor = 25
-        
+
         modifier = {
 			factor = 2
 			OR = {
@@ -108,11 +109,11 @@ wwu_metals = {
 		army_tradition = 1
 	}
     province = {
-		local_manpower_modifier = 0.25
+		local_production_efficiency = 0.25
 	}
 	chance = {
 		factor = 50
-        
+
 		modifier = {
 			factor = 2
 			OR = {
@@ -145,13 +146,13 @@ wwu_metals = {
 #---------------------------------
 wwu_gold = {
 	color = { 1.0 0.84 0.19 }
-    
+
 	chance = {
 		factor = 5
-        
+
         modifier = {
 			factor = 2
-            
+
 			continent = northrend
 		}
 	}
@@ -170,20 +171,20 @@ wwu_slaves = {
 	}
 	chance = {
 		factor = 25
-        
+
         modifier = {
 			factor = 2
-            
+
 			is_savage = yes
 		}
         modifier = {
 			factor = 0.25
-            
+
 			is_civilized = yes
 		}
         modifier = {
 			factor = 0.25
-            
+
 			has_port = no
 		}
 	}
@@ -202,20 +203,20 @@ wwu_oil = {
 	}
 	chance = {
 		factor = 25
-        
+
         modifier = {
 			factor = 0.25
-            
+
 			is_savage = yes
 		}
         modifier = {
 			factor = 2
-            
+
 			is_civilized = yes
 		}
         modifier = {
 			factor = 0.0
-            
+
 			has_port = no
 		}
 	}
@@ -235,7 +236,7 @@ wwu_lumber = {
 	}
 	chance = {
 		factor = 10
-        
+
 		modifier = {
 			factor = 10
 			OR = {
@@ -252,7 +253,7 @@ wwu_lumber = {
 #---------------------------------
 wwu_artifacts = {
 	color = { 0.427 0.078 0.623 }
-    
+
 	modifier = {
 		technology_cost = -0.1
 	}
@@ -261,10 +262,10 @@ wwu_artifacts = {
 	}
 	chance = {
 		factor = 5
-        
+
         modifier = {
 			factor = 2
-            
+
 			OR = {
                 continent = northrend
                 continent = northern_kalimdor
@@ -273,7 +274,7 @@ wwu_artifacts = {
 		}
         modifier = {
 			factor = 4
-            
+
 			continent = southern_kalimdor
 		}
 	}

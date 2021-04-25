@@ -5,8 +5,8 @@ controller = SDS
 add_core = SDS
 
 base_tax = 1
-base_production = 2
-base_manpower = 2
+base_production = 1
+base_manpower = 1
 
 culture = sentinels_of_auberdine
 religion = elune

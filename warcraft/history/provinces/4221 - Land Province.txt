@@ -22,3 +22,10 @@ hre = no
 }
 
 
+
+# Scourge invasion of Quel Thalas
+595.1.1 = {
+owner = LOR
+controller = LOR
+add_core = LOR
+}

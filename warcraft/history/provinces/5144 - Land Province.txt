@@ -4,9 +4,9 @@ owner = SMW
 controller = SMW
 add_core = SMW
 
-base_tax = 4
+base_tax = 3
 base_production = 1
-base_manpower = 3
+base_manpower = 2
 
 culture = steamwheedle_cartel
 religion = avarice

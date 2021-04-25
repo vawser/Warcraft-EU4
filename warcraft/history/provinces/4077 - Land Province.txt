@@ -1,7 +1,8 @@
 
 is_city = yes
-owner = QUE
-controller = QUE
+owner = EVM
+controller = EVM
+add_core = EVM
 add_core = QUE
 
 base_tax = 2
@@ -14,4 +15,9 @@ religion = arcane
 trade_goods = unknown
 hre = no
 
-
+# Scourge invasion of Quel Thalas
+595.1.1 = {
+owner = LOR
+controller = LOR
+add_core = LOR
+}

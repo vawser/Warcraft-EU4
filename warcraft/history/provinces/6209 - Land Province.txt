@@ -4,9 +4,9 @@ owner = RIP
 controller = RIP
 add_core = RIP
 
-base_tax = 3
-base_production = 4
-base_manpower = 3
+base_tax = 2
+base_production = 3
+base_manpower = 2
 
 culture = riplash
 religion = azshara

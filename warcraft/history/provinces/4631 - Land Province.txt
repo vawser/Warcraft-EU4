@@ -4,7 +4,7 @@ owner = KGH
 controller = KGH
 add_core = KGH
 
-base_tax = 2
+base_tax = 1
 base_production = 1
 base_manpower = 1
 

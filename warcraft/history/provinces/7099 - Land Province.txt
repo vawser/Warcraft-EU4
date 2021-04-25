@@ -4,9 +4,9 @@ owner = EDS
 controller = EDS
 add_core = EDS
 
-base_tax = 4
-base_production = 4
-base_manpower = 2
+base_tax = 3
+base_production = 3
+base_manpower = 1
 
 culture = green_dragonflight
 religion = dragon_aspects

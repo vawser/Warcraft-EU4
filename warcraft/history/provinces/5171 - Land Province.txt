@@ -4,9 +4,9 @@ owner = YOU
 controller = YOU
 add_core = YOU
 
-base_tax = 3
+base_tax = 2
 base_production = 1
-base_manpower = 3
+base_manpower = 2
 
 culture = younghoof
 religion = earth_mother

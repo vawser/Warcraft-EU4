@@ -5,8 +5,8 @@ controller = NEF
 add_core = NEF
 
 base_tax = 1
-base_production = 4
-base_manpower = 4
+base_production = 3
+base_manpower = 3
 
 culture = neferset
 religion = titan_worship

@@ -14,17 +14,17 @@ country_decisions = {
                 name = fel_conduits
                 duration = 3650
             }
-        }		
+        }
         ai_will_do = {
             factor = 1
-            
+
             modifier = {
                 factor = 0
                 religious_unity = 1.0
             }
         }
     }
-    
+
     enact_blood_sacrifice = {
         potential = {
             religion = hakkari
@@ -40,17 +40,17 @@ country_decisions = {
                 name = blood_sacrifice_hakkari
                 duration = 3650
             }
-        }		
+        }
         ai_will_do = {
             factor = 1
-            
+
             modifier = {
                 factor = 0
                 religious_unity = 1.0
             }
         }
     }
-    
+
     encourage_fervor = {
         potential = {
             religion_group = light_group
@@ -67,17 +67,17 @@ country_decisions = {
                 name = the_light_fervor
                 duration = 3650
             }
-        }		
+        }
         ai_will_do = {
             factor = 1
-            
+
             modifier = {
                 factor = 0
                 religious_unity = 1.0
             }
         }
     }
-    
+
     enforce_daily_contemplation = {
         potential = {
             religion_group = light_group
@@ -94,17 +94,17 @@ country_decisions = {
                 name = the_light_contemplation
                 duration = 3650
             }
-        }		
+        }
         ai_will_do = {
             factor = 1
-            
+
             modifier = {
                 factor = 0
                 religious_unity = 1.0
             }
         }
     }
-    
+
     display_the_power_of_the_sunwell = {
         potential = {
             culture_group = high_elf_group
@@ -113,7 +113,7 @@ country_decisions = {
         allow = {
             adm_power = 100
             custom_trigger_tooltip = {
-                tooltip = SUNWELL_NOT_DESTROTED
+                tooltip = SUNWELL_NOT_DESTROYED
                 NOT = { has_global_flag = sunwell_destroyed }
             }
         }
@@ -123,17 +123,17 @@ country_decisions = {
                 name = the_light_sunwell
                 duration = 3650
             }
-        }		
+        }
         ai_will_do = {
             factor = 1
-            
+
             modifier = {
                 factor = 0
                 religious_unity = 1.0
             }
         }
     }
-    
+
     construct_void_portals = {
         potential = {
             religion_group = shadow_group
@@ -149,17 +149,17 @@ country_decisions = {
                 name = void_portals
                 duration = 3650
             }
-        }		
+        }
         ai_will_do = {
             factor = 1
-            
+
             modifier = {
                 factor = 0
                 religious_unity = 1.0
             }
         }
     }
-    
+
     publish_titan_histories = {
         potential = {
             religion = titan_worship
@@ -175,17 +175,17 @@ country_decisions = {
                 name = titan_histories
                 duration = 3650
             }
-        }		
+        }
         ai_will_do = {
             factor = 1
-            
+
             modifier = {
                 factor = 0
                 religious_unity = 1.0
             }
         }
     }
-    
+
     encourage_communion_with_nature = {
         potential = {
             religion_group = life_group
@@ -202,17 +202,17 @@ country_decisions = {
                 name = nature_communion
                 duration = 3650
             }
-        }		
+        }
         ai_will_do = {
             factor = 1
-            
+
             modifier = {
                 factor = 0
                 religious_unity = 1.0
             }
         }
     }
-    
+
     corrupt_the_unwilling = {
         potential = {
             is_old_god_religion = yes
@@ -228,17 +228,17 @@ country_decisions = {
                 name = old_god_corruption
                 duration = 3650
             }
-        }		
+        }
         ai_will_do = {
             factor = 1
-            
+
             modifier = {
                 factor = 0
                 religious_unity = 1.0
             }
         }
     }
-    
+
     encourage_religious_introspection = {
         potential = {
             religion = celestials
@@ -254,17 +254,17 @@ country_decisions = {
                 name = religious_introspection
                 duration = 3650
             }
-        }		
+        }
         ai_will_do = {
             factor = 1
-            
+
             modifier = {
                 factor = 0
                 religious_unity = 1.0
             }
         }
     }
-    
+
     purge_the_unfaithful = {
         potential = {
             religion_group = elemental_group
@@ -281,17 +281,17 @@ country_decisions = {
                 name = religious_purge
                 duration = 3650
             }
-        }		
+        }
         ai_will_do = {
             factor = 1
-            
+
             modifier = {
                 factor = 0
                 religious_unity = 1.0
             }
         }
     }
-    
+
     infest_the_masses = {
         potential = {
             religion = cult_of_the_damned
@@ -307,17 +307,17 @@ country_decisions = {
                 name = mass_infestation
                 duration = 3650
             }
-        }		
+        }
         ai_will_do = {
             factor = 1
-            
+
             modifier = {
                 factor = 0
                 religious_unity = 1.0
             }
         }
     }
-    
+
     encourage_spore_growth = {
         potential = {
             religion = sporemounds
@@ -333,17 +333,17 @@ country_decisions = {
                 name = primal_infestation
                 duration = 3650
             }
-        }		
+        }
         ai_will_do = {
             factor = 1
-            
+
             modifier = {
                 factor = 0
                 religious_unity = 1.0
             }
         }
     }
-    
+
     garner_rukhmars_grace = {
         potential = {
             religion = grace_of_rukhmar
@@ -359,15 +359,15 @@ country_decisions = {
                 name = shine_of_rukhmar
                 duration = 3650
             }
-        }		
+        }
         ai_will_do = {
             factor = 1
-            
+
             modifier = {
                 factor = 0
                 religious_unity = 1.0
             }
         }
     }
-   
+
 }

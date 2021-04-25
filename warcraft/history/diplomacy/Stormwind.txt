@@ -1,22 +1,21 @@
 #--------------------
 # The Orcish Horde
 #--------------------
-vassal = {
-	first = SRW
-	second = RED
-	start_date = 590.1.1
-	end_date = 1000.1.1
-}
-vassal = {
-	first = SRW
-	second = WES
-	start_date = 590.1.1
-	end_date = 1000.1.1
-}
-vassal = {
-	first = SRW
-	second = BRI
-	start_date = 590.1.1
-	end_date = 1000.1.1
-}
-
+#vassal = {
+#	first = SRW
+#	second = RED
+#	start_date = 590.1.1
+#	end_date = 1000.1.1
+#}
+#vassal = {
+#	first = SRW
+#	second = WES
+#	start_date = 590.1.1
+#	end_date = 1000.1.1
+#}
+#vassal = {
+#	first = SRW
+#	second = BRI
+#	start_date = 590.1.1
+#	end_date = 1000.1.1
+#}

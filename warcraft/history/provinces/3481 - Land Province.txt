@@ -15,3 +15,10 @@ trade_goods = unknown
 hre = no
 
 
+
+# Syndicate append
+595.1.1 = {
+    owner = SYD
+    controller = SYD
+    add_core = SYD
+}

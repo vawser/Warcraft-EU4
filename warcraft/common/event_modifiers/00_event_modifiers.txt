@@ -10852,7 +10852,7 @@ held_protestant_council = {
 	tolerance_own = 1
 	diplomatic_reputation = 1
 }
-	
+
 bastion_of_the_church = {
 	local_religious_conversion_resistance = 0.75
 }
@@ -11117,4 +11117,24 @@ protected_markets_modifier = {
 medici_pope_modifier = {
 	diplomatic_reputation = 1
 	papal_influence = 2
+}
+
+corrupt_state_5 = {
+	min_autonomy = 50
+}
+
+corrupt_state_4 = {
+	min_autonomy = 40
+}
+
+corrupt_state_3 = {
+	min_autonomy = 30
+}
+
+corrupt_state_2 = {
+	min_autonomy = 20
+}
+
+corrupt_state_1 = {
+	min_autonomy = 10
 }

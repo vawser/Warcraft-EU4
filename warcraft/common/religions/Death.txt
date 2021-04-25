@@ -4,18 +4,18 @@
 death_group = {
     defender_of_faith = no
 	can_form_personal_unions = no
-	
+
 	flags_with_emblem_percentage = 85
 	flag_emblem_index_range = { 1 120 }
-    
+
     crusade_name = CRUSADE
 
     harmonized_modifier = harmonized_death
-    
+
     cult_of_the_damned = {
 		color = { 81 109 71 }
 		icon = 12
-		
+
 		country = {
 			global_manpower_modifier = 0.3
             reinforce_speed = 0.33
@@ -34,9 +34,9 @@ death_group = {
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
-			}			
+			}
 		}
-        
+
 		uses_church_power = yes
 		aspects = {
 			unrelenting_conversion
@@ -51,11 +51,11 @@ death_group = {
 		}
         aspects_name = UNDEAD_ASPECTS
 	}
-    
+
     necromancy = {
 		color = { 121 109 71 }
 		icon = 12
-		
+
 		country = {
 			global_manpower_modifier = 0.2
             reinforce_speed = 0.2
@@ -71,7 +71,7 @@ death_group = {
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
-			}			
+			}
 		}
 
 		uses_church_power = yes
@@ -88,7 +88,7 @@ death_group = {
 		}
         aspects_name = UNDEAD_ASPECTS
 	}
-    
+
     voodoo = {
         color = { 0.25 0.15 0.25 }
 		icon = 4
@@ -100,13 +100,13 @@ death_group = {
         country_as_secondary = {
 			war_exhaustion = -0.025
 		}
-        
+
 		province = {
 			local_missionary_strength = -0.01
 		}
 
         personal_deity = yes
-        
+
 		on_convert = {
 			change_religion = voodoo
 			add_prestige = -100
@@ -114,14 +114,14 @@ death_group = {
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
-			}			
+			}
 		}
     }
-    
+
     hakkari = {
-        color = { 33 230 215 }
+        color = { 199 0 0 }
 		icon = 3
-		
+
 		country = {
 			global_regiment_cost = -0.4
             global_regiment_recruit_speed = -0.2
@@ -132,7 +132,7 @@ death_group = {
 		province = {
 			local_missionary_strength = -0.03
 		}
-        
+
         uses_anglican_power = yes
 		aspects = {
 			hakkari_conduct_blood_rituals_aspect
@@ -143,7 +143,7 @@ death_group = {
             hakkari_consume_blood_aspect
 		}
 		aspects_name = BLOOD_ASPECTS
-        
+
 		on_convert = {
 			change_religion = hakkari
 			add_prestige = -100
@@ -151,14 +151,14 @@ death_group = {
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
-			}			
+			}
 		}
     }
-    
+
     bloodmancy = {
-        color = { 133 130 215 }
+        color = { 248 0 0 }
 		icon = 3
-		
+
 		country = {
 			manpower_in_true_faith_provinces = 1.0
 		}
@@ -168,7 +168,7 @@ death_group = {
 		province = {
 			local_missionary_strength = -0.03
 		}
-        
+
         uses_anglican_power = yes
 		aspects = {
 			bloodmancy_conduct_blood_rituals_aspect
@@ -179,7 +179,7 @@ death_group = {
             bloodmancy_consume_blood_aspect
 		}
 		aspects_name = BLOOD_ASPECTS
-        
+
 		on_convert = {
 			change_religion = bloodmancy
 			add_prestige = -100
@@ -187,8 +187,7 @@ death_group = {
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
-			}			
+			}
 		}
     }
 }
-
